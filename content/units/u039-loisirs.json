@@ -1,0 +1,123 @@
+{
+  "id": "u039",
+  "order": 39,
+  "level": "intermediaire",
+  "theme": "loisirs",
+  "title": {"fr": "Les loisirs", "en": "Free time", "km": "ការកម្សាន្ត"},
+  "tip": {
+    "fr": "Le mot លេង (léng), « jouer », sert pour presque tous les loisirs : លេងកីឡា, faire du sport ; លេងភ្លេង, jouer de la musique ; ទៅលេង, aller se divertir ou rendre visite. Le karaoké et la danse en cercle, រាំវង់ (roam-vong), sont au cœur des fêtes.",
+    "km": "ភាសាបារាំងប្រើ « jouer à » សម្រាប់កីឡា និងល្បែង (jouer au football) ប៉ុន្តែ « jouer de » សម្រាប់ឧបករណ៍ភ្លេង (jouer de la guitare)។ អង់គ្លេស៖ « play football », « play the guitar »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "la musique", "en": "music", "km": "តន្ត្រី", "tr": "tân-trey", "pos": "nom",
+      "note": {
+        "fr": "តន្ត្រី est le mot général. À l'oral, on dit souvent ភ្លេង (phléng) : ស្តាប់ភ្លេង, écouter de la musique.",
+        "km": "« musique » ជានាមភេទស្រី៖ la musique។ « écouter de la musique » មានន័យថា ស្តាប់តន្ត្រី។ អង់គ្លេស៖ « music »។"
+      },
+      "example": {"fr": "J'écoute de la musique khmère.", "en": "I listen to Khmer music.", "km": "ខ្ញុំស្តាប់តន្ត្រីខ្មែរ។", "tr": "khgnom sdap tân-trey khmaè."}
+    },
+    {
+      "fr": "chanter", "en": "to sing", "km": "ច្រៀង", "tr": "tchrieng", "pos": "verbe",
+      "note": {
+        "fr": "Une chanson se dit ចម្រៀង (tchâm-rieng), formé sur le même mot. Le chanteur est អ្នកចម្រៀង.",
+        "km": "« chanter »៖ je chante, tu chantes។ « une chanson » មានន័យថា ចម្រៀង។ អង់គ្លេស៖ « to sing », « song »។"
+      },
+      "example": {"fr": "Elle chante très bien.", "en": "She sings very well.", "km": "គាត់ច្រៀងពីរោះណាស់។", "tr": "koat tchrieng pi-rouh nah."}
+    },
+    {
+      "fr": "danser", "en": "to dance", "km": "រាំ", "tr": "roam", "pos": "verbe",
+      "note": {
+        "fr": "រាំ s'emploie pour toutes les danses. La danse classique khmère, celle des apsaras, se dit របាំ (ro-bam).",
+        "km": "« danser »៖ je danse, nous dansons។ « la danse » មានន័យថា របាំ។ អង់គ្លេស៖ « to dance »។"
+      },
+      "example": {"fr": "Aux mariages, tout le monde danse.", "en": "At weddings, everyone dances.", "km": "នៅពិធីមង្គលការ គ្រប់គ្នារាំ។", "tr": "neuv pi-thi mong-kol-ka, kroup knéa roam."}
+    },
+    {
+      "fr": "lire", "en": "to read", "km": "អាន", "tr": "an", "pos": "verbe",
+      "note": {
+        "fr": "អាន sert pour lire un livre, et aussi pour réciter à voix haute. Un livre se dit សៀវភៅ (siev-phov).",
+        "km": "« lire »៖ je lis, tu lis, il lit។ « un livre » មានន័យថា សៀវភៅ។ អង់គ្លេស៖ « to read », « book »។"
+      },
+      "example": {"fr": "Le soir, j'aime lire avant de dormir.", "en": "In the evening, I like to read before sleeping.", "km": "ពេលយប់ ខ្ញុំចូលចិត្តអានសៀវភៅមុនគេង។", "tr": "pél youp, khgnom tchôl tchet an siev-phov moun kéng."}
+    },
+    {
+      "fr": "le film", "en": "film", "km": "ភាពយន្ត", "tr": "phéap-yun", "pos": "nom",
+      "note": {
+        "fr": "ភាពយន្ត est le mot écrit. À l'oral, on dit កុន (kon) : មើលកុន, voir un film ; រោងកុន, le cinéma.",
+        "km": "« film » ជានាមភេទប្រុស៖ le film។ « le cinéma » មានន័យថា រោងកុន។ អង់គ្លេស៖ « film » ឬ « movie »។"
+      },
+      "example": {"fr": "Ce film khmer est très bon.", "en": "This Khmer film is very good.", "km": "ភាពយន្តខ្មែរនេះល្អណាស់។", "tr": "phéap-yun khmaè nih l'â nah."}
+    },
+    {
+      "fr": "le sport", "en": "sport", "km": "កីឡា", "tr": "key-la", "pos": "nom",
+      "note": {
+        "fr": "Pour « faire du sport », on dit លេងកីឡា (léng key-la) ou, pour l'exercice physique, ហាត់ប្រាណ (hat pran).",
+        "km": "« sport » ជានាមភេទប្រុស៖ le sport។ « faire du sport » មានន័យថា លេងកីឡា។ អង់គ្លេស៖ « to play sports », « to exercise »។"
+      },
+      "example": {"fr": "Je fais du sport trois fois par semaine.", "en": "I exercise three times a week.", "km": "ខ្ញុំលេងកីឡាមួយសប្តាហ៍បីដង។", "tr": "khgnom léng key-la mouy sap-da bey dâng."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?", "km": "ចុងសប្តាហ៍ធ្វើអ្វីខ្លះ?", "tr": "tchong sap-da thveu ey khlah ?",
+      "note": {
+        "fr": "ចុងសប្តាហ៍, « le bout de la semaine ». ខ្លះ en fin de question demande plusieurs réponses.",
+        "km": "« le week-end » ជាពាក្យខ្ចីពីអង់គ្លេស មានន័យថា ចុងសប្តាហ៍។ អង់គ្លេស៖ « at the weekend »។"
+      }
+    },
+    {
+      "fr": "J'adore ça !", "en": "I love it!", "km": "ខ្ញុំចូលចិត្តណាស់!", "tr": "khgnom tchôl tchet nah !",
+      "note": {
+        "fr": "Le khmer renforce simplement le verbe avec ណាស់, « très ».",
+        "km": "« adorer » ខ្លាំងជាង « aimer »។ « ça » មានន័យថា វា ឬរឿងនេះ។ អង់គ្លេស៖ « I love it! »។"
+      }
+    },
+    {
+      "fr": "Je n'aime pas trop ça.", "en": "I'm not really into it.", "km": "ខ្ញុំមិនសូវចូលចិត្តទេ។", "tr": "khgnom min seuv tchôl tchet té.",
+      "note": {
+        "fr": "មិនសូវ (min seuv), « pas tellement ». Façon polie de dire non, sans vexer.",
+        "km": "« pas trop » ធ្វើឱ្យប្រយោគទន់ និងគួរសម។ អង់គ្លេស៖ « not really »។"
+      }
+    },
+    {
+      "fr": "On va au cinéma ?", "en": "Shall we go to the cinema?", "km": "ទៅមើលកុនទេ?", "tr": "teuv meul kon té ?",
+      "note": {
+        "fr": "Mot à mot « aller regarder un film ? ». On ne mentionne pas le lieu.",
+        "km": "« aller au cinéma » មានន័យថា ទៅមើលកុន។ « au » = « à + le »។ អង់គ្លេស៖ « go to the cinema » ឬ « go to the movies »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À un mariage", "km": "នៅពិធីមង្គលការ"},
+      "fr": "Aux mariages khmers, tout le monde danse ensemble en cercle.", "en": "At Khmer weddings, everyone dances together in a circle.",
+      "km": "នៅពិធីមង្គលការខ្មែរ គេរាំវង់ជាមួយគ្នាទាំងអស់។", "tr": "neuv pi-thi mong-kol-ka khmaè, ké roam-vong tchéa-mouy knéa téang âh."
+    },
+    {
+      "situation": {"fr": "Au bord du fleuve", "km": "នៅមាត់ទន្លេ"},
+      "fr": "Le matin, beaucoup de gens font du sport au bord du fleuve.", "en": "In the morning, many people exercise by the river.",
+      "km": "ពេលព្រឹក មនុស្សច្រើនហាត់ប្រាណនៅមាត់ទន្លេ។", "tr": "pél preuk, mo-nouh tchraeun hat pran neuv moat tonlé."
+    },
+    {
+      "situation": {"fr": "Un soir tranquille", "km": "ល្ងាចស្ងាត់មួយ"},
+      "fr": "Ce soir, je reste à la maison pour lire et écouter de la musique.", "en": "Tonight, I'm staying home to read and listen to music.",
+      "km": "យប់នេះ ខ្ញុំនៅផ្ទះ អានសៀវភៅ និងស្តាប់តន្ត្រី។", "tr": "youp nih, khgnom neuv phtéah, an siev-phov neung sdap tân-trey."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Un vendredi soir.", "en": "One Friday evening.", "km": "ល្ងាចថ្ងៃសុក្រមួយ។"},
+    "lines": [
+      {"speaker": "B", "fr": "Qu'est-ce qu'on fait ce week-end ?", "en": "What shall we do this weekend?", "km": "ចុងសប្តាហ៍នេះ យើងធ្វើអ្វី?", "tr": "tchong sap-da nih, yeung thveu ey ?"},
+      {"speaker": "A", "fr": "On va au cinéma ? Il y a un nouveau film khmer.", "en": "Shall we go to the cinema? There is a new Khmer film.", "km": "ទៅមើលកុនទេ? មានភាពយន្តខ្មែរថ្មី។", "tr": "teuv meul kon té ? méan phéap-yun khmaè thmey."},
+      {"speaker": "B", "fr": "Bonne idée. Et après, on va danser ?", "en": "Good idea. And afterwards, shall we go dancing?", "km": "គំនិតល្អ។ ហើយបន្ទាប់មក ទៅរាំទេ?", "tr": "koum-neut l'â. haeuy bân-toap mok, teuv roam té ?"},
+      {"speaker": "A", "fr": "Je n'aime pas trop ça. Je préfère chanter au karaoké !", "en": "I'm not really into it. I'd rather sing karaoke!", "km": "ខ្ញុំមិនសូវចូលចិត្តទេ។ ខ្ញុំចូលចិត្តច្រៀងខារ៉ាអូខេជាង!", "tr": "khgnom min seuv tchôl tchet té. khgnom tchôl tchet tchrieng kha-ra-ô-khé tchéang !"},
+      {"speaker": "B", "fr": "D'accord, mais je chante mal !", "en": "Okay, but I'm a bad singer!", "km": "បាន ប៉ុន្តែខ្ញុំច្រៀងមិនពីរោះទេ!", "tr": "ban, pon-taè khgnom tchrieng min pi-rouh té !"},
+      {"speaker": "A", "fr": "Ce n'est pas grave. L'important, c'est de s'amuser !", "en": "It doesn't matter. The important thing is to have fun!", "km": "មិនអីទេ។ សំខាន់គឺសប្បាយ!", "tr": "min ey té. sâm-khan keu sa-bay !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce que {A} préfère faire après le cinéma ?", "en": "What does {A} prefer to do after the cinema?", "km": "ក្រោយមើលកុនរួច {A} ចូលចិត្តធ្វើអ្វីជាង?"},
+    "answer": {"fr": "{A} préfère chanter au karaoké.", "en": "{A} prefers to sing karaoke.", "km": "{A} ចូលចិត្តច្រៀងខារ៉ាអូខេជាង។"}
+  }
+}

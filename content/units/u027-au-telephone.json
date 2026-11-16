@@ -1,0 +1,126 @@
+{
+  "id": "u027",
+  "order": 27,
+  "level": "intermediaire",
+  "theme": "au-telephone",
+  "title": {"fr": "Au téléphone", "en": "On the phone", "km": "និយាយទូរស័ព្ទ"},
+  "tip": {
+    "fr": "Au téléphone, on décroche avec អាឡូ (a-lô), emprunté au français. Pour « appeler », le mot le plus courant à l'oral est តេ (té), tiré de « téléphoner » ; ហៅទូរស័ព្ទ est plus soigné. Pour une action en cours, pensez à កំពុង (kâm-poung) : ខ្ញុំកំពុងនិយាយទូរស័ព្ទ, « je suis au téléphone ».",
+    "km": "ក្នុងភាសាបារាំង « appeler » ប្រើសម្រាប់ហៅទូរស័ព្ទ ហើយ « rappeler » មានន័យថា ហៅទៅវិញ។ អនាគតកាល៖ « je t'appelle demain » ឬ « je t'appellerai demain »។ អង់គ្លេស៖ « to call », « to call back »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le téléphone", "en": "phone", "km": "ទូរស័ព្ទ", "tr": "tou-ro-sap", "pos": "nom",
+      "note": {
+        "fr": "Mot savant : ទូរ (tou-ro), « loin », et ស័ព្ទ (sap), « son ». Le téléphone portable : ទូរស័ព្ទដៃ (tou-ro-sap day), mot à mot « téléphone de main ».",
+        "km": "« téléphone » ជានាមភេទប្រុស៖ le téléphone។ ទូរស័ព្ទដៃហៅថា « le portable »។ អង់គ្លេស៖ « phone », « mobile phone »។"
+      },
+      "example": {"fr": "Mon téléphone est dans la chambre.", "en": "My phone is in the bedroom.", "km": "ទូរស័ព្ទរបស់ខ្ញុំនៅក្នុងបន្ទប់គេង។", "tr": "tou-ro-sap ro-bâh khgnom neuv knong bân-toup kéng."}
+    },
+    {
+      "fr": "appeler", "en": "to call", "km": "ហៅទូរស័ព្ទ", "tr": "hav tou-ro-sap", "pos": "verbe",
+      "note": {
+        "fr": "ហៅ (hav) seul signifie « appeler quelqu'un », de vive voix ou par son nom. Au téléphone, on entend surtout តេទៅ (té teuv), plus familier.",
+        "km": "« appeler »៖ j'appelle, nous appelons។ « Je t'appelle » = ខ្ញុំហៅទូរស័ព្ទទៅអ្នក។ អង់គ្លេស៖ « to call »។"
+      },
+      "example": {"fr": "Je t'appelle ce soir.", "en": "I will call you tonight.", "km": "ល្ងាចនេះ ខ្ញុំនឹងហៅទូរស័ព្ទទៅអ្នក។", "tr": "lngéatch nih, khgnom neung hav tou-ro-sap teuv néak."}
+    },
+    {
+      "fr": "le message", "en": "message", "km": "សារ", "tr": "sa", "pos": "nom",
+      "note": {
+        "fr": "Envoyer un message : ផ្ញើសារ (phgnaeu sa). Le même mot sert pour un SMS ou un message dans une application.",
+        "km": "« message » ជានាមភេទប្រុស៖ un message។ « envoyer un message » = ផ្ញើសារ។ អង់គ្លេសសរសេរដូចគ្នា៖ « message »។"
+      },
+      "example": {"fr": "J'ai envoyé un message à ma mère.", "en": "I sent a message to my mother.", "km": "ខ្ញុំបានផ្ញើសារទៅម្តាយរបស់ខ្ញុំ។", "tr": "khgnom ban phgnaeu sa teuv mday ro-bâh khgnom."}
+    },
+    {
+      "fr": "le numéro", "en": "number", "km": "លេខ", "tr": "lék", "pos": "nom",
+      "note": {
+        "fr": "លេខ désigne un chiffre ou un numéro. Le numéro de téléphone : លេខទូរស័ព្ទ (lék tou-ro-sap).",
+        "km": "« numéro » ជានាមភេទប្រុស៖ le numéro។ « le numéro de téléphone » = លេខទូរស័ព្ទ។ អង់គ្លេស៖ « number »។"
+      },
+      "example": {"fr": "J'ai un nouveau numéro.", "en": "I have a new number.", "km": "ខ្ញុំមានលេខថ្មី។", "tr": "khgnom méan lék thmey."}
+    },
+    {
+      "fr": "répondre", "en": "to answer", "km": "ឆ្លើយ", "tr": "tchhlaeuy", "pos": "verbe",
+      "note": {
+        "fr": "ឆ្លើយ, c'est répondre à une question ou à un message. Pour « décrocher le téléphone », on dit លើកទូរស័ព្ទ (leuk tou-ro-sap), mot à mot « soulever le téléphone ».",
+        "km": "« répondre »៖ je réponds, nous répondons។ « répondre à un message » = ឆ្លើយសារ។ អង់គ្លេស៖ « to answer », « to reply »។"
+      },
+      "example": {"fr": "Il n'a pas répondu à mon message.", "en": "He did not answer my message.", "km": "គាត់មិនបានឆ្លើយសាររបស់ខ្ញុំទេ។", "tr": "koat min ban tchhlaeuy sa ro-bâh khgnom té."}
+    },
+    {
+      "fr": "occupé", "en": "busy", "km": "ជាប់រវល់", "tr": "tchoap ro-vol", "pos": "adjectif",
+      "note": {
+        "fr": "រវល់ (ro-vol) seul suffit à l'oral : ខ្ញុំរវល់, « je suis pris ». ជាប់ ajoute l'idée d'être « retenu ».",
+        "km": "« occupé » ភេទស្រីសរសេរថា « occupée » ប៉ុន្តែអានដូចគ្នា។ « Je suis occupé » = ខ្ញុំជាប់រវល់។ អង់គ្លេស៖ « busy »។"
+      },
+      "example": {"fr": "Le médecin est occupé maintenant.", "en": "The doctor is busy now.", "km": "ឥឡូវនេះគ្រូពេទ្យជាប់រវល់។", "tr": "ey-leuv nih krou-pét tchoap ro-vol."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Allô ?", "en": "Hello?", "km": "អាឡូ?", "tr": "a-lô ?",
+      "note": {
+        "fr": "Le mot vient du français et ne sert qu'au téléphone, comme chez nous.",
+        "km": "« Allô » ប្រើតែពេលលើកទូរស័ព្ទប៉ុណ្ណោះ។ ពាក្យខ្មែរ « អាឡូ » មកពីពាក្យនេះ។ អង់គ្លេស៖ « Hello? »។"
+      }
+    },
+    {
+      "fr": "Qui est à l'appareil ?", "en": "Who is speaking?", "km": "នរណានិយាយហ្នឹង?", "tr": "no-na ni-yéay neung ?",
+      "uncertain": true,
+      "uncertain_note": "Tournure orale courante ; faire confirmer par un locuteur natif la formule la plus polie pour un inconnu.",
+      "note": {
+        "fr": "Mot à mot « qui parle là ? ». ហ្នឹង (neung) désigne ce qui est proche de l'interlocuteur.",
+        "km": "« Qui est à l'appareil ? » ប្រើសួរថានរណាកំពុងនិយាយទូរស័ព្ទ។ អង់គ្លេស៖ « Who is speaking? »។"
+      }
+    },
+    {
+      "fr": "Je te rappelle plus tard.", "en": "I will call you back later.", "km": "ចាំខ្ញុំហៅទៅវិញពេលក្រោយ។", "tr": "tcham khgnom hav teuv vign pél kraoy.",
+      "note": {
+        "fr": "វិញ (vign) exprime le retour : ហៅទៅវិញ, « rappeler ». ពេលក្រោយ : plus tard.",
+        "km": "« rappeler » មានន័យថា ហៅទៅវិញ។ « plus tard » មានន័យថា ពេលក្រោយ។ អង់គ្លេស៖ « I will call you back later »។"
+      }
+    },
+    {
+      "fr": "Je n'entends pas bien.", "en": "I can't hear well.", "km": "ខ្ញុំស្តាប់មិនសូវឮទេ។", "tr": "khgnom sdap min seuv leu té.",
+      "note": {
+        "fr": "ស្តាប់ (sdap), écouter ; ឮ (leu), entendre. មិនសូវ… ទេ signifie « pas très, pas bien ».",
+        "km": "« entendre »៖ j'entends។ « Je n'entends pas bien » = ខ្ញុំស្តាប់មិនសូវឮទេ។ អង់គ្លេស៖ « I can't hear well »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au téléphone avec un ami", "km": "និយាយទូរស័ព្ទជាមួយមិត្តភក្តិ"},
+      "fr": "Allô, c'est moi. Tu as le temps de parler ?", "en": "Hello, it's me. Do you have time to talk?",
+      "km": "អាឡូ ខ្ញុំទេតើ។ មានពេលនិយាយទេ?", "tr": "a-lô, khgnom té taeu. méan pél ni-yéay té ?"
+    },
+    {
+      "situation": {"fr": "Échanger ses numéros", "km": "សុំលេខទូរស័ព្ទគ្នា"},
+      "fr": "Donne-moi ton numéro, je t'envoie un message.", "en": "Give me your number, I will send you a message.",
+      "km": "សុំលេខទូរស័ព្ទមក ខ្ញុំនឹងផ្ញើសារទៅ។", "tr": "som lék tou-ro-sap mok, khgnom neung phgnaeu sa teuv."
+    },
+    {
+      "situation": {"fr": "Un appel sans réponse", "km": "ពេលគេមិនលើកទូរស័ព្ទ"},
+      "fr": "Je t'ai appelé trois fois, mais tu n'as pas répondu.", "en": "I called you three times, but you did not answer.",
+      "km": "ខ្ញុំបានហៅទូរស័ព្ទទៅបីដង ប៉ុន្តែអ្នកមិនបានលើកទេ។", "tr": "khgnom ban hav tou-ro-sap teuv bey dâng, pon-taè néak min ban leuk té."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} téléphone à {A}, qui est au marché.", "en": "{B} phones {A}, who is at the market.", "km": "{B} ហៅទូរស័ព្ទទៅ {A} ដែលកំពុងនៅផ្សារ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Allô ?", "en": "Hello?", "km": "អាឡូ?", "tr": "a-lô ?"},
+      {"speaker": "B", "fr": "Allô {A}, c'est {B}. Tu m'entends ?", "en": "Hello {A}, it's {B}. Can you hear me?", "km": "អាឡូ {A} ខ្ញុំ {B} ទេតើ។ ឮទេ?", "tr": "a-lô {A}, khgnom {B} té taeu. leu té ?"},
+      {"speaker": "A", "fr": "Pas très bien, je suis au marché. Il y a du bruit ici.", "en": "Not very well, I am at the market. It is noisy here.", "km": "មិនសូវឮទេ ខ្ញុំនៅផ្សារ។ ទីនេះអ៊ូអរណាស់។", "tr": "min seuv leu té, khgnom neuv phsa. ti-nih ou-â nah."},
+      {"speaker": "B", "fr": "D'accord. Alors je t'envoie un message.", "en": "Okay. Then I will send you a message.", "km": "បាន អញ្ចឹងខ្ញុំផ្ញើសារទៅ។", "tr": "ban, agn-tcheung khgnom phgnaeu sa teuv."},
+      {"speaker": "A", "fr": "Oui, envoie-le. Je répondrai tout de suite.", "en": "Yes, send it. I will answer right away.", "km": "{A_yes} ផ្ញើមក។ ខ្ញុំនឹងឆ្លើយភ្លាម។", "tr": "{A_yes}, phgnaeu mok. khgnom neung tchhlaeuy phléam."},
+      {"speaker": "B", "fr": "Et rappelle-moi quand tu as fini les courses.", "en": "And call me back when you have finished shopping.", "km": "ហើយទិញឥវ៉ាន់ចប់ ហៅមកខ្ញុំវិញផង។", "tr": "haeuy tign ey-van tchâp, hav mok khgnom vign phâng."},
+      {"speaker": "A", "fr": "D'accord. À tout à l'heure !", "en": "Okay. See you later!", "km": "បាន។ ជួបគ្នាពេលក្រោយ!", "tr": "ban. tchouop knéa pél kraoy !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi {A} n'entend pas bien ?", "en": "Why can't {A} hear well?", "km": "ហេតុអ្វី {A} ស្តាប់មិនសូវឮ?"},
+    "answer": {"fr": "Parce que {A} est au marché et qu'il y a du bruit.", "en": "Because {A} is at the market and it is noisy.", "km": "ព្រោះ {A} នៅផ្សារ ហើយទីនោះអ៊ូអរណាស់។"}
+  }
+}

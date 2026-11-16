@@ -1,0 +1,125 @@
+{
+  "id": "u028",
+  "order": 28,
+  "level": "intermediaire",
+  "theme": "resoudre-un-probleme",
+  "title": {"fr": "Résoudre un problème", "en": "Solving a problem", "km": "ការដោះស្រាយបញ្ហា"},
+  "tip": {
+    "fr": "Deux petits mots très utiles : លែង (lèng) devant un verbe signifie « ne… plus » (លែងដើរ, « ne marche plus »), et ហើយ (haeuy) marque le résultat (ខូចហើយ, « c'est cassé »). Pour demander de l'aide poliment, on encadre la demande avec ជួយ… ផង (tchouoy… phâng).",
+    "km": "« passé composé » ប្រើសម្រាប់រឿងដែលទើបកើតឡើង៖ « j'ai perdu ma clé » (ខ្ញុំបាត់កូនសោ), « j'ai trouvé » (ខ្ញុំរកឃើញហើយ)។ « ne… plus » មានន័យថា លែង៖ « ça ne marche plus »។ អង់គ្លេស៖ « I have lost », « I found », « not anymore »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le problème", "en": "problem", "km": "បញ្ហា", "tr": "bagn-ha", "pos": "nom",
+      "note": {
+        "fr": "មានបញ្ហា (méan bagn-ha), « il y a un problème ». Pour rassurer : អត់បញ្ហា (ât bagn-ha), « pas de problème ».",
+        "km": "« problème » ជានាមភេទប្រុស៖ un problème។ « Pas de problème ! » មានន័យថា អត់បញ្ហា។ អង់គ្លេស៖ « problem », « No problem! »។"
+      },
+      "example": {"fr": "Il y a un problème avec la voiture.", "en": "There is a problem with the car.", "km": "ឡានមានបញ្ហា។", "tr": "lan méan bagn-ha."}
+    },
+    {
+      "fr": "aider", "en": "to help", "km": "ជួយ", "tr": "tchouoy", "pos": "verbe",
+      "note": {
+        "fr": "ជួយ se place devant le verbe : ជួយរក, « aider à chercher ». Au secours ! se dit ជួយផង! (tchouoy phâng).",
+        "km": "« aider »៖ j'aide, nous aidons។ « Tu peux m'aider ? » = ជួយខ្ញុំបានទេ? អង់គ្លេស៖ « to help »។"
+      },
+      "example": {"fr": "Tu peux m'aider, s'il te plaît ?", "en": "Can you help me, please?", "km": "ជួយខ្ញុំបន្តិចបានទេ?", "tr": "tchouoy khgnom bân-tetch ban té ?"}
+    },
+    {
+      "fr": "cassé", "en": "broken", "km": "ខូច", "tr": "khôtch", "pos": "adjectif",
+      "note": {
+        "fr": "ខូច se dit d'un appareil en panne ou d'une chose abîmée. Pour un objet brisé en morceaux, comme un verre, on dit បែក (baèk).",
+        "km": "« cassé » មកពីកិរិយាសព្ទ « casser »។ ភេទស្រីសរសេរថា « cassée »។ សម្រាប់ម៉ាស៊ីន គេក៏និយាយថា « en panne » ដែរ។ អង់គ្លេស៖ « broken »។"
+      },
+      "example": {"fr": "Le téléphone est cassé.", "en": "The phone is broken.", "km": "ទូរស័ព្ទខូចហើយ។", "tr": "tou-ro-sap khôtch haeuy."}
+    },
+    {
+      "fr": "réparer", "en": "to repair", "km": "ជួសជុល", "tr": "tchouoh-tchoul", "pos": "verbe",
+      "note": {
+        "fr": "Le réparateur s'appelle ជាង (tchéang), « artisan » : ជាងម៉ូតូ, le mécanicien moto.",
+        "km": "« réparer »៖ je répare, nous réparons។ អ្នកជួសជុលហៅថា « le réparateur »។ អង់គ្លេស៖ « to repair », « to fix »។"
+      },
+      "example": {"fr": "Il répare les motos.", "en": "He repairs motorbikes.", "km": "គាត់ជួសជុលម៉ូតូ។", "tr": "koat tchouoh-tchoul mô-tô."}
+    },
+    {
+      "fr": "perdre", "en": "to lose", "km": "បាត់", "tr": "bat", "pos": "verbe",
+      "note": {
+        "fr": "បាត់ signifie « perdre » et aussi « disparaître ». La voyelle est brève : ne pas confondre avec បាទ, le « oui » des hommes, à voyelle longue.",
+        "km": "« perdre »៖ je perds, nous perdons។ អតីតកាល៖ « j'ai perdu » (ខ្ញុំបាត់)។ អង់គ្លេស៖ « to lose », « I lost »។"
+      },
+      "example": {"fr": "J'ai perdu ma clé.", "en": "I lost my key.", "km": "ខ្ញុំបាត់កូនសោ។", "tr": "khgnom bat kôn sao."}
+    },
+    {
+      "fr": "trouver", "en": "to find", "km": "រកឃើញ", "tr": "rok kheugn", "pos": "verbe",
+      "note": {
+        "fr": "Deux verbes réunis : រក (rok), chercher, et ឃើញ (kheugn), voir. « Chercher et voir », c'est trouver.",
+        "km": "« trouver »៖ je trouve។ « chercher » មានន័យថា រក ហើយ « trouver » មានន័យថា រកឃើញ។ អង់គ្លេស៖ « to look for », « to find »។"
+      },
+      "example": {"fr": "J'ai trouvé ton téléphone sous la table.", "en": "I found your phone under the table.", "km": "ខ្ញុំរកឃើញទូរស័ព្ទរបស់អ្នកនៅក្រោមតុ។", "tr": "khgnom rok kheugn tou-ro-sap ro-bâh néak neuv kraom tok."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Qu'est-ce qui se passe ?", "en": "What is going on?", "km": "មានរឿងអ្វី?", "tr": "méan reuang ey ?",
+      "note": {
+        "fr": "Mot à mot « il y a quelle affaire ? ». រឿង (reuang) : une affaire, une histoire.",
+        "km": "« Qu'est-ce qui se passe ? » ប្រើសួរពេលឃើញថាមានបញ្ហា។ អង់គ្លេស៖ « What is going on? »។"
+      }
+    },
+    {
+      "fr": "Ne t'inquiète pas.", "en": "Don't worry.", "km": "កុំបារម្ភអី។", "tr": "kom ba-râm ey.",
+      "note": {
+        "fr": "កុំ (kom) exprime la défense : « ne… pas ». បារម្ភ (ba-râm) : s'inquiéter. អី en fin de phrase adoucit.",
+        "km": "« s'inquiéter » មានន័យថា បារម្ភ។ « Ne t'inquiète pas » = កុំបារម្ភអី។ អង់គ្លេស៖ « Don't worry »។"
+      }
+    },
+    {
+      "fr": "Ça ne marche pas.", "en": "It doesn't work.", "km": "វាអត់ដើរទេ។", "tr": "véa ât daeu té.",
+      "note": {
+        "fr": "Comme en français, le khmer dit qu'un appareil « marche » : ដើរ (daeu), marcher. អត់… ទេ est la négation familière.",
+        "km": "« marcher » មានន័យថា ដើរ ហើយប្រើសម្រាប់ម៉ាស៊ីនដែរ៖ « ça marche » (វាដើរ)។ អង់គ្លេសប្រើ « to work »៖ « It doesn't work »។"
+      }
+    },
+    {
+      "fr": "Je cherche mon téléphone.", "en": "I am looking for my phone.", "km": "ខ្ញុំកំពុងរកទូរស័ព្ទរបស់ខ្ញុំ។", "tr": "khgnom kâm-poung rok tou-ro-sap ro-bâh khgnom.",
+      "note": {
+        "fr": "កំពុង (kâm-poung) devant le verbe : l'action est en cours, « je suis en train de chercher ».",
+        "km": "« chercher »៖ je cherche។ បារាំងមិនប្រើធ្នាក់ទេ៖ je cherche mon téléphone។ អង់គ្លេស៖ « I am looking for »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Chez le réparateur", "km": "នៅហាងជួសជុល"},
+      "fr": "Ma moto est en panne, vous pouvez la réparer aujourd'hui ?", "en": "My motorbike has broken down, can you repair it today?",
+      "km": "ម៉ូតូរបស់ខ្ញុំខូច ជួសជុលថ្ងៃនេះបានទេ?", "tr": "mô-tô ro-bâh khgnom khôtch, tchouoh-tchoul thngay nih ban té ?"
+    },
+    {
+      "situation": {"fr": "À la maison", "km": "នៅផ្ទះ"},
+      "fr": "J'ai perdu mes clés, aide-moi à les chercher.", "en": "I have lost my keys, help me look for them.",
+      "km": "ខ្ញុំបាត់កូនសោ ជួយរកផង។", "tr": "khgnom bat kôn sao, tchouoy rok phâng."
+    },
+    {
+      "situation": {"fr": "Après avoir cherché", "km": "ក្រោយពេលរក"},
+      "fr": "Ça y est, j'ai trouvé ! Le problème est réglé.", "en": "That's it, I found it! The problem is solved.",
+      "km": "រកឃើញហើយ! បញ្ហាដោះស្រាយរួចហើយ។", "tr": "rok kheugn haeuy ! bagn-ha dâh-sray rouotch haeuy."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "À la maison, la climatisation ne marche plus.", "en": "At home, the air conditioning has stopped working.", "km": "នៅផ្ទះ ម៉ាស៊ីនត្រជាក់លែងដើរហើយ។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, nous avons un problème : la climatisation ne marche plus.", "en": "{B}, we have a problem: the air conditioning has stopped working.", "km": "{B} យើងមានបញ្ហាហើយ ម៉ាស៊ីនត្រជាក់លែងដើរហើយ។", "tr": "{B}, yeung méan bagn-ha haeuy, ma-sin trâ-tchéak lèng daeu haeuy."},
+      {"speaker": "B", "fr": "Elle est cassée ? Depuis quand ?", "en": "Is it broken? Since when?", "km": "ខូចមែនទេ? តាំងពីពេលណា?", "tr": "khôtch mèn té ? tang pi pél na ?"},
+      {"speaker": "A", "fr": "Depuis ce matin. Je ne sais pas la réparer.", "en": "Since this morning. I do not know how to repair it.", "km": "តាំងពីព្រឹកមិញ។ ខ្ញុំមិនចេះជួសជុលទេ។", "tr": "tang pi preuk mign. khgnom min tchéh tchouoh-tchoul té."},
+      {"speaker": "B", "fr": "Ne t'inquiète pas, je vais appeler un réparateur.", "en": "Don't worry, I am going to call a repairman.", "km": "កុំបារម្ភអី ខ្ញុំនឹងហៅជាងមក។", "tr": "kom ba-râm ey, khgnom neung hav tchéang mok."},
+      {"speaker": "A", "fr": "Tu as son numéro ?", "en": "Do you have his number?", "km": "មានលេខទូរស័ព្ទជាងទេ?", "tr": "méan lék tou-ro-sap tchéang té ?"},
+      {"speaker": "B", "fr": "Je le cherche… Voilà, je l'ai trouvé !", "en": "I am looking for it… There, I found it!", "km": "កំពុងរក… រកឃើញហើយ!", "tr": "kâm-poung rok… rok kheugn haeuy !"},
+      {"speaker": "A", "fr": "Merci de m'aider. Il peut venir aujourd'hui ?", "en": "Thank you for helping me. Can he come today?", "km": "អរគុណដែលជួយ។ គាត់មកថ្ងៃនេះបានទេ?", "tr": "â-koun dael tchouoy. koat mok thngay nih ban té ?"},
+      {"speaker": "B", "fr": "Oui, il viendra cet après-midi.", "en": "Yes, he will come this afternoon.", "km": "{B_yes} គាត់នឹងមករសៀលនេះ។", "tr": "{B_yes}, koat neung mok ro-siel nih."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quel est le problème à la maison ?", "en": "What is the problem at home?", "km": "តើនៅផ្ទះមានបញ្ហាអ្វី?"},
+    "answer": {"fr": "La climatisation est cassée. Un réparateur viendra cet après-midi.", "en": "The air conditioning is broken. A repairman will come this afternoon.", "km": "ម៉ាស៊ីនត្រជាក់ខូច។ ជាងនឹងមកជួសជុលនៅរសៀលនេះ។"}
+  }
+}

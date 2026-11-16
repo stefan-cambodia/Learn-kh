@@ -1,0 +1,115 @@
+{
+  "id": "u012",
+  "order": 12,
+  "level": "debutant",
+  "theme": "verbes-de-base",
+  "title": {"fr": "Les verbes de base", "en": "Basic verbs", "km": "កិរិយាសព្ទមូលដ្ឋាន"},
+  "tip": {
+    "fr": "Le verbe khmer ne se conjugue jamais. Pour la négation, on l'encadre : មិន + verbe + ទេ (min… té). À l'oral, on dit plutôt អត់… ទេ (ât… té) : ខ្ញុំអត់យល់ទេ, « je ne comprends pas ».",
+    "km": "កិរិយាសព្ទបារាំងប្តូររូបតាមប្រធាន៖ je vais, tu vas, nous allons។ ដើម្បីបដិសេធ គេដាក់ « ne » នៅពីមុខ និង « pas » នៅពីក្រោយកិរិយាសព្ទ៖ je ne comprends pas។"
+  },
+  "vocabulary": [
+    {
+      "fr": "aller", "en": "to go", "km": "ទៅ", "tr": "teuv", "pos": "verbe",
+      "note": {
+        "fr": "Pas de préposition devant le lieu : ទៅផ្សារ (teuv phsa), « aller au marché ».",
+        "km": "កិរិយាសព្ទ « aller » ប្តូររូបច្រើន៖ je vais, tu vas, il va, nous allons។ ភាសាអង់គ្លេស៖ « to go »។"
+      },
+      "example": {"fr": "Je vais à Phnom Penh.", "en": "I am going to Phnom Penh.", "km": "ខ្ញុំទៅភ្នំពេញ។", "tr": "khgnom teuv phnom-pégn."}
+    },
+    {
+      "fr": "venir", "en": "to come", "km": "មក", "tr": "mok", "pos": "verbe",
+      "note": {
+        "fr": "មក indique un mouvement vers celui qui parle, ទៅ un mouvement qui s'en éloigne. មកពី (mok pi) : venir de.",
+        "km": "កិរិយាសព្ទ « venir » ប្តូររូបតាមប្រធាន៖ je viens, tu viens, nous venons។ ភាសាអង់គ្លេស៖ « to come »។"
+      },
+      "example": {"fr": "Mes amis viennent ce soir.", "en": "My friends are coming this evening.", "km": "មិត្តភក្តិរបស់ខ្ញុំមកល្ងាចនេះ។", "tr": "mit-phéak ro-bâh khgnom mok lngéatch nih."}
+    },
+    {
+      "fr": "vouloir", "en": "to want", "km": "ចង់", "tr": "tchâng", "pos": "verbe",
+      "note": {
+        "fr": "ចង់ se place devant un verbe : ចង់ញ៉ាំ, « vouloir manger ». Devant un nom, on dit ចង់បាន (tchâng ban) : ចង់បានកាហ្វេ, « vouloir un café ».",
+        "km": "កិរិយាសព្ទ « vouloir » ប្តូររូបតាមប្រធាន៖ je veux, tu veux, nous voulons។ ដើម្បីគួរសម គេនិយាយថា « je voudrais »។ ភាសាអង់គ្លេស៖ « to want »។"
+      },
+      "example": {"fr": "Je veux aller au marché.", "en": "I want to go to the market.", "km": "ខ្ញុំចង់ទៅផ្សារ។", "tr": "khgnom tchâng teuv phsa."}
+    },
+    {
+      "fr": "avoir", "en": "to have", "km": "មាន", "tr": "méan", "pos": "verbe",
+      "note": {
+        "fr": "មាន signifie aussi « il y a » : មានកាហ្វេទេ?, « est-ce qu'il y a du café ? ». Négation : គ្មាន (kméan) ou, à l'oral, អត់មាន (ât méan).",
+        "km": "កិរិយាសព្ទ « avoir » ប្តូររូបច្រើន៖ j'ai, tu as, il a, nous avons។ « il y a » មានន័យថា មាន។ ភាសាអង់គ្លេស៖ « to have »។"
+      },
+      "example": {"fr": "J'ai une grande famille.", "en": "I have a big family.", "km": "ខ្ញុំមានគ្រួសារធំ។", "tr": "khgnom méan krouo-sa thom."}
+    },
+    {
+      "fr": "aimer", "en": "to like", "km": "ចូលចិត្ត", "tr": "tchôl tchet", "pos": "verbe",
+      "note": {
+        "fr": "Mot à mot « entrer dans le cœur ». S'emploie pour les choses et les activités ; pour une personne que l'on aime, on dit ស្រឡាញ់ (srâ-lagn).",
+        "km": "« aimer » មានន័យទាំង ចូលចិត្ត ទាំង ស្រឡាញ់។ ភាសាអង់គ្លេសបែងចែកជា « to like » និង « to love »។"
+      },
+      "example": {"fr": "Mon père aime le café noir.", "en": "My father likes black coffee.", "km": "ឪពុករបស់ខ្ញុំចូលចិត្តកាហ្វេខ្មៅ។", "tr": "eu-pouk ro-bâh khgnom tchôl tchet ka-fé khmav."}
+    },
+    {
+      "fr": "comprendre", "en": "to understand", "km": "យល់", "tr": "yol", "pos": "verbe",
+      "note": {
+        "fr": "Très utile : យល់ទេ? (yol té ?), « tu comprends ? ». On répond យល់ (oui) ou អត់យល់ទេ (ât yol té), « je ne comprends pas ».",
+        "km": "កិរិយាសព្ទ « comprendre » ប្តូររូបតាមប្រធាន៖ je comprends, tu comprends, nous comprenons។ ភាសាអង់គ្លេស៖ « to understand »។"
+      },
+      "example": {"fr": "Je comprends un peu le khmer.", "en": "I understand a little Khmer.", "km": "ខ្ញុំយល់ភាសាខ្មែរបន្តិចបន្តួច។", "tr": "khgnom yol phéa-sa khmaè bân-tetch bân-touotch."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Je ne comprends pas.", "en": "I don't understand.", "km": "ខ្ញុំមិនយល់ទេ។", "tr": "khgnom min yol té.",
+      "note": {"fr": "À l'oral : ខ្ញុំអត់យល់ទេ (khgnom ât yol té). On peut commencer par សុំទោស (som toh), « pardon ».", "km": "ប្រយោគសំខាន់សម្រាប់អ្នករៀនភាសា។ ភាសាអង់គ្លេស៖ « I don't understand »។"}
+    },
+    {
+      "fr": "On y va !", "en": "Let's go!", "km": "តោះ ទៅ!", "tr": "tâh, teuv !",
+      "note": {"fr": "តោះ (tâh) invite à faire quelque chose ensemble : តោះ ញ៉ាំបាយ!, « allons manger ! ».", "km": "ប្រើពេលបបួលគ្នាចេញដំណើរ។ ភាសាអង់គ្លេស៖ « Let's go! »។"}
+    },
+    {
+      "fr": "Viens ici.", "en": "Come here.", "km": "មកនេះ។", "tr": "mok nih.",
+      "note": {"fr": "Entre proches. Plus doux : មកនេះបន្តិច (mok nih bân-tetch), « viens ici un instant ».", "km": "« ici » មានន័យថា ទីនេះ។ ដើម្បីគួរសម គេបន្ថែម « s'il te plaît »។"}
+    },
+    {
+      "fr": "Tu as le temps ?", "en": "Do you have time?", "km": "មានពេលទេ?", "tr": "méan pél té ?",
+      "note": {"fr": "ពេល (pél), le temps, le moment. On répond en reprenant le verbe : មាន (oui) ou អត់មានទេ (non).", "km": "សំណួរនេះប្រើកិរិយាសព្ទ « avoir »៖ « Tu as le temps ? »។ ភាសាអង់គ្លេស៖ « Do you have time? »។"}
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Proposer une sortie", "km": "ពេលបបួលដើរលេង"},
+      "fr": "Tu veux aller au marché avec moi ?", "en": "Do you want to go to the market with me?",
+      "km": "ចង់ទៅផ្សារជាមួយខ្ញុំទេ?", "tr": "tchâng teuv phsa tchéa-mouy khgnom té ?"
+    },
+    {
+      "situation": {"fr": "Inviter un ami", "km": "ពេលអញ្ជើញមិត្តភក្តិ"},
+      "fr": "Viens manger chez nous demain soir.", "en": "Come and eat at our place tomorrow evening.",
+      "km": "ល្ងាចស្អែក មកញ៉ាំបាយនៅផ្ទះយើង។", "tr": "lngéatch s'aèk, mok gnam bay neuv phtéah yeung."
+    },
+    {
+      "situation": {"fr": "Apprendre une langue", "km": "ពេលរៀនភាសា"},
+      "fr": "J'aime le khmer, mais je ne comprends pas tout.", "en": "I like Khmer, but I don't understand everything.",
+      "km": "ខ្ញុំចូលចិត្តភាសាខ្មែរ ប៉ុន្តែខ្ញុំមិនយល់ទាំងអស់ទេ។", "tr": "khgnom tchôl tchet phéa-sa khmaè, pon-taè khgnom min yol téang âh té."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Le matin, {A} annonce une visite à {B}.",
+      "en": "In the morning, {A} tells {B} about a visit.",
+      "km": "ពេលព្រឹក {A} ប្រាប់ {B} ថានឹងមានភ្ញៀវមកលេង។"
+    },
+    "lines": [
+      {"speaker": "A", "fr": "Ce soir, ma mère vient à la maison.", "en": "This evening, my mother is coming to our house.", "km": "ល្ងាចនេះ ម្តាយខ្ញុំមកផ្ទះយើង។", "tr": "lngéatch nih, mday khgnom mok phtéah yeung."},
+      {"speaker": "B", "fr": "Très bien ! Mais je ne comprends pas bien le khmer.", "en": "Very good! But I don't understand Khmer well.", "km": "ល្អណាស់! ប៉ុន្តែខ្ញុំមិនសូវយល់ភាសាខ្មែរទេ។", "tr": "l'â nah ! pon-taè khgnom min seuv yol phéa-sa khmaè té."},
+      {"speaker": "A", "fr": "Ce n'est pas grave ! Elle aime le thé. Nous avons du thé ?", "en": "It doesn't matter! She likes tea. Do we have any tea?", "km": "មិនអីទេ! គាត់ចូលចិត្តទឹកតែ។ យើងមានទឹកតែទេ?", "tr": "min ey té ! koat tchôl tchet teuk taè. yeung méan teuk taè té ?"},
+      {"speaker": "B", "fr": "Non. Je vais au marché.", "en": "No. I am going to the market.", "km": "អត់មានទេ។ ខ្ញុំទៅផ្សារ។", "tr": "ât méan té. khgnom teuv phsa."},
+      {"speaker": "A", "fr": "Je veux venir avec toi.", "en": "I want to come with you.", "km": "ខ្ញុំចង់ទៅជាមួយដែរ។", "tr": "khgnom tchâng teuv tchéa-mouy daè."},
+      {"speaker": "B", "fr": "D'accord, on y va !", "en": "Okay, let's go!", "km": "បាន តោះ ទៅ!", "tr": "ban, tâh, teuv !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qui vient à la maison ce soir ?", "en": "Who is coming to the house this evening?", "km": "តើល្ងាចនេះ នរណាមកផ្ទះ?"},
+    "answer": {"fr": "La mère de {A}.", "en": "{A}'s mother.", "km": "ម្តាយរបស់ {A}។"}
+  }
+}

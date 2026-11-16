@@ -1,0 +1,124 @@
+{
+  "id": "u049",
+  "order": 49,
+  "level": "intermediaire",
+  "theme": "politesse",
+  "title": {"fr": "La politesse et les coutumes", "en": "Politeness and customs", "km": "គួរសម និងទំនៀមទម្លាប់"},
+  "tip": {
+    "fr": "Le សំពះ (sâm-péah) remplace la poignée de main : on joint les mains devant soi. Plus la personne est âgée ou respectée, plus les mains montent haut : devant la poitrine pour un ami, devant le visage pour un aîné, au front pour un moine.",
+    "km": "ភាសាបារាំង គេប្រើ « vous » ជាមួយមនុស្សដែលមិនស្គាល់ ឬមនុស្សចាស់ ហើយ « tu » ជាមួយមិត្តភក្តិ និងគ្រួសារ។ នៅប្រទេសបារាំង គេចាប់ដៃគ្នា ឬថើបថ្ពាល់ (la bise)។ អង់គ្លេសប្រើតែ « you »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "saluer", "en": "to greet", "km": "សំពះ", "tr": "sâm-péah", "pos": "verbe",
+      "note": {
+        "fr": "សំពះ désigne précisément le salut mains jointes. Pour saluer en général, on dit aussi ស្វាគមន៍, accueillir.",
+        "km": "« saluer » មានន័យថា និយាយសួស្តី ឬសំពះ។ នៅប្រទេសបារាំង គេចាប់ដៃ៖ « serrer la main »។ អង់គ្លេស៖ « to greet »។"
+      },
+      "example": {"fr": "Les enfants saluent leur grand-mère.", "en": "The children greet their grandmother.", "km": "ក្មេងៗសំពះយាយ។", "tr": "kméng-kméng sâm-péah yéay."}
+    },
+    {
+      "fr": "poli", "en": "polite", "km": "គួរសម", "tr": "kouo-sâm", "pos": "adjectif",
+      "note": {
+        "fr": "គួរសម, « convenable, comme il faut ». Le contraire : មិនគួរសម, impoli.",
+        "km": "« poli » សម្រាប់ភេទប្រុស និង « polie » សម្រាប់ភេទស្រី (អានដូចគ្នា)។ ផ្ទុយគឺ « impoli »។ អង់គ្លេស៖ « polite »។"
+      },
+      "example": {"fr": "Ton fils est très poli.", "en": "Your son is very polite.", "km": "កូនប្រុសរបស់អ្នកគួរសមណាស់។", "tr": "kôn proh ro-bâh néak kouo-sâm nah."}
+    },
+    {
+      "fr": "respecter", "en": "to respect", "km": "គោរព", "tr": "kô-rup", "pos": "verbe",
+      "note": {
+        "fr": "គោរព s'emploie aussi dans les formules écrites : សូមគោរព, « avec respect », en début de lettre.",
+        "km": "« respecter »៖ je respecte, nous respectons។ « le respect » មានន័យថា ការគោរព។ អង់គ្លេស៖ « to respect »។"
+      },
+      "example": {"fr": "Il faut respecter les moines.", "en": "One must respect the monks.", "km": "ត្រូវគោរពព្រះសង្ឃ។", "tr": "treuv kô-rup préah sâng."}
+    },
+    {
+      "fr": "la coutume", "en": "custom", "km": "ទំនៀមទម្លាប់", "tr": "toum-niem toum-loap", "pos": "nom",
+      "note": {
+        "fr": "Deux mots associés : ទំនៀម, la tradition, et ទម្លាប់, l'habitude. Le mot ប្រពៃណី, la tradition, est proche.",
+        "km": "« coutume » ជានាមភេទស្រី៖ la coutume, les coutumes khmères។ អង់គ្លេស៖ « custom », « tradition »។"
+      },
+      "example": {"fr": "Chaque pays a ses coutumes.", "en": "Every country has its customs.", "km": "ប្រទេសនីមួយៗមានទំនៀមទម្លាប់រៀងៗខ្លួន។", "tr": "prâ-téh ni-mouy-mouy méan toum-niem toum-loap rieng-rieng khlouon."}
+    },
+    {
+      "fr": "l'invité", "en": "guest", "km": "ភ្ញៀវ", "tr": "phgnieu", "pos": "nom",
+      "note": {
+        "fr": "ភ្ញៀវ veut dire l'invité, mais aussi le client d'un magasin ou le touriste : ភ្ញៀវទេសចរ.",
+        "km": "« invité » សម្រាប់ប្រុស និង « invitée » សម្រាប់ស្រី (អានដូចគ្នា)។ អង់គ្លេស៖ « guest »។"
+      },
+      "example": {"fr": "Ce soir, nous avons des invités.", "en": "Tonight, we have guests.", "km": "យប់នេះ យើងមានភ្ញៀវ។", "tr": "youp nih, yeung méan phgnieu."}
+    },
+    {
+      "fr": "les aînés", "en": "elders", "km": "ចាស់ទុំ", "tr": "tchah toum", "pos": "nom",
+      "note": {
+        "fr": "ចាស់, « vieux », et ទុំ, « mûr » comme un fruit : les anciens sont « mûrs » de sagesse.",
+        "km": "« les aînés » មានន័យថា មនុស្សចាស់ ឬមនុស្សដែលមានអាយុច្រើនជាង។ អង់គ្លេស៖ « elders »។"
+      },
+      "example": {"fr": "On écoute les conseils des aînés.", "en": "We listen to the elders' advice.", "km": "យើងស្តាប់ដំបូន្មានរបស់ចាស់ទុំ។", "tr": "yeung sdap dâm-boun-méan ro-bâh tchah toum."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Ce n'est pas poli.", "en": "That's not polite.", "km": "មិនគួរសមទេ។", "tr": "min kouo-sâm té.",
+      "note": {
+        "fr": "Remarque courante quand on apprend les bonnes manières aux enfants.",
+        "km": "« ce n'est pas » + គុណនាម៖ ce n'est pas poli, ce n'est pas grave។ អង់គ្លេស៖ « That's not polite »។"
+      }
+    },
+    {
+      "fr": "Après vous.", "en": "After you.", "km": "អញ្ជើញមុនចុះ។", "tr": "agn-tcheugn moun tchoh.",
+      "note": {
+        "fr": "Mot à mot « je vous en prie, passez devant ». On laisse passer les aînés en premier.",
+        "km": "« Après vous » ប្រើពេលឱ្យអ្នកផ្សេងដើរមុន។ អង់គ្លេស៖ « After you »។"
+      }
+    },
+    {
+      "fr": "Servez-vous, je vous en prie.", "en": "Please help yourself.", "km": "សូមអញ្ជើញយកតាមចិត្ត។", "tr": "sôm agn-tcheugn yok tam tchet.",
+      "note": {
+        "fr": "តាមចិត្ត, « selon votre cœur », c'est-à-dire « comme vous voulez ».",
+        "km": "« se servir » មានន័យថា យកខ្លួនឯង។ « je vous en prie » ជាពាក្យគួរសម។ អង់គ្លេស៖ « Please help yourself »។"
+      }
+    },
+    {
+      "fr": "Ne vous dérangez pas.", "en": "Don't go to any trouble.", "km": "កុំរវល់អី។", "tr": "kom ro-vol ey.",
+      "note": {
+        "fr": "Se dit quand l'hôte veut préparer quelque chose pour vous. Mais on accepte toujours le verre d'eau offert.",
+        "km": "« déranger » មានន័យថា រំខាន។ អង់គ្លេស៖ « Don't go to any trouble »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Saluer un aîné", "km": "សំពះចាស់ទុំ"},
+      "fr": "On salue les aînés en joignant les mains devant le visage.", "en": "We greet elders by joining our hands in front of the face.",
+      "km": "គេសំពះចាស់ទុំ ដោយលើកដៃប្រណម្យនៅមុខ។", "tr": "ké sâm-péah tchah toum, daoy laeuk day prâ-nâm neuv mouk."
+    },
+    {
+      "situation": {"fr": "Un interdit", "km": "ហាមឃាត់"},
+      "fr": "Il ne faut pas toucher la tête de quelqu'un.", "en": "You must not touch someone's head.",
+      "km": "មិនត្រូវប៉ះក្បាលអ្នកដទៃទេ។", "tr": "min treuv pah kbal néak dâ-tey té."
+    },
+    {
+      "situation": {"fr": "Recevoir un invité", "km": "ទទួលភ្ញៀវ"},
+      "fr": "Quand un invité arrive, on lui offre d'abord de l'eau.", "en": "When a guest arrives, we first offer them some water.",
+      "km": "ពេលភ្ញៀវមកដល់ គេយកទឹកមកជូនមុនគេ។", "tr": "pél phgnieu mok dâl, ké yok teuk mok tchoun moun ké."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "La veille d'une visite chez les grands-parents de {A}.", "en": "The day before a visit to {A}'s grandparents.", "km": "មួយថ្ងៃមុនទៅលេងតាយាយរបស់ {A}។"},
+    "lines": [
+      {"speaker": "B", "fr": "Demain, je rencontre ta grand-mère. Comment je dois la saluer ?", "en": "Tomorrow, I'm meeting your grandmother. How should I greet her?", "km": "ថ្ងៃស្អែក ខ្ញុំជួបយាយរបស់ {A}។ ត្រូវសំពះគាត់យ៉ាងម៉េច?", "tr": "thngay s'aèk, khgnom tchouop yéay ro-bâh {A}. treuv sâm-péah koat yang métch ?"},
+      {"speaker": "A", "fr": "Joins les mains devant le visage, et baisse un peu la tête.", "en": "Join your hands in front of your face, and bow your head a little.", "km": "លើកដៃប្រណម្យនៅមុខ ហើយឱនក្បាលបន្តិច។", "tr": "laeuk day prâ-nâm neuv mouk, haeuy aon kbal bân-tetch."},
+      {"speaker": "B", "fr": "Et je peux m'asseoir à côté d'elle ?", "en": "And can I sit next to her?", "km": "ហើយខ្ញុំអាចអង្គុយក្បែរគាត់បានទេ?", "tr": "haeuy khgnom atch âng-kouy kbae koat ban té ?"},
+      {"speaker": "A", "fr": "Oui, mais attends qu'elle s'assoie d'abord. Il faut respecter les aînés.", "en": "Yes, but wait for her to sit down first. You must respect the elders.", "km": "បាន ប៉ុន្តែចាំគាត់អង្គុយមុនសិន។ ត្រូវគោរពចាស់ទុំ។", "tr": "ban, pon-taè tcham koat âng-kouy moun sen. treuv kô-rup tchah toum."},
+      {"speaker": "B", "fr": "Et pendant le repas ?", "en": "And during the meal?", "km": "ចុះពេលញ៉ាំបាយវិញ?", "tr": "tchoh pél gnam bay vign ?"},
+      {"speaker": "A", "fr": "Les aînés commencent en premier. Et ne pointe pas tes pieds vers eux, ce n'est pas poli.", "en": "The elders start first. And don't point your feet towards them, it's not polite.", "km": "ចាស់ទុំញ៉ាំមុន។ ហើយកុំលាតជើងទៅរកគាត់ មិនគួរសមទេ។", "tr": "tchah toum gnam moun. haeuy kom léat tcheung teuv rok koat, min kouo-sâm té."},
+      {"speaker": "B", "fr": "Merci ! Je veux bien respecter vos coutumes.", "en": "Thank you! I really want to respect your customs.", "km": "អរគុណ! ខ្ញុំចង់គោរពទំនៀមទម្លាប់ខ្មែរឱ្យបានល្អ។", "tr": "â-koun ! khgnom tchâng kô-rup toum-niem toum-loap khmaè aoy ban l'â."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qui commence à manger en premier ?", "en": "Who starts eating first?", "km": "នរណាញ៉ាំមុនគេ?"},
+    "answer": {"fr": "Les aînés.", "en": "The elders.", "km": "ចាស់ទុំ។"}
+  }
+}

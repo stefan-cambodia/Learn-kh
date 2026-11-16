@@ -1,0 +1,125 @@
+{
+  "id": "u030",
+  "order": 30,
+  "level": "intermediaire",
+  "theme": "fetes-et-traditions",
+  "title": {"fr": "Fêtes et traditions", "en": "Festivals and traditions", "km": "បុណ្យ និងប្រពៃណី"},
+  "tip": {
+    "fr": "Le Nouvel An khmer, ចូលឆ្នាំខ្មែរ, se fête pendant trois jours à la mi-avril : on rentre dans sa famille, on va à la pagode et on s'asperge d'eau pour se souhaiter du bonheur. L'autre grande fête est Pchum Ben, បុណ្យភ្ជុំបិណ្ឌ, la fête des ancêtres, en septembre ou en octobre.",
+    "km": "នៅប្រទេសបារាំង បុណ្យធំៗមានបុណ្យណូអែល (Noël) នៅថ្ងៃទី២៥ ខែធ្នូ និងថ្ងៃចូលឆ្នាំសកល (le Nouvel An) នៅថ្ងៃទី១ ខែមករា។ គេជូនពរគ្នាថា « Joyeux Noël ! » និង « Bonne année ! »។ អង់គ្លេស៖ « Merry Christmas! », « Happy New Year! »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "la fête", "en": "festival", "km": "បុណ្យ", "tr": "bon", "pos": "nom",
+      "note": {
+        "fr": "បុណ្យ désigne une fête religieuse ou traditionnelle, et aussi le « mérite » bouddhique. Pour une fête entre amis, on dit ជប់លៀង (tchoup-lieng).",
+        "km": "« fête » ជានាមភេទស្រី៖ la fête។ ប្រើបានទាំងបុណ្យប្រពៃណី និងពិធីជប់លៀង។ អង់គ្លេស៖ « festival » សម្រាប់បុណ្យ និង « party » សម្រាប់ជប់លៀង។"
+      },
+      "example": {"fr": "Demain, il y a une fête au village.", "en": "Tomorrow, there is a festival in the village.", "km": "ថ្ងៃស្អែកមានបុណ្យនៅភូមិ។", "tr": "thngay s'aèk méan bon neuv phoum."}
+    },
+    {
+      "fr": "le Nouvel An khmer", "en": "Khmer New Year", "km": "ចូលឆ្នាំខ្មែរ", "tr": "tchôl tchhnam khmaè", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « entrer dans l'année khmère ». On dit aussi ចូលឆ្នាំថ្មី (tchôl tchhnam thmey), « entrer dans la nouvelle année ».",
+        "km": "« le Nouvel An » មានន័យថា ចូលឆ្នាំថ្មី។ នៅប្រទេសបារាំង ចូលឆ្នាំថ្មីនៅថ្ងៃទី១ ខែមករា។ អង់គ្លេស៖ « Khmer New Year »។"
+      },
+      "example": {"fr": "Le Nouvel An khmer est en avril.", "en": "Khmer New Year is in April.", "km": "ចូលឆ្នាំខ្មែរនៅខែមេសា។", "tr": "tchôl tchhnam khmaè neuv khaè mé-sa."}
+    },
+    {
+      "fr": "la pagode", "en": "pagoda", "km": "វត្ត", "tr": "voat", "pos": "nom",
+      "note": {
+        "fr": "វត្ត est le monastère bouddhique, au cœur de la vie du village. On s'y habille correctement, épaules et genoux couverts, et on se déchausse avant d'entrer dans le sanctuaire.",
+        "km": "« pagode » ជានាមភេទស្រី៖ la pagode។ នៅប្រទេសបារាំង កន្លែងគោរពសាសនាដែលមានច្រើនជាងគេគឺ « l'église » (ព្រះវិហារគ្រិស្តសាសនា)។ អង់គ្លេស៖ « pagoda »។"
+      },
+      "example": {"fr": "Nous allons à la pagode le matin.", "en": "We go to the pagoda in the morning.", "km": "យើងទៅវត្តនៅពេលព្រឹក។", "tr": "yeung teuv voat neuv pél preuk."}
+    },
+    {
+      "fr": "le cadeau", "en": "gift", "km": "អំណោយ", "tr": "âm-naoy", "pos": "nom",
+      "note": {
+        "fr": "អំណោយ est le mot soigné. À l'oral, on entend très souvent កាដូ (ka-dô), emprunté au français « cadeau ».",
+        "km": "« cadeau » ជានាមភេទប្រុស៖ le cadeau, ពហុវចនៈ « des cadeaux »។ ពាក្យខ្មែរ « កាដូ » មកពីពាក្យនេះ។ អង់គ្លេស៖ « gift », « present »។"
+      },
+      "example": {"fr": "J'ai un cadeau pour toi.", "en": "I have a gift for you.", "km": "ខ្ញុំមានអំណោយសម្រាប់អ្នក។", "tr": "khgnom méan âm-naoy sâm-rap néak."}
+    },
+    {
+      "fr": "inviter", "en": "to invite", "km": "អញ្ជើញ", "tr": "agn-tcheugn", "pos": "verbe",
+      "note": {
+        "fr": "អញ្ជើញ signifie « inviter », et sert aussi de formule polie pour « je vous en prie » : អញ្ជើញចូល, « entrez ».",
+        "km": "« inviter »៖ j'invite, nous invitons។ « une invitation » មានន័យថា ការអញ្ជើញ។ អង់គ្លេស៖ « to invite »។"
+      },
+      "example": {"fr": "Nous invitons nos amis à la maison.", "en": "We are inviting our friends home.", "km": "យើងអញ្ជើញមិត្តភក្តិមកផ្ទះ។", "tr": "yeung agn-tcheugn mit-phéak mok phtéah."}
+    },
+    {
+      "fr": "ensemble", "en": "together", "km": "ជាមួយគ្នា", "tr": "tchéa-mouy knéa", "pos": "adverbe",
+      "note": {
+        "fr": "ជាមួយ (tchéa-mouy), « avec », suivi de គ្នា (knéa), « l'un l'autre » : mot à mot « les uns avec les autres ».",
+        "km": "« ensemble » មិនប្រែប្រួលទេ ហើយដាក់នៅក្រោយកិរិយាសព្ទ៖ nous mangeons ensemble។ អង់គ្លេស៖ « together »។"
+      },
+      "example": {"fr": "Toute la famille mange ensemble.", "en": "The whole family eats together.", "km": "គ្រួសារទាំងមូលញ៉ាំបាយជាមួយគ្នា។", "tr": "krouo-sa téang moul gnam bay tchéa-mouy knéa."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Bonne année !", "en": "Happy New Year!", "km": "សួស្តីឆ្នាំថ្មី!", "tr": "souos-dey tchhnam thmey !",
+      "note": {
+        "fr": "Mot à mot « bonjour, nouvelle année ». La formule sert pour le Nouvel An khmer comme pour le 1er janvier.",
+        "km": "« Bonne année ! » ប្រើជូនពរនៅថ្ងៃចូលឆ្នាំ។ « année » ជានាមភេទស្រី ទើបប្រើ « bonne »។ អង់គ្លេស៖ « Happy New Year! »។"
+      }
+    },
+    {
+      "fr": "Joyeux anniversaire !", "en": "Happy birthday!", "km": "រីករាយថ្ងៃកំណើត!", "tr": "rik-réay thngay kâm-naeut !",
+      "note": {
+        "fr": "រីករាយ (rik-réay), joyeux, et ថ្ងៃកំណើត (thngay kâm-naeut), le jour de naissance. On dit aussi ថ្ងៃខួបកំណើត.",
+        "km": "« anniversaire » មានន័យថា ថ្ងៃកំណើត។ ជានាមភេទប្រុស ទើបប្រើ « joyeux »។ អង់គ្លេស៖ « Happy birthday! »។"
+      }
+    },
+    {
+      "fr": "Félicitations !", "en": "Congratulations!", "km": "សូមអបអរសាទរ!", "tr": "sôm âp-â sa-tô !",
+      "note": {
+        "fr": "Formule soignée, pour un mariage, une naissance ou une réussite.",
+        "km": "« Félicitations ! » ប្រើអបអរអ្នកដែលមានរឿងល្អ ដូចជារៀបការ ឬប្រឡងជាប់។ អង់គ្លេស៖ « Congratulations! »។"
+      }
+    },
+    {
+      "fr": "Merci pour l'invitation.", "en": "Thank you for the invitation.", "km": "អរគុណដែលបានអញ្ជើញ។", "tr": "â-koun dael ban agn-tcheugn.",
+      "note": {
+        "fr": "Mot à mot « merci d'avoir invité ». ដែល (dael) relie ici le remerciement à sa raison.",
+        "km": "« merci pour » + នាម៖ merci pour l'invitation, merci pour le cadeau។ អង់គ្លេស៖ « Thank you for »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Le Nouvel An khmer", "km": "ចូលឆ្នាំខ្មែរ"},
+      "fr": "Pendant le Nouvel An khmer, les familles se retrouvent et vont à la pagode.", "en": "During Khmer New Year, families gather and go to the pagoda.",
+      "km": "ពេលចូលឆ្នាំខ្មែរ គ្រួសារជួបជុំគ្នា ហើយទៅវត្ត។", "tr": "pél tchôl tchhnam khmaè, krouo-sa tchouop-tchoum knéa, haeuy teuv voat."
+    },
+    {
+      "situation": {"fr": "La fête des ancêtres, Pchum Ben", "km": "បុណ្យភ្ជុំបិណ្ឌ"},
+      "fr": "Pour Pchum Ben, on apporte de la nourriture aux moines en pensant aux ancêtres.", "en": "For Pchum Ben, people bring food to the monks in memory of their ancestors.",
+      "km": "ពេលបុណ្យភ្ជុំបិណ្ឌ គេយកម្ហូបទៅប្រគេនព្រះសង្ឃ ដើម្បីឧទ្ទិសដល់ដូនតា។", "tr": "pél bon phtchoum ben, ké yok mhôp teuv prâ-kén préah sâng, daeum-bey out-teuh dâl dôn-ta."
+    },
+    {
+      "situation": {"fr": "Une invitation", "km": "ការអញ្ជើញ"},
+      "fr": "Samedi, nous sommes invités à un mariage.", "en": "On Saturday, we are invited to a wedding.",
+      "km": "ថ្ងៃសៅរ៍ គេអញ្ជើញយើងទៅពិធីមង្គលការ។", "tr": "thngay sav, ké agn-tcheugn yeung teuv pi-thi mong-kol-ka."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Quelques jours avant le Nouvel An khmer.", "en": "A few days before Khmer New Year.", "km": "ប៉ុន្មានថ្ងៃមុនចូលឆ្នាំខ្មែរ។"},
+    "lines": [
+      {"speaker": "B", "fr": "Le Nouvel An khmer arrive bientôt. Qu'est-ce qu'on fait ?", "en": "Khmer New Year is coming soon. What are we doing?", "km": "ជិតចូលឆ្នាំខ្មែរហើយ។ យើងធ្វើអ្វីខ្លះ?", "tr": "tchit tchôl tchhnam khmaè haeuy. yeung thveu ey khlah ?"},
+      {"speaker": "A", "fr": "Ma famille nous invite à la campagne.", "en": "My family is inviting us to the countryside.", "km": "គ្រួសារខ្ញុំអញ្ជើញយើងទៅលេងស្រុក។", "tr": "krouo-sa khgnom agn-tcheugn yeung teuv léng srok."},
+      {"speaker": "B", "fr": "Avec plaisir ! On va à la pagode ensemble ?", "en": "With pleasure! Shall we go to the pagoda together?", "km": "រីករាយណាស់! យើងទៅវត្តជាមួយគ្នាទេ?", "tr": "rik-réay nah ! yeung teuv voat tchéa-mouy knéa té ?"},
+      {"speaker": "A", "fr": "Oui, le matin. Ensuite, toute la famille mange ensemble.", "en": "Yes, in the morning. Then the whole family eats together.", "km": "{A_yes} ទៅពេលព្រឹក។ បន្ទាប់មក គ្រួសារទាំងមូលញ៉ាំបាយជាមួយគ្នា។", "tr": "{A_yes}, teuv pél preuk. bân-toap mok, krouo-sa téang moul gnam bay tchéa-mouy knéa."},
+      {"speaker": "B", "fr": "Je dois apporter un cadeau ?", "en": "Should I bring a gift?", "km": "ខ្ញុំត្រូវយកអំណោយទៅទេ?", "tr": "khgnom treuv yok âm-naoy teuv té ?"},
+      {"speaker": "A", "fr": "Oui, des fruits pour mes parents, c'est très bien.", "en": "Yes, some fruit for my parents is very good.", "km": "{A_yes} យកផ្លែឈើជូនឪពុកម្តាយខ្ញុំ គឺល្អណាស់។", "tr": "{A_yes}, yok phlaè-tchheu tchoun eu-pouk mday khgnom, keu l'â nah."},
+      {"speaker": "B", "fr": "D'accord. Et comment dit-on bonne année ?", "en": "Okay. And how do you say happy New Year?", "km": "បាន។ ហើយពាក្យជូនពរឆ្នាំថ្មីថាម៉េច?", "tr": "ban. haeuy péak tchoun pô tchhnam thmey tha métch ?"},
+      {"speaker": "A", "fr": "On dit : bonne année !", "en": "We say: happy New Year!", "km": "គេថា៖ សួស្តីឆ្នាំថ្មី!", "tr": "ké tha : souos-dey tchhnam thmey !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Que doit apporter {B} pour les parents de {A} ?", "en": "What should {B} bring for the parents of {A}?", "km": "តើ {B} ត្រូវយកអ្វីទៅជូនឪពុកម្តាយរបស់ {A}?"},
+    "answer": {"fr": "{B} doit apporter des fruits.", "en": "{B} should bring some fruit.", "km": "{B} ត្រូវយកផ្លែឈើទៅ។"}
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "u014",
+  "order": 14,
+  "level": "elementaire",
+  "theme": "fruits-et-legumes",
+  "title": {"fr": "Fruits et légumes", "en": "Fruits and vegetables", "km": "ផ្លែឈើ និងបន្លែ"},
+  "tip": {
+    "fr": "Pour compter, le khmer place la quantité après le nom, avec un mot de mesure : ស្វាយមួយគីឡូ (mangue, un kilo), ចេកមួយស្និត (banane, une main), ដូងមួយផ្លែ (coco, un fruit).",
+    "km": "ក្នុងភាសាបារាំង នាមនីមួយៗមានភេទ៖ le fruit, le légume ជាភេទប្រុស ហើយ la mangue, la banane ជាភេទស្រី។ គួរចាំពាក្យ le ឬ la ជាមួយនាមជានិច្ច។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le fruit", "en": "fruit", "km": "ផ្លែឈើ", "tr": "phlaè-tchheu", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « fruit d'arbre ». ផ្លែ (phlaè) seul se place souvent devant le nom du fruit : ផ្លែស្វាយ, la mangue.",
+        "km": "« fruit » ជានាមភេទប្រុស៖ un fruit, des fruits។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេសសរសេរដូចគ្នា។"
+      },
+      "example": {"fr": "J'aime beaucoup les fruits.", "en": "I like fruit very much.", "km": "ខ្ញុំចូលចិត្តផ្លែឈើណាស់។", "tr": "khgnom tchôl tchet phlaè-tchheu nah."}
+    },
+    {
+      "fr": "le légume", "en": "vegetable", "km": "បន្លែ", "tr": "bân-laè", "pos": "nom",
+      "note": {
+        "fr": "បន្លែ désigne tous les légumes. Il n'y a pas de pluriel en khmer : le contexte suffit.",
+        "km": "« légume » ជានាមភេទប្រុស៖ un légume, des légumes។ អង់គ្លេស៖ « vegetable »។"
+      },
+      "example": {"fr": "Je mange des légumes tous les jours.", "en": "I eat vegetables every day.", "km": "ខ្ញុំញ៉ាំបន្លែរាល់ថ្ងៃ។", "tr": "khgnom gnam bân-laè roal thngay."}
+    },
+    {
+      "fr": "la mangue", "en": "mango", "km": "ស្វាយ", "tr": "svay", "pos": "nom",
+      "note": {
+        "fr": "On distingue ស្វាយទុំ (svay toum), la mangue mûre, et ស្វាយខ្ចី (svay khtchey), la mangue verte que l'on mange avec du sel et du piment.",
+        "km": "« mangue » ជានាមភេទស្រី៖ la mangue, une mangue។ អង់គ្លេស៖ « mango »។"
+      },
+      "example": {"fr": "Cette mangue est très sucrée.", "en": "This mango is very sweet.", "km": "ស្វាយនេះផ្អែមណាស់។", "tr": "svay nih ph'aèm nah."}
+    },
+    {
+      "fr": "la banane", "en": "banana", "km": "ចេក", "tr": "tchék", "pos": "nom",
+      "note": {
+        "fr": "Les bananes s'achètent par « main » : ចេកមួយស្និត (tchék mouy snet), une main de bananes.",
+        "km": "« banane » ជានាមភេទស្រី៖ une banane។ ចេកមួយស្និតហៅថា « une main de bananes »។ អង់គ្លេស៖ « banana »។"
+      },
+      "example": {"fr": "Je veux acheter une main de bananes.", "en": "I want to buy a bunch of bananas.", "km": "ខ្ញុំចង់ទិញចេកមួយស្និត។", "tr": "khgnom tchâng tign tchék mouy snet."}
+    },
+    {
+      "fr": "la noix de coco", "en": "coconut", "km": "ដូង", "tr": "dông", "pos": "nom",
+      "note": {
+        "fr": "L'eau de coco, que l'on boit bien fraîche, se dit ទឹកដូង (teuk dông).",
+        "km": "« noix de coco » ជានាមភេទស្រី៖ une noix de coco។ ទឹកដូងហៅថា « l'eau de coco »។ អង់គ្លេស៖ « coconut »។"
+      },
+      "example": {"fr": "Je veux boire de l'eau de coco.", "en": "I want to drink coconut water.", "km": "ខ្ញុំចង់ផឹកទឹកដូង។", "tr": "khgnom tchâng pheuk teuk dông."}
+    },
+    {
+      "fr": "frais", "en": "fresh", "km": "ស្រស់", "tr": "sroh", "pos": "adjectif",
+      "note": {
+        "fr": "L'adjectif se place après le nom : បន្លែស្រស់, « légumes frais ». Pour une boisson fraîche, on dit plutôt ត្រជាក់ (trâ-tchéak), « froid ».",
+        "km": "« frais » សម្រាប់ភេទប្រុស និង « fraîche » សម្រាប់ភេទស្រី។ គុណនាមបារាំងច្រើននៅក្រោយនាម៖ des légumes frais។ អង់គ្លេស៖ « fresh »។"
+      },
+      "example": {"fr": "Ces légumes sont très frais.", "en": "These vegetables are very fresh.", "km": "បន្លែនេះស្រស់ណាស់។", "tr": "bân-laè nih sroh nah."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est sucré ?", "en": "Is it sweet?", "km": "ផ្អែមទេ?", "tr": "ph'aèm té ?",
+      "note": {
+        "fr": "Pour poser une question fermée, on ajoute ទេ à la fin. On répond en reprenant le mot : ផ្អែម (oui) ou អត់ផ្អែមទេ (non).",
+        "km": "សំណួរបារាំងអាចធ្វើដោយលើកសំឡេងនៅចុងប្រយោគ៖ « C'est sucré ? »។ អង់គ្លេសដាក់កិរិយាសព្ទនៅខាងមុខ៖ « Is it sweet? »។"
+      }
+    },
+    {
+      "fr": "Je peux goûter ?", "en": "Can I taste it?", "km": "សុំភ្លក់មើលបានទេ?", "tr": "som phlok meul ban té ?",
+      "note": {
+        "fr": "សុំ … បានទេ? = « puis-je… ? ». មើល (regarder) après un verbe ajoute l'idée d'essayer pour voir.",
+        "km": "« goûter » មានន័យថា ភ្លក់។ « Je peux… ? » ប្រើសម្រាប់សុំការអនុញ្ញាត។ អង់គ្លេស៖ « Can I…? »។"
+      }
+    },
+    {
+      "fr": "Un kilo de mangues, s'il vous plaît.", "en": "One kilo of mangoes, please.", "km": "សុំស្វាយមួយគីឡូ។", "tr": "som svay mouy ki-lô.",
+      "note": {
+        "fr": "Ordre khmer : សុំ + la chose + la quantité. សុំ (som), « je demande », est plus courant à l'oral que សូម (sôm).",
+        "km": "ភាសាបារាំងដាក់បរិមាណនៅខាងមុខ ហើយថែម « de »៖ un kilo de mangues។ អង់គ្លេស៖ « one kilo of mangoes »។"
+      }
+    },
+    {
+      "fr": "Ce n'est pas encore mûr.", "en": "It is not ripe yet.", "km": "មិនទាន់ទុំទេ។", "tr": "min toan toum té.",
+      "note": {
+        "fr": "មិនទាន់ … ទេ = « pas encore ». ទុំ (toum) = « mûr ».",
+        "km": "« ne … pas encore » មានន័យថា មិនទាន់…ទេ។ អង់គ្លេស៖ « not … yet »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au marché", "km": "នៅផ្សារ"},
+      "fr": "Aujourd'hui, les mangues sont très fraîches : cinq mille riels le kilo.", "en": "Today the mangoes are very fresh: five thousand riel a kilo.",
+      "km": "ថ្ងៃនេះស្វាយស្រស់ណាស់ មួយគីឡូប្រាំពាន់រៀល។", "tr": "thngay nih svay sroh nah, mouy ki-lô pram poan riel."
+    },
+    {
+      "situation": {"fr": "À la maison", "km": "នៅផ្ទះ"},
+      "fr": "Il n'y a plus de bananes à la maison, je vais en acheter au marché.", "en": "There are no more bananas at home, I am going to buy some at the market.",
+      "km": "នៅផ្ទះអស់ចេកហើយ ខ្ញុំទៅទិញនៅផ្សារ។", "tr": "neuv phtéah âh tchék haeuy, khgnom teuv tign neuv phsa."
+    },
+    {
+      "situation": {"fr": "Parler de ses goûts", "km": "និយាយអំពីចំណូលចិត្ត"},
+      "fr": "J'aime les mangues, mais je n'aime pas la noix de coco.", "en": "I like mangoes, but I do not like coconut.",
+      "km": "ខ្ញុំចូលចិត្តស្វាយ ប៉ុន្តែមិនចូលចិត្តដូងទេ។", "tr": "khgnom tchôl tchet svay, pon-taè min tchôl tchet dông té."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Au marché, {A} et {B} choisissent des fruits.",
+      "en": "At the market, {A} and {B} are choosing fruit.",
+      "km": "នៅផ្សារ {A} និង {B} រើសផ្លែឈើ។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "{A}, tu veux des mangues ou des bananes ?", "en": "{A}, do you want mangoes or bananas?", "km": "{A} ចង់បានស្វាយ ឬចេក?", "tr": "{A} tchâng ban svay reu tchék ?"},
+      {"speaker": "A", "fr": "Les deux ! J'aime beaucoup les fruits.", "en": "Both! I like fruit very much.", "km": "ទាំងពីរ! ខ្ញុំចូលចិត្តផ្លែឈើណាស់។", "tr": "téang pi ! khgnom tchôl tchet phlaè-tchheu nah."},
+      {"speaker": "B", "fr": "Ces mangues sont sucrées ?", "en": "Are these mangoes sweet?", "km": "ស្វាយនេះផ្អែមទេ?", "tr": "svay nih ph'aèm té ?"},
+      {"speaker": "A", "fr": "Oui, elles sont mûres et très sucrées.", "en": "Yes, they are ripe and very sweet.", "km": "{A_yes} ទុំហើយ ផ្អែមណាស់។", "tr": "{A_yes}, toum haeuy, ph'aèm nah."},
+      {"speaker": "B", "fr": "Alors on achète un kilo de mangues et une main de bananes.", "en": "Then let's buy one kilo of mangoes and a bunch of bananas.", "km": "អ៊ីចឹង យើងទិញស្វាយមួយគីឡូ និងចេកមួយស្និត។", "tr": "ey-tcheung, yeung tign svay mouy ki-lô ning tchék mouy snet."},
+      {"speaker": "A", "fr": "Et une noix de coco aussi ! J'ai soif.", "en": "And a coconut too! I am thirsty.", "km": "ហើយដូងមួយផ្លែទៀត! ខ្ញុំស្រេកទឹក។", "tr": "haeuy dông mouy phlaè tiet ! khgnom srék teuk."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quels fruits {A} et {B} achètent-ils ?", "en": "Which fruits do {A} and {B} buy?", "km": "តើ {A} និង {B} ទិញផ្លែឈើអ្វីខ្លះ?"},
+    "answer": {"fr": "Des mangues, des bananes et une noix de coco.", "en": "Mangoes, bananas and a coconut.", "km": "ស្វាយ ចេក និងដូង។"}
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "u015",
+  "order": 15,
+  "level": "elementaire",
+  "theme": "au-restaurant",
+  "title": {"fr": "Au restaurant", "en": "At the restaurant", "km": "នៅភោជនីយដ្ឋាន"},
+  "tip": {
+    "fr": "Au restaurant, on appelle la personne qui sert par un terme de parenté, selon son âge : បង (bâng) pour quelqu'un de plus âgé, អូន (oun) pour quelqu'un de plus jeune. Les plats se posent au milieu de la table et se partagent ; on mange avec une cuillère et une fourchette.",
+    "km": "នៅបារាំង ពេលចូលភោជនីយដ្ឋាន គេនិយាយ « Bonjour » ជាមុនសិន។ ដើម្បីកុម្ម៉ង់ដោយគួរសម គេប្រើ « Je voudrais… » ដែលមានន័យថា ខ្ញុំចង់បាន…។ អង់គ្លេស៖ « I would like… »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le restaurant", "en": "restaurant", "km": "ភោជនីយដ្ឋាន", "tr": "phô-tchéa-ni-yéa-than", "pos": "nom",
+      "note": {
+        "fr": "Mot soigné, celui des enseignes. Dans la conversation, on dit plutôt ហាងបាយ (hang bay), mot à mot « boutique de riz ».",
+        "km": "« restaurant » ជានាមភេទប្រុស៖ le restaurant។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេសសរសេរដូចគ្នា ប៉ុន្តែអានអក្សរ t។"
+      },
+      "example": {"fr": "Ce soir, nous mangeons au restaurant.", "en": "Tonight, we are eating at the restaurant.", "km": "ល្ងាចនេះ យើងញ៉ាំបាយនៅភោជនីយដ្ឋាន។", "tr": "lngéatch nih, yeung gnam bay neuv phô-tchéa-ni-yéa-than."}
+    },
+    {
+      "fr": "le menu", "en": "menu", "km": "ម៉ឺនុយ", "tr": "meu-nouy", "pos": "nom",
+      "note": {
+        "fr": "Emprunt au français, prononcé à la khmère. Le terme soigné est បញ្ជីមុខម្ហូប (bagn-tchi mouk mhôp), « liste des plats ».",
+        "km": "ពាក្យខ្មែរ « ម៉ឺនុយ » មកពីពាក្យបារាំង « menu »។ អង់គ្លេសសរសេរដូចគ្នា ប៉ុន្តែអានថា « មេញូ »។"
+      },
+      "example": {"fr": "Je peux voir le menu, s'il vous plaît ?", "en": "Can I see the menu, please?", "km": "សុំមើលម៉ឺនុយបន្តិច។", "tr": "som meul meu-nouy bân-tetch."}
+    },
+    {
+      "fr": "commander", "en": "to order", "km": "កុម្ម៉ង់", "tr": "kom-mâng", "pos": "verbe",
+      "note": {
+        "fr": "Emprunt au français « commande ». On dit aussi ហៅម្ហូប (hav mhôp), mot à mot « appeler un plat ».",
+        "km": "« commander »៖ je commande, nous commandons។ អង់គ្លេស៖ « to order »។"
+      },
+      "example": {"fr": "Qu'est-ce que tu veux commander ?", "en": "What do you want to order?", "km": "ចង់កុម្ម៉ង់អ្វី?", "tr": "tchâng kom-mâng ey ?"}
+    },
+    {
+      "fr": "le plat", "en": "dish", "km": "ម្ហូប", "tr": "mhôp", "pos": "nom",
+      "note": {
+        "fr": "ម្ហូប désigne ce qui accompagne le riz, donc « plat » ou « cuisine » : ម្ហូបខ្មែរ, la cuisine khmère.",
+        "km": "« plat » ជានាមភេទប្រុស៖ le plat។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេស៖ « dish »។"
+      },
+      "example": {"fr": "J'aime beaucoup les plats khmers.", "en": "I like Khmer dishes very much.", "km": "ខ្ញុំចូលចិត្តម្ហូបខ្មែរណាស់។", "tr": "khgnom tchôl tchet mhôp khmaè nah."}
+    },
+    {
+      "fr": "l'addition", "en": "bill", "km": "វិក្កយបត្រ", "tr": "vik-ka-yéa-bat", "pos": "nom",
+      "note": {
+        "fr": "Mot écrit, qui désigne aussi une facture. Au restaurant, on ne demande pas « l'addition » : on dit សុំគិតលុយ (som kit louy), « comptez l'argent, s'il vous plaît ».",
+        "km": "« addition » ជានាមភេទស្រី៖ l'addition។ នៅភោជនីយដ្ឋាន គេនិយាយថា « L'addition, s'il vous plaît »។ អង់គ្លេស៖ « the bill »។"
+      },
+      "example": {"fr": "Voici l'addition.", "en": "Here is the bill.", "km": "នេះវិក្កយបត្រ។", "tr": "nih vik-ka-yéa-bat."}
+    },
+    {
+      "fr": "épicé", "en": "spicy", "km": "ហឹរ", "tr": "heul", "pos": "adjectif",
+      "note": {
+        "fr": "Se prononce « heul » : dans ce mot, le រ final s'entend comme un l. Le piment se dit ម្ទេស (mtéh).",
+        "km": "« épicé » ប្រើសម្រាប់ម្ហូបដែលមានម្ទេស។ « C'est épicé ? » មានន័យថា ហឹរទេ? អង់គ្លេស៖ « spicy »។"
+      },
+      "example": {"fr": "Ce plat est très épicé.", "en": "This dish is very spicy.", "km": "ម្ហូបនេះហឹរណាស់។", "tr": "mhôp nih heul nah."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "L'addition, s'il vous plaît.", "en": "The bill, please.", "km": "សុំគិតលុយ។", "tr": "som kit louy.",
+      "note": {
+        "fr": "Mot à mot « je demande de compter l'argent ». C'est la formule que tout le monde emploie.",
+        "km": "និយាយពេលញ៉ាំរួច ហើយចង់បង់លុយ។ អង់គ្លេស៖ « The bill, please »។"
+      }
+    },
+    {
+      "fr": "Pas trop épicé, s'il vous plaît.", "en": "Not too spicy, please.", "km": "សុំកុំហឹរពេក។", "tr": "som kom heul pék.",
+      "note": {
+        "fr": "កុំ (kom) sert à demander de ne pas faire quelque chose, comme « ne … pas » à l'impératif. ពេក (pék) = « trop ».",
+        "km": "« pas trop » មានន័យថា កុំ…ពេក។ អង់គ្លេស៖ « not too spicy »។"
+      }
+    },
+    {
+      "fr": "Je prends la même chose.", "en": "I'll have the same.", "km": "ខ្ញុំយកដូចគ្នា។", "tr": "khgnom yok dôtch knéa.",
+      "note": {
+        "fr": "យក (yok) = « prendre » ; ដូចគ្នា (dôtch knéa) = « pareil, la même chose ».",
+        "km": "« la même chose » មានន័យថា ដូចគ្នា។ អង់គ្លេស៖ « the same »។"
+      }
+    },
+    {
+      "fr": "Qu'est-ce qui est bon ici ?", "en": "What is good here?", "km": "នៅទីនេះមានអ្វីឆ្ងាញ់?", "tr": "neuv ti-nih méan ey tchhngagn ?",
+      "note": {
+        "fr": "Mot à mot « ici, il y a quoi de délicieux ? ». Le mot interrogatif អ្វី reste à sa place dans la phrase, sans inversion.",
+        "km": "សំណួរសម្រាប់សុំយោបល់ពីអ្នករត់តុ។ អង់គ្លេស៖ « What is good here? »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "En arrivant au restaurant", "km": "ពេលមកដល់ភោជនីយដ្ឋាន"},
+      "fr": "Bonjour, vous avez une table pour deux personnes ?", "en": "Hello, do you have a table for two people?",
+      "km": "សួស្តី មានតុសម្រាប់ពីរនាក់ទេ?", "tr": "souos-dey, méan tok sâm-rap pi néak té ?"
+    },
+    {
+      "situation": {"fr": "Commander", "km": "ពេលកុម្ម៉ង់ម្ហូប"},
+      "fr": "Une assiette de riz sauté, s'il vous plaît, pas trop épicé.", "en": "One plate of fried rice, please, not too spicy.",
+      "km": "សុំបាយឆាមួយចាន កុំហឹរពេក។", "tr": "som bay tchha mouy tchan, kom heul pék."
+    },
+    {
+      "situation": {"fr": "À la fin du repas", "km": "ពេលញ៉ាំរួច"},
+      "fr": "C'était délicieux ! L'addition, s'il vous plaît.", "en": "It was delicious! The bill, please.",
+      "km": "ឆ្ងាញ់ណាស់! សុំគិតលុយ។", "tr": "tchhngagn nah ! som kit louy."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Au restaurant, {A} et {B} regardent le menu.",
+      "en": "At the restaurant, {A} and {B} are looking at the menu.",
+      "km": "នៅភោជនីយដ្ឋាន {A} និង {B} មើលម៉ឺនុយ។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "{A}, qu'est-ce que tu veux commander ?", "en": "{A}, what do you want to order?", "km": "{A} ចង់កុម្ម៉ង់អ្វី?", "tr": "{A} tchâng kom-mâng ey ?"},
+      {"speaker": "A", "fr": "Je veux manger du riz sauté. Et toi ?", "en": "I want to eat fried rice. And you?", "km": "ខ្ញុំចង់ញ៉ាំបាយឆា។ ចុះ {B} វិញ?", "tr": "khgnom tchâng gnam bay tchha. tchoh {B} vign ?"},
+      {"speaker": "B", "fr": "Je prends la même chose. C'est épicé ?", "en": "I'll have the same. Is it spicy?", "km": "ខ្ញុំយកដូចគ្នា។ ហឹរទេ?", "tr": "khgnom yok dôtch knéa. heul té ?"},
+      {"speaker": "A", "fr": "Non, ce n'est pas épicé.", "en": "No, it is not spicy.", "km": "ទេ មិនហឹរទេ។", "tr": "té, min heul té."},
+      {"speaker": "B", "fr": "Très bien ! Alors deux assiettes de riz sauté et deux noix de coco.", "en": "Great! So two plates of fried rice and two coconuts.", "km": "ល្អណាស់! អ៊ីចឹង បាយឆាពីរចាន និងដូងពីរផ្លែ។", "tr": "l'â nah ! ey-tcheung, bay tchha pi tchan ning dông pi phlaè."},
+      {"speaker": "A", "fr": "D'accord. Ce restaurant est bon et pas cher.", "en": "Okay. This restaurant is good and not expensive.", "km": "បាន។ ហាងបាយនេះឆ្ងាញ់ ហើយមិនថ្លៃទេ។", "tr": "ban. hang bay nih tchhngagn haeuy min thlay té."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Que commandent {A} et {B} ?", "en": "What do {A} and {B} order?", "km": "តើ {A} និង {B} កុម្ម៉ង់អ្វីខ្លះ?"},
+    "answer": {"fr": "Deux assiettes de riz sauté et deux noix de coco.", "en": "Two plates of fried rice and two coconuts.", "km": "បាយឆាពីរចាន និងដូងពីរផ្លែ។"}
+  }
+}

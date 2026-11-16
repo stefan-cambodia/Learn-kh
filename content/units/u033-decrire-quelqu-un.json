@@ -1,0 +1,124 @@
+{
+  "id": "u033",
+  "order": 33,
+  "level": "intermediaire",
+  "theme": "decrire-quelqu-un",
+  "title": {"fr": "Décrire quelqu'un", "en": "Describing someone", "km": "រៀបរាប់អំពីមនុស្ស"},
+  "tip": {
+    "fr": "Pour parler d'une personne avec respect, on dit គាត់ (koat), « il » ou « elle », sans distinction de genre. En khmer, l'adjectif suit le nom et ne change jamais : មនុស្សខ្ពស់, une personne grande.",
+    "km": "ភាសាបារាំង គុណនាមប្តូរតាមភេទ៖ il est grand, elle est grande; il est gentil, elle est gentille។ ពេលបន្ថែម e ការអានក៏ប្តូរដែរ។ ភាសាអង់គ្លេសមិនប្តូរទេ៖ « tall », « kind »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "grand", "en": "tall", "km": "ខ្ពស់", "tr": "khpoh", "pos": "adjectif",
+      "note": {
+        "fr": "ខ្ពស់ s'emploie pour la taille d'une personne ou la hauteur d'un bâtiment. Pour « grand » au sens de « gros », on dit ធំ (thom).",
+        "km": "« grand » មានន័យថា ខ្ពស់ (មនុស្ស) ឬ ធំ (របស់)។ ភេទស្រី៖ grande។ អង់គ្លេស៖ « tall » សម្រាប់មនុស្ស, « big » សម្រាប់របស់។"
+      },
+      "example": {"fr": "Mon frère est plus grand que moi.", "en": "My brother is taller than me.", "km": "បងប្រុសខ្ញុំខ្ពស់ជាងខ្ញុំ។", "tr": "bâng proh khgnom khpoh tchéang khgnom."}
+    },
+    {
+      "fr": "petit", "en": "short", "km": "ទាប", "tr": "téap", "pos": "adjectif",
+      "note": {
+        "fr": "ទាប, « bas », sert pour une petite taille. Pour un petit objet, on dit តូច (tôtch).",
+        "km": "« petit » មានន័យថា ទាប (មនុស្ស) ឬ តូច (របស់)។ ភេទស្រី៖ petite។ អង់គ្លេស៖ « short » សម្រាប់មនុស្ស, « small » សម្រាប់របស់។"
+      },
+      "example": {"fr": "Ma grand-mère est petite.", "en": "My grandmother is short.", "km": "យាយខ្ញុំទាប។", "tr": "yéay khgnom téap."}
+    },
+    {
+      "fr": "jeune", "en": "young", "km": "ក្មេង", "tr": "kméng", "pos": "adjectif",
+      "note": {
+        "fr": "ក្មេង veut dire « jeune » et aussi « enfant ». Pour dire que quelqu'un est encore jeune : នៅក្មេង (neuv kméng).",
+        "km": "« jeune » មិនប្តូរតាមភេទទេ៖ il est jeune, elle est jeune។ « un jeune » មានន័យថា យុវជន។ អង់គ្លេស៖ « young »។"
+      },
+      "example": {"fr": "Sur cette photo, mes parents sont jeunes.", "en": "In this photo, my parents are young.", "km": "ក្នុងរូបថតនេះ ឪពុកម្តាយខ្ញុំនៅក្មេង។", "tr": "knong roup-thât nih, eu-pouk mday khgnom neuv kméng."}
+    },
+    {
+      "fr": "âgé", "en": "old", "km": "ចាស់", "tr": "tchah", "pos": "adjectif",
+      "note": {
+        "fr": "ចាស់ veut dire « vieux » pour une personne comme pour un objet. Pour les personnes âgées, on dit poliment មនុស្សចាស់ ou ចាស់ទុំ (tchah toum).",
+        "km": "« âgé » គួរសមជាង « vieux » សម្រាប់មនុស្ស។ ភេទស្រី៖ âgée។ អង់គ្លេស៖ « old » ឬ « elderly »។"
+      },
+      "example": {"fr": "Mon grand-père est âgé, mais il marche beaucoup.", "en": "My grandfather is old, but he walks a lot.", "km": "តាខ្ញុំចាស់ហើយ ប៉ុន្តែគាត់ដើរច្រើន។", "tr": "ta khgnom tchah haeuy, pon-taè koat daeu tchraeun."}
+    },
+    {
+      "fr": "gentil", "en": "kind", "km": "ចិត្តល្អ", "tr": "tchet l'â", "pos": "adjectif",
+      "note": {
+        "fr": "Mot à mot « cœur bon ». Beaucoup de traits de caractère se forment avec ចិត្ត (tchet) : ចិត្តឆេវ, colérique ; ចិត្តត្រជាក់, calme.",
+        "km": "« gentil » សម្រាប់ភេទប្រុស និង « gentille » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « kind » ឬ « nice »។"
+      },
+      "example": {"fr": "Ta sœur est très gentille.", "en": "Your sister is very kind.", "km": "ប្អូនស្រីរបស់អ្នកចិត្តល្អណាស់។", "tr": "p'ôn srey ro-bâh néak tchet l'â nah."}
+    },
+    {
+      "fr": "drôle", "en": "funny", "km": "កំប្លែង", "tr": "kâm-plaèng", "pos": "adjectif",
+      "note": {
+        "fr": "កំប្លែង veut dire « drôle » et aussi « plaisanter » : កុំកំប្លែង, ne plaisante pas.",
+        "km": "« drôle » មិនប្តូរតាមភេទទេ។ « une blague » មានន័យថា រឿងកំប្លែង។ អង់គ្លេស៖ « funny »។"
+      },
+      "example": {"fr": "Mon oncle est très drôle.", "en": "My uncle is very funny.", "km": "ពូខ្ញុំកំប្លែងណាស់។", "tr": "pou khgnom kâm-plaèng nah."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Il te ressemble beaucoup.", "en": "He looks a lot like you.", "km": "គាត់មុខដូចអ្នកណាស់។", "tr": "koat mouk dôtch néak nah.",
+      "note": {
+        "fr": "Mot à mot « son visage est comme le tien ». មុខ (mouk), le visage, et ដូច (dôtch), comme.",
+        "km": "« ressembler à »៖ il ressemble à son père។ « te » មានន័យថា អ្នក។ អង់គ្លេស៖ « to look like »។"
+      }
+    },
+    {
+      "fr": "Elle a l'air gentille.", "en": "She seems nice.", "km": "គាត់មើលទៅចិត្តល្អ។", "tr": "koat meul teuv tchet l'â.",
+      "note": {
+        "fr": "មើលទៅ (meul teuv), mot à mot « à regarder », se place devant l'adjectif pour dire « avoir l'air ».",
+        "km": "« avoir l'air » + គុណនាម មានន័យថា មើលទៅ។ អង់គ្លេស៖ « to seem » ឬ « to look »។"
+      }
+    },
+    {
+      "fr": "Il porte des lunettes.", "en": "He wears glasses.", "km": "គាត់ពាក់វ៉ែនតា។", "tr": "koat péak vaèn-ta.",
+      "note": {
+        "fr": "ពាក់ (péak), « porter » pour ce qui s'accroche : lunettes, bijoux, montre, chapeau. Pour les habits, on dit ស្លៀកពាក់ (sliek péak).",
+        "km": "« porter » ប្រើសម្រាប់ទាំងខោអាវ និងវ៉ែនតា។ « les lunettes » តែងប្រើពហុវចនៈ។ អង់គ្លេស៖ « glasses »។"
+      }
+    },
+    {
+      "fr": "Tu n'as pas changé !", "en": "You haven't changed!", "km": "មិនប្រែប្រួលសោះ!", "tr": "min praè-prouol sâh !",
+      "note": {
+        "fr": "សោះ (sâh) en fin de phrase renforce la négation : « pas du tout ». Compliment courant quand on revoit quelqu'un.",
+        "km": "« Tu n'as pas changé ! » ជាពាក្យសរសើរពេលជួបគ្នាវិញក្រោយយូរ។ អង់គ្លេស៖ « You haven't changed! »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "En famille", "km": "ក្នុងគ្រួសារ"},
+      "fr": "Mon petit frère est jeune, mais il est déjà plus grand que moi.", "en": "My little brother is young, but he is already taller than me.",
+      "km": "ប្អូនប្រុសខ្ញុំនៅក្មេង ប៉ុន្តែគាត់ខ្ពស់ជាងខ្ញុំហើយ។", "tr": "p'ôn proh khgnom neuv kméng, pon-taè koat khpoh tchéang khgnom haeuy."
+    },
+    {
+      "situation": {"fr": "Une vieille photo", "km": "រូបថតចាស់"},
+      "fr": "Sur cette photo, ma grand-mère est encore jeune.", "en": "In this photo, my grandmother is still young.",
+      "km": "ក្នុងរូបថតនេះ យាយខ្ញុំនៅក្មេងនៅឡើយ។", "tr": "knong roup-thât nih, yéay khgnom neuv kméng neuv laeuy."
+    },
+    {
+      "situation": {"fr": "Au travail", "km": "នៅកន្លែងធ្វើការ"},
+      "fr": "Mon nouveau collègue est drôle et très gentil.", "en": "My new colleague is funny and very kind.",
+      "km": "មិត្តរួមការងារថ្មីរបស់ខ្ញុំកំប្លែង ហើយចិត្តល្អណាស់។", "tr": "mit rouom ka-ngéa thmey ro-bâh khgnom kâm-plaèng, haeuy tchet l'â nah."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} regardent un album de photos de famille.", "en": "{A} and {B} are looking at a family photo album.", "km": "{A} និង {B} កំពុងមើលអាល់ប៊ុមរូបថតគ្រួសារ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Regarde, ce sont mes parents quand ils étaient jeunes.", "en": "Look, these are my parents when they were young.", "km": "មើលនេះ ឪពុកម្តាយខ្ញុំពេលគាត់នៅក្មេង។", "tr": "meul nih, eu-pouk mday khgnom pél koat neuv kméng."},
+      {"speaker": "B", "fr": "Ta mère est très belle ! Et ton père est grand.", "en": "Your mother is very beautiful! And your father is tall.", "km": "ម្តាយ {A} ស្អាតណាស់! ហើយឪពុក {A} ខ្ពស់។", "tr": "mday {A} s'at nah ! haeuy eu-pouk {A} khpoh."},
+      {"speaker": "A", "fr": "Oui, mais maintenant, ils sont âgés.", "en": "Yes, but now they are old.", "km": "{A_yes} ប៉ុន្តែឥឡូវ គាត់ចាស់ហើយ។", "tr": "{A_yes}, pon-taè ey-leuv, koat tchah haeuy."},
+      {"speaker": "B", "fr": "Et cet enfant, c'est toi ? Tu n'as pas changé !", "en": "And this child, is that you? You haven't changed!", "km": "ហើយក្មេងនេះ គឺ {A} មែនទេ? មិនប្រែប្រួលសោះ!", "tr": "haeuy kméng nih, keu {A} mèn té ? min praè-prouol sâh !"},
+      {"speaker": "A", "fr": "Tu es drôle ! Sur cette photo, j'ai cinq ans.", "en": "You're funny! In this photo, I'm five years old.", "km": "{B} កំប្លែងណាស់! ក្នុងរូបនេះ ខ្ញុំអាយុប្រាំឆ្នាំ។", "tr": "{B} kâm-plaèng nah ! knong roup nih, khgnom a-you pram tchhnam."},
+      {"speaker": "B", "fr": "Et qui est à côté de toi ?", "en": "And who is next to you?", "km": "ហើយអ្នកនៅក្បែរ {A} ជានរណា?", "tr": "haeuy néak neuv kbae {A} tchéa no-na ?"},
+      {"speaker": "A", "fr": "C'est ma tante. Elle est très gentille et très drôle.", "en": "That's my aunt. She is very kind and very funny.", "km": "នោះមីងខ្ញុំ។ គាត់ចិត្តល្អ ហើយកំប្លែងណាស់។", "tr": "nouh ming khgnom. koat tchet l'â, haeuy kâm-plaèng nah."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quel âge a {A} sur la photo ?", "en": "How old is {A} in the photo?", "km": "ក្នុងរូបថត {A} អាយុប៉ុន្មាន?"},
+    "answer": {"fr": "{A} a cinq ans.", "en": "{A} is five years old.", "km": "{A} អាយុប្រាំឆ្នាំ។"}
+  }
+}

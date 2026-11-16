@@ -1,0 +1,115 @@
+{
+  "id": "u004",
+  "order": 4,
+  "level": "debutant",
+  "theme": "famille",
+  "title": {"fr": "La famille", "en": "Family", "km": "គ្រួសារ"},
+  "tip": {
+    "fr": "En khmer, le possesseur se place après le nom, relié par របស់ (ro-bâh) : ម្តាយរបស់ខ្ញុំ, mot à mot « mère de moi ». Entre proches, on omet souvent របស់ : ម្តាយខ្ញុំ.",
+    "km": "ក្នុងភាសាបារាំង ពាក្យ « របស់ខ្ញុំ » ដាក់នៅពីមុខនាម ហើយប្តូរតាមភេទរបស់នាម៖ « mon père », « ma mère »។ ភាសាអង់គ្លេសប្រើ « my » តែមួយ៖ « my father », « my mother »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le père", "en": "father", "km": "ឪពុក", "tr": "eu-pouk", "pos": "nom",
+      "note": {
+        "fr": "Mot standard. À la maison, on dit plutôt ប៉ា (pa), « papa ».",
+        "km": "« père » ជាពាក្យផ្លូវការ។ នៅផ្ទះ កូនៗហៅថា « papa »។ ភាសាអង់គ្លេស៖ « father » និង « dad »។"
+      },
+      "example": {"fr": "Mon père habite en France.", "en": "My father lives in France.", "km": "ឪពុករបស់ខ្ញុំរស់នៅប្រទេសបារាំង។", "tr": "eu-pouk ro-bâh khgnom rouh neuv prâ-téh ba-rang."}
+    },
+    {
+      "fr": "la mère", "en": "mother", "km": "ម្តាយ", "tr": "mday", "pos": "nom",
+      "note": {
+        "fr": "Les deux consonnes du début se prononcent d'un seul souffle : mday. À la maison, on dit plutôt ម៉ាក់ (mak), « maman ».",
+        "km": "« mère » ជាពាក្យផ្លូវការ។ នៅផ្ទះ កូនៗហៅថា « maman »។ ភាសាអង់គ្លេស៖ « mother » និង « mom »។"
+      },
+      "example": {"fr": "Ma mère est à la maison.", "en": "My mother is at home.", "km": "ម្តាយរបស់ខ្ញុំនៅផ្ទះ។", "tr": "mday ro-bâh khgnom neuv phtéah."}
+    },
+    {
+      "fr": "le mari", "en": "husband", "km": "ប្តី", "tr": "pdey", "pos": "nom",
+      "note": {
+        "fr": "Mot courant. Plus soigné, pour parler du mari de quelqu'un d'autre : ស្វាមី (sva-mey).",
+        "km": "« mari » ជានាមភេទប្រុស៖ le mari។ « mon mari » មានន័យថា ប្តីរបស់ខ្ញុំ។ ភាសាអង់គ្លេស៖ « husband »។"
+      },
+      "example": {"fr": "Voici mon mari.", "en": "This is my husband.", "km": "នេះជាប្តីរបស់ខ្ញុំ។", "tr": "nih tchéa pdey ro-bâh khgnom."}
+    },
+    {
+      "fr": "la femme", "en": "wife", "km": "ប្រពន្ធ", "tr": "prâ-pon", "pos": "nom",
+      "note": {
+        "fr": "ប្រពន្ធ désigne uniquement l'épouse ; une femme en général se dit ស្រី (srey). Plus soigné : ភរិយា (phéa-ri-yéa).",
+        "km": "« femme » មានន័យពីរ៖ ប្រពន្ធ និង មនុស្សស្រី។ អក្សរ e ទីមួយអានដូច « a »៖ ហ្វាម។ ភាសាអង់គ្លេស៖ « wife »។"
+      },
+      "example": {"fr": "Ma femme vient du Cambodge.", "en": "My wife is from Cambodia.", "km": "ប្រពន្ធរបស់ខ្ញុំមកពីប្រទេសកម្ពុជា។", "tr": "prâ-pon ro-bâh khgnom mok pi prâ-téh kam-pou-tchéa."}
+    },
+    {
+      "fr": "l'enfant", "en": "child", "km": "កូន", "tr": "kôn", "pos": "nom",
+      "note": {
+        "fr": "កូន désigne l'enfant de quelqu'un : កូនប្រុស (kôn proh), le fils ; កូនស្រី (kôn srey), la fille. Un enfant en général se dit ក្មេង (kméng).",
+        "km": "« enfant » ប្រើបានទាំងកូនប្រុស និងកូនស្រី។ កូនប្រុសហៅថា « fils » កូនស្រីហៅថា « fille »។ ភាសាអង់គ្លេស៖ « child »។"
+      },
+      "example": {"fr": "Ils ont deux enfants.", "en": "They have two children.", "km": "ពួកគេមានកូនពីរនាក់។", "tr": "pouok-ké méan kôn pi néak."}
+    },
+    {
+      "fr": "la famille", "en": "family", "km": "គ្រួសារ", "tr": "krouo-sa", "pos": "nom",
+      "note": {
+        "fr": "Le រ final ne se prononce pas : krouo-sa. Au Cambodge, la famille inclut volontiers les grands-parents, les oncles et les tantes.",
+        "km": "« famille » ជានាមភេទស្រី៖ la famille។ អក្សរ « ille » ចុងពាក្យអានដូច « អ៊ីយ »។ ភាសាអង់គ្លេស៖ « family »។"
+      },
+      "example": {"fr": "Ma famille habite à Phnom Penh.", "en": "My family lives in Phnom Penh.", "km": "គ្រួសាររបស់ខ្ញុំរស់នៅភ្នំពេញ។", "tr": "krouo-sa ro-bâh khgnom rouh neuv phnom-pégn."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Voici ma famille.", "en": "This is my family.", "km": "នេះជាគ្រួសាររបស់ខ្ញុំ។", "tr": "nih tchéa krouo-sa ro-bâh khgnom.",
+      "note": {"fr": "នេះជា… (nih tchéa) sert à présenter une personne ou une chose : « voici… ».", "km": "« Voici… » ប្រើដើម្បីណែនាំមនុស្ស ឬបង្ហាញរបស់អ្វីមួយ។"}
+    },
+    {
+      "fr": "Tu as des frères et sœurs ?", "en": "Do you have any brothers and sisters?", "km": "មានបងប្អូនទេ?", "tr": "méan bâng p'ôn té ?",
+      "note": {"fr": "បងប្អូន (bâng p'ôn) réunit បង, l'aîné, et ប្អូន, le cadet : les frères et sœurs, sans préciser le sexe.", "km": "ភាសាបារាំងបែងចែកតាមភេទ៖ « frère » គឺបងប្អូនប្រុស ហើយ « sœur » គឺបងប្អូនស្រី។"}
+    },
+    {
+      "fr": "Comment va ta famille ?", "en": "How is your family?", "km": "គ្រួសារសុខសប្បាយទេ?", "tr": "krouo-sa sok sa-bay té ?",
+      "note": {"fr": "On reprend សុខសប្បាយទេ? en plaçant devant la personne dont on demande des nouvelles.", "km": "ប្រើដើម្បីសួរសុខទុក្ខគ្រួសាររបស់នរណាម្នាក់។ « ta » ប្រើជាមួយមនុស្សស្និទ្ធស្នាល ហើយ « votre » ប្រើដោយគោរព។"}
+    },
+    {
+      "fr": "J'aime ma famille.", "en": "I love my family.", "km": "ខ្ញុំស្រឡាញ់គ្រួសាររបស់ខ្ញុំ។", "tr": "khgnom srâ-lagn krouo-sa ro-bâh khgnom.",
+      "note": {"fr": "ស្រឡាញ់ (srâ-lagn) signifie aimer quelqu'un, avec affection.", "km": "កិរិយាសព្ទ « aimer » ប្រើបានទាំងជាមួយមនុស្ស ទាំងជាមួយរបស់។ ភាសាអង់គ្លេសប្រើ « love » សម្រាប់គ្រួសារ។"}
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Parler de sa famille", "km": "និយាយអំពីគ្រួសារ"},
+      "fr": "Dans ma famille, nous sommes cinq.", "en": "There are five of us in my family.",
+      "km": "គ្រួសារខ្ញុំមានគ្នាប្រាំនាក់។", "tr": "krouo-sa khgnom méan knéa pram néak."
+    },
+    {
+      "situation": {"fr": "Parler d'un ami", "km": "និយាយអំពីមិត្តភក្តិម្នាក់"},
+      "fr": "Mon ami a trois enfants.", "en": "My friend has three children.",
+      "km": "មិត្តភក្តិរបស់ខ្ញុំមានកូនបីនាក់។", "tr": "mit-phéak ro-bâh khgnom méan kôn bey néak."
+    },
+    {
+      "situation": {"fr": "Appeler sa mère", "km": "ពេលទូរស័ព្ទទៅម្តាយ"},
+      "fr": "Maman, comment ça va ?", "en": "Mom, how are you?",
+      "km": "ម៉ាក់ សុខសប្បាយទេ?", "tr": "mak, sok sa-bay té ?"
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "{A} et {B} regardent une photo de la famille de {A}.",
+      "en": "{A} and {B} are looking at a photo of {A}'s family.",
+      "km": "{A} និង {B} មើលរូបថតគ្រួសាររបស់ {A}។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "C'est ta famille ?", "en": "Is this your family?", "km": "នេះជាគ្រួសាររបស់ {A} មែនទេ?", "tr": "nih tchéa krouo-sa ro-bâh {A} mèn té ?"},
+      {"speaker": "A", "fr": "Oui. Voici mon père et ma mère.", "en": "Yes. This is my father and my mother.", "km": "{A_yes} នេះជាឪពុក និងម្តាយរបស់ខ្ញុំ។", "tr": "{A_yes}, nih tchéa eu-pouk ning mday ro-bâh khgnom."},
+      {"speaker": "B", "fr": "Tu as des frères et sœurs ?", "en": "Do you have any brothers and sisters?", "km": "{A} មានបងប្អូនទេ?", "tr": "{A} méan bâng p'ôn té ?"},
+      {"speaker": "A", "fr": "Oui, j'ai deux grandes sœurs.", "en": "Yes, I have two older sisters.", "km": "{A_yes} ខ្ញុំមានបងស្រីពីរនាក់។", "tr": "{A_yes}, khgnom méan bâng srey pi néak."},
+      {"speaker": "B", "fr": "Ils habitent à Phnom Penh ?", "en": "Do they live in Phnom Penh?", "km": "ពួកគាត់រស់នៅភ្នំពេញមែនទេ?", "tr": "pouok-koat rouh neuv phnom-pégn mèn té ?"},
+      {"speaker": "A", "fr": "Non, ils habitent à Siem Reap.", "en": "No, they live in Siem Reap.", "km": "ទេ ពួកគាត់រស់នៅសៀមរាប។", "tr": "té, pouok-koat rouh neuv siem-réap."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où habite la famille de {A} ?", "en": "Where does {A}'s family live?", "km": "តើគ្រួសាររបស់ {A} រស់នៅឯណា?"},
+    "answer": {"fr": "À Siem Reap.", "en": "In Siem Reap.", "km": "នៅសៀមរាប។"}
+  }
+}

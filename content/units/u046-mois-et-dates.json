@@ -1,0 +1,123 @@
+{
+  "id": "u046",
+  "order": 46,
+  "level": "intermediaire",
+  "theme": "mois-et-dates",
+  "title": {"fr": "Les mois et les dates", "en": "Months and dates", "km": "ខែ និងកាលបរិច្ឆេទ"},
+  "tip": {
+    "fr": "Les mois khmers portent les noms des signes du zodiaque, issus du sanskrit : មករា (mâ-kâ-ra), janvier ; មេសា (mé-sa), avril ; ធ្នូ (thnou), décembre. Pour la date, on dit ថ្ងៃទី, « le jour numéro », puis le nombre et le mois : ថ្ងៃទីដប់ ខែមេសា.",
+    "km": "ភាសាបារាំង ឈ្មោះខែមិនសរសេរអក្សរធំទេ៖ janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre។ ថ្ងៃខែ៖ le dix avril។ អង់គ្លេសសរសេរអក្សរធំ៖ « April the tenth »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le mois", "en": "month", "km": "ខែ", "tr": "khaè", "pos": "nom",
+      "note": {
+        "fr": "ខែ veut aussi dire « la lune » : les mois suivaient autrefois le calendrier lunaire, encore utilisé pour les fêtes.",
+        "km": "« mois » ជានាមភេទប្រុស ហើយ s មិនអានទេ៖ le mois, ce mois-ci, le mois prochain។ អង់គ្លេស៖ « month »។"
+      },
+      "example": {"fr": "Ce mois-ci, il pleut beaucoup.", "en": "This month, it rains a lot.", "km": "ខែនេះភ្លៀងច្រើន។", "tr": "khaè nih phlieng tchraeun."}
+    },
+    {
+      "fr": "l'année", "en": "year", "km": "ឆ្នាំ", "tr": "tchhnam", "pos": "nom",
+      "note": {
+        "fr": "ឆ្នាំ sert aussi pour l'âge : អាយុម្ភៃឆ្នាំ, vingt ans. Chaque année porte un animal du zodiaque.",
+        "km": "« année » ជានាមភេទស្រី៖ l'année, cette année។ ប៉ុន្តែអាយុប្រើ « an »៖ j'ai vingt ans។ អង់គ្លេស៖ « year »។"
+      },
+      "example": {"fr": "L'année prochaine, nous allons en France.", "en": "Next year, we are going to France.", "km": "ឆ្នាំក្រោយ យើងទៅប្រទេសបារាំង។", "tr": "tchhnam kraoy, yeung teuv prâ-téh ba-rang."}
+    },
+    {
+      "fr": "la semaine", "en": "week", "km": "សប្តាហ៍", "tr": "sap-da", "pos": "nom",
+      "note": {
+        "fr": "សប្តាហ៍ vient du sanskrit « sept ». À l'oral, on entend aussi អាទិត្យ, le même mot que « dimanche ».",
+        "km": "« semaine » ជានាមភេទស្រី៖ la semaine, cette semaine។ ចុងសប្តាហ៍គឺ « le week-end »។ អង់គ្លេស៖ « week »។"
+      },
+      "example": {"fr": "Je travaille cinq jours par semaine.", "en": "I work five days a week.", "km": "ខ្ញុំធ្វើការប្រាំថ្ងៃក្នុងមួយសប្តាហ៍។", "tr": "khgnom thveu-ka pram thngay knong mouy sap-da."}
+    },
+    {
+      "fr": "la date", "en": "date", "km": "កាលបរិច្ឆេទ", "tr": "kal-bâ-ret-tchhét", "pos": "nom",
+      "note": {
+        "fr": "Mot savant, écrit sur les documents. À l'oral, on demande simplement ថ្ងៃទីប៉ុន្មាន?, « le jour numéro combien ? ».",
+        "km": "« date » ជានាមភេទស្រី៖ la date។ « la date de naissance » មានន័យថា ថ្ងៃខែឆ្នាំកំណើត។ អង់គ្លេស៖ « date »។"
+      },
+      "example": {"fr": "Écris la date en haut de la page.", "en": "Write the date at the top of the page.", "km": "សរសេរកាលបរិច្ឆេទនៅខាងលើទំព័រ។", "tr": "sâ-sé kal-bâ-ret-tchhét neuv khang leu toum-poa."}
+    },
+    {
+      "fr": "l'anniversaire", "en": "birthday", "km": "ថ្ងៃកំណើត", "tr": "thngay kâm-naeut", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « le jour de naissance ». L'anniversaire de mariage se dit ខួបអាពាហ៍ពិពាហ៍.",
+        "km": "« anniversaire » ជានាមភេទប្រុស៖ l'anniversaire, mon anniversaire។ ក៏ប្រើសម្រាប់ខួបអ្វីផ្សេងដែរ។ អង់គ្លេស៖ « birthday », « anniversary »។"
+      },
+      "example": {"fr": "Mon anniversaire est le dix avril.", "en": "My birthday is on the tenth of April.", "km": "ថ្ងៃកំណើតខ្ញុំ ថ្ងៃទីដប់ ខែមេសា។", "tr": "thngay kâm-naeut khgnom, thngay ti dâp khaè mé-sa."}
+    },
+    {
+      "fr": "le calendrier", "en": "calendar", "km": "ប្រតិទិន", "tr": "prâ-te-tin", "pos": "nom",
+      "note": {
+        "fr": "Les calendriers khmers indiquent à la fois les dates solaires et les jours lunaires, utiles pour les fêtes religieuses.",
+        "km": "« calendrier » ជានាមភេទប្រុស ហើយ r នៅចុងមិនអានទេ៖ le calendrier។ អង់គ្លេស៖ « calendar »។"
+      },
+      "example": {"fr": "J'écris nos projets dans le calendrier.", "en": "I write our plans in the calendar.", "km": "ខ្ញុំសរសេរគម្រោងរបស់យើងក្នុងប្រតិទិន។", "tr": "khgnom sâ-sé koum-rông ro-bâh yeung knong prâ-te-tin."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "On est le combien aujourd'hui ?", "en": "What's the date today?", "km": "ថ្ងៃនេះថ្ងៃទីប៉ុន្មាន?", "tr": "thngay nih thngay ti pon-man ?",
+      "note": {
+        "fr": "ទី (ti) devant un nombre en fait un ordinal : ទីមួយ, premier ; ទីពីរ, deuxième.",
+        "km": "« On est le combien ? » ជាពាក្យសួរថ្ងៃទីបែបធម្មតា។ អង់គ្លេស៖ « What's the date today? »។"
+      }
+    },
+    {
+      "fr": "C'est quand, ton anniversaire ?", "en": "When is your birthday?", "km": "ថ្ងៃកំណើតរបស់អ្នកនៅពេលណា?", "tr": "thngay kâm-naeut ro-bâh néak neuv pél na ?",
+      "note": {
+        "fr": "ពេលណា, « quand », se place en fin de phrase.",
+        "km": "« quand » មានន័យថា ពេលណា។ « ton » ប្រើជាមួយនាមភេទប្រុស៖ ton anniversaire។ អង់គ្លេស៖ « When is your birthday? »។"
+      }
+    },
+    {
+      "fr": "Le mois prochain.", "en": "Next month.", "km": "ខែក្រោយ។", "tr": "khaè kraoy.",
+      "note": {
+        "fr": "ក្រោយ, « après », pour le futur ; មុន, « avant », pour le passé : ខែមុន, le mois dernier.",
+        "km": "« prochain » សម្រាប់អនាគត និង « dernier » សម្រាប់អតីតកាល៖ le mois dernier។ អង់គ្លេស៖ « next month », « last month »។"
+      }
+    },
+    {
+      "fr": "L'année dernière.", "en": "Last year.", "km": "ឆ្នាំមុន។", "tr": "tchhnam moun.",
+      "note": {
+        "fr": "Même modèle que សប្តាហ៍មុន, la semaine dernière.",
+        "km": "« dernière » គឺ « dernier » ភេទស្រី ព្រោះ « année » ជានាមភេទស្រី។ អង់គ្លេស៖ « last year »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Les saisons au Cambodge", "km": "រដូវនៅកម្ពុជា"},
+      "fr": "Au Cambodge, la saison des pluies va de mai à octobre.", "en": "In Cambodia, the rainy season lasts from May to October.",
+      "km": "នៅកម្ពុជា រដូវភ្លៀងចាប់ពីខែឧសភា ដល់ខែតុលា។", "tr": "neuv kâm-pou-tchéa, ro-deuv phlieng tchap pi khaè ou-sâ-phéa dâl khaè tol-la."
+    },
+    {
+      "situation": {"fr": "À l'école", "km": "នៅសាលារៀន"},
+      "fr": "Il y a douze mois dans une année.", "en": "There are twelve months in a year.",
+      "km": "មួយឆ្នាំមានដប់ពីរខែ។", "tr": "mouy tchhnam méan dâp-pi khaè."
+    },
+    {
+      "situation": {"fr": "Les vacances", "km": "វិស្សមកាល"},
+      "fr": "En France, les grandes vacances sont en juillet et en août.", "en": "In France, the summer holidays are in July and August.",
+      "km": "នៅប្រទេសបារាំង វិស្សមកាលធំនៅខែកក្កដា និងខែសីហា។", "tr": "neuv prâ-téh ba-rang, vis-sâ-mâ-kal thom neuv khaè kâk-kâ-da neung khaè sey-ha."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} regardent le calendrier de l'année prochaine.", "en": "{A} and {B} are looking at next year's calendar.", "km": "{A} និង {B} កំពុងមើលប្រតិទិនឆ្នាំក្រោយ។"},
+    "lines": [
+      {"speaker": "A", "fr": "C'est quand, ton anniversaire ?", "en": "When is your birthday?", "km": "ថ្ងៃកំណើតរបស់ {B} នៅពេលណា?", "tr": "thngay kâm-naeut ro-bâh {B} neuv pél na ?"},
+      {"speaker": "B", "fr": "Le quinze juin. Et toi ?", "en": "The fifteenth of June. And you?", "km": "ថ្ងៃទីដប់ប្រាំ ខែមិថុនា។ ចុះ {A} វិញ?", "tr": "thngay ti dâp-pram khaè mi-tho-na. tchoh {A} vign ?"},
+      {"speaker": "A", "fr": "Moi, c'est en avril, pendant le Nouvel An khmer !", "en": "Mine is in April, during Khmer New Year!", "km": "ខ្ញុំនៅខែមេសា ក្នុងពេលចូលឆ្នាំខ្មែរ!", "tr": "khgnom neuv khaè mé-sa, knong pél tchôl tchhnam khmaè !"},
+      {"speaker": "B", "fr": "Alors, on fait deux fêtes en même temps !", "en": "So we have two celebrations at the same time!", "km": "អញ្ចឹង យើងធ្វើបុណ្យពីរក្នុងពេលតែមួយ!", "tr": "agn-tcheung, yeung thveu bon pi knong pél taè mouy !"},
+      {"speaker": "A", "fr": "J'écris ton anniversaire dans le calendrier.", "en": "I'm writing your birthday in the calendar.", "km": "ខ្ញុំសរសេរថ្ងៃកំណើតរបស់ {B} ក្នុងប្រតិទិន។", "tr": "khgnom sâ-sé thngay kâm-naeut ro-bâh {B} knong prâ-te-tin."},
+      {"speaker": "B", "fr": "Merci ! Et en août, on part en France ?", "en": "Thank you! And in August, shall we go to France?", "km": "អរគុណ! ហើយខែសីហា យើងទៅប្រទេសបារាំងទេ?", "tr": "â-koun ! haeuy khaè sey-ha, yeung teuv prâ-téh ba-rang té ?"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quand est l'anniversaire de {B} ?", "en": "When is {B}'s birthday?", "km": "ថ្ងៃកំណើតរបស់ {B} នៅពេលណា?"},
+    "answer": {"fr": "Le quinze juin.", "en": "The fifteenth of June.", "km": "ថ្ងៃទីដប់ប្រាំ ខែមិថុនា។"}
+  }
+}

@@ -1,0 +1,16 @@
+<li class="lesson-card$state" data-search="$search" data-level="$level" data-number="$number" data-date="$date_iso">
+  <a class="lesson-link" data-nav href="$href" aria-label="$open $number">
+    <span class="lesson-num"><span class="ui-fr">$number</span><span class="ui-km" lang="km">$number_km</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title">$title</span>
+      <span class="lesson-meta">
+        <time datetime="$date_iso">$date</time>
+        <span class="badge level-$level">$level_label</span>
+        <span class="lesson-time">$minutes</span>
+        $flags
+        <span class="badge badge-done">$icon_check$done_mark</span>
+      </span>
+      <ul class="lesson-words">$preview</ul>
+    </span>
+  </a>
+</li>

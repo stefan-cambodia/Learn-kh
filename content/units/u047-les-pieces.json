@@ -1,0 +1,124 @@
+{
+  "id": "u047",
+  "order": 47,
+  "level": "intermediaire",
+  "theme": "les-pieces",
+  "title": {"fr": "Les pièces de la maison", "en": "Rooms of the house", "km": "បន្ទប់ក្នុងផ្ទះ"},
+  "tip": {
+    "fr": "Les noms de pièces se forment souvent avec បន្ទប់ (bân-toup), « la pièce » : បន្ទប់គេង, la chambre ; បន្ទប់ទឹក, la salle de bain. La cuisine, ផ្ទះបាយ, est littéralement « la maison du riz », car elle était souvent un petit bâtiment à part.",
+    "km": "ភាសាបារាំង « à l'étage » មានន័យថា នៅជាន់លើ ហើយ « au rez-de-chaussée » មានន័យថា នៅជាន់ផ្ទាល់ដី។ អង់គ្លេស៖ « upstairs », « downstairs »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "la cuisine", "en": "kitchen", "km": "ផ្ទះបាយ", "tr": "phtéah bay", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « la maison du riz ». Attention : « faire la cuisine » se dit ធ្វើម្ហូប, pas avec ផ្ទះបាយ.",
+        "km": "« cuisine » មានន័យពីរ៖ ផ្ទះបាយ និងការធ្វើម្ហូប៖ la cuisine khmère។ អង់គ្លេស៖ « kitchen » និង « cooking »។"
+      },
+      "example": {"fr": "La cuisine est derrière la maison.", "en": "The kitchen is behind the house.", "km": "ផ្ទះបាយនៅក្រោយផ្ទះ។", "tr": "phtéah bay neuv kraoy phtéah."}
+    },
+    {
+      "fr": "le salon", "en": "living room", "km": "បន្ទប់ទទួលភ្ញៀវ", "tr": "bân-toup tô-tuol phgnieu", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « la pièce pour recevoir les invités ». ភ្ញៀវ (phgnieu), l'invité, le client.",
+        "km": "« salon » ជានាមភេទប្រុស៖ le salon។ « le salon de coiffure » មានន័យថា ហាងកាត់សក់។ អង់គ្លេស៖ « living room »។"
+      },
+      "example": {"fr": "Nous regardons un film dans le salon.", "en": "We are watching a film in the living room.", "km": "យើងមើលកុនក្នុងបន្ទប់ទទួលភ្ញៀវ។", "tr": "yeung meul kon knong bân-toup tô-tuol phgnieu."}
+    },
+    {
+      "fr": "la fenêtre", "en": "window", "km": "បង្អួច", "tr": "bâng-ouotch", "pos": "nom",
+      "note": {
+        "fr": "Pour aérer, on ouvre les fenêtres : បើកបង្អួច. Le même verbe បើក sert pour la porte.",
+        "km": "« fenêtre » ជានាមភេទស្រី៖ la fenêtre។ សញ្ញា ê អានដូច è។ អង់គ្លេស៖ « window »។"
+      },
+      "example": {"fr": "Ouvre la fenêtre, il fait chaud.", "en": "Open the window, it's hot.", "km": "បើកបង្អួច ក្តៅណាស់។", "tr": "baeuk bâng-ouotch, kdav nah."}
+    },
+    {
+      "fr": "le jardin", "en": "garden", "km": "សួន", "tr": "souon", "pos": "nom",
+      "note": {
+        "fr": "សួន seul est le jardin ; សួនច្បារ, le parc ; សួនបន្លែ, le potager.",
+        "km": "« jardin » ជានាមភេទប្រុស៖ le jardin។ សួនបន្លែគឺ « le potager »។ អង់គ្លេស៖ « garden »។"
+      },
+      "example": {"fr": "Ma mère plante des légumes dans le jardin.", "en": "My mother plants vegetables in the garden.", "km": "ម្តាយខ្ញុំដាំបន្លែក្នុងសួន។", "tr": "mday khgnom dam bân-laè knong souon."}
+    },
+    {
+      "fr": "l'escalier", "en": "stairs", "km": "ជណ្តើរ", "tr": "tchum-daeu", "pos": "nom",
+      "note": {
+        "fr": "ជណ្តើរ désigne l'escalier et l'échelle. Monter se dit ឡើង, descendre ចុះ.",
+        "km": "« escalier » ជានាមភេទប្រុស ហើយជាឯកវចនៈ៖ l'escalier។ « monter l'escalier » មានន័យថា ឡើងជណ្តើរ។ អង់គ្លេស៖ « stairs »។"
+      },
+      "example": {"fr": "L'escalier est en bois.", "en": "The stairs are made of wood.", "km": "ជណ្តើរធ្វើពីឈើ។", "tr": "tchum-daeu thveu pi tchheu."}
+    },
+    {
+      "fr": "le toit", "en": "roof", "km": "ដំបូល", "tr": "dâm-boul", "pos": "nom",
+      "note": {
+        "fr": "Les toits khmers traditionnels sont en tuiles ou en feuilles de palmier, avec des pointes relevées aux angles.",
+        "km": "« toit » ជានាមភេទប្រុស ហើយ t នៅចុងមិនអានទេ៖ le toit។ អង់គ្លេស៖ « roof »។"
+      },
+      "example": {"fr": "Quand il pleut, on entend la pluie sur le toit.", "en": "When it rains, you can hear the rain on the roof.", "km": "ពេលភ្លៀង គេឮសំឡេងភ្លៀងលើដំបូល។", "tr": "pél phlieng, ké leu sâm-léng phlieng leu dâm-boul."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Fais comme chez toi.", "en": "Make yourself at home.", "km": "ធ្វើដូចនៅផ្ទះខ្លួនឯងចុះ។", "tr": "thveu dôtch neuv phtéah khlouon aèng tchoh.",
+      "note": {
+        "fr": "ខ្លួនឯង (khlouon aèng), « soi-même ». Formule d'accueil chaleureuse pour un invité.",
+        "km": "« chez toi » មានន័យថា នៅផ្ទះរបស់អ្នក។ អង់គ្លេស៖ « Make yourself at home »។"
+      }
+    },
+    {
+      "fr": "Ferme la fenêtre, il pleut.", "en": "Close the window, it's raining.", "km": "បិទបង្អួច ភ្លៀងហើយ។", "tr": "bet bâng-ouotch, phlieng haeuy.",
+      "note": {
+        "fr": "ភ្លៀងហើយ, mot à mot « il pleut déjà » : la pluie vient de commencer.",
+        "km": "« il pleut » មានន័យថា កំពុងភ្លៀង។ អង់គ្លេស៖ « it's raining »។"
+      }
+    },
+    {
+      "fr": "Où sont les toilettes ?", "en": "Where is the toilet?", "km": "បង្គន់នៅឯណា?", "tr": "bâng-koun neuv aè na ?",
+      "note": {
+        "fr": "បង្គន់ (bâng-koun), les toilettes. Dans un lieu public, on demande aussi បន្ទប់ទឹកនៅឯណា?",
+        "km": "« les toilettes » តែងប្រើពហុវចនៈ។ អង់គ្លេស៖ « toilet », « bathroom », « restroom »។"
+      }
+    },
+    {
+      "fr": "On monte à l'étage ?", "en": "Shall we go upstairs?", "km": "ឡើងទៅជាន់លើទេ?", "tr": "laeung teuv tchoan leu té ?",
+      "note": {
+        "fr": "ជាន់ (tchoan), « l'étage ». ជាន់លើ, l'étage du haut ; ជាន់ក្រោម, le rez-de-chaussée.",
+        "km": "« monter » មានន័យថា ឡើង ហើយ « descendre » មានន័យថា ចុះ។ អង់គ្លេស៖ « to go upstairs »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Une maison traditionnelle", "km": "ផ្ទះបុរាណ"},
+      "fr": "Les maisons khmères traditionnelles sont en bois et surélevées.", "en": "Traditional Khmer houses are made of wood and raised off the ground.",
+      "km": "ផ្ទះខ្មែរបុរាណជាផ្ទះឈើ ខ្ពស់ពីដី។", "tr": "phtéah khmaè bo-ran tchéa phtéah tchheu, khpoh pi dey."
+    },
+    {
+      "situation": {"fr": "Sous la maison", "km": "នៅក្រោមផ្ទះ"},
+      "fr": "Sous la maison, on se repose dans le hamac.", "en": "Under the house, people rest in the hammock.",
+      "km": "នៅក្រោមផ្ទះ គេសម្រាកលើអង្រឹង។", "tr": "neuv kraom phtéah, ké sâm-rak leu ang-reung."
+    },
+    {
+      "situation": {"fr": "À la campagne", "km": "នៅជនបទ"},
+      "fr": "La cuisine est souvent dehors, derrière la maison.", "en": "The kitchen is often outside, behind the house.",
+      "km": "ផ្ទះបាយច្រើនតែនៅខាងក្រៅ ក្រោយផ្ទះ។", "tr": "phtéah bay tchraeun taè neuv khang krav, kraoy phtéah."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} visitent une maison à louer.", "en": "{A} and {B} are visiting a house for rent.", "km": "{A} និង {B} មើលផ្ទះជួលមួយ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Regarde, le salon est grand, avec deux fenêtres.", "en": "Look, the living room is big, with two windows.", "km": "មើល បន្ទប់ទទួលភ្ញៀវធំ មានបង្អួចពីរ។", "tr": "meul, bân-toup tô-tuol phgnieu thom, méan bâng-ouotch pi."},
+      {"speaker": "B", "fr": "Et la cuisine, elle est où ?", "en": "And where is the kitchen?", "km": "ចុះផ្ទះបាយនៅឯណា?", "tr": "tchoh phtéah bay neuv aè na ?"},
+      {"speaker": "A", "fr": "Au fond, à côté de la salle de bain.", "en": "At the back, next to the bathroom.", "km": "នៅខាងក្រោយ ក្បែរបន្ទប់ទឹក។", "tr": "neuv khang kraoy, kbae bân-toup teuk."},
+      {"speaker": "B", "fr": "On monte à l'étage ?", "en": "Shall we go upstairs?", "km": "ឡើងទៅជាន់លើទេ?", "tr": "laeung teuv tchoan leu té ?"},
+      {"speaker": "A", "fr": "Oui. Attention, l'escalier est étroit. Il y a deux chambres.", "en": "Yes. Careful, the stairs are narrow. There are two bedrooms.", "km": "{A_yes}។ ប្រយ័ត្ន ជណ្តើរតូច។ មានបន្ទប់គេងពីរ។", "tr": "{A_yes}. prâ-yat, tchum-daeu tôtch. méan bân-toup kéng pi."},
+      {"speaker": "B", "fr": "Et il y a un petit jardin ! J'aime bien cette maison.", "en": "And there is a small garden! I like this house.", "km": "ហើយមានសួនតូចមួយទៀត! ខ្ញុំចូលចិត្តផ្ទះនេះ។", "tr": "haeuy méan souon tôtch mouy tiet ! khgnom tchôl tchet phtéah nih."},
+      {"speaker": "A", "fr": "Moi aussi. Mais le toit est vieux, il faut le réparer.", "en": "Me too. But the roof is old, it needs repairing.", "km": "ខ្ញុំក៏អញ្ចឹងដែរ។ ប៉ុន្តែដំបូលចាស់ ត្រូវជួសជុល។", "tr": "khgnom kâ agn-tcheung daè. pon-taè dâm-boul tchah, treuv tchouoh-tchoul."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où est la cuisine ?", "en": "Where is the kitchen?", "km": "ផ្ទះបាយនៅឯណា?"},
+    "answer": {"fr": "Au fond, à côté de la salle de bain.", "en": "At the back, next to the bathroom.", "km": "នៅខាងក្រោយ ក្បែរបន្ទប់ទឹក។"}
+  }
+}

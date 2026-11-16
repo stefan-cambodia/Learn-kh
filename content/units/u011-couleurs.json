@@ -1,0 +1,115 @@
+{
+  "id": "u011",
+  "order": 11,
+  "level": "debutant",
+  "theme": "couleurs",
+  "title": {"fr": "Les couleurs", "en": "Colors", "km": "ពណ៌"},
+  "tip": {
+    "fr": "Le nom de la couleur est souvent précédé de ពណ៌ (poa), « couleur », et se place après le nom : អាវពណ៌ក្រហម (av poa krâ-hâm), mot à mot « chemise couleur rouge ».",
+    "km": "ក្នុងភាសាបារាំង ពាក្យពណ៌នៅពីក្រោយនាម ហើយប្តូររូបតាមភេទរបស់នាម៖ un lit blanc, une table blanche។ ក្នុងភាសាអង់គ្លេស ពាក្យពណ៌នៅពីមុខនាម ហើយមិនប្តូររូបទេ៖ a white bed, a white table។"
+  },
+  "vocabulary": [
+    {
+      "fr": "rouge", "en": "red", "km": "ក្រហម", "tr": "krâ-hâm", "pos": "adjectif",
+      "note": {
+        "fr": "Le h se prononce : krâ-hâm. Avec ពណ៌ : ពណ៌ក្រហម (poa krâ-hâm), la couleur rouge.",
+        "km": "« rouge » សរសេរដូចគ្នា ទាំងជាមួយនាមភេទប្រុស ទាំងជាមួយនាមភេទស្រី។ ភាសាអង់គ្លេស៖ « red »។"
+      },
+      "example": {"fr": "Cette porte est rouge.", "en": "This door is red.", "km": "ទ្វារនេះពណ៌ក្រហម។", "tr": "tvéa nih poa krâ-hâm."}
+    },
+    {
+      "fr": "bleu", "en": "blue", "km": "ខៀវ", "tr": "khiev", "pos": "adjectif",
+      "note": {
+        "fr": "Dans l'usage ancien, ខៀវ couvrait aussi le vert : on dit encore ភ្លើងខៀវ (phleung khiev) pour le feu vert.",
+        "km": "« bleu » សម្រាប់នាមភេទប្រុស និង « bleue » សម្រាប់នាមភេទស្រី អានដូចគ្នា។ ភាសាអង់គ្លេស៖ « blue »។"
+      },
+      "example": {"fr": "Le ciel est bleu.", "en": "The sky is blue.", "km": "មេឃពណ៌ខៀវ។", "tr": "mék poa khiev."}
+    },
+    {
+      "fr": "vert", "en": "green", "km": "បៃតង", "tr": "bay-tâng", "pos": "adjectif",
+      "note": {
+        "fr": "Mot de deux syllabes, qui désigne le vert sans ambiguïté : ពណ៌បៃតង (poa bay-tâng).",
+        "km": "« vert » សម្រាប់នាមភេទប្រុស អក្សរ t មិនអានទេ។ « verte » សម្រាប់នាមភេទស្រី អក្សរ t ត្រូវអាន។ ភាសាអង់គ្លេស៖ « green »។"
+      },
+      "example": {"fr": "Cette chaise est verte.", "en": "This chair is green.", "km": "កៅអីនេះពណ៌បៃតង។", "tr": "kav-ey nih poa bay-tâng."}
+    },
+    {
+      "fr": "blanc", "en": "white", "km": "ស", "tr": "sâ", "pos": "adjectif",
+      "note": {
+        "fr": "Une seule lettre ! Pour que ce soit bien clair, on dit presque toujours ពណ៌ស (poa sâ).",
+        "km": "« blanc » សម្រាប់នាមភេទប្រុស អក្សរ c មិនអានទេ។ សម្រាប់នាមភេទស្រី គេសរសេរ « blanche »។ ភាសាអង់គ្លេស៖ « white »។"
+      },
+      "example": {"fr": "Le riz est blanc.", "en": "Rice is white.", "km": "បាយពណ៌ស។", "tr": "bay poa sâ."}
+    },
+    {
+      "fr": "noir", "en": "black", "km": "ខ្មៅ", "tr": "khmav", "pos": "adjectif",
+      "note": {
+        "fr": "À ne pas confondre avec ខ្មែរ (khmaè), « khmer » : seule la fin du mot change. កាហ្វេខ្មៅ (ka-fé khmav) : le café noir.",
+        "km": "« noir » សម្រាប់នាមភេទប្រុស និង « noire » សម្រាប់នាមភេទស្រី អានដូចគ្នា។ ភាសាអង់គ្លេស៖ « black »។"
+      },
+      "example": {"fr": "Un café noir, s'il vous plaît.", "en": "A black coffee, please.", "km": "សូមកាហ្វេខ្មៅមួយកែវ។", "tr": "sôm ka-fé khmav mouy kaèv."}
+    },
+    {
+      "fr": "jaune", "en": "yellow", "km": "លឿង", "tr": "leuang", "pos": "adjectif",
+      "note": {
+        "fr": "Une seule syllabe, avec un « eu » qui glisse vers « a » : leuang.",
+        "km": "« jaune » សរសេរដូចគ្នា ទាំងជាមួយនាមភេទប្រុស ទាំងជាមួយនាមភេទស្រី។ ភាសាអង់គ្លេស៖ « yellow »។"
+      },
+      "example": {"fr": "Cette table est jaune.", "en": "This table is yellow.", "km": "តុនេះពណ៌លឿង។", "tr": "tok nih poa leuang."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est de quelle couleur ?", "en": "What color is it?", "km": "ពណ៌អ្វី?", "tr": "poa ey ?",
+      "note": {"fr": "ពណ៌ (poa), la couleur, suivi de អ្វី (quoi) : mot à mot « couleur quoi ? ».", "km": "ចម្លើយ៖ « C'est rouge », « C'est bleu »។ ភាសាអង់គ្លេស៖ « What color is it? »។"}
+    },
+    {
+      "fr": "Quelle est ta couleur préférée ?", "en": "What is your favorite color?", "km": "ចូលចិត្តពណ៌អ្វីជាងគេ?", "tr": "tchôl tchet poa ey tchéang ké ?",
+      "note": {"fr": "ចូលចិត្ត (tchôl tchet), aimer ; ជាងគេ (tchéang ké), « plus que les autres » : c'est ainsi qu'on dit « le plus ».", "km": "« préférée » មានន័យថា ដែលចូលចិត្តជាងគេ។ ចម្លើយ៖ « Ma couleur préférée est le bleu »។"}
+    },
+    {
+      "fr": "J'aime le bleu.", "en": "I like blue.", "km": "ខ្ញុំចូលចិត្តពណ៌ខៀវ។", "tr": "khgnom tchôl tchet poa khiev.",
+      "note": {"fr": "Après ចូលចិត្ត, on garde ពណ៌ devant le nom de la couleur.", "km": "ពេលនិយាយពីពណ៌ជានាម ភាសាបារាំងប្រើ « le »៖ le bleu, le rouge, le vert។"}
+    },
+    {
+      "fr": "C'est joli !", "en": "It's pretty!", "km": "ស្អាតណាស់!", "tr": "s'at nah !",
+      "note": {"fr": "ស្អាត (s'at) signifie « joli » et aussi « propre ».", "km": "« joli » សម្រាប់នាមភេទប្រុស និង « jolie » សម្រាប់នាមភេទស្រី អានដូចគ្នា។ ភាសាអង់គ្លេស៖ « pretty »។"}
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Choisir un vêtement", "km": "ពេលជ្រើសរើសសម្លៀកបំពាក់"},
+      "fr": "Je veux la chemise blanche.", "en": "I want the white shirt.",
+      "km": "ខ្ញុំចង់បានអាវពណ៌ស។", "tr": "khgnom tchâng ban av poa sâ."
+    },
+    {
+      "situation": {"fr": "Décrire la maison", "km": "ពេលរៀបរាប់អំពីផ្ទះ"},
+      "fr": "Notre maison est blanche et la porte est bleue.", "en": "Our house is white and the door is blue.",
+      "km": "ផ្ទះរបស់យើងពណ៌ស ហើយទ្វារពណ៌ខៀវ។", "tr": "phtéah ro-bâh yeung poa sâ, haeuy tvéa poa khiev."
+    },
+    {
+      "situation": {"fr": "Au café", "km": "នៅហាងកាហ្វេ"},
+      "fr": "Tu veux un café noir ou un thé vert ?", "en": "Do you want a black coffee or a green tea?",
+      "km": "ចង់ញ៉ាំកាហ្វេខ្មៅ ឬតែបៃតង?", "tr": "tchâng gnam ka-fé khmav reu taè bay-tâng ?"
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Dans un magasin, {A} et {B} choisissent une chemise.",
+      "en": "In a shop, {A} and {B} are choosing a shirt.",
+      "km": "នៅក្នុងហាង {A} និង {B} ជ្រើសរើសអាវ។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "Tu aimes quelle couleur ?", "en": "Which color do you like?", "km": "{A} ចូលចិត្តពណ៌អ្វី?", "tr": "{A} tchôl tchet poa ey ?"},
+      {"speaker": "A", "fr": "J'aime le bleu. Et toi ?", "en": "I like blue. And you?", "km": "ខ្ញុំចូលចិត្តពណ៌ខៀវ។ ចុះ {B} វិញ?", "tr": "khgnom tchôl tchet poa khiev. tchoh {B} vign ?"},
+      {"speaker": "B", "fr": "J'aime le vert. Cette chemise verte est jolie.", "en": "I like green. This green shirt is pretty.", "km": "ខ្ញុំចូលចិត្តពណ៌បៃតង។ អាវពណ៌បៃតងនេះស្អាត។", "tr": "khgnom tchôl tchet poa bay-tâng. av poa bay-tâng nih s'at."},
+      {"speaker": "A", "fr": "Oui, mais la rouge est jolie aussi.", "en": "Yes, but the red one is pretty too.", "km": "{A_yes} ប៉ុន្តែអាវពណ៌ក្រហមក៏ស្អាតដែរ។", "tr": "{A_yes}, pon-taè av poa krâ-hâm kâ s'at daè."},
+      {"speaker": "B", "fr": "Alors, on prend les deux ?", "en": "So, shall we take both?", "km": "អ៊ីចឹង យកទាំងពីរទេ?", "tr": "ey-tcheung, yok téang pi té ?"},
+      {"speaker": "A", "fr": "D'accord ! Une verte et une rouge.", "en": "Okay! One green and one red.", "km": "បាន! ពណ៌បៃតងមួយ ពណ៌ក្រហមមួយ។", "tr": "ban ! poa bay-tâng mouy, poa krâ-hâm mouy."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quelle couleur aime {A} ?", "en": "Which color does {A} like?", "km": "តើ {A} ចូលចិត្តពណ៌អ្វី?"},
+    "answer": {"fr": "Le bleu.", "en": "Blue.", "km": "ពណ៌ខៀវ។"}
+  }
+}

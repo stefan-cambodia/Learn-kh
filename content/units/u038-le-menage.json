@@ -1,0 +1,123 @@
+{
+  "id": "u038",
+  "order": 38,
+  "level": "intermediaire",
+  "theme": "le-menage",
+  "title": {"fr": "Le ménage", "en": "Housework", "km": "ការងារផ្ទះ"},
+  "tip": {
+    "fr": "Au Cambodge, on se déchausse toujours avant d'entrer dans une maison : les chaussures restent devant la porte. Le sol, souvent carrelé, est lavé très souvent, parce qu'on s'y assoit et qu'on y mange parfois.",
+    "km": "ភាសាបារាំងប្រើ « faire » ច្រើនសម្រាប់ការងារផ្ទះ៖ faire le ménage (សម្អាតផ្ទះ), faire la vaisselle (លាងចាន), faire la lessive (បោកខោអាវ)។ អង់គ្លេសប្រើ « to do »៖ « do the dishes », « do the laundry »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "nettoyer", "en": "to clean", "km": "សម្អាត", "tr": "sâm-at", "pos": "verbe",
+      "note": {
+        "fr": "សម្អាត vient de ស្អាត (s'at), « propre » : mot à mot « rendre propre ».",
+        "km": "« nettoyer »៖ je nettoie, nous nettoyons។ « faire le ménage » មានន័យថា សម្អាតផ្ទះទាំងមូល។ អង់គ្លេស៖ « to clean »។"
+      },
+      "example": {"fr": "Je nettoie la salle de bain.", "en": "I'm cleaning the bathroom.", "km": "ខ្ញុំសម្អាតបន្ទប់ទឹក។", "tr": "khgnom sâm-at bân-toup teuk."}
+    },
+    {
+      "fr": "faire la lessive", "en": "to do the laundry", "km": "បោកខោអាវ", "tr": "baok khao-av", "pos": "expression",
+      "note": {
+        "fr": "បោក (baok), « battre, laver le linge », suivi de ខោអាវ, les vêtements. La machine à laver se dit ម៉ាស៊ីនបោកខោអាវ.",
+        "km": "« la lessive » មានន័យថា ការបោកខោអាវ ឬម្សៅសាប៊ូបោកខោអាវ។ អង់គ្លេស៖ « to do the laundry »។"
+      },
+      "example": {"fr": "Je fais la lessive le dimanche.", "en": "I do the laundry on Sundays.", "km": "ខ្ញុំបោកខោអាវនៅថ្ងៃអាទិត្យ។", "tr": "khgnom baok khao-av neuv thngay a-teut."}
+    },
+    {
+      "fr": "balayer", "en": "to sweep", "km": "បោស", "tr": "baoh", "pos": "verbe",
+      "note": {
+        "fr": "បោស ressemble à បោក : attention à la dernière consonne. Le balai se dit អំបោស (âm-baoh).",
+        "km": "« balayer »៖ je balaie, tu balaies។ « le balai » មានន័យថា អំបោស។ អង់គ្លេស៖ « to sweep », « broom »។"
+      },
+      "example": {"fr": "Le matin, je balaie devant la maison.", "en": "In the morning, I sweep in front of the house.", "km": "ពេលព្រឹក ខ្ញុំបោសមុខផ្ទះ។", "tr": "pél preuk, khgnom baoh mouk phtéah."}
+    },
+    {
+      "fr": "faire la vaisselle", "en": "to do the dishes", "km": "លាងចាន", "tr": "léang tchan", "pos": "expression",
+      "note": {
+        "fr": "Mot à mot « laver les assiettes ». ចាន (tchan), l'assiette ou le bol, désigne toute la vaisselle.",
+        "km": "« la vaisselle » មានន័យថា ចានឆ្នាំងទាំងអស់។ « une assiette » គឺចានមួយ។ អង់គ្លេស៖ « to do the dishes »។"
+      },
+      "example": {"fr": "Après le repas, je fais la vaisselle.", "en": "After the meal, I do the dishes.", "km": "ក្រោយញ៉ាំបាយ ខ្ញុំលាងចាន។", "tr": "kraoy gnam bay, khgnom léang tchan."}
+    },
+    {
+      "fr": "sale", "en": "dirty", "km": "កខ្វក់", "tr": "kâ-khvâk", "pos": "adjectif",
+      "note": {
+        "fr": "កខ្វក់ se dit d'un objet, d'une pièce ou de vêtements. Pour l'eau sale, on dit aussi ល្អក់ (l'âk), « trouble ».",
+        "km": "« sale » មិនប្តូរតាមភេទទេ។ ប្រយ័ត្ន៖ « une salle » (ll) មានន័យថា បន្ទប់។ អង់គ្លេស៖ « dirty »។"
+      },
+      "example": {"fr": "Mes chaussures sont sales.", "en": "My shoes are dirty.", "km": "ស្បែកជើងខ្ញុំកខ្វក់។", "tr": "sbaèk tcheung khgnom kâ-khvâk."}
+    },
+    {
+      "fr": "propre", "en": "clean", "km": "ស្អាត", "tr": "s'at", "pos": "adjectif",
+      "note": {
+        "fr": "ស្អាត veut dire à la fois « propre » et « beau, joli ». Le contexte fait la différence.",
+        "km": "« propre » មានន័យថា ស្អាត មិនកខ្វក់។ ពាក្យខ្មែរ ស្អាត ប្រែជា « beau » ក៏បាន។ អង់គ្លេស៖ « clean »។"
+      },
+      "example": {"fr": "La maison est propre maintenant.", "en": "The house is clean now.", "km": "ឥឡូវផ្ទះស្អាតហើយ។", "tr": "ey-leuv phtéah s'at haeuy."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est ton tour.", "en": "It's your turn.", "km": "ដល់វេនអ្នកហើយ។", "tr": "dâl vén néak haeuy.",
+      "note": {
+        "fr": "វេន (vén), « le tour ». Mot à mot « on est arrivé à ton tour ».",
+        "km": "« le tour » មានន័យថា វេន។ « c'est mon tour » មានន័យថា ដល់វេនខ្ញុំ។ អង់គ្លេស៖ « It's your turn »។"
+      }
+    },
+    {
+      "fr": "Je m'en occupe.", "en": "I'll take care of it.", "km": "ទុកឱ្យខ្ញុំធ្វើ។", "tr": "touk aoy khgnom thveu.",
+      "note": {
+        "fr": "Mot à mot « laisse-moi faire ». Formule serviable et très courante.",
+        "km": "« s'occuper de » មានន័យថា ទទួលធ្វើ។ « en » ជំនួសរឿងដែលនិយាយមុន។ អង់គ្លេស៖ « I'll take care of it »។"
+      }
+    },
+    {
+      "fr": "Tu peux étendre le linge ?", "en": "Can you hang out the laundry?", "km": "អាចហាលខោអាវបានទេ?", "tr": "atch hal khao-av ban té ?",
+      "note": {
+        "fr": "ហាល (hal), « exposer au soleil pour sécher ». Au Cambodge, le linge sèche vite au soleil.",
+        "km": "« étendre le linge » មានន័យថា ហាលខោអាវ។ « le linge » គឺខោអាវ កន្សែង និងភួយ។ អង់គ្លេស៖ « to hang out the laundry »។"
+      }
+    },
+    {
+      "fr": "On partage le travail.", "en": "Let's share the work.", "km": "យើងចែកការងារគ្នា។", "tr": "yeung tchaèk ka-ngéa knéa.",
+      "note": {
+        "fr": "ចែក (tchaèk), « partager, distribuer », suivi de គ្នា, « entre nous ».",
+        "km": "« partager » មានន័យថា ចែកគ្នា។ « on » ជាទូទៅមានន័យថា យើង។ អង់គ្លេស៖ « to share »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Le samedi matin", "km": "ព្រឹកថ្ងៃសៅរ៍"},
+      "fr": "Le samedi matin, nous faisons le ménage ensemble.", "en": "On Saturday mornings, we do the housework together.",
+      "km": "ព្រឹកថ្ងៃសៅរ៍ យើងធ្វើការងារផ្ទះជាមួយគ្នា។", "tr": "preuk thngay sav, yeung thveu ka-ngéa phtéah tchéa-mouy knéa."
+    },
+    {
+      "situation": {"fr": "À l'entrée de la maison", "km": "នៅមាត់ទ្វារផ្ទះ"},
+      "fr": "Tes chaussures sont sales, laisse-les devant la porte.", "en": "Your shoes are dirty, leave them in front of the door.",
+      "km": "ស្បែកជើងកខ្វក់ ទុកវានៅមុខទ្វារ។", "tr": "sbaèk tcheung kâ-khvâk, touk véa neuv mouk tvéa."
+    },
+    {
+      "situation": {"fr": "Après le repas", "km": "ក្រោយពេលញ៉ាំបាយ"},
+      "fr": "Chez nous, celui qui cuisine ne fait pas la vaisselle.", "en": "In our home, whoever cooks doesn't do the dishes.",
+      "km": "នៅផ្ទះយើង អ្នកធ្វើម្ហូបមិនលាងចានទេ។", "tr": "neuv phtéah yeung, néak thveu mhôp min léang tchan té."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Un samedi matin, à la maison.", "en": "One Saturday morning, at home.", "km": "ព្រឹកថ្ងៃសៅរ៍មួយ នៅផ្ទះ។"},
+    "lines": [
+      {"speaker": "B", "fr": "Samedi, c'est le jour du ménage !", "en": "Saturday is housework day!", "km": "ថ្ងៃសៅរ៍ ជាថ្ងៃធ្វើការងារផ្ទះ!", "tr": "thngay sav, tchéa thngay thveu ka-ngéa phtéah !"},
+      {"speaker": "A", "fr": "On partage le travail. Tu balaies, et moi, je fais la lessive ?", "en": "Let's share the work. You sweep, and I'll do the laundry?", "km": "យើងចែកការងារគ្នា។ {B} បោសផ្ទះ ហើយខ្ញុំបោកខោអាវ បានទេ?", "tr": "yeung tchaèk ka-ngéa knéa. {B} baoh phtéah, haeuy khgnom baok khao-av, ban té ?"},
+      {"speaker": "B", "fr": "D'accord. Et la vaisselle d'hier soir ?", "en": "Okay. And the dishes from last night?", "km": "បាន។ ចុះចានពីយប់មិញវិញ?", "tr": "ban. tchoh tchan pi youp mign vign ?"},
+      {"speaker": "A", "fr": "Hier, c'est moi qui ai cuisiné. Donc c'est ton tour !", "en": "Yesterday, I was the one who cooked. So it's your turn!", "km": "ម្សិលមិញ ខ្ញុំធ្វើម្ហូប។ អញ្ចឹងដល់វេន {B} ហើយ!", "tr": "msel-mign, khgnom thveu mhôp. agn-tcheung dâl vén {B} haeuy !"},
+      {"speaker": "B", "fr": "Bon, je m'en occupe. Il fait chaud, le linge va sécher vite.", "en": "Fine, I'll take care of it. It's hot, the laundry will dry quickly.", "km": "បានហើយ ទុកឱ្យខ្ញុំធ្វើ។ ថ្ងៃនេះក្តៅ ខោអាវឆាប់ស្ងួត។", "tr": "ban haeuy, touk aoy khgnom thveu. thngay nih kdav, khao-av tchhap sngouot."},
+      {"speaker": "A", "fr": "Super ! Après, la maison sera propre et on pourra se reposer.", "en": "Great! Afterwards, the house will be clean and we can rest.", "km": "ល្អណាស់! បន្ទាប់មក ផ្ទះនឹងស្អាត ហើយយើងអាចសម្រាកបាន។", "tr": "l'â nah ! bân-toap mok, phtéah neung s'at, haeuy yeung atch sâm-rak ban."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi c'est à {B} de faire la vaisselle ?", "en": "Why does {B} have to do the dishes?", "km": "ហេតុអ្វី {B} ត្រូវលាងចាន?"},
+    "answer": {"fr": "Parce que {A} a cuisiné hier.", "en": "Because {A} cooked yesterday.", "km": "ព្រោះម្សិលមិញ {A} ធ្វើម្ហូប។"}
+  }
+}

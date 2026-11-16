@@ -1,0 +1,115 @@
+{
+  "id": "u006",
+  "order": 6,
+  "level": "debutant",
+  "theme": "manger-et-boire",
+  "title": {"fr": "Manger et boire", "en": "Eating and drinking", "km": "ញ៉ាំ និងផឹក"},
+  "tip": {
+    "fr": "ញ៉ាំបាយហើយឬនៅ? (gnam bay haeuy reu neuv ?), « as-tu déjà mangé ? », est une façon très courante de prendre des nouvelles, presque un bonjour. ញ៉ាំបាយ, mot à mot « manger du riz », veut simplement dire « prendre un repas ».",
+    "km": "ភាសាបារាំងប្រើពាក្យ « du », « de la » ឬ « de l' » នៅពីមុខឈ្មោះអាហារ និងភេសជ្ជៈ៖ du riz, de la soupe, de l'eau។ ភាសាអង់គ្លេសប្រើ « some »៖ some rice, some water។"
+  },
+  "vocabulary": [
+    {
+      "fr": "manger", "en": "to eat", "km": "ញ៉ាំ", "tr": "gnam", "pos": "verbe",
+      "note": {
+        "fr": "Mot courant et poli, qui sert aussi pour les boissons : ញ៉ាំកាហ្វេ, « prendre un café ». En parlant à une personne âgée, on dit ពិសា (pi-sa).",
+        "km": "កិរិយាសព្ទ « manger » ប្តូររូបតាមប្រធាន៖ je mange, tu manges, nous mangeons។ ភាសាអង់គ្លេស៖ « to eat »។"
+      },
+      "example": {"fr": "Nous mangeons à la maison.", "en": "We are eating at home.", "km": "យើងញ៉ាំបាយនៅផ្ទះ។", "tr": "yeung gnam bay neuv phtéah."}
+    },
+    {
+      "fr": "boire", "en": "to drink", "km": "ផឹក", "tr": "pheuk", "pos": "verbe",
+      "note": {
+        "fr": "S'emploie pour toutes les boissons. ញ៉ាំ est un peu plus poli quand on propose à boire.",
+        "km": "កិរិយាសព្ទ « boire » ប្តូររូបច្រើន៖ je bois, tu bois, nous buvons។ ភាសាអង់គ្លេស៖ « to drink »។"
+      },
+      "example": {"fr": "Je bois de l'eau.", "en": "I am drinking water.", "km": "ខ្ញុំផឹកទឹក។", "tr": "khgnom pheuk teuk."}
+    },
+    {
+      "fr": "l'eau", "en": "water", "km": "ទឹក", "tr": "teuk", "pos": "nom",
+      "note": {
+        "fr": "ទឹក désigne tout liquide et entre dans beaucoup de mots : ទឹកកក (teuk kâk), la glace ; ទឹកដោះគោ (teuk dâh ko), le lait.",
+        "km": "« eau » អានថា « អូ »។ ដោយសារពាក្យនេះចាប់ផ្តើមដោយស្រៈ គេសរសេរ « l'eau »។ ភាសាអង់គ្លេស៖ « water »។"
+      },
+      "example": {"fr": "Un verre d'eau, s'il vous plaît.", "en": "A glass of water, please.", "km": "សូមទឹកមួយកែវ។", "tr": "sôm teuk mouy kaèv."}
+    },
+    {
+      "fr": "le riz", "en": "rice", "km": "បាយ", "tr": "bay", "pos": "nom",
+      "note": {
+        "fr": "បាយ est le riz cuit ; le riz cru se dit អង្ករ (âng-kâ). ញ៉ាំបាយ, « manger du riz », veut dire prendre un repas.",
+        "km": "« riz » អានថា « រី »។ អក្សរ z ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « rice »។"
+      },
+      "example": {"fr": "Je mange du riz tous les jours.", "en": "I eat rice every day.", "km": "ខ្ញុំញ៉ាំបាយរាល់ថ្ងៃ។", "tr": "khgnom gnam bay roal thngay."}
+    },
+    {
+      "fr": "le café", "en": "coffee", "km": "កាហ្វេ", "tr": "ka-fé", "pos": "nom",
+      "note": {
+        "fr": "Mot emprunté au français. Avec de la glace : កាហ្វេទឹកកក (ka-fé teuk kâk), très apprécié au Cambodge.",
+        "km": "« café » មានន័យពីរ៖ ភេសជ្ជៈកាហ្វេ និង ហាងកាហ្វេ។ ភាសាអង់គ្លេស៖ « coffee »។"
+      },
+      "example": {"fr": "Un café glacé, s'il vous plaît.", "en": "An iced coffee, please.", "km": "សូមកាហ្វេទឹកកកមួយកែវ។", "tr": "sôm ka-fé teuk kâk mouy kaèv."}
+    },
+    {
+      "fr": "délicieux", "en": "delicious", "km": "ឆ្ងាញ់", "tr": "tchhngagn", "pos": "adjectif",
+      "note": {
+        "fr": "L'adjectif se place après le nom, sans verbe « être » : បាយឆ្ងាញ់, « le riz est délicieux ».",
+        "km": "« délicieux » ប្រើជាមួយនាមភេទប្រុស និង « délicieuse » ជាមួយនាមភេទស្រី។ គេច្រើននិយាយខ្លីថា « C'est bon ! »។"
+      },
+      "example": {"fr": "Ce café est délicieux.", "en": "This coffee is delicious.", "km": "កាហ្វេនេះឆ្ងាញ់។", "tr": "ka-fé nih tchhngagn."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Tu as déjà mangé ?", "en": "Have you eaten yet?", "km": "ញ៉ាំបាយហើយឬនៅ?", "tr": "gnam bay haeuy reu neuv ?",
+      "note": {"fr": "Question très courante, presque une salutation. ហើយឬនៅ (haeuy reu neuv) signifie « déjà, ou pas encore ? ».", "km": "នៅប្រទេសបារាំង សំណួរនេះមិនមែនជាពាក្យស្វាគមន៍ទេ។ គេសួរតែនៅពេលចង់ដឹងមែន។"}
+    },
+    {
+      "fr": "J'ai déjà mangé.", "en": "I have already eaten.", "km": "ខ្ញុំញ៉ាំបាយហើយ។", "tr": "khgnom gnam bay haeuy.",
+      "note": {"fr": "ហើយ (haeuy) en fin de phrase indique que l'action est accomplie. Pas encore : នៅទេ (neuv té).", "km": "« déjà » មានន័យថា រួចហើយ។ បើមិនទាន់ញ៉ាំ គេឆ្លើយថា « Pas encore »។"}
+    },
+    {
+      "fr": "Bon appétit !", "en": "Enjoy your meal!", "km": "សូមអញ្ជើញពិសា។", "tr": "sôm agn-tcheugn pi-sa.",
+      "note": {"fr": "Le khmer n'a pas d'équivalent exact de « bon appétit » : cette formule polie invite les convives à commencer le repas.", "km": "ជនជាតិបារាំងនិយាយ « Bon appétit ! » ជានិច្ច មុនពេលចាប់ផ្តើមញ៉ាំអាហារ។"}
+    },
+    {
+      "fr": "C'est très bon !", "en": "It's very good!", "km": "ឆ្ងាញ់ណាស់!", "tr": "tchhngagn nah !",
+      "note": {"fr": "ណាស់ (nah), placé après l'adjectif, signifie « très ».", "km": "« très » មានន័យថា ណាស់ ហើយដាក់នៅពីមុខគុណនាម៖ très bon, très bien។"}
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À table", "km": "ពេលញ៉ាំបាយ"},
+      "fr": "Tu veux encore du riz ?", "en": "Do you want some more rice?",
+      "km": "ចង់ថែមបាយទៀតទេ?", "tr": "tchâng thaèm bay tiet té ?"
+    },
+    {
+      "situation": {"fr": "Parler de ses habitudes", "km": "និយាយអំពីទម្លាប់"},
+      "fr": "Le matin, je bois un café.", "en": "In the morning, I drink a coffee.",
+      "km": "ពេលព្រឹក ខ្ញុំផឹកកាហ្វេមួយកែវ។", "tr": "pél preuk, khgnom pheuk ka-fé mouy kaèv."
+    },
+    {
+      "situation": {"fr": "À la fin du repas", "km": "ពេលញ៉ាំបាយរួច"},
+      "fr": "Merci, je n'ai plus faim.", "en": "Thank you, I am full.",
+      "km": "អរគុណ ខ្ញុំឆ្អែតហើយ។", "tr": "â-koun, khgnom tchh'aèt haeuy."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "À midi, {A} et {B} sont à la maison.",
+      "en": "At noon, {A} and {B} are at home.",
+      "km": "ពេលថ្ងៃត្រង់ {A} និង {B} នៅផ្ទះ។"
+    },
+    "lines": [
+      {"speaker": "A", "fr": "Tu as déjà mangé ?", "en": "Have you eaten yet?", "km": "{B} ញ៉ាំបាយហើយឬនៅ?", "tr": "{B} gnam bay haeuy reu neuv ?"},
+      {"speaker": "B", "fr": "Pas encore. Et toi ?", "en": "Not yet. And you?", "km": "នៅទេ។ ចុះ {A} វិញ?", "tr": "neuv té. tchoh {A} vign ?"},
+      {"speaker": "A", "fr": "Moi non plus. Le riz est prêt, viens manger !", "en": "Me neither. The rice is ready, come and eat!", "km": "ខ្ញុំក៏នៅដែរ។ បាយឆ្អិនហើយ មកញ៉ាំបាយ!", "tr": "khgnom kâ neuv daè. bay tchh'en haeuy, mok gnam bay !"},
+      {"speaker": "B", "fr": "Merci ! C'est délicieux !", "en": "Thank you! It's delicious!", "km": "អរគុណ! ឆ្ងាញ់ណាស់!", "tr": "â-koun ! tchhngagn nah !"},
+      {"speaker": "A", "fr": "Tu veux boire de l'eau ou du café ?", "en": "Do you want to drink water or coffee?", "km": "ចង់ផឹកទឹក ឬកាហ្វេ?", "tr": "tchâng pheuk teuk reu ka-fé ?"},
+      {"speaker": "B", "fr": "Un verre d'eau, s'il te plaît.", "en": "A glass of water, please.", "km": "សូមទឹកមួយកែវ។", "tr": "sôm teuk mouy kaèv."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Que veut boire {B} ?", "en": "What does {B} want to drink?", "km": "តើ {B} ចង់ផឹកអ្វី?"},
+    "answer": {"fr": "De l'eau.", "en": "Water.", "km": "ទឹក។"}
+  }
+}

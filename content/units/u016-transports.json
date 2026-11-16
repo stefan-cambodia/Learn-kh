@@ -1,0 +1,127 @@
+{
+  "id": "u016",
+  "order": 16,
+  "level": "elementaire",
+  "theme": "transports",
+  "title": {"fr": "Les transports", "en": "Transport", "km": "មធ្យោបាយធ្វើដំណើរ"},
+  "tip": {
+    "fr": "Pour dire comment on se déplace, le khmer emploie ជិះ (tchih), « monter sur, prendre » : ជិះតុកតុក, ជិះម៉ូតូ, ជិះឡានក្រុង. On ajoute ensuite la destination avec ទៅ : ជិះតុកតុកទៅផ្សារ, « aller au marché en tuk-tuk ».",
+    "km": "ភាសាបារាំងប្រើ « en » ជាមួយយានដែលគេចូលអង្គុយខាងក្នុង៖ en voiture, en bus, en tuk-tuk។ ជាមួយម៉ូតូ និងកង់ គេប្រើ « à »៖ à moto, à vélo។ អង់គ្លេសប្រើ « by »៖ by car, by bus។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le tuk-tuk", "en": "tuk-tuk", "km": "តុកតុក", "tr": "tok-tok", "pos": "nom",
+      "note": {
+        "fr": "Le modèle traditionnel, une remorque tirée par une moto, s'appelle aussi រ៉ឺម៉ក (reu-mâk), du français « remorque ».",
+        "km": "ពាក្យនេះដូចគ្នាទាំងបីភាសា។ ភាសាបារាំងសរសេរ « le tuk-tuk » ជានាមភេទប្រុស។"
+      },
+      "example": {"fr": "Nous allons au marché en tuk-tuk.", "en": "We go to the market by tuk-tuk.", "km": "យើងជិះតុកតុកទៅផ្សារ។", "tr": "yeung tchih tok-tok teuv phsa."}
+    },
+    {
+      "fr": "la voiture", "en": "car", "km": "ឡាន", "tr": "lan", "pos": "nom",
+      "note": {
+        "fr": "Mot de tous les jours. Le terme officiel, រថយន្ត (rot-yon), se lit sur les panneaux et dans les journaux.",
+        "km": "« voiture » ជានាមភេទស្រី៖ la voiture, une voiture។ អង់គ្លេស៖ « car »។"
+      },
+      "example": {"fr": "Mon père a une voiture blanche.", "en": "My father has a white car.", "km": "ឪពុកខ្ញុំមានឡានពណ៌សមួយ។", "tr": "eu-pouk khgnom méan lan poa sâ mouy."}
+    },
+    {
+      "fr": "la moto", "en": "motorbike", "km": "ម៉ូតូ", "tr": "mô-tô", "pos": "nom",
+      "note": {
+        "fr": "ជិះម៉ូតូ (tchih mô-tô) = « aller à moto ». Le moto-taxi se dit ម៉ូតូឌុប (mô-tô doup).",
+        "km": "« moto » ជានាមភេទស្រី៖ la moto។ ពាក្យខ្មែរ « ម៉ូតូ » មកពីភាសាបារាំង។ អង់គ្លេស៖ « motorbike »។"
+      },
+      "example": {"fr": "Je vais au travail à moto.", "en": "I go to work by motorbike.", "km": "ខ្ញុំជិះម៉ូតូទៅធ្វើការ។", "tr": "khgnom tchih mô-tô teuv thveu-ka."}
+    },
+    {
+      "fr": "le bus", "en": "bus", "km": "ឡានក្រុង", "tr": "lan-krong", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « voiture de ville ». Se dit aussi pour les cars qui relient les villes.",
+        "km": "« bus » ជានាមភេទប្រុស៖ le bus។ ក្នុងពាក្យនេះ ភាសាបារាំងអានអក្សរ s នៅចុងពាក្យ។ អង់គ្លេសសរសេរដូចគ្នា។"
+      },
+      "example": {"fr": "Le bus pour Siem Reap part le matin.", "en": "The bus to Siem Reap leaves in the morning.", "km": "ឡានក្រុងទៅសៀមរាបចេញពេលព្រឹក។", "tr": "lan-krong teuv siem-réap tchégn pél preuk."}
+    },
+    {
+      "fr": "la route", "en": "road", "km": "ផ្លូវ", "tr": "phleuv", "pos": "nom",
+      "note": {
+        "fr": "ផ្លូវ signifie « route », « rue » et « chemin ». Les rues numérotées de Phnom Penh se disent ផ្លូវលេខ… (rue numéro…).",
+        "km": "« route » ជានាមភេទស្រី៖ la route។ ផ្លូវក្នុងទីក្រុងហៅថា « la rue »។ អង់គ្លេស៖ « road » និង « street »។"
+      },
+      "example": {"fr": "Il y a beaucoup de voitures sur cette route.", "en": "There are a lot of cars on this road.", "km": "ផ្លូវនេះមានឡានច្រើនណាស់។", "tr": "phleuv nih méan lan tchraeun nah."}
+    },
+    {
+      "fr": "conduire", "en": "to drive", "km": "បើកបរ", "tr": "baeuk-bâ", "pos": "verbe",
+      "note": {
+        "fr": "បើក seul veut dire « ouvrir » et « conduire ». Au quotidien, on précise le véhicule : បើកឡាន, conduire une voiture ; pour une moto, on dit plutôt ជិះម៉ូតូ.",
+        "km": "« conduire »៖ je conduis, nous conduisons។ អង់គ្លេស៖ « drive » ហើយអតីតកាលគឺ « drove »។"
+      },
+      "example": {"fr": "Je ne sais pas conduire.", "en": "I cannot drive.", "km": "ខ្ញុំមិនចេះបើកបរទេ។", "tr": "khgnom min tchéh baeuk-bâ té."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est combien pour aller au marché ?", "en": "How much is it to go to the market?", "km": "ទៅផ្សារថ្លៃប៉ុន្មាន?", "tr": "teuv phsa thlay pon-man ?",
+      "note": {
+        "fr": "Pas besoin de « pour » : ទៅផ្សារ (aller au marché) + ថ្លៃប៉ុន្មាន (coûte combien). Mieux vaut fixer le prix avant de monter.",
+        "km": "មុនពេលឡើងតុកតុក គេសួរថា « C'est combien pour aller à… ? »។ អង់គ្លេស៖ « How much is it to go to…? »។"
+      }
+    },
+    {
+      "fr": "Arrêtez-vous ici, s'il vous plaît.", "en": "Please stop here.", "km": "សូមឈប់ត្រង់នេះ។", "tr": "sôm tchhoup trâng nih.",
+      "note": {
+        "fr": "ឈប់ (tchhoup) = « s'arrêter » ; ត្រង់នេះ (trâng nih) = « juste ici ».",
+        "km": "« Arrêtez-vous » ជាទម្រង់បញ្ជាដោយគួរសម ប្រើជាមួយ « vous »។ អង់គ្លេស៖ « Please stop here »។"
+      }
+    },
+    {
+      "fr": "Roulez doucement, s'il vous plaît.", "en": "Please drive slowly.", "km": "សូមបើកយឺតៗ។", "tr": "sôm baeuk yeut-yeut.",
+      "note": {
+        "fr": "Le signe ៗ indique que le mot se répète : យឺតៗ se lit « yeut-yeut », « tout doucement ».",
+        "km": "« doucement » មានន័យថា យឺតៗ។ អង់គ្លេស៖ « slowly »។"
+      }
+    },
+    {
+      "fr": "Il y a beaucoup d'embouteillages.", "en": "There is a lot of traffic.", "km": "ស្ទះផ្លូវណាស់។", "tr": "stéah phleuv nah.",
+      "note": {
+        "fr": "ស្ទះ (stéah) = « bouché ». ស្ទះផ្លូវ, « la route est bouchée », se dit tous les jours à Phnom Penh.",
+        "km": "« embouteillage » មានន័យថា ស្ទះផ្លូវ ឬស្ទះចរាចរណ៍។ អង់គ្លេស៖ « traffic jam »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "En tuk-tuk", "km": "ពេលជិះតុកតុក"},
+      "fr": "Arrêtez-vous devant la porte rouge, s'il vous plaît.", "en": "Please stop in front of the red door.",
+      "km": "សូមឈប់នៅមុខទ្វារក្រហម។", "tr": "sôm tchhoup neuv mouk tvéa krâ-hâm."
+    },
+    {
+      "situation": {"fr": "Parler de soi", "km": "និយាយអំពីខ្លួនឯង"},
+      "fr": "Je ne sais pas conduire une voiture, mais je sais conduire une moto.", "en": "I cannot drive a car, but I can ride a motorbike.",
+      "km": "ខ្ញុំមិនចេះបើកឡានទេ ប៉ុន្តែខ្ញុំចេះជិះម៉ូតូ។", "tr": "khgnom min tchéh baeuk lan té, pon-taè khgnom tchéh tchih mô-tô."
+    },
+    {
+      "situation": {"fr": "Préparer un voyage", "km": "ពេលរៀបចំធ្វើដំណើរ"},
+      "fr": "Demain, nous prenons le bus pour aller à Siem Reap.", "en": "Tomorrow, we are taking the bus to Siem Reap.",
+      "km": "ថ្ងៃស្អែក យើងជិះឡានក្រុងទៅសៀមរាប។", "tr": "thngay s'aèk, yeung tchih lan-krong teuv siem-réap."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Jeu de rôle dans la rue : {A} conduit un tuk-tuk et {B} veut aller au marché.",
+      "en": "Role play in the street: {A} drives a tuk-tuk and {B} wants to go to the market.",
+      "km": "លេងតួនៅតាមផ្លូវ៖ {A} បើកតុកតុក ហើយ {B} ចង់ទៅផ្សារ។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "Bonjour ! C'est combien pour aller au marché ?", "en": "Hello! How much is it to go to the market?", "km": "សួស្តី! ទៅផ្សារថ្លៃប៉ុន្មាន?", "tr": "souos-dey ! teuv phsa thlay pon-man ?"},
+      {"speaker": "A", "fr": "Huit mille riels.", "en": "Eight thousand riel.", "km": "ប្រាំបីពាន់រៀល។", "tr": "pram-bey poan riel."},
+      {"speaker": "B", "fr": "C'est très cher ! Six mille, d'accord ?", "en": "That is very expensive! Six thousand, okay?", "km": "ថ្លៃណាស់! ប្រាំមួយពាន់បានទេ?", "tr": "thlay nah ! pram-mouy poan ban té ?"},
+      {"speaker": "A", "fr": "D'accord, montez !", "en": "Okay, get in!", "km": "បាន ឡើងមក!", "tr": "ban, laeung mok !"},
+      {"speaker": "B", "fr": "Merci. Roulez doucement, s'il vous plaît, il y a beaucoup de voitures.", "en": "Thank you. Please drive slowly, there are a lot of cars.", "km": "អរគុណ។ សូមបើកយឺតៗ ឡានច្រើនណាស់។", "tr": "â-koun. sôm baeuk yeut-yeut, lan tchraeun nah."},
+      {"speaker": "A", "fr": "Oui, pas de problème, je roule doucement.", "en": "Yes, no problem, I drive slowly.", "km": "{A_yes} អត់អីទេ ខ្ញុំបើកយឺតៗ។", "tr": "{A_yes}, ât ey té, khgnom baeuk yeut-yeut."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Combien coûte le trajet en tuk-tuk ?", "en": "How much does the tuk-tuk ride cost?", "km": "តើជិះតុកតុកទៅផ្សារថ្លៃប៉ុន្មាន?"},
+    "answer": {"fr": "Six mille riels.", "en": "Six thousand riel.", "km": "ប្រាំមួយពាន់រៀល។"}
+  }
+}

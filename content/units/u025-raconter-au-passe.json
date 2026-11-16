@@ -1,0 +1,125 @@
+{
+  "id": "u025",
+  "order": 25,
+  "level": "intermediaire",
+  "theme": "raconter-au-passe",
+  "title": {"fr": "Raconter au passé", "en": "Talking about the past", "km": "និយាយអំពីអតីតកាល"},
+  "tip": {
+    "fr": "Le khmer marque le passé par de petits mots : បាន (ban) devant le verbe indique une action accomplie, ហើយ (haeuy) en fin de phrase signifie « déjà ». Souvent, un mot de temps comme ម្សិលមិញ (hier) suffit. En anglais, comparez « I ate » (à un moment précis) et « I have eaten » (c'est déjà fait).",
+    "km": "ភាសាបារាំងប្រើ « passé composé » សម្រាប់រឿងដែលបានកើតឡើងរួចហើយ៖ avoir ឬ être + កិរិយាសព្ទ។ ឧទាហរណ៍៖ « j'ai mangé » (ខ្ញុំបានញ៉ាំ), « je suis allé » (ខ្ញុំបានទៅ)។ អង់គ្លេស៖ « I ate », « I went »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "déjà", "en": "already", "km": "រួចហើយ", "tr": "rouotch haeuy", "pos": "adverbe",
+      "note": {
+        "fr": "រួចហើយ insiste sur le fait que c'est terminé. ហើយ (haeuy) seul, en fin de phrase, suffit souvent : ញ៉ាំហើយ, « j'ai mangé ».",
+        "km": "« déjà » ដាក់នៅកណ្តាល « passé composé »៖ j'ai déjà mangé។ អង់គ្លេស៖ « already »។"
+      },
+      "example": {"fr": "Nous avons déjà mangé.", "en": "We have already eaten.", "km": "យើងញ៉ាំបាយរួចហើយ។", "tr": "yeung gnam bay rouotch haeuy."}
+    },
+    {
+      "fr": "avant", "en": "before", "km": "ពីមុន", "tr": "pi moun", "pos": "adverbe",
+      "note": {
+        "fr": "ពីមុន signifie « auparavant, autrefois ». Pour « avant de faire quelque chose », on dit មុនពេល (moun pél) suivi du verbe.",
+        "km": "« avant » មានន័យថា ពីមុន ឬមុន។ « avant de manger » = មុនពេលញ៉ាំបាយ។ អង់គ្លេស៖ « before »។"
+      },
+      "example": {"fr": "Avant, j'habitais en France.", "en": "Before, I lived in France.", "km": "ពីមុន ខ្ញុំរស់នៅប្រទេសបារាំង។", "tr": "pi moun, khgnom rouh neuv prâ-téh ba-rang."}
+    },
+    {
+      "fr": "la semaine dernière", "en": "last week", "km": "សប្តាហ៍មុន", "tr": "sap-da moun", "pos": "nom",
+      "note": {
+        "fr": "សប្តាហ៍ (sap-da), la semaine, suivi de មុន (moun), « d'avant ». À l'oral, on dit aussi អាទិត្យមុន (a-teut moun). De même : ខែមុន, le mois dernier ; ឆ្នាំមុន, l'année dernière.",
+        "km": "« dernière » នៅទីនេះមានន័យថា មុន។ « la semaine dernière » = សប្តាហ៍មុន, « l'année dernière » = ឆ្នាំមុន។ អង់គ្លេស៖ « last week »។"
+      },
+      "example": {"fr": "La semaine dernière, nous sommes allés à Siem Reap.", "en": "Last week, we went to Siem Reap.", "km": "សប្តាហ៍មុន យើងបានទៅសៀមរាប។", "tr": "sap-da moun, yeung ban teuv siem-réap."}
+    },
+    {
+      "fr": "finir", "en": "to finish", "km": "ចប់", "tr": "tchâp", "pos": "verbe",
+      "note": {
+        "fr": "ចប់ se dit d'une chose qui se termine. Placé après un autre verbe, il indique que l'action est achevée : ធ្វើចប់, « finir de faire ». Le verbe soigné pour « terminer quelque chose » est បញ្ចប់ (bagn-tchâp).",
+        "km": "« finir »៖ je finis, nous finissons។ អតីតកាល៖ « j'ai fini » (ខ្ញុំធ្វើចប់ហើយ)។ អង់គ្លេស៖ « to finish », « to end »។"
+      },
+      "example": {"fr": "Le film a fini à dix heures.", "en": "The film ended at ten o'clock.", "km": "កុនចប់ម៉ោងដប់។", "tr": "kon tchâp maong dâp."}
+    },
+    {
+      "fr": "se souvenir", "en": "to remember", "km": "ចាំ", "tr": "tcham", "pos": "verbe",
+      "note": {
+        "fr": "ចាំ signifie « se souvenir », mais aussi « attendre », comme dans រង់ចាំ. Le contexte fait la différence : នៅចាំទេ? « tu t'en souviens encore ? ».",
+        "km": "« se souvenir de »៖ je me souviens de ce jour (ខ្ញុំចាំថ្ងៃនោះ)។ អង់គ្លេស៖ « to remember »។"
+      },
+      "example": {"fr": "Tu te souviens de ce restaurant ?", "en": "Do you remember this restaurant?", "km": "នៅចាំភោជនីយដ្ឋាននេះទេ?", "tr": "neuv tcham phô-tchéa-ni-yéa-than nih té ?"}
+    },
+    {
+      "fr": "le voyage", "en": "trip", "km": "ដំណើរ", "tr": "dâm-naeu", "pos": "nom",
+      "note": {
+        "fr": "ដំណើរ désigne le trajet, le déplacement. Voyager se dit ធ្វើដំណើរ (thveu dâm-naeu) ; partir en balade : ទៅដើរលេង (teuv daeu léng).",
+        "km": "« voyage » ជានាមភេទប្រុស៖ le voyage។ « Bon voyage ! » ប្រើជូនពរអ្នកដែលចេញដំណើរ។ អង់គ្លេស៖ « trip », « journey »។"
+      },
+      "example": {"fr": "Le voyage a duré six heures.", "en": "The trip took six hours.", "km": "ដំណើរនេះចំណាយពេលប្រាំមួយម៉ោង។", "tr": "dâm-naeu nih tchâm-nay pél pram-mouy maong."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Qu'est-ce que tu as fait hier ?", "en": "What did you do yesterday?", "km": "ម្សិលមិញបានធ្វើអ្វីខ្លះ?", "tr": "msel-mign ban thveu ey khlah ?",
+      "note": {
+        "fr": "ខ្លះ (khlah), « quelques », en fin de question invite à énumérer : « qu'as-tu fait, entre autres ? ».",
+        "km": "សំណួរក្នុងអតីតកាល៖ « Qu'est-ce que tu as fait ? »។ អង់គ្លេសប្រើ « did »៖ « What did you do? »។"
+      }
+    },
+    {
+      "fr": "Il y a longtemps.", "en": "A long time ago.", "km": "យូរណាស់មកហើយ។", "tr": "you nah mok haeuy.",
+      "note": {
+        "fr": "យូរ (you) veut dire « longtemps ». មកហើយ indique que le temps s'est écoulé jusqu'à maintenant.",
+        "km": "« il y a » + ពេលវេលា មានន័យថា …មុន៖ « il y a deux jours » (ពីរថ្ងៃមុន)។ អង់គ្លេស៖ « two days ago »។"
+      }
+    },
+    {
+      "fr": "Je n'ai pas encore fini.", "en": "I have not finished yet.", "km": "ខ្ញុំធ្វើមិនទាន់ចប់ទេ។", "tr": "khgnom thveu min toan tchâp té.",
+      "note": {
+        "fr": "មិនទាន់… ទេ (min toan… té) signifie « pas encore ». Mot à mot : « je fais, pas encore fini ».",
+        "km": "« ne… pas encore » មានន័យថា មិនទាន់…ទេ។ អង់គ្លេស៖ « not… yet »។"
+      }
+    },
+    {
+      "fr": "Je ne m'en souviens pas.", "en": "I can't remember.", "km": "ខ្ញុំចាំមិនបានទេ។", "tr": "khgnom tcham min ban té.",
+      "note": {
+        "fr": "Verbe + មិនបាន (min ban) : ne pas arriver à faire. Si l'on a oublié, on dit ខ្ញុំភ្លេចហើយ (khgnom phlétch haeuy), « j'ai oublié ».",
+        "km": "« Je ne m'en souviens pas » មានន័យថា ខ្ញុំចាំមិនបានទេ។ « J'ai oublié » មានន័យថា ខ្ញុំភ្លេចហើយ។ អង់គ្លេស៖ « I can't remember », « I forgot »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Le lendemain d'une sortie", "km": "មួយថ្ងៃក្រោយពេលដើរលេង"},
+      "fr": "Hier soir, nous avons mangé dans un bon restaurant.", "en": "Last night, we ate at a good restaurant.",
+      "km": "យប់មិញ យើងបានញ៉ាំបាយនៅភោជនីយដ្ឋានឆ្ងាញ់មួយ។", "tr": "youp mign, yeung ban gnam bay neuv phô-tchéa-ni-yéa-than tchhngagn mouy."
+    },
+    {
+      "situation": {"fr": "En regardant des photos", "km": "ពេលមើលរូបថត"},
+      "fr": "L'année dernière, nous sommes allés au bord de la mer.", "en": "Last year, we went to the seaside.",
+      "km": "ឆ្នាំមុន យើងបានទៅដើរលេងនៅមាត់សមុទ្រ។", "tr": "tchhnam moun, yeung ban teuv daeu léng neuv moat sâ-mot."
+    },
+    {
+      "situation": {"fr": "Au travail", "km": "នៅកន្លែងធ្វើការ"},
+      "fr": "J'ai déjà fini ce travail.", "en": "I have already finished this work.",
+      "km": "ខ្ញុំបានធ្វើការងារនេះចប់រួចហើយ។", "tr": "khgnom ban thveu ka-ngéa nih tchâp rouotch haeuy."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Le soir, {A} et {B} regardent les photos d'un voyage.", "en": "In the evening, {A} and {B} are looking at photos from a trip.", "km": "ពេលល្ងាច {A} និង {B} កំពុងមើលរូបថតពេលទៅដើរលេង។"},
+    "lines": [
+      {"speaker": "B", "fr": "Tu te souviens de notre voyage à Siem Reap ?", "en": "Do you remember our trip to Siem Reap?", "km": "នៅចាំពេលយើងទៅសៀមរាបទេ?", "tr": "neuv tcham pél yeung teuv siem-réap té ?"},
+      {"speaker": "A", "fr": "Oui, bien sûr ! Nous avons visité les temples.", "en": "Yes, of course! We visited the temples.", "km": "{A_yes} ចាំតើ! យើងបានទៅមើលប្រាសាទ។", "tr": "{A_yes}, tcham taeu ! yeung ban teuv meul pra-sat."},
+      {"speaker": "B", "fr": "Avant, je ne connaissais pas le Cambodge.", "en": "Before, I did not know Cambodia.", "km": "ពីមុន ខ្ញុំមិនស្គាល់ប្រទេសកម្ពុជាទេ។", "tr": "pi moun, khgnom min skoal prâ-téh kam-pou-tchéa té."},
+      {"speaker": "A", "fr": "Et maintenant, tu as déjà vu beaucoup d'endroits !", "en": "And now, you have already seen many places!", "km": "ហើយឥឡូវ {B} បានឃើញកន្លែងច្រើនរួចហើយ!", "tr": "haeuy ey-leuv {B} ban kheugn kân-laèng tchraeun rouotch haeuy !"},
+      {"speaker": "B", "fr": "Le voyage en bus était long, mais le paysage était beau.", "en": "The bus trip was long, but the scenery was beautiful.", "km": "ដំណើរតាមឡានក្រុងយូរណាស់ ប៉ុន្តែទេសភាពស្អាត។", "tr": "dâm-naeu tam lan-krong you nah, pon-taè té-sa-phéap s'at."},
+      {"speaker": "A", "fr": "À la fin du voyage, nous avons bien dormi !", "en": "At the end of the trip, we slept well!", "km": "ពេលដំណើរចប់ យើងគេងលក់ស្រួលណាស់!", "tr": "pél dâm-naeu tchâp, yeung kéng lok srouol nah !"},
+      {"speaker": "B", "fr": "On y retourne l'année prochaine ?", "en": "Shall we go back next year?", "km": "ឆ្នាំក្រោយ យើងទៅម្តងទៀតទេ?", "tr": "tchhnam kraoy, yeung teuv mdâng tiet té ?"},
+      {"speaker": "A", "fr": "Oui, j'ai très envie d'y retourner !", "en": "Yes, I really want to go back!", "km": "{A_yes} ខ្ញុំចង់ទៅម្តងទៀតណាស់!", "tr": "{A_yes}, khgnom tchâng teuv mdâng tiet nah !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où {A} et {B} sont-ils allés en voyage ?", "en": "Where did {A} and {B} go on their trip?", "km": "តើ {A} និង {B} បានទៅដើរលេងនៅឯណា?"},
+    "answer": {"fr": "Ils sont allés à Siem Reap et ils ont visité les temples.", "en": "They went to Siem Reap and visited the temples.", "km": "ពួកគេបានទៅសៀមរាប ហើយបានទៅមើលប្រាសាទ។"}
+  }
+}

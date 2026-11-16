@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="fr" data-profile="B" data-tz="Asia/Phnom_Penh" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>FR - ENG - Khmer Learning</title>
+<meta name="description" content="Leçons quotidiennes de français, d&#x27;anglais et de khmer.">
+<link rel="icon" href="./css/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./css/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="FR-ENG-KH">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f5f2ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14161c" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="./css/style.css?v=1794815673">
+<script>
+(function () {
+  var root = document.documentElement, profile = null;
+  root.classList.add("js");
+  try {
+    var m = /(?:^|[#&])profil=([AB])/.exec(location.hash);
+    profile = m ? m[1] : localStorage.getItem("frkh-profile");
+  } catch (e) {}
+  if (profile === "A" || profile === "B") root.setAttribute("data-profile", profile);
+  try { var size = localStorage.getItem("frkh-size"); if (size === "l" || size === "xl") root.setAttribute("data-size", size); } catch (e) {}
+})();
+</script>
+</head>
+<body class="page-index">
+<a class="skip" href="#contenu"><span class="ui-fr">Aller au contenu</span><span class="ui-km" lang="km">ទៅកាន់មាតិកា</span></a>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" data-nav href="./index.html" title="FR - ENG - Khmer Learning">
+      <span class="brand-dots" aria-hidden="true"><i class="dot-fr"></i><i class="dot-en"></i><i class="dot-km"></i></span>
+      <span class="brand-name">FR - ENG - Khmer Learning</span>
+    </a>
+    <div class="tools">
+      <a class="tool-link tool-review" data-nav href="./revision.html" title="Réviser" aria-label="Réviser"><span class="tool-link-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="ui-fr">Réviser</span><span class="ui-km" lang="km">រំលឹក</span></a>
+      <a class="tool-link tool-lexicon" data-nav href="./lexique.html" title="Lexique" aria-label="Lexique"><span class="tool-link-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5zM5 19.5A1.5 1.5 0 0 0 6.5 21H19" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><span class="ui-fr">Lexique</span><span class="ui-km" lang="km">សទ្ទានុក្រម</span></a>
+      <a class="tool-link" data-nav href="./alphabet.html" title="Alphabets" aria-label="Alphabets"><span class="tool-link-glyph" aria-hidden="true" lang="km">ក</span><span class="ui-fr">Alphabets</span><span class="ui-km" lang="km">អក្សរ</span></a>
+      <button type="button" class="tool-size js-only" id="size-toggle" title="Taille du texte" aria-label="Taille du texte"><span aria-hidden="true">A<small>A</small></span></button>
+      <button type="button" class="tool-slow js-only" id="slow-toggle" aria-pressed="false">
+        <span class="tool-slow-rate" aria-hidden="true">0,75×</span><span class="ui-fr">Lecture lente</span><span class="ui-km" lang="km">អានយឺត</span>
+      </button>
+      <div class="profile-switch js-only" role="group" aria-label="Profil d&#x27;apprentissage">
+        <button type="button" data-profile-choice="A" aria-pressed="false">Elle</button>
+        <button type="button" data-profile-choice="B" aria-pressed="false">Lui</button>
+      </div>
+    </div>
+  </div>
+</header>
+<main id="contenu" class="page">
+<section class="hero">
+  <p class="hero-kicker">FR - ENG - Khmer Learning</p>
+  <h1 class="hero-greeting"><span class="ui-fr">Bonjour !</span><span class="ui-km" lang="km">សួស្តី!</span></h1>
+  <p class="tagline"><span class="ui-fr">Une leçon de moins de dix minutes, chaque jour, en trois langues.</span><span class="ui-km" lang="km">មេរៀនខ្លីមិនដល់ ១០ នាទី រៀងរាល់ថ្ងៃ ជាបីភាសា។</span></p>
+</section>
+<section class="today js-only" id="today-panel" hidden>
+  <div class="today-main">
+    <p class="today-label"><span class="today-label-today"><span class="ui-fr">Leçon du jour</span><span class="ui-km" lang="km">មេរៀនថ្ងៃនេះ</span></span><span class="today-label-latest" hidden><span class="ui-fr">Dernière leçon disponible</span><span class="ui-km" lang="km">មេរៀនចុងក្រោយ</span></span></p>
+    <a class="today-link" data-nav id="today-link" href="index.html">
+      <span class="today-num" id="today-num"></span>
+      <span class="today-title tri-title" id="today-title"></span>
+      <span class="today-go"><span class="ui-fr">Commencer</span><span class="ui-km" lang="km">ចាប់ផ្តើម</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+  </div>
+  <div class="today-progress">
+    <div class="progress-head">
+      <p class="progress-text" id="progress-text"></p>
+      <p class="streak" id="streak" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 3.5 5 5.5 5 10a5 5 0 0 1-10 0c0-2.2 1.2-3.6 2.4-4.6.2 1.6 1 2.6 2.1 2.9C11 8.9 11 6 12 3z" fill="currentColor"/></svg><span class="streak-count"></span></p>
+    </div>
+    <div class="progress-bar" aria-hidden="true"><span id="progress-fill"></span></div>
+    <div class="activity" id="activity" aria-hidden="true"></div>
+    <div class="progress-links">
+      <a class="due-link" data-nav id="due-link" href="revision.html" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><strong id="due-count"></strong> <span class="ui-fr">à réviser aujourd&#x27;hui</span><span class="ui-km" lang="km">ត្រូវរំលឹកថ្ងៃនេះ</span></a>
+      <a class="resume-link" data-nav id="resume-link" href="index.html" hidden></a>
+    </div>
+  </div>
+  <template id="badge-today"><span class="badge badge-today"><span class="ui-fr">Aujourd&#x27;hui</span><span class="ui-km" lang="km">ថ្ងៃនេះ</span></span></template>
+  <template id="badge-future"><span class="badge badge-future"><span class="ui-fr">À venir</span><span class="ui-km" lang="km">នាពេលខាងមុខ</span></span></template>
+</section>
+<nav class="shortcuts" aria-label="Accès rapide">
+<a class="shortcut shortcut-review" data-nav href="revision.html"><span class="shortcut-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="shortcut-text"><span class="shortcut-title"><span class="ui-fr">Réviser</span><span class="ui-km" lang="km">រំលឹក</span></span><span class="shortcut-desc"><span class="ui-fr">Cartes mémoire et exercice d&#x27;écoute</span><span class="ui-km" lang="km">កាតចងចាំ និងលំហាត់ស្តាប់</span></span></span></a><a class="shortcut shortcut-lexicon" data-nav href="lexique.html"><span class="shortcut-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5zM5 19.5A1.5 1.5 0 0 0 6.5 21H19" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><span class="shortcut-text"><span class="shortcut-title"><span class="ui-fr">Lexique</span><span class="ui-km" lang="km">សទ្ទានុក្រម</span></span><span class="shortcut-desc"><span class="ui-fr">Tous les mots vus, avec l&#x27;audio</span><span class="ui-km" lang="km">ពាក្យទាំងអស់ដែលបានរៀន ព្រមទាំងសំឡេង</span></span></span></a><a class="shortcut shortcut-alphabet" data-nav href="alphabet.html"><span class="shortcut-icon" aria-hidden="true"><span lang="km">ក</span></span><span class="shortcut-text"><span class="shortcut-title"><span class="ui-fr">Alphabets</span><span class="ui-km" lang="km">អក្សរ</span></span><span class="shortcut-desc"><span class="ui-fr">Lettres khmères et latines</span><span class="ui-km" lang="km">អក្សរខ្មែរ និងអក្សរឡាតាំង</span></span></span></a>
+</nav>
+<section class="stats" aria-label="Résumé">
+<div class="stat"><p class="stat-value"><span class="ui-fr">2</span><span class="ui-km" lang="km">២</span></p><p class="stat-label"><span class="ui-fr">Leçons disponibles</span><span class="ui-km" lang="km">ចំនួនមេរៀនសរុប</span></p></div>
+<div class="stat"><p class="stat-value"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></p><p class="stat-label"><span class="ui-fr">Niveau actuel</span><span class="ui-km" lang="km">កម្រិតបច្ចុប្បន្ន</span></p></div>
+<div class="stat"><p class="stat-value"><span class="ui-fr">20</span><span class="ui-km" lang="km">២០</span></p><p class="stat-label"><span class="ui-fr">Mots et expressions appris</span><span class="ui-km" lang="km">ពាក្យ និងឃ្លាដែលបានរៀន</span></p></div>
+
+</section>
+<h2 class="section-title" id="toutes"><span class="ui-fr">Toutes les leçons</span><span class="ui-km" lang="km">មេរៀនទាំងអស់</span></h2>
+<section class="finder">
+  <label class="search" for="search">
+    <span class="search-label visually-hidden"><span class="ui-fr">Rechercher une leçon</span><span class="ui-km" lang="km">ស្វែងរកមេរៀន</span></span>
+    <span class="search-field">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input type="search" id="search" autocomplete="off" spellcheck="false"
+             placeholder="Numéro, date, thème ou mot en français, anglais ou khmer…" data-placeholder-fr="Numéro, date, thème ou mot en français, anglais ou khmer…" data-placeholder-km="លេខ កាលបរិច្ឆេទ ប្រធានបទ ឬពាក្យ…">
+    </span>
+  </label>
+  <div class="filters js-only" role="group" aria-label="Niveau"><button type="button" class="chip is-active" data-level=""><span class="ui-fr">Tous les niveaux</span><span class="ui-km" lang="km">គ្រប់កម្រិត</span></button><button type="button" class="chip" data-level="debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></button><button type="button" class="chip" data-level="elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></button><button type="button" class="chip" data-level="intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></button></div>
+</section>
+<p class="result-count" id="result-count" aria-live="polite"></p>
+<p class="future-toggle-wrap js-only"><button type="button" class="chip future-toggle" id="future-toggle" aria-pressed="false" hidden></button></p>
+
+<ol class="lesson-list" id="lesson-list">
+<li class="lesson-card is-future" data-search="40 #40 lecon 40 lesson 40 2026-12-24 24/12/2026 24-12-2026 24/12/2026 jeudi 24 decembre 2026 thursday, december 24, 2026 ថ្ងៃព្រហស្បតិ៍ ទី២៤ ខែធ្នូ ឆ្នាំ២០២៦ la-vie-a-deux la vie a deux la vie a deux life together ជីវិតរួមគ្នា intermediaire កម្រិតមធ្យម intermediaire l&#x27;amour love សេចក្តីស្រឡាញ់ manquer to miss នឹក se marier to get married រៀបការ le coeur heart បេះដូង la confiance trust ការទុកចិត្ត promettre to promise សន្យា je t&#x27;aime. i love you. ខ្ញុំស្រឡាញ់អ្នក។ tu me manques. i miss you. ខ្ញុំនឹកអ្នកណាស់។ prends soin de toi. take care of yourself. ថែរក្សាខ្លួនផង។ rentre vite. come back soon. ឆាប់ត្រឡប់មកវិញណា។" data-level="intermediaire" data-number="40" data-date="2026-12-24">
+  <a class="lesson-link" data-nav href="lessons/lesson-040.html" aria-label="Ouvrir la leçon 40">
+    <span class="lesson-num"><span class="ui-fr">40</span><span class="ui-km" lang="km">៤០</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">La vie à deux</span><span class="t-en" lang="en">Life together</span><span class="t-km" lang="km">ជីវិតរួមគ្នា</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-24"><span class="ui-fr">jeudi 24 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃព្រហស្បតិ៍ ទី២៤ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">l&#x27;amour</span><span lang="en">love</span><span lang="km">សេចក្តីស្រឡាញ់</span></li><li><span lang="fr">manquer</span><span lang="en">to miss</span><span lang="km">នឹក</span></li><li><span lang="fr">se marier</span><span lang="en">to get married</span><span lang="km">រៀបការ</span></li><li><span lang="fr">le cœur</span><span lang="en">heart</span><span lang="km">បេះដូង</span></li><li><span lang="fr">la confiance</span><span lang="en">trust</span><span lang="km">ការទុកចិត្ត</span></li><li><span lang="fr">promettre</span><span lang="en">to promise</span><span lang="km">សន្យា</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="39 #39 lecon 39 lesson 39 2026-12-23 23/12/2026 23-12-2026 23/12/2026 mercredi 23 decembre 2026 wednesday, december 23, 2026 ថ្ងៃពុធ ទី២៣ ខែធ្នូ ឆ្នាំ២០២៦ loisirs loisirs les loisirs free time ការកម្សាន្ត intermediaire កម្រិតមធ្យម intermediaire la musique music តន្ត្រី chanter to sing ច្រៀង danser to dance រាំ lire to read អាន le film film ភាពយន្ត le sport sport កីឡា qu&#x27;est-ce que tu fais le week-end ? what do you do at the weekend? ចុងសប្តាហ៍ធ្វើអ្វីខ្លះ? j&#x27;adore ca ! i love it! ខ្ញុំចូលចិត្តណាស់! je n&#x27;aime pas trop ca. i&#x27;m not really into it. ខ្ញុំមិនសូវចូលចិត្តទេ។ on va au cinema ? shall we go to the cinema? ទៅមើលកុនទេ?" data-level="intermediaire" data-number="39" data-date="2026-12-23">
+  <a class="lesson-link" data-nav href="lessons/lesson-039.html" aria-label="Ouvrir la leçon 39">
+    <span class="lesson-num"><span class="ui-fr">39</span><span class="ui-km" lang="km">៣៩</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les loisirs</span><span class="t-en" lang="en">Free time</span><span class="t-km" lang="km">ការកម្សាន្ត</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-23"><span class="ui-fr">mercredi 23 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃពុធ ទី២៣ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">la musique</span><span lang="en">music</span><span lang="km">តន្ត្រី</span></li><li><span lang="fr">chanter</span><span lang="en">to sing</span><span lang="km">ច្រៀង</span></li><li><span lang="fr">danser</span><span lang="en">to dance</span><span lang="km">រាំ</span></li><li><span lang="fr">lire</span><span lang="en">to read</span><span lang="km">អាន</span></li><li><span lang="fr">le film</span><span lang="en">film</span><span lang="km">ភាពយន្ត</span></li><li><span lang="fr">le sport</span><span lang="en">sport</span><span lang="km">កីឡា</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="38 #38 lecon 38 lesson 38 2026-12-22 22/12/2026 22-12-2026 22/12/2026 mardi 22 decembre 2026 tuesday, december 22, 2026 ថ្ងៃអង្គារ ទី២២ ខែធ្នូ ឆ្នាំ២០២៦ le-menage le menage le menage housework ការងារផ្ទះ intermediaire កម្រិតមធ្យម intermediaire nettoyer to clean សម្អាត faire la lessive to do the laundry បោកខោអាវ balayer to sweep បោស faire la vaisselle to do the dishes លាងចាន sale dirty កខ្វក់ propre clean ស្អាត c&#x27;est ton tour. it&#x27;s your turn. ដល់វេនអ្នកហើយ។ je m&#x27;en occupe. i&#x27;ll take care of it. ទុកឱ្យខ្ញុំធ្វើ។ tu peux etendre le linge ? can you hang out the laundry? អាចហាលខោអាវបានទេ? on partage le travail. let&#x27;s share the work. យើងចែកការងារគ្នា។" data-level="intermediaire" data-number="38" data-date="2026-12-22">
+  <a class="lesson-link" data-nav href="lessons/lesson-038.html" aria-label="Ouvrir la leçon 38">
+    <span class="lesson-num"><span class="ui-fr">38</span><span class="ui-km" lang="km">៣៨</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Le ménage</span><span class="t-en" lang="en">Housework</span><span class="t-km" lang="km">ការងារផ្ទះ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-22"><span class="ui-fr">mardi 22 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអង្គារ ទី២២ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">nettoyer</span><span lang="en">to clean</span><span lang="km">សម្អាត</span></li><li><span lang="fr">faire la lessive</span><span lang="en">to do the laundry</span><span lang="km">បោកខោអាវ</span></li><li><span lang="fr">balayer</span><span lang="en">to sweep</span><span lang="km">បោស</span></li><li><span lang="fr">faire la vaisselle</span><span lang="en">to do the dishes</span><span lang="km">លាងចាន</span></li><li><span lang="fr">sale</span><span lang="en">dirty</span><span lang="km">កខ្វក់</span></li><li><span lang="fr">propre</span><span lang="en">clean</span><span lang="km">ស្អាត</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="37 #37 lecon 37 lesson 37 2026-12-21 21/12/2026 21-12-2026 21/12/2026 lundi 21 decembre 2026 monday, december 21, 2026 ថ្ងៃច័ន្ទ ទី២១ ខែធ្នូ ឆ្នាំ២០២៦ cuisiner-ensemble cuisiner ensemble cuisiner ensemble cooking together ធ្វើម្ហូបជាមួយគ្នា intermediaire កម្រិតមធ្យម intermediaire couper to cut កាត់ faire frire to fry ចៀន le sel salt អំបិល le sucre sugar ស្ករ l&#x27;oeuf egg ពងមាន់ la sauce de poisson fish sauce ទឹកត្រី goute, c&#x27;est assez sale ? taste it, is it salty enough? ភ្លក់មើល ប្រៃល្មមទេ? il manque un peu de sel. it needs a bit more salt. ខ្វះអំបិលបន្តិច។ attention, c&#x27;est chaud ! careful, it&#x27;s hot! ប្រយ័ត្ន ក្តៅ! tu peux m&#x27;aider ? can you help me? ជួយខ្ញុំបន្តិចបានទេ?" data-level="intermediaire" data-number="37" data-date="2026-12-21">
+  <a class="lesson-link" data-nav href="lessons/lesson-037.html" aria-label="Ouvrir la leçon 37">
+    <span class="lesson-num"><span class="ui-fr">37</span><span class="ui-km" lang="km">៣៧</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Cuisiner ensemble</span><span class="t-en" lang="en">Cooking together</span><span class="t-km" lang="km">ធ្វើម្ហូបជាមួយគ្នា</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-21"><span class="ui-fr">lundi 21 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃច័ន្ទ ទី២១ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">couper</span><span lang="en">to cut</span><span lang="km">កាត់</span></li><li><span lang="fr">faire frire</span><span lang="en">to fry</span><span lang="km">ចៀន</span></li><li><span lang="fr">le sel</span><span lang="en">salt</span><span lang="km">អំបិល</span></li><li><span lang="fr">le sucre</span><span lang="en">sugar</span><span lang="km">ស្ករ</span></li><li><span lang="fr">l&#x27;œuf</span><span lang="en">egg</span><span lang="km">ពងមាន់</span></li><li><span lang="fr">la sauce de poisson</span><span lang="en">fish sauce</span><span lang="km">ទឹកត្រី</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="36 #36 lecon 36 lesson 36 2026-12-20 20/12/2026 20-12-2026 20/12/2026 dimanche 20 decembre 2026 sunday, december 20, 2026 ថ្ងៃអាទិត្យ ទី២០ ខែធ្នូ ឆ្នាំ២០២៦ a-la-campagne a la campagne a la campagne in the countryside នៅជនបទ intermediaire កម្រិតមធ្យម intermediaire la campagne countryside ជនបទ la riziere rice field ស្រែ l&#x27;arbre tree ដើមឈើ le fleuve river ទន្លេ la montagne mountain ភ្នំ le village village ភូមិ c&#x27;est calme ici. it&#x27;s quiet here. នៅទីនេះស្ងាត់ណាស់។ l&#x27;air est frais ici. the air is fresh here. ខ្យល់នៅទីនេះស្រស់ស្រាយ។ on va se promener ? shall we go for a walk? ទៅដើរលេងទេ? quel beau paysage ! what a beautiful landscape! ទេសភាពស្អាតណាស់!" data-level="intermediaire" data-number="36" data-date="2026-12-20">
+  <a class="lesson-link" data-nav href="lessons/lesson-036.html" aria-label="Ouvrir la leçon 36">
+    <span class="lesson-num"><span class="ui-fr">36</span><span class="ui-km" lang="km">៣៦</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">À la campagne</span><span class="t-en" lang="en">In the countryside</span><span class="t-km" lang="km">នៅជនបទ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-20"><span class="ui-fr">dimanche 20 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអាទិត្យ ទី២០ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">la campagne</span><span lang="en">countryside</span><span lang="km">ជនបទ</span></li><li><span lang="fr">la rizière</span><span lang="en">rice field</span><span lang="km">ស្រែ</span></li><li><span lang="fr">l&#x27;arbre</span><span lang="en">tree</span><span lang="km">ដើមឈើ</span></li><li><span lang="fr">le fleuve</span><span lang="en">river</span><span lang="km">ទន្លេ</span></li><li><span lang="fr">la montagne</span><span lang="en">mountain</span><span lang="km">ភ្នំ</span></li><li><span lang="fr">le village</span><span lang="en">village</span><span lang="km">ភូមិ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="35 #35 lecon 35 lesson 35 2026-12-19 19/12/2026 19-12-2026 19/12/2026 samedi 19 decembre 2026 saturday, december 19, 2026 ថ្ងៃសៅរ៍ ទី១៩ ខែធ្នូ ឆ្នាំ២០២៦ en-ville en ville en ville in town នៅក្នុងទីក្រុង intermediaire កម្រិតមធ្យម intermediaire la ville city ទីក្រុង la banque bank ធនាគារ la poste post office ប្រៃសណីយ៍ la pharmacie pharmacy ហាងលក់ថ្នាំ le parc park សួនច្បារ traverser to cross ឆ្លង ou est la banque la plus proche ? where is the nearest bank? ធនាគារដែលនៅជិតជាងគេនៅឯណា? c&#x27;est ouvert le dimanche ? is it open on sundays? ថ្ងៃអាទិត្យបើកទេ? c&#x27;est deja ferme. it&#x27;s already closed. បិទបាត់ហើយ។ attention aux motos ! watch out for the motorbikes! ប្រយ័ត្នម៉ូតូ!" data-level="intermediaire" data-number="35" data-date="2026-12-19">
+  <a class="lesson-link" data-nav href="lessons/lesson-035.html" aria-label="Ouvrir la leçon 35">
+    <span class="lesson-num"><span class="ui-fr">35</span><span class="ui-km" lang="km">៣៥</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">En ville</span><span class="t-en" lang="en">In town</span><span class="t-km" lang="km">នៅក្នុងទីក្រុង</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-19"><span class="ui-fr">samedi 19 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសៅរ៍ ទី១៩ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">la ville</span><span lang="en">city</span><span lang="km">ទីក្រុង</span></li><li><span lang="fr">la banque</span><span lang="en">bank</span><span lang="km">ធនាគារ</span></li><li><span lang="fr">la poste</span><span lang="en">post office</span><span lang="km">ប្រៃសណីយ៍</span></li><li><span lang="fr">la pharmacie</span><span lang="en">pharmacy</span><span lang="km">ហាងលក់ថ្នាំ</span></li><li><span lang="fr">le parc</span><span lang="en">park</span><span lang="km">សួនច្បារ</span></li><li><span lang="fr">traverser</span><span lang="en">to cross</span><span lang="km">ឆ្លង</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="34 #34 lecon 34 lesson 34 2026-12-18 18/12/2026 18-12-2026 18/12/2026 vendredi 18 decembre 2026 friday, december 18, 2026 ថ្ងៃសុក្រ ទី១៨ ខែធ្នូ ឆ្នាំ២០២៦ emotions emotions les emotions emotions អារម្មណ៍ intermediaire កម្រិតមធ្យម intermediaire triste sad សោកសៅ en colere angry ខឹង avoir peur to be afraid ខ្លាច surpris surprised ភ្ញាក់ផ្អើល s&#x27;ennuyer to be bored ធុញ pleurer to cry យំ pourquoi tu fais cette tete ? why the long face? ម៉េចក៏មុខក្រញូវអញ្ចឹង? calme-toi. calm down. ត្រជាក់ចិត្តសិន។ ce n&#x27;est pas grave. it&#x27;s not a big deal. មិនអីទេ។ je ne l&#x27;ai pas fait expres. i didn&#x27;t do it on purpose. ខ្ញុំមិនចេតនាទេ។" data-level="intermediaire" data-number="34" data-date="2026-12-18">
+  <a class="lesson-link" data-nav href="lessons/lesson-034.html" aria-label="Ouvrir la leçon 34">
+    <span class="lesson-num"><span class="ui-fr">34</span><span class="ui-km" lang="km">៣៤</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les émotions</span><span class="t-en" lang="en">Emotions</span><span class="t-km" lang="km">អារម្មណ៍</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-18"><span class="ui-fr">vendredi 18 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសុក្រ ទី១៨ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">triste</span><span lang="en">sad</span><span lang="km">សោកសៅ</span></li><li><span lang="fr">en colère</span><span lang="en">angry</span><span lang="km">ខឹង</span></li><li><span lang="fr">avoir peur</span><span lang="en">to be afraid</span><span lang="km">ខ្លាច</span></li><li><span lang="fr">surpris</span><span lang="en">surprised</span><span lang="km">ភ្ញាក់ផ្អើល</span></li><li><span lang="fr">s&#x27;ennuyer</span><span lang="en">to be bored</span><span lang="km">ធុញ</span></li><li><span lang="fr">pleurer</span><span lang="en">to cry</span><span lang="km">យំ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="33 #33 lecon 33 lesson 33 2026-12-17 17/12/2026 17-12-2026 17/12/2026 jeudi 17 decembre 2026 thursday, december 17, 2026 ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែធ្នូ ឆ្នាំ២០២៦ decrire-quelqu-un decrire quelqu un decrire quelqu&#x27;un describing someone រៀបរាប់អំពីមនុស្ស intermediaire កម្រិតមធ្យម intermediaire grand tall ខ្ពស់ petit short ទាប jeune young ក្មេង age old ចាស់ gentil kind ចិត្តល្អ drole funny កំប្លែង il te ressemble beaucoup. he looks a lot like you. គាត់មុខដូចអ្នកណាស់។ elle a l&#x27;air gentille. she seems nice. គាត់មើលទៅចិត្តល្អ។ il porte des lunettes. he wears glasses. គាត់ពាក់វ៉ែនតា។ tu n&#x27;as pas change ! you haven&#x27;t changed! មិនប្រែប្រួលសោះ!" data-level="intermediaire" data-number="33" data-date="2026-12-17">
+  <a class="lesson-link" data-nav href="lessons/lesson-033.html" aria-label="Ouvrir la leçon 33">
+    <span class="lesson-num"><span class="ui-fr">33</span><span class="ui-km" lang="km">៣៣</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Décrire quelqu&#x27;un</span><span class="t-en" lang="en">Describing someone</span><span class="t-km" lang="km">រៀបរាប់អំពីមនុស្ស</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-17"><span class="ui-fr">jeudi 17 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">grand</span><span lang="en">tall</span><span lang="km">ខ្ពស់</span></li><li><span lang="fr">petit</span><span lang="en">short</span><span lang="km">ទាប</span></li><li><span lang="fr">jeune</span><span lang="en">young</span><span lang="km">ក្មេង</span></li><li><span lang="fr">âgé</span><span lang="en">old</span><span lang="km">ចាស់</span></li><li><span lang="fr">gentil</span><span lang="en">kind</span><span lang="km">ចិត្តល្អ</span></li><li><span lang="fr">drôle</span><span lang="en">funny</span><span lang="km">កំប្លែង</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="32 #32 lecon 32 lesson 32 2026-12-16 16/12/2026 16-12-2026 16/12/2026 mercredi 16 decembre 2026 wednesday, december 16, 2026 ថ្ងៃពុធ ទី១៦ ខែធ្នូ ឆ្នាំ២០២៦ animaux animaux les animaux animals សត្វ intermediaire កម្រិតមធ្យម intermediaire l&#x27;animal animal សត្វ le chien dog ឆ្កែ le chat cat ឆ្មា le poisson fish ត្រី l&#x27;oiseau bird សត្វស្លាប la vache cow គោ il est trop mignon ! he is so cute! គួរឱ្យស្រឡាញ់ណាស់! il mord ? does he bite? វាខាំទេ? ne le touche pas. don&#x27;t touch it. កុំប៉ះវា។ tu as un animal de compagnie ? do you have a pet? មានចិញ្ចឹមសត្វទេ?" data-level="intermediaire" data-number="32" data-date="2026-12-16">
+  <a class="lesson-link" data-nav href="lessons/lesson-032.html" aria-label="Ouvrir la leçon 32">
+    <span class="lesson-num"><span class="ui-fr">32</span><span class="ui-km" lang="km">៣២</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les animaux</span><span class="t-en" lang="en">Animals</span><span class="t-km" lang="km">សត្វ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-16"><span class="ui-fr">mercredi 16 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃពុធ ទី១៦ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">l&#x27;animal</span><span lang="en">animal</span><span lang="km">សត្វ</span></li><li><span lang="fr">le chien</span><span lang="en">dog</span><span lang="km">ឆ្កែ</span></li><li><span lang="fr">le chat</span><span lang="en">cat</span><span lang="km">ឆ្មា</span></li><li><span lang="fr">le poisson</span><span lang="en">fish</span><span lang="km">ត្រី</span></li><li><span lang="fr">l&#x27;oiseau</span><span lang="en">bird</span><span lang="km">សត្វស្លាប</span></li><li><span lang="fr">la vache</span><span lang="en">cow</span><span lang="km">គោ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="31 #31 lecon 31 lesson 31 2026-12-15 15/12/2026 15-12-2026 15/12/2026 mardi 15 decembre 2026 tuesday, december 15, 2026 ថ្ងៃអង្គារ ទី១៥ ខែធ្នូ ឆ្នាំ២០២៦ le-corps le corps le corps the body រាងកាយ intermediaire កម្រិតមធ្យម intermediaire la main hand ដៃ le pied foot ជើង les yeux eyes ភ្នែក la bouche mouth មាត់ le dos back ខ្នង les cheveux hair សក់ j&#x27;ai mal au dos. my back hurts. ខ្ញុំឈឺខ្នង។ lave-toi les mains. wash your hands. លាងដៃសិន។ ferme les yeux. close your eyes. បិទភ្នែក។ fais attention ! be careful! ប្រយ័ត្ន!" data-level="intermediaire" data-number="31" data-date="2026-12-15">
+  <a class="lesson-link" data-nav href="lessons/lesson-031.html" aria-label="Ouvrir la leçon 31">
+    <span class="lesson-num"><span class="ui-fr">31</span><span class="ui-km" lang="km">៣១</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Le corps</span><span class="t-en" lang="en">The body</span><span class="t-km" lang="km">រាងកាយ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-15"><span class="ui-fr">mardi 15 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអង្គារ ទី១៥ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">la main</span><span lang="en">hand</span><span lang="km">ដៃ</span></li><li><span lang="fr">le pied</span><span lang="en">foot</span><span lang="km">ជើង</span></li><li><span lang="fr">les yeux</span><span lang="en">eyes</span><span lang="km">ភ្នែក</span></li><li><span lang="fr">la bouche</span><span lang="en">mouth</span><span lang="km">មាត់</span></li><li><span lang="fr">le dos</span><span lang="en">back</span><span lang="km">ខ្នង</span></li><li><span lang="fr">les cheveux</span><span lang="en">hair</span><span lang="km">សក់</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="30 #30 lecon 30 lesson 30 2026-12-14 14/12/2026 14-12-2026 14/12/2026 lundi 14 decembre 2026 monday, december 14, 2026 ថ្ងៃច័ន្ទ ទី១៤ ខែធ្នូ ឆ្នាំ២០២៦ fetes-et-traditions fetes et traditions fetes et traditions festivals and traditions បុណ្យ និងប្រពៃណី intermediaire កម្រិតមធ្យម intermediaire la fete festival បុណ្យ le nouvel an khmer khmer new year ចូលឆ្នាំខ្មែរ la pagode pagoda វត្ត le cadeau gift អំណោយ inviter to invite អញ្ជើញ ensemble together ជាមួយគ្នា bonne annee ! happy new year! សួស្តីឆ្នាំថ្មី! joyeux anniversaire ! happy birthday! រីករាយថ្ងៃកំណើត! felicitations ! congratulations! សូមអបអរសាទរ! merci pour l&#x27;invitation. thank you for the invitation. អរគុណដែលបានអញ្ជើញ។" data-level="intermediaire" data-number="30" data-date="2026-12-14">
+  <a class="lesson-link" data-nav href="lessons/lesson-030.html" aria-label="Ouvrir la leçon 30">
+    <span class="lesson-num"><span class="ui-fr">30</span><span class="ui-km" lang="km">៣០</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Fêtes et traditions</span><span class="t-en" lang="en">Festivals and traditions</span><span class="t-km" lang="km">បុណ្យ និងប្រពៃណី</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-14"><span class="ui-fr">lundi 14 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃច័ន្ទ ទី១៤ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">la fête</span><span lang="en">festival</span><span lang="km">បុណ្យ</span></li><li><span lang="fr">le Nouvel An khmer</span><span lang="en">Khmer New Year</span><span lang="km">ចូលឆ្នាំខ្មែរ</span></li><li><span lang="fr">la pagode</span><span lang="en">pagoda</span><span lang="km">វត្ត</span></li><li><span lang="fr">le cadeau</span><span lang="en">gift</span><span lang="km">អំណោយ</span></li><li><span lang="fr">inviter</span><span lang="en">to invite</span><span lang="km">អញ្ជើញ</span></li><li><span lang="fr">ensemble</span><span lang="en">together</span><span lang="km">ជាមួយគ្នា</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="29 #29 lecon 29 lesson 29 2026-12-13 13/12/2026 13-12-2026 13/12/2026 dimanche 13 decembre 2026 sunday, december 13, 2026 ថ្ងៃអាទិត្យ ទី១៣ ខែធ្នូ ឆ្នាំ២០២៦ donner-son-avis donner son avis donner son avis giving your opinion ការបញ្ចេញយោបល់ intermediaire កម្រិតមធ្យម intermediaire penser to think គិត etre d&#x27;accord to agree យល់ស្រប preferer to prefer ចូលចិត្តជាង important important សំខាន់ vrai true ពិត se tromper to be wrong ខុស qu&#x27;est-ce que tu en penses ? what do you think about it? គិតយ៉ាងម៉េចដែរ? tu as raison. you are right. អ្នកនិយាយត្រូវ។ je ne suis pas d&#x27;accord. i do not agree. ខ្ញុំមិនយល់ស្របទេ។ a mon avis… in my opinion… តាមខ្ញុំគិត…" data-level="intermediaire" data-number="29" data-date="2026-12-13">
+  <a class="lesson-link" data-nav href="lessons/lesson-029.html" aria-label="Ouvrir la leçon 29">
+    <span class="lesson-num"><span class="ui-fr">29</span><span class="ui-km" lang="km">២៩</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Donner son avis</span><span class="t-en" lang="en">Giving your opinion</span><span class="t-km" lang="km">ការបញ្ចេញយោបល់</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-13"><span class="ui-fr">dimanche 13 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអាទិត្យ ទី១៣ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">penser</span><span lang="en">to think</span><span lang="km">គិត</span></li><li><span lang="fr">être d&#x27;accord</span><span lang="en">to agree</span><span lang="km">យល់ស្រប</span></li><li><span lang="fr">préférer</span><span lang="en">to prefer</span><span lang="km">ចូលចិត្តជាង</span></li><li><span lang="fr">important</span><span lang="en">important</span><span lang="km">សំខាន់</span></li><li><span lang="fr">vrai</span><span lang="en">true</span><span lang="km">ពិត</span></li><li><span lang="fr">se tromper</span><span lang="en">to be wrong</span><span lang="km">ខុស</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="28 #28 lecon 28 lesson 28 2026-12-12 12/12/2026 12-12-2026 12/12/2026 samedi 12 decembre 2026 saturday, december 12, 2026 ថ្ងៃសៅរ៍ ទី១២ ខែធ្នូ ឆ្នាំ២០២៦ resoudre-un-probleme resoudre un probleme resoudre un probleme solving a problem ការដោះស្រាយបញ្ហា intermediaire កម្រិតមធ្យម intermediaire le probleme problem បញ្ហា aider to help ជួយ casse broken ខូច reparer to repair ជួសជុល perdre to lose បាត់ trouver to find រកឃើញ qu&#x27;est-ce qui se passe ? what is going on? មានរឿងអ្វី? ne t&#x27;inquiete pas. don&#x27;t worry. កុំបារម្ភអី។ ca ne marche pas. it doesn&#x27;t work. វាអត់ដើរទេ។ je cherche mon telephone. i am looking for my phone. ខ្ញុំកំពុងរកទូរស័ព្ទរបស់ខ្ញុំ។" data-level="intermediaire" data-number="28" data-date="2026-12-12">
+  <a class="lesson-link" data-nav href="lessons/lesson-028.html" aria-label="Ouvrir la leçon 28">
+    <span class="lesson-num"><span class="ui-fr">28</span><span class="ui-km" lang="km">២៨</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Résoudre un problème</span><span class="t-en" lang="en">Solving a problem</span><span class="t-km" lang="km">ការដោះស្រាយបញ្ហា</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-12"><span class="ui-fr">samedi 12 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសៅរ៍ ទី១២ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le problème</span><span lang="en">problem</span><span lang="km">បញ្ហា</span></li><li><span lang="fr">aider</span><span lang="en">to help</span><span lang="km">ជួយ</span></li><li><span lang="fr">cassé</span><span lang="en">broken</span><span lang="km">ខូច</span></li><li><span lang="fr">réparer</span><span lang="en">to repair</span><span lang="km">ជួសជុល</span></li><li><span lang="fr">perdre</span><span lang="en">to lose</span><span lang="km">បាត់</span></li><li><span lang="fr">trouver</span><span lang="en">to find</span><span lang="km">រកឃើញ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="27 #27 lecon 27 lesson 27 2026-12-11 11/12/2026 11-12-2026 11/12/2026 vendredi 11 decembre 2026 friday, december 11, 2026 ថ្ងៃសុក្រ ទី១១ ខែធ្នូ ឆ្នាំ២០២៦ au-telephone au telephone au telephone on the phone និយាយទូរស័ព្ទ intermediaire កម្រិតមធ្យម intermediaire le telephone phone ទូរស័ព្ទ appeler to call ហៅទូរស័ព្ទ le message message សារ le numero number លេខ repondre to answer ឆ្លើយ occupe busy ជាប់រវល់ allo ? hello? អាឡូ? qui est a l&#x27;appareil ? who is speaking? នរណានិយាយហ្នឹង? je te rappelle plus tard. i will call you back later. ចាំខ្ញុំហៅទៅវិញពេលក្រោយ។ je n&#x27;entends pas bien. i can&#x27;t hear well. ខ្ញុំស្តាប់មិនសូវឮទេ។" data-level="intermediaire" data-number="27" data-date="2026-12-11">
+  <a class="lesson-link" data-nav href="lessons/lesson-027.html" aria-label="Ouvrir la leçon 27">
+    <span class="lesson-num"><span class="ui-fr">27</span><span class="ui-km" lang="km">២៧</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Au téléphone</span><span class="t-en" lang="en">On the phone</span><span class="t-km" lang="km">និយាយទូរស័ព្ទ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-11"><span class="ui-fr">vendredi 11 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសុក្រ ទី១១ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le téléphone</span><span lang="en">phone</span><span lang="km">ទូរស័ព្ទ</span></li><li><span lang="fr">appeler</span><span lang="en">to call</span><span lang="km">ហៅទូរស័ព្ទ</span></li><li><span lang="fr">le message</span><span lang="en">message</span><span lang="km">សារ</span></li><li><span lang="fr">le numéro</span><span lang="en">number</span><span lang="km">លេខ</span></li><li><span lang="fr">répondre</span><span lang="en">to answer</span><span lang="km">ឆ្លើយ</span></li><li><span lang="fr">occupé</span><span lang="en">busy</span><span lang="km">ជាប់រវល់</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="26 #26 lecon 26 lesson 26 2026-12-10 10/12/2026 10-12-2026 10/12/2026 jeudi 10 decembre 2026 thursday, december 10, 2026 ថ្ងៃព្រហស្បតិ៍ ទី១០ ខែធ្នូ ឆ្នាំ២០២៦ projets projets parler de ses projets talking about plans និយាយអំពីគម្រោង intermediaire កម្រិតមធ្យម intermediaire la semaine prochaine next week សប្តាហ៍ក្រោយ le projet plan គម្រោង esperer to hope សង្ឃឹម peut-etre maybe ប្រហែលជា decider to decide សម្រេចចិត្ត bientot soon ឆាប់ៗនេះ qu&#x27;est-ce que tu vas faire demain ? what are you going to do tomorrow? ថ្ងៃស្អែកនឹងធ្វើអ្វី? j&#x27;aimerais aller a la mer. i would like to go to the sea. ខ្ញុំចង់ទៅលេងសមុទ្រ។ on verra. we will see. ចាំមើលសិន។ c&#x27;est une bonne idee ! that is a good idea! គំនិតល្អណាស់!" data-level="intermediaire" data-number="26" data-date="2026-12-10">
+  <a class="lesson-link" data-nav href="lessons/lesson-026.html" aria-label="Ouvrir la leçon 26">
+    <span class="lesson-num"><span class="ui-fr">26</span><span class="ui-km" lang="km">២៦</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Parler de ses projets</span><span class="t-en" lang="en">Talking about plans</span><span class="t-km" lang="km">និយាយអំពីគម្រោង</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-10"><span class="ui-fr">jeudi 10 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃព្រហស្បតិ៍ ទី១០ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">la semaine prochaine</span><span lang="en">next week</span><span lang="km">សប្តាហ៍ក្រោយ</span></li><li><span lang="fr">le projet</span><span lang="en">plan</span><span lang="km">គម្រោង</span></li><li><span lang="fr">espérer</span><span lang="en">to hope</span><span lang="km">សង្ឃឹម</span></li><li><span lang="fr">peut-être</span><span lang="en">maybe</span><span lang="km">ប្រហែលជា</span></li><li><span lang="fr">décider</span><span lang="en">to decide</span><span lang="km">សម្រេចចិត្ត</span></li><li><span lang="fr">bientôt</span><span lang="en">soon</span><span lang="km">ឆាប់ៗនេះ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="25 #25 lecon 25 lesson 25 2026-12-09 09/12/2026 09-12-2026 9/12/2026 mercredi 9 decembre 2026 wednesday, december 9, 2026 ថ្ងៃពុធ ទី៩ ខែធ្នូ ឆ្នាំ២០២៦ raconter-au-passe raconter au passe raconter au passe talking about the past និយាយអំពីអតីតកាល intermediaire កម្រិតមធ្យម intermediaire deja already រួចហើយ avant before ពីមុន la semaine derniere last week សប្តាហ៍មុន finir to finish ចប់ se souvenir to remember ចាំ le voyage trip ដំណើរ qu&#x27;est-ce que tu as fait hier ? what did you do yesterday? ម្សិលមិញបានធ្វើអ្វីខ្លះ? il y a longtemps. a long time ago. យូរណាស់មកហើយ។ je n&#x27;ai pas encore fini. i have not finished yet. ខ្ញុំធ្វើមិនទាន់ចប់ទេ។ je ne m&#x27;en souviens pas. i can&#x27;t remember. ខ្ញុំចាំមិនបានទេ។" data-level="intermediaire" data-number="25" data-date="2026-12-09">
+  <a class="lesson-link" data-nav href="lessons/lesson-025.html" aria-label="Ouvrir la leçon 25">
+    <span class="lesson-num"><span class="ui-fr">25</span><span class="ui-km" lang="km">២៥</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Raconter au passé</span><span class="t-en" lang="en">Talking about the past</span><span class="t-km" lang="km">និយាយអំពីអតីតកាល</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-09"><span class="ui-fr">mercredi 9 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃពុធ ទី៩ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-intermediaire"><span class="ui-fr">Intermédiaire</span><span class="ui-km" lang="km">កម្រិតមធ្យម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 10 min</span><span class="ui-km" lang="km">≈ ១០ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">déjà</span><span lang="en">already</span><span lang="km">រួចហើយ</span></li><li><span lang="fr">avant</span><span lang="en">before</span><span lang="km">ពីមុន</span></li><li><span lang="fr">la semaine dernière</span><span lang="en">last week</span><span lang="km">សប្តាហ៍មុន</span></li><li><span lang="fr">finir</span><span lang="en">to finish</span><span lang="km">ចប់</span></li><li><span lang="fr">se souvenir</span><span lang="en">to remember</span><span lang="km">ចាំ</span></li><li><span lang="fr">le voyage</span><span lang="en">trip</span><span lang="km">ដំណើរ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="24 #24 lecon 24 lesson 24 2026-12-08 08/12/2026 08-12-2026 8/12/2026 mardi 8 decembre 2026 tuesday, december 8, 2026 ថ្ងៃអង្គារ ទី៨ ខែធ្នូ ឆ្នាំ២០២៦ travail-et-ecole travail et ecole le travail et l&#x27;ecole work and school ការងារ និងសាលារៀន elementaire កម្រិតបឋម elementaire le travail work ការងារ l&#x27;ecole school សាលារៀន apprendre to learn រៀន l&#x27;enseignant teacher គ្រូបង្រៀន la langue language ភាសា difficile difficult ពិបាក tu peux repeter, s&#x27;il te plait ? can you repeat, please? សូមនិយាយម្តងទៀតបានទេ? parlez lentement, s&#x27;il vous plait. please speak slowly. សូមនិយាយយឺតៗ។ qu&#x27;est-ce que ca veut dire ? what does it mean? មានន័យថាម៉េច? je parle un peu khmer. i speak a little khmer. ខ្ញុំចេះភាសាខ្មែរបន្តិចបន្តួច។" data-level="elementaire" data-number="24" data-date="2026-12-08">
+  <a class="lesson-link" data-nav href="lessons/lesson-024.html" aria-label="Ouvrir la leçon 24">
+    <span class="lesson-num"><span class="ui-fr">24</span><span class="ui-km" lang="km">២៤</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Le travail et l&#x27;école</span><span class="t-en" lang="en">Work and school</span><span class="t-km" lang="km">ការងារ និងសាលារៀន</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-08"><span class="ui-fr">mardi 8 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអង្គារ ទី៨ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le travail</span><span lang="en">work</span><span lang="km">ការងារ</span></li><li><span lang="fr">l&#x27;école</span><span lang="en">school</span><span lang="km">សាលារៀន</span></li><li><span lang="fr">apprendre</span><span lang="en">to learn</span><span lang="km">រៀន</span></li><li><span lang="fr">l&#x27;enseignant</span><span lang="en">teacher</span><span lang="km">គ្រូបង្រៀន</span></li><li><span lang="fr">la langue</span><span lang="en">language</span><span lang="km">ភាសា</span></li><li><span lang="fr">difficile</span><span lang="en">difficult</span><span lang="km">ពិបាក</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="23 #23 lecon 23 lesson 23 2026-12-07 07/12/2026 07-12-2026 7/12/2026 lundi 7 decembre 2026 monday, december 7, 2026 ថ្ងៃច័ន្ទ ទី៧ ខែធ្នូ ឆ្នាំ២០២៦ routine routine la routine quotidienne daily routine កិច្ចការប្រចាំថ្ងៃ elementaire កម្រិតបឋម elementaire se reveiller to wake up ភ្ញាក់ dormir to sleep គេង travailler to work ធ្វើការ cuisiner to cook ធ្វើម្ហូប se doucher to take a shower ងូតទឹក se reposer to rest សម្រាក je me leve tot. i get up early. ខ្ញុំក្រោកពីព្រលឹម។ qu&#x27;est-ce que tu fais ? what are you doing? កំពុងធ្វើអ្វី? j&#x27;ai beaucoup de travail aujourd&#x27;hui. i have a lot of work today. ថ្ងៃនេះខ្ញុំមានការងារច្រើន។ dors bien ! sleep well! គេងឱ្យលក់ស្រួលណា!" data-level="elementaire" data-number="23" data-date="2026-12-07">
+  <a class="lesson-link" data-nav href="lessons/lesson-023.html" aria-label="Ouvrir la leçon 23">
+    <span class="lesson-num"><span class="ui-fr">23</span><span class="ui-km" lang="km">២៣</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">La routine quotidienne</span><span class="t-en" lang="en">Daily routine</span><span class="t-km" lang="km">កិច្ចការប្រចាំថ្ងៃ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-07"><span class="ui-fr">lundi 7 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃច័ន្ទ ទី៧ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">se réveiller</span><span lang="en">to wake up</span><span lang="km">ភ្ញាក់</span></li><li><span lang="fr">dormir</span><span lang="en">to sleep</span><span lang="km">គេង</span></li><li><span lang="fr">travailler</span><span lang="en">to work</span><span lang="km">ធ្វើការ</span></li><li><span lang="fr">cuisiner</span><span lang="en">to cook</span><span lang="km">ធ្វើម្ហូប</span></li><li><span lang="fr">se doucher</span><span lang="en">to take a shower</span><span lang="km">ងូតទឹក</span></li><li><span lang="fr">se reposer</span><span lang="en">to rest</span><span lang="km">សម្រាក</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="22 #22 lecon 22 lesson 22 2026-12-06 06/12/2026 06-12-2026 6/12/2026 dimanche 6 decembre 2026 sunday, december 6, 2026 ថ្ងៃអាទិត្យ ទី៦ ខែធ្នូ ឆ្នាំ២០២៦ meteo meteo le temps qu&#x27;il fait the weather អាកាសធាតុ elementaire កម្រិតបឋម elementaire chaud hot ក្តៅ froid cold ត្រជាក់ la pluie rain ភ្លៀង le soleil sun ព្រះអាទិត្យ le vent wind ខ្យល់ la saison season រដូវ quel temps fait-il ? what is the weather like? អាកាសធាតុយ៉ាងម៉េចដែរ? il fait beau. the weather is nice. អាកាសធាតុល្អ។ il va pleuvoir. it is going to rain. មេឃជិតភ្លៀងហើយ។ n&#x27;oublie pas ton parapluie. don&#x27;t forget your umbrella. កុំភ្លេចយកឆ័ត្រ។" data-level="elementaire" data-number="22" data-date="2026-12-06">
+  <a class="lesson-link" data-nav href="lessons/lesson-022.html" aria-label="Ouvrir la leçon 22">
+    <span class="lesson-num"><span class="ui-fr">22</span><span class="ui-km" lang="km">២២</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Le temps qu&#x27;il fait</span><span class="t-en" lang="en">The weather</span><span class="t-km" lang="km">អាកាសធាតុ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-06"><span class="ui-fr">dimanche 6 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអាទិត្យ ទី៦ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">chaud</span><span lang="en">hot</span><span lang="km">ក្តៅ</span></li><li><span lang="fr">froid</span><span lang="en">cold</span><span lang="km">ត្រជាក់</span></li><li><span lang="fr">la pluie</span><span lang="en">rain</span><span lang="km">ភ្លៀង</span></li><li><span lang="fr">le soleil</span><span lang="en">sun</span><span lang="km">ព្រះអាទិត្យ</span></li><li><span lang="fr">le vent</span><span lang="en">wind</span><span lang="km">ខ្យល់</span></li><li><span lang="fr">la saison</span><span lang="en">season</span><span lang="km">រដូវ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="21 #21 lecon 21 lesson 21 2026-12-05 05/12/2026 05-12-2026 5/12/2026 samedi 5 decembre 2026 saturday, december 5, 2026 ថ្ងៃសៅរ៍ ទី៥ ខែធ្នូ ឆ្នាំ២០២៦ a-l-hotel a l hotel a l&#x27;hotel at the hotel នៅសណ្ឋាគារ elementaire កម្រិតបឋម elementaire l&#x27;hotel hotel សណ្ឋាគារ la cle key កូនសោ reserver to book កក់ la serviette towel កន្សែង la salle de bain bathroom បន្ទប់ទឹក la climatisation air conditioning ម៉ាស៊ីនត្រជាក់ vous avez une chambre libre ? do you have a room available? មានបន្ទប់ទំនេរទេ? c&#x27;est combien la nuit ? how much is it per night? មួយយប់ថ្លៃប៉ុន្មាន? a quelle heure faut-il quitter la chambre ? what time do we have to leave the room? ត្រូវចេញពីបន្ទប់ម៉ោងប៉ុន្មាន? je voudrais rester deux nuits. i would like to stay two nights. ខ្ញុំចង់ស្នាក់នៅពីរយប់។" data-level="elementaire" data-number="21" data-date="2026-12-05">
+  <a class="lesson-link" data-nav href="lessons/lesson-021.html" aria-label="Ouvrir la leçon 21">
+    <span class="lesson-num"><span class="ui-fr">21</span><span class="ui-km" lang="km">២១</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">À l&#x27;hôtel</span><span class="t-en" lang="en">At the hotel</span><span class="t-km" lang="km">នៅសណ្ឋាគារ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-05"><span class="ui-fr">samedi 5 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសៅរ៍ ទី៥ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">l&#x27;hôtel</span><span lang="en">hotel</span><span lang="km">សណ្ឋាគារ</span></li><li><span lang="fr">la clé</span><span lang="en">key</span><span lang="km">កូនសោ</span></li><li><span lang="fr">réserver</span><span lang="en">to book</span><span lang="km">កក់</span></li><li><span lang="fr">la serviette</span><span lang="en">towel</span><span lang="km">កន្សែង</span></li><li><span lang="fr">la salle de bain</span><span lang="en">bathroom</span><span lang="km">បន្ទប់ទឹក</span></li><li><span lang="fr">la climatisation</span><span lang="en">air conditioning</span><span lang="km">ម៉ាស៊ីនត្រជាក់</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="20 #20 lecon 20 lesson 20 2026-12-04 04/12/2026 04-12-2026 4/12/2026 vendredi 4 decembre 2026 friday, december 4, 2026 ថ្ងៃសុក្រ ទី៤ ខែធ្នូ ឆ្នាំ២០២៦ chez-le-medecin chez le medecin chez le medecin at the doctor&#x27;s ទៅជួបគ្រូពេទ្យ elementaire កម្រិតបឋម elementaire le medecin doctor គ្រូពេទ្យ l&#x27;hopital hospital មន្ទីរពេទ្យ le medicament medicine ថ្នាំ avoir mal to hurt ឈឺ la tete head ក្បាល le ventre stomach ពោះ ca fait mal ici. it hurts here. ឈឺត្រង់នេះ។ j&#x27;ai de la fievre. i have a fever. ខ្ញុំក្តៅខ្លួន។ trois fois par jour. three times a day. មួយថ្ងៃបីដង។ depuis quand avez-vous mal ? how long has it been hurting? ឈឺតាំងពីពេលណា?" data-level="elementaire" data-number="20" data-date="2026-12-04">
+  <a class="lesson-link" data-nav href="lessons/lesson-020.html" aria-label="Ouvrir la leçon 20">
+    <span class="lesson-num"><span class="ui-fr">20</span><span class="ui-km" lang="km">២០</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Chez le médecin</span><span class="t-en" lang="en">At the doctor&#x27;s</span><span class="t-km" lang="km">ទៅជួបគ្រូពេទ្យ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-04"><span class="ui-fr">vendredi 4 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសុក្រ ទី៤ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le médecin</span><span lang="en">doctor</span><span lang="km">គ្រូពេទ្យ</span></li><li><span lang="fr">l&#x27;hôpital</span><span lang="en">hospital</span><span lang="km">មន្ទីរពេទ្យ</span></li><li><span lang="fr">le médicament</span><span lang="en">medicine</span><span lang="km">ថ្នាំ</span></li><li><span lang="fr">avoir mal</span><span lang="en">to hurt</span><span lang="km">ឈឺ</span></li><li><span lang="fr">la tête</span><span lang="en">head</span><span lang="km">ក្បាល</span></li><li><span lang="fr">le ventre</span><span lang="en">stomach</span><span lang="km">ពោះ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="19 #19 lecon 19 lesson 19 2026-12-03 03/12/2026 03-12-2026 3/12/2026 jeudi 3 decembre 2026 thursday, december 3, 2026 ថ្ងៃព្រហស្បតិ៍ ទី៣ ខែធ្នូ ឆ្នាំ២០២៦ faire-des-achats faire des achats faire des achats shopping ការទិញឥវ៉ាន់ elementaire កម្រិតបឋម elementaire le magasin shop ហាង l&#x27;argent money លុយ payer to pay បង់លុយ la taille size ទំហំ essayer to try សាកល្បង les vetements clothes ខោអាវ je regarde seulement, merci. i am just looking, thank you. ខ្ញុំគ្រាន់តែមើលទេ អរគុណ។ je peux l&#x27;essayer ? can i try it on? សុំសាកមើលបានទេ? vous avez une autre couleur ? do you have another color? មានពណ៌ផ្សេងទេ? c&#x27;est trop petit. it is too small. តូចពេក។" data-level="elementaire" data-number="19" data-date="2026-12-03">
+  <a class="lesson-link" data-nav href="lessons/lesson-019.html" aria-label="Ouvrir la leçon 19">
+    <span class="lesson-num"><span class="ui-fr">19</span><span class="ui-km" lang="km">១៩</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Faire des achats</span><span class="t-en" lang="en">Shopping</span><span class="t-km" lang="km">ការទិញឥវ៉ាន់</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-03"><span class="ui-fr">jeudi 3 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃព្រហស្បតិ៍ ទី៣ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le magasin</span><span lang="en">shop</span><span lang="km">ហាង</span></li><li><span lang="fr">l&#x27;argent</span><span lang="en">money</span><span lang="km">លុយ</span></li><li><span lang="fr">payer</span><span lang="en">to pay</span><span lang="km">បង់លុយ</span></li><li><span lang="fr">la taille</span><span lang="en">size</span><span lang="km">ទំហំ</span></li><li><span lang="fr">essayer</span><span lang="en">to try</span><span lang="km">សាកល្បង</span></li><li><span lang="fr">les vêtements</span><span lang="en">clothes</span><span lang="km">ខោអាវ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="18 #18 lecon 18 lesson 18 2026-12-02 02/12/2026 02-12-2026 2/12/2026 mercredi 2 decembre 2026 wednesday, december 2, 2026 ថ្ងៃពុធ ទី២ ខែធ្នូ ឆ្នាំ២០២៦ l-heure l heure l&#x27;heure the time ម៉ោង elementaire កម្រិតបឋម elementaire l&#x27;heure hour ម៉ោង la minute minute នាទី maintenant now ឥឡូវនេះ en avance early មុនម៉ោង en retard late យឺត attendre to wait រង់ចាំ dans dix minutes. in ten minutes. ដប់នាទីទៀត។ on part a quelle heure ? what time are we leaving? យើងចេញទៅម៉ោងប៉ុន្មាន? attends un peu. wait a moment. ចាំបន្តិច។ il est sept heures et demie. it is half past seven. ម៉ោងប្រាំពីរកន្លះ។" data-level="elementaire" data-number="18" data-date="2026-12-02">
+  <a class="lesson-link" data-nav href="lessons/lesson-018.html" aria-label="Ouvrir la leçon 18">
+    <span class="lesson-num"><span class="ui-fr">18</span><span class="ui-km" lang="km">១៨</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">L&#x27;heure</span><span class="t-en" lang="en">The time</span><span class="t-km" lang="km">ម៉ោង</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-02"><span class="ui-fr">mercredi 2 décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃពុធ ទី២ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">l&#x27;heure</span><span lang="en">hour</span><span lang="km">ម៉ោង</span></li><li><span lang="fr">la minute</span><span lang="en">minute</span><span lang="km">នាទី</span></li><li><span lang="fr">maintenant</span><span lang="en">now</span><span lang="km">ឥឡូវនេះ</span></li><li><span lang="fr">en avance</span><span lang="en">early</span><span lang="km">មុនម៉ោង</span></li><li><span lang="fr">en retard</span><span lang="en">late</span><span lang="km">យឺត</span></li><li><span lang="fr">attendre</span><span lang="en">to wait</span><span lang="km">រង់ចាំ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="17 #17 lecon 17 lesson 17 2026-12-01 01/12/2026 01-12-2026 1/12/2026 mardi 1er decembre 2026 tuesday, december 1, 2026 ថ្ងៃអង្គារ ទី១ ខែធ្នូ ឆ្នាំ២០២៦ demander-son-chemin demander son chemin demander son chemin asking for directions ការសួរផ្លូវ elementaire កម្រិតបឋម elementaire a gauche on the left ខាងឆ្វេង a droite on the right ខាងស្តាំ tout droit straight ahead ត្រង់ pres near ជិត loin far ឆ្ងាយ tourner to turn បត់ excusez-moi, ou est le marche ? excuse me, where is the market? សុំទោស ផ្សារនៅឯណា? c&#x27;est loin d&#x27;ici ? is it far from here? ឆ្ងាយពីទីនេះទេ? je ne connais pas le chemin. i do not know the way. ខ្ញុំមិនស្គាល់ផ្លូវទេ។ c&#x27;est en face du marche. it is opposite the market. នៅទល់មុខផ្សារ។" data-level="elementaire" data-number="17" data-date="2026-12-01">
+  <a class="lesson-link" data-nav href="lessons/lesson-017.html" aria-label="Ouvrir la leçon 17">
+    <span class="lesson-num"><span class="ui-fr">17</span><span class="ui-km" lang="km">១៧</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Demander son chemin</span><span class="t-en" lang="en">Asking for directions</span><span class="t-km" lang="km">ការសួរផ្លូវ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-12-01"><span class="ui-fr">mardi 1er décembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអង្គារ ទី១ ខែធ្នូ ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">à gauche</span><span lang="en">on the left</span><span lang="km">ខាងឆ្វេង</span></li><li><span lang="fr">à droite</span><span lang="en">on the right</span><span lang="km">ខាងស្តាំ</span></li><li><span lang="fr">tout droit</span><span lang="en">straight ahead</span><span lang="km">ត្រង់</span></li><li><span lang="fr">près</span><span lang="en">near</span><span lang="km">ជិត</span></li><li><span lang="fr">loin</span><span lang="en">far</span><span lang="km">ឆ្ងាយ</span></li><li><span lang="fr">tourner</span><span lang="en">to turn</span><span lang="km">បត់</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="16 #16 lecon 16 lesson 16 2026-11-30 30/11/2026 30-11-2026 30/11/2026 lundi 30 novembre 2026 monday, november 30, 2026 ថ្ងៃច័ន្ទ ទី៣០ ខែវិច្ឆិកា ឆ្នាំ២០២៦ transports transports les transports transport មធ្យោបាយធ្វើដំណើរ elementaire កម្រិតបឋម elementaire le tuk-tuk tuk-tuk តុកតុក la voiture car ឡាន la moto motorbike ម៉ូតូ le bus bus ឡានក្រុង la route road ផ្លូវ conduire to drive បើកបរ c&#x27;est combien pour aller au marche ? how much is it to go to the market? ទៅផ្សារថ្លៃប៉ុន្មាន? arretez-vous ici, s&#x27;il vous plait. please stop here. សូមឈប់ត្រង់នេះ។ roulez doucement, s&#x27;il vous plait. please drive slowly. សូមបើកយឺតៗ។ il y a beaucoup d&#x27;embouteillages. there is a lot of traffic. ស្ទះផ្លូវណាស់។" data-level="elementaire" data-number="16" data-date="2026-11-30">
+  <a class="lesson-link" data-nav href="lessons/lesson-016.html" aria-label="Ouvrir la leçon 16">
+    <span class="lesson-num"><span class="ui-fr">16</span><span class="ui-km" lang="km">១៦</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les transports</span><span class="t-en" lang="en">Transport</span><span class="t-km" lang="km">មធ្យោបាយធ្វើដំណើរ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-30"><span class="ui-fr">lundi 30 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃច័ន្ទ ទី៣០ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le tuk-tuk</span><span lang="en">tuk-tuk</span><span lang="km">តុកតុក</span></li><li><span lang="fr">la voiture</span><span lang="en">car</span><span lang="km">ឡាន</span></li><li><span lang="fr">la moto</span><span lang="en">motorbike</span><span lang="km">ម៉ូតូ</span></li><li><span lang="fr">le bus</span><span lang="en">bus</span><span lang="km">ឡានក្រុង</span></li><li><span lang="fr">la route</span><span lang="en">road</span><span lang="km">ផ្លូវ</span></li><li><span lang="fr">conduire</span><span lang="en">to drive</span><span lang="km">បើកបរ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="15 #15 lecon 15 lesson 15 2026-11-29 29/11/2026 29-11-2026 29/11/2026 dimanche 29 novembre 2026 sunday, november 29, 2026 ថ្ងៃអាទិត្យ ទី២៩ ខែវិច្ឆិកា ឆ្នាំ២០២៦ au-restaurant au restaurant au restaurant at the restaurant នៅភោជនីយដ្ឋាន elementaire កម្រិតបឋម elementaire le restaurant restaurant ភោជនីយដ្ឋាន le menu menu ម៉ឺនុយ commander to order កុម្ម៉ង់ le plat dish ម្ហូប l&#x27;addition bill វិក្កយបត្រ epice spicy ហឹរ l&#x27;addition, s&#x27;il vous plait. the bill, please. សុំគិតលុយ។ pas trop epice, s&#x27;il vous plait. not too spicy, please. សុំកុំហឹរពេក។ je prends la meme chose. i&#x27;ll have the same. ខ្ញុំយកដូចគ្នា។ qu&#x27;est-ce qui est bon ici ? what is good here? នៅទីនេះមានអ្វីឆ្ងាញ់?" data-level="elementaire" data-number="15" data-date="2026-11-29">
+  <a class="lesson-link" data-nav href="lessons/lesson-015.html" aria-label="Ouvrir la leçon 15">
+    <span class="lesson-num"><span class="ui-fr">15</span><span class="ui-km" lang="km">១៥</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Au restaurant</span><span class="t-en" lang="en">At the restaurant</span><span class="t-km" lang="km">នៅភោជនីយដ្ឋាន</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-29"><span class="ui-fr">dimanche 29 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអាទិត្យ ទី២៩ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le restaurant</span><span lang="en">restaurant</span><span lang="km">ភោជនីយដ្ឋាន</span></li><li><span lang="fr">le menu</span><span lang="en">menu</span><span lang="km">ម៉ឺនុយ</span></li><li><span lang="fr">commander</span><span lang="en">to order</span><span lang="km">កុម្ម៉ង់</span></li><li><span lang="fr">le plat</span><span lang="en">dish</span><span lang="km">ម្ហូប</span></li><li><span lang="fr">l&#x27;addition</span><span lang="en">bill</span><span lang="km">វិក្កយបត្រ</span></li><li><span lang="fr">épicé</span><span lang="en">spicy</span><span lang="km">ហឹរ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="14 #14 lecon 14 lesson 14 2026-11-28 28/11/2026 28-11-2026 28/11/2026 samedi 28 novembre 2026 saturday, november 28, 2026 ថ្ងៃសៅរ៍ ទី២៨ ខែវិច្ឆិកា ឆ្នាំ២០២៦ fruits-et-legumes fruits et legumes fruits et legumes fruits and vegetables ផ្លែឈើ និងបន្លែ elementaire កម្រិតបឋម elementaire le fruit fruit ផ្លែឈើ le legume vegetable បន្លែ la mangue mango ស្វាយ la banane banana ចេក la noix de coco coconut ដូង frais fresh ស្រស់ c&#x27;est sucre ? is it sweet? ផ្អែមទេ? je peux gouter ? can i taste it? សុំភ្លក់មើលបានទេ? un kilo de mangues, s&#x27;il vous plait. one kilo of mangoes, please. សុំស្វាយមួយគីឡូ។ ce n&#x27;est pas encore mur. it is not ripe yet. មិនទាន់ទុំទេ។" data-level="elementaire" data-number="14" data-date="2026-11-28">
+  <a class="lesson-link" data-nav href="lessons/lesson-014.html" aria-label="Ouvrir la leçon 14">
+    <span class="lesson-num"><span class="ui-fr">14</span><span class="ui-km" lang="km">១៤</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Fruits et légumes</span><span class="t-en" lang="en">Fruits and vegetables</span><span class="t-km" lang="km">ផ្លែឈើ និងបន្លែ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-28"><span class="ui-fr">samedi 28 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសៅរ៍ ទី២៨ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le fruit</span><span lang="en">fruit</span><span lang="km">ផ្លែឈើ</span></li><li><span lang="fr">le légume</span><span lang="en">vegetable</span><span lang="km">បន្លែ</span></li><li><span lang="fr">la mangue</span><span lang="en">mango</span><span lang="km">ស្វាយ</span></li><li><span lang="fr">la banane</span><span lang="en">banana</span><span lang="km">ចេក</span></li><li><span lang="fr">la noix de coco</span><span lang="en">coconut</span><span lang="km">ដូង</span></li><li><span lang="fr">frais</span><span lang="en">fresh</span><span lang="km">ស្រស់</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="13 #13 lecon 13 lesson 13 2026-11-27 27/11/2026 27-11-2026 27/11/2026 vendredi 27 novembre 2026 friday, november 27, 2026 ថ្ងៃសុក្រ ទី២៧ ខែវិច្ឆិកា ឆ្នាំ២០២៦ au-marche au marche au marche at the market នៅផ្សារ elementaire កម្រិតបឋម elementaire le marche market ផ្សារ acheter to buy ទិញ vendre to sell លក់ le prix price តម្លៃ cher expensive ថ្លៃ bon marche cheap ថោក combien coute un kilo ? how much is one kilo? មួយគីឡូថ្លៃប៉ុន្មាន? vous pouvez baisser un peu le prix ? can you lower the price a little? ចុះថ្លៃបន្តិចបានទេ? je le prends. i&#x27;ll take it. ខ្ញុំយកមួយនេះ។ ca fait combien en tout ? how much is it altogether? ទាំងអស់ថ្លៃប៉ុន្មាន?" data-level="elementaire" data-number="13" data-date="2026-11-27">
+  <a class="lesson-link" data-nav href="lessons/lesson-013.html" aria-label="Ouvrir la leçon 13">
+    <span class="lesson-num"><span class="ui-fr">13</span><span class="ui-km" lang="km">១៣</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Au marché</span><span class="t-en" lang="en">At the market</span><span class="t-km" lang="km">នៅផ្សារ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-27"><span class="ui-fr">vendredi 27 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសុក្រ ទី២៧ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-elementaire"><span class="ui-fr">Élémentaire</span><span class="ui-km" lang="km">កម្រិតបឋម</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le marché</span><span lang="en">market</span><span lang="km">ផ្សារ</span></li><li><span lang="fr">acheter</span><span lang="en">to buy</span><span lang="km">ទិញ</span></li><li><span lang="fr">vendre</span><span lang="en">to sell</span><span lang="km">លក់</span></li><li><span lang="fr">le prix</span><span lang="en">price</span><span lang="km">តម្លៃ</span></li><li><span lang="fr">cher</span><span lang="en">expensive</span><span lang="km">ថ្លៃ</span></li><li><span lang="fr">bon marché</span><span lang="en">cheap</span><span lang="km">ថោក</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="12 #12 lecon 12 lesson 12 2026-11-26 26/11/2026 26-11-2026 26/11/2026 jeudi 26 novembre 2026 thursday, november 26, 2026 ថ្ងៃព្រហស្បតិ៍ ទី២៦ ខែវិច្ឆិកា ឆ្នាំ២០២៦ verbes-de-base verbes de base les verbes de base basic verbs កិរិយាសព្ទមូលដ្ឋាន debutant កម្រិតដំបូង debutant aller to go ទៅ venir to come មក vouloir to want ចង់ avoir to have មាន aimer to like ចូលចិត្ត comprendre to understand យល់ je ne comprends pas. i don&#x27;t understand. ខ្ញុំមិនយល់ទេ។ on y va ! let&#x27;s go! តោះ ទៅ! viens ici. come here. មកនេះ។ tu as le temps ? do you have time? មានពេលទេ?" data-level="debutant" data-number="12" data-date="2026-11-26">
+  <a class="lesson-link" data-nav href="lessons/lesson-012.html" aria-label="Ouvrir la leçon 12">
+    <span class="lesson-num"><span class="ui-fr">12</span><span class="ui-km" lang="km">១២</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les verbes de base</span><span class="t-en" lang="en">Basic verbs</span><span class="t-km" lang="km">កិរិយាសព្ទមូលដ្ឋាន</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-26"><span class="ui-fr">jeudi 26 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃព្រហស្បតិ៍ ទី២៦ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">aller</span><span lang="en">to go</span><span lang="km">ទៅ</span></li><li><span lang="fr">venir</span><span lang="en">to come</span><span lang="km">មក</span></li><li><span lang="fr">vouloir</span><span lang="en">to want</span><span lang="km">ចង់</span></li><li><span lang="fr">avoir</span><span lang="en">to have</span><span lang="km">មាន</span></li><li><span lang="fr">aimer</span><span lang="en">to like</span><span lang="km">ចូលចិត្ត</span></li><li><span lang="fr">comprendre</span><span lang="en">to understand</span><span lang="km">យល់</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="11 #11 lecon 11 lesson 11 2026-11-25 25/11/2026 25-11-2026 25/11/2026 mercredi 25 novembre 2026 wednesday, november 25, 2026 ថ្ងៃពុធ ទី២៥ ខែវិច្ឆិកា ឆ្នាំ២០២៦ couleurs couleurs les couleurs colors ពណ៌ debutant កម្រិតដំបូង debutant rouge red ក្រហម bleu blue ខៀវ vert green បៃតង blanc white ស noir black ខ្មៅ jaune yellow លឿង c&#x27;est de quelle couleur ? what color is it? ពណ៌អ្វី? quelle est ta couleur preferee ? what is your favorite color? ចូលចិត្តពណ៌អ្វីជាងគេ? j&#x27;aime le bleu. i like blue. ខ្ញុំចូលចិត្តពណ៌ខៀវ។ c&#x27;est joli ! it&#x27;s pretty! ស្អាតណាស់!" data-level="debutant" data-number="11" data-date="2026-11-25">
+  <a class="lesson-link" data-nav href="lessons/lesson-011.html" aria-label="Ouvrir la leçon 11">
+    <span class="lesson-num"><span class="ui-fr">11</span><span class="ui-km" lang="km">១១</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les couleurs</span><span class="t-en" lang="en">Colors</span><span class="t-km" lang="km">ពណ៌</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-25"><span class="ui-fr">mercredi 25 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃពុធ ទី២៥ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">rouge</span><span lang="en">red</span><span lang="km">ក្រហម</span></li><li><span lang="fr">bleu</span><span lang="en">blue</span><span lang="km">ខៀវ</span></li><li><span lang="fr">vert</span><span lang="en">green</span><span lang="km">បៃតង</span></li><li><span lang="fr">blanc</span><span lang="en">white</span><span lang="km">ស</span></li><li><span lang="fr">noir</span><span lang="en">black</span><span lang="km">ខ្មៅ</span></li><li><span lang="fr">jaune</span><span lang="en">yellow</span><span lang="km">លឿង</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="10 #10 lecon 10 lesson 10 2026-11-24 24/11/2026 24-11-2026 24/11/2026 mardi 24 novembre 2026 tuesday, november 24, 2026 ថ្ងៃអង្គារ ទី២៤ ខែវិច្ឆិកា ឆ្នាំ២០២៦ questions questions les mots pour questionner question words ពាក្យសំណួរ debutant កម្រិតដំបូង debutant quoi what អ្វី qui who នរណា ou where នៅឯណា quand when ពេលណា pourquoi why ហេតុអ្វី comment how យ៉ាងម៉េច qu&#x27;est-ce que c&#x27;est ? what is this? នេះជាអ្វី? ou vas-tu ? where are you going? ទៅណា? je ne sais pas. i don&#x27;t know. ខ្ញុំមិនដឹងទេ។ c&#x27;est a qui ? whose is this? នេះរបស់នរណា?" data-level="debutant" data-number="10" data-date="2026-11-24">
+  <a class="lesson-link" data-nav href="lessons/lesson-010.html" aria-label="Ouvrir la leçon 10">
+    <span class="lesson-num"><span class="ui-fr">10</span><span class="ui-km" lang="km">១០</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les mots pour questionner</span><span class="t-en" lang="en">Question words</span><span class="t-km" lang="km">ពាក្យសំណួរ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-24"><span class="ui-fr">mardi 24 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអង្គារ ទី២៤ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">quoi</span><span lang="en">what</span><span lang="km">អ្វី</span></li><li><span lang="fr">qui</span><span lang="en">who</span><span lang="km">នរណា</span></li><li><span lang="fr">où</span><span lang="en">where</span><span lang="km">នៅឯណា</span></li><li><span lang="fr">quand</span><span lang="en">when</span><span lang="km">ពេលណា</span></li><li><span lang="fr">pourquoi</span><span lang="en">why</span><span lang="km">ហេតុអ្វី</span></li><li><span lang="fr">comment</span><span lang="en">how</span><span lang="km">យ៉ាងម៉េច</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="9 #9 lecon 9 lesson 9 2026-11-23 23/11/2026 23-11-2026 23/11/2026 lundi 23 novembre 2026 monday, november 23, 2026 ថ្ងៃច័ន្ទ ទី២៣ ខែវិច្ឆិកា ឆ្នាំ២០២៦ jours-et-moments jours et moments les moments de la journee times of the day ពេលវេលាក្នុងមួយថ្ងៃ debutant កម្រិតដំបូង debutant aujourd&#x27;hui today ថ្ងៃនេះ demain tomorrow ថ្ងៃស្អែក hier yesterday ម្សិលមិញ le matin morning ព្រឹក le soir evening ល្ងាច la nuit night យប់ a demain ! see you tomorrow! ជួបគ្នាថ្ងៃស្អែក! tous les jours. every day. រាល់ថ្ងៃ។ quel jour sommes-nous aujourd&#x27;hui ? what day is it today? ថ្ងៃនេះថ្ងៃអ្វី? il fait deja nuit. it is already dark. យប់ហើយ។" data-level="debutant" data-number="9" data-date="2026-11-23">
+  <a class="lesson-link" data-nav href="lessons/lesson-009.html" aria-label="Ouvrir la leçon 9">
+    <span class="lesson-num"><span class="ui-fr">9</span><span class="ui-km" lang="km">៩</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les moments de la journée</span><span class="t-en" lang="en">Times of the day</span><span class="t-km" lang="km">ពេលវេលាក្នុងមួយថ្ងៃ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-23"><span class="ui-fr">lundi 23 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃច័ន្ទ ទី២៣ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">aujourd&#x27;hui</span><span lang="en">today</span><span lang="km">ថ្ងៃនេះ</span></li><li><span lang="fr">demain</span><span lang="en">tomorrow</span><span lang="km">ថ្ងៃស្អែក</span></li><li><span lang="fr">hier</span><span lang="en">yesterday</span><span lang="km">ម្សិលមិញ</span></li><li><span lang="fr">le matin</span><span lang="en">morning</span><span lang="km">ព្រឹក</span></li><li><span lang="fr">le soir</span><span lang="en">evening</span><span lang="km">ល្ងាច</span></li><li><span lang="fr">la nuit</span><span lang="en">night</span><span lang="km">យប់</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="8 #8 lecon 8 lesson 8 2026-11-22 22/11/2026 22-11-2026 22/11/2026 dimanche 22 novembre 2026 sunday, november 22, 2026 ថ្ងៃអាទិត្យ ទី២២ ខែវិច្ឆិកា ឆ្នាំ២០២៦ a-la-maison a la maison a la maison at home នៅផ្ទះ debutant កម្រិតដំបូង debutant la maison house ផ្ទះ la chambre bedroom បន្ទប់គេង la porte door ទ្វារ la table table តុ la chaise chair កៅអី le lit bed គ្រែ bienvenue chez nous ! welcome to our home! សូមស្វាគមន៍មកកាន់ផ្ទះរបស់យើង! entrez, asseyez-vous. come in, have a seat. អញ្ជើញចូល អញ្ជើញអង្គុយ។ je rentre a la maison. i am going home. ខ្ញុំទៅផ្ទះវិញ។ ouvre la porte, s&#x27;il te plait. open the door, please. សូមបើកទ្វារផង។" data-level="debutant" data-number="8" data-date="2026-11-22">
+  <a class="lesson-link" data-nav href="lessons/lesson-008.html" aria-label="Ouvrir la leçon 8">
+    <span class="lesson-num"><span class="ui-fr">8</span><span class="ui-km" lang="km">៨</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">À la maison</span><span class="t-en" lang="en">At home</span><span class="t-km" lang="km">នៅផ្ទះ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-22"><span class="ui-fr">dimanche 22 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអាទិត្យ ទី២២ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">la maison</span><span lang="en">house</span><span lang="km">ផ្ទះ</span></li><li><span lang="fr">la chambre</span><span lang="en">bedroom</span><span lang="km">បន្ទប់គេង</span></li><li><span lang="fr">la porte</span><span lang="en">door</span><span lang="km">ទ្វារ</span></li><li><span lang="fr">la table</span><span lang="en">table</span><span lang="km">តុ</span></li><li><span lang="fr">la chaise</span><span lang="en">chair</span><span lang="km">កៅអី</span></li><li><span lang="fr">le lit</span><span lang="en">bed</span><span lang="km">គ្រែ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="7 #7 lecon 7 lesson 7 2026-11-21 21/11/2026 21-11-2026 21/11/2026 samedi 21 novembre 2026 saturday, november 21, 2026 ថ្ងៃសៅរ៍ ទី២១ ខែវិច្ឆិកា ឆ្នាំ២០២៦ comment-ca-va comment ca va comment te sens-tu ? how do you feel? តើអ្នកមានអារម្មណ៍យ៉ាងណា? debutant កម្រិតដំបូង debutant aller bien to be well សុខសប្បាយ fatigue tired ហត់ avoir faim to be hungry ឃ្លាន avoir soif to be thirsty ស្រេកទឹក content happy សប្បាយចិត្ត malade sick ឈឺ je ne me sens pas bien. i don&#x27;t feel well. ខ្ញុំមិនស្រួលខ្លួនទេ។ moi aussi, j&#x27;ai faim. i am hungry too. ខ្ញុំក៏ឃ្លានដែរ។ repose-toi un peu. rest a little. សម្រាកបន្តិចទៅ។ retablis-toi vite ! get well soon! ឆាប់ជាណា!" data-level="debutant" data-number="7" data-date="2026-11-21">
+  <a class="lesson-link" data-nav href="lessons/lesson-007.html" aria-label="Ouvrir la leçon 7">
+    <span class="lesson-num"><span class="ui-fr">7</span><span class="ui-km" lang="km">៧</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Comment te sens-tu ?</span><span class="t-en" lang="en">How do you feel?</span><span class="t-km" lang="km">តើអ្នកមានអារម្មណ៍យ៉ាងណា?</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-21"><span class="ui-fr">samedi 21 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសៅរ៍ ទី២១ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">aller bien</span><span lang="en">to be well</span><span lang="km">សុខសប្បាយ</span></li><li><span lang="fr">fatigué</span><span lang="en">tired</span><span lang="km">ហត់</span></li><li><span lang="fr">avoir faim</span><span lang="en">to be hungry</span><span lang="km">ឃ្លាន</span></li><li><span lang="fr">avoir soif</span><span lang="en">to be thirsty</span><span lang="km">ស្រេកទឹក</span></li><li><span lang="fr">content</span><span lang="en">happy</span><span lang="km">សប្បាយចិត្ត</span></li><li><span lang="fr">malade</span><span lang="en">sick</span><span lang="km">ឈឺ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="6 #6 lecon 6 lesson 6 2026-11-20 20/11/2026 20-11-2026 20/11/2026 vendredi 20 novembre 2026 friday, november 20, 2026 ថ្ងៃសុក្រ ទី២០ ខែវិច្ឆិកា ឆ្នាំ២០២៦ manger-et-boire manger et boire manger et boire eating and drinking ញ៉ាំ និងផឹក debutant កម្រិតដំបូង debutant manger to eat ញ៉ាំ boire to drink ផឹក l&#x27;eau water ទឹក le riz rice បាយ le cafe coffee កាហ្វេ delicieux delicious ឆ្ងាញ់ tu as deja mange ? have you eaten yet? ញ៉ាំបាយហើយឬនៅ? j&#x27;ai deja mange. i have already eaten. ខ្ញុំញ៉ាំបាយហើយ។ bon appetit ! enjoy your meal! សូមអញ្ជើញពិសា។ c&#x27;est tres bon ! it&#x27;s very good! ឆ្ងាញ់ណាស់!" data-level="debutant" data-number="6" data-date="2026-11-20">
+  <a class="lesson-link" data-nav href="lessons/lesson-006.html" aria-label="Ouvrir la leçon 6">
+    <span class="lesson-num"><span class="ui-fr">6</span><span class="ui-km" lang="km">៦</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Manger et boire</span><span class="t-en" lang="en">Eating and drinking</span><span class="t-km" lang="km">ញ៉ាំ និងផឹក</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-20"><span class="ui-fr">vendredi 20 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃសុក្រ ទី២០ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">manger</span><span lang="en">to eat</span><span lang="km">ញ៉ាំ</span></li><li><span lang="fr">boire</span><span lang="en">to drink</span><span lang="km">ផឹក</span></li><li><span lang="fr">l&#x27;eau</span><span lang="en">water</span><span lang="km">ទឹក</span></li><li><span lang="fr">le riz</span><span lang="en">rice</span><span lang="km">បាយ</span></li><li><span lang="fr">le café</span><span lang="en">coffee</span><span lang="km">កាហ្វេ</span></li><li><span lang="fr">délicieux</span><span lang="en">delicious</span><span lang="km">ឆ្ងាញ់</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="5 #5 lecon 5 lesson 5 2026-11-19 19/11/2026 19-11-2026 19/11/2026 jeudi 19 novembre 2026 thursday, november 19, 2026 ថ្ងៃព្រហស្បតិ៍ ទី១៩ ខែវិច្ឆិកា ឆ្នាំ២០២៦ nombres-6-10 nombres 6 10 les nombres de 6 a 10 numbers from 6 to 10 លេខពី ៦ ដល់ ១០ debutant កម្រិតដំបូង debutant six six ប្រាំមួយ sept seven ប្រាំពីរ huit eight ប្រាំបី neuf nine ប្រាំបួន dix ten ដប់ combien how many ប៉ុន្មាន c&#x27;est combien ? how much is it? ថ្លៃប៉ុន្មាន? quel age as-tu ? how old are you? អាយុប៉ុន្មានហើយ? il est quelle heure ? what time is it? ម៉ោងប៉ុន្មានហើយ? combien de personnes ? how many people? ប៉ុន្មាននាក់?" data-level="debutant" data-number="5" data-date="2026-11-19">
+  <a class="lesson-link" data-nav href="lessons/lesson-005.html" aria-label="Ouvrir la leçon 5">
+    <span class="lesson-num"><span class="ui-fr">5</span><span class="ui-km" lang="km">៥</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les nombres de 6 à 10</span><span class="t-en" lang="en">Numbers from 6 to 10</span><span class="t-km" lang="km">លេខពី ៦ ដល់ ១០</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-19"><span class="ui-fr">jeudi 19 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃព្រហស្បតិ៍ ទី១៩ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">six</span><span lang="en">six</span><span lang="km">ប្រាំមួយ</span></li><li><span lang="fr">sept</span><span lang="en">seven</span><span lang="km">ប្រាំពីរ</span></li><li><span lang="fr">huit</span><span lang="en">eight</span><span lang="km">ប្រាំបី</span></li><li><span lang="fr">neuf</span><span lang="en">nine</span><span lang="km">ប្រាំបួន</span></li><li><span lang="fr">dix</span><span lang="en">ten</span><span lang="km">ដប់</span></li><li><span lang="fr">combien</span><span lang="en">how many</span><span lang="km">ប៉ុន្មាន</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="4 #4 lecon 4 lesson 4 2026-11-18 18/11/2026 18-11-2026 18/11/2026 mercredi 18 novembre 2026 wednesday, november 18, 2026 ថ្ងៃពុធ ទី១៨ ខែវិច្ឆិកា ឆ្នាំ២០២៦ famille famille la famille family គ្រួសារ debutant កម្រិតដំបូង debutant le pere father ឪពុក la mere mother ម្តាយ le mari husband ប្តី la femme wife ប្រពន្ធ l&#x27;enfant child កូន la famille family គ្រួសារ voici ma famille. this is my family. នេះជាគ្រួសាររបស់ខ្ញុំ។ tu as des freres et soeurs ? do you have any brothers and sisters? មានបងប្អូនទេ? comment va ta famille ? how is your family? គ្រួសារសុខសប្បាយទេ? j&#x27;aime ma famille. i love my family. ខ្ញុំស្រឡាញ់គ្រួសាររបស់ខ្ញុំ។" data-level="debutant" data-number="4" data-date="2026-11-18">
+  <a class="lesson-link" data-nav href="lessons/lesson-004.html" aria-label="Ouvrir la leçon 4">
+    <span class="lesson-num"><span class="ui-fr">4</span><span class="ui-km" lang="km">៤</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">La famille</span><span class="t-en" lang="en">Family</span><span class="t-km" lang="km">គ្រួសារ</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-18"><span class="ui-fr">mercredi 18 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃពុធ ទី១៨ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">le père</span><span lang="en">father</span><span lang="km">ឪពុក</span></li><li><span lang="fr">la mère</span><span lang="en">mother</span><span lang="km">ម្តាយ</span></li><li><span lang="fr">le mari</span><span lang="en">husband</span><span lang="km">ប្តី</span></li><li><span lang="fr">la femme</span><span lang="en">wife</span><span lang="km">ប្រពន្ធ</span></li><li><span lang="fr">l&#x27;enfant</span><span lang="en">child</span><span lang="km">កូន</span></li><li><span lang="fr">la famille</span><span lang="en">family</span><span lang="km">គ្រួសារ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card is-future" data-search="3 #3 lecon 3 lesson 3 2026-11-17 17/11/2026 17-11-2026 17/11/2026 mardi 17 novembre 2026 tuesday, november 17, 2026 ថ្ងៃអង្គារ ទី១៧ ខែវិច្ឆិកា ឆ្នាំ២០២៦ nombres-1-5 nombres 1 5 les nombres de 1 a 5 numbers from 1 to 5 លេខពី ១ ដល់ ៥ debutant កម្រិតដំបូង debutant un one មួយ deux two ពីរ trois three បី quatre four បួន cinq five ប្រាំ zero zero សូន្យ un, deux, trois ! one, two, three! មួយ ពីរ បី! encore un, s&#x27;il vous plait. one more, please. សូមមួយទៀត។ tous les deux. both of us. ទាំងពីរនាក់។ quel est votre numero de telephone ? what is your phone number? តើលេខទូរស័ព្ទរបស់អ្នកលេខប៉ុន្មាន?" data-level="debutant" data-number="3" data-date="2026-11-17">
+  <a class="lesson-link" data-nav href="lessons/lesson-003.html" aria-label="Ouvrir la leçon 3">
+    <span class="lesson-num"><span class="ui-fr">3</span><span class="ui-km" lang="km">៣</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les nombres de 1 à 5</span><span class="t-en" lang="en">Numbers from 1 to 5</span><span class="t-km" lang="km">លេខពី ១ ដល់ ៥</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-17"><span class="ui-fr">mardi 17 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអង្គារ ទី១៧ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">un</span><span lang="en">one</span><span lang="km">មួយ</span></li><li><span lang="fr">deux</span><span lang="en">two</span><span lang="km">ពីរ</span></li><li><span lang="fr">trois</span><span lang="en">three</span><span lang="km">បី</span></li><li><span lang="fr">quatre</span><span lang="en">four</span><span lang="km">បួន</span></li><li><span lang="fr">cinq</span><span lang="en">five</span><span lang="km">ប្រាំ</span></li><li><span lang="fr">zéro</span><span lang="en">zero</span><span lang="km">សូន្យ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card" data-search="2 #2 lecon 2 lesson 2 2026-11-16 16/11/2026 16-11-2026 16/11/2026 lundi 16 novembre 2026 monday, november 16, 2026 ថ្ងៃច័ន្ទ ទី១៦ ខែវិច្ឆិកា ឆ្នាំ២០២៦ se-presenter se presenter se presenter introducing yourself ការណែនាំខ្លួន debutant កម្រិតដំបូង debutant je, moi i, me ខ្ញុំ vous, tu you អ្នក le nom name ឈ្មោះ le pays country ប្រទេស habiter to live រស់នៅ l&#x27;ami friend មិត្តភក្តិ je m&#x27;appelle… my name is… ខ្ញុំឈ្មោះ… d&#x27;ou venez-vous ? where are you from? តើអ្នកមកពីណា? je viens de france. i am from france. ខ្ញុំមកពីប្រទេសបារាំង។ enchante de vous rencontrer. nice to meet you. រីករាយដែលបានជួបអ្នក។" data-level="debutant" data-number="2" data-date="2026-11-16">
+  <a class="lesson-link" data-nav href="lessons/lesson-002.html" aria-label="Ouvrir la leçon 2">
+    <span class="lesson-num"><span class="ui-fr">2</span><span class="ui-km" lang="km">២</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Se présenter</span><span class="t-en" lang="en">Introducing yourself</span><span class="t-km" lang="km">ការណែនាំខ្លួន</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-16"><span class="ui-fr">lundi 16 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃច័ន្ទ ទី១៦ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 9 min</span><span class="ui-km" lang="km">≈ ៩ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">je, moi</span><span lang="en">I, me</span><span lang="km">ខ្ញុំ</span></li><li><span lang="fr">vous, tu</span><span lang="en">you</span><span lang="km">អ្នក</span></li><li><span lang="fr">le nom</span><span lang="en">name</span><span lang="km">ឈ្មោះ</span></li><li><span lang="fr">le pays</span><span lang="en">country</span><span lang="km">ប្រទេស</span></li><li><span lang="fr">habiter</span><span lang="en">to live</span><span lang="km">រស់នៅ</span></li><li><span lang="fr">l&#x27;ami</span><span lang="en">friend</span><span lang="km">មិត្តភក្តិ</span></li></ul>
+    </span>
+  </a>
+</li>
+<li class="lesson-card" data-search="1 #1 lecon 1 lesson 1 2026-11-15 15/11/2026 15-11-2026 15/11/2026 dimanche 15 novembre 2026 sunday, november 15, 2026 ថ្ងៃអាទិត្យ ទី១៥ ខែវិច្ឆិកា ឆ្នាំ២០២៦ salutations salutations les salutations greetings ការស្វាគមន៍ debutant កម្រិតដំបូង debutant bonjour hello សួស្តី au revoir goodbye លាសិនហើយ merci thank you អរគុណ oui yes បាទ / ចាស non no ទេ s&#x27;il vous plait please សូម comment ca va ? how are you? សុខសប្បាយទេ? ca va bien, merci. i&#x27;m fine, thank you. ខ្ញុំសុខសប្បាយ អរគុណ។ bonne nuit. good night. រាត្រីសួស្តី។ excusez-moi. excuse me. សុំទោស។" data-level="debutant" data-number="1" data-date="2026-11-15">
+  <a class="lesson-link" data-nav href="lessons/lesson-001.html" aria-label="Ouvrir la leçon 1">
+    <span class="lesson-num"><span class="ui-fr">1</span><span class="ui-km" lang="km">១</span></span>
+    <span class="lesson-body">
+      <span class="lesson-title tri-title"><span class="t-fr" lang="fr">Les salutations</span><span class="t-en" lang="en">Greetings</span><span class="t-km" lang="km">ការស្វាគមន៍</span></span>
+      <span class="lesson-meta">
+        <time datetime="2026-11-15"><span class="ui-fr">dimanche 15 novembre 2026</span><span class="ui-km" lang="km">ថ្ងៃអាទិត្យ ទី១៥ ខែវិច្ឆិកា ឆ្នាំ២០២៦</span></time>
+        <span class="badge level-debutant"><span class="ui-fr">Débutant</span><span class="ui-km" lang="km">កម្រិតដំបូង</span></span>
+        <span class="lesson-time"><span class="ui-fr">≈ 8 min</span><span class="ui-km" lang="km">≈ ៨ នាទី</span></span>
+        
+        <span class="badge badge-done"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="ui-fr">Terminée</span><span class="ui-km" lang="km">រៀនចប់</span></span>
+      </span>
+      <ul class="lesson-words"><li><span lang="fr">bonjour</span><span lang="en">hello</span><span lang="km">សួស្តី</span></li><li><span lang="fr">au revoir</span><span lang="en">goodbye</span><span lang="km">លាសិនហើយ</span></li><li><span lang="fr">merci</span><span lang="en">thank you</span><span lang="km">អរគុណ</span></li><li><span lang="fr">oui</span><span lang="en">yes</span><span lang="km">បាទ / ចាស</span></li><li><span lang="fr">non</span><span lang="en">no</span><span lang="km">ទេ</span></li><li><span lang="fr">s&#x27;il vous plaît</span><span lang="en">please</span><span lang="km">សូម</span></li></ul>
+    </span>
+  </a>
+</li>
+
+</ol>
+<p class="empty" id="no-result" hidden><span class="ui-fr">Aucune leçon ne correspond à cette recherche.</span><span class="ui-km" lang="km">រកមិនឃើញមេរៀនទេ។</span></p>
+<script type="application/json" id="cards-data">[["bonjour|សួស្តី","2026-11-15"],["au revoir|លាសិនហើយ","2026-11-15"],["merci|អរគុណ","2026-11-15"],["oui|បាទ / ចាស","2026-11-15"],["non|ទេ","2026-11-15"],["s'il vous plaît|សូម","2026-11-15"],["Comment ça va ?|សុខសប្បាយទេ?","2026-11-15"],["Ça va bien, merci.|ខ្ញុំសុខសប្បាយ អរគុណ។","2026-11-15"],["Bonne nuit.|រាត្រីសួស្តី។","2026-11-15"],["Excusez-moi.|សុំទោស។","2026-11-15"],["je, moi|ខ្ញុំ","2026-11-16"],["vous, tu|អ្នក","2026-11-16"],["le nom|ឈ្មោះ","2026-11-16"],["le pays|ប្រទេស","2026-11-16"],["habiter|រស់នៅ","2026-11-16"],["l'ami|មិត្តភក្តិ","2026-11-16"],["Je m'appelle…|ខ្ញុំឈ្មោះ…","2026-11-16"],["D'où venez-vous ?|តើអ្នកមកពីណា?","2026-11-16"],["Je viens de France.|ខ្ញុំមកពីប្រទេសបារាំង។","2026-11-16"],["Enchanté de vous rencontrer.|រីករាយដែលបានជួបអ្នក។","2026-11-16"],["un|មួយ","2026-11-17"],["deux|ពីរ","2026-11-17"],["trois|បី","2026-11-17"],["quatre|បួន","2026-11-17"],["cinq|ប្រាំ","2026-11-17"],["zéro|សូន្យ","2026-11-17"],["Un, deux, trois !|មួយ ពីរ បី!","2026-11-17"],["Encore un, s'il vous plaît.|សូមមួយទៀត។","2026-11-17"],["Tous les deux.|ទាំងពីរនាក់។","2026-11-17"],["Quel est votre numéro de téléphone ?|តើលេខទូរស័ព្ទរបស់អ្នកលេខប៉ុន្មាន?","2026-11-17"],["le père|ឪពុក","2026-11-18"],["la mère|ម្តាយ","2026-11-18"],["le mari|ប្តី","2026-11-18"],["la femme|ប្រពន្ធ","2026-11-18"],["l'enfant|កូន","2026-11-18"],["la famille|គ្រួសារ","2026-11-18"],["Voici ma famille.|នេះជាគ្រួសាររបស់ខ្ញុំ។","2026-11-18"],["Tu as des frères et sœurs ?|មានបងប្អូនទេ?","2026-11-18"],["Comment va ta famille ?|គ្រួសារសុខសប្បាយទេ?","2026-11-18"],["J'aime ma famille.|ខ្ញុំស្រឡាញ់គ្រួសាររបស់ខ្ញុំ។","2026-11-18"],["six|ប្រាំមួយ","2026-11-19"],["sept|ប្រាំពីរ","2026-11-19"],["huit|ប្រាំបី","2026-11-19"],["neuf|ប្រាំបួន","2026-11-19"],["dix|ដប់","2026-11-19"],["combien|ប៉ុន្មាន","2026-11-19"],["C'est combien ?|ថ្លៃប៉ុន្មាន?","2026-11-19"],["Quel âge as-tu ?|អាយុប៉ុន្មានហើយ?","2026-11-19"],["Il est quelle heure ?|ម៉ោងប៉ុន្មានហើយ?","2026-11-19"],["Combien de personnes ?|ប៉ុន្មាននាក់?","2026-11-19"],["manger|ញ៉ាំ","2026-11-20"],["boire|ផឹក","2026-11-20"],["l'eau|ទឹក","2026-11-20"],["le riz|បាយ","2026-11-20"],["le café|កាហ្វេ","2026-11-20"],["délicieux|ឆ្ងាញ់","2026-11-20"],["Tu as déjà mangé ?|ញ៉ាំបាយហើយឬនៅ?","2026-11-20"],["J'ai déjà mangé.|ខ្ញុំញ៉ាំបាយហើយ។","2026-11-20"],["Bon appétit !|សូមអញ្ជើញពិសា។","2026-11-20"],["C'est très bon !|ឆ្ងាញ់ណាស់!","2026-11-20"],["aller bien|សុខសប្បាយ","2026-11-21"],["fatigué|ហត់","2026-11-21"],["avoir faim|ឃ្លាន","2026-11-21"],["avoir soif|ស្រេកទឹក","2026-11-21"],["content|សប្បាយចិត្ត","2026-11-21"],["malade|ឈឺ","2026-11-21"],["Je ne me sens pas bien.|ខ្ញុំមិនស្រួលខ្លួនទេ។","2026-11-21"],["Moi aussi, j'ai faim.|ខ្ញុំក៏ឃ្លានដែរ។","2026-11-21"],["Repose-toi un peu.|សម្រាកបន្តិចទៅ។","2026-11-21"],["Rétablis-toi vite !|ឆាប់ជាណា!","2026-11-21"],["la maison|ផ្ទះ","2026-11-22"],["la chambre|បន្ទប់គេង","2026-11-22"],["la porte|ទ្វារ","2026-11-22"],["la table|តុ","2026-11-22"],["la chaise|កៅអី","2026-11-22"],["le lit|គ្រែ","2026-11-22"],["Bienvenue chez nous !|សូមស្វាគមន៍មកកាន់ផ្ទះរបស់យើង!","2026-11-22"],["Entrez, asseyez-vous.|អញ្ជើញចូល អញ្ជើញអង្គុយ។","2026-11-22"],["Je rentre à la maison.|ខ្ញុំទៅផ្ទះវិញ។","2026-11-22"],["Ouvre la porte, s'il te plaît.|សូមបើកទ្វារផង។","2026-11-22"],["aujourd'hui|ថ្ងៃនេះ","2026-11-23"],["demain|ថ្ងៃស្អែក","2026-11-23"],["hier|ម្សិលមិញ","2026-11-23"],["le matin|ព្រឹក","2026-11-23"],["le soir|ល្ងាច","2026-11-23"],["la nuit|យប់","2026-11-23"],["À demain !|ជួបគ្នាថ្ងៃស្អែក!","2026-11-23"],["Tous les jours.|រាល់ថ្ងៃ។","2026-11-23"],["Quel jour sommes-nous aujourd'hui ?|ថ្ងៃនេះថ្ងៃអ្វី?","2026-11-23"],["Il fait déjà nuit.|យប់ហើយ។","2026-11-23"],["quoi|អ្វី","2026-11-24"],["qui|នរណា","2026-11-24"],["où|នៅឯណា","2026-11-24"],["quand|ពេលណា","2026-11-24"],["pourquoi|ហេតុអ្វី","2026-11-24"],["comment|យ៉ាងម៉េច","2026-11-24"],["Qu'est-ce que c'est ?|នេះជាអ្វី?","2026-11-24"],["Où vas-tu ?|ទៅណា?","2026-11-24"],["Je ne sais pas.|ខ្ញុំមិនដឹងទេ។","2026-11-24"],["C'est à qui ?|នេះរបស់នរណា?","2026-11-24"],["rouge|ក្រហម","2026-11-25"],["bleu|ខៀវ","2026-11-25"],["vert|បៃតង","2026-11-25"],["blanc|ស","2026-11-25"],["noir|ខ្មៅ","2026-11-25"],["jaune|លឿង","2026-11-25"],["C'est de quelle couleur ?|ពណ៌អ្វី?","2026-11-25"],["Quelle est ta couleur préférée ?|ចូលចិត្តពណ៌អ្វីជាងគេ?","2026-11-25"],["J'aime le bleu.|ខ្ញុំចូលចិត្តពណ៌ខៀវ។","2026-11-25"],["C'est joli !|ស្អាតណាស់!","2026-11-25"],["aller|ទៅ","2026-11-26"],["venir|មក","2026-11-26"],["vouloir|ចង់","2026-11-26"],["avoir|មាន","2026-11-26"],["aimer|ចូលចិត្ត","2026-11-26"],["comprendre|យល់","2026-11-26"],["Je ne comprends pas.|ខ្ញុំមិនយល់ទេ។","2026-11-26"],["On y va !|តោះ ទៅ!","2026-11-26"],["Viens ici.|មកនេះ។","2026-11-26"],["Tu as le temps ?|មានពេលទេ?","2026-11-26"],["le marché|ផ្សារ","2026-11-27"],["acheter|ទិញ","2026-11-27"],["vendre|លក់","2026-11-27"],["le prix|តម្លៃ","2026-11-27"],["cher|ថ្លៃ","2026-11-27"],["bon marché|ថោក","2026-11-27"],["Combien coûte un kilo ?|មួយគីឡូថ្លៃប៉ុន្មាន?","2026-11-27"],["Vous pouvez baisser un peu le prix ?|ចុះថ្លៃបន្តិចបានទេ?","2026-11-27"],["Je le prends.|ខ្ញុំយកមួយនេះ។","2026-11-27"],["Ça fait combien en tout ?|ទាំងអស់ថ្លៃប៉ុន្មាន?","2026-11-27"],["le fruit|ផ្លែឈើ","2026-11-28"],["le légume|បន្លែ","2026-11-28"],["la mangue|ស្វាយ","2026-11-28"],["la banane|ចេក","2026-11-28"],["la noix de coco|ដូង","2026-11-28"],["frais|ស្រស់","2026-11-28"],["C'est sucré ?|ផ្អែមទេ?","2026-11-28"],["Je peux goûter ?|សុំភ្លក់មើលបានទេ?","2026-11-28"],["Un kilo de mangues, s'il vous plaît.|សុំស្វាយមួយគីឡូ។","2026-11-28"],["Ce n'est pas encore mûr.|មិនទាន់ទុំទេ។","2026-11-28"],["le restaurant|ភោជនីយដ្ឋាន","2026-11-29"],["le menu|ម៉ឺនុយ","2026-11-29"],["commander|កុម្ម៉ង់","2026-11-29"],["le plat|ម្ហូប","2026-11-29"],["l'addition|វិក្កយបត្រ","2026-11-29"],["épicé|ហឹរ","2026-11-29"],["L'addition, s'il vous plaît.|សុំគិតលុយ។","2026-11-29"],["Pas trop épicé, s'il vous plaît.|សុំកុំហឹរពេក។","2026-11-29"],["Je prends la même chose.|ខ្ញុំយកដូចគ្នា។","2026-11-29"],["Qu'est-ce qui est bon ici ?|នៅទីនេះមានអ្វីឆ្ងាញ់?","2026-11-29"],["le tuk-tuk|តុកតុក","2026-11-30"],["la voiture|ឡាន","2026-11-30"],["la moto|ម៉ូតូ","2026-11-30"],["le bus|ឡានក្រុង","2026-11-30"],["la route|ផ្លូវ","2026-11-30"],["conduire|បើកបរ","2026-11-30"],["C'est combien pour aller au marché ?|ទៅផ្សារថ្លៃប៉ុន្មាន?","2026-11-30"],["Arrêtez-vous ici, s'il vous plaît.|សូមឈប់ត្រង់នេះ។","2026-11-30"],["Roulez doucement, s'il vous plaît.|សូមបើកយឺតៗ។","2026-11-30"],["Il y a beaucoup d'embouteillages.|ស្ទះផ្លូវណាស់។","2026-11-30"],["à gauche|ខាងឆ្វេង","2026-12-01"],["à droite|ខាងស្តាំ","2026-12-01"],["tout droit|ត្រង់","2026-12-01"],["près|ជិត","2026-12-01"],["loin|ឆ្ងាយ","2026-12-01"],["tourner|បត់","2026-12-01"],["Excusez-moi, où est le marché ?|សុំទោស ផ្សារនៅឯណា?","2026-12-01"],["C'est loin d'ici ?|ឆ្ងាយពីទីនេះទេ?","2026-12-01"],["Je ne connais pas le chemin.|ខ្ញុំមិនស្គាល់ផ្លូវទេ។","2026-12-01"],["C'est en face du marché.|នៅទល់មុខផ្សារ។","2026-12-01"],["l'heure|ម៉ោង","2026-12-02"],["la minute|នាទី","2026-12-02"],["maintenant|ឥឡូវនេះ","2026-12-02"],["en avance|មុនម៉ោង","2026-12-02"],["en retard|យឺត","2026-12-02"],["attendre|រង់ចាំ","2026-12-02"],["Dans dix minutes.|ដប់នាទីទៀត។","2026-12-02"],["On part à quelle heure ?|យើងចេញទៅម៉ោងប៉ុន្មាន?","2026-12-02"],["Attends un peu.|ចាំបន្តិច។","2026-12-02"],["Il est sept heures et demie.|ម៉ោងប្រាំពីរកន្លះ។","2026-12-02"],["le magasin|ហាង","2026-12-03"],["l'argent|លុយ","2026-12-03"],["payer|បង់លុយ","2026-12-03"],["la taille|ទំហំ","2026-12-03"],["essayer|សាកល្បង","2026-12-03"],["les vêtements|ខោអាវ","2026-12-03"],["Je regarde seulement, merci.|ខ្ញុំគ្រាន់តែមើលទេ អរគុណ។","2026-12-03"],["Je peux l'essayer ?|សុំសាកមើលបានទេ?","2026-12-03"],["Vous avez une autre couleur ?|មានពណ៌ផ្សេងទេ?","2026-12-03"],["C'est trop petit.|តូចពេក។","2026-12-03"],["le médecin|គ្រូពេទ្យ","2026-12-04"],["l'hôpital|មន្ទីរពេទ្យ","2026-12-04"],["le médicament|ថ្នាំ","2026-12-04"],["avoir mal|ឈឺ","2026-12-04"],["la tête|ក្បាល","2026-12-04"],["le ventre|ពោះ","2026-12-04"],["Ça fait mal ici.|ឈឺត្រង់នេះ។","2026-12-04"],["J'ai de la fièvre.|ខ្ញុំក្តៅខ្លួន។","2026-12-04"],["Trois fois par jour.|មួយថ្ងៃបីដង។","2026-12-04"],["Depuis quand avez-vous mal ?|ឈឺតាំងពីពេលណា?","2026-12-04"],["l'hôtel|សណ្ឋាគារ","2026-12-05"],["la clé|កូនសោ","2026-12-05"],["réserver|កក់","2026-12-05"],["la serviette|កន្សែង","2026-12-05"],["la salle de bain|បន្ទប់ទឹក","2026-12-05"],["la climatisation|ម៉ាស៊ីនត្រជាក់","2026-12-05"],["Vous avez une chambre libre ?|មានបន្ទប់ទំនេរទេ?","2026-12-05"],["C'est combien la nuit ?|មួយយប់ថ្លៃប៉ុន្មាន?","2026-12-05"],["À quelle heure faut-il quitter la chambre ?|ត្រូវចេញពីបន្ទប់ម៉ោងប៉ុន្មាន?","2026-12-05"],["Je voudrais rester deux nuits.|ខ្ញុំចង់ស្នាក់នៅពីរយប់។","2026-12-05"],["chaud|ក្តៅ","2026-12-06"],["froid|ត្រជាក់","2026-12-06"],["la pluie|ភ្លៀង","2026-12-06"],["le soleil|ព្រះអាទិត្យ","2026-12-06"],["le vent|ខ្យល់","2026-12-06"],["la saison|រដូវ","2026-12-06"],["Quel temps fait-il ?|អាកាសធាតុយ៉ាងម៉េចដែរ?","2026-12-06"],["Il fait beau.|អាកាសធាតុល្អ។","2026-12-06"],["Il va pleuvoir.|មេឃជិតភ្លៀងហើយ។","2026-12-06"],["N'oublie pas ton parapluie.|កុំភ្លេចយកឆ័ត្រ។","2026-12-06"],["se réveiller|ភ្ញាក់","2026-12-07"],["dormir|គេង","2026-12-07"],["travailler|ធ្វើការ","2026-12-07"],["cuisiner|ធ្វើម្ហូប","2026-12-07"],["se doucher|ងូតទឹក","2026-12-07"],["se reposer|សម្រាក","2026-12-07"],["Je me lève tôt.|ខ្ញុំក្រោកពីព្រលឹម។","2026-12-07"],["Qu'est-ce que tu fais ?|កំពុងធ្វើអ្វី?","2026-12-07"],["J'ai beaucoup de travail aujourd'hui.|ថ្ងៃនេះខ្ញុំមានការងារច្រើន។","2026-12-07"],["Dors bien !|គេងឱ្យលក់ស្រួលណា!","2026-12-07"],["le travail|ការងារ","2026-12-08"],["l'école|សាលារៀន","2026-12-08"],["apprendre|រៀន","2026-12-08"],["l'enseignant|គ្រូបង្រៀន","2026-12-08"],["la langue|ភាសា","2026-12-08"],["difficile|ពិបាក","2026-12-08"],["Tu peux répéter, s'il te plaît ?|សូមនិយាយម្តងទៀតបានទេ?","2026-12-08"],["Parlez lentement, s'il vous plaît.|សូមនិយាយយឺតៗ។","2026-12-08"],["Qu'est-ce que ça veut dire ?|មានន័យថាម៉េច?","2026-12-08"],["Je parle un peu khmer.|ខ្ញុំចេះភាសាខ្មែរបន្តិចបន្តួច។","2026-12-08"],["déjà|រួចហើយ","2026-12-09"],["avant|ពីមុន","2026-12-09"],["la semaine dernière|សប្តាហ៍មុន","2026-12-09"],["finir|ចប់","2026-12-09"],["se souvenir|ចាំ","2026-12-09"],["le voyage|ដំណើរ","2026-12-09"],["Qu'est-ce que tu as fait hier ?|ម្សិលមិញបានធ្វើអ្វីខ្លះ?","2026-12-09"],["Il y a longtemps.|យូរណាស់មកហើយ។","2026-12-09"],["Je n'ai pas encore fini.|ខ្ញុំធ្វើមិនទាន់ចប់ទេ។","2026-12-09"],["Je ne m'en souviens pas.|ខ្ញុំចាំមិនបានទេ។","2026-12-09"],["la semaine prochaine|សប្តាហ៍ក្រោយ","2026-12-10"],["le projet|គម្រោង","2026-12-10"],["espérer|សង្ឃឹម","2026-12-10"],["peut-être|ប្រហែលជា","2026-12-10"],["décider|សម្រេចចិត្ត","2026-12-10"],["bientôt|ឆាប់ៗនេះ","2026-12-10"],["Qu'est-ce que tu vas faire demain ?|ថ្ងៃស្អែកនឹងធ្វើអ្វី?","2026-12-10"],["J'aimerais aller à la mer.|ខ្ញុំចង់ទៅលេងសមុទ្រ។","2026-12-10"],["On verra.|ចាំមើលសិន។","2026-12-10"],["C'est une bonne idée !|គំនិតល្អណាស់!","2026-12-10"],["le téléphone|ទូរស័ព្ទ","2026-12-11"],["appeler|ហៅទូរស័ព្ទ","2026-12-11"],["le message|សារ","2026-12-11"],["le numéro|លេខ","2026-12-11"],["répondre|ឆ្លើយ","2026-12-11"],["occupé|ជាប់រវល់","2026-12-11"],["Allô ?|អាឡូ?","2026-12-11"],["Qui est à l'appareil ?|នរណានិយាយហ្នឹង?","2026-12-11"],["Je te rappelle plus tard.|ចាំខ្ញុំហៅទៅវិញពេលក្រោយ។","2026-12-11"],["Je n'entends pas bien.|ខ្ញុំស្តាប់មិនសូវឮទេ។","2026-12-11"],["le problème|បញ្ហា","2026-12-12"],["aider|ជួយ","2026-12-12"],["cassé|ខូច","2026-12-12"],["réparer|ជួសជុល","2026-12-12"],["perdre|បាត់","2026-12-12"],["trouver|រកឃើញ","2026-12-12"],["Qu'est-ce qui se passe ?|មានរឿងអ្វី?","2026-12-12"],["Ne t'inquiète pas.|កុំបារម្ភអី។","2026-12-12"],["Ça ne marche pas.|វាអត់ដើរទេ។","2026-12-12"],["Je cherche mon téléphone.|ខ្ញុំកំពុងរកទូរស័ព្ទរបស់ខ្ញុំ។","2026-12-12"],["penser|គិត","2026-12-13"],["être d'accord|យល់ស្រប","2026-12-13"],["préférer|ចូលចិត្តជាង","2026-12-13"],["important|សំខាន់","2026-12-13"],["vrai|ពិត","2026-12-13"],["se tromper|ខុស","2026-12-13"],["Qu'est-ce que tu en penses ?|គិតយ៉ាងម៉េចដែរ?","2026-12-13"],["Tu as raison.|អ្នកនិយាយត្រូវ។","2026-12-13"],["Je ne suis pas d'accord.|ខ្ញុំមិនយល់ស្របទេ។","2026-12-13"],["À mon avis…|តាមខ្ញុំគិត…","2026-12-13"],["la fête|បុណ្យ","2026-12-14"],["le Nouvel An khmer|ចូលឆ្នាំខ្មែរ","2026-12-14"],["la pagode|វត្ត","2026-12-14"],["le cadeau|អំណោយ","2026-12-14"],["inviter|អញ្ជើញ","2026-12-14"],["ensemble|ជាមួយគ្នា","2026-12-14"],["Bonne année !|សួស្តីឆ្នាំថ្មី!","2026-12-14"],["Joyeux anniversaire !|រីករាយថ្ងៃកំណើត!","2026-12-14"],["Félicitations !|សូមអបអរសាទរ!","2026-12-14"],["Merci pour l'invitation.|អរគុណដែលបានអញ្ជើញ។","2026-12-14"],["la main|ដៃ","2026-12-15"],["le pied|ជើង","2026-12-15"],["les yeux|ភ្នែក","2026-12-15"],["la bouche|មាត់","2026-12-15"],["le dos|ខ្នង","2026-12-15"],["les cheveux|សក់","2026-12-15"],["J'ai mal au dos.|ខ្ញុំឈឺខ្នង។","2026-12-15"],["Lave-toi les mains.|លាងដៃសិន។","2026-12-15"],["Ferme les yeux.|បិទភ្នែក។","2026-12-15"],["Fais attention !|ប្រយ័ត្ន!","2026-12-15"],["l'animal|សត្វ","2026-12-16"],["le chien|ឆ្កែ","2026-12-16"],["le chat|ឆ្មា","2026-12-16"],["le poisson|ត្រី","2026-12-16"],["l'oiseau|សត្វស្លាប","2026-12-16"],["la vache|គោ","2026-12-16"],["Il est trop mignon !|គួរឱ្យស្រឡាញ់ណាស់!","2026-12-16"],["Il mord ?|វាខាំទេ?","2026-12-16"],["Ne le touche pas.|កុំប៉ះវា។","2026-12-16"],["Tu as un animal de compagnie ?|មានចិញ្ចឹមសត្វទេ?","2026-12-16"],["grand|ខ្ពស់","2026-12-17"],["petit|ទាប","2026-12-17"],["jeune|ក្មេង","2026-12-17"],["âgé|ចាស់","2026-12-17"],["gentil|ចិត្តល្អ","2026-12-17"],["drôle|កំប្លែង","2026-12-17"],["Il te ressemble beaucoup.|គាត់មុខដូចអ្នកណាស់។","2026-12-17"],["Elle a l'air gentille.|គាត់មើលទៅចិត្តល្អ។","2026-12-17"],["Il porte des lunettes.|គាត់ពាក់វ៉ែនតា។","2026-12-17"],["Tu n'as pas changé !|មិនប្រែប្រួលសោះ!","2026-12-17"],["triste|សោកសៅ","2026-12-18"],["en colère|ខឹង","2026-12-18"],["avoir peur|ខ្លាច","2026-12-18"],["surpris|ភ្ញាក់ផ្អើល","2026-12-18"],["s'ennuyer|ធុញ","2026-12-18"],["pleurer|យំ","2026-12-18"],["Pourquoi tu fais cette tête ?|ម៉េចក៏មុខក្រញូវអញ្ចឹង?","2026-12-18"],["Calme-toi.|ត្រជាក់ចិត្តសិន។","2026-12-18"],["Ce n'est pas grave.|មិនអីទេ។","2026-12-18"],["Je ne l'ai pas fait exprès.|ខ្ញុំមិនចេតនាទេ។","2026-12-18"],["la ville|ទីក្រុង","2026-12-19"],["la banque|ធនាគារ","2026-12-19"],["la poste|ប្រៃសណីយ៍","2026-12-19"],["la pharmacie|ហាងលក់ថ្នាំ","2026-12-19"],["le parc|សួនច្បារ","2026-12-19"],["traverser|ឆ្លង","2026-12-19"],["Où est la banque la plus proche ?|ធនាគារដែលនៅជិតជាងគេនៅឯណា?","2026-12-19"],["C'est ouvert le dimanche ?|ថ្ងៃអាទិត្យបើកទេ?","2026-12-19"],["C'est déjà fermé.|បិទបាត់ហើយ។","2026-12-19"],["Attention aux motos !|ប្រយ័ត្នម៉ូតូ!","2026-12-19"],["la campagne|ជនបទ","2026-12-20"],["la rizière|ស្រែ","2026-12-20"],["l'arbre|ដើមឈើ","2026-12-20"],["le fleuve|ទន្លេ","2026-12-20"],["la montagne|ភ្នំ","2026-12-20"],["le village|ភូមិ","2026-12-20"],["C'est calme ici.|នៅទីនេះស្ងាត់ណាស់។","2026-12-20"],["L'air est frais ici.|ខ្យល់នៅទីនេះស្រស់ស្រាយ។","2026-12-20"],["On va se promener ?|ទៅដើរលេងទេ?","2026-12-20"],["Quel beau paysage !|ទេសភាពស្អាតណាស់!","2026-12-20"],["couper|កាត់","2026-12-21"],["faire frire|ចៀន","2026-12-21"],["le sel|អំបិល","2026-12-21"],["le sucre|ស្ករ","2026-12-21"],["l'œuf|ពងមាន់","2026-12-21"],["la sauce de poisson|ទឹកត្រី","2026-12-21"],["Goûte, c'est assez salé ?|ភ្លក់មើល ប្រៃល្មមទេ?","2026-12-21"],["Il manque un peu de sel.|ខ្វះអំបិលបន្តិច។","2026-12-21"],["Attention, c'est chaud !|ប្រយ័ត្ន ក្តៅ!","2026-12-21"],["Tu peux m'aider ?|ជួយខ្ញុំបន្តិចបានទេ?","2026-12-21"],["nettoyer|សម្អាត","2026-12-22"],["faire la lessive|បោកខោអាវ","2026-12-22"],["balayer|បោស","2026-12-22"],["faire la vaisselle|លាងចាន","2026-12-22"],["sale|កខ្វក់","2026-12-22"],["propre|ស្អាត","2026-12-22"],["C'est ton tour.|ដល់វេនអ្នកហើយ។","2026-12-22"],["Je m'en occupe.|ទុកឱ្យខ្ញុំធ្វើ។","2026-12-22"],["Tu peux étendre le linge ?|អាចហាលខោអាវបានទេ?","2026-12-22"],["On partage le travail.|យើងចែកការងារគ្នា។","2026-12-22"],["la musique|តន្ត្រី","2026-12-23"],["chanter|ច្រៀង","2026-12-23"],["danser|រាំ","2026-12-23"],["lire|អាន","2026-12-23"],["le film|ភាពយន្ត","2026-12-23"],["le sport|កីឡា","2026-12-23"],["Qu'est-ce que tu fais le week-end ?|ចុងសប្តាហ៍ធ្វើអ្វីខ្លះ?","2026-12-23"],["J'adore ça !|ខ្ញុំចូលចិត្តណាស់!","2026-12-23"],["Je n'aime pas trop ça.|ខ្ញុំមិនសូវចូលចិត្តទេ។","2026-12-23"],["On va au cinéma ?|ទៅមើលកុនទេ?","2026-12-23"],["l'amour|សេចក្តីស្រឡាញ់","2026-12-24"],["manquer|នឹក","2026-12-24"],["se marier|រៀបការ","2026-12-24"],["le cœur|បេះដូង","2026-12-24"],["la confiance|ការទុកចិត្ត","2026-12-24"],["promettre|សន្យា","2026-12-24"],["Je t'aime.|ខ្ញុំស្រឡាញ់អ្នក។","2026-12-24"],["Tu me manques.|ខ្ញុំនឹកអ្នកណាស់។","2026-12-24"],["Prends soin de toi.|ថែរក្សាខ្លួនផង។","2026-12-24"],["Rentre vite.|ឆាប់ត្រឡប់មកវិញណា។","2026-12-24"]]</script>
+
+</main>
+<nav class="tabbar" aria-label="Navigation principale">
+  <a class="tab tab-home" data-nav href="./index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V19a1.5 1.5 0 0 1-1.5 1.5H14v-6h-4v6H5.5A1.5 1.5 0 0 1 4 19z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="tab-label"><span class="ui-fr">Accueil</span><span class="ui-km" lang="km">ទំព័រដើម</span></span></a>
+  <a class="tab tab-review" data-nav href="./revision.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="tab-label"><span class="ui-fr">Réviser</span><span class="ui-km" lang="km">រំលឹក</span></span></a>
+  <a class="tab tab-lexicon" data-nav href="./lexique.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5zM5 19.5A1.5 1.5 0 0 0 6.5 21H19" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="tab-label"><span class="ui-fr">Lexique</span><span class="ui-km" lang="km">សទ្ទានុក្រម</span></span></a>
+  <a class="tab tab-alphabet" data-nav href="./alphabet.html"><span class="tab-glyph" lang="km" aria-hidden="true">ក</span><span class="tab-label"><span class="ui-fr">Alphabets</span><span class="ui-km" lang="km">អក្សរ</span></span></a>
+</nav>
+<footer class="footer">
+  <p>FR - ENG - Khmer Learning — <span class="ui-fr">Site généré automatiquement, consultable hors connexion.</span><span class="ui-km" lang="km">គេហទំព័រនេះបង្កើតដោយស្វ័យប្រវត្តិ និងប្រើបានដោយគ្មានអ៊ីនធឺណិត។</span></p>
+</footer>
+<script src="./js/app.js?v=1794815673" defer></script>
+</body>
+</html>

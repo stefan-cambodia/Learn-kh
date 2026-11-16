@@ -1,0 +1,124 @@
+{
+  "id": "u029",
+  "order": 29,
+  "level": "intermediaire",
+  "theme": "donner-son-avis",
+  "title": {"fr": "Donner son avis", "en": "Giving your opinion", "km": "ការបញ្ចេញយោបល់"},
+  "tip": {
+    "fr": "Pour donner son avis, on commence par ខ្ញុំគិតថា (khgnom kit tha), « je pense que » : le mot ថា (tha) introduit ce que l'on pense ou ce que l'on dit. Pour comparer, on place ជាង (tchéang), « plus que », après l'adjectif ou le verbe : ល្អជាង, « meilleur ».",
+    "km": "ដើម្បីបញ្ចេញយោបល់ជាភាសាបារាំង គេប្រើ « je pense que… » ឬ « à mon avis… »។ ពេលប្រៀបធៀប គេប្រើ « plus… que » និង « moins… que »៖ « plus chaud que » (ក្តៅជាង)។ អង់គ្លេស៖ « I think that… », « hotter than »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "penser", "en": "to think", "km": "គិត", "tr": "kit", "pos": "verbe",
+      "note": {
+        "fr": "គិត signifie « penser » et aussi « compter », comme dans គិតលុយ, « faire l'addition ». « Penser que » : គិតថា (kit tha).",
+        "km": "« penser »៖ je pense, nous pensons។ « Je pense que… » = ខ្ញុំគិតថា…។ អង់គ្លេស៖ « to think »។"
+      },
+      "example": {"fr": "Je pense que c'est une bonne idée.", "en": "I think it is a good idea.", "km": "ខ្ញុំគិតថាជាគំនិតល្អ។", "tr": "khgnom kit tha tchéa koum-neut l'â."}
+    },
+    {
+      "fr": "être d'accord", "en": "to agree", "km": "យល់ស្រប", "tr": "yol srâp", "pos": "verbe",
+      "note": {
+        "fr": "យល់ (yol), comprendre, et ស្រប (srâp), être conforme : « comprendre dans le même sens ».",
+        "km": "« être d'accord »៖ je suis d'accord, nous sommes d'accord។ « D'accord ! » មានន័យថា បាន ឬយល់ព្រម។ អង់គ្លេស៖ « to agree »។"
+      },
+      "example": {"fr": "Je suis d'accord avec toi.", "en": "I agree with you.", "km": "ខ្ញុំយល់ស្របជាមួយអ្នក។", "tr": "khgnom yol srâp tchéa-mouy néak."}
+    },
+    {
+      "fr": "préférer", "en": "to prefer", "km": "ចូលចិត្តជាង", "tr": "tchôl tchet tchéang", "pos": "verbe",
+      "note": {
+        "fr": "Pas de verbe à part en khmer : on dit « aimer plus ». Ce que l'on préfère se glisse entre ចូលចិត្ត et ជាង : ចូលចិត្តតែជាងកាហ្វេ, « préférer le thé au café ».",
+        "km": "« préférer » មានន័យថា ចូលចិត្តជាង៖ je préfère, nous préférons។ « préférer A à B » = ចូលចិត្ត A ជាង B។ អង់គ្លេស៖ « to prefer »។"
+      },
+      "example": {"fr": "Je préfère le thé au café.", "en": "I prefer tea to coffee.", "km": "ខ្ញុំចូលចិត្តតែជាងកាហ្វេ។", "tr": "khgnom tchôl tchet taè tchéang ka-fé."}
+    },
+    {
+      "fr": "important", "en": "important", "km": "សំខាន់", "tr": "sâm-khan", "pos": "adjectif",
+      "note": {
+        "fr": "Le plus important : សំខាន់ជាងគេ (sâm-khan tchéang ké), mot à mot « plus important que les autres ».",
+        "km": "« important » ភេទស្រីសរសេរថា « importante » ហើយអានអក្សរ t។ អង់គ្លេសសរសេរដូចគ្នា៖ « important »។"
+      },
+      "example": {"fr": "La famille est très importante.", "en": "Family is very important.", "km": "គ្រួសារសំខាន់ណាស់។", "tr": "krouo-sa sâm-khan nah."}
+    },
+    {
+      "fr": "vrai", "en": "true", "km": "ពិត", "tr": "peut", "pos": "adjectif",
+      "note": {
+        "fr": "Pour acquiescer, on dit ពិតមែន (peut mèn), « c'est bien vrai ». Pour s'étonner : មែនឬ? (mèn reu), « vraiment ? ».",
+        "km": "« vrai » ភេទស្រីសរសេរថា « vraie »។ « C'est vrai » មានន័យថា ពិតមែន។ ពាក្យផ្ទុយគឺ « faux » (មិនពិត)។ អង់គ្លេស៖ « true », « false »។"
+      },
+      "example": {"fr": "C'est une histoire vraie.", "en": "It is a true story.", "km": "នេះជារឿងពិត។", "tr": "nih tchéa reuang peut."}
+    },
+    {
+      "fr": "se tromper", "en": "to be wrong", "km": "ខុស", "tr": "khoh", "pos": "verbe",
+      "note": {
+        "fr": "ខុស signifie « faux, erroné » et « se tromper ». Son contraire est ត្រូវ (treuv), « juste, correct ».",
+        "km": "« se tromper »៖ je me trompe, tu te trompes។ គេក៏និយាយថា « avoir tort » ដែរ។ អង់គ្លេស៖ « to be wrong »។"
+      },
+      "example": {"fr": "Je crois que tu te trompes.", "en": "I think you are wrong.", "km": "ខ្ញុំគិតថាអ្នកខុសហើយ។", "tr": "khgnom kit tha néak khoh haeuy."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Qu'est-ce que tu en penses ?", "en": "What do you think about it?", "km": "គិតយ៉ាងម៉េចដែរ?", "tr": "kit yang métch daè ?",
+      "note": {
+        "fr": "Mot à mot « penser comment ? ». ដែរ adoucit la question.",
+        "km": "« en » ជំនួសរឿងដែលកំពុងនិយាយ៖ « Qu'est-ce que tu en penses ? »។ អង់គ្លេស៖ « What do you think about it? »។"
+      }
+    },
+    {
+      "fr": "Tu as raison.", "en": "You are right.", "km": "អ្នកនិយាយត្រូវ។", "tr": "néak ni-yéay treuv.",
+      "note": {
+        "fr": "Mot à mot « tu parles juste ». ត្រូវ (treuv) : juste, correct.",
+        "km": "« avoir raison » មានន័យថា និយាយត្រូវ។ បារាំងប្រើ « avoir »៖ tu as raison។ អង់គ្លេសប្រើ « to be »៖ « You are right »។"
+      }
+    },
+    {
+      "fr": "Je ne suis pas d'accord.", "en": "I do not agree.", "km": "ខ្ញុំមិនយល់ស្របទេ។", "tr": "khgnom min yol srâp té.",
+      "note": {
+        "fr": "La négation encadre le verbe : មិន… ទេ. Dire son désaccord trop directement peut sembler brusque ; on l'adoucit volontiers d'un sourire.",
+        "km": "ទម្រង់បដិសេធ « ne… pas » ដាក់សងខាងកិរិយាសព្ទ៖ je ne suis pas d'accord។ អង់គ្លេស៖ « I do not agree », « I disagree »។"
+      }
+    },
+    {
+      "fr": "À mon avis…", "en": "In my opinion…", "km": "តាមខ្ញុំគិត…", "tr": "tam khgnom kit…",
+      "note": {
+        "fr": "Mot à mot « selon ce que je pense ». តាម (tam) : selon, en suivant.",
+        "km": "« À mon avis » ប្រើនៅដើមប្រយោគ ដើម្បីបញ្ចេញយោបល់ផ្ទាល់ខ្លួន។ អង់គ្លេស៖ « In my opinion »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Choisir où manger", "km": "ជ្រើសរើសកន្លែងញ៉ាំបាយ"},
+      "fr": "Moi, je préfère manger à la maison.", "en": "I prefer eating at home.",
+      "km": "ខ្ញុំចូលចិត្តញ៉ាំបាយនៅផ្ទះជាង។", "tr": "khgnom tchôl tchet gnam bay neuv phtéah tchéang."
+    },
+    {
+      "situation": {"fr": "En parlant de l'avenir", "km": "និយាយអំពីអនាគត"},
+      "fr": "Je pense qu'il est important d'apprendre les langues.", "en": "I think it is important to learn languages.",
+      "km": "ខ្ញុំគិតថាការរៀនភាសាសំខាន់ណាស់។", "tr": "khgnom kit tha ka rien phéa-sa sâm-khan nah."
+    },
+    {
+      "situation": {"fr": "Reconnaître son erreur", "km": "ទទួលស្គាល់កំហុស"},
+      "fr": "C'est vrai, tu avais raison et je me trompais.", "en": "It is true, you were right and I was wrong.",
+      "km": "ពិតមែន អ្នកនិយាយត្រូវ ហើយខ្ញុំខុស។", "tr": "peut mèn, néak ni-yéay treuv, haeuy khgnom khoh."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} choisissent où partir pendant les congés.", "en": "{A} and {B} are choosing where to go during their time off.", "km": "{A} និង {B} កំពុងគិតថាទៅលេងឯណាពេលឈប់សម្រាក។"},
+    "lines": [
+      {"speaker": "B", "fr": "Pour les congés, je pense à la mer. Qu'est-ce que tu en penses ?", "en": "For our time off, I am thinking of the sea. What do you think?", "km": "ពេលឈប់សម្រាក ខ្ញុំគិតចង់ទៅសមុទ្រ។ {A} គិតយ៉ាងម៉េចដែរ?", "tr": "pél tchhoup sâm-rak, khgnom kit tchâng teuv sâ-mot. {A} kit yang métch daè ?"},
+      {"speaker": "A", "fr": "Moi, je préfère la montagne. Il y fait moins chaud.", "en": "I prefer the mountains. It is less hot there.", "km": "ខ្ញុំចូលចិត្តភ្នំជាង។ នៅទីនោះមិនសូវក្តៅទេ។", "tr": "khgnom tchôl tchet phnom tchéang. neuv ti-nouh min seuv kdav té."},
+      {"speaker": "B", "fr": "C'est vrai. Mais la mer, c'est bien pour se reposer.", "en": "That is true. But the sea is good for resting.", "km": "ពិតមែន។ ប៉ុន្តែសមុទ្រល្អសម្រាប់សម្រាក។", "tr": "peut mèn. pon-taè sâ-mot l'â sâm-rap sâm-rak."},
+      {"speaker": "A", "fr": "Je suis d'accord. Pour moi, le plus important est de bien se reposer.", "en": "I agree. For me, the most important thing is to rest well.", "km": "ខ្ញុំយល់ស្រប។ សម្រាប់ខ្ញុំ អ្វីដែលសំខាន់ជាងគេ គឺបានសម្រាកឱ្យស្រួល។", "tr": "khgnom yol srâp. sâm-rap khgnom, ey dael sâm-khan tchéang ké, keu ban sâm-rak aoy srouol."},
+      {"speaker": "B", "fr": "Alors, la mer cette année et la montagne l'année prochaine ?", "en": "So, the sea this year and the mountains next year?", "km": "អញ្ចឹង ឆ្នាំនេះទៅសមុទ្រ ឆ្នាំក្រោយទៅភ្នំ ម៉េចដែរ?", "tr": "agn-tcheung, tchhnam nih teuv sâ-mot, tchhnam kraoy teuv phnom, métch daè ?"},
+      {"speaker": "A", "fr": "Bonne idée, tu as raison !", "en": "Good idea, you are right!", "km": "គំនិតល្អ {B} និយាយត្រូវ!", "tr": "koum-neut l'â, {B} ni-yéay treuv !"},
+      {"speaker": "B", "fr": "Parfait. Je pense que ce sera un beau voyage.", "en": "Perfect. I think it will be a nice trip.", "km": "ល្អណាស់។ ខ្ញុំគិតថាវានឹងជាដំណើរដ៏សប្បាយ។", "tr": "l'â nah. khgnom kit tha véa neung tchéa dâm-naeu dâ sa-bay."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où {A} et {B} iront-ils cette année ?", "en": "Where will {A} and {B} go this year?", "km": "តើឆ្នាំនេះ {A} និង {B} នឹងទៅលេងឯណា?"},
+    "answer": {"fr": "Cette année, ils iront à la mer, et l'année prochaine à la montagne.", "en": "This year, they will go to the sea, and next year to the mountains.", "km": "ឆ្នាំនេះពួកគេនឹងទៅសមុទ្រ ហើយឆ្នាំក្រោយទៅភ្នំ។"}
+  }
+}

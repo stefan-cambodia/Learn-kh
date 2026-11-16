@@ -1,0 +1,117 @@
+{
+  "id": "u007",
+  "order": 7,
+  "level": "debutant",
+  "theme": "comment-ca-va",
+  "title": {"fr": "Comment te sens-tu ?", "en": "How do you feel?", "km": "តើអ្នកមានអារម្មណ៍យ៉ាងណា?"},
+  "tip": {
+    "fr": "En khmer, on dit directement ខ្ញុំឃ្លាន, mot à mot « je faim » : pas de verbe « être » ni « avoir » devant un état. Pour la négation, on encadre le mot : មិន… ទេ (min… té), ou អត់… ទេ (ât… té) à l'oral.",
+    "km": "ភាសាបារាំងប្រើកិរិយាសព្ទ « avoir » ជាមួយ faim និង soif៖ « j'ai faim », « j'ai soif »។ ភាសាអង់គ្លេសប្រើ « to be »៖ « I am hungry », « I am thirsty »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "aller bien", "en": "to be well", "km": "សុខសប្បាយ", "tr": "sok sa-bay", "pos": "verbe",
+      "note": {
+        "fr": "Réunit សុខ (la santé) et សប្បាយ (la joie). Pas de verbe « être » : ខ្ញុំសុខសប្បាយ, « je vais bien ».",
+        "km": "ភាសាបារាំងប្រើកិរិយាសព្ទ « aller » ដើម្បីនិយាយពីសុខភាព៖ je vais bien, tu vas bien។ ភាសាអង់គ្លេស៖ « I am well » ឬ « I am fine »។"
+      },
+      "example": {"fr": "Ma mère va bien, merci.", "en": "My mother is well, thank you.", "km": "ម្តាយរបស់ខ្ញុំសុខសប្បាយ អរគុណ។", "tr": "mday ro-bâh khgnom sok sa-bay, â-koun."}
+    },
+    {
+      "fr": "fatigué", "en": "tired", "km": "ហត់", "tr": "hât", "pos": "adjectif",
+      "note": {
+        "fr": "Se dit surtout après un effort. Quand on n'a plus aucune énergie, on dit អស់កម្លាំង (âh kâm-lang), « épuisé ».",
+        "km": "« fatigué » សម្រាប់ប្រុស និង « fatiguée » សម្រាប់ស្រី អានដូចគ្នា។ ភាសាអង់គ្លេស៖ « tired »។"
+      },
+      "example": {"fr": "Mon père est fatigué.", "en": "My father is tired.", "km": "ឪពុករបស់ខ្ញុំហត់។", "tr": "eu-pouk ro-bâh khgnom hât."}
+    },
+    {
+      "fr": "avoir faim", "en": "to be hungry", "km": "ឃ្លាន", "tr": "khléan", "pos": "verbe",
+      "note": {
+        "fr": "Un seul mot, sans « avoir » : ខ្ញុំឃ្លាន. On dit souvent ឃ្លានបាយ (khléan bay), mot à mot « avoir faim de riz ».",
+        "km": "ភាសាបារាំងប្រើកិរិយាសព្ទ « avoir »៖ « j'ai faim »។ អក្សរ m ចុងពាក្យមិនអានដាច់ទេ សំឡេងចេញតាមច្រមុះ។ ភាសាអង់គ្លេស៖ « I am hungry »។"
+      },
+      "example": {"fr": "J'ai très faim.", "en": "I am very hungry.", "km": "ខ្ញុំឃ្លានណាស់។", "tr": "khgnom khléan nah."}
+    },
+    {
+      "fr": "avoir soif", "en": "to be thirsty", "km": "ស្រេកទឹក", "tr": "srék teuk", "pos": "verbe",
+      "note": {
+        "fr": "Mot à mot « avoir soif d'eau » : ទឹក (l'eau) fait partie de l'expression.",
+        "km": "ភាសាបារាំងនិយាយថា « j'ai soif »។ អក្សរ f ចុងពាក្យត្រូវអាន។ ភាសាអង់គ្លេស៖ « I am thirsty »។"
+      },
+      "example": {"fr": "Tu as soif ?", "en": "Are you thirsty?", "km": "ស្រេកទឹកទេ?", "tr": "srék teuk té ?"}
+    },
+    {
+      "fr": "content", "en": "happy", "km": "សប្បាយចិត្ត", "tr": "sa-bay tchet", "pos": "adjectif",
+      "note": {
+        "fr": "Mot à mot « cœur joyeux ». ចិត្ត (tchet), le cœur, sert à former beaucoup de mots de sentiment.",
+        "km": "« content » សម្រាប់ប្រុស អក្សរ t មិនអានទេ។ « contente » សម្រាប់ស្រី អក្សរ t ត្រូវអាន។ ភាសាអង់គ្លេស៖ « happy »។"
+      },
+      "example": {"fr": "Les enfants sont contents.", "en": "The children are happy.", "km": "កូនៗសប្បាយចិត្ត។", "tr": "kôn-kôn sa-bay tchet."}
+    },
+    {
+      "fr": "malade", "en": "sick", "km": "ឈឺ", "tr": "tchheu", "pos": "adjectif",
+      "note": {
+        "fr": "ឈឺ signifie à la fois « être malade » et « avoir mal ». Pas de verbe « être » : ខ្ញុំឈឺ, « je suis malade ».",
+        "km": "« malade » សរសេរដូចគ្នា ទាំងសម្រាប់ប្រុស ទាំងសម្រាប់ស្រី។ ភាសាអង់គ្លេស៖ « sick » ឬ « ill »។"
+      },
+      "example": {"fr": "Mon enfant est malade.", "en": "My child is sick.", "km": "កូនរបស់ខ្ញុំឈឺ។", "tr": "kôn ro-bâh khgnom tchheu."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Je ne me sens pas bien.", "en": "I don't feel well.", "km": "ខ្ញុំមិនស្រួលខ្លួនទេ។", "tr": "khgnom min srouol khlouon té.",
+      "note": {"fr": "ស្រួលខ្លួន (srouol khlouon), mot à mot « corps à l'aise ». La négation មិន… ទេ encadre l'expression.", "km": "ប្រើនៅពេលមិនស្រួលខ្លួន ឬចាប់ផ្តើមឈឺ។ ភាសាអង់គ្លេស៖ « I don't feel well »។"}
+    },
+    {
+      "fr": "Moi aussi, j'ai faim.", "en": "I am hungry too.", "km": "ខ្ញុំក៏ឃ្លានដែរ។", "tr": "khgnom kâ khléan daè.",
+      "note": {"fr": "ក៏… ដែរ (kâ… daè) encadre le mot pour dire « aussi ».", "km": "« moi aussi » មានន័យថា ខ្ញុំក៏ដូចគ្នាដែរ។ ភាសាអង់គ្លេសដាក់ « too » នៅចុងប្រយោគ។"}
+    },
+    {
+      "fr": "Repose-toi un peu.", "en": "Rest a little.", "km": "សម្រាកបន្តិចទៅ។", "tr": "sâm-rak bân-tetch teuv.",
+      "note": {"fr": "សម្រាក (sâm-rak), se reposer ; បន្តិច (bân-tetch), un peu. ទៅ en fin de phrase adoucit le conseil.", "km": "ជាដំបូន្មានសម្រាប់មនុស្សដែលហត់ ឬឈឺ។ « un peu » មានន័យថា បន្តិច។"}
+    },
+    {
+      "fr": "Rétablis-toi vite !", "en": "Get well soon!", "km": "ឆាប់ជាណា!", "tr": "tchhap tchéa na !",
+      "note": {"fr": "ឆាប់ (tchhap), vite ; ជា (tchéa) signifie ici « guérir ». ណា en fin de phrase adoucit le souhait.", "km": "ប្រើជូនពរមនុស្សឈឺ។ ភាសាអង់គ្លេស៖ « Get well soon! »។"},
+      "uncertain": true,
+      "uncertain_note": "Tournure orale entre proches : faire confirmer par un locuteur natif que la particule finale est naturelle ici (la formule soignée est plus longue)."
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "En rentrant à la maison", "km": "ពេលត្រឡប់មកផ្ទះ"},
+      "fr": "J'ai faim et j'ai soif !", "en": "I am hungry and thirsty!",
+      "km": "ខ្ញុំឃ្លានផង ស្រេកទឹកផង!", "tr": "khgnom khléan phâng, srék teuk phâng !"
+    },
+    {
+      "situation": {"fr": "Prendre des nouvelles", "km": "ពេលសួរសុខទុក្ខ"},
+      "fr": "Tes parents vont bien ?", "en": "Are your parents well?",
+      "km": "ឪពុកម្តាយសុខសប្បាយទេ?", "tr": "eu-pouk mday sok sa-bay té ?"
+    },
+    {
+      "situation": {"fr": "Répondre à un ami", "km": "ពេលឆ្លើយមិត្តភក្តិ"},
+      "fr": "Je vais bien, mais j'ai un peu faim.", "en": "I am well, but I am a little hungry.",
+      "km": "ខ្ញុំសុខសប្បាយ ប៉ុន្តែឃ្លានបន្តិច។", "tr": "khgnom sok sa-bay, pon-taè khléan bân-tetch."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Le soir, {B} rentre à la maison.",
+      "en": "In the evening, {B} comes home.",
+      "km": "ពេលល្ងាច {B} ត្រឡប់មកផ្ទះវិញ។"
+    },
+    "lines": [
+      {"speaker": "A", "fr": "{B}, tu vas bien ?", "en": "{B}, are you all right?", "km": "{B} សុខសប្បាយទេ?", "tr": "{B} sok sa-bay té ?"},
+      {"speaker": "B", "fr": "Non, je ne me sens pas bien.", "en": "No, I don't feel well.", "km": "ទេ ខ្ញុំមិនស្រួលខ្លួនទេ។", "tr": "té, khgnom min srouol khlouon té."},
+      {"speaker": "A", "fr": "Tu es malade ?", "en": "Are you sick?", "km": "{B} ឈឺមែនទេ?", "tr": "{B} tchheu mèn té ?"},
+      {"speaker": "B", "fr": "Non, c'est juste la fatigue. Et j'ai très faim !", "en": "No, I am just tired. And I am very hungry!", "km": "ទេ ខ្ញុំគ្រាន់តែហត់ ហើយឃ្លានណាស់!", "tr": "té, khgnom kroan-taè hât, haeuy khléan nah !"},
+      {"speaker": "A", "fr": "Repose-toi un peu. Le riz est prêt.", "en": "Rest a little. The rice is ready.", "km": "សម្រាកបន្តិចទៅ។ បាយឆ្អិនហើយ។", "tr": "sâm-rak bân-tetch teuv. bay tchh'en haeuy."},
+      {"speaker": "B", "fr": "Merci ! Ça me fait très plaisir.", "en": "Thank you! That makes me very happy.", "km": "អរគុណ! ខ្ញុំសប្បាយចិត្តណាស់។", "tr": "â-koun ! khgnom sa-bay tchet nah."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Est-ce que {B} est malade ?", "en": "Is {B} sick?", "km": "តើ {B} ឈឺមែនទេ?"},
+    "answer": {"fr": "Non, mais {B} a très faim.", "en": "No, but {B} is very hungry.", "km": "ទេ ប៉ុន្តែ {B} ឃ្លានណាស់។"}
+  }
+}

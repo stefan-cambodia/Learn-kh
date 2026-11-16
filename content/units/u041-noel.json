@@ -1,0 +1,124 @@
+{
+  "id": "u041",
+  "order": 41,
+  "level": "intermediaire",
+  "theme": "noel",
+  "title": {"fr": "Noël", "en": "Christmas", "km": "បុណ្យណូអែល"},
+  "tip": {
+    "fr": "Noël n'est pas une fête traditionnelle au Cambodge, mais les villes se décorent de plus en plus en décembre. Le mot ណូអែល vient directement du français « Noël ».",
+    "km": "នៅប្រទេសបារាំង បុណ្យណូអែលជាបុណ្យគ្រួសារធំជាងគេ។ យប់ថ្ងៃទី២៤ ខែធ្នូ គេញ៉ាំអាហារជុំគ្នា ហើយព្រឹកថ្ងៃទី២៥ ក្មេងៗបើកអំណោយ។ អង់គ្លេស៖ « Christmas Eve » យប់ថ្ងៃទី២៤ និង « Christmas Day » ថ្ងៃទី២៥។"
+  },
+  "vocabulary": [
+    {
+      "fr": "Noël", "en": "Christmas", "km": "បុណ្យណូអែល", "tr": "bon nô-aèl", "pos": "nom",
+      "note": {
+        "fr": "បុណ្យ, « la fête », suivi du nom emprunté au français. On dit aussi simplement ណូអែល.",
+        "km": "« Noël » សរសេរដោយអក្សរធំ ហើយមិនប្រើពាក្យនាំមុខទេ៖ à Noël, pour Noël។ អង់គ្លេស៖ « Christmas »។"
+      },
+      "example": {"fr": "Noël est le vingt-cinq décembre.", "en": "Christmas is on the twenty-fifth of December.", "km": "បុណ្យណូអែលនៅថ្ងៃទីម្ភៃប្រាំ ខែធ្នូ។", "tr": "bon nô-aèl neuv thngay ti mphey-pram khaè thnou."}
+    },
+    {
+      "fr": "le sapin", "en": "fir tree", "km": "ដើមស្រល់", "tr": "daeum srâl", "pos": "nom",
+      "note": {
+        "fr": "ដើមស្រល់ est le pin. Le sapin de Noël décoré se dit souvent ដើមណូអែល, « l'arbre de Noël ».",
+        "km": "« sapin » ជានាមភេទប្រុស៖ le sapin។ « le sapin de Noël » មានន័យថា ដើមណូអែល។ អង់គ្លេស៖ « Christmas tree »។"
+      },
+      "example": {"fr": "Nous décorons le sapin ensemble.", "en": "We decorate the Christmas tree together.", "km": "យើងតុបតែងដើមណូអែលជាមួយគ្នា។", "tr": "yeung tob-taèng daeum nô-aèl tchéa-mouy knéa."}
+    },
+    {
+      "fr": "la neige", "en": "snow", "km": "ព្រិល", "tr": "prel", "pos": "nom",
+      "note": {
+        "fr": "Pour « il neige », on dit ព្រិលធ្លាក់ (prel thléak), « la neige tombe », comme pour la pluie.",
+        "km": "« neige » ជានាមភេទស្រី៖ la neige។ « il neige » មានន័យថា ព្រិលធ្លាក់។ អង់គ្លេស៖ « snow », « it's snowing »។"
+      },
+      "example": {"fr": "Il n'y a jamais de neige au Cambodge.", "en": "There is never any snow in Cambodia.", "km": "នៅកម្ពុជា មិនដែលមានព្រិលទេ។", "tr": "neuv kâm-pou-tchéa, min daèl méan prel té."}
+    },
+    {
+      "fr": "souhaiter", "en": "to wish", "km": "ជូនពរ", "tr": "tchoun pô", "pos": "verbe",
+      "note": {
+        "fr": "ជូន, « offrir », et ពរ, « la bénédiction » : mot à mot « offrir ses vœux ».",
+        "km": "« souhaiter »៖ je te souhaite un joyeux Noël។ « les vœux » មានន័យថា ពាក្យជូនពរ។ អង់គ្លេស៖ « to wish »។"
+      },
+      "example": {"fr": "Je souhaite une bonne santé à toute ta famille.", "en": "I wish your whole family good health.", "km": "ខ្ញុំជូនពរគ្រួសាររបស់អ្នកទាំងអស់ឱ្យមានសុខភាពល្អ។", "tr": "khgnom tchoun pô krouo-sa ro-bâh néak téang âh aoy méan sok-kha-phéap l'â."}
+    },
+    {
+      "fr": "la bougie", "en": "candle", "km": "ទៀន", "tr": "tien", "pos": "nom",
+      "note": {
+        "fr": "Allumer une bougie se dit អុជទៀន (outch tien). On allume aussi des bougies et de l'encens à la pagode.",
+        "km": "« bougie » ជានាមភេទស្រី៖ la bougie។ « allumer » មានន័យថា អុជ ឬបើក។ អង់គ្លេស៖ « candle »។"
+      },
+      "example": {"fr": "On allume des bougies sur la table.", "en": "We light candles on the table.", "km": "យើងអុជទៀនលើតុ។", "tr": "yeung outch tien leu tok."}
+    },
+    {
+      "fr": "le repas", "en": "meal", "km": "អាហារ", "tr": "a-ha", "pos": "nom",
+      "note": {
+        "fr": "អាហារ est le mot général. Au quotidien, on dit plutôt បាយ, le riz : ញ៉ាំបាយ, prendre son repas.",
+        "km": "« repas » ជានាមភេទប្រុស ហើយ s មិនអានទេ៖ le repas។ អាហារពេលព្រឹក៖ le petit-déjeuner; ថ្ងៃត្រង់៖ le déjeuner; ល្ងាច៖ le dîner។ អង់គ្លេស៖ « meal »។"
+      },
+      "example": {"fr": "Le repas de Noël dure longtemps.", "en": "The Christmas meal lasts a long time.", "km": "អាហារបុណ្យណូអែលញ៉ាំយូរណាស់។", "tr": "a-ha bon nô-aèl gnam you nah."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Joyeux Noël !", "en": "Merry Christmas!", "km": "រីករាយបុណ្យណូអែល!", "tr": "rik-réay bon nô-aèl !",
+      "note": {
+        "fr": "Même modèle que រីករាយថ្ងៃកំណើត, joyeux anniversaire : រីករាយ suivi du nom de la fête.",
+        "km": "« Joyeux Noël ! » ប្រើជូនពរនៅថ្ងៃទី២៤ និង២៥ ខែធ្នូ។ អង់គ្លេស៖ « Merry Christmas! »។"
+      }
+    },
+    {
+      "fr": "Bonnes fêtes !", "en": "Happy holidays!", "km": "រីករាយថ្ងៃបុណ្យ!", "tr": "rik-réay thngay bon !",
+      "note": {
+        "fr": "Formule de fin d'année, pour Noël et le Nouvel An à la fois.",
+        "km": "« Bonnes fêtes ! » ជូនពរសម្រាប់ទាំងបុណ្យណូអែល និងចូលឆ្នាំសកល។ អង់គ្លេស៖ « Happy holidays! »។"
+      }
+    },
+    {
+      "fr": "C'est pour toi.", "en": "This is for you.", "km": "នេះសម្រាប់អ្នក។", "tr": "nih sâm-rap néak.",
+      "note": {
+        "fr": "On offre un cadeau avec les deux mains, ou la main droite soutenue par la gauche : c'est plus poli.",
+        "km": "« pour » + « toi » មានន័យថា សម្រាប់អ្នក។ អង់គ្លេស៖ « This is for you »។"
+      }
+    },
+    {
+      "fr": "Ça me fait très plaisir.", "en": "That makes me very happy.", "km": "ខ្ញុំសប្បាយចិត្តណាស់។", "tr": "khgnom sa-bay tchet nah.",
+      "note": {
+        "fr": "Réponse naturelle à un cadeau ou à une attention : « je suis très content ».",
+        "km": "« faire plaisir » មានន័យថា ធ្វើឱ្យសប្បាយចិត្ត។ អង់គ្លេស៖ « That makes me very happy »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Noël en France", "km": "បុណ្យណូអែលនៅប្រទេសបារាំង"},
+      "fr": "En France, il fait froid à Noël, et parfois il neige.", "en": "In France, it's cold at Christmas, and sometimes it snows.",
+      "km": "នៅប្រទេសបារាំង ពេលបុណ្យណូអែលរងា ហើយពេលខ្លះមានព្រិលធ្លាក់។", "tr": "neuv prâ-téh ba-rang, pél bon nô-aèl rô-ngéa, haeuy pél khlah méan prel thléak."
+    },
+    {
+      "situation": {"fr": "Noël à Phnom Penh", "km": "បុណ្យណូអែលនៅភ្នំពេញ"},
+      "fr": "À Phnom Penh, on voit des sapins de Noël dans les grands magasins.", "en": "In Phnom Penh, you can see Christmas trees in the big shops.",
+      "km": "នៅភ្នំពេញ គេដាក់ដើមណូអែលនៅតាមហាងធំៗ។", "tr": "neuv phnom-pégn, ké dak daeum nô-aèl neuv tam hang thom-thom."
+    },
+    {
+      "situation": {"fr": "Le soir de Noël", "km": "យប់បុណ្យណូអែល"},
+      "fr": "Le soir de Noël, toute la famille prend un grand repas ensemble.", "en": "On Christmas Eve, the whole family has a big meal together.",
+      "km": "យប់បុណ្យណូអែល គ្រួសារទាំងមូលញ៉ាំអាហារជាមួយគ្នា។", "tr": "youp bon nô-aèl, krouo-sa téang moul gnam a-ha tchéa-mouy knéa."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Le soir du vingt-quatre décembre.", "en": "On the evening of the twenty-fourth of December.", "km": "ល្ងាចថ្ងៃទីម្ភៃបួន ខែធ្នូ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Comment on fête Noël en France ?", "en": "How do people celebrate Christmas in France?", "km": "នៅប្រទេសបារាំង គេធ្វើបុណ្យណូអែលយ៉ាងម៉េច?", "tr": "neuv prâ-téh ba-rang, ké thveu bon nô-aèl yang métch ?"},
+      {"speaker": "B", "fr": "On décore un sapin, et on prend un grand repas en famille.", "en": "We decorate a tree, and we have a big family meal.", "km": "គេតុបតែងដើមស្រល់ ហើយញ៉ាំអាហារជុំគ្នាជាគ្រួសារ។", "tr": "ké tob-taèng daeum srâl, haeuy gnam a-ha tchoum knéa tchéa krouo-sa."},
+      {"speaker": "A", "fr": "Et il neige ?", "en": "And does it snow?", "km": "ហើយមានព្រិលធ្លាក់ទេ?", "tr": "haeuy méan prel thléak té ?"},
+      {"speaker": "B", "fr": "Parfois, surtout à la montagne. Il fait très froid.", "en": "Sometimes, especially in the mountains. It's very cold.", "km": "ពេលខ្លះ ជាពិសេសនៅលើភ្នំ។ រងាណាស់។", "tr": "pél khlah, tchéa pi-sés neuv leu phnom. rô-ngéa nah."},
+      {"speaker": "A", "fr": "Ce soir, on allume des bougies ici aussi ?", "en": "Tonight, shall we light candles here too?", "km": "យប់នេះ យើងអុជទៀននៅទីនេះដែរទេ?", "tr": "youp nih, yeung outch tien neuv ti-nih daè té ?"},
+      {"speaker": "B", "fr": "Oui ! Et j'ai un cadeau pour toi. Joyeux Noël !", "en": "Yes! And I have a gift for you. Merry Christmas!", "km": "{B_yes}! ហើយខ្ញុំមានអំណោយសម្រាប់ {A}។ រីករាយបុណ្យណូអែល!", "tr": "{B_yes} ! haeuy khgnom méan âm-naoy sâm-rap {A}. rik-réay bon nô-aèl !"},
+      {"speaker": "A", "fr": "Merci, ça me fait très plaisir !", "en": "Thank you, that makes me very happy!", "km": "អរគុណ ខ្ញុំសប្បាយចិត្តណាស់!", "tr": "â-koun, khgnom sa-bay tchet nah !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce qu'on fait à Noël en France ?", "en": "What do people do at Christmas in France?", "km": "នៅប្រទេសបារាំង ពេលបុណ្យណូអែល គេធ្វើអ្វីខ្លះ?"},
+    "answer": {"fr": "On décore un sapin et on prend un grand repas en famille.", "en": "They decorate a tree and have a big family meal.", "km": "គេតុបតែងដើមស្រល់ ហើយញ៉ាំអាហារជុំគ្នាជាគ្រួសារ។"}
+  }
+}

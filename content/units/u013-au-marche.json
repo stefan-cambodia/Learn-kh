@@ -1,0 +1,127 @@
+{
+  "id": "u013",
+  "order": 13,
+  "level": "elementaire",
+  "theme": "au-marche",
+  "title": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+  "tip": {
+    "fr": "Au marché, on appelle la personne qui vend par un terme de parenté : បង (bâng) si elle est un peu plus âgée que vous, មីង (ming, « tante ») ou ពូ (pou, « oncle ») si elle a l'âge de vos parents. Les prix se disent en riels ou en dollars ; ពាន់ (poan) veut dire « mille » : ប្រាំពាន់រៀល, cinq mille riels.",
+    "km": "ដើម្បីសួរតម្លៃជាភាសាបារាំង គេនិយាយថា « C'est combien ? » ឬ « Combien ça coûte ? »។ ភាសាអង់គ្លេស៖ « How much is it? »។ នៅប្រទេសបារាំង គេមិនសូវតថ្លៃទេ ហើយគេចាយលុយអឺរ៉ូ។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le marché", "en": "market", "km": "ផ្សារ", "tr": "phsa", "pos": "nom",
+      "note": {
+        "fr": "Le រ final ne se prononce pas. « Aller au marché » se dit ទៅផ្សារ, sans préposition.",
+        "km": "« marché » ជានាមភេទប្រុស៖ le marché។ « aller au marché » មានន័យថា ទៅផ្សារ។ អង់គ្លេស៖ « market »។"
+      },
+      "example": {"fr": "Ma mère va au marché tous les jours.", "en": "My mother goes to the market every day.", "km": "ម្តាយខ្ញុំទៅផ្សាររាល់ថ្ងៃ។", "tr": "mday khgnom teuv phsa roal thngay."}
+    },
+    {
+      "fr": "acheter", "en": "to buy", "km": "ទិញ", "tr": "tign", "pos": "verbe",
+      "note": {
+        "fr": "Verbe invariable. Attention : le riz cru que l'on achète se dit អង្ករ (âng-kâ) ; បាយ, c'est le riz cuit.",
+        "km": "កិរិយាសព្ទ « acheter » ប្តូររូបតាមប្រធាន៖ j'achète, nous achetons។ អង់គ្លេស៖ « buy » ហើយអតីតកាលគឺ « bought »។"
+      },
+      "example": {"fr": "Je veux acheter du riz.", "en": "I want to buy some rice.", "km": "ខ្ញុំចង់ទិញអង្ករ។", "tr": "khgnom tchâng tign âng-kâ."}
+    },
+    {
+      "fr": "vendre", "en": "to sell", "km": "លក់", "tr": "lok", "pos": "verbe",
+      "note": {
+        "fr": "មានលក់…ទេ? = « vous vendez… ? », mot à mot « il y a à vendre… ? ». Réponse négative : អត់មានទេ (ât méan té), « il n'y en a pas ».",
+        "km": "« vendre »៖ je vends, nous vendons។ អ្នកលក់ហៅថា « le vendeur » ឬ « la vendeuse »។ អង់គ្លេស៖ « sell »។"
+      },
+      "example": {"fr": "Vous vendez du café ?", "en": "Do you sell coffee?", "km": "មានលក់កាហ្វេទេ?", "tr": "méan lok ka-fé té ?"}
+    },
+    {
+      "fr": "le prix", "en": "price", "km": "តម្លៃ", "tr": "dâm-lay", "pos": "nom",
+      "note": {
+        "fr": "តម្លៃ est le nom « prix ». À l'oral, on demande plus souvent ថ្លៃប៉ុន្មាន? que តម្លៃប៉ុន្មាន?",
+        "km": "« prix » ជានាមភេទប្រុស អក្សរ x ចុងពាក្យមិនអានទេ៖ le prix។ អង់គ្លេស៖ « price »។"
+      },
+      "example": {"fr": "Quel est le prix de ce café ?", "en": "What is the price of this coffee?", "km": "កាហ្វេនេះតម្លៃប៉ុន្មាន?", "tr": "ka-fé nih dâm-lay pon-man ?"}
+    },
+    {
+      "fr": "cher", "en": "expensive", "km": "ថ្លៃ", "tr": "thlay", "pos": "adjectif",
+      "note": {
+        "fr": "ថ្លៃ veut dire à la fois « cher » et « coûter ». ថ្លៃពេក = « trop cher » ; មិនថ្លៃទេ = « pas cher ».",
+        "km": "« cher » (ភេទប្រុស) និង « chère » (ភេទស្រី) អានដូចគ្នា។ « trop cher » មានន័យថា ថ្លៃពេក។ អង់គ្លេស៖ « expensive »។"
+      },
+      "example": {"fr": "C'est trop cher !", "en": "It is too expensive!", "km": "ថ្លៃពេក!", "tr": "thlay pék !"}
+    },
+    {
+      "fr": "bon marché", "en": "cheap", "km": "ថោក", "tr": "thaok", "pos": "adjectif",
+      "note": {
+        "fr": "Le contraire de ថ្លៃ. Pour comparer, on ajoute ជាង (tchéang) : ថោកជាង, « moins cher ».",
+        "km": "« bon marché » មិនប្តូររូបតាមភេទទេ។ ពេលនិយាយ គេច្រើនប្រើ « pas cher »។ អង់គ្លេស៖ « cheap »។"
+      },
+      "example": {"fr": "Ici, le café est très bon marché.", "en": "Coffee is very cheap here.", "km": "កាហ្វេនៅទីនេះថោកណាស់។", "tr": "ka-fé neuv ti-nih thaok nah."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Combien coûte un kilo ?", "en": "How much is one kilo?", "km": "មួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "mouy ki-lô thlay pon-man ?",
+      "note": {
+        "fr": "Mot à mot « un kilo coûte combien ? » : le mot interrogatif ប៉ុន្មាន reste à la fin de la phrase.",
+        "km": "« Combien coûte… ? » ប្រើសម្រាប់សួរតម្លៃ។ អង់គ្លេស៖ « How much is…? »។"
+      }
+    },
+    {
+      "fr": "Vous pouvez baisser un peu le prix ?", "en": "Can you lower the price a little?", "km": "ចុះថ្លៃបន្តិចបានទេ?", "tr": "tchoh thlay bân-tetch ban té ?",
+      "note": {
+        "fr": "ចុះថ្លៃ = « baisser le prix ». បានទេ? en fin de phrase demande « est-ce possible ? » : c'est la façon polie de demander un service.",
+        "km": "« Vous pouvez… ? » ប្រើសុំអ្វីមួយដោយគួរសម ដូច « …បានទេ? »។ « un peu » មានន័យថា បន្តិច។"
+      }
+    },
+    {
+      "fr": "Je le prends.", "en": "I'll take it.", "km": "ខ្ញុំយកមួយនេះ។", "tr": "khgnom yok mouy nih.",
+      "note": {
+        "fr": "យក (yok) = « prendre » ; មួយនេះ = « celui-ci ».",
+        "km": "និយាយពេលសម្រេចចិត្តទិញ។ អង់គ្លេស៖ « I'll take it »។"
+      }
+    },
+    {
+      "fr": "Ça fait combien en tout ?", "en": "How much is it altogether?", "km": "ទាំងអស់ថ្លៃប៉ុន្មាន?", "tr": "téang âh thlay pon-man ?",
+      "note": {
+        "fr": "ទាំងអស់ (téang âh) = « tout, en tout ».",
+        "km": "ប្រើពេលទិញរបស់ច្រើនមុខ ហើយចង់ដឹងតម្លៃសរុប។ អង់គ្លេស៖ « How much is it altogether? »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Demander le prix", "km": "ពេលសួរតម្លៃ"},
+      "fr": "Bonjour, vous vendez du riz ? C'est combien le kilo ?", "en": "Hello, do you sell rice? How much is a kilo?",
+      "km": "សួស្តី មានលក់អង្ករទេ? មួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "souos-dey, méan lok âng-kâ té ? mouy ki-lô thlay pon-man ?"
+    },
+    {
+      "situation": {"fr": "Marchander", "km": "ពេលតថ្លៃ"},
+      "fr": "C'est trop cher, vous pouvez baisser un peu ?", "en": "It is too expensive, can you lower it a little?",
+      "km": "ថ្លៃពេក ចុះបន្តិចបានទេ?", "tr": "thlay pék, tchoh bân-tetch ban té ?"
+    },
+    {
+      "situation": {"fr": "Prévoir les courses", "km": "ពេលគ្រោងទៅផ្សារ"},
+      "fr": "Demain matin, nous allons au marché pour acheter du riz et du café.", "en": "Tomorrow morning, we are going to the market to buy rice and coffee.",
+      "km": "ព្រឹកស្អែក យើងទៅផ្សារទិញអង្ករ និងកាហ្វេ។", "tr": "preuk s'aèk, yeung teuv phsa tign âng-kâ ning ka-fé."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Jeu de rôle au marché : {A} vend du café et {B} veut en acheter.",
+      "en": "Role play at the market: {A} sells coffee and {B} wants to buy some.",
+      "km": "លេងតួនៅផ្សារ៖ {A} លក់កាហ្វេ ហើយ {B} ចង់ទិញ។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "Bonjour ! Combien coûte un kilo de café ?", "en": "Hello! How much is one kilo of coffee?", "km": "សួស្តី! កាហ្វេមួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "souos-dey ! ka-fé mouy ki-lô thlay pon-man ?"},
+      {"speaker": "A", "fr": "Dix dollars le kilo.", "en": "Ten dollars a kilo.", "km": "មួយគីឡូដប់ដុល្លារ។", "tr": "mouy ki-lô dâp dol-la."},
+      {"speaker": "B", "fr": "C'est trop cher ! Vous pouvez baisser un peu le prix ?", "en": "It is too expensive! Can you lower the price a little?", "km": "ថ្លៃពេក! ចុះថ្លៃបន្តិចបានទេ?", "tr": "thlay pék ! tchoh thlay bân-tetch ban té ?"},
+      {"speaker": "A", "fr": "D'accord, huit dollars. Ce n'est pas cher !", "en": "Okay, eight dollars. That is not expensive!", "km": "បាន ប្រាំបីដុល្លារ។ មិនថ្លៃទេ!", "tr": "ban, pram-bey dol-la. min thlay té !"},
+      {"speaker": "B", "fr": "D'accord, j'achète un kilo.", "en": "Okay, I'll buy one kilo.", "km": "បាន ខ្ញុំទិញមួយគីឡូ។", "tr": "ban, khgnom tign mouy ki-lô."},
+      {"speaker": "A", "fr": "Voici le café. Merci beaucoup !", "en": "Here is the coffee. Thank you very much!", "km": "នេះកាហ្វេ។ អរគុណច្រើន!", "tr": "nih ka-fé. â-koun tchraeun !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Finalement, combien coûte le kilo de café ?", "en": "In the end, how much is the kilo of coffee?", "km": "តើចុងក្រោយ កាហ្វេមួយគីឡូថ្លៃប៉ុន្មាន?"},
+    "answer": {"fr": "Huit dollars.", "en": "Eight dollars.", "km": "ប្រាំបីដុល្លារ។"}
+  }
+}

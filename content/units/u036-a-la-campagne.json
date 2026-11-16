@@ -1,0 +1,124 @@
+{
+  "id": "u036",
+  "order": 36,
+  "level": "intermediaire",
+  "theme": "a-la-campagne",
+  "title": {"fr": "À la campagne", "en": "In the countryside", "km": "នៅជនបទ"},
+  "tip": {
+    "fr": "Beaucoup de noms de lieux cambodgiens contiennent ces mots : ភ្នំពេញ, « la colline de Penh » ; ទន្លេសាប, « le fleuve d'eau douce ». Pour « rentrer au village natal », on dit ទៅស្រុក (teuv srok) ou ទៅលេងស្រុក.",
+    "km": "ភាសាបារាំង « la campagne » មានន័យថា ជនបទ ប៉ុន្តែ « le pays » មានន័យថា ប្រទេស។ អង់គ្លេស៖ « countryside » ជនបទ, « country » ប្រទេស។ ប្រយ័ត្នកុំច្រឡំ!"
+  },
+  "vocabulary": [
+    {
+      "fr": "la campagne", "en": "countryside", "km": "ជនបទ", "tr": "tchun-na-bot", "pos": "nom",
+      "note": {
+        "fr": "Mot savant venu du sanskrit. Au quotidien, on dit plus volontiers ស្រុក (srok), le pays natal, ou ស្រុកស្រែ, « le pays des rizières ».",
+        "km": "« campagne » ជានាមភេទស្រី៖ la campagne។ « à la campagne » មានន័យថា នៅជនបទ។ អង់គ្លេស៖ « in the countryside »។"
+      },
+      "example": {"fr": "Mes parents habitent à la campagne.", "en": "My parents live in the countryside.", "km": "ឪពុកម្តាយខ្ញុំរស់នៅជនបទ។", "tr": "eu-pouk mday khgnom rouh neuv tchun-na-bot."}
+    },
+    {
+      "fr": "la rizière", "en": "rice field", "km": "ស្រែ", "tr": "srè", "pos": "nom",
+      "note": {
+        "fr": "ស្រែ est la rizière ; វាលស្រែ (véal srè), la plaine de rizières. Un riziculteur se dit អ្នកធ្វើស្រែ, « celui qui fait la rizière ».",
+        "km": "« rizière » ជានាមភេទស្រី មកពី « riz »៖ la rizière។ អង់គ្លេស៖ « rice field » ឬ « paddy »។"
+      },
+      "example": {"fr": "Derrière la maison, il y a une rizière.", "en": "Behind the house, there is a rice field.", "km": "នៅក្រោយផ្ទះ មានស្រែមួយ។", "tr": "neuv kraoy phtéah, méan srè mouy."}
+    },
+    {
+      "fr": "l'arbre", "en": "tree", "km": "ដើមឈើ", "tr": "daeum tchheu", "pos": "nom",
+      "note": {
+        "fr": "ដើម (daeum), « le tronc », se place devant le nom de chaque arbre : ដើមស្វាយ, le manguier ; ដើមដូង, le cocotier.",
+        "km": "« arbre » ជានាមភេទប្រុស៖ l'arbre។ ដើមស្វាយគឺ « le manguier »។ អង់គ្លេស៖ « tree », ដើមស្វាយគឺ « mango tree »។"
+      },
+      "example": {"fr": "Les enfants jouent sous l'arbre.", "en": "The children are playing under the tree.", "km": "ក្មេងៗលេងនៅក្រោមដើមឈើ។", "tr": "kméng-kméng léng neuv kraom daeum tchheu."}
+    },
+    {
+      "fr": "le fleuve", "en": "river", "km": "ទន្លេ", "tr": "tonlé", "pos": "nom",
+      "note": {
+        "fr": "ទន្លេ désigne un grand cours d'eau, comme le Mékong : ទន្លេមេគង្គ. Une petite rivière se dit ស្ទឹង (steung).",
+        "km": "« fleuve » ជានាមភេទប្រុស ហើយហូរទៅសមុទ្រ៖ le fleuve។ ទន្លេតូចគឺ « la rivière »។ អង់គ្លេស៖ « river »។"
+      },
+      "example": {"fr": "Le Mékong est un très grand fleuve.", "en": "The Mekong is a very big river.", "km": "ទន្លេមេគង្គជាទន្លេធំណាស់។", "tr": "tonlé mé-kong tchéa tonlé thom nah."}
+    },
+    {
+      "fr": "la montagne", "en": "mountain", "km": "ភ្នំ", "tr": "phnom", "pos": "nom",
+      "note": {
+        "fr": "ភ្នំ désigne aussi une simple colline : c'est le Phnom de Phnom Penh. Au Cambodge, on trouve souvent une pagode au sommet.",
+        "km": "« montagne » ជានាមភេទស្រី៖ la montagne។ ភ្នំតូចគឺ « la colline »។ អង់គ្លេស៖ « mountain », ភ្នំតូចគឺ « hill »។"
+      },
+      "example": {"fr": "Il y a une pagode sur la montagne.", "en": "There is a pagoda on the mountain.", "km": "មានវត្តមួយនៅលើភ្នំ។", "tr": "méan voat mouy neuv leu phnom."}
+    },
+    {
+      "fr": "le village", "en": "village", "km": "ភូមិ", "tr": "phoum", "pos": "nom",
+      "note": {
+        "fr": "ភូមិ est la plus petite unité du pays. Plusieurs villages forment une commune, ឃុំ (khoum).",
+        "km": "« village » ជានាមភេទប្រុស៖ le village។ អ្នកភូមិគឺ « les villageois »។ អង់គ្លេស៖ « village »។"
+      },
+      "example": {"fr": "Dans mon village, tout le monde se connaît.", "en": "In my village, everyone knows each other.", "km": "នៅភូមិខ្ញុំ គ្រប់គ្នាស្គាល់គ្នា។", "tr": "neuv phoum khgnom, kroup knéa skoal knéa."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est calme ici.", "en": "It's quiet here.", "km": "នៅទីនេះស្ងាត់ណាស់។", "tr": "neuv ti-nih sngat nah.",
+      "note": {
+        "fr": "ស្ងាត់ (sngat), « silencieux, tranquille ». Le contraire est អ៊ូអរ (ou-â), « bruyant, animé ».",
+        "km": "« calme » មានន័យថា ស្ងាត់ ឬស្ងប់។ « ici » មានន័យថា ទីនេះ។ អង់គ្លេស៖ « quiet », « peaceful »។"
+      }
+    },
+    {
+      "fr": "L'air est frais ici.", "en": "The air is fresh here.", "km": "ខ្យល់នៅទីនេះស្រស់ស្រាយ។", "tr": "khyâl neuv ti-nih sroh-sray.",
+      "note": {
+        "fr": "ស្រស់ស្រាយ, « frais et agréable », se dit de l'air, d'un visage ou d'une humeur.",
+        "km": "« l'air » មានន័យថា ខ្យល់អាកាស។ « frais » មានន័យថា ស្រស់ ឬត្រជាក់បន្តិច។ អង់គ្លេស៖ « fresh air »។"
+      }
+    },
+    {
+      "fr": "On va se promener ?", "en": "Shall we go for a walk?", "km": "ទៅដើរលេងទេ?", "tr": "teuv daeu léng té ?",
+      "note": {
+        "fr": "ដើរលេង, « marcher pour jouer », veut dire se promener, et plus largement sortir pour le plaisir.",
+        "km": "« se promener » ជាកិរិយាសព្ទឆ្លុះ៖ on se promène។ អង់គ្លេស៖ « to go for a walk »។"
+      }
+    },
+    {
+      "fr": "Quel beau paysage !", "en": "What a beautiful landscape!", "km": "ទេសភាពស្អាតណាស់!", "tr": "té-sa-phéap s'at nah !",
+      "note": {
+        "fr": "ទេសភាព, « le paysage », mot savant mais courant dans la bouche des voyageurs.",
+        "km": "« paysage » ជានាមភេទប្រុស៖ le paysage, ទើបប្រើ « beau »។ អង់គ្លេស៖ « landscape » ឬ « view »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "La saison des pluies", "km": "រដូវភ្លៀង"},
+      "fr": "Pendant la saison des pluies, les paysans plantent le riz.", "en": "During the rainy season, farmers plant rice.",
+      "km": "នៅរដូវភ្លៀង កសិករដាំស្រូវ។", "tr": "neuv ro-deuv phlieng, kâ-sek-kâ dam srouv."
+    },
+    {
+      "situation": {"fr": "Au bord du fleuve", "km": "នៅមាត់ទន្លេ"},
+      "fr": "Le soir, les gens se promènent au bord du fleuve.", "en": "In the evening, people walk along the river.",
+      "km": "ពេលល្ងាច គេដើរលេងតាមមាត់ទន្លេ។", "tr": "pél lngéatch, ké daeu léng tam moat tonlé."
+    },
+    {
+      "situation": {"fr": "En haut de la montagne", "km": "នៅលើកំពូលភ្នំ"},
+      "fr": "D'en haut, on voit toutes les rizières du village.", "en": "From up here, you can see all the rice fields of the village.",
+      "km": "ពីលើនេះ យើងមើលឃើញស្រែទាំងអស់របស់ភូមិ។", "tr": "pi leu nih, yeung meul kheugn srè téang âh ro-bâh phoum."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} fait visiter son village natal à {B}.", "en": "{A} shows {B} around {A}'s home village.", "km": "{A} នាំ {B} ទៅលេងភូមិកំណើត។"},
+    "lines": [
+      {"speaker": "A", "fr": "Voici mon village. C'est calme ici, n'est-ce pas ?", "en": "Here is my village. It's quiet here, isn't it?", "km": "នេះភូមិខ្ញុំ។ នៅទីនេះស្ងាត់ណាស់ មែនទេ?", "tr": "nih phoum khgnom. neuv ti-nih sngat nah, mèn té ?"},
+      {"speaker": "B", "fr": "Oui, et l'air est frais. Quel beau paysage !", "en": "Yes, and the air is fresh. What a beautiful landscape!", "km": "{B_yes} ហើយខ្យល់ស្រស់ស្រាយ។ ទេសភាពស្អាតណាស់!", "tr": "{B_yes}, haeuy khyâl sroh-sray. té-sa-phéap s'at nah !"},
+      {"speaker": "A", "fr": "Derrière la maison, c'est la rizière de mes parents.", "en": "Behind the house is my parents' rice field.", "km": "នៅក្រោយផ្ទះ គឺស្រែរបស់ឪពុកម្តាយខ្ញុំ។", "tr": "neuv kraoy phtéah, keu srè ro-bâh eu-pouk mday khgnom."},
+      {"speaker": "B", "fr": "Et ce grand arbre, c'est un manguier ?", "en": "And this big tree, is it a mango tree?", "km": "ហើយដើមឈើធំនោះ ជាដើមស្វាយមែនទេ?", "tr": "haeuy daeum tchheu thom nouh, tchéa daeum svay mèn té ?"},
+      {"speaker": "A", "fr": "Oui. On va se promener jusqu'au fleuve ?", "en": "Yes. Shall we walk to the river?", "km": "{A_yes}។ ទៅដើរលេងដល់មាត់ទន្លេទេ?", "tr": "{A_yes}. teuv daeu léng dâl moat tonlé té ?"},
+      {"speaker": "B", "fr": "Avec plaisir ! On peut se baigner ?", "en": "With pleasure! Can we swim?", "km": "រីករាយណាស់! អាចហែលទឹកបានទេ?", "tr": "rik-réay nah ! atch haèl teuk ban té ?"},
+      {"speaker": "A", "fr": "Non, l'eau est trop profonde. Mais le coucher de soleil est très beau.", "en": "No, the water is too deep. But the sunset is very beautiful.", "km": "អត់ទេ ទឹកជ្រៅពេក។ ប៉ុន្តែពេលថ្ងៃលិចស្អាតណាស់។", "tr": "ât té, teuk tchrov pék. pon-taè pél thngay letch s'at nah."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'y a-t-il derrière la maison ?", "en": "What is behind the house?", "km": "តើមានអ្វីនៅក្រោយផ្ទះ?"},
+    "answer": {"fr": "La rizière des parents de {A}.", "en": "The rice field of {A}'s parents.", "km": "ស្រែរបស់ឪពុកម្តាយ {A}។"}
+  }
+}

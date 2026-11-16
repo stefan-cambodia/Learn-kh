@@ -1,0 +1,123 @@
+{
+  "id": "u048",
+  "order": 48,
+  "level": "intermediaire",
+  "theme": "internet",
+  "title": {"fr": "Internet et ordinateur", "en": "Internet and computers", "km": "អ៊ីនធឺណិត និងកុំព្យូទ័រ"},
+  "tip": {
+    "fr": "Beaucoup de mots techniques sont empruntés à l'anglais ou au français et écrits en khmer : កុំព្យូទ័រ, អ៊ីនធឺណិត, វ៉ាយហ្វាយ. D'autres sont créés à partir du pali, comme ទូរស័ព្ទ, le téléphone, « le son de loin ».",
+    "km": "ពាក្យបច្ចេកវិទ្យាជាភាសាបារាំងជាច្រើនដូចភាសាអង់គ្លេស៖ internet, le wifi, l'e-mail។ ប៉ុន្តែខ្លះខុសគ្នា៖ « l'ordinateur » (computer), « le mot de passe » (password), « télécharger » (download)។"
+  },
+  "vocabulary": [
+    {
+      "fr": "l'ordinateur", "en": "computer", "km": "កុំព្យូទ័រ", "tr": "kom-pyou-tô", "pos": "nom",
+      "note": {
+        "fr": "Emprunté à l'anglais « computer ». Un ordinateur portable se dit កុំព្យូទ័រយួរដៃ, « ordinateur qu'on porte à la main ».",
+        "km": "« ordinateur » ជានាមភេទប្រុស៖ l'ordinateur។ កុំព្យូទ័រយួរដៃគឺ « l'ordinateur portable »។ អង់គ្លេស៖ « computer », « laptop »។"
+      },
+      "example": {"fr": "Je travaille sur l'ordinateur.", "en": "I work on the computer.", "km": "ខ្ញុំធ្វើការនៅលើកុំព្យូទ័រ។", "tr": "khgnom thveu-ka neuv leu kom-pyou-tô."}
+    },
+    {
+      "fr": "internet", "en": "internet", "km": "អ៊ីនធឺណិត", "tr": "in-theu-net", "pos": "nom",
+      "note": {
+        "fr": "Emprunté à l'anglais. Pour « se connecter », on dit ភ្ជាប់អ៊ីនធឺណិត (phtchoap in-theu-net).",
+        "km": "« internet » មិនសូវប្រើពាក្យនាំមុខទេ៖ sur internet។ អង់គ្លេស៖ « on the internet »។"
+      },
+      "example": {"fr": "Internet est lent ce soir.", "en": "The internet is slow tonight.", "km": "យប់នេះ អ៊ីនធឺណិតយឺត។", "tr": "youp nih, in-theu-net yeut."}
+    },
+    {
+      "fr": "la photo", "en": "photo", "km": "រូបថត", "tr": "roup-thât", "pos": "nom",
+      "note": {
+        "fr": "រូប, « l'image », et ថត, « enregistrer, photographier ». Prendre une photo se dit ថតរូប.",
+        "km": "« photo » ជានាមភេទស្រី៖ la photo។ « prendre une photo » មានន័យថា ថតរូប។ អង់គ្លេស៖ « photo », « to take a picture »។"
+      },
+      "example": {"fr": "On prend une photo ensemble ?", "en": "Shall we take a photo together?", "km": "ថតរូបជាមួយគ្នាទេ?", "tr": "thât roup tchéa-mouy knéa té ?"}
+    },
+    {
+      "fr": "envoyer", "en": "to send", "km": "ផ្ញើ", "tr": "phgnaeu", "pos": "verbe",
+      "note": {
+        "fr": "ផ្ញើ sert pour une lettre, un colis ou un message. Pour un message, on dit aussi ផ្ញើសារ.",
+        "km": "« envoyer »៖ j'envoie, tu envoies, nous envoyons។ អង់គ្លេស៖ « to send »។"
+      },
+      "example": {"fr": "Je t'envoie un message ce soir.", "en": "I'll send you a message tonight.", "km": "យប់នេះ ខ្ញុំផ្ញើសារទៅអ្នក។", "tr": "youp nih, khgnom phgnaeu sa teuv néak."}
+    },
+    {
+      "fr": "le mot de passe", "en": "password", "km": "ពាក្យសម្ងាត់", "tr": "péak sâm-ngat", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « le mot secret ». សម្ងាត់ (sâm-ngat), « le secret », vient de ស្ងាត់, « silencieux ».",
+        "km": "« le mot de passe » មានន័យថា ពាក្យសម្ងាត់។ « mot » មានន័យថា ពាក្យ។ អង់គ្លេស៖ « password »។"
+      },
+      "example": {"fr": "J'ai oublié mon mot de passe.", "en": "I forgot my password.", "km": "ខ្ញុំភ្លេចពាក្យសម្ងាត់។", "tr": "khgnom phlétch péak sâm-ngat."}
+    },
+    {
+      "fr": "la batterie", "en": "battery", "km": "ថ្ម", "tr": "thmâ", "pos": "nom",
+      "note": {
+        "fr": "ថ្ម veut d'abord dire « la pierre ». Recharger le téléphone se dit សាកថ្ម (sak thmâ).",
+        "km": "« batterie » ជានាមភេទស្រី៖ la batterie។ « recharger » មានន័យថា សាកថ្ម។ អង់គ្លេស៖ « battery », « to charge »។"
+      },
+      "example": {"fr": "Je dois recharger la batterie.", "en": "I need to charge the battery.", "km": "ខ្ញុំត្រូវសាកថ្ម។", "tr": "khgnom treuv sak thmâ."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Quel est le code du wifi ?", "en": "What's the wifi password?", "km": "លេខកូដវ៉ាយហ្វាយលេខប៉ុន្មាន?", "tr": "lék kôt vay-fay lék pon-man ?",
+      "note": {
+        "fr": "Question indispensable au café ou à l'hôtel. Le wifi se prononce « vay-fay » en khmer, comme en anglais.",
+        "km": "ភាសាបារាំងអាន wifi ថា « oui-fi »។ អង់គ្លេស៖ « What's the wifi password? »។"
+      }
+    },
+    {
+      "fr": "Ma batterie est vide.", "en": "My battery is dead.", "km": "ថ្មអស់ហើយ។", "tr": "thmâ âh haeuy.",
+      "note": {
+        "fr": "អស់ (âh), « épuisé, fini ». Le même mot sert quand il n'y a plus rien : អស់លុយ, plus d'argent.",
+        "km": "« vide » មានន័យថា ទទេ ឬអស់។ អង់គ្លេស៖ « My battery is dead » ឬ « flat »។"
+      }
+    },
+    {
+      "fr": "Envoie-moi la photo.", "en": "Send me the photo.", "km": "ផ្ញើរូបមកខ្ញុំផង។", "tr": "phgnaeu roup mok khgnom phâng.",
+      "note": {
+        "fr": "មក, « venir », indique la direction vers celui qui parle. ផង adoucit la demande.",
+        "km": "« envoie-moi » ជាទម្រង់បញ្ជា៖ « moi » នៅក្រោយកិរិយាសព្ទ។ អង់គ្លេស៖ « Send me »។"
+      }
+    },
+    {
+      "fr": "On fait un appel vidéo ?", "en": "Shall we do a video call?", "km": "ហៅវីដេអូទេ?", "tr": "hav vi-dé-ô té ?",
+      "note": {
+        "fr": "Mot à mot « appeler en vidéo ». Très utilisé pour parler à la famille à l'étranger.",
+        "km": "« un appel vidéo » មានន័យថា ការហៅវីដេអូ។ អង់គ្លេស៖ « video call »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Loin de la famille", "km": "ពេលនៅឆ្ងាយពីគ្រួសារ"},
+      "fr": "Je parle avec ma famille en France par appel vidéo.", "en": "I talk with my family in France by video call.",
+      "km": "ខ្ញុំនិយាយជាមួយគ្រួសារនៅប្រទេសបារាំងតាមវីដេអូ។", "tr": "khgnom ni-yéay tchéa-mouy krouo-sa neuv prâ-téh ba-rang tam vi-dé-ô."
+    },
+    {
+      "situation": {"fr": "Un conseil de sécurité", "km": "ដំបូន្មានសុវត្ថិភាព"},
+      "fr": "N'écris pas ton mot de passe sur un papier.", "en": "Don't write your password on a piece of paper.",
+      "km": "កុំសរសេរពាក្យសម្ងាត់លើក្រដាស។", "tr": "kom sâ-sé péak sâm-ngat leu krâ-dah."
+    },
+    {
+      "situation": {"fr": "Au café", "km": "នៅហាងកាហ្វេ"},
+      "fr": "Dans ce café, internet est gratuit.", "en": "In this café, the internet is free.",
+      "km": "នៅហាងកាហ្វេនេះ អ៊ីនធឺណិតឥតគិតលុយ។", "tr": "neuv hang ka-fé nih, in-theu-net et kit louy."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} est en France et appelle {A} en vidéo.", "en": "{B} is in France and video-calls {A}.", "km": "{B} នៅប្រទេសបារាំង ហើយហៅវីដេអូទៅ {A}។"},
+    "lines": [
+      {"speaker": "B", "fr": "Tu m'entends ? On fait un appel vidéo ?", "en": "Can you hear me? Shall we do a video call?", "km": "ឮខ្ញុំទេ? ហៅវីដេអូទេ?", "tr": "leu khgnom té ? hav vi-dé-ô té ?"},
+      {"speaker": "A", "fr": "Attends, internet est lent ici.", "en": "Wait, the internet is slow here.", "km": "ចាំបន្តិច អ៊ីនធឺណិតនៅទីនេះយឺត។", "tr": "tcham bân-tetch, in-theu-net neuv ti-nih yeut."},
+      {"speaker": "B", "fr": "Ça y est, je te vois !", "en": "There we go, I can see you!", "km": "ឃើញហើយ!", "tr": "kheugn haeuy !"},
+      {"speaker": "A", "fr": "Envoie-moi les photos de ta famille !", "en": "Send me the photos of your family!", "km": "ផ្ញើរូបថតគ្រួសារមកខ្ញុំផង!", "tr": "phgnaeu roup-thât krouo-sa mok khgnom phâng !"},
+      {"speaker": "B", "fr": "D'accord, je les envoie depuis l'ordinateur ce soir. Ma batterie est presque vide.", "en": "Okay, I'll send them from the computer tonight. My battery is almost dead.", "km": "បាន យប់នេះខ្ញុំផ្ញើពីកុំព្យូទ័រ។ ថ្មទូរស័ព្ទជិតអស់ហើយ។", "tr": "ban, youp nih khgnom phgnaeu pi kom-pyou-tô. thmâ tou-ro-sap tchit âh haeuy."},
+      {"speaker": "A", "fr": "Alors à ce soir. Tu me manques !", "en": "See you tonight then. I miss you!", "km": "អញ្ចឹង ជួបគ្នាយប់នេះ។ នឹក {B} ណាស់!", "tr": "agn-tcheung, tchouop knéa youp nih. neuk {B} nah !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi {B} envoie les photos ce soir ?", "en": "Why will {B} send the photos tonight?", "km": "ហេតុអ្វី {B} ផ្ញើរូបថតនៅយប់នេះ?"},
+    "answer": {"fr": "Parce que la batterie du téléphone est presque vide.", "en": "Because the phone battery is almost dead.", "km": "ព្រោះថ្មទូរស័ព្ទជិតអស់ហើយ។"}
+  }
+}

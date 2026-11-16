@@ -1,0 +1,25 @@
+{
+ "name": "FR - ENG - Khmer Learning",
+ "short_name": "FR-ENG-KH",
+ "description": "Leçons quotidiennes de français, d'anglais et de khmer.",
+ "lang": "fr",
+ "start_url": "index.html",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f5f2ec",
+ "theme_color": "#1d2230",
+ "icons": [
+  {
+   "src": "css/icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "css/icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

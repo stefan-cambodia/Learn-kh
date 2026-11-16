@@ -1,0 +1,123 @@
+{
+  "id": "u034",
+  "order": 34,
+  "level": "intermediaire",
+  "theme": "emotions",
+  "title": {"fr": "Les émotions", "en": "Emotions", "km": "អារម្មណ៍"},
+  "tip": {
+    "fr": "Beaucoup d'émotions khmères se disent avec ចិត្ត (tchet), le cœur ou l'esprit : សប្បាយចិត្ត, content ; ពិបាកចិត្ត, contrarié ; ត្រជាក់ចិត្ត, « cœur froid », c'est-à-dire calme. Montrer sa colère en public est mal vu : on garde son calme.",
+    "km": "ភាសាបារាំងប្រើ « être » ជាមួយគុណនាម (je suis triste) ប៉ុន្តែប្រើ « avoir » ជាមួយនាមខ្លះ៖ j'ai peur, j'ai faim។ ភាសាអង់គ្លេសប្រើ « to be » ទាំងអស់៖ « I am sad », « I am afraid »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "triste", "en": "sad", "km": "សោកសៅ", "tr": "saok-sav", "pos": "adjectif",
+      "note": {
+        "fr": "សោកសៅ est le mot juste mais un peu soutenu. À l'oral, on dit souvent ពិបាកចិត្ត (pi-bak tchet), « cœur en difficulté ».",
+        "km": "« triste » មិនប្តូរតាមភេទទេ៖ il est triste, elle est triste។ អង់គ្លេស៖ « sad »។"
+      },
+      "example": {"fr": "Ce film est triste.", "en": "This film is sad.", "km": "រឿងនេះគួរឱ្យសោកសៅ។", "tr": "reuang nih kouo aoy saok-sav."}
+    },
+    {
+      "fr": "en colère", "en": "angry", "km": "ខឹង", "tr": "kheung", "pos": "adjectif",
+      "note": {
+        "fr": "ខឹង s'emploie seul, comme un verbe : ខ្ញុំខឹង, je suis en colère. Pour dire contre qui : ខឹងនឹង, en colère contre.",
+        "km": "« être en colère » មានន័យថា ខឹង។ « contre » មានន័យថា នឹង៖ en colère contre moi។ អង់គ្លេស៖ « angry »។"
+      },
+      "example": {"fr": "Pourquoi tu es en colère ?", "en": "Why are you angry?", "km": "ហេតុអ្វីខឹង?", "tr": "haèt ey kheung ?"}
+    },
+    {
+      "fr": "avoir peur", "en": "to be afraid", "km": "ខ្លាច", "tr": "khlatch", "pos": "verbe",
+      "note": {
+        "fr": "ខ្លាច se met directement devant ce qui fait peur : ខ្លាចឆ្កែ, avoir peur des chiens ; ខ្លាចយឺត, avoir peur d'être en retard.",
+        "km": "« avoir peur de » + នាម៖ j'ai peur des chiens។ « la peur » មានន័យថា ការភ័យខ្លាច។ អង់គ្លេស៖ « to be afraid of »។"
+      },
+      "example": {"fr": "Mon enfant a peur des chiens.", "en": "My child is afraid of dogs.", "km": "កូនខ្ញុំខ្លាចឆ្កែ។", "tr": "kôn khgnom khlatch tchhkaè."}
+    },
+    {
+      "fr": "surpris", "en": "surprised", "km": "ភ្ញាក់ផ្អើល", "tr": "phgnéak ph'aeul", "pos": "adjectif",
+      "note": {
+        "fr": "ភ្ញាក់ (phgnéak) veut aussi dire « se réveiller » : la surprise est un « réveil brusque ».",
+        "km": "« surpris » សម្រាប់ភេទប្រុស និង « surprise » សម្រាប់ភេទស្រី។ « une surprise » ក៏មានន័យថា របស់ ឬរឿងដែលគេមិនបានដឹងមុន។ អង់គ្លេស៖ « surprised »។"
+      },
+      "example": {"fr": "Tout le monde est surpris.", "en": "Everyone is surprised.", "km": "គ្រប់គ្នាភ្ញាក់ផ្អើល។", "tr": "kroup knéa phgnéak ph'aeul."}
+    },
+    {
+      "fr": "s'ennuyer", "en": "to be bored", "km": "ធុញ", "tr": "thougn", "pos": "verbe",
+      "note": {
+        "fr": "ធុញ veut dire « s'ennuyer » et aussi « en avoir assez » : ធុញហើយ, j'en ai marre.",
+        "km": "« s'ennuyer » ជាកិរិយាសព្ទឆ្លុះ៖ je m'ennuie, tu t'ennuies។ អង់គ្លេស៖ « to be bored »។"
+      },
+      "example": {"fr": "Le dimanche, les enfants s'ennuient à la maison.", "en": "On Sundays, the children get bored at home.", "km": "ថ្ងៃអាទិត្យ ក្មេងៗធុញនៅផ្ទះ។", "tr": "thngay a-teut, kméng-kméng thougn neuv phtéah."}
+    },
+    {
+      "fr": "pleurer", "en": "to cry", "km": "យំ", "tr": "youm", "pos": "verbe",
+      "note": {
+        "fr": "យំ sert aussi pour le cri des animaux : សត្វស្លាបយំ, les oiseaux chantent.",
+        "km": "« pleurer »៖ je pleure, il pleure។ « les larmes » មានន័យថា ទឹកភ្នែក។ អង់គ្លេស៖ « to cry »។"
+      },
+      "example": {"fr": "Le bébé pleure parce qu'il a faim.", "en": "The baby is crying because he is hungry.", "km": "កូនង៉ែតយំ ព្រោះវាឃ្លាន។", "tr": "kôn ngaèt youm, prouh véa khléan."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Pourquoi tu fais cette tête ?", "en": "Why the long face?", "km": "ម៉េចក៏មុខក្រញូវអញ្ចឹង?", "tr": "métch kâ mouk krâ-gnouv agn-tcheung ?",
+      "note": {
+        "fr": "ក្រញូវ (krâ-gnouv), « froncé ». Mot à mot « pourquoi ce visage froncé comme ça ? ».",
+        "km": "« faire la tête » មានន័យថា មុខក្រញូវ ឬអន់ចិត្ត។ អង់គ្លេស៖ « Why the long face? »។"
+      }
+    },
+    {
+      "fr": "Calme-toi.", "en": "Calm down.", "km": "ត្រជាក់ចិត្តសិន។", "tr": "trâ-tchéak tchet sen.",
+      "note": {
+        "fr": "Mot à mot « refroidis ton cœur d'abord ». En khmer, le calme est « froid » et la colère est « chaude » : ក្តៅចិត្ត.",
+        "km": "« se calmer » ជាកិរិយាសព្ទឆ្លុះ៖ calme-toi, calmez-vous។ អង់គ្លេស៖ « Calm down »។"
+      }
+    },
+    {
+      "fr": "Ce n'est pas grave.", "en": "It's not a big deal.", "km": "មិនអីទេ។", "tr": "min ey té.",
+      "note": {
+        "fr": "Réponse passe-partout pour rassurer ou accepter des excuses. Se dit aussi pour « de rien ».",
+        "km": "« grave » មានន័យថា ធ្ងន់ធ្ងរ។ « Ce n'est pas grave » ប្រើលួងចិត្ត ឬទទួលការសុំទោស។ អង់គ្លេស៖ « It's okay »។"
+      }
+    },
+    {
+      "fr": "Je ne l'ai pas fait exprès.", "en": "I didn't do it on purpose.", "km": "ខ្ញុំមិនចេតនាទេ។", "tr": "khgnom min tchét-ta-na té.",
+      "note": {
+        "fr": "ចេតនា (tchét-ta-na), « l'intention », vient du pali. On le fait souvent précéder de សុំទោស, pardon.",
+        "km": "« exprès » មានន័យថា ដោយចេតនា។ s នៅចុងមិនអានទេ។ អង់គ្លេស៖ « on purpose »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au cinéma", "km": "នៅរោងកុន"},
+      "fr": "Ce film est très triste, j'ai pleuré à la fin.", "en": "This film is very sad, I cried at the end.",
+      "km": "រឿងនេះគួរឱ្យសោកសៅណាស់ ខ្ញុំយំនៅចុងបញ្ចប់។", "tr": "reuang nih kouo aoy saok-sav nah, khgnom youm neuv tchong bagn-tchâp."
+    },
+    {
+      "situation": {"fr": "Dans un embouteillage", "km": "ពេលស្ទះផ្លូវ"},
+      "fr": "Ne te mets pas en colère, nous ne sommes pas encore en retard.", "en": "Don't get angry, we are not late yet.",
+      "km": "កុំខឹងអី យើងមិនទាន់យឺតទេ។", "tr": "kom kheung ey, yeung min toan yeut té."
+    },
+    {
+      "situation": {"fr": "Une fête surprise", "km": "ពិធីជប់លៀងភ្ញាក់ផ្អើល"},
+      "fr": "Quand tout le monde a crié joyeux anniversaire, quelle surprise !", "en": "When everyone shouted happy birthday, what a surprise!",
+      "km": "ពេលគ្រប់គ្នាស្រែកថា រីករាយថ្ងៃកំណើត ខ្ញុំភ្ញាក់ផ្អើលណាស់។", "tr": "pél kroup knéa sraèk tha rik-réay thngay kâm-naeut, khgnom phgnéak ph'aeul nah."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Le matin, devant la maison.", "en": "In the morning, in front of the house.", "km": "ពេលព្រឹក នៅមុខផ្ទះ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Pourquoi tu fais cette tête ?", "en": "Why the long face?", "km": "ម៉េចក៏មុខក្រញូវអញ្ចឹង?", "tr": "métch kâ mouk krâ-gnouv agn-tcheung ?"},
+      {"speaker": "B", "fr": "Je suis en colère. Le mécanicien n'a pas encore réparé la moto.", "en": "I'm angry. The mechanic hasn't repaired the motorbike yet.", "km": "ខ្ញុំខឹង។ ជាងមិនទាន់ជួសជុលម៉ូតូទេ។", "tr": "khgnom kheung. tchéang min toan tchouoh-tchoul mô-tô té."},
+      {"speaker": "A", "fr": "Calme-toi. Ce n'est pas grave, on peut prendre un tuk-tuk.", "en": "Calm down. It's not a big deal, we can take a tuk-tuk.", "km": "ត្រជាក់ចិត្តសិន។ មិនអីទេ យើងជិះតុកតុកបាន។", "tr": "trâ-tchéak tchet sen. min ey té, yeung tchih tok-tok ban."},
+      {"speaker": "B", "fr": "Tu as raison. Mais j'ai peur d'être en retard au travail.", "en": "You're right. But I'm afraid of being late for work.", "km": "និយាយត្រូវ។ ប៉ុន្តែខ្ញុំខ្លាចយឺតទៅធ្វើការ។", "tr": "ni-yéay treuv. pon-taè khgnom khlatch yeut teuv thveu-ka."},
+      {"speaker": "A", "fr": "Mais non, il est seulement sept heures.", "en": "No, it's only seven o'clock.", "km": "អត់ទេ ទើបតែម៉ោងប្រាំពីរទេ។", "tr": "ât té, teup-taè maong pram-pi té."},
+      {"speaker": "B", "fr": "Ah bon ? Alors ça va, je me calme.", "en": "Really? Then it's fine, I'll calm down.", "km": "មែនឬ? អញ្ចឹងមិនអីទេ ខ្ញុំត្រជាក់ចិត្តវិញហើយ។", "tr": "mèn reu ? agn-tcheung min ey té, khgnom trâ-tchéak tchet vign haeuy."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi {B} est en colère ?", "en": "Why is {B} angry?", "km": "ហេតុអ្វី {B} ខឹង?"},
+    "answer": {"fr": "Parce que le mécanicien n'a pas encore réparé la moto.", "en": "Because the mechanic hasn't repaired the motorbike yet.", "km": "ព្រោះជាងមិនទាន់ជួសជុលម៉ូតូ។"}
+  }
+}

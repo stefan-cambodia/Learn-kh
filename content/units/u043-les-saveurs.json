@@ -1,0 +1,124 @@
+{
+  "id": "u043",
+  "order": 43,
+  "level": "intermediaire",
+  "theme": "les-saveurs",
+  "title": {"fr": "Les saveurs", "en": "Flavours", "km": "រសជាតិ"},
+  "tip": {
+    "fr": "Un bon plat khmer mélange plusieurs saveurs : l'aigre du tamarin, le sucré du sucre de palme, le salé de la sauce de poisson. On grignote volontiers des fruits verts trempés dans du sel pimenté : ស្វាយខ្ចីជ្រលក់អំបិលម្ទេស.",
+    "km": "ភាសាបារាំង គុណនាមរសជាតិប្តូរតាមភេទ៖ un fruit sucré, une soupe sucrée។ ពាក្យ « goût » មានន័យថា រសជាតិ៖ ça a bon goût។ អង់គ្លេស៖ « taste », « It tastes good »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "sucré", "en": "sweet", "km": "ផ្អែម", "tr": "ph'aèm", "pos": "adjectif",
+      "note": {
+        "fr": "ផ្អែម s'emploie aussi au figuré : une voix douce, សំឡេងផ្អែម. Un dessert se dit បង្អែម (bâng-aèm), formé sur le même mot.",
+        "km": "« sucré » មកពី « sucre »។ ភេទស្រី៖ sucrée។ « un dessert » មានន័យថា បង្អែម។ អង់គ្លេស៖ « sweet »។"
+      },
+      "example": {"fr": "Les mangues de Kampot sont très sucrées.", "en": "Kampot mangoes are very sweet.", "km": "ស្វាយកំពតផ្អែមណាស់។", "tr": "svay kâm-pot ph'aèm nah."}
+    },
+    {
+      "fr": "salé", "en": "salty", "km": "ប្រៃ", "tr": "prey", "pos": "adjectif",
+      "note": {
+        "fr": "ប្រៃ se dit aussi de l'eau de mer : ទឹកប្រៃ, l'eau salée, par opposition à ទឹកសាប, l'eau douce.",
+        "km": "« salé » មកពី « sel »។ ភេទស្រី៖ salée។ អង់គ្លេស៖ « salty »។"
+      },
+      "example": {"fr": "Cette soupe est trop salée.", "en": "This soup is too salty.", "km": "សម្លនេះប្រៃពេក។", "tr": "sâm-lâ nih prey pék."}
+    },
+    {
+      "fr": "acide", "en": "sour", "km": "ជូរ", "tr": "tchou", "pos": "adjectif",
+      "note": {
+        "fr": "ជូរ donne son nom à la soupe aigre, សម្លម្ជូរ. On aime le goût acide du tamarin, អម្ពិល (âm-pel).",
+        "km": "« acide » ឬ « aigre » មានន័យថា ជូរ។ « acide » មិនប្តូរតាមភេទទេ។ អង់គ្លេស៖ « sour »។"
+      },
+      "example": {"fr": "Le citron vert est acide.", "en": "Lime is sour.", "km": "ក្រូចឆ្មាជូរ។", "tr": "krôtch tchhma tchou."}
+    },
+    {
+      "fr": "amer", "en": "bitter", "km": "ល្វីង", "tr": "lving", "pos": "adjectif",
+      "note": {
+        "fr": "Le melon amer, ម្រះ (mreah), est un légume courant, réputé bon pour la santé.",
+        "km": "« amer » សម្រាប់ភេទប្រុស និង « amère » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « bitter »។"
+      },
+      "example": {"fr": "Le café sans sucre est amer.", "en": "Coffee without sugar is bitter.", "km": "កាហ្វេគ្មានស្ករល្វីង។", "tr": "ka-fé kmean skâ lving."}
+    },
+    {
+      "fr": "gras", "en": "fatty", "km": "ខ្លាញ់", "tr": "khlagn", "pos": "adjectif",
+      "note": {
+        "fr": "ខ្លាញ់ veut dire « la graisse » et « gras ». Pour une personne grosse, on dit plutôt ធាត់ (thoat).",
+        "km": "« gras » សម្រាប់ភេទប្រុស និង « grasse » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « fatty » ឬ « greasy »។"
+      },
+      "example": {"fr": "Je n'aime pas la viande trop grasse.", "en": "I don't like meat that is too fatty.", "km": "ខ្ញុំមិនចូលចិត្តសាច់ខ្លាញ់ពេកទេ។", "tr": "khgnom min tchôl tchet satch khlagn pék té."}
+    },
+    {
+      "fr": "fade", "en": "bland", "km": "សាប", "tr": "sap", "pos": "adjectif",
+      "note": {
+        "fr": "សាប veut dire « sans goût », et aussi « doux » pour l'eau : ទន្លេសាប, le Tonlé Sap, « le fleuve d'eau douce ».",
+        "km": "« fade » មានន័យថា គ្មានរសជាតិ ឬសាប។ មិនប្តូរតាមភេទទេ។ អង់គ្លេស៖ « bland »។"
+      },
+      "example": {"fr": "Sans sel, la soupe est fade.", "en": "Without salt, the soup is bland.", "km": "បើគ្មានអំបិល សម្លសាប។", "tr": "baeu kmean âm-bel, sâm-lâ sap."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Ça a quel goût ?", "en": "What does it taste like?", "km": "រសជាតិយ៉ាងម៉េច?", "tr": "ros-tchéat yang métch ?",
+      "note": {
+        "fr": "រសជាតិ (ros-tchéat), « la saveur ». Pour dire que c'est bon, on répond ឆ្ងាញ់.",
+        "km": "« le goût » មានន័យថា រសជាតិ។ អង់គ្លេស៖ « What does it taste like? »។"
+      }
+    },
+    {
+      "fr": "C'est trop sucré pour moi.", "en": "It's too sweet for me.", "km": "ផ្អែមពេកសម្រាប់ខ្ញុំ។", "tr": "ph'aèm pék sâm-rap khgnom.",
+      "note": {
+        "fr": "ពេក (pék), « trop », se place après l'adjectif.",
+        "km": "« trop » + គុណនាម៖ trop sucré, trop salé។ អង់គ្លេស៖ « too sweet »។"
+      }
+    },
+    {
+      "fr": "Je n'ai plus faim, merci.", "en": "I'm full, thank you.", "km": "ខ្ញុំឆ្អែតហើយ អរគុណ។", "tr": "khgnom tchh'aèt haeuy, â-koun.",
+      "note": {
+        "fr": "ឆ្អែត (tchh'aèt), « rassasié ». Façon polie de refuser une nouvelle assiette.",
+        "km": "« ne … plus » មានន័យថា លែង។ « je n'ai plus faim » គឺខ្ញុំលែងឃ្លានហើយ។ អង់គ្លេស៖ « I'm full »។"
+      }
+    },
+    {
+      "fr": "Tu veux goûter ?", "en": "Do you want a taste?", "km": "ចង់ភ្លក់មើលទេ?", "tr": "tchâng phlok meul té ?",
+      "note": {
+        "fr": "មើល (meul), « regarder », après un verbe veut dire « essayer de » : ភ្លក់មើល, goûter pour voir.",
+        "km": "« goûter » មានន័យថា ភ្លក់។ « le goûter » ក៏មានន័យថា អាហារសម្រន់ពេលរសៀលដែរ។ អង់គ្លេស៖ « to taste »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "La soupe khmère", "km": "សម្លខ្មែរ"},
+      "fr": "La soupe khmère est souvent un peu acide, avec du tamarin.", "en": "Khmer soup is often a little sour, with tamarind.",
+      "km": "សម្លខ្មែរច្រើនតែជូរបន្តិច ដាក់អម្ពិល។", "tr": "sâm-lâ khmaè tchraeun taè tchou bân-tetch, dak âm-pel."
+    },
+    {
+      "situation": {"fr": "Au café", "km": "នៅហាងកាហ្វេ"},
+      "fr": "Le café khmer est fort et très sucré.", "en": "Khmer coffee is strong and very sweet.",
+      "km": "កាហ្វេខ្មែរខ្លាំង ហើយផ្អែមណាស់។", "tr": "ka-fé khmaè khlang, haeuy ph'aèm nah."
+    },
+    {
+      "situation": {"fr": "À table, avec les enfants", "km": "នៅលើតុ ជាមួយក្មេងៗ"},
+      "fr": "Les enfants n'aiment pas le melon amer.", "en": "Children don't like bitter melon.",
+      "km": "ក្មេងៗមិនចូលចិត្តម្រះទេ។", "tr": "kméng-kméng min tchôl tchet mreah té."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} a rapporté du fromage de France.", "en": "{B} has brought back some cheese from France.", "km": "{B} យកឈីសមកពីប្រទេសបារាំង។"},
+    "lines": [
+      {"speaker": "B", "fr": "Tu veux goûter ? C'est du fromage français.", "en": "Do you want a taste? It's French cheese.", "km": "ចង់ភ្លក់មើលទេ? នេះឈីសបារាំង។", "tr": "tchâng phlok meul té ? nih tchhis ba-rang."},
+      {"speaker": "A", "fr": "Ça a quel goût ?", "en": "What does it taste like?", "km": "រសជាតិយ៉ាងម៉េច?", "tr": "ros-tchéat yang métch ?"},
+      {"speaker": "B", "fr": "Un peu salé et un peu gras.", "en": "A bit salty and a bit fatty.", "km": "ប្រៃបន្តិច ហើយខ្លាញ់បន្តិច។", "tr": "prey bân-tetch, haeuy khlagn bân-tetch."},
+      {"speaker": "A", "fr": "Il sent très fort !", "en": "It smells very strong!", "km": "ក្លិនខ្លាំងណាស់!", "tr": "klen khlang nah !"},
+      {"speaker": "B", "fr": "Oui, mais il est bon. Et toi, quel goût tu préfères ?", "en": "Yes, but it's good. And you, which flavour do you prefer?", "km": "{B_yes} ប៉ុន្តែឆ្ងាញ់។ ចុះ {A} ចូលចិត្តរសជាតិអ្វីជាងគេ?", "tr": "{B_yes}, pon-taè tchhngagn. tchoh {A} tchôl tchet ros-tchéat ey tchéang ké ?"},
+      {"speaker": "A", "fr": "Moi, j'aime l'acide et l'épicé, comme la mangue verte avec du sel et du piment.", "en": "I like sour and spicy, like green mango with salt and chilli.", "km": "ខ្ញុំចូលចិត្តជូរ និងហឹរ ដូចស្វាយខ្ចីជ្រលក់អំបិលម្ទេស។", "tr": "khgnom tchôl tchet tchou neung heul, dôtch svay khtchey tchrâ-lok âm-bel mtés."},
+      {"speaker": "B", "fr": "Ah non, c'est trop acide pour moi !", "en": "Oh no, that's too sour for me!", "km": "អត់ទេ ជូរពេកសម្រាប់ខ្ញុំ!", "tr": "ât té, tchou pék sâm-rap khgnom !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quel goût a le fromage ?", "en": "What does the cheese taste like?", "km": "ឈីសមានរសជាតិយ៉ាងម៉េច?"},
+    "answer": {"fr": "Il est un peu salé et un peu gras.", "en": "It's a bit salty and a bit fatty.", "km": "ប្រៃបន្តិច ហើយខ្លាញ់បន្តិច។"}
+  }
+}

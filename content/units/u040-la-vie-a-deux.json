@@ -1,0 +1,123 @@
+{
+  "id": "u040",
+  "order": 40,
+  "level": "intermediaire",
+  "theme": "la-vie-a-deux",
+  "title": {"fr": "La vie à deux", "en": "Life together", "km": "ជីវិតរួមគ្នា"},
+  "tip": {
+    "fr": "Dans un couple khmer, on ne dit presque jamais « je » et « tu ». La personne la plus âgée, ou l'homme, est បង (bâng), et l'autre est អូន (oun) : អូនស្រឡាញ់បង, « je t'aime » dit par oun à bâng. Ces mots servent à la fois de « je » et de « tu ».",
+    "km": "ភាសាបារាំង « manquer » ដាក់លំដាប់ផ្ទុយពីខ្មែរ៖ « Tu me manques » មានន័យថា ខ្ញុំនឹកអ្នក (មនុស្សដែលគេនឹកនៅខាងមុខ)។ អង់គ្លេសដូចខ្មែរ៖ « I miss you »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "l'amour", "en": "love", "km": "សេចក្តីស្រឡាញ់", "tr": "sétch-kdey srâ-lagn", "pos": "nom",
+      "note": {
+        "fr": "សេចក្តី (sétch-kdey) transforme un verbe en nom : ស្រឡាញ់, aimer, devient សេចក្តីស្រឡាញ់, l'amour. L'amour romantique se dit aussi ស្នេហា (snaè-ha).",
+        "km": "« amour » ជានាមភេទប្រុស៖ l'amour។ « amoureux » មានន័យថា កំពុងស្រឡាញ់។ អង់គ្លេស៖ « love »។"
+      },
+      "example": {"fr": "L'amour, c'est aussi la patience.", "en": "Love is also patience.", "km": "សេចក្តីស្រឡាញ់ ក៏ជាការអត់ធ្មត់ដែរ។", "tr": "sétch-kdey srâ-lagn kâ tchéa ka ât-thmât daè."}
+    },
+    {
+      "fr": "manquer", "en": "to miss", "km": "នឹក", "tr": "neuk", "pos": "verbe",
+      "note": {
+        "fr": "នឹក se construit comme en anglais : ខ្ញុំនឹកអ្នក, « je pense à toi avec tristesse », c'est-à-dire « tu me manques ». Attention, នឹក (neuk) se prononce presque comme នឹង (neung), le futur.",
+        "km": "« manquer à »៖ tu me manques = ខ្ញុំនឹកអ្នក; je te manque = អ្នកនឹកខ្ញុំ។ អង់គ្លេស៖ « to miss », « I miss you »។"
+      },
+      "example": {"fr": "Ma famille me manque.", "en": "I miss my family.", "km": "ខ្ញុំនឹកគ្រួសារ។", "tr": "khgnom neuk krouo-sa."}
+    },
+    {
+      "fr": "se marier", "en": "to get married", "km": "រៀបការ", "tr": "riep-ka", "pos": "verbe",
+      "note": {
+        "fr": "Mot à mot « organiser la cérémonie ». La cérémonie de mariage se dit មង្គលការ (mong-kol-ka).",
+        "km": "« se marier » ជាកិរិយាសព្ទឆ្លុះ៖ nous nous marions។ « marié » មានន័យថា រៀបការហើយ។ អង់គ្លេស៖ « to get married »។"
+      },
+      "example": {"fr": "Ils se marient au mois de mai.", "en": "They are getting married in May.", "km": "គាត់រៀបការនៅខែឧសភា។", "tr": "koat riep-ka neuv khaè ou-sâ-phéa."}
+    },
+    {
+      "fr": "le cœur", "en": "heart", "km": "បេះដូង", "tr": "béh-doung", "pos": "nom",
+      "note": {
+        "fr": "បេះដូង est l'organe et le symbole de l'amour. Pour les sentiments, le khmer utilise plutôt ចិត្ត (tchet), le cœur au sens de l'esprit.",
+        "km": "« cœur » ជានាមភេទប្រុស៖ le cœur។ « de tout mon cœur » មានន័យថា ដោយអស់ពីចិត្ត។ អង់គ្លេស៖ « heart »។"
+      },
+      "example": {"fr": "Mon cœur bat vite.", "en": "My heart is beating fast.", "km": "បេះដូងខ្ញុំលោតញាប់។", "tr": "béh-doung khgnom lot gnoap."}
+    },
+    {
+      "fr": "la confiance", "en": "trust", "km": "ការទុកចិត្ត", "tr": "ka touk tchet", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « le fait de déposer son cœur ». Le verbe ទុកចិត្ត veut dire « faire confiance ».",
+        "km": "« confiance » ជានាមភេទស្រី៖ la confiance។ « avoir confiance en » មានន័យថា ទុកចិត្ត។ អង់គ្លេស៖ « trust »។"
+      },
+      "example": {"fr": "J'ai confiance en toi.", "en": "I trust you.", "km": "ខ្ញុំទុកចិត្តអ្នក។", "tr": "khgnom touk tchet néak."}
+    },
+    {
+      "fr": "promettre", "en": "to promise", "km": "សន្យា", "tr": "sân-ya", "pos": "verbe",
+      "note": {
+        "fr": "សន្យា sert aussi de nom : « la promesse ». Pour insister : ខ្ញុំសន្យាពិតៗ, je te le promets vraiment.",
+        "km": "« promettre »៖ je promets, tu promets។ « une promesse » មានន័យថា ការសន្យា។ អង់គ្លេស៖ « to promise »។"
+      },
+      "example": {"fr": "Je te promets de t'appeler ce soir.", "en": "I promise to call you tonight.", "km": "ខ្ញុំសន្យាថា នឹងហៅទូរស័ព្ទទៅយប់នេះ។", "tr": "khgnom sân-ya tha neung hav tou-ro-sap teuv youp nih."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Je t'aime.", "en": "I love you.", "km": "ខ្ញុំស្រឡាញ់អ្នក។", "tr": "khgnom srâ-lagn néak.",
+      "note": {
+        "fr": "Forme neutre et un peu formelle. Entre amoureux, on dira plutôt បងស្រឡាញ់អូន ou អូនស្រឡាញ់បង, selon qui parle.",
+        "km": "« Je t'aime » មានន័យថា ខ្ញុំស្រឡាញ់អ្នក។ « t' » គឺ « te » មុនស្រៈ។ អង់គ្លេស៖ « I love you »។"
+      }
+    },
+    {
+      "fr": "Tu me manques.", "en": "I miss you.", "km": "ខ្ញុំនឹកអ្នកណាស់។", "tr": "khgnom neuk néak nah.",
+      "note": {
+        "fr": "En khmer, comme en anglais, c'est la personne qui ressent le manque qui est le sujet.",
+        "km": "ប្រយ័ត្នលំដាប់៖ ជាភាសាបារាំង អ្នកដែលគេនឹកជាប្រធាន។ អង់គ្លេស៖ « I miss you »។"
+      }
+    },
+    {
+      "fr": "Prends soin de toi.", "en": "Take care of yourself.", "km": "ថែរក្សាខ្លួនផង។", "tr": "thaè-réak-sa khlouon phâng.",
+      "note": {
+        "fr": "ថែរក្សា, « prendre soin, préserver », et ខ្លួន, « soi-même ». Se dit au moment de se quitter.",
+        "km": "« prendre soin de » មានន័យថា ថែរក្សា។ « toi » ប្រើពេលបញ្ជា។ អង់គ្លេស៖ « Take care »។"
+      }
+    },
+    {
+      "fr": "Rentre vite.", "en": "Come back soon.", "km": "ឆាប់ត្រឡប់មកវិញណា។", "tr": "tchhap trâ-lâp mok vign na.",
+      "note": {
+        "fr": "ឆាប់, « vite », se place devant le verbe. ណា en fin de phrase adoucit la demande.",
+        "km": "« rentrer » មានន័យថា ត្រឡប់មកផ្ទះវិញ។ « vite » មានន័យថា ឆាប់។ អង់គ្លេស៖ « Come back soon »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Un mariage khmer", "km": "មង្គលការខ្មែរ"},
+      "fr": "Un mariage khmer traditionnel peut durer plusieurs jours.", "en": "A traditional Khmer wedding can last several days.",
+      "km": "មង្គលការប្រពៃណីខ្មែរ អាចធ្វើច្រើនថ្ងៃ។", "tr": "mong-kol-ka prâ-pey-ni khmaè atch thveu tchraeun thngay."
+    },
+    {
+      "situation": {"fr": "Loin l'un de l'autre", "km": "ពេលនៅឆ្ងាយគ្នា"},
+      "fr": "Quand nous sommes loin, nous nous appelons tous les soirs.", "en": "When we are far apart, we call each other every evening.",
+      "km": "ពេលនៅឆ្ងាយគ្នា យើងហៅទូរស័ព្ទគ្នារាល់ល្ងាច។", "tr": "pél neuv tchhngay knéa, yeung hav tou-ro-sap knéa roal lngéatch."
+    },
+    {
+      "situation": {"fr": "Un conseil", "km": "ដំបូន្មានមួយ"},
+      "fr": "Dans un couple, la confiance est très importante.", "en": "In a relationship, trust is very important.",
+      "km": "ក្នុងជីវិតគូ ការទុកចិត្តគ្នាសំខាន់ណាស់។", "tr": "knong tchi-vit kou, ka touk tchet knéa sâm-khan nah."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "La veille du départ de {B} pour la France.", "en": "The day before {B} leaves for France.", "km": "មួយថ្ងៃមុន {B} ចេញដំណើរទៅប្រទេសបារាំង។"},
+    "lines": [
+      {"speaker": "A", "fr": "Tu pars demain. Tu vas me manquer.", "en": "You are leaving tomorrow. I'm going to miss you.", "km": "ថ្ងៃស្អែក {B} ទៅហើយ។ ខ្ញុំនឹងនឹក {B} ណាស់។", "tr": "thngay s'aèk {B} teuv haeuy. khgnom neung neuk {B} nah."},
+      {"speaker": "B", "fr": "Toi aussi, tu vas me manquer. Mais c'est seulement deux semaines.", "en": "I'll miss you too. But it's only two weeks.", "km": "ខ្ញុំក៏អញ្ចឹងដែរ។ ប៉ុន្តែគ្រាន់តែពីរសប្តាហ៍ទេ។", "tr": "khgnom kâ agn-tcheung daè. pon-taè kroan-taè pi sap-da té."},
+      {"speaker": "A", "fr": "Tu m'appelles tous les soirs ?", "en": "Will you call me every evening?", "km": "ហៅទូរស័ព្ទមករាល់ល្ងាចបានទេ?", "tr": "hav tou-ro-sap mok roal lngéatch ban té ?"},
+      {"speaker": "B", "fr": "Oui, je te le promets. Et je pense à toi tous les jours.", "en": "Yes, I promise. And I think of you every day.", "km": "{B_yes} ខ្ញុំសន្យា។ ហើយខ្ញុំគិតដល់ {A} រាល់ថ្ងៃ។", "tr": "{B_yes}, khgnom sân-ya. haeuy khgnom kit dâl {A} roal thngay."},
+      {"speaker": "A", "fr": "Prends soin de toi, et rentre vite.", "en": "Take care of yourself, and come back soon.", "km": "ថែរក្សាខ្លួនផង ហើយឆាប់ត្រឡប់មកវិញណា។", "tr": "thaè-réak-sa khlouon phâng, haeuy tchhap trâ-lâp mok vign na."},
+      {"speaker": "B", "fr": "Bien sûr. Je t'aime.", "en": "Of course. I love you.", "km": "ប្រាកដហើយ។ ខ្ញុំស្រឡាញ់ {A}។", "tr": "prâ-kât haeuy. khgnom srâ-lagn {A}."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Combien de temps {B} part en France ?", "en": "How long is {B} going to France for?", "km": "{B} ទៅប្រទេសបារាំងរយៈពេលប៉ុន្មាន?"},
+    "answer": {"fr": "{B} part deux semaines.", "en": "{B} is going for two weeks.", "km": "{B} ទៅពីរសប្តាហ៍។"}
+  }
+}

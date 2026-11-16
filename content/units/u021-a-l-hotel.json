@@ -1,0 +1,127 @@
+{
+  "id": "u021",
+  "order": 21,
+  "level": "elementaire",
+  "theme": "a-l-hotel",
+  "title": {"fr": "À l'hôtel", "en": "At the hotel", "km": "នៅសណ្ឋាគារ"},
+  "tip": {
+    "fr": "Au-delà de dix, on additionne : ដប់ប្រាំ (dâp pram), « dix-cinq », c'est quinze. Vingt se dit ម្ភៃ (mphey). Dans les hôtels, les prix s'annoncent presque toujours en dollars.",
+    "km": "នៅសណ្ឋាគារបារាំង គេប្រើ « vous » ជាមួយបុគ្គលិកជានិច្ច។ ពាក្យមានប្រយោជន៍៖ « une chambre » គឺបន្ទប់មួយ « une nuit » គឺមួយយប់ ហើយ « le petit-déjeuner » គឺអាហារពេលព្រឹក។"
+  },
+  "vocabulary": [
+    {
+      "fr": "l'hôtel", "en": "hotel", "km": "សណ្ឋាគារ", "tr": "sân-tha-kéa", "pos": "nom",
+      "note": {
+        "fr": "Un petit hôtel familial, ou guesthouse, se dit ផ្ទះសំណាក់ (phtéah sâm-nak).",
+        "km": "« hôtel » ជានាមភេទប្រុស អក្សរ h មិនអានទេ៖ l'hôtel។ អង់គ្លេស « hotel » អានអក្សរ h។"
+      },
+      "example": {"fr": "Notre hôtel est près du marché.", "en": "Our hotel is near the market.", "km": "សណ្ឋាគាររបស់យើងនៅជិតផ្សារ។", "tr": "sân-tha-kéa ro-bâh yeung neuv tchit phsa."}
+    },
+    {
+      "fr": "la clé", "en": "key", "km": "កូនសោ", "tr": "kôn sao", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « enfant de la serrure » : សោ (sao) désigne la serrure ou le cadenas, កូនសោ la clé. On entend aussi សោបន្ទប់ pour la clé de la chambre.",
+        "km": "« clé » ជានាមភេទស្រី៖ la clé។ គេក៏សរសេរ « clef » ដែរ ហើយអានដូចគ្នា។ អង់គ្លេស៖ « key »។"
+      },
+      "example": {"fr": "Où est la clé de la chambre ?", "en": "Where is the room key?", "km": "កូនសោបន្ទប់នៅឯណា?", "tr": "kôn sao bân-toup neuv aè na ?"}
+    },
+    {
+      "fr": "réserver", "en": "to book", "km": "កក់", "tr": "kâk", "pos": "verbe",
+      "note": {
+        "fr": "កក់បន្ទប់ (kâk bân-toup) = « réserver une chambre ». À l'hôtel, on dit simplement បន្ទប់ (pièce), sans ajouter គេង.",
+        "km": "« réserver »៖ je réserve, nous réservons។ « J'ai réservé » ប្រើសម្រាប់អតីតកាល។ អង់គ្លេស៖ « to book »។"
+      },
+      "example": {"fr": "J'ai réservé une chambre pour deux nuits.", "en": "I have booked a room for two nights.", "km": "ខ្ញុំបានកក់បន្ទប់មួយសម្រាប់ពីរយប់។", "tr": "khgnom ban kâk bân-toup mouy sâm-rap pi youp."}
+    },
+    {
+      "fr": "la serviette", "en": "towel", "km": "កន្សែង", "tr": "kân-saèng", "pos": "nom",
+      "note": {
+        "fr": "កន្សែង désigne toute pièce de tissu : serviette, mouchoir, foulard. Pour préciser : កន្សែងជូតខ្លួន (kân-saèng tchout khlouon), « serviette pour s'essuyer le corps ».",
+        "km": "« serviette » ជានាមភេទស្រី៖ une serviette។ ពាក្យនេះក៏មានន័យថា កន្សែងជូតមាត់នៅតុបាយដែរ។ អង់គ្លេស៖ « towel »។"
+      },
+      "example": {"fr": "Je voudrais une autre serviette, s'il vous plaît.", "en": "I would like another towel, please.", "km": "សុំកន្សែងមួយទៀត។", "tr": "som kân-saèng mouy tiet."}
+    },
+    {
+      "fr": "la salle de bain", "en": "bathroom", "km": "បន្ទប់ទឹក", "tr": "bân-toup teuk", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « pièce de l'eau ». Désigne aussi les toilettes : បន្ទប់ទឹកនៅឯណា? = « où sont les toilettes ? ».",
+        "km": "« salle de bain » ជានាមភេទស្រី៖ la salle de bain។ បង្គន់ហៅថា « les toilettes »។ អង់គ្លេស៖ « bathroom »។"
+      },
+      "example": {"fr": "La salle de bain est très propre.", "en": "The bathroom is very clean.", "km": "បន្ទប់ទឹកស្អាតណាស់។", "tr": "bân-toup teuk s'at nah."}
+    },
+    {
+      "fr": "la climatisation", "en": "air conditioning", "km": "ម៉ាស៊ីនត្រជាក់", "tr": "ma-sin trâ-tchéak", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « machine froide ». Sans climatisation, la chambre a un ventilateur : កង្ហារ (kâng-ha).",
+        "km": "« climatisation » ជានាមភេទស្រី ហើយគេច្រើននិយាយខ្លីថា « la clim »។ អង់គ្លេស៖ « air conditioning »។"
+      },
+      "example": {"fr": "La climatisation ne marche pas.", "en": "The air conditioning is not working.", "km": "ម៉ាស៊ីនត្រជាក់អត់ដើរទេ។", "tr": "ma-sin trâ-tchéak ât daeu té."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Vous avez une chambre libre ?", "en": "Do you have a room available?", "km": "មានបន្ទប់ទំនេរទេ?", "tr": "méan bân-toup toum-né té ?",
+      "note": {
+        "fr": "ទំនេរ (toum-né) = « libre, inoccupé ». Se dit aussi d'une personne qui a du temps libre.",
+        "km": "« libre » មានន័យថា ទំនេរ។ « Vous avez… ? » ជាសំណួរគួរសម។ អង់គ្លេស៖ « Do you have a room available? »។"
+      }
+    },
+    {
+      "fr": "C'est combien la nuit ?", "en": "How much is it per night?", "km": "មួយយប់ថ្លៃប៉ុន្មាន?", "tr": "mouy youp thlay pon-man ?",
+      "note": {
+        "fr": "Même construction qu'au marché : មួយយប់ (une nuit) + ថ្លៃប៉ុន្មាន (coûte combien).",
+        "km": "« la nuit » ត្រង់នេះមានន័យថា ក្នុងមួយយប់។ អង់គ្លេស៖ « per night »។"
+      }
+    },
+    {
+      "fr": "À quelle heure faut-il quitter la chambre ?", "en": "What time do we have to leave the room?", "km": "ត្រូវចេញពីបន្ទប់ម៉ោងប៉ុន្មាន?", "tr": "treuv tchégn pi bân-toup maong pon-man ?",
+      "note": {
+        "fr": "ត្រូវ (treuv) devant un verbe exprime l'obligation : « il faut, devoir ». ចេញពី = « sortir de ».",
+        "km": "« il faut » មានន័យថា ត្រូវ។ អង់គ្លេសប្រើ « have to »៖ « we have to leave »។"
+      }
+    },
+    {
+      "fr": "Je voudrais rester deux nuits.", "en": "I would like to stay two nights.", "km": "ខ្ញុំចង់ស្នាក់នៅពីរយប់។", "tr": "khgnom tchâng snak neuv pi youp.",
+      "note": {
+        "fr": "ស្នាក់នៅ (snak neuv) = « séjourner, loger ». Les nuits se comptent sans classificateur : ពីរយប់, « deux nuits ».",
+        "km": "« Je voudrais » គួរសមជាង « Je veux »។ « rester » មានន័យថា ស្នាក់នៅ។ អង់គ្លេស៖ « I would like to stay »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À la réception", "km": "នៅកន្លែងទទួលភ្ញៀវ"},
+      "fr": "Bonjour, j'ai réservé une chambre au nom de {B}.", "en": "Hello, I have booked a room under the name {B}.",
+      "km": "សួស្តី ខ្ញុំបានកក់បន្ទប់មួយ ឈ្មោះ {B}។", "tr": "souos-dey, khgnom ban kâk bân-toup mouy, tchhmouh {B}."
+    },
+    {
+      "situation": {"fr": "Signaler un problème", "km": "ពេលមានបញ្ហា"},
+      "fr": "Excusez-moi, il n'y a pas de serviette dans la salle de bain.", "en": "Excuse me, there is no towel in the bathroom.",
+      "km": "សុំទោស ក្នុងបន្ទប់ទឹកអត់មានកន្សែងទេ។", "tr": "som toh, knong bân-toup teuk ât méan kân-saèng té."
+    },
+    {
+      "situation": {"fr": "Choisir une chambre", "km": "ពេលជ្រើសរើសបន្ទប់"},
+      "fr": "Je voudrais une chambre avec la climatisation et un grand lit.", "en": "I would like a room with air conditioning and a large bed.",
+      "km": "ខ្ញុំចង់បានបន្ទប់មានម៉ាស៊ីនត្រជាក់ និងគ្រែធំមួយ។", "tr": "khgnom tchâng ban bân-toup méan ma-sin trâ-tchéak ning krè thom mouy."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Jeu de rôle à la réception d'un hôtel : {A} accueille {B}, qui cherche une chambre.",
+      "en": "Role play at a hotel reception: {A} welcomes {B}, who is looking for a room.",
+      "km": "លេងតួនៅកន្លែងទទួលភ្ញៀវរបស់សណ្ឋាគារ៖ {A} ទទួល {B} ដែលកំពុងរកបន្ទប់។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "Bonjour ! Vous avez une chambre libre pour ce soir ?", "en": "Hello! Do you have a room available for tonight?", "km": "សួស្តី! យប់នេះមានបន្ទប់ទំនេរទេ?", "tr": "souos-dey ! youp nih méan bân-toup toum-né té ?"},
+      {"speaker": "A", "fr": "Oui. Vous restez combien de nuits ?", "en": "Yes, we do. How many nights are you staying?", "km": "{A_yes} មាន។ ស្នាក់នៅប៉ុន្មានយប់?", "tr": "{A_yes}, méan. snak neuv pon-man youp ?"},
+      {"speaker": "B", "fr": "Deux nuits. C'est combien la nuit ?", "en": "Two nights. How much is it per night?", "km": "ពីរយប់។ មួយយប់ថ្លៃប៉ុន្មាន?", "tr": "pi youp. mouy youp thlay pon-man ?"},
+      {"speaker": "A", "fr": "Quinze dollars, avec la climatisation.", "en": "Fifteen dollars, with air conditioning.", "km": "ដប់ប្រាំដុល្លារ មានម៉ាស៊ីនត្រជាក់។", "tr": "dâp pram dol-la, méan ma-sin trâ-tchéak."},
+      {"speaker": "B", "fr": "Très bien, je prends cette chambre.", "en": "Great, I'll take this room.", "km": "ល្អណាស់ ខ្ញុំយកបន្ទប់នេះ។", "tr": "l'â nah, khgnom yok bân-toup nih."},
+      {"speaker": "A", "fr": "Voici la clé. La salle de bain est dans la chambre.", "en": "Here is the key. The bathroom is in the room.", "km": "នេះកូនសោ។ បន្ទប់ទឹកនៅក្នុងបន្ទប់។", "tr": "nih kôn sao. bân-toup teuk neuv knong bân-toup."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Combien coûte la chambre pour une nuit ?", "en": "How much is the room for one night?", "km": "តើបន្ទប់មួយយប់ថ្លៃប៉ុន្មាន?"},
+    "answer": {"fr": "Quinze dollars.", "en": "Fifteen dollars.", "km": "ដប់ប្រាំដុល្លារ។"}
+  }
+}

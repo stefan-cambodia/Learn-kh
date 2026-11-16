@@ -1,0 +1,114 @@
+{
+  "id": "u003",
+  "order": 3,
+  "level": "debutant",
+  "theme": "nombres-1-5",
+  "title": {"fr": "Les nombres de 1 à 5", "en": "Numbers from 1 to 5", "km": "លេខពី ១ ដល់ ៥"},
+  "tip": {
+    "fr": "En khmer, le nombre vient après le nom, souvent suivi d'un classificateur : កាហ្វេពីរកែវ, mot à mot « café deux tasses ».",
+    "km": "ក្នុងភាសាបារាំង និងអង់គ្លេស លេខនៅពីមុខនាម៖ « deux cafés », « two coffees »។ នាមពហុវចនៈថែមអក្សរ s។"
+  },
+  "vocabulary": [
+    {
+      "fr": "un", "en": "one", "km": "មួយ", "tr": "mouy", "pos": "nombre",
+      "note": {
+        "fr": "Le nombre se place après le nom : កាហ្វេមួយ signifie « un café ».",
+        "km": "« un » ប្រើជាមួយនាមភេទប្រុស និង « une » ជាមួយនាមភេទស្រី៖ un café, une table។"
+      },
+      "example": {"fr": "Un thé, s'il vous plaît.", "en": "One tea, please.", "km": "សូមតែមួយកែវ។", "tr": "sôm taè mouy kaèv."}
+    },
+    {
+      "fr": "deux", "en": "two", "km": "ពីរ", "tr": "pi", "pos": "nombre",
+      "note": {
+        "fr": "Le រ final ne se prononce pas : on dit « pi ».",
+        "km": "ក្នុងពាក្យ « deux » អក្សរ x ចុងពាក្យមិនអានទេ។"
+      },
+      "example": {"fr": "Deux cafés, s'il vous plaît.", "en": "Two coffees, please.", "km": "សូមកាហ្វេពីរកែវ។", "tr": "sôm ka-fé pi kaèv."}
+    },
+    {
+      "fr": "trois", "en": "three", "km": "បី", "tr": "bey", "pos": "nombre",
+      "note": {
+        "fr": "Se prononce « bey », comme la fin du mot « abeille ».",
+        "km": "ក្នុងពាក្យ « trois » អក្សរ s ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « three »។"
+      },
+      "example": {"fr": "J'ai trois amis.", "en": "I have three friends.", "km": "ខ្ញុំមានមិត្តភក្តិបីនាក់។", "tr": "khgnom méan mit-phéak bey néak."}
+    },
+    {
+      "fr": "quatre", "en": "four", "km": "បួន", "tr": "bouon", "pos": "nombre",
+      "note": {
+        "fr": "Une seule syllabe : « bouon ».",
+        "km": "ភាសាអង់គ្លេស « four » អានដូចពាក្យ « for » ដែលមានន័យថា សម្រាប់។"
+      },
+      "example": {"fr": "Nous sommes quatre.", "en": "There are four of us.", "km": "យើងមានគ្នាបួននាក់។", "tr": "yeung méan knéa bouon néak."}
+    },
+    {
+      "fr": "cinq", "en": "five", "km": "ប្រាំ", "tr": "pram", "pos": "nombre",
+      "note": {
+        "fr": "Sert de base aux nombres de 6 à 9 : ប្រាំមួយ, « cinq-un », signifie six.",
+        "km": "ក្នុងពាក្យ « cinq » អក្សរ q ចុងពាក្យអានដូចអក្សរ « ក »។"
+      },
+      "example": {"fr": "Il est cinq heures.", "en": "It is five o'clock.", "km": "ម៉ោងប្រាំហើយ។", "tr": "maong pram haeuy."}
+    },
+    {
+      "fr": "zéro", "en": "zero", "km": "សូន្យ", "tr": "soun", "pos": "nombre",
+      "note": {
+        "fr": "Utile pour dicter un numéro de téléphone.",
+        "km": "ប្រើពេលប្រាប់លេខទូរស័ព្ទ។"
+      },
+      "example": {"fr": "Mon numéro commence par zéro.", "en": "My number starts with zero.", "km": "លេខទូរស័ព្ទរបស់ខ្ញុំចាប់ផ្តើមដោយលេខសូន្យ។", "tr": "lék tou-ro-sap ro-bâh khgnom tchap-phdaeum daoy lék soun."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Un, deux, trois !", "en": "One, two, three!", "km": "មួយ ពីរ បី!", "tr": "mouy, pi, bey !",
+      "note": {"fr": "Pour donner le départ ou compter ensemble.", "km": "ប្រើពេលរាប់ ឬពេលចាប់ផ្តើមធ្វើអ្វីមួយព្រមគ្នា។"}
+    },
+    {
+      "fr": "Encore un, s'il vous plaît.", "en": "One more, please.", "km": "សូមមួយទៀត។", "tr": "sôm mouy tiet.",
+      "note": {"fr": "ទៀត (tiet) signifie « encore, de plus ».", "km": "ប្រើពេលចង់បានមួយថែមទៀត។"}
+    },
+    {
+      "fr": "Tous les deux.", "en": "Both of us.", "km": "ទាំងពីរនាក់។", "tr": "téang pi néak.",
+      "note": {"fr": "នាក់ (néak) est le classificateur qui sert à compter les personnes.", "km": "មានន័យថា មនុស្សទាំងពីរនាក់។"}
+    },
+    {
+      "fr": "Quel est votre numéro de téléphone ?", "en": "What is your phone number?", "km": "តើលេខទូរស័ព្ទរបស់អ្នកលេខប៉ុន្មាន?", "tr": "taeu lék tou-ro-sap ro-bâh néak lék pon-man ?",
+      "note": {"fr": "ប៉ុន្មាន (pon-man) signifie « combien » ou « quel numéro ».", "km": "សំណួរដើម្បីសុំលេខទូរស័ព្ទ។"}
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au café", "km": "នៅហាងកាហ្វេ"},
+      "fr": "Deux cafés et un thé, s'il vous plaît.", "en": "Two coffees and one tea, please.",
+      "km": "សូមកាហ្វេពីរកែវ និងតែមួយកែវ។", "tr": "sôm ka-fé pi kaèv ning taè mouy kaèv."
+    },
+    {
+      "situation": {"fr": "Au téléphone", "km": "ពេលនិយាយទូរស័ព្ទ"},
+      "fr": "Mon numéro est le zéro, un, deux, trois, quatre, cinq.", "en": "My number is zero, one, two, three, four, five.",
+      "km": "លេខរបស់ខ្ញុំគឺ សូន្យ មួយ ពីរ បី បួន ប្រាំ។", "tr": "lék ro-bâh khgnom keu soun, mouy, pi, bey, bouon, pram."
+    },
+    {
+      "situation": {"fr": "Parler de ses amis", "km": "និយាយអំពីមិត្តភក្តិ"},
+      "fr": "J'ai cinq amis en France.", "en": "I have five friends in France.",
+      "km": "ខ្ញុំមានមិត្តភក្តិប្រាំនាក់នៅប្រទេសបារាំង។", "tr": "khgnom méan mit-phéak pram néak neuv prâ-téh ba-rang."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Au café, {A} et {B} passent commande.",
+      "en": "At the café, {A} and {B} order.",
+      "km": "នៅហាងកាហ្វេ {A} និង {B} កុម្ម៉ង់ភេសជ្ជៈ។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "Tu veux un café ?", "en": "Do you want a coffee?", "km": "ចង់ញ៉ាំកាហ្វេទេ?", "tr": "tchâng gnam ka-fé té ?"},
+      {"speaker": "A", "fr": "Oui, deux cafés : un pour toi, un pour moi.", "en": "Yes, two coffees: one for you, one for me.", "km": "{A_yes} កាហ្វេពីរកែវ៖ មួយសម្រាប់ {B} មួយសម្រាប់ខ្ញុំ។", "tr": "{A_yes}, ka-fé pi kaèv : mouy sâm-rap {B}, mouy sâm-rap khgnom."},
+      {"speaker": "B", "fr": "Et de l'eau ?", "en": "And some water?", "km": "ចុះទឹកវិញ?", "tr": "tchoh teuk vign ?"},
+      {"speaker": "A", "fr": "Oui, une bouteille d'eau, s'il te plaît.", "en": "Yes, one bottle of water, please.", "km": "{A_yes} សូមទឹកមួយដប។", "tr": "{A_yes}, sôm teuk mouy dâp."},
+      {"speaker": "B", "fr": "D'accord : deux cafés et une bouteille d'eau.", "en": "Okay: two coffees and one bottle of water.", "km": "បាន៖ កាហ្វេពីរកែវ និងទឹកមួយដប។", "tr": "ban : ka-fé pi kaèv ning teuk mouy dâp."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Combien de cafés commandent-ils ?", "en": "How many coffees do they order?", "km": "តើពួកគេកុម្ម៉ង់កាហ្វេប៉ុន្មានកែវ?"},
+    "answer": {"fr": "Deux cafés.", "en": "Two coffees.", "km": "កាហ្វេពីរកែវ។"}
+  }
+}

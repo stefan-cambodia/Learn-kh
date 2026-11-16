@@ -1,0 +1,124 @@
+{
+  "id": "u050",
+  "order": 50,
+  "level": "intermediaire",
+  "theme": "apprendre-une-langue",
+  "title": {"fr": "Apprendre une langue", "en": "Learning a language", "km": "រៀនភាសា"},
+  "tip": {
+    "fr": "L'écriture khmère compte 33 consonnes, réparties en deux séries qui changent la prononciation des voyelles. On écrit sans espace entre les mots : l'espace marque plutôt une pause, comme une virgule. Le module « Alphabets » du site permet de les écouter une à une.",
+    "km": "អក្សរឡាតាំងមាន២៦តួ។ ភាសាបារាំងមានសញ្ញាបន្ថែម៖ é, è, ê, à, ç។ អក្សរខ្លះនៅចុងពាក្យមិនអានទេ៖ « petit » អានថា « peti »។ ម៉ូឌុល « Alphabets » ក្នុងគេហទំព័រនេះ ជួយស្តាប់អក្សរនីមួយៗ។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le mot", "en": "word", "km": "ពាក្យ", "tr": "péak", "pos": "nom",
+      "note": {
+        "fr": "ពាក្យ veut dire « le mot » et aussi « la parole ». Un nouveau mot : ពាក្យថ្មី.",
+        "km": "« mot » ជានាមភេទប្រុស ហើយ t មិនអានទេ៖ le mot, les mots។ អង់គ្លេស៖ « word »។"
+      },
+      "example": {"fr": "J'apprends cinq mots chaque matin.", "en": "I learn five words every morning.", "km": "រៀងរាល់ព្រឹក ខ្ញុំរៀនពាក្យប្រាំ។", "tr": "rieng roal preuk, khgnom rien péak pram."}
+    },
+    {
+      "fr": "la phrase", "en": "sentence", "km": "ប្រយោគ", "tr": "prâ-yaok", "pos": "nom",
+      "note": {
+        "fr": "En khmer, une phrase se termine par le signe ។, l'équivalent du point.",
+        "km": "« phrase » ជានាមភេទស្រី ហើយ ph អានដូច f៖ la phrase។ អង់គ្លេស៖ « sentence »។"
+      },
+      "example": {"fr": "Cette phrase est trop longue.", "en": "This sentence is too long.", "km": "ប្រយោគនេះវែងពេក។", "tr": "prâ-yaok nih vaèng pék."}
+    },
+    {
+      "fr": "prononcer", "en": "to pronounce", "km": "បញ្ចេញសំឡេង", "tr": "bagn-tchégn sâm-léng", "pos": "verbe",
+      "note": {
+        "fr": "Mot à mot « faire sortir le son ». សំឡេង (sâm-léng), le son ou la voix.",
+        "km": "« prononcer »៖ je prononce, nous prononçons (ç អានដូច s)។ « la prononciation » មានន័យថា ការបញ្ចេញសំឡេង។ អង់គ្លេស៖ « to pronounce »។"
+      },
+      "example": {"fr": "Ce mot est difficile à prononcer.", "en": "This word is difficult to pronounce.", "km": "ពាក្យនេះពិបាកបញ្ចេញសំឡេង។", "tr": "péak nih pi-bak bagn-tchégn sâm-léng."}
+    },
+    {
+      "fr": "écrire", "en": "to write", "km": "សរសេរ", "tr": "sâ-sé", "pos": "verbe",
+      "note": {
+        "fr": "L'écriture se dit អក្សរ (âk-sâ), qui veut aussi dire « la lettre ».",
+        "km": "« écrire »៖ j'écris, tu écris, nous écrivons។ « une lettre » មានន័យថា អក្សរមួយតួ ឬសំបុត្រ។ អង់គ្លេស៖ « to write »។"
+      },
+      "example": {"fr": "J'écris mon nom en khmer.", "en": "I write my name in Khmer.", "km": "ខ្ញុំសរសេរឈ្មោះខ្ញុំជាភាសាខ្មែរ។", "tr": "khgnom sâ-sé tchhmouh khgnom tchéa phéa-sa khmaè."}
+    },
+    {
+      "fr": "traduire", "en": "to translate", "km": "បកប្រែ", "tr": "bâk-praè", "pos": "verbe",
+      "note": {
+        "fr": "បក, « éplucher », et ប្រែ, « changer » : traduire, c'est « éplucher et transformer » le sens.",
+        "km": "« traduire »៖ je traduis, nous traduisons។ « la traduction » មានន័យថា ការបកប្រែ។ អង់គ្លេស៖ « to translate »។"
+      },
+      "example": {"fr": "Tu peux traduire cette phrase ?", "en": "Can you translate this sentence?", "km": "អាចបកប្រែប្រយោគនេះបានទេ?", "tr": "atch bâk-praè prâ-yaok nih ban té ?"}
+    },
+    {
+      "fr": "s'entraîner", "en": "to practise", "km": "ហាត់", "tr": "hat", "pos": "verbe",
+      "note": {
+        "fr": "ហាត់ sert pour le sport comme pour les langues : ហាត់និយាយ, s'entraîner à parler.",
+        "km": "« s'entraîner » ជាកិរិយាសព្ទឆ្លុះ៖ je m'entraîne។ អង់គ្លេស៖ « to practise »។"
+      },
+      "example": {"fr": "Je m'entraîne à parler tous les jours.", "en": "I practise speaking every day.", "km": "ខ្ញុំហាត់និយាយរាល់ថ្ងៃ។", "tr": "khgnom hat ni-yéay roal thngay."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Comment on dit ça en khmer ?", "en": "How do you say that in Khmer?", "km": "ជាភាសាខ្មែរ គេថាម៉េច?", "tr": "tchéa phéa-sa khmaè ké tha métch ?",
+      "note": {
+        "fr": "La question la plus utile pour apprendre. Remplacer ខ្មែរ par បារាំង pour le français.",
+        "km": "« Comment on dit … en français ? » ជាសំណួរសំខាន់ជាងគេ។ អង់គ្លេស៖ « How do you say … in English? »។"
+      }
+    },
+    {
+      "fr": "Comment ça s'écrit ?", "en": "How do you spell it?", "km": "សរសេរយ៉ាងម៉េច?", "tr": "sâ-sé yang métch ?",
+      "note": {
+        "fr": "Utile pour les noms propres, ou quand un même son s'écrit de plusieurs façons.",
+        "km": "« s'écrire » មានន័យថា សរសេរ។ អង់គ្លេស៖ « How do you spell it? »។"
+      }
+    },
+    {
+      "fr": "Corrige-moi, s'il te plaît.", "en": "Please correct me.", "km": "សូមកែឱ្យខ្ញុំផង។", "tr": "sôm kaè aoy khgnom phâng.",
+      "note": {
+        "fr": "កែ (kaè), « corriger, réparer ». On apprend plus vite quand l'autre ose corriger.",
+        "km": "« corriger » មានន័យថា កែ។ « corrige-moi » ជាទម្រង់បញ្ជា។ អង់គ្លេស៖ « Please correct me »។"
+      }
+    },
+    {
+      "fr": "Tu as fait beaucoup de progrès !", "en": "You've made a lot of progress!", "km": "ចេះច្រើនជាងមុនហើយ!", "tr": "tchéh tchraeun tchéang moun haeuy !",
+      "note": {
+        "fr": "Mot à mot « tu sais beaucoup plus qu'avant ». Un encouragement qui fait toujours plaisir.",
+        "km": "« faire des progrès » មានន័យថា រីកចម្រើន។ អង់គ្លេស៖ « to make progress »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "L'alphabet khmer", "km": "អក្សរខ្មែរ"},
+      "fr": "L'écriture khmère a trente-trois consonnes.", "en": "The Khmer script has thirty-three consonants.",
+      "km": "អក្សរខ្មែរមានព្យញ្ជនៈសាមសិបបីតួ។", "tr": "âk-sâ khmaè méan pyagn-tchéak sam-sep bey tuo."
+    },
+    {
+      "situation": {"fr": "Une méthode", "km": "វិធីរៀន"},
+      "fr": "Écouter les dialogues tous les jours aide à bien prononcer.", "en": "Listening to the dialogues every day helps you pronounce well.",
+      "km": "ស្តាប់សន្ទនារាល់ថ្ងៃ ជួយឱ្យបញ្ចេញសំឡេងបានល្អ។", "tr": "sdap sân-téak-na roal thngay, tchouoy aoy bagn-tchégn sâm-léng ban l'â."
+    },
+    {
+      "situation": {"fr": "À la maison", "km": "នៅផ្ទះ"},
+      "fr": "À la maison, nous parlons trois langues.", "en": "At home, we speak three languages.",
+      "km": "នៅផ្ទះ យើងនិយាយបីភាសា។", "tr": "neuv phtéah, yeung ni-yéay bey phéa-sa."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} a écrit une phrase en khmer et la montre à {A}.", "en": "{B} has written a sentence in Khmer and shows it to {A}.", "km": "{B} បានសរសេរប្រយោគមួយជាភាសាខ្មែរ ហើយយកមកឱ្យ {A} មើល។"},
+    "lines": [
+      {"speaker": "B", "fr": "J'ai écrit une phrase en khmer. Tu peux me corriger ?", "en": "I wrote a sentence in Khmer. Can you correct me?", "km": "ខ្ញុំសរសេរប្រយោគមួយជាភាសាខ្មែរ។ កែឱ្យខ្ញុំបានទេ?", "tr": "khgnom sâ-sé prâ-yaok mouy tchéa phéa-sa khmaè. kaè aoy khgnom ban té ?"},
+      {"speaker": "A", "fr": "Bien sûr, montre-moi.", "en": "Of course, show me.", "km": "បានណា យកមកមើល។", "tr": "ban na, yok mok meul."},
+      {"speaker": "B", "fr": "Voilà. Et ce mot, comment ça se prononce ?", "en": "Here. And this word, how do you pronounce it?", "km": "នេះ។ ហើយពាក្យនេះ បញ្ចេញសំឡេងយ៉ាងម៉េច?", "tr": "nih. haeuy péak nih, bagn-tchégn sâm-léng yang métch ?"},
+      {"speaker": "A", "fr": "On dit neuk, tu me manques. Ta phrase est presque parfaite !", "en": "You say neuk, I miss you. Your sentence is almost perfect!", "km": "គេថា នឹក។ ប្រយោគរបស់ {B} ជិតត្រឹមត្រូវហើយ!", "tr": "ké tha neuk. prâ-yaok ro-bâh {B} tchit treum-treuv haeuy !"},
+      {"speaker": "B", "fr": "Je m'entraîne tous les jours avec nos leçons.", "en": "I practise every day with our lessons.", "km": "ខ្ញុំហាត់រាល់ថ្ងៃជាមួយមេរៀនរបស់យើង។", "tr": "khgnom hat roal thngay tchéa-mouy mé-rien ro-bâh yeung."},
+      {"speaker": "A", "fr": "Ça se voit, tu as fait beaucoup de progrès !", "en": "It shows, you've made a lot of progress!", "km": "ឃើញច្បាស់ {B} ចេះច្រើនជាងមុនហើយ!", "tr": "kheugn tchbah, {B} tchéh tchraeun tchéang moun haeuy !"},
+      {"speaker": "B", "fr": "Merci, c'est grâce à toi !", "en": "Thank you, it's thanks to you!", "km": "អរគុណ ដោយសារ {A}!", "tr": "â-koun, daoy sa {A} !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Comment {B} s'entraîne ?", "en": "How does {B} practise?", "km": "{B} ហាត់យ៉ាងម៉េច?"},
+    "answer": {"fr": "Tous les jours, avec les leçons.", "en": "Every day, with the lessons.", "km": "រាល់ថ្ងៃ ជាមួយមេរៀន។"}
+  }
+}

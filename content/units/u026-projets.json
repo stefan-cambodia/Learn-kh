@@ -1,0 +1,124 @@
+{
+  "id": "u026",
+  "order": 26,
+  "level": "intermediaire",
+  "theme": "projets",
+  "title": {"fr": "Parler de ses projets", "en": "Talking about plans", "km": "និយាយអំពីគម្រោង"},
+  "tip": {
+    "fr": "Le futur se marque avec នឹង (neung) devant le verbe : ខ្ញុំនឹងទៅ, « j'irai ». À l'oral, on l'omet souvent quand un mot comme ថ្ងៃស្អែក (demain) suffit. Pour une intention, on emploie plutôt ចង់ (tchâng), « vouloir ».",
+    "km": "ភាសាបារាំងមានអនាគតកាលពីរបែប។ « futur proche »៖ aller + កិរិយាសព្ទ ដូចជា « je vais partir » (ខ្ញុំជិតចេញហើយ)។ « futur simple »៖ « je partirai » (ខ្ញុំនឹងចេញ)។ អង់គ្លេស៖ « I am going to leave » និង « I will leave »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "la semaine prochaine", "en": "next week", "km": "សប្តាហ៍ក្រោយ", "tr": "sap-da kraoy", "pos": "nom",
+      "note": {
+        "fr": "ក្រោយ (kraoy), « après, derrière », donne « prochain » : ខែក្រោយ, le mois prochain ; ឆ្នាំក្រោយ, l'année prochaine. Son contraire est មុន (moun).",
+        "km": "« prochaine » មានន័យថា ក្រោយ ឬខាងមុខ។ « le mois prochain » = ខែក្រោយ។ អង់គ្លេស៖ « next week », « next month »។"
+      },
+      "example": {"fr": "La semaine prochaine, je vais à Phnom Penh.", "en": "Next week, I am going to Phnom Penh.", "km": "សប្តាហ៍ក្រោយ ខ្ញុំនឹងទៅភ្នំពេញ។", "tr": "sap-da kraoy, khgnom neung teuv phnom-pégn."}
+    },
+    {
+      "fr": "le projet", "en": "plan", "km": "គម្រោង", "tr": "koum-rông", "pos": "nom",
+      "note": {
+        "fr": "គម្រោង désigne un projet, personnel ou professionnel. « Avoir un projet » : មានគម្រោង (méan koum-rông).",
+        "km": "« projet » ជានាមភេទប្រុស៖ le projet។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេស៖ « plan » សម្រាប់គម្រោងផ្ទាល់ខ្លួន និង « project » សម្រាប់ការងារ។"
+      },
+      "example": {"fr": "Nous avons un projet pour le week-end.", "en": "We have a plan for the weekend.", "km": "យើងមានគម្រោងសម្រាប់ចុងសប្តាហ៍។", "tr": "yeung méan koum-rông sâm-rap tchong sap-da."}
+    },
+    {
+      "fr": "espérer", "en": "to hope", "km": "សង្ឃឹម", "tr": "sâng-kheum", "pos": "verbe",
+      "note": {
+        "fr": "On dit សង្ឃឹមថា (sâng-kheum tha), « espérer que », suivi de la phrase.",
+        "km": "« espérer »៖ j'espère, nous espérons។ « J'espère que… » = ខ្ញុំសង្ឃឹមថា…។ អង់គ្លេស៖ « to hope »។"
+      },
+      "example": {"fr": "J'espère que tu viendras.", "en": "I hope you will come.", "km": "ខ្ញុំសង្ឃឹមថាអ្នកនឹងមក។", "tr": "khgnom sâng-kheum tha néak neung mok."}
+    },
+    {
+      "fr": "peut-être", "en": "maybe", "km": "ប្រហែលជា", "tr": "prâ-haèl tchéa", "pos": "adverbe",
+      "note": {
+        "fr": "ប្រហែលជា se place avant le verbe ou en début de phrase. ប្រហែល seul signifie aussi « environ ».",
+        "km": "« peut-être » មានន័យថា ប្រហែលជា។ ជាធម្មតាដាក់នៅក្រោយកិរិយាសព្ទ៖ il va peut-être venir។ អង់គ្លេស៖ « maybe », « perhaps »។"
+      },
+      "example": {"fr": "Demain, il va peut-être pleuvoir.", "en": "Tomorrow, it may rain.", "km": "ថ្ងៃស្អែក ប្រហែលជាមេឃភ្លៀង។", "tr": "thngay s'aèk, prâ-haèl tchéa mék phlieng."}
+    },
+    {
+      "fr": "décider", "en": "to decide", "km": "សម្រេចចិត្ត", "tr": "sâm-rétch tchet", "pos": "verbe",
+      "note": {
+        "fr": "Mot à mot « accomplir le cœur » : ចិត្ត (tchet), le cœur, entre dans beaucoup de mots de sentiment, comme សប្បាយចិត្ត, content.",
+        "km": "« décider »៖ je décide, nous décidons។ « décider de partir » = សម្រេចចិត្តចេញដំណើរ។ អង់គ្លេស៖ « to decide »។"
+      },
+      "example": {"fr": "Nous n'avons pas encore décidé.", "en": "We have not decided yet.", "km": "យើងមិនទាន់សម្រេចចិត្តទេ។", "tr": "yeung min toan sâm-rétch tchet té."}
+    },
+    {
+      "fr": "bientôt", "en": "soon", "km": "ឆាប់ៗនេះ", "tr": "tchhap-tchhap nih", "pos": "adverbe",
+      "note": {
+        "fr": "ឆាប់ (tchhap) veut dire « vite, tôt » ; redoublé et suivi de នេះ, il donne « très prochainement ».",
+        "km": "« bientôt » មានន័យថា ឆាប់ៗនេះ។ « À bientôt ! » ប្រើពេលលាគ្នា មានន័យថា ជួបគ្នាឆាប់ៗ។ អង់គ្លេស៖ « soon », « See you soon! »។"
+      },
+      "example": {"fr": "Mes parents vont bientôt venir.", "en": "My parents are coming soon.", "km": "ឪពុកម្តាយរបស់ខ្ញុំនឹងមកឆាប់ៗនេះ។", "tr": "eu-pouk mday ro-bâh khgnom neung mok tchhap-tchhap nih."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Qu'est-ce que tu vas faire demain ?", "en": "What are you going to do tomorrow?", "km": "ថ្ងៃស្អែកនឹងធ្វើអ្វី?", "tr": "thngay s'aèk neung thveu ey ?",
+      "note": {
+        "fr": "Le mot de temps se place en tête de phrase ; នឹង (neung) annonce le futur.",
+        "km": "« tu vas faire » ជា « futur proche »៖ aller + faire។ អង់គ្លេស៖ « What are you going to do? »។"
+      }
+    },
+    {
+      "fr": "J'aimerais aller à la mer.", "en": "I would like to go to the sea.", "km": "ខ្ញុំចង់ទៅលេងសមុទ្រ។", "tr": "khgnom tchâng teuv léng sâ-mot.",
+      "note": {
+        "fr": "ទៅលេង (teuv léng), mot à mot « aller s'amuser », se dit pour une visite ou une sortie. សមុទ្រ (sâ-mot) : la mer.",
+        "km": "« j'aimerais » គួរសមជាង « je veux »។ មានន័យថា ខ្ញុំចង់។ អង់គ្លេស៖ « I would like to »។"
+      }
+    },
+    {
+      "fr": "On verra.", "en": "We will see.", "km": "ចាំមើលសិន។", "tr": "tcham meul sen.",
+      "note": {
+        "fr": "Mot à mot « attendons de voir d'abord ». សិន (sen) en fin de phrase signifie « d'abord, pour l'instant ».",
+        "km": "« On verra » ប្រើពេលមិនទាន់សម្រេចចិត្ត។ « verra » ជាអនាគតកាលរបស់ « voir »។ អង់គ្លេស៖ « We will see »។"
+      }
+    },
+    {
+      "fr": "C'est une bonne idée !", "en": "That is a good idea!", "km": "គំនិតល្អណាស់!", "tr": "koum-neut l'â nah !",
+      "note": {
+        "fr": "គំនិត (koum-neut), l'idée, vient du verbe គិត (kit), penser.",
+        "km": "« idée » ជានាមភេទស្រី៖ une bonne idée។ អង់គ្លេស៖ « That is a good idea! »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Un projet de voyage", "km": "គម្រោងធ្វើដំណើរ"},
+      "fr": "Le mois prochain, nous irons voir ma famille en France.", "en": "Next month, we will go to see my family in France.",
+      "km": "ខែក្រោយ យើងនឹងទៅលេងគ្រួសារខ្ញុំនៅប្រទេសបារាំង។", "tr": "khaè kraoy, yeung neung teuv léng krouo-sa khgnom neuv prâ-téh ba-rang."
+    },
+    {
+      "situation": {"fr": "Au travail", "km": "នៅកន្លែងធ្វើការ"},
+      "fr": "Je vais bientôt terminer ce projet.", "en": "I am going to finish this project soon.",
+      "km": "ខ្ញុំនឹងបញ្ចប់គម្រោងនេះឆាប់ៗនេះ។", "tr": "khgnom neung bagn-tchâp koum-rông nih tchhap-tchhap nih."
+    },
+    {
+      "situation": {"fr": "Un grand projet", "km": "គម្រោងធំមួយ"},
+      "fr": "Nous allons peut-être acheter une maison.", "en": "We may buy a house.",
+      "km": "យើងប្រហែលជានឹងទិញផ្ទះមួយ។", "tr": "yeung prâ-haèl tchéa neung tign phtéah mouy."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} parlent du week-end prochain.", "en": "{A} and {B} are talking about next weekend.", "km": "{A} និង {B} និយាយគ្នាអំពីចុងសប្តាហ៍ក្រោយ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Qu'est-ce qu'on fait le week-end prochain ?", "en": "What are we doing next weekend?", "km": "ចុងសប្តាហ៍ក្រោយ យើងធ្វើអ្វីដែរ?", "tr": "tchong sap-da kraoy, yeung thveu ey daè ?"},
+      {"speaker": "B", "fr": "J'ai un projet : aller à Kampot.", "en": "I have a plan: going to Kampot.", "km": "ខ្ញុំមានគម្រោងមួយ គឺទៅកំពត។", "tr": "khgnom méan koum-rông mouy, keu teuv kâm-pot."},
+      {"speaker": "A", "fr": "Bonne idée ! Mais il va peut-être pleuvoir.", "en": "Good idea! But it may rain.", "km": "គំនិតល្អ! ប៉ុន្តែប្រហែលជាមេឃភ្លៀង។", "tr": "koum-neut l'â ! pon-taè prâ-haèl tchéa mék phlieng."},
+      {"speaker": "B", "fr": "J'espère qu'il fera beau.", "en": "I hope the weather will be nice.", "km": "ខ្ញុំសង្ឃឹមថាអាកាសធាតុនឹងល្អ។", "tr": "khgnom sâng-kheum tha a-kah-théat neung l'â."},
+      {"speaker": "A", "fr": "On prend le bus ou la voiture ?", "en": "Do we take the bus or the car?", "km": "ជិះឡានក្រុង ឬបើកឡានទៅ?", "tr": "tchih lan-krong reu baeuk lan teuv ?"},
+      {"speaker": "B", "fr": "Je n'ai pas encore décidé. On verra demain.", "en": "I have not decided yet. We will see tomorrow.", "km": "ខ្ញុំមិនទាន់សម្រេចចិត្តទេ។ ចាំមើលថ្ងៃស្អែកសិន។", "tr": "khgnom min toan sâm-rétch tchet té. tcham meul thngay s'aèk sen."},
+      {"speaker": "A", "fr": "D'accord. Je vais bientôt réserver l'hôtel.", "en": "Okay. I am going to book the hotel soon.", "km": "បាន។ ខ្ញុំនឹងកក់សណ្ឋាគារឆាប់ៗនេះ។", "tr": "ban. khgnom neung kâk sân-tha-kéa tchhap-tchhap nih."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quel est le projet de {B} pour le week-end ?", "en": "What is the plan of {B} for the weekend?", "km": "តើ {B} មានគម្រោងអ្វីសម្រាប់ចុងសប្តាហ៍?"},
+    "answer": {"fr": "{B} veut aller à Kampot.", "en": "{B} wants to go to Kampot.", "km": "{B} ចង់ទៅកំពត។"}
+  }
+}

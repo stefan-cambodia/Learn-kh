@@ -1,0 +1,123 @@
+{
+  "id": "u032",
+  "order": 32,
+  "level": "intermediaire",
+  "theme": "animaux",
+  "title": {"fr": "Les animaux", "en": "Animals", "km": "សត្វ"},
+  "tip": {
+    "fr": "Pour parler d'un animal, le khmer utilise វា (véa), « il » ou « elle » pour les animaux et les objets. Attention : employé pour une personne, វា est familier, voire méprisant ; pour une personne, on dit គាត់ (koat).",
+    "km": "ភាសាបារាំងមាននាមភេទប្រុស និងភេទស្រីសម្រាប់សត្វ៖ le chien (ឆ្កែឈ្មោល), la chienne (ឆ្កែញី)។ ប៉ុន្តែជាទូទៅ គេប្រើពាក្យភេទប្រុស។ អង់គ្លេសប្រើ « it » ឬ « he », « she » សម្រាប់សត្វចិញ្ចឹម។"
+  },
+  "vocabulary": [
+    {
+      "fr": "l'animal", "en": "animal", "km": "សត្វ", "tr": "sat", "pos": "nom",
+      "note": {
+        "fr": "សត្វ se place souvent devant le nom de l'animal : សត្វឆ្កែ, « l'animal chien ». Un animal de compagnie se dit សត្វចិញ្ចឹម (sat tchegn-tcheum), « animal qu'on élève ».",
+        "km": "« animal » ជានាមភេទប្រុស៖ l'animal, ពហុវចនៈ les animaux (al ក្លាយជា aux)។ អង់គ្លេស៖ « animal », « animals »។"
+      },
+      "example": {"fr": "Tu aimes les animaux ?", "en": "Do you like animals?", "km": "អ្នកចូលចិត្តសត្វទេ?", "tr": "néak tchôl tchet sat té ?"}
+    },
+    {
+      "fr": "le chien", "en": "dog", "km": "ឆ្កែ", "tr": "tchhkaè", "pos": "nom",
+      "note": {
+        "fr": "Un chiot se dit កូនឆ្កែ (kôn tchhkaè), « enfant de chien ». Même modèle pour tous les petits : កូនឆ្មា, le chaton.",
+        "km": "« chien » ជានាមភេទប្រុស៖ le chien។ កូនឆ្កែគឺ « le chiot »។ អង់គ្លេស៖ « dog », កូនឆ្កែគឺ « puppy »។"
+      },
+      "example": {"fr": "Le chien garde la maison.", "en": "The dog guards the house.", "km": "ឆ្កែយាមផ្ទះ។", "tr": "tchhkaè yéam phtéah."}
+    },
+    {
+      "fr": "le chat", "en": "cat", "km": "ឆ្មា", "tr": "tchhma", "pos": "nom",
+      "note": {
+        "fr": "ឆ្មា (tchhma) ressemble à ឆ្កែ (tchhkaè) : les deux commencent par le même son aspiré « tchh ».",
+        "km": "« chat » ជានាមភេទប្រុស ហើយ t នៅចុងមិនអានទេ៖ le chat។ កូនឆ្មាគឺ « le chaton »។ អង់គ្លេស៖ « cat », កូនឆ្មាគឺ « kitten »។"
+      },
+      "example": {"fr": "Le chat dort sur le lit.", "en": "The cat is sleeping on the bed.", "km": "ឆ្មាគេងលើគ្រែ។", "tr": "tchhma kéng leu krè."}
+    },
+    {
+      "fr": "le poisson", "en": "fish", "km": "ត្រី", "tr": "trey", "pos": "nom",
+      "note": {
+        "fr": "ត្រី est partout dans la cuisine khmère : ទឹកត្រី, la sauce de poisson, ou ប្រហុក (prâ-hok), la pâte de poisson fermenté.",
+        "km": "« poisson » ជានាមភេទប្រុស៖ le poisson។ ប្រយ័ត្ន៖ « poison » (s មួយ) មានន័យថា ថ្នាំពុល។ អង់គ្លេស៖ « fish » មិនប្តូរនៅពហុវចនៈទេ។"
+      },
+      "example": {"fr": "Au Cambodge, on mange beaucoup de poisson.", "en": "In Cambodia, people eat a lot of fish.", "km": "នៅកម្ពុជា គេញ៉ាំត្រីច្រើន។", "tr": "neuv kâm-pou-tchéa, ké gnam trey tchraeun."}
+    },
+    {
+      "fr": "l'oiseau", "en": "bird", "km": "សត្វស្លាប", "tr": "sat slap", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « animal à ailes », ស្លាប (slap) signifiant « l'aile ». Le mot soutenu est បក្សី (bâk-sey).",
+        "km": "« oiseau » ជានាមភេទប្រុស៖ l'oiseau, ពហុវចនៈ les oiseaux។ អង់គ្លេស៖ « bird »។"
+      },
+      "example": {"fr": "Le matin, les oiseaux chantent.", "en": "In the morning, the birds sing.", "km": "ពេលព្រឹក សត្វស្លាបយំ។", "tr": "pél preuk, sat slap youm."}
+    },
+    {
+      "fr": "la vache", "en": "cow", "km": "គោ", "tr": "kô", "pos": "nom",
+      "note": {
+        "fr": "គោ désigne la vache comme le bœuf. Le buffle, autre animal des rizières, se dit ក្របី (krâ-bey).",
+        "km": "« vache » ជានាមភេទស្រី៖ la vache។ គោឈ្មោលគឺ « le bœuf » ឬ « le taureau »។ អង់គ្លេស៖ « cow »។"
+      },
+      "example": {"fr": "Les vaches mangent dans la rizière.", "en": "The cows are eating in the rice field.", "km": "គោស៊ីស្មៅនៅវាលស្រែ។", "tr": "kô si smav neuv véal srè."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Il est trop mignon !", "en": "He is so cute!", "km": "គួរឱ្យស្រឡាញ់ណាស់!", "tr": "kouo aoy srâ-lagn nah !",
+      "note": {
+        "fr": "Mot à mot « qui donne envie d'aimer ». Se dit d'un animal, d'un bébé ou d'un enfant.",
+        "km": "« mignon » សម្រាប់ភេទប្រុស និង « mignonne » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « cute »។"
+      }
+    },
+    {
+      "fr": "Il mord ?", "en": "Does he bite?", "km": "វាខាំទេ?", "tr": "véa kham té ?",
+      "note": {
+        "fr": "ខាំ (kham), « mordre ». La question avec ទេ en fin de phrase attend oui ou non.",
+        "km": "« mordre »៖ il mord, ils mordent។ អង់គ្លេស៖ « to bite », « Does it bite? »។"
+      }
+    },
+    {
+      "fr": "Ne le touche pas.", "en": "Don't touch it.", "km": "កុំប៉ះវា។", "tr": "kom pah véa.",
+      "note": {
+        "fr": "កុំ (kom) devant un verbe forme la défense : កុំប៉ះ, ne touche pas.",
+        "km": "« ne … pas » ព័ទ្ធជុំវិញកិរិយាសព្ទ៖ ne le touche pas។ អង់គ្លេស៖ « Don't touch »។"
+      }
+    },
+    {
+      "fr": "Tu as un animal de compagnie ?", "en": "Do you have a pet?", "km": "មានចិញ្ចឹមសត្វទេ?", "tr": "méan tchegn-tcheum sat té ?",
+      "note": {
+        "fr": "ចិញ្ចឹម (tchegn-tcheum), « élever, nourrir ». On l'emploie aussi pour les enfants : ចិញ្ចឹមកូន, élever ses enfants.",
+        "km": "« un animal de compagnie » មានន័យថា សត្វចិញ្ចឹមក្នុងផ្ទះ។ អង់គ្លេស៖ « pet »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Chez les parents, à la campagne", "km": "នៅផ្ទះឪពុកម្តាយ"},
+      "fr": "Chez mes parents, il y a des vaches et des poules.", "en": "At my parents' house, there are cows and chickens.",
+      "km": "នៅផ្ទះឪពុកម្តាយខ្ញុំ មានគោ និងមាន់។", "tr": "neuv phtéah eu-pouk mday khgnom, méan kô neung moan."
+    },
+    {
+      "situation": {"fr": "Au marché aux poissons", "km": "នៅផ្សារត្រី"},
+      "fr": "Le poisson du Tonlé Sap est très frais ce matin.", "en": "The fish from the Tonle Sap is very fresh this morning.",
+      "km": "ព្រឹកនេះ ត្រីទន្លេសាបស្រស់ណាស់។", "tr": "preuk nih, trey tonlé sap sroh nah."
+    },
+    {
+      "situation": {"fr": "À la maison", "km": "នៅផ្ទះ"},
+      "fr": "Notre chat dort toute la journée et mange toute la nuit.", "en": "Our cat sleeps all day and eats all night.",
+      "km": "ឆ្មារបស់យើងគេងពេញមួយថ្ងៃ ហើយស៊ីពេញមួយយប់។", "tr": "tchhma ro-bâh yeung kéng pégn mouy thngay, haeuy si pégn mouy youp."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Dans la rue, devant un petit chien.", "en": "In the street, in front of a little dog.", "km": "នៅតាមផ្លូវ មុខកូនឆ្កែមួយ។"},
+    "lines": [
+      {"speaker": "B", "fr": "Regarde ce petit chien, il est trop mignon !", "en": "Look at this little dog, he is so cute!", "km": "មើលកូនឆ្កែនេះ គួរឱ្យស្រឡាញ់ណាស់!", "tr": "meul kôn tchhkaè nih, kouo aoy srâ-lagn nah !"},
+      {"speaker": "A", "fr": "Attention, il mord peut-être. Ne le touche pas.", "en": "Careful, he might bite. Don't touch him.", "km": "ប្រយ័ត្ន ប្រហែលជាវាខាំ។ កុំប៉ះវា។", "tr": "prâ-yat, prâ-haèl tchéa véa kham. kom pah véa."},
+      {"speaker": "B", "fr": "Non, regarde, il est gentil. On le prend à la maison ?", "en": "No, look, he is friendly. Shall we take him home?", "km": "អត់ទេ មើលទៅ វាស្លូតណាស់។ យើងយកវាទៅផ្ទះទេ?", "tr": "ât té, meul teuv, véa slout nah. yeung yok véa teuv phtéah té ?"},
+      {"speaker": "A", "fr": "Je préfère les chats. Les chiens aboient fort la nuit.", "en": "I prefer cats. Dogs bark loudly at night.", "km": "ខ្ញុំចូលចិត្តឆ្មាជាង។ ឆ្កែព្រុសខ្លាំងពេលយប់។", "tr": "khgnom tchôl tchet tchhma tchéang. tchhkaè prouh khlang pél youp."},
+      {"speaker": "B", "fr": "Mais un chien garde la maison !", "en": "But a dog guards the house!", "km": "ប៉ុន្តែឆ្កែជួយយាមផ្ទះ!", "tr": "pon-taè tchhkaè tchouoy yéam phtéah !"},
+      {"speaker": "A", "fr": "Bon, d'accord. Mais c'est toi qui lui donnes à manger !", "en": "Okay, fine. But you are the one who feeds him!", "km": "បានហើយ។ ប៉ុន្តែ {B} ជាអ្នកឱ្យចំណីវាណា!", "tr": "ban haeuy. pon-taè {B} tchéa néak aoy tcham-ney véa na !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi {A} préfère les chats ?", "en": "Why does {A} prefer cats?", "km": "ហេតុអ្វី {A} ចូលចិត្តឆ្មាជាង?"},
+    "answer": {"fr": "Parce que les chiens aboient fort la nuit.", "en": "Because dogs bark loudly at night.", "km": "ព្រោះឆ្កែព្រុសខ្លាំងពេលយប់។"}
+  }
+}

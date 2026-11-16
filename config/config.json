@@ -1,0 +1,136 @@
+{
+  "site": {
+    "title": "FR - ENG - Khmer Learning",
+    "default_profile": "B"
+  },
+  "learners": {
+    "A": {
+      "role": "khmer",
+      "name": {
+        "latin": "Sokha",
+        "km": "សុខា"
+      },
+      "gender": "f",
+      "learns": [
+        "fr",
+        "en"
+      ],
+      "reference": "km",
+      "label": "Elle"
+    },
+    "B": {
+      "role": "french",
+      "name": {
+        "latin": "Dominique",
+        "km": "ដូមីនិក"
+      },
+      "gender": "m",
+      "learns": [
+        "en",
+        "km"
+      ],
+      "reference": "fr",
+      "label": "Lui"
+    }
+  },
+  "schedule": {
+    "time": "07:00",
+    "timezone": "Asia/Phnom_Penh",
+    "check_every_minutes": 15
+  },
+  "lesson": {
+    "level": "auto",
+    "themes": [],
+    "new_words": 6,
+    "expressions": 4,
+    "sentences": 3,
+    "max_duration_minutes": 10
+  },
+  "review": {
+    "intervals_days": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "max_items": 10
+  },
+  "languages": {
+    "fr": {
+      "locale": "fr-FR",
+      "provider": "command",
+      "voice": "gtranslate-fr",
+      "fallback": {
+        "provider": "google",
+        "voice": "fr-FR-Neural2-F"
+      }
+    },
+    "en": {
+      "locale": "en-US",
+      "provider": "command",
+      "voice": "gtranslate-en",
+      "fallback": {
+        "provider": "google",
+        "voice": "en-US-Neural2-F"
+      }
+    },
+    "km": {
+      "locale": "km-KH",
+      "provider": "command",
+      "voice": "gtranslate-km",
+      "fallback": {
+        "provider": "azure",
+        "voice": "km-KH-SreymomNeural"
+      }
+    }
+  },
+  "audio": {
+    "sample_rate_hz": 24000,
+    "speaking_rate": 0.9,
+    "pitch": 0.0,
+    "include_examples": true
+  },
+  "tts": {
+    "timeout_seconds": 30,
+    "retries": 3,
+    "retry_backoff_seconds": 2.0,
+    "limits": {
+      "max_calls_per_run": 400,
+      "max_chars_per_day": 100000,
+      "max_chars_per_month": 300000
+    },
+    "providers": {
+      "google": {
+        "endpoint": "https://texttospeech.googleapis.com/v1"
+      },
+      "azure": {
+        "region": ""
+      },
+      "command": {
+        "command": [
+          "python3",
+          "/home/stefan/videcode/www/learn/scripts/gtranslate_tts.py",
+          "--lang",
+          "{lang}",
+          "--output",
+          "{output}",
+          "--sample-rate",
+          "{sample_rate}",
+          "--rate",
+          "{rate}"
+        ],
+        "output_format": "wav",
+        "engine_version": "gtranslate-1"
+      }
+    }
+  },
+  "backup": {
+    "keep": 14
+  },
+  "logging": {
+    "level": "INFO",
+    "max_bytes": 1048576,
+    "backups": 5
+  }
+}

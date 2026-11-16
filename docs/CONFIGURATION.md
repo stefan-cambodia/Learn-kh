@@ -1,0 +1,173 @@
+# Configuration
+
+Deux fichiers :
+
+- `.env` — les clés API (secret, jamais publié) ;
+- `config/config.json` — tous les autres réglages. Il est créé par
+  `python3 manage.py init` avec les valeurs par défaut ; une valeur absente du
+  fichier reprend sa valeur par défaut.
+
+Après une modification : `python3 manage.py check` signale les valeurs
+invalides.
+
+## Clés API (`.env`)
+
+| Variable | Rôle |
+| --- | --- |
+| `GOOGLE_TTS_API_KEY` | clé Google Cloud Text-to-Speech (français, anglais) |
+| `GOOGLE_APPLICATION_CREDENTIALS`, `GOOGLE_CLOUD_PROJECT` | variante par compte de service |
+| `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION` | clé et région Azure AI Speech (khmer) |
+
+Une variable déjà définie dans l'environnement du système l'emporte sur `.env`.
+
+## Apprenants (`learners`)
+
+```json
+"learners": {
+  "A": {"name": {"latin": "Sokha", "km": "សុខា"}, "gender": "f", "learns": ["fr", "en"], "reference": "km"},
+  "B": {"name": {"latin": "Dominique", "km": "ដូមីនិក"}, "gender": "m", "learns": ["en", "km"], "reference": "fr"}
+}
+```
+
+- `name.latin` et `name.km` : le prénom tel qu'il apparaît dans les textes
+  français et anglais, et dans les textes khmers. `name.tr` (facultatif) :
+  sa translittération dans les aides de lecture.
+- `gender` : `"f"` ou `"m"`. Il fixe la particule de politesse khmère du
+  personnage (`ចាស` pour une femme, `បាទ` pour un homme).
+
+Les prénoms sont inscrits dans les leçons au moment de leur création. Pour les
+changer après coup, corrigez l'écriture latine puis l'écriture khmère (les pages
+et les audios concernés sont refaits) :
+
+```bash
+python3 manage.py correct --find "Sokha" --replace "Bopha"
+python3 manage.py correct --find "សុខា" --replace "បុប្ផា" --lang km
+```
+
+## Planification (`schedule`)
+
+| Clé | Défaut | Rôle |
+| --- | --- | --- |
+| `time` | `"07:00"` | heure à partir de laquelle la leçon du jour est générée |
+| `timezone` | `"Asia/Phnom_Penh"` | fuseau dans lequel cette heure et la date du jour sont interprétées |
+| `check_every_minutes` | `15` | fréquence de la tâche planifiée (relancer `schedule install` après modification) |
+
+## Leçon (`lesson`)
+
+| Clé | Défaut | Rôle |
+| --- | --- | --- |
+| `new_words` | `6` | mots nouveaux par leçon (5 à 8) |
+| `expressions` | `4` | expressions par leçon (3 à 5) |
+| `sentences` | `3` | phrases de la vie quotidienne |
+| `max_duration_minutes` | `10` | durée maximale ; le nombre de mots puis d'expressions est réduit si la leçon la dépasserait |
+| `level` | `"auto"` | `auto` suit le programme dans l'ordre ; `debutant`, `elementaire` ou `intermediaire` restreint aux unités de ce niveau |
+| `themes` | `[]` | thèmes à traiter en priorité, par exemple `["au-marche", "chez-le-medecin"]` (identifiants de `content/units/`) |
+
+## Révision espacée (`review`)
+
+| Clé | Défaut | Rôle |
+| --- | --- | --- |
+| `intervals_days` | `[1, 3, 7, 14, 30]` | échéances de révision après l'apprentissage d'un mot |
+| `max_items` | `10` | nombre maximal de mots revus par leçon |
+
+Une leçon ne dure que dix minutes : chaque jour, la partie « Révision » présente
+au plus `max_items` mots arrivés à échéance, choisis à tour de rôle parmi les
+échéances (ceux d'hier, d'il y a 3 jours, 7 jours…), en commençant par les
+moins révisés. Les mots non présentés restent en file d'attente. Un mot est
+considéré comme acquis après la dernière échéance ; il n'est alors plus
+proposé. Suivi : `python3 manage.py progress show`.
+
+## Langues et voix (`languages`)
+
+```json
+"languages": {
+  "fr": {"locale": "fr-FR", "provider": "google", "voice": "fr-FR-Neural2-F",
+         "fallback": {"provider": "azure", "voice": "fr-FR-DeniseNeural"}},
+  "en": {"locale": "en-US", "provider": "google", "voice": "en-US-Neural2-F",
+         "fallback": {"provider": "azure", "voice": "en-US-JennyNeural"}},
+  "km": {"locale": "km-KH", "provider": "azure", "voice": "km-KH-SreymomNeural"}
+}
+```
+
+- `locale` : `fr-FR`, `en-US` ou `en-GB`, `km-KH`. Elle détermine aussi le
+  dossier de rangement (`audio/en-GB/…`).
+- `provider` : `google`, `azure` ou `command`.
+- `voice` : nom exact de la voix (`python3 manage.py tts voices --lang fr`).
+- `fallback` : fournisseur de secours, utilisé seulement si le fournisseur
+  principal n'est pas configuré (clé absente). `null` pour le désactiver.
+- `speaking_rate`, `pitch` (facultatifs) : réglages propres à une langue, qui
+  remplacent ceux de la rubrique `audio`.
+
+## Audio (`audio`)
+
+| Clé | Défaut | Rôle |
+| --- | --- | --- |
+| `sample_rate_hz` | `24000` | fréquence d'échantillonnage : `24000` ou `22050` |
+| `speaking_rate` | `0.9` | vitesse de lecture (1.0 = normale ; 0.5 à 1.5) |
+| `pitch` | `0.0` | hauteur de la voix, en demi-tons |
+| `include_examples` | `true` | générer aussi l'audio des phrases d'exemple du vocabulaire |
+
+Les fichiers sont toujours des WAV PCM mono 16 bits. Modifier l'un de ces
+réglages change l'empreinte des audios : de nouveaux fichiers sont générés, les
+anciens restent jusqu'à `python3 manage.py audio prune`.
+
+## Synthèse vocale (`tts`)
+
+| Clé | Défaut | Rôle |
+| --- | --- | --- |
+| `timeout_seconds` | `30` | délai maximal d'un appel |
+| `retries` | `3` | tentatives en cas de panne passagère (réseau, erreur 429 ou 5xx) |
+| `retry_backoff_seconds` | `2.0` | attente avant la 2e tentative, doublée à chaque fois |
+| `limits.max_calls_per_run` | `400` | appels maximum par exécution |
+| `limits.max_chars_per_day` | `20000` | caractères maximum par jour |
+| `limits.max_chars_per_month` | `300000` | caractères maximum par mois |
+
+Une limite à `0` est désactivée. Quand une limite est atteinte, la leçon est
+publiée et les audios restants sont reportés à une exécution ultérieure. Une
+leçon consomme environ 1 700 caractères (2 400 au plus) : les valeurs par
+défaut laissent une large marge tout en bornant la dépense en cas d'erreur.
+
+Un fournisseur dont la clé est refusée, ou qui échoue pour deux textes de
+suite, est mis en pause jusqu'à l'exécution suivante.
+
+### Fournisseur `command` (moteur vocal local)
+
+Tout moteur pilotable en ligne de commande peut remplacer un service en ligne.
+Exemple avec Piper, entièrement hors ligne :
+
+```json
+"languages": {
+  "fr": {"locale": "fr-FR", "provider": "command", "voice": "/chemin/fr_FR-siwis-medium.onnx", "fallback": null}
+},
+"tts": {"providers": {"command": {
+  "command": ["piper", "--model", "{voice}", "--output_file", "{output}"],
+  "output_format": "wav",
+  "engine_version": "piper-1.2"
+}}}
+```
+
+Le texte est transmis sur l'entrée standard. Variables disponibles dans la
+commande : `{text}`, `{output}`, `{voice}`, `{locale}`, `{lang}`, `{rate}`,
+`{pitch}`, `{sample_rate}`. Le résultat est converti en WAV PCM mono 16 bits à
+la fréquence configurée (ffmpeg est nécessaire si le moteur produit un format
+compressé). `engine_version` entre dans l'empreinte des fichiers : changez-la
+quand vous changez de moteur ou de modèle.
+
+## Autres rubriques
+
+| Clé | Défaut | Rôle |
+| --- | --- | --- |
+| `site.title` | `"FR-KH Learning"` | titre du site |
+| `site.default_profile` | `"B"` | profil affiché à la première visite (`A` : khmer, `B` : français) |
+| `backup.keep` | `14` | nombre de sauvegardes quotidiennes de la base conservées |
+| `logging.level` | `"INFO"` | niveau de détail des journaux |
+| `logging.max_bytes`, `logging.backups` | `1048576`, `5` | rotation des fichiers de `logs/` |
+
+## Apparence
+
+- `templates/` : gabarits HTML (variables `$nom`). `python3 manage.py render --all`
+  applique une modification à toutes les pages.
+- `css/style.css` : une couleur par langue (variables `--fr`, `--en`, `--km` en
+  tête de fichier), thème clair et thème sombre automatiques.
+- `fonts/` : police Noto Sans Khmer embarquée, pour un affichage correct du
+  khmer sans connexion.

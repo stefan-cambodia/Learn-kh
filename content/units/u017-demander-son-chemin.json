@@ -1,0 +1,127 @@
+{
+  "id": "u017",
+  "order": 17,
+  "level": "elementaire",
+  "theme": "demander-son-chemin",
+  "title": {"fr": "Demander son chemin", "en": "Asking for directions", "km": "ការសួរផ្លូវ"},
+  "tip": {
+    "fr": "Pour situer un lieu, le khmer emploie នៅ (neuv, « se trouver ») suivi de ខាង (khang, « côté ») : នៅខាងឆ្វេង, នៅខាងស្តាំ, នៅខាងមុខ (devant). Au Cambodge, on indique souvent le chemin par des repères — un marché, une pagode — plutôt que par des noms de rues.",
+    "km": "ពេលសួរផ្លូវជាភាសាបារាំង គួរចាប់ផ្តើមដោយ « Excusez-moi » ឬ « Bonjour »។ ដើម្បីប្រាប់ផ្លូវ គេប្រើទម្រង់បញ្ជា៖ « Allez tout droit », « Tournez à gauche »។ អង់គ្លេស៖ « Go straight », « Turn left »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "à gauche", "en": "on the left", "km": "ខាងឆ្វេង", "tr": "khang tchhvéng", "pos": "adverbe",
+      "note": {
+        "fr": "ខាង (khang) = « côté », ឆ្វេង = « gauche ». Après le verbe បត់ (tourner), on dit simplement បត់ឆ្វេង.",
+        "km": "« à gauche » មានន័យថា ខាងឆ្វេង ឬទៅខាងឆ្វេង។ អង់គ្លេស៖ « on the left », « to the left »។"
+      },
+      "example": {"fr": "Le marché est à gauche.", "en": "The market is on the left.", "km": "ផ្សារនៅខាងឆ្វេង។", "tr": "phsa neuv khang tchhvéng."}
+    },
+    {
+      "fr": "à droite", "en": "on the right", "km": "ខាងស្តាំ", "tr": "khang sdam", "pos": "adverbe",
+      "note": {
+        "fr": "Même emploi que ខាងឆ្វេង. Dans ស្តាំ, le ត écrit sous le ស se prononce d : sdam.",
+        "km": "« à droite » មានន័យថា ខាងស្តាំ។ កុំច្រឡំជាមួយ « tout droit » ដែលមានន័យថា ទៅត្រង់។ អង់គ្លេស៖ « on the right »។"
+      },
+      "example": {"fr": "Le restaurant est à droite.", "en": "The restaurant is on the right.", "km": "ភោជនីយដ្ឋាននៅខាងស្តាំ។", "tr": "phô-tchéa-ni-yéa-than neuv khang sdam."}
+    },
+    {
+      "fr": "tout droit", "en": "straight ahead", "km": "ត្រង់", "tr": "trâng", "pos": "adverbe",
+      "note": {
+        "fr": "ទៅត្រង់ (teuv trâng) = « aller tout droit ». ត្រង់ sert aussi à désigner un point précis : ត្រង់នេះ, « juste ici ».",
+        "km": "« tout droit » មានន័យថា ទៅត្រង់ មិនបត់ទេ។ អង់គ្លេស៖ « straight ahead »។"
+      },
+      "example": {"fr": "Allez tout droit, s'il vous plaît.", "en": "Go straight ahead, please.", "km": "សូមទៅត្រង់។", "tr": "sôm teuv trâng."}
+    },
+    {
+      "fr": "près", "en": "near", "km": "ជិត", "tr": "tchit", "pos": "adverbe",
+      "note": {
+        "fr": "ជិត se place directement devant le lieu, sans préposition : ជិតផ្សារ, « près du marché ».",
+        "km": "« près de » ត្រូវមាន « de » នៅពីមុខទីកន្លែង៖ près du marché, près de la maison។ អង់គ្លេស៖ « near »។"
+      },
+      "example": {"fr": "Ma maison est près du marché.", "en": "My house is near the market.", "km": "ផ្ទះខ្ញុំនៅជិតផ្សារ។", "tr": "phtéah khgnom neuv tchit phsa."}
+    },
+    {
+      "fr": "loin", "en": "far", "km": "ឆ្ងាយ", "tr": "tchhngay", "pos": "adverbe",
+      "note": {
+        "fr": "« Loin de… » se dit ឆ្ងាយពី… (tchhngay pi). Pour demander la distance : ឆ្ងាយទេ?, « c'est loin ? ».",
+        "km": "« loin » ផ្ទុយពី « près »។ « loin de la maison » មានន័យថា ឆ្ងាយពីផ្ទះ។ អង់គ្លេស៖ « far »។"
+      },
+      "example": {"fr": "Ce n'est pas loin d'ici.", "en": "It is not far from here.", "km": "មិនឆ្ងាយពីទីនេះទេ។", "tr": "min tchhngay pi ti-nih té."}
+    },
+    {
+      "fr": "tourner", "en": "to turn", "km": "បត់", "tr": "bât", "pos": "verbe",
+      "note": {
+        "fr": "La direction suit directement le verbe : បត់ឆ្វេង, បត់ស្តាំ. Faire demi-tour se dit បត់ក្រោយ (bât kraoy).",
+        "km": "« tourner »៖ je tourne, vous tournez។ ពេលប្រាប់ផ្លូវ គេនិយាយថា « Tournez à gauche »។ អង់គ្លេស៖ « turn left »។"
+      },
+      "example": {"fr": "Au marché, tournez à droite.", "en": "At the market, turn right.", "km": "ដល់ផ្សារ សូមបត់ស្តាំ។", "tr": "dâl phsa, sôm bât sdam."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Excusez-moi, où est le marché ?", "en": "Excuse me, where is the market?", "km": "សុំទោស ផ្សារនៅឯណា?", "tr": "som toh, phsa neuv aè na ?",
+      "note": {
+        "fr": "នៅឯណា? (neuv aè na) = « se trouve où ? ». Le lieu vient en premier, le mot interrogatif reste à la fin.",
+        "km": "« Où est… ? » ប្រើសម្រាប់សួររកទីកន្លែង។ អង់គ្លេស៖ « Where is…? »។"
+      }
+    },
+    {
+      "fr": "C'est loin d'ici ?", "en": "Is it far from here?", "km": "ឆ្ងាយពីទីនេះទេ?", "tr": "tchhngay pi ti-nih té ?",
+      "note": {
+        "fr": "ទីនេះ (ti-nih) = « ici ». Réponses possibles : ឆ្ងាយ (c'est loin) ou មិនឆ្ងាយទេ (ce n'est pas loin).",
+        "km": "« d'ici » មានន័យថា ពីទីនេះ។ អង់គ្លេស៖ « Is it far from here? »។"
+      }
+    },
+    {
+      "fr": "Je ne connais pas le chemin.", "en": "I do not know the way.", "km": "ខ្ញុំមិនស្គាល់ផ្លូវទេ។", "tr": "khgnom min skoal phleuv té.",
+      "note": {
+        "fr": "ស្គាល់ (skoal) = « connaître » un lieu ou une personne. La négation encadre le verbe : មិន … ទេ.",
+        "km": "ពាក្យបដិសេធ « ne … pas » នៅសងខាងកិរិយាសព្ទ៖ je ne connais pas។ អង់គ្លេសប្រើ « do not »៖ I do not know។"
+      }
+    },
+    {
+      "fr": "C'est en face du marché.", "en": "It is opposite the market.", "km": "នៅទល់មុខផ្សារ។", "tr": "neuv tol mouk phsa.",
+      "note": {
+        "fr": "ទល់មុខ (tol mouk) = « en face de ». Autres repères : នៅមុខ (devant), នៅក្រោយ (derrière), នៅក្បែរ (neuv kbaè, à côté de).",
+        "km": "« en face de » មានន័យថា ទល់មុខ។ « devant » មានន័យថា នៅមុខ ហើយ « derrière » មានន័យថា នៅក្រោយ។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Dans la rue", "km": "នៅតាមផ្លូវ"},
+      "fr": "Excusez-moi, il y a un marché près d'ici ?", "en": "Excuse me, is there a market near here?",
+      "km": "សុំទោស នៅជិតនេះមានផ្សារទេ?", "tr": "som toh, neuv tchit nih méan phsa té ?"
+    },
+    {
+      "situation": {"fr": "Indiquer le chemin", "km": "ពេលប្រាប់ផ្លូវ"},
+      "fr": "Allez tout droit, puis tournez à gauche.", "en": "Go straight ahead, then turn left.",
+      "km": "ទៅត្រង់ រួចបត់ឆ្វេង។", "tr": "teuv trâng, rouotch bât tchhvéng."
+    },
+    {
+      "situation": {"fr": "Expliquer où se trouve un lieu", "km": "ពេលពន្យល់ទីតាំង"},
+      "fr": "Ce n'est pas loin : c'est à droite, en face du marché.", "en": "It is not far: it is on the right, opposite the market.",
+      "km": "មិនឆ្ងាយទេ នៅខាងស្តាំ ទល់មុខផ្សារ។", "tr": "min tchhngay té, neuv khang sdam, tol mouk phsa."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "Jeu de rôle dans la rue : {B} cherche le marché et demande son chemin à {A}.",
+      "en": "Role play in the street: {B} is looking for the market and asks {A} for directions.",
+      "km": "លេងតួនៅតាមផ្លូវ៖ {B} រកផ្សារ ហើយសួរផ្លូវ {A}។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "Excusez-moi, où est le marché ?", "en": "Excuse me, where is the market?", "km": "សុំទោស ផ្សារនៅឯណា?", "tr": "som toh, phsa neuv aè na ?"},
+      {"speaker": "A", "fr": "Allez tout droit, puis tournez à droite.", "en": "Go straight ahead, then turn right.", "km": "ទៅត្រង់ រួចបត់ស្តាំ។", "tr": "teuv trâng, rouotch bât sdam."},
+      {"speaker": "B", "fr": "C'est loin d'ici ?", "en": "Is it far from here?", "km": "ឆ្ងាយពីទីនេះទេ?", "tr": "tchhngay pi ti-nih té ?"},
+      {"speaker": "A", "fr": "Non, c'est tout près. Le marché est à gauche, en face du café.", "en": "No, it is very near. The market is on the left, opposite the café.", "km": "ទេ ជិតណាស់។ ផ្សារនៅខាងឆ្វេង ទល់មុខហាងកាហ្វេ។", "tr": "té, tchit nah. phsa neuv khang tchhvéng, tol mouk hang ka-fé."},
+      {"speaker": "B", "fr": "Tout droit, puis à droite. Merci beaucoup !", "en": "Straight ahead, then right. Thank you very much!", "km": "ទៅត្រង់ រួចបត់ស្តាំ។ អរគុណច្រើន!", "tr": "teuv trâng, rouotch bât sdam. â-koun tchraeun !"},
+      {"speaker": "A", "fr": "De rien. Au revoir !", "en": "You're welcome. Goodbye!", "km": "មិនអីទេ។ លាសិនហើយ!", "tr": "min ey té. léa sen haeuy !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où se trouve le marché ?", "en": "Where is the market?", "km": "តើផ្សារនៅឯណា?"},
+    "answer": {"fr": "À gauche, en face du café.", "en": "On the left, opposite the café.", "km": "នៅខាងឆ្វេង ទល់មុខហាងកាហ្វេ។"}
+  }
+}

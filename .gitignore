@@ -1,0 +1,23 @@
+# Secrets : ne jamais publier
+.env
+
+# Base de données, verrou, sauvegardes et journaux (propres à chaque machine)
+database/*.db
+database/*.db-wal
+database/*.db-shm
+database/.generation.lock
+database/backups/
+logs/
+exports/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Le site généré (index.html, lessons/, data/, audio/) n'est pas ignoré :
+# retirez le « # » des lignes ci-dessous si vous préférez ne pas le versionner.
+# index.html
+# lessons/
+# data/
+# audio/

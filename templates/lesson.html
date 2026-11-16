@@ -1,0 +1,22 @@
+<article class="lesson" data-lesson="$number" data-date="$date_iso">
+  <nav class="lesson-nav" aria-label="Navigation entre les leçons">$nav</nav>
+  <header class="lesson-head">
+    <p class="kicker">$kicker</p>
+    <h1 class="tri-title">$title</h1>
+    <ul class="meta">$meta</ul>
+  </header>
+  $future_notice
+  <p class="quiz-hint js-only" id="quiz-hint" hidden>$quiz_hint</p>
+  $notice
+  $tip
+  $sections
+  <div class="finish js-only">
+    <button type="button" class="finish-button" id="finish-lesson" aria-pressed="false">
+      <span class="finish-icon">$icon_check</span>
+      <span class="finish-todo">$done</span>
+      <span class="finish-done">$done_mark</span>
+    </button>
+  </div>
+  $review_link
+  <nav class="lesson-nav lesson-nav-bottom" aria-label="Navigation entre les leçons">$nav_bottom</nav>
+</article>

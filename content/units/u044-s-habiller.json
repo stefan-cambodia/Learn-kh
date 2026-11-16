@@ -1,0 +1,123 @@
+{
+  "id": "u044",
+  "order": 44,
+  "level": "intermediaire",
+  "theme": "s-habiller",
+  "title": {"fr": "S'habiller", "en": "Getting dressed", "km": "ស្លៀកពាក់"},
+  "tip": {
+    "fr": "Le khmer a plusieurs verbes pour « porter » : ស្លៀក (sliek) pour ce qui couvre le bas du corps, ពាក់ (péak) pour le haut, les chaussures, le chapeau ou les bijoux. Ensemble, ស្លៀកពាក់ veut dire « s'habiller ».",
+    "km": "ភាសាបារាំងប្រើ « porter » ឬ « mettre » សម្រាប់ខោអាវទាំងអស់៖ je porte une chemise, je mets un chapeau។ អង់គ្លេស៖ « to wear », « to put on »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "la chemise", "en": "shirt", "km": "អាវ", "tr": "av", "pos": "nom",
+      "note": {
+        "fr": "អាវ désigne tout vêtement du haut : chemise, tee-shirt ou veste. On précise : អាវយឺត, le tee-shirt ; អាវរងា, le pull.",
+        "km": "« chemise » ជានាមភេទស្រី ហើយជាអាវមានឡេវ៖ la chemise។ អាវយឺតគឺ « le tee-shirt »។ អង់គ្លេស៖ « shirt »។"
+      },
+      "example": {"fr": "Cette chemise blanche est jolie.", "en": "This white shirt is nice.", "km": "អាវសនេះស្អាត។", "tr": "av sâ nih s'at."}
+    },
+    {
+      "fr": "le pantalon", "en": "trousers", "km": "ខោ", "tr": "khao", "pos": "nom",
+      "note": {
+        "fr": "ខោ désigne tout vêtement du bas à jambes. Le short se dit ខោខ្លី, « pantalon court », et le pantalon long ខោវែង.",
+        "km": "« pantalon » ជានាមភេទប្រុស ហើយជាឯកវចនៈ៖ un pantalon។ ខោខ្លីគឺ « le short »។ អង់គ្លេស៖ « trousers » ឬ « pants » ជាពហុវចនៈ។"
+      },
+      "example": {"fr": "Je porte un pantalon noir.", "en": "I'm wearing black trousers.", "km": "ខ្ញុំស្លៀកខោខ្មៅ។", "tr": "khgnom sliek khao khmav."}
+    },
+    {
+      "fr": "la jupe", "en": "skirt", "km": "សំពត់", "tr": "sâm-pot", "pos": "nom",
+      "note": {
+        "fr": "សំពត់ désigne la jupe et le sarong traditionnel. Le sampot en soie se porte pour les fêtes et les mariages.",
+        "km": "« jupe » ជានាមភេទស្រី៖ la jupe។ សំពត់វែងក៏អាចហៅថា « la robe longue » ឬ « le sarong » ដែរ។ អង់គ្លេស៖ « skirt »។"
+      },
+      "example": {"fr": "Elle porte une jupe en soie.", "en": "She is wearing a silk skirt.", "km": "គាត់ស្លៀកសំពត់សូត្រ។", "tr": "koat sliek sâm-pot sot."}
+    },
+    {
+      "fr": "les chaussures", "en": "shoes", "km": "ស្បែកជើង", "tr": "sbaèk tcheung", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « peau de pied ». On les enlève avant d'entrer dans une maison ou un temple. Les tongs se disent ស្បែកជើងផ្ទាត់.",
+        "km": "« chaussure » ជានាមភេទស្រី ហើយច្រើនប្រើពហុវចនៈ៖ les chaussures។ អង់គ្លេស៖ « shoes »។"
+      },
+      "example": {"fr": "J'achète des chaussures neuves.", "en": "I'm buying new shoes.", "km": "ខ្ញុំទិញស្បែកជើងថ្មី។", "tr": "khgnom tign sbaèk tcheung thmey."}
+    },
+    {
+      "fr": "le chapeau", "en": "hat", "km": "មួក", "tr": "mouok", "pos": "nom",
+      "note": {
+        "fr": "មួក désigne le chapeau, la casquette et aussi le casque de moto, មួកសុវត្ថិភាព, « chapeau de sécurité ».",
+        "km": "« chapeau » ជានាមភេទប្រុស៖ le chapeau, ពហុវចនៈ les chapeaux។ មួកសុវត្ថិភាពគឺ « le casque »។ អង់គ្លេស៖ « hat »។"
+      },
+      "example": {"fr": "Au soleil, je mets un chapeau.", "en": "In the sun, I put on a hat.", "km": "ពេលក្តៅថ្ងៃ ខ្ញុំពាក់មួក។", "tr": "pél kdav thngay, khgnom péak mouok."}
+    },
+    {
+      "fr": "s'habiller", "en": "to get dressed", "km": "ស្លៀកពាក់", "tr": "sliek péak", "pos": "verbe",
+      "note": {
+        "fr": "Les deux verbes de « porter » réunis : ស្លៀក pour le bas, ពាក់ pour le haut. ស្លៀកពាក់ស្អាត, être bien habillé.",
+        "km": "« s'habiller » ជាកិរិយាសព្ទឆ្លុះ៖ je m'habille, tu t'habilles។ អង់គ្លេស៖ « to get dressed »។"
+      },
+      "example": {"fr": "Je m'habille vite le matin.", "en": "I get dressed quickly in the morning.", "km": "ពេលព្រឹក ខ្ញុំស្លៀកពាក់លឿន។", "tr": "pél preuk, khgnom sliek péak leuan."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Ça te va bien.", "en": "It suits you.", "km": "សមនឹងអ្នកណាស់។", "tr": "sâm neung néak nah.",
+      "note": {
+        "fr": "សម (sâm), « qui convient, qui va bien ». Compliment courant sur une tenue.",
+        "km": "« aller bien à quelqu'un » មានន័យថា សមនឹង។ អង់គ្លេស៖ « It suits you » ឬ « It looks good on you »។"
+      }
+    },
+    {
+      "fr": "Qu'est-ce que je mets ?", "en": "What should I wear?", "km": "ខ្ញុំស្លៀកអ្វីល្អ?", "tr": "khgnom sliek ey l'â ?",
+      "note": {
+        "fr": "Mot à mot « je porte quoi, ce serait bien ? ». ល្អ en fin de question demande un conseil.",
+        "km": "« mettre » មានន័យថា ស្លៀក ឬពាក់។ អង់គ្លេស៖ « What should I wear? »។"
+      }
+    },
+    {
+      "fr": "Enlève tes chaussures.", "en": "Take off your shoes.", "km": "ដោះស្បែកជើងចេញ។", "tr": "doh sbaèk tcheung tchégn.",
+      "note": {
+        "fr": "ដោះ (doh), « enlever, ôter », suivi de ចេញ, « dehors ». Se dit à l'entrée de chaque maison.",
+        "km": "« enlever » ផ្ទុយពី « mettre »។ អង់គ្លេស៖ « to take off »។"
+      }
+    },
+    {
+      "fr": "Il fait chaud, mets un chapeau.", "en": "It's hot, put on a hat.", "km": "ក្តៅណាស់ ពាក់មួកទៅ។", "tr": "kdav nah, péak mouok teuv.",
+      "note": {
+        "fr": "ទៅ en fin de phrase transforme le verbe en conseil ou en ordre amical.",
+        "km": "« mets » ជាទម្រង់បញ្ជារបស់ « mettre »។ អង់គ្លេស៖ « put on a hat »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À la pagode", "km": "នៅវត្ត"},
+      "fr": "Pour aller à la pagode, il faut s'habiller correctement.", "en": "To go to the pagoda, you have to dress properly.",
+      "km": "ពេលទៅវត្ត ត្រូវស្លៀកពាក់ឱ្យសមរម្យ។", "tr": "pél teuv voat, treuv sliek péak aoy sâm-rum."
+    },
+    {
+      "situation": {"fr": "À un mariage", "km": "នៅពិធីមង្គលការ"},
+      "fr": "Aux mariages, les femmes portent de belles jupes en soie.", "en": "At weddings, women wear beautiful silk skirts.",
+      "km": "នៅពិធីមង្គលការ ស្ត្រីស្លៀកសំពត់សូត្រស្អាតៗ។", "tr": "neuv pi-thi mong-kol-ka, sdrey sliek sâm-pot sot s'at-s'at."
+    },
+    {
+      "situation": {"fr": "Au magasin", "km": "នៅហាង"},
+      "fr": "Vous avez cette chemise en plus grand ?", "en": "Do you have this shirt in a bigger size?",
+      "km": "អាវនេះមានធំជាងនេះទេ?", "tr": "av nih méan thom tchéang nih té ?"
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Avant un mariage, à la maison.", "en": "Before a wedding, at home.", "km": "មុនពិធីមង្គលការ នៅផ្ទះ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Dépêche-toi, le mariage commence à cinq heures !", "en": "Hurry up, the wedding starts at five!", "km": "ឆាប់ឡើង មង្គលការចាប់ផ្តើមម៉ោងប្រាំ!", "tr": "tchhap laeung, mong-kol-ka tchap-phdaeum maong pram !"},
+      {"speaker": "B", "fr": "Qu'est-ce que je mets ? Le pantalon noir ou le bleu ?", "en": "What should I wear? The black trousers or the blue ones?", "km": "ខ្ញុំស្លៀកអ្វីល្អ? ខោខ្មៅ ឬខោខៀវ?", "tr": "khgnom sliek ey l'â ? khao khmav reu khao khiev ?"},
+      {"speaker": "A", "fr": "Le noir, avec la chemise blanche.", "en": "The black ones, with the white shirt.", "km": "ខោខ្មៅ ជាមួយអាវស។", "tr": "khao khmav, tchéa-mouy av sâ."},
+      {"speaker": "B", "fr": "Voilà. Comment tu me trouves ?", "en": "There. How do I look?", "km": "នេះ។ មើលទៅយ៉ាងម៉េចដែរ?", "tr": "nih. meul teuv yang métch daè ?"},
+      {"speaker": "A", "fr": "Ça te va très bien ! Mais ne mets pas ces chaussures sales.", "en": "It suits you very well! But don't wear those dirty shoes.", "km": "សមណាស់! ប៉ុន្តែកុំពាក់ស្បែកជើងកខ្វក់នោះ។", "tr": "sâm nah ! pon-taè kom péak sbaèk tcheung kâ-khvâk nouh."},
+      {"speaker": "B", "fr": "D'accord, je mets les chaussures neuves.", "en": "Okay, I'll wear the new shoes.", "km": "បាន ខ្ញុំពាក់ស្បែកជើងថ្មី។", "tr": "ban, khgnom péak sbaèk tcheung thmey."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce que {B} porte pour le mariage ?", "en": "What does {B} wear for the wedding?", "km": "{B} ស្លៀកពាក់អ្វីទៅពិធីមង្គលការ?"},
+    "answer": {"fr": "Le pantalon noir, la chemise blanche et les chaussures neuves.", "en": "The black trousers, the white shirt and the new shoes.", "km": "ខោខ្មៅ អាវស និងស្បែកជើងថ្មី។"}
+  }
+}

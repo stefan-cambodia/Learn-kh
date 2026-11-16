@@ -1,0 +1,115 @@
+{
+  "id": "u005",
+  "order": 5,
+  "level": "debutant",
+  "theme": "nombres-6-10",
+  "title": {"fr": "Les nombres de 6 à 10", "en": "Numbers from 6 to 10", "km": "លេខពី ៦ ដល់ ១០"},
+  "tip": {
+    "fr": "De 6 à 9, le khmer compte à partir de cinq : ប្រាំមួយ (cinq-un), ប្រាំពីរ (cinq-deux), ប្រាំបី (cinq-trois), ប្រាំបួន (cinq-quatre). Si vous savez compter jusqu'à cinq, vous savez déjà compter jusqu'à neuf !",
+    "km": "ក្នុងភាសាបារាំង លេខពី ៦ ដល់ ១០ មានព្យញ្ជនៈចុងពាក្យដែលត្រូវអាន៖ six, sept, huit, neuf, dix។ ប៉ុន្តែអក្សរ p ក្នុងពាក្យ « sept » មិនអានទេ។"
+  },
+  "vocabulary": [
+    {
+      "fr": "six", "en": "six", "km": "ប្រាំមួយ", "tr": "pram-mouy", "pos": "nombre",
+      "note": {
+        "fr": "Mot à mot « cinq-un » : ប្រាំ (cinq) suivi de មួយ (un). En chiffres khmers : ៦.",
+        "km": "« six » សរសេរដូចគ្នាទាំងភាសាបារាំង និងអង់គ្លេស ប៉ុន្តែអានខុសគ្នា។ ភាសាបារាំងអានថា « ស៊ីស »។"
+      },
+      "example": {"fr": "Il est six heures.", "en": "It is six o'clock.", "km": "ម៉ោងប្រាំមួយហើយ។", "tr": "maong pram-mouy haeuy."}
+    },
+    {
+      "fr": "sept", "en": "seven", "km": "ប្រាំពីរ", "tr": "pram-pi", "pos": "nombre",
+      "note": {
+        "fr": "Mot à mot « cinq-deux ». À l'oral, on entend souvent « pram-pil ». En chiffres khmers : ៧.",
+        "km": "ក្នុងពាក្យ « sept » អក្សរ p មិនអានទេ៖ អានថា « សែត »។ ភាសាអង់គ្លេស៖ « seven »។"
+      },
+      "example": {"fr": "Nous sommes sept dans ma famille.", "en": "There are seven of us in my family.", "km": "គ្រួសារខ្ញុំមានគ្នាប្រាំពីរនាក់។", "tr": "krouo-sa khgnom méan knéa pram-pi néak."}
+    },
+    {
+      "fr": "huit", "en": "eight", "km": "ប្រាំបី", "tr": "pram-bey", "pos": "nombre",
+      "note": {
+        "fr": "Mot à mot « cinq-trois ». En chiffres khmers : ៨.",
+        "km": "ក្នុងពាក្យ « huit » អក្សរ h មិនអានទេ ប៉ុន្តែអក្សរ t ចុងពាក្យត្រូវអាន។ ភាសាអង់គ្លេស៖ « eight »។"
+      },
+      "example": {"fr": "Ma mère a huit frères et sœurs.", "en": "My mother has eight brothers and sisters.", "km": "ម្តាយរបស់ខ្ញុំមានបងប្អូនប្រាំបីនាក់។", "tr": "mday ro-bâh khgnom méan bâng p'ôn pram-bey néak."}
+    },
+    {
+      "fr": "neuf", "en": "nine", "km": "ប្រាំបួន", "tr": "pram-bouon", "pos": "nombre",
+      "note": {
+        "fr": "Mot à mot « cinq-quatre ». En chiffres khmers : ៩.",
+        "km": "« neuf » មានន័យពីរ៖ លេខប្រាំបួន និង ថ្មី។ ភាសាអង់គ្លេស៖ « nine »។"
+      },
+      "example": {"fr": "Leur enfant a neuf ans.", "en": "Their child is nine years old.", "km": "កូនរបស់ពួកគេអាយុប្រាំបួនឆ្នាំ។", "tr": "kôn ro-bâh pouok-ké a-you pram-bouon tchhnam."}
+    },
+    {
+      "fr": "dix", "en": "ten", "km": "ដប់", "tr": "dâp", "pos": "nombre",
+      "note": {
+        "fr": "Voyelle brève, à ne pas confondre avec ដប (la bouteille), plus long. Onze se dit ដប់មួយ (dâp-mouy), « dix-un ». En chiffres khmers : ១០.",
+        "km": "ក្នុងពាក្យ « dix » អក្សរ x ចុងពាក្យអានដូចអក្សរ « ស »។ ភាសាអង់គ្លេស៖ « ten »។"
+      },
+      "example": {"fr": "Ça coûte dix dollars.", "en": "It costs ten dollars.", "km": "ថ្លៃដប់ដុល្លារ។", "tr": "thlay dâp dol-la."}
+    },
+    {
+      "fr": "combien", "en": "how many", "km": "ប៉ុន្មាន", "tr": "pon-man", "pos": "interrogatif",
+      "note": {
+        "fr": "Se place après le nom, à l'endroit où viendrait le nombre : កូនប៉ុន្មាននាក់?, « combien d'enfants ? ».",
+        "km": "« combien » នៅដើមសំណួរ៖ « Combien de cafés ? »។ ភាសាអង់គ្លេសប្រើ « how many » សម្រាប់អ្វីដែលរាប់បាន និង « how much » សម្រាប់តម្លៃ។"
+      },
+      "example": {"fr": "Combien d'enfants avez-vous ?", "en": "How many children do you have?", "km": "តើអ្នកមានកូនប៉ុន្មាននាក់?", "tr": "taeu néak méan kôn pon-man néak ?"}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est combien ?", "en": "How much is it?", "km": "ថ្លៃប៉ុន្មាន?", "tr": "thlay pon-man ?",
+      "note": {"fr": "ថ្លៃ (thlay) signifie « coûter » : c'est la question la plus utile au marché.", "km": "សំណួរសួរតម្លៃ។ គេក៏និយាយថា « Ça coûte combien ? » ដែរ។"}
+    },
+    {
+      "fr": "Quel âge as-tu ?", "en": "How old are you?", "km": "អាយុប៉ុន្មានហើយ?", "tr": "a-you pon-man haeuy ?",
+      "note": {"fr": "Mot à mot « âge combien déjà ? ». On répond : អាយុ + nombre + ឆ្នាំ (tchhnam), « ans ».", "km": "ភាសាបារាំងប្រើកិរិយាសព្ទ « avoir »៖ « J'ai dix ans »។ ភាសាអង់គ្លេសប្រើ « to be »៖ « I am ten years old »។"}
+    },
+    {
+      "fr": "Il est quelle heure ?", "en": "What time is it?", "km": "ម៉ោងប៉ុន្មានហើយ?", "tr": "maong pon-man haeuy ?",
+      "note": {"fr": "ម៉ោង (maong) signifie « heure ». On répond : ម៉ោង + nombre, par exemple ម៉ោងប្រាំបី, « huit heures ».", "km": "ចម្លើយ៖ « Il est huit heures »។ ក្នុងពាក្យ « heures » អក្សរ h និង s មិនអានទេ។"}
+    },
+    {
+      "fr": "Combien de personnes ?", "en": "How many people?", "km": "ប៉ុន្មាននាក់?", "tr": "pon-man néak ?",
+      "note": {"fr": "Question fréquente au restaurant. On répond par le nombre suivi de នាក់ : ប្រាំមួយនាក់, « six personnes ».", "km": "នៅភោជនីយដ្ឋាន គេសួរបែបនេះ ដើម្បីដឹងថាមានភ្ញៀវប៉ុន្មាននាក់។"}
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au marché", "km": "នៅផ្សារ"},
+      "fr": "Six bouteilles d'eau, s'il vous plaît.", "en": "Six bottles of water, please.",
+      "km": "សូមទឹកប្រាំមួយដប។", "tr": "sôm teuk pram-mouy dâp."
+    },
+    {
+      "situation": {"fr": "Regarder l'heure", "km": "ពេលមើលម៉ោង"},
+      "fr": "Il est déjà dix heures !", "en": "It is already ten o'clock!",
+      "km": "ម៉ោងដប់ហើយ!", "tr": "maong dâp haeuy !"
+    },
+    {
+      "situation": {"fr": "Parler de l'âge", "km": "និយាយអំពីអាយុ"},
+      "fr": "Ma petite sœur a sept ans.", "en": "My little sister is seven years old.",
+      "km": "ប្អូនស្រីរបស់ខ្ញុំអាយុប្រាំពីរឆ្នាំ។", "tr": "p'ôn srey ro-bâh khgnom a-you pram-pi tchhnam."
+    }
+  ],
+  "dialogue": {
+    "setting": {
+      "fr": "{A} et {B} attendent des amis à la maison.",
+      "en": "{A} and {B} are expecting friends at home.",
+      "km": "{A} និង {B} រង់ចាំមិត្តភក្តិនៅផ្ទះ។"
+    },
+    "lines": [
+      {"speaker": "B", "fr": "Combien d'amis viennent ?", "en": "How many friends are coming?", "km": "មិត្តភក្តិមកប៉ុន្មាននាក់?", "tr": "mit-phéak mok pon-man néak ?"},
+      {"speaker": "A", "fr": "Six. Avec nous deux, ça fait huit.", "en": "Six. With the two of us, that makes eight.", "km": "ប្រាំមួយនាក់។ រួមទាំងយើងពីរនាក់ គឺប្រាំបីនាក់។", "tr": "pram-mouy néak. rouom téang yeung pi néak, keu pram-bey néak."},
+      {"speaker": "B", "fr": "Nous avons combien de bouteilles d'eau ?", "en": "How many bottles of water do we have?", "km": "យើងមានទឹកប៉ុន្មានដប?", "tr": "yeung méan teuk pon-man dâp ?"},
+      {"speaker": "A", "fr": "Dix bouteilles.", "en": "Ten bottles.", "km": "ដប់ដប។", "tr": "dâp dâp."},
+      {"speaker": "B", "fr": "Très bien. Ils viennent à quelle heure ?", "en": "Very good. What time are they coming?", "km": "ល្អណាស់។ ពួកគេមកម៉ោងប៉ុន្មាន?", "tr": "l'â nah. pouok-ké mok maong pon-man ?"},
+      {"speaker": "A", "fr": "À sept heures.", "en": "At seven o'clock.", "km": "ម៉ោងប្រាំពីរ។", "tr": "maong pram-pi."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Combien de personnes y aura-t-il en tout ?", "en": "How many people will there be in all?", "km": "តើទាំងអស់មានមនុស្សប៉ុន្មាននាក់?"},
+    "answer": {"fr": "Huit personnes.", "en": "Eight people.", "km": "ប្រាំបីនាក់។"}
+  }
+}
