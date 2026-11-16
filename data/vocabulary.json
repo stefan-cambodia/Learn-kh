@@ -3085,25 +3085,25 @@
   "unit_id": "u009",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-25",
-    "next_review": "2026-11-26",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-24",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-25",
-    "next_review": "2026-11-26",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-24",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-25",
-    "next_review": "2026-11-26",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-24",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3122,25 +3122,25 @@
   "unit_id": "u009",
   "progress": {
    "km": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-30",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-24",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-30",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-24",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-30",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-24",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3159,25 +3159,25 @@
   "unit_id": "u009",
   "progress": {
    "km": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-30",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-25",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-30",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-25",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-30",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-25",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3344,25 +3344,25 @@
   "unit_id": "u010",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-25",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-25",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-25",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3381,25 +3381,25 @@
   "unit_id": "u010",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-26",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-26",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-26",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3418,25 +3418,25 @@
   "unit_id": "u010",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-26",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-26",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-26",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3455,25 +3455,25 @@
   "unit_id": "u010",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-27",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-27",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-26",
-    "next_review": "2026-11-27",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-27",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3492,25 +3492,25 @@
   "unit_id": "u010",
   "progress": {
    "km": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-12-01",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-27",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-12-01",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-27",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-12-01",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-27",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3529,25 +3529,25 @@
   "unit_id": "u010",
   "progress": {
    "km": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-12-01",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-28",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-12-01",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-28",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-12-01",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-28",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3714,25 +3714,25 @@
   "unit_id": "u011",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-28",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-28",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-28",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3751,25 +3751,25 @@
   "unit_id": "u011",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-29",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-29",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-29",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3788,25 +3788,25 @@
   "unit_id": "u011",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-29",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-29",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-29",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3825,25 +3825,25 @@
   "unit_id": "u011",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-30",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-30",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-27",
-    "next_review": "2026-11-28",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-30",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3862,25 +3862,25 @@
   "unit_id": "u011",
   "progress": {
    "km": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-12-02",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-30",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-12-02",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-30",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-12-02",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-30",
+    "mastery_score": 0.4
    }
   }
  },
@@ -3899,25 +3899,25 @@
   "unit_id": "u011",
   "progress": {
    "km": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-12-02",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-31",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-12-02",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-31",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-12-02",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-31",
+    "mastery_score": 0.4
    }
   }
  },
@@ -4084,25 +4084,25 @@
   "unit_id": "u012",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-31",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-31",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-31",
+    "mastery_score": 0.4
    }
   }
  },
@@ -4121,25 +4121,25 @@
   "unit_id": "u012",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-02",
+    "next_review": "2027-02-01",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-02",
+    "next_review": "2027-02-01",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-02",
+    "next_review": "2027-02-01",
+    "mastery_score": 0.4
    }
   }
  },
@@ -4158,25 +4158,25 @@
   "unit_id": "u012",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-02",
+    "next_review": "2027-02-01",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-02",
+    "next_review": "2027-02-01",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-02",
+    "next_review": "2027-02-01",
+    "mastery_score": 0.4
    }
   }
  },
@@ -4195,25 +4195,25 @@
   "unit_id": "u012",
   "progress": {
    "km": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-03",
+    "next_review": "2027-02-02",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-03",
+    "next_review": "2027-02-02",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 1,
-    "review_count": 1,
-    "last_review": "2026-11-28",
-    "next_review": "2026-11-29",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-03",
+    "next_review": "2027-02-02",
+    "mastery_score": 0.4
    }
   }
  },
@@ -4232,25 +4232,25 @@
   "unit_id": "u012",
   "progress": {
    "km": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-29",
-    "next_review": "2026-12-03",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-03",
+    "next_review": "2027-02-02",
+    "mastery_score": 0.4
    },
    "fr": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-29",
-    "next_review": "2026-12-03",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-03",
+    "next_review": "2027-02-02",
+    "mastery_score": 0.4
    },
    "en": {
-    "learning_level": 2,
-    "review_count": 1,
-    "last_review": "2026-11-29",
-    "next_review": "2026-12-03",
-    "mastery_score": 0.2
+    "learning_level": 5,
+    "review_count": 2,
+    "last_review": "2027-01-03",
+    "next_review": "2027-02-02",
+    "mastery_score": 0.4
    }
   }
  },
@@ -9523,25 +9523,25 @@
   "unit_id": "u026",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    }
   }
  },
@@ -9560,25 +9560,25 @@
   "unit_id": "u026",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    }
   }
  },
@@ -9597,25 +9597,25 @@
   "unit_id": "u026",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-10",
-    "next_review": "2026-12-11",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
    }
   }
  },
@@ -9856,25 +9856,25 @@
   "unit_id": "u027",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    }
   }
  },
@@ -9893,25 +9893,25 @@
   "unit_id": "u027",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    }
   }
  },
@@ -9930,25 +9930,25 @@
   "unit_id": "u027",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    }
   }
  },
@@ -9967,25 +9967,25 @@
   "unit_id": "u027",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-11",
-    "next_review": "2026-12-12",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10226,25 +10226,25 @@
   "unit_id": "u028",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10263,25 +10263,25 @@
   "unit_id": "u028",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10300,25 +10300,25 @@
   "unit_id": "u028",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10337,25 +10337,25 @@
   "unit_id": "u028",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-12",
-    "next_review": "2026-12-13",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-11",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10596,25 +10596,25 @@
   "unit_id": "u029",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10633,25 +10633,25 @@
   "unit_id": "u029",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10670,25 +10670,25 @@
   "unit_id": "u029",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10707,25 +10707,25 @@
   "unit_id": "u029",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-13",
-    "next_review": "2026-12-14",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-12",
+    "mastery_score": 0.2
    }
   }
  },
@@ -10966,25 +10966,25 @@
   "unit_id": "u030",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    }
   }
  },
@@ -11003,25 +11003,25 @@
   "unit_id": "u030",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    }
   }
  },
@@ -11040,25 +11040,25 @@
   "unit_id": "u030",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    }
   }
  },
@@ -11077,25 +11077,25 @@
   "unit_id": "u030",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-14",
-    "next_review": "2026-12-15",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-13",
+    "mastery_score": 0.2
    }
   }
  },
@@ -11336,25 +11336,25 @@
   "unit_id": "u031",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-15",
-    "next_review": "2026-12-16",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-14",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-15",
-    "next_review": "2026-12-16",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-14",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-15",
-    "next_review": "2026-12-16",
-    "mastery_score": 0.0
+    "learning_level": 4,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-14",
+    "mastery_score": 0.2
    }
   }
  },
@@ -12372,25 +12372,25 @@
   "unit_id": "u034",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-18",
-    "next_review": "2026-12-19",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-18",
-    "next_review": "2026-12-19",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-18",
-    "next_review": "2026-12-19",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
    }
   }
  },
@@ -12409,25 +12409,25 @@
   "unit_id": "u034",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-18",
-    "next_review": "2026-12-19",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-18",
-    "next_review": "2026-12-19",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-18",
-    "next_review": "2026-12-19",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
    }
   }
  },
@@ -12668,25 +12668,25 @@
   "unit_id": "u035",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    }
   }
  },
@@ -12705,25 +12705,25 @@
   "unit_id": "u035",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    }
   }
  },
@@ -12742,25 +12742,25 @@
   "unit_id": "u035",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
    }
   }
  },
@@ -12779,25 +12779,25 @@
   "unit_id": "u035",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-19",
-    "next_review": "2026-12-20",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13038,25 +13038,25 @@
   "unit_id": "u036",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13075,25 +13075,25 @@
   "unit_id": "u036",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13112,25 +13112,25 @@
   "unit_id": "u036",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13149,25 +13149,25 @@
   "unit_id": "u036",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-20",
-    "next_review": "2026-12-21",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13408,25 +13408,25 @@
   "unit_id": "u037",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13445,25 +13445,25 @@
   "unit_id": "u037",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13482,25 +13482,25 @@
   "unit_id": "u037",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13519,25 +13519,25 @@
   "unit_id": "u037",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-21",
-    "next_review": "2026-12-22",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13778,25 +13778,25 @@
   "unit_id": "u038",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13815,25 +13815,25 @@
   "unit_id": "u038",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13852,25 +13852,25 @@
   "unit_id": "u038",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-05",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-05",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-05",
+    "mastery_score": 0.2
    }
   }
  },
@@ -13889,25 +13889,25 @@
   "unit_id": "u038",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-05",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-05",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-22",
-    "next_review": "2026-12-23",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2027-01-05",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14074,25 +14074,25 @@
   "unit_id": "u039",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14111,25 +14111,25 @@
   "unit_id": "u039",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14148,25 +14148,25 @@
   "unit_id": "u039",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14185,25 +14185,25 @@
   "unit_id": "u039",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14222,25 +14222,25 @@
   "unit_id": "u039",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-06",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-06",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-06",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14259,25 +14259,25 @@
   "unit_id": "u039",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-06",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-06",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-23",
-    "next_review": "2026-12-24",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2027-01-06",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14444,25 +14444,25 @@
   "unit_id": "u040",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14481,25 +14481,25 @@
   "unit_id": "u040",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14518,25 +14518,25 @@
   "unit_id": "u040",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14555,25 +14555,25 @@
   "unit_id": "u040",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14592,25 +14592,25 @@
   "unit_id": "u040",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-07",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-07",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-07",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14629,25 +14629,25 @@
   "unit_id": "u040",
   "progress": {
    "km": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-07",
+    "mastery_score": 0.2
    },
    "fr": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-07",
+    "mastery_score": 0.2
    },
    "en": {
-    "learning_level": 0,
-    "review_count": 0,
-    "last_review": "2026-12-24",
-    "next_review": "2026-12-25",
-    "mastery_score": 0.0
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-07",
+    "mastery_score": 0.2
    }
   }
  },
@@ -14795,6 +14795,3706 @@
     "review_count": 0,
     "last_review": "2026-12-24",
     "next_review": "2026-12-25",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 401,
+  "kind": "word",
+  "french": "Noël",
+  "english": "Christmas",
+  "khmer": "បុណ្យណូអែល",
+  "transliteration": "bon nô-aèl",
+  "category": "nom",
+  "explanation_fr": "បុណ្យ, « la fête », suivi du nom emprunté au français. On dit aussi simplement ណូអែល.",
+  "explanation_en": "បុណ្យ, “festival”, followed by the name borrowed from French. People also just say ណូអែល. French « Noël »: the two dots on the ë mean o and e are read separately.",
+  "explanation_km": "« Noël » សរសេរដោយអក្សរធំ ហើយមិនប្រើពាក្យនាំមុខទេ៖ à Noël, pour Noël។ អង់គ្លេស៖ « Christmas »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 402,
+  "kind": "word",
+  "french": "le sapin",
+  "english": "fir tree",
+  "khmer": "ដើមស្រល់",
+  "transliteration": "daeum srâl",
+  "category": "nom",
+  "explanation_fr": "ដើមស្រល់ est le pin. Le sapin de Noël décoré se dit souvent ដើមណូអែល, « l'arbre de Noël ».",
+  "explanation_en": "ដើមស្រល់ is the pine tree. The decorated Christmas tree is often ដើមណូអែល, “Christmas tree”. French: « le sapin de Noël ».",
+  "explanation_km": "« sapin » ជានាមភេទប្រុស៖ le sapin។ « le sapin de Noël » មានន័យថា ដើមណូអែល។ អង់គ្លេស៖ « Christmas tree »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 403,
+  "kind": "word",
+  "french": "la neige",
+  "english": "snow",
+  "khmer": "ព្រិល",
+  "transliteration": "prel",
+  "category": "nom",
+  "explanation_fr": "Pour « il neige », on dit ព្រិលធ្លាក់ (prel thléak), « la neige tombe », comme pour la pluie.",
+  "explanation_en": "For “it's snowing”, say ព្រិលធ្លាក់ (prel thléak), “snow falls”, as for rain. French « neige » is feminine; « il neige » means “it's snowing”.",
+  "explanation_km": "« neige » ជានាមភេទស្រី៖ la neige។ « il neige » មានន័យថា ព្រិលធ្លាក់។ អង់គ្លេស៖ « snow », « it's snowing »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 404,
+  "kind": "word",
+  "french": "souhaiter",
+  "english": "to wish",
+  "khmer": "ជូនពរ",
+  "transliteration": "tchoun pô",
+  "category": "verbe",
+  "explanation_fr": "ជូន, « offrir », et ពរ, « la bénédiction » : mot à mot « offrir ses vœux ».",
+  "explanation_en": "ជូន, “to offer”, and ពរ, “blessing”: word for word “offer your wishes”. French « souhaiter »: je te souhaite un joyeux Noël.",
+  "explanation_km": "« souhaiter »៖ je te souhaite un joyeux Noël។ « les vœux » មានន័យថា ពាក្យជូនពរ។ អង់គ្លេស៖ « to wish »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 405,
+  "kind": "word",
+  "french": "la bougie",
+  "english": "candle",
+  "khmer": "ទៀន",
+  "transliteration": "tien",
+  "category": "nom",
+  "explanation_fr": "Allumer une bougie se dit អុជទៀន (outch tien). On allume aussi des bougies et de l'encens à la pagode.",
+  "explanation_en": "To light a candle is អុជទៀន (outch tien). Candles and incense are also lit at the pagoda. French « bougie » is feminine.",
+  "explanation_km": "« bougie » ជានាមភេទស្រី៖ la bougie។ « allumer » មានន័យថា អុជ ឬបើក។ អង់គ្លេស៖ « candle »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-08",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-08",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-08",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 406,
+  "kind": "word",
+  "french": "le repas",
+  "english": "meal",
+  "khmer": "អាហារ",
+  "transliteration": "a-ha",
+  "category": "nom",
+  "explanation_fr": "អាហារ est le mot général. Au quotidien, on dit plutôt បាយ, le riz : ញ៉ាំបាយ, prendre son repas.",
+  "explanation_en": "អាហារ is the general word. In daily life, people say បាយ, rice: ញ៉ាំបាយ, have a meal. French « repas » is masculine; the s is silent.",
+  "explanation_km": "« repas » ជានាមភេទប្រុស ហើយ s មិនអានទេ៖ le repas។ អាហារពេលព្រឹក៖ le petit-déjeuner; ថ្ងៃត្រង់៖ le déjeuner; ល្ងាច៖ le dîner។ អង់គ្លេស៖ « meal »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-08",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-08",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-08",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 407,
+  "kind": "expression",
+  "french": "Joyeux Noël !",
+  "english": "Merry Christmas!",
+  "khmer": "រីករាយបុណ្យណូអែល!",
+  "transliteration": "rik-réay bon nô-aèl !",
+  "category": "expression",
+  "explanation_fr": "Même modèle que រីករាយថ្ងៃកំណើត, joyeux anniversaire : រីករាយ suivi du nom de la fête.",
+  "explanation_en": "The same pattern as រីករាយថ្ងៃកំណើត, happy birthday: រីករាយ followed by the festival. French « Joyeux Noël ! »",
+  "explanation_km": "« Joyeux Noël ! » ប្រើជូនពរនៅថ្ងៃទី២៤ និង២៥ ខែធ្នូ។ អង់គ្លេស៖ « Merry Christmas! »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 408,
+  "kind": "expression",
+  "french": "Bonnes fêtes !",
+  "english": "Happy holidays!",
+  "khmer": "រីករាយថ្ងៃបុណ្យ!",
+  "transliteration": "rik-réay thngay bon !",
+  "category": "expression",
+  "explanation_fr": "Formule de fin d'année, pour Noël et le Nouvel An à la fois.",
+  "explanation_en": "An end-of-year phrase, for Christmas and New Year together. French « Bonnes fêtes ! »",
+  "explanation_km": "« Bonnes fêtes ! » ជូនពរសម្រាប់ទាំងបុណ្យណូអែល និងចូលឆ្នាំសកល។ អង់គ្លេស៖ « Happy holidays! »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 409,
+  "kind": "expression",
+  "french": "C'est pour toi.",
+  "english": "This is for you.",
+  "khmer": "នេះសម្រាប់អ្នក។",
+  "transliteration": "nih sâm-rap néak.",
+  "category": "expression",
+  "explanation_fr": "On offre un cadeau avec les deux mains, ou la main droite soutenue par la gauche : c'est plus poli.",
+  "explanation_en": "Give a present with both hands, or the right hand supported by the left: it is more polite. French « pour toi » is familiar; « pour vous » is polite.",
+  "explanation_km": "« pour » + « toi » មានន័យថា សម្រាប់អ្នក។ អង់គ្លេស៖ « This is for you »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 410,
+  "kind": "expression",
+  "french": "Ça me fait très plaisir.",
+  "english": "That makes me very happy.",
+  "khmer": "ខ្ញុំសប្បាយចិត្តណាស់។",
+  "transliteration": "khgnom sa-bay tchet nah.",
+  "category": "expression",
+  "explanation_fr": "Réponse naturelle à un cadeau ou à une attention : « je suis très content ».",
+  "explanation_en": "A natural answer to a present or a kind gesture: “I am very happy”. French « faire plaisir » means “to please”.",
+  "explanation_km": "« faire plaisir » មានន័យថា ធ្វើឱ្យសប្បាយចិត្ត។ អង់គ្លេស៖ « That makes me very happy »។",
+  "uncertain": false,
+  "unit_id": "u041",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-25",
+    "next_review": "2026-12-26",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 411,
+  "kind": "word",
+  "french": "le grand frère",
+  "english": "older brother",
+  "khmer": "បងប្រុស",
+  "transliteration": "bâng proh",
+  "category": "nom",
+  "explanation_fr": "បង, « aîné », et ប្រុស, « masculin ». Entre amoureux, បង désigne aussi l'homme ou le plus âgé du couple.",
+  "explanation_en": "បង, “older”, and ប្រុស, “male”. Between lovers, បង also means the man or the older partner. French « grand frère », “big brother”.",
+  "explanation_km": "« le grand frère » មានន័យថា បងប្រុស។ ជាទូទៅ គេនិយាយត្រឹមតែ « mon frère »។ អង់គ្លេស៖ « older brother »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 412,
+  "kind": "word",
+  "french": "la petite sœur",
+  "english": "younger sister",
+  "khmer": "ប្អូនស្រី",
+  "transliteration": "p'ôn srey",
+  "category": "nom",
+  "explanation_fr": "ប្អូន, « cadet », et ស្រី, « féminin ». Le petit frère se dit ប្អូនប្រុស, la grande sœur បងស្រី.",
+  "explanation_en": "ប្អូន, “younger”, and ស្រី, “female”. A younger brother is ប្អូនប្រុស, an older sister បងស្រី. French « petite sœur », “little sister”.",
+  "explanation_km": "« la petite sœur » មានន័យថា ប្អូនស្រី។ « sœur » អានដូច « seur »។ អង់គ្លេស៖ « younger sister »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 413,
+  "kind": "word",
+  "french": "le grand-père",
+  "english": "grandfather",
+  "khmer": "តា",
+  "transliteration": "ta",
+  "category": "nom",
+  "explanation_fr": "តា s'emploie aussi pour s'adresser poliment à tout homme âgé. Les grands-parents ensemble se disent តាយាយ.",
+  "explanation_en": "តា is also a polite way to address any elderly man. Grandparents together are តាយាយ. French « grand-père » has a hyphen; « papi » is affectionate.",
+  "explanation_km": "« le grand-père » មានសញ្ញាតភ្ជាប់ (-)។ ពហុវចនៈ « les grands-pères »។ « les grands-parents » មានន័យថា តាយាយ។ អង់គ្លេស៖ « grandfather »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 414,
+  "kind": "word",
+  "french": "la grand-mère",
+  "english": "grandmother",
+  "khmer": "យាយ",
+  "transliteration": "yéay",
+  "category": "nom",
+  "explanation_fr": "យាយ sert aussi pour toute femme âgée. On l'entend souvent au marché : យាយ, ស្វាយប៉ុន្មាន?",
+  "explanation_en": "យាយ is also used for any elderly woman. You often hear it at the market: យាយ, ស្វាយប៉ុន្មាន? French « grand-mère »; « mamie » is affectionate.",
+  "explanation_km": "« la grand-mère » មានសញ្ញាតភ្ជាប់ (-)។ ក្មេងៗហៅយាយថា « mamie »។ អង់គ្លេស៖ « grandmother », « grandma »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 415,
+  "kind": "word",
+  "french": "l'oncle",
+  "english": "uncle",
+  "khmer": "ពូ",
+  "transliteration": "pou",
+  "category": "nom",
+  "explanation_fr": "ពូ est l'oncle plus jeune que les parents ; l'oncle plus âgé se dit ឪពុកធំ. On appelle aussi ពូ un chauffeur de tuk-tuk ou un vendeur.",
+  "explanation_en": "ពូ is an uncle younger than your parents; an older uncle is ឪពុកធំ. A tuk-tuk driver or a seller is also called ពូ. French « oncle » is masculine.",
+  "explanation_km": "« oncle » ជានាមភេទប្រុស៖ l'oncle, mon oncle។ ភាសាបារាំងមិនបែងចែកពូ និងឪពុកធំទេ។ អង់គ្លេស៖ « uncle »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 416,
+  "kind": "word",
+  "french": "la tante",
+  "english": "aunt",
+  "khmer": "មីង",
+  "transliteration": "ming",
+  "category": "nom",
+  "explanation_fr": "មីង est la tante plus jeune que les parents ; la tante plus âgée se dit ម្តាយធំ. On appelle aussi មីង une vendeuse au marché.",
+  "explanation_en": "មីង is an aunt younger than your parents; an older aunt is ម្តាយធំ. A woman seller at the market is also called មីង. French « tante » is feminine.",
+  "explanation_km": "« tante » ជានាមភេទស្រី៖ la tante, ma tante។ អង់គ្លេស៖ « aunt »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-09",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 417,
+  "kind": "expression",
+  "french": "Tu es l'aîné ?",
+  "english": "Are you the eldest?",
+  "khmer": "អ្នកជាកូនច្បងទេ?",
+  "transliteration": "néak tchéa kôn tchbâng té ?",
+  "category": "expression",
+  "explanation_fr": "កូនច្បង (kôn tchbâng), l'aîné ; កូនពៅ (kôn pov), le benjamin, le plus jeune.",
+  "explanation_en": "កូនច្បង (kôn tchbâng), the eldest; កូនពៅ (kôn pov), the youngest. French « l'aîné » means “the eldest”.",
+  "explanation_km": "« l'aîné » មានន័យថា កូនច្បង។ « le cadet » ឬ « le benjamin » មានន័យថា កូនពៅ។ អង់គ្លេស៖ « the eldest »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 418,
+  "kind": "expression",
+  "french": "Nous sommes cinq frères et sœurs.",
+  "english": "There are five of us siblings.",
+  "khmer": "យើងមានបងប្អូនប្រាំនាក់។",
+  "transliteration": "yeung méan bâng p'ôn pram néak.",
+  "category": "expression",
+  "explanation_fr": "បងប្អូន, « aînés et cadets », désigne tous les frères et sœurs. នាក់ compte les personnes.",
+  "explanation_en": "បងប្អូន, “older and younger”, means all brothers and sisters. នាក់ counts people. French « frères et sœurs » means “siblings”.",
+  "explanation_km": "ភាសាបារាំងប្រាប់ចំនួនដោយ « nous sommes » + លេខ។ អង់គ្លេស៖ « There are five of us »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 419,
+  "kind": "expression",
+  "french": "C'est mon cousin.",
+  "english": "This is my cousin.",
+  "khmer": "នេះបងប្អូនជីដូនមួយរបស់ខ្ញុំ។",
+  "transliteration": "nih bâng p'ôn tchi-dôn mouy ro-bâh khgnom.",
+  "category": "expression",
+  "explanation_fr": "Mot à mot « frère ou sœur d'une même grand-mère ». Au quotidien, on dit souvent simplement បងប្អូន.",
+  "explanation_en": "Word for word “brother or sister from the same grandmother”. In daily life, people often just say បងប្អូន. French « cousin », feminine « cousine ».",
+  "explanation_km": "« cousin » សម្រាប់ប្រុស និង « cousine » សម្រាប់ស្រី។ អង់គ្លេស៖ « cousin » សម្រាប់ទាំងពីរ។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 420,
+  "kind": "expression",
+  "french": "Elle vit avec nous.",
+  "english": "She lives with us.",
+  "khmer": "គាត់រស់នៅជាមួយយើង។",
+  "transliteration": "koat rouh neuv tchéa-mouy yeung.",
+  "category": "expression",
+  "explanation_fr": "Au Cambodge, les grands-parents vivent souvent avec la famille d'un de leurs enfants.",
+  "explanation_en": "In Cambodia, grandparents often live with the family of one of their children. French « vivre avec » means “to live with”.",
+  "explanation_km": "« vivre avec » មានន័យថា រស់នៅជាមួយ។ អង់គ្លេស៖ « to live with »។",
+  "uncertain": false,
+  "unit_id": "u042",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-26",
+    "next_review": "2026-12-27",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 421,
+  "kind": "word",
+  "french": "sucré",
+  "english": "sweet",
+  "khmer": "ផ្អែម",
+  "transliteration": "ph'aèm",
+  "category": "adjectif",
+  "explanation_fr": "ផ្អែម s'emploie aussi au figuré : une voix douce, សំឡេងផ្អែម. Un dessert se dit បង្អែម (bâng-aèm), formé sur le même mot.",
+  "explanation_en": "ផ្អែម is also used figuratively: a sweet voice, សំឡេងផ្អែម. A dessert is បង្អែម (bâng-aèm), built on the same word. French « sucré » becomes « sucrée » in the feminine.",
+  "explanation_km": "« sucré » មកពី « sucre »។ ភេទស្រី៖ sucrée។ « un dessert » មានន័យថា បង្អែម។ អង់គ្លេស៖ « sweet »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 422,
+  "kind": "word",
+  "french": "salé",
+  "english": "salty",
+  "khmer": "ប្រៃ",
+  "transliteration": "prey",
+  "category": "adjectif",
+  "explanation_fr": "ប្រៃ se dit aussi de l'eau de mer : ទឹកប្រៃ, l'eau salée, par opposition à ទឹកសាប, l'eau douce.",
+  "explanation_en": "ប្រៃ is also said of sea water: ទឹកប្រៃ, salt water, as opposed to ទឹកសាប, fresh water. French « salé » becomes « salée » in the feminine.",
+  "explanation_km": "« salé » មកពី « sel »។ ភេទស្រី៖ salée។ អង់គ្លេស៖ « salty »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 423,
+  "kind": "word",
+  "french": "acide",
+  "english": "sour",
+  "khmer": "ជូរ",
+  "transliteration": "tchou",
+  "category": "adjectif",
+  "explanation_fr": "ជូរ donne son nom à la soupe aigre, សម្លម្ជូរ. On aime le goût acide du tamarin, អម្ពិល (âm-pel).",
+  "explanation_en": "ជូរ gives its name to the sour soup, សម្លម្ជូរ. People love the sour taste of tamarind, អម្ពិល (âm-pel). French « acide » is the same for men and women.",
+  "explanation_km": "« acide » ឬ « aigre » មានន័យថា ជូរ។ « acide » មិនប្តូរតាមភេទទេ។ អង់គ្លេស៖ « sour »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 424,
+  "kind": "word",
+  "french": "amer",
+  "english": "bitter",
+  "khmer": "ល្វីង",
+  "transliteration": "lving",
+  "category": "adjectif",
+  "explanation_fr": "Le melon amer, ម្រះ (mreah), est un légume courant, réputé bon pour la santé.",
+  "explanation_en": "Bitter melon, ម្រះ (mreah), is a common vegetable, said to be good for your health. French « amer » becomes « amère » in the feminine.",
+  "explanation_km": "« amer » សម្រាប់ភេទប្រុស និង « amère » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « bitter »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 425,
+  "kind": "word",
+  "french": "gras",
+  "english": "fatty",
+  "khmer": "ខ្លាញ់",
+  "transliteration": "khlagn",
+  "category": "adjectif",
+  "explanation_fr": "ខ្លាញ់ veut dire « la graisse » et « gras ». Pour une personne grosse, on dit plutôt ធាត់ (thoat).",
+  "explanation_en": "ខ្លាញ់ means both “fat” and “fatty”. For an overweight person, people say ធាត់ (thoat). French « gras » becomes « grasse » in the feminine.",
+  "explanation_km": "« gras » សម្រាប់ភេទប្រុស និង « grasse » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « fatty » ឬ « greasy »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 426,
+  "kind": "word",
+  "french": "fade",
+  "english": "bland",
+  "khmer": "សាប",
+  "transliteration": "sap",
+  "category": "adjectif",
+  "explanation_fr": "សាប veut dire « sans goût », et aussi « doux » pour l'eau : ទន្លេសាប, le Tonlé Sap, « le fleuve d'eau douce ».",
+  "explanation_en": "សាប means “tasteless”, and also “fresh” for water: ទន្លេសាប, the Tonle Sap, “the freshwater river”. French « fade » is the same for men and women.",
+  "explanation_km": "« fade » មានន័យថា គ្មានរសជាតិ ឬសាប។ មិនប្តូរតាមភេទទេ។ អង់គ្លេស៖ « bland »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 3,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-10",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 427,
+  "kind": "expression",
+  "french": "Ça a quel goût ?",
+  "english": "What does it taste like?",
+  "khmer": "រសជាតិយ៉ាងម៉េច?",
+  "transliteration": "ros-tchéat yang métch ?",
+  "category": "expression",
+  "explanation_fr": "រសជាតិ (ros-tchéat), « la saveur ». Pour dire que c'est bon, on répond ឆ្ងាញ់.",
+  "explanation_en": "រសជាតិ (ros-tchéat), “flavour”. To say it's good, answer ឆ្ងាញ់. French « goût » means “taste”.",
+  "explanation_km": "« le goût » មានន័យថា រសជាតិ។ អង់គ្លេស៖ « What does it taste like? »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 428,
+  "kind": "expression",
+  "french": "C'est trop sucré pour moi.",
+  "english": "It's too sweet for me.",
+  "khmer": "ផ្អែមពេកសម្រាប់ខ្ញុំ។",
+  "transliteration": "ph'aèm pék sâm-rap khgnom.",
+  "category": "expression",
+  "explanation_fr": "ពេក (pék), « trop », se place après l'adjectif.",
+  "explanation_en": "ពេក (pék), “too”, goes after the adjective. French « trop » goes before it: trop sucré.",
+  "explanation_km": "« trop » + គុណនាម៖ trop sucré, trop salé។ អង់គ្លេស៖ « too sweet »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 429,
+  "kind": "expression",
+  "french": "Je n'ai plus faim, merci.",
+  "english": "I'm full, thank you.",
+  "khmer": "ខ្ញុំឆ្អែតហើយ អរគុណ។",
+  "transliteration": "khgnom tchh'aèt haeuy, â-koun.",
+  "category": "expression",
+  "explanation_fr": "ឆ្អែត (tchh'aèt), « rassasié ». Façon polie de refuser une nouvelle assiette.",
+  "explanation_en": "ឆ្អែត (tchh'aèt), “full”. A polite way to turn down another helping. French « Je n'ai plus faim » means “I'm no longer hungry”.",
+  "explanation_km": "« ne … plus » មានន័យថា លែង។ « je n'ai plus faim » គឺខ្ញុំលែងឃ្លានហើយ។ អង់គ្លេស៖ « I'm full »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 430,
+  "kind": "expression",
+  "french": "Tu veux goûter ?",
+  "english": "Do you want a taste?",
+  "khmer": "ចង់ភ្លក់មើលទេ?",
+  "transliteration": "tchâng phlok meul té ?",
+  "category": "expression",
+  "explanation_fr": "មើល (meul), « regarder », après un verbe veut dire « essayer de » : ភ្លក់មើល, goûter pour voir.",
+  "explanation_en": "មើល (meul), “to look”, after a verb means “try to”: ភ្លក់មើល, taste and see. French « goûter » means “to taste”.",
+  "explanation_km": "« goûter » មានន័យថា ភ្លក់។ « le goûter » ក៏មានន័យថា អាហារសម្រន់ពេលរសៀលដែរ។ អង់គ្លេស៖ « to taste »។",
+  "uncertain": false,
+  "unit_id": "u043",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-27",
+    "next_review": "2026-12-28",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 431,
+  "kind": "word",
+  "french": "la chemise",
+  "english": "shirt",
+  "khmer": "អាវ",
+  "transliteration": "av",
+  "category": "nom",
+  "explanation_fr": "អាវ désigne tout vêtement du haut : chemise, tee-shirt ou veste. On précise : អាវយឺត, le tee-shirt ; អាវរងា, le pull.",
+  "explanation_en": "អាវ is any top: shirt, T-shirt or jacket. To be precise: អាវយឺត, T-shirt; អាវរងា, jumper. French « chemise » is feminine.",
+  "explanation_km": "« chemise » ជានាមភេទស្រី ហើយជាអាវមានឡេវ៖ la chemise។ អាវយឺតគឺ « le tee-shirt »។ អង់គ្លេស៖ « shirt »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 432,
+  "kind": "word",
+  "french": "le pantalon",
+  "english": "trousers",
+  "khmer": "ខោ",
+  "transliteration": "khao",
+  "category": "nom",
+  "explanation_fr": "ខោ désigne tout vêtement du bas à jambes. Le short se dit ខោខ្លី, « pantalon court », et le pantalon long ខោវែង.",
+  "explanation_en": "ខោ is any garment with legs. Shorts are ខោខ្លី, “short trousers”, and long trousers ខោវែង. French « pantalon » is singular: un pantalon.",
+  "explanation_km": "« pantalon » ជានាមភេទប្រុស ហើយជាឯកវចនៈ៖ un pantalon។ ខោខ្លីគឺ « le short »។ អង់គ្លេស៖ « trousers » ឬ « pants » ជាពហុវចនៈ។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 433,
+  "kind": "word",
+  "french": "la jupe",
+  "english": "skirt",
+  "khmer": "សំពត់",
+  "transliteration": "sâm-pot",
+  "category": "nom",
+  "explanation_fr": "សំពត់ désigne la jupe et le sarong traditionnel. Le sampot en soie se porte pour les fêtes et les mariages.",
+  "explanation_en": "សំពត់ means both a skirt and the traditional sarong. The silk sampot is worn for festivals and weddings. French « jupe » is feminine.",
+  "explanation_km": "« jupe » ជានាមភេទស្រី៖ la jupe។ សំពត់វែងក៏អាចហៅថា « la robe longue » ឬ « le sarong » ដែរ។ អង់គ្លេស៖ « skirt »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 434,
+  "kind": "word",
+  "french": "les chaussures",
+  "english": "shoes",
+  "khmer": "ស្បែកជើង",
+  "transliteration": "sbaèk tcheung",
+  "category": "nom",
+  "explanation_fr": "Mot à mot « peau de pied ». On les enlève avant d'entrer dans une maison ou un temple. Les tongs se disent ស្បែកជើងផ្ទាត់.",
+  "explanation_en": "Word for word “foot skin”. They come off before entering a house or a temple. Flip-flops are ស្បែកជើងផ្ទាត់. French « chaussures » is feminine.",
+  "explanation_km": "« chaussure » ជានាមភេទស្រី ហើយច្រើនប្រើពហុវចនៈ៖ les chaussures។ អង់គ្លេស៖ « shoes »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 2,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 435,
+  "kind": "word",
+  "french": "le chapeau",
+  "english": "hat",
+  "khmer": "មួក",
+  "transliteration": "mouok",
+  "category": "nom",
+  "explanation_fr": "មួក désigne le chapeau, la casquette et aussi le casque de moto, មួកសុវត្ថិភាព, « chapeau de sécurité ».",
+  "explanation_en": "មួក means a hat, a cap and also a motorbike helmet, មួកសុវត្ថិភាព, “safety hat”. French « chapeau » has the plural « chapeaux ».",
+  "explanation_km": "« chapeau » ជានាមភេទប្រុស៖ le chapeau, ពហុវចនៈ les chapeaux។ មួកសុវត្ថិភាពគឺ « le casque »។ អង់គ្លេស៖ « hat »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 436,
+  "kind": "word",
+  "french": "s'habiller",
+  "english": "to get dressed",
+  "khmer": "ស្លៀកពាក់",
+  "transliteration": "sliek péak",
+  "category": "verbe",
+  "explanation_fr": "Les deux verbes de « porter » réunis : ស្លៀក pour le bas, ពាក់ pour le haut. ស្លៀកពាក់ស្អាត, être bien habillé.",
+  "explanation_en": "The two verbs for “to wear” together: ស្លៀក for the lower body, ពាក់ for the upper. ស្លៀកពាក់ស្អាត, to be well dressed. French « s'habiller »: je m'habille.",
+  "explanation_km": "« s'habiller » ជាកិរិយាសព្ទឆ្លុះ៖ je m'habille, tu t'habilles។ អង់គ្លេស៖ « to get dressed »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 437,
+  "kind": "expression",
+  "french": "Ça te va bien.",
+  "english": "It suits you.",
+  "khmer": "សមនឹងអ្នកណាស់។",
+  "transliteration": "sâm neung néak nah.",
+  "category": "expression",
+  "explanation_fr": "សម (sâm), « qui convient, qui va bien ». Compliment courant sur une tenue.",
+  "explanation_en": "សម (sâm), “fitting, suitable”. A common compliment on an outfit. French « aller bien » means “to suit”: ça te va bien.",
+  "explanation_km": "« aller bien à quelqu'un » មានន័យថា សមនឹង។ អង់គ្លេស៖ « It suits you » ឬ « It looks good on you »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 438,
+  "kind": "expression",
+  "french": "Qu'est-ce que je mets ?",
+  "english": "What should I wear?",
+  "khmer": "ខ្ញុំស្លៀកអ្វីល្អ?",
+  "transliteration": "khgnom sliek ey l'â ?",
+  "category": "expression",
+  "explanation_fr": "Mot à mot « je porte quoi, ce serait bien ? ». ល្អ en fin de question demande un conseil.",
+  "explanation_en": "Word for word “I wear what, would be good?”. ល្អ at the end of a question asks for advice. French « mettre » means “to put on”.",
+  "explanation_km": "« mettre » មានន័យថា ស្លៀក ឬពាក់។ អង់គ្លេស៖ « What should I wear? »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 439,
+  "kind": "expression",
+  "french": "Enlève tes chaussures.",
+  "english": "Take off your shoes.",
+  "khmer": "ដោះស្បែកជើងចេញ។",
+  "transliteration": "doh sbaèk tcheung tchégn.",
+  "category": "expression",
+  "explanation_fr": "ដោះ (doh), « enlever, ôter », suivi de ចេញ, « dehors ». Se dit à l'entrée de chaque maison.",
+  "explanation_en": "ដោះ (doh), “to take off”, followed by ចេញ, “out”. Said at the entrance of every house. French « Enlève » is familiar; « Enlevez » is polite.",
+  "explanation_km": "« enlever » ផ្ទុយពី « mettre »។ អង់គ្លេស៖ « to take off »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 440,
+  "kind": "expression",
+  "french": "Il fait chaud, mets un chapeau.",
+  "english": "It's hot, put on a hat.",
+  "khmer": "ក្តៅណាស់ ពាក់មួកទៅ។",
+  "transliteration": "kdav nah, péak mouok teuv.",
+  "category": "expression",
+  "explanation_fr": "ទៅ en fin de phrase transforme le verbe en conseil ou en ordre amical.",
+  "explanation_en": "ទៅ at the end turns the verb into advice or a friendly order. French « mettre un chapeau » means “to put on a hat”.",
+  "explanation_km": "« mets » ជាទម្រង់បញ្ជារបស់ « mettre »។ អង់គ្លេស៖ « put on a hat »។",
+  "uncertain": false,
+  "unit_id": "u044",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-28",
+    "next_review": "2026-12-29",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 441,
+  "kind": "word",
+  "french": "l'avion",
+  "english": "plane",
+  "khmer": "យន្តហោះ",
+  "transliteration": "yun-hoh",
+  "category": "nom",
+  "explanation_fr": "យន្ត, « machine », et ហោះ, « voler ». Prendre l'avion se dit ជិះយន្តហោះ, comme pour une moto.",
+  "explanation_en": "យន្ត, “machine”, and ហោះ, “to fly”. To fly somewhere is ជិះយន្តហោះ, as for a motorbike. French « avion » is masculine: l'avion.",
+  "explanation_km": "« avion » ជានាមភេទប្រុស៖ l'avion, un avion។ « prendre l'avion » មានន័យថា ជិះយន្តហោះ។ អង់គ្លេស៖ « plane »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 442,
+  "kind": "word",
+  "french": "l'aéroport",
+  "english": "airport",
+  "khmer": "ព្រលានយន្តហោះ",
+  "transliteration": "prâ-léan yun-hoh",
+  "category": "nom",
+  "explanation_fr": "ព្រលាន, « la piste, l'esplanade » : mot à mot « l'esplanade des avions ».",
+  "explanation_en": "ព្រលាន, “runway, open ground”: word for word “the ground for planes”. French « aéroport » is masculine.",
+  "explanation_km": "« aéroport » ជានាមភេទប្រុស៖ l'aéroport។ « à l'aéroport » មានន័យថា នៅព្រលានយន្តហោះ។ អង់គ្លេស៖ « airport »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 443,
+  "kind": "word",
+  "french": "le passeport",
+  "english": "passport",
+  "khmer": "លិខិតឆ្លងដែន",
+  "transliteration": "lik-khet tchhlâng daèn",
+  "category": "nom",
+  "explanation_fr": "Mot à mot « lettre pour traverser la frontière ». ឆ្លង, traverser, et ដែន, le territoire.",
+  "explanation_en": "Word for word “letter for crossing the border”. ឆ្លង, to cross, and ដែន, territory. French « passeport » is masculine.",
+  "explanation_km": "« passeport » ជានាមភេទប្រុស៖ le passeport។ « le visa » មានន័យថា ទិដ្ឋាការ។ អង់គ្លេស៖ « passport »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 444,
+  "kind": "word",
+  "french": "le billet",
+  "english": "ticket",
+  "khmer": "សំបុត្រ",
+  "transliteration": "sâm-bot",
+  "category": "nom",
+  "explanation_fr": "សំបុត្រ veut dire « le billet » et aussi « la lettre ». Le billet d'avion : សំបុត្រយន្តហោះ.",
+  "explanation_en": "សំបុត្រ means “ticket” and also “letter”. A plane ticket: សំបុត្រយន្តហោះ. French « billet » also means a banknote.",
+  "explanation_km": "« billet » ជានាមភេទប្រុស៖ le billet d'avion។ « le billet » ក៏មានន័យថា ក្រដាសប្រាក់ដែរ។ អង់គ្លេស៖ « ticket »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 445,
+  "kind": "word",
+  "french": "la valise",
+  "english": "suitcase",
+  "khmer": "វ៉ាលី",
+  "transliteration": "va-li",
+  "category": "nom",
+  "explanation_fr": "Emprunté au français « valise ». Faire sa valise se dit រៀបចំវ៉ាលី.",
+  "explanation_en": "Borrowed from French « valise ». To pack your suitcase is រៀបចំវ៉ាលី. French « faire sa valise » means “to pack”.",
+  "explanation_km": "« valise » ជានាមភេទស្រី៖ la valise។ ពាក្យខ្មែរ វ៉ាលី មកពីពាក្យនេះ។ អង់គ្លេស៖ « suitcase »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 446,
+  "kind": "word",
+  "french": "arriver",
+  "english": "to arrive",
+  "khmer": "មកដល់",
+  "transliteration": "mok dâl",
+  "category": "verbe",
+  "explanation_fr": "Mot à mot « venir jusqu'à ». Si l'on parle d'arriver là-bas, on dit ទៅដល់, « aller jusqu'à ».",
+  "explanation_en": "Word for word “come as far as”. For arriving over there, say ទៅដល់, “go as far as”. French « arriver »: je suis arrivé, with « être ».",
+  "explanation_km": "« arriver » ប្រើជាមួយ « être » ក្នុងអតីតកាល៖ je suis arrivé។ អង់គ្លេស៖ « to arrive »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 447,
+  "kind": "expression",
+  "french": "Bon voyage !",
+  "english": "Have a good trip!",
+  "khmer": "ដំណើរសុខសប្បាយ!",
+  "transliteration": "dâm-naeu sok sa-bay !",
+  "category": "expression",
+  "explanation_fr": "Mot à mot « que le voyage se passe bien ». On le dit au moment des adieux.",
+  "explanation_en": "Word for word “may the journey go well”. Said when saying goodbye. French « Bon voyage ! » is the same as in English.",
+  "explanation_km": "« Bon voyage ! » ជូនពរអ្នកដែលចេញដំណើរ។ « voyage » ជានាមភេទប្រុស ទើបប្រើ « bon »។ អង់គ្លេស៖ « Have a good trip! »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 448,
+  "kind": "expression",
+  "french": "L'avion a du retard.",
+  "english": "The plane is delayed.",
+  "khmer": "យន្តហោះយឺតម៉ោង។",
+  "transliteration": "yun-hoh yeut maong.",
+  "category": "expression",
+  "explanation_fr": "យឺតម៉ោង, « en retard sur l'heure ». Le contraire est ទាន់ម៉ោង, « à l'heure ».",
+  "explanation_en": "យឺតម៉ោង, “behind the hour”. The opposite is ទាន់ម៉ោង, “on time”. French « avoir du retard » means “to be delayed”.",
+  "explanation_km": "« avoir du retard » មានន័យថា យឺតម៉ោង។ « à l'heure » មានន័យថា ទាន់ម៉ោង។ អង់គ្លេស៖ « delayed », « on time »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 449,
+  "kind": "expression",
+  "french": "Où est la porte d'embarquement ?",
+  "english": "Where is the boarding gate?",
+  "khmer": "ច្រកចូលយន្តហោះនៅឯណា?",
+  "transliteration": "tchrâk tchôl yun-hoh neuv aè na ?",
+  "category": "expression",
+  "explanation_fr": "ច្រក (tchrâk), « le passage, la porte d'accès ». Mot à mot « le passage pour monter dans l'avion ».",
+  "explanation_en": "ច្រក (tchrâk), “passage, access gate”. Word for word “the passage for boarding the plane”. French « porte » means “door” or “gate”.",
+  "explanation_km": "« la porte d'embarquement » មានន័យថា ច្រកចូលយន្តហោះ។ អង់គ្លេស៖ « boarding gate »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 450,
+  "kind": "expression",
+  "french": "Je viens te chercher.",
+  "english": "I'll come and pick you up.",
+  "khmer": "ខ្ញុំទៅទទួលអ្នក។",
+  "transliteration": "khgnom teuv tô-tuol néak.",
+  "category": "expression",
+  "explanation_fr": "ទទួល (tô-tuol), « recevoir, accueillir ». Aller chercher quelqu'un, c'est « aller l'accueillir ».",
+  "explanation_en": "ទទួល (tô-tuol), “to receive, to welcome”. Picking someone up means “going to welcome them”. French « venir chercher » means “to come and pick up”.",
+  "explanation_km": "« venir chercher quelqu'un » មានន័យថា មកទទួល។ អង់គ្លេស៖ « to pick someone up »។",
+  "uncertain": false,
+  "unit_id": "u045",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-29",
+    "next_review": "2026-12-30",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 451,
+  "kind": "word",
+  "french": "le mois",
+  "english": "month",
+  "khmer": "ខែ",
+  "transliteration": "khaè",
+  "category": "nom",
+  "explanation_fr": "ខែ veut aussi dire « la lune » : les mois suivaient autrefois le calendrier lunaire, encore utilisé pour les fêtes.",
+  "explanation_en": "ខែ also means “moon”: months used to follow the lunar calendar, still used for festivals. French « mois » is masculine; the s is always there.",
+  "explanation_km": "« mois » ជានាមភេទប្រុស ហើយ s មិនអានទេ៖ le mois, ce mois-ci, le mois prochain។ អង់គ្លេស៖ « month »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 452,
+  "kind": "word",
+  "french": "l'année",
+  "english": "year",
+  "khmer": "ឆ្នាំ",
+  "transliteration": "tchhnam",
+  "category": "nom",
+  "explanation_fr": "ឆ្នាំ sert aussi pour l'âge : អាយុម្ភៃឆ្នាំ, vingt ans. Chaque année porte un animal du zodiaque.",
+  "explanation_en": "ឆ្នាំ is also used for age: អាយុម្ភៃឆ្នាំ, twenty years old. Each year has a zodiac animal. French has « an » for counting (vingt ans) and « année » for the period.",
+  "explanation_km": "« année » ជានាមភេទស្រី៖ l'année, cette année។ ប៉ុន្តែអាយុប្រើ « an »៖ j'ai vingt ans។ អង់គ្លេស៖ « year »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 453,
+  "kind": "word",
+  "french": "la semaine",
+  "english": "week",
+  "khmer": "សប្តាហ៍",
+  "transliteration": "sap-da",
+  "category": "nom",
+  "explanation_fr": "សប្តាហ៍ vient du sanskrit « sept ». À l'oral, on entend aussi អាទិត្យ, le même mot que « dimanche ».",
+  "explanation_en": "សប្តាហ៍ comes from the Sanskrit for “seven”. In speech, you also hear អាទិត្យ, the same word as “Sunday”. French « semaine » is feminine.",
+  "explanation_km": "« semaine » ជានាមភេទស្រី៖ la semaine, cette semaine។ ចុងសប្តាហ៍គឺ « le week-end »។ អង់គ្លេស៖ « week »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 454,
+  "kind": "word",
+  "french": "la date",
+  "english": "date",
+  "khmer": "កាលបរិច្ឆេទ",
+  "transliteration": "kal-bâ-ret-tchhét",
+  "category": "nom",
+  "explanation_fr": "Mot savant, écrit sur les documents. À l'oral, on demande simplement ថ្ងៃទីប៉ុន្មាន?, « le jour numéro combien ? ».",
+  "explanation_en": "A learned word, written on documents. In speech, simply ask ថ្ងៃទីប៉ុន្មាន?, “day number how much?”. French « date » is feminine.",
+  "explanation_km": "« date » ជានាមភេទស្រី៖ la date។ « la date de naissance » មានន័យថា ថ្ងៃខែឆ្នាំកំណើត។ អង់គ្លេស៖ « date »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 455,
+  "kind": "word",
+  "french": "l'anniversaire",
+  "english": "birthday",
+  "khmer": "ថ្ងៃកំណើត",
+  "transliteration": "thngay kâm-naeut",
+  "category": "nom",
+  "explanation_fr": "Mot à mot « le jour de naissance ». L'anniversaire de mariage se dit ខួបអាពាហ៍ពិពាហ៍.",
+  "explanation_en": "Word for word “day of birth”. A wedding anniversary is ខួបអាពាហ៍ពិពាហ៍. French « anniversaire » means both birthday and anniversary.",
+  "explanation_km": "« anniversaire » ជានាមភេទប្រុស៖ l'anniversaire, mon anniversaire។ ក៏ប្រើសម្រាប់ខួបអ្វីផ្សេងដែរ។ អង់គ្លេស៖ « birthday », « anniversary »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 456,
+  "kind": "word",
+  "french": "le calendrier",
+  "english": "calendar",
+  "khmer": "ប្រតិទិន",
+  "transliteration": "prâ-te-tin",
+  "category": "nom",
+  "explanation_fr": "Les calendriers khmers indiquent à la fois les dates solaires et les jours lunaires, utiles pour les fêtes religieuses.",
+  "explanation_en": "Khmer calendars show both solar dates and lunar days, useful for religious festivals. French « calendrier » is masculine.",
+  "explanation_km": "« calendrier » ជានាមភេទប្រុស ហើយ r នៅចុងមិនអានទេ៖ le calendrier។ អង់គ្លេស៖ « calendar »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 457,
+  "kind": "expression",
+  "french": "On est le combien aujourd'hui ?",
+  "english": "What's the date today?",
+  "khmer": "ថ្ងៃនេះថ្ងៃទីប៉ុន្មាន?",
+  "transliteration": "thngay nih thngay ti pon-man ?",
+  "category": "expression",
+  "explanation_fr": "ទី (ti) devant un nombre en fait un ordinal : ទីមួយ, premier ; ទីពីរ, deuxième.",
+  "explanation_en": "ទី (ti) before a number makes it ordinal: ទីមួយ, first; ទីពីរ, second. French « le combien » is a casual way to ask the date.",
+  "explanation_km": "« On est le combien ? » ជាពាក្យសួរថ្ងៃទីបែបធម្មតា។ អង់គ្លេស៖ « What's the date today? »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 458,
+  "kind": "expression",
+  "french": "C'est quand, ton anniversaire ?",
+  "english": "When is your birthday?",
+  "khmer": "ថ្ងៃកំណើតរបស់អ្នកនៅពេលណា?",
+  "transliteration": "thngay kâm-naeut ro-bâh néak neuv pél na ?",
+  "category": "expression",
+  "explanation_fr": "ពេលណា, « quand », se place en fin de phrase.",
+  "explanation_en": "ពេលណា, “when”, goes at the end of the sentence. French « C'est quand ? » is casual.",
+  "explanation_km": "« quand » មានន័យថា ពេលណា។ « ton » ប្រើជាមួយនាមភេទប្រុស៖ ton anniversaire។ អង់គ្លេស៖ « When is your birthday? »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 459,
+  "kind": "expression",
+  "french": "Le mois prochain.",
+  "english": "Next month.",
+  "khmer": "ខែក្រោយ។",
+  "transliteration": "khaè kraoy.",
+  "category": "expression",
+  "explanation_fr": "ក្រោយ, « après », pour le futur ; មុន, « avant », pour le passé : ខែមុន, le mois dernier.",
+  "explanation_en": "ក្រោយ, “after”, for the future; មុន, “before”, for the past: ខែមុន, last month. French « le mois prochain ».",
+  "explanation_km": "« prochain » សម្រាប់អនាគត និង « dernier » សម្រាប់អតីតកាល៖ le mois dernier។ អង់គ្លេស៖ « next month », « last month »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 460,
+  "kind": "expression",
+  "french": "L'année dernière.",
+  "english": "Last year.",
+  "khmer": "ឆ្នាំមុន។",
+  "transliteration": "tchhnam moun.",
+  "category": "expression",
+  "explanation_fr": "Même modèle que សប្តាហ៍មុន, la semaine dernière.",
+  "explanation_en": "The same pattern as សប្តាហ៍មុន, last week. French « l'année dernière ».",
+  "explanation_km": "« dernière » គឺ « dernier » ភេទស្រី ព្រោះ « année » ជានាមភេទស្រី។ អង់គ្លេស៖ « last year »។",
+  "uncertain": false,
+  "unit_id": "u046",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-30",
+    "next_review": "2026-12-31",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 461,
+  "kind": "word",
+  "french": "la cuisine",
+  "english": "kitchen",
+  "khmer": "ផ្ទះបាយ",
+  "transliteration": "phtéah bay",
+  "category": "nom",
+  "explanation_fr": "Mot à mot « la maison du riz ». Attention : « faire la cuisine » se dit ធ្វើម្ហូប, pas avec ផ្ទះបាយ.",
+  "explanation_en": "Word for word “the rice house”. Careful: “to cook” is ធ្វើម្ហូប, not built with ផ្ទះបាយ. French « cuisine » means both the kitchen and cooking.",
+  "explanation_km": "« cuisine » មានន័យពីរ៖ ផ្ទះបាយ និងការធ្វើម្ហូប៖ la cuisine khmère។ អង់គ្លេស៖ « kitchen » និង « cooking »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 462,
+  "kind": "word",
+  "french": "le salon",
+  "english": "living room",
+  "khmer": "បន្ទប់ទទួលភ្ញៀវ",
+  "transliteration": "bân-toup tô-tuol phgnieu",
+  "category": "nom",
+  "explanation_fr": "Mot à mot « la pièce pour recevoir les invités ». ភ្ញៀវ (phgnieu), l'invité, le client.",
+  "explanation_en": "Word for word “the room for receiving guests”. ភ្ញៀវ (phgnieu), guest, customer. French « salon » is masculine.",
+  "explanation_km": "« salon » ជានាមភេទប្រុស៖ le salon។ « le salon de coiffure » មានន័យថា ហាងកាត់សក់។ អង់គ្លេស៖ « living room »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 463,
+  "kind": "word",
+  "french": "la fenêtre",
+  "english": "window",
+  "khmer": "បង្អួច",
+  "transliteration": "bâng-ouotch",
+  "category": "nom",
+  "explanation_fr": "Pour aérer, on ouvre les fenêtres : បើកបង្អួច. Le même verbe បើក sert pour la porte.",
+  "explanation_en": "To air the room, open the windows: បើកបង្អួច. The same verb បើក is used for a door. French « fenêtre » has a circumflex: ê.",
+  "explanation_km": "« fenêtre » ជានាមភេទស្រី៖ la fenêtre។ សញ្ញា ê អានដូច è។ អង់គ្លេស៖ « window »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 464,
+  "kind": "word",
+  "french": "le jardin",
+  "english": "garden",
+  "khmer": "សួន",
+  "transliteration": "souon",
+  "category": "nom",
+  "explanation_fr": "សួន seul est le jardin ; សួនច្បារ, le parc ; សួនបន្លែ, le potager.",
+  "explanation_en": "សួន alone is a garden; សួនច្បារ, a park; សួនបន្លែ, a vegetable garden. French « jardin » is masculine.",
+  "explanation_km": "« jardin » ជានាមភេទប្រុស៖ le jardin។ សួនបន្លែគឺ « le potager »។ អង់គ្លេស៖ « garden »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 465,
+  "kind": "word",
+  "french": "l'escalier",
+  "english": "stairs",
+  "khmer": "ជណ្តើរ",
+  "transliteration": "tchum-daeu",
+  "category": "nom",
+  "explanation_fr": "ជណ្តើរ désigne l'escalier et l'échelle. Monter se dit ឡើង, descendre ចុះ.",
+  "explanation_en": "ជណ្តើរ means both stairs and ladder. To go up is ឡើង, to go down ចុះ. French « escalier » is singular: l'escalier.",
+  "explanation_km": "« escalier » ជានាមភេទប្រុស ហើយជាឯកវចនៈ៖ l'escalier។ « monter l'escalier » មានន័យថា ឡើងជណ្តើរ។ អង់គ្លេស៖ « stairs »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 466,
+  "kind": "word",
+  "french": "le toit",
+  "english": "roof",
+  "khmer": "ដំបូល",
+  "transliteration": "dâm-boul",
+  "category": "nom",
+  "explanation_fr": "Les toits khmers traditionnels sont en tuiles ou en feuilles de palmier, avec des pointes relevées aux angles.",
+  "explanation_en": "Traditional Khmer roofs are made of tiles or palm leaves, with upturned points at the corners. French « toit » sounds like “twa”.",
+  "explanation_km": "« toit » ជានាមភេទប្រុស ហើយ t នៅចុងមិនអានទេ៖ le toit។ អង់គ្លេស៖ « roof »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 467,
+  "kind": "expression",
+  "french": "Fais comme chez toi.",
+  "english": "Make yourself at home.",
+  "khmer": "ធ្វើដូចនៅផ្ទះខ្លួនឯងចុះ។",
+  "transliteration": "thveu dôtch neuv phtéah khlouon aèng tchoh.",
+  "category": "expression",
+  "explanation_fr": "ខ្លួនឯង (khlouon aèng), « soi-même ». Formule d'accueil chaleureuse pour un invité.",
+  "explanation_en": "ខ្លួនឯង (khlouon aèng), “oneself”. A warm welcome for a guest. French « chez toi » means “at your place”.",
+  "explanation_km": "« chez toi » មានន័យថា នៅផ្ទះរបស់អ្នក។ អង់គ្លេស៖ « Make yourself at home »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 468,
+  "kind": "expression",
+  "french": "Ferme la fenêtre, il pleut.",
+  "english": "Close the window, it's raining.",
+  "khmer": "បិទបង្អួច ភ្លៀងហើយ។",
+  "transliteration": "bet bâng-ouotch, phlieng haeuy.",
+  "category": "expression",
+  "explanation_fr": "ភ្លៀងហើយ, mot à mot « il pleut déjà » : la pluie vient de commencer.",
+  "explanation_en": "ភ្លៀងហើយ, word for word “it is already raining”: the rain has just started. French « il pleut » means “it's raining”.",
+  "explanation_km": "« il pleut » មានន័យថា កំពុងភ្លៀង។ អង់គ្លេស៖ « it's raining »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 469,
+  "kind": "expression",
+  "french": "Où sont les toilettes ?",
+  "english": "Where is the toilet?",
+  "khmer": "បង្គន់នៅឯណា?",
+  "transliteration": "bâng-koun neuv aè na ?",
+  "category": "expression",
+  "explanation_fr": "បង្គន់ (bâng-koun), les toilettes. Dans un lieu public, on demande aussi បន្ទប់ទឹកនៅឯណា?",
+  "explanation_en": "បង្គន់ (bâng-koun), toilet. In a public place, people also ask បន្ទប់ទឹកនៅឯណា? French « toilettes » is plural.",
+  "explanation_km": "« les toilettes » តែងប្រើពហុវចនៈ។ អង់គ្លេស៖ « toilet », « bathroom », « restroom »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 470,
+  "kind": "expression",
+  "french": "On monte à l'étage ?",
+  "english": "Shall we go upstairs?",
+  "khmer": "ឡើងទៅជាន់លើទេ?",
+  "transliteration": "laeung teuv tchoan leu té ?",
+  "category": "expression",
+  "explanation_fr": "ជាន់ (tchoan), « l'étage ». ជាន់លើ, l'étage du haut ; ជាន់ក្រោម, le rez-de-chaussée.",
+  "explanation_en": "ជាន់ (tchoan), “floor, storey”. ជាន់លើ, upstairs; ជាន់ក្រោម, ground floor. French « l'étage » means the upper floor.",
+  "explanation_km": "« monter » មានន័យថា ឡើង ហើយ « descendre » មានន័យថា ចុះ។ អង់គ្លេស៖ « to go upstairs »។",
+  "uncertain": false,
+  "unit_id": "u047",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2026-12-31",
+    "next_review": "2027-01-01",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 471,
+  "kind": "word",
+  "french": "l'ordinateur",
+  "english": "computer",
+  "khmer": "កុំព្យូទ័រ",
+  "transliteration": "kom-pyou-tô",
+  "category": "nom",
+  "explanation_fr": "Emprunté à l'anglais « computer ». Un ordinateur portable se dit កុំព្យូទ័រយួរដៃ, « ordinateur qu'on porte à la main ».",
+  "explanation_en": "Borrowed from English “computer”. A laptop is កុំព្យូទ័រយួរដៃ, “computer you carry in your hand”. French « ordinateur » is masculine; a laptop is « un portable ».",
+  "explanation_km": "« ordinateur » ជានាមភេទប្រុស៖ l'ordinateur។ កុំព្យូទ័រយួរដៃគឺ « l'ordinateur portable »។ អង់គ្លេស៖ « computer », « laptop »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 472,
+  "kind": "word",
+  "french": "internet",
+  "english": "internet",
+  "khmer": "អ៊ីនធឺណិត",
+  "transliteration": "in-theu-net",
+  "category": "nom",
+  "explanation_fr": "Emprunté à l'anglais. Pour « se connecter », on dit ភ្ជាប់អ៊ីនធឺណិត (phtchoap in-theu-net).",
+  "explanation_en": "Borrowed from English. To connect is ភ្ជាប់អ៊ីនធឺណិត (phtchoap in-theu-net). French writes « internet » without an article.",
+  "explanation_km": "« internet » មិនសូវប្រើពាក្យនាំមុខទេ៖ sur internet។ អង់គ្លេស៖ « on the internet »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   },
+   "en": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   },
+   "km": {
+    "learning_level": 1,
+    "review_count": 1,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.2
+   }
+  }
+ },
+ {
+  "id": 473,
+  "kind": "word",
+  "french": "la photo",
+  "english": "photo",
+  "khmer": "រូបថត",
+  "transliteration": "roup-thât",
+  "category": "nom",
+  "explanation_fr": "រូប, « l'image », et ថត, « enregistrer, photographier ». Prendre une photo se dit ថតរូប.",
+  "explanation_en": "រូប, “image”, and ថត, “to record, to photograph”. To take a photo is ថតរូប. French « photo » is feminine.",
+  "explanation_km": "« photo » ជានាមភេទស្រី៖ la photo។ « prendre une photo » មានន័យថា ថតរូប។ អង់គ្លេស៖ « photo », « to take a picture »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 474,
+  "kind": "word",
+  "french": "envoyer",
+  "english": "to send",
+  "khmer": "ផ្ញើ",
+  "transliteration": "phgnaeu",
+  "category": "verbe",
+  "explanation_fr": "ផ្ញើ sert pour une lettre, un colis ou un message. Pour un message, on dit aussi ផ្ញើសារ.",
+  "explanation_en": "ផ្ញើ is used for a letter, a parcel or a message. For a message, people also say ផ្ញើសារ. French « envoyer »: j'envoie.",
+  "explanation_km": "« envoyer »៖ j'envoie, tu envoies, nous envoyons។ អង់គ្លេស៖ « to send »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 475,
+  "kind": "word",
+  "french": "le mot de passe",
+  "english": "password",
+  "khmer": "ពាក្យសម្ងាត់",
+  "transliteration": "péak sâm-ngat",
+  "category": "nom",
+  "explanation_fr": "Mot à mot « le mot secret ». សម្ងាត់ (sâm-ngat), « le secret », vient de ស្ងាត់, « silencieux ».",
+  "explanation_en": "Word for word “secret word”. សម្ងាត់ (sâm-ngat), “secret”, comes from ស្ងាត់, “silent”. French « mot de passe » literally means “word for passing”.",
+  "explanation_km": "« le mot de passe » មានន័យថា ពាក្យសម្ងាត់។ « mot » មានន័យថា ពាក្យ។ អង់គ្លេស៖ « password »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 476,
+  "kind": "word",
+  "french": "la batterie",
+  "english": "battery",
+  "khmer": "ថ្ម",
+  "transliteration": "thmâ",
+  "category": "nom",
+  "explanation_fr": "ថ្ម veut d'abord dire « la pierre ». Recharger le téléphone se dit សាកថ្ម (sak thmâ).",
+  "explanation_en": "ថ្ម first means “stone”. To charge the phone is សាកថ្ម (sak thmâ). French « batterie » is feminine.",
+  "explanation_km": "« batterie » ជានាមភេទស្រី៖ la batterie។ « recharger » មានន័យថា សាកថ្ម។ អង់គ្លេស៖ « battery », « to charge »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 477,
+  "kind": "expression",
+  "french": "Quel est le code du wifi ?",
+  "english": "What's the wifi password?",
+  "khmer": "លេខកូដវ៉ាយហ្វាយលេខប៉ុន្មាន?",
+  "transliteration": "lék kôt vay-fay lék pon-man ?",
+  "category": "expression",
+  "explanation_fr": "Question indispensable au café ou à l'hôtel. Le wifi se prononce « vay-fay » en khmer, comme en anglais.",
+  "explanation_en": "An essential question at a café or hotel. Wifi is pronounced “vay-fay” in Khmer, as in English. French says « le code du wifi », pronounced “wee-fee”.",
+  "explanation_km": "ភាសាបារាំងអាន wifi ថា « oui-fi »។ អង់គ្លេស៖ « What's the wifi password? »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 478,
+  "kind": "expression",
+  "french": "Ma batterie est vide.",
+  "english": "My battery is dead.",
+  "khmer": "ថ្មអស់ហើយ។",
+  "transliteration": "thmâ âh haeuy.",
+  "category": "expression",
+  "explanation_fr": "អស់ (âh), « épuisé, fini ». Le même mot sert quand il n'y a plus rien : អស់លុយ, plus d'argent.",
+  "explanation_en": "អស់ (âh), “used up, finished”. The same word is used when there is nothing left: អស់លុយ, out of money. French « vide » means “empty”.",
+  "explanation_km": "« vide » មានន័យថា ទទេ ឬអស់។ អង់គ្លេស៖ « My battery is dead » ឬ « flat »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 479,
+  "kind": "expression",
+  "french": "Envoie-moi la photo.",
+  "english": "Send me the photo.",
+  "khmer": "ផ្ញើរូបមកខ្ញុំផង។",
+  "transliteration": "phgnaeu roup mok khgnom phâng.",
+  "category": "expression",
+  "explanation_fr": "មក, « venir », indique la direction vers celui qui parle. ផង adoucit la demande.",
+  "explanation_en": "មក, “to come”, shows the direction towards the speaker. ផង softens the request. French « Envoie-moi » is familiar.",
+  "explanation_km": "« envoie-moi » ជាទម្រង់បញ្ជា៖ « moi » នៅក្រោយកិរិយាសព្ទ។ អង់គ្លេស៖ « Send me »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 480,
+  "kind": "expression",
+  "french": "On fait un appel vidéo ?",
+  "english": "Shall we do a video call?",
+  "khmer": "ហៅវីដេអូទេ?",
+  "transliteration": "hav vi-dé-ô té ?",
+  "category": "expression",
+  "explanation_fr": "Mot à mot « appeler en vidéo ». Très utilisé pour parler à la famille à l'étranger.",
+  "explanation_en": "Word for word “call by video”. Widely used to talk to family abroad. French « appel vidéo ».",
+  "explanation_km": "« un appel vidéo » មានន័យថា ការហៅវីដេអូ។ អង់គ្លេស៖ « video call »។",
+  "uncertain": false,
+  "unit_id": "u048",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-01",
+    "next_review": "2027-01-02",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 481,
+  "kind": "word",
+  "french": "saluer",
+  "english": "to greet",
+  "khmer": "សំពះ",
+  "transliteration": "sâm-péah",
+  "category": "verbe",
+  "explanation_fr": "សំពះ désigne précisément le salut mains jointes. Pour saluer en général, on dit aussi ស្វាគមន៍, accueillir.",
+  "explanation_en": "សំពះ is precisely the greeting with joined hands. For greeting in general, people also say ស្វាគមន៍, to welcome. French « saluer » means “to greet”.",
+  "explanation_km": "« saluer » មានន័យថា និយាយសួស្តី ឬសំពះ។ នៅប្រទេសបារាំង គេចាប់ដៃ៖ « serrer la main »។ អង់គ្លេស៖ « to greet »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 482,
+  "kind": "word",
+  "french": "poli",
+  "english": "polite",
+  "khmer": "គួរសម",
+  "transliteration": "kouo-sâm",
+  "category": "adjectif",
+  "explanation_fr": "គួរសម, « convenable, comme il faut ». Le contraire : មិនគួរសម, impoli.",
+  "explanation_en": "គួរសម, “proper, as it should be”. The opposite: មិនគួរសម, impolite. French « poli » becomes « polie » in the feminine.",
+  "explanation_km": "« poli » សម្រាប់ភេទប្រុស និង « polie » សម្រាប់ភេទស្រី (អានដូចគ្នា)។ ផ្ទុយគឺ « impoli »។ អង់គ្លេស៖ « polite »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 483,
+  "kind": "word",
+  "french": "respecter",
+  "english": "to respect",
+  "khmer": "គោរព",
+  "transliteration": "kô-rup",
+  "category": "verbe",
+  "explanation_fr": "គោរព s'emploie aussi dans les formules écrites : សូមគោរព, « avec respect », en début de lettre.",
+  "explanation_en": "គោរព is also used in written formulas: សូមគោរព, “respectfully”, at the start of a letter. French « respecter »: je respecte.",
+  "explanation_km": "« respecter »៖ je respecte, nous respectons។ « le respect » មានន័យថា ការគោរព។ អង់គ្លេស៖ « to respect »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 484,
+  "kind": "word",
+  "french": "la coutume",
+  "english": "custom",
+  "khmer": "ទំនៀមទម្លាប់",
+  "transliteration": "toum-niem toum-loap",
+  "category": "nom",
+  "explanation_fr": "Deux mots associés : ទំនៀម, la tradition, et ទម្លាប់, l'habitude. Le mot ប្រពៃណី, la tradition, est proche.",
+  "explanation_en": "Two words together: ទំនៀម, tradition, and ទម្លាប់, habit. The word ប្រពៃណី, tradition, is close. French « coutume » is feminine.",
+  "explanation_km": "« coutume » ជានាមភេទស្រី៖ la coutume, les coutumes khmères។ អង់គ្លេស៖ « custom », « tradition »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 485,
+  "kind": "word",
+  "french": "l'invité",
+  "english": "guest",
+  "khmer": "ភ្ញៀវ",
+  "transliteration": "phgnieu",
+  "category": "nom",
+  "explanation_fr": "ភ្ញៀវ veut dire l'invité, mais aussi le client d'un magasin ou le touriste : ភ្ញៀវទេសចរ.",
+  "explanation_en": "ភ្ញៀវ means a guest, but also a shop customer or a tourist: ភ្ញៀវទេសចរ. French « invité » becomes « invitée » for a woman.",
+  "explanation_km": "« invité » សម្រាប់ប្រុស និង « invitée » សម្រាប់ស្រី (អានដូចគ្នា)។ អង់គ្លេស៖ « guest »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 486,
+  "kind": "word",
+  "french": "les aînés",
+  "english": "elders",
+  "khmer": "ចាស់ទុំ",
+  "transliteration": "tchah toum",
+  "category": "nom",
+  "explanation_fr": "ចាស់, « vieux », et ទុំ, « mûr » comme un fruit : les anciens sont « mûrs » de sagesse.",
+  "explanation_en": "ចាស់, “old”, and ទុំ, “ripe” like a fruit: elders are “ripe” with wisdom. French « aînés » means “elders”.",
+  "explanation_km": "« les aînés » មានន័យថា មនុស្សចាស់ ឬមនុស្សដែលមានអាយុច្រើនជាង។ អង់គ្លេស៖ « elders »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 487,
+  "kind": "expression",
+  "french": "Ce n'est pas poli.",
+  "english": "That's not polite.",
+  "khmer": "មិនគួរសមទេ។",
+  "transliteration": "min kouo-sâm té.",
+  "category": "expression",
+  "explanation_fr": "Remarque courante quand on apprend les bonnes manières aux enfants.",
+  "explanation_en": "A common remark when teaching children good manners. French « Ce n'est pas poli ».",
+  "explanation_km": "« ce n'est pas » + គុណនាម៖ ce n'est pas poli, ce n'est pas grave។ អង់គ្លេស៖ « That's not polite »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 488,
+  "kind": "expression",
+  "french": "Après vous.",
+  "english": "After you.",
+  "khmer": "អញ្ជើញមុនចុះ។",
+  "transliteration": "agn-tcheugn moun tchoh.",
+  "category": "expression",
+  "explanation_fr": "Mot à mot « je vous en prie, passez devant ». On laisse passer les aînés en premier.",
+  "explanation_en": "Word for word “please, go ahead”. Elders are let through first. French « Après vous ».",
+  "explanation_km": "« Après vous » ប្រើពេលឱ្យអ្នកផ្សេងដើរមុន។ អង់គ្លេស៖ « After you »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 489,
+  "kind": "expression",
+  "french": "Servez-vous, je vous en prie.",
+  "english": "Please help yourself.",
+  "khmer": "សូមអញ្ជើញយកតាមចិត្ត។",
+  "transliteration": "sôm agn-tcheugn yok tam tchet.",
+  "category": "expression",
+  "explanation_fr": "តាមចិត្ត, « selon votre cœur », c'est-à-dire « comme vous voulez ».",
+  "explanation_en": "តាមចិត្ត, “according to your heart”, that is, “as you like”. French « Servez-vous » means “help yourself”.",
+  "explanation_km": "« se servir » មានន័យថា យកខ្លួនឯង។ « je vous en prie » ជាពាក្យគួរសម។ អង់គ្លេស៖ « Please help yourself »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 490,
+  "kind": "expression",
+  "french": "Ne vous dérangez pas.",
+  "english": "Don't go to any trouble.",
+  "khmer": "កុំរវល់អី។",
+  "transliteration": "kom ro-vol ey.",
+  "category": "expression",
+  "explanation_fr": "Se dit quand l'hôte veut préparer quelque chose pour vous. Mais on accepte toujours le verre d'eau offert.",
+  "explanation_en": "Said when the host wants to prepare something for you. But always accept the glass of water you are offered. French « se déranger » means “to go to trouble”.",
+  "explanation_km": "« déranger » មានន័យថា រំខាន។ អង់គ្លេស៖ « Don't go to any trouble »។",
+  "uncertain": false,
+  "unit_id": "u049",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-02",
+    "next_review": "2027-01-03",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 491,
+  "kind": "word",
+  "french": "le mot",
+  "english": "word",
+  "khmer": "ពាក្យ",
+  "transliteration": "péak",
+  "category": "nom",
+  "explanation_fr": "ពាក្យ veut dire « le mot » et aussi « la parole ». Un nouveau mot : ពាក្យថ្មី.",
+  "explanation_en": "ពាក្យ means “word” and also “speech”. A new word: ពាក្យថ្មី. French « mot » is masculine; the t is silent.",
+  "explanation_km": "« mot » ជានាមភេទប្រុស ហើយ t មិនអានទេ៖ le mot, les mots។ អង់គ្លេស៖ « word »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 492,
+  "kind": "word",
+  "french": "la phrase",
+  "english": "sentence",
+  "khmer": "ប្រយោគ",
+  "transliteration": "prâ-yaok",
+  "category": "nom",
+  "explanation_fr": "En khmer, une phrase se termine par le signe ។, l'équivalent du point.",
+  "explanation_en": "In Khmer, a sentence ends with the sign ។, the equivalent of a full stop. French « phrase » means “sentence”, not “phrase”.",
+  "explanation_km": "« phrase » ជានាមភេទស្រី ហើយ ph អានដូច f៖ la phrase។ អង់គ្លេស៖ « sentence »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 493,
+  "kind": "word",
+  "french": "prononcer",
+  "english": "to pronounce",
+  "khmer": "បញ្ចេញសំឡេង",
+  "transliteration": "bagn-tchégn sâm-léng",
+  "category": "verbe",
+  "explanation_fr": "Mot à mot « faire sortir le son ». សំឡេង (sâm-léng), le son ou la voix.",
+  "explanation_en": "Word for word “bring out the sound”. សំឡេង (sâm-léng), sound or voice. French « prononcer »: je prononce.",
+  "explanation_km": "« prononcer »៖ je prononce, nous prononçons (ç អានដូច s)។ « la prononciation » មានន័យថា ការបញ្ចេញសំឡេង។ អង់គ្លេស៖ « to pronounce »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 494,
+  "kind": "word",
+  "french": "écrire",
+  "english": "to write",
+  "khmer": "សរសេរ",
+  "transliteration": "sâ-sé",
+  "category": "verbe",
+  "explanation_fr": "L'écriture se dit អក្សរ (âk-sâ), qui veut aussi dire « la lettre ».",
+  "explanation_en": "Writing is អក្សរ (âk-sâ), which also means “letter”. French « écrire »: j'écris.",
+  "explanation_km": "« écrire »៖ j'écris, tu écris, nous écrivons។ « une lettre » មានន័យថា អក្សរមួយតួ ឬសំបុត្រ។ អង់គ្លេស៖ « to write »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 495,
+  "kind": "word",
+  "french": "traduire",
+  "english": "to translate",
+  "khmer": "បកប្រែ",
+  "transliteration": "bâk-praè",
+  "category": "verbe",
+  "explanation_fr": "បក, « éplucher », et ប្រែ, « changer » : traduire, c'est « éplucher et transformer » le sens.",
+  "explanation_en": "បក, “to peel”, and ប្រែ, “to change”: translating is “peeling and transforming” the meaning. French « traduire »: je traduis.",
+  "explanation_km": "« traduire »៖ je traduis, nous traduisons។ « la traduction » មានន័យថា ការបកប្រែ។ អង់គ្លេស៖ « to translate »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 496,
+  "kind": "word",
+  "french": "s'entraîner",
+  "english": "to practise",
+  "khmer": "ហាត់",
+  "transliteration": "hat",
+  "category": "verbe",
+  "explanation_fr": "ហាត់ sert pour le sport comme pour les langues : ហាត់និយាយ, s'entraîner à parler.",
+  "explanation_en": "ហាត់ is used for sport and for languages: ហាត់និយាយ, practise speaking. French « s'entraîner »: je m'entraîne.",
+  "explanation_km": "« s'entraîner » ជាកិរិយាសព្ទឆ្លុះ៖ je m'entraîne។ អង់គ្លេស៖ « to practise »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 497,
+  "kind": "expression",
+  "french": "Comment on dit ça en khmer ?",
+  "english": "How do you say that in Khmer?",
+  "khmer": "ជាភាសាខ្មែរ គេថាម៉េច?",
+  "transliteration": "tchéa phéa-sa khmaè ké tha métch ?",
+  "category": "expression",
+  "explanation_fr": "La question la plus utile pour apprendre. Remplacer ខ្មែរ par បារាំង pour le français.",
+  "explanation_en": "The most useful question for learning. Replace ខ្មែរ with បារាំង for French. French « Comment on dit ça en français ? »",
+  "explanation_km": "« Comment on dit … en français ? » ជាសំណួរសំខាន់ជាងគេ។ អង់គ្លេស៖ « How do you say … in English? »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 498,
+  "kind": "expression",
+  "french": "Comment ça s'écrit ?",
+  "english": "How do you spell it?",
+  "khmer": "សរសេរយ៉ាងម៉េច?",
+  "transliteration": "sâ-sé yang métch ?",
+  "category": "expression",
+  "explanation_fr": "Utile pour les noms propres, ou quand un même son s'écrit de plusieurs façons.",
+  "explanation_en": "Useful for names, or when the same sound can be written in several ways. French « Comment ça s'écrit ? »",
+  "explanation_km": "« s'écrire » មានន័យថា សរសេរ។ អង់គ្លេស៖ « How do you spell it? »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 499,
+  "kind": "expression",
+  "french": "Corrige-moi, s'il te plaît.",
+  "english": "Please correct me.",
+  "khmer": "សូមកែឱ្យខ្ញុំផង។",
+  "transliteration": "sôm kaè aoy khgnom phâng.",
+  "category": "expression",
+  "explanation_fr": "កែ (kaè), « corriger, réparer ». On apprend plus vite quand l'autre ose corriger.",
+  "explanation_en": "កែ (kaè), “to correct, to fix”. You learn faster when the other person dares to correct you. French « Corrige-moi » is familiar.",
+  "explanation_km": "« corriger » មានន័យថា កែ។ « corrige-moi » ជាទម្រង់បញ្ជា។ អង់គ្លេស៖ « Please correct me »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   }
+  }
+ },
+ {
+  "id": 500,
+  "kind": "expression",
+  "french": "Tu as fait beaucoup de progrès !",
+  "english": "You've made a lot of progress!",
+  "khmer": "ចេះច្រើនជាងមុនហើយ!",
+  "transliteration": "tchéh tchraeun tchéang moun haeuy !",
+  "category": "expression",
+  "explanation_fr": "Mot à mot « tu sais beaucoup plus qu'avant ». Un encouragement qui fait toujours plaisir.",
+  "explanation_en": "Word for word “you know much more than before”. Encouragement that always pleases. French « faire des progrès » means “to make progress”.",
+  "explanation_km": "« faire des progrès » មានន័យថា រីកចម្រើន។ អង់គ្លេស៖ « to make progress »។",
+  "uncertain": false,
+  "unit_id": "u050",
+  "progress": {
+   "fr": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "en": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
+    "mastery_score": 0.0
+   },
+   "km": {
+    "learning_level": 0,
+    "review_count": 0,
+    "last_review": "2027-01-03",
+    "next_review": "2027-01-04",
     "mastery_score": 0.0
    }
   }
