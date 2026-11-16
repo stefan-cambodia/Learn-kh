@@ -1,0 +1,134 @@
+{
+  "id": "u054",
+  "order": 54,
+  "level": "intermediaire",
+  "theme": "a-la-mer",
+  "title": {"fr": "À la mer", "en": "At the seaside", "km": "នៅសមុទ្រ"},
+  "tip": {
+    "fr": "Le Cambodge a une petite côte au sud : Kep, célèbre pour son crabe au poivre, Kampot, et Sihanoukville, d'où partent les bateaux vers les îles. Le mot កោះ (kâh), l'île, se retrouve dans tous leurs noms : កោះរ៉ុង, Koh Rong.",
+    "en": "Cambodia has a short coast in the south: Kep, famous for its pepper crab, Kampot, and Sihanoukville, where boats leave for the islands. The word កោះ (kâh), island, is in all their names: កោះរ៉ុង, Koh Rong. In French, « la mer » (the sea) and « la mère » (the mother) sound exactly the same.",
+    "km": "ភាសាបារាំង « la mer » (សមុទ្រ) និង « la mère » (ម្តាយ) អានដូចគ្នាទាំងស្រុង។ មានតែបរិបទទេ ដែលបង្ហាញន័យ។"
+  },
+  "vocabulary": [
+    {
+      "fr": "la mer", "en": "sea", "km": "សមុទ្រ", "tr": "sâ-mot", "pos": "nom",
+      "note": {
+        "fr": "Le ទ្រ final ne se prononce pas : sâ-mot. Les fruits de mer se disent គ្រឿងសមុទ្រ (kreuang sâ-mot).",
+        "en": "The final ទ្រ is silent: sâ-mot. Seafood is គ្រឿងសមុទ្រ (kreuang sâ-mot). French « mer » sounds exactly like « mère », mother.",
+        "km": "« mer » ជានាមភេទស្រី៖ la mer។ « les fruits de mer » មានន័យថា គ្រឿងសមុទ្រ។ អង់គ្លេស៖ « sea »។"
+      },
+      "example": {"fr": "La mer est calme ce matin.", "en": "The sea is calm this morning.", "km": "ព្រឹកនេះសមុទ្រស្ងប់។", "tr": "preuk nih sâ-mot sngop."}
+    },
+    {
+      "fr": "la plage", "en": "beach", "km": "ឆ្នេរ", "tr": "tchhné", "pos": "nom",
+      "note": {
+        "fr": "On dit aussi ឆ្នេរសមុទ្រ, « la plage de la mer ». Le រ final ne se prononce pas.",
+        "en": "People also say ឆ្នេរសមុទ្រ, “sea beach”. The final រ is silent. French « plage » is feminine.",
+        "km": "« plage » ជានាមភេទស្រី៖ à la plage (នៅឆ្នេរ)។ អង់គ្លេស៖ « beach »។"
+      },
+      "example": {"fr": "Nous allons à la plage dimanche.", "en": "We're going to the beach on Sunday.", "km": "ថ្ងៃអាទិត្យ យើងទៅឆ្នេរ។", "tr": "thngay a-teut, yeung teuv tchhné."}
+    },
+    {
+      "fr": "nager", "en": "to swim", "km": "ហែលទឹក", "tr": "haèl teuk", "pos": "verbe",
+      "note": {
+        "fr": "Mot à mot « nager dans l'eau » : ហែល (haèl) seul veut déjà dire nager. Savoir nager : ចេះហែលទឹក.",
+        "en": "Word for word “swim in water”: ហែល (haèl) alone already means to swim. Can swim: ចេះហែលទឹក. French « nager » keeps an e before o: nous nageons.",
+        "km": "« nager »៖ je nage, nous nageons។ « savoir nager » មានន័យថា ចេះហែលទឹក។ អង់គ្លេស៖ « to swim »។"
+      },
+      "example": {"fr": "Les enfants nagent près de la plage.", "en": "The children are swimming near the beach.", "km": "ក្មេងៗហែលទឹកជិតឆ្នេរ។", "tr": "kméng-kméng haèl teuk tchit tchhné."}
+    },
+    {
+      "fr": "l'île", "en": "island", "km": "កោះ", "tr": "kâh", "pos": "nom",
+      "note": {
+        "fr": "កោះ se place devant le nom de l'île : កោះរ៉ុង, Koh Rong. À Phnom Penh, កោះពេជ្រ, « l'île du diamant », est un quartier sur le fleuve.",
+        "en": "កោះ goes before the island's name: កោះរ៉ុង, Koh Rong. In Phnom Penh, កោះពេជ្រ, “diamond island”, is a district on the river. French « île » has a circumflex and is feminine.",
+        "km": "« île » ជានាមភេទស្រី ហើយមានសញ្ញា î៖ une île។ អង់គ្លេស៖ « island » (s មិនអានទេ)។"
+      },
+      "example": {"fr": "L'île est à deux heures en bateau.", "en": "The island is two hours away by boat.", "km": "ជិះទូកពីរម៉ោងទៅដល់កោះ។", "tr": "tchih touk pi maong teuv dâl kâh."}
+    },
+    {
+      "fr": "le bateau", "en": "boat", "km": "ទូក", "tr": "touk", "pos": "nom",
+      "note": {
+        "fr": "ទូក est la barque ou le bateau. Un grand navire se dit កប៉ាល់ (kâ-pal). On « monte » en bateau avec ជិះ : ជិះទូក.",
+        "en": "ទូក is a boat or rowing boat. A large ship is កប៉ាល់ (kâ-pal). You “ride” a boat with ជិះ: ជិះទូក. French « bateau » has the plural « bateaux ».",
+        "km": "« bateau » ជានាមភេទប្រុស ពហុវចនៈ « bateaux »។ « en bateau » មានន័យថា ជិះទូក។ អង់គ្លេស៖ « boat »។"
+      },
+      "example": {"fr": "Le bateau pour l'île part à neuf heures.", "en": "The boat to the island leaves at nine o'clock.", "km": "ទូកទៅកោះចេញម៉ោងប្រាំបួន។", "tr": "touk teuv kâh tchégn maong pram-bouon."}
+    },
+    {
+      "fr": "le sable", "en": "sand", "km": "ខ្សាច់", "tr": "khsatch", "pos": "nom",
+      "note": {
+        "fr": "Les trois consonnes du début se prononcent d'un seul souffle : khsatch. Le sable blanc se dit ខ្សាច់ស.",
+        "en": "The opening consonants are said in one breath: khsatch. White sand is ខ្សាច់ស. French « sable » is masculine.",
+        "km": "« sable » ជានាមភេទប្រុស៖ le sable blanc (ខ្សាច់ស)។ អង់គ្លេស៖ « sand »។"
+      },
+      "example": {"fr": "Le sable est très chaud à midi.", "en": "The sand is very hot at noon.", "km": "ពេលថ្ងៃត្រង់ ខ្សាច់ក្តៅណាស់។", "tr": "pél thngay trâng, khsatch kdav nah."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "On va à la plage ?", "en": "Shall we go to the beach?", "km": "ទៅលេងឆ្នេរទេ?", "tr": "teuv léng tchhné té ?",
+      "note": {
+        "fr": "ទៅលេង, « aller s'amuser », pour une sortie de loisir. La question avec ទេ attend oui ou non.",
+        "en": "ទៅលេង, “go and have fun”, for a leisure outing. A question with ទេ expects yes or no. French « on » is a casual “we”.",
+        "km": "« on » ក្នុងភាសានិយាយ មានន័យថា យើង។ អង់គ្លេស៖ « Shall we go to the beach? »។"
+      }
+    },
+    {
+      "fr": "Je ne sais pas nager.", "en": "I can't swim.", "km": "ខ្ញុំហែលទឹកមិនចេះទេ។", "tr": "khgnom haèl teuk min tchéh té.",
+      "note": {
+        "fr": "Mot à mot « je nage, je ne sais pas ». La négation មិន… ទេ encadre ចេះ, « savoir faire ».",
+        "en": "Word for word “I swim, don't know how”. The negative មិន… ទេ frames ចេះ, “know how”. French uses « savoir » for skills: je sais nager.",
+        "km": "« savoir » + កិរិយាសព្ទ មានន័យថា ចេះធ្វើ៖ je sais nager។ អង់គ្លេស៖ « I can't swim »។"
+      }
+    },
+    {
+      "fr": "L'eau est bonne !", "en": "The water is lovely!", "km": "ទឹកល្អណាស់!", "tr": "teuk l'â nah !",
+      "note": {
+        "fr": "Pour une eau à bonne température. Si elle est froide : ទឹកត្រជាក់ណាស់!",
+        "en": "Said of water at a nice temperature. If it's cold: ទឹកត្រជាក់ណាស់! French « bonne » here means “just right”.",
+        "km": "« bonne » នៅទីនេះមានន័យថា សីតុណ្ហភាពល្អ។ អង់គ្លេស៖ « The water is lovely! »។"
+      }
+    },
+    {
+      "fr": "Attention aux vagues !", "en": "Watch out for the waves!", "km": "ប្រយ័ត្នរលក!", "tr": "prâ-yat ro-lok !",
+      "note": {
+        "fr": "រលក (ro-lok), la vague. ប្រយ័ត្ន se place directement devant le danger.",
+        "en": "រលក (ro-lok), wave. ប្រយ័ត្ន goes straight before the danger. French « Attention à… » means “watch out for…”.",
+        "km": "« vague » ជានាមភេទស្រី៖ la vague។ អង់គ្លេស៖ « wave »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Le week-end", "en": "At the weekend", "km": "ចុងសប្តាហ៍"},
+      "fr": "Ce week-end, nous allons à Kep.", "en": "This weekend, we're going to Kep.",
+      "km": "ចុងសប្តាហ៍នេះ យើងទៅកែប។", "tr": "tchong sap-da nih, yeung teuv kaèp."
+    },
+    {
+      "situation": {"fr": "Au bord de la mer", "en": "By the sea", "km": "នៅមាត់សមុទ្រ"},
+      "fr": "Les enfants jouent dans le sable.", "en": "The children are playing in the sand.",
+      "km": "ក្មេងៗលេងខ្សាច់។", "tr": "kméng-kméng léng khsatch."
+    },
+    {
+      "situation": {"fr": "Au restaurant de Kep", "en": "At a restaurant in Kep", "km": "នៅហាងបាយនៅកែប"},
+      "fr": "Ici, le crabe au poivre est délicieux.", "en": "The pepper crab here is delicious.",
+      "km": "នៅទីនេះ ក្តាមឆាម្រេចឆ្ងាញ់ណាស់។", "tr": "neuv ti-nih, kdam tchha mrétch tchhngagn nah."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} passent la journée sur la plage de Kep.", "en": "{A} and {B} are spending the day on the beach at Kep.", "km": "{A} និង {B} លេងពេញមួយថ្ងៃនៅឆ្នេរកែប។"},
+    "lines": [
+      {"speaker": "A", "fr": "Regarde la mer ! L'eau est très claire.", "en": "Look at the sea! The water is very clear.", "km": "មើលសមុទ្រ! ទឹកថ្លាណាស់។", "tr": "meul sâ-mot ! teuk thla nah."},
+      {"speaker": "B", "fr": "On va nager ?", "en": "Shall we go for a swim?", "km": "ទៅហែលទឹកទេ?", "tr": "teuv haèl teuk té ?"},
+      {"speaker": "A", "fr": "D'accord, mais pas trop loin.", "en": "OK, but not too far.", "km": "បាន ប៉ុន្តែកុំទៅឆ្ងាយពេក។", "tr": "ban, pon-taè kom teuv tchhngay pék."},
+      {"speaker": "B", "fr": "Et demain, on prend le bateau pour l'île ?", "en": "And tomorrow, shall we take the boat to the island?", "km": "ហើយថ្ងៃស្អែក យើងជិះទូកទៅកោះទេ?", "tr": "haeuy thngay s'aèk, yeung tchih touk teuv kâh té ?"},
+      {"speaker": "A", "fr": "Bonne idée ! Et ce soir, on mange du crabe au poivre.", "en": "Good idea! And tonight, we're eating pepper crab.", "km": "គំនិតល្អ! ហើយយប់នេះ យើងញ៉ាំក្តាមឆាម្រេច។", "tr": "koum-neut l'â ! haeuy youp nih, yeung gnam kdam tchha mrétch."},
+      {"speaker": "B", "fr": "J'ai déjà faim !", "en": "I'm already hungry!", "km": "ខ្ញុំឃ្លានហើយ!", "tr": "khgnom khléan haeuy !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce qu'ils vont manger ce soir ?", "en": "What are they going to eat tonight?", "km": "យប់នេះ ពួកគេនឹងញ៉ាំអ្វី?"},
+    "answer": {"fr": "Du crabe au poivre.", "en": "Pepper crab.", "km": "ក្តាមឆាម្រេច។"}
+  }
+}

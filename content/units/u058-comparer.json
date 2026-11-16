@@ -1,0 +1,134 @@
+{
+  "id": "u058",
+  "order": 58,
+  "level": "intermediaire",
+  "theme": "comparer",
+  "title": {"fr": "Comparer", "en": "Comparing", "km": "ការប្រៀបធៀប"},
+  "tip": {
+    "fr": "Pour comparer, le khmer place ជាង (tchéang) après l'adjectif : ធំជាង, « plus grand ». Pour le superlatif, on ajoute គេ : ធំជាងគេ, « le plus grand ». L'adjectif lui-même ne change jamais, même pour « bon » : ល្អ, ល្អជាង, ល្អជាងគេ.",
+    "en": "To compare, Khmer puts ជាង (tchéang) after the adjective: ធំជាង, “bigger”. For the superlative, add គេ: ធំជាងគេ, “the biggest”. The adjective never changes, even for “good”: ល្អ, ល្អជាង, ល្អជាងគេ. French uses « plus… que » and « moins… que »; « bon » becomes « meilleur », like good → better.",
+    "km": "ភាសាបារាំងប្រើ « plus … que » (…ជាង) និង « moins … que » (…តិចជាង)៖ Phnom Penh est plus grand que Kampot។ « bon » ក្លាយជា « meilleur » (ល្អជាង)។"
+  },
+  "vocabulary": [
+    {
+      "fr": "plus", "en": "more", "km": "ជាង", "tr": "tchéang", "pos": "adverbe",
+      "note": {
+        "fr": "ជាង se place après l'adjectif ou le verbe, puis vient ce à quoi l'on compare : ធំជាងផ្ទះខ្ញុំ, « plus grand que ma maison ».",
+        "en": "ជាង goes after the adjective or verb, then comes what you compare with: ធំជាងផ្ទះខ្ញុំ, “bigger than my house”. French « plus… que »: plus grand que; the s of « plus » is silent here.",
+        "km": "« plus … que » មានន័យថា …ជាង៖ plus grand que (ធំជាង)។ អង់គ្លេស៖ « more … than » ឬ « -er than »។"
+      },
+      "example": {"fr": "Ce restaurant est plus cher.", "en": "This restaurant is more expensive.", "km": "ហាងបាយនេះថ្លៃជាង។", "tr": "hang bay nih thlay tchéang."}
+    },
+    {
+      "fr": "moins", "en": "less", "km": "តិចជាង", "tr": "tetch tchéang", "pos": "adverbe",
+      "note": {
+        "fr": "Mot à mot « peu plus » : តិច (peu) + ជាង. Avec un adjectif, le khmer préfère souvent le contraire : ថោកជាង, « moins cher », mot à mot « plus bon marché ».",
+        "en": "Word for word “little-more”: តិច (little) + ជាង. With an adjective, Khmer often prefers the opposite: ថោកជាង, “less expensive”, literally “cheaper”. French « moins… que »: moins cher que.",
+        "km": "« moins … que » មានន័យថា …តិចជាង៖ moins cher que (ថោកជាង)។ អង់គ្លេស៖ « less … than »។"
+      },
+      "example": {"fr": "Je travaille moins le samedi.", "en": "I work less on Saturdays.", "km": "ថ្ងៃសៅរ៍ ខ្ញុំធ្វើការតិចជាង។", "tr": "thngay sav, khgnom thveu-ka tetch tchéang."}
+    },
+    {
+      "fr": "le même", "en": "the same", "km": "ដូចគ្នា", "tr": "dôtch knéa", "pos": "adjectif",
+      "note": {
+        "fr": "Mot à mot « comme l'un l'autre ». Il se place après le nom : កាបូបដូចគ្នា, « le même sac ». Pour un âge ou une taille égale : ស្មើគ្នា (smaeu knéa).",
+        "en": "Word for word “like each other”. It goes after the noun: កាបូបដូចគ្នា, “the same bag”. For equal age or size: ស្មើគ្នា (smaeu knéa). French « le même », « la même », goes before the noun.",
+        "km": "« même » ដាក់មុននាម៖ le même sac, la même couleur។ អង់គ្លេស៖ « the same »។"
+      },
+      "example": {"fr": "Nous avons le même sac.", "en": "We have the same bag.", "km": "យើងមានកាបូបដូចគ្នា។", "tr": "yeung méan ka-boup dôtch knéa."}
+    },
+    {
+      "fr": "différent", "en": "different", "km": "ខុសគ្នា", "tr": "khoh knéa", "pos": "adjectif",
+      "note": {
+        "fr": "ខុស veut dire « faux, différent » ; avec គ្នា, « l'un de l'autre ». Pour « autre », on a vu ផ្សេង : ពណ៌ផ្សេង.",
+        "en": "ខុស means “wrong, different”; with គ្នា, “from each other”. For “other”, you saw ផ្សេង: ពណ៌ផ្សេង. French « différent » becomes « différente » in the feminine.",
+        "km": "« différent » ភេទស្រីគឺ « différente »៖ une couleur différente។ អង់គ្លេស៖ « different »។"
+      },
+      "example": {"fr": "Le khmer et le français sont très différents.", "en": "Khmer and French are very different.", "km": "ភាសាខ្មែរ និងភាសាបារាំងខុសគ្នាខ្លាំងណាស់។", "tr": "phéa-sa khmaè ning phéa-sa ba-rang khoh knéa khlang nah."}
+    },
+    {
+      "fr": "meilleur", "en": "better", "km": "ល្អជាង", "tr": "l'â tchéang", "pos": "adjectif",
+      "note": {
+        "fr": "Pas de forme irrégulière en khmer : ល្អ + ជាង. Pour un plat, on dira plutôt ឆ្ងាញ់ជាង, « plus délicieux ».",
+        "en": "No irregular form in Khmer: ល្អ + ជាង. For food, people rather say ឆ្ងាញ់ជាង, “tastier”. French « meilleur » replaces « plus bon », just like “better”.",
+        "km": "« bon » មិនប្រើ « plus bon » ទេ គឺប្រើ « meilleur »៖ C'est meilleur។ អង់គ្លេស៖ « better »។"
+      },
+      "example": {"fr": "Ta soupe est meilleure que la mienne.", "en": "Your soup is better than mine.", "km": "សម្លរបស់អ្នកឆ្ងាញ់ជាងរបស់ខ្ញុំ។", "tr": "sâm-lâ ro-bâh néak tchhngagn tchéang ro-bâh khgnom."}
+    },
+    {
+      "fr": "comme", "en": "like", "km": "ដូច", "tr": "dôtch", "pos": "preposition",
+      "note": {
+        "fr": "ដូច, « comme, semblable à ». On dit souvent ដូចជា (dôtch tchéa) : ដូចជាអ្នកខ្មែរ, « comme un Khmer ».",
+        "en": "ដូច, “like, similar to”. People often say ដូចជា (dôtch tchéa): ដូចជាអ្នកខ្មែរ, “like a Khmer person”. French « comme » also means “as”.",
+        "km": "« comme » មានន័យថា ដូច ឬដូចជា៖ comme toi (ដូចអ្នក)។ អង់គ្លេស៖ « like », « as »។"
+      },
+      "example": {"fr": "Il parle khmer comme un Cambodgien.", "en": "He speaks Khmer like a Cambodian.", "km": "គាត់និយាយខ្មែរដូចជាអ្នកខ្មែរ។", "tr": "koat ni-yéay khmaè dôtch tchéa néak khmaè."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est pareil.", "en": "It's the same.", "km": "ដូចគ្នា។", "tr": "dôtch knéa.",
+      "note": {
+        "fr": "Réponse courte et courante. Pour dire que ce n'est pas pareil : មិនដូចគ្នាទេ.",
+        "en": "A short, common answer. To say it isn't the same: មិនដូចគ្នាទេ. French « pareil » is casual for « le même ».",
+        "km": "« pareil » មានន័យថា ដូចគ្នា។ អង់គ្លេស៖ « It's the same »។"
+      }
+    },
+    {
+      "fr": "Lequel est le moins cher ?", "en": "Which one is the cheapest?", "km": "មួយណាថោកជាងគេ?", "tr": "mouy na thaok tchéang ké ?",
+      "note": {
+        "fr": "មួយណា, « lequel », et ជាងគេ pour le superlatif. Question utile au marché.",
+        "en": "មួយណា, “which one”, and ជាងគេ for the superlative. A useful question at the market. French « lequel » becomes « laquelle » for a feminine noun.",
+        "km": "« lequel » មានន័យថា មួយណា។ « le moins cher » មានន័យថា ថោកជាងគេ។ អង់គ្លេស៖ « the cheapest »។"
+      }
+    },
+    {
+      "fr": "C'est beaucoup mieux qu'avant !", "en": "It's much better than before!", "km": "ល្អជាងមុនច្រើន!", "tr": "l'â tchéang moun tchraeun !",
+      "note": {
+        "fr": "ជាងមុន, « plus qu'avant » ; ច្រើន à la fin renforce : « beaucoup ».",
+        "en": "ជាងមុន, “more than before”; ច្រើន at the end strengthens it: “much”. French « mieux » is the adverb “better”: ça va mieux.",
+        "km": "« mieux » ជាគុណកិរិយា (ប្រសើរជាង)៖ c'est mieux, ça va mieux។ អង់គ្លេស៖ « much better »។"
+      }
+    },
+    {
+      "fr": "Ça m'est égal.", "en": "I don't mind.", "km": "អ្វីក៏បាន។", "tr": "ey kâ ban.",
+      "note": {
+        "fr": "Mot à mot « n'importe quoi convient ». Pour un lieu : ណាក៏បាន, « n'importe où ».",
+        "en": "Word for word “anything is fine”. For a place: ណាក៏បាន, “anywhere”. French « égal » means “equal”.",
+        "km": "« Ça m'est égal » មានន័យថា អ្វីក៏បាន។ អង់គ្លេស៖ « I don't mind »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Parler des villes", "en": "Talking about cities", "km": "និយាយពីទីក្រុង"},
+      "fr": "Phnom Penh est plus grand que Siem Reap.", "en": "Phnom Penh is bigger than Siem Reap.",
+      "km": "ភ្នំពេញធំជាងសៀមរាប។", "tr": "phnom-pégn thom tchéang siem-réap."
+    },
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Aujourd'hui, les mangues sont moins chères.", "en": "Today, mangoes are cheaper.",
+      "km": "ថ្ងៃនេះ ស្វាយថោកជាងមុន។", "tr": "thngay nih, svay thaok tchéang moun."
+    },
+    {
+      "situation": {"fr": "En famille", "en": "With the family", "km": "ក្នុងគ្រួសារ"},
+      "fr": "Mon cousin et moi avons le même âge.", "en": "My cousin and I are the same age.",
+      "km": "ខ្ញុំ និងបងប្អូនជីដូនមួយរបស់ខ្ញុំ អាយុស្មើគ្នា។", "tr": "khgnom ning bâng p'ôn tchi-dôn mouy ro-bâh khgnom, a-you smaeu knéa."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} choisissent un nouveau téléphone dans un magasin.", "en": "{A} and {B} are choosing a new phone in a shop.", "km": "{A} និង {B} កំពុងរើសទូរស័ព្ទថ្មីនៅក្នុងហាងមួយ។"},
+    "lines": [
+      {"speaker": "B", "fr": "À ton avis, lequel est le meilleur ?", "en": "In your opinion, which one is the best?", "km": "តាម {A} គិត មួយណាល្អជាងគេ?", "tr": "tam {A} kit, mouy na l'â tchéang ké ?"},
+      {"speaker": "A", "fr": "Celui-ci est plus grand, mais il est plus cher.", "en": "This one is bigger, but it's more expensive.", "km": "មួយនេះធំជាង ប៉ុន្តែថ្លៃជាង។", "tr": "mouy nih thom tchéang, pon-taè thlay tchéang."},
+      {"speaker": "B", "fr": "Et celui-là ? Il a l'air pareil.", "en": "And that one? It looks the same.", "km": "ចុះមួយនោះ? មើលទៅដូចគ្នា។", "tr": "tchoh mouy nouh ? meul teuv dôtch knéa."},
+      {"speaker": "A", "fr": "Non, il est différent : sa batterie est meilleure.", "en": "No, it's different: its battery is better.", "km": "ទេ ខុសគ្នា ថ្មរបស់វាល្អជាង។", "tr": "té, khoh knéa, thmâ ro-bâh véa l'â tchéang."},
+      {"speaker": "B", "fr": "Et il coûte moins cher ?", "en": "And is it cheaper?", "km": "ហើយថោកជាងទេ?", "tr": "haeuy thaok tchéang té ?"},
+      {"speaker": "A", "fr": "Oui, vingt dollars de moins. Prends celui-là !", "en": "Yes, twenty dollars less. Take that one!", "km": "{A_yes} ថោកជាងម្ភៃដុល្លារ។ យកមួយនោះទៅ!", "tr": "{A_yes}, thaok tchéang mphey dol-la. yok mouy nouh teuv !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi le deuxième téléphone est-il meilleur ?", "en": "Why is the second phone better?", "km": "ហេតុអ្វីទូរស័ព្ទទីពីរល្អជាង?"},
+    "answer": {"fr": "Sa batterie est meilleure, et il est moins cher.", "en": "Its battery is better, and it's cheaper.", "km": "ថ្មល្អជាង ហើយថោកជាង។"}
+  }
+}

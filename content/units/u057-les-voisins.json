@@ -1,0 +1,134 @@
+{
+  "id": "u057",
+  "order": 57,
+  "level": "intermediaire",
+  "theme": "les-voisins",
+  "title": {"fr": "Les voisins", "en": "Neighbours", "km": "អ្នកជិតខាង"},
+  "tip": {
+    "fr": "Au Cambodge, les voisins se connaissent bien : on s'échange des plats, on surveille la maison des autres, on se prête des outils. On s'adresse à eux avec un terme de parenté selon leur âge : បង, ពូ (oncle), មីង (tante), យាយ (grand-mère).",
+    "en": "In Cambodia, neighbours know each other well: they share dishes, keep an eye on each other's houses and lend tools. They are addressed with a family term by age: បង, ពូ (uncle), មីង (aunt), យាយ (grandma). French has two verbs where Khmer uses one word: « prêter » (to lend) and « emprunter » (to borrow).",
+    "km": "ភាសាបារាំង « prêter » (ឱ្យខ្ចី) និង « emprunter » (ខ្ចី) ជាកិរិយាសព្ទពីរផ្សេងគ្នា៖ je te prête mon vélo (ខ្ញុំឱ្យអ្នកខ្ចីកង់), j'emprunte ton vélo (ខ្ញុំខ្ចីកង់អ្នក)។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le voisin", "en": "neighbour", "km": "អ្នកជិតខាង", "tr": "néak tchit khang", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « la personne d'à côté » : ជិត (près) et ខាង (côté). Le même mot vaut pour une voisine.",
+        "en": "Word for word “the person close by”: ជិត (near) and ខាង (side). The same word works for a woman. French « voisin » becomes « voisine » in the feminine.",
+        "km": "« voisin » ភេទស្រីគឺ « voisine »។ អង់គ្លេស៖ « neighbour »។"
+      },
+      "example": {"fr": "Nos voisins sont très gentils.", "en": "Our neighbours are very kind.", "km": "អ្នកជិតខាងរបស់យើងចិត្តល្អណាស់។", "tr": "néak tchit khang ro-bâh yeung tchet l'â nah."}
+    },
+    {
+      "fr": "le quartier", "en": "neighbourhood", "km": "សង្កាត់", "tr": "sâng-kat", "pos": "nom",
+      "note": {
+        "fr": "សង្កាត់ est aussi une division administrative des villes, un peu comme un arrondissement. À la campagne, on parle plutôt du ភូមិ, le village.",
+        "en": "សង្កាត់ is also an administrative division of cities, a bit like a district. In the countryside, people talk about the ភូមិ, the village. French « quartier » is masculine.",
+        "km": "« quartier » ជានាមភេទប្រុស៖ le quartier, dans mon quartier (នៅសង្កាត់ខ្ញុំ)។ អង់គ្លេស៖ « neighbourhood »។"
+      },
+      "example": {"fr": "Notre quartier est calme le soir.", "en": "Our neighbourhood is quiet in the evening.", "km": "សង្កាត់របស់យើងស្ងាត់នៅពេលល្ងាច។", "tr": "sâng-kat ro-bâh yeung sngat neuv pél lngéatch."}
+    },
+    {
+      "fr": "prêter", "en": "to lend", "km": "ឱ្យខ្ចី", "tr": "aoy khtchey", "pos": "verbe",
+      "note": {
+        "fr": "Mot à mot « faire emprunter » : ឱ្យ (donner, faire) + ខ្ចី (emprunter). C'est le même mot vu de l'autre côté.",
+        "en": "Word for word “let borrow”: ឱ្យ (give, let) + ខ្ចី (borrow). It is the same word seen from the other side. French « prêter »: je te prête.",
+        "km": "« prêter »៖ je prête, tu me prêtes។ អង់គ្លេស៖ « to lend »។"
+      },
+      "example": {"fr": "Je te prête mon vélo.", "en": "I'll lend you my bike.", "km": "ខ្ញុំឱ្យអ្នកខ្ចីកង់របស់ខ្ញុំ។", "tr": "khgnom aoy néak khtchey kâng ro-bâh khgnom."}
+    },
+    {
+      "fr": "emprunter", "en": "to borrow", "km": "ខ្ចី", "tr": "khtchey", "pos": "verbe",
+      "note": {
+        "fr": "Pour demander poliment : សុំខ្ចី (som khtchey), « je demande à emprunter ». Rendre se dit សងវិញ (sâng vign).",
+        "en": "To ask politely: សុំខ្ចី (som khtchey), “I ask to borrow”. To give back is សងវិញ (sâng vign). French « emprunter »: j'emprunte.",
+        "km": "« emprunter »៖ j'emprunte។ « rendre » មានន័យថា សងវិញ។ អង់គ្លេស៖ « to borrow »។"
+      },
+      "example": {"fr": "J'emprunte souvent des livres à la bibliothèque.", "en": "I often borrow books from the library.", "km": "ខ្ញុំច្រើនខ្ចីសៀវភៅពីបណ្ណាល័យ។", "tr": "khgnom tchraeun khtchey siev-phov pi ban-na-lay."}
+    },
+    {
+      "fr": "bruyant", "en": "noisy", "km": "អ៊ូអរ", "tr": "ou-â", "pos": "adjectif",
+      "note": {
+        "fr": "អ៊ូអរ se dit d'un lieu bruyant et animé, sans forcément de reproche : une fête est toujours un peu អ៊ូអរ.",
+        "en": "អ៊ូអរ describes a noisy, lively place, not always as a complaint: a party is always a bit អ៊ូអរ. French « bruyant » becomes « bruyante » in the feminine.",
+        "km": "« bruyant » ភេទស្រីគឺ « bruyante »។ « le bruit » មានន័យថា សំឡេងអ៊ូអរ។ អង់គ្លេស៖ « noisy »។"
+      },
+      "example": {"fr": "La rue est bruyante le matin.", "en": "The street is noisy in the morning.", "km": "ផ្លូវអ៊ូអរនៅពេលព្រឹក។", "tr": "phleuv ou-â neuv pél preuk."}
+    },
+    {
+      "fr": "frapper", "en": "to knock", "km": "គោះ", "tr": "koh", "pos": "verbe",
+      "note": {
+        "fr": "គោះទ្វារ (koh tvéa), « frapper à la porte ». Le ះ final se prononce comme un h soufflé.",
+        "en": "គោះទ្វារ (koh tvéa), “knock at the door”. The final ះ is a breathed h. French « frapper » also means “to hit”.",
+        "km": "« frapper à la porte » មានន័យថា គោះទ្វារ។ « frapper » ក៏មានន័យថា វាយដែរ។ អង់គ្លេស៖ « to knock »។"
+      },
+      "example": {"fr": "Quelqu'un frappe à la porte.", "en": "Someone is knocking at the door.", "km": "មាននរណាម្នាក់គោះទ្វារ។", "tr": "méan no-na mnéak koh tvéa."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Excuse-moi de te déranger.", "en": "Sorry to bother you.", "km": "សុំទោសដែលរំខាន។", "tr": "som toh dael rum-khan.",
+      "note": {
+        "fr": "រំខាន (rum-khan), « déranger ». ដែល (dael) relie l'excuse à sa raison, comme dans អរគុណដែល…",
+        "en": "រំខាន (rum-khan), “to disturb”. ដែល (dael) links the apology to its reason, as in អរគុណដែល… French « déranger » means “to disturb”.",
+        "km": "« déranger » មានន័យថា រំខាន។ ទម្រង់សុភាព៖ « Excusez-moi de vous déranger »។ អង់គ្លេស៖ « Sorry to bother you »។"
+      }
+    },
+    {
+      "fr": "Tu peux me prêter une échelle ?", "en": "Can you lend me a ladder?", "km": "ខ្ញុំសុំខ្ចីជណ្តើរបានទេ?", "tr": "khgnom som khtchey tchum-daeu ban té ?",
+      "note": {
+        "fr": "Le khmer préfère « je demande à emprunter » à « tu peux me prêter ». ជណ្តើរ veut dire l'escalier et l'échelle.",
+        "en": "Khmer prefers “I ask to borrow” to “can you lend me”. ជណ្តើរ means both stairs and ladder. French « échelle » is feminine.",
+        "km": "« échelle » ជានាមភេទស្រី៖ une échelle។ អង់គ្លេស៖ « ladder »។"
+      }
+    },
+    {
+      "fr": "Je te le rends ce soir.", "en": "I'll give it back tonight.", "km": "ល្ងាចនេះខ្ញុំយកមកសងវិញ។", "tr": "lngéatch nih khgnom yok mok sâng vign.",
+      "note": {
+        "fr": "យកមកសងវិញ, mot à mot « apporter pour rendre ». វិញ marque le retour.",
+        "en": "យកមកសងវិញ, word for word “bring to give back”. វិញ marks the return. French « rendre » means “to give back”.",
+        "km": "« rendre » មានន័យថា សងវិញ៖ je te le rends។ អង់គ្លេស៖ « to give back »។"
+      }
+    },
+    {
+      "fr": "Désolé pour le bruit.", "en": "Sorry about the noise.", "km": "សុំទោសដែលអ៊ូអរ។", "tr": "som toh dael ou-â.",
+      "note": {
+        "fr": "Après une fête, on va volontiers s'excuser chez les voisins, souvent avec un plat à partager.",
+        "en": "After a party, people like to apologise to the neighbours, often with a dish to share. French « désolé » becomes « désolée » for a woman.",
+        "km": "« désolé » ស្ត្រីសរសេរ « désolée » តែអានដូចគ្នា។ អង់គ្លេស៖ « Sorry about the noise »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Une fête chez les voisins", "en": "A party next door", "km": "ពិធីនៅផ្ទះអ្នកជិតខាង"},
+      "fr": "Les voisins font une fête, c'est très bruyant.", "en": "The neighbours are having a party, it's very noisy.",
+      "km": "អ្នកជិតខាងមានពិធីជប់លៀង អ៊ូអរណាស់។", "tr": "néak tchit khang méan pi-thi tchoup-lieng, ou-â nah."
+    },
+    {
+      "situation": {"fr": "Avant de partir en voyage", "en": "Before going away", "km": "មុនចេញដំណើរ"},
+      "fr": "Notre voisine garde la clé de la maison.", "en": "Our neighbour is keeping the house key.",
+      "km": "អ្នកជិតខាងរបស់យើងទុកកូនសោផ្ទះឱ្យ។", "tr": "néak tchit khang ro-bâh yeung touk kôn sao phtéah aoy."
+    },
+    {
+      "situation": {"fr": "Dans la rue", "en": "In the street", "km": "នៅតាមផ្លូវ"},
+      "fr": "Dans mon quartier, tout le monde se dit bonjour.", "en": "In my neighbourhood, everyone says hello to each other.",
+      "km": "នៅសង្កាត់ខ្ញុំ អ្នកទាំងអស់គ្នាសួរសុខទុក្ខគ្នា។", "tr": "neuv sâng-kat khgnom, néak téang âh knéa sour sok-tuk knéa."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} frappe à la porte de sa voisine {A} pour lui demander un service.", "en": "{B} knocks at the door of {A}, who lives next door, to ask a favour.", "km": "{B} គោះទ្វារផ្ទះ {A} ដែលជាអ្នកជិតខាង ដើម្បីសុំជំនួយ។"},
+    "lines": [
+      {"speaker": "B", "fr": "Bonjour ! Excuse-moi de te déranger.", "en": "Hello! Sorry to bother you.", "km": "សួស្តី! សុំទោសដែលរំខាន។", "tr": "souos-dey ! som toh dael rum-khan."},
+      {"speaker": "A", "fr": "Pas de problème, entre !", "en": "No problem, come in!", "km": "អត់បញ្ហាទេ ចូលមក!", "tr": "ât bagn-ha té, tchôl mok !"},
+      {"speaker": "B", "fr": "Tu peux me prêter une échelle ? Je dois réparer le toit.", "en": "Can you lend me a ladder? I have to fix the roof.", "km": "ខ្ញុំសុំខ្ចីជណ្តើរបានទេ? ខ្ញុំត្រូវជួសជុលដំបូល។", "tr": "khgnom som khtchey tchum-daeu ban té ? khgnom treuv tchouoh-tchoul dâm-boul."},
+      {"speaker": "A", "fr": "Bien sûr, elle est derrière la maison.", "en": "Of course, it's behind the house.", "km": "បានណា វានៅក្រោយផ្ទះ។", "tr": "ban na, véa neuv kraoy phtéah."},
+      {"speaker": "B", "fr": "Merci ! Je te la rends ce soir.", "en": "Thanks! I'll give it back tonight.", "km": "អរគុណ! ល្ងាចនេះខ្ញុំយកមកសងវិញ។", "tr": "â-koun ! lngéatch nih khgnom yok mok sâng vign."},
+      {"speaker": "A", "fr": "Prends ton temps. Et fais attention en montant !", "en": "Take your time. And be careful going up!", "km": "មិនអីទេ យឺតៗក៏បាន។ ហើយប្រយ័ត្នពេលឡើង!", "tr": "min ey té, yeut-yeut kâ ban. haeuy prâ-yat pél laeung !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi {B} a besoin d'une échelle ?", "en": "Why does {B} need a ladder?", "km": "ហេតុអ្វី {B} ត្រូវការជណ្តើរ?"},
+    "answer": {"fr": "Pour réparer le toit.", "en": "To fix the roof.", "km": "ដើម្បីជួសជុលដំបូល។"}
+  }
+}

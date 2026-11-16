@@ -1,0 +1,134 @@
+{
+  "id": "u056",
+  "order": 56,
+  "level": "intermediaire",
+  "theme": "la-sante",
+  "title": {"fr": "La santé", "en": "Health", "km": "សុខភាព"},
+  "tip": {
+    "fr": "Pour souhaiter une bonne santé, on dit សូមឱ្យមានសុខភាពល្អ (sôm aoy méan sok-kha-phéap l'â). Pour un petit malaise, beaucoup de Cambodgiens pratiquent le ក្រឡុកក្រឡាប ou « coin rubbing » : on frotte la peau avec une pièce, ce qui laisse des marques rouges sans gravité.",
+    "en": "To wish someone good health, say សូមឱ្យមានសុខភាពល្អ (sôm aoy méan sok-kha-phéap l'â). For minor ailments, many Cambodians practise “coining”: the skin is rubbed with a coin, leaving harmless red marks. In French, health problems use « avoir »: j'ai un rhume, j'ai mal aux dents.",
+    "km": "ភាសាបារាំង ប្រើ « avoir » ពេលនិយាយពីជំងឺ៖ j'ai un rhume (ខ្ញុំផ្តាសាយ), j'ai mal aux dents (ខ្ញុំឈឺធ្មេញ)។ អង់គ្លេសប្រើ « to have » ដូចគ្នា៖ « I have a cold »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "la santé", "en": "health", "km": "សុខភាព", "tr": "sok-kha-phéap", "pos": "nom",
+      "note": {
+        "fr": "សុខ (sok), « le bien-être », et ភាព (phéap), qui forme des noms abstraits. On retrouve សុខ dans សុខសប្បាយ, « aller bien ».",
+        "en": "សុខ (sok), “well-being”, and ភាព (phéap), which forms abstract nouns. សុខ is also in សុខសប្បាយ, “to be well”. French « santé » is also a toast: Santé !",
+        "km": "« santé » ជានាមភេទស្រី៖ la santé។ ពេលលើកកែវ គេនិយាយ « Santé ! »។ អង់គ្លេស៖ « health »។"
+      },
+      "example": {"fr": "Le sport est bon pour la santé.", "en": "Sport is good for your health.", "km": "កីឡាល្អសម្រាប់សុខភាព។", "tr": "key-la l'â sâm-rap sok-kha-phéap."}
+    },
+    {
+      "fr": "le rhume", "en": "cold", "km": "ផ្តាសាយ", "tr": "pdah-say", "pos": "nom",
+      "note": {
+        "fr": "ផ្តាសាយ s'emploie comme un verbe : ខ្ញុំផ្តាសាយ, « j'ai un rhume ». La climatisation trop froide en est souvent accusée !",
+        "en": "ផ្តាសាយ is used like a verb: ខ្ញុំផ្តាសាយ, “I have a cold”. Air conditioning that is too cold often gets the blame! French « rhume » is masculine; the h is silent.",
+        "km": "« rhume » ជានាមភេទប្រុស ហើយ h មិនអានទេ៖ un rhume។ អង់គ្លេស៖ « a cold »។"
+      },
+      "example": {"fr": "J'ai un rhume depuis hier.", "en": "I have had a cold since yesterday.", "km": "ខ្ញុំផ្តាសាយតាំងពីម្សិលមិញ។", "tr": "khgnom pdah-say tang pi msel-mign."}
+    },
+    {
+      "fr": "tousser", "en": "to cough", "km": "ក្អក", "tr": "k'âk", "pos": "verbe",
+      "note": {
+        "fr": "Le mot imite presque le bruit de la toux : k'âk. Le sirop pour la toux se dit ថ្នាំក្អក.",
+        "en": "The word almost imitates the sound of a cough: k'âk. Cough syrup is ថ្នាំក្អក. French « tousser »: je tousse; « la toux » is the cough.",
+        "km": "« tousser »៖ je tousse។ « la toux » មានន័យថា ការក្អក។ អង់គ្លេស៖ « to cough »។"
+      },
+      "example": {"fr": "Il tousse beaucoup la nuit.", "en": "He coughs a lot at night.", "km": "គាត់ក្អកច្រើននៅពេលយប់។", "tr": "koat k'âk tchraeun neuv pél youp."}
+    },
+    {
+      "fr": "la dent", "en": "tooth", "km": "ធ្មេញ", "tr": "thmegn", "pos": "nom",
+      "note": {
+        "fr": "ធ្មេញ ne change pas au pluriel. Se brosser les dents se dit ដុសធ្មេញ (dôh thmegn).",
+        "en": "ធ្មេញ does not change in the plural. To brush your teeth is ដុសធ្មេញ (dôh thmegn). French « dent » is feminine; the t is silent.",
+        "km": "« dent » ជានាមភេទស្រី ហើយ t មិនអានទេ៖ une dent, les dents។ អង់គ្លេស៖ « tooth », ពហុវចនៈ « teeth »។"
+      },
+      "example": {"fr": "Je me brosse les dents après le repas.", "en": "I brush my teeth after meals.", "km": "ខ្ញុំដុសធ្មេញក្រោយពេលញ៉ាំបាយ។", "tr": "khgnom dôh thmegn kraoy pél gnam bay."}
+    },
+    {
+      "fr": "le dentiste", "en": "dentist", "km": "ពេទ្យធ្មេញ", "tr": "pét thmegn", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « médecin des dents ». Même modèle pour d'autres spécialistes : ពេទ្យភ្នែក, l'ophtalmologue.",
+        "en": "Word for word “teeth doctor”. The same pattern for other specialists: ពេទ្យភ្នែក, eye doctor. French « dentiste » is the same for men and women.",
+        "km": "« dentiste » ប្រើទាំងប្រុស និងស្រី៖ aller chez le dentiste (ទៅពេទ្យធ្មេញ)។ អង់គ្លេស៖ « dentist »។"
+      },
+      "example": {"fr": "J'ai rendez-vous chez le dentiste demain.", "en": "I have an appointment at the dentist's tomorrow.", "km": "ថ្ងៃស្អែក ខ្ញុំមានណាត់ជាមួយពេទ្យធ្មេញ។", "tr": "thngay s'aèk, khgnom méan nat tchéa-mouy pét thmegn."}
+    },
+    {
+      "fr": "guérir", "en": "to get better", "km": "ជាសះស្បើយ", "tr": "tchéa sah-sbaeuy", "pos": "verbe",
+      "note": {
+        "fr": "Forme complète et soignée. À l'oral, ជា (tchéa) seul suffit : ជាហើយ, « je suis guéri ». On l'a vu dans ឆាប់ជាណា!",
+        "en": "The full, formal form. In speech, ជា (tchéa) alone is enough: ជាហើយ, “I'm better”. You saw it in ឆាប់ជាណា! French « guérir »: je suis guéri.",
+        "km": "« guérir »៖ je guéris, je suis guéri។ « Guéris vite ! » មានន័យថា ឆាប់ជាណា។ អង់គ្លេស៖ « to get better », « to recover »។"
+      },
+      "example": {"fr": "Avec du repos, tu vas vite guérir.", "en": "With some rest, you'll soon get better.", "km": "សម្រាកឱ្យបានច្រើន នឹងឆាប់ជាសះស្បើយ។", "tr": "sâm-rak aoy ban tchraeun, neung tchhap tchéa sah-sbaeuy."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Je ne me sens pas très bien.", "en": "I don't feel very well.", "km": "ខ្ញុំមិនសូវស្រួលខ្លួនទេ។", "tr": "khgnom min seuv srouol khlouon té.",
+      "note": {
+        "fr": "មិនសូវ… ទេ, « pas très », adoucit la phrase de la leçon 7 : ខ្ញុំមិនស្រួលខ្លួនទេ.",
+        "en": "មិនសូវ… ទេ, “not very”, softens the sentence from lesson 7: ខ្ញុំមិនស្រួលខ្លួនទេ. French « se sentir » means “to feel”.",
+        "km": "« se sentir » មានន័យថា មានអារម្មណ៍។ អង់គ្លេស៖ « I don't feel very well »។"
+      }
+    },
+    {
+      "fr": "Tu devrais voir un médecin.", "en": "You should see a doctor.", "km": "គួរតែទៅជួបគ្រូពេទ្យ។", "tr": "kouo taè teuv tchouop krou-pét.",
+      "note": {
+        "fr": "គួរតែ (kouo taè), « il faudrait, tu devrais », pour donner un conseil.",
+        "en": "គួរតែ (kouo taè), “should”, to give advice. French « tu devrais » is the conditional of « devoir ».",
+        "km": "« tu devrais » ប្រើសម្រាប់ផ្តល់ដំបូន្មាន។ អង់គ្លេស៖ « You should… »។"
+      }
+    },
+    {
+      "fr": "Bois beaucoup d'eau.", "en": "Drink plenty of water.", "km": "ផឹកទឹកឱ្យបានច្រើន។", "tr": "pheuk teuk aoy ban tchraeun.",
+      "note": {
+        "fr": "ឱ្យបាន… (aoy ban), « de manière à obtenir… » : ផឹកទឹកឱ្យបានច្រើន, « bois de façon à en boire beaucoup ».",
+        "en": "ឱ្យបាន… (aoy ban), “so as to get…”: ផឹកទឹកឱ្យបានច្រើន, “drink so you drink a lot”. French « beaucoup d'eau » means “a lot of water”.",
+        "km": "« beaucoup de » មានន័យថា ច្រើន៖ beaucoup d'eau។ អង់គ្លេស៖ « plenty of water »។"
+      }
+    },
+    {
+      "fr": "Ça va mieux aujourd'hui.", "en": "I'm feeling better today.", "km": "ថ្ងៃនេះធូរស្រាលហើយ។", "tr": "thngay nih thou sral haeuy.",
+      "note": {
+        "fr": "ធូរស្រាល (thou sral), « soulagé, plus léger ». ហើយ montre que le changement a eu lieu.",
+        "en": "ធូរស្រាល (thou sral), “relieved, lighter”. ហើយ shows that the change has happened. French « mieux » means “better”.",
+        "km": "« mieux » មានន័យថា ប្រសើរជាង។ « Ça va mieux » មានន័យថា ធូរស្រាលហើយ។ អង់គ្លេស៖ « I'm feeling better »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
+      "fr": "Je reste à la maison aujourd'hui, j'ai un rhume.", "en": "I'm staying at home today, I have a cold.",
+      "km": "ថ្ងៃនេះខ្ញុំនៅផ្ទះ ខ្ញុំផ្តាសាយ។", "tr": "thngay nih khgnom neuv phtéah, khgnom pdah-say."
+    },
+    {
+      "situation": {"fr": "Chez le dentiste", "en": "At the dentist's", "km": "នៅពេទ្យធ្មេញ"},
+      "fr": "J'ai mal à une dent depuis trois jours.", "en": "I've had a toothache for three days.",
+      "km": "ខ្ញុំឈឺធ្មេញបីថ្ងៃហើយ។", "tr": "khgnom tchheu thmegn bey thngay haeuy."
+    },
+    {
+      "situation": {"fr": "Un conseil", "en": "A piece of advice", "km": "ដំបូន្មាន"},
+      "fr": "Pour être en bonne santé, il faut bien dormir.", "en": "To stay healthy, you need to sleep well.",
+      "km": "ដើម្បីមានសុខភាពល្អ ត្រូវគេងឱ្យបានគ្រប់គ្រាន់។", "tr": "daeum-bey méan sok-kha-phéap l'â, treuv kéng aoy ban krup-kroan."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} tousse depuis deux jours. {A} s'inquiète.", "en": "{B} has been coughing for two days. {A} is worried.", "km": "{B} ក្អកពីរថ្ងៃហើយ។ {A} បារម្ភ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Tu tousses beaucoup. Ça va ?", "en": "You're coughing a lot. Are you OK?", "km": "{B} ក្អកច្រើនណាស់។ មិនអីទេឬ?", "tr": "{B} k'âk tchraeun nah. min ey té reu ?"},
+      {"speaker": "B", "fr": "Je ne me sens pas très bien. J'ai un rhume.", "en": "I don't feel very well. I have a cold.", "km": "ខ្ញុំមិនសូវស្រួលខ្លួនទេ។ ខ្ញុំផ្តាសាយ។", "tr": "khgnom min seuv srouol khlouon té. khgnom pdah-say."},
+      {"speaker": "A", "fr": "Tu as de la fièvre ?", "en": "Do you have a fever?", "km": "ក្តៅខ្លួនទេ?", "tr": "kdav khlouon té ?"},
+      {"speaker": "B", "fr": "Un peu. La climatisation du bureau est trop froide.", "en": "A little. The office air conditioning is too cold.", "km": "បន្តិច។ ម៉ាស៊ីនត្រជាក់នៅការិយាល័យត្រជាក់ពេក។", "tr": "bân-tetch. ma-sin trâ-tchéak neuv ka-ri-ya-lay trâ-tchéak pék."},
+      {"speaker": "A", "fr": "Repose-toi et bois beaucoup d'eau. Si ça continue, va voir un médecin.", "en": "Rest and drink plenty of water. If it goes on, see a doctor.", "km": "សម្រាកទៅ ហើយផឹកទឹកឱ្យបានច្រើន។ បើនៅតែមិនជា ទៅជួបគ្រូពេទ្យ។", "tr": "sâm-rak teuv, haeuy pheuk teuk aoy ban tchraeun. baeu neuv taè min tchéa, teuv tchouop krou-pét."},
+      {"speaker": "B", "fr": "D'accord. Merci, c'est gentil.", "en": "OK. Thank you, that's kind.", "km": "{B_yes} អរគុណ {A} ចិត្តល្អណាស់។", "tr": "{B_yes}, â-koun, {A} tchet l'â nah."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "D'où vient le rhume de {B} ?", "en": "Where does {B}'s cold come from?", "km": "ហេតុអ្វី {B} ផ្តាសាយ?"},
+    "answer": {"fr": "La climatisation du bureau est trop froide.", "en": "The office air conditioning is too cold.", "km": "ម៉ាស៊ីនត្រជាក់នៅការិយាល័យត្រជាក់ពេក។"}
+  }
+}

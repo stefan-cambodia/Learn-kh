@@ -1,0 +1,134 @@
+{
+  "id": "u060",
+  "order": 60,
+  "level": "intermediaire",
+  "theme": "les-quantites",
+  "title": {"fr": "Les quantités", "en": "Quantities", "km": "បរិមាណ"},
+  "tip": {
+    "fr": "Les mots de quantité khmers se placent après le nom : បាយច្រើន, « beaucoup de riz » ; ទឹកតិច, « peu d'eau ». ពេក, « trop », et ណាស់, « très », se placent après l'adjectif : ក្តៅពេក, « trop chaud ».",
+    "en": "Khmer quantity words go after the noun: បាយច្រើន, “a lot of rice”; ទឹកតិច, “a little water”. ពេក, “too”, and ណាស់, “very”, go after the adjective: ក្តៅពេក, “too hot”. French puts quantity words before the noun, with « de »: beaucoup de riz, peu d'eau, trop de sucre.",
+    "km": "ភាសាបារាំង ពាក្យបរិមាណដាក់មុននាម ហើយប្រើ « de »៖ beaucoup de riz (បាយច្រើន), peu d'eau (ទឹកតិច), trop de sucre (ស្ករច្រើនពេក)។"
+  },
+  "vocabulary": [
+    {
+      "fr": "beaucoup", "en": "a lot", "km": "ច្រើន", "tr": "tchraeun", "pos": "adverbe",
+      "note": {
+        "fr": "ច្រើន se place après le nom ou le verbe : ញ៉ាំច្រើន, « manger beaucoup ». Avec ណាស់ : ច្រើនណាស់, « énormément ».",
+        "en": "ច្រើន goes after the noun or verb: ញ៉ាំច្រើន, “eat a lot”. With ណាស់: ច្រើនណាស់, “loads”. French « beaucoup de » + noun: beaucoup de monde.",
+        "km": "« beaucoup de » + នាម មានន័យថា ច្រើន៖ beaucoup de monde (មនុស្សច្រើន)។ អង់គ្លេស៖ « a lot », « many », « much »។"
+      },
+      "example": {"fr": "Il y a beaucoup de monde au marché.", "en": "There are lots of people at the market.", "km": "នៅផ្សារមានមនុស្សច្រើនណាស់។", "tr": "neuv phsa méan mo-nouh tchraeun nah."}
+    },
+    {
+      "fr": "peu", "en": "little", "km": "តិច", "tr": "tetch", "pos": "adverbe",
+      "note": {
+        "fr": "Le contraire de ច្រើន. Ne pas confondre avec បន្តិច, « un peu » : តិច insiste sur la petite quantité.",
+        "en": "The opposite of ច្រើន. Don't confuse it with បន្តិច, “a little”: តិច stresses the small amount. French « peu » means “little”, « un peu » means “a little”.",
+        "km": "« peu » មានន័យថា តិច ហើយ « un peu » មានន័យថា បន្តិច។ អង់គ្លេស៖ « little », « few »។"
+      },
+      "example": {"fr": "Je mange peu le soir.", "en": "I eat little in the evening.", "km": "ពេលល្ងាច ខ្ញុំញ៉ាំតិច។", "tr": "pél lngéatch, khgnom gnam tetch."}
+    },
+    {
+      "fr": "assez", "en": "enough", "km": "គ្រប់គ្រាន់", "tr": "krup-kroan", "pos": "adverbe",
+      "note": {
+        "fr": "គ្រប់គ្រាន់ se place après le nom : ពេលគ្រប់គ្រាន់, « assez de temps ». គ្រប់គ្រាន់ហើយ, « ça suffit ».",
+        "en": "គ្រប់គ្រាន់ goes after the noun: ពេលគ្រប់គ្រាន់, “enough time”. គ្រប់គ្រាន់ហើយ, “that's enough”. French « assez de » + noun; « assez » + adjective also means “quite”.",
+        "km": "« assez de » + នាម មានន័យថា គ្រប់គ្រាន់។ « assez » + គុណនាម មានន័យថា ល្មម៖ assez grand។ អង់គ្លេស៖ « enough »។"
+      },
+      "example": {"fr": "Nous avons assez de temps.", "en": "We have enough time.", "km": "យើងមានពេលគ្រប់គ្រាន់។", "tr": "yeung méan pél krup-kroan."}
+    },
+    {
+      "fr": "trop", "en": "too much", "km": "ពេក", "tr": "pék", "pos": "adverbe",
+      "note": {
+        "fr": "ពេក se place toujours après : ច្រើនពេក, « trop », mot à mot « beaucoup trop » ; ថ្លៃពេក, « trop cher ».",
+        "en": "ពេក always comes after: ច្រើនពេក, “too much”; ថ្លៃពេក, “too expensive”. French « trop » goes before the adjective, and « trop de » before a noun.",
+        "km": "« trop » ដាក់មុនគុណនាម៖ trop cher (ថ្លៃពេក)។ « trop de » + នាម៖ trop de sucre។ អង់គ្លេស៖ « too », « too much »។"
+      },
+      "example": {"fr": "Il y a trop de sucre dans ce café.", "en": "There's too much sugar in this coffee.", "km": "កាហ្វេនេះស្ករច្រើនពេក។", "tr": "ka-fé nih skâ tchraeun pék."}
+    },
+    {
+      "fr": "la moitié", "en": "half", "km": "ពាក់កណ្តាល", "tr": "péak-kân-dal", "pos": "nom",
+      "note": {
+        "fr": "ពាក់កណ្តាល, « la moitié ». Pour une mesure, on dit កន្លះ : កន្លះគីឡូ, un demi-kilo ; ម៉ោងប្រាំកន្លះ, cinq heures et demie.",
+        "en": "ពាក់កណ្តាល, “half”. For a measure, say កន្លះ: កន្លះគីឡូ, half a kilo; ម៉ោងប្រាំកន្លះ, half past five. French « la moitié » is a noun; « demi » is used for measures: un demi-kilo.",
+        "km": "« la moitié » ជានាម។ សម្រាប់រង្វាស់ គេប្រើ « demi »៖ un demi-kilo (កន្លះគីឡូ)។ អង់គ្លេស៖ « half »។"
+      },
+      "example": {"fr": "Je te donne la moitié du gâteau.", "en": "I'll give you half of the cake.", "km": "ខ្ញុំចែកនំឱ្យអ្នកពាក់កណ្តាល។", "tr": "khgnom tchaèk num aoy néak péak-kân-dal."}
+    },
+    {
+      "fr": "tout", "en": "all", "km": "ទាំងអស់", "tr": "téang âh", "pos": "pronom",
+      "note": {
+        "fr": "ទាំងអស់ se place après le nom : អ្នកទាំងអស់គ្នា, « tout le monde ». អស់ seul veut dire « épuisé, fini ».",
+        "en": "ទាំងអស់ goes after the noun: អ្នកទាំងអស់គ្នា, “everyone”. អស់ alone means “used up, finished”. French « tout » changes: tout, toute, tous, toutes.",
+        "km": "« tout » ប្តូរតាមភេទ និងចំនួន៖ tout, toute, tous, toutes។ « tout le monde » មានន័យថា អ្នកទាំងអស់គ្នា។ អង់គ្លេស៖ « all », « everything »។"
+      },
+      "example": {"fr": "Tout le monde est là.", "en": "Everyone is here.", "km": "អ្នកទាំងអស់គ្នាមកដល់ហើយ។", "tr": "néak téang âh knéa mok dâl haeuy."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Ça suffit, merci.", "en": "That's enough, thank you.", "km": "គ្រប់គ្រាន់ហើយ អរគុណ។", "tr": "krup-kroan haeuy, â-koun.",
+      "note": {
+        "fr": "Pour refuser poliment qu'on vous resserve. Le geste de la main au-dessus de l'assiette aide aussi.",
+        "en": "To politely refuse another helping. A hand held over the plate helps too. French « suffire » means “to be enough”.",
+        "km": "« suffire » មានន័យថា គ្រប់គ្រាន់។ អង់គ្លេស៖ « That's enough »។"
+      }
+    },
+    {
+      "fr": "Encore un peu ?", "en": "A little more?", "km": "ថែមបន្តិចទៀតទេ?", "tr": "thaèm bân-tetch tiet té ?",
+      "note": {
+        "fr": "ថែម (thaèm), « ajouter, en plus ». On l'entend souvent au marché quand le vendeur ajoute un petit cadeau.",
+        "en": "ថែម (thaèm), “to add, extra”. You often hear it at the market when the seller adds a little extra. French « encore » means “more”.",
+        "km": "« encore un peu » មានន័យថា ថែមបន្តិចទៀត។ អង់គ្លេស៖ « A little more? »។"
+      }
+    },
+    {
+      "fr": "Juste un tout petit peu.", "en": "Just a tiny bit.", "km": "បន្តិចបន្តួចបានហើយ។", "tr": "bân-tetch bân-touotch ban haeuy.",
+      "note": {
+        "fr": "បន្តិចបន្តួច, « un tout petit peu », plus fort que បន្តិច. បានហើយ : « ça ira ».",
+        "en": "បន្តិចបន្តួច, “a tiny bit”, stronger than បន្តិច. បានហើយ: “that'll do”. French « un tout petit peu » means “a tiny bit”.",
+        "km": "« un tout petit peu » មានន័យថា បន្តិចបន្តួច។ អង់គ្លេស៖ « just a tiny bit »។"
+      }
+    },
+    {
+      "fr": "C'est tout ?", "en": "Is that all?", "km": "ប៉ុណ្ណឹងទេ?", "tr": "pon-neung té ?",
+      "note": {
+        "fr": "ប៉ុណ្ណឹង (pon-neung), « autant que ça ». Le vendeur le demande avant de faire le total.",
+        "en": "ប៉ុណ្ណឹង (pon-neung), “that much”. Sellers ask it before adding up. French « C'est tout ? » is the same question.",
+        "km": "« C'est tout ? » មានន័យថា ប៉ុណ្ណឹងទេ? អង់គ្លេស៖ « Is that all? »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "En cuisine", "en": "In the kitchen", "km": "នៅផ្ទះបាយ"},
+      "fr": "Ne mets pas trop de piment !", "en": "Don't put in too much chilli!",
+      "km": "កុំដាក់ម្ទេសច្រើនពេក!", "tr": "kom dak mtéh tchraeun pék !"
+    },
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Un demi-kilo de crevettes, s'il vous plaît.", "en": "Half a kilo of prawns, please.",
+      "km": "សុំបង្គាកន្លះគីឡូ។", "tr": "som bâng-kéa kân-lah ki-lô."
+    },
+    {
+      "situation": {"fr": "Avant le voyage", "en": "Before the trip", "km": "មុនចេញដំណើរ"},
+      "fr": "Nous avons assez d'argent pour le voyage.", "en": "We have enough money for the trip.",
+      "km": "យើងមានលុយគ្រប់គ្រាន់សម្រាប់ដំណើរនេះ។", "tr": "yeung méan louy krup-kroan sâm-rap dâm-naeu nih."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} a invité {B} à dîner et lui sert le repas.", "en": "{A} has invited {B} to dinner and is serving the meal.", "km": "{A} អញ្ជើញ {B} មកញ៉ាំបាយល្ងាច ហើយកំពុងដួសម្ហូបឱ្យ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Tu veux encore un peu de riz ?", "en": "Would you like a little more rice?", "km": "ថែមបាយបន្តិចទៀតទេ?", "tr": "thaèm bay bân-tetch tiet té ?"},
+      {"speaker": "B", "fr": "Juste un peu, merci. J'ai déjà beaucoup mangé.", "en": "Just a little, thanks. I've already eaten a lot.", "km": "បន្តិចបានហើយ អរគុណ។ ខ្ញុំញ៉ាំច្រើនហើយ។", "tr": "bân-tetch ban haeuy, â-koun. khgnom gnam tchraeun haeuy."},
+      {"speaker": "A", "fr": "Et la soupe ? Il en reste la moitié.", "en": "And the soup? There's half of it left.", "km": "ចុះសម្លវិញ? នៅសល់ពាក់កណ្តាល។", "tr": "tchoh sâm-lâ vign ? neuv sâl péak-kân-dal."},
+      {"speaker": "B", "fr": "Elle est délicieuse, mais un peu trop salée pour moi.", "en": "It's delicious, but a bit too salty for me.", "km": "ឆ្ងាញ់ណាស់ ប៉ុន្តែប្រៃពេកបន្តិចសម្រាប់ខ្ញុំ។", "tr": "tchhngagn nah, pon-taè prey pék bân-tetch sâm-rap khgnom."},
+      {"speaker": "A", "fr": "Pas de problème. Tu as assez mangé ?", "en": "No problem. Have you had enough to eat?", "km": "មិនអីទេ។ ញ៉ាំគ្រប់គ្រាន់ហើយឬនៅ?", "tr": "min ey té. gnam krup-kroan haeuy reu neuv ?"},
+      {"speaker": "B", "fr": "Oui, ça suffit. Merci pour tout !", "en": "Yes, that's enough. Thank you for everything!", "km": "{B_yes} គ្រប់គ្រាន់ហើយ។ អរគុណសម្រាប់អ្វីៗទាំងអស់!", "tr": "{B_yes}, krup-kroan haeuy. â-koun sâm-rap ey-ey téang âh !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi {B} ne reprend pas de soupe ?", "en": "Why doesn't {B} have more soup?", "km": "ហេតុអ្វី {B} មិនញ៉ាំសម្លថែម?"},
+    "answer": {"fr": "Elle est un peu trop salée.", "en": "It's a bit too salty.", "km": "សម្លប្រៃពេកបន្តិច។"}
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "u053",
+  "order": 53,
+  "level": "intermediaire",
+  "theme": "les-metiers",
+  "title": {"fr": "Les métiers", "en": "Jobs", "km": "មុខរបរ"},
+  "tip": {
+    "fr": "Beaucoup de métiers se forment avec អ្នក (néak), « la personne », suivi d'un verbe : អ្នកលក់, « celui qui vend » ; អ្នកបើកឡាន, « celui qui conduit ». Le même mot vaut pour un homme et pour une femme.",
+    "en": "Many jobs are built with អ្នក (néak), “person”, followed by a verb: អ្នកលក់, “one who sells”; អ្នកបើកឡាន, “one who drives”. The same word works for a man and a woman. French has feminine forms: vendeur, vendeuse; cuisinier, cuisinière.",
+    "km": "ភាសាបារាំង មុខរបរច្រើនមានទម្រង់ភេទស្រី៖ un vendeur, une vendeuse ; un cuisinier, une cuisinière។ ពេលប្រាប់មុខរបររបស់ខ្លួន គេមិនដាក់ « un » ទេ៖ je suis médecin។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le métier", "en": "job", "km": "មុខរបរ", "tr": "mouk ro-bâ", "pos": "nom",
+      "note": {
+        "fr": "មុខរបរ désigne le métier, la profession. À l'oral, on demande plus simplement ធ្វើការអ្វី?, « tu fais quel travail ? ».",
+        "en": "មុខរបរ is a trade or profession. In speech, people simply ask ធ្វើការអ្វី?, “what work do you do?”. French « métier » is masculine.",
+        "km": "« métier » ជានាមភេទប្រុស៖ le métier។ អង់គ្លេស៖ « job », « profession »។"
+      },
+      "example": {"fr": "Cuisinier, c'est un beau métier.", "en": "Being a cook is a fine job.", "km": "ចុងភៅជាមុខរបរល្អមួយ។", "tr": "tchong-phov tchéa mouk ro-bâ l'â mouy."}
+    },
+    {
+      "fr": "le paysan", "en": "farmer", "km": "កសិករ", "tr": "kâ-se-kâ", "pos": "nom",
+      "note": {
+        "fr": "Mot soigné. Pour un riziculteur, on dit souvent អ្នកធ្វើស្រែ, « celui qui fait la rizière ». La plupart des Cambodgiens ont de la famille à la campagne.",
+        "en": "A formal word. For a rice farmer, people often say អ្នកធ្វើស្រែ, “one who works the rice field”. French « paysan » becomes « paysanne » for a woman.",
+        "km": "« paysan » ជានាមភេទប្រុស ភេទស្រីគឺ « paysanne »។ ពាក្យ « agriculteur » ក៏មានន័យដូចគ្នា។ អង់គ្លេស៖ « farmer »។"
+      },
+      "example": {"fr": "Mon grand-père était paysan.", "en": "My grandfather was a farmer.", "km": "តារបស់ខ្ញុំជាកសិករ។", "tr": "ta ro-bâh khgnom tchéa kâ-se-kâ."}
+    },
+    {
+      "fr": "le vendeur", "en": "seller", "km": "អ្នកលក់", "tr": "néak lok", "pos": "nom",
+      "note": {
+        "fr": "អ្នក + លក់ (vendre). De même : អ្នកទិញ, l'acheteur ou le client.",
+        "en": "អ្នក + លក់ (to sell). Likewise: អ្នកទិញ, the buyer or customer. French « vendeur » becomes « vendeuse » for a woman.",
+        "km": "« vendeur » ភេទស្រីគឺ « vendeuse »។ « le client » មានន័យថា អ្នកទិញ។ អង់គ្លេស៖ « seller », « shop assistant »។"
+      },
+      "example": {"fr": "La vendeuse est très gentille.", "en": "The seller is very kind.", "km": "អ្នកលក់ចិត្តល្អណាស់។", "tr": "néak lok tchet l'â nah."}
+    },
+    {
+      "fr": "le chauffeur", "en": "driver", "km": "អ្នកបើកឡាន", "tr": "néak baeuk lan", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « celui qui conduit la voiture ». Un chauffeur de tuk-tuk se dit អ្នកបើកតុកតុក, et on l'appelle poliment ពូ, « oncle ».",
+        "en": "Word for word “one who drives the car”. A tuk-tuk driver is អ្នកបើកតុកតុក, politely called ពូ, “uncle”. French « chauffeur » is spelled with two f's.",
+        "km": "« chauffeur » ជានាមភេទប្រុស៖ le chauffeur de taxi។ អង់គ្លេស៖ « driver »។"
+      },
+      "example": {"fr": "Le chauffeur connaît bien la ville.", "en": "The driver knows the city well.", "km": "អ្នកបើកឡានស្គាល់ទីក្រុងច្បាស់។", "tr": "néak baeuk lan skoal ti-krong tchbah."}
+    },
+    {
+      "fr": "le policier", "en": "police officer", "km": "ប៉ូលិស", "tr": "po-lih", "pos": "nom",
+      "note": {
+        "fr": "Emprunté au français « police ». Le poste de police se dit ប៉ុស្តិ៍ប៉ូលិស (pos po-lih).",
+        "en": "Borrowed from French « police ». A police station is ប៉ុស្តិ៍ប៉ូលិស (pos po-lih). French: « le policier », « la policière »; « la police » is the force.",
+        "km": "« policier » ជាមនុស្ស ហើយ « la police » ជាស្ថាប័ន។ អង់គ្លេស៖ « police officer »។"
+      },
+      "example": {"fr": "Le policier aide les enfants à traverser.", "en": "The police officer helps the children cross.", "km": "ប៉ូលិសជួយក្មេងៗឆ្លងផ្លូវ។", "tr": "po-lih tchouoy kméng-kméng tchhlâng phleuv."}
+    },
+    {
+      "fr": "le cuisinier", "en": "cook", "km": "ចុងភៅ", "tr": "tchong-phov", "pos": "nom",
+      "note": {
+        "fr": "ចុងភៅ désigne le cuisinier d'un restaurant ou d'une maison. Le chef cuisinier se dit មេចុងភៅ, « chef des cuisiniers ».",
+        "en": "ចុងភៅ is the cook in a restaurant or a household. The head chef is មេចុងភៅ. French « cuisinier » becomes « cuisinière » for a woman, which also means a cooker.",
+        "km": "« cuisinier » ភេទស្រីគឺ « cuisinière » ដែលក៏មានន័យថា ចង្ក្រានដែរ។ អង់គ្លេស៖ « cook », « chef »។"
+      },
+      "example": {"fr": "Le cuisinier prépare la soupe.", "en": "The cook is making the soup.", "km": "ចុងភៅកំពុងធ្វើសម្ល។", "tr": "tchong-phov kâm-poung thveu sâm-lâ."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Qu'est-ce que tu fais dans la vie ?", "en": "What do you do for a living?", "km": "អ្នកធ្វើការអ្វី?", "tr": "néak thveu-ka ey ?",
+      "note": {
+        "fr": "Mot à mot « tu fais quel travail ? ». Question très courante dès la première rencontre.",
+        "en": "Word for word “you do what work?”. A very common question from the first meeting. French « dans la vie » means “in life”.",
+        "km": "សំណួរនេះប្រើដើម្បីសួរពីមុខរបរ។ ទម្រង់ខ្លី៖ « Tu fais quoi ? »។ អង់គ្លេស៖ « What do you do? »។"
+      }
+    },
+    {
+      "fr": "Je travaille dans un bureau.", "en": "I work in an office.", "km": "ខ្ញុំធ្វើការនៅការិយាល័យ។", "tr": "khgnom thveu-ka neuv ka-ri-ya-lay.",
+      "note": {
+        "fr": "ការិយាល័យ (ka-ri-ya-lay), le bureau, est un mot savant. La phrase reste la même pour un homme ou une femme.",
+        "en": "ការិយាល័យ (ka-ri-ya-lay), office, is a learned word. French « bureau » means both the office and the desk.",
+        "km": "« bureau » មានន័យទាំងការិយាល័យ និងតុធ្វើការ។ អង់គ្លេស៖ « office », « desk »។"
+      }
+    },
+    {
+      "fr": "J'aime mon travail.", "en": "I like my job.", "km": "ខ្ញុំចូលចិត្តការងាររបស់ខ្ញុំ។", "tr": "khgnom tchôl tchet ka-ngéa ro-bâh khgnom.",
+      "note": {
+        "fr": "ចូលចិត្ត pour les choses et les activités. Pour l'inverse : មិនសូវចូលចិត្តទេ, « je ne l'aime pas trop ».",
+        "en": "ចូលចិត្ត is for things and activities. The opposite: មិនសូវចូលចិត្តទេ, “I don't really like it”. French « aimer » covers both “like” and “love”.",
+        "km": "« aimer » ប្រើទាំងសម្រាប់មនុស្ស និងរបស់។ អង់គ្លេស៖ « I like my job »។"
+      }
+    },
+    {
+      "fr": "Tu travailles où ?", "en": "Where do you work?", "km": "ធ្វើការនៅឯណា?", "tr": "thveu-ka neuv aè na ?",
+      "note": {
+        "fr": "Le mot interrogatif នៅឯណា reste en fin de phrase, comme toujours en khmer.",
+        "en": "The question word នៅឯណា stays at the end, as always in Khmer. Casual French also puts « où » at the end.",
+        "km": "« où » មានន័យថា នៅឯណា។ ទម្រង់សុភាព៖ « Où travaillez-vous ? »។ អង់គ្លេស៖ « Where do you work? »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Parler de sa famille", "en": "Talking about your family", "km": "និយាយពីគ្រួសារ"},
+      "fr": "Mes parents sont paysans, ils cultivent du riz.", "en": "My parents are farmers, they grow rice.",
+      "km": "ឪពុកម្តាយខ្ញុំជាកសិករ ពួកគាត់ធ្វើស្រែ។", "tr": "eu-pouk mday khgnom tchéa kâ-se-kâ, pouok-koat thveu srè."
+    },
+    {
+      "situation": {"fr": "En taxi", "en": "In a taxi", "km": "ក្នុងតាក់ស៊ី"},
+      "fr": "Le chauffeur nous attend devant l'hôtel.", "en": "The driver is waiting for us in front of the hotel.",
+      "km": "អ្នកបើកឡានរង់ចាំយើងនៅមុខសណ្ឋាគារ។", "tr": "néak baeuk lan rong-tcham yeung neuv mouk sân-tha-kéa."
+    },
+    {
+      "situation": {"fr": "Les projets d'un enfant", "en": "A child's plans", "km": "ក្តីស្រមៃរបស់ក្មេង"},
+      "fr": "Plus tard, je voudrais être médecin.", "en": "Later, I would like to be a doctor.",
+      "km": "ថ្ងៃក្រោយ ខ្ញុំចង់ធ្វើជាគ្រូពេទ្យ។", "tr": "thngay kraoy, khgnom tchâng thveu tchéa krou-pét."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} parlent de leur travail en buvant un café.", "en": "{A} and {B} talk about their work over a coffee.", "km": "{A} និង {B} និយាយពីការងាររបស់ខ្លួន ពេលកំពុងផឹកកាហ្វេ។"},
+    "lines": [
+      {"speaker": "B", "fr": "Qu'est-ce que tu fais dans la vie ?", "en": "What do you do for a living?", "km": "{A} ធ្វើការអ្វី?", "tr": "{A} thveu-ka ey ?"},
+      {"speaker": "A", "fr": "Je travaille dans la cuisine d'un restaurant.", "en": "I work in a restaurant kitchen.", "km": "ខ្ញុំធ្វើការនៅផ្ទះបាយរបស់ភោជនីយដ្ឋានមួយ។", "tr": "khgnom thveu-ka neuv phtéah bay ro-bâh phô-tchéa-ni-yéa-than mouy."},
+      {"speaker": "B", "fr": "C'est un beau métier ! Et tes parents ?", "en": "That's a fine job! And your parents?", "km": "ជាមុខរបរល្អ! ចុះឪពុកម្តាយ {A} វិញ?", "tr": "tchéa mouk ro-bâ l'â ! tchoh eu-pouk mday {A} vign ?"},
+      {"speaker": "A", "fr": "Ils sont paysans, ils cultivent du riz à Takeo.", "en": "They're farmers, they grow rice in Takeo.", "km": "ពួកគាត់ជាកសិករ ធ្វើស្រែនៅតាកែវ។", "tr": "pouok-koat tchéa kâ-se-kâ, thveu srè neuv ta-kaèv."},
+      {"speaker": "B", "fr": "Moi, je travaille dans un bureau, devant un ordinateur.", "en": "I work in an office, in front of a computer.", "km": "ចំណែកខ្ញុំ ធ្វើការនៅការិយាល័យ មុខកុំព្យូទ័រ។", "tr": "tchâm-naèk khgnom, thveu-ka neuv ka-ri-ya-lay, mouk kom-pyou-tô."},
+      {"speaker": "A", "fr": "Et tu aimes ton travail ?", "en": "And do you like your job?", "km": "ហើយចូលចិត្តការងារនោះទេ?", "tr": "haeuy tchôl tchet ka-ngéa nouh té ?"},
+      {"speaker": "B", "fr": "Oui, mais je préfère cuisiner avec toi !", "en": "Yes, but I prefer cooking with you!", "km": "{B_yes} ប៉ុន្តែខ្ញុំចូលចិត្តធ្វើម្ហូបជាមួយ {A} ជាង!", "tr": "{B_yes}, pon-taè khgnom tchôl tchet thveu mhôp tchéa-mouy {A} tchéang !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où travaillent les parents de {A} ?", "en": "Where do {A}'s parents work?", "km": "ឪពុកម្តាយរបស់ {A} ធ្វើការនៅឯណា?"},
+    "answer": {"fr": "Dans les rizières, à Takeo.", "en": "In the rice fields, in Takeo.", "km": "នៅស្រែ នៅខេត្តតាកែវ។"}
+  }
+}

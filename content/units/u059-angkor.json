@@ -1,0 +1,134 @@
+{
+  "id": "u059",
+  "order": 59,
+  "level": "intermediaire",
+  "theme": "angkor",
+  "title": {"fr": "Angkor et l'histoire", "en": "Angkor and history", "km": "អង្គរ និងប្រវត្តិសាស្ត្រ"},
+  "tip": {
+    "fr": "ប្រាសាទ (pra-sat) désigne les monuments anciens, comme Angkor Vat, អង្គរវត្ត, construit au XIIᵉ siècle. Le temple bouddhique où vivent les moines, lui, se dit វត្ត, la pagode. Dans les temples, on couvre épaules et genoux.",
+    "en": "ប្រាសាទ (pra-sat) means ancient monuments, like Angkor Wat, អង្គរវត្ត, built in the 12th century. The Buddhist temple where monks live is វត្ត, the pagoda. In temples, cover your shoulders and knees. French writes centuries in Roman numerals: le XIIe siècle.",
+    "km": "ភាសាបារាំង « temple » ប្រើសម្រាប់ប្រាសាទ ហើយ « pagode » សម្រាប់វត្ត។ សតវត្សរ៍ សរសេរជាលេខរ៉ូម៉ាំង៖ le XIIe siècle (សតវត្សរ៍ទី១២)។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le temple", "en": "temple", "km": "ប្រាសាទ", "tr": "pra-sat", "pos": "nom",
+      "note": {
+        "fr": "ប្រាសាទ désigne les temples de pierre de l'époque angkorienne. On le voit sur le drapeau cambodgien.",
+        "en": "ប្រាសាទ means the stone temples of the Angkor period. One appears on the Cambodian flag. French « temple » is masculine.",
+        "km": "« temple » ជានាមភេទប្រុស៖ le temple d'Angkor។ អង់គ្លេស៖ « temple »។"
+      },
+      "example": {"fr": "Nous visitons trois temples aujourd'hui.", "en": "We're visiting three temples today.", "km": "ថ្ងៃនេះ យើងទស្សនាប្រាសាទបី។", "tr": "thngay nih, yeung tos-sâ-na pra-sat bey."}
+    },
+    {
+      "fr": "ancien", "en": "ancient", "km": "បុរាណ", "tr": "bo-ran", "pos": "adjectif",
+      "note": {
+        "fr": "បុរាណ se dit de ce qui est très vieux et a de la valeur : ទីក្រុងបុរាណ, la cité ancienne. Pour un objet simplement usé, on dit ចាស់.",
+        "en": "បុរាណ is said of what is very old and valuable: ទីក្រុងបុរាណ, the ancient city. For something merely worn, say ចាស់. French « ancien » becomes « ancienne » in the feminine.",
+        "km": "« ancien » ភេទស្រីគឺ « ancienne »។ នៅមុននាម វាមានន័យថា អតីត៖ mon ancien travail។ អង់គ្លេស៖ « ancient », « old »។"
+      },
+      "example": {"fr": "C'est une ville très ancienne.", "en": "It's a very ancient city.", "km": "ជាទីក្រុងបុរាណណាស់។", "tr": "tchéa ti-krong bo-ran nah."}
+    },
+    {
+      "fr": "l'histoire", "en": "history", "km": "ប្រវត្តិសាស្ត្រ", "tr": "prâ-vat-te-sah", "pos": "nom",
+      "note": {
+        "fr": "ប្រវត្តិ (prâ-vat), « le parcours », et សាស្ត្រ (sah), « la science ». Une histoire que l'on raconte se dit រឿង (reuang).",
+        "en": "ប្រវត្តិ (prâ-vat), “course of events”, and សាស្ត្រ (sah), “science”. A story you tell is រឿង (reuang). French « histoire » means both history and story.",
+        "km": "« histoire » មានន័យពីរ៖ ប្រវត្តិសាស្ត្រ និងរឿងនិទាន។ អង់គ្លេស៖ « history », « story »។"
+      },
+      "example": {"fr": "J'aime l'histoire des rois khmers.", "en": "I like the history of the Khmer kings.", "km": "ខ្ញុំចូលចិត្តប្រវត្តិសាស្ត្រស្តេចខ្មែរ។", "tr": "khgnom tchôl tchet prâ-vat-te-sah sdetch khmaè."}
+    },
+    {
+      "fr": "le roi", "en": "king", "km": "ស្តេច", "tr": "sdetch", "pos": "nom",
+      "note": {
+        "fr": "ស្តេច est le mot courant. Pour le roi actuel, on emploie la langue royale, plus respectueuse : ព្រះមហាក្សត្រ (préah mâ-ha-ksat).",
+        "en": "ស្តេច is the everyday word. For the present king, the more respectful royal vocabulary is used: ព្រះមហាក្សត្រ (préah mâ-ha-ksat). French « roi » sounds like “rwa”; « la reine » is the queen.",
+        "km": "« roi » ជានាមភេទប្រុស ហើយ « la reine » គឺមហាក្សត្រិយានី។ អង់គ្លេស៖ « king », « queen »។"
+      },
+      "example": {"fr": "Le roi a construit ce temple.", "en": "The king built this temple.", "km": "ស្តេចបានសាងសង់ប្រាសាទនេះ។", "tr": "sdetch ban sang-sâng pra-sat nih."}
+    },
+    {
+      "fr": "la sculpture", "en": "carving", "km": "ចម្លាក់", "tr": "tchâm-lak", "pos": "nom",
+      "note": {
+        "fr": "ចម្លាក់ désigne les bas-reliefs et les sculptures. Ceux des danseuses célestes, les អប្សរា (âp-sâ-ra), couvrent les murs d'Angkor.",
+        "en": "ចម្លាក់ means bas-reliefs and carvings. Those of celestial dancers, the អប្សរា (âp-sâ-ra), cover the walls of Angkor. French « sculpture »: the p is silent.",
+        "km": "« sculpture » ជានាមភេទស្រី ហើយ p មិនអានទេ៖ la sculpture។ អង់គ្លេស៖ « sculpture », « carving »។"
+      },
+      "example": {"fr": "Ces sculptures sont très anciennes.", "en": "These carvings are very old.", "km": "ចម្លាក់ទាំងនេះចាស់បុរាណណាស់។", "tr": "tchâm-lak téang nih tchah bo-ran nah."}
+    },
+    {
+      "fr": "le siècle", "en": "century", "km": "សតវត្សរ៍", "tr": "sâ-ta-voat", "pos": "nom",
+      "note": {
+        "fr": "On compte les siècles avec ទី : សតវត្សរ៍ទីដប់ពីរ, le douzième siècle. Le signe ៍ final marque des lettres muettes.",
+        "en": "Centuries are counted with ទី: សតវត្សរ៍ទីដប់ពីរ, the twelfth century. The final sign ៍ marks silent letters. French « siècle » is masculine and often written in Roman numerals.",
+        "km": "« siècle » ជានាមភេទប្រុស៖ le douzième siècle, le XIIe siècle។ អង់គ្លេស៖ « century »។"
+      },
+      "example": {"fr": "Angkor Vat date du douzième siècle.", "en": "Angkor Wat dates from the twelfth century.", "km": "អង្គរវត្តសាងសង់នៅសតវត្សរ៍ទីដប់ពីរ។", "tr": "âng-kô voat sang-sâng neuv sâ-ta-voat ti dâp-pi."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Il a été construit quand ?", "en": "When was it built?", "km": "សាងសង់នៅពេលណា?", "tr": "sang-sâng neuv pél na ?",
+      "note": {
+        "fr": "Le khmer n'a pas besoin de passif : សាងសង់, « construire », reste tel quel.",
+        "en": "Khmer needs no passive: សាងសង់, “to build”, stays as it is. French uses the passive: il a été construit.",
+        "km": "« construire »៖ on a construit (គេបានសាងសង់), il a été construit (ត្រូវបានសាងសង់)។ អង់គ្លេស៖ « When was it built? »។"
+      }
+    },
+    {
+      "fr": "On peut prendre des photos ?", "en": "Can we take photos?", "km": "ថតរូបបានទេ?", "tr": "thât roup ban té ?",
+      "note": {
+        "fr": "Verbe + បានទេ? demande une permission. Dans certains sanctuaires, les photos sont interdites.",
+        "en": "Verb + បានទេ? asks for permission. In some sanctuaries, photos are not allowed. French « On peut… ? » means “Can we…?”.",
+        "km": "« On peut… ? » ប្រើសុំការអនុញ្ញាត។ អង់គ្លេស៖ « Can we… ? »។"
+      }
+    },
+    {
+      "fr": "Il faut enlever ses chaussures ?", "en": "Do we have to take off our shoes?", "km": "ត្រូវដោះស្បែកជើងទេ?", "tr": "treuv doh sbaèk tcheung té ?",
+      "note": {
+        "fr": "ត្រូវ, « devoir, il faut ». Dans une pagode, on se déchausse toujours avant d'entrer dans le sanctuaire.",
+        "en": "ត្រូវ, “must, have to”. In a pagoda, you always take off your shoes before entering the sanctuary. French « il faut » means “one must”.",
+        "km": "« il faut » មានន័យថា ត្រូវ។ អង់គ្លេស៖ « Do we have to… ? »។"
+      }
+    },
+    {
+      "fr": "On se lève tôt pour voir le lever du soleil.", "en": "Let's get up early to see the sunrise.", "km": "ក្រោកពីព្រលឹមមើលថ្ងៃរះ។", "tr": "kraok pi pro-leum meul thngay reah.",
+      "note": {
+        "fr": "ថ្ងៃរះ (thngay reah), « le soleil se lève ». Le coucher du soleil se dit ថ្ងៃលិច (thngay letch).",
+        "en": "ថ្ងៃរះ (thngay reah), “the sun rises”. Sunset is ថ្ងៃលិច (thngay letch). French « le lever du soleil » is the sunrise, « le coucher du soleil » the sunset.",
+        "km": "« le lever du soleil » មានន័យថា ថ្ងៃរះ ហើយ « le coucher du soleil » មានន័យថា ថ្ងៃលិច។ អង់គ្លេស៖ « sunrise », « sunset »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À Siem Reap", "en": "In Siem Reap", "km": "នៅសៀមរាប"},
+      "fr": "Angkor Vat est le plus grand temple du monde.", "en": "Angkor Wat is the largest temple in the world.",
+      "km": "អង្គរវត្តជាប្រាសាទធំជាងគេលើលោក។", "tr": "âng-kô voat tchéa pra-sat thom tchéang ké leu lok."
+    },
+    {
+      "situation": {"fr": "À l'école", "en": "At school", "km": "នៅសាលារៀន"},
+      "fr": "Les enfants apprennent l'histoire du Cambodge.", "en": "The children are learning the history of Cambodia.",
+      "km": "ក្មេងៗរៀនប្រវត្តិសាស្ត្រកម្ពុជា។", "tr": "kméng-kméng rien prâ-vat-te-sah kam-pou-tchéa."
+    },
+    {
+      "situation": {"fr": "Au musée", "en": "At the museum", "km": "នៅសារមន្ទីរ"},
+      "fr": "Le musée national se trouve près du palais royal.", "en": "The national museum is near the royal palace.",
+      "km": "សារមន្ទីរជាតិនៅជិតព្រះបរមរាជវាំង។", "tr": "sa-ra-mon-ti tchéat neuv tchit préah bâ-rom réach-véang."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} visitent Angkor Vat très tôt le matin.", "en": "{A} and {B} are visiting Angkor Wat very early in the morning.", "km": "{A} និង {B} ទស្សនាអង្គរវត្តតាំងពីព្រលឹម។"},
+    "lines": [
+      {"speaker": "B", "fr": "C'est magnifique ! Il a été construit quand ?", "en": "It's magnificent! When was it built?", "km": "ស្អាតខ្លាំងណាស់! សាងសង់នៅពេលណា?", "tr": "s'at khlang nah ! sang-sâng neuv pél na ?"},
+      {"speaker": "A", "fr": "Au douzième siècle, par un célèbre roi khmer.", "en": "In the twelfth century, by a famous Khmer king.", "km": "នៅសតវត្សរ៍ទីដប់ពីរ ដោយស្តេចខ្មែរដ៏ល្បីមួយអង្គ។", "tr": "neuv sâ-ta-voat ti dâp-pi, daoy sdetch khmaè dâ lbey mouy âng."},
+      {"speaker": "B", "fr": "On peut prendre des photos ?", "en": "Can we take photos?", "km": "ថតរូបបានទេ?", "tr": "thât roup ban té ?"},
+      {"speaker": "A", "fr": "Oui, mais demande toujours avant de photographier un moine.", "en": "Yes, but always ask before photographing a monk.", "km": "បាន ប៉ុន្តែត្រូវសុំជានិច្ច មុនថតរូបព្រះសង្ឃ។", "tr": "ban, pon-taè treuv som tchéa-netch, moun thât roup préah sâng."},
+      {"speaker": "B", "fr": "Regarde ces sculptures d'apsaras sur les murs !", "en": "Look at these apsara carvings on the walls!", "km": "មើលចម្លាក់អប្សរាទាំងនេះនៅលើជញ្ជាំង!", "tr": "meul tchâm-lak âp-sâ-ra téang nih neuv leu tchum-tcheang !"},
+      {"speaker": "A", "fr": "Elles ont presque neuf cents ans.", "en": "They are almost nine hundred years old.", "km": "វាមានអាយុជិតប្រាំបួនរយឆ្នាំហើយ។", "tr": "véa méan a-you tchit pram-bouon roy tchhnam haeuy."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quand Angkor Vat a-t-il été construit ?", "en": "When was Angkor Wat built?", "km": "អង្គរវត្តសាងសង់នៅពេលណា?"},
+    "answer": {"fr": "Au douzième siècle.", "en": "In the twelfth century.", "km": "នៅសតវត្សរ៍ទីដប់ពីរ។"}
+  }
+}

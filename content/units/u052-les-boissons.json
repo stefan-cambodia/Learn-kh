@@ -1,0 +1,136 @@
+{
+  "id": "u052",
+  "order": 52,
+  "level": "intermediaire",
+  "theme": "les-boissons",
+  "title": {"fr": "Les boissons", "en": "Drinks", "km": "ភេសជ្ជៈ"},
+  "tip": {
+    "fr": "Beaucoup de boissons khmères commencent par ទឹក (teuk), « l'eau » ou « le liquide » : ទឹកកក, la glace ; ទឹកដោះគោ, le lait ; ទឹកអំពៅ, le jus de canne à sucre. Avec la chaleur, presque tout se boit avec de la glace.",
+    "en": "Many Khmer drink names start with ទឹក (teuk), “water” or “liquid”: ទឹកកក, ice; ទឹកដោះគោ, milk; ទឹកអំពៅ, sugar cane juice. In the heat, almost everything is drunk with ice. In French, « de » goes between a drink and what it is made from: un jus d'orange.",
+    "km": "ភាសាបារាំងប្រើ « de » ឬ « d' » ដើម្បីប្រាប់ថា ភេសជ្ជៈធ្វើពីអ្វី៖ un jus d'orange (ទឹកក្រូច), un café au lait (កាហ្វេទឹកដោះគោ)។ អង់គ្លេសដាក់ពាក្យនៅខាងមុខ៖ « orange juice »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le thé", "en": "tea", "km": "តែ", "tr": "taè", "pos": "nom",
+      "note": {
+        "fr": "Au restaurant, on sert souvent du thé glacé gratuit, តែទឹកកក (taè teuk kâk). Le thé chaud se dit តែក្តៅ.",
+        "en": "Restaurants often serve free iced tea, តែទឹកកក (taè teuk kâk). Hot tea is តែក្តៅ. French « thé » is masculine and spelled with an h.",
+        "km": "« thé » ជានាមភេទប្រុស ហើយ h មិនអានទេ៖ le thé។ អង់គ្លេស៖ « tea »។"
+      },
+      "example": {"fr": "Je bois du thé chaud le matin.", "en": "I drink hot tea in the morning.", "km": "ខ្ញុំផឹកតែក្តៅពេលព្រឹក។", "tr": "khgnom pheuk taè kdav pél preuk."}
+    },
+    {
+      "fr": "le jus", "en": "juice", "km": "ទឹកផ្លែឈើ", "tr": "teuk phlaè-tchheu", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « eau de fruit ». On précise le fruit : ទឹកក្រូច (teuk krôtch), le jus d'orange ; ទឹកស្វាយ, le jus de mangue.",
+        "en": "Word for word “fruit water”. Name the fruit: ទឹកក្រូច (teuk krôtch), orange juice; ទឹកស្វាយ, mango juice. French « jus » is masculine; the s is silent.",
+        "km": "« jus » ជានាមភេទប្រុស ហើយ s មិនអានទេ៖ un jus d'orange។ អង់គ្លេស៖ « juice »។"
+      },
+      "example": {"fr": "Un jus de mangue, s'il vous plaît.", "en": "A mango juice, please.", "km": "សុំទឹកស្វាយមួយកែវ។", "tr": "som teuk svay mouy kaèv."}
+    },
+    {
+      "fr": "la glace", "en": "ice", "km": "ទឹកកក", "tr": "teuk kâk", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « eau gelée » : កក (kâk), « figer, geler ». La crème glacée se dit ការ៉េម (ka-rém), emprunté au français « crème ».",
+        "en": "Word for word “frozen water”: កក (kâk), “to freeze”. Ice cream is ការ៉េម (ka-rém), from French « crème ». French « glace » means both ice and ice cream.",
+        "km": "« glace » មានន័យពីរ៖ ទឹកកក និងការ៉េម។ « avec de la glace » មានន័យថា ដាក់ទឹកកក។ អង់គ្លេស៖ « ice », « ice cream »។"
+      },
+      "example": {"fr": "Pas trop de glace, s'il vous plaît.", "en": "Not too much ice, please.", "km": "សុំកុំដាក់ទឹកកកច្រើនពេក។", "tr": "som kom dak teuk kâk tchraeun pék."}
+    },
+    {
+      "fr": "le lait", "en": "milk", "km": "ទឹកដោះគោ", "tr": "teuk dâh kô", "pos": "nom",
+      "note": {
+        "fr": "Mot à mot « lait de vache ». Le café khmer se boit souvent avec du lait concentré sucré : កាហ្វេទឹកដោះគោ.",
+        "en": "Word for word “cow's milk”. Khmer coffee is often drunk with sweetened condensed milk: កាហ្វេទឹកដោះគោ. French « lait »: the t is silent.",
+        "km": "« lait » ជានាមភេទប្រុស ហើយ t មិនអានទេ៖ le lait។ « un café au lait » មានន័យថា កាហ្វេទឹកដោះគោ។ អង់គ្លេស៖ « milk »។"
+      },
+      "example": {"fr": "Un café au lait glacé, s'il vous plaît.", "en": "An iced coffee with milk, please.", "km": "សុំកាហ្វេទឹកដោះគោទឹកកកមួយ។", "tr": "som ka-fé teuk dâh kô teuk kâk mouy."}
+    },
+    {
+      "fr": "la bière", "en": "beer", "km": "ស្រាបៀរ", "tr": "sra-bie", "pos": "nom",
+      "note": {
+        "fr": "ស្រា (sra) désigne toute boisson alcoolisée ; បៀរ vient du français « bière ». Au Cambodge, la bière se boit souvent avec des glaçons.",
+        "en": "ស្រា (sra) means any alcoholic drink; បៀរ comes from French « bière ». In Cambodia, beer is often drunk with ice. French « bière » is feminine.",
+        "km": "« bière » ជានាមភេទស្រី៖ la bière។ « le vin » មានន័យថា ស្រាទំពាំងបាយជូរ។ អង់គ្លេស៖ « beer »។"
+      },
+      "example": {"fr": "Le soir, il boit une bière avec ses amis.", "en": "In the evening, he drinks a beer with his friends.", "km": "ពេលល្ងាច គាត់ផឹកស្រាបៀរជាមួយមិត្តភក្តិ។", "tr": "pél lngéatch, koat pheuk sra-bie tchéa-mouy mit-phéak."}
+    },
+    {
+      "fr": "le verre", "en": "glass", "km": "កែវ", "tr": "kaèv", "pos": "nom",
+      "note": {
+        "fr": "កែវ sert aussi de classificateur pour les boissons : កាហ្វេពីរកែវ, deux cafés. La tasse se dit ពែង (péng).",
+        "en": "កែវ is also the classifier for drinks: កាហ្វេពីរកែវ, two coffees. A cup is ពែង (péng). French « verre » sounds like « vert », green.",
+        "km": "« verre » ជានាមភេទប្រុស៖ un verre d'eau។ អានដូចពាក្យ « vert » (ពណ៌បៃតង)។ អង់គ្លេស៖ « glass »។"
+      },
+      "example": {"fr": "Je voudrais un verre d'eau.", "en": "I would like a glass of water.", "km": "ខ្ញុំចង់បានទឹកមួយកែវ។", "tr": "khgnom tchâng ban teuk mouy kaèv."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Avec de la glace ?", "en": "With ice?", "km": "ដាក់ទឹកកកទេ?", "tr": "dak teuk kâk té ?",
+      "note": {
+        "fr": "Mot à mot « mettre de la glace ? ». On répond ដាក់ (oui) ou កុំដាក់ (non, n'en mettez pas).",
+        "en": "Word for word “put ice?”. Answer ដាក់ (yes) or កុំដាក់ (no, don't put any). French « de la » means “some”.",
+        "km": "« de la » មានន័យថា ខ្លះ ឬបន្តិច។ អង់គ្លេស៖ « With ice? »។"
+      }
+    },
+    {
+      "fr": "Sans sucre, s'il vous plaît.", "en": "No sugar, please.", "km": "សុំកុំដាក់ស្ករ។", "tr": "som kom dak skâ.",
+      "note": {
+        "fr": "Les boissons sont souvent très sucrées. Pour un peu de sucre seulement : ដាក់ស្ករតិច (dak skâ tetch).",
+        "en": "Drinks are often very sweet. For just a little sugar: ដាក់ស្ករតិច (dak skâ tetch). French « sans » means “without”.",
+        "km": "« sans » មានន័យថា គ្មាន ឬមិនដាក់។ « peu de sucre » មានន័យថា ស្ករតិច។ អង់គ្លេស៖ « no sugar »។"
+      }
+    },
+    {
+      "fr": "Encore un verre, s'il vous plaît.", "en": "Another glass, please.", "km": "សុំមួយកែវទៀត។", "tr": "som mouy kaèv tiet.",
+      "note": {
+        "fr": "ទៀត (tiet), « encore », se place après la quantité, comme dans សូមមួយទៀត.",
+        "en": "ទៀត (tiet), “more”, goes after the quantity, as in សូមមួយទៀត. French « encore » means “another, more”.",
+        "km": "« encore un » មានន័យថា មួយទៀត។ អង់គ្លេស៖ « another one »។"
+      }
+    },
+    {
+      "fr": "Santé !", "en": "Cheers!", "km": "ជល់មួយ!", "tr": "tchol mouy !",
+      "uncertain": true,
+      "uncertain_note": "Formule orale pour trinquer : faire confirmer par un locuteur natif qu'elle est la plus naturelle.",
+      "note": {
+        "fr": "ជល់ (tchol) veut dire « cogner » : on fait se toucher les verres. On trinque souvent plusieurs fois pendant le repas.",
+        "en": "ជល់ (tchol) means “to knock together”: glasses touch. People toast several times during a meal. French « Santé ! » means “health!”.",
+        "km": "« Santé ! » មានន័យថា សុខភាព ហើយគេនិយាយពេលលើកកែវ។ អង់គ្លេស៖ « Cheers! »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Par une journée chaude", "en": "On a hot day", "km": "នៅថ្ងៃក្តៅ"},
+      "fr": "Quand il fait chaud, je bois beaucoup d'eau.", "en": "When it's hot, I drink a lot of water.",
+      "km": "ពេលក្តៅ ខ្ញុំផឹកទឹកច្រើន។", "tr": "pél kdav, khgnom pheuk teuk tchraeun."
+    },
+    {
+      "situation": {"fr": "Au café", "en": "At the café", "km": "នៅហាងកាហ្វេ"},
+      "fr": "Un thé glacé et un jus d'orange, s'il vous plaît.", "en": "An iced tea and an orange juice, please.",
+      "km": "សុំតែទឹកកកមួយ និងទឹកក្រូចមួយ។", "tr": "som taè teuk kâk mouy ning teuk krôtch mouy."
+    },
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Le jus de canne à sucre est très sucré.", "en": "Sugar cane juice is very sweet.",
+      "km": "ទឹកអំពៅផ្អែមណាស់។", "tr": "teuk âm-pov ph'aèm nah."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Il fait très chaud. {A} et {B} s'arrêtent à un stand de boissons.", "en": "It is very hot. {A} and {B} stop at a drinks stall.", "km": "ក្តៅណាស់។ {A} និង {B} ឈប់នៅតូបលក់ភេសជ្ជៈមួយ។"},
+    "lines": [
+      {"speaker": "B", "fr": "J'ai très soif ! Qu'est-ce que tu bois ?", "en": "I'm so thirsty! What are you drinking?", "km": "ខ្ញុំស្រេកទឹកណាស់! {A} ផឹកអ្វី?", "tr": "khgnom srék teuk nah ! {A} pheuk ey ?"},
+      {"speaker": "A", "fr": "Un jus de canne à sucre. Tu veux goûter ?", "en": "Sugar cane juice. Do you want a taste?", "km": "ទឹកអំពៅ។ ចង់ភ្លក់មើលទេ?", "tr": "teuk âm-pov. tchâng phlok meul té ?"},
+      {"speaker": "B", "fr": "Oui… C'est très sucré, mais c'est bon !", "en": "Yes… It's very sweet, but it's good!", "km": "{B_yes}… ផ្អែមណាស់ ប៉ុន្តែឆ្ងាញ់!", "tr": "{B_yes}… ph'aèm nah, pon-taè tchhngagn !"},
+      {"speaker": "A", "fr": "Tu en veux un, avec de la glace ?", "en": "Do you want one, with ice?", "km": "យកមួយទេ ដាក់ទឹកកក?", "tr": "yok mouy té, dak teuk kâk ?"},
+      {"speaker": "B", "fr": "Oui, un grand verre, s'il te plaît !", "en": "Yes, a big glass, please!", "km": "{B_yes} សុំមួយកែវធំ!", "tr": "{B_yes}, som mouy kaèv thom !"},
+      {"speaker": "A", "fr": "Deux jus de canne, s'il vous plaît !", "en": "Two sugar cane juices, please!", "km": "សុំទឹកអំពៅពីរកែវ!", "tr": "som teuk âm-pov pi kaèv !"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce que {A} boit ?", "en": "What is {A} drinking?", "km": "{A} ផឹកអ្វី?"},
+    "answer": {"fr": "Un jus de canne à sucre.", "en": "Sugar cane juice.", "km": "ទឹកអំពៅ។"}
+  }
+}
