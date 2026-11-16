@@ -160,6 +160,54 @@
   "created_at": "2026-11-16T05:42:57Z"
  },
  {
+  "hash": "d7fade7345bf819f09655c1d4629d6857a2628727a52e82647825d4245a635a6",
+  "text": "Alex, are you all right?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/alex-are-you-all-right_d7fade7345bf.wav",
+  "size": 109798,
+  "duration": 2.287,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:42Z"
+ },
+ {
+  "hash": "00e8e4cdd35be83a11d68c66808118d03e0d4bc7b790caedc4da49fc3a524575",
+  "text": "Alex, we have a problem: the air conditioning has stopped working.",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/alex-we-have-a-problem-the-air-c_00e8e4cdd35b.wav",
+  "size": 271078,
+  "duration": 5.647,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:14Z"
+ },
+ {
+  "hash": "f33db04b007ccb408ce8b7b2d730e568581e27877868737c4e5bd3f3da89fd3e",
+  "text": "Alex, what is wrong? Where does it hurt?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/alex-what-is-wrong-where-does-it_f33db04b007c.wav",
+  "size": 171442,
+  "duration": 3.571,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:57Z"
+ },
+ {
   "hash": "1236ed58c888def88b75677026a72a5c7d2975768466760e76f51877f8393059",
   "text": "already",
   "language": "en",
@@ -1648,6 +1696,86 @@
   "created_at": "2026-11-16T05:02:02Z"
  },
  {
+  "hash": "bec9119b2c02b9bbe4d4381c623453712fd837e4478817acf69b1bf5adb70d46",
+  "text": "Dara, can you teach me a Khmer word?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/dara-can-you-teach-me-a-khmer-wo_bec9119b2c02.wav",
+  "size": 155884,
+  "duration": 3.247,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:04Z"
+ },
+ {
+  "hash": "a79dd77ff76816081f09808b19ae5f5287eb0116b684e2b7b5e099edb2016eb7",
+  "text": "Dara, do you want mangoes or bananas?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/dara-do-you-want-mangoes-or-bana_a79dd77ff768.wav",
+  "size": 171188,
+  "duration": 3.566,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:51Z"
+ },
+ {
+  "hash": "d882346c935059103fba8bc42447c323c5880284bd0f9a45a4fb79b0aed3692c",
+  "text": "Dara, what do you want to order?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/dara-what-do-you-want-to-order_d882346c9350.wav",
+  "size": 122734,
+  "duration": 2.556,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:53Z"
+ },
+ {
+  "hash": "b1258d7db11eb60f12c01b075c25fd5f31a2a50a1615f8a025bff819a78706e7",
+  "text": "Dara, where are you going?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/dara-where-are-you-going_b1258d7db11e.wav",
+  "size": 113646,
+  "duration": 2.367,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:48Z"
+ },
+ {
+  "hash": "f1260b5189b6a1fe8cb7a091e31e3fab9228644b2834cf4a499ae200812a14c7",
+  "text": "Dara, where is my phone?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/dara-where-is-my-phone_f1260b5189b6.wav",
+  "size": 120066,
+  "duration": 2.5,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:45Z"
+ },
+ {
   "hash": "bc1463b32e12a3290749054c3df0bdd9138dd1a09a0d18ca1b8862b485450ab1",
   "text": "dee",
   "language": "en",
@@ -2174,54 +2302,6 @@
   "duration": 0.899,
   "status": "ready",
   "created_at": "2026-11-16T04:57:42Z"
- },
- {
-  "hash": "2f0a44b993d56e283e26fac78f743515e52052d5be58b6b68cb87ec2e5fd6ce8",
-  "text": "Dominique, are you all right?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/dominique-are-you-all-right_2f0a44b993d5.wav",
-  "size": 116226,
-  "duration": 2.42,
-  "status": "ready",
-  "created_at": "2026-11-16T03:56:00Z"
- },
- {
-  "hash": "2311550dada7304a1ed7b17fddac65a07d921211e09a8501886b526a319e5e55",
-  "text": "Dominique, we have a problem: the air conditioning has stopped working.",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/dominique-we-have-a-problem-the_2311550dada7.wav",
-  "size": 278734,
-  "duration": 5.806,
-  "status": "ready",
-  "created_at": "2026-11-16T04:41:47Z"
- },
- {
-  "hash": "6f814ab775bac5d0450733098fef80c53bdcd1cb0ef4c2df47e77dec3c6e74c5",
-  "text": "Dominique, what is wrong? Where does it hurt?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/dominique-what-is-wrong-where-do_6f814ab775ba.wav",
-  "size": 177658,
-  "duration": 3.7,
-  "status": "ready",
-  "created_at": "2026-11-16T04:34:37Z"
  },
  {
   "hash": "867e94675194d59ce717d0c6452ff369c9102224831e403ffa586c63087df3bd",
@@ -3312,6 +3392,22 @@
   "created_at": "2026-11-16T04:42:49Z"
  },
  {
+  "hash": "ae3ea40b977f45a49ed32e6861f8f3ce3cafb79aab08139c1fa2580d1724b4d7",
+  "text": "Good morning, Dara! How are you?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/good-morning-dara-how-are-you_ae3ea40b977f.wav",
+  "size": 129050,
+  "duration": 2.688,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:23Z"
+ },
+ {
   "hash": "9a683f90008451cef3df696f5880da458f2297b06dbec0a5db7a0d70fef13215",
   "text": "Good morning, did you sleep well?",
   "language": "en",
@@ -3326,22 +3422,6 @@
   "duration": 2.634,
   "status": "ready",
   "created_at": "2026-11-16T03:32:56Z"
- },
- {
-  "hash": "db7ad342102a0cf93b8ee7584d3ad4e6e704c677798d5fcf06219fca5441fb81",
-  "text": "Good morning, Sokha! How are you?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/good-morning-sokha-how-are-you_db7ad342102a.wav",
-  "size": 140564,
-  "duration": 2.928,
-  "status": "ready",
-  "created_at": "2026-11-16T03:33:01Z"
  },
  {
   "hash": "11b24debb9f663bb76da25c8f2903c037b3e42805f7bc866e3800d439cfe9d87",
@@ -3696,6 +3776,22 @@
   "created_at": "2026-11-16T05:03:57Z"
  },
  {
+  "hash": "10e95af3894ccb3f0be54665979347f5d031c65b7085937780e5d29fff5b2524",
+  "text": "Hello Dara, it's Alex. Can you hear me?",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/hello-dara-it-s-alex-can-you-hea_10e95af3894c.wav",
+  "size": 196826,
+  "duration": 4.1,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:11Z"
+ },
+ {
   "hash": "2e8c3f2bf330f95dfc2e571fecab6f38971b9f594d79145e282ca159e6ae807a",
   "text": "Hello! Do you have a room available for tonight?",
   "language": "en",
@@ -3792,8 +3888,8 @@
   "created_at": "2026-11-16T04:00:43Z"
  },
  {
-  "hash": "0cc8570ff3ae8f47b56b42aa6ebf51f38bad95849195d2b9dc13d4e6f78cf998",
-  "text": "Hello, I have booked a room under the name Dominique.",
+  "hash": "6e3f31fc83f620166d3a0883d550499d318d5a2079287210d7339e9ac58ec9ef",
+  "text": "Hello, I have booked a room under the name Alex.",
   "language": "en",
   "locale": "en-US",
   "provider": "command",
@@ -3801,11 +3897,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/hello-i-have-booked-a-room-under_0cc8570ff3ae.wav",
-  "size": 185370,
-  "duration": 3.861,
+  "file": "audio/en-US/hello-i-have-booked-a-room-under_6e3f31fc83f6.wav",
+  "size": 184006,
+  "duration": 3.833,
   "status": "ready",
-  "created_at": "2026-11-16T04:35:19Z"
+  "created_at": "2026-11-16T15:15:01Z"
  },
  {
   "hash": "45a7e5a09b63d44b211fe10ef80c91ced479570f6582b693429a45747cd42010",
@@ -3824,8 +3920,8 @@
   "created_at": "2026-11-16T04:40:52Z"
  },
  {
-  "hash": "415e65b04d16e42811b94a36fde39cbc1579b83d3777e7fde3ce4fc5e7644208",
-  "text": "Hello, my name is Dominique and I am from France.",
+  "hash": "a5514de653dbc67c9308fee24ff69332491c37207056180583cfbe23a0cd8535",
+  "text": "Hello, my name is Alex and I am from France.",
   "language": "en",
   "locale": "en-US",
   "provider": "command",
@@ -3833,11 +3929,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/hello-my-name-is-dominique-and-i_415e65b04d16.wav",
-  "size": 207126,
-  "duration": 4.314,
+  "file": "audio/en-US/hello-my-name-is-alex-and-i-am-f_a5514de653db.wav",
+  "size": 196876,
+  "duration": 4.101,
   "status": "ready",
-  "created_at": "2026-11-16T03:33:36Z"
+  "created_at": "2026-11-16T15:14:27Z"
  },
  {
   "hash": "c008b9cd0a7a2a7d9a295e0b65837e62311f7d9ef86870b233e2ea43e960a260",
@@ -3854,38 +3950,6 @@
   "duration": 2.286,
   "status": "ready",
   "created_at": "2026-11-16T03:32:58Z"
- },
- {
-  "hash": "709ce40d760296aee6b427b97dc6d773393c826239ca33f3ddfaae7425b5efb6",
-  "text": "Hello Sokha, it's Dominique. Can you hear me?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/hello-sokha-it-s-dominique-can-y_709ce40d7602.wav",
-  "size": 199474,
-  "duration": 4.155,
-  "status": "ready",
-  "created_at": "2026-11-16T04:40:58Z"
- },
- {
-  "hash": "08ab490cbb40972f2629eb7de61893c1bf175341a4811b136582488e97d6d06d",
-  "text": "Hello, welcome.",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/hello-welcome_08ab490cbb40.wav",
-  "size": 81738,
-  "duration": 1.702,
-  "status": "ready",
-  "created_at": "2026-11-16T03:32:22Z"
  },
  {
   "hash": "639162483b66e458d1c6d8e2e53c4516f5210df09ea01338600914e7c456710a",
@@ -8640,8 +8704,8 @@
   "created_at": "2026-11-16T04:41:41Z"
  },
  {
-  "hash": "4f7fbb2f44d291b8bf54eedb927a9455fc01515dee8611dc59d70bdf93f149a5",
-  "text": "My name is Dominique. And you?",
+  "hash": "9aec862b69557267a844141f6de747af1ea93fb9b93480011ccf1ffd0793653f",
+  "text": "My name is Alex. And you?",
   "language": "en",
   "locale": "en-US",
   "provider": "command",
@@ -8649,15 +8713,15 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/my-name-is-dominique-and-you_4f7fbb2f44d2.wav",
-  "size": 134128,
-  "duration": 2.793,
+  "file": "audio/en-US/my-name-is-alex-and-you_9aec862b6955.wav",
+  "size": 134152,
+  "duration": 2.794,
   "status": "ready",
-  "created_at": "2026-11-16T03:33:43Z"
+  "created_at": "2026-11-16T15:14:31Z"
  },
  {
-  "hash": "987e3b9d97a72c4148d51062c32a98cfef5e8e735dd6ffd4c4725e0f5bb0aadd",
-  "text": "My name is Sokha. Where are you from?",
+  "hash": "73eeb16c92b290cd0d41edf1d2943594254deac22e329d196fa35a666b66a219",
+  "text": "My name is Dara. Where are you from?",
   "language": "en",
   "locale": "en-US",
   "provider": "command",
@@ -8665,11 +8729,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/my-name-is-sokha-where-are-you-f_987e3b9d97a7.wav",
-  "size": 148294,
-  "duration": 3.089,
+  "file": "audio/en-US/my-name-is-dara-where-are-you-fr_73eeb16c92b2.wav",
+  "size": 146872,
+  "duration": 3.059,
   "status": "ready",
-  "created_at": "2026-11-16T03:33:45Z"
+  "created_at": "2026-11-16T15:14:32Z"
  },
  {
   "hash": "1580a86dd5f0fada58209071bf321785bd3614aa4fbfb349345edbb6ea26e7d0",
@@ -9584,8 +9648,8 @@
   "created_at": "2026-11-16T04:41:08Z"
  },
  {
-  "hash": "c5fff9872c352a663c4a9900967dd036fb22915e7fd52100e58cd9dac37be947",
-  "text": "Okay, thank you, Sokha.",
+  "hash": "29aaaf3c54ed7c94225943cc6b496dae174a87131c56868637f367370983b398",
+  "text": "Okay, thank you, Dara.",
   "language": "en",
   "locale": "en-US",
   "provider": "command",
@@ -9593,11 +9657,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/okay-thank-you-sokha_c5fff9872c35.wav",
-  "size": 137948,
-  "duration": 2.873,
+  "file": "audio/en-US/okay-thank-you-dara_29aaaf3c54ed.wav",
+  "size": 130340,
+  "duration": 2.715,
   "status": "ready",
-  "created_at": "2026-11-16T04:34:46Z"
+  "created_at": "2026-11-16T15:14:59Z"
  },
  {
   "hash": "a38e6c5efb9cb5202d4908057717a10dc17b4791dd32bc47fbc7ade9b4cb95a0",
@@ -10926,86 +10990,6 @@
   "duration": 3.622,
   "status": "ready",
   "created_at": "2026-11-16T04:42:47Z"
- },
- {
-  "hash": "6e1a8cc74ffe8efe97e5cec22d606c2aca9a6db5fd1fa99c5a26f18e8c959f02",
-  "text": "Sokha, can you teach me a Khmer word?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/sokha-can-you-teach-me-a-khmer-w_6e1a8cc74ffe.wav",
-  "size": 159770,
-  "duration": 3.328,
-  "status": "ready",
-  "created_at": "2026-11-16T04:38:09Z"
- },
- {
-  "hash": "be97abb46ba92b88cd7abd5a2a5cafbc7778d27a5a35acf4ace31c35fc36855b",
-  "text": "Sokha, do you want mangoes or bananas?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/sokha-do-you-want-mangoes-or-ban_be97abb46ba9.wav",
-  "size": 173786,
-  "duration": 3.62,
-  "status": "ready",
-  "created_at": "2026-11-16T04:01:28Z"
- },
- {
-  "hash": "e3d471ba146f93714c7cf7bd33e5cbfb92dfc890ce4df9bfbac52eba9d31f921",
-  "text": "Sokha, what do you want to order?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/sokha-what-do-you-want-to-order_e3d471ba146f.wav",
-  "size": 126466,
-  "duration": 2.634,
-  "status": "ready",
-  "created_at": "2026-11-16T04:30:42Z"
- },
- {
-  "hash": "4663601751b9dbaae9cfa0b43a6db36a44e385d3a6140e125703b3d41530de3b",
-  "text": "Sokha, where are you going?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/sokha-where-are-you-going_4663601751b9.wav",
-  "size": 118722,
-  "duration": 2.472,
-  "status": "ready",
-  "created_at": "2026-11-16T03:58:19Z"
- },
- {
-  "hash": "0fdfc683830e3b35f4b8746cc6edbecaa99a1c2bad4c302ecbaafb4163c4a113",
-  "text": "Sokha, where is my phone?",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/sokha-where-is-my-phone_0fdfc683830e.wav",
-  "size": 123892,
-  "duration": 2.58,
-  "status": "ready",
-  "created_at": "2026-11-16T03:56:45Z"
  },
  {
   "hash": "a5150c53b6497f87dd334bf8023442732d821b1edb508b11ba822348d05f4de5",
@@ -12656,6 +12640,22 @@
   "created_at": "2026-11-16T04:59:33Z"
  },
  {
+  "hash": "7722e2b4597416a5f40302ae7412e4df2fcce7068ba1535f55477159b7d5e6da",
+  "text": "This is Dara, who is from Cambodia.",
+  "language": "en",
+  "locale": "en-US",
+  "provider": "command",
+  "voice": "gtranslate-en",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/en-US/this-is-dara-who-is-from-cambodi_7722e2b45974.wav",
+  "size": 157186,
+  "duration": 3.274,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:29Z"
+ },
+ {
   "hash": "a9372c88671eb3ac1c62bebbe9b801a4a8063f5813564bee3a294660b9c39f77",
   "text": "This is my family.",
   "language": "en",
@@ -12718,22 +12718,6 @@
   "duration": 1.728,
   "status": "ready",
   "created_at": "2026-11-16T03:56:40Z"
- },
- {
-  "hash": "97a322875eed6a14c1eb893b885eefb4cde206d48ade9c2e9ccfddb85edc71ed",
-  "text": "This is Sokha, who is from Cambodia.",
-  "language": "en",
-  "locale": "en-US",
-  "provider": "command",
-  "voice": "gtranslate-en",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/en-US/this-is-sokha-who-is-from-cambod_97a322875eed.wav",
-  "size": 159684,
-  "duration": 3.326,
-  "status": "ready",
-  "created_at": "2026-11-16T03:33:38Z"
  },
  {
   "hash": "f4fe9267c3263a61021367d824c81adc7eb4d1fcb1395fcf3786139615fbbdca",
@@ -16800,6 +16784,54 @@
   "created_at": "2026-11-16T03:59:33Z"
  },
  {
+  "hash": "b7ac7331688a488ead398d3a479cf8990020eabc1ffb6ff9d3e567a993bacb8f",
+  "text": "Alex, nous avons un problème : la climatisation ne marche plus.",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/alex-nous-avons-un-probleme-la-c_b7ac7331688a.wav",
+  "size": 283990,
+  "duration": 5.916,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:13Z"
+ },
+ {
+  "hash": "c30edbdeb0c31178ab571aa413f2770d20ef9bdf3de3ced06d105265cd5f7591",
+  "text": "Alex, qu'est-ce que tu as ? Où as-tu mal ?",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/alex-qu-est-ce-que-tu-as-ou-as-t_c30edbdeb0c3.wav",
+  "size": 171314,
+  "duration": 3.568,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:57Z"
+ },
+ {
+  "hash": "1e36d21856ded6ab12220eb242438ad3be217483d0e55449918176ec85a9ab33",
+  "text": "Alex, tu vas bien ?",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/alex-tu-vas-bien_1e36d21856de.wav",
+  "size": 98272,
+  "duration": 2.046,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:41Z"
+ },
+ {
   "hash": "0edb95dfddef57d12e1614fcd6116dad7a95871c5851733a1c41e18aae280fce",
   "text": "aller bien",
   "language": "fr",
@@ -16896,8 +16928,8 @@
   "created_at": "2026-11-16T04:40:51Z"
  },
  {
-  "hash": "4c1a22b1537a587badaeff027d384fdb71b4b6fb3a0fd8b8248d8b3b5240df1a",
-  "text": "Allô Sokha, c'est Dominique. Tu m'entends ?",
+  "hash": "b320fd4c65ba4730c383b34a418af8b39814ec24f06881b3cf9fb1bfcce083b0",
+  "text": "Allô Dara, c'est Alex. Tu m'entends ?",
   "language": "fr",
   "locale": "fr-FR",
   "provider": "command",
@@ -16905,11 +16937,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/allo-sokha-c-est-dominique-tu-m_4c1a22b1537a.wav",
-  "size": 176470,
-  "duration": 3.676,
+  "file": "audio/fr-FR/allo-dara-c-est-alex-tu-m-entend_b320fd4c65ba.wav",
+  "size": 171254,
+  "duration": 3.567,
   "status": "ready",
-  "created_at": "2026-11-16T04:40:57Z"
+  "created_at": "2026-11-16T15:15:10Z"
  },
  {
   "hash": "755dfa5281ddeb24fc477875c8f68dcc334cdfd4f7aadc034c47b99d76f14c94",
@@ -17872,22 +17904,6 @@
   "created_at": "2026-11-16T04:00:25Z"
  },
  {
-  "hash": "498e4a5364edcec3ac837b84e2d9c017ff48bb83119497b5cc6ccd91c5e106ab",
-  "text": "Bonjour, bienvenue.",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/bonjour-bienvenue_498e4a5364ed.wav",
-  "size": 93180,
-  "duration": 1.94,
-  "status": "ready",
-  "created_at": "2026-11-16T03:32:21Z"
- },
- {
   "hash": "0cd7c53b41221e764f5f64293c29fa1c2069188afbf25d4acc4f87401afbe13f",
   "text": "Bonjour ! C'est combien pour aller au marché ?",
   "language": "fr",
@@ -17952,6 +17968,22 @@
   "created_at": "2026-11-16T03:33:41Z"
  },
  {
+  "hash": "966a80e5ba79798aadca9ddb8dabc38449d278b646d78f16f7dbc7d85f5a40a3",
+  "text": "Bonjour Dara ! Comment ça va ?",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/bonjour-dara-comment-ca-va_966a80e5ba79.wav",
+  "size": 123932,
+  "duration": 2.581,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:23Z"
+ },
+ {
   "hash": "93fb39b6eab08c11b79248da40e613e7bf487516356c735e1e16590eca1a36ce",
   "text": "Bonjour ! Entrez, s'il vous plaît.",
   "language": "fr",
@@ -17968,8 +18000,8 @@
   "created_at": "2026-11-16T03:32:57Z"
  },
  {
-  "hash": "f643a14ca279582e1bdd10d088b61981e513e8604e4e7e653981a0709f6192b2",
-  "text": "Bonjour, j'ai réservé une chambre au nom de Dominique.",
+  "hash": "5f12353cb14ab920aecd1c956f1af6b842c7028d570bf605c46b8ea45b6747c7",
+  "text": "Bonjour, j'ai réservé une chambre au nom de Alex.",
   "language": "fr",
   "locale": "fr-FR",
   "provider": "command",
@@ -17977,15 +18009,15 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/bonjour-j-ai-reserve-une-chambre_f643a14ca279.wav",
-  "size": 200742,
-  "duration": 4.181,
+  "file": "audio/fr-FR/bonjour-j-ai-reserve-une-chambre_5f12353cb14a.wav",
+  "size": 196890,
+  "duration": 4.101,
   "status": "ready",
-  "created_at": "2026-11-16T04:35:19Z"
+  "created_at": "2026-11-16T15:15:00Z"
  },
  {
-  "hash": "859598d3cb5238026efa3a4ec1426e51767df497ad30bc3b163366b79e526c42",
-  "text": "Bonjour, je m'appelle Dominique et je viens de France.",
+  "hash": "d30957d606a6d82edffbf2df79883d91655f44b4d80f451a5c2bc53e0842c3ab",
+  "text": "Bonjour, je m'appelle Alex et je viens de France.",
   "language": "fr",
   "locale": "fr-FR",
   "provider": "command",
@@ -17993,11 +18025,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/bonjour-je-m-appelle-dominique-e_859598d3cb52.wav",
-  "size": 187918,
-  "duration": 3.914,
+  "file": "audio/fr-FR/bonjour-je-m-appelle-alex-et-je_d30957d606a6.wav",
+  "size": 176388,
+  "duration": 3.674,
   "status": "ready",
-  "created_at": "2026-11-16T03:33:35Z"
+  "created_at": "2026-11-16T15:14:26Z"
  },
  {
   "hash": "9940bb09a04cf2dd29489aa4a861eec4845df639eafa50020ca42eace9fe0cb3",
@@ -18014,22 +18046,6 @@
   "duration": 2.741,
   "status": "ready",
   "created_at": "2026-11-16T04:33:50Z"
- },
- {
-  "hash": "0bed5074fe6607981daafefa3ce7a28b13490ca6d937bf21eb9a59ef8e8b2497",
-  "text": "Bonjour Sokha ! Comment ça va ?",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/bonjour-sokha-comment-ca-va_0bed5074fe66.wav",
-  "size": 125288,
-  "duration": 2.609,
-  "status": "ready",
-  "created_at": "2026-11-16T03:33:00Z"
  },
  {
   "hash": "58ec21c56669d15fff202a52c771571572796633173661a106915e2a59e3679b",
@@ -20064,8 +20080,8 @@
   "created_at": "2026-11-16T05:03:39Z"
  },
  {
-  "hash": "1e81be4dc9e098368cde1bd18f669d035fe9329ffa6ded4649f0a7ecbfe16543",
-  "text": "D'accord, merci Sokha.",
+  "hash": "98b9d16de62c6ff4fbe5efecdd701aea23182109c0ee926761977ea7ac776a3d",
+  "text": "D'accord, merci Dara.",
   "language": "fr",
   "locale": "fr-FR",
   "provider": "command",
@@ -20073,11 +20089,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/d-accord-merci-sokha_1e81be4dc9e0.wav",
-  "size": 113666,
-  "duration": 2.367,
+  "file": "audio/fr-FR/d-accord-merci-dara_98b9d16de62c.wav",
+  "size": 111126,
+  "duration": 2.314,
   "status": "ready",
-  "created_at": "2026-11-16T04:34:46Z"
+  "created_at": "2026-11-16T15:14:58Z"
  },
  {
   "hash": "328fa7bf51ec2d9e6986b5c6800aeaefd806796254ccf9426394b2a7254d32c9",
@@ -20254,6 +20270,86 @@
   "duration": 1.061,
   "status": "ready",
   "created_at": "2026-11-16T05:03:07Z"
+ },
+ {
+  "hash": "310b037c98e474c9e306046561f10552e4d77827dda962fce9d663c15241c2db",
+  "text": "Dara, où est mon téléphone ?",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/dara-ou-est-mon-telephone_310b037c98e4.wav",
+  "size": 125268,
+  "duration": 2.609,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:44Z"
+ },
+ {
+  "hash": "6934362637716b25c17add60208397d2782a164aa3bc8cd6b71c553d60902b1f",
+  "text": "Dara, où vas-tu ?",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/dara-ou-vas-tu_693436263771.wav",
+  "size": 84394,
+  "duration": 1.757,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:47Z"
+ },
+ {
+  "hash": "9734f42b3cf8af70bcc492a52cb7f504323e5f9ffa2e8654458d3a31be0056b9",
+  "text": "Dara, qu'est-ce que tu veux commander ?",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/dara-qu-est-ce-que-tu-veux-comma_9734f42b3cf8.wav",
+  "size": 131700,
+  "duration": 2.743,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:53Z"
+ },
+ {
+  "hash": "a70d8a2528d3aedb7fe1c83ddc656238452a25aaaf3ab2902a581955b2f31da1",
+  "text": "Dara, tu peux m'apprendre un mot khmer ?",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/dara-tu-peux-m-apprendre-un-mot_a70d8a2528d3.wav",
+  "size": 152052,
+  "duration": 3.167,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:04Z"
+ },
+ {
+  "hash": "2ba649aca7f72e449562d5ad453000357ec01ec52a2da5c56c7f22980bcaacc8",
+  "text": "Dara, tu veux des mangues ou des bananes ?",
+  "language": "fr",
+  "locale": "fr-FR",
+  "provider": "command",
+  "voice": "gtranslate-fr",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/fr-FR/dara-tu-veux-des-mangues-ou-des_2ba649aca7f7.wav",
+  "size": 149520,
+  "duration": 3.114,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:51Z"
  },
  {
   "hash": "7d4a6a1a9f2da9fbd69e8c26e6ab44dda883d539c9d31a2c8ef46549fdd2bc81",
@@ -20654,54 +20750,6 @@
   "duration": 1.035,
   "status": "ready",
   "created_at": "2026-11-16T03:54:07Z"
- },
- {
-  "hash": "fb01ca13754a174f0c38ae3a80160749778eb178a2586799af7620fd1e2b7873",
-  "text": "Dominique, nous avons un problème : la climatisation ne marche plus.",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/dominique-nous-avons-un-probleme_fb01ca13754a.wav",
-  "size": 289164,
-  "duration": 6.023,
-  "status": "ready",
-  "created_at": "2026-11-16T04:41:46Z"
- },
- {
-  "hash": "ec4af9f3ec078e72adff9ee4b5a7eec55171b0cf9042ea24f7c356f66d5bbceb",
-  "text": "Dominique, qu'est-ce que tu as ? Où as-tu mal ?",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/dominique-qu-est-ce-que-tu-as-ou_ec4af9f3ec07.wav",
-  "size": 175174,
-  "duration": 3.649,
-  "status": "ready",
-  "created_at": "2026-11-16T04:34:36Z"
- },
- {
-  "hash": "bcbe3d8cab21369d981d74775cc620459d2cea87a02c2cf93c2ece165eb55bd5",
-  "text": "Dominique, tu vas bien ?",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/dominique-tu-vas-bien_bcbe3d8cab21.wav",
-  "size": 103428,
-  "duration": 2.154,
-  "status": "ready",
-  "created_at": "2026-11-16T03:55:59Z"
  },
  {
   "hash": "d7cb119ceff4183bbbb7f9c99be1643f66da62cd576bf3d9b94c684f40b6ba5f",
@@ -23584,8 +23632,8 @@
   "created_at": "2026-11-16T04:00:32Z"
  },
  {
-  "hash": "901faeee80808eda95091573d6a38ebd49ed087fe93f976b0ccea1d34735afee",
-  "text": "Je m'appelle Dominique. Et vous ?",
+  "hash": "ac5f3e5800987fc0ad7ad8e1eb485201698880ad1dcde5fb55e361be7a119c50",
+  "text": "Je m'appelle Alex. Et vous ?",
   "language": "fr",
   "locale": "fr-FR",
   "provider": "command",
@@ -23593,15 +23641,15 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/je-m-appelle-dominique-et-vous_901faeee8080.wav",
-  "size": 125242,
-  "duration": 2.608,
+  "file": "audio/fr-FR/je-m-appelle-alex-et-vous_ac5f3e580098.wav",
+  "size": 116234,
+  "duration": 2.421,
   "status": "ready",
-  "created_at": "2026-11-16T03:33:43Z"
+  "created_at": "2026-11-16T15:14:30Z"
  },
  {
-  "hash": "69294c5495c56e2b9cbf1daab53d9723e2c580258259e9a869e63b640c09a99d",
-  "text": "Je m'appelle Sokha. D'où venez-vous ?",
+  "hash": "414551784ed1a6b21d06cc3d95fed117a89b177dd4891811666584f8702e8d0e",
+  "text": "Je m'appelle Dara. D'où venez-vous ?",
   "language": "fr",
   "locale": "fr-FR",
   "provider": "command",
@@ -23609,11 +23657,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/je-m-appelle-sokha-d-ou-venez-vo_69294c5495c5.wav",
-  "size": 132906,
-  "duration": 2.768,
+  "file": "audio/fr-FR/je-m-appelle-dara-d-ou-venez-vou_414551784ed1.wav",
+  "size": 131740,
+  "duration": 2.744,
   "status": "ready",
-  "created_at": "2026-11-16T03:33:44Z"
+  "created_at": "2026-11-16T15:14:32Z"
  },
  {
   "hash": "d0145a47a9c01da5361dc6775922d66793374bc9eaaf82b8557cdc9158233f65",
@@ -24816,8 +24864,8 @@
   "created_at": "2026-11-16T04:33:52Z"
  },
  {
-  "hash": "f49e273d9396b402775434af7ef24ca5834d21ca297a8af6128e659b4d7910d0",
-  "text": "Je vous présente Sokha, qui vient du Cambodge.",
+  "hash": "f05b1fd44eacae6d2e56c1d5d415f9b10c957e16d4648e29785d8fabe471be08",
+  "text": "Je vous présente Dara, qui vient du Cambodge.",
   "language": "fr",
   "locale": "fr-FR",
   "provider": "command",
@@ -24825,11 +24873,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/je-vous-presente-sokha-qui-vient_f49e273d9396.wav",
-  "size": 172698,
-  "duration": 3.597,
+  "file": "audio/fr-FR/je-vous-presente-dara-qui-vient_f05b1fd44eac.wav",
+  "size": 172604,
+  "duration": 3.595,
   "status": "ready",
-  "created_at": "2026-11-16T03:33:37Z"
+  "created_at": "2026-11-16T15:14:28Z"
  },
  {
   "hash": "69c88bf0ee945dfe95a1819c7a55a3586a3069d974d60fa973ef22b13196d802",
@@ -31760,86 +31808,6 @@
   "created_at": "2026-11-16T03:53:54Z"
  },
  {
-  "hash": "7c8d1f311ae69708b010d6ef48c8518e7230b6c9a17a11b33c4b6cc3761dc2b1",
-  "text": "Sokha, où est mon téléphone ?",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/sokha-ou-est-mon-telephone_7c8d1f311ae6.wav",
-  "size": 126634,
-  "duration": 2.637,
-  "status": "ready",
-  "created_at": "2026-11-16T03:56:44Z"
- },
- {
-  "hash": "91dd65364b142a50931b756c246cd3a5e385661bde9d92db9f6e2e44661533df",
-  "text": "Sokha, où vas-tu ?",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/sokha-ou-vas-tu_91dd65364b14.wav",
-  "size": 88182,
-  "duration": 1.836,
-  "status": "ready",
-  "created_at": "2026-11-16T03:58:19Z"
- },
- {
-  "hash": "7cf0173dac9583c9fb72f5928c3231b20df764f15b9ca30c5b40fdcd78156b9b",
-  "text": "Sokha, qu'est-ce que tu veux commander ?",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/sokha-qu-est-ce-que-tu-veux-comm_7cf0173dac95.wav",
-  "size": 132840,
-  "duration": 2.767,
-  "status": "ready",
-  "created_at": "2026-11-16T04:30:41Z"
- },
- {
-  "hash": "21dd94e9aeee8e5ca3af98147f68719d9212a377a48b9c91a04ad6026addfea6",
-  "text": "Sokha, tu peux m'apprendre un mot khmer ?",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/sokha-tu-peux-m-apprendre-un-mot_21dd94e9aeee.wav",
-  "size": 153358,
-  "duration": 3.194,
-  "status": "ready",
-  "created_at": "2026-11-16T04:38:08Z"
- },
- {
-  "hash": "e7629a2d512834640a2838cf4a11971b9d57c29db2b3c494cd9f98fe02ecc2d3",
-  "text": "Sokha, tu veux des mangues ou des bananes ?",
-  "language": "fr",
-  "locale": "fr-FR",
-  "provider": "command",
-  "voice": "gtranslate-fr",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/fr-FR/sokha-tu-veux-des-mangues-ou-des_e7629a2d5128.wav",
-  "size": 153312,
-  "duration": 3.193,
-  "status": "ready",
-  "created_at": "2026-11-16T04:01:28Z"
- },
- {
   "hash": "40e626f8099111cb2598bf1f187c55cf1c2474b104ef08cc9ae1ed902c61ce53",
   "text": "Super ! Après, la maison sera propre et on pourra se reposer.",
   "language": "fr",
@@ -33824,8 +33792,8 @@
   "created_at": "2026-11-16T04:40:48Z"
  },
  {
-  "hash": "03b2ffff29ed59c8e3cef62968fc511ef16fad3d3940f899021037d002718c70",
-  "text": "ខ្ញុំសុខសប្បាយ អរគុណ។ ចុះ ដូមីនិក វិញ?",
+  "hash": "03b496ff600cf9a7d3629d04f0e7e903370bc265be3ebf2523bdb68b5161415e",
+  "text": "អាឡិច កើតអី? ឈឺត្រង់ណា?",
   "language": "km",
   "locale": "km-KH",
   "provider": "command",
@@ -33833,11 +33801,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_03b2ffff29ed.wav",
-  "size": 214854,
-  "duration": 4.475,
+  "file": "audio/km-KH/km_03b496ff600c.wav",
+  "size": 166174,
+  "duration": 3.461,
   "status": "ready",
-  "created_at": "2026-11-16T03:33:03Z"
+  "created_at": "2026-11-16T15:14:58Z"
  },
  {
   "hash": "03e5bd6639025073a69d8bd07d01b075faf7eeb5a30c4bd7b9baf05841863552",
@@ -34078,6 +34046,22 @@
   "duration": 1.73,
   "status": "ready",
   "created_at": "2026-11-16T03:56:23Z"
+ },
+ {
+  "hash": "084afa41c2edc3e5054e81d13ab57c91163b2a5a0540dc23ca818bbdd6066d8b",
+  "text": "ម្តាយ ដារ៉ា ស្អាតណាស់! ហើយឪពុក ដារ៉ា ខ្ពស់។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_084afa41c2ed.wav",
+  "size": 231460,
+  "duration": 4.821,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:19Z"
  },
  {
   "hash": "08527b2fe1d5ee5b183a9e59ed12259f5e96edb72fa20aff139930838d0720b3",
@@ -34640,22 +34624,6 @@
   "created_at": "2026-11-16T04:00:41Z"
  },
  {
-  "hash": "1101c73d503c1c08bfe0f18012bbe2064e51c45e55d11088db8fbc65f81c564c",
-  "text": "ដូមីនិក សុខសប្បាយទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_1101c73d503c.wav",
-  "size": 130256,
-  "duration": 2.713,
-  "status": "ready",
-  "created_at": "2026-11-16T03:56:00Z"
- },
- {
   "hash": "11245ae4ac2959a4a79c637be270bbbe83e2b152a42b6d6c3be0db13de828bf0",
   "text": "ឈ",
   "language": "km",
@@ -34702,22 +34670,6 @@
   "duration": 3.141,
   "status": "ready",
   "created_at": "2026-11-16T05:03:56Z"
- },
- {
-  "hash": "11e0aede71bca7f5b422694f5cb08bb3b36e76b00b0fd981ee3c95b9a69b5ee5",
-  "text": "បាទ អរគុណ សុខា។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_11e0aede71bc.wav",
-  "size": 108530,
-  "duration": 2.26,
-  "status": "ready",
-  "created_at": "2026-11-16T04:34:47Z"
  },
  {
   "hash": "125469ebe59fe5c1e111b94c10cf3140f07306a6604289a02280ccb49440c294",
@@ -35088,22 +35040,6 @@
   "created_at": "2026-11-16T04:41:59Z"
  },
  {
-  "hash": "169753efec13c022673348a56535c73b06b2aedf74d06db0801ed45603dc96d4",
-  "text": "ដូមីនិក កំប្លែងណាស់! ក្នុងរូបនេះ ខ្ញុំអាយុប្រាំឆ្នាំ។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_169753efec13.wav",
-  "size": 276156,
-  "duration": 5.752,
-  "status": "ready",
-  "created_at": "2026-11-16T04:59:01Z"
- },
- {
   "hash": "18b55f3d0c26eb9838febc128ec643f41ba7cb9a5227b7b50cf05da8f071c2b7",
   "text": "សេចក្តីស្រឡាញ់",
   "language": "km",
@@ -35230,6 +35166,22 @@
   "duration": 0.98,
   "status": "ready",
   "created_at": "2026-11-16T04:56:59Z"
+ },
+ {
+  "hash": "1bcf439df80d27d0b0c970ced0bd406fc773d73e5867afc56ff189c5f1cea281",
+  "text": "ថ្ងៃនេះ ដារ៉ា សុខសប្បាយទេ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_1bcf439df80d.wav",
+  "size": 163720,
+  "duration": 3.41,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:46Z"
  },
  {
   "hash": "1bed461301788fbce5bbccdcbe543b31548fdb4ddca96001f5868e1457fe38bd",
@@ -35536,22 +35488,6 @@
   "created_at": "2026-11-16T05:42:28Z"
  },
  {
-  "hash": "2021909e12c242d903c9405337838f9cdd9fa55730106e0c65c36a3c73cd6799",
-  "text": "ដូមីនិក យើងមានបញ្ហាហើយ ម៉ាស៊ីនត្រជាក់លែងដើរហើយ។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_2021909e12c2.wav",
-  "size": 257116,
-  "duration": 5.356,
-  "status": "ready",
-  "created_at": "2026-11-16T04:41:48Z"
- },
- {
   "hash": "2075e69f098ea765ea2c05f2728662fcc09c90cae95b532a1ecd8283e339d644",
   "text": "អរគុណ! ឆ្ងាញ់ណាស់!",
   "language": "km",
@@ -35616,22 +35552,6 @@
   "created_at": "2026-11-16T05:42:13Z"
  },
  {
-  "hash": "218797a0f30482a6b28c5e89ae0391901e5f7cd0a7f12f9f14c22b2e63e2a6f7",
-  "text": "ដូមីនិក ញ៉ាំបាយហើយឬនៅ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_218797a0f304.wav",
-  "size": 155930,
-  "duration": 3.248,
-  "status": "ready",
-  "created_at": "2026-11-16T03:55:14Z"
- },
- {
   "hash": "21b6e3a2c05ed0785c61ad1a13c1797adc2d99c561852f085abb233ec577326b",
   "text": "ថ្ងៃអាទិត្យ យើងមិនធ្វើការទេ។",
   "language": "km",
@@ -35646,22 +35566,6 @@
   "duration": 3.302,
   "status": "ready",
   "created_at": "2026-11-16T04:37:06Z"
- },
- {
-  "hash": "2219d5ef1a021f5e0f6e84150e31d6dc3c60b0f09e600c17f41a79a5bdd1a2ce",
-  "text": "ខ្ញុំចូលចិត្តពណ៌ខៀវ។ ចុះ ដូមីនិក វិញ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_2219d5ef1a02.wav",
-  "size": 208496,
-  "duration": 4.343,
-  "status": "ready",
-  "created_at": "2026-11-16T03:59:08Z"
  },
  {
   "hash": "223b5fedba8a21e629107787767f58d665be71491031af041afe71674f06e5cc",
@@ -35968,6 +35872,22 @@
   "created_at": "2026-11-16T04:31:36Z"
  },
  {
+  "hash": "25687510627609de0c7c02be6ce1a1a3735c3cecd7a3002efdb5d65c341b8e7f",
+  "text": "អរុណសួស្តី ដារ៉ា! សុខសប្បាយទេ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_256875106276.wav",
+  "size": 204482,
+  "duration": 4.259,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:24Z"
+ },
+ {
   "hash": "257ce9d1176639276881b748119002939d0dea366e0562ece35e4f58f474e7b4",
   "text": "បេះដូងខ្ញុំលោតញាប់។",
   "language": "km",
@@ -36016,8 +35936,8 @@
   "created_at": "2026-11-16T05:42:22Z"
  },
  {
-  "hash": "269ce6637c4570fa492fe4fbb3a1807c4a855dde34b0d543149a7548e273a612",
-  "text": "ហើយអ្នកនៅក្បែរ សុខា ជានរណា?",
+  "hash": "26497690ae5fef18fbb02b43ecc818bdf8655d08e69606f22179edf6c699798c",
+  "text": "ដារ៉ា ចង់កុម្ម៉ង់អ្វី?",
   "language": "km",
   "locale": "km-KH",
   "provider": "command",
@@ -36025,11 +35945,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_269ce6637c45.wav",
-  "size": 178986,
-  "duration": 3.728,
+  "file": "audio/km-KH/km_26497690ae5f.wav",
+  "size": 118744,
+  "duration": 2.473,
   "status": "ready",
-  "created_at": "2026-11-16T04:59:03Z"
+  "created_at": "2026-11-16T15:14:54Z"
  },
  {
   "hash": "26bdadec0eeff90aedf8375b51224d6f3d16e0989beceac6f0bbe5b3a545db89",
@@ -36094,22 +36014,6 @@
   "duration": 1.997,
   "status": "ready",
   "created_at": "2026-11-16T04:57:13Z"
- },
- {
-  "hash": "27d4af75e8a730c22175fda8d493d3e6ddd46348ee666dc2304915312319ca38",
-  "text": "សុខា ចូលចិត្តពណ៌អ្វី?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_27d4af75e8a7.wav",
-  "size": 120088,
-  "duration": 2.501,
-  "status": "ready",
-  "created_at": "2026-11-16T03:59:07Z"
  },
  {
   "hash": "27e7d535c9f1afb4f2f1262e0cdd449ef75a6e0d99f92e4e844fe81c86ee5efd",
@@ -36352,22 +36256,6 @@
   "created_at": "2026-11-16T05:02:54Z"
  },
  {
-  "hash": "2aa2674738ff2a4de67ec00e0e9d8bf4c6d47eb0b2daf9d7a1a52169ca17be23",
-  "text": "បាន។ ចុះ ដូមីនិក បង្រៀនភាសាបារាំងខ្ញុំវិញបានទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_2aa2674738ff.wav",
-  "size": 287730,
-  "duration": 5.993,
-  "status": "ready",
-  "created_at": "2026-11-16T04:38:16Z"
- },
- {
   "hash": "2afec0a0f3b4979b4c9e8717795157ecc55edd3413ac222088dbeab92355837d",
   "text": "ឆ្មា",
   "language": "km",
@@ -36560,8 +36448,8 @@
   "created_at": "2026-11-16T03:59:21Z"
  },
  {
-  "hash": "2daeef5b35d8f100eb9bff1d8c14e1ebf2d53e900a9b19d627ef2279c0028acc",
-  "text": "សុខា មានបងប្អូនទេ?",
+  "hash": "2e414a57853392790a1f45b7b933068aae9167a053d9454464b914cddf2119de",
+  "text": "ម្សិលមិញ ខ្ញុំធ្វើម្ហូប។ អញ្ចឹងដល់វេន អាឡិច ហើយ!",
   "language": "km",
   "locale": "km-KH",
   "provider": "command",
@@ -36569,11 +36457,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_2daeef5b35d8.wav",
-  "size": 134256,
-  "duration": 2.796,
+  "file": "audio/km-KH/km_2e414a578533.wav",
+  "size": 264830,
+  "duration": 5.516,
   "status": "ready",
-  "created_at": "2026-11-16T03:53:44Z"
+  "created_at": "2026-11-16T15:15:25Z"
  },
  {
   "hash": "2e48b74e3841a7dcb8cb2b33f84233b9ca660419143aad393b2f7af3c6eb36f5",
@@ -36670,22 +36558,6 @@
   "duration": 0.715,
   "status": "ready",
   "created_at": "2026-11-16T05:42:26Z"
- },
- {
-  "hash": "2f3cea2f81e797b92d8055504bd3b794de0eb786c81d071d261051391581cf7f",
-  "text": "ថ្ងៃស្អែក ដូមីនិក ភ្ញាក់ម៉ោងប៉ុន្មាន?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_2f3cea2f81e7.wav",
-  "size": 185372,
-  "duration": 3.861,
-  "status": "ready",
-  "created_at": "2026-11-16T04:37:09Z"
  },
  {
   "hash": "2f67afaad6c96e4e2a2d07d4b55a313a5a6fc097aed7dcc675e73a6ae276451f",
@@ -37072,6 +36944,38 @@
   "created_at": "2026-11-16T05:01:27Z"
  },
  {
+  "hash": "34ebe2e3873cc8f7f63be5bca568c5704392fdb5ca8085548b3522569cb77043",
+  "text": "ដារ៉ា ទូរស័ព្ទរបស់ខ្ញុំនៅឯណា?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_34ebe2e3873c.wav",
+  "size": 182782,
+  "duration": 3.807,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:45Z"
+ },
+ {
+  "hash": "35273263448eb40d604aa8989cf74b13c6e902a5f5ba1b43c4a88c4fd766cee8",
+  "text": "បានហើយ។ ប៉ុន្តែ អាឡិច ជាអ្នកឱ្យចំណីវាណា!",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_35273263448e.wav",
+  "size": 240448,
+  "duration": 5.008,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:18Z"
+ },
+ {
   "hash": "35586de3cf5ea25aeeb2b570fdfb47588769947b65eaf62437f2912d177e317b",
   "text": "ចប់",
   "language": "km",
@@ -37182,6 +37086,22 @@
   "duration": 4.074,
   "status": "ready",
   "created_at": "2026-11-16T04:37:12Z"
+ },
+ {
+  "hash": "3761f5a55857bb8add5bde048053558d1c1dd32d41bd144e0b0288d56cab184f",
+  "text": "អាឡិច ញ៉ាំបាយហើយឬនៅ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_3761f5a55857.wav",
+  "size": 141860,
+  "duration": 2.954,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:39Z"
  },
  {
   "hash": "3780d5c98a6b0d680625160716bb24fb0327f0e05be0ce47de6e38ad3c9f48e7",
@@ -37488,6 +37408,22 @@
   "created_at": "2026-11-16T03:55:55Z"
  },
  {
+  "hash": "3cdecabbd6175ede5667d39177793db77e714da6f4c8dab3488e092a743a90de",
+  "text": "គំនិតល្អ អាឡិច និយាយត្រូវ!",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_3cdecabbd617.wav",
+  "size": 150862,
+  "duration": 3.142,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:16Z"
+ },
+ {
   "hash": "3cfd0d1c17eed739e5ec137eb8aef90b1790c50b831bc4abe87b9399cb981fba",
   "text": "អរុណសួស្តី គេងលក់ស្រួលទេ?",
   "language": "km",
@@ -37502,22 +37438,6 @@
   "duration": 3.62,
   "status": "ready",
   "created_at": "2026-11-16T03:32:57Z"
- },
- {
-  "hash": "3d031e7515134365049d2a1a1ff66c89f86485694a6bb7056538a2ed4222f417",
-  "text": "ហើយក្មេងនេះ គឺ សុខា មែនទេ? មិនប្រែប្រួលសោះ!",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_3d031e751513.wav",
-  "size": 264714,
-  "duration": 5.514,
-  "status": "ready",
-  "created_at": "2026-11-16T04:58:59Z"
  },
  {
   "hash": "3df41f8466fe630ba984a006c5d5a931943cab9edaac043184b6d0500fe6cf11",
@@ -37566,6 +37486,22 @@
   "duration": 1.063,
   "status": "ready",
   "created_at": "2026-11-16T04:57:19Z"
+ },
+ {
+  "hash": "3e24cdd75f5d9831c60e1cf81ac15fcc948c26a476fd6ca91b002bc0b2e6f282",
+  "text": "ពេលឈប់សម្រាក ខ្ញុំគិតចង់ទៅសមុទ្រ។ ដារ៉ា គិតយ៉ាងម៉េចដែរ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_3e24cdd75f5d.wav",
+  "size": 304320,
+  "duration": 6.339,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:15Z"
  },
  {
   "hash": "3e6e3cb8c121b03c7cdf9344f6e4913e609aeb8954aec1cddd62c4e96a043879",
@@ -37678,22 +37614,6 @@
   "duration": 3.007,
   "status": "ready",
   "created_at": "2026-11-16T04:35:32Z"
- },
- {
-  "hash": "40a7537830a3eca16680ec75b1ffceddf0b1d71cfaae9c9b152a31cdaa9d3c68",
-  "text": "ខ្ញុំឈ្មោះ ដូមីនិក។ ចុះអ្នកវិញ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_40a7537830a3.wav",
-  "size": 177778,
-  "duration": 3.703,
-  "status": "ready",
-  "created_at": "2026-11-16T03:33:44Z"
  },
  {
   "hash": "40cadb2940df9f5fa3dfea7cf19a4f2e0955ba16addb74cfcc96c7e28a107c69",
@@ -37984,6 +37904,22 @@
   "created_at": "2026-11-16T03:33:14Z"
  },
  {
+  "hash": "43f078eaf0145ffcf362b84f7bcc11cdc5c3d897d9c755333f687abfc2054846",
+  "text": "ចាស កាហ្វេពីរកែវ៖ មួយសម្រាប់ អាឡិច មួយសម្រាប់ខ្ញុំ។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_43f078eaf014.wav",
+  "size": 260868,
+  "duration": 5.434,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:34Z"
+ },
+ {
   "hash": "44805af3e40f3078b4cb584defa75a835e02dfce4182a49ad5272464010e0255",
   "text": "ដូង",
   "language": "km",
@@ -38238,22 +38174,6 @@
   "duration": 0.927,
   "status": "ready",
   "created_at": "2026-11-16T03:59:38Z"
- },
- {
-  "hash": "476c10f7ee510d05cc1373f35da49c70abcb9101cdec5729b53f859478e09640",
-  "text": "សុខា បង្រៀនខ្ញុំពាក្យខ្មែរមួយបានទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_476c10f7ee51.wav",
-  "size": 203332,
-  "duration": 4.235,
-  "status": "ready",
-  "created_at": "2026-11-16T04:38:10Z"
  },
  {
   "hash": "477253a742389de3d0fdea6ebe464052eecc0d1b058dda8de379e07d5caa5e5e",
@@ -38704,6 +38624,22 @@
   "created_at": "2026-11-16T05:00:04Z"
  },
  {
+  "hash": "4cbba972ba31f6ee698ea67b94b77998a519178b87440d3bd31fbe3881964d3a",
+  "text": "ដារ៉ា ចង់បានស្វាយ ឬចេក?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_4cbba972ba31.wav",
+  "size": 148356,
+  "duration": 3.09,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:52Z"
+ },
+ {
   "hash": "4d0a6b21a3c45e4ec4c4f73fffc6e0aad453d0afc62ab9e89e39b1f5e797757b",
   "text": "កុំបារម្ភអី ខ្ញុំនឹងហៅជាងមក។",
   "language": "km",
@@ -38830,22 +38766,6 @@
   "duration": 3.57,
   "status": "ready",
   "created_at": "2026-11-16T04:30:38Z"
- },
- {
-  "hash": "508b3bcf6e763bc7875341bdbd4b1a05bc73b5f8964eb1b5342f9150277488a0",
-  "text": "នេះជាគ្រួសាររបស់ សុខា មែនទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_508b3bcf6e76.wav",
-  "size": 183968,
-  "duration": 3.832,
-  "status": "ready",
-  "created_at": "2026-11-16T03:53:42Z"
  },
  {
   "hash": "508e748f7681811e7ea001f40ec252a684150a42a8749de0e127285e873de7dd",
@@ -39056,22 +38976,6 @@
   "created_at": "2026-11-16T04:43:12Z"
  },
  {
-  "hash": "52cbe3b1b65860267756a7d858fdd87b337dea4e3f5bdb1e89fb50982ec1d660",
-  "text": "សុខា ទូរស័ព្ទរបស់ខ្ញុំនៅឯណា?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_52cbe3b1b658.wav",
-  "size": 189072,
-  "duration": 3.938,
-  "status": "ready",
-  "created_at": "2026-11-16T03:56:45Z"
- },
- {
   "hash": "52f55d760d1510798274902678fa194b804da7e5fd5a7e4521f52645af3e0430",
   "text": "លេខទូរស័ព្ទរបស់ខ្ញុំចាប់ផ្តើមដោយលេខសូន្យ។",
   "language": "km",
@@ -39086,6 +38990,22 @@
   "duration": 4.556,
   "status": "ready",
   "created_at": "2026-11-16T03:52:45Z"
+ },
+ {
+  "hash": "5308f9da81253b29854957a124220f4f05350a15cb5adb3e2df35e564b15eb6b",
+  "text": "ដារ៉ា មានបងប្អូនទេ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_5308f9da8125.wav",
+  "size": 125194,
+  "duration": 2.607,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:37Z"
  },
  {
   "hash": "531bfe67442c8b5ce4d3bf872b726fc2af6d4d8567e1467a3c43bbc85ebba9af",
@@ -39118,6 +39038,22 @@
   "duration": 2.847,
   "status": "ready",
   "created_at": "2026-11-16T03:54:12Z"
+ },
+ {
+  "hash": "53650fc45d50afddd32b69344965cf777f4579992974f4b011acfa38fffb725c",
+  "text": "អាឡិច កំប្លែងណាស់! ក្នុងរូបនេះ ខ្ញុំអាយុប្រាំឆ្នាំ។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_53650fc45d50.wav",
+  "size": 263516,
+  "duration": 5.489,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:21Z"
  },
  {
   "hash": "536f6c26a314382cc1369742bc02ec600b5e6e2b64f89086dc3a31b7c8c6506d",
@@ -39296,6 +39232,22 @@
   "created_at": "2026-11-16T05:42:38Z"
  },
  {
+  "hash": "56622f1eaee359c8a2d0968e7615bd87571a358c847da8f13f80e40c897d13fb",
+  "text": "ដារ៉ា ទៅណា?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_56622f1eaee3.wav",
+  "size": 89376,
+  "duration": 1.861,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:48Z"
+ },
+ {
   "hash": "56c61e1c864f4f14ec409d24e607b06bf31d9317d0dec576ec20306098d322e6",
   "text": "ល្អណាស់! បន្ទាប់មក ផ្ទះនឹងស្អាត ហើយយើងអាចសម្រាកបាន។",
   "language": "km",
@@ -39390,22 +39342,6 @@
   "duration": 1.248,
   "status": "ready",
   "created_at": "2026-11-16T04:40:45Z"
- },
- {
-  "hash": "57cd1777f2e3a43849e8b8ee523e3115a6c822a8a6f981f7b41e52db4c124719",
-  "text": "ដូមីនិក ឈឺមែនទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_57cd1777f2e3.wav",
-  "size": 116384,
-  "duration": 2.424,
-  "status": "ready",
-  "created_at": "2026-11-16T03:56:04Z"
  },
  {
   "hash": "57fabdb8cf3110d4f8f48fdd3057d38910347c53942fa808f84358d24abcf7f2",
@@ -39550,6 +39486,38 @@
   "duration": 1.651,
   "status": "ready",
   "created_at": "2026-11-16T04:34:52Z"
+ },
+ {
+  "hash": "59d1d9ab895b849be24729549a61d6f8e36ab09da2dda6ac1f0300e064f17a7b",
+  "text": "នេះគឺ ដារ៉ា ដែលមកពីប្រទេសកម្ពុជា។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_59d1d9ab895b.wav",
+  "size": 198256,
+  "duration": 4.129,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:29Z"
+ },
+ {
+  "hash": "59e7a06537144ae01c30ec3de65d4371ee3159b67bef18d0a3bea2ba9b3476bd",
+  "text": "សួស្តី ខ្ញុំបានកក់បន្ទប់មួយ ឈ្មោះ អាឡិច។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_59e7a0653714.wav",
+  "size": 190422,
+  "duration": 3.966,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:01Z"
  },
  {
   "hash": "5a0d2022ad92163c841b8158f0d3498da34ebe4233575c8cb8085aa6d15b4f39",
@@ -39838,6 +39806,22 @@
   "duration": 3.729,
   "status": "ready",
   "created_at": "2026-11-16T05:03:20Z"
+ },
+ {
+  "hash": "5e9165a302c80034cce491aaa1b8cedc0b533f3f5d1bba29885d60d7baf0ec1e",
+  "text": "ខ្ញុំសុខសប្បាយ អរគុណ។ ចុះ អាឡិច វិញ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_5e9165a302c8.wav",
+  "size": 200684,
+  "duration": 4.18,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:25Z"
  },
  {
   "hash": "5eaa8f9043d03354b4e5f106c56828b88a3a6c6043fff60d004eec17a8c5cc76",
@@ -40624,22 +40608,6 @@
   "created_at": "2026-11-16T04:42:38Z"
  },
  {
-  "hash": "69f19d06a21a1c85a581bc9dc36c51095d6d56270881c5b40ec8d5f6e173abe2",
-  "text": "នៅទេ។ ចុះ សុខា វិញ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_69f19d06a21a.wav",
-  "size": 146890,
-  "duration": 3.059,
-  "status": "ready",
-  "created_at": "2026-11-16T03:55:16Z"
- },
- {
   "hash": "6ab1bf799a259efe7abdcc161be100dbc3782de4987d8f58084330be92c663d0",
   "text": "យប់ជ្រៅហើយ រាត្រីសួស្តី!",
   "language": "km",
@@ -40702,22 +40670,6 @@
   "duration": 1.195,
   "status": "ready",
   "created_at": "2026-11-16T04:33:29Z"
- },
- {
-  "hash": "6b942c7fe89da9c1b212fc5f6f896e3b8ebfccccc125401c6e95822213684678",
-  "text": "ថ្ងៃស្អែក ដូមីនិក ទៅហើយ។ ខ្ញុំនឹងនឹក ដូមីនិក ណាស់។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_6b942c7fe89d.wav",
-  "size": 289086,
-  "duration": 6.022,
-  "status": "ready",
-  "created_at": "2026-11-16T05:04:19Z"
  },
  {
   "hash": "6bd499a9a1aa24951f6152e297300f5a039e4ba76cf08247d3f2ad0f3a167e28",
@@ -40960,6 +40912,22 @@
   "created_at": "2026-11-16T03:54:55Z"
  },
  {
+  "hash": "6dd2ee38bcf6abecdc4e8bea7b7dca073fb8fa7ecaf0c51e00f0412ff662dfb1",
+  "text": "បាន។ ចុះ អាឡិច បង្រៀនភាសាបារាំងខ្ញុំវិញបានទេ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_6dd2ee38bcf6.wav",
+  "size": 275090,
+  "duration": 5.73,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:06Z"
+ },
+ {
   "hash": "6debef1b16a8131b01ca91ee6913b3637267823edc8f6670c81f9e38e98f2df1",
   "text": "នៅពិធីមង្គលការ គ្រប់គ្នារាំ។",
   "language": "km",
@@ -41120,22 +41088,6 @@
   "created_at": "2026-11-16T04:34:33Z"
  },
  {
-  "hash": "70e014aeacb446a412c3c5d76b74ac94721ccfa700612d70bb4efdf5d4746679",
-  "text": "សួស្តី សូមស្វាគមន៍។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_70e014aeacb4.wav",
-  "size": 120104,
-  "duration": 2.501,
-  "status": "ready",
-  "created_at": "2026-11-16T03:32:22Z"
- },
- {
   "hash": "7108ff8706e946673094ce3710a5fe13278229d412c9daac3862a30fa0cdf812",
   "text": "ខ្ញុំមកពីប្រទេសបារាំង។",
   "language": "km",
@@ -41168,6 +41120,22 @@
   "created_at": "2026-11-16T04:41:40Z"
  },
  {
+  "hash": "719a6859a57ffad72aa9406e83599f74853422bdbb329eb6833ff7fb09dc8dec",
+  "text": "នៅទេ។ ចុះ ដារ៉ា វិញ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_719a6859a57f.wav",
+  "size": 143236,
+  "duration": 2.983,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:39Z"
+ },
+ {
   "hash": "71aabbd20d71c4fad7c50c0e5b7ac9cd16ae9f6574d792d12e947cec61f1e833",
   "text": "ស្រស់",
   "language": "km",
@@ -41182,6 +41150,22 @@
   "duration": 1.008,
   "status": "ready",
   "created_at": "2026-11-16T04:01:14Z"
+ },
+ {
+  "hash": "71b2e14a2b0932ddc5f80c854f1c41e5a29a42be41e11f239f45217494b8ca52",
+  "text": "អរគុណ។ អាឡិច ក៏រៀនឆាប់ចេះដែរ!",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_71b2e14a2b09.wav",
+  "size": 202074,
+  "duration": 4.209,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:08Z"
  },
  {
   "hash": "720dbd773a1da64de367a7bf34fb87089928bd85f4bee2f92619d1c1559c60cd",
@@ -41214,22 +41198,6 @@
   "duration": 2.422,
   "status": "ready",
   "created_at": "2026-11-16T04:58:44Z"
- },
- {
-  "hash": "724786de0a7ff8a0630305ce87961b29b05663bce303a766a0d1625c73cffbdc",
-  "text": "ខ្ញុំចង់ញ៉ាំបាយឆា។ ចុះ ដូមីនិក វិញ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_724786de0a7f.wav",
-  "size": 225020,
-  "duration": 4.687,
-  "status": "ready",
-  "created_at": "2026-11-16T04:30:48Z"
  },
  {
   "hash": "725f24a87d6d22a0eb8e7977b77c45216c055c945195f7a805b188946cd93247",
@@ -41310,6 +41278,22 @@
   "duration": 0.85,
   "status": "ready",
   "created_at": "2026-11-16T05:42:32Z"
+ },
+ {
+  "hash": "73fe3ce05a619888c389f83f24e57d400b0448936f58120cf3e3a7602a12d7c8",
+  "text": "បាទ ខ្ញុំសន្យា។ ហើយខ្ញុំគិតដល់ ដារ៉ា រាល់ថ្ងៃ។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_73fe3ce05a61.wav",
+  "size": 264738,
+  "duration": 5.514,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:27Z"
  },
  {
   "hash": "740fab69da8e0290997b2b65a03f10de4e694de95b40c09df89245dadebf1f77",
@@ -41680,22 +41664,6 @@
   "created_at": "2026-11-16T03:58:18Z"
  },
  {
-  "hash": "784fff16c270a4752f0928b2e07f107082d3f9409464dbd17801fc8242a4d161",
-  "text": "អរុណសួស្តី សុខា! សុខសប្បាយទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_784fff16c270.wav",
-  "size": 212156,
-  "duration": 4.419,
-  "status": "ready",
-  "created_at": "2026-11-16T03:33:02Z"
- },
- {
   "hash": "7857db6792b75087e32c2f1ec3cdc5255a18125da553a60c9e5fca60d40fe796",
   "text": "ចុះហាងលក់ថ្នាំវិញ? ខ្ញុំត្រូវការថ្នាំ។",
   "language": "km",
@@ -41776,22 +41744,6 @@
   "created_at": "2026-11-16T04:59:32Z"
  },
  {
-  "hash": "793132e5c0a80b4dfe909762c98d59a11ec51bd8ebfd7c2b0fe438aedbb00992",
-  "text": "សួស្តី ខ្ញុំឈ្មោះ ដូមីនិក ហើយខ្ញុំមកពីប្រទេសបារាំង។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_793132e5c0a8.wav",
-  "size": 262106,
-  "duration": 5.46,
-  "status": "ready",
-  "created_at": "2026-11-16T03:33:36Z"
- },
- {
   "hash": "79bbb811361999e0f8ef984488e0a348bd00f16807c3f392e454a8588cd0078d",
   "text": "សុំកុំហឹរពេក។",
   "language": "km",
@@ -41822,22 +41774,6 @@
   "duration": 6.288,
   "status": "ready",
   "created_at": "2026-11-16T05:00:25Z"
- },
- {
-  "hash": "7a37447bd53082c4a3b1cce1dcdf452cdff9ff79fcd6e608b6c0ca1e43ac6a15",
-  "text": "បាទ ភាសាបារាំងពិបាក ប៉ុន្តែ សុខា រៀនឆាប់ចេះណាស់។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_7a37447bd530.wav",
-  "size": 264860,
-  "duration": 5.517,
-  "status": "ready",
-  "created_at": "2026-11-16T04:38:18Z"
  },
  {
   "hash": "7a424c18367f955ed4cc874c25543b868dac32bd8553ecca5d599f33f639526a",
@@ -42030,22 +41966,6 @@
   "duration": 2.262,
   "status": "ready",
   "created_at": "2026-11-16T04:37:49Z"
- },
- {
-  "hash": "7d01c901d1fc82b148293d0ccc8e6711f6b6aa8182eef16d0d2d4a7ee69d8fe8",
-  "text": "ម្តាយ សុខា ស្អាតណាស់! ហើយឪពុក សុខា ខ្ពស់។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_7d01c901d1fc.wav",
-  "size": 240456,
-  "duration": 5.009,
-  "status": "ready",
-  "created_at": "2026-11-16T04:58:56Z"
  },
  {
   "hash": "7d062cc300b5efcd95f455c468afefb8aa3415c809d7f7b16e7bf457d632cc7d",
@@ -42928,22 +42848,6 @@
   "created_at": "2026-11-16T04:37:47Z"
  },
  {
-  "hash": "88aeabcaf14f62141c373b0bea2467e65dfef94c0ac9d1a7ff440bf4978d1ab3",
-  "text": "អាឡូ សុខា ខ្ញុំ ដូមីនិក ទេតើ។ ឮទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_88aeabcaf14f.wav",
-  "size": 250594,
-  "duration": 5.22,
-  "status": "ready",
-  "created_at": "2026-11-16T04:40:59Z"
- },
- {
   "hash": "88bfab689300fb814c62b30cd5e42d8e5a87183b1e401683c1c77631d1bb1f9a",
   "text": "ត្រជាក់ចិត្តសិន។ មិនអីទេ យើងជិះតុកតុកបាន។",
   "language": "km",
@@ -43118,22 +43022,6 @@
   "duration": 1.383,
   "status": "ready",
   "created_at": "2026-11-16T03:32:41Z"
- },
- {
-  "hash": "8a1bc13dbb153d23bff7d3ff46133bb0751ba42f0e74b4d4bb3875ddf9f76564",
-  "text": "ប្រាកដហើយ។ ខ្ញុំស្រឡាញ់ សុខា។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_8a1bc13dbb15.wav",
-  "size": 189190,
-  "duration": 3.941,
-  "status": "ready",
-  "created_at": "2026-11-16T05:04:28Z"
  },
  {
   "hash": "8a49f87c72ee763c664afaa6cf48167d46e3820689d1431f89f2f16ce1f61f6a",
@@ -43472,22 +43360,6 @@
   "created_at": "2026-11-16T03:59:12Z"
  },
  {
-  "hash": "8efb2396df2c58ba0e1b2eb27cec458c7c43db07946f946d552aa00ca36d7ea4",
-  "text": "ម្សិលមិញ ខ្ញុំធ្វើម្ហូប។ អញ្ចឹងដល់វេន ដូមីនិក ហើយ!",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_8efb2396df2c.wav",
-  "size": 280148,
-  "duration": 5.835,
-  "status": "ready",
-  "created_at": "2026-11-16T05:02:52Z"
- },
- {
   "hash": "8f697d98a1c03040ba904ec84e84098d2b8e4d758b3bc5cf669d3792475e332c",
   "text": "រៀបការ",
   "language": "km",
@@ -43534,22 +43406,6 @@
   "duration": 2.822,
   "status": "ready",
   "created_at": "2026-11-16T03:53:16Z"
- },
- {
-  "hash": "8fb033d1947326344927f0e444ffb639ee52b88a9d0ab21bfa70d0c4604e41db",
-  "text": "សុខា ចង់បានស្វាយ ឬចេក?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_8fb033d19473.wav",
-  "size": 158580,
-  "duration": 3.303,
-  "status": "ready",
-  "created_at": "2026-11-16T04:01:29Z"
  },
  {
   "hash": "8fc0a730e08fffe5eb804e9a82c62e3b34f3620b2e4f65f090e0f26baa2d566f",
@@ -43774,22 +43630,6 @@
   "duration": 2.928,
   "status": "ready",
   "created_at": "2026-11-16T04:38:56Z"
- },
- {
-  "hash": "92006516b8339dd9dba578c7d558d8f10e24fb0af81f4cb764269a3d34a7f8b2",
-  "text": "នេះគឺ សុខា ដែលមកពីប្រទេសកម្ពុជា។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_92006516b833.wav",
-  "size": 199464,
-  "duration": 4.155,
-  "status": "ready",
-  "created_at": "2026-11-16T03:33:38Z"
  },
  {
   "hash": "924384bd0c65e426ad4822c20465a2bd8ff0893c9b63cfec4343e8022af06feb",
@@ -44144,6 +43984,22 @@
   "created_at": "2026-11-16T03:53:21Z"
  },
  {
+  "hash": "977ed7b5d59e9cbcb3b62715257c6c7149977c4e9ed82e2a26a634a6aa55851d",
+  "text": "អាឡិច យើងមានបញ្ហាហើយ ម៉ាស៊ីនត្រជាក់លែងដើរហើយ។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_977ed7b5d59e.wav",
+  "size": 239068,
+  "duration": 4.98,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:14Z"
+ },
+ {
   "hash": "97abea1efaef7cd0116aa4388b8618cbb16d48a354c18d3298e3f9a8d2cc868a",
   "text": "ទៅណា?",
   "language": "km",
@@ -44222,22 +44078,6 @@
   "duration": 2.235,
   "status": "ready",
   "created_at": "2026-11-16T03:33:40Z"
- },
- {
-  "hash": "98f2ea80851bd7506e3b21a08a24782778859df1aba405cff68ea0c1912bb083",
-  "text": "សុខា ចង់កុម្ម៉ង់អ្វី?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_98f2ea80851b.wav",
-  "size": 126456,
-  "duration": 2.634,
-  "status": "ready",
-  "created_at": "2026-11-16T04:30:44Z"
  },
  {
   "hash": "990174aa263a1d44ead2ed318ef400c898f3b0a1461506a4a4d349c184ff3314",
@@ -44350,6 +44190,22 @@
   "duration": 1.3,
   "status": "ready",
   "created_at": "2026-11-16T03:58:34Z"
+ },
+ {
+  "hash": "9a9e2c278c11048f89c74bf408d964e5bae5ccb14f1a1bd83ec499ade32ecc90",
+  "text": "ប្រាកដហើយ។ ខ្ញុំស្រឡាញ់ ដារ៉ា។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_9a9e2c278c11.wav",
+  "size": 184054,
+  "duration": 3.834,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:28Z"
  },
  {
   "hash": "9b066cbf64ef0c41aaf4b335bd8b9f67032e54e3217d6e671ef480633635df3a",
@@ -44592,22 +44448,6 @@
   "created_at": "2026-11-16T03:56:59Z"
  },
  {
-  "hash": "9f4b411abb878bee41db85c7b7ea161a3e324405df40eadbf1d42db4b0c170d2",
-  "text": "អរគុណ។ ដូមីនិក ក៏រៀនឆាប់ចេះដែរ!",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_9f4b411abb87.wav",
-  "size": 216152,
-  "duration": 4.502,
-  "status": "ready",
-  "created_at": "2026-11-16T04:38:20Z"
- },
- {
   "hash": "9f7fd420065e08905236c1041a034e9aa599e2fdedb372271b727ef094b820e3",
   "text": "លក់",
   "language": "km",
@@ -44750,6 +44590,22 @@
   "duration": 2.021,
   "status": "ready",
   "created_at": "2026-11-16T03:59:41Z"
+ },
+ {
+  "hash": "a272261cebb410053fe6659d5e7da459285ceef1aac9cfb1997424653cf65f49",
+  "text": "ថ្ងៃស្អែក អាឡិច ភ្ញាក់ម៉ោងប៉ុន្មាន?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_a272261cebb4.wav",
+  "size": 166270,
+  "duration": 3.463,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:03Z"
  },
  {
   "hash": "a2b554baef8b19b12269aa9f3cdf17e1237cc5a9292395aafb4ca67bca5a8daf",
@@ -45184,6 +45040,38 @@
   "created_at": "2026-11-16T04:59:12Z"
  },
  {
+  "hash": "a9014b71ee97a7e44df6373501abcd8c378a83c87af521a18b42724a6482289c",
+  "text": "បាទ ភាសាបារាំងពិបាក ប៉ុន្តែ ដារ៉ា រៀនឆាប់ចេះណាស់។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_a9014b71ee97.wav",
+  "size": 253160,
+  "duration": 5.273,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:07Z"
+ },
+ {
+  "hash": "a91ed9ef9de340704afaff797bc1dd15f3bf87118d09304ffd4d9b370908545b",
+  "text": "អាឡិច ឈឺមែនទេ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_a91ed9ef9de3.wav",
+  "size": 104742,
+  "duration": 2.181,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:43Z"
+ },
+ {
   "hash": "a9d9d111dfc5111504acb090ea1ade794b1c8cfcc12f8f29a7f64ad22605dbd8",
   "text": "សូមកាហ្វេខ្មៅមួយកែវ។",
   "language": "km",
@@ -45536,6 +45424,22 @@
   "created_at": "2026-11-16T04:41:35Z"
  },
  {
+  "hash": "aeedecb288d00d0f6032b45be988652f7db102f770402de3921d1ebe0d2790bf",
+  "text": "ខ្ញុំឈ្មោះ ដារ៉ា។ តើអ្នកមកពីណា?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_aeedecb288d0.wav",
+  "size": 200814,
+  "duration": 4.183,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:33Z"
+ },
+ {
   "hash": "af67f770b2d9a8699987f07675d433c782c6cdda143f4e727cfe26db99f1a36a",
   "text": "ហឹរ",
   "language": "km",
@@ -45710,22 +45614,6 @@
   "duration": 4.767,
   "status": "ready",
   "created_at": "2026-11-16T05:04:13Z"
- },
- {
-  "hash": "b291ddd0aa7f435d7ac083eb06898ba457d7199b72f8696e4443c404ac4f07dc",
-  "text": "ថ្ងៃនេះ សុខា សុខសប្បាយទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_b291ddd0aa7f.wav",
-  "size": 166230,
-  "duration": 3.462,
-  "status": "ready",
-  "created_at": "2026-11-16T03:57:30Z"
  },
  {
   "hash": "b2b67a86c41d8c0dddd680c476da3acd764b75a708352d57a9174fd927d9df04",
@@ -46144,6 +46032,38 @@
   "created_at": "2026-11-16T05:04:04Z"
  },
  {
+  "hash": "bac206f995a212ea9648033af1eaa68555a859bb370d15da457b7e3889e4a305",
+  "text": "អាឡូ ដារ៉ា ខ្ញុំ អាឡិច ទេតើ។ ឮទេ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_bac206f995a2.wav",
+  "size": 235214,
+  "duration": 4.899,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:12Z"
+ },
+ {
+  "hash": "bb02763316c7e4dadd1e03e0941cf66c6e0cba2f756cf6a081097c71c9a129d6",
+  "text": "ហើយអ្នកនៅក្បែរ ដារ៉ា ជានរណា?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_bb02763316c7.wav",
+  "size": 172468,
+  "duration": 3.592,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:22Z"
+ },
+ {
   "hash": "bb0a9f9550e2eafc5dd43b0c0b121c0098dea4991635ea845caab24a805b7a67",
   "text": "អត់ទេ មើលទៅ វាស្លូតណាស់។ យើងយកវាទៅផ្ទះទេ?",
   "language": "km",
@@ -46238,6 +46158,22 @@
   "duration": 2.342,
   "status": "ready",
   "created_at": "2026-11-16T04:33:38Z"
+ },
+ {
+  "hash": "bc0429636acf102d4b9022740a010cedb0c8f8935e359f43b5a7731914a81ea9",
+  "text": "ហើយឥឡូវ អាឡិច បានឃើញកន្លែងច្រើនរួចហើយ!",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_bc0429636acf.wav",
+  "size": 221280,
+  "duration": 4.609,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:09Z"
  },
  {
   "hash": "bc4ff44ba0ddbfa90c12bf9126b118ed8caf29f2d81f2cdfa0f4b9061f5e7c17",
@@ -46510,22 +46446,6 @@
   "duration": 3.487,
   "status": "ready",
   "created_at": "2026-11-16T04:31:44Z"
- },
- {
-  "hash": "bdfc44885e9783afa5271087298c894bdc120462f65a63c97b4f388d262e20d6",
-  "text": "ខ្ញុំឈ្មោះ សុខា។ តើអ្នកមកពីណា?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_bdfc44885e97.wav",
-  "size": 208328,
-  "duration": 4.339,
-  "status": "ready",
-  "created_at": "2026-11-16T03:33:46Z"
  },
  {
   "hash": "be14a93cf9267b7ba2d0ec2634973a66bb62b1e48ae76449cce0247a05648627",
@@ -46960,8 +46880,8 @@
   "created_at": "2026-11-16T03:53:11Z"
  },
  {
-  "hash": "c44f80e3d9bf724d7afd75a33ecaaad781e284b0827b1b9e91d9039b219ab8db",
-  "text": "បាទ ខ្ញុំសន្យា។ ហើយខ្ញុំគិតដល់ សុខា រាល់ថ្ងៃ។",
+  "hash": "c41ea2170e3adf3a5f2921c476441497aa7f4e9d6449ab3635ae528086e0063b",
+  "text": "នេះជាគ្រួសាររបស់ ដារ៉ា មែនទេ?",
   "language": "km",
   "locale": "km-KH",
   "provider": "command",
@@ -46969,11 +46889,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_c44f80e3d9bf.wav",
-  "size": 266072,
-  "duration": 5.542,
+  "file": "audio/km-KH/km_c41ea2170e3a.wav",
+  "size": 180370,
+  "duration": 3.757,
   "status": "ready",
-  "created_at": "2026-11-16T05:04:24Z"
+  "created_at": "2026-11-16T15:14:36Z"
  },
  {
   "hash": "c482e411242816b66007a8ecd5fce49b3b81aef19eedadf4a9f84556bc042d73",
@@ -47118,22 +47038,6 @@
   "duration": 6.259,
   "status": "ready",
   "created_at": "2026-11-16T04:43:37Z"
- },
- {
-  "hash": "c6580d277ede2e8e8928f27511f3c7ed21f0c21eee579d3fbdc858a43839db2c",
-  "text": "យើងចែកការងារគ្នា។ ដូមីនិក បោសផ្ទះ ហើយខ្ញុំបោកខោអាវ បានទេ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_c6580d277ede.wav",
-  "size": 336474,
-  "duration": 7.009,
-  "status": "ready",
-  "created_at": "2026-11-16T05:02:48Z"
  },
  {
   "hash": "c679151017ecf52a82c27e62793192f617db0ca83838df195b98073818ec8de6",
@@ -47568,6 +47472,22 @@
   "created_at": "2026-11-16T04:36:35Z"
  },
  {
+  "hash": "cdda5426b2a8e2d23b014b5a06dd02f8f70da40a85a299957f1958bda6d8e284",
+  "text": "ហើយក្មេងនេះ គឺ ដារ៉ា មែនទេ? មិនប្រែប្រួលសោះ!",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_cdda5426b2a8.wav",
+  "size": 259636,
+  "duration": 5.408,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:20Z"
+ },
+ {
   "hash": "ce902ca309a9b65fc038d5b63f4661d540a08e7fd52dbbcd2ce34714acb527c0",
   "text": "ប្រហែលជា",
   "language": "km",
@@ -47616,6 +47536,22 @@
   "created_at": "2026-11-16T04:36:01Z"
  },
  {
+  "hash": "cf6fd20516f870336ddb799c8591a508531781c74d789e76c396384f58334a1f",
+  "text": "បាទ អរគុណ ដារ៉ា។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_cf6fd20516f8.wav",
+  "size": 100884,
+  "duration": 2.101,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:59Z"
+ },
+ {
   "hash": "cf70d6750c37269150fd9be666f169aebde5a53dedb058e79f09a48fe48f54fd",
   "text": "បេះដូង",
   "language": "km",
@@ -47648,22 +47584,6 @@
   "created_at": "2026-11-16T04:33:40Z"
  },
  {
-  "hash": "cfde831afc62e520de1852f8ef38c53c2946065793006b89f35f6be39d55052b",
-  "text": "ពេលឈប់សម្រាក ខ្ញុំគិតចង់ទៅសមុទ្រ។ សុខា គិតយ៉ាងម៉េចដែរ?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_cfde831afc62.wav",
-  "size": 310766,
-  "duration": 6.473,
-  "status": "ready",
-  "created_at": "2026-11-16T04:42:40Z"
- },
- {
   "hash": "cffd37c19e4ff747b9a0671b3c327a6579d491eb38c31a6db943d69b94de9739",
   "text": "តើលេខទូរស័ព្ទរបស់អ្នកលេខប៉ុន្មាន?",
   "language": "km",
@@ -47678,22 +47598,6 @@
   "duration": 3.782,
   "status": "ready",
   "created_at": "2026-11-16T03:52:52Z"
- },
- {
-  "hash": "d03364c780784b0f435345860567bdf3a6f8a5b4a1bd1e3867fe0ff21d322352",
-  "text": "បានហើយ។ ប៉ុន្តែ ដូមីនិក ជាអ្នកឱ្យចំណីវាណា!",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_d03364c78078.wav",
-  "size": 259626,
-  "duration": 5.408,
-  "status": "ready",
-  "created_at": "2026-11-16T04:58:19Z"
  },
  {
   "hash": "d038525ce39dd876bf587958467e9b584fd28f0027c66e7a11d3281865f94cd9",
@@ -48832,6 +48736,22 @@
   "created_at": "2026-11-16T05:00:55Z"
  },
  {
+  "hash": "e308443cba053712faf2b902c4c2007679cadc6240857804b3e123f1c7ad7ee4",
+  "text": "ខ្ញុំចូលចិត្តពណ៌ខៀវ។ ចុះ អាឡិច វិញ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_e308443cba05.wav",
+  "size": 194274,
+  "duration": 4.046,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:50Z"
+ },
+ {
   "hash": "e31382ed6b9ab9d77c48cadf3a75baa32224d2dd21b8b1c6d288d72258e25f5c",
   "text": "ខ្ញុំមិនចេះបើកឡានទេ ប៉ុន្តែខ្ញុំចេះជិះម៉ូតូ។",
   "language": "km",
@@ -48958,38 +48878,6 @@
   "duration": 1.57,
   "status": "ready",
   "created_at": "2026-11-16T04:37:42Z"
- },
- {
-  "hash": "e56bbc1e5fda2d5ca751f6a224a77792308bab438689a644baabc149490cd6ec",
-  "text": "ដូមីនិក កើតអី? ឈឺត្រង់ណា?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_e56bbc1e5fda.wav",
-  "size": 181552,
-  "duration": 3.781,
-  "status": "ready",
-  "created_at": "2026-11-16T04:34:38Z"
- },
- {
-  "hash": "e5778333944a49d69c4f59cd343a9f3f00427c7cc7940be688084dc79f9d21cc",
-  "text": "សុខា ទៅណា?",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_e5778333944a.wav",
-  "size": 95750,
-  "duration": 1.994,
-  "status": "ready",
-  "created_at": "2026-11-16T03:58:20Z"
  },
  {
   "hash": "e57ca53481e615c2b6b70d3b4bea52ac5d0df6e77b13d27ec8fe3b9b1edd8dc4",
@@ -49232,6 +49120,22 @@
   "created_at": "2026-11-16T03:53:30Z"
  },
  {
+  "hash": "e883a02a82b80acf95edcb2efc09d9dd0d3d25f9b2ad2c7902664f787103a3e6",
+  "text": "ដារ៉ា ចូលចិត្តពណ៌អ្វី?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_e883a02a82b8.wav",
+  "size": 109778,
+  "duration": 2.286,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:49Z"
+ },
+ {
   "hash": "e8cd8dfaa7c5abe3ebdc848345c43ccfd7128b6397c2158cd3f8b7ae071fa616",
   "text": "ក",
   "language": "km",
@@ -49376,22 +49280,6 @@
   "created_at": "2026-11-16T04:01:48Z"
  },
  {
-  "hash": "ea5a4c104b205040b5130fad2ca359ec5f87143d01ec98af9d624f562cf7a9fc",
-  "text": "គំនិតល្អ ដូមីនិក និយាយត្រូវ!",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_ea5a4c104b20.wav",
-  "size": 167372,
-  "duration": 3.486,
-  "status": "ready",
-  "created_at": "2026-11-16T04:42:50Z"
- },
- {
   "hash": "ea748a8b0e43883ea3d07e0dacfc2f53bc8c1172a87b84e42b30d4bcf723ebb3",
   "text": "គុះ",
   "language": "km",
@@ -49504,8 +49392,8 @@
   "created_at": "2026-11-16T05:42:13Z"
  },
  {
-  "hash": "ec33b31d3ee3d63109545fe9d1f289b34d0eb09ac0a455c90d7a1179cc58cb7c",
-  "text": "សួស្តី ខ្ញុំបានកក់បន្ទប់មួយ ឈ្មោះ ដូមីនិក។",
+  "hash": "ec381f0a3aa5a94e0fdddbbb61c9253f05dfc17919c9ebe14253b682f11fa0fa",
+  "text": "យើងចែកការងារគ្នា។ អាឡិច បោសផ្ទះ ហើយខ្ញុំបោកខោអាវ បានទេ?",
   "language": "km",
   "locale": "km-KH",
   "provider": "command",
@@ -49513,11 +49401,11 @@
   "speaking_rate": 0.9,
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_ec33b31d3ee3.wav",
-  "size": 212230,
-  "duration": 4.421,
+  "file": "audio/km-KH/km_ec381f0a3aa5.wav",
+  "size": 318486,
+  "duration": 6.634,
   "status": "ready",
-  "created_at": "2026-11-16T04:35:20Z"
+  "created_at": "2026-11-16T15:15:24Z"
  },
  {
   "hash": "ec62ba3a5aa8247c2ee05244ed3dcdcc1a5360873335b131854ca06e51fabc65",
@@ -49648,6 +49536,22 @@
   "created_at": "2026-11-16T03:52:48Z"
  },
  {
+  "hash": "ef8899fbd6cfe2ca8a63732fc4527afda5b28a809243142f614d7a8bce0d33cc",
+  "text": "សួស្តី ខ្ញុំឈ្មោះ អាឡិច ហើយខ្ញុំមកពីប្រទេសបារាំង។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_ef8899fbd6cf.wav",
+  "size": 236578,
+  "duration": 4.928,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:27Z"
+ },
+ {
   "hash": "efd2dd426f65135f8695c23c441fe8a6854be0000642d0d1e421abd3dc931875",
   "text": "មួយគីឡូដប់ដុល្លារ។",
   "language": "km",
@@ -49678,6 +49582,22 @@
   "duration": 1.593,
   "status": "ready",
   "created_at": "2026-11-16T05:00:15Z"
+ },
+ {
+  "hash": "f00c9ca2e71718af245316bd3948b6be16476151a1c4728d2ac1953a6bd04b27",
+  "text": "ខ្ញុំឈ្មោះ អាឡិច។ ចុះអ្នកវិញ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_f00c9ca2e717.wav",
+  "size": 154614,
+  "duration": 3.22,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:31Z"
  },
  {
   "hash": "f046b4fbb38005a853e9a9a08e1ce4ea8f490d9c3a7865e8c4e3f1b85e1052ae",
@@ -49870,6 +49790,22 @@
   "duration": 1.888,
   "status": "ready",
   "created_at": "2026-11-16T05:01:48Z"
+ },
+ {
+  "hash": "f1fa9edba029cff0092f6ca09300601fb5cae5bc27d2b05e60dc9cb68e4d8849",
+  "text": "ថ្ងៃស្អែក អាឡិច ទៅហើយ។ ខ្ញុំនឹងនឹក អាឡិច ណាស់។",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_f1fa9edba029.wav",
+  "size": 258288,
+  "duration": 5.38,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:27Z"
  },
  {
   "hash": "f23c284381d12b1963e52a9e8350f0c89a7757e5f7e9ea8c3317f4bef4769bf3",
@@ -50368,22 +50304,6 @@
   "created_at": "2026-11-16T03:57:51Z"
  },
  {
-  "hash": "f7f73b8cae2e17910bf878cd335a49a33ebf3477e2567561b52c8ee3d9a96376",
-  "text": "ហើយឥឡូវ ដូមីនិក បានឃើញកន្លែងច្រើនរួចហើយ!",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_f7f73b8cae2e.wav",
-  "size": 250634,
-  "duration": 5.221,
-  "status": "ready",
-  "created_at": "2026-11-16T04:39:17Z"
- },
- {
   "hash": "f8000fa8e08ce7c2813ca3324acf7e2052712c0b4efaaefb123cab72c9a0a9b4",
   "text": "ខ្ញុំសន្យាថា នឹងហៅទូរស័ព្ទទៅយប់នេះ។",
   "language": "km",
@@ -50480,22 +50400,6 @@
   "created_at": "2026-11-16T04:35:02Z"
  },
  {
-  "hash": "f90fcd258110cd18ff46843bed45ef55a3d1b754eb4ca7d1d128969b4f8bfadd",
-  "text": "ចាស កាហ្វេពីរកែវ៖ មួយសម្រាប់ ដូមីនិក មួយសម្រាប់ខ្ញុំ។",
-  "language": "km",
-  "locale": "km-KH",
-  "provider": "command",
-  "voice": "gtranslate-km",
-  "speaking_rate": 0.9,
-  "sample_rate": 24000,
-  "format": "wav/pcm_s16le/mono",
-  "file": "audio/km-KH/km_f90fcd258110.wav",
-  "size": 273712,
-  "duration": 5.701,
-  "status": "ready",
-  "created_at": "2026-11-16T03:53:02Z"
- },
- {
   "hash": "f93eb442f1403031cd81440b9ff2b3d2a9b1f2614a1d94a7ff0a33a4ff8853ca",
   "text": "ខ្យល់នៅទីនេះស្រស់ស្រាយ។",
   "language": "km",
@@ -50542,6 +50446,22 @@
   "duration": 2.634,
   "status": "ready",
   "created_at": "2026-11-16T04:32:14Z"
+ },
+ {
+  "hash": "fa20ec2c1b7f6bd731f7c25710dd9f03aca7eb58f3c723cb89b0213a68e6e2b3",
+  "text": "ដារ៉ា បង្រៀនខ្ញុំពាក្យខ្មែរមួយបានទេ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_fa20ec2c1b7f.wav",
+  "size": 193092,
+  "duration": 4.022,
+  "status": "ready",
+  "created_at": "2026-11-16T15:15:05Z"
  },
  {
   "hash": "fb8923b82fa12a962ee9a13f909012171e5218c1ffdc7818972f4db4d7b6f7cc",
@@ -50768,6 +50688,22 @@
   "created_at": "2026-11-16T04:33:42Z"
  },
  {
+  "hash": "fe2293a3209e1378bd202dfb4503314dd96d5f4d686f2d92c8894e74bf81b5ac",
+  "text": "ខ្ញុំចង់ញ៉ាំបាយឆា។ ចុះ អាឡិច វិញ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_fe2293a3209e.wav",
+  "size": 209732,
+  "duration": 4.369,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:54Z"
+ },
+ {
   "hash": "fe3902de5a4aca089c281e7c145216c946d728a4d5d5ab0be6f693695dfc19e3",
   "text": "តើអ្នកឈ្មោះអ្វី?",
   "language": "km",
@@ -50862,6 +50798,22 @@
   "duration": 0.955,
   "status": "ready",
   "created_at": "2026-11-16T03:54:49Z"
+ },
+ {
+  "hash": "fe7809a1fef4428c49ba143dab0829d91101b807c42cdbe633ba5abf0d872d2b",
+  "text": "អាឡិច សុខសប្បាយទេ?",
+  "language": "km",
+  "locale": "km-KH",
+  "provider": "command",
+  "voice": "gtranslate-km",
+  "speaking_rate": 0.9,
+  "sample_rate": 24000,
+  "format": "wav/pcm_s16le/mono",
+  "file": "audio/km-KH/km_fe7809a1fef4.wav",
+  "size": 116234,
+  "duration": 2.421,
+  "status": "ready",
+  "created_at": "2026-11-16T15:14:42Z"
  },
  {
   "hash": "feb827193cba8a2141fd66a2cf48531e8c84ca8dfbc25a4f6393e9833872df0f",

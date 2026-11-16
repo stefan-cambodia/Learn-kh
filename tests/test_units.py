@@ -528,12 +528,12 @@ class SpacedRepetitionTest(unittest.TestCase):
         for offset in range(1, 40):
             due = srs.due_items(self.conn, self.day(offset), self.INTERVALS, 10)
             if due:
-                self.assertEqual(sorted(due[0]["due_for"]), ["A", "B"])
+                self.assertEqual(sorted(due[0]["due_for"]), ["en", "fr", "km"])
                 seen.append(offset)
                 srs.record_review(self.conn, word, self.day(offset), self.INTERVALS)
         self.assertEqual(seen, [1, 3, 7, 14, 30])
         rows = self.conn.execute("SELECT * FROM learner_progress").fetchall()
-        self.assertEqual(len(rows), 2)
+        self.assertEqual(len(rows), 3, "un suivi par profil (fr, en, km)")
         for row in rows:
             self.assertIsNone(row["next_review"], "cycle terminé : le mot est acquis")
             self.assertEqual((row["review_count"], row["learning_level"], row["mastery_score"]), (5, 5, 1.0))
@@ -557,11 +557,11 @@ class SpacedRepetitionTest(unittest.TestCase):
 
     def test_forget_and_master(self):
         word = self.add_word("merci", self.day(0))
-        self.assertEqual(srs.master(self.conn, "A", word, self.day(2), self.INTERVALS), 1)
+        self.assertEqual(srs.master(self.conn, "km", word, self.day(2), self.INTERVALS), 1)
         due = srs.due_items(self.conn, self.day(2), self.INTERVALS, 10)
-        self.assertEqual(due[0]["due_for"], ["B"], "le mot acquis par A n'est plus dû que pour B")
-        srs.forget(self.conn, "A", word, self.day(5), self.INTERVALS)
-        row = self.conn.execute("SELECT * FROM learner_progress WHERE learner = 'A'").fetchone()
+        self.assertEqual(sorted(due[0]["due_for"]), ["en", "fr"], "le mot acquis par le profil khmer n'est plus dû que pour les autres")
+        srs.forget(self.conn, "km", word, self.day(5), self.INTERVALS)
+        row = self.conn.execute("SELECT * FROM learner_progress WHERE learner = 'km'").fetchone()
         self.assertEqual((row["next_review"], row["review_count"], row["mastery_score"]), (self.day(6), 0, 0))
 
 
@@ -588,10 +588,10 @@ class TextAndContentTest(unittest.TestCase):
         self.assertEqual(format_date("2026-11-15", "km"), "ថ្ងៃអាទិត្យ ទី១៥ ខែវិច្ឆិកា ឆ្នាំ២០២៦")
 
     def test_personalisation(self):
-        learners = DEFAULT_CONFIG["learners"]
-        self.assertEqual(personalize("Bonjour {A} !", "fr", learners), "Bonjour Sokha !")
-        self.assertEqual(personalize("{A_yes} {B}", "km", learners), "ចាស ដូមីនិក")
-        self.assertEqual(personalize("{B_yes}, {A}", "tr", learners), "bat, Sokha")
+        characters = DEFAULT_CONFIG["characters"]
+        self.assertEqual(personalize("Bonjour {A} !", "fr", characters), "Bonjour Dara !")
+        self.assertEqual(personalize("{A_yes} {B}", "km", characters), "ចាស អាឡិច")
+        self.assertEqual(personalize("{B_yes}, {A}", "tr", characters), "bat, da-ra")
 
     def test_unit_validation_catches_mistakes(self):
         unit = json.loads((ROOT / "content" / "units" / "u001-salutations.json").read_text(encoding="utf-8"))
@@ -728,10 +728,12 @@ class ConfigurationTest(unittest.TestCase):
                          (dt.time(6, 15), 7, 4))
         self.write({"schedule": {"time": "7h", "timezone": "Mars/Olympus"}, "audio": {"sample_rate_hz": 11025, "speaking_rate": 3},
                     "lesson": {"new_words": 12, "expressions": 1, "max_duration_minutes": 20},
-                    "review": {"intervals_days": [3, 1]}, "learners": {"A": {"gender": "x"}}})
+                    "review": {"intervals_days": [3, 1]}, "characters": {"A": {"gender": "x"}},
+                    "profiles": {"de": {"learns": ["fr"]}}, "site": {"default_profile": "xx"}})
         problems = " | ".join(load_config(self.root).validate())
         for expected in ("Fuseau horaire inconnu", "sample_rate_hz", "speaking_rate", "new_words", "expressions",
-                         "max_duration_minutes", "intervals_days", "learners.A.gender"):
+                         "max_duration_minutes", "intervals_days", "characters.A.gender", "profiles.de",
+                         "site.default_profile"):
             self.assertIn(expected, problems)
         (self.root / "config" / "config.json").write_text("{ pas du json", encoding="utf-8")
         with self.assertRaises(ConfigError):

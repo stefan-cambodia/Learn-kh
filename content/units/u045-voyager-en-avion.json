@@ -6,6 +6,7 @@
   "title": {"fr": "Voyager en avion", "en": "Travelling by plane", "km": "ធ្វើដំណើរតាមយន្តហោះ"},
   "tip": {
     "fr": "យន្តហោះ, l'avion, signifie mot à mot « machine qui vole ». Le mot យន្ត (yun), « machine, moteur », se retrouve partout : រថយន្ត, la voiture ; ភាពយន្ត, le film.",
+    "en": "យន្តហោះ, plane, literally means “flying machine”. The word យន្ត (yun), “machine, engine”, appears everywhere: រថយន្ត, car; ភាពយន្ត, film.",
     "km": "ភាសាបារាំងប្រើ « en » សម្រាប់មធ្យោបាយធ្វើដំណើរដែលអង្គុយខាងក្នុង៖ en avion, en voiture, en bus។ ប៉ុន្តែ « à » សម្រាប់អង្គុយពីលើ៖ à moto, à vélo, à pied។ អង់គ្លេស៖ « by plane », « by car », « on foot »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "l'avion", "en": "plane", "km": "យន្តហោះ", "tr": "yun-hoh", "pos": "nom",
       "note": {
         "fr": "យន្ត, « machine », et ហោះ, « voler ». Prendre l'avion se dit ជិះយន្តហោះ, comme pour une moto.",
+        "en": "យន្ត, “machine”, and ហោះ, “to fly”. To fly somewhere is ជិះយន្តហោះ, as for a motorbike. French « avion » is masculine: l'avion.",
         "km": "« avion » ជានាមភេទប្រុស៖ l'avion, un avion។ « prendre l'avion » មានន័យថា ជិះយន្តហោះ។ អង់គ្លេស៖ « plane »។"
       },
       "example": {"fr": "L'avion part à huit heures.", "en": "The plane leaves at eight o'clock.", "km": "យន្តហោះចេញម៉ោងប្រាំបី។", "tr": "yun-hoh tchégn maong pram-bey."}
@@ -21,6 +23,7 @@
       "fr": "l'aéroport", "en": "airport", "km": "ព្រលានយន្តហោះ", "tr": "prâ-léan yun-hoh", "pos": "nom",
       "note": {
         "fr": "ព្រលាន, « la piste, l'esplanade » : mot à mot « l'esplanade des avions ».",
+        "en": "ព្រលាន, “runway, open ground”: word for word “the ground for planes”. French « aéroport » is masculine.",
         "km": "« aéroport » ជានាមភេទប្រុស៖ l'aéroport។ « à l'aéroport » មានន័យថា នៅព្រលានយន្តហោះ។ អង់គ្លេស៖ « airport »។"
       },
       "example": {"fr": "Je t'attends à l'aéroport.", "en": "I'll wait for you at the airport.", "km": "ខ្ញុំរង់ចាំអ្នកនៅព្រលានយន្តហោះ។", "tr": "khgnom rong-tcham néak neuv prâ-léan yun-hoh."}
@@ -29,6 +32,7 @@
       "fr": "le passeport", "en": "passport", "km": "លិខិតឆ្លងដែន", "tr": "lik-khet tchhlâng daèn", "pos": "nom",
       "note": {
         "fr": "Mot à mot « lettre pour traverser la frontière ». ឆ្លង, traverser, et ដែន, le territoire.",
+        "en": "Word for word “letter for crossing the border”. ឆ្លង, to cross, and ដែន, territory. French « passeport » is masculine.",
         "km": "« passeport » ជានាមភេទប្រុស៖ le passeport។ « le visa » មានន័យថា ទិដ្ឋាការ។ អង់គ្លេស៖ « passport »។"
       },
       "example": {"fr": "Mon passeport est dans la valise.", "en": "My passport is in the suitcase.", "km": "លិខិតឆ្លងដែនរបស់ខ្ញុំនៅក្នុងវ៉ាលី។", "tr": "lik-khet tchhlâng daèn ro-bâh khgnom neuv knong va-li."}
@@ -37,6 +41,7 @@
       "fr": "le billet", "en": "ticket", "km": "សំបុត្រ", "tr": "sâm-bot", "pos": "nom",
       "note": {
         "fr": "សំបុត្រ veut dire « le billet » et aussi « la lettre ». Le billet d'avion : សំបុត្រយន្តហោះ.",
+        "en": "សំបុត្រ means “ticket” and also “letter”. A plane ticket: សំបុត្រយន្តហោះ. French « billet » also means a banknote.",
         "km": "« billet » ជានាមភេទប្រុស៖ le billet d'avion។ « le billet » ក៏មានន័យថា ក្រដាសប្រាក់ដែរ។ អង់គ្លេស៖ « ticket »។"
       },
       "example": {"fr": "J'ai acheté deux billets pour Paris.", "en": "I bought two tickets to Paris.", "km": "ខ្ញុំបានទិញសំបុត្រពីរទៅប៉ារីស។", "tr": "khgnom ban tign sâm-bot pi teuv pa-ri."}
@@ -45,6 +50,7 @@
       "fr": "la valise", "en": "suitcase", "km": "វ៉ាលី", "tr": "va-li", "pos": "nom",
       "note": {
         "fr": "Emprunté au français « valise ». Faire sa valise se dit រៀបចំវ៉ាលី.",
+        "en": "Borrowed from French « valise ». To pack your suitcase is រៀបចំវ៉ាលី. French « faire sa valise » means “to pack”.",
         "km": "« valise » ជានាមភេទស្រី៖ la valise។ ពាក្យខ្មែរ វ៉ាលី មកពីពាក្យនេះ។ អង់គ្លេស៖ « suitcase »។"
       },
       "example": {"fr": "Ma valise est trop lourde.", "en": "My suitcase is too heavy.", "km": "វ៉ាលីខ្ញុំធ្ងន់ពេក។", "tr": "va-li khgnom thngun pék."}
@@ -53,6 +59,7 @@
       "fr": "arriver", "en": "to arrive", "km": "មកដល់", "tr": "mok dâl", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « venir jusqu'à ». Si l'on parle d'arriver là-bas, on dit ទៅដល់, « aller jusqu'à ».",
+        "en": "Word for word “come as far as”. For arriving over there, say ទៅដល់, “go as far as”. French « arriver »: je suis arrivé, with « être ».",
         "km": "« arriver » ប្រើជាមួយ « être » ក្នុងអតីតកាល៖ je suis arrivé។ អង់គ្លេស៖ « to arrive »។"
       },
       "example": {"fr": "Le bus arrive dans dix minutes.", "en": "The bus arrives in ten minutes.", "km": "ឡានក្រុងមកដល់ក្នុងដប់នាទីទៀត។", "tr": "lan-krong mok dâl knong dâp néa-ti tiet."}
@@ -63,6 +70,7 @@
       "fr": "Bon voyage !", "en": "Have a good trip!", "km": "ដំណើរសុខសប្បាយ!", "tr": "dâm-naeu sok sa-bay !",
       "note": {
         "fr": "Mot à mot « que le voyage se passe bien ». On le dit au moment des adieux.",
+        "en": "Word for word “may the journey go well”. Said when saying goodbye. French « Bon voyage ! » is the same as in English.",
         "km": "« Bon voyage ! » ជូនពរអ្នកដែលចេញដំណើរ។ « voyage » ជានាមភេទប្រុស ទើបប្រើ « bon »។ អង់គ្លេស៖ « Have a good trip! »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "L'avion a du retard.", "en": "The plane is delayed.", "km": "យន្តហោះយឺតម៉ោង។", "tr": "yun-hoh yeut maong.",
       "note": {
         "fr": "យឺតម៉ោង, « en retard sur l'heure ». Le contraire est ទាន់ម៉ោង, « à l'heure ».",
+        "en": "យឺតម៉ោង, “behind the hour”. The opposite is ទាន់ម៉ោង, “on time”. French « avoir du retard » means “to be delayed”.",
         "km": "« avoir du retard » មានន័យថា យឺតម៉ោង។ « à l'heure » មានន័យថា ទាន់ម៉ោង។ អង់គ្លេស៖ « delayed », « on time »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Où est la porte d'embarquement ?", "en": "Where is the boarding gate?", "km": "ច្រកចូលយន្តហោះនៅឯណា?", "tr": "tchrâk tchôl yun-hoh neuv aè na ?",
       "note": {
         "fr": "ច្រក (tchrâk), « le passage, la porte d'accès ». Mot à mot « le passage pour monter dans l'avion ».",
+        "en": "ច្រក (tchrâk), “passage, access gate”. Word for word “the passage for boarding the plane”. French « porte » means “door” or “gate”.",
         "km": "« la porte d'embarquement » មានន័យថា ច្រកចូលយន្តហោះ។ អង់គ្លេស៖ « boarding gate »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Je viens te chercher.", "en": "I'll come and pick you up.", "km": "ខ្ញុំទៅទទួលអ្នក។", "tr": "khgnom teuv tô-tuol néak.",
       "note": {
         "fr": "ទទួល (tô-tuol), « recevoir, accueillir ». Aller chercher quelqu'un, c'est « aller l'accueillir ».",
+        "en": "ទទួល (tô-tuol), “to receive, to welcome”. Picking someone up means “going to welcome them”. French « venir chercher » means “to come and pick up”.",
         "km": "« venir chercher quelqu'un » មានន័យថា មកទទួល។ អង់គ្លេស៖ « to pick someone up »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Avant le départ", "km": "មុនពេលចេញដំណើរ"},
+      "situation": {"fr": "Avant le départ", "en": "Before leaving", "km": "មុនពេលចេញដំណើរ"},
       "fr": "Le vol de Phnom Penh à Paris dure environ quinze heures.", "en": "The flight from Phnom Penh to Paris takes about fifteen hours.",
       "km": "ជើងហោះហើរពីភ្នំពេញទៅប៉ារីស ប្រហែលដប់ប្រាំម៉ោង។", "tr": "tcheung hoh-haeu pi phnom-pégn teuv pa-ri, prâ-haèl dâp-pram maong."
     },
     {
-      "situation": {"fr": "Au contrôle des passeports", "km": "នៅកន្លែងត្រួតពិនិត្យលិខិតឆ្លងដែន"},
+      "situation": {"fr": "Au contrôle des passeports", "en": "At passport control", "km": "នៅកន្លែងត្រួតពិនិត្យលិខិតឆ្លងដែន"},
       "fr": "N'oubliez pas votre passeport et votre billet.", "en": "Don't forget your passport and your ticket.",
       "km": "កុំភ្លេចលិខិតឆ្លងដែន និងសំបុត្រ។", "tr": "kom phlétch lik-khet tchhlâng daèn neung sâm-bot."
     },
     {
-      "situation": {"fr": "À l'arrivée", "km": "ពេលមកដល់"},
+      "situation": {"fr": "À l'arrivée", "en": "On arrival", "km": "ពេលមកដល់"},
       "fr": "Ma valise n'est pas encore arrivée !", "en": "My suitcase hasn't arrived yet!",
       "km": "វ៉ាលីខ្ញុំមិនទាន់មកដល់ទេ!", "tr": "va-li khgnom min toan mok dâl té !"
     }

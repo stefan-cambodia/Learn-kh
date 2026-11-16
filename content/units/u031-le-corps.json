@@ -6,6 +6,7 @@
   "title": {"fr": "Le corps", "en": "The body", "km": "រាងកាយ"},
   "tip": {
     "fr": "En khmer, ដៃ (day) désigne à la fois la main et le bras, et ជើង (tcheung) à la fois le pied et la jambe. Pour être précis, on dit បាតដៃ (bat day), la paume, ou កែងជើង (kaèng tcheung), le talon.",
+    "en": "In Khmer, ដៃ (day) means both hand and arm, and ជើង (tcheung) both foot and leg. To be precise, say បាតដៃ (bat day), the palm, or កែងជើង (kaèng tcheung), the heel. French separates « la main » and « le bras », « le pied » and « la jambe ».",
     "km": "ជាភាសាបារាំង គេប្រើ « avoir mal à » ដើម្បីនិយាយថាឈឺ៖ j'ai mal à la tête, j'ai mal au dos (au = à + le), j'ai mal aux pieds (aux = à + les)។ អង់គ្លេស៖ « My back hurts », « I have a headache »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "la main", "en": "hand", "km": "ដៃ", "tr": "day", "pos": "nom",
       "note": {
         "fr": "ដៃ veut dire la main et tout le bras. Le mot sert aussi à compter les gestes : ម្តងមួយដៃ, une main à la fois.",
+        "en": "ដៃ means the hand and the whole arm. The word also counts actions: ម្តងមួយដៃ, one hand at a time. French « main » is feminine: la main.",
         "km": "« main » ជានាមភេទស្រី៖ la main, ពហុវចនៈ les mains។ ដៃពីស្មាដល់កែងដៃ គឺ « le bras »។ អង់គ្លេស៖ « hand » និង « arm »។"
       },
       "example": {"fr": "Je me lave les mains avant de manger.", "en": "I wash my hands before eating.", "km": "ខ្ញុំលាងដៃមុនញ៉ាំបាយ។", "tr": "khgnom léang day moun gnam bay."}
@@ -21,6 +23,7 @@
       "fr": "le pied", "en": "foot", "km": "ជើង", "tr": "tcheung", "pos": "nom",
       "note": {
         "fr": "ជើង désigne le pied et la jambe. On le retrouve dans ស្បែកជើង (sbaèk tcheung), mot à mot « peau de pied », les chaussures.",
+        "en": "ជើង means the foot and the leg. It appears in ស្បែកជើង (sbaèk tcheung), word for word “foot skin”, shoes. French « pied » is masculine; the d is silent.",
         "km": "« pied » ជានាមភេទប្រុស៖ le pied។ ជើងពីជង្គង់ឡើងទៅ គឺ « la jambe »។ « à pied » មានន័យថា ដើរ។ អង់គ្លេស៖ « foot », ពហុវចនៈ « feet »។"
       },
       "example": {"fr": "Je vais au marché à pied.", "en": "I walk to the market.", "km": "ខ្ញុំដើរទៅផ្សារ។", "tr": "khgnom daeu teuv phsa."}
@@ -29,6 +32,7 @@
       "fr": "les yeux", "en": "eyes", "km": "ភ្នែក", "tr": "phnaèk", "pos": "nom",
       "note": {
         "fr": "ភ្នែក ne change pas au pluriel. Pour dire « deux yeux », on ajoute le nombre : ភ្នែកទាំងពីរ.",
+        "en": "ភ្នែក does not change in the plural. For “two eyes”, add the number: ភ្នែកទាំងពីរ. French has an irregular plural: un œil, des yeux.",
         "km": "មួយគឺ « un œil », ពីរឡើងទៅគឺ « les yeux »។ ពាក្យទាំងពីរខុសគ្នាទាំងស្រុង។ អង់គ្លេស៖ « eye », « eyes »។"
       },
       "example": {"fr": "Ton enfant a de beaux yeux noirs.", "en": "Your child has beautiful black eyes.", "km": "កូនរបស់អ្នកមានភ្នែកខ្មៅស្អាត។", "tr": "kôn ro-bâh néak méan phnaèk khmav s'at."}
@@ -37,6 +41,7 @@
       "fr": "la bouche", "en": "mouth", "km": "មាត់", "tr": "moat", "pos": "nom",
       "note": {
         "fr": "មាត់ sert aussi pour le bord de quelque chose : មាត់ទន្លេ (moat tonlé), le bord du fleuve, et មាត់ទ្វារ, le pas de la porte.",
+        "en": "មាត់ is also the edge of something: មាត់ទន្លេ (moat tonlé), the riverbank, and មាត់ទ្វារ, the doorstep. French « bouche » is feminine.",
         "km": "« bouche » ជានាមភេទស្រី៖ la bouche។ « ouvre la bouche » មានន័យថា ហាមាត់។ អង់គ្លេស៖ « mouth »។"
       },
       "example": {"fr": "Le médecin dit : ouvrez la bouche.", "en": "The doctor says: open your mouth.", "km": "គ្រូពេទ្យនិយាយថា៖ ហាមាត់។", "tr": "krou-pét ni-yéay tha : ha moat."}
@@ -45,6 +50,7 @@
       "fr": "le dos", "en": "back", "km": "ខ្នង", "tr": "khnâng", "pos": "nom",
       "note": {
         "fr": "Pour dire qu'on a mal, on met ឈឺ (tchheu) devant la partie du corps : ឈឺខ្នង, mal au dos ; ឈឺក្បាល, mal à la tête.",
+        "en": "To say something hurts, put ឈឺ (tchheu) before the body part: ឈឺខ្នង, backache; ឈឺក្បាល, headache. French « dos » is masculine; the s is silent.",
         "km": "« dos » ជានាមភេទប្រុស ហើយ s នៅចុងមិនអានទេ៖ le dos។ « j'ai mal au dos » មានន័យថា ខ្ញុំឈឺខ្នង។ អង់គ្លេស៖ « back »។"
       },
       "example": {"fr": "J'ai mal au dos après le travail.", "en": "My back hurts after work.", "km": "ខ្ញុំឈឺខ្នងក្រោយពេលធ្វើការ។", "tr": "khgnom tchheu khnâng kraoy pél thveu-ka."}
@@ -53,6 +59,7 @@
       "fr": "les cheveux", "en": "hair", "km": "សក់", "tr": "sâk", "pos": "nom",
       "note": {
         "fr": "សក់ désigne uniquement les cheveux. Pour se faire couper les cheveux, on dit កាត់សក់ (kat sâk), et le coiffeur est ជាងកាត់សក់.",
+        "en": "សក់ only means the hair on your head. To get a haircut is កាត់សក់ (kat sâk), and the hairdresser is ជាងកាត់សក់. French « cheveux » is always plural.",
         "km": "ភាសាបារាំងតែងប្រើពហុវចនៈ៖ les cheveux។ សក់មួយសរសៃគឺ « un cheveu »។ អង់គ្លេស៖ « hair » មិនដែលថែម s ទេ។"
       },
       "example": {"fr": "Elle a les cheveux longs.", "en": "She has long hair.", "km": "គាត់មានសក់វែង។", "tr": "koat méan sâk vaèng."}
@@ -63,6 +70,7 @@
       "fr": "J'ai mal au dos.", "en": "My back hurts.", "km": "ខ្ញុំឈឺខ្នង។", "tr": "khgnom tchheu khnâng.",
       "note": {
         "fr": "Même modèle pour tout le corps : ឈឺជើង, mal aux pieds ; ឈឺភ្នែក, mal aux yeux.",
+        "en": "The same pattern for the whole body: ឈឺជើង, sore feet; ឈឺភ្នែក, sore eyes. French: « J'ai mal au dos », « j'ai mal aux pieds ».",
         "km": "« avoir mal à » + ផ្នែកនៃរាងកាយ៖ j'ai mal au dos, j'ai mal aux yeux។ អង់គ្លេស៖ « My back hurts »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Lave-toi les mains.", "en": "Wash your hands.", "km": "លាងដៃសិន។", "tr": "léang day sen.",
       "note": {
         "fr": "សិន (sen), « d'abord », adoucit la demande : on la fait avant autre chose, souvent avant le repas.",
+        "en": "សិន (sen), “first”, softens the request: it is done before something else, often before a meal. French uses « se laver les mains », not “your hands”.",
         "km": "« se laver » ជាកិរិយាសព្ទឆ្លុះ៖ je me lave, tu te laves។ ពេលបញ្ជា៖ lave-toi។ អង់គ្លេស៖ « Wash your hands »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Ferme les yeux.", "en": "Close your eyes.", "km": "បិទភ្នែក។", "tr": "bet phnaèk.",
       "note": {
         "fr": "បិទ (bet), « fermer », est le même verbe que pour la porte. Le contraire est បើក (baeuk), « ouvrir ».",
+        "en": "បិទ (bet), “to close”, is the same verb as for a door. The opposite is បើក (baeuk), “to open”. French « Ferme » is familiar; « Fermez » is polite.",
         "km": "« fermer » ផ្ទុយពី « ouvrir »។ ប្រើបានទាំងភ្នែក ទ្វារ និងហាង។ អង់គ្លេស៖ « close » ឬ « shut »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Fais attention !", "en": "Be careful!", "km": "ប្រយ័ត្ន!", "tr": "prâ-yat !",
       "note": {
         "fr": "ប្រយ័ត្ន s'emploie seul pour avertir d'un danger, ou suivi de ce qui est dangereux : ប្រយ័ត្នម៉ូតូ, attention aux motos.",
+        "en": "ប្រយ័ត្ន is used alone to warn of danger, or followed by what is dangerous: ប្រយ័ត្នម៉ូតូ, watch out for motorbikes. French « Attention ! » also works alone.",
         "km": "« Fais attention ! » ឬ « Attention ! » ប្រើពេលមានគ្រោះថ្នាក់។ អង់គ្លេស៖ « Be careful! » ឬ « Watch out! »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Après une longue marche", "km": "ក្រោយពេលដើរយូរ"},
+      "situation": {"fr": "Après une longue marche", "en": "After a long walk", "km": "ក្រោយពេលដើរយូរ"},
       "fr": "J'ai mal aux pieds parce que j'ai trop marché.", "en": "My feet hurt because I walked too much.",
       "km": "ខ្ញុំឈឺជើង ព្រោះដើរច្រើនពេក។", "tr": "khgnom tchheu tcheung, prouh daeu tchraeun pék."
     },
     {
-      "situation": {"fr": "Chez le coiffeur", "km": "នៅហាងកាត់សក់"},
+      "situation": {"fr": "Chez le coiffeur", "en": "At the hairdresser's", "km": "នៅហាងកាត់សក់"},
       "fr": "Je voudrais me faire couper les cheveux, mais pas trop court.", "en": "I would like a haircut, but not too short.",
       "km": "ខ្ញុំចង់កាត់សក់ ប៉ុន្តែកុំខ្លីពេក។", "tr": "khgnom tchâng kat sâk, pon-taè kom khley pék."
     },
     {
-      "situation": {"fr": "Avant le repas", "km": "មុនពេលញ៉ាំបាយ"},
+      "situation": {"fr": "Avant le repas", "en": "Before the meal", "km": "មុនពេលញ៉ាំបាយ"},
       "fr": "Les enfants, lavez-vous les mains avant de manger.", "en": "Children, wash your hands before eating.",
       "km": "កូនៗ ទៅលាងដៃមុនញ៉ាំបាយ។", "tr": "kôn-kôn, teuv léang day moun gnam bay."
     }

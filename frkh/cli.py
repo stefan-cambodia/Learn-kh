@@ -279,7 +279,7 @@ def cmd_stats(app: App, args) -> int:
         print(f"    {row['locale']:<6} {row['provider']:<8} {row['voice']:<26} {row['files']:>5} fichier(s)  {_size(row['bytes']):>9}")
     print("PROGRESSION")
     for item in srs.summary(conn, config.today().isoformat()):
-        name = config["learners"][item["learner"]]["name"]["latin"]
+        name = config.profiles().get(item["learner"], {}).get("label", item["learner"])
         print(f"  {item['learner']} ({name}) : {item['total']} éléments suivis, {item['mastered']} acquis, "
               f"{item['due']} à réviser, maîtrise moyenne {item['average']:.0%}")
     return EXIT_OK
@@ -328,6 +328,14 @@ def cmd_content(app: App, args) -> int:
     curriculum = Curriculum(app.config.paths.content, app.log).load()
     used = {r["unit_id"]: r["lesson_number"] for r in app.conn.execute(
         "SELECT unit_id, lesson_number FROM lessons WHERE unit_id IS NOT NULL")}
+    if args.action == "refresh":
+        with app.lock():
+            stats = admin.refresh_lessons(app.config, app.conn, curriculum)
+            print(f"{stats['lessons']} leçon(s) et {stats['vocabulary']} mot(s) mis à jour d'après content/units.")
+            totals = app.service.repair_audio(scope="all")
+            count = app.service.renderer.render_all()
+        print(f"Audio : {totals['generated']} nouveau(x), {totals['missing']} en attente. {count} page(s) régénérée(s).")
+        return EXIT_OK
     if args.action == "list":
         for unit in curriculum.units:
             state = f"leçon {used[unit['id']]}" if unit["id"] in used else "à venir"
@@ -388,7 +396,7 @@ def cmd_progress(app: App, args) -> int:
     day = config.today().isoformat()
     if args.action == "show":
         for item in srs.summary(conn, day):
-            name = config["learners"][item["learner"]]["name"]["latin"]
+            name = config.profiles().get(item["learner"], {}).get("label", item["learner"])
             print(f"{item['learner']} ({name}) : {item['total']} éléments, {item['mastered']} acquis, "
                   f"{item['due']} à réviser, maîtrise moyenne {item['average']:.0%}")
         rows = conn.execute(
@@ -533,7 +541,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(func=cmd_schedule)
 
     p = sub.add_parser("content", help="programme pédagogique (unités de content/units)")
-    p.add_argument("action", choices=("check", "list"))
+    p.add_argument("action", choices=("check", "list", "refresh"),
+                   help="check : vérifier ; list : lister ; refresh : reporter les unités modifiées dans les leçons déjà générées")
     p.add_argument("--all", action="store_true", help="afficher aussi les traductions signalées à vérifier")
     p.set_defaults(func=cmd_content)
 
@@ -561,7 +570,8 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--limit", type=int, default=20)
     for name, text in (("forget", "remettre un mot à zéro (à revoir dès demain)"), ("master", "marquer un mot comme acquis")):
         f = a.add_parser(name, help=text)
-        f.add_argument("--learner", choices=("A", "B", "both"), required=True)
+        f.add_argument("--learner", choices=("fr", "en", "km", "all", "A", "B", "both"), required=True,
+                       help="profil : fr, en, km, ou all pour les trois (A et B : anciens noms de km et fr)")
         f.add_argument("--word", required=True, help="mot en français, anglais ou khmer")
     p.set_defaults(func=cmd_progress)
 

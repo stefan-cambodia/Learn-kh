@@ -6,6 +6,7 @@
   "title": {"fr": "Les transports", "en": "Transport", "km": "មធ្យោបាយធ្វើដំណើរ"},
   "tip": {
     "fr": "Pour dire comment on se déplace, le khmer emploie ជិះ (tchih), « monter sur, prendre » : ជិះតុកតុក, ជិះម៉ូតូ, ជិះឡានក្រុង. On ajoute ensuite la destination avec ទៅ : ជិះតុកតុកទៅផ្សារ, « aller au marché en tuk-tuk ».",
+    "en": "To say how you travel, Khmer uses ជិះ (tchih), “to ride, to take”: ជិះតុកតុក, ជិះម៉ូតូ, ជិះឡានក្រុង. The destination then comes with ទៅ: ជិះតុកតុកទៅផ្សារ, “go to the market by tuk-tuk”. French uses « en » or « à »: en bus, à moto.",
     "km": "ភាសាបារាំងប្រើ « en » ជាមួយយានដែលគេចូលអង្គុយខាងក្នុង៖ en voiture, en bus, en tuk-tuk។ ជាមួយម៉ូតូ និងកង់ គេប្រើ « à »៖ à moto, à vélo។ អង់គ្លេសប្រើ « by »៖ by car, by bus។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "le tuk-tuk", "en": "tuk-tuk", "km": "តុកតុក", "tr": "tok-tok", "pos": "nom",
       "note": {
         "fr": "Le modèle traditionnel, une remorque tirée par une moto, s'appelle aussi រ៉ឺម៉ក (reu-mâk), du français « remorque ».",
+        "en": "The traditional model, a trailer pulled by a motorbike, is also called រ៉ឺម៉ក (reu-mâk), from French « remorque », “trailer”. French writes « le tuk-tuk ».",
         "km": "ពាក្យនេះដូចគ្នាទាំងបីភាសា។ ភាសាបារាំងសរសេរ « le tuk-tuk » ជានាមភេទប្រុស។"
       },
       "example": {"fr": "Nous allons au marché en tuk-tuk.", "en": "We go to the market by tuk-tuk.", "km": "យើងជិះតុកតុកទៅផ្សារ។", "tr": "yeung tchih tok-tok teuv phsa."}
@@ -21,6 +23,7 @@
       "fr": "la voiture", "en": "car", "km": "ឡាន", "tr": "lan", "pos": "nom",
       "note": {
         "fr": "Mot de tous les jours. Le terme officiel, រថយន្ត (rot-yon), se lit sur les panneaux et dans les journaux.",
+        "en": "The everyday word. The official term, រថយន្ត (rot-yon), appears on signs and in newspapers. French « voiture » is feminine.",
         "km": "« voiture » ជានាមភេទស្រី៖ la voiture, une voiture។ អង់គ្លេស៖ « car »។"
       },
       "example": {"fr": "Mon père a une voiture blanche.", "en": "My father has a white car.", "km": "ឪពុកខ្ញុំមានឡានពណ៌សមួយ។", "tr": "eu-pouk khgnom méan lan poa sâ mouy."}
@@ -29,6 +32,7 @@
       "fr": "la moto", "en": "motorbike", "km": "ម៉ូតូ", "tr": "mô-tô", "pos": "nom",
       "note": {
         "fr": "ជិះម៉ូតូ (tchih mô-tô) = « aller à moto ». Le moto-taxi se dit ម៉ូតូឌុប (mô-tô doup).",
+        "en": "ជិះម៉ូតូ (tchih mô-tô) = “go by motorbike”. A motorbike taxi is ម៉ូតូឌុប (mô-tô doup). French « moto » is feminine: la moto.",
         "km": "« moto » ជានាមភេទស្រី៖ la moto។ ពាក្យខ្មែរ « ម៉ូតូ » មកពីភាសាបារាំង។ អង់គ្លេស៖ « motorbike »។"
       },
       "example": {"fr": "Je vais au travail à moto.", "en": "I go to work by motorbike.", "km": "ខ្ញុំជិះម៉ូតូទៅធ្វើការ។", "tr": "khgnom tchih mô-tô teuv thveu-ka."}
@@ -37,6 +41,7 @@
       "fr": "le bus", "en": "bus", "km": "ឡានក្រុង", "tr": "lan-krong", "pos": "nom",
       "note": {
         "fr": "Mot à mot « voiture de ville ». Se dit aussi pour les cars qui relient les villes.",
+        "en": "Word for word “town car”. Also used for coaches between cities. French « bus » is masculine and the s is pronounced.",
         "km": "« bus » ជានាមភេទប្រុស៖ le bus។ ក្នុងពាក្យនេះ ភាសាបារាំងអានអក្សរ s នៅចុងពាក្យ។ អង់គ្លេសសរសេរដូចគ្នា។"
       },
       "example": {"fr": "Le bus pour Siem Reap part le matin.", "en": "The bus to Siem Reap leaves in the morning.", "km": "ឡានក្រុងទៅសៀមរាបចេញពេលព្រឹក។", "tr": "lan-krong teuv siem-réap tchégn pél preuk."}
@@ -45,6 +50,7 @@
       "fr": "la route", "en": "road", "km": "ផ្លូវ", "tr": "phleuv", "pos": "nom",
       "note": {
         "fr": "ផ្លូវ signifie « route », « rue » et « chemin ». Les rues numérotées de Phnom Penh se disent ផ្លូវលេខ… (rue numéro…).",
+        "en": "ផ្លូវ means “road”, “street” and “way”. Phnom Penh's numbered streets are ផ្លូវលេខ… (street number…). French « route » is feminine; « rue » is a street in town.",
         "km": "« route » ជានាមភេទស្រី៖ la route។ ផ្លូវក្នុងទីក្រុងហៅថា « la rue »។ អង់គ្លេស៖ « road » និង « street »។"
       },
       "example": {"fr": "Il y a beaucoup de voitures sur cette route.", "en": "There are a lot of cars on this road.", "km": "ផ្លូវនេះមានឡានច្រើនណាស់។", "tr": "phleuv nih méan lan tchraeun nah."}
@@ -53,6 +59,7 @@
       "fr": "conduire", "en": "to drive", "km": "បើកបរ", "tr": "baeuk-bâ", "pos": "verbe",
       "note": {
         "fr": "បើក seul veut dire « ouvrir » et « conduire ». Au quotidien, on précise le véhicule : បើកឡាន, conduire une voiture ; pour une moto, on dit plutôt ជិះម៉ូតូ.",
+        "en": "បើក alone means “to open” and “to drive”. In daily life, name the vehicle: បើកឡាន, drive a car; for a motorbike, people say ជិះម៉ូតូ. French « conduire »: je conduis.",
         "km": "« conduire »៖ je conduis, nous conduisons។ អង់គ្លេស៖ « drive » ហើយអតីតកាលគឺ « drove »។"
       },
       "example": {"fr": "Je ne sais pas conduire.", "en": "I cannot drive.", "km": "ខ្ញុំមិនចេះបើកបរទេ។", "tr": "khgnom min tchéh baeuk-bâ té."}
@@ -63,6 +70,7 @@
       "fr": "C'est combien pour aller au marché ?", "en": "How much is it to go to the market?", "km": "ទៅផ្សារថ្លៃប៉ុន្មាន?", "tr": "teuv phsa thlay pon-man ?",
       "note": {
         "fr": "Pas besoin de « pour » : ទៅផ្សារ (aller au marché) + ថ្លៃប៉ុន្មាន (coûte combien). Mieux vaut fixer le prix avant de monter.",
+        "en": "No “for” needed: ទៅផ្សារ (go to the market) + ថ្លៃប៉ុន្មាន (costs how much). Better to agree on the price before getting in.",
         "km": "មុនពេលឡើងតុកតុក គេសួរថា « C'est combien pour aller à… ? »។ អង់គ្លេស៖ « How much is it to go to…? »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Arrêtez-vous ici, s'il vous plaît.", "en": "Please stop here.", "km": "សូមឈប់ត្រង់នេះ។", "tr": "sôm tchhoup trâng nih.",
       "note": {
         "fr": "ឈប់ (tchhoup) = « s'arrêter » ; ត្រង់នេះ (trâng nih) = « juste ici ».",
+        "en": "ឈប់ (tchhoup) = “to stop”; ត្រង់នេះ (trâng nih) = “right here”. French « Arrêtez-vous » is the polite form.",
         "km": "« Arrêtez-vous » ជាទម្រង់បញ្ជាដោយគួរសម ប្រើជាមួយ « vous »។ អង់គ្លេស៖ « Please stop here »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Roulez doucement, s'il vous plaît.", "en": "Please drive slowly.", "km": "សូមបើកយឺតៗ។", "tr": "sôm baeuk yeut-yeut.",
       "note": {
         "fr": "Le signe ៗ indique que le mot se répète : យឺតៗ se lit « yeut-yeut », « tout doucement ».",
+        "en": "The sign ៗ means the word is repeated: យឺតៗ reads “yeut-yeut”, “nice and slowly”. French « doucement » means “gently, slowly”.",
         "km": "« doucement » មានន័យថា យឺតៗ។ អង់គ្លេស៖ « slowly »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Il y a beaucoup d'embouteillages.", "en": "There is a lot of traffic.", "km": "ស្ទះផ្លូវណាស់។", "tr": "stéah phleuv nah.",
       "note": {
         "fr": "ស្ទះ (stéah) = « bouché ». ស្ទះផ្លូវ, « la route est bouchée », se dit tous les jours à Phnom Penh.",
+        "en": "ស្ទះ (stéah) = “blocked”. ស្ទះផ្លូវ, “the road is blocked”, is heard every day in Phnom Penh. French « embouteillage » literally means “bottling”.",
         "km": "« embouteillage » មានន័យថា ស្ទះផ្លូវ ឬស្ទះចរាចរណ៍។ អង់គ្លេស៖ « traffic jam »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "En tuk-tuk", "km": "ពេលជិះតុកតុក"},
+      "situation": {"fr": "En tuk-tuk", "en": "In a tuk-tuk", "km": "ពេលជិះតុកតុក"},
       "fr": "Arrêtez-vous devant la porte rouge, s'il vous plaît.", "en": "Please stop in front of the red door.",
       "km": "សូមឈប់នៅមុខទ្វារក្រហម។", "tr": "sôm tchhoup neuv mouk tvéa krâ-hâm."
     },
     {
-      "situation": {"fr": "Parler de soi", "km": "និយាយអំពីខ្លួនឯង"},
+      "situation": {"fr": "Parler de soi", "en": "Talking about yourself", "km": "និយាយអំពីខ្លួនឯង"},
       "fr": "Je ne sais pas conduire une voiture, mais je sais conduire une moto.", "en": "I cannot drive a car, but I can ride a motorbike.",
       "km": "ខ្ញុំមិនចេះបើកឡានទេ ប៉ុន្តែខ្ញុំចេះជិះម៉ូតូ។", "tr": "khgnom min tchéh baeuk lan té, pon-taè khgnom tchéh tchih mô-tô."
     },
     {
-      "situation": {"fr": "Préparer un voyage", "km": "ពេលរៀបចំធ្វើដំណើរ"},
+      "situation": {"fr": "Préparer un voyage", "en": "Preparing a trip", "km": "ពេលរៀបចំធ្វើដំណើរ"},
       "fr": "Demain, nous prenons le bus pour aller à Siem Reap.", "en": "Tomorrow, we are taking the bus to Siem Reap.",
       "km": "ថ្ងៃស្អែក យើងជិះឡានក្រុងទៅសៀមរាប។", "tr": "thngay s'aèk, yeung tchih lan-krong teuv siem-réap."
     }

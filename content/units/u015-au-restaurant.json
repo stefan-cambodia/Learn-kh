@@ -6,6 +6,7 @@
   "title": {"fr": "Au restaurant", "en": "At the restaurant", "km": "នៅភោជនីយដ្ឋាន"},
   "tip": {
     "fr": "Au restaurant, on appelle la personne qui sert par un terme de parenté, selon son âge : បង (bâng) pour quelqu'un de plus âgé, អូន (oun) pour quelqu'un de plus jeune. Les plats se posent au milieu de la table et se partagent ; on mange avec une cuillère et une fourchette.",
+    "en": "At a restaurant, call the person serving you by a family term, depending on their age: បង (bâng) for someone older, អូន (oun) for someone younger. Dishes go in the middle of the table and are shared; people eat with a spoon and fork.",
     "km": "នៅបារាំង ពេលចូលភោជនីយដ្ឋាន គេនិយាយ « Bonjour » ជាមុនសិន។ ដើម្បីកុម្ម៉ង់ដោយគួរសម គេប្រើ « Je voudrais… » ដែលមានន័យថា ខ្ញុំចង់បាន…។ អង់គ្លេស៖ « I would like… »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "le restaurant", "en": "restaurant", "km": "ភោជនីយដ្ឋាន", "tr": "phô-tchéa-ni-yéa-than", "pos": "nom",
       "note": {
         "fr": "Mot soigné, celui des enseignes. Dans la conversation, on dit plutôt ហាងបាយ (hang bay), mot à mot « boutique de riz ».",
+        "en": "A formal word, the one on signs. In conversation, people say ហាងបាយ (hang bay), word for word “rice shop”. French « restaurant » is spelled as in English.",
         "km": "« restaurant » ជានាមភេទប្រុស៖ le restaurant។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេសសរសេរដូចគ្នា ប៉ុន្តែអានអក្សរ t។"
       },
       "example": {"fr": "Ce soir, nous mangeons au restaurant.", "en": "Tonight, we are eating at the restaurant.", "km": "ល្ងាចនេះ យើងញ៉ាំបាយនៅភោជនីយដ្ឋាន។", "tr": "lngéatch nih, yeung gnam bay neuv phô-tchéa-ni-yéa-than."}
@@ -21,6 +23,7 @@
       "fr": "le menu", "en": "menu", "km": "ម៉ឺនុយ", "tr": "meu-nouy", "pos": "nom",
       "note": {
         "fr": "Emprunt au français, prononcé à la khmère. Le terme soigné est បញ្ជីមុខម្ហូប (bagn-tchi mouk mhôp), « liste des plats ».",
+        "en": "Borrowed from French, pronounced the Khmer way. The formal term is បញ្ជីមុខម្ហូប (bagn-tchi mouk mhôp), “list of dishes”. French « menu » is also a fixed-price set meal.",
         "km": "ពាក្យខ្មែរ « ម៉ឺនុយ » មកពីពាក្យបារាំង « menu »។ អង់គ្លេសសរសេរដូចគ្នា ប៉ុន្តែអានថា « មេញូ »។"
       },
       "example": {"fr": "Je peux voir le menu, s'il vous plaît ?", "en": "Can I see the menu, please?", "km": "សុំមើលម៉ឺនុយបន្តិច។", "tr": "som meul meu-nouy bân-tetch."}
@@ -29,6 +32,7 @@
       "fr": "commander", "en": "to order", "km": "កុម្ម៉ង់", "tr": "kom-mâng", "pos": "verbe",
       "note": {
         "fr": "Emprunt au français « commande ». On dit aussi ហៅម្ហូប (hav mhôp), mot à mot « appeler un plat ».",
+        "en": "Borrowed from French « commande ». People also say ហៅម្ហូប (hav mhôp), word for word “call a dish”. French « commander »: je commande.",
         "km": "« commander »៖ je commande, nous commandons។ អង់គ្លេស៖ « to order »។"
       },
       "example": {"fr": "Qu'est-ce que tu veux commander ?", "en": "What do you want to order?", "km": "ចង់កុម្ម៉ង់អ្វី?", "tr": "tchâng kom-mâng ey ?"}
@@ -37,6 +41,7 @@
       "fr": "le plat", "en": "dish", "km": "ម្ហូប", "tr": "mhôp", "pos": "nom",
       "note": {
         "fr": "ម្ហូប désigne ce qui accompagne le riz, donc « plat » ou « cuisine » : ម្ហូបខ្មែរ, la cuisine khmère.",
+        "en": "ម្ហូប is what goes with the rice, so “dish” or “cuisine”: ម្ហូបខ្មែរ, Khmer cuisine. French « plat » is masculine; the t is silent.",
         "km": "« plat » ជានាមភេទប្រុស៖ le plat។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេស៖ « dish »។"
       },
       "example": {"fr": "J'aime beaucoup les plats khmers.", "en": "I like Khmer dishes very much.", "km": "ខ្ញុំចូលចិត្តម្ហូបខ្មែរណាស់។", "tr": "khgnom tchôl tchet mhôp khmaè nah."}
@@ -45,6 +50,7 @@
       "fr": "l'addition", "en": "bill", "km": "វិក្កយបត្រ", "tr": "vik-ka-yéa-bat", "pos": "nom",
       "note": {
         "fr": "Mot écrit, qui désigne aussi une facture. Au restaurant, on ne demande pas « l'addition » : on dit សុំគិតលុយ (som kit louy), « comptez l'argent, s'il vous plaît ».",
+        "en": "A written word, also meaning an invoice. At a restaurant, you do not ask for “the bill”: you say សុំគិតលុយ (som kit louy), “please count the money”. French « addition » is feminine.",
         "km": "« addition » ជានាមភេទស្រី៖ l'addition។ នៅភោជនីយដ្ឋាន គេនិយាយថា « L'addition, s'il vous plaît »។ អង់គ្លេស៖ « the bill »។"
       },
       "example": {"fr": "Voici l'addition.", "en": "Here is the bill.", "km": "នេះវិក្កយបត្រ។", "tr": "nih vik-ka-yéa-bat."}
@@ -53,6 +59,7 @@
       "fr": "épicé", "en": "spicy", "km": "ហឹរ", "tr": "heul", "pos": "adjectif",
       "note": {
         "fr": "Se prononce « heul » : dans ce mot, le រ final s'entend comme un l. Le piment se dit ម្ទេស (mtéh).",
+        "en": "Pronounced “heul”: in this word, the final រ sounds like an l. Chilli is ម្ទេស (mtéh). French « épicé » becomes « épicée » in the feminine.",
         "km": "« épicé » ប្រើសម្រាប់ម្ហូបដែលមានម្ទេស។ « C'est épicé ? » មានន័យថា ហឹរទេ? អង់គ្លេស៖ « spicy »។"
       },
       "example": {"fr": "Ce plat est très épicé.", "en": "This dish is very spicy.", "km": "ម្ហូបនេះហឹរណាស់។", "tr": "mhôp nih heul nah."}
@@ -63,6 +70,7 @@
       "fr": "L'addition, s'il vous plaît.", "en": "The bill, please.", "km": "សុំគិតលុយ។", "tr": "som kit louy.",
       "note": {
         "fr": "Mot à mot « je demande de compter l'argent ». C'est la formule que tout le monde emploie.",
+        "en": "Word for word “I ask to count the money”. It is the phrase everyone uses.",
         "km": "និយាយពេលញ៉ាំរួច ហើយចង់បង់លុយ។ អង់គ្លេស៖ « The bill, please »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Pas trop épicé, s'il vous plaît.", "en": "Not too spicy, please.", "km": "សុំកុំហឹរពេក។", "tr": "som kom heul pék.",
       "note": {
         "fr": "កុំ (kom) sert à demander de ne pas faire quelque chose, comme « ne … pas » à l'impératif. ពេក (pék) = « trop ».",
+        "en": "កុំ (kom) asks someone not to do something, like “don't”. ពេក (pék) = “too”. French « trop » means “too”.",
         "km": "« pas trop » មានន័យថា កុំ…ពេក។ អង់គ្លេស៖ « not too spicy »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Je prends la même chose.", "en": "I'll have the same.", "km": "ខ្ញុំយកដូចគ្នា។", "tr": "khgnom yok dôtch knéa.",
       "note": {
         "fr": "យក (yok) = « prendre » ; ដូចគ្នា (dôtch knéa) = « pareil, la même chose ».",
+        "en": "យក (yok) = “to take”; ដូចគ្នា (dôtch knéa) = “the same”. French « la même chose » means “the same thing”.",
         "km": "« la même chose » មានន័យថា ដូចគ្នា។ អង់គ្លេស៖ « the same »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Qu'est-ce qui est bon ici ?", "en": "What is good here?", "km": "នៅទីនេះមានអ្វីឆ្ងាញ់?", "tr": "neuv ti-nih méan ey tchhngagn ?",
       "note": {
         "fr": "Mot à mot « ici, il y a quoi de délicieux ? ». Le mot interrogatif អ្វី reste à sa place dans la phrase, sans inversion.",
+        "en": "Word for word “here, there is what delicious?”. The question word អ្វី stays in place, with no inversion.",
         "km": "សំណួរសម្រាប់សុំយោបល់ពីអ្នករត់តុ។ អង់គ្លេស៖ « What is good here? »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "En arrivant au restaurant", "km": "ពេលមកដល់ភោជនីយដ្ឋាន"},
+      "situation": {"fr": "En arrivant au restaurant", "en": "Arriving at the restaurant", "km": "ពេលមកដល់ភោជនីយដ្ឋាន"},
       "fr": "Bonjour, vous avez une table pour deux personnes ?", "en": "Hello, do you have a table for two people?",
       "km": "សួស្តី មានតុសម្រាប់ពីរនាក់ទេ?", "tr": "souos-dey, méan tok sâm-rap pi néak té ?"
     },
     {
-      "situation": {"fr": "Commander", "km": "ពេលកុម្ម៉ង់ម្ហូប"},
+      "situation": {"fr": "Commander", "en": "Ordering", "km": "ពេលកុម្ម៉ង់ម្ហូប"},
       "fr": "Une assiette de riz sauté, s'il vous plaît, pas trop épicé.", "en": "One plate of fried rice, please, not too spicy.",
       "km": "សុំបាយឆាមួយចាន កុំហឹរពេក។", "tr": "som bay tchha mouy tchan, kom heul pék."
     },
     {
-      "situation": {"fr": "À la fin du repas", "km": "ពេលញ៉ាំរួច"},
+      "situation": {"fr": "À la fin du repas", "en": "At the end of the meal", "km": "ពេលញ៉ាំរួច"},
       "fr": "C'était délicieux ! L'addition, s'il vous plaît.", "en": "It was delicious! The bill, please.",
       "km": "ឆ្ងាញ់ណាស់! សុំគិតលុយ។", "tr": "tchhngagn nah ! som kit louy."
     }

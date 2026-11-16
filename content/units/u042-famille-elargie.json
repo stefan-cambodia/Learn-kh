@@ -6,6 +6,7 @@
   "title": {"fr": "La famille élargie", "en": "The extended family", "km": "សាច់ញាតិ"},
   "tip": {
     "fr": "Le khmer distingue l'aîné, បង (bâng), du cadet, ប្អូន (p'ôn), avant le sexe : ប្រុស pour un garçon, ស្រី pour une fille. Ces mots de famille servent aussi à s'adresser à tout le monde : on appelle un vendeur បង, une vendeuse plus âgée មីង.",
+    "en": "Khmer distinguishes the older sibling, បង (bâng), from the younger, ប្អូន (p'ôn), before the sex: ប្រុស for a boy, ស្រី for a girl. These family words are also used to address anyone: you call a seller បង, an older woman seller មីង.",
     "km": "ភាសាបារាំងមិនបែងចែកបង និងប្អូនទេ៖ « le frère » សម្រាប់បងប្រុស និងប្អូនប្រុស, « la sœur » សម្រាប់បងស្រី និងប្អូនស្រី។ បើចង់បញ្ជាក់ គេថា « grand frère », « petite sœur »។ អង់គ្លេស៖ « older brother », « younger sister »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "le grand frère", "en": "older brother", "km": "បងប្រុស", "tr": "bâng proh", "pos": "nom",
       "note": {
         "fr": "បង, « aîné », et ប្រុស, « masculin ». Entre amoureux, បង désigne aussi l'homme ou le plus âgé du couple.",
+        "en": "បង, “older”, and ប្រុស, “male”. Between lovers, បង also means the man or the older partner. French « grand frère », “big brother”.",
         "km": "« le grand frère » មានន័យថា បងប្រុស។ ជាទូទៅ គេនិយាយត្រឹមតែ « mon frère »។ អង់គ្លេស៖ « older brother »។"
       },
       "example": {"fr": "Mon grand frère habite à Battambang.", "en": "My older brother lives in Battambang.", "km": "បងប្រុសខ្ញុំរស់នៅបាត់ដំបង។", "tr": "bâng proh khgnom rouh neuv bat-dâm-bâng."}
@@ -21,6 +23,7 @@
       "fr": "la petite sœur", "en": "younger sister", "km": "ប្អូនស្រី", "tr": "p'ôn srey", "pos": "nom",
       "note": {
         "fr": "ប្អូន, « cadet », et ស្រី, « féminin ». Le petit frère se dit ប្អូនប្រុស, la grande sœur បងស្រី.",
+        "en": "ប្អូន, “younger”, and ស្រី, “female”. A younger brother is ប្អូនប្រុស, an older sister បងស្រី. French « petite sœur », “little sister”.",
         "km": "« la petite sœur » មានន័យថា ប្អូនស្រី។ « sœur » អានដូច « seur »។ អង់គ្លេស៖ « younger sister »។"
       },
       "example": {"fr": "Ma petite sœur étudie à l'université.", "en": "My younger sister studies at university.", "km": "ប្អូនស្រីខ្ញុំរៀននៅសាកលវិទ្យាល័យ។", "tr": "p'ôn srey khgnom rien neuv sa-kâl-vi-tyéa-lay."}
@@ -29,6 +32,7 @@
       "fr": "le grand-père", "en": "grandfather", "km": "តា", "tr": "ta", "pos": "nom",
       "note": {
         "fr": "តា s'emploie aussi pour s'adresser poliment à tout homme âgé. Les grands-parents ensemble se disent តាយាយ.",
+        "en": "តា is also a polite way to address any elderly man. Grandparents together are តាយាយ. French « grand-père » has a hyphen; « papi » is affectionate.",
         "km": "« le grand-père » មានសញ្ញាតភ្ជាប់ (-)។ ពហុវចនៈ « les grands-pères »។ « les grands-parents » មានន័យថា តាយាយ។ អង់គ្លេស៖ « grandfather »។"
       },
       "example": {"fr": "Mon grand-père raconte des histoires.", "en": "My grandfather tells stories.", "km": "តាខ្ញុំនិទានរឿង។", "tr": "ta khgnom ni-téan reuang."}
@@ -37,6 +41,7 @@
       "fr": "la grand-mère", "en": "grandmother", "km": "យាយ", "tr": "yéay", "pos": "nom",
       "note": {
         "fr": "យាយ sert aussi pour toute femme âgée. On l'entend souvent au marché : យាយ, ស្វាយប៉ុន្មាន?",
+        "en": "យាយ is also used for any elderly woman. You often hear it at the market: យាយ, ស្វាយប៉ុន្មាន? French « grand-mère »; « mamie » is affectionate.",
         "km": "« la grand-mère » មានសញ្ញាតភ្ជាប់ (-)។ ក្មេងៗហៅយាយថា « mamie »។ អង់គ្លេស៖ « grandmother », « grandma »។"
       },
       "example": {"fr": "Ma grand-mère cuisine très bien.", "en": "My grandmother cooks very well.", "km": "យាយខ្ញុំធ្វើម្ហូបឆ្ងាញ់ណាស់។", "tr": "yéay khgnom thveu mhôp tchhngagn nah."}
@@ -45,6 +50,7 @@
       "fr": "l'oncle", "en": "uncle", "km": "ពូ", "tr": "pou", "pos": "nom",
       "note": {
         "fr": "ពូ est l'oncle plus jeune que les parents ; l'oncle plus âgé se dit ឪពុកធំ. On appelle aussi ពូ un chauffeur de tuk-tuk ou un vendeur.",
+        "en": "ពូ is an uncle younger than your parents; an older uncle is ឪពុកធំ. A tuk-tuk driver or a seller is also called ពូ. French « oncle » is masculine.",
         "km": "« oncle » ជានាមភេទប្រុស៖ l'oncle, mon oncle។ ភាសាបារាំងមិនបែងចែកពូ និងឪពុកធំទេ។ អង់គ្លេស៖ « uncle »។"
       },
       "example": {"fr": "Mon oncle conduit un tuk-tuk.", "en": "My uncle drives a tuk-tuk.", "km": "ពូខ្ញុំបើកតុកតុក។", "tr": "pou khgnom baeuk tok-tok."}
@@ -53,6 +59,7 @@
       "fr": "la tante", "en": "aunt", "km": "មីង", "tr": "ming", "pos": "nom",
       "note": {
         "fr": "មីង est la tante plus jeune que les parents ; la tante plus âgée se dit ម្តាយធំ. On appelle aussi មីង une vendeuse au marché.",
+        "en": "មីង is an aunt younger than your parents; an older aunt is ម្តាយធំ. A woman seller at the market is also called មីង. French « tante » is feminine.",
         "km": "« tante » ជានាមភេទស្រី៖ la tante, ma tante។ អង់គ្លេស៖ « aunt »។"
       },
       "example": {"fr": "Ma tante vend des fruits au marché.", "en": "My aunt sells fruit at the market.", "km": "មីងខ្ញុំលក់ផ្លែឈើនៅផ្សារ។", "tr": "ming khgnom lok phlaè-tchheu neuv phsa."}
@@ -63,6 +70,7 @@
       "fr": "Tu es l'aîné ?", "en": "Are you the eldest?", "km": "អ្នកជាកូនច្បងទេ?", "tr": "néak tchéa kôn tchbâng té ?",
       "note": {
         "fr": "កូនច្បង (kôn tchbâng), l'aîné ; កូនពៅ (kôn pov), le benjamin, le plus jeune.",
+        "en": "កូនច្បង (kôn tchbâng), the eldest; កូនពៅ (kôn pov), the youngest. French « l'aîné » means “the eldest”.",
         "km": "« l'aîné » មានន័យថា កូនច្បង។ « le cadet » ឬ « le benjamin » មានន័យថា កូនពៅ។ អង់គ្លេស៖ « the eldest »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Nous sommes cinq frères et sœurs.", "en": "There are five of us siblings.", "km": "យើងមានបងប្អូនប្រាំនាក់។", "tr": "yeung méan bâng p'ôn pram néak.",
       "note": {
         "fr": "បងប្អូន, « aînés et cadets », désigne tous les frères et sœurs. នាក់ compte les personnes.",
+        "en": "បងប្អូន, “older and younger”, means all brothers and sisters. នាក់ counts people. French « frères et sœurs » means “siblings”.",
         "km": "ភាសាបារាំងប្រាប់ចំនួនដោយ « nous sommes » + លេខ។ អង់គ្លេស៖ « There are five of us »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "C'est mon cousin.", "en": "This is my cousin.", "km": "នេះបងប្អូនជីដូនមួយរបស់ខ្ញុំ។", "tr": "nih bâng p'ôn tchi-dôn mouy ro-bâh khgnom.",
       "note": {
         "fr": "Mot à mot « frère ou sœur d'une même grand-mère ». Au quotidien, on dit souvent simplement បងប្អូន.",
+        "en": "Word for word “brother or sister from the same grandmother”. In daily life, people often just say បងប្អូន. French « cousin », feminine « cousine ».",
         "km": "« cousin » សម្រាប់ប្រុស និង « cousine » សម្រាប់ស្រី។ អង់គ្លេស៖ « cousin » សម្រាប់ទាំងពីរ។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Elle vit avec nous.", "en": "She lives with us.", "km": "គាត់រស់នៅជាមួយយើង។", "tr": "koat rouh neuv tchéa-mouy yeung.",
       "note": {
         "fr": "Au Cambodge, les grands-parents vivent souvent avec la famille d'un de leurs enfants.",
+        "en": "In Cambodia, grandparents often live with the family of one of their children. French « vivre avec » means “to live with”.",
         "km": "« vivre avec » មានន័យថា រស់នៅជាមួយ។ អង់គ្លេស៖ « to live with »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Au marché", "km": "នៅផ្សារ"},
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
       "fr": "Au Cambodge, on appelle aussi les vendeuses tante ou grande sœur.", "en": "In Cambodia, people also call market sellers aunt or big sister.",
       "km": "នៅកម្ពុជា គេហៅអ្នកលក់ថា មីង ឬបង ដែរ។", "tr": "neuv kâm-pou-tchéa, ké hav néak lok tha ming reu bâng daè."
     },
     {
-      "situation": {"fr": "Le dimanche", "km": "ថ្ងៃអាទិត្យ"},
+      "situation": {"fr": "Le dimanche", "en": "On Sunday", "km": "ថ្ងៃអាទិត្យ"},
       "fr": "Le dimanche, mes grands-parents viennent manger à la maison.", "en": "On Sundays, my grandparents come to eat at our house.",
       "km": "ថ្ងៃអាទិត្យ តាយាយខ្ញុំមកញ៉ាំបាយនៅផ្ទះ។", "tr": "thngay a-teut, ta yéay khgnom mok gnam bay neuv phtéah."
     },
     {
-      "situation": {"fr": "Une grande famille", "km": "គ្រួសារធំ"},
+      "situation": {"fr": "Une grande famille", "en": "A big family", "km": "គ្រួសារធំ"},
       "fr": "Pendant le Nouvel An, tous les oncles, tantes et cousins se retrouvent.", "en": "During New Year, all the uncles, aunts and cousins get together.",
       "km": "ពេលចូលឆ្នាំ ពូមីង និងបងប្អូនជីដូនមួយទាំងអស់ជួបជុំគ្នា។", "tr": "pél tchôl tchhnam, pou ming neung bâng p'ôn tchi-dôn mouy téang âh tchouop-tchoum knéa."
     }

@@ -6,6 +6,7 @@
   "title": {"fr": "L'heure", "en": "The time", "km": "ម៉ោង"},
   "tip": {
     "fr": "Au Cambodge, on donne l'heure sur douze heures, en précisant le moment de la journée : ព្រឹក (preuk, matin), រសៀល (ro-siel, après-midi), ល្ងាច (lngéatch, soir), យប់ (youp, nuit). ម៉ោងពីររសៀល = deux heures de l'après-midi.",
+    "en": "In Cambodia, the time is given on a twelve-hour clock, with the part of the day: ព្រឹក (preuk, morning), រសៀល (ro-siel, afternoon), ល្ងាច (lngéatch, evening), យប់ (youp, night). ម៉ោងពីររសៀល = two in the afternoon. French usually uses the 24-hour clock: quatorze heures.",
     "km": "ភាសាបារាំងច្រើនប្រើម៉ោង ២៤៖ « quinze heures » គឺម៉ោងបីរសៀល។ អង់គ្លេសប្រើ « a.m. » សម្រាប់ពេលព្រឹក និង « p.m. » សម្រាប់ពេលរសៀល និងពេលយប់។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "l'heure", "en": "hour", "km": "ម៉ោង", "tr": "maong", "pos": "nom",
       "note": {
         "fr": "ម៉ោង se place avant le nombre pour l'heure qu'il est (ម៉ោងបី, trois heures) et après le nombre pour une durée (បីម៉ោង, pendant trois heures).",
+        "en": "ម៉ោង goes before the number for the time of day (ម៉ោងបី, three o'clock) and after it for a duration (បីម៉ោង, for three hours). French « heure » is feminine; the h is silent.",
         "km": "« heure » ជានាមភេទស្រី អក្សរ h មិនអានទេ៖ l'heure។ បារាំងនិយាយ « Il est trois heures » ហើយអង់គ្លេសនិយាយ « It is three o'clock »។"
       },
       "example": {"fr": "Il est huit heures.", "en": "It is eight o'clock.", "km": "ម៉ោងប្រាំបីហើយ។", "tr": "maong pram-bey haeuy."}
@@ -21,6 +23,7 @@
       "fr": "la minute", "en": "minute", "km": "នាទី", "tr": "néa-ti", "pos": "nom",
       "note": {
         "fr": "Les minutes suivent l'heure : ម៉ោងបី ដប់នាទី, « trois heures dix ».",
+        "en": "Minutes follow the hour: ម៉ោងបី ដប់នាទី, “ten past three”. French says the same: trois heures dix.",
         "km": "« minute » ជានាមភេទស្រី៖ une minute, dix minutes។ អង់គ្លេសសរសេរដូចគ្នា ប៉ុន្តែអានថា « មីនីត »។"
       },
       "example": {"fr": "Attends cinq minutes, s'il te plaît.", "en": "Wait five minutes, please.", "km": "សូមចាំប្រាំនាទី។", "tr": "sôm tcham pram néa-ti."}
@@ -29,6 +32,7 @@
       "fr": "maintenant", "en": "now", "km": "ឥឡូវនេះ", "tr": "ey-leuv nih", "pos": "adverbe",
       "note": {
         "fr": "Se dit aussi simplement ឥឡូវ (ey-leuv). Se place le plus souvent en début de phrase.",
+        "en": "Also simply ឥឡូវ (ey-leuv). It usually goes at the start of the sentence. French « maintenant » has two nasal vowels.",
         "km": "« maintenant » ច្រើននៅដើម ឬចុងប្រយោគ៖ « Je pars maintenant »។ អង់គ្លេស៖ « now »។"
       },
       "example": {"fr": "Quelle heure est-il maintenant ?", "en": "What time is it now?", "km": "ឥឡូវនេះម៉ោងប៉ុន្មានហើយ?", "tr": "ey-leuv nih maong pon-man haeuy ?"}
@@ -39,6 +43,7 @@
       "uncertain_note": "Pas d'équivalent en un seul mot ; មុនម៉ោង (« avant l'heure ») est la tournure courante retenue. À faire confirmer par un locuteur natif.",
       "note": {
         "fr": "Mot à mot « avant l'heure ». S'emploie après un verbe : មកមុនម៉ោង, « arriver en avance ».",
+        "en": "Word for word “before the hour”. Used after a verb: មកមុនម៉ោង, “arrive early”. French « en avance » means “ahead of time”.",
         "km": "« en avance » មានន័យថា មកដល់មុនម៉ោងកំណត់។ ពាក្យផ្ទុយគឺ « en retard »។ អង់គ្លេស៖ « early »។"
       },
       "example": {"fr": "Aujourd'hui, je suis en avance.", "en": "Today, I am early.", "km": "ថ្ងៃនេះខ្ញុំមកមុនម៉ោង។", "tr": "thngay nih khgnom mok moun maong."}
@@ -47,6 +52,7 @@
       "fr": "en retard", "en": "late", "km": "យឺត", "tr": "yeut", "pos": "adverbe",
       "note": {
         "fr": "យឺត signifie d'abord « lent » : មកយឺត, c'est arriver en retard. យឺតហើយ ! = « on est en retard ! ».",
+        "en": "យឺត first means “slow”: មកយឺត is to arrive late. យឺតហើយ! = “we're late!”. French « en retard » means “late”.",
         "km": "« en retard » មានន័យថា មកយឺត ឬហួសម៉ោង។ « Je suis en retard » = ខ្ញុំយឺតហើយ។ អង់គ្លេស៖ « late »។"
       },
       "example": {"fr": "Excuse-moi, je suis en retard.", "en": "Sorry, I am late.", "km": "សុំទោស ខ្ញុំមកយឺត។", "tr": "som toh, khgnom mok yeut."}
@@ -55,6 +61,7 @@
       "fr": "attendre", "en": "to wait", "km": "រង់ចាំ", "tr": "rong-tcham", "pos": "verbe",
       "note": {
         "fr": "Dans la conversation, on abrège souvent en ចាំ (tcham) : ចាំបន្តិច, « attends un peu ».",
+        "en": "In conversation, often shortened to ចាំ (tcham): ចាំបន្តិច, “wait a little”. French « attendre » takes no preposition: j'attends le bus.",
         "km": "« attendre »៖ j'attends, nous attendons។ អង់គ្លេសត្រូវថែម « for » នៅពីមុខអ្វីដែលគេរង់ចាំ៖ « wait for the bus »។"
       },
       "example": {"fr": "Nous attendons le bus.", "en": "We are waiting for the bus.", "km": "យើងរង់ចាំឡានក្រុង។", "tr": "yeung rong-tcham lan-krong."}
@@ -65,6 +72,7 @@
       "fr": "Dans dix minutes.", "en": "In ten minutes.", "km": "ដប់នាទីទៀត។", "tr": "dâp néa-ti tiet.",
       "note": {
         "fr": "Mot à mot « dix minutes encore ». ទៀត (tiet) placé après une durée signifie « dans… ».",
+        "en": "Word for word “ten minutes more”. ទៀត (tiet) after a duration means “in…”. French: « dans dix minutes ».",
         "km": "« dans » នៅពីមុខរយៈពេល មានន័យថា …ទៀត៖ dans dix minutes។ អង់គ្លេស៖ « in ten minutes »។"
       }
     },
@@ -72,6 +80,7 @@
       "fr": "On part à quelle heure ?", "en": "What time are we leaving?", "km": "យើងចេញទៅម៉ោងប៉ុន្មាន?", "tr": "yeung tchégn teuv maong pon-man ?",
       "note": {
         "fr": "Sans ហើយ, ម៉ោងប៉ុន្មាន? demande « à quelle heure ? ». Aucune préposition n'est nécessaire.",
+        "en": "Without ហើយ, ម៉ោងប៉ុន្មាន? asks “at what time?”. No preposition is needed. French: « à quelle heure ? ».",
         "km": "« à quelle heure » ប្រើសួរថា ធ្វើអ្វីមួយនៅម៉ោងប៉ុន្មាន។ អង់គ្លេស៖ « What time…? »។"
       }
     },
@@ -79,6 +88,7 @@
       "fr": "Attends un peu.", "en": "Wait a moment.", "km": "ចាំបន្តិច។", "tr": "tcham bân-tetch.",
       "note": {
         "fr": "ចាំ est la forme courte de រង់ចាំ ; បន្តិច = « un peu ».",
+        "en": "ចាំ is the short form of រង់ចាំ; បន្តិច = “a little”. French « Attends » is familiar; « Attendez » is polite.",
         "km": "ប្រើជាមួយមនុស្សស្និទ្ធស្នាល។ ដោយគួរសម គេនិយាយថា « Attendez un instant, s'il vous plaît »។ អង់គ្លេស៖ « Wait a moment »។"
       }
     },
@@ -86,23 +96,24 @@
       "fr": "Il est sept heures et demie.", "en": "It is half past seven.", "km": "ម៉ោងប្រាំពីរកន្លះ។", "tr": "maong pram-pi kân-lah.",
       "note": {
         "fr": "កន្លះ (kân-lah) = « et demie », toujours placé après l'heure.",
+        "en": "កន្លះ (kân-lah) = “and a half”, always placed after the hour. French « et demie » also follows the hour: sept heures et demie.",
         "km": "« et demie » មានន័យថា កន្លះ។ អង់គ្លេសនិយាយ « half past seven » ឬ « seven thirty »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Fixer un rendez-vous", "km": "ពេលណាត់ជួប"},
+      "situation": {"fr": "Fixer un rendez-vous", "en": "Setting a time to meet", "km": "ពេលណាត់ជួប"},
       "fr": "On se retrouve à six heures du soir devant le marché.", "en": "Let's meet at six in the evening in front of the market.",
       "km": "ជួបគ្នាម៉ោងប្រាំមួយល្ងាច នៅមុខផ្សារ។", "tr": "tchouop knéa maong pram-mouy lngéatch, neuv mouk phsa."
     },
     {
-      "situation": {"fr": "Arriver en retard", "km": "ពេលមកយឺត"},
+      "situation": {"fr": "Arriver en retard", "en": "Arriving late", "km": "ពេលមកយឺត"},
       "fr": "Excuse-moi, je suis en retard de dix minutes.", "en": "Sorry, I am ten minutes late.",
       "km": "សុំទោស ខ្ញុំមកយឺតដប់នាទី។", "tr": "som toh, khgnom mok yeut dâp néa-ti."
     },
     {
-      "situation": {"fr": "Prendre le bus", "km": "ពេលជិះឡានក្រុង"},
+      "situation": {"fr": "Prendre le bus", "en": "Taking the bus", "km": "ពេលជិះឡានក្រុង"},
       "fr": "Le bus part à sept heures et demie, ne sois pas en retard !", "en": "The bus leaves at half past seven, do not be late!",
       "km": "ឡានក្រុងចេញម៉ោងប្រាំពីរកន្លះ កុំមកយឺតណា!", "tr": "lan-krong tchégn maong pram-pi kân-lah, kom mok yeut na !"
     }

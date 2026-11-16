@@ -6,6 +6,7 @@
   "title": {"fr": "Les salutations", "en": "Greetings", "km": "ការស្វាគមន៍"},
   "tip": {
     "fr": "En khmer, la politesse passe par de petits mots : un homme répond បាទ (bat), une femme ចាស (tchah). Saluer les mains jointes devant la poitrine, le សំពះ (sâm-péah), est toujours apprécié.",
+    "en": "Khmer politeness relies on small words: a man answers បាទ (bat), a woman ចាស (tchah). Greeting with your palms together in front of your chest, the សំពះ (sâm-péah), is always appreciated. The transliterations follow French spelling: “ou” as in “you”, “é” as in “café”, “tch” as in “church”.",
     "km": "ក្នុងភាសាបារាំង អក្សរ « r » បញ្ចេញសំឡេងពីបំពង់ក មិនញ័រអណ្តាតដូចអក្សរ « រ » ទេ។ សាកនិយាយ៖ merci, au revoir។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "bonjour", "en": "hello", "km": "សួស្តី", "tr": "souos-dey", "pos": "interjection",
       "note": {
         "fr": "Salutation courante, à tout moment de la journée. Plus respectueux : ជម្រាបសួរ (tchum-réap sour), dit les mains jointes.",
+        "en": "The everyday greeting, at any time of day. More respectful: ជម្រាបសួរ (tchum-réap sour), said with palms together. In French, « bonjour » is used until the evening.",
         "km": "ពាក្យស្វាគមន៍ធម្មតា។ ភាសាបារាំងប្រើ « bonjour » នៅពេលថ្ងៃ និង « bonsoir » នៅពេលល្ងាច។"
       },
       "example": {"fr": "Bonjour, comment ça va ?", "en": "Hello, how are you?", "km": "សួស្តី សុខសប្បាយទេ?", "tr": "souos-dey, sok sa-bay té ?"}
@@ -21,6 +23,7 @@
       "fr": "au revoir", "en": "goodbye", "km": "លាសិនហើយ", "tr": "léa sen haeuy", "pos": "interjection",
       "note": {
         "fr": "Littéralement « je prends congé maintenant ». Plus court : លាហើយ (léa haeuy).",
+        "en": "Literally “I am taking leave now”. Shorter: លាហើយ (léa haeuy). In French, « au revoir » works in every situation.",
         "km": "ប្រើពេលចាកចេញ។ ភាសាអង់គ្លេសអាចនិយាយខ្លីថា « bye »។"
       },
       "example": {"fr": "Au revoir, à demain !", "en": "Goodbye, see you tomorrow!", "km": "លាសិនហើយ ជួបគ្នាថ្ងៃស្អែក!", "tr": "léa sen haeuy, tchouop knéa thngay s'aèk !"}
@@ -29,6 +32,7 @@
       "fr": "merci", "en": "thank you", "km": "អរគុណ", "tr": "â-koun", "pos": "interjection",
       "note": {
         "fr": "Le « r » ne se prononce presque pas. Pour insister : អរគុណច្រើន (â-koun tchraeun), merci beaucoup.",
+        "en": "The “r” is barely pronounced. To insist: អរគុណច្រើន (â-koun tchraeun), thank you very much; in French, « merci beaucoup ».",
         "km": "ប្រើដើម្បីថ្លែងអំណរគុណ។ « merci beaucoup » មានន័យថា អរគុណច្រើន។"
       },
       "example": {"fr": "Merci beaucoup !", "en": "Thank you very much!", "km": "អរគុណច្រើន!", "tr": "â-koun tchraeun !"}
@@ -37,6 +41,7 @@
       "fr": "oui", "en": "yes", "km": "បាទ / ចាស", "tr": "bat / tchah", "pos": "particule",
       "note": {
         "fr": "Un homme dit បាទ (bat), une femme dit ចាស (tchah). Ce mot marque aussi la politesse en début de réponse.",
+        "en": "A man says បាទ (bat), a woman says ចាស (tchah). The word also adds politeness at the start of an answer. French « oui » is the same for everyone.",
         "km": "ភាសាបារាំង និងអង់គ្លេសប្រើពាក្យតែមួយ ទាំងប្រុសទាំងស្រី៖ « oui », « yes »។"
       },
       "example": {"fr": "Oui, merci.", "en": "Yes, thank you.", "km": "ចាស អរគុណ។", "tr": "tchah, â-koun."}
@@ -45,6 +50,7 @@
       "fr": "non", "en": "no", "km": "ទេ", "tr": "té", "pos": "particule",
       "note": {
         "fr": "Se place aussi en fin de phrase pour former une négation ou une question. Familier : អត់ទេ (ât té).",
+        "en": "Also placed at the end of a sentence to make a negative or a question. Casual: អត់ទេ (ât té).",
         "km": "ប្រើសម្រាប់បដិសេធ។ ដើម្បីគួរសម គេនិយាយថា « non, merci »។"
       },
       "example": {"fr": "Non, merci.", "en": "No, thank you.", "km": "ទេ អរគុណ។", "tr": "té, â-koun."}
@@ -53,6 +59,7 @@
       "fr": "s'il vous plaît", "en": "please", "km": "សូម", "tr": "sôm", "pos": "particule",
       "note": {
         "fr": "Se place au début de la demande : សូម + ce que l'on demande.",
+        "en": "Goes at the start of the request: សូម + what you are asking for. In French, « s'il vous plaît » goes at the end; « s'il te plaît » between friends.",
         "km": "ប្រើពេលសុំអ្វីមួយដោយគួរសម។ ជាមួយមនុស្សស្និទ្ធស្នាល គេនិយាយថា « s'il te plaît »។"
       },
       "example": {"fr": "Un café, s'il vous plaît.", "en": "A coffee, please.", "km": "សូមកាហ្វេមួយ។", "tr": "sôm ka-fé mouy."}
@@ -61,34 +68,34 @@
   "expressions": [
     {
       "fr": "Comment ça va ?", "en": "How are you?", "km": "សុខសប្បាយទេ?", "tr": "sok sa-bay té ?",
-      "note": {"fr": "Littéralement « en bonne santé et heureux ? ».", "km": "សំណួរសួរសុខទុក្ខ ប្រើជាមួយមិត្តភក្តិ ឬគ្រួសារ។"}
+      "note": {"fr": "Littéralement « en bonne santé et heureux ? ».", "en": "Literally “healthy and happy?”. In French, « Comment ça va ? » is casual; « Comment allez-vous ? » is more polite.", "km": "សំណួរសួរសុខទុក្ខ ប្រើជាមួយមិត្តភក្តិ ឬគ្រួសារ។"}
     },
     {
       "fr": "Ça va bien, merci.", "en": "I'm fine, thank you.", "km": "ខ្ញុំសុខសប្បាយ អរគុណ។", "tr": "khgnom sok sa-bay, â-koun.",
-      "note": {"fr": "Réponse habituelle à la question សុខសប្បាយទេ?", "km": "ចម្លើយធម្មតា ពេលគេសួរថា « Comment ça va ? »។"}
+      "note": {"fr": "Réponse habituelle à la question សុខសប្បាយទេ?", "en": "The usual answer to សុខសប្បាយទេ? In French, « Ça va bien » is relaxed and friendly.", "km": "ចម្លើយធម្មតា ពេលគេសួរថា « Comment ça va ? »។"}
     },
     {
       "fr": "Bonne nuit.", "en": "Good night.", "km": "រាត្រីសួស្តី។", "tr": "réa-trey souos-dey.",
-      "note": {"fr": "Formule soignée ; le matin, on dit អរុណសួស្តី (a-roun souos-dey).", "km": "និយាយមុនពេលចូលគេង។"}
+      "note": {"fr": "Formule soignée ; le matin, on dit អរុណសួស្តី (a-roun souos-dey).", "en": "A formal phrase; in the morning, Khmer speakers say អរុណសួស្តី (a-roun souos-dey). French « Bonne nuit » is only said before going to bed.", "km": "និយាយមុនពេលចូលគេង។"}
     },
     {
       "fr": "Excusez-moi.", "en": "Excuse me.", "km": "សុំទោស។", "tr": "som toh.",
-      "note": {"fr": "Sert aussi à dire « pardon » ou « désolé ».", "km": "ប្រើដើម្បីសុំទោស ឬដើម្បីហៅនរណាម្នាក់ដោយគួរសម។"}
+      "note": {"fr": "Sert aussi à dire « pardon » ou « désolé ».", "en": "Also used to say “sorry”. In French, « Excusez-moi » gets attention politely; « Pardon » is shorter.", "km": "ប្រើដើម្បីសុំទោស ឬដើម្បីហៅនរណាម្នាក់ដោយគួរសម។"}
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Le matin, à la maison", "km": "ពេលព្រឹក នៅផ្ទះ"},
+      "situation": {"fr": "Le matin, à la maison", "en": "In the morning, at home", "km": "ពេលព្រឹក នៅផ្ទះ"},
       "fr": "Bonjour, tu as bien dormi ?", "en": "Good morning, did you sleep well?",
       "km": "អរុណសួស្តី គេងលក់ស្រួលទេ?", "tr": "a-roun souos-dey, kéng lok srouol té ?"
     },
     {
-      "situation": {"fr": "Accueillir des invités", "km": "ពេលទទួលភ្ញៀវ"},
+      "situation": {"fr": "Accueillir des invités", "en": "Welcoming guests", "km": "ពេលទទួលភ្ញៀវ"},
       "fr": "Bonjour ! Entrez, s'il vous plaît.", "en": "Hello! Please come in.",
       "km": "សួស្តី! សូមអញ្ជើញចូល។", "tr": "souos-dey ! sôm agn-tcheugn tchôl."
     },
     {
-      "situation": {"fr": "Le soir, avant de dormir", "km": "ពេលយប់ មុនចូលគេង"},
+      "situation": {"fr": "Le soir, avant de dormir", "en": "In the evening, before bed", "km": "ពេលយប់ មុនចូលគេង"},
       "fr": "Il est tard, bonne nuit !", "en": "It's late, good night!",
       "km": "យប់ជ្រៅហើយ រាត្រីសួស្តី!", "tr": "youp tchrov haeuy, réa-trey souos-dey !"
     }

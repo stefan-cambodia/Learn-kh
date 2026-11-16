@@ -1,12 +1,18 @@
 # FR-KH Learning
 
 Une leçon de moins de dix minutes, chaque matin, en **français**, **anglais** et
-**khmer** (ភាសាខ្មែរ), pour un couple franco-khmer :
+**khmer** (ភាសាខ្មែរ). Chacun choisit son profil selon sa langue, en haut de la
+page :
 
-- **Profil A** — la personne khmère apprend le français et l'anglais ; ses
-  explications sont en khmer.
-- **Profil B** — la personne française apprend l'anglais et le khmer ; ses
-  explications sont en français, avec une translittération du khmer.
+- **FR** — interface et explications en français ; on apprend le khmer et
+  l'anglais, avec une translittération du khmer.
+- **ENG** — interface et explications en anglais ; on apprend le khmer et le
+  français, avec la même translittération.
+- **KH** — interface et explications en khmer ; on apprend le français et
+  l'anglais.
+
+Les profils se règlent dans `config/config.json` (rubrique `profiles`, voir
+[docs/CONFIGURATION.md](docs/CONFIGURATION.md)).
 
 Chaque jour à 07h00 (heure du Cambodge), le système choisit le thème suivant du
 programme, compose la leçon, ajoute les révisions espacées, génère les fichiers
@@ -18,7 +24,7 @@ est entièrement local : il se consulte sans connexion Internet.
 ```bash
 ./scripts/install.sh          # Linux / macOS      (Windows : scripts\install.bat)
 nano .env                     # clés API : voir docs/GOOGLE_CLOUD_TTS.md et docs/AZURE_SPEECH_KHMER.md
-nano config/config.json       # prénoms des deux apprenants (rubrique « learners »)
+nano config/config.json       # profils et personnages des dialogues (facultatif)
 python3 manage.py tts test    # essai des trois voix
 ./scripts/run.sh --open       # première leçon, puis ouverture du site
 ```
@@ -34,7 +40,7 @@ généré automatiquement dès que les clés seront en place.
 | 1. Vocabulaire | ≈ 3 min | 6 mots nouveaux (5 à 8) : trois langues, catégorie, explication, exemple, audio |
 | 2. Expressions pratiques | ≈ 2 min | 4 expressions utiles (3 à 5) |
 | 3. Phrases de la vie quotidienne | ≈ 2 min | 3 phrases complètes, en situation |
-| 4. Petit dialogue | ≈ 2 min | un échange entre les deux apprenants, écoute enchaînée possible |
+| 4. Petit dialogue | ≈ 2 min | un échange entre deux personnages (Dara et Alex), écoute enchaînée, jeu de rôle |
 | 5. Révision | ≈ 1 min | mots à revoir (J+1, J+3, J+7, J+14, J+30), 3 questions, traduction, compréhension, réponses masquées |
 
 Le programme fourni compte **30 unités** (12 de niveau débutant, 12 de niveau

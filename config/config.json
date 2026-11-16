@@ -1,36 +1,47 @@
 {
   "site": {
     "title": "FR - ENG - Khmer Learning",
-    "default_profile": "B"
+    "default_profile": "fr"
   },
-  "learners": {
-    "A": {
-      "role": "khmer",
-      "name": {
-        "latin": "Sokha",
-        "km": "សុខា"
-      },
-      "gender": "f",
+  "profiles": {
+    "fr": {
+      "label": "FR",
+      "learns": [
+        "km",
+        "en"
+      ]
+    },
+    "en": {
+      "label": "ENG",
+      "learns": [
+        "km",
+        "fr"
+      ]
+    },
+    "km": {
+      "label": "KH",
       "learns": [
         "fr",
         "en"
-      ],
-      "reference": "km",
-      "label": "Elle"
+      ]
+    }
+  },
+  "characters": {
+    "A": {
+      "name": {
+        "latin": "Dara",
+        "km": "ដារ៉ា",
+        "tr": "da-ra"
+      },
+      "gender": "f"
     },
     "B": {
-      "role": "french",
       "name": {
-        "latin": "Dominique",
-        "km": "ដូមីនិក"
+        "latin": "Alex",
+        "km": "អាឡិច",
+        "tr": "a-lech"
       },
-      "gender": "m",
-      "learns": [
-        "en",
-        "km"
-      ],
-      "reference": "fr",
-      "label": "Lui"
+      "gender": "m"
     }
   },
   "schedule": {

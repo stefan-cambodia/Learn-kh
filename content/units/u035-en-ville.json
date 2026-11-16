@@ -6,6 +6,7 @@
   "title": {"fr": "En ville", "en": "In town", "km": "នៅក្នុងទីក្រុង"},
   "tip": {
     "fr": "Beaucoup de lieux se forment avec un mot de base : ហាង (hang), la boutique, donne ហាងលក់ថ្នាំ, la pharmacie, ou ហាងកាហ្វេ, le café. Les mots soutenus, comme ធនាគារ ou ប្រៃសណីយ៍, viennent du sanskrit et du pali.",
+    "en": "Many places are built on a base word: ហាង (hang), shop, gives ហាងលក់ថ្នាំ, pharmacy, or ហាងកាហ្វេ, café. Formal words, like ធនាគារ or ប្រៃសណីយ៍, come from Sanskrit and Pali.",
     "km": "ភាសាបារាំង ពេលទៅកន្លែងណាមួយ គេប្រើ « à »៖ je vais à la banque, je vais à la poste, je vais au parc (au = à + le)។ អង់គ្លេស៖ « I'm going to the bank »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "la ville", "en": "city", "km": "ទីក្រុង", "tr": "ti-krong", "pos": "nom",
       "note": {
         "fr": "ទី (ti), « le lieu », et ក្រុង (krong), « la cité ». La capitale se dit រាជធានី (réach-théa-ni).",
+        "en": "ទី (ti), “place”, and ក្រុង (krong), “city”. The capital is រាជធានី (réach-théa-ni). French « ville » is feminine; « en ville » means “in town”.",
         "km": "« ville » ជានាមភេទស្រី៖ la ville។ « en ville » មានន័យថា នៅក្នុងទីក្រុង។ អង់គ្លេស៖ « city » ឬ « town »។"
       },
       "example": {"fr": "Phnom Penh est une grande ville.", "en": "Phnom Penh is a big city.", "km": "ភ្នំពេញជាទីក្រុងធំ។", "tr": "phnom-pégn tchéa ti-krong thom."}
@@ -21,6 +23,7 @@
       "fr": "la banque", "en": "bank", "km": "ធនាគារ", "tr": "thô-néa-kéa", "pos": "nom",
       "note": {
         "fr": "Mot savant : ធន (thôn), « la richesse », et អាគារ (a-kéa), « le bâtiment ». Le distributeur de billets se dit ATM, comme en anglais.",
+        "en": "A learned word: ធន (thôn), “wealth”, and អាគារ (a-kéa), “building”. A cash machine is called ATM, as in English. French « banque » is feminine.",
         "km": "« banque » ជានាមភេទស្រី៖ la banque។ « un distributeur » មានន័យថា ម៉ាស៊ីន ATM។ អង់គ្លេស៖ « bank »។"
       },
       "example": {"fr": "La banque ouvre à huit heures.", "en": "The bank opens at eight o'clock.", "km": "ធនាគារបើកម៉ោងប្រាំបី។", "tr": "thô-néa-kéa baeuk maong pram-bey."}
@@ -29,6 +32,7 @@
       "fr": "la poste", "en": "post office", "km": "ប្រៃសណីយ៍", "tr": "pray-sâ-ni", "pos": "nom",
       "note": {
         "fr": "Le dernier signe ៍ indique une lettre muette. Envoyer se dit ផ្ញើ (phgnaeu) : ផ្ញើសំបុត្រ, envoyer une lettre.",
+        "en": "The final sign ៍ marks a silent letter. To send is ផ្ញើ (phgnaeu): ផ្ញើសំបុត្រ, send a letter. French « la poste » is the post office.",
         "km": "« poste » ជានាមភេទស្រី៖ la poste។ « envoyer » មានន័យថា ផ្ញើ។ អង់គ្លេស៖ « post office »។"
       },
       "example": {"fr": "Je vais à la poste pour envoyer un colis.", "en": "I'm going to the post office to send a parcel.", "km": "ខ្ញុំទៅប្រៃសណីយ៍ ដើម្បីផ្ញើកញ្ចប់។", "tr": "khgnom teuv pray-sâ-ni, daeum-bey phgnaeu kagn-tchâp."}
@@ -37,6 +41,7 @@
       "fr": "la pharmacie", "en": "pharmacy", "km": "ហាងលក់ថ្នាំ", "tr": "hang lok thnam", "pos": "nom",
       "note": {
         "fr": "Mot à mot « boutique qui vend des médicaments ». Sur les enseignes, on lit aussi ឱសថស្ថាន (ao-sâth-than).",
+        "en": "Word for word “shop selling medicine”. On signs, you also see ឱសថស្ថាន (ao-sâth-than). French « pharmacie » is marked by a green cross.",
         "km": "« pharmacie » ជានាមភេទស្រី៖ la pharmacie។ អ្នកលក់ថ្នាំគឺ « le pharmacien »។ អង់គ្លេស៖ « pharmacy »។"
       },
       "example": {"fr": "Il y a une pharmacie près d'ici ?", "en": "Is there a pharmacy near here?", "km": "មានហាងលក់ថ្នាំនៅជិតនេះទេ?", "tr": "méan hang lok thnam neuv tchit nih té ?"}
@@ -45,6 +50,7 @@
       "fr": "le parc", "en": "park", "km": "សួនច្បារ", "tr": "souon tchba", "pos": "nom",
       "note": {
         "fr": "សួន (souon) seul veut dire « le jardin ». Le soir, les parcs de Phnom Penh sont pleins de gens qui font de l'aérobic.",
+        "en": "សួន (souon) alone means “garden”. In the evening, Phnom Penh's parks are full of people doing aerobics. French « parc » is masculine.",
         "km": "« parc » ជានាមភេទប្រុស ហើយ c អានដូច k៖ le parc។ អង់គ្លេស៖ « park »។"
       },
       "example": {"fr": "Le soir, nous marchons dans le parc.", "en": "In the evening, we walk in the park.", "km": "ពេលល្ងាច យើងដើរលេងក្នុងសួនច្បារ។", "tr": "pél lngéatch, yeung daeu léng knong souon tchba."}
@@ -53,6 +59,7 @@
       "fr": "traverser", "en": "to cross", "km": "ឆ្លង", "tr": "tchhlâng", "pos": "verbe",
       "note": {
         "fr": "ឆ្លង sert pour une rue, un fleuve ou une frontière : ឆ្លងទន្លេ, traverser le fleuve.",
+        "en": "ឆ្លង is used for a street, a river or a border: ឆ្លងទន្លេ, cross the river. French « traverser »: je traverse la rue.",
         "km": "« traverser » + នាម៖ traverser la rue។ អង់គ្លេស៖ « to cross »។"
       },
       "example": {"fr": "Fais attention quand tu traverses la rue.", "en": "Be careful when you cross the street.", "km": "ប្រយ័ត្នពេលឆ្លងផ្លូវ។", "tr": "prâ-yat pél tchhlâng phleuv."}
@@ -63,6 +70,7 @@
       "fr": "Où est la banque la plus proche ?", "en": "Where is the nearest bank?", "km": "ធនាគារដែលនៅជិតជាងគេនៅឯណា?", "tr": "thô-néa-kéa dael neuv tchit tchéang ké neuv aè na ?",
       "note": {
         "fr": "ជាងគេ (tchéang ké), « plus que les autres », forme le superlatif : ជិតជាងគេ, le plus proche.",
+        "en": "ជាងគេ (tchéang ké), “more than the others”, forms the superlative: ជិតជាងគេ, the nearest. French: « la plus proche ».",
         "km": "« le plus » + គុណនាម មានន័យថា ជាងគេ៖ la plus proche, le plus grand។ អង់គ្លេស៖ « the nearest »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "C'est ouvert le dimanche ?", "en": "Is it open on Sundays?", "km": "ថ្ងៃអាទិត្យបើកទេ?", "tr": "thngay a-teut baeuk té ?",
       "note": {
         "fr": "បើក (baeuk), « ouvrir », est le même verbe que pour la porte ou pour conduire une voiture.",
+        "en": "បើក (baeuk), “to open”, is the same verb as for a door or for driving a car. French « ouvert » means “open”.",
         "km": "« le dimanche » មានន័យថា រៀងរាល់ថ្ងៃអាទិត្យ។ « ouvert » ផ្ទុយពី « fermé »។ អង់គ្លេស៖ « open on Sundays »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "C'est déjà fermé.", "en": "It's already closed.", "km": "បិទបាត់ហើយ។", "tr": "bet bat haeuy.",
       "note": {
         "fr": "បាត់ (bat) après un verbe insiste sur le fait que c'est trop tard : c'est fermé, on l'a raté.",
+        "en": "បាត់ (bat) after a verb stresses that it is too late: it's closed, we missed it. French « fermé » means “closed”.",
         "km": "« fermé » មានន័យថា បិទ។ « déjà » មានន័យថា ហើយ។ អង់គ្លេស៖ « It's already closed »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Attention aux motos !", "en": "Watch out for the motorbikes!", "km": "ប្រយ័ត្នម៉ូតូ!", "tr": "prâ-yat mô-tô !",
       "note": {
         "fr": "En ville, on traverse lentement et sans s'arrêter : les motos vous contournent.",
+        "en": "In town, cross slowly and without stopping: the motorbikes go around you. French « Attention aux motos ! » means “watch out for motorbikes!”.",
         "km": "« Attention à » + នាម៖ attention aux motos (aux = à + les)។ អង់គ្លេស៖ « Watch out for »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "À Phnom Penh", "km": "នៅភ្នំពេញ"},
+      "situation": {"fr": "À Phnom Penh", "en": "In Phnom Penh", "km": "នៅភ្នំពេញ"},
       "fr": "Phnom Penh est une grande ville, il y a beaucoup de motos.", "en": "Phnom Penh is a big city, there are a lot of motorbikes.",
       "km": "ភ្នំពេញជាទីក្រុងធំ មានម៉ូតូច្រើនណាស់។", "tr": "phnom-pégn tchéa ti-krong thom, méan mô-tô tchraeun nah."
     },
     {
-      "situation": {"fr": "À la banque", "km": "នៅធនាគារ"},
+      "situation": {"fr": "À la banque", "en": "At the bank", "km": "នៅធនាគារ"},
       "fr": "Je voudrais retirer de l'argent, s'il vous plaît.", "en": "I would like to withdraw some money, please.",
       "km": "ខ្ញុំសុំដកលុយ។", "tr": "khgnom som dâk louy."
     },
     {
-      "situation": {"fr": "À la poste", "km": "នៅប្រៃសណីយ៍"},
+      "situation": {"fr": "À la poste", "en": "At the post office", "km": "នៅប្រៃសណីយ៍"},
       "fr": "Je voudrais envoyer ce colis en France.", "en": "I would like to send this parcel to France.",
       "km": "ខ្ញុំចង់ផ្ញើកញ្ចប់នេះទៅប្រទេសបារាំង។", "tr": "khgnom tchâng phgnaeu kagn-tchâp nih teuv prâ-téh ba-rang."
     }

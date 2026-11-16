@@ -6,6 +6,7 @@
   "title": {"fr": "Les moments de la journée", "en": "Times of the day", "km": "ពេលវេលាក្នុងមួយថ្ងៃ"},
   "tip": {
     "fr": "Le verbe khmer ne change pas selon le temps : ce sont les mots comme ម្សិលមិញ (hier) ou ថ្ងៃស្អែក (demain) qui situent l'action. Ils se placent volontiers au début de la phrase.",
+    "en": "Khmer verbs do not change with tense: words like ម្សិលមិញ (yesterday) or ថ្ងៃស្អែក (tomorrow) place the action in time. They often come at the start of the sentence. French verbs, like English ones, change: je mange, j'ai mangé, je mangerai.",
     "km": "កិរិយាសព្ទបារាំង និងអង់គ្លេសប្តូររូបតាមពេលវេលា៖ « je mange » សម្រាប់បច្ចុប្បន្ន និង « j'ai mangé » សម្រាប់អតីតកាល។ ភាសាអង់គ្លេស៖ « I eat » និង « I ate »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "aujourd'hui", "en": "today", "km": "ថ្ងៃនេះ", "tr": "thngay nih", "pos": "adverbe",
       "note": {
         "fr": "Mot à mot « jour-ci » : ថ្ងៃ (thngay), le jour, suivi de នេះ (nih), « ce ».",
+        "en": "Word for word “day-this”: ថ្ងៃ (thngay), day, followed by នេះ (nih), “this”. French « aujourd'hui » is written as one word with an apostrophe.",
         "km": "« aujourd'hui » ជាពាក្យតែមួយ ទោះបីមានសញ្ញា « ' » នៅកណ្តាលក៏ដោយ។ ភាសាអង់គ្លេស៖ « today »។"
       },
       "example": {"fr": "Aujourd'hui, je reste à la maison.", "en": "Today, I am staying at home.", "km": "ថ្ងៃនេះ ខ្ញុំនៅផ្ទះ។", "tr": "thngay nih, khgnom neuv phtéah."}
@@ -21,6 +23,7 @@
       "fr": "demain", "en": "tomorrow", "km": "ថ្ងៃស្អែក", "tr": "thngay s'aèk", "pos": "adverbe",
       "note": {
         "fr": "L'apostrophe marque une petite coupure de la voix : s'aèk. À l'oral, on dit aussi simplement ស្អែក.",
+        "en": "The apostrophe marks a small break in the voice: s'aèk. In speech, people also just say ស្អែក. French « demain » has a nasal ending.",
         "km": "ក្នុងពាក្យ « demain » អក្សរ « ain » អានចេញតាមច្រមុះ។ « À demain ! » មានន័យថា ជួបគ្នាថ្ងៃស្អែក។ ភាសាអង់គ្លេស៖ « tomorrow »។"
       },
       "example": {"fr": "Demain, mon ami vient à la maison.", "en": "Tomorrow, my friend is coming to the house.", "km": "ថ្ងៃស្អែក មិត្តភក្តិរបស់ខ្ញុំមកផ្ទះ។", "tr": "thngay s'aèk, mit-phéak ro-bâh khgnom mok phtéah."}
@@ -29,6 +32,7 @@
       "fr": "hier", "en": "yesterday", "km": "ម្សិលមិញ", "tr": "msel-mign", "pos": "adverbe",
       "note": {
         "fr": "Le m et le s du début se prononcent d'un seul souffle : msel-mign. Avec ce mot, le verbe ne change pas de forme.",
+        "en": "The opening m and s are said in one breath: msel-mign. With this word, the verb does not change. French « hier » sounds like “yair”.",
         "km": "ក្នុងពាក្យ « hier » អក្សរ h មិនអានទេ។ ភាសាអង់គ្លេស៖ « yesterday »។"
       },
       "example": {"fr": "Hier, mon père était malade.", "en": "Yesterday, my father was sick.", "km": "ម្សិលមិញ ឪពុករបស់ខ្ញុំឈឺ។", "tr": "msel-mign, eu-pouk ro-bâh khgnom tchheu."}
@@ -37,6 +41,7 @@
       "fr": "le matin", "en": "morning", "km": "ព្រឹក", "tr": "preuk", "pos": "nom",
       "note": {
         "fr": "On dit souvent ពេលព្រឹក (pél preuk), « au moment du matin ». ព្រឹកនេះ (preuk nih) : ce matin.",
+        "en": "People often say ពេលព្រឹក (pél preuk), “in the morning time”. ព្រឹកនេះ (preuk nih): this morning. French « matin » is masculine: le matin.",
         "km": "« matin » ជានាមភេទប្រុស៖ le matin។ « ce matin » មានន័យថា ព្រឹកនេះ។ ភាសាអង់គ្លេស៖ « morning »។"
       },
       "example": {"fr": "Ce matin, j'ai très faim.", "en": "This morning, I am very hungry.", "km": "ព្រឹកនេះ ខ្ញុំឃ្លានណាស់។", "tr": "preuk nih, khgnom khléan nah."}
@@ -45,6 +50,7 @@
       "fr": "le soir", "en": "evening", "km": "ល្ងាច", "tr": "lngéatch", "pos": "nom",
       "note": {
         "fr": "Désigne la fin de l'après-midi et le début de la soirée. ល្ងាចនេះ (lngéatch nih) : ce soir.",
+        "en": "Covers late afternoon and early evening. ល្ងាចនេះ (lngéatch nih): this evening. French « soir » is masculine: le soir.",
         "km": "« soir » ជានាមភេទប្រុស៖ le soir។ នៅពេលល្ងាច គេស្វាគមន៍ថា « bonsoir »។ ភាសាអង់គ្លេស៖ « evening »។"
       },
       "example": {"fr": "Ce soir, nous mangeons à la maison.", "en": "This evening, we are eating at home.", "km": "ល្ងាចនេះ យើងញ៉ាំបាយនៅផ្ទះ។", "tr": "lngéatch nih, yeung gnam bay neuv phtéah."}
@@ -53,6 +59,7 @@
       "fr": "la nuit", "en": "night", "km": "យប់", "tr": "youp", "pos": "nom",
       "note": {
         "fr": "Voyelle brève : youp. យប់នេះ (youp nih) : cette nuit. យប់មិញ (youp mign) : la nuit dernière.",
+        "en": "A short vowel: youp. យប់នេះ (youp nih): tonight. យប់មិញ (youp mign): last night. French « nuit » is feminine: la nuit.",
         "km": "« nuit » ជានាមភេទស្រី៖ la nuit។ អក្សរ t ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « night »។"
       },
       "example": {"fr": "La nuit, les enfants dorment.", "en": "At night, the children sleep.", "km": "ពេលយប់ កូនៗគេង។", "tr": "pél youp, kôn-kôn kéng."}
@@ -61,34 +68,34 @@
   "expressions": [
     {
       "fr": "À demain !", "en": "See you tomorrow!", "km": "ជួបគ្នាថ្ងៃស្អែក!", "tr": "tchouop knéa thngay s'aèk !",
-      "note": {"fr": "Mot à mot « se rencontrer demain ». ជួបគ្នា (tchouop knéa) signifie « se voir ».", "km": "ប្រើពេលលាគ្នា នៅពេលដឹងថានឹងជួបគ្នាម្តងទៀតនៅថ្ងៃស្អែក។"}
+      "note": {"fr": "Mot à mot « se rencontrer demain ». ជួបគ្នា (tchouop knéa) signifie « se voir ».", "en": "Word for word “meet each other tomorrow”. ជួបគ្នា (tchouop knéa) means “to see each other”. In French, « À demain ! » is enough.", "km": "ប្រើពេលលាគ្នា នៅពេលដឹងថានឹងជួបគ្នាម្តងទៀតនៅថ្ងៃស្អែក។"}
     },
     {
       "fr": "Tous les jours.", "en": "Every day.", "km": "រាល់ថ្ងៃ។", "tr": "roal thngay.",
-      "note": {"fr": "រាល់ (roal) signifie « chaque » : រាល់ព្រឹក (chaque matin), រាល់យប់ (chaque nuit).", "km": "« tous les jours » មានន័យថា រាល់ថ្ងៃ។ ភាសាអង់គ្លេស៖ « every day »។"}
+      "note": {"fr": "រាល់ (roal) signifie « chaque » : រាល់ព្រឹក (chaque matin), រាល់យប់ (chaque nuit).", "en": "រាល់ (roal) means “each, every”: រាល់ព្រឹក (every morning), រាល់យប់ (every night). French: tous les matins, toutes les nuits.", "km": "« tous les jours » មានន័យថា រាល់ថ្ងៃ។ ភាសាអង់គ្លេស៖ « every day »។"}
     },
     {
       "fr": "Quel jour sommes-nous aujourd'hui ?", "en": "What day is it today?", "km": "ថ្ងៃនេះថ្ងៃអ្វី?", "tr": "thngay nih thngay ey ?",
-      "note": {"fr": "On répond ថ្ងៃ suivi du nom du jour, par exemple ថ្ងៃអាទិត្យ (thngay a-tit), dimanche.", "km": "ចម្លើយ៖ « Nous sommes dimanche » មានន័យថា ថ្ងៃនេះថ្ងៃអាទិត្យ។"}
+      "note": {"fr": "On répond ថ្ងៃ suivi du nom du jour, par exemple ថ្ងៃអាទិត្យ (thngay a-tit), dimanche.", "en": "Answer with ថ្ងៃ followed by the name of the day, for example ថ្ងៃអាទិត្យ (thngay a-tit), Sunday.", "km": "ចម្លើយ៖ « Nous sommes dimanche » មានន័យថា ថ្ងៃនេះថ្ងៃអាទិត្យ។"}
     },
     {
       "fr": "Il fait déjà nuit.", "en": "It is already dark.", "km": "យប់ហើយ។", "tr": "youp haeuy.",
-      "note": {"fr": "ហើយ (haeuy) après un mot de temps signifie « déjà ». Pour dire qu'il est très tard : យប់ជ្រៅហើយ (youp tchrov haeuy).", "km": "ភាសាបារាំងប្រើ « il fait » ដើម្បីនិយាយពីពេលវេលា ឬអាកាសធាតុ៖ « il fait nuit », « il fait jour »។"}
+      "note": {"fr": "ហើយ (haeuy) après un mot de temps signifie « déjà ». Pour dire qu'il est très tard : យប់ជ្រៅហើយ (youp tchrov haeuy).", "en": "ហើយ (haeuy) after a time word means “already”. To say it is very late: យប់ជ្រៅហើយ (youp tchrov haeuy).", "km": "ភាសាបារាំងប្រើ « il fait » ដើម្បីនិយាយពីពេលវេលា ឬអាកាសធាតុ៖ « il fait nuit », « il fait jour »។"}
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Faire des projets", "km": "ពេលរៀបចំគម្រោង"},
+      "situation": {"fr": "Faire des projets", "en": "Making plans", "km": "ពេលរៀបចំគម្រោង"},
       "fr": "Demain matin, je vais au marché.", "en": "Tomorrow morning, I am going to the market.",
       "km": "ព្រឹកស្អែក ខ្ញុំទៅផ្សារ។", "tr": "preuk s'aèk, khgnom teuv phsa."
     },
     {
-      "situation": {"fr": "Raconter sa soirée", "km": "ពេលនិយាយអំពីល្ងាចមិញ"},
+      "situation": {"fr": "Raconter sa soirée", "en": "Talking about your evening", "km": "ពេលនិយាយអំពីល្ងាចមិញ"},
       "fr": "Hier soir, nous avons mangé avec des amis.", "en": "Yesterday evening, we ate with friends.",
       "km": "ល្ងាចមិញ យើងញ៉ាំបាយជាមួយមិត្តភក្តិ។", "tr": "lngéatch mign, yeung gnam bay tchéa-mouy mit-phéak."
     },
     {
-      "situation": {"fr": "Au téléphone", "km": "ពេលនិយាយទូរស័ព្ទ"},
+      "situation": {"fr": "Au téléphone", "en": "On the phone", "km": "ពេលនិយាយទូរស័ព្ទ"},
       "fr": "Tu es à la maison ce soir ?", "en": "Are you at home this evening?",
       "km": "ល្ងាចនេះ នៅផ្ទះទេ?", "tr": "lngéatch nih, neuv phtéah té ?"
     }

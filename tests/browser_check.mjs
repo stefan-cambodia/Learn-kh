@@ -129,7 +129,7 @@ function check(label, condition, detail = "") {
 
 try {
   /* ------------------------------------------------------------------ Index */
-  await open("index.html#profil=B");
+  await open("index.html#profil=fr");
   const index = await evaluate(`({
     title: document.title,
     cards: [...document.querySelectorAll(".lesson-card")].map(c => Number(c.dataset.number)),
@@ -142,7 +142,7 @@ try {
   check("index : leçons de la plus récente à la plus ancienne",
     index.cards.every((n, i) => i === 0 || index.cards[i - 1] > n), index.cards.join(", "));
   check("index : trois indicateurs (leçons, mots, niveau)", index.stats.length === 3, index.stats.join(" | "));
-  await capture("index-profil-B-ordinateur");
+  await capture("index-profil-fr-ordinateur");
 
   const total = index.cards.length;
   async function search(term) {
@@ -174,19 +174,31 @@ try {
   await search("");
 
   /* -------------------------------------------------- Profil et mise en page */
-  await open("index.html#profil=A", 390, 844);
+  await open("index.html#profil=km", 390, 844);
   const mobile = await evaluate(`({
     profile: document.documentElement.dataset.profile,
     kmVisible: getComputedStyle(document.querySelector(".tagline .ui-km")).display !== "none",
     frHidden: getComputedStyle(document.querySelector(".tagline .ui-fr")).display === "none",
     overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
   })`);
-  check("profil A (khmer) : interface en khmer", mobile.profile === "A" && mobile.kmVisible && mobile.frHidden);
+  check("profil KH : interface en khmer", mobile.profile === "km" && mobile.kmVisible && mobile.frHidden);
   check("index sur téléphone (390 px) : pas de défilement horizontal", !mobile.overflow);
-  await capture("index-profil-A-telephone");
+  await capture("index-profil-km-telephone");
+
+  await open("index.html#profil=en", 390, 844);
+  const english = await evaluate(`({
+    profile: document.documentElement.dataset.profile,
+    lang: document.documentElement.lang,
+    enVisible: getComputedStyle(document.querySelector(".tagline .ui-en")).display !== "none",
+    others: [".tagline .ui-fr", ".tagline .ui-km"].every((sel) => getComputedStyle(document.querySelector(sel)).display === "none"),
+    buttons: [...document.querySelectorAll("[data-profile-choice]")].map((b) => b.textContent.trim()).join(" "),
+    pressed: document.querySelector('[data-profile-choice="en"]').getAttribute("aria-pressed"),
+  })`);
+  check("profil ENG : interface en anglais", english.profile === "en" && english.lang === "en" && english.enVisible && english.others);
+  check("trois profils proposés : FR, ENG, KH", english.buttons === "FR ENG KH" && english.pressed === "true", english.buttons);
 
   /* ----------------------------------------------------------------- Leçon */
-  await open("lessons/lesson-001.html#profil=B");
+  await open("lessons/lesson-001.html#profil=fr");
   const lesson = await evaluate(`(async () => {
     await document.fonts.ready;
     const km = document.querySelector('.lang-km .lang-main');
@@ -220,7 +232,7 @@ try {
     lesson.playButtons === lesson.audioCount && lesson.downloads === lesson.audioCount);
   check("révision : trois questions, réponses masquées par défaut", lesson.questions === 3 && lesson.answersClosed);
   check("navigation : précédente, index, suivante", lesson.nav.length === 3 || lesson.nav.length === 2, JSON.stringify(lesson.nav));
-  await capture("lecon-1-profil-B-ordinateur");
+  await capture("lecon-1-profil-fr-ordinateur");
 
   const playback = await evaluate(`(async () => {
     const out = [];
@@ -257,18 +269,29 @@ try {
   check("liens audio : tous les fichiers de la leçon sont lisibles", links.total > 30 && links.broken.length === 0,
     `${links.total} fichiers, ${links.broken.length} illisible(s)`);
 
-  await open("lessons/lesson-001.html#profil=A", 390, 844);
+  await open("lessons/lesson-001.html#profil=km", 390, 844);
   const phone = await evaluate(`({
     overflow: document.documentElement.scrollWidth > window.innerWidth + 1,
     translitHidden: getComputedStyle(document.querySelector(".translit")).display === "none",
-    noteKm: getComputedStyle(document.querySelector(".note.for-a")).display !== "none",
-    noteFr: getComputedStyle(document.querySelector(".note.for-b")).display === "none",
+    noteKm: getComputedStyle(document.querySelector(".note.for-km")).display !== "none",
+    noteFr: getComputedStyle(document.querySelector(".note.for-fr")).display === "none",
   })`);
   check("leçon sur téléphone : pas de défilement horizontal", !phone.overflow);
-  check("profil A : explications en khmer, translittération masquée", phone.noteKm && phone.noteFr && phone.translitHidden);
-  await capture("lecon-1-profil-A-telephone");
+  check("profil KH : explications en khmer, translittération masquée", phone.noteKm && phone.noteFr && phone.translitHidden);
+  await capture("lecon-1-profil-km-telephone");
 
-  await open("lessons/lesson-002.html#profil=B", 390, 844);
+  await open("lessons/lesson-001.html#profil=en", 390, 844);
+  const enLesson = await evaluate(`({
+    noteEn: getComputedStyle(document.querySelector(".note.for-en")).display !== "none",
+    noteOthers: [".note.for-fr", ".note.for-km"].every((sel) => getComputedStyle(document.querySelector(sel)).display === "none"),
+    translitShown: getComputedStyle(document.querySelector(".translit")).display !== "none",
+    prompt: document.querySelector(".prompt.for-en")?.textContent || "",
+  })`);
+  check("profil ENG : explications en anglais, translittération affichée", enLesson.noteEn && enLesson.noteOthers && enLesson.translitShown);
+  check("profil ENG : questions de révision en anglais", /in Khmer and French/.test(enLesson.prompt), enLesson.prompt);
+  await capture("lecon-1-profil-en-telephone");
+
+  await open("lessons/lesson-002.html#profil=fr", 390, 844);
   const second = await evaluate(`({
     profile: document.documentElement.dataset.profile,
     prev: document.querySelector(".nav-prev")?.getAttribute("href") || "",
@@ -281,15 +304,15 @@ try {
     /lesson-001\.html/.test(second.prev) && /lesson-003\.html/.test(second.next) && /index\.html/.test(second.home),
     `${second.prev} | ${second.home} | ${second.next}`);
   check("leçon 2 : révision espacée des mots de la veille", second.recall > 0, `${second.recall} mot(s) à revoir`);
-  check("profil B : translittération du khmer affichée", second.translitShown);
-  await capture("lecon-2-profil-B-telephone");
+  check("profil FR : translittération du khmer affichée", second.translitShown);
+  await capture("lecon-2-profil-fr-telephone");
 
   /* ------------------------------------- Leçon du jour, leçons à venir, jeu de rôle, mode test */
-  await open("index.html#profil=B");
+  await open("index.html#profil=fr");
   const dates = await evaluate(`[...document.querySelectorAll(".lesson-card")].map(c => ({ n: Number(c.dataset.number), d: c.dataset.date }))
     .sort((a, b) => a.d < b.d ? -1 : 1)`);
   const pick = dates[Math.min(1, dates.length - 1)];
-  await open(`index.html#profil=B&jour=${pick.d}`);
+  await open(`index.html#profil=fr&jour=${pick.d}`);
   const home = await evaluate(`({
     panel: !document.getElementById("today-panel").hidden,
     num: document.getElementById("today-num").textContent,
@@ -315,7 +338,7 @@ try {
   check("taille du texte réglable", extras.bigger && extras.reset);
   check("application : manifeste déclaré", extras.manifest);
 
-  await open(`lessons/lesson-${String(pick.n).padStart(3, "0")}.html#profil=B`);
+  await open(`lessons/lesson-${String(pick.n).padStart(3, "0")}.html#profil=fr`);
   const quiz = await evaluate(`(async () => {
     document.getElementById("quiz-toggle").click();
     const text = document.querySelector(".entry .lang-km .lang-text");
@@ -346,7 +369,7 @@ try {
 
   /* ---------------------------------------------------------------- Réviser, Lexique, Alphabets */
   const lastDate = dates[dates.length - 1].d;
-  await open(`revision.html#profil=B&jour=${lastDate}`);
+  await open(`revision.html#profil=fr&jour=${lastDate}`);
   const flash = await evaluate(`(async () => {
     const app = document.getElementById("review-app");
     const start = !!app.querySelector(".flashcard .fc-prompt");
@@ -359,7 +382,7 @@ try {
     return { start, choices, verdict };
   })()`);
   check("réviser : carte, puis écoute avec 4 choix et correction", flash.start && flash.choices === 4 && flash.verdict, JSON.stringify(flash));
-  await open(`revision.html#lecon=${pick.n}&profil=B`);
+  await open(`revision.html#lecon=${pick.n}&profil=fr`);
   const scoped = await evaluate(`document.querySelector('[data-set="scope"].is-active')?.dataset.value || ""`);
   check("réviser : lien depuis une leçon limité à cette leçon", scoped === "lesson", scoped);
   const writing = await evaluate(`(async () => {
@@ -382,7 +405,7 @@ try {
   check("réviser : écrire le mot (erreur, puis bonne réponse ; pas pour le khmer)",
     writing.wrong && writing.right && writing.noKhmerWriting, JSON.stringify(writing));
 
-  await open(`lexique.html#profil=B&jour=${pick.d}`);
+  await open(`lexique.html#profil=fr&jour=${pick.d}`);
   const lexicon = await evaluate(`(() => {
     const all = document.querySelectorAll(".lex-item").length;
     const i = document.getElementById("lex-search"); i.value = ${JSON.stringify(terms.fr)};
@@ -393,7 +416,7 @@ try {
   check("lexique : mots des leçons passées seulement, recherche", lexicon.all > 0 && lexicon.found >= 1 && !lexicon.overflow,
     `${lexicon.all} entrée(s), « ${terms.fr} » → ${lexicon.found}`);
   if (existsSync(join(site, "alphabet.html"))) {     // page présente seulement avec content/alphabets.json
-    await open("alphabet.html#profil=A", 390, 844);
+    await open("alphabet.html#profil=km", 390, 844);
     const alpha = await evaluate(`({ cards: document.querySelectorAll(".glyph-card").length,
       overflow: document.documentElement.scrollWidth > window.innerWidth + 1 })`);
     check("alphabets : cartes affichées, pas de défilement horizontal sur téléphone", alpha.cards >= 100 && !alpha.overflow,

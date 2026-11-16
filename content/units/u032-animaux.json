@@ -6,6 +6,7 @@
   "title": {"fr": "Les animaux", "en": "Animals", "km": "សត្វ"},
   "tip": {
     "fr": "Pour parler d'un animal, le khmer utilise វា (véa), « il » ou « elle » pour les animaux et les objets. Attention : employé pour une personne, វា est familier, voire méprisant ; pour une personne, on dit គាត់ (koat).",
+    "en": "To talk about an animal, Khmer uses វា (véa), “it”, for animals and objects. Careful: used for a person, វា is casual, even rude; for a person, say គាត់ (koat). French uses « il » or « elle » according to the noun's gender: le chat → il.",
     "km": "ភាសាបារាំងមាននាមភេទប្រុស និងភេទស្រីសម្រាប់សត្វ៖ le chien (ឆ្កែឈ្មោល), la chienne (ឆ្កែញី)។ ប៉ុន្តែជាទូទៅ គេប្រើពាក្យភេទប្រុស។ អង់គ្លេសប្រើ « it » ឬ « he », « she » សម្រាប់សត្វចិញ្ចឹម។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "l'animal", "en": "animal", "km": "សត្វ", "tr": "sat", "pos": "nom",
       "note": {
         "fr": "សត្វ se place souvent devant le nom de l'animal : សត្វឆ្កែ, « l'animal chien ». Un animal de compagnie se dit សត្វចិញ្ចឹម (sat tchegn-tcheum), « animal qu'on élève ».",
+        "en": "សត្វ often goes before the animal's name: សត្វឆ្កែ, “the animal dog”. A pet is សត្វចិញ្ចឹម (sat tchegn-tcheum), “animal you raise”. French plural: un animal, des animaux.",
         "km": "« animal » ជានាមភេទប្រុស៖ l'animal, ពហុវចនៈ les animaux (al ក្លាយជា aux)។ អង់គ្លេស៖ « animal », « animals »។"
       },
       "example": {"fr": "Tu aimes les animaux ?", "en": "Do you like animals?", "km": "អ្នកចូលចិត្តសត្វទេ?", "tr": "néak tchôl tchet sat té ?"}
@@ -21,6 +23,7 @@
       "fr": "le chien", "en": "dog", "km": "ឆ្កែ", "tr": "tchhkaè", "pos": "nom",
       "note": {
         "fr": "Un chiot se dit កូនឆ្កែ (kôn tchhkaè), « enfant de chien ». Même modèle pour tous les petits : កូនឆ្មា, le chaton.",
+        "en": "A puppy is កូនឆ្កែ (kôn tchhkaè), “child of dog”. The same pattern for all young animals: កូនឆ្មា, kitten. French « chien » has a nasal ending.",
         "km": "« chien » ជានាមភេទប្រុស៖ le chien។ កូនឆ្កែគឺ « le chiot »។ អង់គ្លេស៖ « dog », កូនឆ្កែគឺ « puppy »។"
       },
       "example": {"fr": "Le chien garde la maison.", "en": "The dog guards the house.", "km": "ឆ្កែយាមផ្ទះ។", "tr": "tchhkaè yéam phtéah."}
@@ -29,6 +32,7 @@
       "fr": "le chat", "en": "cat", "km": "ឆ្មា", "tr": "tchhma", "pos": "nom",
       "note": {
         "fr": "ឆ្មា (tchhma) ressemble à ឆ្កែ (tchhkaè) : les deux commencent par le même son aspiré « tchh ».",
+        "en": "ឆ្មា (tchhma) looks like ឆ្កែ (tchhkaè): both start with the same breathy “tchh” sound. French « chat » sounds like “sha”: the t is silent.",
         "km": "« chat » ជានាមភេទប្រុស ហើយ t នៅចុងមិនអានទេ៖ le chat។ កូនឆ្មាគឺ « le chaton »។ អង់គ្លេស៖ « cat », កូនឆ្មាគឺ « kitten »។"
       },
       "example": {"fr": "Le chat dort sur le lit.", "en": "The cat is sleeping on the bed.", "km": "ឆ្មាគេងលើគ្រែ។", "tr": "tchhma kéng leu krè."}
@@ -37,6 +41,7 @@
       "fr": "le poisson", "en": "fish", "km": "ត្រី", "tr": "trey", "pos": "nom",
       "note": {
         "fr": "ត្រី est partout dans la cuisine khmère : ទឹកត្រី, la sauce de poisson, ou ប្រហុក (prâ-hok), la pâte de poisson fermenté.",
+        "en": "ត្រី is everywhere in Khmer cooking: ទឹកត្រី, fish sauce, or ប្រហុក (prâ-hok), fermented fish paste. French « poisson », with ss, has an “s” sound; « poison », with one s, has a “z” sound and means poison: careful!",
         "km": "« poisson » ជានាមភេទប្រុស៖ le poisson។ ប្រយ័ត្ន៖ « poison » (s មួយ) មានន័យថា ថ្នាំពុល។ អង់គ្លេស៖ « fish » មិនប្តូរនៅពហុវចនៈទេ។"
       },
       "example": {"fr": "Au Cambodge, on mange beaucoup de poisson.", "en": "In Cambodia, people eat a lot of fish.", "km": "នៅកម្ពុជា គេញ៉ាំត្រីច្រើន។", "tr": "neuv kâm-pou-tchéa, ké gnam trey tchraeun."}
@@ -45,6 +50,7 @@
       "fr": "l'oiseau", "en": "bird", "km": "សត្វស្លាប", "tr": "sat slap", "pos": "nom",
       "note": {
         "fr": "Mot à mot « animal à ailes », ស្លាប (slap) signifiant « l'aile ». Le mot soutenu est បក្សី (bâk-sey).",
+        "en": "Word for word “winged animal”, ស្លាប (slap) meaning “wing”. The formal word is បក្សី (bâk-sey). French « oiseau » contains all five vowels.",
         "km": "« oiseau » ជានាមភេទប្រុស៖ l'oiseau, ពហុវចនៈ les oiseaux។ អង់គ្លេស៖ « bird »។"
       },
       "example": {"fr": "Le matin, les oiseaux chantent.", "en": "In the morning, the birds sing.", "km": "ពេលព្រឹក សត្វស្លាបយំ។", "tr": "pél preuk, sat slap youm."}
@@ -53,6 +59,7 @@
       "fr": "la vache", "en": "cow", "km": "គោ", "tr": "kô", "pos": "nom",
       "note": {
         "fr": "គោ désigne la vache comme le bœuf. Le buffle, autre animal des rizières, se dit ក្របី (krâ-bey).",
+        "en": "គោ means both cow and ox. The buffalo, the other rice-field animal, is ក្របី (krâ-bey). French « vache » is feminine; « bœuf » is an ox.",
         "km": "« vache » ជានាមភេទស្រី៖ la vache។ គោឈ្មោលគឺ « le bœuf » ឬ « le taureau »។ អង់គ្លេស៖ « cow »។"
       },
       "example": {"fr": "Les vaches mangent dans la rizière.", "en": "The cows are eating in the rice field.", "km": "គោស៊ីស្មៅនៅវាលស្រែ។", "tr": "kô si smav neuv véal srè."}
@@ -63,6 +70,7 @@
       "fr": "Il est trop mignon !", "en": "He is so cute!", "km": "គួរឱ្យស្រឡាញ់ណាស់!", "tr": "kouo aoy srâ-lagn nah !",
       "note": {
         "fr": "Mot à mot « qui donne envie d'aimer ». Se dit d'un animal, d'un bébé ou d'un enfant.",
+        "en": "Word for word “that makes you want to love”. Said of an animal, a baby or a child. French « mignon » becomes « mignonne » in the feminine.",
         "km": "« mignon » សម្រាប់ភេទប្រុស និង « mignonne » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « cute »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Il mord ?", "en": "Does he bite?", "km": "វាខាំទេ?", "tr": "véa kham té ?",
       "note": {
         "fr": "ខាំ (kham), « mordre ». La question avec ទេ en fin de phrase attend oui ou non.",
+        "en": "ខាំ (kham), “to bite”. A question with ទេ at the end expects yes or no. French « mordre »: il mord.",
         "km": "« mordre »៖ il mord, ils mordent។ អង់គ្លេស៖ « to bite », « Does it bite? »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Ne le touche pas.", "en": "Don't touch it.", "km": "កុំប៉ះវា។", "tr": "kom pah véa.",
       "note": {
         "fr": "កុំ (kom) devant un verbe forme la défense : កុំប៉ះ, ne touche pas.",
+        "en": "កុំ (kom) before a verb forms a ban: កុំប៉ះ, don't touch. French puts the pronoun before the verb: ne le touche pas.",
         "km": "« ne … pas » ព័ទ្ធជុំវិញកិរិយាសព្ទ៖ ne le touche pas។ អង់គ្លេស៖ « Don't touch »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Tu as un animal de compagnie ?", "en": "Do you have a pet?", "km": "មានចិញ្ចឹមសត្វទេ?", "tr": "méan tchegn-tcheum sat té ?",
       "note": {
         "fr": "ចិញ្ចឹម (tchegn-tcheum), « élever, nourrir ». On l'emploie aussi pour les enfants : ចិញ្ចឹមកូន, élever ses enfants.",
+        "en": "ចិញ្ចឹម (tchegn-tcheum), “to raise, to feed”. Also used for children: ចិញ្ចឹមកូន, to raise your children. French « animal de compagnie » literally means “companion animal”.",
         "km": "« un animal de compagnie » មានន័យថា សត្វចិញ្ចឹមក្នុងផ្ទះ។ អង់គ្លេស៖ « pet »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Chez les parents, à la campagne", "km": "នៅផ្ទះឪពុកម្តាយ"},
+      "situation": {"fr": "Chez les parents, à la campagne", "en": "At the parents' home, in the countryside", "km": "នៅផ្ទះឪពុកម្តាយ"},
       "fr": "Chez mes parents, il y a des vaches et des poules.", "en": "At my parents' house, there are cows and chickens.",
       "km": "នៅផ្ទះឪពុកម្តាយខ្ញុំ មានគោ និងមាន់។", "tr": "neuv phtéah eu-pouk mday khgnom, méan kô neung moan."
     },
     {
-      "situation": {"fr": "Au marché aux poissons", "km": "នៅផ្សារត្រី"},
+      "situation": {"fr": "Au marché aux poissons", "en": "At the fish market", "km": "នៅផ្សារត្រី"},
       "fr": "Le poisson du Tonlé Sap est très frais ce matin.", "en": "The fish from the Tonle Sap is very fresh this morning.",
       "km": "ព្រឹកនេះ ត្រីទន្លេសាបស្រស់ណាស់។", "tr": "preuk nih, trey tonlé sap sroh nah."
     },
     {
-      "situation": {"fr": "À la maison", "km": "នៅផ្ទះ"},
+      "situation": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
       "fr": "Notre chat dort toute la journée et mange toute la nuit.", "en": "Our cat sleeps all day and eats all night.",
       "km": "ឆ្មារបស់យើងគេងពេញមួយថ្ងៃ ហើយស៊ីពេញមួយយប់។", "tr": "tchhma ro-bâh yeung kéng pégn mouy thngay, haeuy si pégn mouy youp."
     }

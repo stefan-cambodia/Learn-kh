@@ -6,6 +6,7 @@
   "title": {"fr": "La politesse et les coutumes", "en": "Politeness and customs", "km": "គួរសម និងទំនៀមទម្លាប់"},
   "tip": {
     "fr": "Le សំពះ (sâm-péah) remplace la poignée de main : on joint les mains devant soi. Plus la personne est âgée ou respectée, plus les mains montent haut : devant la poitrine pour un ami, devant le visage pour un aîné, au front pour un moine.",
+    "en": "The សំពះ (sâm-péah) replaces the handshake: you join your hands in front of you. The older or more respected the person, the higher the hands: in front of the chest for a friend, in front of the face for an elder, at the forehead for a monk.",
     "km": "ភាសាបារាំង គេប្រើ « vous » ជាមួយមនុស្សដែលមិនស្គាល់ ឬមនុស្សចាស់ ហើយ « tu » ជាមួយមិត្តភក្តិ និងគ្រួសារ។ នៅប្រទេសបារាំង គេចាប់ដៃគ្នា ឬថើបថ្ពាល់ (la bise)។ អង់គ្លេសប្រើតែ « you »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "saluer", "en": "to greet", "km": "សំពះ", "tr": "sâm-péah", "pos": "verbe",
       "note": {
         "fr": "សំពះ désigne précisément le salut mains jointes. Pour saluer en général, on dit aussi ស្វាគមន៍, accueillir.",
+        "en": "សំពះ is precisely the greeting with joined hands. For greeting in general, people also say ស្វាគមន៍, to welcome. French « saluer » means “to greet”.",
         "km": "« saluer » មានន័យថា និយាយសួស្តី ឬសំពះ។ នៅប្រទេសបារាំង គេចាប់ដៃ៖ « serrer la main »។ អង់គ្លេស៖ « to greet »។"
       },
       "example": {"fr": "Les enfants saluent leur grand-mère.", "en": "The children greet their grandmother.", "km": "ក្មេងៗសំពះយាយ។", "tr": "kméng-kméng sâm-péah yéay."}
@@ -21,6 +23,7 @@
       "fr": "poli", "en": "polite", "km": "គួរសម", "tr": "kouo-sâm", "pos": "adjectif",
       "note": {
         "fr": "គួរសម, « convenable, comme il faut ». Le contraire : មិនគួរសម, impoli.",
+        "en": "គួរសម, “proper, as it should be”. The opposite: មិនគួរសម, impolite. French « poli » becomes « polie » in the feminine.",
         "km": "« poli » សម្រាប់ភេទប្រុស និង « polie » សម្រាប់ភេទស្រី (អានដូចគ្នា)។ ផ្ទុយគឺ « impoli »។ អង់គ្លេស៖ « polite »។"
       },
       "example": {"fr": "Ton fils est très poli.", "en": "Your son is very polite.", "km": "កូនប្រុសរបស់អ្នកគួរសមណាស់។", "tr": "kôn proh ro-bâh néak kouo-sâm nah."}
@@ -29,6 +32,7 @@
       "fr": "respecter", "en": "to respect", "km": "គោរព", "tr": "kô-rup", "pos": "verbe",
       "note": {
         "fr": "គោរព s'emploie aussi dans les formules écrites : សូមគោរព, « avec respect », en début de lettre.",
+        "en": "គោរព is also used in written formulas: សូមគោរព, “respectfully”, at the start of a letter. French « respecter »: je respecte.",
         "km": "« respecter »៖ je respecte, nous respectons។ « le respect » មានន័យថា ការគោរព។ អង់គ្លេស៖ « to respect »។"
       },
       "example": {"fr": "Il faut respecter les moines.", "en": "One must respect the monks.", "km": "ត្រូវគោរពព្រះសង្ឃ។", "tr": "treuv kô-rup préah sâng."}
@@ -37,6 +41,7 @@
       "fr": "la coutume", "en": "custom", "km": "ទំនៀមទម្លាប់", "tr": "toum-niem toum-loap", "pos": "nom",
       "note": {
         "fr": "Deux mots associés : ទំនៀម, la tradition, et ទម្លាប់, l'habitude. Le mot ប្រពៃណី, la tradition, est proche.",
+        "en": "Two words together: ទំនៀម, tradition, and ទម្លាប់, habit. The word ប្រពៃណី, tradition, is close. French « coutume » is feminine.",
         "km": "« coutume » ជានាមភេទស្រី៖ la coutume, les coutumes khmères។ អង់គ្លេស៖ « custom », « tradition »។"
       },
       "example": {"fr": "Chaque pays a ses coutumes.", "en": "Every country has its customs.", "km": "ប្រទេសនីមួយៗមានទំនៀមទម្លាប់រៀងៗខ្លួន។", "tr": "prâ-téh ni-mouy-mouy méan toum-niem toum-loap rieng-rieng khlouon."}
@@ -45,6 +50,7 @@
       "fr": "l'invité", "en": "guest", "km": "ភ្ញៀវ", "tr": "phgnieu", "pos": "nom",
       "note": {
         "fr": "ភ្ញៀវ veut dire l'invité, mais aussi le client d'un magasin ou le touriste : ភ្ញៀវទេសចរ.",
+        "en": "ភ្ញៀវ means a guest, but also a shop customer or a tourist: ភ្ញៀវទេសចរ. French « invité » becomes « invitée » for a woman.",
         "km": "« invité » សម្រាប់ប្រុស និង « invitée » សម្រាប់ស្រី (អានដូចគ្នា)។ អង់គ្លេស៖ « guest »។"
       },
       "example": {"fr": "Ce soir, nous avons des invités.", "en": "Tonight, we have guests.", "km": "យប់នេះ យើងមានភ្ញៀវ។", "tr": "youp nih, yeung méan phgnieu."}
@@ -53,6 +59,7 @@
       "fr": "les aînés", "en": "elders", "km": "ចាស់ទុំ", "tr": "tchah toum", "pos": "nom",
       "note": {
         "fr": "ចាស់, « vieux », et ទុំ, « mûr » comme un fruit : les anciens sont « mûrs » de sagesse.",
+        "en": "ចាស់, “old”, and ទុំ, “ripe” like a fruit: elders are “ripe” with wisdom. French « aînés » means “elders”.",
         "km": "« les aînés » មានន័យថា មនុស្សចាស់ ឬមនុស្សដែលមានអាយុច្រើនជាង។ អង់គ្លេស៖ « elders »។"
       },
       "example": {"fr": "On écoute les conseils des aînés.", "en": "We listen to the elders' advice.", "km": "យើងស្តាប់ដំបូន្មានរបស់ចាស់ទុំ។", "tr": "yeung sdap dâm-boun-méan ro-bâh tchah toum."}
@@ -63,6 +70,7 @@
       "fr": "Ce n'est pas poli.", "en": "That's not polite.", "km": "មិនគួរសមទេ។", "tr": "min kouo-sâm té.",
       "note": {
         "fr": "Remarque courante quand on apprend les bonnes manières aux enfants.",
+        "en": "A common remark when teaching children good manners. French « Ce n'est pas poli ».",
         "km": "« ce n'est pas » + គុណនាម៖ ce n'est pas poli, ce n'est pas grave។ អង់គ្លេស៖ « That's not polite »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Après vous.", "en": "After you.", "km": "អញ្ជើញមុនចុះ។", "tr": "agn-tcheugn moun tchoh.",
       "note": {
         "fr": "Mot à mot « je vous en prie, passez devant ». On laisse passer les aînés en premier.",
+        "en": "Word for word “please, go ahead”. Elders are let through first. French « Après vous ».",
         "km": "« Après vous » ប្រើពេលឱ្យអ្នកផ្សេងដើរមុន។ អង់គ្លេស៖ « After you »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Servez-vous, je vous en prie.", "en": "Please help yourself.", "km": "សូមអញ្ជើញយកតាមចិត្ត។", "tr": "sôm agn-tcheugn yok tam tchet.",
       "note": {
         "fr": "តាមចិត្ត, « selon votre cœur », c'est-à-dire « comme vous voulez ».",
+        "en": "តាមចិត្ត, “according to your heart”, that is, “as you like”. French « Servez-vous » means “help yourself”.",
         "km": "« se servir » មានន័យថា យកខ្លួនឯង។ « je vous en prie » ជាពាក្យគួរសម។ អង់គ្លេស៖ « Please help yourself »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Ne vous dérangez pas.", "en": "Don't go to any trouble.", "km": "កុំរវល់អី។", "tr": "kom ro-vol ey.",
       "note": {
         "fr": "Se dit quand l'hôte veut préparer quelque chose pour vous. Mais on accepte toujours le verre d'eau offert.",
+        "en": "Said when the host wants to prepare something for you. But always accept the glass of water you are offered. French « se déranger » means “to go to trouble”.",
         "km": "« déranger » មានន័យថា រំខាន។ អង់គ្លេស៖ « Don't go to any trouble »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Saluer un aîné", "km": "សំពះចាស់ទុំ"},
+      "situation": {"fr": "Saluer un aîné", "en": "Greeting an elder", "km": "សំពះចាស់ទុំ"},
       "fr": "On salue les aînés en joignant les mains devant le visage.", "en": "We greet elders by joining our hands in front of the face.",
       "km": "គេសំពះចាស់ទុំ ដោយលើកដៃប្រណម្យនៅមុខ។", "tr": "ké sâm-péah tchah toum, daoy laeuk day prâ-nâm neuv mouk."
     },
     {
-      "situation": {"fr": "Un interdit", "km": "ហាមឃាត់"},
+      "situation": {"fr": "Un interdit", "en": "Something not done", "km": "ហាមឃាត់"},
       "fr": "Il ne faut pas toucher la tête de quelqu'un.", "en": "You must not touch someone's head.",
       "km": "មិនត្រូវប៉ះក្បាលអ្នកដទៃទេ។", "tr": "min treuv pah kbal néak dâ-tey té."
     },
     {
-      "situation": {"fr": "Recevoir un invité", "km": "ទទួលភ្ញៀវ"},
+      "situation": {"fr": "Recevoir un invité", "en": "Welcoming a guest", "km": "ទទួលភ្ញៀវ"},
       "fr": "Quand un invité arrive, on lui offre d'abord de l'eau.", "en": "When a guest arrives, we first offer them some water.",
       "km": "ពេលភ្ញៀវមកដល់ គេយកទឹកមកជូនមុនគេ។", "tr": "pél phgnieu mok dâl, ké yok teuk mok tchoun moun ké."
     }

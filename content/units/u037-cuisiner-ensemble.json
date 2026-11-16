@@ -6,6 +6,7 @@
   "title": {"fr": "Cuisiner ensemble", "en": "Cooking together", "km": "ធ្វើម្ហូបជាមួយគ្នា"},
   "tip": {
     "fr": "La cuisine khmère cherche l'équilibre entre salé, sucré, acide et amer. On goûte souvent pendant la cuisson : ភ្លក់មើល, « goûte pour voir ». Le riz, បាយ, est au centre de chaque repas.",
+    "en": "Khmer cooking looks for a balance of salty, sweet, sour and bitter. People taste often while cooking: ភ្លក់មើល, “taste and see”. Rice, បាយ, is at the centre of every meal.",
     "km": "ក្នុងរូបមន្តធ្វើម្ហូបជាភាសាបារាំង គេប្រើទម្រង់បញ្ជា ឬកិរិយាសព្ទដើម៖ coupez les légumes, ajouter du sel។ អង់គ្លេសប្រើទម្រង់បញ្ជា៖ « cut the vegetables », « add some salt »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "couper", "en": "to cut", "km": "កាត់", "tr": "kat", "pos": "verbe",
       "note": {
         "fr": "កាត់ sert pour couper, mais aussi pour raccourcir un chemin : កាត់ផ្លូវ, prendre un raccourci.",
+        "en": "កាត់ is used for cutting, but also for shortening a route: កាត់ផ្លូវ, take a shortcut. French « couper »: je coupe les légumes.",
         "km": "« couper »៖ je coupe, tu coupes។ « un couteau » មានន័យថា កាំបិត។ អង់គ្លេស៖ « to cut »។"
       },
       "example": {"fr": "Je coupe les légumes.", "en": "I'm cutting the vegetables.", "km": "ខ្ញុំកាត់បន្លែ។", "tr": "khgnom kat bân-laè."}
@@ -21,6 +23,7 @@
       "fr": "faire frire", "en": "to fry", "km": "ចៀន", "tr": "tchien", "pos": "verbe",
       "note": {
         "fr": "ចៀន, « frire dans l'huile ». Faire sauter se dit ឆា (tchha), et faire bouillir ស្ងោរ (sngao).",
+        "en": "ចៀន, “to fry in oil”. To stir-fry is ឆា (tchha), and to boil ស្ងោរ (sngao). French « faire frire » literally means “make fry”.",
         "km": "« faire frire » មានន័យថា ចៀនក្នុងប្រេង។ « l'huile » មានន័យថា ប្រេង។ អង់គ្លេស៖ « to fry »។"
       },
       "example": {"fr": "Je fais frire le poisson.", "en": "I'm frying the fish.", "km": "ខ្ញុំចៀនត្រី។", "tr": "khgnom tchien trey."}
@@ -29,6 +32,7 @@
       "fr": "le sel", "en": "salt", "km": "អំបិល", "tr": "âm-bel", "pos": "nom",
       "note": {
         "fr": "Le goût salé se dit ប្រៃ (prey). Le sel de Kampot est célèbre dans tout le pays.",
+        "en": "The salty taste is ប្រៃ (prey). Kampot salt is famous all over the country. French « sel » is masculine; « salé » means “salty”.",
         "km": "« sel » ជានាមភេទប្រុស៖ le sel។ « salé » មានន័យថា ប្រៃ។ អង់គ្លេស៖ « salt », « salty »។"
       },
       "example": {"fr": "Il faut un peu de sel.", "en": "It needs a little salt.", "km": "ត្រូវការអំបិលបន្តិច។", "tr": "treuv-ka âm-bel bân-tetch."}
@@ -37,6 +41,7 @@
       "fr": "le sucre", "en": "sugar", "km": "ស្ករ", "tr": "skâ", "pos": "nom",
       "note": {
         "fr": "Le sucre de palme, ស្ករត្នោត (skâ thnaot), donne leur goût à beaucoup de plats et de desserts khmers.",
+        "en": "Palm sugar, ស្ករត្នោត (skâ thnaot), flavours many Khmer dishes and desserts. French « sucre » is masculine; « sucré » means “sweet”.",
         "km": "« sucre » ជានាមភេទប្រុស៖ le sucre។ « sucré » មានន័យថា ផ្អែម។ អង់គ្លេស៖ « sugar », « sweet »។"
       },
       "example": {"fr": "Tu mets du sucre dans ton café ?", "en": "Do you put sugar in your coffee?", "km": "ដាក់ស្ករក្នុងកាហ្វេទេ?", "tr": "dak skâ knong ka-fé té ?"}
@@ -45,6 +50,7 @@
       "fr": "l'œuf", "en": "egg", "km": "ពងមាន់", "tr": "pong moan", "pos": "nom",
       "note": {
         "fr": "ពង (pong) veut dire « œuf », et មាន់ (moan) « poule » : œuf de poule. Un œuf de cane se dit ពងទា.",
+        "en": "ពង (pong) means “egg”, and មាន់ (moan) “hen”: hen's egg. A duck egg is ពងទា. French « œuf »: the f is heard in the singular, silent in « des œufs ».",
         "km": "« œuf » ជានាមភេទប្រុស៖ un œuf (f អាន)។ ពហុវចនៈ « des œufs » f មិនអានទេ។ អង់គ្លេស៖ « egg »។"
       },
       "example": {"fr": "Le matin, je mange un œuf avec du riz.", "en": "In the morning, I eat an egg with rice.", "km": "ពេលព្រឹក ខ្ញុំញ៉ាំពងមាន់ជាមួយបាយ។", "tr": "pél preuk, khgnom gnam pong moan tchéa-mouy bay."}
@@ -53,6 +59,7 @@
       "fr": "la sauce de poisson", "en": "fish sauce", "km": "ទឹកត្រី", "tr": "teuk trey", "pos": "nom",
       "note": {
         "fr": "Mot à mot « eau de poisson ». Elle remplace souvent le sel dans la cuisine khmère.",
+        "en": "Word for word “fish water”. It often replaces salt in Khmer cooking. French « sauce de poisson » is also called « nuoc-mâm ».",
         "km": "« sauce » ជានាមភេទស្រី៖ la sauce។ « de poisson » មានន័យថា ធ្វើពីត្រី។ អង់គ្លេស៖ « fish sauce »។"
       },
       "example": {"fr": "J'ajoute un peu de sauce de poisson.", "en": "I add a little fish sauce.", "km": "ខ្ញុំថែមទឹកត្រីបន្តិច។", "tr": "khgnom thaèm teuk trey bân-tetch."}
@@ -63,6 +70,7 @@
       "fr": "Goûte, c'est assez salé ?", "en": "Taste it, is it salty enough?", "km": "ភ្លក់មើល ប្រៃល្មមទេ?", "tr": "phlok meul, prey lmâm té ?",
       "note": {
         "fr": "ល្មម (lmâm), « juste ce qu'il faut ». ល្មមហើយ veut dire « c'est parfait ainsi ».",
+        "en": "ល្មម (lmâm), “just right”. ល្មមហើយ means “it's perfect like that”. French « assez » means “enough”.",
         "km": "« goûter » មានន័យថា ភ្លក់។ « assez » មានន័យថា ល្មម ឬគ្រប់គ្រាន់។ អង់គ្លេស៖ « Is it salty enough? »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Il manque un peu de sel.", "en": "It needs a bit more salt.", "km": "ខ្វះអំបិលបន្តិច។", "tr": "khvah âm-bel bân-tetch.",
       "note": {
         "fr": "ខ្វះ (khvah), « manquer de ». Le contraire, « il y en a trop », se dit ច្រើនពេក.",
+        "en": "ខ្វះ (khvah), “to lack”. The opposite, “there's too much”, is ច្រើនពេក. French « il manque » means “there is missing”.",
         "km": "« il manque » មានន័យថា ខ្វះ។ អង់គ្លេសនិយាយផ្ទុយ៖ « It needs more salt »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Attention, c'est chaud !", "en": "Careful, it's hot!", "km": "ប្រយ័ត្ន ក្តៅ!", "tr": "prâ-yat, kdav !",
       "note": {
         "fr": "Le khmer n'a pas besoin de « c'est » : l'adjectif ក្តៅ suffit.",
+        "en": "Khmer does not need “it is”: the adjective ក្តៅ is enough. French « Attention, c'est chaud ! » keeps « c'est ».",
         "km": "« chaud » ផ្ទុយពី « froid »។ ភាសាបារាំងត្រូវមាន « c'est » នៅមុខគុណនាម។ អង់គ្លេស៖ « it's hot »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Tu peux m'aider ?", "en": "Can you help me?", "km": "ជួយខ្ញុំបន្តិចបានទេ?", "tr": "tchouoy khgnom bân-tetch ban té ?",
       "note": {
         "fr": "បន្តិច, « un peu », rend la demande plus légère et plus polie.",
+        "en": "បន្តិច, “a little”, makes the request lighter and more polite. French « m'aider » puts the pronoun before the verb.",
         "km": "« pouvoir » + កិរិយាសព្ទ៖ tu peux m'aider ? « me » ក្លាយជា « m' » មុនស្រៈ។ អង់គ្លេស៖ « Can you help me? »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Le petit-déjeuner", "km": "អាហារពេលព្រឹក"},
+      "situation": {"fr": "Le petit-déjeuner", "en": "Breakfast", "km": "អាហារពេលព្រឹក"},
       "fr": "Pour l'omelette, j'ajoute un peu de sauce de poisson.", "en": "For the omelette, I add a little fish sauce.",
       "km": "ពេលចៀនពងមាន់ ខ្ញុំដាក់ទឹកត្រីបន្តិច។", "tr": "pél tchien pong moan, khgnom dak teuk trey bân-tetch."
     },
     {
-      "situation": {"fr": "Au marché du matin", "km": "នៅផ្សារពេលព្រឹក"},
+      "situation": {"fr": "Au marché du matin", "en": "At the morning market", "km": "នៅផ្សារពេលព្រឹក"},
       "fr": "Il faut acheter le poisson tôt, quand il est encore frais.", "en": "You have to buy fish early, while it is still fresh.",
       "km": "ត្រូវទិញត្រីពីព្រឹក ពេលវានៅស្រស់។", "tr": "treuv tign trey pi preuk, pél véa neuv sroh."
     },
     {
-      "situation": {"fr": "Dans la cuisine", "km": "នៅក្នុងផ្ទះបាយ"},
+      "situation": {"fr": "Dans la cuisine", "en": "In the kitchen", "km": "នៅក្នុងផ្ទះបាយ"},
       "fr": "Coupe les légumes en petits morceaux, s'il te plaît.", "en": "Cut the vegetables into small pieces, please.",
       "km": "សូមកាត់បន្លែជាដុំតូចៗ។", "tr": "sôm kat bân-laè tchéa dom tôtch-tôtch."
     }

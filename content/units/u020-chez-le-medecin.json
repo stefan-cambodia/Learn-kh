@@ -6,6 +6,7 @@
   "title": {"fr": "Chez le médecin", "en": "At the doctor's", "km": "ទៅជួបគ្រូពេទ្យ"},
   "tip": {
     "fr": "Pour dire où l'on a mal, il suffit de faire suivre ឈឺ (tchheu) de la partie du corps, sans préposition ni article : ឈឺក្បាល (la tête), ឈឺពោះ (le ventre), ឈឺធ្មេញ (tchheu thmign, les dents), ឈឺខ្នង (tchheu khnâng, le dos).",
+    "en": "To say where it hurts, just put the body part after ឈឺ (tchheu), with no preposition or article: ឈឺក្បាល (head), ឈឺពោះ (stomach), ឈឺធ្មេញ (tchheu thmign, teeth), ឈឺខ្នង (tchheu khnâng, back). French uses « avoir mal à »: j'ai mal à la tête.",
     "km": "ភាសាបារាំងប្រើ « avoir mal à » ជាមួយផ្នែកនៃរាងកាយ៖ j'ai mal à la tête, j'ai mal au ventre។ ត្រូវចាំថា à + le ទៅជា « au »។ អង់គ្លេសនិយាយ « I have a headache » ឬ « my stomach hurts »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "le médecin", "en": "doctor", "km": "គ្រូពេទ្យ", "tr": "krou-pét", "pos": "nom",
       "note": {
         "fr": "Mot à mot « maître de médecine ». On s'adresse au médecin en disant លោកគ្រូពេទ្យ à un homme et អ្នកគ្រូពេទ្យ à une femme.",
+        "en": "Word for word “master of medicine”. Address a doctor as លោកគ្រូពេទ្យ (a man) or អ្នកគ្រូពេទ្យ (a woman). French « médecin » is used for men and women.",
         "km": "« médecin » ប្រើបានទាំងប្រុសទាំងស្រី៖ le médecin។ ពេលហៅ គេនិយាយថា « Docteur »។ អង់គ្លេស៖ « doctor »។"
       },
       "example": {"fr": "Je dois aller chez le médecin.", "en": "I have to go to the doctor.", "km": "ខ្ញុំត្រូវទៅជួបគ្រូពេទ្យ។", "tr": "khgnom treuv teuv tchouop krou-pét."}
@@ -21,6 +23,7 @@
       "fr": "l'hôpital", "en": "hospital", "km": "មន្ទីរពេទ្យ", "tr": "mon-ti-pét", "pos": "nom",
       "note": {
         "fr": "Dans la conversation, ទៅពេទ្យ (teuv pét) veut dire aussi bien « aller à l'hôpital » que « aller chez le médecin ».",
+        "en": "In conversation, ទៅពេទ្យ (teuv pét) means both “go to hospital” and “go to the doctor's”. French « hôpital » is masculine; the h is silent.",
         "km": "« hôpital » ជានាមភេទប្រុស អក្សរ h មិនអានទេ៖ l'hôpital។ អង់គ្លេស « hospital » អានអក្សរ h។"
       },
       "example": {"fr": "L'hôpital est près du marché.", "en": "The hospital is near the market.", "km": "មន្ទីរពេទ្យនៅជិតផ្សារ។", "tr": "mon-ti-pét neuv tchit phsa."}
@@ -29,6 +32,7 @@
       "fr": "le médicament", "en": "medicine", "km": "ថ្នាំ", "tr": "thnam", "pos": "nom",
       "note": {
         "fr": "លេបថ្នាំ (lép thnam) = « prendre un médicament », mot à mot « avaler ». Sur les enseignes, la pharmacie s'écrit ឱសថស្ថាន.",
+        "en": "លេបថ្នាំ (lép thnam) = “take medicine”, word for word “swallow”. On signs, a pharmacy is written ឱសថស្ថាន. French « médicament » is masculine.",
         "km": "« médicament » ជានាមភេទប្រុស៖ un médicament។ « prendre un médicament » មានន័យថា លេបថ្នាំ។ អង់គ្លេស៖ « medicine »។"
       },
       "example": {"fr": "Prends ce médicament après le repas.", "en": "Take this medicine after the meal.", "km": "លេបថ្នាំនេះក្រោយពេលញ៉ាំបាយ។", "tr": "lép thnam nih kraoy pél gnam bay."}
@@ -37,6 +41,7 @@
       "fr": "avoir mal", "en": "to hurt", "km": "ឈឺ", "tr": "tchheu", "pos": "verbe",
       "note": {
         "fr": "Déjà vu au sens de « malade ». Suivi d'une partie du corps, ឈឺ veut dire « avoir mal à » : ឈឺក្បាល, « avoir mal à la tête ».",
+        "en": "Seen before meaning “sick”. Followed by a body part, ឈឺ means “to have a pain in”: ឈឺក្បាល, “to have a headache”. French: « avoir mal ».",
         "km": "« malade » មានន័យថា ឈឺជាទូទៅ។ ពេលឈឺត្រង់កន្លែងណាមួយ បារាំងប្រើ « avoir mal à »៖ j'ai mal à la tête។ អង់គ្លេស៖ « my head hurts »។"
       },
       "example": {"fr": "Où avez-vous mal ?", "en": "Where does it hurt?", "km": "ឈឺត្រង់ណា?", "tr": "tchheu trâng na ?"}
@@ -45,6 +50,7 @@
       "fr": "la tête", "en": "head", "km": "ក្បាល", "tr": "kbal", "pos": "nom",
       "note": {
         "fr": "ឈឺក្បាល (tchheu kbal) = « avoir mal à la tête ». Au Cambodge, on évite de toucher la tête de quelqu'un : c'est la partie la plus respectée du corps.",
+        "en": "ឈឺក្បាល (tchheu kbal) = “to have a headache”. In Cambodia, avoid touching someone's head: it is the most respected part of the body. French « tête » is feminine.",
         "km": "« tête » ជានាមភេទស្រី៖ la tête។ « J'ai mal à la tête » = ខ្ញុំឈឺក្បាល។ អង់គ្លេស៖ « head »។"
       },
       "example": {"fr": "J'ai mal à la tête depuis ce matin.", "en": "I have had a headache since this morning.", "km": "ខ្ញុំឈឺក្បាលតាំងពីព្រឹក។", "tr": "khgnom tchheu kbal tang pi preuk."}
@@ -53,6 +59,7 @@
       "fr": "le ventre", "en": "stomach", "km": "ពោះ", "tr": "pouh", "pos": "nom",
       "note": {
         "fr": "ឈឺពោះ (tchheu pouh) = « avoir mal au ventre ». Le ះ final se prononce comme un h soufflé.",
+        "en": "ឈឺពោះ (tchheu pouh) = “to have a stomach ache”. The final ះ is a breathed h. French « ventre » means “belly”.",
         "km": "« ventre » ជានាមភេទប្រុស៖ le ventre។ « J'ai mal au ventre » = ខ្ញុំឈឺពោះ។ អង់គ្លេស៖ « stomach »។"
       },
       "example": {"fr": "Mon enfant a mal au ventre.", "en": "My child has a stomach ache.", "km": "កូនខ្ញុំឈឺពោះ។", "tr": "kôn khgnom tchheu pouh."}
@@ -63,6 +70,7 @@
       "fr": "Ça fait mal ici.", "en": "It hurts here.", "km": "ឈឺត្រង់នេះ។", "tr": "tchheu trâng nih.",
       "note": {
         "fr": "ត្រង់នេះ (trâng nih) = « juste ici », en montrant l'endroit. La question correspondante : ឈឺត្រង់ណា?",
+        "en": "ត្រង់នេះ (trâng nih) = “right here”, pointing at the spot. The matching question: ឈឺត្រង់ណា?",
         "km": "និយាយពេលចង្អុលកន្លែងដែលឈឺ។ អង់គ្លេស៖ « It hurts here »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "J'ai de la fièvre.", "en": "I have a fever.", "km": "ខ្ញុំក្តៅខ្លួន។", "tr": "khgnom kdav khlouon.",
       "note": {
         "fr": "Mot à mot « j'ai le corps chaud ». On dit aussi គ្រុន (kroun) pour la fièvre.",
+        "en": "Word for word “my body is hot”. Fever is also គ្រុន (kroun). French: « J'ai de la fièvre ».",
         "km": "« J'ai de la fièvre » មានន័យថា ខ្ញុំក្តៅខ្លួន ឬគ្រុន។ អង់គ្លេស៖ « I have a fever »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Trois fois par jour.", "en": "Three times a day.", "km": "មួយថ្ងៃបីដង។", "tr": "mouy thngay bey dâng.",
       "note": {
         "fr": "Mot à mot « un jour, trois fois ». Pour demander : មួយថ្ងៃប៉ុន្មានដង?, « combien de fois par jour ? ».",
+        "en": "Word for word “one day, three times”. To ask: មួយថ្ងៃប៉ុន្មានដង?, “how many times a day?”. French: « trois fois par jour ».",
         "km": "« fois » មានន័យថា ដង ហើយ « par jour » មានន័យថា ក្នុងមួយថ្ងៃ។ អង់គ្លេស៖ « three times a day »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Depuis quand avez-vous mal ?", "en": "How long has it been hurting?", "km": "ឈឺតាំងពីពេលណា?", "tr": "tchheu tang pi pél na ?",
       "note": {
         "fr": "តាំងពី (tang pi) = « depuis » ; ពេលណា = « quand ». Réponse : តាំងពីម្សិលមិញ, « depuis hier ».",
+        "en": "តាំងពី (tang pi) = “since”; ពេលណា = “when”. Answer: តាំងពីម្សិលមិញ, “since yesterday”. French « depuis » also means “since” and “for”.",
         "km": "« depuis » មានន័យថា តាំងពី។ ចម្លើយ៖ « depuis hier », « depuis ce matin »។ អង់គ្លេស៖ « since yesterday »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Chez le médecin", "km": "នៅកន្លែងគ្រូពេទ្យ"},
+      "situation": {"fr": "Chez le médecin", "en": "At the doctor's", "km": "នៅកន្លែងគ្រូពេទ្យ"},
       "fr": "J'ai mal à la tête et j'ai de la fièvre depuis hier.", "en": "I have had a headache and a fever since yesterday.",
       "km": "ខ្ញុំឈឺក្បាល ហើយក្តៅខ្លួនតាំងពីម្សិលមិញ។", "tr": "khgnom tchheu kbal haeuy kdav khlouon tang pi msel-mign."
     },
     {
-      "situation": {"fr": "À la pharmacie", "km": "នៅឱសថស្ថាន"},
+      "situation": {"fr": "À la pharmacie", "en": "At the pharmacy", "km": "នៅឱសថស្ថាន"},
       "fr": "Vous avez un médicament pour le mal de ventre ?", "en": "Do you have medicine for a stomach ache?",
       "km": "មានថ្នាំឈឺពោះទេ?", "tr": "méan thnam tchheu pouh té ?"
     },
     {
-      "situation": {"fr": "Prendre des nouvelles", "km": "ពេលសួរសុខទុក្ខ"},
+      "situation": {"fr": "Prendre des nouvelles", "en": "Asking how someone is", "km": "ពេលសួរសុខទុក្ខ"},
       "fr": "Tu as encore mal à la tête ? Bois beaucoup d'eau.", "en": "Do you still have a headache? Drink plenty of water.",
       "km": "នៅឈឺក្បាលទេ? ផឹកទឹកច្រើនៗណា។", "tr": "neuv tchheu kbal té ? pheuk teuk tchraeun-tchraeun na."
     }

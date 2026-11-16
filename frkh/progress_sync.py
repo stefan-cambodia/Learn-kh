@@ -5,7 +5,7 @@ le serveur local, il envoie ce stockage à ``/api/progress``. Le serveur le fusi
 ce qu'ont envoyé les autres appareils et renvoie le résultat. Sans serveur (fichiers
 ouverts depuis le disque), rien ne change : chaque appareil garde sa propre progression.
 
-Règles de fusion, entrée par entrée :
+Règles de fusion, entrée par entrée (profils : fr, en, km, la langue de l'apprenant) :
 - ``frkh-done2-<profil>``  {numéro de leçon: {"d": 0|1, "t": horodatage}}  → la plus récente gagne ;
 - ``frkh-boxes-<profil>-<langue>``  {carte: {"b": boîte, "t": horodatage}}  → la plus récente gagne ;
 - ``frkh-days-<profil>``  [dates]  → union (jours d'activité, pour la série de jours).
@@ -21,7 +21,10 @@ from pathlib import Path
 
 from .audio import wavutil
 
-KEY_RE = re.compile(r"^frkh-(done2-[AB]|days-[AB]|boxes-[AB]-(fr|en|km))$")
+KEY_RE = re.compile(r"^frkh-(done2-(fr|en|km)|days-(fr|en|km)|boxes-(fr|en|km)-(fr|en|km))$")
+# Anciens profils « A » (khmer) et « B » (français) : clés renommées au chargement.
+LEGACY_KEY_RE = re.compile(r"^(frkh-(?:done2|days|boxes))-([AB])((?:-(?:fr|en|km))?)$")
+LEGACY_PROFILES = {"A": "km", "B": "fr"}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 MAX_BODY = 2 * 1024 * 1024
 MAX_ENTRIES = 20000
@@ -99,7 +102,17 @@ def load(config) -> dict:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return {}
-    return {k: v for k, v in data.items() if KEY_RE.match(k)} if isinstance(data, dict) else {}
+    if not isinstance(data, dict):
+        return {}
+    state: dict = {}
+    for key, value in data.items():
+        legacy = LEGACY_KEY_RE.match(key)
+        if legacy:
+            key = f"{legacy.group(1)}-{LEGACY_PROFILES[legacy.group(2)]}{legacy.group(3)}"
+            state[key] = merge_value(key, state.get(key), value)
+        elif KEY_RE.match(key):
+            state[key] = merge_value(key, state.get(key), value)
+    return state
 
 
 def exchange(config, incoming: dict) -> dict:

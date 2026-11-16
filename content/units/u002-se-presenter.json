@@ -6,6 +6,7 @@
   "title": {"fr": "Se présenter", "en": "Introducing yourself", "km": "ការណែនាំខ្លួន"},
   "tip": {
     "fr": "ខ្ញុំ (je) se prononce en une seule syllabe. Le son ញ est celui de « gn » dans « montagne » : khgnom.",
+    "en": "ខ្ញុំ (I) is pronounced as a single syllable. The sound ញ is like the “ny” in “canyon”: khgnom.",
     "km": "ក្នុងភាសាបារាំង ព្យញ្ជនៈចុងពាក្យច្រើនតែមិនអានទេ។ ឧទាហរណ៍៖ « vous » អានថា « វូ » ហើយ « pays » អានថា « ប៉េអ៊ី »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "je, moi", "en": "I, me", "km": "ខ្ញុំ", "tr": "khgnom", "pos": "pronom",
       "note": {
         "fr": "Pronom neutre et poli, pour un homme comme pour une femme.",
+        "en": "A neutral, polite pronoun, for men and women alike. French has « je » before a verb and « moi » on its own.",
         "km": "« je » ជាប្រធានប្រយោគ ហើយ « moi » ប្រើសម្រាប់បញ្ជាក់។ ភាសាអង់គ្លេស៖ « I » និង « me »។"
       },
       "example": {"fr": "Je suis à la maison.", "en": "I am at home.", "km": "ខ្ញុំនៅផ្ទះ។", "tr": "khgnom neuv phtéah."}
@@ -21,6 +23,7 @@
       "fr": "vous, tu", "en": "you", "km": "អ្នក", "tr": "néak", "pos": "pronom",
       "note": {
         "fr": "Forme neutre. Entre proches, on préfère les termes de parenté : បង (bâng) pour l'aîné, អូន (oun) pour le plus jeune.",
+        "en": "The neutral form. Between close people, Khmer prefers family terms: បង (bâng) for someone older, អូន (oun) for someone younger. French « vous » is polite, « tu » is familiar.",
         "km": "« vous » ប្រើដោយគោរព ឬជាមួយមនុស្សច្រើននាក់។ « tu » ប្រើជាមួយមិត្តភក្តិ និងគ្រួសារ។ ភាសាអង់គ្លេសមានតែ « you »។"
       },
       "example": {"fr": "Et vous ?", "en": "And you?", "km": "ចុះអ្នកវិញ?", "tr": "tchoh néak vign ?"}
@@ -29,6 +32,7 @@
       "fr": "le nom", "en": "name", "km": "ឈ្មោះ", "tr": "tchhmouh", "pos": "nom",
       "note": {
         "fr": "Sert aussi de verbe : ខ្ញុំឈ្មោះ… signifie « je m'appelle… ».",
+        "en": "Also works as a verb: ខ្ញុំឈ្មោះ… means “my name is…”. French « nom » is masculine: le nom.",
         "km": "« nom » ជានាមភេទប្រុស៖ le nom។ អក្សរ m ចុងពាក្យមិនអានដាច់ទេ សំឡេងចេញតាមច្រមុះ។"
       },
       "example": {"fr": "Quel est votre nom ?", "en": "What is your name?", "km": "តើអ្នកឈ្មោះអ្វី?", "tr": "taeu néak tchhmouh ey ?"}
@@ -37,6 +41,7 @@
       "fr": "le pays", "en": "country", "km": "ប្រទេស", "tr": "prâ-téh", "pos": "nom",
       "note": {
         "fr": "Se place devant le nom du pays : ប្រទេសបារាំង (la France), ប្រទេសកម្ពុជា (le Cambodge).",
+        "en": "Goes in front of the country's name: ប្រទេសបារាំង (France), ប្រទេសកម្ពុជា (Cambodia). French « pays » is masculine.",
         "km": "« pays » អានថា « ប៉េអ៊ី »។ អក្សរ s ចុងពាក្យមិនអានទេ។"
       },
       "example": {"fr": "Le Cambodge est un beau pays.", "en": "Cambodia is a beautiful country.", "km": "កម្ពុជាជាប្រទេសដ៏ស្រស់ស្អាត។", "tr": "kam-pou-tchéa tchéa prâ-téh dâ sroh s'at."}
@@ -45,6 +50,7 @@
       "fr": "habiter", "en": "to live", "km": "រស់នៅ", "tr": "rouh neuv", "pos": "verbe",
       "note": {
         "fr": "Le verbe khmer ne se conjugue pas : រស់នៅ reste identique à toutes les personnes.",
+        "en": "Khmer verbs are never conjugated: រស់នៅ stays the same for every person. French « habiter » changes: j'habite, nous habitons; the h is silent.",
         "km": "កិរិយាសព្ទបារាំងប្តូររូបតាមប្រធាន៖ j'habite, tu habites, nous habitons។"
       },
       "example": {"fr": "J'habite à Phnom Penh.", "en": "I live in Phnom Penh.", "km": "ខ្ញុំរស់នៅភ្នំពេញ។", "tr": "khgnom rouh neuv phnom-pégn."}
@@ -53,6 +59,7 @@
       "fr": "l'ami", "en": "friend", "km": "មិត្តភក្តិ", "tr": "mit-phéak", "pos": "nom",
       "note": {
         "fr": "S'emploie pour un ami comme pour une amie.",
+        "en": "Used for a male or a female friend. French distinguishes « un ami » and « une amie », which sound the same.",
         "km": "មិត្តប្រុសសរសេរ « ami » មិត្តស្រីសរសេរ « amie »។ អានដូចគ្នា។"
       },
       "example": {"fr": "C'est mon ami.", "en": "This is my friend.", "km": "នេះជាមិត្តភក្តិរបស់ខ្ញុំ។", "tr": "nih tchéa mit-phéak ro-bâh khgnom."}
@@ -61,37 +68,38 @@
   "expressions": [
     {
       "fr": "Je m'appelle…", "en": "My name is…", "km": "ខ្ញុំឈ្មោះ…", "tr": "khgnom tchhmouh…",
-      "note": {"fr": "On ajoute simplement son prénom après ឈ្មោះ.", "km": "និយាយឈ្មោះរបស់អ្នកបន្ទាប់ពី « Je m'appelle »។"}
+      "note": {"fr": "On ajoute simplement son prénom après ឈ្មោះ.", "en": "Just add your first name after ឈ្មោះ. In French, « Je m'appelle » literally means “I call myself”.", "km": "និយាយឈ្មោះរបស់អ្នកបន្ទាប់ពី « Je m'appelle »។"}
     },
     {
       "fr": "D'où venez-vous ?", "en": "Where are you from?", "km": "តើអ្នកមកពីណា?", "tr": "taeu néak mok pi na ?",
-      "note": {"fr": "តើ (taeu) annonce une question ; il est facultatif à l'oral.", "km": "សំណួរដើម្បីសួរពីប្រទេស ឬទីកន្លែងកំណើត។"}
+      "note": {"fr": "តើ (taeu) annonce une question ; il est facultatif à l'oral.", "en": "តើ (taeu) announces a question; it is optional in speech.", "km": "សំណួរដើម្បីសួរពីប្រទេស ឬទីកន្លែងកំណើត។"}
     },
     {
       "fr": "Je viens de France.", "en": "I am from France.", "km": "ខ្ញុំមកពីប្រទេសបារាំង។", "tr": "khgnom mok pi prâ-téh ba-rang.",
-      "note": {"fr": "មកពី (mok pi) signifie « venir de ».", "km": "ប្តូរឈ្មោះប្រទេសបាន៖ « Je viens du Cambodge »។"}
+      "note": {"fr": "មកពី (mok pi) signifie « venir de ».", "en": "មកពី (mok pi) means “to come from”. In French, « de » becomes « du » before masculine countries: je viens du Cambodge.", "km": "ប្តូរឈ្មោះប្រទេសបាន៖ « Je viens du Cambodge »។"}
     },
     {
       "fr": "Enchanté de vous rencontrer.", "en": "Nice to meet you.", "km": "រីករាយដែលបានជួបអ្នក។", "tr": "rik-réay dael ban tchouop néak.",
       "note": {
         "fr": "Formule polie lors d'une première rencontre. Une femme écrit « enchantée » ; la prononciation est identique.",
+        "en": "A polite phrase for a first meeting. In French, a woman writes « enchantée »; it sounds the same.",
         "km": "និយាយពេលជួបនរណាម្នាក់ជាលើកដំបូង។ គេច្រើននិយាយខ្លីថា « Enchanté ! »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Faire connaissance", "km": "ពេលស្គាល់គ្នាដំបូង"},
+      "situation": {"fr": "Faire connaissance", "en": "Getting to know someone", "km": "ពេលស្គាល់គ្នាដំបូង"},
       "fr": "Bonjour, je m'appelle {B} et je viens de France.", "en": "Hello, my name is {B} and I am from France.",
       "km": "សួស្តី ខ្ញុំឈ្មោះ {B} ហើយខ្ញុំមកពីប្រទេសបារាំង។", "tr": "souos-dey, khgnom tchhmouh {B} haeuy khgnom mok pi prâ-téh ba-rang."
     },
     {
-      "situation": {"fr": "Présenter quelqu'un", "km": "ពេលណែនាំនរណាម្នាក់"},
+      "situation": {"fr": "Présenter quelqu'un", "en": "Introducing someone", "km": "ពេលណែនាំនរណាម្នាក់"},
       "fr": "Je vous présente {A}, qui vient du Cambodge.", "en": "This is {A}, who is from Cambodia.",
       "km": "នេះគឺ {A} ដែលមកពីប្រទេសកម្ពុជា។", "tr": "nih keu {A} dael mok pi prâ-téh kam-pou-tchéa."
     },
     {
-      "situation": {"fr": "Parler de sa ville", "km": "និយាយអំពីទីក្រុងរបស់ខ្លួន"},
+      "situation": {"fr": "Parler de sa ville", "en": "Talking about your town", "km": "និយាយអំពីទីក្រុងរបស់ខ្លួន"},
       "fr": "Nous habitons à Phnom Penh.", "en": "We live in Phnom Penh.",
       "km": "យើងរស់នៅភ្នំពេញ។", "tr": "yeung rouh neuv phnom-pégn."
     }

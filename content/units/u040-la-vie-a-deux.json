@@ -6,6 +6,7 @@
   "title": {"fr": "La vie à deux", "en": "Life together", "km": "ជីវិតរួមគ្នា"},
   "tip": {
     "fr": "Dans un couple khmer, on ne dit presque jamais « je » et « tu ». La personne la plus âgée, ou l'homme, est បង (bâng), et l'autre est អូន (oun) : អូនស្រឡាញ់បង, « je t'aime » dit par oun à bâng. Ces mots servent à la fois de « je » et de « tu ».",
+    "en": "In a Khmer couple, people almost never say “I” and “you”. The older person, or the man, is បង (bâng), and the other is អូន (oun): អូនស្រឡាញ់បង, “I love you”, said by oun to bâng. These words serve both as “I” and as “you”.",
     "km": "ភាសាបារាំង « manquer » ដាក់លំដាប់ផ្ទុយពីខ្មែរ៖ « Tu me manques » មានន័យថា ខ្ញុំនឹកអ្នក (មនុស្សដែលគេនឹកនៅខាងមុខ)។ អង់គ្លេសដូចខ្មែរ៖ « I miss you »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "l'amour", "en": "love", "km": "សេចក្តីស្រឡាញ់", "tr": "sétch-kdey srâ-lagn", "pos": "nom",
       "note": {
         "fr": "សេចក្តី (sétch-kdey) transforme un verbe en nom : ស្រឡាញ់, aimer, devient សេចក្តីស្រឡាញ់, l'amour. L'amour romantique se dit aussi ស្នេហា (snaè-ha).",
+        "en": "សេចក្តី (sétch-kdey) turns a verb into a noun: ស្រឡាញ់, to love, becomes សេចក្តីស្រឡាញ់, love. Romantic love is also ស្នេហា (snaè-ha). French « amour » is masculine.",
         "km": "« amour » ជានាមភេទប្រុស៖ l'amour។ « amoureux » មានន័យថា កំពុងស្រឡាញ់។ អង់គ្លេស៖ « love »។"
       },
       "example": {"fr": "L'amour, c'est aussi la patience.", "en": "Love is also patience.", "km": "សេចក្តីស្រឡាញ់ ក៏ជាការអត់ធ្មត់ដែរ។", "tr": "sétch-kdey srâ-lagn kâ tchéa ka ât-thmât daè."}
@@ -21,6 +23,7 @@
       "fr": "manquer", "en": "to miss", "km": "នឹក", "tr": "neuk", "pos": "verbe",
       "note": {
         "fr": "នឹក se construit comme en anglais : ខ្ញុំនឹកអ្នក, « je pense à toi avec tristesse », c'est-à-dire « tu me manques ». Attention, នឹក (neuk) se prononce presque comme នឹង (neung), le futur.",
+        "en": "នឹក works like English “miss”: ខ្ញុំនឹកអ្នក, “I miss you”. Careful, នឹក (neuk) sounds almost like នឹង (neung), the future marker. French turns it around: « tu me manques », “you are missing to me”.",
         "km": "« manquer à »៖ tu me manques = ខ្ញុំនឹកអ្នក; je te manque = អ្នកនឹកខ្ញុំ។ អង់គ្លេស៖ « to miss », « I miss you »។"
       },
       "example": {"fr": "Ma famille me manque.", "en": "I miss my family.", "km": "ខ្ញុំនឹកគ្រួសារ។", "tr": "khgnom neuk krouo-sa."}
@@ -29,6 +32,7 @@
       "fr": "se marier", "en": "to get married", "km": "រៀបការ", "tr": "riep-ka", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « organiser la cérémonie ». La cérémonie de mariage se dit មង្គលការ (mong-kol-ka).",
+        "en": "Word for word “arrange the ceremony”. The wedding ceremony is មង្គលការ (mong-kol-ka). French « se marier »: ils se sont mariés.",
         "km": "« se marier » ជាកិរិយាសព្ទឆ្លុះ៖ nous nous marions។ « marié » មានន័យថា រៀបការហើយ។ អង់គ្លេស៖ « to get married »។"
       },
       "example": {"fr": "Ils se marient au mois de mai.", "en": "They are getting married in May.", "km": "គាត់រៀបការនៅខែឧសភា។", "tr": "koat riep-ka neuv khaè ou-sâ-phéa."}
@@ -37,6 +41,7 @@
       "fr": "le cœur", "en": "heart", "km": "បេះដូង", "tr": "béh-doung", "pos": "nom",
       "note": {
         "fr": "បេះដូង est l'organe et le symbole de l'amour. Pour les sentiments, le khmer utilise plutôt ចិត្ត (tchet), le cœur au sens de l'esprit.",
+        "en": "បេះដូង is the organ and the symbol of love. For feelings, Khmer prefers ចិត្ត (tchet), the heart as mind. French « cœur » contains the letter œ.",
         "km": "« cœur » ជានាមភេទប្រុស៖ le cœur។ « de tout mon cœur » មានន័យថា ដោយអស់ពីចិត្ត។ អង់គ្លេស៖ « heart »។"
       },
       "example": {"fr": "Mon cœur bat vite.", "en": "My heart is beating fast.", "km": "បេះដូងខ្ញុំលោតញាប់។", "tr": "béh-doung khgnom lot gnoap."}
@@ -45,6 +50,7 @@
       "fr": "la confiance", "en": "trust", "km": "ការទុកចិត្ត", "tr": "ka touk tchet", "pos": "nom",
       "note": {
         "fr": "Mot à mot « le fait de déposer son cœur ». Le verbe ទុកចិត្ត veut dire « faire confiance ».",
+        "en": "Word for word “the act of placing your heart”. The verb ទុកចិត្ត means “to trust”. French « faire confiance à »: je te fais confiance.",
         "km": "« confiance » ជានាមភេទស្រី៖ la confiance។ « avoir confiance en » មានន័យថា ទុកចិត្ត។ អង់គ្លេស៖ « trust »។"
       },
       "example": {"fr": "J'ai confiance en toi.", "en": "I trust you.", "km": "ខ្ញុំទុកចិត្តអ្នក។", "tr": "khgnom touk tchet néak."}
@@ -53,6 +59,7 @@
       "fr": "promettre", "en": "to promise", "km": "សន្យា", "tr": "sân-ya", "pos": "verbe",
       "note": {
         "fr": "សន្យា sert aussi de nom : « la promesse ». Pour insister : ខ្ញុំសន្យាពិតៗ, je te le promets vraiment.",
+        "en": "សន្យា is also a noun: “a promise”. To insist: ខ្ញុំសន្យាពិតៗ, I really promise. French « promettre »: je te le promets.",
         "km": "« promettre »៖ je promets, tu promets។ « une promesse » មានន័យថា ការសន្យា។ អង់គ្លេស៖ « to promise »។"
       },
       "example": {"fr": "Je te promets de t'appeler ce soir.", "en": "I promise to call you tonight.", "km": "ខ្ញុំសន្យាថា នឹងហៅទូរស័ព្ទទៅយប់នេះ។", "tr": "khgnom sân-ya tha neung hav tou-ro-sap teuv youp nih."}
@@ -63,6 +70,7 @@
       "fr": "Je t'aime.", "en": "I love you.", "km": "ខ្ញុំស្រឡាញ់អ្នក។", "tr": "khgnom srâ-lagn néak.",
       "note": {
         "fr": "Forme neutre et un peu formelle. Entre amoureux, on dira plutôt បងស្រឡាញ់អូន ou អូនស្រឡាញ់បង, selon qui parle.",
+        "en": "A neutral, rather formal form. Between lovers, people say បងស្រឡាញ់អូន or អូនស្រឡាញ់បង, depending on who is speaking. French « Je t'aime » also means “I like you a lot”.",
         "km": "« Je t'aime » មានន័យថា ខ្ញុំស្រឡាញ់អ្នក។ « t' » គឺ « te » មុនស្រៈ។ អង់គ្លេស៖ « I love you »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Tu me manques.", "en": "I miss you.", "km": "ខ្ញុំនឹកអ្នកណាស់។", "tr": "khgnom neuk néak nah.",
       "note": {
         "fr": "En khmer, comme en anglais, c'est la personne qui ressent le manque qui est le sujet.",
+        "en": "In Khmer, as in English, the person who feels the absence is the subject. In French it is the other way round: « Tu me manques ».",
         "km": "ប្រយ័ត្នលំដាប់៖ ជាភាសាបារាំង អ្នកដែលគេនឹកជាប្រធាន។ អង់គ្លេស៖ « I miss you »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Prends soin de toi.", "en": "Take care of yourself.", "km": "ថែរក្សាខ្លួនផង។", "tr": "thaè-réak-sa khlouon phâng.",
       "note": {
         "fr": "ថែរក្សា, « prendre soin, préserver », et ខ្លួន, « soi-même ». Se dit au moment de se quitter.",
+        "en": "ថែរក្សា, “to look after, to preserve”, and ខ្លួន, “oneself”. Said when parting. French « Prends soin de toi » is familiar.",
         "km": "« prendre soin de » មានន័យថា ថែរក្សា។ « toi » ប្រើពេលបញ្ជា។ អង់គ្លេស៖ « Take care »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Rentre vite.", "en": "Come back soon.", "km": "ឆាប់ត្រឡប់មកវិញណា។", "tr": "tchhap trâ-lâp mok vign na.",
       "note": {
         "fr": "ឆាប់, « vite », se place devant le verbe. ណា en fin de phrase adoucit la demande.",
+        "en": "ឆាប់, “quickly”, goes before the verb. ណា at the end softens the request. French « rentrer » means “to come back home”.",
         "km": "« rentrer » មានន័យថា ត្រឡប់មកផ្ទះវិញ។ « vite » មានន័យថា ឆាប់។ អង់គ្លេស៖ « Come back soon »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Un mariage khmer", "km": "មង្គលការខ្មែរ"},
+      "situation": {"fr": "Un mariage khmer", "en": "A Khmer wedding", "km": "មង្គលការខ្មែរ"},
       "fr": "Un mariage khmer traditionnel peut durer plusieurs jours.", "en": "A traditional Khmer wedding can last several days.",
       "km": "មង្គលការប្រពៃណីខ្មែរ អាចធ្វើច្រើនថ្ងៃ។", "tr": "mong-kol-ka prâ-pey-ni khmaè atch thveu tchraeun thngay."
     },
     {
-      "situation": {"fr": "Loin l'un de l'autre", "km": "ពេលនៅឆ្ងាយគ្នា"},
+      "situation": {"fr": "Loin l'un de l'autre", "en": "Far from each other", "km": "ពេលនៅឆ្ងាយគ្នា"},
       "fr": "Quand nous sommes loin, nous nous appelons tous les soirs.", "en": "When we are far apart, we call each other every evening.",
       "km": "ពេលនៅឆ្ងាយគ្នា យើងហៅទូរស័ព្ទគ្នារាល់ល្ងាច។", "tr": "pél neuv tchhngay knéa, yeung hav tou-ro-sap knéa roal lngéatch."
     },
     {
-      "situation": {"fr": "Un conseil", "km": "ដំបូន្មានមួយ"},
+      "situation": {"fr": "Un conseil", "en": "A piece of advice", "km": "ដំបូន្មានមួយ"},
       "fr": "Dans un couple, la confiance est très importante.", "en": "In a relationship, trust is very important.",
       "km": "ក្នុងជីវិតគូ ការទុកចិត្តគ្នាសំខាន់ណាស់។", "tr": "knong tchi-vit kou, ka touk tchet knéa sâm-khan nah."
     }

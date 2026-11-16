@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" data-profile="$default_profile" data-tz="$timezone" data-root="$root_attr">
+<html lang="$default_profile" data-profile="$default_profile" data-tz="$timezone" data-root="$root_attr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -17,14 +17,33 @@
 <meta name="theme-color" content="#14161c" media="(prefers-color-scheme: dark)">
 <link rel="stylesheet" href="$root/css/style.css?v=$version">
 <script>
+window.FRKH_PROFILES = $profiles_json;
 (function () {
-  var root = document.documentElement, profile = null;
+  var root = document.documentElement, profile = null, legacy = { A: "km", B: "fr" };
   root.classList.add("js");
   try {
-    var m = /(?:^|[#&])profil=([AB])/.exec(location.hash);
+    /* Anciens profils (A : khmer, B : français) : la progression est reprise sous les nouveaux noms. */
+    if (!localStorage.getItem("frkh-migrated-profiles")) {
+      var keys = [];
+      for (var i = 0; i < localStorage.length; i++) { keys.push(localStorage.key(i)); }
+      keys.forEach(function (key) {
+        var m = /^(frkh-(?:done2|done|days|quiz|review|boxes))-([AB])(-(?:fr|en|km))?$$/.exec(key || "");
+        if (!m) { return; }
+        var target = m[1] + "-" + legacy[m[2]] + (m[3] || "");
+        if (localStorage.getItem(target) === null) { localStorage.setItem(target, localStorage.getItem(key)); }
+      });
+      var old = localStorage.getItem("frkh-profile");
+      if (legacy[old]) { localStorage.setItem("frkh-profile", legacy[old]); }
+      localStorage.setItem("frkh-migrated-profiles", "1");
+    }
+  } catch (e) {}
+  try {
+    var m = /(?:^|[#&])profil=([A-Za-z]+)/.exec(location.hash);
     profile = m ? m[1] : localStorage.getItem("frkh-profile");
   } catch (e) {}
-  if (profile === "A" || profile === "B") root.setAttribute("data-profile", profile);
+  profile = legacy[profile] || profile;
+  if (profile && window.FRKH_PROFILES[profile]) { root.setAttribute("data-profile", profile); }
+  root.setAttribute("lang", root.getAttribute("data-profile"));
   try { var size = localStorage.getItem("frkh-size"); if (size === "l" || size === "xl") root.setAttribute("data-size", size); } catch (e) {}
 })();
 </script>
@@ -45,10 +64,7 @@
       <button type="button" class="tool-slow js-only" id="slow-toggle" aria-pressed="false">
         <span class="tool-slow-rate" aria-hidden="true">0,75×</span>$ui_slow
       </button>
-      <div class="profile-switch js-only" role="group" aria-label="$ui_profile">
-        <button type="button" data-profile-choice="A" aria-pressed="false">$name_a</button>
-        <button type="button" data-profile-choice="B" aria-pressed="false">$name_b</button>
-      </div>
+      <div class="profile-switch js-only" role="group" aria-label="$ui_profile">$profile_buttons</div>
     </div>
   </div>
 </header>

@@ -6,6 +6,7 @@
   "title": {"fr": "Les nombres de 1 à 5", "en": "Numbers from 1 to 5", "km": "លេខពី ១ ដល់ ៥"},
   "tip": {
     "fr": "En khmer, le nombre vient après le nom, souvent suivi d'un classificateur : កាហ្វេពីរកែវ, mot à mot « café deux tasses ».",
+    "en": "In Khmer, the number comes after the noun, often followed by a classifier: កាហ្វេពីរកែវ, word for word “coffee two cups”.",
     "km": "ក្នុងភាសាបារាំង និងអង់គ្លេស លេខនៅពីមុខនាម៖ « deux cafés », « two coffees »។ នាមពហុវចនៈថែមអក្សរ s។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "un", "en": "one", "km": "មួយ", "tr": "mouy", "pos": "nombre",
       "note": {
         "fr": "Le nombre se place après le nom : កាហ្វេមួយ signifie « un café ».",
+        "en": "The number goes after the noun: កាហ្វេមួយ means “one coffee”. French « un » also means “a” and becomes « une » before feminine nouns.",
         "km": "« un » ប្រើជាមួយនាមភេទប្រុស និង « une » ជាមួយនាមភេទស្រី៖ un café, une table។"
       },
       "example": {"fr": "Un thé, s'il vous plaît.", "en": "One tea, please.", "km": "សូមតែមួយកែវ។", "tr": "sôm taè mouy kaèv."}
@@ -21,6 +23,7 @@
       "fr": "deux", "en": "two", "km": "ពីរ", "tr": "pi", "pos": "nombre",
       "note": {
         "fr": "Le រ final ne se prononce pas : on dit « pi ».",
+        "en": "The final រ is silent: say “pi”. French « deux » has a rounded vowel, close to the “u” in “fur”.",
         "km": "ក្នុងពាក្យ « deux » អក្សរ x ចុងពាក្យមិនអានទេ។"
       },
       "example": {"fr": "Deux cafés, s'il vous plaît.", "en": "Two coffees, please.", "km": "សូមកាហ្វេពីរកែវ។", "tr": "sôm ka-fé pi kaèv."}
@@ -29,6 +32,7 @@
       "fr": "trois", "en": "three", "km": "បី", "tr": "bey", "pos": "nombre",
       "note": {
         "fr": "Se prononce « bey », comme la fin du mot « abeille ».",
+        "en": "Pronounced like “bay”. In French « trois », the “oi” sounds like “wa”.",
         "km": "ក្នុងពាក្យ « trois » អក្សរ s ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « three »។"
       },
       "example": {"fr": "J'ai trois amis.", "en": "I have three friends.", "km": "ខ្ញុំមានមិត្តភក្តិបីនាក់។", "tr": "khgnom méan mit-phéak bey néak."}
@@ -37,6 +41,7 @@
       "fr": "quatre", "en": "four", "km": "បួន", "tr": "bouon", "pos": "nombre",
       "note": {
         "fr": "Une seule syllabe : « bouon ».",
+        "en": "A single syllable: “bouon”, like “boo-un” said quickly. In French « quatre », the final “re” is barely heard.",
         "km": "ភាសាអង់គ្លេស « four » អានដូចពាក្យ « for » ដែលមានន័យថា សម្រាប់។"
       },
       "example": {"fr": "Nous sommes quatre.", "en": "There are four of us.", "km": "យើងមានគ្នាបួននាក់។", "tr": "yeung méan knéa bouon néak."}
@@ -45,6 +50,7 @@
       "fr": "cinq", "en": "five", "km": "ប្រាំ", "tr": "pram", "pos": "nombre",
       "note": {
         "fr": "Sert de base aux nombres de 6 à 9 : ប្រាំមួយ, « cinq-un », signifie six.",
+        "en": "The base for the numbers 6 to 9: ប្រាំមួយ, “five-one”, means six. In French « cinq », the final q is pronounced: “sank”.",
         "km": "ក្នុងពាក្យ « cinq » អក្សរ q ចុងពាក្យអានដូចអក្សរ « ក »។"
       },
       "example": {"fr": "Il est cinq heures.", "en": "It is five o'clock.", "km": "ម៉ោងប្រាំហើយ។", "tr": "maong pram haeuy."}
@@ -53,6 +59,7 @@
       "fr": "zéro", "en": "zero", "km": "សូន្យ", "tr": "soun", "pos": "nombre",
       "note": {
         "fr": "Utile pour dicter un numéro de téléphone.",
+        "en": "Useful for reading out a phone number. In French, « zéro » is stressed on the last syllable.",
         "km": "ប្រើពេលប្រាប់លេខទូរស័ព្ទ។"
       },
       "example": {"fr": "Mon numéro commence par zéro.", "en": "My number starts with zero.", "km": "លេខទូរស័ព្ទរបស់ខ្ញុំចាប់ផ្តើមដោយលេខសូន្យ។", "tr": "lék tou-ro-sap ro-bâh khgnom tchap-phdaeum daoy lék soun."}
@@ -61,34 +68,34 @@
   "expressions": [
     {
       "fr": "Un, deux, trois !", "en": "One, two, three!", "km": "មួយ ពីរ បី!", "tr": "mouy, pi, bey !",
-      "note": {"fr": "Pour donner le départ ou compter ensemble.", "km": "ប្រើពេលរាប់ ឬពេលចាប់ផ្តើមធ្វើអ្វីមួយព្រមគ្នា។"}
+      "note": {"fr": "Pour donner le départ ou compter ensemble.", "en": "To give a start signal or count together.", "km": "ប្រើពេលរាប់ ឬពេលចាប់ផ្តើមធ្វើអ្វីមួយព្រមគ្នា។"}
     },
     {
       "fr": "Encore un, s'il vous plaît.", "en": "One more, please.", "km": "សូមមួយទៀត។", "tr": "sôm mouy tiet.",
-      "note": {"fr": "ទៀត (tiet) signifie « encore, de plus ».", "km": "ប្រើពេលចង់បានមួយថែមទៀត។"}
+      "note": {"fr": "ទៀត (tiet) signifie « encore, de plus ».", "en": "ទៀត (tiet) means “more, again”. In French, « encore » means “again” or “more”.", "km": "ប្រើពេលចង់បានមួយថែមទៀត។"}
     },
     {
       "fr": "Tous les deux.", "en": "Both of us.", "km": "ទាំងពីរនាក់។", "tr": "téang pi néak.",
-      "note": {"fr": "នាក់ (néak) est le classificateur qui sert à compter les personnes.", "km": "មានន័យថា មនុស្សទាំងពីរនាក់។"}
+      "note": {"fr": "នាក់ (néak) est le classificateur qui sert à compter les personnes.", "en": "នាក់ (néak) is the classifier used to count people. In French, « tous les deux » means “both”.", "km": "មានន័យថា មនុស្សទាំងពីរនាក់។"}
     },
     {
       "fr": "Quel est votre numéro de téléphone ?", "en": "What is your phone number?", "km": "តើលេខទូរស័ព្ទរបស់អ្នកលេខប៉ុន្មាន?", "tr": "taeu lék tou-ro-sap ro-bâh néak lék pon-man ?",
-      "note": {"fr": "ប៉ុន្មាន (pon-man) signifie « combien » ou « quel numéro ».", "km": "សំណួរដើម្បីសុំលេខទូរស័ព្ទ។"}
+      "note": {"fr": "ប៉ុន្មាន (pon-man) signifie « combien » ou « quel numéro ».", "en": "ប៉ុន្មាន (pon-man) means “how much” or “what number”. In French, « quel » agrees with the noun: quel numéro, quelle heure.", "km": "សំណួរដើម្បីសុំលេខទូរស័ព្ទ។"}
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Au café", "km": "នៅហាងកាហ្វេ"},
+      "situation": {"fr": "Au café", "en": "At the café", "km": "នៅហាងកាហ្វេ"},
       "fr": "Deux cafés et un thé, s'il vous plaît.", "en": "Two coffees and one tea, please.",
       "km": "សូមកាហ្វេពីរកែវ និងតែមួយកែវ។", "tr": "sôm ka-fé pi kaèv ning taè mouy kaèv."
     },
     {
-      "situation": {"fr": "Au téléphone", "km": "ពេលនិយាយទូរស័ព្ទ"},
+      "situation": {"fr": "Au téléphone", "en": "On the phone", "km": "ពេលនិយាយទូរស័ព្ទ"},
       "fr": "Mon numéro est le zéro, un, deux, trois, quatre, cinq.", "en": "My number is zero, one, two, three, four, five.",
       "km": "លេខរបស់ខ្ញុំគឺ សូន្យ មួយ ពីរ បី បួន ប្រាំ។", "tr": "lék ro-bâh khgnom keu soun, mouy, pi, bey, bouon, pram."
     },
     {
-      "situation": {"fr": "Parler de ses amis", "km": "និយាយអំពីមិត្តភក្តិ"},
+      "situation": {"fr": "Parler de ses amis", "en": "Talking about your friends", "km": "និយាយអំពីមិត្តភក្តិ"},
       "fr": "J'ai cinq amis en France.", "en": "I have five friends in France.",
       "km": "ខ្ញុំមានមិត្តភក្តិប្រាំនាក់នៅប្រទេសបារាំង។", "tr": "khgnom méan mit-phéak pram néak neuv prâ-téh ba-rang."
     }

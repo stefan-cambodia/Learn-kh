@@ -7,7 +7,7 @@ import sqlite3
 from contextlib import contextmanager
 from pathlib import Path
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS meta (
@@ -45,6 +45,7 @@ CREATE TABLE IF NOT EXISTS vocabulary (
     transliteration TEXT,
     category        TEXT,
     explanation_fr  TEXT,
+    explanation_en  TEXT,
     explanation_km  TEXT,
     example_json    TEXT,
     uncertain       INTEGER NOT NULL DEFAULT 0,
@@ -157,7 +158,32 @@ def connect(path: Path | str) -> sqlite3.Connection:
         pass
     conn.executescript(SCHEMA)
     conn.execute("INSERT OR IGNORE INTO meta(key, value) VALUES ('schema_version', ?)", (str(SCHEMA_VERSION),))
+    _migrate(conn)
     return conn
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Mises à niveau des bases créées par une version précédente."""
+    columns = {row["name"] for row in conn.execute("PRAGMA table_info(vocabulary)")}
+    if "explanation_en" not in columns:
+        conn.execute("ALTER TABLE vocabulary ADD COLUMN explanation_en TEXT")
+    # Profils « A » (khmer) et « B » (français) → profils par langue ; le profil anglais
+    # reprend le suivi du profil français (même calendrier de révision).
+    if conn.execute("SELECT 1 FROM learner_progress WHERE learner IN ('A', 'B') LIMIT 1").fetchone():
+        conn.execute("BEGIN IMMEDIATE")
+        try:
+            conn.execute("UPDATE learner_progress SET learner = 'km' WHERE learner = 'A'")
+            conn.execute("UPDATE learner_progress SET learner = 'fr' WHERE learner = 'B'")
+            conn.execute(
+                "INSERT OR IGNORE INTO learner_progress(learner, vocabulary_id, learning_level, introduced_on, last_review, "
+                "next_review, review_count, mastery_score) SELECT 'en', vocabulary_id, learning_level, introduced_on, "
+                "last_review, next_review, review_count, mastery_score FROM learner_progress WHERE learner = 'fr'")
+        except BaseException:
+            conn.execute("ROLLBACK")
+            raise
+        conn.execute("COMMIT")
+    conn.execute("UPDATE meta SET value = ? WHERE key = 'schema_version' AND CAST(value AS INTEGER) < ?",
+                 (str(SCHEMA_VERSION), SCHEMA_VERSION))
 
 
 @contextmanager

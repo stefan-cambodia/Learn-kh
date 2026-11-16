@@ -253,7 +253,7 @@ def correct_text(config, conn, find: str, replace: str, lang: str | None = None,
                              (json.dumps(content, ensure_ascii=False), content["title"]["fr"], content["title"]["en"],
                               content["title"]["km"], db.utcnow(), row["id"]))
         if not lesson:
-            columns = {"fr": ("french_text", "explanation_fr"), "en": ("english_text",),
+            columns = {"fr": ("french_text", "explanation_fr"), "en": ("english_text", "explanation_en"),
                        "km": ("khmer_text", "explanation_km"), "tr": ("transliteration",)}
             for row in conn.execute("SELECT * FROM vocabulary").fetchall():
                 updates, counter = {}, [0]
@@ -326,11 +326,103 @@ def import_lesson(conn, payload: dict) -> int:
                 note = entry.get("note") or {}
                 conn.execute(
                     "UPDATE vocabulary SET french_text = ?, english_text = ?, khmer_text = ?, transliteration = ?, "
-                    "explanation_fr = ?, explanation_km = ?, example_json = ?, uncertain = ?, uncertain_note = ? WHERE id = ?",
-                    (entry["fr"], entry["en"], entry["km"], entry.get("tr", ""), note.get("fr", ""), note.get("km", ""),
+                    "explanation_fr = ?, explanation_en = ?, explanation_km = ?, example_json = ?, uncertain = ?, "
+                    "uncertain_note = ? WHERE id = ?",
+                    (entry["fr"], entry["en"], entry["km"], entry.get("tr", ""), note.get("fr", ""), note.get("en", ""),
+                     note.get("km", ""),
                      json.dumps(entry["example"], ensure_ascii=False) if entry.get("example") else None,
                      1 if entry.get("uncertain") else 0, entry.get("uncertain_note"), entry["vocab_id"]))
     return number
+
+
+def _legacy_due_for(due_for) -> list[str]:
+    """Anciens profils A (khmer) et B (français) ; le profil anglais suit le calendrier du profil français."""
+    from .config import LEGACY_PROFILES
+    out = {LEGACY_PROFILES.get(p, p) for p in due_for or []}
+    if "fr" in out:
+        out.add("en")
+    return sorted(out)
+
+
+def refresh_lessons(config, conn, curriculum) -> dict:
+    """Reporte dans les leçons déjà générées les textes actuels des unités.
+
+    Mis à jour : titre, conseil, explications (notes), exemples, situations, dialogue (prénoms des
+    personnages compris), question de compréhension et exercice de traduction. Le choix des mots,
+    les dates, la numérotation et la progression ne changent pas.
+    """
+    from .curriculum import personalize_tree
+    characters = config.characters()
+    units = {u["id"]: personalize_tree({k: v for k, v in u.items() if not k.startswith("_")}, characters)
+             for u in curriculum.units}
+    examples: dict[str, dict] = {}
+    entries: dict[tuple[str, str], dict] = {}
+    for unit in units.values():
+        for section in ("vocabulary", "expressions"):
+            for entry in unit[section]:
+                entries[(entry["fr"], entry["km"])] = entry
+                if entry.get("example"):
+                    examples.setdefault(entry["example"]["fr"], entry["example"])
+
+    def refresh(item: dict, source: dict | None) -> None:
+        if not source or source.get("fr") != item.get("fr"):
+            return
+        for key in ("note", "example", "situation"):
+            if key in source:
+                item[key] = source[key]
+
+    stats = {"lessons": 0, "vocabulary": 0}
+    rows = conn.execute("SELECT * FROM lessons WHERE content_json != '{}' ORDER BY kind DESC, lesson_number").fetchall()
+    refreshed: dict[int, dict] = {}
+    with db.transaction(conn):
+        for row in rows:   # leçons d'unité d'abord (« unit » > « review »), les révisions reprennent leur source
+            content = json.loads(row["content_json"])
+            before = json.dumps(content, ensure_ascii=False, sort_keys=True)
+            unit = units.get(content.get("unit_id") or "")
+            if content.get("kind") == "unit" and unit:
+                content["title"], content["tip"], content["dialogue"] = unit["title"], unit.get("tip"), unit["dialogue"]
+                content.setdefault("review", {})["comprehension"] = unit["comprehension"]
+                for section in ("vocabulary", "expressions"):
+                    for item in content.get(section, []):
+                        refresh(item, entries.get((item.get("fr"), item.get("km"))))
+                if len(content.get("sentences", [])) <= len(unit["sentences"]):
+                    content["sentences"] = unit["sentences"][:len(content.get("sentences", []))]
+            elif content.get("kind") == "review" and content.get("source_lesson") in refreshed:
+                source = refreshed[content["source_lesson"]]
+                content["tip"], content["dialogue"] = source.get("tip"), source.get("dialogue")
+                content.setdefault("review", {})["comprehension"] = source.get("review", {}).get("comprehension")
+                for section in ("vocabulary", "expressions"):
+                    for item in content.get(section, []):
+                        refresh(item, entries.get((item.get("fr"), item.get("km"))))
+                content["sentences"] = source.get("sentences", [])[:len(content.get("sentences", []))]
+            review = content.get("review") or {}
+            for word in review.get("words") or []:
+                refresh(word, entries.get((word.get("fr"), word.get("km"))))
+                word["due_for"] = _legacy_due_for(word.get("due_for"))
+            translation = review.get("translation")
+            if translation:
+                if translation.get("source") == "today" and content.get("sentences"):
+                    sentences = content["sentences"]
+                    review["translation"] = dict(sentences[content["number"] % len(sentences)], source="today")
+                elif translation.get("fr") in examples:
+                    review["translation"] = dict(examples[translation["fr"]], source=translation.get("source", "review"))
+            refreshed[row["lesson_number"]] = content
+            if json.dumps(content, ensure_ascii=False, sort_keys=True) != before:
+                conn.execute("UPDATE lessons SET content_json = ?, title_fr = ?, title_en = ?, title_km = ?, updated_at = ? "
+                             "WHERE id = ?", (json.dumps(content, ensure_ascii=False), content["title"]["fr"],
+                                              content["title"]["en"], content["title"]["km"], db.utcnow(), row["id"]))
+                stats["lessons"] += 1
+        for row in conn.execute("SELECT * FROM vocabulary").fetchall():
+            entry = entries.get((row["french_text"], row["khmer_text"]))
+            note = (entry or {}).get("note") or {}
+            values = (note.get("fr", ""), note.get("en", ""), note.get("km", ""))
+            if entry and values != (row["explanation_fr"] or "", row["explanation_en"] or "", row["explanation_km"] or ""):
+                conn.execute("UPDATE vocabulary SET explanation_fr = ?, explanation_en = ?, explanation_km = ?, "
+                             "example_json = ? WHERE id = ?",
+                             (*values, json.dumps(entry["example"], ensure_ascii=False) if entry.get("example") else None,
+                              row["id"]))
+                stats["vocabulary"] += 1
+    return stats
 
 
 def find_vocabulary(conn, word: str) -> list:
@@ -352,7 +444,9 @@ def set_progress(config, conn, action: str, learner: str, word: str) -> list[str
         raise ValueError("plusieurs mots correspondent : " + ", ".join(f"« {r['french_text']} »" for r in rows[:8]))
     if not rows:
         raise ValueError(f"mot introuvable : « {word} »")
-    learners = srs.LEARNERS if learner in ("both", "AB") else (learner,)
+    from .config import LEGACY_PROFILES
+    learner = LEGACY_PROFILES.get(learner, learner)
+    learners = srs.LEARNERS if learner in ("all", "both") else (learner,)
     for name in learners:
         (srs.forget if action == "forget" else srs.master)(conn, name, rows[0]["id"], day, intervals)
     return [rows[0]["french_text"], rows[0]["khmer_text"]]

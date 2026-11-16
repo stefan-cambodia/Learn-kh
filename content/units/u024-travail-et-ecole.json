@@ -6,6 +6,7 @@
   "title": {"fr": "Le travail et l'école", "en": "Work and school", "km": "ការងារ និងសាលារៀន"},
   "tip": {
     "fr": "Pour dire qu'on parle une langue, le khmer emploie ចេះ (tchéh), « savoir » : ខ្ញុំចេះភាសាខ្មែរ. On s'adresse à un enseignant en disant លោកគ្រូ (lôk krou) à un homme et អ្នកគ្រូ (néak krou) à une femme.",
+    "en": "To say you speak a language, Khmer uses ចេះ (tchéh), “to know how”: ខ្ញុំចេះភាសាខ្មែរ. Address a teacher as លោកគ្រូ (lôk krou) for a man and អ្នកគ្រូ (néak krou) for a woman. French language names are masculine and written in lower case: le khmer, le français.",
     "km": "ក្នុងភាសាបារាំង « apprendre » មានន័យពីរ៖ រៀន និងបង្រៀន។ « J'apprends le français » = ខ្ញុំរៀនភាសាបារាំង។ « Il m'apprend le français » = គាត់បង្រៀនភាសាបារាំងខ្ញុំ។ អង់គ្លេសប្រើពាក្យពីរផ្សេងគ្នា៖ « to learn » និង « to teach »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "le travail", "en": "work", "km": "ការងារ", "tr": "ka-ngéa", "pos": "nom",
       "note": {
         "fr": "ការងារ est le nom ; le verbe « travailler » se dit ធ្វើការ (thveu-ka). Le lieu de travail : កន្លែងធ្វើការ (kân-laèng thveu-ka).",
+        "en": "ការងារ is the noun; the verb “to work” is ធ្វើការ (thveu-ka). The workplace: កន្លែងធ្វើការ (kân-laèng thveu-ka). French « travail » is masculine; plural « travaux ».",
         "km": "« travail » ជានាមភេទប្រុស៖ le travail។ អង់គ្លេសប្រើ « work » សម្រាប់ការងារទូទៅ និង « job » សម្រាប់មុខរបរ។"
       },
       "example": {"fr": "J'aime mon travail.", "en": "I like my job.", "km": "ខ្ញុំចូលចិត្តការងាររបស់ខ្ញុំ។", "tr": "khgnom tchôl tchet ka-ngéa ro-bâh khgnom."}
@@ -21,6 +23,7 @@
       "fr": "l'école", "en": "school", "km": "សាលារៀន", "tr": "sa-la rien", "pos": "nom",
       "note": {
         "fr": "Mot à mot « salle où l'on apprend ». On dit aussi simplement សាលា (sa-la).",
+        "en": "Word for word “hall where you learn”. People also just say សាលា (sa-la). French « école » is feminine: l'école.",
         "km": "« école » ជានាមភេទស្រី៖ l'école, une école។ « aller à l'école » = ទៅសាលារៀន។ អង់គ្លេស៖ « school »។"
       },
       "example": {"fr": "Les enfants vont à l'école à sept heures.", "en": "The children go to school at seven o'clock.", "km": "កូនៗទៅសាលារៀនម៉ោងប្រាំពីរ។", "tr": "kôn-kôn teuv sa-la rien maong pram-pi."}
@@ -29,6 +32,7 @@
       "fr": "apprendre", "en": "to learn", "km": "រៀន", "tr": "rien", "pos": "verbe",
       "note": {
         "fr": "រៀន, c'est apprendre ou étudier. Enseigner se dit បង្រៀន (bâng-rien), mot à mot « faire apprendre ».",
+        "en": "រៀន is to learn or to study. To teach is បង្រៀន (bâng-rien), word for word “make learn”. French « apprendre » means both “to learn” and “to teach”.",
         "km": "« apprendre »៖ j'apprends, nous apprenons។ អក្សរ ds ចុងពាក្យ « apprends » មិនអានទេ។ អង់គ្លេស៖ « to learn »។"
       },
       "example": {"fr": "J'apprends le khmer tous les jours.", "en": "I learn Khmer every day.", "km": "ខ្ញុំរៀនភាសាខ្មែររាល់ថ្ងៃ។", "tr": "khgnom rien phéa-sa khmaè roal thngay."}
@@ -37,6 +41,7 @@
       "fr": "l'enseignant", "en": "teacher", "km": "គ្រូបង្រៀន", "tr": "krou bâng-rien", "pos": "nom",
       "note": {
         "fr": "គ្រូ (krou) seul désigne déjà un maître ou un professeur ; le même mot se retrouve dans គ្រូពេទ្យ, le médecin.",
+        "en": "គ្រូ (krou) alone already means a teacher or master; the same word appears in គ្រូពេទ្យ, doctor. French: « un enseignant », « une enseignante ».",
         "km": "បុរសហៅថា « un enseignant » ស្ត្រីហៅថា « une enseignante »។ គេក៏និយាយថា « le professeur » ដែរ។ អង់គ្លេស៖ « teacher »។"
       },
       "example": {"fr": "L'enseignant parle lentement.", "en": "The teacher speaks slowly.", "km": "គ្រូបង្រៀននិយាយយឺតៗ។", "tr": "krou bâng-rien ni-yéay yeut-yeut."}
@@ -45,6 +50,7 @@
       "fr": "la langue", "en": "language", "km": "ភាសា", "tr": "phéa-sa", "pos": "nom",
       "note": {
         "fr": "Le nom de la langue suit le mot ភាសា : ភាសាខ្មែរ, le khmer ; ភាសាបារាំង, le français ; ភាសាអង់គ្លេស, l'anglais.",
+        "en": "The language name follows ភាសា: ភាសាខ្មែរ, Khmer; ភាសាបារាំង, French; ភាសាអង់គ្លេស, English. French « langue » also means “tongue”.",
         "km": "« langue » ជានាមភេទស្រី៖ la langue។ ឈ្មោះភាសាមិនសរសេរអក្សរធំទេ៖ le français, le khmer។ អង់គ្លេសសរសេរអក្សរធំ៖ « French », « Khmer »។"
       },
       "example": {"fr": "Nous apprenons trois langues.", "en": "We are learning three languages.", "km": "យើងរៀនភាសាបី។", "tr": "yeung rien phéa-sa bey."}
@@ -53,6 +59,7 @@
       "fr": "difficile", "en": "difficult", "km": "ពិបាក", "tr": "pi-bak", "pos": "adjectif",
       "note": {
         "fr": "Le contraire est ស្រួល (srouol), « facile, agréable », ou ងាយ (ngéay). ពិបាក se place devant le verbe : ពិបាកសរសេរ, « difficile à écrire ».",
+        "en": "The opposite is ស្រួល (srouol), “easy, pleasant”, or ងាយ (ngéay). ពិបាក goes before the verb: ពិបាកសរសេរ, “hard to write”. French « difficile » is the same in the masculine and feminine.",
         "km": "« difficile » សរសេរដូចគ្នាទាំងភេទប្រុស និងភេទស្រី។ ពាក្យផ្ទុយគឺ « facile » (ស្រួល)។ អង់គ្លេស៖ « difficult », « easy »។"
       },
       "example": {"fr": "Le khmer est difficile à écrire.", "en": "Khmer is difficult to write.", "km": "ភាសាខ្មែរពិបាកសរសេរ។", "tr": "phéa-sa khmaè pi-bak sâ-sé."}
@@ -63,6 +70,7 @@
       "fr": "Tu peux répéter, s'il te plaît ?", "en": "Can you repeat, please?", "km": "សូមនិយាយម្តងទៀតបានទេ?", "tr": "sôm ni-yéay mdâng tiet ban té ?",
       "note": {
         "fr": "Mot à mot « s'il vous plaît, dire une fois encore, possible ? ». ម្តងទៀត (mdâng tiet) : encore une fois.",
+        "en": "Word for word “please, say once more, possible?”. ម្តងទៀត (mdâng tiet): once more. French « répéter »: tu peux répéter ?",
         "km": "« répéter » មានន័យថា និយាយម្តងទៀត។ ជាមួយមនុស្សមិនស្គាល់ គេនិយាយថា « Vous pouvez répéter ? »។ អង់គ្លេស៖ « Can you repeat, please? »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Parlez lentement, s'il vous plaît.", "en": "Please speak slowly.", "km": "សូមនិយាយយឺតៗ។", "tr": "sôm ni-yéay yeut-yeut.",
       "note": {
         "fr": "Le signe ៗ indique que le mot se répète : យឺតៗ se lit « yeut-yeut », tout doucement.",
+        "en": "The sign ៗ means the word is repeated: យឺតៗ reads “yeut-yeut”, nice and slowly. French « lentement » means “slowly”.",
         "km": "« lentement » មានន័យថា យឺតៗ។ ពាក្យផ្ទុយគឺ « vite » (លឿន)។ អង់គ្លេស៖ « slowly »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Qu'est-ce que ça veut dire ?", "en": "What does it mean?", "km": "មានន័យថាម៉េច?", "tr": "méan ney tha métch ?",
       "note": {
         "fr": "Mot à mot « ça a le sens de quoi ? ». ន័យ (ney) : le sens, la signification.",
+        "en": "Word for word “it has the meaning of what?”. ន័យ (ney): meaning. French « vouloir dire » literally means “to want to say”.",
         "km": "« vouloir dire » មានន័យថា មានន័យ។ « Ça veut dire… » = មានន័យថា…។ អង់គ្លេស៖ « What does it mean? »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Je parle un peu khmer.", "en": "I speak a little Khmer.", "km": "ខ្ញុំចេះភាសាខ្មែរបន្តិចបន្តួច។", "tr": "khgnom tchéh phéa-sa khmaè bân-tetch bân-touotch.",
       "note": {
         "fr": "ចេះ (tchéh), « savoir », s'emploie pour une langue ou un savoir-faire. បន្តិចបន្តួច : un tout petit peu.",
+        "en": "ចេះ (tchéh), “to know how”, is used for a language or a skill. បន្តិចបន្តួច: just a little. French « parler un peu » means “to speak a little”.",
         "km": "« un peu » មានន័យថា បន្តិច។ ដើម្បីនិយាយថាចេះភាសា គេប្រើ « parler »៖ je parle français។ អង់គ្លេស៖ « I speak a little Khmer »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Au travail", "km": "នៅកន្លែងធ្វើការ"},
+      "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
       "fr": "Je commence le travail à huit heures.", "en": "I start work at eight o'clock.",
       "km": "ខ្ញុំចាប់ផ្តើមធ្វើការម៉ោងប្រាំបី។", "tr": "khgnom tchap-phdaeum thveu-ka maong pram-bey."
     },
     {
-      "situation": {"fr": "En classe", "km": "នៅក្នុងថ្នាក់រៀន"},
+      "situation": {"fr": "En classe", "en": "In class", "km": "នៅក្នុងថ្នាក់រៀន"},
       "fr": "L'enseignant écrit un mot et nous le lisons.", "en": "The teacher writes a word and we read it.",
       "km": "គ្រូបង្រៀនសរសេរពាក្យមួយ ហើយយើងអាន។", "tr": "krou bâng-rien sâ-sé péak mouy, haeuy yeung an."
     },
     {
-      "situation": {"fr": "En parlant des langues", "km": "និយាយអំពីភាសា"},
+      "situation": {"fr": "En parlant des langues", "en": "Talking about languages", "km": "និយាយអំពីភាសា"},
       "fr": "Le français est difficile, mais j'aime apprendre.", "en": "French is difficult, but I like learning.",
       "km": "ភាសាបារាំងពិបាក ប៉ុន្តែខ្ញុំចូលចិត្តរៀន។", "tr": "phéa-sa ba-rang pi-bak, pon-taè khgnom tchôl tchet rien."
     }

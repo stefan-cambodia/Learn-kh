@@ -1,6 +1,6 @@
 """Répétition espacée : révisions prévues 1, 3, 7, 14 et 30 jours après l'apprentissage.
 
-Chaque mot possède, pour chaque apprenant, une fiche dans ``learner_progress``.
+Chaque mot possède, pour chaque profil d'apprenant (fr, en, km), une fiche dans ``learner_progress``.
 Une leçon ne dure que dix minutes : chaque jour, on ne révise donc qu'un petit
 nombre de mots, choisis à tour de rôle dans chaque échéance (les mots d'hier,
 ceux d'il y a 3 jours, 7 jours…). Seules les révisions réellement présentées
@@ -12,7 +12,7 @@ from __future__ import annotations
 import datetime as dt
 import math
 
-LEARNERS = ("A", "B")
+LEARNERS = ("fr", "en", "km")
 
 
 def _d(value: str) -> dt.date:

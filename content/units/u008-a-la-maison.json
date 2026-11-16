@@ -6,6 +6,7 @@
   "title": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
   "tip": {
     "fr": "Pour situer quelque chose, on commence par នៅ (neuv), « être à », puis un mot de position : នៅក្នុង (neuv knong), dans ; នៅលើ (neuv leu), sur ; នៅក្រោម (neuv kraom), sous. Exemple : នៅលើតុ, « sur la table ».",
+    "en": "To say where something is, start with នៅ (neuv), “to be at”, then a position word: នៅក្នុង (neuv knong), in; នៅលើ (neuv leu), on; នៅក្រោម (neuv kraom), under. Example: នៅលើតុ, “on the table”. In French: dans, sur, sous.",
     "km": "ក្នុងភាសាបារាំង នាមនីមួយៗមានភេទ៖ នាមភេទប្រុសប្រើ « le » នាមភេទស្រីប្រើ « la »។ ឧទាហរណ៍៖ le lit, la table, la chaise។ ត្រូវចាំភេទជាមួយនាមជានិច្ច។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "la maison", "en": "house", "km": "ផ្ទះ", "tr": "phtéah", "pos": "nom",
       "note": {
         "fr": "Signifie aussi « chez soi » : នៅផ្ទះ (neuv phtéah), « à la maison ».",
+        "en": "Also means “home”: នៅផ្ទះ (neuv phtéah), “at home”. French « maison » is feminine; « à la maison » means “at home”.",
         "km": "« maison » ជានាមភេទស្រី៖ la maison។ « à la maison » មានន័យថា នៅផ្ទះ។ ភាសាអង់គ្លេស៖ « house » ឬ « home »។"
       },
       "example": {"fr": "Notre maison est grande.", "en": "Our house is big.", "km": "ផ្ទះរបស់យើងធំ។", "tr": "phtéah ro-bâh yeung thom."}
@@ -21,6 +23,7 @@
       "fr": "la chambre", "en": "bedroom", "km": "បន្ទប់គេង", "tr": "bân-toup kéng", "pos": "nom",
       "note": {
         "fr": "បន្ទប់ (bân-toup) désigne toute pièce ; on précise ensuite sa fonction : បន្ទប់គេង, « pièce pour dormir » ; បន្ទប់ទឹក (bân-toup teuk), la salle de bain.",
+        "en": "បន្ទប់ (bân-toup) means any room; its use comes next: បន្ទប់គេង, “room for sleeping”; បន្ទប់ទឹក (bân-toup teuk), the bathroom. French « chambre » is feminine.",
         "km": "« chambre » ជានាមភេទស្រី៖ la chambre។ អក្សរ « ch » អានដូច « sh » ក្នុងភាសាអង់គ្លេស។ ភាសាអង់គ្លេស៖ « bedroom »។"
       },
       "example": {"fr": "Je suis dans la chambre.", "en": "I am in the bedroom.", "km": "ខ្ញុំនៅក្នុងបន្ទប់គេង។", "tr": "khgnom neuv knong bân-toup kéng."}
@@ -29,6 +32,7 @@
       "fr": "la porte", "en": "door", "km": "ទ្វារ", "tr": "tvéa", "pos": "nom",
       "note": {
         "fr": "Le រ final ne se prononce pas : tvéa. បិទ (bet) signifie « fermer ».",
+        "en": "The final រ is silent: tvéa. បិទ (bet) means “to close”. French « porte » is feminine: la porte.",
         "km": "« porte » ជានាមភេទស្រី៖ la porte។ អក្សរ e ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « door »។"
       },
       "example": {"fr": "La porte est fermée.", "en": "The door is closed.", "km": "ទ្វារបិទហើយ។", "tr": "tvéa bet haeuy."}
@@ -37,6 +41,7 @@
       "fr": "la table", "en": "table", "km": "តុ", "tr": "tok", "pos": "nom",
       "note": {
         "fr": "Mot très court, d'une seule syllabe. Sur la table : នៅលើតុ (neuv leu tok).",
+        "en": "A very short word, a single syllable. On the table: នៅលើតុ (neuv leu tok). French « table » is feminine and spelled as in English.",
         "km": "« table » សរសេរដូចគ្នាទាំងភាសាបារាំង និងអង់គ្លេស ប៉ុន្តែអានខុសគ្នា។ ជានាមភេទស្រី៖ la table។"
       },
       "example": {"fr": "Le café est sur la table.", "en": "The coffee is on the table.", "km": "កាហ្វេនៅលើតុ។", "tr": "ka-fé neuv leu tok."}
@@ -45,6 +50,7 @@
       "fr": "la chaise", "en": "chair", "km": "កៅអី", "tr": "kav-ey", "pos": "nom",
       "note": {
         "fr": "Deux syllabes : kav-ey. Pour compter des objets, le nombre suit simplement le nom : កៅអីពីរ, « deux chaises ».",
+        "en": "Two syllables: kav-ey. To count objects, the number simply follows the noun: កៅអីពីរ, “two chairs”. French « chaise » sounds like “shez”.",
         "km": "« chaise » ជានាមភេទស្រី៖ la chaise។ ភាសាអង់គ្លេស៖ « chair »។"
       },
       "example": {"fr": "Nous avons six chaises.", "en": "We have six chairs.", "km": "យើងមានកៅអីប្រាំមួយ។", "tr": "yeung méan kav-ey pram-mouy."}
@@ -53,6 +59,7 @@
       "fr": "le lit", "en": "bed", "km": "គ្រែ", "tr": "krè", "pos": "nom",
       "note": {
         "fr": "Une seule syllabe : krè. Aller se coucher se dit ចូលគេង (tchôl kéng), mot à mot « entrer dormir ».",
+        "en": "A single syllable: krè. Going to bed is ចូលគេង (tchôl kéng), word for word “enter sleep”. French « lit » sounds like “lee”: the t is silent.",
         "km": "« lit » ជានាមភេទប្រុស៖ le lit។ អក្សរ t ចុងពាក្យមិនអានទេ៖ អានថា « លី »។ ភាសាអង់គ្លេស៖ « bed »។"
       },
       "example": {"fr": "Le lit est dans la chambre.", "en": "The bed is in the bedroom.", "km": "គ្រែនៅក្នុងបន្ទប់គេង។", "tr": "krè neuv knong bân-toup kéng."}
@@ -61,34 +68,34 @@
   "expressions": [
     {
       "fr": "Bienvenue chez nous !", "en": "Welcome to our home!", "km": "សូមស្វាគមន៍មកកាន់ផ្ទះរបស់យើង!", "tr": "sôm sva-kom mok kan phtéah ro-bâh yeung !",
-      "note": {"fr": "សូមស្វាគមន៍ (sôm sva-kom) signifie « bienvenue » ; មកកាន់ (mok kan), « en venant à ».", "km": "« Bienvenue » ប្រើសម្រាប់ទទួលភ្ញៀវ។ « chez nous » មានន័យថា នៅផ្ទះរបស់យើង។"}
+      "note": {"fr": "សូមស្វាគមន៍ (sôm sva-kom) signifie « bienvenue » ; មកកាន់ (mok kan), « en venant à ».", "en": "សូមស្វាគមន៍ (sôm sva-kom) means “welcome”; មកកាន់ (mok kan), “coming to”. In French, « chez nous » means “at our place”.", "km": "« Bienvenue » ប្រើសម្រាប់ទទួលភ្ញៀវ។ « chez nous » មានន័យថា នៅផ្ទះរបស់យើង។"}
     },
     {
       "fr": "Entrez, asseyez-vous.", "en": "Come in, have a seat.", "km": "អញ្ជើញចូល អញ្ជើញអង្គុយ។", "tr": "agn-tcheugn tchôl, agn-tcheugn âng-kouy.",
-      "note": {"fr": "អញ្ជើញ (agn-tcheugn) invite poliment à faire quelque chose ; អង្គុយ (âng-kouy), s'asseoir.", "km": "ប្រយោគគួរសមសម្រាប់ភ្ញៀវ។ ជាមួយមិត្តភក្តិ គេនិយាយថា « Entre, assieds-toi »។"}
+      "note": {"fr": "អញ្ជើញ (agn-tcheugn) invite poliment à faire quelque chose ; អង្គុយ (âng-kouy), s'asseoir.", "en": "អញ្ជើញ (agn-tcheugn) politely invites someone to do something; អង្គុយ (âng-kouy), to sit. French « Asseyez-vous » is polite; « Assieds-toi » is familiar.", "km": "ប្រយោគគួរសមសម្រាប់ភ្ញៀវ។ ជាមួយមិត្តភក្តិ គេនិយាយថា « Entre, assieds-toi »។"}
     },
     {
       "fr": "Je rentre à la maison.", "en": "I am going home.", "km": "ខ្ញុំទៅផ្ទះវិញ។", "tr": "khgnom teuv phtéah vign.",
-      "note": {"fr": "វិញ (vign) en fin de phrase exprime le retour : ទៅផ្ទះវិញ, « retourner à la maison ».", "km": "« rentrer » មានន័យថា ត្រឡប់ទៅផ្ទះវិញ។ ភាសាអង់គ្លេស៖ « I am going home »។"}
+      "note": {"fr": "វិញ (vign) en fin de phrase exprime le retour : ទៅផ្ទះវិញ, « retourner à la maison ».", "en": "វិញ (vign) at the end expresses a return: ទៅផ្ទះវិញ, “go back home”. In French, « rentrer » means “to go back home”.", "km": "« rentrer » មានន័យថា ត្រឡប់ទៅផ្ទះវិញ។ ភាសាអង់គ្លេស៖ « I am going home »។"}
     },
     {
       "fr": "Ouvre la porte, s'il te plaît.", "en": "Open the door, please.", "km": "សូមបើកទ្វារផង។", "tr": "sôm baeuk tvéa phâng.",
-      "note": {"fr": "បើក (baeuk), ouvrir. ផង (phâng) en fin de demande la rend plus douce.", "km": "« ouvrir » មានន័យថា បើក។ ពាក្យផ្ទុយគឺ « fermer » មានន័យថា បិទ។"}
+      "note": {"fr": "បើក (baeuk), ouvrir. ផង (phâng) en fin de demande la rend plus douce.", "en": "បើក (baeuk), to open. ផង (phâng) at the end of a request makes it gentler. French « Ouvre » is familiar; « Ouvrez » is polite.", "km": "« ouvrir » មានន័យថា បើក។ ពាក្យផ្ទុយគឺ « fermer » មានន័យថា បិទ។"}
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Faire visiter la maison", "km": "ពេលនាំភ្ញៀវមើលផ្ទះ"},
+      "situation": {"fr": "Faire visiter la maison", "en": "Showing someone around the house", "km": "ពេលនាំភ្ញៀវមើលផ្ទះ"},
       "fr": "Voici notre chambre.", "en": "This is our bedroom.",
       "km": "នេះជាបន្ទប់គេងរបស់យើង។", "tr": "nih tchéa bân-toup kéng ro-bâh yeung."
     },
     {
-      "situation": {"fr": "Chercher quelque chose", "km": "ពេលរកអ្វីមួយ"},
+      "situation": {"fr": "Chercher quelque chose", "en": "Looking for something", "km": "ពេលរកអ្វីមួយ"},
       "fr": "Le téléphone est sur la table.", "en": "The phone is on the table.",
       "km": "ទូរស័ព្ទនៅលើតុ។", "tr": "tou-ro-sap neuv leu tok."
     },
     {
-      "situation": {"fr": "Décrire une pièce", "km": "ពេលរៀបរាប់អំពីបន្ទប់"},
+      "situation": {"fr": "Décrire une pièce", "en": "Describing a room", "km": "ពេលរៀបរាប់អំពីបន្ទប់"},
       "fr": "Dans la chambre, il y a une table et deux chaises.", "en": "In the bedroom, there is a table and two chairs.",
       "km": "នៅក្នុងបន្ទប់គេង មានតុមួយ និងកៅអីពីរ។", "tr": "neuv knong bân-toup kéng, méan tok mouy ning kav-ey pi."
     }

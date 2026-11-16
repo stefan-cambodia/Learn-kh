@@ -105,7 +105,7 @@ class ThreeLessonsTest(unittest.TestCase):
                 self.assertNotIn("{", entry["fr"] + entry["en"] + entry["km"], "variables remplacées par les prénoms")
             self.assertEqual(content["quality"]["errors"], 0)
             for entry in content["vocabulary"]:
-                self.assertTrue(entry["pos"] and entry["note"]["fr"] and entry["note"]["km"])
+                self.assertTrue(entry["pos"] and entry["note"]["fr"] and entry["note"]["en"] and entry["note"]["km"])
 
     def test_04_khmer_is_rendered_with_embedded_unicode_font(self):
         html = self.project.page(1)
@@ -265,7 +265,7 @@ class ThreeLessonsTest(unittest.TestCase):
         self.assertIn("recall-list", self.project.page(2))
         reviewed = words[0]["vocab_id"]
         rows = self.project.query("SELECT * FROM learner_progress WHERE vocabulary_id = ?", (reviewed,))
-        self.assertEqual({r["learner"] for r in rows}, {"A", "B"}, "un suivi par apprenant")
+        self.assertEqual({r["learner"] for r in rows}, {"fr", "en", "km"}, "un suivi par profil")
         for row in rows:
             self.assertEqual(row["introduced_on"], DAYS[0])
             self.assertEqual(row["last_review"], DAYS[1])
@@ -273,7 +273,7 @@ class ThreeLessonsTest(unittest.TestCase):
             self.assertEqual(row["review_count"], 1)
             self.assertGreater(row["mastery_score"], 0)
         vocabulary = self.project.scalar("SELECT COUNT(*) FROM vocabulary")
-        self.assertEqual(self.project.scalar("SELECT COUNT(*) FROM learner_progress"), 2 * vocabulary)
+        self.assertEqual(self.project.scalar("SELECT COUNT(*) FROM learner_progress"), 3 * vocabulary)
         self.assertEqual(self.project.scalar("SELECT COUNT(*) FROM lesson_vocabulary WHERE is_new = 1"), vocabulary,
                          "un mot n'est présenté comme nouveau qu'une seule fois")
         self.assertTrue(all(q["source"] == "review" for q in second["review"]["questions"]))
@@ -312,9 +312,9 @@ class ThreeLessonsTest(unittest.TestCase):
         self.assertTrue(any(n.startswith("fr-kh-learning/audio/km-KH/") for n in names))
         self.assertFalse(any(".env" in n or "learning.db" in n or "config.json" in n for n in names))
 
-        self.assertIn("est marqué comme acquis", run("progress", "master", "--learner", "A", "--word", "merci").stdout)
+        self.assertIn("est marqué comme acquis", run("progress", "master", "--learner", "km", "--word", "merci").stdout)
         row = self.project.query("SELECT p.* FROM learner_progress p JOIN vocabulary v ON v.id = p.vocabulary_id "
-                                 "WHERE v.french_text = 'merci' AND p.learner = 'A'")[0]
+                                 "WHERE v.french_text = 'merci' AND p.learner = 'km'")[0]
         self.assertIsNone(row["next_review"])
         self.assertEqual(row["mastery_score"], 1)
         self.assertIn("sera revu dès demain", run("progress", "forget", "--learner", "both", "--word", "merci").stdout)
@@ -349,7 +349,7 @@ class ThreeLessonsTest(unittest.TestCase):
         exported = self.project.dir / "lecon-2.json"
         self.project.run("lesson", "export", "2", str(exported))
         payload = json.loads(exported.read_text(encoding="utf-8"))
-        payload["sentences"][0]["en"] = "Hello, my name is Dominique and I am very happy."
+        payload["sentences"][0]["en"] = "Hello, my name is Alex and I am very happy."
         exported.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
         self.project.run("lesson", "import", str(exported))
         self.assertIn("I am very happy.", self.project.page(2))
@@ -394,7 +394,7 @@ class InterruptionTest(unittest.TestCase):
         self.assertEqual((rows[0]["lesson_number"], rows[0]["status"], rows[0]["audio_missing"]), (1, "complete", 0))
         self.assertTrue((self.project.dir / "lessons" / "lesson-001.html").is_file())
         self.assertEqual(self.project.scalar("SELECT COUNT(*) FROM vocabulary"), vocabulary, "pas de vocabulaire en double")
-        self.assertEqual(self.project.scalar("SELECT COUNT(*) FROM learner_progress"), 2 * vocabulary)
+        self.assertEqual(self.project.scalar("SELECT COUNT(*) FROM learner_progress"), 3 * vocabulary)
 
         calls = self.project.calls()
         for item in calls[:9]:

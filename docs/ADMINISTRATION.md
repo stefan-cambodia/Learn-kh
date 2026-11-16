@@ -53,9 +53,10 @@ fichier est écrit à part, contrôlé, puis mis en place d'un seul coup.
 | --- | --- |
 | `stats` | leçons publiées, mots appris, **appels TTS effectués**, **audios réutilisés depuis le cache**, **volume de la bibliothèque audio**, progression (`--json` pour une sortie exploitable) |
 | `check` | vérification générale : configuration, clés, base, programme, pages, audio, fonctionnement hors ligne, absence de clé dans le site, planification (`--deep` pour un contrôle audio approfondi) |
-| `progress show` | maîtrise par apprenant et prochaines révisions |
-| `progress forget --learner A --word "merci"` | remet un mot à zéro : il sera revu dès demain |
-| `progress master --learner B --word "merci"` | marque un mot comme acquis : il ne sera plus proposé |
+| `progress show` | maîtrise par profil (fr, en, km) et prochaines révisions |
+| `progress forget --learner km --word "merci"` | remet un mot à zéro : il sera revu dès demain (`--learner all` : tous les profils) |
+| `progress master --learner fr --word "merci"` | marque un mot comme acquis : il ne sera plus proposé |
+| `content refresh` | reporte les unités modifiées (explications, dialogues, prénoms des personnages) dans les leçons déjà générées |
 | `backup` | sauvegarde immédiate de la base dans `database/backups/` |
 | `schedule show` / `install` / `remove` | planification quotidienne |
 | `serve` | petit serveur web local (`--host 0.0.0.0` pour un téléphone du même réseau) |

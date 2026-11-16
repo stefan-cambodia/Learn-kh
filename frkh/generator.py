@@ -87,7 +87,7 @@ def _entry_from_row(row) -> dict:
         "vocab_id": row["id"], "kind": row["kind"],
         "fr": row["french_text"], "en": row["english_text"], "km": row["khmer_text"],
         "tr": row["transliteration"] or "", "pos": row["category"] or "",
-        "note": {"fr": row["explanation_fr"] or "", "km": row["explanation_km"] or ""},
+        "note": {"fr": row["explanation_fr"] or "", "en": row["explanation_en"] or "", "km": row["explanation_km"] or ""},
     }
     if row["example_json"]:
         entry["example"] = json.loads(row["example_json"])
@@ -231,7 +231,7 @@ class LessonService:
         return words, expressions, sentences
 
     def _from_unit(self, raw_unit: dict, day: str, number: int, lesson_id: int) -> dict:
-        unit = personalize_tree({k: v for k, v in raw_unit.items() if not k.startswith("_")}, self.config["learners"])
+        unit = personalize_tree({k: v for k, v in raw_unit.items() if not k.startswith("_")}, self.config.characters())
         n_words, n_expressions, n_sentences = self._counts(unit)
         content = {
             "version": CONTENT_VERSION, "number": number, "date": day, "kind": "unit",
@@ -352,10 +352,11 @@ class LessonService:
         note = entry.get("note") or {}
         cur = self.conn.execute(
             "INSERT INTO vocabulary(vocab_key, kind, french_text, english_text, khmer_text, transliteration, category, "
-            "explanation_fr, explanation_km, example_json, uncertain, uncertain_note, unit_id, first_lesson_id, created_at) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "explanation_fr, explanation_en, explanation_km, example_json, uncertain, uncertain_note, unit_id, first_lesson_id, "
+            "created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (key, kind, entry["fr"], entry["en"], entry["km"], entry.get("tr", ""),
-             entry.get("pos") or ("expression" if kind == "expression" else ""), note.get("fr", ""), note.get("km", ""),
+             entry.get("pos") or ("expression" if kind == "expression" else ""), note.get("fr", ""), note.get("en", ""),
+             note.get("km", ""),
              json.dumps(entry["example"], ensure_ascii=False) if entry.get("example") else None,
              1 if entry.get("uncertain") else 0, entry.get("uncertain_note"), unit_id, lesson_id, db.utcnow()))
         return cur.lastrowid, True

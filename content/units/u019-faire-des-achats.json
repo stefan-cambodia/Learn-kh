@@ -6,6 +6,7 @@
   "title": {"fr": "Faire des achats", "en": "Shopping", "km": "ការទិញឥវ៉ាន់"},
   "tip": {
     "fr": "Au Cambodge, on paie aussi bien en riels qu'en dollars : un dollar vaut environ quatre mille riels (បួនពាន់រៀល). La monnaie est souvent rendue en riels.",
+    "en": "In Cambodia, you can pay in riels or in dollars: one dollar is worth about four thousand riels (បួនពាន់រៀល). Change is often given in riels.",
     "km": "នៅបារាំង តម្លៃក្នុងហាងមានសរសេរជាប់នឹងទំនិញ ហើយគេមិនតថ្លៃទេ។ ពេលចូលហាង គេនិយាយ « Bonjour » ហើយពេលចេញ គេនិយាយ « Merci, au revoir »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "le magasin", "en": "shop", "km": "ហាង", "tr": "hang", "pos": "nom",
       "note": {
         "fr": "ហាង se combine avec ce que l'on y trouve : ហាងកាហ្វេ (un café), ហាងខោអាវ (un magasin de vêtements).",
+        "en": "ហាង combines with what it sells: ហាងកាហ្វេ (a café), ហាងខោអាវ (a clothes shop). French « magasin » is masculine; a small shop is « une boutique ».",
         "km": "« magasin » ជានាមភេទប្រុស៖ le magasin។ ហាងតូចហៅថា « la boutique »។ អង់គ្លេស៖ « shop » ឬ « store »។"
       },
       "example": {"fr": "Ce magasin ouvre à huit heures.", "en": "This shop opens at eight o'clock.", "km": "ហាងនេះបើកម៉ោងប្រាំបី។", "tr": "hang nih baeuk maong pram-bey."}
@@ -21,6 +23,7 @@
       "fr": "l'argent", "en": "money", "km": "លុយ", "tr": "louy", "pos": "nom",
       "note": {
         "fr": "Mot de tous les jours ; ប្រាក់ (prak) est plus soigné. អត់មានលុយទេ = « je n'ai pas d'argent ».",
+        "en": "The everyday word; ប្រាក់ (prak) is more formal. អត់មានលុយទេ = “I have no money”. French « argent » also means “silver”.",
         "km": "« argent » ជានាមភេទប្រុស៖ l'argent, de l'argent។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេស៖ « money »។"
       },
       "example": {"fr": "Je n'ai pas d'argent aujourd'hui.", "en": "I have no money today.", "km": "ថ្ងៃនេះខ្ញុំអត់មានលុយទេ។", "tr": "thngay nih khgnom ât méan louy té."}
@@ -29,6 +32,7 @@
       "fr": "payer", "en": "to pay", "km": "បង់លុយ", "tr": "bâng louy", "pos": "verbe",
       "note": {
         "fr": "បង់ (bâng) = « verser, payer » ; plus soigné : បង់ប្រាក់. Pour dire « c'est moi qui invite » : ខ្ញុំចេញលុយ (khgnom tchégn louy).",
+        "en": "បង់ (bâng) = “to pay”; more formal: បង់ប្រាក់. To say “it's on me”: ខ្ញុំចេញលុយ (khgnom tchégn louy). French « payer »: je paie.",
         "km": "« payer »៖ je paie, nous payons។ អង់គ្លេស៖ « pay » ហើយអតីតកាលគឺ « paid »។"
       },
       "example": {"fr": "Je peux payer en dollars ?", "en": "Can I pay in dollars?", "km": "បង់លុយជាដុល្លារបានទេ?", "tr": "bâng louy tchéa dol-la ban té ?"}
@@ -39,6 +43,7 @@
       "uncertain_note": "ទំហំ est correct mais général (dimension). Pour les vêtements, on entend aussi ខ្នាត, លេខ ou l'emprunt សាយ : vérifier lequel est le plus naturel à l'oral.",
       "note": {
         "fr": "Mot général pour la taille ou la dimension d'une chose. Au marché, il suffit souvent de dire ធំជាងនេះ (plus grand que ça) ou តូចជាងនេះ (plus petit que ça).",
+        "en": "A general word for the size or dimension of a thing. At the market, it is often enough to say ធំជាងនេះ (bigger than this) or តូចជាងនេះ (smaller than this). French « taille » is feminine.",
         "km": "« taille » ជានាមភេទស្រី៖ la taille។ សម្រាប់ស្បែកជើង បារាំងប្រើពាក្យ « la pointure »។ អង់គ្លេស៖ « size »។"
       },
       "example": {"fr": "Vous avez une taille plus grande ?", "en": "Do you have a bigger size?", "km": "មានទំហំធំជាងនេះទេ?", "tr": "méan toum-hom thom tchéang nih té ?"}
@@ -47,6 +52,7 @@
       "fr": "essayer", "en": "to try", "km": "សាកល្បង", "tr": "sak-lbâng", "pos": "verbe",
       "note": {
         "fr": "Verbe général : essayer, tester. À l'oral, on le raccourcit en សាក (sak) ; pour un vêtement, on dit aussi ល (lo), « essayer sur soi ».",
+        "en": "A general verb: to try, to test. In speech, it is shortened to សាក (sak); for clothes, people also say ល (lo), “to try on”. French « essayer »: j'essaie.",
         "km": "« essayer »៖ j'essaie, nous essayons។ សម្រាប់ខោអាវ អង់គ្លេសនិយាយ « to try on »។"
       },
       "example": {"fr": "Tu veux essayer ?", "en": "Do you want to try?", "km": "ចង់សាកល្បងទេ?", "tr": "tchâng sak-lbâng té ?"}
@@ -55,6 +61,7 @@
       "fr": "les vêtements", "en": "clothes", "km": "ខោអាវ", "tr": "khao-av", "pos": "nom",
       "note": {
         "fr": "Mot à mot « pantalon-haut » : ខោ (khao) est le pantalon, អាវ (av) le vêtement du haut, chemise ou tee-shirt.",
+        "en": "Word for word “trousers-top”: ខោ (khao) is trousers, អាវ (av) the top, shirt or T-shirt. French « vêtements » is masculine plural.",
         "km": "« vêtements » ជានាមពហុវចនៈ ភេទប្រុស៖ les vêtements។ អង់គ្លេស « clothes » ក៏ជាពហុវចនៈជានិច្ចដែរ។"
       },
       "example": {"fr": "Je veux acheter des vêtements.", "en": "I want to buy some clothes.", "km": "ខ្ញុំចង់ទិញខោអាវ។", "tr": "khgnom tchâng tign khao-av."}
@@ -65,6 +72,7 @@
       "fr": "Je regarde seulement, merci.", "en": "I am just looking, thank you.", "km": "ខ្ញុំគ្រាន់តែមើលទេ អរគុណ។", "tr": "khgnom kroan-taè meul té, â-koun.",
       "note": {
         "fr": "គ្រាន់តែ … ទេ = « seulement, juste ». Ici, ទេ ne nie rien : il renforce l'idée de « seulement ».",
+        "en": "គ្រាន់តែ … ទេ = “only, just”. Here, ទេ negates nothing: it reinforces “only”. French: « Je regarde seulement ».",
         "km": "និយាយពេលអ្នកលក់សួរ ប៉ុន្តែយើងមិនទាន់ចង់ទិញ។ អង់គ្លេស៖ « I am just looking »។"
       }
     },
@@ -72,6 +80,7 @@
       "fr": "Je peux l'essayer ?", "en": "Can I try it on?", "km": "សុំសាកមើលបានទេ?", "tr": "som sak meul ban té ?",
       "note": {
         "fr": "សាកមើល = « essayer pour voir ». Pour un vêtement, on entend aussi សុំលមើល (som lo meul).",
+        "en": "សាកមើល = “try and see”. For clothes, you also hear សុំលមើល (som lo meul). French « l' » stands for the item: je peux l'essayer.",
         "km": "« l' » ជំនួសរបស់ដែលយើងចង់សាក។ អង់គ្លេស៖ « Can I try it on? »។"
       }
     },
@@ -79,6 +88,7 @@
       "fr": "Vous avez une autre couleur ?", "en": "Do you have another color?", "km": "មានពណ៌ផ្សេងទេ?", "tr": "méan poa phséng té ?",
       "note": {
         "fr": "ផ្សេង (phséng) = « autre, différent », placé après le nom.",
+        "en": "ផ្សេង (phséng) = “other, different”, placed after the noun. French « autre » goes before the noun: une autre couleur.",
         "km": "« autre » នៅពីមុខនាម៖ une autre couleur។ អង់គ្លេស៖ « another color »។"
       }
     },
@@ -86,23 +96,24 @@
       "fr": "C'est trop petit.", "en": "It is too small.", "km": "តូចពេក។", "tr": "tôtch pék.",
       "note": {
         "fr": "Adjectif + ពេក = « trop ». Le contraire : ធំពេក (thom pék), « trop grand ».",
+        "en": "Adjective + ពេក = “too”. The opposite: ធំពេក (thom pék), “too big”. French « trop » goes before the adjective: trop grand.",
         "km": "« trop » នៅពីមុខគុណនាម៖ trop petit, trop grand, trop cher។ អង់គ្លេស៖ « too small »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Dans un magasin de vêtements", "km": "នៅហាងខោអាវ"},
+      "situation": {"fr": "Dans un magasin de vêtements", "en": "In a clothes shop", "km": "នៅហាងខោអាវ"},
       "fr": "Vous avez cette chemise en bleu ?", "en": "Do you have this shirt in blue?",
       "km": "អាវនេះមានពណ៌ខៀវទេ?", "tr": "av nih méan poa khiev té ?"
     },
     {
-      "situation": {"fr": "Au moment de payer", "km": "ពេលបង់លុយ"},
+      "situation": {"fr": "Au moment de payer", "en": "Paying", "km": "ពេលបង់លុយ"},
       "fr": "Ça fait combien en tout ? Je paie en riels.", "en": "How much is it altogether? I will pay in riel.",
       "km": "ទាំងអស់ថ្លៃប៉ុន្មាន? ខ្ញុំបង់ជាលុយរៀល។", "tr": "téang âh thlay pon-man ? khgnom bâng tchéa louy riel."
     },
     {
-      "situation": {"fr": "Hésiter", "km": "ពេលមិនទាន់សម្រេចចិត្ត"},
+      "situation": {"fr": "Hésiter", "en": "Hesitating", "km": "ពេលមិនទាន់សម្រេចចិត្ត"},
       "fr": "C'est très joli, mais c'est trop cher pour moi.", "en": "It is very pretty, but it is too expensive for me.",
       "km": "ស្អាតណាស់ ប៉ុន្តែថ្លៃពេកសម្រាប់ខ្ញុំ។", "tr": "s'at nah, pon-taè thlay pék sâm-rap khgnom."
     }

@@ -6,6 +6,7 @@
   "title": {"fr": "Le temps qu'il fait", "en": "The weather", "km": "អាកាសធាតុ"},
   "tip": {
     "fr": "En khmer, pas de « il » impersonnel : on dit simplement ក្តៅ (kdav), « chaud », pour « il fait chaud », et មេឃភ្លៀង (mék phlieng), « le ciel pleut », pour « il pleut ». Le Cambodge a deux saisons : la saison sèche, រដូវប្រាំង (ro-deuv prang), et la saison des pluies, រដូវភ្លៀង (ro-deuv phlieng).",
+    "en": "Khmer has no impersonal “it”: just say ក្តៅ (kdav), “hot”, for “it's hot”, and មេឃភ្លៀង (mék phlieng), “the sky rains”, for “it's raining”. Cambodia has two seasons: the dry season, រដូវប្រាំង (ro-deuv prang), and the rainy season, រដូវភ្លៀង (ro-deuv phlieng). French uses « il fait » for the weather: il fait chaud.",
     "km": "ភាសាបារាំងប្រើ « il fait » ដើម្បីនិយាយពីអាកាសធាតុ៖ « il fait chaud » (ក្តៅ), « il fait froid » (ត្រជាក់)។ ពេលភ្លៀង គេនិយាយថា « il pleut »។ អង់គ្លេសប្រើ « it is »៖ « it is hot », « it is raining »។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "chaud", "en": "hot", "km": "ក្តៅ", "tr": "kdav", "pos": "adjectif",
       "note": {
         "fr": "ក្តៅ s'emploie pour le temps, un plat ou une boisson. « J'ai chaud » se dit simplement ខ្ញុំក្តៅ (khgnom kdav).",
+        "en": "ក្តៅ is used for the weather, a dish or a drink. “I'm hot” is simply ខ្ញុំក្តៅ (khgnom kdav). French: « il fait chaud », but « j'ai chaud » for a person.",
         "km": "សម្រាប់អាកាសធាតុ គេនិយាយថា « il fait chaud »។ ភេទស្រីសរសេរថា « chaude »។ អង់គ្លេស៖ « hot »។"
       },
       "example": {"fr": "Aujourd'hui, il fait très chaud.", "en": "Today, it is very hot.", "km": "ថ្ងៃនេះក្តៅណាស់។", "tr": "thngay nih kdav nah."}
@@ -21,6 +23,7 @@
       "fr": "froid", "en": "cold", "km": "ត្រជាក់", "tr": "trâ-tchéak", "pos": "adjectif",
       "note": {
         "fr": "ត្រជាក់ veut dire froid ou frais, pour le temps comme pour une boisson. « J'ai froid » se dit ខ្ញុំរងា (khgnom ro-ngéa).",
+        "en": "ត្រជាក់ means cold or cool, for the weather as well as for a drink. “I'm cold” is ខ្ញុំរងា (khgnom ro-ngéa). French « froid »: il fait froid, j'ai froid.",
         "km": "អក្សរ d ចុងពាក្យ « froid » មិនអានទេ។ « J'ai froid » មានន័យថា ខ្ញុំរងា។ អង់គ្លេស៖ « cold »។"
       },
       "example": {"fr": "Le matin, il fait froid.", "en": "In the morning, it is cold.", "km": "ពេលព្រឹកត្រជាក់។", "tr": "pél preuk trâ-tchéak."}
@@ -29,6 +32,7 @@
       "fr": "la pluie", "en": "rain", "km": "ភ្លៀង", "tr": "phlieng", "pos": "nom",
       "note": {
         "fr": "ភ្លៀង est à la fois le nom « pluie » et le verbe « pleuvoir ». On dit souvent មេឃភ្លៀង (mék phlieng), mot à mot « le ciel pleut ».",
+        "en": "ភ្លៀង is both the noun “rain” and the verb “to rain”. People often say មេឃភ្លៀង (mék phlieng), word for word “the sky rains”. French: « la pluie », and « il pleut ».",
         "km": "« pluie » ជានាមភេទស្រី៖ la pluie។ កិរិយាសព្ទគឺ « pleuvoir »៖ « il pleut » មានន័យថា មេឃភ្លៀង។ អង់គ្លេស៖ « rain », « it is raining »។"
       },
       "example": {"fr": "Il pleut beaucoup aujourd'hui.", "en": "It is raining a lot today.", "km": "ថ្ងៃនេះភ្លៀងខ្លាំងណាស់។", "tr": "thngay nih phlieng khlang nah."}
@@ -37,6 +41,7 @@
       "fr": "le soleil", "en": "sun", "km": "ព្រះអាទិត្យ", "tr": "préah a-teut", "pos": "nom",
       "note": {
         "fr": "ព្រះអាទិត្យ est le mot soigné. Dans la conversation, on dit souvent ថ្ងៃ (thngay), qui veut aussi dire « jour » : ថ្ងៃក្តៅ, « le soleil tape ».",
+        "en": "ព្រះអាទិត្យ is the formal word. In conversation, people often say ថ្ងៃ (thngay), which also means “day”: ថ្ងៃក្តៅ, “the sun is beating down”. French « soleil » is masculine.",
         "km": "« soleil » ជានាមភេទប្រុស៖ le soleil។ « Il y a du soleil » មានន័យថា មានថ្ងៃ។ អង់គ្លេស៖ « sun », « it is sunny »។"
       },
       "example": {"fr": "Le soleil se lève le matin.", "en": "The sun rises in the morning.", "km": "ព្រះអាទិត្យរះនៅពេលព្រឹក។", "tr": "préah a-teut réah neuv pél preuk."}
@@ -45,6 +50,7 @@
       "fr": "le vent", "en": "wind", "km": "ខ្យល់", "tr": "khyâl", "pos": "nom",
       "note": {
         "fr": "ខ្យល់ désigne le vent et aussi l'air. Un vent fort : ខ្យល់ខ្លាំង (khyâl khlang).",
+        "en": "ខ្យល់ means wind and also air. A strong wind: ខ្យល់ខ្លាំង (khyâl khlang). French: « il y a du vent », “it's windy”.",
         "km": "« vent » ជានាមភេទប្រុស៖ le vent។ អក្សរ t ចុងពាក្យមិនអានទេ។ « Il y a du vent » មានន័យថា មានខ្យល់។ អង់គ្លេស៖ « wind », « it is windy »។"
       },
       "example": {"fr": "Il y a beaucoup de vent aujourd'hui.", "en": "It is very windy today.", "km": "ថ្ងៃនេះខ្យល់ខ្លាំង។", "tr": "thngay nih khyâl khlang."}
@@ -53,6 +59,7 @@
       "fr": "la saison", "en": "season", "km": "រដូវ", "tr": "ro-deuv", "pos": "nom",
       "note": {
         "fr": "Deux saisons au Cambodge : រដូវប្រាំង (ro-deuv prang), la saison sèche, et រដូវភ្លៀង (ro-deuv phlieng), la saison des pluies, que l'on écrit aussi រដូវវស្សា.",
+        "en": "Two seasons in Cambodia: រដូវប្រាំង (ro-deuv prang), the dry season, and រដូវភ្លៀង (ro-deuv phlieng), the rainy season, also written រដូវវស្សា. French « saison » is feminine.",
         "km": "« saison » ជានាមភេទស្រី៖ la saison។ នៅប្រទេសបារាំងមានបួនរដូវ៖ le printemps, l'été, l'automne, l'hiver។ អង់គ្លេស៖ « season »។"
       },
       "example": {"fr": "Au Cambodge, il y a deux saisons.", "en": "In Cambodia, there are two seasons.", "km": "នៅប្រទេសកម្ពុជាមានរដូវពីរ។", "tr": "neuv prâ-téh kam-pou-tchéa méan ro-deuv pi."}
@@ -63,6 +70,7 @@
       "fr": "Quel temps fait-il ?", "en": "What is the weather like?", "km": "អាកាសធាតុយ៉ាងម៉េចដែរ?", "tr": "a-kah-théat yang métch daè ?",
       "note": {
         "fr": "អាកាសធាតុ (a-kah-théat) est le mot pour « le temps qu'il fait ». ដែរ en fin de question adoucit le ton.",
+        "en": "អាកាសធាតុ (a-kah-théat) is the word for “the weather”. ដែរ at the end of a question softens the tone. French « Quel temps fait-il ? » literally means “what weather does it make?”.",
         "km": "« Quel temps fait-il ? » ប្រើសម្រាប់សួរអំពីអាកាសធាតុ។ អង់គ្លេស៖ « What is the weather like? »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Il fait beau.", "en": "The weather is nice.", "km": "អាកាសធាតុល្អ។", "tr": "a-kah-théat l'â.",
       "note": {
         "fr": "Mot à mot « le temps est bon ». ល្អ (l'â) veut dire « bon, bien ».",
+        "en": "Word for word “the weather is good”. ល្អ (l'â) means “good, well”. French « beau » means “beautiful”, but « il fait beau » means “the weather is nice”.",
         "km": "« beau » មានន័យថា ស្អាត ប៉ុន្តែ « il fait beau » មានន័យថា អាកាសធាតុល្អ។ អង់គ្លេស៖ « The weather is nice »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Il va pleuvoir.", "en": "It is going to rain.", "km": "មេឃជិតភ្លៀងហើយ។", "tr": "mék tchit phlieng haeuy.",
       "note": {
         "fr": "Mot à mot « le ciel est près de pleuvoir ». ជិត (tchit), « près », sert aussi à dire qu'une chose est sur le point d'arriver.",
+        "en": "Word for word “the sky is near raining”. ជិត (tchit), “near”, also says something is about to happen. French « aller » + verb gives the near future: il va pleuvoir.",
         "km": "« il va » + កិរិយាសព្ទ ប្រើសម្រាប់រឿងដែលជិតកើតឡើង៖ « il va pleuvoir »។ អង់គ្លេស៖ « It is going to rain »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "N'oublie pas ton parapluie.", "en": "Don't forget your umbrella.", "km": "កុំភ្លេចយកឆ័ត្រ។", "tr": "kom phlétch yok tchhat.",
       "note": {
         "fr": "កុំ (kom) exprime l'interdiction, « ne… pas » : កុំភ្លេច, « n'oublie pas ». ឆ័ត្រ (tchhat) : le parapluie.",
+        "en": "កុំ (kom) expresses a ban, “don't”: កុំភ្លេច, “don't forget”. ឆ័ត្រ (tchhat): umbrella. French « parapluie » is masculine.",
         "km": "« N'oublie pas » មានន័យថា កុំភ្លេច។ « parapluie » ជានាមភេទប្រុស៖ le parapluie។ អង់គ្លេស៖ « umbrella »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "À la maison, à midi", "km": "នៅផ្ទះ ពេលថ្ងៃត្រង់"},
+      "situation": {"fr": "À la maison, à midi", "en": "At home, at noon", "km": "នៅផ្ទះ ពេលថ្ងៃត្រង់"},
       "fr": "Il fait chaud, je veux boire de l'eau fraîche.", "en": "It is hot, I want to drink cold water.",
       "km": "ក្តៅណាស់ ខ្ញុំចង់ផឹកទឹកត្រជាក់។", "tr": "kdav nah, khgnom tchâng pheuk teuk trâ-tchéak."
     },
     {
-      "situation": {"fr": "Avant de sortir", "km": "មុនពេលចេញពីផ្ទះ"},
+      "situation": {"fr": "Avant de sortir", "en": "Before going out", "km": "មុនពេលចេញពីផ្ទះ"},
       "fr": "Il pleut, nous prenons la voiture.", "en": "It is raining, we are taking the car.",
       "km": "ភ្លៀងហើយ យើងជិះឡានទៅ។", "tr": "phlieng haeuy, yeung tchih lan teuv."
     },
     {
-      "situation": {"fr": "En parlant des saisons", "km": "និយាយអំពីរដូវ"},
+      "situation": {"fr": "En parlant des saisons", "en": "Talking about the seasons", "km": "និយាយអំពីរដូវ"},
       "fr": "Pendant la saison des pluies, il pleut presque tous les jours.", "en": "During the rainy season, it rains almost every day.",
       "km": "នៅរដូវភ្លៀង ភ្លៀងស្ទើរតែរាល់ថ្ងៃ។", "tr": "neuv ro-deuv phlieng, phlieng steu-taè roal thngay."
     }

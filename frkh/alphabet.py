@@ -19,29 +19,45 @@ CARRIERS = ("ក", "គ")
 DOTTED_CIRCLE = "◌"
 PAGE = "alphabet.html"
 
+# Libellés : (français, anglais, khmer).
 LABELS = {
-    "title": ("Alphabets", "អក្សរ"),
-    "kicker": ("Module d'écriture", "ម៉ូឌុលអក្សរ"),
-    "subtitle": ("Lettres khmères et latines, avec leur prononciation",
+    "title": ("Alphabets", "Alphabets", "អក្សរ"),
+    "kicker": ("Module d'écriture", "Writing module", "ម៉ូឌុលអក្សរ"),
+    "subtitle": ("Lettres khmères et latines, avec leur prononciation", "Khmer and Latin letters, with their pronunciation",
                  "អក្សរខ្មែរ និងអក្សរឡាតាំង ព្រមទាំងការបញ្ចេញសំឡេង"),
-    "khmer": ("Alphabet khmer", "អក្សរខ្មែរ"),
-    "latin": ("Alphabet latin", "អក្សរឡាតាំង"),
-    "consonants": ("Les 33 consonnes", "ព្យញ្ជនៈ៣៣តួ"),
-    "vowels": ("Les voyelles", "ស្រៈ"),
-    "digits": ("Les chiffres", "លេខ"),
-    "letters": ("Les 26 lettres", "អក្សរ២៦តួ"),
-    "accents": ("Les accents du français", "សញ្ញាលើអក្សរបារាំង"),
-    "sounds": ("Sons à connaître", "សំឡេងពិសេស"),
-    "series1": ("1re série", "សំឡេងអ"),
-    "series2": ("2e série", "សំឡេងអូ"),
-    "rare": ("rare", "កម្រ"),
-    "nav": ("Alphabets", "អក្សរ"),
+    "khmer": ("Alphabet khmer", "Khmer alphabet", "អក្សរខ្មែរ"),
+    "latin": ("Alphabet latin", "Latin alphabet", "អក្សរឡាតាំង"),
+    "consonants": ("Les 33 consonnes", "The 33 consonants", "ព្យញ្ជនៈ៣៣តួ"),
+    "vowels": ("Les voyelles", "Vowels", "ស្រៈ"),
+    "digits": ("Les chiffres", "Digits", "លេខ"),
+    "letters": ("Les 26 lettres", "The 26 letters", "អក្សរ២៦តួ"),
+    "accents": ("Les accents du français", "French accents", "សញ្ញាលើអក្សរបារាំង"),
+    "sounds": ("Sons à connaître", "Sounds to know", "សំឡេងពិសេស"),
+    "series1": ("1re série", "1st series", "សំឡេងអ"),
+    "series2": ("2e série", "2nd series", "សំឡេងអូ"),
+    "rare": ("rare", "rare", "កម្រ"),
+    "nav": ("Alphabets", "Alphabets", "អក្សរ"),
 }
 
 
 def lbl(key: str) -> str:
-    from .render import bilingual
-    return bilingual(*LABELS[key])
+    from .render import multi
+    return multi(LABELS[key])
+
+
+def _notes(note: dict | None, css: str, fallback: bool = True) -> str:
+    """Explication dans la langue du profil (voir render.scoped_notes)."""
+    from .render import esc, scoped_notes
+    if fallback:
+        return scoped_notes(note, css=css)
+    return "".join(f'<p class="{css} for-{lang}" lang="{lang}">{esc(text)}</p>'
+                   for lang, text in (note or {}).items() if text)
+
+
+def _meanings(item: dict, css: str = "glyph-meaning", langs=("fr", "en")) -> str:
+    """Traduction d'un mot d'exemple, pour les profils dont c'est la langue."""
+    return "".join(f'<span class="{css} for-{lang}" lang="{lang}">{_esc(item[lang])}</span>'
+                   for lang in langs if item.get(lang))
 
 
 def data_path(paths) -> Path:
@@ -53,11 +69,11 @@ def load(config) -> dict | None:
     if not path.is_file():
         return None
     data = json.loads(path.read_text(encoding="utf-8"))
-    learners = config["learners"]
+    characters = config.characters()
     for part in ("khmer", "latin"):
         for key in ("intro", "vowels_intro"):
             if key in data.get(part, {}):
-                data[part][key] = personalize_tree(data[part][key], learners)
+                data[part][key] = personalize_tree(data[part][key], characters)
     return data
 
 
@@ -125,8 +141,7 @@ def _audio(renderer, text: str, lang: str) -> str:
 def _intro(intro: dict | None) -> str:
     if not intro:
         return ""
-    return (f'<aside class="tip"><p class="note for-b" lang="fr">{_esc(intro.get("fr", ""))}</p>'
-            f'<p class="note for-a" lang="km">{_esc(intro.get("km", ""))}</p></aside>')
+    return f'<aside class="tip">{_notes(intro, "note")}</aside>'
 
 
 def _block(anchor: str, title_key: str, body: str, intro: str = "") -> str:
@@ -143,11 +158,10 @@ def _consonants(renderer, khmer: dict) -> str:
             ex = c["example"]
             example = (f'<div class="glyph-example lang-km"><span class="glyph-word" lang="km">{_esc(ex["km"])}</span>'
                        f'<span class="translit">{_esc(ex["tr"])}</span>'
-                       f'<span class="glyph-meaning for-b" lang="fr">{_esc(ex["fr"])}</span>'
+                       f'{_meanings(ex)}'
                        f'{_audio(renderer, ex["km"], "km")}</div>')
         elif c.get("note"):
-            example = (f'<p class="glyph-note for-b" lang="fr">{_esc(c["note"].get("fr", ""))}</p>'
-                       f'<p class="glyph-note for-a" lang="km">{_esc(c["note"].get("km", ""))}</p>')
+            example = _notes(c["note"], "glyph-note")
         rare = f'<span class="badge badge-uncertain">{lbl("rare")}</span>' if c.get("note") and not c.get("example") else ""
         cards.append(
             f'<article class="glyph-card series-{series}">'
@@ -175,7 +189,7 @@ def _digits(renderer, khmer: dict) -> str:
         f'<article class="glyph-card glyph-digit"><div class="glyph-head"><span class="glyph" lang="km">{_esc(d["char"])}</span>'
         f'<span class="glyph-latin">{_esc(d["char"].translate(str.maketrans("០១២៣៤៥៦៧៨៩", "0123456789")))}</span></div>'
         f'<div class="glyph-example lang-km"><span class="glyph-word" lang="km">{_esc(d["km"])}</span>'
-        f'<span class="translit">{_esc(d["tr"])}</span><span class="glyph-meaning for-b" lang="fr">{_esc(d["fr"])}</span>'
+        f'<span class="translit">{_esc(d["tr"])}</span>{_meanings(d)}'
         f'{_audio(renderer, d["km"], "km")}</div></article>'
         for d in khmer.get("digits", []))
 
@@ -192,11 +206,10 @@ def _letters(renderer, latin: dict) -> str:
     for letter in latin.get("letters", []):
         examples = "".join(
             f'<div class="glyph-example lang-{ex["lang"]}"><span class="glyph-word" lang="{ex["lang"]}">{_esc(ex["word"])}</span>'
-            f'<span class="glyph-meaning" lang="km">{_esc(ex["km"])}</span>{_audio(renderer, ex["word"], ex["lang"])}</div>'
+            f'<span class="glyph-meaning" lang="km">{_esc(ex["km"])}</span>{_meanings(ex, langs=("en",))}'
+            f'{_audio(renderer, ex["word"], ex["lang"])}</div>'
             for ex in letter.get("examples", []))
-        note = ""
-        if letter.get("note", {}).get("km"):
-            note = f'<p class="glyph-note" lang="km">{_esc(letter["note"]["km"])}</p>'
+        note = _notes(letter.get("note"), "glyph-note", fallback=False)
         upper = letter["upper"]
         cards.append(
             f'<article class="glyph-card glyph-letter"><div class="glyph-head">'
@@ -209,9 +222,10 @@ def _accents(renderer, latin: dict) -> str:
     return "".join(
         f'<article class="glyph-card"><div class="glyph-head"><span class="glyph glyph-latin-big">{_esc(a["char"])}</span>'
         f'<span class="glyph-name lang-fr" lang="fr">{_esc(a["name"])}</span>{_audio(renderer, a["name"], "fr")}</div>'
-        f'<p class="glyph-note" lang="km">{_esc(a["note"]["km"])}</p>'
+        f'{_notes(a["note"], "glyph-note", fallback=False)}'
         f'<div class="glyph-example lang-fr"><span class="glyph-word" lang="fr">{_esc(a["example"]["word"])}</span>'
-        f'<span class="glyph-meaning" lang="km">{_esc(a["example"]["km"])}</span>{_audio(renderer, a["example"]["word"], "fr")}</div>'
+        f'<span class="glyph-meaning" lang="km">{_esc(a["example"]["km"])}</span>{_meanings(a["example"], langs=("en",))}'
+        f'{_audio(renderer, a["example"]["word"], "fr")}</div>'
         f'</article>'
         for a in latin.get("accents", []))
 
@@ -225,9 +239,9 @@ def _sounds(renderer, latin: dict) -> str:
             f'<span class="lang-tag" aria-hidden="true">{tag}</span>'
             f'<span class="glyph glyph-latin-big glyph-combo">{_esc(s["letters"])}</span>'
             f'<span class="glyph-approx" lang="km">{_esc(s["km"])}</span></div>'
-            f'<p class="glyph-note" lang="km">{_esc(s["note"]["km"])}</p>'
+            f'{_notes(s["note"], "glyph-note", fallback=False)}'
             f'<div class="glyph-example lang-{s["lang"]}"><span class="glyph-word" lang="{s["lang"]}">{_esc(s["example"]["word"])}</span>'
-            f'<span class="glyph-meaning" lang="km">{_esc(s["example"]["km"])}</span>'
+            f'<span class="glyph-meaning" lang="km">{_esc(s["example"]["km"])}</span>{_meanings(s["example"], langs=("en",))}'
             f'{_audio(renderer, s["example"]["word"], s["lang"])}</div></article>')
     return "".join(cards)
 
@@ -240,8 +254,7 @@ def render(renderer, data: dict | None) -> str | None:
     vowels_intro = ""
     if khmer.get("vowels_intro"):
         vi = khmer["vowels_intro"]
-        vowels_intro = (f'<p class="alpha-hint for-b" lang="fr">{_esc(vi.get("fr", ""))}</p>'
-                        f'<p class="alpha-hint for-a" lang="km">{_esc(vi.get("km", ""))}</p>')
+        vowels_intro = _notes(vi, "alpha-hint")
     toc = "".join(f'<a class="chip" href="#{anchor}">{lbl(key)}</a>' for anchor, key in (
         ("consonnes", "consonants"), ("voyelles", "vowels"), ("chiffres", "digits"),
         ("lettres", "letters"), ("accents", "accents"), ("sons", "sounds")))
@@ -259,14 +272,14 @@ def render(renderer, data: dict | None) -> str | None:
         f'{_block("lettres", "letters", _letters(renderer, latin))}'
         f'{_block("accents", "accents", _accents(renderer, latin))}'
         f'{_block("sons", "sounds", _sounds(renderer, latin))}</section>')
-    # Le profil A (khmer) apprend l'alphabet latin : sa partie passe en premier.
+    # Le profil khmer apprend l'alphabet latin : sa partie passe en premier (feuille de style).
     content = (
         f'<article class="alphabet">'
         f'<nav class="lesson-nav" aria-label="Navigation"><a class="nav-link nav-home" data-nav href="./index.html">'
         f'{renderer_icon("home")}{lbl_home()}</a></nav>'
         f'<header class="lesson-head"><p class="kicker">{lbl("kicker")}</p>'
         f'<h1 class="tri-title"><span class="t-fr" lang="fr">{_esc(LABELS["title"][0])}</span>'
-        f'<span class="t-km" lang="km">{_esc(LABELS["title"][1])}</span></h1>'
+        f'<span class="t-km" lang="km">{_esc(LABELS["title"][2])}</span></h1>'
         f'<p class="alpha-subtitle">{lbl("subtitle")}</p></header>'
         f'<nav class="alpha-toc" aria-label="Sommaire">{toc}</nav>'
         f'<div class="alpha-parts">{khmer_part}{latin_part}</div></article>')

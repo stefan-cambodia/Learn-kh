@@ -84,9 +84,12 @@ svg { width: 1.1em; height: 1.1em; flex: none; }
 
 :focus-visible { outline: 3px solid var(--fr); outline-offset: 2px; border-radius: 6px; }
 
-/* --- Profils : A lit l'interface en khmer, B en français -------------------- */
-html[data-profile="A"] .ui-fr, html[data-profile="A"] .for-b,
-html[data-profile="B"] .ui-km, html[data-profile="B"] .for-a { display: none !important; }
+/* --- Profils : chacun lit l'interface dans sa langue (fr, en, km) --------------------
+   .ui-xx / .for-xx : seulement pour le profil xx ; .not-xx : pour tous les profils sauf xx. */
+html:not([data-profile="fr"]) .ui-fr, html:not([data-profile="fr"]) .for-fr,
+html:not([data-profile="en"]) .ui-en, html:not([data-profile="en"]) .for-en,
+html:not([data-profile="km"]) .ui-km, html:not([data-profile="km"]) .for-km,
+html[data-profile="fr"] .not-fr, html[data-profile="en"] .not-en, html[data-profile="km"] .not-km { display: none !important; }
 html:not(.js) .js-only { display: none !important; }
 
 .skip { position: absolute; left: -999px; top: 8px; background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 8px; z-index: 50; }
@@ -148,7 +151,7 @@ html:not(.js) .js-only { display: none !important; }
 .tri-title { display: flex; flex-direction: column; gap: 2px; }
 .tri-title span { display: block; }
 .t-fr { color: var(--fr); } .t-en { color: var(--en); } .t-km { color: var(--km); }
-html[data-profile="B"] .tri-title .t-fr, html[data-profile="A"] .tri-title .t-km { color: var(--ink); order: -1; }
+html[data-profile="fr"] .tri-title .t-fr, html[data-profile="en"] .tri-title .t-en, html[data-profile="km"] .tri-title .t-km { color: var(--ink); order: -1; }
 
 /* --- Page d'accueil ---------------------------------------------------------------- */
 .hero { padding: 18px 0 8px; }
@@ -190,7 +193,7 @@ html[data-profile="B"] .tri-title .t-fr, html[data-profile="A"] .tri-title .t-km
 .lesson-body { display: grid; gap: 6px; min-width: 0; }
 .lesson-title { font-weight: 700; font-size: 1.1rem; line-height: 1.35; }
 .lesson-title span { font-size: .86rem; font-weight: 500; }
-html[data-profile="B"] .lesson-title .t-fr, html[data-profile="A"] .lesson-title .t-km { font-size: 1.12rem; font-weight: 700; }
+html[data-profile="fr"] .lesson-title .t-fr, html[data-profile="en"] .lesson-title .t-en, html[data-profile="km"] .lesson-title .t-km { font-size: 1.12rem; font-weight: 700; }
 .lesson-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: .82rem; color: var(--muted); }
 .lesson-words { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
 .lesson-words li { display: inline-flex; align-items: baseline; gap: 6px; padding: 1px 10px; border-radius: 8px; background: var(--surface-2); border: 1px solid var(--line); font-size: .8rem; color: var(--ink-2); }
@@ -216,8 +219,8 @@ a.nav-link:hover { border-color: var(--ink-2); color: var(--ink); }
 .kicker { font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .kicker :lang(km) { letter-spacing: 0; font-size: .92rem; }
 .lesson-head .tri-title { margin-top: 4px; font-family: var(--display); font-size: 1.15rem; font-weight: 600; line-height: 1.35; }
-html[data-profile="B"] .lesson-head .t-fr { font-size: clamp(1.8rem, 5.4vw, 2.5rem); line-height: 1.15; font-weight: 700; }
-html[data-profile="A"] .lesson-head .t-km { font-family: var(--khmer); font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.55; font-weight: 700; }
+html[data-profile="fr"] .lesson-head .t-fr, html[data-profile="en"] .lesson-head .t-en { font-size: clamp(1.8rem, 5.4vw, 2.5rem); line-height: 1.15; font-weight: 700; }
+html[data-profile="km"] .lesson-head .t-km { font-family: var(--khmer); font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.55; font-weight: 700; }
 .lesson-head .t-km { font-family: var(--khmer); }
 .meta { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
 .meta li { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); font-size: .84rem; color: var(--ink-2); }
@@ -259,10 +262,11 @@ html[data-profile="A"] .lesson-head .t-km { font-family: var(--khmer); font-size
 .lang-main { font-size: 1.14rem; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
 .lang-km .lang-main { font-family: var(--khmer); font-size: 1.28rem; font-weight: 400; line-height: 1.8; }
 .translit { font-size: .86rem; color: var(--muted); font-style: italic; font-family: var(--latin); line-height: 1.4; }
-html[data-profile="A"] .lang-km, html[data-profile="B"] .lang-fr { order: 3; background: transparent; padding-top: 3px; padding-bottom: 3px; }
-html[data-profile="A"] .lang-km .lang-main { font-size: 1.08rem; color: var(--ink-2); }
-html[data-profile="B"] .lang-fr .lang-main { font-size: 1rem; font-weight: 500; color: var(--ink-2); }
-html[data-profile="A"] .lang-km .lang-tag, html[data-profile="B"] .lang-fr .lang-tag { background: transparent; color: var(--c); box-shadow: inset 0 0 0 1.5px var(--c); }
+/* La langue de l'apprenant passe en dernier, en plus discret : c'est la traduction de référence. */
+html[data-profile="km"] .lang-km, html[data-profile="fr"] .lang-fr, html[data-profile="en"] .lang-en { order: 3; background: transparent; padding-top: 3px; padding-bottom: 3px; }
+html[data-profile="km"] .lang-km .lang-main { font-size: 1.08rem; color: var(--ink-2); }
+html[data-profile="fr"] .lang-fr .lang-main, html[data-profile="en"] .lang-en .lang-main { font-size: 1rem; font-weight: 500; color: var(--ink-2); }
+html[data-profile="km"] .lang-km .lang-tag, html[data-profile="fr"] .lang-fr .lang-tag, html[data-profile="en"] .lang-en .lang-tag { background: transparent; color: var(--c); box-shadow: inset 0 0 0 1.5px var(--c); }
 .tri-compact .lang-row { padding: 5px 8px; }
 .tri-compact .lang-main { font-size: 1.02rem; font-weight: 500; }
 .tri-compact .lang-km .lang-main { font-size: 1.14rem; }
@@ -410,7 +414,7 @@ html[data-profile="A"] .lang-km .lang-tag, html[data-profile="B"] .lang-fr .lang
 .alpha-toc { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 8px; }
 .alpha-toc .chip { text-decoration: none; }
 .alpha-parts { display: flex; flex-direction: column; }
-html[data-profile="A"] .alpha-parts #latin { order: -1; }
+html[data-profile="km"] .alpha-parts #latin { order: -1; }
 .alpha-part .part-num:lang(km) { font-family: var(--khmer); font-weight: 400; line-height: 1; }
 .alpha-block { margin-top: 22px; }
 .alpha-title { font-family: var(--display); font-size: 1.12rem; margin-bottom: 10px; }
@@ -489,10 +493,10 @@ html[data-profile="A"] .alpha-parts #latin { order: -1; }
   grid-row: span 2; width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center;
   background: var(--km); color: #fff; font-family: var(--display); font-weight: 700; font-size: 1.5rem;
 }
-.today-num:lang(km), html[data-profile="A"] .today-num { font-family: var(--khmer); font-weight: 400; }
+.today-num:lang(km), html[data-profile="km"] .today-num { font-family: var(--khmer); font-weight: 400; }
 .today-title { font-weight: 700; font-size: 1.15rem; line-height: 1.35; }
 .today-title span { font-size: .86rem; font-weight: 500; opacity: .8; }
-html[data-profile="B"] .today-title .t-fr, html[data-profile="A"] .today-title .t-km { font-size: 1.2rem; font-weight: 700; opacity: 1; }
+html[data-profile="fr"] .today-title .t-fr, html[data-profile="en"] .today-title .t-en, html[data-profile="km"] .today-title .t-km { font-size: 1.2rem; font-weight: 700; opacity: 1; }
 .today-link .t-fr, .today-link .t-en, .today-link .t-km { color: inherit; }
 .today-go { display: inline-flex; align-items: center; gap: 4px; font-size: .86rem; font-weight: 700; color: var(--gold-soft); }
 .today-go :lang(km) { line-height: 1.5; }
@@ -502,12 +506,12 @@ html[data-profile="B"] .today-title .t-fr, html[data-profile="A"] .today-title .
   display: flex; flex-direction: column; justify-content: center; gap: 10px;
 }
 .progress-text { font-weight: 600; }
-.progress-text:lang(km), html[data-profile="A"] .progress-text { font-family: var(--khmer); }
+.progress-text:lang(km), html[data-profile="km"] .progress-text { font-family: var(--khmer); }
 .progress-bar { height: 10px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); overflow: hidden; }
 .progress-bar span { display: block; height: 100%; width: 0; background: var(--en); border-radius: 999px; transition: width .3s ease; }
 .resume-link { font-size: .9rem; font-weight: 600; color: var(--fr); text-decoration: none; }
 .resume-link:hover { text-decoration: underline; }
-html[data-profile="A"] .resume-link { font-family: var(--khmer); }
+html[data-profile="km"] .resume-link { font-family: var(--khmer); }
 
 .future-toggle-wrap { margin-top: 4px; }
 .future-toggle[hidden] { display: none; }
@@ -526,9 +530,9 @@ html[data-profile="A"] .resume-link { font-family: var(--khmer); }
 .review-controls { display: grid; gap: 10px; }
 .review-group { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
 .review-group-label { font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); min-width: 120px; }
-html[data-profile="A"] .review-group-label { letter-spacing: 0; text-transform: none; font-size: .9rem; font-family: var(--khmer); }
+html[data-profile="km"] .review-group-label { letter-spacing: 0; text-transform: none; font-size: .9rem; font-family: var(--khmer); }
 .review-chips { display: flex; flex-wrap: wrap; gap: 6px; }
-html[data-profile="A"] .review-app .chip, html[data-profile="A"] .review-app .fc-btn, html[data-profile="A"] .review-app p { font-family: var(--latin), var(--khmer); }
+html[data-profile="km"] .review-app .chip, html[data-profile="km"] .review-app .fc-btn, html[data-profile="km"] .review-app p { font-family: var(--latin), var(--khmer); }
 .review-mastery { display: grid; gap: 6px; font-size: .9rem; color: var(--ink-2); max-width: 420px; }
 .fc-progress { font-size: .84rem; color: var(--muted); font-weight: 600; }
 .flashcard {
@@ -574,7 +578,7 @@ html[data-profile] .today-link .tri-title span { color: inherit; }
 .streak { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; color: var(--gold); }
 .streak[hidden] { display: none; }
 .streak svg { width: 1.2em; height: 1.2em; }
-html[data-profile="A"] .streak { font-family: var(--khmer); }
+html[data-profile="km"] .streak { font-family: var(--khmer); }
 
 /* --- Réviser : exercice d'écoute ---------------------------------------------------------------------- */
 .fc-listen { padding: 26px 10px; }
@@ -594,7 +598,7 @@ html[data-profile="A"] .streak { font-family: var(--khmer); }
 .fc-verdict { font-weight: 700; }
 .fc-verdict.is-right { color: var(--en); }
 .fc-verdict.is-wrong { color: var(--km); }
-html[data-profile="A"] .fc-verdict, html[data-profile="A"] .fc-question { font-family: var(--latin), var(--khmer); }
+html[data-profile="km"] .fc-verdict, html[data-profile="km"] .fc-question { font-family: var(--latin), var(--khmer); }
 
 /* --- Lexique ------------------------------------------------------------------------------------------ */
 .page-lexicon .tool-lexicon { background: var(--ink); border-color: var(--ink); color: var(--bg); }
@@ -614,8 +618,7 @@ html[data-profile="A"] .fc-verdict, html[data-profile="A"] .fc-question { font-f
 .lex-cell .play svg { width: 14px; height: 14px; }
 .lex-lesson { align-self: center; font-size: .78rem; color: var(--muted); text-decoration: none; white-space: nowrap; padding: 4px 8px; border-radius: 8px; }
 .lex-lesson:hover { color: var(--ink); background: var(--surface-2); }
-html[data-profile="A"] .lex-item .lang-km { order: 3; }
-html[data-profile="B"] .lex-item .lang-fr { order: 3; }
+html[data-profile="km"] .lex-item .lang-km, html[data-profile="fr"] .lex-item .lang-fr, html[data-profile="en"] .lex-item .lang-en { order: 3; }
 .lex-lesson { order: 4; }
 @media (max-width: 720px) {
   .lex-item { grid-template-columns: 1fr; }
@@ -647,7 +650,7 @@ html[data-profile="B"] .lex-item .lang-fr { order: 3; }
 }
 .roleplay-bar[hidden] { display: none; }
 .rp-msg { font-weight: 600; flex: 1 1 240px; }
-html[data-profile="A"] .rp-msg { font-family: var(--khmer); }
+html[data-profile="km"] .rp-msg { font-family: var(--khmer); }
 .rp-actions { display: flex; gap: 8px; align-items: center; }
 .roleplay-bar .fc-btn { background: var(--km); border-color: var(--km); color: #fff; padding: 8px 16px; }
 .roleplay-bar .fc-btn[hidden] { display: none; }
@@ -663,10 +666,9 @@ html[data-profile="A"] .rp-msg { font-family: var(--khmer); }
 .quiz-toggle svg { width: 1.05em; height: 1.05em; }
 .quiz-hint { margin-top: 12px; padding: 10px 14px; border-radius: 12px; background: var(--gold-soft); color: var(--gold); font-size: .9rem; }
 .quiz-hint[hidden] { display: none; }
-html.quiz-mode[data-profile="B"] .entry .lang-km:not(.is-shown) .lang-text,
-html.quiz-mode[data-profile="B"] .entry .lang-en:not(.is-shown) .lang-text,
-html.quiz-mode[data-profile="A"] .entry .lang-fr:not(.is-shown) .lang-text,
-html.quiz-mode[data-profile="A"] .entry .lang-en:not(.is-shown) .lang-text { filter: blur(7px); user-select: none; }
+html.quiz-mode:not([data-profile="km"]) .entry .lang-km:not(.is-shown) .lang-text,
+html.quiz-mode:not([data-profile="en"]) .entry .lang-en:not(.is-shown) .lang-text,
+html.quiz-mode:not([data-profile="fr"]) .entry .lang-fr:not(.is-shown) .lang-text { filter: blur(7px); user-select: none; }
 html.quiz-mode .entry .lang-row { cursor: pointer; }
 html.quiz-mode .entry .lang-row .lang-text { transition: filter .15s ease; }
 
@@ -811,7 +813,7 @@ html[data-size="xl"] { font-size: 125%; }
 }
 .due-link[hidden] { display: none; }
 .due-link svg { width: 1.05em; height: 1.05em; }
-html[data-profile="A"] .due-link { font-family: var(--latin), var(--khmer); }
+html[data-profile="km"] .due-link { font-family: var(--latin), var(--khmer); }
 
 /* --- Exercice « Écrire le mot » ---------------------------------------------------------------------------- */
 .fc-write { display: flex; gap: 8px; }
@@ -830,7 +832,7 @@ html[data-profile="A"] .due-link { font-family: var(--latin), var(--khmer); }
 /* Barre du haut : plus large, et icônes seules sur les écrans moyens pour que le titre reste lisible */
 .topbar-inner { max-width: 1120px; }
 @media (max-width: 1180px) and (min-width: 721px) {
-  .tool-link > .ui-fr, .tool-link > .ui-km, .tool-link > span:not(.tool-link-glyph) { display: none !important; }
+  .tool-link > .ui-fr, .tool-link > .ui-en, .tool-link > .ui-km, .tool-link > span:not(.tool-link-glyph) { display: none !important; }
   .tool-link { width: 38px; padding: 0; justify-content: center; }
   .tool-slow > span:not(.tool-slow-rate) { display: none; }
 }

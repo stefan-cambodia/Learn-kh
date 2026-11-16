@@ -19,7 +19,7 @@
   /* Avec le serveur local (« manage.py serve »), la progression est partagée entre l'ordinateur
      et le téléphone : le serveur fusionne les états entrée par entrée (la plus récente gagne).
      Fichiers ouverts depuis le disque : chaque appareil garde sa propre progression. */
-  var SYNC_KEY = /^frkh-(done2-[AB]|days-[AB]|boxes-[AB]-(fr|en|km))$/;
+  var SYNC_KEY = /^frkh-(done2-(fr|en|km)|days-(fr|en|km)|boxes-(fr|en|km)-(fr|en|km))$/;
   var syncTimer = 0, syncBusy = false, syncAgain = false;
 
   function syncURL() { return (root.getAttribute("data-root") || ".") + "/api/progress"; }
@@ -77,13 +77,23 @@
   }
 
   /* ---------------------------------------------------------------- Profil */
+  /* Un profil par langue de l'apprenant (fr, en, km) : c'est la langue de l'interface.
+     PROFILES[profil] = langues étudiées, la principale en premier (rubrique « profiles » de la configuration). */
+  var PROFILES = window.FRKH_PROFILES || { fr: ["km", "en"], en: ["km", "fr"], km: ["fr", "en"] };
   function profile() {
-    return root.getAttribute("data-profile") === "A" ? "A" : "B";
+    var value = root.getAttribute("data-profile");
+    return PROFILES[value] ? value : Object.keys(PROFILES)[0];
   }
+  /* Texte dans la langue du profil : L({ fr: "…", en: "…", km: "…" }). */
+  function L(texts) { return texts[profile()] || texts.fr; }
+  function mainLang() { return PROFILES[profile()][0]; }
+  function num(n) { return profile() === "km" ? kmDigits(n) : String(n); }
+  function plural(n, one, many) { return n > 1 ? many : one; }
 
   function applyProfile(value, persist) {
+    if (!PROFILES[value]) { value = profile(); }
     root.setAttribute("data-profile", value);
-    root.setAttribute("lang", value === "A" ? "km" : "fr");
+    root.setAttribute("lang", value);
     if (persist) { store.set("frkh-profile", value); }
     all("[data-profile-choice]").forEach(function (button) {
       button.setAttribute("aria-pressed", String(button.getAttribute("data-profile-choice") === value));
@@ -97,7 +107,7 @@
       link.setAttribute("href", parts[0] + "#" + params.join("&"));
     });
     all("input[data-placeholder-fr]").forEach(function (input) {
-      input.placeholder = input.getAttribute(value === "A" ? "data-placeholder-km" : "data-placeholder-fr");
+      input.placeholder = input.getAttribute("data-placeholder-" + value) || input.getAttribute("data-placeholder-fr");
     });
     refreshDone();
     if (root.dispatchEvent && typeof CustomEvent === "function") { root.dispatchEvent(new CustomEvent("frkh:profile")); }
@@ -178,7 +188,7 @@
     });
     function failed() {
       wrapper.classList.add("has-error");
-      button.title = profile() === "A" ? "មិនអាចបើកសំឡេងបានទេ" : "Fichier audio illisible";
+      button.title = L({ fr: "Fichier audio illisible", en: "Unreadable audio file", km: "មិនអាចបើកសំឡេងបានទេ" });
       if (playing && playing.audio === audio) { setState(button, false); playing = null; }
       audio.dispatchEvent(new CustomEvent("frkh:done"));
     }
@@ -254,14 +264,22 @@
   function rpLang() {
     var active = document.querySelector("[data-rp-lang].is-active");
     if (active && getComputedStyle(active).display !== "none") { return active.getAttribute("data-rp-lang"); }
-    return profile() === "A" ? "fr" : "km";
+    return mainLang();
   }
+  var LANG_NAMES = {
+    fr: { fr: "en français", en: "in French", km: "ជាភាសាបារាំង" },
+    en: { fr: "en anglais", en: "in English", km: "ជាភាសាអង់គ្លេស" },
+    km: { fr: "en khmer", en: "in Khmer", km: "ជាភាសាខ្មែរ" }
+  };
   function rpText(key) {
-    var A = profile() === "A";
-    var names = { fr: A ? "ភាសាបារាំង" : "en français", en: A ? "ភាសាអង់គ្លេស" : "en anglais", km: A ? "ភាសាខ្មែរ" : "en khmer" };
-    if (key === "turn") { return A ? "ដល់វេនអ្នកហើយ៖ និយាយឃ្លានេះ" + names[roleplay.lang] + " រួចចុច « បន្ត »។" : "À vous ! Dites la réplique " + names[roleplay.lang] + ", puis appuyez sur « Continuer »."; }
-    if (key === "listen") { return A ? "ស្តាប់…" : "Écoutez…"; }
-    return A ? "ល្អណាស់! ការសន្ទនាចប់ហើយ។" : "Bravo, dialogue terminé !";
+    var name = LANG_NAMES[roleplay.lang][profile()];
+    if (key === "turn") {
+      return L({ fr: "À vous ! Dites la réplique " + name + ", puis appuyez sur « Continuer ».",
+                 en: "Your turn! Say the line " + name + ", then press “Continue”.",
+                 km: "ដល់វេនអ្នកហើយ៖ និយាយឃ្លានេះ" + name + " រួចចុច « បន្ត »។" });
+    }
+    if (key === "listen") { return L({ fr: "Écoutez…", en: "Listen…", km: "ស្តាប់…" }); }
+    return L({ fr: "Bravo, dialogue terminé !", en: "Well done, dialogue complete!", km: "ល្អណាស់! ការសន្ទនាចប់ហើយ។" });
   }
   function stopRoleplay() {
     if (!roleplay) { return; }
@@ -325,7 +343,7 @@
     if (!box) { return; }
     var langs = all("[data-rp-lang]", box);
     function markLang(lang) { langs.forEach(function (b) { b.classList.toggle("is-active", b.getAttribute("data-rp-lang") === lang); }); }
-    markLang(profile() === "A" ? "fr" : "km");
+    markLang(mainLang());
     langs.forEach(function (b) {
       b.addEventListener("click", function () { markLang(b.getAttribute("data-rp-lang")); stopRoleplay(); });
     });
@@ -351,7 +369,7 @@
         rpContinue();
       }
     });
-    root.addEventListener("frkh:profile", function () { markLang(profile() === "A" ? "fr" : "km"); });
+    root.addEventListener("frkh:profile", function () { markLang(mainLang()); });
   }
 
   /* Mode test : le texte des langues étudiées est flouté ; toucher une ligne la révèle. */
@@ -506,25 +524,29 @@
     var target = document.getElementById("today-link");
     target.setAttribute("href", link.getAttribute("href"));
     var number = Number(main.getAttribute("data-number"));
-    document.getElementById("today-num").textContent = profile() === "A" ? kmDigits(number) : String(number);
+    document.getElementById("today-num").textContent = num(number);
     document.getElementById("today-title").innerHTML = main.querySelector(".lesson-title").innerHTML;
     var done = doneList();
     target.classList.toggle("is-done", done.indexOf(number) !== -1);
 
     var finished = cards.filter(function (card) { return done.indexOf(Number(card.getAttribute("data-number"))) !== -1; }).length;
     var text = document.getElementById("progress-text");
-    text.textContent = profile() === "A"
-      ? "រៀនចប់ " + kmDigits(finished) + " / " + kmDigits(cards.length) + " មេរៀន"
-      : finished + " leçon" + (finished > 1 ? "s" : "") + " terminée" + (finished > 1 ? "s" : "") + " sur " + cards.length;
+    text.textContent = L({
+      fr: finished + plural(finished, " leçon terminée", " leçons terminées") + " sur " + cards.length,
+      en: finished + " of " + cards.length + plural(cards.length, " lesson", " lessons") + " completed",
+      km: "រៀនចប់ " + kmDigits(finished) + " / " + kmDigits(cards.length) + " មេរៀន"
+    });
     document.getElementById("progress-fill").style.width = Math.round(100 * finished / cards.length) + "%";
 
     var streakBox = document.getElementById("streak");
     if (streakBox) {
       var days = streak();
       streakBox.hidden = days < 1;
-      streakBox.querySelector(".streak-count").textContent = profile() === "A"
-        ? kmDigits(days) + " ថ្ងៃជាប់គ្នា"
-        : days + (days > 1 ? " jours d'affilée" : " jour d'affilée");
+      streakBox.querySelector(".streak-count").textContent = L({
+        fr: days + plural(days, " jour d'affilée", " jours d'affilée"),
+        en: days + plural(days, "-day streak", "-day streak"),
+        km: kmDigits(days) + " ថ្ងៃជាប់គ្នា"
+      });
     }
 
     var activity = document.getElementById("activity");
@@ -548,7 +570,7 @@
     if (todo) {
       var n = Number(todo.getAttribute("data-number"));
       resume.setAttribute("href", todo.querySelector(".lesson-link").getAttribute("href"));
-      resume.textContent = profile() === "A" ? "បន្តមេរៀនទី " + kmDigits(n) + " ›" : "Reprendre la leçon " + n + " ›";
+      resume.textContent = L({ fr: "Reprendre la leçon " + n + " ›", en: "Resume lesson " + n + " ›", km: "បន្តមេរៀនទី " + kmDigits(n) + " ›" });
       resume.hidden = false;
     } else {
       resume.hidden = true;
@@ -557,14 +579,14 @@
   }
 
   /* Mots à réviser aujourd'hui (même règle que la page « Réviser » : boîte b → retour après 1, 2, 4, 8, 16 jours),
-     pour la langue principale étudiée : khmer pour le profil B, français pour le profil A. */
+     pour la langue principale étudiée par le profil (la première de sa liste « learns »). */
   var INTERVALS = [0, 1, 2, 4, 8, 16];
   function refreshDue() {
     var link = document.getElementById("due-link"), data = document.getElementById("cards-data");
     if (!link || !data) { return; }
     var cards = [];
     try { cards = JSON.parse(data.textContent) || []; } catch (e) { cards = []; }
-    var lang = profile() === "A" ? "fr" : "km", known = {};
+    var lang = mainLang(), known = {};
     try { known = JSON.parse(store.get("frkh-boxes-" + profile() + "-" + lang) || "{}") || {}; } catch (e) { known = {}; }
     var now = Date.now(), count = 0;
     cards.forEach(function (card) {
@@ -575,7 +597,7 @@
       if (now >= when + (INTERVALS[entry.b] || 1) * 86400000 - 6 * 3600000) { count++; }
     });
     link.hidden = count === 0;
-    document.getElementById("due-count").textContent = profile() === "A" ? kmDigits(count) : String(count);
+    document.getElementById("due-count").textContent = num(count);
   }
 
   /* Taille du texte : normale, grande, très grande (mémorisée sur l'appareil). */
@@ -598,12 +620,11 @@
     var toggle = document.getElementById("future-toggle");
     if (!toggle) { return; }
     function label() {
-      if (profile() === "A") {
-        toggle.textContent = showFuture ? "លាក់មេរៀនខាងមុខ" : "បង្ហាញមេរៀនខាងមុខ (" + kmDigits(future) + ")";
-      } else {
-        toggle.textContent = showFuture ? "Masquer les leçons à venir"
-          : "Afficher les " + future + " leçon" + (future > 1 ? "s" : "") + " à venir";
-      }
+      toggle.textContent = showFuture
+        ? L({ fr: "Masquer les leçons à venir", en: "Hide upcoming lessons", km: "លាក់មេរៀនខាងមុខ" })
+        : L({ fr: "Afficher " + plural(future, "la leçon", "les " + future + " leçons") + " à venir",
+              en: "Show " + future + plural(future, " upcoming lesson", " upcoming lessons"),
+              km: "បង្ហាញមេរៀនខាងមុខ (" + kmDigits(future) + ")" });
       toggle.setAttribute("aria-pressed", String(showFuture));
     }
     toggle.hidden = !future;
@@ -672,8 +693,13 @@
       if (empty) { empty.hidden = shown !== 0 || listed === 0; }
       if (count) {
         if (!listed) { count.textContent = ""; }
-        else if (profile() === "A") { count.textContent = "មេរៀន " + digitsKm(shown) + " / " + digitsKm(listed); }
-        else { count.textContent = shown + (shown > 1 ? " leçons affichées sur " : " leçon affichée sur ") + listed; }
+        else {
+          count.textContent = L({
+            fr: shown + plural(shown, " leçon affichée sur ", " leçons affichées sur ") + listed,
+            en: shown + " of " + listed + plural(listed, " lesson shown", " lessons shown"),
+            km: "មេរៀន " + digitsKm(shown) + " / " + digitsKm(listed)
+          });
+        }
       }
       var toggle = document.getElementById("future-toggle");
       if (toggle && toggle._label) { toggle._label(); }
@@ -720,9 +746,11 @@
         if (ok) { shown++; }
       });
       none.hidden = shown !== 0;
-      count.textContent = profile() === "A"
-        ? kmDigits(shown) + " / " + kmDigits(items.length)
-        : shown + " sur " + items.length + (items.length > 1 ? " mots et expressions" : " mot");
+      count.textContent = L({
+        fr: shown + " sur " + items.length + plural(items.length, " mot", " mots et expressions"),
+        en: shown + " of " + items.length + plural(items.length, " word", " words and expressions"),
+        km: kmDigits(shown) + " / " + kmDigits(items.length)
+      });
     }
     input.addEventListener("input", filter);
     all("#lex-filters [data-kind]").forEach(function (chip) {

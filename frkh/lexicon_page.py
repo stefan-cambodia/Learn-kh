@@ -14,29 +14,30 @@ from .textutil import LANGS, fold, speech_text, to_khmer_digits
 
 PAGE = "lexique.html"
 
+# Libellés : (français, anglais, khmer).
 TEXT = {
-    "title": ("Lexique", "សទ្ទានុក្រម"),
-    "kicker": ("Tous les mots vus", "ពាក្យទាំងអស់ដែលបានរៀន"),
+    "title": ("Lexique", "Glossary", "សទ្ទានុក្រម"),
+    "kicker": ("Tous les mots vus", "Every word seen so far", "ពាក្យទាំងអស់ដែលបានរៀន"),
     "intro": ("Les mots et expressions des leçons passées, du plus récent au plus ancien. Cherchez dans les trois langues.",
+              "Words and expressions from past lessons, newest first. Search in any of the three languages.",
               "ពាក្យ និងឃ្លាពីមេរៀនដែលបានរៀនរួច ពីថ្មីទៅចាស់។ អាចស្វែងរកជាបីភាសា។"),
-    "search": ("Rechercher un mot", "ស្វែងរកពាក្យ"),
-    "placeholder": ("Mot en français, anglais ou khmer…", "ពាក្យជាភាសាបារាំង អង់គ្លេស ឬខ្មែរ…"),
-    "all": ("Tout", "ទាំងអស់"),
-    "words": ("Mots", "ពាក្យ"),
-    "expressions": ("Expressions", "ឃ្លា"),
-    "none": ("Aucun mot ne correspond à cette recherche.", "រកមិនឃើញពាក្យទេ។"),
-    "lesson": ("Leçon", "មេរៀនទី"),
+    "search": ("Rechercher un mot", "Search for a word", "ស្វែងរកពាក្យ"),
+    "placeholder": ("Mot en français, anglais ou khmer…", "Word in French, English or Khmer…", "ពាក្យជាភាសាបារាំង អង់គ្លេស ឬខ្មែរ…"),
+    "all": ("Tout", "All", "ទាំងអស់"),
+    "words": ("Mots", "Words", "ពាក្យ"),
+    "expressions": ("Expressions", "Expressions", "ឃ្លា"),
+    "none": ("Aucun mot ne correspond à cette recherche.", "No word matches this search.", "រកមិនឃើញពាក្យទេ។"),
 }
 LISTEN = {"fr": "Écouter en français", "en": "Listen in English", "km": "ស្តាប់ជាភាសាខ្មែរ"}
 
 
 def _bi(key: str, tag: str = "span") -> str:
-    from .render import bilingual
-    return bilingual(*TEXT[key], tag=tag)
+    from .render import multi
+    return multi(TEXT[key], tag=tag)
 
 
 def render(renderer) -> str:
-    from .render import ICONS, esc, ui
+    from .render import ICONS, esc, multi, ui
     icon_play = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.2v13.6L19.5 12z"/></svg>'
     rows = renderer.conn.execute(
         "SELECT lesson_number, lesson_date, content_json, html_path FROM lessons "
@@ -65,8 +66,8 @@ def render(renderer) -> str:
                 items.append(
                     f'<li class="lex-item" data-date="{esc(row["lesson_date"])}" data-kind="{"w" if kind == "vocabulary" else "e"}" '
                     f'data-search="{esc(search)}">{"".join(cells)}'
-                    f'<a class="lex-lesson" data-nav href="{esc(href)}#{anchor}-{i}" title="{TEXT["lesson"][0]} {n}">'
-                    f'<span class="ui-fr">{TEXT["lesson"][0]} {n}</span><span class="ui-km" lang="km">{TEXT["lesson"][1]} {to_khmer_digits(n)}</span></a></li>')
+                    f'<a class="lex-lesson" data-nav href="{esc(href)}#{anchor}-{i}" title="Leçon {n}">'
+                    f'{multi({"fr": f"Leçon {n}", "en": f"Lesson {n}", "km": f"មេរៀនទី {to_khmer_digits(n)}"})}</a></li>')
     chips = "".join(
         f'<button type="button" class="chip{" is-active" if value == "" else ""}" data-kind="{value}">{_bi(key)}</button>'
         for value, key in (("", "all"), ("w", "words"), ("e", "expressions")))
@@ -75,13 +76,12 @@ def render(renderer) -> str:
         f'<nav class="lesson-nav" aria-label="Navigation"><a class="nav-link nav-home" data-nav href="./index.html">'
         f'{ICONS["home"]}{ui("home")}</a></nav>'
         f'<header class="lesson-head"><p class="kicker">{_bi("kicker")}</p>'
-        f'<h1 class="tri-title"><span class="t-fr" lang="fr">{TEXT["title"][0]}</span>'
-        f'<span class="t-km" lang="km">{TEXT["title"][1]}</span></h1>'
+        f'<h1 class="tri-title">{"".join(f'<span class="t-{lang}" lang="{lang}">{text}</span>' for lang, text in zip(LANGS, TEXT["title"]))}</h1>'
         f'<p class="alpha-subtitle">{_bi("intro")}</p></header>'
         f'<section class="finder"><label class="search" for="lex-search"><span class="search-label">{_bi("search")}</span>'
         f'<span class="search-field">{ICONS["search"]}<input type="search" id="lex-search" autocomplete="off" spellcheck="false" '
         f'placeholder="{esc(TEXT["placeholder"][0])}" data-placeholder-fr="{esc(TEXT["placeholder"][0])}" '
-        f'data-placeholder-km="{esc(TEXT["placeholder"][1])}"></span></label>'
+        f'data-placeholder-en="{esc(TEXT["placeholder"][1])}" data-placeholder-km="{esc(TEXT["placeholder"][2])}"></span></label>'
         f'<div class="filters js-only" role="group" id="lex-filters">{chips}</div></section>'
         f'<p class="result-count" id="lex-count" aria-live="polite"></p>'
         f'<ul class="lex-list" id="lexicon">{"".join(items)}</ul>'

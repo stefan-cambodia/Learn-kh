@@ -14,23 +14,19 @@ from pathlib import Path
 DEFAULT_CONFIG: dict = {
     "site": {
         "title": "FR-KH Learning",
-        "default_profile": "B",
+        "default_profile": "fr",
     },
-    "learners": {
-        "A": {
-            "role": "khmer",
-            "name": {"latin": "Sokha", "km": "សុខា"},
-            "gender": "f",
-            "learns": ["fr", "en"],
-            "reference": "km",
-        },
-        "B": {
-            "role": "french",
-            "name": {"latin": "Dominique", "km": "ដូមីនិក"},
-            "gender": "m",
-            "learns": ["en", "km"],
-            "reference": "fr",
-        },
+    # Profils d'apprentissage, désignés par la langue de l'apprenant : c'est la langue de
+    # l'interface et des explications. « learns » : langues étudiées, la principale en premier.
+    "profiles": {
+        "fr": {"label": "FR", "learns": ["km", "en"]},
+        "en": {"label": "ENG", "learns": ["km", "fr"]},
+        "km": {"label": "KH", "learns": ["fr", "en"]},
+    },
+    # Les deux personnages des dialogues ({A} et {B} dans les unités).
+    "characters": {
+        "A": {"name": {"latin": "Dara", "km": "ដារ៉ា", "tr": "da-ra"}, "gender": "f"},
+        "B": {"name": {"latin": "Alex", "km": "អាឡិច", "tr": "a-lech"}, "gender": "m"},
     },
     "schedule": {
         "time": "07:00",
@@ -104,6 +100,12 @@ LEVEL_LABELS = {
 _FIXED_OFFSETS = {"Asia/Phnom_Penh": 7, "Asia/Bangkok": 7, "Asia/Ho_Chi_Minh": 7, "UTC": 0}
 
 
+# Langues dans lesquelles l'interface et les explications existent : un profil doit en faire partie.
+PROFILE_LANGS = ("fr", "en", "km")
+# Anciens profils (« A » : personne khmère, « B » : personne française) → nouveaux identifiants.
+LEGACY_PROFILES = {"A": "km", "B": "fr"}
+
+
 class ConfigError(Exception):
     pass
 
@@ -173,9 +175,10 @@ def load_env(path: Path) -> dict[str, str]:
 
 
 class Config:
-    def __init__(self, data: dict, paths: Paths):
+    def __init__(self, data: dict, paths: Paths, user_keys=()):
         self.data = data
         self.paths = paths
+        self._user_keys = set(user_keys)
 
     def __getitem__(self, key: str):
         return self.data[key]
@@ -219,6 +222,31 @@ class Config:
         except ValueError as exc:
             raise ConfigError(f"Heure de génération invalide : {raw!r} (attendu HH:MM)") from exc
 
+    # --- profils et personnages ------------------------------------------------------
+    def profiles(self) -> dict[str, dict]:
+        """Profils valides, dans l'ordre de la configuration : {"fr": {"label": "FR", "learns": [...]}, …}."""
+        out: dict[str, dict] = {}
+        for key, spec in (self.data.get("profiles") or {}).items():
+            if key not in PROFILE_LANGS or not isinstance(spec, dict):
+                continue
+            learns = [lang for lang in spec.get("learns") or [] if lang in PROFILE_LANGS and lang != key]
+            out[key] = {"label": str(spec.get("label") or key.upper()),
+                        "learns": learns or [lang for lang in PROFILE_LANGS if lang != key]}
+        return out or {"fr": {"label": "FR", "learns": ["km", "en"]}}
+
+    def default_profile(self) -> str:
+        value = str(self.get("site.default_profile", "fr"))
+        value = LEGACY_PROFILES.get(value, value)
+        profiles = self.profiles()
+        return value if value in profiles else next(iter(profiles))
+
+    def characters(self) -> dict:
+        """Les deux personnages des dialogues. Accepte l'ancienne rubrique « learners »."""
+        legacy = self.data.get("learners")
+        if isinstance(legacy, dict) and legacy and "characters" not in self._user_keys:
+            return legacy
+        return self.data.get("characters") or {}
+
     # --- langues ---------------------------------------------------------------
     def locale(self, lang: str) -> str:
         return self.data["languages"][lang]["locale"]
@@ -251,12 +279,21 @@ class Config:
         intervals = self.get("review.intervals_days", [])
         if not intervals or sorted(intervals) != list(intervals) or min(intervals) < 1:
             problems.append("review.intervals_days doit être une liste croissante de jours (ex. [1, 3, 7, 14, 30])")
+        section = "learners" if self.characters() is self.data.get("learners") else "characters"
         for key in ("A", "B"):
-            learner = self.data.get("learners", {}).get(key, {})
-            if not learner.get("name", {}).get("latin") or not learner.get("name", {}).get("km"):
-                problems.append(f"learners.{key}.name : « latin » et « km » sont obligatoires")
-            if learner.get("gender") not in ("f", "m"):
-                problems.append(f"learners.{key}.gender doit valoir « f » ou « m »")
+            character = self.characters().get(key, {})
+            if not character.get("name", {}).get("latin") or not character.get("name", {}).get("km"):
+                problems.append(f"{section}.{key}.name : « latin » et « km » sont obligatoires")
+            if character.get("gender") not in ("f", "m"):
+                problems.append(f"{section}.{key}.gender doit valoir « f » ou « m »")
+        for key, spec in (self.data.get("profiles") or {}).items():
+            if key not in PROFILE_LANGS:
+                problems.append(f"profiles.{key} : profil inconnu (langues possibles : {', '.join(PROFILE_LANGS)})")
+            elif not isinstance(spec, dict) or any(lang not in PROFILE_LANGS or lang == key for lang in spec.get("learns") or []):
+                problems.append(f"profiles.{key}.learns : langues étudiées parmi {', '.join(PROFILE_LANGS)}, sauf « {key} »")
+        default = LEGACY_PROFILES.get(str(self.get("site.default_profile", "fr")), str(self.get("site.default_profile", "fr")))
+        if default not in self.profiles():
+            problems.append(f"site.default_profile = {default!r} : doit être l'un des profils ({', '.join(self.profiles())})")
         return problems
 
 
@@ -272,7 +309,7 @@ def load_config(root: Path | str | None = None, create: bool = False) -> Config:
     elif create:
         paths.config.parent.mkdir(parents=True, exist_ok=True)
         paths.config.write_text(json.dumps(DEFAULT_CONFIG, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    return Config(_merge(DEFAULT_CONFIG, user), paths)
+    return Config(_merge(DEFAULT_CONFIG, user), paths, user_keys=user.keys())
 
 
 def setup_logging(config: Config, console: bool = True, quiet: bool = False) -> logging.Logger:

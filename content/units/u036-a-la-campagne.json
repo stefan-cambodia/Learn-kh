@@ -6,6 +6,7 @@
   "title": {"fr": "À la campagne", "en": "In the countryside", "km": "នៅជនបទ"},
   "tip": {
     "fr": "Beaucoup de noms de lieux cambodgiens contiennent ces mots : ភ្នំពេញ, « la colline de Penh » ; ទន្លេសាប, « le fleuve d'eau douce ». Pour « rentrer au village natal », on dit ទៅស្រុក (teuv srok) ou ទៅលេងស្រុក.",
+    "en": "Many Cambodian place names contain these words: ភ្នំពេញ, “Penh's hill”; ទន្លេសាប, “the freshwater river”. To say “go back to your home village”, say ទៅស្រុក (teuv srok) or ទៅលេងស្រុក.",
     "km": "ភាសាបារាំង « la campagne » មានន័យថា ជនបទ ប៉ុន្តែ « le pays » មានន័យថា ប្រទេស។ អង់គ្លេស៖ « countryside » ជនបទ, « country » ប្រទេស។ ប្រយ័ត្នកុំច្រឡំ!"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "la campagne", "en": "countryside", "km": "ជនបទ", "tr": "tchun-na-bot", "pos": "nom",
       "note": {
         "fr": "Mot savant venu du sanskrit. Au quotidien, on dit plus volontiers ស្រុក (srok), le pays natal, ou ស្រុកស្រែ, « le pays des rizières ».",
+        "en": "A learned word from Sanskrit. In daily life, people prefer ស្រុក (srok), the home region, or ស្រុកស្រែ, “rice-field country”. French « campagne » is feminine: à la campagne.",
         "km": "« campagne » ជានាមភេទស្រី៖ la campagne។ « à la campagne » មានន័យថា នៅជនបទ។ អង់គ្លេស៖ « in the countryside »។"
       },
       "example": {"fr": "Mes parents habitent à la campagne.", "en": "My parents live in the countryside.", "km": "ឪពុកម្តាយខ្ញុំរស់នៅជនបទ។", "tr": "eu-pouk mday khgnom rouh neuv tchun-na-bot."}
@@ -21,6 +23,7 @@
       "fr": "la rizière", "en": "rice field", "km": "ស្រែ", "tr": "srè", "pos": "nom",
       "note": {
         "fr": "ស្រែ est la rizière ; វាលស្រែ (véal srè), la plaine de rizières. Un riziculteur se dit អ្នកធ្វើស្រែ, « celui qui fait la rizière ».",
+        "en": "ស្រែ is the rice field; វាលស្រែ (véal srè), the rice-field plain. A rice farmer is អ្នកធ្វើស្រែ, “the one who makes the rice field”. French « rizière » comes from « riz ».",
         "km": "« rizière » ជានាមភេទស្រី មកពី « riz »៖ la rizière។ អង់គ្លេស៖ « rice field » ឬ « paddy »។"
       },
       "example": {"fr": "Derrière la maison, il y a une rizière.", "en": "Behind the house, there is a rice field.", "km": "នៅក្រោយផ្ទះ មានស្រែមួយ។", "tr": "neuv kraoy phtéah, méan srè mouy."}
@@ -29,6 +32,7 @@
       "fr": "l'arbre", "en": "tree", "km": "ដើមឈើ", "tr": "daeum tchheu", "pos": "nom",
       "note": {
         "fr": "ដើម (daeum), « le tronc », se place devant le nom de chaque arbre : ដើមស្វាយ, le manguier ; ដើមដូង, le cocotier.",
+        "en": "ដើម (daeum), “trunk”, goes before the name of each tree: ដើមស្វាយ, mango tree; ដើមដូង, coconut palm. French « arbre » is masculine: l'arbre.",
         "km": "« arbre » ជានាមភេទប្រុស៖ l'arbre។ ដើមស្វាយគឺ « le manguier »។ អង់គ្លេស៖ « tree », ដើមស្វាយគឺ « mango tree »។"
       },
       "example": {"fr": "Les enfants jouent sous l'arbre.", "en": "The children are playing under the tree.", "km": "ក្មេងៗលេងនៅក្រោមដើមឈើ។", "tr": "kméng-kméng léng neuv kraom daeum tchheu."}
@@ -37,6 +41,7 @@
       "fr": "le fleuve", "en": "river", "km": "ទន្លេ", "tr": "tonlé", "pos": "nom",
       "note": {
         "fr": "ទន្លេ désigne un grand cours d'eau, comme le Mékong : ទន្លេមេគង្គ. Une petite rivière se dit ស្ទឹង (steung).",
+        "en": "ទន្លេ is a large river, like the Mekong: ទន្លេមេគង្គ. A small river is ស្ទឹង (steung). French « fleuve » flows into the sea; « rivière » is a smaller river.",
         "km": "« fleuve » ជានាមភេទប្រុស ហើយហូរទៅសមុទ្រ៖ le fleuve។ ទន្លេតូចគឺ « la rivière »។ អង់គ្លេស៖ « river »។"
       },
       "example": {"fr": "Le Mékong est un très grand fleuve.", "en": "The Mekong is a very big river.", "km": "ទន្លេមេគង្គជាទន្លេធំណាស់។", "tr": "tonlé mé-kong tchéa tonlé thom nah."}
@@ -45,6 +50,7 @@
       "fr": "la montagne", "en": "mountain", "km": "ភ្នំ", "tr": "phnom", "pos": "nom",
       "note": {
         "fr": "ភ្នំ désigne aussi une simple colline : c'est le Phnom de Phnom Penh. Au Cambodge, on trouve souvent une pagode au sommet.",
+        "en": "ភ្នំ is also just a hill: it is the Phnom in Phnom Penh. In Cambodia, there is often a pagoda at the top. French « montagne »: “gn” sounds like the “ny” in “canyon”.",
         "km": "« montagne » ជានាមភេទស្រី៖ la montagne។ ភ្នំតូចគឺ « la colline »។ អង់គ្លេស៖ « mountain », ភ្នំតូចគឺ « hill »។"
       },
       "example": {"fr": "Il y a une pagode sur la montagne.", "en": "There is a pagoda on the mountain.", "km": "មានវត្តមួយនៅលើភ្នំ។", "tr": "méan voat mouy neuv leu phnom."}
@@ -53,6 +59,7 @@
       "fr": "le village", "en": "village", "km": "ភូមិ", "tr": "phoum", "pos": "nom",
       "note": {
         "fr": "ភូមិ est la plus petite unité du pays. Plusieurs villages forment une commune, ឃុំ (khoum).",
+        "en": "ភូមិ is the smallest unit of the country. Several villages form a commune, ឃុំ (khoum). French « village » is masculine and spelled as in English.",
         "km": "« village » ជានាមភេទប្រុស៖ le village។ អ្នកភូមិគឺ « les villageois »។ អង់គ្លេស៖ « village »។"
       },
       "example": {"fr": "Dans mon village, tout le monde se connaît.", "en": "In my village, everyone knows each other.", "km": "នៅភូមិខ្ញុំ គ្រប់គ្នាស្គាល់គ្នា។", "tr": "neuv phoum khgnom, kroup knéa skoal knéa."}
@@ -63,6 +70,7 @@
       "fr": "C'est calme ici.", "en": "It's quiet here.", "km": "នៅទីនេះស្ងាត់ណាស់។", "tr": "neuv ti-nih sngat nah.",
       "note": {
         "fr": "ស្ងាត់ (sngat), « silencieux, tranquille ». Le contraire est អ៊ូអរ (ou-â), « bruyant, animé ».",
+        "en": "ស្ងាត់ (sngat), “silent, peaceful”. The opposite is អ៊ូអរ (ou-â), “noisy, lively”. French « calme » means “quiet, calm”.",
         "km": "« calme » មានន័យថា ស្ងាត់ ឬស្ងប់។ « ici » មានន័យថា ទីនេះ។ អង់គ្លេស៖ « quiet », « peaceful »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "L'air est frais ici.", "en": "The air is fresh here.", "km": "ខ្យល់នៅទីនេះស្រស់ស្រាយ។", "tr": "khyâl neuv ti-nih sroh-sray.",
       "note": {
         "fr": "ស្រស់ស្រាយ, « frais et agréable », se dit de l'air, d'un visage ou d'une humeur.",
+        "en": "ស្រស់ស្រាយ, “fresh and pleasant”, is said of the air, a face or a mood. French « frais » also means “cool”.",
         "km": "« l'air » មានន័យថា ខ្យល់អាកាស។ « frais » មានន័យថា ស្រស់ ឬត្រជាក់បន្តិច។ អង់គ្លេស៖ « fresh air »។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "On va se promener ?", "en": "Shall we go for a walk?", "km": "ទៅដើរលេងទេ?", "tr": "teuv daeu léng té ?",
       "note": {
         "fr": "ដើរលេង, « marcher pour jouer », veut dire se promener, et plus largement sortir pour le plaisir.",
+        "en": "ដើរលេង, “walk for fun”, means to go for a walk, and more broadly to go out for pleasure. French « se promener »: on va se promener ?",
         "km": "« se promener » ជាកិរិយាសព្ទឆ្លុះ៖ on se promène។ អង់គ្លេស៖ « to go for a walk »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Quel beau paysage !", "en": "What a beautiful landscape!", "km": "ទេសភាពស្អាតណាស់!", "tr": "té-sa-phéap s'at nah !",
       "note": {
         "fr": "ទេសភាព, « le paysage », mot savant mais courant dans la bouche des voyageurs.",
+        "en": "ទេសភាព, “landscape”, a learned word but common among travellers. French « Quel beau… ! » means “What a beautiful…!”.",
         "km": "« paysage » ជានាមភេទប្រុស៖ le paysage, ទើបប្រើ « beau »។ អង់គ្លេស៖ « landscape » ឬ « view »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "La saison des pluies", "km": "រដូវភ្លៀង"},
+      "situation": {"fr": "La saison des pluies", "en": "The rainy season", "km": "រដូវភ្លៀង"},
       "fr": "Pendant la saison des pluies, les paysans plantent le riz.", "en": "During the rainy season, farmers plant rice.",
       "km": "នៅរដូវភ្លៀង កសិករដាំស្រូវ។", "tr": "neuv ro-deuv phlieng, kâ-sek-kâ dam srouv."
     },
     {
-      "situation": {"fr": "Au bord du fleuve", "km": "នៅមាត់ទន្លេ"},
+      "situation": {"fr": "Au bord du fleuve", "en": "By the river", "km": "នៅមាត់ទន្លេ"},
       "fr": "Le soir, les gens se promènent au bord du fleuve.", "en": "In the evening, people walk along the river.",
       "km": "ពេលល្ងាច គេដើរលេងតាមមាត់ទន្លេ។", "tr": "pél lngéatch, ké daeu léng tam moat tonlé."
     },
     {
-      "situation": {"fr": "En haut de la montagne", "km": "នៅលើកំពូលភ្នំ"},
+      "situation": {"fr": "En haut de la montagne", "en": "At the top of the mountain", "km": "នៅលើកំពូលភ្នំ"},
       "fr": "D'en haut, on voit toutes les rizières du village.", "en": "From up here, you can see all the rice fields of the village.",
       "km": "ពីលើនេះ យើងមើលឃើញស្រែទាំងអស់របស់ភូមិ។", "tr": "pi leu nih, yeung meul kheugn srè téang âh ro-bâh phoum."
     }

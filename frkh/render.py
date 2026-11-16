@@ -14,96 +14,119 @@ from pathlib import Path
 from string import Template
 
 from .audio import wavutil
-from .config import LEVEL_LABELS
+from .config import LEGACY_PROFILES, LEVEL_LABELS
 from .textutil import LANGS, fold, format_date, speech_text, to_khmer_digits
 
-# Libellés d'interface : (français, khmer). Le profil choisi dans la page décide lequel s'affiche.
+# Libellés d'interface : (français, anglais, khmer). Le profil choisi dans la page décide lequel s'affiche.
 UI = {
     "tagline": ("Une leçon de moins de dix minutes, chaque jour, en trois langues.",
+                "A lesson of less than ten minutes, every day, in three languages.",
                 "មេរៀនខ្លីមិនដល់ ១០ នាទី រៀងរាល់ថ្ងៃ ជាបីភាសា។"),
-    "lesson": ("Leçon", "មេរៀន"),
-    "home": ("Toutes les leçons", "មេរៀនទាំងអស់"),
-    "previous": ("Leçon précédente", "មេរៀនមុន"),
-    "next": ("Leçon suivante", "មេរៀនបន្ទាប់"),
-    "vocabulary": ("Vocabulaire", "វាក្យសព្ទ"),
-    "expressions": ("Expressions pratiques", "ឃ្លាមានប្រយោជន៍"),
-    "sentences": ("Phrases de la vie quotidienne", "ប្រយោគក្នុងជីវិតប្រចាំថ្ងៃ"),
-    "dialogue": ("Petit dialogue", "ការសន្ទនាខ្លី"),
-    "review": ("Révision", "ការរំលឹកមេរៀន"),
-    "minutes": ("min", "នាទី"),
-    "new": ("nouveau", "ថ្មី"),
-    "seen": ("déjà vu", "ធ្លាប់រៀន"),
-    "uncertain": ("à vérifier", "ត្រូវពិនិត្យ"),
+    "lesson": ("Leçon", "Lesson", "មេរៀន"),
+    "home": ("Toutes les leçons", "All lessons", "មេរៀនទាំងអស់"),
+    "previous": ("Leçon précédente", "Previous lesson", "មេរៀនមុន"),
+    "next": ("Leçon suivante", "Next lesson", "មេរៀនបន្ទាប់"),
+    "vocabulary": ("Vocabulaire", "Vocabulary", "វាក្យសព្ទ"),
+    "expressions": ("Expressions pratiques", "Useful expressions", "ឃ្លាមានប្រយោជន៍"),
+    "sentences": ("Phrases de la vie quotidienne", "Everyday sentences", "ប្រយោគក្នុងជីវិតប្រចាំថ្ងៃ"),
+    "dialogue": ("Petit dialogue", "Short dialogue", "ការសន្ទនាខ្លី"),
+    "review": ("Révision", "Review", "ការរំលឹកមេរៀន"),
+    "minutes": ("min", "min", "នាទី"),
+    "new": ("nouveau", "new", "ថ្មី"),
+    "seen": ("déjà vu", "seen before", "ធ្លាប់រៀន"),
+    "uncertain": ("à vérifier", "to be checked", "ត្រូវពិនិត្យ"),
     "uncertain_title": ("Traduction à faire vérifier par un locuteur natif",
+                        "Translation to be checked by a native speaker",
                         "ការបកប្រែនេះគួរឱ្យម្ចាស់ភាសាពិនិត្យឡើងវិញ"),
-    "example": ("Exemple", "ឧទាហរណ៍"),
-    "tip": ("Le conseil du jour", "គន្លឹះថ្ងៃនេះ"),
-    "audio_missing": ("Audio pas encore disponible", "មិនទាន់មានសំឡេង"),
-    "download": ("Télécharger le fichier WAV", "ទាញយកឯកសារ WAV"),
-    "listen_all": ("Écouter tout le dialogue", "ស្តាប់ការសន្ទនាទាំងមូល"),
-    "review_words": ("Mots à revoir", "ពាក្យត្រូវរំលឹក"),
+    "example": ("Exemple", "Example", "ឧទាហរណ៍"),
+    "tip": ("Le conseil du jour", "Tip of the day", "គន្លឹះថ្ងៃនេះ"),
+    "audio_missing": ("Audio pas encore disponible", "Audio not available yet", "មិនទាន់មានសំឡេង"),
+    "download": ("Télécharger le fichier WAV", "Download the WAV file", "ទាញយកឯកសារ WAV"),
+    "listen_all": ("Écouter tout le dialogue", "Listen to the whole dialogue", "ស្តាប់ការសន្ទនាទាំងមូល"),
+    "review_words": ("Mots à revoir", "Words to review", "ពាក្យត្រូវរំលឹក"),
     "review_hint": ("Revoir un mot à intervalles espacés aide à le retenir.",
+                    "Reviewing a word at spaced intervals helps you remember it.",
                     "ការរំលឹកឡើងវិញជាប្រចាំជួយឱ្យចាំបានយូរ។"),
-    "quick_questions": ("Trois petites questions", "សំណួរខ្លីបី"),
-    "translation": ("Exercice de traduction", "លំហាត់បកប្រែ"),
-    "comprehension": ("Question de compréhension", "សំណួរយល់ន័យ"),
-    "comprehension_hint": ("Relisez le dialogue, puis répondez.", "សូមអានការសន្ទនាម្តងទៀត រួចឆ្លើយ។"),
-    "show_answer": ("Voir la réponse", "មើលចម្លើយ"),
-    "translate": ("Traduisez en anglais et en khmer :", "សូមបកប្រែជាភាសាបារាំង និងភាសាអង់គ្លេស៖"),
-    "done": ("J'ai terminé cette leçon", "ខ្ញុំរៀនមេរៀននេះចប់ហើយ"),
-    "done_mark": ("Terminée", "រៀនចប់"),
-    "search": ("Rechercher une leçon", "ស្វែងរកមេរៀន"),
-    "no_result": ("Aucune leçon ne correspond à cette recherche.", "រកមិនឃើញមេរៀនទេ។"),
-    "all_levels": ("Tous les niveaux", "គ្រប់កម្រិត"),
-    "last_lesson": ("Dernière leçon", "មេរៀនចុងក្រោយ"),
-    "total_lessons": ("Leçons disponibles", "ចំនួនមេរៀនសរុប"),
-    "current_level": ("Niveau actuel", "កម្រិតបច្ចុប្បន្ន"),
-    "words_learned": ("Mots et expressions appris", "ពាក្យ និងឃ្លាដែលបានរៀន"),
+    "quick_questions": ("Trois petites questions", "Three quick questions", "សំណួរខ្លីបី"),
+    "translation": ("Exercice de traduction", "Translation exercise", "លំហាត់បកប្រែ"),
+    "comprehension": ("Question de compréhension", "Comprehension question", "សំណួរយល់ន័យ"),
+    "comprehension_hint": ("Relisez le dialogue, puis répondez.", "Read the dialogue again, then answer.",
+                           "សូមអានការសន្ទនាម្តងទៀត រួចឆ្លើយ។"),
+    "show_answer": ("Voir la réponse", "Show the answer", "មើលចម្លើយ"),
+    "done": ("J'ai terminé cette leçon", "I have finished this lesson", "ខ្ញុំរៀនមេរៀននេះចប់ហើយ"),
+    "done_mark": ("Terminée", "Done", "រៀនចប់"),
+    "search": ("Rechercher une leçon", "Search for a lesson", "ស្វែងរកមេរៀន"),
+    "no_result": ("Aucune leçon ne correspond à cette recherche.", "No lesson matches this search.",
+                  "រកមិនឃើញមេរៀនទេ។"),
+    "all_levels": ("Tous les niveaux", "All levels", "គ្រប់កម្រិត"),
+    "last_lesson": ("Dernière leçon", "Last lesson", "មេរៀនចុងក្រោយ"),
+    "total_lessons": ("Leçons disponibles", "Lessons available", "ចំនួនមេរៀនសរុប"),
+    "current_level": ("Niveau actuel", "Current level", "កម្រិតបច្ចុប្បន្ន"),
+    "words_learned": ("Mots et expressions appris", "Words and expressions learned", "ពាក្យ និងឃ្លាដែលបានរៀន"),
     "no_lessons": ("Aucune leçon pour l'instant. Lancez « python3 manage.py generate » pour créer la première.",
+                   "No lessons yet. Run “python3 manage.py generate” to create the first one.",
                    "មិនទាន់មានមេរៀននៅឡើយទេ។"),
-    "slow": ("Lecture lente", "អានយឺត"),
-    "review_lesson": ("Leçon de révision", "មេរៀនរំលឹក"),
-    "audio_pending": ("audio en attente", "សំឡេងមិនទាន់រួចរាល់"),
-    "open": ("Ouvrir la leçon", "បើកមេរៀន"),
-    "profile": ("Profil d'apprentissage", "ជ្រើសរើសអ្នករៀន"),
-    "skip": ("Aller au contenu", "ទៅកាន់មាតិកា"),
+    "slow": ("Lecture lente", "Slow playback", "អានយឺត"),
+    "review_lesson": ("Leçon de révision", "Review lesson", "មេរៀនរំលឹក"),
+    "audio_pending": ("audio en attente", "audio pending", "សំឡេងមិនទាន់រួចរាល់"),
+    "open": ("Ouvrir la leçon", "Open the lesson", "បើកមេរៀន"),
+    "profile": ("Langue de l'apprenant", "Learner's language", "ភាសារបស់អ្នករៀន"),
+    "skip": ("Aller au contenu", "Skip to content", "ទៅកាន់មាតិកា"),
     "audio_notice": ("Certains audios ne sont pas encore disponibles : ils seront ajoutés automatiquement.",
+                     "Some audio files are not available yet: they will be added automatically.",
                      "សំឡេងខ្លះមិនទាន់មាននៅឡើយទេ។ វានឹងត្រូវបន្ថែមដោយស្វ័យប្រវត្តិ។"),
-    "today_lesson": ("Leçon du jour", "មេរៀនថ្ងៃនេះ"),
-    "latest_lesson": ("Dernière leçon disponible", "មេរៀនចុងក្រោយ"),
-    "start": ("Commencer", "ចាប់ផ្តើម"),
-    "today_badge": ("Aujourd'hui", "ថ្ងៃនេះ"),
-    "future_badge": ("À venir", "នាពេលខាងមុខ"),
+    "today_lesson": ("Leçon du jour", "Today's lesson", "មេរៀនថ្ងៃនេះ"),
+    "latest_lesson": ("Dernière leçon disponible", "Latest lesson available", "មេរៀនចុងក្រោយ"),
+    "start": ("Commencer", "Start", "ចាប់ផ្តើម"),
+    "today_badge": ("Aujourd'hui", "Today", "ថ្ងៃនេះ"),
+    "future_badge": ("À venir", "Upcoming", "នាពេលខាងមុខ"),
     "future_notice": ("Cette leçon est prévue pour plus tard. Vous pouvez la regarder, mais elle n'est pas encore au programme.",
+                      "This lesson is planned for later. You can look at it, but it is not on the schedule yet.",
                       "មេរៀននេះសម្រាប់ថ្ងៃខាងមុខ។ អាចមើលបាន ប៉ុន្តែមិនទាន់ដល់ពេលរៀនទេ។"),
-    "review_nav": ("Réviser", "រំលឹក"),
-    "home_short": ("Accueil", "ទំព័រដើម"),
-    "size": ("Taille du texte", "ទំហំអក្សរ"),
-    "due_words": ("à réviser aujourd'hui", "ត្រូវរំលឹកថ្ងៃនេះ"),
-    "lexicon_nav": ("Lexique", "សទ្ទានុក្រម"),
-    "alphabet_nav": ("Alphabets", "អក្សរ"),
-    "all_lessons": ("Toutes les leçons", "មេរៀនទាំងអស់"),
-    "sc_review": ("Cartes mémoire et exercice d'écoute", "កាតចងចាំ និងលំហាត់ស្តាប់"),
-    "sc_lexicon": ("Tous les mots vus, avec l'audio", "ពាក្យទាំងអស់ដែលបានរៀន ព្រមទាំងសំឡេង"),
-    "sc_alphabet": ("Lettres khmères et latines", "អក្សរខ្មែរ និងអក្សរឡាតាំង"),
-    "roleplay": ("Jeu de rôle, je suis :", "លេងតួ ខ្ញុំជា៖"),
-    "roleplay_lang": ("en", "ជា"),
-    "rp_continue": ("Continuer", "បន្ត"),
-    "rp_stop": ("Arrêter", "ឈប់"),
-    "quiz": ("Se tester", "តេស្តខ្លួនឯង"),
-    "quiz_hint": ("Mode test : touchez une ligne floutée pour la révéler.", "របៀបតេស្ត៖ ចុចលើបន្ទាត់ព្រិលៗ ដើម្បីមើល។"),
-    "review_this": ("Réviser les mots de cette leçon", "រំលឹកពាក្យក្នុងមេរៀននេះ"),
+    "review_nav": ("Réviser", "Review", "រំលឹក"),
+    "home_short": ("Accueil", "Home", "ទំព័រដើម"),
+    "size": ("Taille du texte", "Text size", "ទំហំអក្សរ"),
+    "due_words": ("à réviser aujourd'hui", "to review today", "ត្រូវរំលឹកថ្ងៃនេះ"),
+    "lexicon_nav": ("Lexique", "Glossary", "សទ្ទានុក្រម"),
+    "alphabet_nav": ("Alphabets", "Alphabets", "អក្សរ"),
+    "all_lessons": ("Toutes les leçons", "All lessons", "មេរៀនទាំងអស់"),
+    "sc_review": ("Cartes mémoire et exercice d'écoute", "Flashcards and listening practice", "កាតចងចាំ និងលំហាត់ស្តាប់"),
+    "sc_lexicon": ("Tous les mots vus, avec l'audio", "Every word seen so far, with audio",
+                   "ពាក្យទាំងអស់ដែលបានរៀន ព្រមទាំងសំឡេង"),
+    "sc_alphabet": ("Lettres khmères et latines", "Khmer and Latin letters", "អក្សរខ្មែរ និងអក្សរឡាតាំង"),
+    "alphabet_promo": ("Apprendre les alphabets khmer et latin, avec la prononciation",
+                       "Learn the Khmer and Latin alphabets, with pronunciation",
+                       "រៀនអក្សរខ្មែរ និងអក្សរឡាតាំង ព្រមទាំងការបញ្ចេញសំឡេង"),
+    "roleplay": ("Jeu de rôle, je suis :", "Role play, I am:", "លេងតួ ខ្ញុំជា៖"),
+    "roleplay_lang": ("en", "in", "ជា"),
+    "rp_continue": ("Continuer", "Continue", "បន្ត"),
+    "rp_stop": ("Arrêter", "Stop", "ឈប់"),
+    "rp_key": ("Espace", "Space", "Space"),
+    "quiz": ("Se tester", "Test yourself", "តេស្តខ្លួនឯង"),
+    "quiz_hint": ("Mode test : touchez une ligne floutée pour la révéler.",
+                  "Test mode: tap a blurred line to reveal it.",
+                  "របៀបតេស្ត៖ ចុចលើបន្ទាត់ព្រិលៗ ដើម្បីមើល។"),
+    "review_this": ("Réviser les mots de cette leçon", "Review the words of this lesson", "រំលឹកពាក្យក្នុងមេរៀននេះ"),
+    "greeting": ("Bonjour !", "Hello!", "សួស្តី!"),
     "footer": ("Site généré automatiquement, consultable hors connexion.",
+               "Site generated automatically, available offline.",
                "គេហទំព័រនេះបង្កើតដោយស្វ័យប្រវត្តិ និងប្រើបានដោយគ្មានអ៊ីនធឺណិត។"),
 }
 
 POS_LABELS = {
-    "nom": ("nom", "នាម"), "verbe": ("verbe", "កិរិយាសព្ទ"), "adjectif": ("adjectif", "គុណនាម"),
-    "adverbe": ("adverbe", "កិរិយាវិសេសន៍"), "pronom": ("pronom", "សព្វនាម"),
-    "interjection": ("interjection", "ឧទានសព្ទ"), "nombre": ("nombre", "លេខ"),
-    "preposition": ("préposition", "ធ្នាក់"), "conjonction": ("conjonction", "ឈ្នាប់"),
-    "particule": ("particule", "និបាត"), "interrogatif": ("mot interrogatif", "ពាក្យសំណួរ"),
-    "expression": ("expression", "ឃ្លា"),
+    "nom": ("nom", "noun", "នាម"), "verbe": ("verbe", "verb", "កិរិយាសព្ទ"),
+    "adjectif": ("adjectif", "adjective", "គុណនាម"), "adverbe": ("adverbe", "adverb", "កិរិយាវិសេសន៍"),
+    "pronom": ("pronom", "pronoun", "សព្វនាម"), "interjection": ("interjection", "interjection", "ឧទានសព្ទ"),
+    "nombre": ("nombre", "number", "លេខ"), "preposition": ("préposition", "preposition", "ធ្នាក់"),
+    "conjonction": ("conjonction", "conjunction", "ឈ្នាប់"), "particule": ("particule", "particle", "និបាត"),
+    "interrogatif": ("mot interrogatif", "question word", "ពាក្យសំណួរ"), "expression": ("expression", "expression", "ឃ្លា"),
+}
+
+# Nom de chaque langue, dans chaque langue d'interface.
+LANG_NAMES = {
+    "fr": {"fr": "français", "en": "French", "km": "ភាសាបារាំង"},
+    "en": {"fr": "anglais", "en": "English", "km": "ភាសាអង់គ្លេស"},
+    "km": {"fr": "khmer", "en": "Khmer", "km": "ភាសាខ្មែរ"},
 }
 
 LANG_INFO = {
@@ -139,14 +162,65 @@ def esc(value) -> str:
     return html.escape(str(value if value is not None else ""), quote=True)
 
 
+def multi(texts, tag: str = "span", attrs: str = "") -> str:
+    """Texte dans chaque langue d'interface : la feuille de style n'affiche que celui du profil actif.
+
+    ``texts`` : {"fr": …, "en": …, "km": …} ou tuple (fr, en, km). Une langue absente reprend le français.
+    """
+    if not isinstance(texts, dict):
+        texts = dict(zip(LANGS, texts))
+    out = []
+    for lang in LANGS:
+        value = texts.get(lang) or texts.get("fr") or ""
+        out.append(f'<{tag} class="ui-{lang}" lang="{lang}"{attrs}>{esc(value)}</{tag}>')
+    return "".join(out)
+
+
 def ui(key: str, tag: str = "span") -> str:
-    """Libellé bilingue : la feuille de style n'affiche que la langue du profil actif."""
-    fr, km = UI[key]
-    return f'<{tag} class="ui-fr">{esc(fr)}</{tag}><{tag} class="ui-km" lang="km">{esc(km)}</{tag}>'
+    """Libellé d'interface, dans les trois langues."""
+    return multi(UI[key], tag=tag)
 
 
-def bilingual(fr: str, km: str, tag: str = "span") -> str:
-    return f'<{tag} class="ui-fr">{esc(fr)}</{tag}><{tag} class="ui-km" lang="km">{esc(km)}</{tag}>'
+def ui_text(key: str, lang: str = "fr") -> str:
+    """Libellé brut dans une langue (attributs title, aria-label…)."""
+    return UI[key][LANGS.index(lang)]
+
+
+def num_label(n) -> str:
+    """Nombre en chiffres latins (français, anglais) et en chiffres khmers."""
+    return multi({"fr": str(n), "en": str(n), "km": to_khmer_digits(n)})
+
+
+def minutes_label(n: int) -> str:
+    return multi({"fr": f"≈ {n} min", "en": f"≈ {n} min", "km": f"≈ {to_khmer_digits(n)} នាទី"})
+
+
+def date_label(value, weekday: bool = True) -> str:
+    return multi({lang: format_date(value, lang, weekday=weekday) for lang in LANGS})
+
+
+def for_profiles(profiles, all_profiles=LANGS) -> str:
+    """Classes qui réservent un élément à certains profils (« not-km » : masqué pour le profil khmer)."""
+    return " ".join(f"not-{p}" for p in all_profiles if p not in profiles)
+
+
+def scoped_notes(note: dict | None, css: str = "note", tag: str = "p") -> str:
+    """Une explication par profil : chaque profil lit celle de sa langue.
+
+    Sans version anglaise, le profil anglais lit la version française.
+    """
+    if not note or not any(note.get(lang) for lang in LANGS):
+        return ""
+    parts = []
+    for lang in LANGS:
+        text = note.get(lang)
+        if not text:
+            continue
+        scope = f"for-{lang}"
+        if lang == "fr" and not note.get("en"):
+            scope = "not-km"
+        parts.append(f'<{tag} class="{css} {scope}" lang="{lang}">{esc(text)}</{tag}>')
+    return "".join(parts)
 
 
 class SiteRenderer:
@@ -178,15 +252,19 @@ class SiteRenderer:
             raise RenderError(f"templates/{name}.html : syntaxe invalide ({exc}) — écrire $$ pour un « $ » littéral") from exc
 
     def _page(self, *, root: str, title: str, description: str, body_class: str, content: str) -> str:
-        learners = self.config["learners"]
+        profiles = self.config.profiles()
+        buttons = "".join(
+            f'<button type="button" data-profile-choice="{key}" lang="{key}" aria-pressed="false" '
+            f'title="{esc(LANG_NAMES[key][key].capitalize())}">{esc(spec["label"])}</button>'
+            for key, spec in profiles.items())
+        profiles_json = json.dumps({key: spec["learns"] for key, spec in profiles.items()}, separators=(",", ":"))
         return self._fill(
             "base", root=root, page_title=esc(title), page_description=esc(description), body_class=body_class,
-            default_profile=esc(self.config.get("site.default_profile", "B")),
+            default_profile=esc(self.config.default_profile()), profile_buttons=buttons,
+            profiles_json=profiles_json.replace("</", "<\\/"),
             site_title=esc(self.config.get("site.title", "FR-KH Learning")),
-            name_a=esc(learners["A"].get("label") or learners["A"]["name"]["km"]),
-            name_b=esc(learners["B"].get("label") or learners["B"]["name"]["latin"]),
             ui_profile=esc(UI["profile"][0]), ui_slow=ui("slow"), ui_skip=ui("skip"), ui_footer=ui("footer"),
-            ui_home=ui("home"), ui_alphabet=bilingual("Alphabets", "អក្សរ"), ui_review=ui("review_nav"), ui_lexicon=ui("lexicon_nav"), icon_book=ICONS["book"],
+            ui_home=ui("home"), ui_alphabet=ui("alphabet_nav"), ui_review=ui("review_nav"), ui_lexicon=ui("lexicon_nav"), icon_book=ICONS["book"],
             ui_size_title=esc(UI["size"][0]), app_name=esc(self._app_name()),
             ui_home_short=ui("home_short"), ui_alphabet_short=ui("alphabet_nav"), icon_house=ICONS["house"],
             icon_cards=ICONS["cards"], version=self._asset_version(), root_attr=root, timezone=esc(self.config.get("schedule.timezone", "Asia/Phnom_Penh")),
@@ -222,28 +300,21 @@ class SiteRenderer:
                 continue
             translit = ""
             if lang == "km" and entry.get("tr"):
-                translit = f'<p class="translit for-b" lang="km-Latn">{esc(entry["tr"])}</p>'
+                translit = f'<p class="translit not-km" lang="km-Latn">{esc(entry["tr"])}</p>'
             rows.append(self._fill("partials/lang_row", lang=lang, tag=LANG_INFO[lang]["tag"], text=esc(text),
                                    translit=translit, audio=self._audio(text, lang, root) if audio else ""))
         return f'<div class="tri{" tri-compact" if compact else ""}">{"".join(rows)}</div>'
 
     @staticmethod
     def _note(note: dict | None) -> str:
-        if not note or not (note.get("fr") or note.get("km")):
-            return ""
-        parts = []
-        if note.get("fr"):
-            parts.append(f'<p class="note for-b" lang="fr">{esc(note["fr"])}</p>')
-        if note.get("km"):
-            parts.append(f'<p class="note for-a" lang="km">{esc(note["km"])}</p>')
-        return "".join(parts)
+        return scoped_notes(note)
 
     @staticmethod
     def _badges(entry: dict, show_state: bool = True) -> str:
         badges = []
         pos = entry.get("pos")
         if pos in POS_LABELS:
-            badges.append(f'<span class="badge badge-pos">{bilingual(*POS_LABELS[pos])}</span>')
+            badges.append(f'<span class="badge badge-pos">{multi(POS_LABELS[pos])}</span>')
         if show_state and "is_new" in entry:
             key = "new" if entry["is_new"] else "seen"
             badges.append(f'<span class="badge badge-{key}">{ui(key)}</span>')
@@ -259,18 +330,49 @@ class SiteRenderer:
                        f'{self._rows(entry["example"], root, compact=True)}</div>')
         situation = ""
         if entry.get("situation"):
-            situation = f'<p class="situation">{bilingual(entry["situation"].get("fr", ""), entry["situation"].get("km", ""))}</p>'
+            situation = f'<p class="situation">{multi(entry["situation"])}</p>'
         uncertain = ""
         if entry.get("uncertain") and entry.get("uncertain_note"):
-            uncertain = f'<p class="uncertain-note for-b" lang="fr">{esc(entry["uncertain_note"])}</p>'
+            uncertain = f'<p class="uncertain-note not-km" lang="fr">{esc(entry["uncertain_note"])}</p>'
         return self._fill("partials/entry", anchor=anchor, badges=self._badges(entry), situation=situation,
                           rows=self._rows(entry, root), note=self._note(entry.get("note")) + uncertain,
                           example=example, extra_class=" is-uncertain" if entry.get("uncertain") else "")
 
+    @staticmethod
+    def _character_name(name: dict, fallback: str) -> str:
+        latin = name.get("latin") or fallback
+        return multi({"fr": latin, "en": latin, "km": name.get("km") or latin})
+
+    @staticmethod
+    def _level(level: str) -> dict:
+        return LEVEL_LABELS.get(level, {"fr": level, "en": level, "km": level})
+
+    def _studied(self, profile: str) -> str:
+        """« en khmer et en anglais », « in Khmer and French », « ជាភាសាបារាំង និងភាសាអង់គ្លេស »."""
+        names = [LANG_NAMES[lang][profile] for lang in self.config.profiles()[profile]["learns"]]
+        if profile == "fr":
+            return " et ".join(f"en {n}" for n in names)
+        if profile == "en":
+            return "in " + " and ".join(names)
+        return "ជា" + " និង".join(names)
+
+    def _question_prompt(self, q: dict) -> str:
+        texts = {
+            "fr": lambda w: f"Comment dit-on « <strong>{w}</strong> » {self._studied('fr')} ?",
+            "en": lambda w: f"How do you say “<strong>{w}</strong>” {self._studied('en')}?",
+            "km": lambda w: f"តើពាក្យ « <strong>{w}</strong> » {self._studied('km')}ថាដូចម្តេច?",
+        }
+        return "".join(f'<p class="prompt for-{p}" lang="{p}">{texts[p](esc(q.get(p, "")))}</p>'
+                       for p in self.config.profiles())
+
+    def _translate_hint(self) -> str:
+        texts = {"fr": f"Traduisez {self._studied('fr')} :", "en": f"Translate {self._studied('en')}:",
+                 "km": f"សូមបកប្រែ{self._studied('km')}៖"}
+        return multi(texts)
+
     def _section(self, key: str, number: int, body: str) -> str:
         minutes = PART_MINUTES[key]
-        time = (f'<span class="ui-fr">≈ {minutes} min</span>'
-                f'<span class="ui-km" lang="km">≈ {to_khmer_digits(minutes)} នាទី</span>')
+        time = minutes_label(minutes)
         return self._fill("partials/section", key=key, number=number, title=ui(key), time=time, body=body)
 
     def _answer(self, body: str) -> str:
@@ -283,7 +385,7 @@ class SiteRenderer:
             raise RenderError(f"leçon n° {number} introuvable")
         content = content or json.loads(row["content_json"])
         root = ".."
-        learners = self.config["learners"]
+        characters = self.config.characters()
         sections = []
         self._missing = 0
 
@@ -298,11 +400,11 @@ class SiteRenderer:
         lines = []
         for i, line in enumerate(dialogue["lines"], 1):
             speaker = line.get("speaker", "A")
-            name = learners.get(speaker, {}).get("name", {})
+            name = characters.get(speaker, {}).get("name", {})
             lines.append(self._fill(
                 "partials/dialogue_line", speaker=speaker.lower(), index=i,
                 initial=esc((name.get("latin") or speaker)[:1].upper()),
-                name=bilingual(name.get("latin", speaker), name.get("km", speaker)),
+                name=self._character_name(name, speaker),
                 rows=self._rows(line, root, compact=True)))
         setting = dialogue.get("setting") or {}
         play_all = "".join(
@@ -310,15 +412,16 @@ class SiteRenderer:
             for lang in LANGS)
         roles = "".join(
             f'<button type="button" class="chip chip-role" data-role="{who.lower()}">'
-            f'{bilingual(learners.get(who, {}).get("name", {}).get("latin", who), learners.get(who, {}).get("name", {}).get("km", who))}</button>'
+            f'{self._character_name(characters.get(who, {}).get("name", {}), who)}</button>'
             for who in ("A", "B"))
+        # Langues du jeu de rôle : celles que le profil étudie.
         rp_langs = "".join(
-            f'<button type="button" class="chip chip-{lang} {cls}" data-rp-lang="{lang}">{LANG_INFO[lang]["tag"]}</button>'
-            for lang, cls in (("km", "for-b"), ("fr", "for-a"), ("en", "")))
+            f'<button type="button" class="chip chip-{lang} not-{lang}" data-rp-lang="{lang}">{LANG_INFO[lang]["tag"]}</button>'
+            for lang in LANGS)
         roleplay = (f'<div class="roleplay js-only" data-roleplay><span>{ui("roleplay")}</span>{roles}'
                     f'<span class="rp-lang-label">{ui("roleplay_lang")}</span>{rp_langs}</div>'
                     f'<div class="roleplay-bar" id="roleplay-bar" hidden role="status"><p class="rp-msg" id="rp-msg"></p>'
-                    f'<div class="rp-actions"><button type="button" class="fc-btn" id="rp-continue">{ui("rp_continue")} <kbd>Espace</kbd></button>'
+                    f'<div class="rp-actions"><button type="button" class="fc-btn" id="rp-continue">{ui("rp_continue")} <kbd>{ui("rp_key")}</kbd></button>'
                     f'<button type="button" class="chip" id="rp-stop">{ui("rp_stop")}</button></div></div>')
         body = (f'<div class="setting">{self._rows(setting, root, audio=False, compact=True)}</div>'
                 f'<div class="play-all js-only"><span>{ui("listen_all")}</span>{play_all}</div>'
@@ -331,20 +434,18 @@ class SiteRenderer:
             tip = self._fill("partials/tip", title=ui("tip"), body=self._note(content["tip"]))
 
         title = "".join(f'<span class="t-{lang}" lang="{lang}">{esc(content["title"][lang])}</span>' for lang in LANGS)
-        level = LEVEL_LABELS.get(content["level"], {"fr": content["level"], "km": content["level"]})
+        level = self._level(content["level"])
         minutes = max(1, round(content.get("estimated_seconds", row["estimated_duration"]) / 60))
         meta = [
-            f'<li class="meta-date">{bilingual(format_date(content["date"], "fr"), format_date(content["date"], "km"))}</li>',
-            f'<li class="meta-level level-{esc(content["level"])}">{bilingual(level["fr"], level["km"])}</li>',
-            f'<li class="meta-time">{ICONS["clock"]}<span class="ui-fr">≈ {minutes} min</span>'
-            f'<span class="ui-km" lang="km">≈ {to_khmer_digits(minutes)} នាទី</span></li>',
+            f'<li class="meta-date">{date_label(content["date"])}</li>',
+            f'<li class="meta-level level-{esc(content["level"])}">{multi(level)}</li>',
+            f'<li class="meta-time">{ICONS["clock"]}{minutes_label(minutes)}</li>',
         ]
         if content.get("kind") == "review":
             meta.append(f'<li class="meta-review">{ui("review_lesson")}</li>')
         meta.append(f'<li class="meta-quiz js-only"><button type="button" class="quiz-toggle" id="quiz-toggle" aria-pressed="false" '
                     f'title="{esc(UI["quiz_hint"][0])}">{ICONS["eye"]}{ui("quiz")}</button></li>')
-        kicker = (f'<span class="ui-fr">Leçon {number}</span>'
-                  f'<span class="ui-km" lang="km">មេរៀនទី {to_khmer_digits(number)}</span>')
+        kicker = multi({"fr": f"Leçon {number}", "en": f"Lesson {number}", "km": f"មេរៀនទី {to_khmer_digits(number)}"})
 
         notice = ""
         if self._missing:
@@ -387,13 +488,14 @@ class SiteRenderer:
         if words:
             chips = []
             for word in words:
-                due_for = word.get("due_for") or ["A", "B"]
-                scope = "" if len(due_for) > 1 else f" for-{due_for[0].lower()}"
+                due_for = {LEGACY_PROFILES.get(p, p) for p in word.get("due_for") or LANGS}
+                scope = for_profiles(due_for)
+                scope = f" {scope}" if scope else ""
                 days = word.get("days")
                 badge = ""
                 if days:
-                    badge = (f'<span class="badge badge-days"><span class="ui-fr">J+{days}</span>'
-                             f'<span class="ui-km" lang="km">{to_khmer_digits(days)} ថ្ងៃ</span></span>')
+                    badge = (f'<span class="badge badge-days">'
+                             f'{multi({"fr": f"J+{days}", "en": f"D+{days}", "km": f"{to_khmer_digits(days)} ថ្ងៃ"})}</span>')
                 chips.append(f'<li class="recall{scope}">{badge}{self._rows(word, root, compact=True)}</li>')
             blocks.append(f'<div class="block"><h3>{ui("review_words")}</h3><p class="hint">{ui("review_hint")}</p>'
                           f'<ul class="recall-list">{"".join(chips)}</ul></div>')
@@ -402,16 +504,15 @@ class SiteRenderer:
         if questions:
             items = []
             for q in questions:
-                prompt = (f'<p class="prompt for-b" lang="fr">Comment dit-on « <strong>{esc(q["fr"])}</strong> » en anglais et en khmer ?</p>'
-                          f'<p class="prompt for-a" lang="km">តើពាក្យ « <strong>{esc(q["km"])}</strong> » ជាភាសាបារាំង និងភាសាអង់គ្លេសថាដូចម្តេច?</p>')
+                prompt = self._question_prompt(q)
                 items.append(f'<li>{prompt}{self._answer(self._rows(q, root, compact=True))}</li>')
             blocks.append(f'<div class="block"><h3>{ui("quick_questions")}</h3><ol class="questions">{"".join(items)}</ol></div>')
 
         translation = review.get("translation")
         if translation:
-            prompt = (f'<p class="hint">{ui("translate")}</p>'
-                      f'<p class="prompt prompt-big for-b" lang="fr">{esc(translation["fr"])}</p>'
-                      f'<p class="prompt prompt-big for-a" lang="km">{esc(translation["km"])}</p>')
+            prompt = (f'<p class="hint">{self._translate_hint()}</p>'
+                      + "".join(f'<p class="prompt prompt-big for-{p}" lang="{p}">{esc(translation.get(p, ""))}</p>'
+                                for p in self.config.profiles()))
             blocks.append(f'<div class="block"><h3>{ui("translation")}</h3>{prompt}'
                           f'{self._answer(self._rows(translation, root, compact=True))}</div>')
 
@@ -456,7 +557,7 @@ class SiteRenderer:
         cards = []
         for row in rows:
             content = json.loads(row["content_json"])
-            level = LEVEL_LABELS.get(row["level"], {"fr": row["level"], "km": row["level"]})
+            level = self._level(row["level"])
             words = content.get("vocabulary", []) + content.get("expressions", [])
             date = row["lesson_date"]
             y, m, d = date.split("-")
@@ -465,7 +566,7 @@ class SiteRenderer:
                 f"lesson {row['lesson_number']}", date, f"{d}/{m}/{y}", f"{d}-{m}-{y}", f"{int(d)}/{int(m)}/{y}",
                 format_date(date, "fr"), format_date(date, "en"), format_date(date, "km"),
                 row["theme"], row["theme"].replace("-", " "), row["title_fr"], row["title_en"], row["title_km"],
-                level["fr"], level["km"], row["level"],
+                level["fr"], level["en"], level["km"], row["level"],
                 " ".join(f"{w['fr']} {w['en']} {w['km']}" for w in words),
             ])
             preview = "".join(
@@ -483,11 +584,11 @@ class SiteRenderer:
                 "partials/lesson_card", number=row["lesson_number"],
                 state=" is-future" if row["lesson_date"] > self.config.today().isoformat() else "", href=esc(row["html_path"] or f"lessons/lesson-{row['lesson_number']:03d}.html"),
                 search=esc(fold(search)), level=esc(row["level"]), title=title,
-                number_km=to_khmer_digits(row["lesson_number"]),
-                date=bilingual(format_date(date, "fr"), format_date(date, "km")), date_iso=date,
-                level_label=bilingual(level["fr"], level["km"]),
+                number_label=num_label(row["lesson_number"]),
+                date=date_label(date), date_iso=date,
+                level_label=multi(level),
                 theme=esc(row["theme"].replace("-", " ")),
-                minutes=f'<span class="ui-fr">≈ {minutes} min</span><span class="ui-km" lang="km">≈ {to_khmer_digits(minutes)} នាទី</span>',
+                minutes=minutes_label(minutes),
                 flags=flags, preview=preview, done_mark=ui("done_mark"), icon_check=ICONS["check"], open=esc(UI["open"][0])))
 
         # Les leçons générées à l'avance ne comptent qu'à partir de leur date.
@@ -501,30 +602,29 @@ class SiteRenderer:
         learned = len(learned_words)
         if past:
             last = past[0]
-            level = LEVEL_LABELS.get(last["level"], {"fr": last["level"], "km": last["level"]})
-            last_date = bilingual(format_date(last["lesson_date"], "fr", weekday=False),
-                                  format_date(last["lesson_date"], "km", weekday=False))
-            level_label = bilingual(level["fr"], level["km"])
+            last_date = date_label(last["lesson_date"], weekday=False)
+            level_label = multi(self._level(last["level"]))
         else:
             last_date = level_label = '<span>—</span>'
         stats = "".join(self._fill("partials/stat", label=label, value=value) for label, value in (
-            (ui("total_lessons"), f'<span class="ui-fr">{len(past)}</span><span class="ui-km" lang="km">{to_khmer_digits(len(past))}</span>'),
+            (ui("total_lessons"), num_label(len(past))),
             (ui("current_level"), level_label),
-            (ui("words_learned"), f'<span class="ui-fr">{learned}</span><span class="ui-km" lang="km">{to_khmer_digits(learned)}</span>'),
+            (ui("words_learned"), num_label(learned)),
         ))
         present = [lvl for lvl in LEVEL_LABELS if any(r["level"] == lvl for r in rows)]
         filters = f'<button type="button" class="chip is-active" data-level="">{ui("all_levels")}</button>' + "".join(
-            f'<button type="button" class="chip" data-level="{lvl}">{bilingual(LEVEL_LABELS[lvl]["fr"], LEVEL_LABELS[lvl]["km"])}</button>'
+            f'<button type="button" class="chip" data-level="{lvl}">{multi(LEVEL_LABELS[lvl])}</button>'
             for lvl in present)
         body = self._fill(
             "index", site_title=esc(self.config.get("site.title", "FR-KH Learning")), tagline=ui("tagline"),
             stats=stats, search_label=ui("search"), icon_search=ICONS["search"],
             placeholder_fr=esc("Numéro, date, thème ou mot en français, anglais ou khmer…"),
+            placeholder_en=esc("Number, date, topic or word in French, English or Khmer…"),
             placeholder_km=esc("លេខ កាលបរិច្ឆេទ ប្រធានបទ ឬពាក្យ…"),
             filters=filters, lessons="".join(cards), no_result=ui("no_result"),
             alphabet_link=(f'<a class="alpha-promo" data-nav href="alphabet.html"><span class="alpha-promo-glyphs" aria-hidden="true">'
                            f'<span lang="km">ក ខ គ</span> A B C</span><span class="alpha-promo-text">'
-                           f'{bilingual("Apprendre les alphabets khmer et latin, avec la prononciation", "រៀនអក្សរខ្មែរ និងអក្សរឡាតាំង ព្រមទាំងការបញ្ចេញសំឡេង")}'
+                           f'{ui("alphabet_promo")}'
                            f'</span></a>'),
             empty=f'<p class="empty">{ui("no_lessons")}</p>' if not rows else "",
             greeting=self._greeting(), shortcuts=self._shortcuts(), all_lessons=ui("all_lessons"),
@@ -533,7 +633,7 @@ class SiteRenderer:
             today_badge=ui("today_badge"), future_badge=ui("future_badge"), icon_next=ICONS["next"],
             icon_flame=ICONS["flame"])
         page = self._page(root=".", title=str(self.config.get("site.title", "FR-KH Learning")),
-                          description="Leçons quotidiennes de français, d'anglais et de khmer.",
+                          description="Leçons quotidiennes de français, d'anglais et de khmer — Daily French, English and Khmer lessons.",
                           body_class="page-index", content=body)
         wavutil.atomic_write(self.paths.index, page.encode("utf-8"))
         self.render_review()
@@ -580,14 +680,7 @@ class SiteRenderer:
         return json.dumps(cards, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
     def _greeting(self) -> str:
-        learners = self.config["learners"]
-        if learners.get("A", {}).get("label") or learners.get("B", {}).get("label"):
-            # Profils désignés par un libellé (« Elle », « Lui ») : salut sans prénom.
-            return '<span class="ui-fr">Bonjour !</span><span class="ui-km" lang="km">សួស្តី!</span>'
-        b = learners.get("B", {}).get("name", {}).get("latin", "")
-        a = learners.get("A", {}).get("name", {}).get("km", "")
-        return (f'<span class="ui-fr">Bonjour {esc(b)} !</span>'
-                f'<span class="ui-km" lang="km">សួស្តី {esc(a)}!</span>')
+        return ui("greeting")
 
     def _shortcuts(self) -> str:
         tiles = (("revision.html", "review", ICONS["cards"], "review_nav", "sc_review"),
@@ -627,7 +720,8 @@ class SiteRenderer:
             vocabulary.append({
                 "id": row["id"], "kind": row["kind"], "french": row["french_text"], "english": row["english_text"],
                 "khmer": row["khmer_text"], "transliteration": row["transliteration"], "category": row["category"],
-                "explanation_fr": row["explanation_fr"], "explanation_km": row["explanation_km"],
+                "explanation_fr": row["explanation_fr"], "explanation_en": row["explanation_en"],
+                "explanation_km": row["explanation_km"],
                 "uncertain": bool(row["uncertain"]), "unit_id": row["unit_id"], "progress": progress.get(row["id"], {})})
         audio = [{
             "hash": row["text_hash"], "text": row["text"], "language": row["language"], "locale": row["locale"],

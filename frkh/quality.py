@@ -78,7 +78,8 @@ def check_trilingual(entry, where: str, need_tr: bool = True, langs=("fr", "en",
                 if ph not in PLACEHOLDERS:
                     issues.append(Issue("error", where, f"variable inconnue {ph} (tr)"))
     fr, en = entry.get("fr"), entry.get("en")
-    if isinstance(fr, str) and isinstance(en, str) and min(len(fr), len(en)) > 0:
+    # Les explications (mixed) ne sont pas des traductions l'une de l'autre : chacune vise son lecteur.
+    if not mixed and isinstance(fr, str) and isinstance(en, str) and min(len(fr), len(en)) > 0:
         ratio = max(len(fr), len(en)) / min(len(fr), len(en))
         if ratio > 3.2 and max(len(fr), len(en)) > 24:
             issues.append(Issue("warning", where, "longueurs français/anglais très différentes : traduction à relire"))
@@ -103,7 +104,7 @@ def check_unit(unit: dict, name: str = "") -> list[Issue]:
     issues += check_trilingual(unit.get("title"), f"{w}/title", need_tr=False)
     tip = unit.get("tip")
     if tip is not None:
-        issues += check_trilingual(tip, f"{w}/tip", need_tr=False, langs=("fr", "km"), mixed=True)
+        issues += check_trilingual(tip, f"{w}/tip", need_tr=False, langs=("fr", "en", "km"), mixed=True)
 
     for section, (lo, hi) in _LIMITS.items():
         items = unit.get(section)
@@ -123,9 +124,9 @@ def check_unit(unit: dict, name: str = "") -> list[Issue]:
                 issues += check_trilingual(item.get("example"), f"{here}/example")
             if section in ("vocabulary", "expressions"):
                 issues += check_trilingual(item.get("note"), f"{here}/note", need_tr=False,
-                                           langs=("fr", "km"), mixed=True)
+                                           langs=("fr", "en", "km"), mixed=True)
             if section == "sentences" and item.get("situation") is not None:
-                issues += check_trilingual(item.get("situation"), f"{here}/situation", need_tr=False, langs=("fr", "km"))
+                issues += check_trilingual(item.get("situation"), f"{here}/situation", need_tr=False, langs=("fr", "en", "km"))
 
     dialogue = unit.get("dialogue")
     if not isinstance(dialogue, dict) or not isinstance(dialogue.get("lines"), list):

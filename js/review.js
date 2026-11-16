@@ -18,48 +18,55 @@
   var ICON_PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.2v13.6L19.5 12z"/></svg>';
   var TAGS = { fr: "FR", en: "EN", km: "KH" };
 
+  /* Libellés : [français, anglais, khmer] — la langue du profil actif est utilisée. */
   var T = {
-    lang_fr: ["Français", "ភាសាបារាំង"],
-    lang_en: ["Anglais", "ភាសាអង់គ្លេស"],
-    lang_km: ["Khmer", "ភាសាខ្មែរ"],
-    studied: ["Langue révisée", "ភាសាដែលរំលឹក"],
-    mode: ["Exercice", "លំហាត់"],
-    recognize: ["Reconnaître le mot", "ស្គាល់ពាក្យ"],
-    recall: ["Retrouver le mot", "នឹកឃើញពាក្យ"],
-    listen: ["Écouter et choisir", "ស្តាប់ ហើយជ្រើសរើស"],
-    prompt_listen: ["Écoutez, puis choisissez la bonne traduction.", "ស្តាប់ ហើយជ្រើសរើសការបកប្រែត្រឹមត្រូវ។"],
-    next: ["Suivant", "បន្ទាប់"],
-    right: ["Bonne réponse !", "ត្រឹមត្រូវ!"],
-    wrong: ["Ce n'était pas ça. La bonne réponse :", "មិនត្រឹមត្រូវទេ។ ចម្លើយត្រឹមត្រូវ៖"],
-    scope: ["Mots", "ពាក្យ"],
-    recent: ["5 dernières leçons", "មេរៀន៥ចុងក្រោយ"],
-    due: ["À réviser ({n})", "ត្រូវរំលឹក ({n})"],
+    lang_fr: ["Français", "French", "ភាសាបារាំង"],
+    lang_en: ["Anglais", "English", "ភាសាអង់គ្លេស"],
+    lang_km: ["Khmer", "Khmer", "ភាសាខ្មែរ"],
+    studied: ["Langue révisée", "Language", "ភាសាដែលរំលឹក"],
+    mode: ["Exercice", "Exercise", "លំហាត់"],
+    recognize: ["Reconnaître le mot", "Recognise the word", "ស្គាល់ពាក្យ"],
+    recall: ["Retrouver le mot", "Recall the word", "នឹកឃើញពាក្យ"],
+    listen: ["Écouter et choisir", "Listen and choose", "ស្តាប់ ហើយជ្រើសរើស"],
+    prompt_listen: ["Écoutez, puis choisissez la bonne traduction.", "Listen, then choose the right translation.",
+                    "ស្តាប់ ហើយជ្រើសរើសការបកប្រែត្រឹមត្រូវ។"],
+    next: ["Suivant", "Next", "បន្ទាប់"],
+    right: ["Bonne réponse !", "Correct!", "ត្រឹមត្រូវ!"],
+    wrong: ["Ce n'était pas ça. La bonne réponse :", "Not quite. The right answer:", "មិនត្រឹមត្រូវទេ។ ចម្លើយត្រឹមត្រូវ៖"],
+    scope: ["Mots", "Words", "ពាក្យ"],
+    recent: ["5 dernières leçons", "Last 5 lessons", "មេរៀន៥ចុងក្រោយ"],
+    due: ["À réviser ({n})", "Due ({n})", "ត្រូវរំលឹក ({n})"],
     nothing_due: ["Rien à réviser aujourd'hui : bravo ! Revenez demain, ou choisissez « Toutes les leçons ».",
+                  "Nothing to review today: well done! Come back tomorrow, or choose “All lessons”.",
                   "ថ្ងៃនេះគ្មានពាក្យត្រូវរំលឹកទេ។ ល្អណាស់! ត្រលប់មកវិញថ្ងៃស្អែក ឬជ្រើសរើស « មេរៀនទាំងអស់ »។"],
-    write: ["Écrire le mot", "សរសេរពាក្យ"],
-    prompt_write: ["Écrivez-le en {lang} :", "សរសេរជា{lang}៖"],
-    check: ["Vérifier", "ពិនិត្យ"],
-    almost: ["Presque ! Attention à l'orthographe :", "ជិតត្រូវហើយ! សូមប្រយ័ត្នអក្ខរាវិរុទ្ធ៖"],
-    your_answer: ["Votre réponse", "ចម្លើយរបស់អ្នក"],
-    placeholder: ["Tapez votre réponse…", "វាយចម្លើយ…"],
-    all: ["Toutes les leçons", "មេរៀនទាំងអស់"],
-    reveal: ["Voir la réponse", "មើលចម្លើយ"],
-    again: ["À revoir", "ត្រូវរំលឹកទៀត"],
-    good: ["Je savais", "ខ្ញុំចាំ"],
-    card: ["Carte", "កាត"],
-    of: ["sur", "ក្នុងចំណោម"],
-    known: ["mots bien connus", "ពាក្យដែលចាំច្បាស់"],
-    lesson: ["Leçon", "មេរៀនទី"],
-    this_lesson: ["Leçon {n}", "មេរៀនទី {n}"],
-    done_title: ["Série terminée !", "ចប់ហើយ!"],
-    done_text: ["Vous saviez {ok} cartes sur {total}.", "អ្នកចាំបាន {ok} កាត ក្នុងចំណោម {total}។"],
-    again_btn: ["Nouvelle série", "ចាប់ផ្តើមម្តងទៀត"],
-    empty: ["Aucun mot à réviser pour l'instant : terminez d'abord une leçon.", "មិនទាន់មានពាក្យត្រូវរំលឹកទេ។"],
+    write: ["Écrire le mot", "Write the word", "សរសេរពាក្យ"],
+    prompt_write: ["Écrivez-le en {lang} :", "Write it in {lang}:", "សរសេរជា{lang}៖"],
+    check: ["Vérifier", "Check", "ពិនិត្យ"],
+    almost: ["Presque ! Attention à l'orthographe :", "Almost! Watch the spelling:", "ជិតត្រូវហើយ! សូមប្រយ័ត្នអក្ខរាវិរុទ្ធ៖"],
+    your_answer: ["Votre réponse", "Your answer", "ចម្លើយរបស់អ្នក"],
+    placeholder: ["Tapez votre réponse…", "Type your answer…", "វាយចម្លើយ…"],
+    all: ["Toutes les leçons", "All lessons", "មេរៀនទាំងអស់"],
+    reveal: ["Voir la réponse", "Show the answer", "មើលចម្លើយ"],
+    again: ["À revoir", "Again", "ត្រូវរំលឹកទៀត"],
+    good: ["Je savais", "I knew it", "ខ្ញុំចាំ"],
+    card: ["Carte", "Card", "កាត"],
+    of: ["sur", "of", "ក្នុងចំណោម"],
+    known: ["mots bien connus", "words known well", "ពាក្យដែលចាំច្បាស់"],
+    lesson: ["Leçon", "Lesson", "មេរៀនទី"],
+    this_lesson: ["Leçon {n}", "Lesson {n}", "មេរៀនទី {n}"],
+    done_title: ["Série terminée !", "Set complete!", "ចប់ហើយ!"],
+    done_text: ["Vous saviez {ok} cartes sur {total}.", "You knew {ok} cards out of {total}.", "អ្នកចាំបាន {ok} កាត ក្នុងចំណោម {total}។"],
+    again_btn: ["Nouvelle série", "New set", "ចាប់ផ្តើមម្តងទៀត"],
+    empty: ["Aucun mot à réviser pour l'instant : terminez d'abord une leçon.",
+            "No words to review yet: finish a lesson first.", "មិនទាន់មានពាក្យត្រូវរំលឹកទេ។"],
     keys: ["Clavier : Espace pour retourner la carte ou passer à la suivante, 1 « à revoir », 2 « je savais » (1 à 4 pour choisir à l'écoute), L pour écouter.",
+           "Keyboard: Space to flip the card or go to the next one, 1 “again”, 2 “I knew it” (1 to 4 to choose when listening), L to listen.",
            "ក្តារចុច៖ Space បើកចម្លើយ ឬទៅកាតបន្ទាប់, 1 ត្រូវរំលឹកទៀត, 2 ខ្ញុំចាំ (1 ដល់ 4 ពេលស្តាប់), L ស្តាប់។"],
-    play: ["Écouter", "ស្តាប់"],
-    prompt_recognize: ["Que veut dire ce mot ?", "តើពាក្យនេះមានន័យថាអ្វី?"],
-    prompt_recall: ["Comment le dit-on en {lang} ?", "តើនិយាយជា{lang}ដូចម្តេច?"]
+    key_space: ["Espace", "Space", "Space"],
+    key_enter: ["Entrée", "Enter", "Enter"],
+    play: ["Écouter", "Listen", "ស្តាប់"],
+    prompt_recognize: ["Que veut dire ce mot ?", "What does this word mean?", "តើពាក្យនេះមានន័យថាអ្វី?"],
+    prompt_recall: ["Comment le dit-on en {lang} ?", "How do you say it in {lang}?", "តើនិយាយជា{lang}ដូចម្តេច?"]
   };
 
   var store = {
@@ -70,10 +77,17 @@
     }
   };
 
-  function profile() { return root.getAttribute("data-profile") === "A" ? "A" : "B"; }
-  function t(key) { return T[key][profile() === "A" ? 1 : 0]; }
+  var PROFILES = window.FRKH_PROFILES || { fr: ["km", "en"], en: ["km", "fr"], km: ["fr", "en"] };
+  var UI_LANGS = ["fr", "en", "km"];
+  function profile() {
+    var value = root.getAttribute("data-profile");
+    return PROFILES[value] ? value : Object.keys(PROFILES)[0];
+  }
+  function t(key) { return T[key][Math.max(0, UI_LANGS.indexOf(profile()))]; }
+  /* Nom d'une langue au milieu d'une phrase : « en khmer », « in Khmer ». */
+  function langName(lang) { var name = t("lang_" + lang); return profile() === "fr" ? name.toLowerCase() : name; }
   function kmDigits(n) { return String(n).replace(/\d/g, function (d) { return "០១២៣៤៥៦៧៨៩".charAt(Number(d)); }); }
-  function num(n) { return profile() === "A" ? kmDigits(n) : String(n); }
+  function num(n) { return profile() === "km" ? kmDigits(n) : String(n); }
   function esc(text) {
     return String(text).replace(/[&<>"']/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
@@ -101,8 +115,8 @@
   }
 
   /* ------------------------------------------------------------- Réglages */
-  function targets() { return profile() === "A" ? ["fr", "en"] : ["km", "en"]; }
-  function native() { return profile() === "A" ? "km" : "fr"; }
+  function targets() { return PROFILES[profile()].slice(); }
+  function native() { return profile(); }
 
   function prefs() {
     var saved = {};
@@ -354,11 +368,11 @@
       var card = queue[position];
       var front = settings.dir === "recognize" ? settings.lang : native();
       var question = settings.dir === "recognize" ? t("prompt_recognize")
-        : t("prompt_recall").replace("{lang}", t("lang_" + settings.lang).toLowerCase());
+        : t("prompt_recall").replace("{lang}", langName(settings.lang));
       var progress = '<p class="fc-progress">' + esc(t("card")) + " " + num(position + 1) + " " + esc(t("of")) + " " + num(queue.length) + "</p>";
       var face = '<p class="fc-question">' + esc(question) + "</p>" +
         '<div class="fc-front lang-' + front + '"><p class="fc-prompt" lang="' + front + '">' + esc(card[front]) + "</p>" +
-        (front === "km" && card.tr && profile() === "B" ? '<p class="translit">' + esc(card.tr) + "</p>" : "") +
+        (front === "km" && card.tr && profile() !== "km" ? '<p class="translit">' + esc(card.tr) + "</p>" : "") +
         (card.a[front] && settings.dir === "recognize"
           ? '<span class="audio is-enhanced"><button type="button" class="play" data-play="' + front + '" aria-label="' + esc(t("play")) + '">' + ICON_PLAY + "</button></span>" : "") +
         "</div>";
@@ -370,7 +384,7 @@
           '<div class="fc-answers"><button type="button" class="fc-btn fc-again" data-answer="0">' + esc(t("again")) +
           ' <kbd>1</kbd></button><button type="button" class="fc-btn fc-good" data-answer="1">' + esc(t("good")) + " <kbd>2</kbd></button></div>";
       } else {
-        back = '<button type="button" class="fc-btn fc-reveal" data-action="reveal">' + esc(t("reveal")) + " <kbd>Espace</kbd></button>";
+        back = '<button type="button" class="fc-btn fc-reveal" data-action="reveal">' + esc(t("reveal")) + " <kbd>" + esc(t("key_space")) + "</kbd></button>";
       }
       body = progress + '<div class="flashcard' + (revealed ? " is-revealed" : "") + '">' + face + back + "</div>";
     }
@@ -383,7 +397,7 @@
   function drawWrite(card) {
     var nat = native();
     var progress = '<p class="fc-progress">' + esc(t("card")) + " " + num(position + 1) + " " + esc(t("of")) + " " + num(queue.length) + "</p>";
-    var face = '<p class="fc-question">' + esc(t("prompt_write").replace("{lang}", t("lang_" + settings.lang).toLowerCase())) + "</p>" +
+    var face = '<p class="fc-question">' + esc(t("prompt_write").replace("{lang}", langName(settings.lang))) + "</p>" +
       '<div class="fc-front lang-' + nat + '"><p class="fc-prompt" lang="' + nat + '">' + esc(card[nat]) + "</p></div>";
     var form = '<form class="fc-write" data-write autocomplete="off"><input id="fc-input" class="fc-input" type="text" lang="' + settings.lang +
       '" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="' + esc(t("placeholder")) + '"' +
@@ -395,7 +409,7 @@
       var order = [settings.lang].concat(["fr", "en", "km"].filter(function (l) { return l !== settings.lang; }));
       after = '<p class="fc-verdict ' + (card._verdict === "wrong" ? "is-wrong" : "is-right") + '">' + esc(label) + "</p>" +
         '<div class="fc-back tri">' + order.map(function (l) { return row(card, l, true); }).join("") + "</div>" +
-        '<button type="button" class="fc-btn fc-reveal" data-action="next">' + esc(t("next")) + " <kbd>Entrée</kbd></button>";
+        '<button type="button" class="fc-btn fc-reveal" data-action="next">' + esc(t("next")) + " <kbd>" + esc(t("key_enter")) + "</kbd></button>";
     }
     return progress + '<div class="flashcard fc-writing' + (card._verdict ? " is-revealed is-" + card._verdict : "") + '">' +
       face + form + after + "</div>";
@@ -422,7 +436,7 @@
       var order = [settings.lang].concat(["fr", "en", "km"].filter(function (l) { return l !== settings.lang; }));
       after = '<p class="fc-verdict ' + (ok ? "is-right" : "is-wrong") + '">' + esc(ok ? t("right") : t("wrong")) + "</p>" +
         '<div class="fc-back tri">' + order.map(function (l) { return row(card, l, true); }).join("") + "</div>" +
-        '<button type="button" class="fc-btn fc-reveal" data-action="next">' + esc(t("next")) + " <kbd>Espace</kbd></button>";
+        '<button type="button" class="fc-btn fc-reveal" data-action="next">' + esc(t("next")) + " <kbd>" + esc(t("key_space")) + "</kbd></button>";
     }
     return progress + '<div class="flashcard' + (revealed ? " is-revealed" : "") + '">' + face + choices + after + "</div>";
   }

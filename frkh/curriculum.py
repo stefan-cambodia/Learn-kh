@@ -13,12 +13,12 @@ TEXT_FIELDS = ("fr", "en", "km", "tr")
 _YES = {"m": {"km": "បាទ", "tr": "bat"}, "f": {"km": "ចាស", "tr": "tchah"}}
 
 
-def personalize(text: str, field: str, learners: dict) -> str:
-    """Remplace {A}, {B}, {A_yes}, {B_yes} par les prénoms et la particule de politesse."""
+def personalize(text: str, field: str, characters: dict) -> str:
+    """Remplace {A}, {B}, {A_yes}, {B_yes} par les prénoms des personnages et la particule de politesse."""
     if "{" not in text:
         return text
     for key in ("A", "B"):
-        learner = learners.get(key, {})
+        learner = characters.get(key, {})
         name = learner.get("name", {})
         if field == "km":
             shown = name.get("km") or name.get("latin") or key
@@ -32,14 +32,14 @@ def personalize(text: str, field: str, learners: dict) -> str:
     return text
 
 
-def personalize_tree(node, learners: dict):
+def personalize_tree(node, characters: dict):
     """Normalise et personnalise tous les textes d'une structure de contenu."""
     if isinstance(node, dict):
-        return {key: (personalize(normalize_text(value), key, learners)
-                      if key in TEXT_FIELDS and isinstance(value, str) else personalize_tree(value, learners))
+        return {key: (personalize(normalize_text(value), key, characters)
+                      if key in TEXT_FIELDS and isinstance(value, str) else personalize_tree(value, characters))
                 for key, value in node.items()}
     if isinstance(node, list):
-        return [personalize_tree(item, learners) for item in node]
+        return [personalize_tree(item, characters) for item in node]
     return node
 
 

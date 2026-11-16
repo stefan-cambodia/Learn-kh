@@ -6,6 +6,7 @@
   "title": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
   "tip": {
     "fr": "Au marché, on appelle la personne qui vend par un terme de parenté : បង (bâng) si elle est un peu plus âgée que vous, មីង (ming, « tante ») ou ពូ (pou, « oncle ») si elle a l'âge de vos parents. Les prix se disent en riels ou en dollars ; ពាន់ (poan) veut dire « mille » : ប្រាំពាន់រៀល, cinq mille riels.",
+    "en": "At the market, address the seller with a family term: បង (bâng) if they are a little older than you, មីង (ming, “aunt”) or ពូ (pou, “uncle”) if they are your parents' age. Prices are given in riels or dollars; ពាន់ (poan) means “thousand”: ប្រាំពាន់រៀល, five thousand riels.",
     "km": "ដើម្បីសួរតម្លៃជាភាសាបារាំង គេនិយាយថា « C'est combien ? » ឬ « Combien ça coûte ? »។ ភាសាអង់គ្លេស៖ « How much is it? »។ នៅប្រទេសបារាំង គេមិនសូវតថ្លៃទេ ហើយគេចាយលុយអឺរ៉ូ។"
   },
   "vocabulary": [
@@ -13,6 +14,7 @@
       "fr": "le marché", "en": "market", "km": "ផ្សារ", "tr": "phsa", "pos": "nom",
       "note": {
         "fr": "Le រ final ne se prononce pas. « Aller au marché » se dit ទៅផ្សារ, sans préposition.",
+        "en": "The final រ is silent. “Go to the market” is ទៅផ្សារ, with no preposition. French « marché » is masculine; « bon marché » means “cheap”.",
         "km": "« marché » ជានាមភេទប្រុស៖ le marché។ « aller au marché » មានន័យថា ទៅផ្សារ។ អង់គ្លេស៖ « market »។"
       },
       "example": {"fr": "Ma mère va au marché tous les jours.", "en": "My mother goes to the market every day.", "km": "ម្តាយខ្ញុំទៅផ្សាររាល់ថ្ងៃ។", "tr": "mday khgnom teuv phsa roal thngay."}
@@ -21,6 +23,7 @@
       "fr": "acheter", "en": "to buy", "km": "ទិញ", "tr": "tign", "pos": "verbe",
       "note": {
         "fr": "Verbe invariable. Attention : le riz cru que l'on achète se dit អង្ករ (âng-kâ) ; បាយ, c'est le riz cuit.",
+        "en": "The verb never changes. Note: the uncooked rice you buy is អង្ករ (âng-kâ); បាយ is cooked rice. French « acheter »: j'achète, with a grave accent.",
         "km": "កិរិយាសព្ទ « acheter » ប្តូររូបតាមប្រធាន៖ j'achète, nous achetons។ អង់គ្លេស៖ « buy » ហើយអតីតកាលគឺ « bought »។"
       },
       "example": {"fr": "Je veux acheter du riz.", "en": "I want to buy some rice.", "km": "ខ្ញុំចង់ទិញអង្ករ។", "tr": "khgnom tchâng tign âng-kâ."}
@@ -29,6 +32,7 @@
       "fr": "vendre", "en": "to sell", "km": "លក់", "tr": "lok", "pos": "verbe",
       "note": {
         "fr": "មានលក់…ទេ? = « vous vendez… ? », mot à mot « il y a à vendre… ? ». Réponse négative : អត់មានទេ (ât méan té), « il n'y en a pas ».",
+        "en": "មានលក់…ទេ? = “do you sell…?”, word for word “is there for sale…?”. Negative answer: អត់មានទេ (ât méan té), “there isn't any”. French « vendre »: je vends.",
         "km": "« vendre »៖ je vends, nous vendons។ អ្នកលក់ហៅថា « le vendeur » ឬ « la vendeuse »។ អង់គ្លេស៖ « sell »។"
       },
       "example": {"fr": "Vous vendez du café ?", "en": "Do you sell coffee?", "km": "មានលក់កាហ្វេទេ?", "tr": "méan lok ka-fé té ?"}
@@ -37,6 +41,7 @@
       "fr": "le prix", "en": "price", "km": "តម្លៃ", "tr": "dâm-lay", "pos": "nom",
       "note": {
         "fr": "តម្លៃ est le nom « prix ». À l'oral, on demande plus souvent ថ្លៃប៉ុន្មាន? que តម្លៃប៉ុន្មាន?",
+        "en": "តម្លៃ is the noun “price”. In speech, people more often ask ថ្លៃប៉ុន្មាន? than តម្លៃប៉ុន្មាន? French « prix » is masculine and the x is silent.",
         "km": "« prix » ជានាមភេទប្រុស អក្សរ x ចុងពាក្យមិនអានទេ៖ le prix។ អង់គ្លេស៖ « price »។"
       },
       "example": {"fr": "Quel est le prix de ce café ?", "en": "What is the price of this coffee?", "km": "កាហ្វេនេះតម្លៃប៉ុន្មាន?", "tr": "ka-fé nih dâm-lay pon-man ?"}
@@ -45,6 +50,7 @@
       "fr": "cher", "en": "expensive", "km": "ថ្លៃ", "tr": "thlay", "pos": "adjectif",
       "note": {
         "fr": "ថ្លៃ veut dire à la fois « cher » et « coûter ». ថ្លៃពេក = « trop cher » ; មិនថ្លៃទេ = « pas cher ».",
+        "en": "ថ្លៃ means both “expensive” and “to cost”. ថ្លៃពេក = “too expensive”; មិនថ្លៃទេ = “not expensive”. French: « cher », feminine « chère », same sound.",
         "km": "« cher » (ភេទប្រុស) និង « chère » (ភេទស្រី) អានដូចគ្នា។ « trop cher » មានន័យថា ថ្លៃពេក។ អង់គ្លេស៖ « expensive »។"
       },
       "example": {"fr": "C'est trop cher !", "en": "It is too expensive!", "km": "ថ្លៃពេក!", "tr": "thlay pék !"}
@@ -53,6 +59,7 @@
       "fr": "bon marché", "en": "cheap", "km": "ថោក", "tr": "thaok", "pos": "adjectif",
       "note": {
         "fr": "Le contraire de ថ្លៃ. Pour comparer, on ajoute ជាង (tchéang) : ថោកជាង, « moins cher ».",
+        "en": "The opposite of ថ្លៃ. To compare, add ជាង (tchéang): ថោកជាង, “cheaper”. French « bon marché » never changes; « pas cher » is more common.",
         "km": "« bon marché » មិនប្តូររូបតាមភេទទេ។ ពេលនិយាយ គេច្រើនប្រើ « pas cher »។ អង់គ្លេស៖ « cheap »។"
       },
       "example": {"fr": "Ici, le café est très bon marché.", "en": "Coffee is very cheap here.", "km": "កាហ្វេនៅទីនេះថោកណាស់។", "tr": "ka-fé neuv ti-nih thaok nah."}
@@ -63,6 +70,7 @@
       "fr": "Combien coûte un kilo ?", "en": "How much is one kilo?", "km": "មួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "mouy ki-lô thlay pon-man ?",
       "note": {
         "fr": "Mot à mot « un kilo coûte combien ? » : le mot interrogatif ប៉ុន្មាន reste à la fin de la phrase.",
+        "en": "Word for word “one kilo costs how much?”: the question word ប៉ុន្មាន stays at the end.",
         "km": "« Combien coûte… ? » ប្រើសម្រាប់សួរតម្លៃ។ អង់គ្លេស៖ « How much is…? »។"
       }
     },
@@ -70,6 +78,7 @@
       "fr": "Vous pouvez baisser un peu le prix ?", "en": "Can you lower the price a little?", "km": "ចុះថ្លៃបន្តិចបានទេ?", "tr": "tchoh thlay bân-tetch ban té ?",
       "note": {
         "fr": "ចុះថ្លៃ = « baisser le prix ». បានទេ? en fin de phrase demande « est-ce possible ? » : c'est la façon polie de demander un service.",
+        "en": "ចុះថ្លៃ = “lower the price”. បានទេ? at the end asks “is it possible?”: the polite way to ask a favour.",
         "km": "« Vous pouvez… ? » ប្រើសុំអ្វីមួយដោយគួរសម ដូច « …បានទេ? »។ « un peu » មានន័យថា បន្តិច។"
       }
     },
@@ -77,6 +86,7 @@
       "fr": "Je le prends.", "en": "I'll take it.", "km": "ខ្ញុំយកមួយនេះ។", "tr": "khgnom yok mouy nih.",
       "note": {
         "fr": "យក (yok) = « prendre » ; មួយនេះ = « celui-ci ».",
+        "en": "យក (yok) = “to take”; មួយនេះ = “this one”. In French, « le » refers back to the thing: je le prends.",
         "km": "និយាយពេលសម្រេចចិត្តទិញ។ អង់គ្លេស៖ « I'll take it »។"
       }
     },
@@ -84,23 +94,24 @@
       "fr": "Ça fait combien en tout ?", "en": "How much is it altogether?", "km": "ទាំងអស់ថ្លៃប៉ុន្មាន?", "tr": "téang âh thlay pon-man ?",
       "note": {
         "fr": "ទាំងអស់ (téang âh) = « tout, en tout ».",
+        "en": "ទាំងអស់ (téang âh) = “all, altogether”. French « en tout » means “in total”.",
         "km": "ប្រើពេលទិញរបស់ច្រើនមុខ ហើយចង់ដឹងតម្លៃសរុប។ អង់គ្លេស៖ « How much is it altogether? »។"
       }
     }
   ],
   "sentences": [
     {
-      "situation": {"fr": "Demander le prix", "km": "ពេលសួរតម្លៃ"},
+      "situation": {"fr": "Demander le prix", "en": "Asking the price", "km": "ពេលសួរតម្លៃ"},
       "fr": "Bonjour, vous vendez du riz ? C'est combien le kilo ?", "en": "Hello, do you sell rice? How much is a kilo?",
       "km": "សួស្តី មានលក់អង្ករទេ? មួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "souos-dey, méan lok âng-kâ té ? mouy ki-lô thlay pon-man ?"
     },
     {
-      "situation": {"fr": "Marchander", "km": "ពេលតថ្លៃ"},
+      "situation": {"fr": "Marchander", "en": "Bargaining", "km": "ពេលតថ្លៃ"},
       "fr": "C'est trop cher, vous pouvez baisser un peu ?", "en": "It is too expensive, can you lower it a little?",
       "km": "ថ្លៃពេក ចុះបន្តិចបានទេ?", "tr": "thlay pék, tchoh bân-tetch ban té ?"
     },
     {
-      "situation": {"fr": "Prévoir les courses", "km": "ពេលគ្រោងទៅផ្សារ"},
+      "situation": {"fr": "Prévoir les courses", "en": "Planning the shopping", "km": "ពេលគ្រោងទៅផ្សារ"},
       "fr": "Demain matin, nous allons au marché pour acheter du riz et du café.", "en": "Tomorrow morning, we are going to the market to buy rice and coffee.",
       "km": "ព្រឹកស្អែក យើងទៅផ្សារទិញអង្ករ និងកាហ្វេ។", "tr": "preuk s'aèk, yeung teuv phsa tign âng-kâ ning ka-fé."
     }

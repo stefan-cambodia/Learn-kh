@@ -43,10 +43,11 @@ décalage fixe du Cambodge (UTC+7) est utilisé.
 1. **Clés API** — ouvrez `.env` et renseignez :
    - `GOOGLE_TTS_API_KEY` : [guide Google Cloud Text-to-Speech](GOOGLE_CLOUD_TTS.md) ;
    - `AZURE_SPEECH_KEY` et `AZURE_SPEECH_REGION` : [guide Azure AI Speech](AZURE_SPEECH_KHMER.md).
-2. **Prénoms** — dans `config/config.json`, rubrique `learners`, indiquez le
-   prénom de chacun (en lettres latines et en khmer) et son genre (`"f"` ou
-   `"m"`, qui détermine la particule de politesse `ចាស` ou `បាទ`). Faites-le
-   **avant la première leçon** : les prénoms apparaissent dans les dialogues.
+2. **Profils et personnages** (facultatif) — dans `config/config.json`, la
+   rubrique `profiles` règle les profils FR, ENG et KH, et la rubrique
+   `characters` les deux personnages des dialogues (prénom en lettres latines
+   et en khmer, genre `"f"` ou `"m"`, qui détermine la particule de politesse
+   `ចាស` ou `បាទ`). Voir [CONFIGURATION.md](CONFIGURATION.md).
 3. **Essai des voix** :
    ```bash
    python3 manage.py tts status     # fournisseurs et voix configurés
@@ -106,8 +107,8 @@ session n'est ouverte : `loginctl enable-linger $USER`.
 - **Copie autonome** : `python3 manage.py export` crée une archive ZIP
   contenant le site complet, à copier sur une clé USB ou un autre appareil.
 
-Dans la page, le sélecteur en haut à droite choisit le profil (khmer ou
-français) ; le bouton « 0,75× » ralentit la lecture audio.
+Dans la page, le sélecteur en haut à droite choisit le profil (FR, ENG ou
+KH) ; le bouton « 0,75× » ralentit la lecture audio.
 
 ## Mettre à jour ou déplacer le projet
 
@@ -115,7 +116,7 @@ Tout est contenu dans le dossier du projet. Pour le déplacer : copiez le
 dossier entier, puis relancez `python3 manage.py schedule install` pour que la
 tâche planifiée pointe vers le nouvel emplacement.
 
-Pour repartir de zéro (par exemple après avoir changé les prénoms) : supprimez
+Pour repartir de zéro : supprimez
 `database/learning.db`, le contenu de `lessons/`, de `data/` et `index.html`,
 puis lancez `python3 manage.py init`. La bibliothèque `audio/` peut être
 conservée : les fichiers valides sont reconnus et réutilisés sans nouvel appel.

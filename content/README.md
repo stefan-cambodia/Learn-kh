@@ -8,14 +8,16 @@ et les fichiers audio.
 Pour ajouter des leçons, il suffit de déposer de nouveaux fichiers ici puis de
 lancer `python3 manage.py content check`.
 
-## Les deux apprenants
+## Les trois profils
 
-- **A** : la personne khmère. Elle apprend le français et l'anglais ; ses
-  explications sont en khmer (`note.km`, `tip.km`).
-- **B** : la personne française. Elle apprend l'anglais et le khmer ; ses
-  explications sont en français (`note.fr`, `tip.fr`).
+Chaque explication existe dans la langue de chaque profil :
 
-Le dialogue de chaque unité se joue entre A et B.
+- `fr` : le profil francophone apprend le khmer et l'anglais (`note.fr`, `tip.fr`) ;
+- `en` : le profil anglophone apprend le khmer et le français (`note.en`, `tip.en`) ;
+- `km` : le profil khmer apprend le français et l'anglais (`note.km`, `tip.km`).
+
+Le dialogue de chaque unité se joue entre deux personnages, A et B (Dara et
+Alex par défaut, voir `characters` dans la configuration).
 
 ## Format d'une unité
 
@@ -26,19 +28,20 @@ Le dialogue de chaque unité se joue entre A et B.
   "level": "debutant",
   "theme": "famille",
   "title": {"fr": "La famille", "en": "Family", "km": "គ្រួសារ"},
-  "tip": {"fr": "conseil sur le khmer, pour B", "km": "conseil sur le français ou l'anglais, pour A"},
+  "tip": {"fr": "conseil sur le khmer, en français", "en": "conseil sur le khmer et le français, en anglais",
+          "km": "conseil sur le français ou l'anglais, en khmer"},
   "vocabulary": [
     {
       "fr": "le père", "en": "father", "km": "ឪពុក", "tr": "eu-pouk", "pos": "nom",
-      "note": {"fr": "explication pour B", "km": "explication pour A"},
+      "note": {"fr": "explication en français", "en": "explication en anglais", "km": "explication en khmer"},
       "example": {"fr": "…", "en": "…", "km": "…", "tr": "…"}
     }
   ],
   "expressions": [
-    {"fr": "…", "en": "…", "km": "…", "tr": "…", "note": {"fr": "…", "km": "…"}}
+    {"fr": "…", "en": "…", "km": "…", "tr": "…", "note": {"fr": "…", "en": "…", "km": "…"}}
   ],
   "sentences": [
-    {"situation": {"fr": "Au marché", "km": "នៅផ្សារ"}, "fr": "…", "en": "…", "km": "…", "tr": "…"}
+    {"situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"}, "fr": "…", "en": "…", "km": "…", "tr": "…"}
   ],
   "dialogue": {
     "setting": {"fr": "…", "en": "…", "km": "…"},
@@ -85,7 +88,8 @@ Le dialogue de chaque unité se joue entre A et B.
 6. **Pas de doublon** : un mot du `vocabulary` ne doit pas déjà figurer dans le
    `vocabulary` d'une autre unité (voir le programme ci-dessous).
 7. **Notes courtes** (une ou deux phrases). `note.fr` explique le khmer ou
-   l'anglais à B ; `note.km` explique le français ou l'anglais à A, en khmer
+   l'anglais à un francophone ; `note.en` explique le khmer et le français à
+   un anglophone ; `note.km` explique le français ou l'anglais, en khmer
    simple. Une note peut citer un mot d'une autre langue.
 8. **Textes destinés à la synthèse vocale** (`fr`, `en`, `km` hors notes) : pas de
    parenthèses, de barres obliques ni d'abréviations ; une seule formulation.
@@ -98,7 +102,7 @@ Le dialogue de chaque unité se joue entre A et B.
 
 | Variable | Remplacée par | Autorisée dans |
 | --- | --- | --- |
-| `{A}`, `{B}` | prénom de l'apprenant (latin ou khmer selon la langue) | partout |
+| `{A}`, `{B}` | prénom du personnage (latin ou khmer selon la langue) | partout |
 | `{A_yes}`, `{B_yes}` | `បាទ` ou `ចាស` selon le genre du locuteur | `km` et `tr` uniquement |
 
 En khmer, on s'adresse volontiers à quelqu'un par son prénom plutôt que par

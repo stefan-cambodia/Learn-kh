@@ -20,29 +20,58 @@ invalides.
 
 Une variable déjà définie dans l'environnement du système l'emporte sur `.env`.
 
-## Apprenants (`learners`)
+## Profils (`profiles`)
+
+Un profil par langue de l'apprenant : c'est la langue de l'interface et des
+explications. Le sélecteur en haut de chaque page propose les profils dans
+l'ordre de cette rubrique.
 
 ```json
-"learners": {
-  "A": {"name": {"latin": "Sokha", "km": "សុខា"}, "gender": "f", "learns": ["fr", "en"], "reference": "km"},
-  "B": {"name": {"latin": "Dominique", "km": "ដូមីនិក"}, "gender": "m", "learns": ["en", "km"], "reference": "fr"}
+"profiles": {
+  "fr": {"label": "FR", "learns": ["km", "en"]},
+  "en": {"label": "ENG", "learns": ["km", "fr"]},
+  "km": {"label": "KH", "learns": ["fr", "en"]}
 }
 ```
 
+- La clé (`fr`, `en`, `km`) est la langue de l'apprenant. Seules ces trois
+  langues ont une interface traduite ; un nouveau profil demande de traduire
+  l'interface (`frkh/render.py`, `js/app.js`, `js/review.js`) et les
+  explications des unités.
+- `label` : le texte du bouton.
+- `learns` : les langues étudiées, la principale en premier (jeu de rôle,
+  compteur « à réviser aujourd'hui », langue proposée d'abord dans « Réviser »).
+
+La progression (leçons terminées, cartes mémoire, série de jours) est gardée
+séparément pour chaque profil.
+
+## Personnages des dialogues (`characters`)
+
+```json
+"characters": {
+  "A": {"name": {"latin": "Dara", "km": "ដារ៉ា", "tr": "da-ra"}, "gender": "f"},
+  "B": {"name": {"latin": "Alex", "km": "អាឡិច", "tr": "a-lech"}, "gender": "m"}
+}
+```
+
+- `A` et `B` sont les deux personnages des dialogues (`{A}` et `{B}` dans les
+  unités). Ils n'ont aucun lien avec les profils.
 - `name.latin` et `name.km` : le prénom tel qu'il apparaît dans les textes
   français et anglais, et dans les textes khmers. `name.tr` (facultatif) :
   sa translittération dans les aides de lecture.
 - `gender` : `"f"` ou `"m"`. Il fixe la particule de politesse khmère du
   personnage (`ចាស` pour une femme, `បាទ` pour un homme).
 
-Les prénoms sont inscrits dans les leçons au moment de leur création. Pour les
-changer après coup, corrigez l'écriture latine puis l'écriture khmère (les pages
-et les audios concernés sont refaits) :
+Les prénoms sont inscrits dans les leçons au moment de leur création. Après
+les avoir changés ici, reportez-les dans les leçons déjà générées (les audios
+manquants sont créés, puis les pages refaites) :
 
 ```bash
-python3 manage.py correct --find "Sokha" --replace "Bopha"
-python3 manage.py correct --find "សុខា" --replace "បុប្ផា" --lang km
+python3 manage.py content refresh
+python3 manage.py audio prune          # supprime les audios des anciennes répliques
 ```
+
+L'ancienne rubrique `learners` est encore lue si `characters` est absente.
 
 ## Planification (`schedule`)
 
@@ -158,7 +187,7 @@ quand vous changez de moteur ou de modèle.
 | Clé | Défaut | Rôle |
 | --- | --- | --- |
 | `site.title` | `"FR-KH Learning"` | titre du site |
-| `site.default_profile` | `"B"` | profil affiché à la première visite (`A` : khmer, `B` : français) |
+| `site.default_profile` | `"fr"` | profil affiché à la première visite (`fr`, `en` ou `km`) |
 | `backup.keep` | `14` | nombre de sauvegardes quotidiennes de la base conservées |
 | `logging.level` | `"INFO"` | niveau de détail des journaux |
 | `logging.max_bytes`, `logging.backups` | `1048576`, `5` | rotation des fichiers de `logs/` |
