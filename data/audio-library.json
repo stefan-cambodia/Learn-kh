@@ -74,9 +74,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/a-little-more_4935eab6fc47.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 61154,
+  "duration": 1.273,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -106,9 +106,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/a-little-the-office-air-conditio_ee9fae49f701.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 200674,
+  "duration": 4.18,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -138,9 +138,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/a-lot_9379c614c5f3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 42018,
+  "duration": 0.874,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -330,9 +330,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/all_454d792bdf02.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 38172,
+  "duration": 0.794,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -410,9 +410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/ancient_06d1586896eb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 45806,
+  "duration": 0.953,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -474,9 +474,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/and-do-you-like-your-job_e225eb864f9a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 100780,
+  "duration": 2.099,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -522,9 +522,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/and-is-it-cheaper_71b4c2fdc020.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 75252,
+  "duration": 1.567,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -570,9 +570,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/and-that-one-it-looks-the-same_4c4ab8d6455f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 132868,
+  "duration": 2.767,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -602,9 +602,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/and-the-soup-there-s-half-of-it_20775cd8dab1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 151982,
+  "duration": 3.165,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -682,9 +682,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/and-tomorrow-shall-we-take-the-b_3b3167f6d2a6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 181524,
+  "duration": 3.781,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -762,9 +762,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/angkor-wat-dates-from-the-twelft_c5035a91f688.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 167416,
+  "duration": 3.487,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -778,9 +778,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/angkor-wat-is-the-largest-temple_b09287a439c0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 178892,
+  "duration": 3.726,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -1290,9 +1290,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/beach_a7566866fa96.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 47048,
+  "duration": 0.979,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -1482,9 +1482,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/better_30a999b75871.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 43164,
+  "duration": 0.898,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -1610,9 +1610,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/boat_4a7d9e57d6b4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 38148,
+  "duration": 0.794,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -1866,9 +1866,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/can-we-take-photos_a54a02d03d81.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 91958,
+  "duration": 1.915,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -1946,9 +1946,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/can-you-lend-me-a-ladder-i-have_41f52df06806.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 209644,
+  "duration": 4.367,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -1962,9 +1962,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/can-you-lend-me-a-ladder_9d428851f1d4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 104606,
+  "duration": 2.178,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -2090,9 +2090,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/carving_2954e10cd1ab.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 50826,
+  "duration": 1.058,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -2122,9 +2122,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/century_5732bd9bbd67.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56020,
+  "duration": 1.166,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -2538,9 +2538,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/cook_3b83968a92e5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 40580,
+  "duration": 0.845,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -2554,9 +2554,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/could-you-take-a-photo-of-us_0d07e61204c7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 116248,
+  "duration": 2.421,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -2810,9 +2810,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/dentist_3954cbb258e5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 52098,
+  "duration": 1.084,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -2826,9 +2826,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/different_fbb49fe43653.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 44434,
+  "duration": 0.925,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -2906,9 +2906,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/do-we-have-to-take-off-our-shoes_8d32385866f7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 130364,
+  "duration": 2.715,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -3482,9 +3482,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/don-t-put-in-too-much-chilli_e354ce8589bf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 114898,
+  "duration": 2.393,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -3610,9 +3610,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/drink-plenty-of-water_b0d3ee1e133d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 94486,
+  "duration": 1.968,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -3882,9 +3882,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/enough_bf183a0a1d0e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 45864,
+  "duration": 0.955,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -3962,9 +3962,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/everyone-is-here_e0d8d6abf1dd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 74002,
+  "duration": 1.541,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -4714,9 +4714,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/good-idea-and-tonight-we-re-eati_b6c9374054b5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 197004,
+  "duration": 4.103,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -4938,9 +4938,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/great-and-tomorrow-what-are-we-v_97d24baf48f9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 171250,
+  "duration": 3.567,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -5066,9 +5066,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/half-a-kilo-of-prawns-please_4e191fb068a0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 143096,
+  "duration": 2.98,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -5082,9 +5082,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/half_d385f7af120a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 45812,
+  "duration": 0.954,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -5194,9 +5194,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/have-a-good-holiday_3ed82d365784.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 86802,
+  "duration": 1.807,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -5242,9 +5242,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/he-coughs-a-lot-at-night_3e3285c10959.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 104720,
+  "duration": 2.181,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -5322,9 +5322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/he-speaks-khmer-like-a-cambodian_6cafbb5a16f4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 150800,
+  "duration": 3.141,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -5370,9 +5370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/health_e022f48a22e9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 41918,
+  "duration": 0.872,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -5578,9 +5578,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/hello-sorry-to-bother-you_f5d65dc33749.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127728,
+  "duration": 2.66,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -5770,9 +5770,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/history_bbd2f1617319.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 52234,
+  "duration": 1.087,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -5786,9 +5786,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/holidays_7362eb3756e2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 63810,
+  "duration": 1.328,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -6586,9 +6586,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-brush-my-teeth-after-meals_bd6b50b39061.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 136620,
+  "duration": 2.845,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -6650,9 +6650,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-can-t-swim_c69ec5c8875e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 72682,
+  "duration": 1.513,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -6762,9 +6762,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-don-t-feel-very-well-i-have-a_402571de2caf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 166104,
+  "duration": 3.46,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -6778,9 +6778,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-don-t-feel-very-well_02424c9965ff.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 100846,
+  "duration": 2.1,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -6858,9 +6858,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-don-t-mind_c176247380f9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 63790,
+  "duration": 1.328,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -6906,9 +6906,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-eat-little-in-the-evening_b5815d7e57d1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109728,
+  "duration": 2.285,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -7194,9 +7194,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-have-an-appointment-at-the-den_dfc5d3bc94f7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 161042,
+  "duration": 3.354,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -7242,9 +7242,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-have-had-a-cold-since-yesterda_6516e7cc6696.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 135408,
+  "duration": 2.82,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -7594,9 +7594,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-like-the-history-of-the-khmer_5252fddee251.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 157172,
+  "duration": 3.273,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -7658,9 +7658,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-ll-give-it-back-tonight_6527a015e328.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 95644,
+  "duration": 1.992,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -7674,9 +7674,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-ll-give-you-half-of-the-cake_235abc2b8e4e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 112350,
+  "duration": 2.34,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -7738,9 +7738,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-ll-lend-you-my-bike_8017dd8b0b26.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 94620,
+  "duration": 1.97,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -7898,9 +7898,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-m-already-hungry_f7a6e3343b57.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 85388,
+  "duration": 1.778,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -7978,9 +7978,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-m-feeling-better-today_a2e2e770e6d7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 94492,
+  "duration": 1.968,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -8138,9 +8138,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-m-staying-at-home-today-i-have_f407f4f69646.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 164892,
+  "duration": 3.434,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -8266,9 +8266,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-often-borrow-books-from-the-li_663df30ef68c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 153326,
+  "duration": 3.193,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -8522,9 +8522,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-think-we-re-lost_12ee3e083bc0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 75284,
+  "duration": 1.567,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -8586,9 +8586,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-ve-had-a-toothache-for-three-d_a33d420eedcd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 141806,
+  "duration": 2.953,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -8890,9 +8890,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-work-in-a-restaurant-kitchen_8af012165db7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 125210,
+  "duration": 2.608,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -8906,9 +8906,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-work-in-an-office-in-front-of_719d821ce89d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 177588,
+  "duration": 3.699,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -8922,9 +8922,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-work-in-an-office_a0360d187ba6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 104748,
+  "duration": 2.181,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -8938,9 +8938,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/i-work-less-on-saturdays_aa9645bf995f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 129062,
+  "duration": 2.688,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -9338,9 +9338,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/in-my-neighbourhood-everyone-say_b9c145cb5c17.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 201966,
+  "duration": 4.207,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -9674,9 +9674,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/in-the-twelfth-century-by-a-famo_7b495e3d609a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 191662,
+  "duration": 3.992,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -9738,9 +9738,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/in-your-opinion-which-one-is-the_e5cddf17bb21.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 154626,
+  "duration": 3.22,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -9834,9 +9834,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/is-that-all_1bef06ff716c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 54830,
+  "duration": 1.141,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -9850,9 +9850,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/is-the-hotel-far-from-here_b9f7ef67769c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 120082,
+  "duration": 2.501,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -9898,9 +9898,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/island_83ff36375a83.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 47054,
+  "duration": 0.979,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -10442,9 +10442,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/it-s-a-very-ancient-city_f5c91e2e0f40.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 116190,
+  "duration": 2.42,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -10474,9 +10474,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/it-s-delicious-but-a-bit-too-sal_3c51e2776bbc.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 168692,
+  "duration": 3.514,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -10522,9 +10522,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/it-s-magnificent-when-was-it-bui_057820b444dc.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 148206,
+  "duration": 3.087,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -10538,9 +10538,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/it-s-magnificent_10295bcd3e8f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 81662,
+  "duration": 1.7,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -10554,9 +10554,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/it-s-much-better-than-before_8f8fce505952.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 117470,
+  "duration": 2.446,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -10618,9 +10618,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/it-s-the-same_38c72d0b05cf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 65136,
+  "duration": 1.356,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -10826,9 +10826,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/just-a-little-thanks-i-ve-alread_6863a1e6d5e6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 201910,
+  "duration": 4.206,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -10842,9 +10842,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/just-a-tiny-bit_544ceeae66ed.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 79022,
+  "duration": 1.645,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -10906,9 +10906,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/khmer-and-french-are-very-differ_ac4d136e8fcf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 141920,
+  "duration": 2.956,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -11034,9 +11034,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/king_23c75d0e5f20.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 44538,
+  "duration": 0.927,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -11178,9 +11178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/later-i-would-like-to-be-a-docto_1335325e9672.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 140552,
+  "duration": 2.927,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -11194,9 +11194,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/less_df97d4e5e4f8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 49694,
+  "duration": 1.034,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -11210,9 +11210,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/let-s-get-up-early-to-see-the-su_5154bffd1c5e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 155920,
+  "duration": 3.247,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -11290,9 +11290,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/like_0965044922c9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 39476,
+  "duration": 0.822,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -11338,9 +11338,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/little_22ca792d5e91.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 41912,
+  "duration": 0.872,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -11402,9 +11402,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/look-at-the-map-we-re-here_5abb2a9b39dd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 113668,
+  "duration": 2.367,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -11418,9 +11418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/look-at-the-sea-the-water-is-ver_2fad2810ba31.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 181630,
+  "duration": 3.783,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -11434,9 +11434,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/look-at-these-apsara-carvings-on_f8f270b51f1c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 172594,
+  "duration": 3.595,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -11562,9 +11562,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/many-tourists-visit-the-angkor-t_80638211b3bd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 173782,
+  "duration": 3.62,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -11578,9 +11578,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/map_d737f78809bf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 39316,
+  "duration": 0.818,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -11850,9 +11850,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/more_bf7ed2e67cf7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 43360,
+  "duration": 0.902,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -12106,9 +12106,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/my-cousin-and-i-are-the-same-age_498330b242cd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 140444,
+  "duration": 2.925,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -12650,9 +12650,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/my-parents-are-farmers-they-grow_9b07b15fc063.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 167376,
+  "duration": 3.486,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -12858,9 +12858,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/neighbour_8f78208cdce8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 49558,
+  "duration": 1.032,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -12874,9 +12874,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/neighbourhood_347b9349fbf0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56098,
+  "duration": 1.168,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -13146,9 +13146,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/no-it-s-a-five-minute-walk-near_ac43961a54d6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 180204,
+  "duration": 3.753,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -13162,9 +13162,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/no-it-s-different-its-battery-is_3311636a8b2c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 171168,
+  "duration": 3.565,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -13226,9 +13226,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/no-problem-come-in_7ad96fef1354.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 111002,
+  "duration": 2.312,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -13242,9 +13242,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/no-problem-have-you-had-enough-t_f7688bf335ab.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 157102,
+  "duration": 3.272,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -13354,9 +13354,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/noisy_181e4761fd72.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 50852,
+  "duration": 1.058,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -13498,9 +13498,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/of-course-it-s-behind-the-house_f275f9bf6ad6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 138082,
+  "duration": 2.876,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -13594,9 +13594,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/ok-but-not-too-far_00e2d869733f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 114946,
+  "duration": 2.394,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -13610,9 +13610,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/ok-thank-you-that-s-kind_dd939f8d832e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144342,
+  "duration": 3.006,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -14410,9 +14410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/our-neighbour-is-keeping-the-hou_90fb4a3c2417.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 141804,
+  "duration": 2.953,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -14426,9 +14426,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/our-neighbourhood-is-quiet-in-th_0e55ca71aa26.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 145570,
+  "duration": 3.032,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -14442,9 +14442,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/our-neighbours-are-very-kind_772be4fefff7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 120098,
+  "duration": 2.501,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -14618,9 +14618,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/phnom-penh-is-bigger-than-siem-r_73907a1cae78.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 154548,
+  "duration": 3.219,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -14810,9 +14810,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/police-officer_7dfa7743582b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 79194,
+  "duration": 1.649,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -15002,9 +15002,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/rest-and-drink-plenty-of-water-i_d95adac54694.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 271134,
+  "duration": 5.648,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -15178,9 +15178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/sand_31c39503afd1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 49610,
+  "duration": 1.033,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -15418,9 +15418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/shall-we-go-for-a-swim_a4a01a438277.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 105956,
+  "duration": 2.207,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -15450,9 +15450,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/shall-we-go-to-the-beach_d5c371be94f2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 107178,
+  "duration": 2.232,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -15914,9 +15914,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/someone-is-knocking-at-the-door_ef37d912b57e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122596,
+  "duration": 2.553,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -15962,9 +15962,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/sorry-about-the-noise_98309eb54810.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 98340,
+  "duration": 2.048,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -16010,9 +16010,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/sorry-to-bother-you_f6164fdc9a7c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 84248,
+  "duration": 1.754,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -16074,9 +16074,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/sport-is-good-for-your-health_17667f85e19a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 113700,
+  "duration": 2.368,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -16378,9 +16378,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/take-your-time-and-be-careful-go_db9b3b0824ed.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 167292,
+  "duration": 3.484,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -16474,9 +16474,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/temple_0d35923860dd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 45756,
+  "duration": 0.952,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -16794,9 +16794,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/thanks-i-ll-give-it-back-tonight_b332c9b869a6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 141808,
+  "duration": 2.953,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -16874,9 +16874,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/that-s-a-fine-job-and-your-paren_d6360882c5af.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 154636,
+  "duration": 3.221,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -16890,9 +16890,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/that-s-enough-thank-you_d7d6d837d28b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 104662,
+  "duration": 2.18,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -17082,9 +17082,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-boat-to-the-island-leaves-at_9893a9c239ba.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 168710,
+  "duration": 3.514,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -17194,9 +17194,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-children-are-learning-the-hi_abaccee268c5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 171268,
+  "duration": 3.567,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -17210,9 +17210,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-children-are-playing-in-the_2b5b9629572b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 129006,
+  "duration": 2.687,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -17242,9 +17242,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-children-are-swimming-near-t_5b1bf3f85aac.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144314,
+  "duration": 3.006,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -17322,9 +17322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-cook-is-making-the-soup_1e8733501369.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 112350,
+  "duration": 2.34,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -17418,9 +17418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-driver-is-waiting-for-us-in_cdf53a2b5742.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 178928,
+  "duration": 3.727,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -17434,9 +17434,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-driver-knows-the-city-well_35909c0e8c5c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127638,
+  "duration": 2.658,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:02Z"
  },
  {
@@ -17546,9 +17546,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-holidays-start-tomorrow_5d0305be613c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 111148,
+  "duration": 2.315,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -17610,9 +17610,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-island-is-two-hours-away-by_210b18f99278.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 153312,
+  "duration": 3.193,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -17642,9 +17642,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-king-built-this-temple_a6021b911e9d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109832,
+  "duration": 2.287,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -17738,9 +17738,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-national-museum-is-near-the_eb1e50fd7936.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 185340,
+  "duration": 3.86,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -17754,9 +17754,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-neighbours-are-having-a-part_85cc90ef473e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 189080,
+  "duration": 3.938,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -17770,9 +17770,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-old-market-then-the-bamboo-t_6b50ab77164c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 155916,
+  "duration": 3.247,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -17786,9 +17786,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-pepper-crab-here-is-deliciou_0a8f00abaa75.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 142970,
+  "duration": 2.978,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -17866,9 +17866,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-police-officer-helps-the-chi_7c7724280046.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 178996,
+  "duration": 3.728,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -17898,9 +17898,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-same_2fdc87fe57e0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 52220,
+  "duration": 1.087,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -17914,9 +17914,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-sand-is-very-hot-at-noon_d8320088ef45.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 132732,
+  "duration": 2.764,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -17930,9 +17930,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-sea-is-calm-this-morning_bbf891efb966.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 118820,
+  "duration": 2.474,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -17994,9 +17994,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-street-is-noisy-in-the-morni_38e2e38823f7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 131546,
+  "duration": 2.74,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -18090,9 +18090,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-water-is-lovely_c10a9097e03e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 93128,
+  "duration": 1.939,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -18106,9 +18106,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/the-weather-is-nice-and-we-are-v_e7935fa9fea7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 159680,
+  "duration": 3.326,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -18314,9 +18314,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/there-are-lots-of-people-at-the_119680062a95.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 130374,
+  "duration": 2.715,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -18330,9 +18330,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/there-are-lots-of-tourists-in-de_26683310b2c3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 148264,
+  "duration": 3.088,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -18490,9 +18490,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/there-s-too-much-sugar-in-this-c_e61d3cfb50fd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 140498,
+  "duration": 2.926,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -18522,9 +18522,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/these-carvings-are-very-old_568b0366bb0f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 121414,
+  "duration": 2.529,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -18554,9 +18554,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/they-are-almost-nine-hundred-yea_d3dbdcc41d76.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 139296,
+  "duration": 2.901,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -18618,9 +18618,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/they-re-farmers-they-grow-rice-i_9eb505f3fd1e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 168656,
+  "duration": 3.513,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -18970,9 +18970,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/this-one-is-bigger-but-it-s-more_99c498963863.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 166136,
+  "duration": 3.46,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -18986,9 +18986,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/this-restaurant-is-more-expensiv_de907db79e60.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 136592,
+  "duration": 2.845,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -19098,9 +19098,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/this-weekend-we-re-going-to-kep_1c2fc25b1d62.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127690,
+  "duration": 2.659,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -19370,9 +19370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-borrow_a2855e4bc1b7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 54746,
+  "duration": 1.14,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -19466,9 +19466,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-cough_a3e024e319fb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 54756,
+  "duration": 1.14,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -19690,9 +19690,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-get-better_670961f07e68.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 61232,
+  "duration": 1.275,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -19722,9 +19722,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-get-lost_6da514ee0d53.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 66354,
+  "duration": 1.381,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -19898,9 +19898,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-knock_bfd7781d1713.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 47020,
+  "duration": 0.979,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -19930,9 +19930,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-leave_a4da1d3b998b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 45884,
+  "duration": 0.955,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -19946,9 +19946,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-lend_c996eeb55ad9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 47112,
+  "duration": 0.981,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -20266,9 +20266,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-stay-healthy-you-need-to-slee_90ee04fcd1d6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 159844,
+  "duration": 3.329,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -20298,9 +20298,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-swim_c09e673bf5d5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 54836,
+  "duration": 1.141,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -20426,9 +20426,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/to-visit_c00433e352c2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 48390,
+  "duration": 1.007,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -20618,9 +20618,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/today-mangoes-are-cheaper_5469053a3928.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 135344,
+  "duration": 2.819,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -20906,9 +20906,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/too-much_f4a01950d20e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 54736,
+  "duration": 1.139,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -20922,9 +20922,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/tooth_f393deafb972.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 43198,
+  "duration": 0.899,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -20938,9 +20938,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/tourist_f227535f037e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 52236,
+  "duration": 1.087,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -21370,9 +21370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/wait-i-m-looking-at-the-map-on-m_7b7558968bdb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 159768,
+  "duration": 3.328,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -21450,9 +21450,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/watch-out-for-the-waves_0b939e3c72b2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109880,
+  "duration": 2.288,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -21530,9 +21530,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-are-visiting-the-museum-this_1df83a21d4de.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 150816,
+  "duration": 3.141,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -21690,9 +21690,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-have-enough-money-for-the-tri_e2b3fd28cdd4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122692,
+  "duration": 2.555,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -21706,9 +21706,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-have-enough-time_0674adf8b38b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 84234,
+  "duration": 1.754,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -21754,9 +21754,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-have-the-same-bag_f59c9bf75449.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 99558,
+  "duration": 2.073,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -21770,9 +21770,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-leave-at-six-in-the-morning_5d6a68f30a25.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 125194,
+  "duration": 2.607,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -21850,9 +21850,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-re-going-on-holiday-next-week_406fb5256076.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 131616,
+  "duration": 2.741,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -21866,9 +21866,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-re-going-to-the-beach-on-sund_0c3dac8b01d8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 128978,
+  "duration": 2.686,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -21882,9 +21882,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-re-lost_283a24726f6a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 58556,
+  "duration": 1.219,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -21898,9 +21898,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/we-re-visiting-three-temples-tod_73c00003a0fe.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 139190,
+  "duration": 2.899,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -22122,9 +22122,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/what-do-you-do-for-a-living_8cba46e9a880.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 104728,
+  "duration": 2.181,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -22682,9 +22682,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/when-was-it-built_1498edee4512.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 70108,
+  "duration": 1.46,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -22762,9 +22762,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/where-do-you-work_b07dcd3bd3d1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 68784,
+  "duration": 1.432,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -22890,9 +22890,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/which-one-is-the-cheapest_9628b361c6f0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109804,
+  "duration": 2.287,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -23242,9 +23242,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/with-some-rest-you-ll-soon-get-b_2ec938fb8970.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 146942,
+  "duration": 3.06,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -23258,9 +23258,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/without-a-map-you-get-lost-quick_64f695cc09f1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 153330,
+  "duration": 3.193,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -23322,9 +23322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/would-you-like-a-little-more-ric_609d72d80c78.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 123840,
+  "duration": 2.579,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -23434,9 +23434,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/yes-but-always-ask-before-photog_1955f62cb2a6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 196900,
+  "duration": 4.101,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -23450,9 +23450,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/yes-but-i-prefer-cooking-with-yo_56e9d2dbc4d9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 139284,
+  "duration": 2.901,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -23850,9 +23850,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/yes-that-s-enough-thank-you-for_a163b893590c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 173834,
+  "duration": 3.621,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -23914,9 +23914,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/yes-twenty-dollars-less-take-tha_64a351dbbb09.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 189236,
+  "duration": 3.942,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -24138,9 +24138,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/you-re-coughing-a-lot-are-you-ok_5fa94f153965.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144320,
+  "duration": 3.006,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -24234,9 +24234,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/you-should-see-a-doctor_e620784c2241.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 102136,
+  "duration": 2.127,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -24394,9 +24394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/en-US/your-soup-is-better-than-mine_f0e489db6a2c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122526,
+  "duration": 2.552,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -24650,9 +24650,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/a-ton-avis-lequel-est-le-meilleu_5c27737ce5aa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 143118,
+  "duration": 2.981,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -25146,9 +25146,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ancien_627be96e90bd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 48332,
+  "duration": 1.006,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -25162,9 +25162,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/angkor-vat-date-du-douzieme-siec_b02e3c116697.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 139384,
+  "duration": 2.903,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -25178,9 +25178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/angkor-vat-est-le-plus-grand-tem_498ee1185556.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 150966,
+  "duration": 3.144,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -25322,9 +25322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/assez_813d7586d4cb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 43422,
+  "duration": 0.904,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -25402,9 +25402,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/attends-je-regarde-le-plan-sur-m_46e3b5d638cf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 176460,
+  "duration": 3.675,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -25482,9 +25482,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/attention-aux-vagues_0472a31d0e69.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 76550,
+  "duration": 1.594,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -25594,9 +25594,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/au-douzieme-siecle-par-un-celebr_6330be950991.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 185326,
+  "duration": 3.86,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -25754,9 +25754,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/aujourd-hui-les-mangues-sont-moi_997371ad3928.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 149602,
+  "duration": 3.116,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -25962,9 +25962,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/avec-du-repos-tu-vas-vite-guerir_06140de0191d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 150848,
+  "duration": 3.142,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -26138,9 +26138,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/beaucoup-de-touristes-visitent-l_34c3e3fe66bc.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 176480,
+  "duration": 3.676,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -26154,9 +26154,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/beaucoup_1038b19a5884.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 44488,
+  "duration": 0.926,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -26170,9 +26170,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/bien-sur-elle-est-derriere-la-ma_91d0361f7775.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 141922,
+  "duration": 2.956,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -26314,9 +26314,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/bois-beaucoup-d-eau_2e012ad360e3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 71508,
+  "duration": 1.489,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -26506,9 +26506,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/bonjour-excuse-moi-de-te-derange_abfb3d0e07f1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 156038,
+  "duration": 3.25,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -26682,9 +26682,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/bonne-idee-et-ce-soir-on-mange-d_24880182b2a4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 214816,
+  "duration": 4.474,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -26826,9 +26826,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/bonnes-vacances_bbdcd0440d84.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 68918,
+  "duration": 1.435,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -26842,9 +26842,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/bruyant_56d3eca0c0ce.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 51028,
+  "duration": 1.062,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -26890,9 +26890,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/c-est-beaucoup-mieux-qu-avant_886cd6c04b0f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 81656,
+  "duration": 1.7,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -27098,9 +27098,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/c-est-magnifique-il-a-ete-constr_74db4b838faa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 162444,
+  "duration": 3.383,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -27114,9 +27114,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/c-est-magnifique_7eea67af895a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 71512,
+  "duration": 1.489,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -27178,9 +27178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/c-est-pareil_ba8a511b3475.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 58658,
+  "duration": 1.221,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -27274,9 +27274,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/c-est-tout_c2514876e7ac.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 42028,
+  "duration": 0.875,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -27418,9 +27418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/c-est-un-beau-metier-et-tes-pare_3a5d56c80f47.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127806,
+  "duration": 2.662,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -27482,9 +27482,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/c-est-une-ville-tres-ancienne_6bba6f202a36.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 113648,
+  "duration": 2.367,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -27626,9 +27626,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ca-m-est-egal_bb3be9202af6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 68910,
+  "duration": 1.435,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -27690,9 +27690,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ca-suffit-merci_97332e779b06.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 93196,
+  "duration": 1.941,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -27770,9 +27770,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ca-va-mieux-aujourd-hui_a1238549d8a7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 82966,
+  "duration": 1.728,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -28154,9 +28154,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ce-restaurant-est-plus-cher_b5ca70d41d1e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 117530,
+  "duration": 2.448,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -28314,9 +28314,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ce-week-end-nous-allons-a-kep_06a7ac1266af.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 134314,
+  "duration": 2.797,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -28346,9 +28346,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/celui-ci-est-plus-grand-mais-il_0e05c23af254.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 171314,
+  "duration": 3.568,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -28394,9 +28394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ces-sculptures-sont-tres-ancienn_fc3be54ec781.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 131594,
+  "duration": 2.741,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -28778,9 +28778,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/comme_c4f7b2b8ef1c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 42092,
+  "duration": 0.876,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -29370,9 +29370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/d-accord-mais-pas-trop-loin_eb88c82c8a37.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122636,
+  "duration": 2.554,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -29386,9 +29386,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/d-accord-merci-c-est-gentil_7f828dda87f6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144406,
+  "duration": 3.008,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -29562,9 +29562,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/dans-mon-quartier-tout-le-monde_94c3dbb14054.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 167368,
+  "duration": 3.486,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -30010,9 +30010,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/desole-pour-le-bruit_23a886360589.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 83060,
+  "duration": 1.73,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -30106,9 +30106,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/different_50a359abf244.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 53664,
+  "duration": 1.117,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -30506,9 +30506,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/elle-est-delicieuse-mais-un-peu_b12f454a5179.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 180242,
+  "duration": 3.754,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -30586,9 +30586,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/elles-ont-presque-neuf-cents-ans_41efe56a8835.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 114974,
+  "duration": 2.394,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -30618,9 +30618,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/emprunter_9d53a81b2486.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 57434,
+  "duration": 1.196,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -30730,9 +30730,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/encore-un-peu_bdeeb75f3540.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 58668,
+  "duration": 1.221,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -31002,9 +31002,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/et-celui-la-il-a-l-air-pareil_596c28c4f852.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127784,
+  "duration": 2.661,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -31066,9 +31066,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/et-demain-on-prend-le-bateau-pou_446f96f4dac9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 140606,
+  "duration": 2.928,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -31082,9 +31082,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/et-il-coute-moins-cher_647f65487d1e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 97018,
+  "duration": 2.02,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -31178,9 +31178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/et-la-soupe-il-en-reste-la-moiti_3f8b08bb7df5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 153390,
+  "duration": 3.195,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -31274,9 +31274,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/et-tu-aimes-ton-travail_4fad4e8a81cd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 91916,
+  "duration": 1.914,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -31338,9 +31338,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/excuse-moi-de-te-deranger_1f0a7849a88b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 108662,
+  "duration": 2.263,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -31690,9 +31690,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/frapper_1beaa670c6e0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 49790,
+  "duration": 1.036,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -31850,9 +31850,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/guerir_eb777b6b59e6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 57340,
+  "duration": 1.194,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -32106,9 +32106,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ici-le-crabe-au-poivre-est-delic_9ec5702bfa95.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 161180,
+  "duration": 3.357,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -32122,9 +32122,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/il-a-ete-construit-quand_32051ecaa6bf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 95760,
+  "duration": 1.994,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -32282,9 +32282,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/il-fait-beau-et-nous-sommes-tres_f93cd49ec849.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127758,
+  "duration": 2.661,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -32394,9 +32394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/il-faut-enlever-ses-chaussures_dfecbe25a0ee.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109920,
+  "duration": 2.289,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -32554,9 +32554,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/il-parle-khmer-comme-un-cambodgi_f2849f42d9b8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 146966,
+  "duration": 3.061,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -32666,9 +32666,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/il-tousse-beaucoup-la-nuit_e0f5325bf744.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 96940,
+  "duration": 2.019,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -32714,9 +32714,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/il-y-a-beaucoup-de-monde-au-marc_928bba476390.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 115006,
+  "duration": 2.395,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -32730,9 +32730,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/il-y-a-beaucoup-de-touristes-en_487949ed8683.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 139268,
+  "duration": 2.901,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -32810,9 +32810,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/il-y-a-trop-de-sucre-dans-ce-caf_f2a64eb9434a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 134202,
+  "duration": 2.795,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -32970,9 +32970,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ils-sont-paysans-ils-cultivent-d_3e7e0bc577ab.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 191722,
+  "duration": 3.993,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -33178,9 +33178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/j-ai-deja-faim_b2a6b4255f99.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 65062,
+  "duration": 1.355,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -33306,9 +33306,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/j-ai-mal-a-une-dent-depuis-trois_c689f74267a6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 134206,
+  "duration": 2.795,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -33434,9 +33434,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/j-ai-rendez-vous-chez-le-dentist_578b65b32754.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 138032,
+  "duration": 2.875,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -33578,9 +33578,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/j-ai-un-rhume-depuis-hier_5709987d45e1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109858,
+  "duration": 2.288,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -33642,9 +33642,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/j-aime-l-histoire-des-rois-khmer_d8f8ae9d9fdd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 123910,
+  "duration": 2.581,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -33898,9 +33898,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/j-emprunte-souvent-des-livres-a_ae286e8305fe.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 161078,
+  "duration": 3.355,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -34074,9 +34074,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-crois-qu-on-s-est-perdus_559005b0a79d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 97032,
+  "duration": 2.021,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -34394,9 +34394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-mange-peu-le-soir_4127bf6bf4bf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 93226,
+  "duration": 1.941,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -34410,9 +34410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-me-brosse-les-dents-apres-le_b75b7e119990.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 129074,
+  "duration": 2.688,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -34730,9 +34730,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-ne-me-sens-pas-tres-bien-j-ai_21569f2277fc.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 152180,
+  "duration": 3.17,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -34746,9 +34746,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-ne-me-sens-pas-tres-bien_00fd723ab394.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 95898,
+  "duration": 1.997,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -34794,9 +34794,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-ne-sais-pas-nager_f67eb2abe46b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 86866,
+  "duration": 1.809,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -35114,9 +35114,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-reste-a-la-maison-aujourd-hui_4ceaaf34c951.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 172576,
+  "duration": 3.594,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -35322,9 +35322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-te-donne-la-moitie-du-gateau_c91489500e8b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 120024,
+  "duration": 2.5,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -35338,9 +35338,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-te-le-rends-ce-soir_c60f389481f6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 97036,
+  "duration": 2.021,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -35354,9 +35354,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-te-prete-mon-velo_2920754ce8da.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 92024,
+  "duration": 1.916,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -35418,9 +35418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-travaille-dans-la-cuisine-d-u_a95a2da945fe.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144510,
+  "duration": 3.01,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -35434,9 +35434,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-travaille-dans-un-bureau_ee38ac5a946a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 106032,
+  "duration": 2.208,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -35466,9 +35466,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/je-travaille-moins-le-samedi_dc26c8b7dd98.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 117602,
+  "duration": 2.449,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -36074,9 +36074,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/juste-un-peu-merci-j-ai-deja-bea_95c571260082.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 198324,
+  "duration": 4.131,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -36090,9 +36090,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/juste-un-tout-petit-peu_91fd7e130c63.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 100824,
+  "duration": 2.1,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -36426,9 +36426,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/l-eau-est-bonne_3bee111dd792.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 58678,
+  "duration": 1.222,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -36602,9 +36602,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/l-histoire_0dc205045893.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 62478,
+  "duration": 1.301,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -36650,9 +36650,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/l-hotel-est-loin-d-ici_65120e863a22.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 82888,
+  "duration": 1.726,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -36682,9 +36682,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/l-ile-est-a-deux-heures-en-batea_34c9602bce6a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 113652,
+  "duration": 2.367,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -36698,9 +36698,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/l-ile_292d62136bda.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 43236,
+  "duration": 0.9,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -37130,9 +37130,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/la-dent_91ef49cc64ff.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 45858,
+  "duration": 0.954,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -37354,9 +37354,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/la-mer-est-calme-ce-matin_3930df3d8e02.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 120068,
+  "duration": 2.501,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -37370,9 +37370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/la-mer_eb0dee6f8d05.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56066,
+  "duration": 1.167,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:04Z"
  },
  {
@@ -37418,9 +37418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/la-moitie_03277d5dac89.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 59952,
+  "duration": 1.248,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -37626,9 +37626,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/la-plage_36a01a8f7c87.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 58656,
+  "duration": 1.221,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -37738,9 +37738,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/la-rue-est-bruyante-le-matin_db7a8a7d754d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122750,
+  "duration": 2.556,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -37802,9 +37802,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/la-sante_36614e99cf7a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 58692,
+  "duration": 1.222,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -37834,9 +37834,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/la-sculpture_2494e8a28e34.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 71526,
+  "duration": 1.489,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -38154,9 +38154,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-bateau-pour-l-ile-part-a-neuf_11b4df6808ea.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 143190,
+  "duration": 2.982,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -38170,9 +38170,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-bateau_3f9d8f28d826.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 54852,
+  "duration": 1.142,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -38458,9 +38458,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-chauffeur-connait-bien-la-vil_e40cd7657a82.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 123888,
+  "duration": 2.58,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:02Z"
  },
  {
@@ -38474,9 +38474,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-chauffeur-nous-attend-devant_ae6023060b33.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 140528,
+  "duration": 2.927,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -38586,9 +38586,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-cuisinier-prepare-la-soupe_37f2b045ab1f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 125306,
+  "duration": 2.61,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -38602,9 +38602,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-cuisinier_227b0a2f4e73.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 67664,
+  "duration": 1.409,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -38618,9 +38618,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-dentiste_b4761a372fcf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 67640,
+  "duration": 1.408,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -38890,9 +38890,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-khmer-et-le-francais-sont-tre_23ad0850ab7d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 157140,
+  "duration": 3.273,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -39322,9 +39322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-meme_4e4547a8423f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 51016,
+  "duration": 1.062,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -39466,9 +39466,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-musee-national-se-trouve-pres_00d4e852353a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 186682,
+  "duration": 3.888,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -39690,9 +39690,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-plan_d59e3651b67f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 47212,
+  "duration": 0.983,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -39754,9 +39754,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-policier-aide-les-enfants-a-t_30fbbe9dbd88.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 155944,
+  "duration": 3.248,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -39882,9 +39882,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-quartier_45077f0dbdc3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 62384,
+  "duration": 1.299,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -39978,9 +39978,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-rhume_fe66a687b477.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 52198,
+  "duration": 1.087,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -40026,9 +40026,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-roi-a-construit-ce-temple_f9f9657b6b24.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 123804,
+  "duration": 2.578,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -40042,9 +40042,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-roi_458beedd67c4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 45942,
+  "duration": 0.956,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -40058,9 +40058,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-sable-est-tres-chaud-a-midi_44b1471481db.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122750,
+  "duration": 2.556,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -40074,9 +40074,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-sable_c782266ba201.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56108,
+  "duration": 1.168,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -40170,9 +40170,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-siecle_2147f84adeed.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 57446,
+  "duration": 1.196,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -40314,9 +40314,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-sport-est-bon-pour-la-sante_688789e3f3af.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127762,
+  "duration": 2.661,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -40410,9 +40410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-temple_d796e1d002c1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56090,
+  "duration": 1.168,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -40458,9 +40458,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-touriste_75fa7b8afd77.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 66316,
+  "duration": 1.381,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -40570,9 +40570,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-vieux-marche-puis-le-train-de_5c50cf04ea60.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 155938,
+  "duration": 3.248,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -40602,9 +40602,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/le-voisin_e65f8afc3cd6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56176,
+  "duration": 1.169,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -40698,9 +40698,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/lequel-est-le-moins-cher_7b4ba757593a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 107386,
+  "duration": 2.236,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -40794,9 +40794,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/les-enfants-apprennent-l-histoir_5284478fef1c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 158378,
+  "duration": 3.299,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -40810,9 +40810,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/les-enfants-jouent-dans-le-sable_acf188008b6e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 114964,
+  "duration": 2.394,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -40874,9 +40874,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/les-enfants-nagent-pres-de-la-pl_b5776fae28e5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 135488,
+  "duration": 2.822,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -40986,9 +40986,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/les-vacances-commencent-demain_4681fe182144.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 99612,
+  "duration": 2.074,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -41002,9 +41002,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/les-vacances_46717244bcea.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 66334,
+  "duration": 1.381,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -41050,9 +41050,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/les-voisins-font-une-fete-c-est_673e72e5b23a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 168696,
+  "duration": 3.514,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -41578,9 +41578,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/meilleur_6093f1863921.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 57324,
+  "duration": 1.193,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -41770,9 +41770,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/merci-je-te-la-rends-ce-soir_cfa37e8d1fa8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 140546,
+  "duration": 2.927,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -41930,9 +41930,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/mes-parents-sont-paysans-ils-cul_ad47f91d68a8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 175238,
+  "duration": 3.65,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -42074,9 +42074,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/moi-je-travaille-dans-un-bureau_badfb9e50019.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 223690,
+  "duration": 4.659,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -42122,9 +42122,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/moins_604aec3d2751.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 39550,
+  "duration": 0.823,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -42186,9 +42186,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/mon-cousin-et-moi-avons-le-meme_3bb63c1ec556.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127828,
+  "duration": 2.662,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -42586,9 +42586,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nager_3549cd42f4b6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 47124,
+  "duration": 0.981,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -42618,9 +42618,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ne-mets-pas-trop-de-piment_cb557ad587da.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 91922,
+  "duration": 1.914,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -42778,9 +42778,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/non-c-est-a-cinq-minutes-a-pied_69d10dc097a2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 219890,
+  "duration": 4.58,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -42842,9 +42842,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/non-il-est-different-sa-batterie_bc270f17d933.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 203390,
+  "duration": 4.236,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -43018,9 +43018,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nos-voisins-sont-tres-gentils_8875a80b48f8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 115000,
+  "duration": 2.395,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -43098,9 +43098,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/notre-quartier-est-calme-le-soir_9cbeeed1de98.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 139292,
+  "duration": 2.901,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -43114,9 +43114,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/notre-voisine-garde-la-cle-de-la_e45229bb2dea.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 161108,
+  "duration": 3.356,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -43146,9 +43146,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nous-allons-a-la-plage-dimanche_26b42b4fa765.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122646,
+  "duration": 2.554,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -43226,9 +43226,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nous-avons-assez-d-argent-pour-l_469ec96e0ade.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144484,
+  "duration": 3.009,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -43242,9 +43242,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nous-avons-assez-de-temps_28ae413210a6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 91932,
+  "duration": 1.914,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -43290,9 +43290,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nous-avons-le-meme-sac_e3fa7db817bb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 99564,
+  "duration": 2.073,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -43418,9 +43418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nous-partons-a-six-heures-du-mat_e93150b248f6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 125284,
+  "duration": 2.609,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -43434,9 +43434,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nous-partons-en-vacances-la-sema_8d806c4b04de.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 153450,
+  "duration": 3.196,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -43530,9 +43530,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nous-visitons-le-musee-ce-matin_87b859940174.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 123988,
+  "duration": 2.582,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -43546,9 +43546,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/nous-visitons-trois-temples-aujo_9c0d4587c800.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 139282,
+  "duration": 2.901,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -43834,9 +43834,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/on-peut-prendre-des-photos_f5037cf1798a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 93248,
+  "duration": 1.942,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -43882,9 +43882,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/on-s-est-perdus_d141f0ebf2ab.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 62530,
+  "duration": 1.302,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -43914,9 +43914,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/on-se-leve-tot-pour-voir-le-leve_9f58e7c309fa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 157242,
+  "duration": 3.275,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -43946,9 +43946,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/on-va-a-la-plage_f062cceb61ae.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 80414,
+  "duration": 1.674,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -43994,9 +43994,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/on-va-nager_092f6c2b4249.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56156,
+  "duration": 1.169,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -44234,9 +44234,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/oui-ca-suffit-merci-pour-tout_717d1165a65c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 143078,
+  "duration": 2.98,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -44538,9 +44538,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/oui-mais-demande-toujours-avant_23b6783c90ec.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 198196,
+  "duration": 4.128,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -44570,9 +44570,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/oui-mais-je-prefere-cuisiner-ave_35957a534c64.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 157144,
+  "duration": 3.273,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -44714,9 +44714,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/oui-vingt-dollars-de-moins-prend_3f830035194f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 180246,
+  "duration": 3.754,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -44874,9 +44874,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/partir_2b7a14022cd6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 57472,
+  "duration": 1.196,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -44906,9 +44906,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/pas-de-probleme-entre_0e903d1e6625.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 107394,
+  "duration": 2.236,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -44938,9 +44938,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/pas-de-probleme-tu-as-assez-mang_9501e738a617.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 132782,
+  "duration": 2.765,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -45162,9 +45162,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/peu_b8ed85db69bd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 31772,
+  "duration": 0.661,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -45194,9 +45194,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/phnom-penh-est-plus-grand-que-si_4d8ab0ed88b2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 140658,
+  "duration": 2.929,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -45258,9 +45258,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/plus-tard-je-voudrais-etre-medec_d75318f8980e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 149516,
+  "duration": 3.114,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -45274,9 +45274,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/plus_f5ac02338f0f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 35606,
+  "duration": 0.741,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -45322,9 +45322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/pour-etre-en-bonne-sante-il-faut_21ba00aa3cd0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 181542,
+  "duration": 3.781,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -45562,9 +45562,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/prends-ton-temps-et-fais-attenti_d87bf398a0c3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 158502,
+  "duration": 3.301,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -45594,9 +45594,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/preter_020c3dd6707f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 47146,
+  "duration": 0.981,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -45786,9 +45786,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/qu-est-ce-que-tu-fais-dans-la-vi_7f261f3b979c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 98378,
+  "duration": 2.049,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -46250,9 +46250,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/quelqu-un-frappe-a-la-porte_3ca8d2e17fad.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109834,
+  "duration": 2.287,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -46378,9 +46378,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/regarde-ces-sculptures-d-apsaras_56140e0866f6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 166222,
+  "duration": 3.462,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -46394,9 +46394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/regarde-la-mer-l-eau-est-tres-cl_4ed259982c33.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 157216,
+  "duration": 3.274,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -46410,9 +46410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/regarde-le-plan-on-est-ici_ceac14e1f33b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 132970,
+  "duration": 2.769,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -46490,9 +46490,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/repose-toi-et-bois-beaucoup-d-ea_a13d3715021f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 274966,
+  "duration": 5.728,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -46778,9 +46778,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/sans-plan-on-se-perd-vite_5e377a45ab2f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127822,
+  "duration": 2.662,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -46874,9 +46874,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/se-perdre_bdffff3d61d4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 61206,
+  "duration": 1.274,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -47114,9 +47114,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/super-et-demain-qu-est-ce-qu-on_02c0e5d7985b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 172608,
+  "duration": 3.595,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -47226,9 +47226,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/ta-soupe-est-meilleure-que-la-mi_2543259482c6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 124000,
+  "duration": 2.582,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -47418,9 +47418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tousser_93e20fa65ddb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 44704,
+  "duration": 0.93,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -47466,9 +47466,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tout-le-monde-est-la_b6f3e760978d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 72788,
+  "duration": 1.516,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -47498,9 +47498,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tout_1a374deb81c1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 31740,
+  "duration": 0.66,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -47738,9 +47738,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/trop_fc021412f376.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 38312,
+  "duration": 0.797,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -48010,9 +48010,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tu-devrais-voir-un-medecin_b497fbe54588.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 108564,
+  "duration": 2.261,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -48282,9 +48282,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tu-peux-me-preter-une-echelle-je_090242510109.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 204568,
+  "duration": 4.261,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -48298,9 +48298,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tu-peux-me-preter-une-echelle_9bc84416ce0f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109914,
+  "duration": 2.289,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -48394,9 +48394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tu-tousses-beaucoup-ca-va_8effeef399aa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 104780,
+  "duration": 2.182,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -48410,9 +48410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tu-travailles-ou_0b214abebaed.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 59972,
+  "duration": 1.248,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -48474,9 +48474,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/tu-veux-encore-un-peu-de-riz_65e50b769767.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 97082,
+  "duration": 2.022,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -48682,9 +48682,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/un-demi-kilo-de-crevettes-s-il-v_f18a45591182.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 154684,
+  "duration": 3.222,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -48794,9 +48794,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/un-peu-la-climatisation-du-burea_2164c4402bb1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 202150,
+  "duration": 4.211,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -49066,9 +49066,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/visiter_019bd33af1b9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56082,
+  "duration": 1.167,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -49370,9 +49370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/fr-FR/vous-pouvez-nous-prendre-en-phot_147c5f32e0cb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 106136,
+  "duration": 2.21,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -49626,9 +49626,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_01ab0513e3d7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 157226,
+  "duration": 3.275,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -49738,9 +49738,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_03bd2f41399d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144428,
+  "duration": 3.008,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -49946,9 +49946,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_068758f77890.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 173794,
+  "duration": 3.62,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -50026,9 +50026,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_0799497bfe22.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 50976,
+  "duration": 1.061,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -50138,9 +50138,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_08a53e72ca1f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 163608,
+  "duration": 3.408,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -50170,9 +50170,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_08e8a283205d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 159822,
+  "duration": 3.329,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -50234,9 +50234,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_096339775338.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 227542,
+  "duration": 4.74,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -50250,9 +50250,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_0993b02ca27e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 103372,
+  "duration": 2.153,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -50378,9 +50378,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_0ba6022e4a0b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 153440,
+  "duration": 3.196,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -50586,9 +50586,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_0d3abfddb5c2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 199330,
+  "duration": 4.152,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -50650,9 +50650,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_0dc33e4dbcb8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 61322,
+  "duration": 1.277,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -50714,9 +50714,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_0ed6604269aa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 108620,
+  "duration": 2.262,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -50986,9 +50986,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_1142f9ad3137.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 226278,
+  "duration": 4.713,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -51146,9 +51146,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_13bc0cea4f15.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 63724,
+  "duration": 1.327,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -51178,9 +51178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_13fc8d9cb41b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 95760,
+  "duration": 1.994,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -51498,9 +51498,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_1809a295f2c2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 48532,
+  "duration": 1.01,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -51594,9 +51594,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_18cf70d2d9bf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 145740,
+  "duration": 3.035,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -51898,9 +51898,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_1d63038ed7c7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56042,
+  "duration": 1.167,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -52234,9 +52234,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_1f782f8d1fbb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 134024,
+  "duration": 2.791,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -52394,9 +52394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_21bf851ed9b3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 340202,
+  "duration": 7.087,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -52538,9 +52538,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_230730773ba0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 222612,
+  "duration": 4.637,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -52570,9 +52570,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_231e894bae21.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 217432,
+  "duration": 4.529,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -52938,9 +52938,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_25f73472dd1c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 34334,
+  "duration": 0.714,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -52986,9 +52986,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_26ac4bfea0e2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 208426,
+  "duration": 4.341,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -53482,9 +53482,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_2b6544b627b0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 131612,
+  "duration": 2.741,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -53562,9 +53562,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_2c1e0b13a5fe.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 177604,
+  "duration": 3.699,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -53738,9 +53738,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_2d9a3127e8e8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 176450,
+  "duration": 3.675,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -53770,9 +53770,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_2dadf7eeaebe.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 159776,
+  "duration": 3.328,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -53850,9 +53850,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_2e6d6574b7ea.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 163716,
+  "duration": 3.41,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -53882,9 +53882,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_2e7f098fe8d5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 198170,
+  "duration": 4.128,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -54138,9 +54138,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_30c6690ebe89.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 222522,
+  "duration": 4.635,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -54410,9 +54410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_349743671d84.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 45830,
+  "duration": 0.954,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -54474,9 +54474,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_3554c7fbc556.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 145696,
+  "duration": 3.034,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -54538,9 +54538,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_35c48a63b3c5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 121364,
+  "duration": 2.527,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -54618,9 +54618,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_3673539ed820.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 230114,
+  "duration": 4.793,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -54634,9 +54634,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_3682bf34adea.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 103448,
+  "duration": 2.154,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -54714,9 +54714,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_37a5b588ba52.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 113724,
+  "duration": 2.368,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -55050,9 +55050,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_3b4f5bcf7f09.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 67566,
+  "duration": 1.407,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -55066,9 +55066,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_3b8a453b920a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 61316,
+  "duration": 1.276,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -55178,9 +55178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_3d252ab36324.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 35572,
+  "duration": 0.74,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -55194,9 +55194,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_3dd230f69f19.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 102142,
+  "duration": 2.127,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -55338,9 +55338,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_3f3be074878b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 100966,
+  "duration": 2.103,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -55418,9 +55418,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_401705720054.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 180328,
+  "duration": 3.756,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -55594,9 +55594,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_417c929f169f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 145744,
+  "duration": 3.035,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -55642,9 +55642,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_41de9b61ab7c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 132942,
+  "duration": 2.769,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -55834,9 +55834,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_42f179d1093c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 178966,
+  "duration": 3.728,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -55882,9 +55882,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_438f61a13f7e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 70134,
+  "duration": 1.46,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -55962,9 +55962,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_4487518f24f1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 172648,
+  "duration": 3.596,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -56010,9 +56010,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_45433dd04c43.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 34354,
+  "duration": 0.715,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -56026,9 +56026,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_455dbfa6008e.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 72610,
+  "duration": 1.512,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -56106,9 +56106,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_45accf6f2064.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 190400,
+  "duration": 3.966,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -56234,9 +56234,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_46ad91bdabf0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144386,
+  "duration": 3.007,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -56650,9 +56650,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_4b10a48bed7d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 153442,
+  "duration": 3.196,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -56810,9 +56810,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_4bea39f690be.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 194386,
+  "duration": 4.049,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -56922,9 +56922,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_4ce3e998ca36.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 80492,
+  "duration": 1.676,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -56954,9 +56954,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_4d1faa989f75.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 57358,
+  "duration": 1.194,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -57018,9 +57018,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_4f441b03d12f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 126420,
+  "duration": 2.633,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -57034,9 +57034,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_4f5d2cb9f670.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 210952,
+  "duration": 4.394,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -57082,9 +57082,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_503f46df59aa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 50876,
+  "duration": 1.059,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -57130,9 +57130,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_5072de9ad297.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 224974,
+  "duration": 4.686,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -57530,9 +57530,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_53f4d44a018d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 173852,
+  "duration": 3.621,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -57562,9 +57562,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_541b53b49b69.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 56096,
+  "duration": 1.168,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -57898,9 +57898,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_57e7e4ac3fe4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 75420,
+  "duration": 1.57,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -58042,9 +58042,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_58f8652c2f01.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 208440,
+  "duration": 4.342,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -58058,9 +58058,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_5901d69d72f1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 184096,
+  "duration": 3.834,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -58250,9 +58250,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_5a210a958da3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 153360,
+  "duration": 3.194,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -58346,9 +58346,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_5ab20d963721.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 155934,
+  "duration": 3.248,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -58394,9 +58394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_5b91c8a60a2a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 149582,
+  "duration": 3.115,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -58410,9 +58410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_5b995f5870fe.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 107250,
+  "duration": 2.233,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -58490,9 +58490,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_5c2cb6e1fdb8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 62466,
+  "duration": 1.3,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -58682,9 +58682,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_5dec5904b189.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127854,
+  "duration": 2.663,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -58986,9 +58986,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_60f457f570e9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 52196,
+  "duration": 1.087,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -59178,9 +59178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_64bd86b9cc98.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 216044,
+  "duration": 4.5,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -59290,9 +59290,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_65aaca169377.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 134210,
+  "duration": 2.795,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -59354,9 +59354,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_65f7fffdf1a1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 90636,
+  "duration": 1.887,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -59450,9 +59450,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_66749ba1ae4b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 173826,
+  "duration": 3.62,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -59514,9 +59514,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_672c754339ff.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 176402,
+  "duration": 3.674,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -59578,9 +59578,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_67e4efc32802.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122604,
+  "duration": 2.553,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -59834,9 +59834,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_6abcd0c95b9a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 152114,
+  "duration": 3.168,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -59850,9 +59850,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_6abf0c87ddd4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 148318,
+  "duration": 3.089,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -60026,9 +60026,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_6c3c6a4fd6fc.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 49788,
+  "duration": 1.036,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -60154,9 +60154,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_6ccf334f3c94.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 65172,
+  "duration": 1.357,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -60442,9 +60442,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_6f92166df85a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 242970,
+  "duration": 5.061,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -60650,9 +60650,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_71fe64ea20d0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 50994,
+  "duration": 1.061,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -60810,9 +60810,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_7372fd5f7c21.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 260958,
+  "duration": 5.436,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -61370,9 +61370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_78950e9151d0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 230254,
+  "duration": 4.796,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -61434,9 +61434,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_793f0af07b9c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 113702,
+  "duration": 2.368,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -61818,9 +61818,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_7d6c002800ea.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 232916,
+  "duration": 4.851,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -62042,9 +62042,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_7f1a70bd4090.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 146886,
+  "duration": 3.059,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -62202,9 +62202,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_802aa6568ab3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 84164,
+  "duration": 1.752,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -62362,9 +62362,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_8153ba61edb1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 131590,
+  "duration": 2.741,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -62586,9 +62586,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_82bfd8943097.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 108548,
+  "duration": 2.26,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -62858,9 +62858,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_85b4d2d6d5fb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 105922,
+  "duration": 2.206,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -62890,9 +62890,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_867d0515e9f8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 61224,
+  "duration": 1.275,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -62970,9 +62970,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_87e11f9bb37a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 176444,
+  "duration": 3.675,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -63370,9 +63370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_8b71a6b5d192.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 158620,
+  "duration": 3.304,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -63514,9 +63514,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_8c91bd34e9fa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 155922,
+  "duration": 3.247,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -63562,9 +63562,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_8cf9937a00fb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 167482,
+  "duration": 3.488,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -63706,9 +63706,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_8e9140030f6f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 62456,
+  "duration": 1.3,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -63754,9 +63754,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_8ef4f0706b6f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 75406,
+  "duration": 1.57,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -63770,9 +63770,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_8f1dfea9408b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 118886,
+  "duration": 2.476,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -63802,9 +63802,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_8f736c97e718.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 91874,
+  "duration": 1.913,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -64042,9 +64042,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_91703b4db9ee.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 132846,
+  "duration": 2.767,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -64266,9 +64266,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_93d0fd838c8a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 70124,
+  "duration": 1.46,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -64282,9 +64282,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_94123532c9cd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 177666,
+  "duration": 3.7,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -64346,9 +64346,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_9446a58fbf3d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 173924,
+  "duration": 3.623,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -64570,9 +64570,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_9633cfd4bf2b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 180190,
+  "duration": 3.753,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -64938,9 +64938,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_9a7957209c60.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 102166,
+  "duration": 2.128,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -65066,9 +65066,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_9c89e5c49e20.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 122624,
+  "duration": 2.554,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -65242,9 +65242,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_9e276e90b676.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 102280,
+  "duration": 2.13,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -65258,9 +65258,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_9e8511949dbf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 50870,
+  "duration": 1.059,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -65354,9 +65354,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_9fa3c4b8055a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 214822,
+  "duration": 4.475,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -65370,9 +65370,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_9fbf256355d1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 39464,
+  "duration": 0.821,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -65658,9 +65658,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_a35168e1c6f4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 191796,
+  "duration": 3.995,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -65866,9 +65866,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_a4bd792768bf.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 250754,
+  "duration": 5.223,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -65914,9 +65914,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_a549a000f264.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 61296,
+  "duration": 1.276,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -66026,9 +66026,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_a67246d3895c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 194220,
+  "duration": 4.045,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -66314,9 +66314,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_a90bff9dc973.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 31836,
+  "duration": 0.662,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -66346,9 +66346,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_a94ee83e2762.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 125230,
+  "duration": 2.608,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -66570,9 +66570,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_ab34415144b1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 141868,
+  "duration": 2.955,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -66682,9 +66682,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_abb0905cfa67.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 139340,
+  "duration": 2.902,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -66794,9 +66794,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_ac92ef660f4d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 155944,
+  "duration": 3.248,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -67242,9 +67242,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_b3783ca40c83.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 248022,
+  "duration": 5.166,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -67290,9 +67290,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_b43baf4cc7aa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 99544,
+  "duration": 2.073,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -67578,9 +67578,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_b80240289d4c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 212264,
+  "duration": 4.421,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -67642,9 +67642,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_b86194b5c914.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 193138,
+  "duration": 4.023,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -67674,9 +67674,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_b8b7bb48e3e9.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 116158,
+  "duration": 2.419,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -67770,9 +67770,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_b9aaa67d2a77.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 132862,
+  "duration": 2.767,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -67786,9 +67786,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_b9f2680f612d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 195570,
+  "duration": 4.073,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -67834,9 +67834,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_babadb0b260b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 209702,
+  "duration": 4.368,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -68106,9 +68106,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_bcc018aac16b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 40834,
+  "duration": 0.85,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -68218,9 +68218,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_bd2f6eea3860.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 226376,
+  "duration": 4.715,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -68282,9 +68282,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_bd9ad5c60ed8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 198134,
+  "duration": 4.127,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -68410,9 +68410,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_be37d609213a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 158598,
+  "duration": 3.303,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -68458,9 +68458,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_beb14c2571bc.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 297862,
+  "duration": 6.205,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -68794,9 +68794,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_c23a5bd488df.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 144366,
+  "duration": 3.007,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -68842,9 +68842,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_c25b9396a89a.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 67666,
+  "duration": 1.409,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -68906,9 +68906,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_c2e529b1b529.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 53582,
+  "duration": 1.115,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -69018,9 +69018,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_c4821e18aafa.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 74036,
+  "duration": 1.542,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -69498,9 +69498,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_cb6b8b3fec49.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 63778,
+  "duration": 1.328,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -69578,9 +69578,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_cc431cae07da.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 166106,
+  "duration": 3.46,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -69722,9 +69722,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_cda8cd9bd423.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 191726,
+  "duration": 3.993,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -69738,9 +69738,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_cdcff84f749d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 245506,
+  "duration": 5.114,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -69786,9 +69786,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_ce67c35ec68b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 208552,
+  "duration": 4.344,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -70010,9 +70010,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d0cd7fe1a0e6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 148242,
+  "duration": 3.087,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -70250,9 +70250,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d2f960bca797.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 234044,
+  "duration": 4.875,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -70346,9 +70346,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d3ad9b379191.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 158368,
+  "duration": 3.298,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -70362,9 +70362,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d3b0968bc7a4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 280126,
+  "duration": 5.835,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -70394,9 +70394,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d3eb3aedbbb8.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 114922,
+  "duration": 2.393,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -70634,9 +70634,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d6a1dd69cabe.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 83046,
+  "duration": 1.729,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -70682,9 +70682,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d7670b0dd856.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 138086,
+  "duration": 2.876,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -70810,9 +70810,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d8725758d421.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 58712,
+  "duration": 1.222,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -70906,9 +70906,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_d9b15eec3a8c.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 127750,
+  "duration": 2.661,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -70986,9 +70986,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_da0895366125.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 150822,
+  "duration": 3.141,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -71178,9 +71178,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_dc8dab0d4d53.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 67660,
+  "duration": 1.409,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -71258,9 +71258,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_dd8306f47edb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 234024,
+  "duration": 4.875,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -71290,9 +71290,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_ddb89cf4a8db.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 177698,
+  "duration": 3.701,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -71322,9 +71322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_dde01e7667f0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 138100,
+  "duration": 2.876,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -71450,9 +71450,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_dfe987365443.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 130346,
+  "duration": 2.715,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -71466,9 +71466,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e096013c5a70.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 137960,
+  "duration": 2.873,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -71498,9 +71498,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e0dd178d1b06.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 99746,
+  "duration": 2.077,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -71514,9 +71514,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e0eb54085de4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 204580,
+  "duration": 4.261,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -71562,9 +71562,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e152ef8194e3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 52256,
+  "duration": 1.088,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -71594,9 +71594,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e173edd29097.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 235304,
+  "duration": 4.901,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -71626,9 +71626,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e186f9dd5444.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 129114,
+  "duration": 2.689,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -71754,9 +71754,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e2fd25f55b62.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 178980,
+  "duration": 3.728,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -71834,9 +71834,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e32afb32fbd7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 149416,
+  "duration": 3.112,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -71930,9 +71930,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e43651eacb68.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 72716,
+  "duration": 1.514,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -71946,9 +71946,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e45aa146225f.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 163650,
+  "duration": 3.408,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -72090,9 +72090,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e5f8d379a6f5.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 171306,
+  "duration": 3.568,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -72186,9 +72186,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e7a3b84f26a2.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 134146,
+  "duration": 2.794,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:03Z"
  },
  {
@@ -72234,9 +72234,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e7d98b4761b6.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 74014,
+  "duration": 1.541,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -72474,9 +72474,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_e9a5e1358c0b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 149512,
+  "duration": 3.114,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -72554,9 +72554,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_ea53a72bfdb1.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 75358,
+  "duration": 1.569,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -72634,9 +72634,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_eab85dbc8fa0.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 155926,
+  "duration": 3.248,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:02Z"
  },
  {
@@ -72698,9 +72698,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_eb74e55b9da3.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 136750,
+  "duration": 2.848,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -72730,9 +72730,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_ebdfb30049a4.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 172530,
+  "duration": 3.593,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:09Z"
  },
  {
@@ -72842,9 +72842,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_ecb2d9c36afe.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 193068,
+  "duration": 4.021,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:06Z"
  },
  {
@@ -72874,9 +72874,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_ece403937b78.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 199352,
+  "duration": 4.152,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -73146,9 +73146,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_f0ddb90b1f19.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 118872,
+  "duration": 2.476,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -73322,9 +73322,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_f1ea97683a70.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 67526,
+  "duration": 1.406,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -73530,9 +73530,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_f42d335a826d.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109878,
+  "duration": 2.288,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -73546,9 +73546,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_f4378e09acf7.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 141854,
+  "duration": 2.954,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:11Z"
  },
  {
@@ -73722,9 +73722,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_f56a093469dd.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 109866,
+  "duration": 2.288,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:10Z"
  },
  {
@@ -74170,9 +74170,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_f9b032c3a811.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 188016,
+  "duration": 3.916,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:07Z"
  },
  {
@@ -74186,9 +74186,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_f9bb1395c7fb.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 51018,
+  "duration": 1.062,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:05Z"
  },
  {
@@ -74458,9 +74458,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_fda2126b757b.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 170068,
+  "duration": 3.542,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
@@ -74490,9 +74490,9 @@
   "sample_rate": 24000,
   "format": "wav/pcm_s16le/mono",
   "file": "audio/km-KH/km_fdbcf9424599.wav",
-  "size": 0,
-  "duration": 0.0,
-  "status": "missing",
+  "size": 68904,
+  "duration": 1.435,
+  "status": "ready",
   "created_at": "2026-11-16T15:52:08Z"
  },
  {
