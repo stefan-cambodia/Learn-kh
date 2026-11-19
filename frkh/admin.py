@@ -83,7 +83,7 @@ def check_project(config, conn, library, deep: bool = False) -> Report:
             report.ok("Fichier .env présent")
     else:
         report.warn("Fichier .env absent : copiez .env.example vers .env et renseignez vos clés API")
-    for lang in LANGS:
+    for lang in config.content_langs():
         spec = library.spec_for(lang)
         try:
             ready, reason = library.provider(spec.provider).configured()
@@ -234,7 +234,7 @@ def correct_text(config, conn, find: str, replace: str, lang: str | None = None,
     find, replace = normalize_text(find), normalize_text(replace)
     if not find:
         raise ValueError("le texte à rechercher est vide")
-    fields = (lang,) if lang else ("fr", "en", "km", "tr")
+    fields = (lang,) if lang else ("fr", "en", "km", "tr", "es", "it", "ru", "zh", "zh_tr", "ru_tr")
     if lang == "km":
         fields = ("km",)
     result = {"lessons": [], "vocabulary": 0, "units": [], "occurrences": 0}

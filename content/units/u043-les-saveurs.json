@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "sucré", "en": "sweet", "km": "ផ្អែម", "tr": "ph'aèm", "pos": "adjectif",
+      "fr": "sucré", "en": "sweet", "km": "ផ្អែម", "tr": "ph'aèm",
+      "es": "dulce", "it": "dolce", "ru": "сладкий", "zh": "甜", "zh_tr": "tián", "pos": "adjectif",
       "note": {
         "fr": "ផ្អែម s'emploie aussi au figuré : une voix douce, សំឡេងផ្អែម. Un dessert se dit បង្អែម (bâng-aèm), formé sur le même mot.",
         "en": "ផ្អែម is also used figuratively: a sweet voice, សំឡេងផ្អែម. A dessert is បង្អែម (bâng-aèm), built on the same word. French « sucré » becomes « sucrée » in the feminine.",
         "km": "« sucré » មកពី « sucre »។ ភេទស្រី៖ sucrée។ « un dessert » មានន័យថា បង្អែម។ អង់គ្លេស៖ « sweet »។"
       },
-      "example": {"fr": "Les mangues de Kampot sont très sucrées.", "en": "Kampot mangoes are very sweet.", "km": "ស្វាយកំពតផ្អែមណាស់។", "tr": "svay kâm-pot ph'aèm nah."}
+      "example": {"fr": "Les mangues de Kampot sont très sucrées.", "en": "Kampot mangoes are very sweet.", "km": "ស្វាយកំពតផ្អែមណាស់។", "tr": "svay kâm-pot ph'aèm nah.",
+      "es": "Los mangos de Kampot son muy dulces.", "it": "I manghi di Kampot sono dolcissimi.", "ru": "Манго из Кампота очень сладкие.", "zh": "贡布的芒果很甜。", "zh_tr": "Gòngbù de mángguǒ hěn tián."}
     },
     {
-      "fr": "salé", "en": "salty", "km": "ប្រៃ", "tr": "prey", "pos": "adjectif",
+      "fr": "salé", "en": "salty", "km": "ប្រៃ", "tr": "prey",
+      "es": "salado", "it": "salato", "ru": "солёный", "zh": "咸", "zh_tr": "xián", "pos": "adjectif",
       "note": {
         "fr": "ប្រៃ se dit aussi de l'eau de mer : ទឹកប្រៃ, l'eau salée, par opposition à ទឹកសាប, l'eau douce.",
         "en": "ប្រៃ is also said of sea water: ទឹកប្រៃ, salt water, as opposed to ទឹកសាប, fresh water. French « salé » becomes « salée » in the feminine.",
         "km": "« salé » មកពី « sel »។ ភេទស្រី៖ salée។ អង់គ្លេស៖ « salty »។"
       },
-      "example": {"fr": "Cette soupe est trop salée.", "en": "This soup is too salty.", "km": "សម្លនេះប្រៃពេក។", "tr": "sâm-lâ nih prey pék."}
+      "example": {"fr": "Cette soupe est trop salée.", "en": "This soup is too salty.", "km": "សម្លនេះប្រៃពេក។", "tr": "sâm-lâ nih prey pék.",
+      "es": "Esta sopa está demasiado salada.", "it": "Questa zuppa è troppo salata.", "ru": "Этот суп слишком солёный.", "zh": "这个汤太咸了。", "zh_tr": "Zhège tāng tài xián le."}
     },
     {
-      "fr": "acide", "en": "sour", "km": "ជូរ", "tr": "tchou", "pos": "adjectif",
+      "fr": "acide", "en": "sour", "km": "ជូរ", "tr": "tchou",
+      "es": "ácido", "it": "aspro", "ru": "кислый", "zh": "酸", "zh_tr": "suān", "pos": "adjectif",
       "note": {
         "fr": "ជូរ donne son nom à la soupe aigre, សម្លម្ជូរ. On aime le goût acide du tamarin, អម្ពិល (âm-pel).",
         "en": "ជូរ gives its name to the sour soup, សម្លម្ជូរ. People love the sour taste of tamarind, អម្ពិល (âm-pel). French « acide » is the same for men and women.",
         "km": "« acide » ឬ « aigre » មានន័យថា ជូរ។ « acide » មិនប្តូរតាមភេទទេ។ អង់គ្លេស៖ « sour »។"
       },
-      "example": {"fr": "Le citron vert est acide.", "en": "Lime is sour.", "km": "ក្រូចឆ្មាជូរ។", "tr": "krôtch tchhma tchou."}
+      "example": {"fr": "Le citron vert est acide.", "en": "Lime is sour.", "km": "ក្រូចឆ្មាជូរ។", "tr": "krôtch tchhma tchou.",
+      "es": "La lima es ácida.", "it": "Il lime è aspro.", "ru": "Лайм кислый.", "zh": "青柠很酸。", "zh_tr": "Qīngníng hěn suān."}
     },
     {
-      "fr": "amer", "en": "bitter", "km": "ល្វីង", "tr": "lving", "pos": "adjectif",
+      "fr": "amer", "en": "bitter", "km": "ល្វីង", "tr": "lving",
+      "es": "amargo", "it": "amaro", "ru": "горький", "zh": "苦", "zh_tr": "kǔ", "pos": "adjectif",
       "note": {
         "fr": "Le melon amer, ម្រះ (mreah), est un légume courant, réputé bon pour la santé.",
         "en": "Bitter melon, ម្រះ (mreah), is a common vegetable, said to be good for your health. French « amer » becomes « amère » in the feminine.",
         "km": "« amer » សម្រាប់ភេទប្រុស និង « amère » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « bitter »។"
       },
-      "example": {"fr": "Le café sans sucre est amer.", "en": "Coffee without sugar is bitter.", "km": "កាហ្វេគ្មានស្ករល្វីង។", "tr": "ka-fé kmean skâ lving."}
+      "example": {"fr": "Le café sans sucre est amer.", "en": "Coffee without sugar is bitter.", "km": "កាហ្វេគ្មានស្ករល្វីង។", "tr": "ka-fé kmean skâ lving.",
+      "es": "El café sin azúcar es amargo.", "it": "Il caffè senza zucchero è amaro.", "ru": "Кофе без сахара горький.", "zh": "不加糖的咖啡很苦。", "zh_tr": "Bù jiā táng de kāfēi hěn kǔ."}
     },
     {
-      "fr": "gras", "en": "fatty", "km": "ខ្លាញ់", "tr": "khlagn", "pos": "adjectif",
+      "fr": "gras", "en": "fatty", "km": "ខ្លាញ់", "tr": "khlagn",
+      "es": "grasiento", "it": "grasso", "ru": "жирный", "zh": "油腻", "zh_tr": "yóunì", "pos": "adjectif",
       "note": {
         "fr": "ខ្លាញ់ veut dire « la graisse » et « gras ». Pour une personne grosse, on dit plutôt ធាត់ (thoat).",
         "en": "ខ្លាញ់ means both “fat” and “fatty”. For an overweight person, people say ធាត់ (thoat). French « gras » becomes « grasse » in the feminine.",
         "km": "« gras » សម្រាប់ភេទប្រុស និង « grasse » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « fatty » ឬ « greasy »។"
       },
-      "example": {"fr": "Je n'aime pas la viande trop grasse.", "en": "I don't like meat that is too fatty.", "km": "ខ្ញុំមិនចូលចិត្តសាច់ខ្លាញ់ពេកទេ។", "tr": "khgnom min tchôl tchet satch khlagn pék té."}
+      "example": {"fr": "Je n'aime pas la viande trop grasse.", "en": "I don't like meat that is too fatty.", "km": "ខ្ញុំមិនចូលចិត្តសាច់ខ្លាញ់ពេកទេ។", "tr": "khgnom min tchôl tchet satch khlagn pék té.",
+      "es": "No me gusta la carne demasiado grasienta.", "it": "Non mi piace la carne troppo grassa.", "ru": "Я не люблю слишком жирное мясо.", "zh": "我不喜欢太油腻的肉。", "zh_tr": "Wǒ bù xǐhuan tài yóunì de ròu."}
     },
     {
-      "fr": "fade", "en": "bland", "km": "សាប", "tr": "sap", "pos": "adjectif",
+      "fr": "fade", "en": "bland", "km": "សាប", "tr": "sap",
+      "es": "soso", "it": "insipido", "ru": "пресный", "zh": "淡", "zh_tr": "dàn", "pos": "adjectif",
       "note": {
         "fr": "សាប veut dire « sans goût », et aussi « doux » pour l'eau : ទន្លេសាប, le Tonlé Sap, « le fleuve d'eau douce ».",
         "en": "សាប means “tasteless”, and also “fresh” for water: ទន្លេសាប, the Tonle Sap, “the freshwater river”. French « fade » is the same for men and women.",
         "km": "« fade » មានន័យថា គ្មានរសជាតិ ឬសាប។ មិនប្តូរតាមភេទទេ។ អង់គ្លេស៖ « bland »។"
       },
-      "example": {"fr": "Sans sel, la soupe est fade.", "en": "Without salt, the soup is bland.", "km": "បើគ្មានអំបិល សម្លសាប។", "tr": "baeu kmean âm-bel, sâm-lâ sap."}
+      "example": {"fr": "Sans sel, la soupe est fade.", "en": "Without salt, the soup is bland.", "km": "បើគ្មានអំបិល សម្លសាប។", "tr": "baeu kmean âm-bel, sâm-lâ sap.",
+      "es": "Sin sal, la sopa está sosa.", "it": "Senza sale la zuppa è insipida.", "ru": "Без соли суп пресный.", "zh": "不放盐，汤就很淡。", "zh_tr": "Bú fàng yán, tāng jiù hěn dàn."}
     }
   ],
   "expressions": [
     {
       "fr": "Ça a quel goût ?", "en": "What does it taste like?", "km": "រសជាតិយ៉ាងម៉េច?", "tr": "ros-tchéat yang métch ?",
+      "es": "¿A qué sabe?", "it": "Che sapore ha?", "ru": "Какой у этого вкус?", "zh": "是什么味道？", "zh_tr": "Shì shénme wèidao?",
       "note": {
         "fr": "រសជាតិ (ros-tchéat), « la saveur ». Pour dire que c'est bon, on répond ឆ្ងាញ់.",
         "en": "រសជាតិ (ros-tchéat), “flavour”. To say it's good, answer ឆ្ងាញ់. French « goût » means “taste”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "C'est trop sucré pour moi.", "en": "It's too sweet for me.", "km": "ផ្អែមពេកសម្រាប់ខ្ញុំ។", "tr": "ph'aèm pék sâm-rap khgnom.",
+      "es": "Es demasiado dulce para mí.", "it": "È troppo dolce per me.", "ru": "Для меня это слишком сладко.", "zh": "对我来说太甜了。", "zh_tr": "Duì wǒ lái shuō tài tián le.",
       "note": {
         "fr": "ពេក (pék), « trop », se place après l'adjectif.",
         "en": "ពេក (pék), “too”, goes after the adjective. French « trop » goes before it: trop sucré.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Je n'ai plus faim, merci.", "en": "I'm full, thank you.", "km": "ខ្ញុំឆ្អែតហើយ អរគុណ។", "tr": "khgnom tchh'aèt haeuy, â-koun.",
+      "es": "Ya no tengo hambre, gracias.", "it": "Non ho più fame, grazie.", "ru": "Я больше не хочу есть, спасибо.", "zh": "我吃饱了，谢谢。", "zh_tr": "Wǒ chī bǎo le, xièxie.",
       "note": {
         "fr": "ឆ្អែត (tchh'aèt), « rassasié ». Façon polie de refuser une nouvelle assiette.",
         "en": "ឆ្អែត (tchh'aèt), “full”. A polite way to turn down another helping. French « Je n'ai plus faim » means “I'm no longer hungry”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Tu veux goûter ?", "en": "Do you want a taste?", "km": "ចង់ភ្លក់មើលទេ?", "tr": "tchâng phlok meul té ?",
+      "es": "¿Quieres probar?", "it": "Vuoi assaggiare?", "ru": "Хочешь попробовать?", "zh": "你想尝尝吗？", "zh_tr": "Nǐ xiǎng chángchang ma?",
       "note": {
         "fr": "មើល (meul), « regarder », après un verbe veut dire « essayer de » : ភ្លក់មើល, goûter pour voir.",
         "en": "មើល (meul), “to look”, after a verb means “try to”: ភ្លក់មើល, taste and see. French « goûter » means “to taste”.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "La soupe khmère", "en": "Khmer soup", "km": "សម្លខ្មែរ"},
       "fr": "La soupe khmère est souvent un peu acide, avec du tamarin.", "en": "Khmer soup is often a little sour, with tamarind.",
-      "km": "សម្លខ្មែរច្រើនតែជូរបន្តិច ដាក់អម្ពិល។", "tr": "sâm-lâ khmaè tchraeun taè tchou bân-tetch, dak âm-pel."
+      "km": "សម្លខ្មែរច្រើនតែជូរបន្តិច ដាក់អម្ពិល។", "tr": "sâm-lâ khmaè tchraeun taè tchou bân-tetch, dak âm-pel.",
+      "es": "La sopa jemer suele ser un poco ácida, con tamarindo.", "it": "La zuppa khmer è spesso un po' aspra, con il tamarindo.", "ru": "Кхмерский суп часто немного кислый, с тамариндом.", "zh": "柬埔寨汤常常有点儿酸，里面放罗望子。", "zh_tr": "Jiǎnpǔzhài tāng chángcháng yǒudiǎnr suān, lǐmiàn fàng luówàngzǐ."
     },
     {
       "situation": {"fr": "Au café", "en": "At the café", "km": "នៅហាងកាហ្វេ"},
       "fr": "Le café khmer est fort et très sucré.", "en": "Khmer coffee is strong and very sweet.",
-      "km": "កាហ្វេខ្មែរខ្លាំង ហើយផ្អែមណាស់។", "tr": "ka-fé khmaè khlang, haeuy ph'aèm nah."
+      "km": "កាហ្វេខ្មែរខ្លាំង ហើយផ្អែមណាស់។", "tr": "ka-fé khmaè khlang, haeuy ph'aèm nah.",
+      "es": "El café jemer es fuerte y muy dulce.", "it": "Il caffè khmer è forte e molto dolce.", "ru": "Кхмерский кофе крепкий и очень сладкий.", "zh": "柬埔寨咖啡很浓，也很甜。", "zh_tr": "Jiǎnpǔzhài kāfēi hěn nóng, yě hěn tián."
     },
     {
       "situation": {"fr": "À table, avec les enfants", "en": "At the table, with the children", "km": "នៅលើតុ ជាមួយក្មេងៗ"},
       "fr": "Les enfants n'aiment pas le melon amer.", "en": "Children don't like bitter melon.",
-      "km": "ក្មេងៗមិនចូលចិត្តម្រះទេ។", "tr": "kméng-kméng min tchôl tchet mreah té."
+      "km": "ក្មេងៗមិនចូលចិត្តម្រះទេ។", "tr": "kméng-kméng min tchôl tchet mreah té.",
+      "es": "A los niños no les gusta el melón amargo.", "it": "Ai bambini non piace il melone amaro.", "ru": "Дети не любят горькую дыню.", "zh": "孩子们不喜欢苦瓜。", "zh_tr": "Háizimen bù xǐhuan kǔguā."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{B} a rapporté du fromage de France.", "en": "{B} has brought back some cheese from France.", "km": "{B} យកឈីសមកពីប្រទេសបារាំង។"},
     "lines": [
-      {"speaker": "B", "fr": "Tu veux goûter ? C'est du fromage français.", "en": "Do you want a taste? It's French cheese.", "km": "ចង់ភ្លក់មើលទេ? នេះឈីសបារាំង។", "tr": "tchâng phlok meul té ? nih tchhis ba-rang."},
-      {"speaker": "A", "fr": "Ça a quel goût ?", "en": "What does it taste like?", "km": "រសជាតិយ៉ាងម៉េច?", "tr": "ros-tchéat yang métch ?"},
-      {"speaker": "B", "fr": "Un peu salé et un peu gras.", "en": "A bit salty and a bit fatty.", "km": "ប្រៃបន្តិច ហើយខ្លាញ់បន្តិច។", "tr": "prey bân-tetch, haeuy khlagn bân-tetch."},
-      {"speaker": "A", "fr": "Il sent très fort !", "en": "It smells very strong!", "km": "ក្លិនខ្លាំងណាស់!", "tr": "klen khlang nah !"},
-      {"speaker": "B", "fr": "Oui, mais il est bon. Et toi, quel goût tu préfères ?", "en": "Yes, but it's good. And you, which flavour do you prefer?", "km": "{B_yes} ប៉ុន្តែឆ្ងាញ់។ ចុះ {A} ចូលចិត្តរសជាតិអ្វីជាងគេ?", "tr": "{B_yes}, pon-taè tchhngagn. tchoh {A} tchôl tchet ros-tchéat ey tchéang ké ?"},
-      {"speaker": "A", "fr": "Moi, j'aime l'acide et l'épicé, comme la mangue verte avec du sel et du piment.", "en": "I like sour and spicy, like green mango with salt and chilli.", "km": "ខ្ញុំចូលចិត្តជូរ និងហឹរ ដូចស្វាយខ្ចីជ្រលក់អំបិលម្ទេស។", "tr": "khgnom tchôl tchet tchou neung heul, dôtch svay khtchey tchrâ-lok âm-bel mtés."},
-      {"speaker": "B", "fr": "Ah non, c'est trop acide pour moi !", "en": "Oh no, that's too sour for me!", "km": "អត់ទេ ជូរពេកសម្រាប់ខ្ញុំ!", "tr": "ât té, tchou pék sâm-rap khgnom !"}
+      {"speaker": "B", "fr": "Tu veux goûter ? C'est du fromage français.", "en": "Do you want a taste? It's French cheese.", "km": "ចង់ភ្លក់មើលទេ? នេះឈីសបារាំង។", "tr": "tchâng phlok meul té ? nih tchhis ba-rang.",
+        "es": "¿Quieres probar? Es queso francés.", "it": "Vuoi assaggiare? È formaggio francese.", "ru": "Хочешь попробовать? Это французский сыр.", "zh": "你想尝尝吗？这是法国奶酪。", "zh_tr": "Nǐ xiǎng chángchang ma? Zhè shì Fǎguó nǎilào."},
+      {"speaker": "A", "fr": "Ça a quel goût ?", "en": "What does it taste like?", "km": "រសជាតិយ៉ាងម៉េច?", "tr": "ros-tchéat yang métch ?",
+        "es": "¿A qué sabe?", "it": "Che sapore ha?", "ru": "Какой у него вкус?", "zh": "是什么味道？", "zh_tr": "Shì shénme wèidao?"},
+      {"speaker": "B", "fr": "Un peu salé et un peu gras.", "en": "A bit salty and a bit fatty.", "km": "ប្រៃបន្តិច ហើយខ្លាញ់បន្តិច។", "tr": "prey bân-tetch, haeuy khlagn bân-tetch.",
+        "es": "Un poco salado y un poco graso.", "it": "Un po' salato e un po' grasso.", "ru": "Немного солёный и немного жирный.", "zh": "有点儿咸，有点儿油。", "zh_tr": "Yǒudiǎnr xián, yǒudiǎnr yóu."},
+      {"speaker": "A", "fr": "Il sent très fort !", "en": "It smells very strong!", "km": "ក្លិនខ្លាំងណាស់!", "tr": "klen khlang nah !",
+        "es": "¡Huele muy fuerte!", "it": "Ha un odore fortissimo!", "ru": "Он очень сильно пахнет!", "zh": "味道好大！", "zh_tr": "Wèidao hǎo dà!"},
+      {"speaker": "B", "fr": "Oui, mais il est bon. Et toi, quel goût tu préfères ?", "en": "Yes, but it's good. And you, which flavour do you prefer?", "km": "{B_yes} ប៉ុន្តែឆ្ងាញ់។ ចុះ {A} ចូលចិត្តរសជាតិអ្វីជាងគេ?", "tr": "{B_yes}, pon-taè tchhngagn. tchoh {A} tchôl tchet ros-tchéat ey tchéang ké ?",
+        "es": "Sí, pero está bueno. Y tú, ¿qué sabor prefieres?", "it": "Sì, ma è buono. E tu, che sapore preferisci?", "ru": "Да, но он вкусный. А ты какой вкус любишь больше?", "zh": "是，不过很好吃。你呢，你喜欢什么味道？", "zh_tr": "Shì, búguò hěn hǎochī. Nǐ ne, nǐ xǐhuan shénme wèidao?"},
+      {"speaker": "A", "fr": "Moi, j'aime l'acide et l'épicé, comme la mangue verte avec du sel et du piment.", "en": "I like sour and spicy, like green mango with salt and chilli.", "km": "ខ្ញុំចូលចិត្តជូរ និងហឹរ ដូចស្វាយខ្ចីជ្រលក់អំបិលម្ទេស។", "tr": "khgnom tchôl tchet tchou neung heul, dôtch svay khtchey tchrâ-lok âm-bel mtés.",
+        "es": "A mí me gusta lo ácido y lo picante, como el mango verde con sal y guindilla.", "it": "A me piace l'aspro e il piccante, come il mango verde con sale e peperoncino.", "ru": "Я люблю кислое и острое, например зелёное манго с солью и перцем.", "zh": "我喜欢酸的和辣的，比如青芒果蘸盐和辣椒。", "zh_tr": "Wǒ xǐhuan suān de hé là de, bǐrú qīng mángguǒ zhàn yán hé làjiāo."},
+      {"speaker": "B", "fr": "Ah non, c'est trop acide pour moi !", "en": "Oh no, that's too sour for me!", "km": "អត់ទេ ជូរពេកសម្រាប់ខ្ញុំ!", "tr": "ât té, tchou pék sâm-rap khgnom !",
+        "es": "¡Ah, no, eso es demasiado ácido para mí!", "it": "Ah no, per me è troppo aspro!", "ru": "Ну нет, для меня это слишком кисло!", "zh": "啊，不行，对我来说太酸了！", "zh_tr": "À, bù xíng, duì wǒ lái shuō tài suān le!"}
     ]
   },
   "comprehension": {

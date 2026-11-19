@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le travail", "en": "work", "km": "ការងារ", "tr": "ka-ngéa", "pos": "nom",
+      "fr": "le travail", "en": "work", "km": "ការងារ", "tr": "ka-ngéa",
+      "es": "el trabajo", "it": "il lavoro", "ru": "работа", "zh": "工作", "zh_tr": "gōngzuò", "pos": "nom",
       "note": {
         "fr": "ការងារ est le nom ; le verbe « travailler » se dit ធ្វើការ (thveu-ka). Le lieu de travail : កន្លែងធ្វើការ (kân-laèng thveu-ka).",
         "en": "ការងារ is the noun; the verb “to work” is ធ្វើការ (thveu-ka). The workplace: កន្លែងធ្វើការ (kân-laèng thveu-ka). French « travail » is masculine; plural « travaux ».",
         "km": "« travail » ជានាមភេទប្រុស៖ le travail។ អង់គ្លេសប្រើ « work » សម្រាប់ការងារទូទៅ និង « job » សម្រាប់មុខរបរ។"
       },
-      "example": {"fr": "J'aime mon travail.", "en": "I like my job.", "km": "ខ្ញុំចូលចិត្តការងាររបស់ខ្ញុំ។", "tr": "khgnom tchôl tchet ka-ngéa ro-bâh khgnom."}
+      "example": {"fr": "J'aime mon travail.", "en": "I like my job.", "km": "ខ្ញុំចូលចិត្តការងាររបស់ខ្ញុំ។", "tr": "khgnom tchôl tchet ka-ngéa ro-bâh khgnom.",
+      "es": "Me gusta mi trabajo.", "it": "Mi piace il mio lavoro.", "ru": "Мне нравится моя работа.", "zh": "我喜欢我的工作。", "zh_tr": "Wǒ xǐhuan wǒ de gōngzuò."}
     },
     {
-      "fr": "l'école", "en": "school", "km": "សាលារៀន", "tr": "sa-la rien", "pos": "nom",
+      "fr": "l'école", "en": "school", "km": "សាលារៀន", "tr": "sa-la rien",
+      "es": "la escuela", "it": "la scuola", "ru": "школа", "zh": "学校", "zh_tr": "xuéxiào", "pos": "nom",
       "note": {
         "fr": "Mot à mot « salle où l'on apprend ». On dit aussi simplement សាលា (sa-la).",
         "en": "Word for word “hall where you learn”. People also just say សាលា (sa-la). French « école » is feminine: l'école.",
         "km": "« école » ជានាមភេទស្រី៖ l'école, une école។ « aller à l'école » = ទៅសាលារៀន។ អង់គ្លេស៖ « school »។"
       },
-      "example": {"fr": "Les enfants vont à l'école à sept heures.", "en": "The children go to school at seven o'clock.", "km": "កូនៗទៅសាលារៀនម៉ោងប្រាំពីរ។", "tr": "kôn-kôn teuv sa-la rien maong pram-pi."}
+      "example": {"fr": "Les enfants vont à l'école à sept heures.", "en": "The children go to school at seven o'clock.", "km": "កូនៗទៅសាលារៀនម៉ោងប្រាំពីរ។", "tr": "kôn-kôn teuv sa-la rien maong pram-pi.",
+      "es": "Los niños van a la escuela a las siete.", "it": "I bambini vanno a scuola alle sette.", "ru": "Дети идут в школу в семь часов.", "zh": "孩子们七点去学校。", "zh_tr": "Háizimen qī diǎn qù xuéxiào."}
     },
     {
-      "fr": "apprendre", "en": "to learn", "km": "រៀន", "tr": "rien", "pos": "verbe",
+      "fr": "apprendre", "en": "to learn", "km": "រៀន", "tr": "rien",
+      "es": "aprender", "it": "imparare", "ru": "учить", "zh": "学", "zh_tr": "xué", "pos": "verbe",
       "note": {
         "fr": "រៀន, c'est apprendre ou étudier. Enseigner se dit បង្រៀន (bâng-rien), mot à mot « faire apprendre ».",
         "en": "រៀន is to learn or to study. To teach is បង្រៀន (bâng-rien), word for word “make learn”. French « apprendre » means both “to learn” and “to teach”.",
         "km": "« apprendre »៖ j'apprends, nous apprenons។ អក្សរ ds ចុងពាក្យ « apprends » មិនអានទេ។ អង់គ្លេស៖ « to learn »។"
       },
-      "example": {"fr": "J'apprends le khmer tous les jours.", "en": "I learn Khmer every day.", "km": "ខ្ញុំរៀនភាសាខ្មែររាល់ថ្ងៃ។", "tr": "khgnom rien phéa-sa khmaè roal thngay."}
+      "example": {"fr": "J'apprends le khmer tous les jours.", "en": "I learn Khmer every day.", "km": "ខ្ញុំរៀនភាសាខ្មែររាល់ថ្ងៃ។", "tr": "khgnom rien phéa-sa khmaè roal thngay.",
+      "es": "Aprendo jemer todos los días.", "it": "Imparo il khmer tutti i giorni.", "ru": "Я учу кхмерский каждый день.", "zh": "我每天学高棉语。", "zh_tr": "Wǒ měitiān xué Gāomiányǔ."}
     },
     {
-      "fr": "l'enseignant", "en": "teacher", "km": "គ្រូបង្រៀន", "tr": "krou bâng-rien", "pos": "nom",
+      "fr": "l'enseignant", "en": "teacher", "km": "គ្រូបង្រៀន", "tr": "krou bâng-rien",
+      "es": "el profesor", "it": "l'insegnante", "ru": "учитель", "zh": "老师", "zh_tr": "lǎoshī", "pos": "nom",
       "note": {
         "fr": "គ្រូ (krou) seul désigne déjà un maître ou un professeur ; le même mot se retrouve dans គ្រូពេទ្យ, le médecin.",
         "en": "គ្រូ (krou) alone already means a teacher or master; the same word appears in គ្រូពេទ្យ, doctor. French: « un enseignant », « une enseignante ».",
         "km": "បុរសហៅថា « un enseignant » ស្ត្រីហៅថា « une enseignante »។ គេក៏និយាយថា « le professeur » ដែរ។ អង់គ្លេស៖ « teacher »។"
       },
-      "example": {"fr": "L'enseignant parle lentement.", "en": "The teacher speaks slowly.", "km": "គ្រូបង្រៀននិយាយយឺតៗ។", "tr": "krou bâng-rien ni-yéay yeut-yeut."}
+      "example": {"fr": "L'enseignant parle lentement.", "en": "The teacher speaks slowly.", "km": "គ្រូបង្រៀននិយាយយឺតៗ។", "tr": "krou bâng-rien ni-yéay yeut-yeut.",
+      "es": "El profesor habla despacio.", "it": "L'insegnante parla lentamente.", "ru": "Учитель говорит медленно.", "zh": "老师说得很慢。", "zh_tr": "Lǎoshī shuō de hěn màn."}
     },
     {
-      "fr": "la langue", "en": "language", "km": "ភាសា", "tr": "phéa-sa", "pos": "nom",
+      "fr": "la langue", "en": "language", "km": "ភាសា", "tr": "phéa-sa",
+      "es": "el idioma", "it": "la lingua", "ru": "язык", "zh": "语言", "zh_tr": "yǔyán", "pos": "nom",
       "note": {
         "fr": "Le nom de la langue suit le mot ភាសា : ភាសាខ្មែរ, le khmer ; ភាសាបារាំង, le français ; ភាសាអង់គ្លេស, l'anglais.",
         "en": "The language name follows ភាសា: ភាសាខ្មែរ, Khmer; ភាសាបារាំង, French; ភាសាអង់គ្លេស, English. French « langue » also means “tongue”.",
         "km": "« langue » ជានាមភេទស្រី៖ la langue។ ឈ្មោះភាសាមិនសរសេរអក្សរធំទេ៖ le français, le khmer។ អង់គ្លេសសរសេរអក្សរធំ៖ « French », « Khmer »។"
       },
-      "example": {"fr": "Nous apprenons trois langues.", "en": "We are learning three languages.", "km": "យើងរៀនភាសាបី។", "tr": "yeung rien phéa-sa bey."}
+      "example": {"fr": "Nous apprenons trois langues.", "en": "We are learning three languages.", "km": "យើងរៀនភាសាបី។", "tr": "yeung rien phéa-sa bey.",
+      "es": "Aprendemos tres idiomas.", "it": "Impariamo tre lingue.", "ru": "Мы учим три языка.", "zh": "我们学三种语言。", "zh_tr": "Wǒmen xué sān zhǒng yǔyán."}
     },
     {
-      "fr": "difficile", "en": "difficult", "km": "ពិបាក", "tr": "pi-bak", "pos": "adjectif",
+      "fr": "difficile", "en": "difficult", "km": "ពិបាក", "tr": "pi-bak",
+      "es": "difícil", "it": "difficile", "ru": "трудный", "zh": "难", "zh_tr": "nán", "pos": "adjectif",
       "note": {
         "fr": "Le contraire est ស្រួល (srouol), « facile, agréable », ou ងាយ (ngéay). ពិបាក se place devant le verbe : ពិបាកសរសេរ, « difficile à écrire ».",
         "en": "The opposite is ស្រួល (srouol), “easy, pleasant”, or ងាយ (ngéay). ពិបាក goes before the verb: ពិបាកសរសេរ, “hard to write”. French « difficile » is the same in the masculine and feminine.",
         "km": "« difficile » សរសេរដូចគ្នាទាំងភេទប្រុស និងភេទស្រី។ ពាក្យផ្ទុយគឺ « facile » (ស្រួល)។ អង់គ្លេស៖ « difficult », « easy »។"
       },
-      "example": {"fr": "Le khmer est difficile à écrire.", "en": "Khmer is difficult to write.", "km": "ភាសាខ្មែរពិបាកសរសេរ។", "tr": "phéa-sa khmaè pi-bak sâ-sé."}
+      "example": {"fr": "Le khmer est difficile à écrire.", "en": "Khmer is difficult to write.", "km": "ភាសាខ្មែរពិបាកសរសេរ។", "tr": "phéa-sa khmaè pi-bak sâ-sé.",
+      "es": "El jemer es difícil de escribir.", "it": "Il khmer è difficile da scrivere.", "ru": "По-кхмерски трудно писать.", "zh": "高棉文很难写。", "zh_tr": "Gāomiánwén hěn nán xiě."}
     }
   ],
   "expressions": [
     {
       "fr": "Tu peux répéter, s'il te plaît ?", "en": "Can you repeat, please?", "km": "សូមនិយាយម្តងទៀតបានទេ?", "tr": "sôm ni-yéay mdâng tiet ban té ?",
+      "es": "¿Puedes repetir, por favor?", "it": "Puoi ripetere, per favore?", "ru": "Можешь повторить, пожалуйста?", "zh": "你能再说一遍吗？", "zh_tr": "Nǐ néng zài shuō yí biàn ma?",
       "note": {
         "fr": "Mot à mot « s'il vous plaît, dire une fois encore, possible ? ». ម្តងទៀត (mdâng tiet) : encore une fois.",
         "en": "Word for word “please, say once more, possible?”. ម្តងទៀត (mdâng tiet): once more. French « répéter »: tu peux répéter ?",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Parlez lentement, s'il vous plaît.", "en": "Please speak slowly.", "km": "សូមនិយាយយឺតៗ។", "tr": "sôm ni-yéay yeut-yeut.",
+      "es": "Hable despacio, por favor.", "it": "Parli lentamente, per favore.", "ru": "Говорите медленнее, пожалуйста.", "zh": "请说慢一点儿。", "zh_tr": "Qǐng shuō màn yìdiǎnr.",
       "note": {
         "fr": "Le signe ៗ indique que le mot se répète : យឺតៗ se lit « yeut-yeut », tout doucement.",
         "en": "The sign ៗ means the word is repeated: យឺតៗ reads “yeut-yeut”, nice and slowly. French « lentement » means “slowly”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Qu'est-ce que ça veut dire ?", "en": "What does it mean?", "km": "មានន័យថាម៉េច?", "tr": "méan ney tha métch ?",
+      "es": "¿Qué significa?", "it": "Che cosa vuol dire?", "ru": "Что это значит?", "zh": "这是什么意思？", "zh_tr": "Zhè shì shénme yìsi?",
       "note": {
         "fr": "Mot à mot « ça a le sens de quoi ? ». ន័យ (ney) : le sens, la signification.",
         "en": "Word for word “it has the meaning of what?”. ន័យ (ney): meaning. French « vouloir dire » literally means “to want to say”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Je parle un peu khmer.", "en": "I speak a little Khmer.", "km": "ខ្ញុំចេះភាសាខ្មែរបន្តិចបន្តួច។", "tr": "khgnom tchéh phéa-sa khmaè bân-tetch bân-touotch.",
+      "es": "Hablo un poco de jemer.", "it": "Parlo un po' di khmer.", "ru": "Я немного говорю по-кхмерски.", "zh": "我会说一点儿高棉语。", "zh_tr": "Wǒ huì shuō yìdiǎnr Gāomiányǔ.",
       "note": {
         "fr": "ចេះ (tchéh), « savoir », s'emploie pour une langue ou un savoir-faire. បន្តិចបន្តួច : un tout petit peu.",
         "en": "ចេះ (tchéh), “to know how”, is used for a language or a skill. បន្តិចបន្តួច: just a little. French « parler un peu » means “to speak a little”.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
       "fr": "Je commence le travail à huit heures.", "en": "I start work at eight o'clock.",
-      "km": "ខ្ញុំចាប់ផ្តើមធ្វើការម៉ោងប្រាំបី។", "tr": "khgnom tchap-phdaeum thveu-ka maong pram-bey."
+      "km": "ខ្ញុំចាប់ផ្តើមធ្វើការម៉ោងប្រាំបី។", "tr": "khgnom tchap-phdaeum thveu-ka maong pram-bey.",
+      "es": "Empiezo a trabajar a las ocho.", "it": "Comincio a lavorare alle otto.", "ru": "Я начинаю работать в восемь часов.", "zh": "我八点开始工作。", "zh_tr": "Wǒ bā diǎn kāishǐ gōngzuò."
     },
     {
       "situation": {"fr": "En classe", "en": "In class", "km": "នៅក្នុងថ្នាក់រៀន"},
       "fr": "L'enseignant écrit un mot et nous le lisons.", "en": "The teacher writes a word and we read it.",
-      "km": "គ្រូបង្រៀនសរសេរពាក្យមួយ ហើយយើងអាន។", "tr": "krou bâng-rien sâ-sé péak mouy, haeuy yeung an."
+      "km": "គ្រូបង្រៀនសរសេរពាក្យមួយ ហើយយើងអាន។", "tr": "krou bâng-rien sâ-sé péak mouy, haeuy yeung an.",
+      "es": "El profesor escribe una palabra y nosotros la leemos.", "it": "L'insegnante scrive una parola e noi la leggiamo.", "ru": "Учитель пишет слово, а мы его читаем.", "zh": "老师写一个词，我们来读。", "zh_tr": "Lǎoshī xiě yí ge cí, wǒmen lái dú."
     },
     {
       "situation": {"fr": "En parlant des langues", "en": "Talking about languages", "km": "និយាយអំពីភាសា"},
       "fr": "Le français est difficile, mais j'aime apprendre.", "en": "French is difficult, but I like learning.",
-      "km": "ភាសាបារាំងពិបាក ប៉ុន្តែខ្ញុំចូលចិត្តរៀន។", "tr": "phéa-sa ba-rang pi-bak, pon-taè khgnom tchôl tchet rien."
+      "km": "ភាសាបារាំងពិបាក ប៉ុន្តែខ្ញុំចូលចិត្តរៀន។", "tr": "phéa-sa ba-rang pi-bak, pon-taè khgnom tchôl tchet rien.",
+      "es": "El francés es difícil, pero me gusta aprender.", "it": "Il francese è difficile, ma mi piace imparare.", "ru": "Французский трудный, но я люблю учиться.", "zh": "法语很难，但是我喜欢学习。", "zh_tr": "Fǎyǔ hěn nán, dànshì wǒ xǐhuan xuéxí."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} et {B} étudient tous les deux à la maison.", "en": "{A} and {B} are both studying at home.", "km": "{A} និង {B} រៀនទាំងពីរនាក់នៅផ្ទះ។"},
     "lines": [
-      {"speaker": "B", "fr": "{A}, tu peux m'apprendre un mot khmer ?", "en": "{A}, can you teach me a Khmer word?", "km": "{A} បង្រៀនខ្ញុំពាក្យខ្មែរមួយបានទេ?", "tr": "{A}, bâng-rien khgnom péak khmaè mouy ban té ?"},
-      {"speaker": "A", "fr": "Bien sûr ! Quel mot veux-tu apprendre ?", "en": "Of course! Which word do you want to learn?", "km": "បានតើ! ចង់រៀនពាក្យអ្វី?", "tr": "ban taeu ! tchâng rien péak ey ?"},
-      {"speaker": "B", "fr": "Je veux apprendre les mots de l'école.", "en": "I want to learn school words.", "km": "ខ្ញុំចង់រៀនពាក្យអំពីសាលារៀន។", "tr": "khgnom tchâng rien péak âm-pi sa-la rien."},
-      {"speaker": "A", "fr": "D'accord. Et toi, tu m'apprends le français ?", "en": "Okay. And you, will you teach me French?", "km": "បាន។ ចុះ {B} បង្រៀនភាសាបារាំងខ្ញុំវិញបានទេ?", "tr": "ban. tchoh {B} bâng-rien phéa-sa ba-rang khgnom vign ban té ?"},
-      {"speaker": "B", "fr": "Oui ! Le français est difficile, mais tu apprends vite.", "en": "Yes! French is difficult, but you learn fast.", "km": "{B_yes} ភាសាបារាំងពិបាក ប៉ុន្តែ {A} រៀនឆាប់ចេះណាស់។", "tr": "{B_yes}, phéa-sa ba-rang pi-bak, pon-taè {A} rien tchhap tchéh nah."},
-      {"speaker": "A", "fr": "Merci. Toi aussi, tu apprends vite !", "en": "Thank you. You learn fast too!", "km": "អរគុណ។ {B} ក៏រៀនឆាប់ចេះដែរ!", "tr": "â-koun. {B} kâ rien tchhap tchéh daè !"}
+      {"speaker": "B", "fr": "{A}, tu peux m'apprendre un mot khmer ?", "en": "{A}, can you teach me a Khmer word?", "km": "{A} បង្រៀនខ្ញុំពាក្យខ្មែរមួយបានទេ?", "tr": "{A}, bâng-rien khgnom péak khmaè mouy ban té ?",
+        "es": "{A}, ¿me enseñas una palabra en jemer?", "it": "{A}, mi insegni una parola in khmer?", "ru": "{A}, научишь меня кхмерскому слову?", "zh": "{A}，你能教我一个高棉语的词吗？", "zh_tr": "{A}, nǐ néng jiāo wǒ yí ge Gāomiányǔ de cí ma?"},
+      {"speaker": "A", "fr": "Bien sûr ! Quel mot veux-tu apprendre ?", "en": "Of course! Which word do you want to learn?", "km": "បានតើ! ចង់រៀនពាក្យអ្វី?", "tr": "ban taeu ! tchâng rien péak ey ?",
+        "es": "¡Claro! ¿Qué palabra quieres aprender?", "it": "Certo! Quale parola vuoi imparare?", "ru": "Конечно! Какое слово ты хочешь выучить?", "zh": "当然！你想学什么词？", "zh_tr": "Dāngrán! Nǐ xiǎng xué shénme cí?"},
+      {"speaker": "B", "fr": "Je veux apprendre les mots de l'école.", "en": "I want to learn school words.", "km": "ខ្ញុំចង់រៀនពាក្យអំពីសាលារៀន។", "tr": "khgnom tchâng rien péak âm-pi sa-la rien.",
+        "es": "Quiero aprender las palabras de la escuela.", "it": "Voglio imparare le parole della scuola.", "ru": "Я хочу выучить слова про школу.", "zh": "我想学学校里用的词。", "zh_tr": "Wǒ xiǎng xué xuéxiào li yòng de cí."},
+      {"speaker": "A", "fr": "D'accord. Et toi, tu m'apprends le français ?", "en": "Okay. And you, will you teach me French?", "km": "បាន។ ចុះ {B} បង្រៀនភាសាបារាំងខ្ញុំវិញបានទេ?", "tr": "ban. tchoh {B} bâng-rien phéa-sa ba-rang khgnom vign ban té ?",
+        "es": "Vale. Y tú, ¿me enseñas francés?", "it": "D'accordo. E tu, mi insegni il francese?", "ru": "Хорошо. А ты научишь меня французскому?", "zh": "好的。那你教我法语吗？", "zh_tr": "Hǎo de. Nà nǐ jiāo wǒ Fǎyǔ ma?"},
+      {"speaker": "B", "fr": "Oui ! Le français est difficile, mais tu apprends vite.", "en": "Yes! French is difficult, but you learn fast.", "km": "{B_yes} ភាសាបារាំងពិបាក ប៉ុន្តែ {A} រៀនឆាប់ចេះណាស់។", "tr": "{B_yes}, phéa-sa ba-rang pi-bak, pon-taè {A} rien tchhap tchéh nah.",
+        "es": "¡Sí! El francés es difícil, pero aprendes rápido.", "it": "Sì! Il francese è difficile, ma tu impari in fretta.", "ru": "Да! Французский трудный, но ты быстро учишься.", "zh": "好！法语很难，不过你学得很快。", "zh_tr": "Hǎo! Fǎyǔ hěn nán, búguò nǐ xué de hěn kuài."},
+      {"speaker": "A", "fr": "Merci. Toi aussi, tu apprends vite !", "en": "Thank you. You learn fast too!", "km": "អរគុណ។ {B} ក៏រៀនឆាប់ចេះដែរ!", "tr": "â-koun. {B} kâ rien tchhap tchéh daè !",
+        "es": "Gracias. ¡Tú también aprendes rápido!", "it": "Grazie. Anche tu impari in fretta!", "ru": "Спасибо. Ты тоже быстро учишься!", "zh": "谢谢。你也学得很快！", "zh_tr": "Xièxie. Nǐ yě xué de hěn kuài!"}
     ]
   },
   "comprehension": {

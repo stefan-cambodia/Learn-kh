@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "l'animal", "en": "animal", "km": "សត្វ", "tr": "sat", "pos": "nom",
+      "fr": "l'animal", "en": "animal", "km": "សត្វ", "tr": "sat",
+      "es": "el animal", "it": "l'animale", "ru": "животное", "zh": "动物", "zh_tr": "dòngwù", "pos": "nom",
       "note": {
         "fr": "សត្វ se place souvent devant le nom de l'animal : សត្វឆ្កែ, « l'animal chien ». Un animal de compagnie se dit សត្វចិញ្ចឹម (sat tchegn-tcheum), « animal qu'on élève ».",
         "en": "សត្វ often goes before the animal's name: សត្វឆ្កែ, “the animal dog”. A pet is សត្វចិញ្ចឹម (sat tchegn-tcheum), “animal you raise”. French plural: un animal, des animaux.",
         "km": "« animal » ជានាមភេទប្រុស៖ l'animal, ពហុវចនៈ les animaux (al ក្លាយជា aux)។ អង់គ្លេស៖ « animal », « animals »។"
       },
-      "example": {"fr": "Tu aimes les animaux ?", "en": "Do you like animals?", "km": "អ្នកចូលចិត្តសត្វទេ?", "tr": "néak tchôl tchet sat té ?"}
+      "example": {"fr": "Tu aimes les animaux ?", "en": "Do you like animals?", "km": "អ្នកចូលចិត្តសត្វទេ?", "tr": "néak tchôl tchet sat té ?",
+      "es": "¿Te gustan los animales?", "it": "Ti piacciono gli animali?", "ru": "Ты любишь животных?", "zh": "你喜欢动物吗？", "zh_tr": "Nǐ xǐhuan dòngwù ma?"}
     },
     {
-      "fr": "le chien", "en": "dog", "km": "ឆ្កែ", "tr": "tchhkaè", "pos": "nom",
+      "fr": "le chien", "en": "dog", "km": "ឆ្កែ", "tr": "tchhkaè",
+      "es": "el perro", "it": "il cane", "ru": "собака", "zh": "狗", "zh_tr": "gǒu", "pos": "nom",
       "note": {
         "fr": "Un chiot se dit កូនឆ្កែ (kôn tchhkaè), « enfant de chien ». Même modèle pour tous les petits : កូនឆ្មា, le chaton.",
         "en": "A puppy is កូនឆ្កែ (kôn tchhkaè), “child of dog”. The same pattern for all young animals: កូនឆ្មា, kitten. French « chien » has a nasal ending.",
         "km": "« chien » ជានាមភេទប្រុស៖ le chien។ កូនឆ្កែគឺ « le chiot »។ អង់គ្លេស៖ « dog », កូនឆ្កែគឺ « puppy »។"
       },
-      "example": {"fr": "Le chien garde la maison.", "en": "The dog guards the house.", "km": "ឆ្កែយាមផ្ទះ។", "tr": "tchhkaè yéam phtéah."}
+      "example": {"fr": "Le chien garde la maison.", "en": "The dog guards the house.", "km": "ឆ្កែយាមផ្ទះ។", "tr": "tchhkaè yéam phtéah.",
+      "es": "El perro vigila la casa.", "it": "Il cane fa la guardia alla casa.", "ru": "Собака охраняет дом.", "zh": "狗看家。", "zh_tr": "Gǒu kān jiā."}
     },
     {
-      "fr": "le chat", "en": "cat", "km": "ឆ្មា", "tr": "tchhma", "pos": "nom",
+      "fr": "le chat", "en": "cat", "km": "ឆ្មា", "tr": "tchhma",
+      "es": "el gato", "it": "il gatto", "ru": "кошка", "zh": "猫", "zh_tr": "māo", "pos": "nom",
       "note": {
         "fr": "ឆ្មា (tchhma) ressemble à ឆ្កែ (tchhkaè) : les deux commencent par le même son aspiré « tchh ».",
         "en": "ឆ្មា (tchhma) looks like ឆ្កែ (tchhkaè): both start with the same breathy “tchh” sound. French « chat » sounds like “sha”: the t is silent.",
         "km": "« chat » ជានាមភេទប្រុស ហើយ t នៅចុងមិនអានទេ៖ le chat។ កូនឆ្មាគឺ « le chaton »។ អង់គ្លេស៖ « cat », កូនឆ្មាគឺ « kitten »។"
       },
-      "example": {"fr": "Le chat dort sur le lit.", "en": "The cat is sleeping on the bed.", "km": "ឆ្មាគេងលើគ្រែ។", "tr": "tchhma kéng leu krè."}
+      "example": {"fr": "Le chat dort sur le lit.", "en": "The cat is sleeping on the bed.", "km": "ឆ្មាគេងលើគ្រែ។", "tr": "tchhma kéng leu krè.",
+      "es": "El gato duerme en la cama.", "it": "Il gatto dorme sul letto.", "ru": "Кошка спит на кровати.", "zh": "猫在床上睡觉。", "zh_tr": "Māo zài chuáng shang shuìjiào."}
     },
     {
-      "fr": "le poisson", "en": "fish", "km": "ត្រី", "tr": "trey", "pos": "nom",
+      "fr": "le poisson", "en": "fish", "km": "ត្រី", "tr": "trey",
+      "es": "el pescado", "it": "il pesce", "ru": "рыба", "zh": "鱼", "zh_tr": "yú", "pos": "nom",
       "note": {
         "fr": "ត្រី est partout dans la cuisine khmère : ទឹកត្រី, la sauce de poisson, ou ប្រហុក (prâ-hok), la pâte de poisson fermenté.",
         "en": "ត្រី is everywhere in Khmer cooking: ទឹកត្រី, fish sauce, or ប្រហុក (prâ-hok), fermented fish paste. French « poisson », with ss, has an “s” sound; « poison », with one s, has a “z” sound and means poison: careful!",
         "km": "« poisson » ជានាមភេទប្រុស៖ le poisson។ ប្រយ័ត្ន៖ « poison » (s មួយ) មានន័យថា ថ្នាំពុល។ អង់គ្លេស៖ « fish » មិនប្តូរនៅពហុវចនៈទេ។"
       },
-      "example": {"fr": "Au Cambodge, on mange beaucoup de poisson.", "en": "In Cambodia, people eat a lot of fish.", "km": "នៅកម្ពុជា គេញ៉ាំត្រីច្រើន។", "tr": "neuv kâm-pou-tchéa, ké gnam trey tchraeun."}
+      "example": {"fr": "Au Cambodge, on mange beaucoup de poisson.", "en": "In Cambodia, people eat a lot of fish.", "km": "នៅកម្ពុជា គេញ៉ាំត្រីច្រើន។", "tr": "neuv kâm-pou-tchéa, ké gnam trey tchraeun.",
+      "es": "En Camboya se come mucho pescado.", "it": "In Cambogia si mangia molto pesce.", "ru": "В Камбодже едят много рыбы.", "zh": "在柬埔寨，人们吃很多鱼。", "zh_tr": "Zài Jiǎnpǔzhài, rénmen chī hěn duō yú."}
     },
     {
-      "fr": "l'oiseau", "en": "bird", "km": "សត្វស្លាប", "tr": "sat slap", "pos": "nom",
+      "fr": "l'oiseau", "en": "bird", "km": "សត្វស្លាប", "tr": "sat slap",
+      "es": "el pájaro", "it": "l'uccello", "ru": "птица", "zh": "鸟", "zh_tr": "niǎo", "pos": "nom",
       "note": {
         "fr": "Mot à mot « animal à ailes », ស្លាប (slap) signifiant « l'aile ». Le mot soutenu est បក្សី (bâk-sey).",
         "en": "Word for word “winged animal”, ស្លាប (slap) meaning “wing”. The formal word is បក្សី (bâk-sey). French « oiseau » contains all five vowels.",
         "km": "« oiseau » ជានាមភេទប្រុស៖ l'oiseau, ពហុវចនៈ les oiseaux។ អង់គ្លេស៖ « bird »។"
       },
-      "example": {"fr": "Le matin, les oiseaux chantent.", "en": "In the morning, the birds sing.", "km": "ពេលព្រឹក សត្វស្លាបយំ។", "tr": "pél preuk, sat slap youm."}
+      "example": {"fr": "Le matin, les oiseaux chantent.", "en": "In the morning, the birds sing.", "km": "ពេលព្រឹក សត្វស្លាបយំ។", "tr": "pél preuk, sat slap youm.",
+      "es": "Por la mañana cantan los pájaros.", "it": "La mattina gli uccelli cantano.", "ru": "Утром поют птицы.", "zh": "早上鸟儿在唱歌。", "zh_tr": "Zǎoshang niǎor zài chàng gē."}
     },
     {
-      "fr": "la vache", "en": "cow", "km": "គោ", "tr": "kô", "pos": "nom",
+      "fr": "la vache", "en": "cow", "km": "គោ", "tr": "kô",
+      "es": "la vaca", "it": "la mucca", "ru": "корова", "zh": "牛", "zh_tr": "niú", "pos": "nom",
       "note": {
         "fr": "គោ désigne la vache comme le bœuf. Le buffle, autre animal des rizières, se dit ក្របី (krâ-bey).",
         "en": "គោ means both cow and ox. The buffalo, the other rice-field animal, is ក្របី (krâ-bey). French « vache » is feminine; « bœuf » is an ox.",
         "km": "« vache » ជានាមភេទស្រី៖ la vache។ គោឈ្មោលគឺ « le bœuf » ឬ « le taureau »។ អង់គ្លេស៖ « cow »។"
       },
-      "example": {"fr": "Les vaches mangent dans la rizière.", "en": "The cows are eating in the rice field.", "km": "គោស៊ីស្មៅនៅវាលស្រែ។", "tr": "kô si smav neuv véal srè."}
+      "example": {"fr": "Les vaches mangent dans la rizière.", "en": "The cows are eating in the rice field.", "km": "គោស៊ីស្មៅនៅវាលស្រែ។", "tr": "kô si smav neuv véal srè.",
+      "es": "Las vacas comen en el arrozal.", "it": "Le mucche mangiano nella risaia.", "ru": "Коровы пасутся на рисовом поле.", "zh": "牛在稻田里吃草。", "zh_tr": "Niú zài dàotián li chī cǎo."}
     }
   ],
   "expressions": [
     {
       "fr": "Il est trop mignon !", "en": "He is so cute!", "km": "គួរឱ្យស្រឡាញ់ណាស់!", "tr": "kouo aoy srâ-lagn nah !",
+      "es": "¡Es monísimo!", "it": "È troppo carino!", "ru": "Он такой милый!", "zh": "太可爱了！", "zh_tr": "Tài kě'ài le!",
       "note": {
         "fr": "Mot à mot « qui donne envie d'aimer ». Se dit d'un animal, d'un bébé ou d'un enfant.",
         "en": "Word for word “that makes you want to love”. Said of an animal, a baby or a child. French « mignon » becomes « mignonne » in the feminine.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Il mord ?", "en": "Does he bite?", "km": "វាខាំទេ?", "tr": "véa kham té ?",
+      "es": "¿Muerde?", "it": "Morde?", "ru": "Он кусается?", "zh": "它咬人吗？", "zh_tr": "Tā yǎo rén ma?",
       "note": {
         "fr": "ខាំ (kham), « mordre ». La question avec ទេ en fin de phrase attend oui ou non.",
         "en": "ខាំ (kham), “to bite”. A question with ទេ at the end expects yes or no. French « mordre »: il mord.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Ne le touche pas.", "en": "Don't touch it.", "km": "កុំប៉ះវា។", "tr": "kom pah véa.",
+      "es": "No lo toques.", "it": "Non toccarlo.", "ru": "Не трогай его.", "zh": "别碰它。", "zh_tr": "Bié pèng tā.",
       "note": {
         "fr": "កុំ (kom) devant un verbe forme la défense : កុំប៉ះ, ne touche pas.",
         "en": "កុំ (kom) before a verb forms a ban: កុំប៉ះ, don't touch. French puts the pronoun before the verb: ne le touche pas.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Tu as un animal de compagnie ?", "en": "Do you have a pet?", "km": "មានចិញ្ចឹមសត្វទេ?", "tr": "méan tchegn-tcheum sat té ?",
+      "es": "¿Tienes mascota?", "it": "Hai un animale domestico?", "ru": "У тебя есть домашнее животное?", "zh": "你养宠物吗？", "zh_tr": "Nǐ yǎng chǒngwù ma?",
       "note": {
         "fr": "ចិញ្ចឹម (tchegn-tcheum), « élever, nourrir ». On l'emploie aussi pour les enfants : ចិញ្ចឹមកូន, élever ses enfants.",
         "en": "ចិញ្ចឹម (tchegn-tcheum), “to raise, to feed”. Also used for children: ចិញ្ចឹមកូន, to raise your children. French « animal de compagnie » literally means “companion animal”.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Chez les parents, à la campagne", "en": "At the parents' home, in the countryside", "km": "នៅផ្ទះឪពុកម្តាយ"},
       "fr": "Chez mes parents, il y a des vaches et des poules.", "en": "At my parents' house, there are cows and chickens.",
-      "km": "នៅផ្ទះឪពុកម្តាយខ្ញុំ មានគោ និងមាន់។", "tr": "neuv phtéah eu-pouk mday khgnom, méan kô neung moan."
+      "km": "នៅផ្ទះឪពុកម្តាយខ្ញុំ មានគោ និងមាន់។", "tr": "neuv phtéah eu-pouk mday khgnom, méan kô neung moan.",
+      "es": "En casa de mis padres hay vacas y gallinas.", "it": "A casa dei miei genitori ci sono mucche e galline.", "ru": "У моих родителей есть коровы и куры.", "zh": "我爸爸妈妈家有牛，还有鸡。", "zh_tr": "Wǒ bàba māma jiā yǒu niú, hái yǒu jī."
     },
     {
       "situation": {"fr": "Au marché aux poissons", "en": "At the fish market", "km": "នៅផ្សារត្រី"},
       "fr": "Le poisson du Tonlé Sap est très frais ce matin.", "en": "The fish from the Tonle Sap is very fresh this morning.",
-      "km": "ព្រឹកនេះ ត្រីទន្លេសាបស្រស់ណាស់។", "tr": "preuk nih, trey tonlé sap sroh nah."
+      "km": "ព្រឹកនេះ ត្រីទន្លេសាបស្រស់ណាស់។", "tr": "preuk nih, trey tonlé sap sroh nah.",
+      "es": "El pescado del Tonlé Sap está muy fresco esta mañana.", "it": "Il pesce del Tonle Sap è freschissimo stamattina.", "ru": "Рыба из Тонлесапа сегодня утром очень свежая.", "zh": "今天早上洞里萨湖的鱼很新鲜。", "zh_tr": "Jīntiān zǎoshang Dònglǐsà hú de yú hěn xīnxiān."
     },
     {
       "situation": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
       "fr": "Notre chat dort toute la journée et mange toute la nuit.", "en": "Our cat sleeps all day and eats all night.",
-      "km": "ឆ្មារបស់យើងគេងពេញមួយថ្ងៃ ហើយស៊ីពេញមួយយប់។", "tr": "tchhma ro-bâh yeung kéng pégn mouy thngay, haeuy si pégn mouy youp."
+      "km": "ឆ្មារបស់យើងគេងពេញមួយថ្ងៃ ហើយស៊ីពេញមួយយប់។", "tr": "tchhma ro-bâh yeung kéng pégn mouy thngay, haeuy si pégn mouy youp.",
+      "es": "Nuestro gato duerme todo el día y come toda la noche.", "it": "Il nostro gatto dorme tutto il giorno e mangia tutta la notte.", "ru": "Наша кошка спит весь день и ест всю ночь.", "zh": "我们的猫白天睡觉，晚上吃东西。", "zh_tr": "Wǒmen de māo báitiān shuìjiào, wǎnshang chī dōngxi."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Dans la rue, devant un petit chien.", "en": "In the street, in front of a little dog.", "km": "នៅតាមផ្លូវ មុខកូនឆ្កែមួយ។"},
     "lines": [
-      {"speaker": "B", "fr": "Regarde ce petit chien, il est trop mignon !", "en": "Look at this little dog, he is so cute!", "km": "មើលកូនឆ្កែនេះ គួរឱ្យស្រឡាញ់ណាស់!", "tr": "meul kôn tchhkaè nih, kouo aoy srâ-lagn nah !"},
-      {"speaker": "A", "fr": "Attention, il mord peut-être. Ne le touche pas.", "en": "Careful, he might bite. Don't touch him.", "km": "ប្រយ័ត្ន ប្រហែលជាវាខាំ។ កុំប៉ះវា។", "tr": "prâ-yat, prâ-haèl tchéa véa kham. kom pah véa."},
-      {"speaker": "B", "fr": "Non, regarde, il est gentil. On le prend à la maison ?", "en": "No, look, he is friendly. Shall we take him home?", "km": "អត់ទេ មើលទៅ វាស្លូតណាស់។ យើងយកវាទៅផ្ទះទេ?", "tr": "ât té, meul teuv, véa slout nah. yeung yok véa teuv phtéah té ?"},
-      {"speaker": "A", "fr": "Je préfère les chats. Les chiens aboient fort la nuit.", "en": "I prefer cats. Dogs bark loudly at night.", "km": "ខ្ញុំចូលចិត្តឆ្មាជាង។ ឆ្កែព្រុសខ្លាំងពេលយប់។", "tr": "khgnom tchôl tchet tchhma tchéang. tchhkaè prouh khlang pél youp."},
-      {"speaker": "B", "fr": "Mais un chien garde la maison !", "en": "But a dog guards the house!", "km": "ប៉ុន្តែឆ្កែជួយយាមផ្ទះ!", "tr": "pon-taè tchhkaè tchouoy yéam phtéah !"},
-      {"speaker": "A", "fr": "Bon, d'accord. Mais c'est toi qui lui donnes à manger !", "en": "Okay, fine. But you are the one who feeds him!", "km": "បានហើយ។ ប៉ុន្តែ {B} ជាអ្នកឱ្យចំណីវាណា!", "tr": "ban haeuy. pon-taè {B} tchéa néak aoy tcham-ney véa na !"}
+      {"speaker": "B", "fr": "Regarde ce petit chien, il est trop mignon !", "en": "Look at this little dog, he is so cute!", "km": "មើលកូនឆ្កែនេះ គួរឱ្យស្រឡាញ់ណាស់!", "tr": "meul kôn tchhkaè nih, kouo aoy srâ-lagn nah !",
+        "es": "¡Mira este perrito, es monísimo!", "it": "Guarda questo cagnolino, è troppo carino!", "ru": "Посмотри на эту собачку, она такая милая!", "zh": "你看这只小狗，太可爱了！", "zh_tr": "Nǐ kàn zhè zhī xiǎo gǒu, tài kě'ài le!"},
+      {"speaker": "A", "fr": "Attention, il mord peut-être. Ne le touche pas.", "en": "Careful, he might bite. Don't touch him.", "km": "ប្រយ័ត្ន ប្រហែលជាវាខាំ។ កុំប៉ះវា។", "tr": "prâ-yat, prâ-haèl tchéa véa kham. kom pah véa.",
+        "es": "Cuidado, a lo mejor muerde. No lo toques.", "it": "Attento, forse morde. Non toccarlo.", "ru": "Осторожно, она может укусить. Не трогай её.", "zh": "小心，它可能会咬人。别碰它。", "zh_tr": "Xiǎoxīn, tā kěnéng huì yǎo rén. Bié pèng tā."},
+      {"speaker": "B", "fr": "Non, regarde, il est gentil. On le prend à la maison ?", "en": "No, look, he is friendly. Shall we take him home?", "km": "អត់ទេ មើលទៅ វាស្លូតណាស់។ យើងយកវាទៅផ្ទះទេ?", "tr": "ât té, meul teuv, véa slout nah. yeung yok véa teuv phtéah té ?",
+        "es": "No, mira, es bueno. ¿Nos lo llevamos a casa?", "it": "No, guarda, è buono. Lo portiamo a casa?", "ru": "Нет, смотри, она добрая. Возьмём её домой?", "zh": "不会，你看，它很乖。我们把它带回家吧？", "zh_tr": "Bú huì, nǐ kàn, tā hěn guāi. Wǒmen bǎ tā dài huí jiā ba?"},
+      {"speaker": "A", "fr": "Je préfère les chats. Les chiens aboient fort la nuit.", "en": "I prefer cats. Dogs bark loudly at night.", "km": "ខ្ញុំចូលចិត្តឆ្មាជាង។ ឆ្កែព្រុសខ្លាំងពេលយប់។", "tr": "khgnom tchôl tchet tchhma tchéang. tchhkaè prouh khlang pél youp.",
+        "es": "Yo prefiero los gatos. Los perros ladran fuerte por la noche.", "it": "Io preferisco i gatti. I cani abbaiano forte di notte.", "ru": "Я больше люблю кошек. Собаки громко лают ночью.", "zh": "我更喜欢猫。狗晚上叫得很厉害。", "zh_tr": "Wǒ gèng xǐhuan māo. Gǒu wǎnshang jiào de hěn lìhai."},
+      {"speaker": "B", "fr": "Mais un chien garde la maison !", "en": "But a dog guards the house!", "km": "ប៉ុន្តែឆ្កែជួយយាមផ្ទះ!", "tr": "pon-taè tchhkaè tchouoy yéam phtéah !",
+        "es": "¡Pero un perro vigila la casa!", "it": "Ma un cane fa la guardia alla casa!", "ru": "Но собака охраняет дом!", "zh": "可是狗能看家！", "zh_tr": "Kěshì gǒu néng kān jiā!"},
+      {"speaker": "A", "fr": "Bon, d'accord. Mais c'est toi qui lui donnes à manger !", "en": "Okay, fine. But you are the one who feeds him!", "km": "បានហើយ។ ប៉ុន្តែ {B} ជាអ្នកឱ្យចំណីវាណា!", "tr": "ban haeuy. pon-taè {B} tchéa néak aoy tcham-ney véa na !",
+        "es": "Bueno, vale. ¡Pero tú le das de comer!", "it": "Va bene, d'accordo. Ma sei tu che gli dai da mangiare!", "ru": "Ну ладно. Но кормить её будешь ты!", "zh": "好吧。不过你来喂它！", "zh_tr": "Hǎo ba. Búguò nǐ lái wèi tā!"}
     ]
   },
   "comprehension": {

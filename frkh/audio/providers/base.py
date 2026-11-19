@@ -19,13 +19,15 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class VoiceSpec:
     """Paramètres complets d'une synthèse : ils entrent tous dans la clé de cache."""
-    lang: str            # fr | en | km
-    locale: str          # fr-FR | en-US | en-GB | km-KH
+    lang: str            # fr | en | km | es | it | ru | zh
+    locale: str          # fr-FR | en-US | en-GB | km-KH | es-ES | it-IT | ru-RU | zh-CN
     provider: str
     voice: str
     speaking_rate: float
     pitch: float
     sample_rate: int
+    audio_format: str = "wav"   # format des fichiers de la bibliothèque : wav | mp3
+    bitrate: int = 0            # kbit/s, pour le MP3
 
 
 @dataclass

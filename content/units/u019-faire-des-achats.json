@@ -11,34 +11,41 @@
   },
   "vocabulary": [
     {
-      "fr": "le magasin", "en": "shop", "km": "ហាង", "tr": "hang", "pos": "nom",
+      "fr": "le magasin", "en": "shop", "km": "ហាង", "tr": "hang",
+      "es": "la tienda", "it": "il negozio", "ru": "магазин", "zh": "商店", "zh_tr": "shāngdiàn", "pos": "nom",
       "note": {
         "fr": "ហាង se combine avec ce que l'on y trouve : ហាងកាហ្វេ (un café), ហាងខោអាវ (un magasin de vêtements).",
         "en": "ហាង combines with what it sells: ហាងកាហ្វេ (a café), ហាងខោអាវ (a clothes shop). French « magasin » is masculine; a small shop is « une boutique ».",
         "km": "« magasin » ជានាមភេទប្រុស៖ le magasin។ ហាងតូចហៅថា « la boutique »។ អង់គ្លេស៖ « shop » ឬ « store »។"
       },
-      "example": {"fr": "Ce magasin ouvre à huit heures.", "en": "This shop opens at eight o'clock.", "km": "ហាងនេះបើកម៉ោងប្រាំបី។", "tr": "hang nih baeuk maong pram-bey."}
+      "example": {"fr": "Ce magasin ouvre à huit heures.", "en": "This shop opens at eight o'clock.", "km": "ហាងនេះបើកម៉ោងប្រាំបី។", "tr": "hang nih baeuk maong pram-bey.",
+      "es": "Esta tienda abre a las ocho.", "it": "Questo negozio apre alle otto.", "ru": "Этот магазин открывается в восемь часов.", "zh": "这家商店八点开门。", "zh_tr": "Zhè jiā shāngdiàn bā diǎn kāimén."}
     },
     {
-      "fr": "l'argent", "en": "money", "km": "លុយ", "tr": "louy", "pos": "nom",
+      "fr": "l'argent", "en": "money", "km": "លុយ", "tr": "louy",
+      "es": "el dinero", "it": "i soldi", "ru": "деньги", "zh": "钱", "zh_tr": "qián", "pos": "nom",
       "note": {
         "fr": "Mot de tous les jours ; ប្រាក់ (prak) est plus soigné. អត់មានលុយទេ = « je n'ai pas d'argent ».",
         "en": "The everyday word; ប្រាក់ (prak) is more formal. អត់មានលុយទេ = “I have no money”. French « argent » also means “silver”.",
         "km": "« argent » ជានាមភេទប្រុស៖ l'argent, de l'argent។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេស៖ « money »។"
       },
-      "example": {"fr": "Je n'ai pas d'argent aujourd'hui.", "en": "I have no money today.", "km": "ថ្ងៃនេះខ្ញុំអត់មានលុយទេ។", "tr": "thngay nih khgnom ât méan louy té."}
+      "example": {"fr": "Je n'ai pas d'argent aujourd'hui.", "en": "I have no money today.", "km": "ថ្ងៃនេះខ្ញុំអត់មានលុយទេ។", "tr": "thngay nih khgnom ât méan louy té.",
+      "es": "Hoy no tengo dinero.", "it": "Oggi non ho soldi.", "ru": "У меня сегодня нет денег.", "zh": "我今天没有钱。", "zh_tr": "Wǒ jīntiān méiyǒu qián."}
     },
     {
-      "fr": "payer", "en": "to pay", "km": "បង់លុយ", "tr": "bâng louy", "pos": "verbe",
+      "fr": "payer", "en": "to pay", "km": "បង់លុយ", "tr": "bâng louy",
+      "es": "pagar", "it": "pagare", "ru": "платить", "zh": "付钱", "zh_tr": "fù qián", "pos": "verbe",
       "note": {
         "fr": "បង់ (bâng) = « verser, payer » ; plus soigné : បង់ប្រាក់. Pour dire « c'est moi qui invite » : ខ្ញុំចេញលុយ (khgnom tchégn louy).",
         "en": "បង់ (bâng) = “to pay”; more formal: បង់ប្រាក់. To say “it's on me”: ខ្ញុំចេញលុយ (khgnom tchégn louy). French « payer »: je paie.",
         "km": "« payer »៖ je paie, nous payons។ អង់គ្លេស៖ « pay » ហើយអតីតកាលគឺ « paid »។"
       },
-      "example": {"fr": "Je peux payer en dollars ?", "en": "Can I pay in dollars?", "km": "បង់លុយជាដុល្លារបានទេ?", "tr": "bâng louy tchéa dol-la ban té ?"}
+      "example": {"fr": "Je peux payer en dollars ?", "en": "Can I pay in dollars?", "km": "បង់លុយជាដុល្លារបានទេ?", "tr": "bâng louy tchéa dol-la ban té ?",
+      "es": "¿Puedo pagar en dólares?", "it": "Posso pagare in dollari?", "ru": "Можно заплатить в долларах?", "zh": "我可以用美元付钱吗？", "zh_tr": "Wǒ kěyǐ yòng měiyuán fù qián ma?"}
     },
     {
-      "fr": "la taille", "en": "size", "km": "ទំហំ", "tr": "toum-hom", "pos": "nom",
+      "fr": "la taille", "en": "size", "km": "ទំហំ", "tr": "toum-hom",
+      "es": "la talla", "it": "la taglia", "ru": "размер", "zh": "尺码", "zh_tr": "chǐmǎ", "pos": "nom",
       "uncertain": true,
       "uncertain_note": "ទំហំ est correct mais général (dimension). Pour les vêtements, on entend aussi ខ្នាត, លេខ ou l'emprunt សាយ : vérifier lequel est le plus naturel à l'oral.",
       "note": {
@@ -46,30 +53,36 @@
         "en": "A general word for the size or dimension of a thing. At the market, it is often enough to say ធំជាងនេះ (bigger than this) or តូចជាងនេះ (smaller than this). French « taille » is feminine.",
         "km": "« taille » ជានាមភេទស្រី៖ la taille។ សម្រាប់ស្បែកជើង បារាំងប្រើពាក្យ « la pointure »។ អង់គ្លេស៖ « size »។"
       },
-      "example": {"fr": "Vous avez une taille plus grande ?", "en": "Do you have a bigger size?", "km": "មានទំហំធំជាងនេះទេ?", "tr": "méan toum-hom thom tchéang nih té ?"}
+      "example": {"fr": "Vous avez une taille plus grande ?", "en": "Do you have a bigger size?", "km": "មានទំហំធំជាងនេះទេ?", "tr": "méan toum-hom thom tchéang nih té ?",
+      "es": "¿Tiene una talla más grande?", "it": "Ha una taglia più grande?", "ru": "У вас есть размер побольше?", "zh": "有大一点儿的尺码吗？", "zh_tr": "Yǒu dà yìdiǎnr de chǐmǎ ma?"}
     },
     {
-      "fr": "essayer", "en": "to try", "km": "សាកល្បង", "tr": "sak-lbâng", "pos": "verbe",
+      "fr": "essayer", "en": "to try", "km": "សាកល្បង", "tr": "sak-lbâng",
+      "es": "probar", "it": "provare", "ru": "примерять", "zh": "试", "zh_tr": "shì", "pos": "verbe",
       "note": {
         "fr": "Verbe général : essayer, tester. À l'oral, on le raccourcit en សាក (sak) ; pour un vêtement, on dit aussi ល (lo), « essayer sur soi ».",
         "en": "A general verb: to try, to test. In speech, it is shortened to សាក (sak); for clothes, people also say ល (lo), “to try on”. French « essayer »: j'essaie.",
         "km": "« essayer »៖ j'essaie, nous essayons។ សម្រាប់ខោអាវ អង់គ្លេសនិយាយ « to try on »។"
       },
-      "example": {"fr": "Tu veux essayer ?", "en": "Do you want to try?", "km": "ចង់សាកល្បងទេ?", "tr": "tchâng sak-lbâng té ?"}
+      "example": {"fr": "Tu veux essayer ?", "en": "Do you want to try?", "km": "ចង់សាកល្បងទេ?", "tr": "tchâng sak-lbâng té ?",
+      "es": "¿Quieres probártelo?", "it": "Vuoi provarlo?", "ru": "Хочешь примерить?", "zh": "你想试试吗？", "zh_tr": "Nǐ xiǎng shìshi ma?"}
     },
     {
-      "fr": "les vêtements", "en": "clothes", "km": "ខោអាវ", "tr": "khao-av", "pos": "nom",
+      "fr": "les vêtements", "en": "clothes", "km": "ខោអាវ", "tr": "khao-av",
+      "es": "la ropa", "it": "i vestiti", "ru": "одежда", "zh": "衣服", "zh_tr": "yīfu", "pos": "nom",
       "note": {
         "fr": "Mot à mot « pantalon-haut » : ខោ (khao) est le pantalon, អាវ (av) le vêtement du haut, chemise ou tee-shirt.",
         "en": "Word for word “trousers-top”: ខោ (khao) is trousers, អាវ (av) the top, shirt or T-shirt. French « vêtements » is masculine plural.",
         "km": "« vêtements » ជានាមពហុវចនៈ ភេទប្រុស៖ les vêtements។ អង់គ្លេស « clothes » ក៏ជាពហុវចនៈជានិច្ចដែរ។"
       },
-      "example": {"fr": "Je veux acheter des vêtements.", "en": "I want to buy some clothes.", "km": "ខ្ញុំចង់ទិញខោអាវ។", "tr": "khgnom tchâng tign khao-av."}
+      "example": {"fr": "Je veux acheter des vêtements.", "en": "I want to buy some clothes.", "km": "ខ្ញុំចង់ទិញខោអាវ។", "tr": "khgnom tchâng tign khao-av.",
+      "es": "Quiero comprar ropa.", "it": "Voglio comprare dei vestiti.", "ru": "Я хочу купить одежду.", "zh": "我想买衣服。", "zh_tr": "Wǒ xiǎng mǎi yīfu."}
     }
   ],
   "expressions": [
     {
       "fr": "Je regarde seulement, merci.", "en": "I am just looking, thank you.", "km": "ខ្ញុំគ្រាន់តែមើលទេ អរគុណ។", "tr": "khgnom kroan-taè meul té, â-koun.",
+      "es": "Solo estoy mirando, gracias.", "it": "Sto solo guardando, grazie.", "ru": "Я просто смотрю, спасибо.", "zh": "我只是看看，谢谢。", "zh_tr": "Wǒ zhǐshì kànkan, xièxie.",
       "note": {
         "fr": "គ្រាន់តែ … ទេ = « seulement, juste ». Ici, ទេ ne nie rien : il renforce l'idée de « seulement ».",
         "en": "គ្រាន់តែ … ទេ = “only, just”. Here, ទេ negates nothing: it reinforces “only”. French: « Je regarde seulement ».",
@@ -78,6 +91,7 @@
     },
     {
       "fr": "Je peux l'essayer ?", "en": "Can I try it on?", "km": "សុំសាកមើលបានទេ?", "tr": "som sak meul ban té ?",
+      "es": "¿Puedo probármelo?", "it": "Posso provarlo?", "ru": "Можно примерить?", "zh": "我可以试一下吗？", "zh_tr": "Wǒ kěyǐ shì yíxià ma?",
       "note": {
         "fr": "សាកមើល = « essayer pour voir ». Pour un vêtement, on entend aussi សុំលមើល (som lo meul).",
         "en": "សាកមើល = “try and see”. For clothes, you also hear សុំលមើល (som lo meul). French « l' » stands for the item: je peux l'essayer.",
@@ -86,6 +100,7 @@
     },
     {
       "fr": "Vous avez une autre couleur ?", "en": "Do you have another color?", "km": "មានពណ៌ផ្សេងទេ?", "tr": "méan poa phséng té ?",
+      "es": "¿Tiene otro color?", "it": "Ha un altro colore?", "ru": "У вас есть другой цвет?", "zh": "有别的颜色吗？", "zh_tr": "Yǒu bié de yánsè ma?",
       "note": {
         "fr": "ផ្សេង (phséng) = « autre, différent », placé après le nom.",
         "en": "ផ្សេង (phséng) = “other, different”, placed after the noun. French « autre » goes before the noun: une autre couleur.",
@@ -94,6 +109,7 @@
     },
     {
       "fr": "C'est trop petit.", "en": "It is too small.", "km": "តូចពេក។", "tr": "tôtch pék.",
+      "es": "Es demasiado pequeño.", "it": "È troppo piccolo.", "ru": "Это слишком маленькое.", "zh": "太小了。", "zh_tr": "Tài xiǎo le.",
       "note": {
         "fr": "Adjectif + ពេក = « trop ». Le contraire : ធំពេក (thom pék), « trop grand ».",
         "en": "Adjective + ពេក = “too”. The opposite: ធំពេក (thom pék), “too big”. French « trop » goes before the adjective: trop grand.",
@@ -105,17 +121,20 @@
     {
       "situation": {"fr": "Dans un magasin de vêtements", "en": "In a clothes shop", "km": "នៅហាងខោអាវ"},
       "fr": "Vous avez cette chemise en bleu ?", "en": "Do you have this shirt in blue?",
-      "km": "អាវនេះមានពណ៌ខៀវទេ?", "tr": "av nih méan poa khiev té ?"
+      "km": "អាវនេះមានពណ៌ខៀវទេ?", "tr": "av nih méan poa khiev té ?",
+      "es": "¿Tiene esta camisa en azul?", "it": "Ha questa camicia in blu?", "ru": "У вас есть эта рубашка синего цвета?", "zh": "这件衬衫有蓝色的吗？", "zh_tr": "Zhè jiàn chènshān yǒu lánsè de ma?"
     },
     {
       "situation": {"fr": "Au moment de payer", "en": "Paying", "km": "ពេលបង់លុយ"},
       "fr": "Ça fait combien en tout ? Je paie en riels.", "en": "How much is it altogether? I will pay in riel.",
-      "km": "ទាំងអស់ថ្លៃប៉ុន្មាន? ខ្ញុំបង់ជាលុយរៀល។", "tr": "téang âh thlay pon-man ? khgnom bâng tchéa louy riel."
+      "km": "ទាំងអស់ថ្លៃប៉ុន្មាន? ខ្ញុំបង់ជាលុយរៀល។", "tr": "téang âh thlay pon-man ? khgnom bâng tchéa louy riel.",
+      "es": "¿Cuánto es en total? Pago en rieles.", "it": "Quanto fa in tutto? Pago in riel.", "ru": "Сколько всего? Я заплачу в риелях.", "zh": "一共多少钱？我付瑞尔。", "zh_tr": "Yígòng duōshao qián? Wǒ fù ruì'ěr."
     },
     {
       "situation": {"fr": "Hésiter", "en": "Hesitating", "km": "ពេលមិនទាន់សម្រេចចិត្ត"},
       "fr": "C'est très joli, mais c'est trop cher pour moi.", "en": "It is very pretty, but it is too expensive for me.",
-      "km": "ស្អាតណាស់ ប៉ុន្តែថ្លៃពេកសម្រាប់ខ្ញុំ។", "tr": "s'at nah, pon-taè thlay pék sâm-rap khgnom."
+      "km": "ស្អាតណាស់ ប៉ុន្តែថ្លៃពេកសម្រាប់ខ្ញុំ។", "tr": "s'at nah, pon-taè thlay pék sâm-rap khgnom.",
+      "es": "Es muy bonito, pero es demasiado caro para mí.", "it": "È molto bello, ma è troppo caro per me.", "ru": "Очень красиво, но для меня слишком дорого.", "zh": "很漂亮，但是对我来说太贵了。", "zh_tr": "Hěn piàoliang, dànshì duì wǒ lái shuō tài guì le."
     }
   ],
   "dialogue": {
@@ -125,12 +144,18 @@
       "km": "លេងតួនៅហាងខោអាវ៖ {A} ជាអ្នកលក់ ហើយ {B} រកទិញអាវ។"
     },
     "lines": [
-      {"speaker": "A", "fr": "Bonjour ! Que voulez-vous acheter ?", "en": "Hello! What would you like to buy?", "km": "សួស្តី! ចង់ទិញអ្វីដែរ?", "tr": "souos-dey ! tchâng tign ey daè ?"},
-      {"speaker": "B", "fr": "Je voudrais une chemise blanche.", "en": "I would like a white shirt.", "km": "ខ្ញុំចង់បានអាវពណ៌សមួយ។", "tr": "khgnom tchâng ban av poa sâ mouy."},
-      {"speaker": "A", "fr": "Voici une chemise blanche. Vous voulez l'essayer ?", "en": "Here is a white shirt. Do you want to try it on?", "km": "នេះអាវពណ៌ស។ ចង់សាកមើលទេ?", "tr": "nih av poa sâ. tchâng sak meul té ?"},
-      {"speaker": "B", "fr": "Cette chemise est trop petite. Vous avez plus grand ?", "en": "This shirt is too small. Do you have a bigger one?", "km": "អាវនេះតូចពេក។ មានធំជាងនេះទេ?", "tr": "av nih tôtch pék. méan thom tchéang nih té ?"},
-      {"speaker": "A", "fr": "Oui. Celle-ci coûte cinq dollars.", "en": "Yes, I do. This one costs five dollars.", "km": "{A_yes} មាន។ អាវនេះថ្លៃប្រាំដុល្លារ។", "tr": "{A_yes}, méan. av nih thlay pram dol-la."},
-      {"speaker": "B", "fr": "Très bien, je la prends. Voici l'argent.", "en": "Great, I'll take it. Here is the money.", "km": "ល្អណាស់ ខ្ញុំយកមួយនេះ។ នេះលុយ។", "tr": "l'â nah, khgnom yok mouy nih. nih louy."}
+      {"speaker": "A", "fr": "Bonjour ! Que voulez-vous acheter ?", "en": "Hello! What would you like to buy?", "km": "សួស្តី! ចង់ទិញអ្វីដែរ?", "tr": "souos-dey ! tchâng tign ey daè ?",
+        "es": "¡Hola! ¿Qué desea comprar?", "it": "Buongiorno! Che cosa desidera?", "ru": "Здравствуйте! Что вы хотите купить?", "zh": "你好！您想买什么？", "zh_tr": "Nǐ hǎo! Nín xiǎng mǎi shénme?"},
+      {"speaker": "B", "fr": "Je voudrais une chemise blanche.", "en": "I would like a white shirt.", "km": "ខ្ញុំចង់បានអាវពណ៌សមួយ។", "tr": "khgnom tchâng ban av poa sâ mouy.",
+        "es": "Quería una camisa blanca.", "it": "Vorrei una camicia bianca.", "ru": "Я хотел бы белую рубашку.", "zh": "我想要一件白衬衫。", "zh_tr": "Wǒ xiǎng yào yí jiàn bái chènshān."},
+      {"speaker": "A", "fr": "Voici une chemise blanche. Vous voulez l'essayer ?", "en": "Here is a white shirt. Do you want to try it on?", "km": "នេះអាវពណ៌ស។ ចង់សាកមើលទេ?", "tr": "nih av poa sâ. tchâng sak meul té ?",
+        "es": "Aquí tiene una camisa blanca. ¿Quiere probársela?", "it": "Ecco una camicia bianca. Vuole provarla?", "ru": "Вот белая рубашка. Хотите примерить?", "zh": "这是白衬衫。您想试试吗？", "zh_tr": "Zhè shì bái chènshān. Nín xiǎng shìshi ma?"},
+      {"speaker": "B", "fr": "Cette chemise est trop petite. Vous avez plus grand ?", "en": "This shirt is too small. Do you have a bigger one?", "km": "អាវនេះតូចពេក។ មានធំជាងនេះទេ?", "tr": "av nih tôtch pék. méan thom tchéang nih té ?",
+        "es": "Esta camisa es demasiado pequeña. ¿Tiene una más grande?", "it": "Questa camicia è troppo piccola. Ne ha una più grande?", "ru": "Эта рубашка слишком маленькая. У вас есть побольше?", "zh": "这件衬衫太小了。有大一点儿的吗？", "zh_tr": "Zhè jiàn chènshān tài xiǎo le. Yǒu dà yìdiǎnr de ma?"},
+      {"speaker": "A", "fr": "Oui. Celle-ci coûte cinq dollars.", "en": "Yes, I do. This one costs five dollars.", "km": "{A_yes} មាន។ អាវនេះថ្លៃប្រាំដុល្លារ។", "tr": "{A_yes}, méan. av nih thlay pram dol-la.",
+        "es": "Sí. Esta cuesta cinco dólares.", "it": "Sì. Questa costa cinque dollari.", "ru": "Да. Эта стоит пять долларов.", "zh": "有。这件五美元。", "zh_tr": "Yǒu. Zhè jiàn wǔ měiyuán."},
+      {"speaker": "B", "fr": "Très bien, je la prends. Voici l'argent.", "en": "Great, I'll take it. Here is the money.", "km": "ល្អណាស់ ខ្ញុំយកមួយនេះ។ នេះលុយ។", "tr": "l'â nah, khgnom yok mouy nih. nih louy.",
+        "es": "Muy bien, me la llevo. Aquí tiene el dinero.", "it": "Benissimo, la prendo. Ecco i soldi.", "ru": "Отлично, я её беру. Вот деньги.", "zh": "很好，我买了。给您钱。", "zh_tr": "Hěn hǎo, wǒ mǎi le. Gěi nín qián."}
     ]
   },
   "comprehension": {

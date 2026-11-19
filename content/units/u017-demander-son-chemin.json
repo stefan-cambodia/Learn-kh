@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "à gauche", "en": "on the left", "km": "ខាងឆ្វេង", "tr": "khang tchhvéng", "pos": "adverbe",
+      "fr": "à gauche", "en": "on the left", "km": "ខាងឆ្វេង", "tr": "khang tchhvéng",
+      "es": "a la izquierda", "it": "a sinistra", "ru": "слева", "zh": "左边", "zh_tr": "zuǒbian", "pos": "adverbe",
       "note": {
         "fr": "ខាង (khang) = « côté », ឆ្វេង = « gauche ». Après le verbe បត់ (tourner), on dit simplement បត់ឆ្វេង.",
         "en": "ខាង (khang) = “side”, ឆ្វេង = “left”. After the verb បត់ (to turn), just say បត់ឆ្វេង. French « à gauche » also means “on the left”.",
         "km": "« à gauche » មានន័យថា ខាងឆ្វេង ឬទៅខាងឆ្វេង។ អង់គ្លេស៖ « on the left », « to the left »។"
       },
-      "example": {"fr": "Le marché est à gauche.", "en": "The market is on the left.", "km": "ផ្សារនៅខាងឆ្វេង។", "tr": "phsa neuv khang tchhvéng."}
+      "example": {"fr": "Le marché est à gauche.", "en": "The market is on the left.", "km": "ផ្សារនៅខាងឆ្វេង។", "tr": "phsa neuv khang tchhvéng.",
+      "es": "El mercado está a la izquierda.", "it": "Il mercato è a sinistra.", "ru": "Рынок слева.", "zh": "市场在左边。", "zh_tr": "Shìchǎng zài zuǒbian."}
     },
     {
-      "fr": "à droite", "en": "on the right", "km": "ខាងស្តាំ", "tr": "khang sdam", "pos": "adverbe",
+      "fr": "à droite", "en": "on the right", "km": "ខាងស្តាំ", "tr": "khang sdam",
+      "es": "a la derecha", "it": "a destra", "ru": "справа", "zh": "右边", "zh_tr": "yòubian", "pos": "adverbe",
       "note": {
         "fr": "Même emploi que ខាងឆ្វេង. Dans ស្តាំ, le ត écrit sous le ស se prononce d : sdam.",
         "en": "Used like ខាងឆ្វេង. In ស្តាំ, the ត written under the ស is pronounced d: sdam. French: « à droite ». Careful: « tout droit » means “straight ahead”.",
         "km": "« à droite » មានន័យថា ខាងស្តាំ។ កុំច្រឡំជាមួយ « tout droit » ដែលមានន័យថា ទៅត្រង់។ អង់គ្លេស៖ « on the right »។"
       },
-      "example": {"fr": "Le restaurant est à droite.", "en": "The restaurant is on the right.", "km": "ភោជនីយដ្ឋាននៅខាងស្តាំ។", "tr": "phô-tchéa-ni-yéa-than neuv khang sdam."}
+      "example": {"fr": "Le restaurant est à droite.", "en": "The restaurant is on the right.", "km": "ភោជនីយដ្ឋាននៅខាងស្តាំ។", "tr": "phô-tchéa-ni-yéa-than neuv khang sdam.",
+      "es": "El restaurante está a la derecha.", "it": "Il ristorante è a destra.", "ru": "Ресторан справа.", "zh": "饭馆在右边。", "zh_tr": "Fànguǎn zài yòubian."}
     },
     {
-      "fr": "tout droit", "en": "straight ahead", "km": "ត្រង់", "tr": "trâng", "pos": "adverbe",
+      "fr": "tout droit", "en": "straight ahead", "km": "ត្រង់", "tr": "trâng",
+      "es": "todo recto", "it": "sempre dritto", "ru": "прямо", "zh": "一直走", "zh_tr": "yìzhí zǒu", "pos": "adverbe",
       "note": {
         "fr": "ទៅត្រង់ (teuv trâng) = « aller tout droit ». ត្រង់ sert aussi à désigner un point précis : ត្រង់នេះ, « juste ici ».",
         "en": "ទៅត្រង់ (teuv trâng) = “go straight ahead”. ត្រង់ also points to a precise spot: ត្រង់នេះ, “right here”. French « tout droit » is close to « à droite », so listen carefully.",
         "km": "« tout droit » មានន័យថា ទៅត្រង់ មិនបត់ទេ។ អង់គ្លេស៖ « straight ahead »។"
       },
-      "example": {"fr": "Allez tout droit, s'il vous plaît.", "en": "Go straight ahead, please.", "km": "សូមទៅត្រង់។", "tr": "sôm teuv trâng."}
+      "example": {"fr": "Allez tout droit, s'il vous plaît.", "en": "Go straight ahead, please.", "km": "សូមទៅត្រង់។", "tr": "sôm teuv trâng.",
+      "es": "Siga todo recto, por favor.", "it": "Vada sempre dritto, per favore.", "ru": "Идите прямо, пожалуйста.", "zh": "请一直往前走。", "zh_tr": "Qǐng yìzhí wǎng qián zǒu."}
     },
     {
-      "fr": "près", "en": "near", "km": "ជិត", "tr": "tchit", "pos": "adverbe",
+      "fr": "près", "en": "near", "km": "ជិត", "tr": "tchit",
+      "es": "cerca", "it": "vicino", "ru": "близко", "zh": "近", "zh_tr": "jìn", "pos": "adverbe",
       "note": {
         "fr": "ជិត se place directement devant le lieu, sans préposition : ជិតផ្សារ, « près du marché ».",
         "en": "ជិត goes straight before the place, with no preposition: ជិតផ្សារ, “near the market”. French adds « de »: près du marché.",
         "km": "« près de » ត្រូវមាន « de » នៅពីមុខទីកន្លែង៖ près du marché, près de la maison។ អង់គ្លេស៖ « near »។"
       },
-      "example": {"fr": "Ma maison est près du marché.", "en": "My house is near the market.", "km": "ផ្ទះខ្ញុំនៅជិតផ្សារ។", "tr": "phtéah khgnom neuv tchit phsa."}
+      "example": {"fr": "Ma maison est près du marché.", "en": "My house is near the market.", "km": "ផ្ទះខ្ញុំនៅជិតផ្សារ។", "tr": "phtéah khgnom neuv tchit phsa.",
+      "es": "Mi casa está cerca del mercado.", "it": "La mia casa è vicino al mercato.", "ru": "Мой дом рядом с рынком.", "zh": "我家离市场很近。", "zh_tr": "Wǒ jiā lí shìchǎng hěn jìn."}
     },
     {
-      "fr": "loin", "en": "far", "km": "ឆ្ងាយ", "tr": "tchhngay", "pos": "adverbe",
+      "fr": "loin", "en": "far", "km": "ឆ្ងាយ", "tr": "tchhngay",
+      "es": "lejos", "it": "lontano", "ru": "далеко", "zh": "远", "zh_tr": "yuǎn", "pos": "adverbe",
       "note": {
         "fr": "« Loin de… » se dit ឆ្ងាយពី… (tchhngay pi). Pour demander la distance : ឆ្ងាយទេ?, « c'est loin ? ».",
         "en": "“Far from…” is ឆ្ងាយពី… (tchhngay pi). To ask the distance: ឆ្ងាយទេ?, “is it far?”. French: loin de…",
         "km": "« loin » ផ្ទុយពី « près »។ « loin de la maison » មានន័យថា ឆ្ងាយពីផ្ទះ។ អង់គ្លេស៖ « far »។"
       },
-      "example": {"fr": "Ce n'est pas loin d'ici.", "en": "It is not far from here.", "km": "មិនឆ្ងាយពីទីនេះទេ។", "tr": "min tchhngay pi ti-nih té."}
+      "example": {"fr": "Ce n'est pas loin d'ici.", "en": "It is not far from here.", "km": "មិនឆ្ងាយពីទីនេះទេ។", "tr": "min tchhngay pi ti-nih té.",
+      "es": "No está lejos de aquí.", "it": "Non è lontano da qui.", "ru": "Это недалеко отсюда.", "zh": "离这儿不远。", "zh_tr": "Lí zhèr bù yuǎn."}
     },
     {
-      "fr": "tourner", "en": "to turn", "km": "បត់", "tr": "bât", "pos": "verbe",
+      "fr": "tourner", "en": "to turn", "km": "បត់", "tr": "bât",
+      "es": "girar", "it": "girare", "ru": "поворачивать", "zh": "拐", "zh_tr": "guǎi", "pos": "verbe",
       "note": {
         "fr": "La direction suit directement le verbe : បត់ឆ្វេង, បត់ស្តាំ. Faire demi-tour se dit បត់ក្រោយ (bât kraoy).",
         "en": "The direction follows the verb directly: បត់ឆ្វេង, បត់ស្តាំ. To make a U-turn is បត់ក្រោយ (bât kraoy). French « tourner »: tournez à gauche.",
         "km": "« tourner »៖ je tourne, vous tournez។ ពេលប្រាប់ផ្លូវ គេនិយាយថា « Tournez à gauche »។ អង់គ្លេស៖ « turn left »។"
       },
-      "example": {"fr": "Au marché, tournez à droite.", "en": "At the market, turn right.", "km": "ដល់ផ្សារ សូមបត់ស្តាំ។", "tr": "dâl phsa, sôm bât sdam."}
+      "example": {"fr": "Au marché, tournez à droite.", "en": "At the market, turn right.", "km": "ដល់ផ្សារ សូមបត់ស្តាំ។", "tr": "dâl phsa, sôm bât sdam.",
+      "es": "En el mercado, gire a la derecha.", "it": "Al mercato, giri a destra.", "ru": "У рынка поверните направо.", "zh": "到了市场往右拐。", "zh_tr": "Dào le shìchǎng wǎng yòu guǎi."}
     }
   ],
   "expressions": [
     {
       "fr": "Excusez-moi, où est le marché ?", "en": "Excuse me, where is the market?", "km": "សុំទោស ផ្សារនៅឯណា?", "tr": "som toh, phsa neuv aè na ?",
+      "es": "Perdone, ¿dónde está el mercado?", "it": "Mi scusi, dov'è il mercato?", "ru": "Извините, где рынок?", "zh": "请问，市场在哪儿？", "zh_tr": "Qǐngwèn, shìchǎng zài nǎr?",
       "note": {
         "fr": "នៅឯណា? (neuv aè na) = « se trouve où ? ». Le lieu vient en premier, le mot interrogatif reste à la fin.",
         "en": "នៅឯណា? (neuv aè na) = “is located where?”. The place comes first, the question word stays at the end.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "C'est loin d'ici ?", "en": "Is it far from here?", "km": "ឆ្ងាយពីទីនេះទេ?", "tr": "tchhngay pi ti-nih té ?",
+      "es": "¿Está lejos de aquí?", "it": "È lontano da qui?", "ru": "Это далеко отсюда?", "zh": "离这儿远吗？", "zh_tr": "Lí zhèr yuǎn ma?",
       "note": {
         "fr": "ទីនេះ (ti-nih) = « ici ». Réponses possibles : ឆ្ងាយ (c'est loin) ou មិនឆ្ងាយទេ (ce n'est pas loin).",
         "en": "ទីនេះ (ti-nih) = “here”. Possible answers: ឆ្ងាយ (it's far) or មិនឆ្ងាយទេ (it's not far).",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Je ne connais pas le chemin.", "en": "I do not know the way.", "km": "ខ្ញុំមិនស្គាល់ផ្លូវទេ។", "tr": "khgnom min skoal phleuv té.",
+      "es": "No conozco el camino.", "it": "Non conosco la strada.", "ru": "Я не знаю дороги.", "zh": "我不认识路。", "zh_tr": "Wǒ bú rènshi lù.",
       "note": {
         "fr": "ស្គាល់ (skoal) = « connaître » un lieu ou une personne. La négation encadre le verbe : មិន … ទេ.",
         "en": "ស្គាល់ (skoal) = “to know” a place or a person. The negative frames the verb: មិន … ទេ. French also uses « connaître » for places and people, and « savoir » for facts.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "C'est en face du marché.", "en": "It is opposite the market.", "km": "នៅទល់មុខផ្សារ។", "tr": "neuv tol mouk phsa.",
+      "es": "Está enfrente del mercado.", "it": "È di fronte al mercato.", "ru": "Это напротив рынка.", "zh": "在市场对面。", "zh_tr": "Zài shìchǎng duìmiàn.",
       "note": {
         "fr": "ទល់មុខ (tol mouk) = « en face de ». Autres repères : នៅមុខ (devant), នៅក្រោយ (derrière), នៅក្បែរ (neuv kbaè, à côté de).",
         "en": "ទល់មុខ (tol mouk) = “opposite”. Other landmarks: នៅមុខ (in front), នៅក្រោយ (behind), នៅក្បែរ (neuv kbaè, next to). French: en face de, devant, derrière, à côté de.",
@@ -103,17 +119,20 @@
     {
       "situation": {"fr": "Dans la rue", "en": "In the street", "km": "នៅតាមផ្លូវ"},
       "fr": "Excusez-moi, il y a un marché près d'ici ?", "en": "Excuse me, is there a market near here?",
-      "km": "សុំទោស នៅជិតនេះមានផ្សារទេ?", "tr": "som toh, neuv tchit nih méan phsa té ?"
+      "km": "សុំទោស នៅជិតនេះមានផ្សារទេ?", "tr": "som toh, neuv tchit nih méan phsa té ?",
+      "es": "Perdone, ¿hay un mercado cerca de aquí?", "it": "Mi scusi, c'è un mercato qui vicino?", "ru": "Извините, здесь рядом есть рынок?", "zh": "请问，这附近有市场吗？", "zh_tr": "Qǐngwèn, zhè fùjìn yǒu shìchǎng ma?"
     },
     {
       "situation": {"fr": "Indiquer le chemin", "en": "Giving directions", "km": "ពេលប្រាប់ផ្លូវ"},
       "fr": "Allez tout droit, puis tournez à gauche.", "en": "Go straight ahead, then turn left.",
-      "km": "ទៅត្រង់ រួចបត់ឆ្វេង។", "tr": "teuv trâng, rouotch bât tchhvéng."
+      "km": "ទៅត្រង់ រួចបត់ឆ្វេង។", "tr": "teuv trâng, rouotch bât tchhvéng.",
+      "es": "Siga todo recto y luego gire a la izquierda.", "it": "Vada sempre dritto, poi giri a sinistra.", "ru": "Идите прямо, потом поверните налево.", "zh": "一直往前走，然后往左拐。", "zh_tr": "Yìzhí wǎng qián zǒu, ránhòu wǎng zuǒ guǎi."
     },
     {
       "situation": {"fr": "Expliquer où se trouve un lieu", "en": "Explaining where a place is", "km": "ពេលពន្យល់ទីតាំង"},
       "fr": "Ce n'est pas loin : c'est à droite, en face du marché.", "en": "It is not far: it is on the right, opposite the market.",
-      "km": "មិនឆ្ងាយទេ នៅខាងស្តាំ ទល់មុខផ្សារ។", "tr": "min tchhngay té, neuv khang sdam, tol mouk phsa."
+      "km": "មិនឆ្ងាយទេ នៅខាងស្តាំ ទល់មុខផ្សារ។", "tr": "min tchhngay té, neuv khang sdam, tol mouk phsa.",
+      "es": "No está lejos: está a la derecha, enfrente del mercado.", "it": "Non è lontano: è a destra, di fronte al mercato.", "ru": "Это недалеко: справа, напротив рынка.", "zh": "不远：在右边，市场对面。", "zh_tr": "Bù yuǎn: zài yòubian, shìchǎng duìmiàn."
     }
   ],
   "dialogue": {
@@ -123,12 +142,18 @@
       "km": "លេងតួនៅតាមផ្លូវ៖ {B} រកផ្សារ ហើយសួរផ្លូវ {A}។"
     },
     "lines": [
-      {"speaker": "B", "fr": "Excusez-moi, où est le marché ?", "en": "Excuse me, where is the market?", "km": "សុំទោស ផ្សារនៅឯណា?", "tr": "som toh, phsa neuv aè na ?"},
-      {"speaker": "A", "fr": "Allez tout droit, puis tournez à droite.", "en": "Go straight ahead, then turn right.", "km": "ទៅត្រង់ រួចបត់ស្តាំ។", "tr": "teuv trâng, rouotch bât sdam."},
-      {"speaker": "B", "fr": "C'est loin d'ici ?", "en": "Is it far from here?", "km": "ឆ្ងាយពីទីនេះទេ?", "tr": "tchhngay pi ti-nih té ?"},
-      {"speaker": "A", "fr": "Non, c'est tout près. Le marché est à gauche, en face du café.", "en": "No, it is very near. The market is on the left, opposite the café.", "km": "ទេ ជិតណាស់។ ផ្សារនៅខាងឆ្វេង ទល់មុខហាងកាហ្វេ។", "tr": "té, tchit nah. phsa neuv khang tchhvéng, tol mouk hang ka-fé."},
-      {"speaker": "B", "fr": "Tout droit, puis à droite. Merci beaucoup !", "en": "Straight ahead, then right. Thank you very much!", "km": "ទៅត្រង់ រួចបត់ស្តាំ។ អរគុណច្រើន!", "tr": "teuv trâng, rouotch bât sdam. â-koun tchraeun !"},
-      {"speaker": "A", "fr": "De rien. Au revoir !", "en": "You're welcome. Goodbye!", "km": "មិនអីទេ។ លាសិនហើយ!", "tr": "min ey té. léa sen haeuy !"}
+      {"speaker": "B", "fr": "Excusez-moi, où est le marché ?", "en": "Excuse me, where is the market?", "km": "សុំទោស ផ្សារនៅឯណា?", "tr": "som toh, phsa neuv aè na ?",
+        "es": "Perdone, ¿dónde está el mercado?", "it": "Mi scusi, dov'è il mercato?", "ru": "Извините, где рынок?", "zh": "请问，市场在哪儿？", "zh_tr": "Qǐngwèn, shìchǎng zài nǎr?"},
+      {"speaker": "A", "fr": "Allez tout droit, puis tournez à droite.", "en": "Go straight ahead, then turn right.", "km": "ទៅត្រង់ រួចបត់ស្តាំ។", "tr": "teuv trâng, rouotch bât sdam.",
+        "es": "Siga todo recto y luego gire a la derecha.", "it": "Vada sempre dritto, poi giri a destra.", "ru": "Идите прямо, потом поверните направо.", "zh": "一直往前走，然后往右拐。", "zh_tr": "Yìzhí wǎng qián zǒu, ránhòu wǎng yòu guǎi."},
+      {"speaker": "B", "fr": "C'est loin d'ici ?", "en": "Is it far from here?", "km": "ឆ្ងាយពីទីនេះទេ?", "tr": "tchhngay pi ti-nih té ?",
+        "es": "¿Está lejos de aquí?", "it": "È lontano da qui?", "ru": "Это далеко отсюда?", "zh": "离这儿远吗？", "zh_tr": "Lí zhèr yuǎn ma?"},
+      {"speaker": "A", "fr": "Non, c'est tout près. Le marché est à gauche, en face du café.", "en": "No, it is very near. The market is on the left, opposite the café.", "km": "ទេ ជិតណាស់។ ផ្សារនៅខាងឆ្វេង ទល់មុខហាងកាហ្វេ។", "tr": "té, tchit nah. phsa neuv khang tchhvéng, tol mouk hang ka-fé.",
+        "es": "No, está muy cerca. El mercado está a la izquierda, enfrente de la cafetería.", "it": "No, è vicinissimo. Il mercato è a sinistra, di fronte al bar.", "ru": "Нет, совсем близко. Рынок слева, напротив кафе.", "zh": "不远，很近。市场在左边，咖啡馆对面。", "zh_tr": "Bù yuǎn, hěn jìn. Shìchǎng zài zuǒbian, kāfēiguǎn duìmiàn."},
+      {"speaker": "B", "fr": "Tout droit, puis à droite. Merci beaucoup !", "en": "Straight ahead, then right. Thank you very much!", "km": "ទៅត្រង់ រួចបត់ស្តាំ។ អរគុណច្រើន!", "tr": "teuv trâng, rouotch bât sdam. â-koun tchraeun !",
+        "es": "Todo recto y luego a la derecha. ¡Muchas gracias!", "it": "Sempre dritto, poi a destra. Grazie mille!", "ru": "Прямо, потом направо. Большое спасибо!", "zh": "一直走，然后往右。非常感谢！", "zh_tr": "Yìzhí zǒu, ránhòu wǎng yòu. Fēicháng gǎnxiè!"},
+      {"speaker": "A", "fr": "De rien. Au revoir !", "en": "You're welcome. Goodbye!", "km": "មិនអីទេ។ លាសិនហើយ!", "tr": "min ey té. léa sen haeuy !",
+        "es": "De nada. ¡Adiós!", "it": "Prego. Arrivederci!", "ru": "Не за что. До свидания!", "zh": "不客气。再见！", "zh_tr": "Bú kèqi. Zàijiàn!"}
     ]
   },
   "comprehension": {

@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "nettoyer", "en": "to clean", "km": "សម្អាត", "tr": "sâm-at", "pos": "verbe",
+      "fr": "nettoyer", "en": "to clean", "km": "សម្អាត", "tr": "sâm-at",
+      "es": "limpiar", "it": "pulire", "ru": "убирать", "zh": "打扫", "zh_tr": "dǎsǎo", "pos": "verbe",
       "note": {
         "fr": "សម្អាត vient de ស្អាត (s'at), « propre » : mot à mot « rendre propre ».",
         "en": "សម្អាត comes from ស្អាត (s'at), “clean”: word for word “make clean”. French « nettoyer »: je nettoie.",
         "km": "« nettoyer »៖ je nettoie, nous nettoyons។ « faire le ménage » មានន័យថា សម្អាតផ្ទះទាំងមូល។ អង់គ្លេស៖ « to clean »។"
       },
-      "example": {"fr": "Je nettoie la salle de bain.", "en": "I'm cleaning the bathroom.", "km": "ខ្ញុំសម្អាតបន្ទប់ទឹក។", "tr": "khgnom sâm-at bân-toup teuk."}
+      "example": {"fr": "Je nettoie la salle de bain.", "en": "I'm cleaning the bathroom.", "km": "ខ្ញុំសម្អាតបន្ទប់ទឹក។", "tr": "khgnom sâm-at bân-toup teuk.",
+      "es": "Limpio el baño.", "it": "Pulisco il bagno.", "ru": "Я убираю ванную.", "zh": "我在打扫浴室。", "zh_tr": "Wǒ zài dǎsǎo yùshì."}
     },
     {
-      "fr": "faire la lessive", "en": "to do the laundry", "km": "បោកខោអាវ", "tr": "baok khao-av", "pos": "expression",
+      "fr": "faire la lessive", "en": "to do the laundry", "km": "បោកខោអាវ", "tr": "baok khao-av",
+      "es": "hacer la colada", "it": "fare il bucato", "ru": "стирать", "zh": "洗衣服", "zh_tr": "xǐ yīfu", "pos": "expression",
       "note": {
         "fr": "បោក (baok), « battre, laver le linge », suivi de ខោអាវ, les vêtements. La machine à laver se dit ម៉ាស៊ីនបោកខោអាវ.",
         "en": "បោក (baok), “to beat, to wash laundry”, followed by ខោអាវ, clothes. A washing machine is ម៉ាស៊ីនបោកខោអាវ. French « lessive » is both the laundry and the washing powder.",
         "km": "« la lessive » មានន័យថា ការបោកខោអាវ ឬម្សៅសាប៊ូបោកខោអាវ។ អង់គ្លេស៖ « to do the laundry »។"
       },
-      "example": {"fr": "Je fais la lessive le dimanche.", "en": "I do the laundry on Sundays.", "km": "ខ្ញុំបោកខោអាវនៅថ្ងៃអាទិត្យ។", "tr": "khgnom baok khao-av neuv thngay a-teut."}
+      "example": {"fr": "Je fais la lessive le dimanche.", "en": "I do the laundry on Sundays.", "km": "ខ្ញុំបោកខោអាវនៅថ្ងៃអាទិត្យ។", "tr": "khgnom baok khao-av neuv thngay a-teut.",
+      "es": "Hago la colada los domingos.", "it": "Faccio il bucato la domenica.", "ru": "Я стираю по воскресеньям.", "zh": "我星期天洗衣服。", "zh_tr": "Wǒ xīngqītiān xǐ yīfu."}
     },
     {
-      "fr": "balayer", "en": "to sweep", "km": "បោស", "tr": "baoh", "pos": "verbe",
+      "fr": "balayer", "en": "to sweep", "km": "បោស", "tr": "baoh",
+      "es": "barrer", "it": "spazzare", "ru": "подметать", "zh": "扫地", "zh_tr": "sǎodì", "pos": "verbe",
       "note": {
         "fr": "បោស ressemble à បោក : attention à la dernière consonne. Le balai se dit អំបោស (âm-baoh).",
         "en": "បោស looks like បោក: watch the last consonant. A broom is អំបោស (âm-baoh). French « balayer »: un balai is a broom.",
         "km": "« balayer »៖ je balaie, tu balaies។ « le balai » មានន័យថា អំបោស។ អង់គ្លេស៖ « to sweep », « broom »។"
       },
-      "example": {"fr": "Le matin, je balaie devant la maison.", "en": "In the morning, I sweep in front of the house.", "km": "ពេលព្រឹក ខ្ញុំបោសមុខផ្ទះ។", "tr": "pél preuk, khgnom baoh mouk phtéah."}
+      "example": {"fr": "Le matin, je balaie devant la maison.", "en": "In the morning, I sweep in front of the house.", "km": "ពេលព្រឹក ខ្ញុំបោសមុខផ្ទះ។", "tr": "pél preuk, khgnom baoh mouk phtéah.",
+      "es": "Por la mañana barro delante de la casa.", "it": "La mattina spazzo davanti a casa.", "ru": "Утром я подметаю перед домом.", "zh": "早上我在房子前面扫地。", "zh_tr": "Zǎoshang wǒ zài fángzi qiánmiàn sǎodì."}
     },
     {
-      "fr": "faire la vaisselle", "en": "to do the dishes", "km": "លាងចាន", "tr": "léang tchan", "pos": "expression",
+      "fr": "faire la vaisselle", "en": "to do the dishes", "km": "លាងចាន", "tr": "léang tchan",
+      "es": "fregar los platos", "it": "lavare i piatti", "ru": "мыть посуду", "zh": "洗碗", "zh_tr": "xǐ wǎn", "pos": "expression",
       "note": {
         "fr": "Mot à mot « laver les assiettes ». ចាន (tchan), l'assiette ou le bol, désigne toute la vaisselle.",
         "en": "Word for word “wash the plates”. ចាន (tchan), plate or bowl, covers all the dishes. French « vaisselle » is feminine and means all the crockery.",
         "km": "« la vaisselle » មានន័យថា ចានឆ្នាំងទាំងអស់។ « une assiette » គឺចានមួយ។ អង់គ្លេស៖ « to do the dishes »។"
       },
-      "example": {"fr": "Après le repas, je fais la vaisselle.", "en": "After the meal, I do the dishes.", "km": "ក្រោយញ៉ាំបាយ ខ្ញុំលាងចាន។", "tr": "kraoy gnam bay, khgnom léang tchan."}
+      "example": {"fr": "Après le repas, je fais la vaisselle.", "en": "After the meal, I do the dishes.", "km": "ក្រោយញ៉ាំបាយ ខ្ញុំលាងចាន។", "tr": "kraoy gnam bay, khgnom léang tchan.",
+      "es": "Después de comer, friego los platos.", "it": "Dopo il pasto lavo i piatti.", "ru": "После еды я мою посуду.", "zh": "吃完饭，我洗碗。", "zh_tr": "Chī wán fàn, wǒ xǐ wǎn."}
     },
     {
-      "fr": "sale", "en": "dirty", "km": "កខ្វក់", "tr": "kâ-khvâk", "pos": "adjectif",
+      "fr": "sale", "en": "dirty", "km": "កខ្វក់", "tr": "kâ-khvâk",
+      "es": "sucio", "it": "sporco", "ru": "грязный", "zh": "脏", "zh_tr": "zāng", "pos": "adjectif",
       "note": {
         "fr": "កខ្វក់ se dit d'un objet, d'une pièce ou de vêtements. Pour l'eau sale, on dit aussi ល្អក់ (l'âk), « trouble ».",
         "en": "កខ្វក់ is said of an object, a room or clothes. For dirty water, people also say ល្អក់ (l'âk), “murky”. French « sale » is the same for men and women.",
         "km": "« sale » មិនប្តូរតាមភេទទេ។ ប្រយ័ត្ន៖ « une salle » (ll) មានន័យថា បន្ទប់។ អង់គ្លេស៖ « dirty »។"
       },
-      "example": {"fr": "Mes chaussures sont sales.", "en": "My shoes are dirty.", "km": "ស្បែកជើងខ្ញុំកខ្វក់។", "tr": "sbaèk tcheung khgnom kâ-khvâk."}
+      "example": {"fr": "Mes chaussures sont sales.", "en": "My shoes are dirty.", "km": "ស្បែកជើងខ្ញុំកខ្វក់។", "tr": "sbaèk tcheung khgnom kâ-khvâk.",
+      "es": "Mis zapatos están sucios.", "it": "Le mie scarpe sono sporche.", "ru": "Мои ботинки грязные.", "zh": "我的鞋很脏。", "zh_tr": "Wǒ de xié hěn zāng."}
     },
     {
-      "fr": "propre", "en": "clean", "km": "ស្អាត", "tr": "s'at", "pos": "adjectif",
+      "fr": "propre", "en": "clean", "km": "ស្អាត", "tr": "s'at",
+      "es": "limpio", "it": "pulito", "ru": "чистый", "zh": "干净", "zh_tr": "gānjìng", "pos": "adjectif",
       "note": {
         "fr": "ស្អាត veut dire à la fois « propre » et « beau, joli ». Le contexte fait la différence.",
         "en": "ស្អាត means both “clean” and “beautiful, pretty”. The context tells them apart. French « propre » means “clean”, but before a noun it means “own”: ma propre maison.",
         "km": "« propre » មានន័យថា ស្អាត មិនកខ្វក់។ ពាក្យខ្មែរ ស្អាត ប្រែជា « beau » ក៏បាន។ អង់គ្លេស៖ « clean »។"
       },
-      "example": {"fr": "La maison est propre maintenant.", "en": "The house is clean now.", "km": "ឥឡូវផ្ទះស្អាតហើយ។", "tr": "ey-leuv phtéah s'at haeuy."}
+      "example": {"fr": "La maison est propre maintenant.", "en": "The house is clean now.", "km": "ឥឡូវផ្ទះស្អាតហើយ។", "tr": "ey-leuv phtéah s'at haeuy.",
+      "es": "Ahora la casa está limpia.", "it": "Adesso la casa è pulita.", "ru": "Теперь в доме чисто.", "zh": "现在房子很干净。", "zh_tr": "Xiànzài fángzi hěn gānjìng."}
     }
   ],
   "expressions": [
     {
       "fr": "C'est ton tour.", "en": "It's your turn.", "km": "ដល់វេនអ្នកហើយ។", "tr": "dâl vén néak haeuy.",
+      "es": "Te toca a ti.", "it": "Tocca a te.", "ru": "Твоя очередь.", "zh": "轮到你了。", "zh_tr": "Lún dào nǐ le.",
       "note": {
         "fr": "វេន (vén), « le tour ». Mot à mot « on est arrivé à ton tour ».",
         "en": "វេន (vén), “turn”. Word for word “it has come to your turn”. French « C'est ton tour » is familiar.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Je m'en occupe.", "en": "I'll take care of it.", "km": "ទុកឱ្យខ្ញុំធ្វើ។", "tr": "touk aoy khgnom thveu.",
+      "es": "Yo me encargo.", "it": "Ci penso io.", "ru": "Я займусь этим.", "zh": "我来吧。", "zh_tr": "Wǒ lái ba.",
       "note": {
         "fr": "Mot à mot « laisse-moi faire ». Formule serviable et très courante.",
         "en": "Word for word “leave it for me to do”. A helpful and very common phrase. French « s'occuper de » means “to take care of”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Tu peux étendre le linge ?", "en": "Can you hang out the laundry?", "km": "អាចហាលខោអាវបានទេ?", "tr": "atch hal khao-av ban té ?",
+      "es": "¿Puedes tender la ropa?", "it": "Puoi stendere il bucato?", "ru": "Можешь развесить бельё?", "zh": "你能把衣服晾一下吗？", "zh_tr": "Nǐ néng bǎ yīfu liàng yíxià ma?",
       "note": {
         "fr": "ហាល (hal), « exposer au soleil pour sécher ». Au Cambodge, le linge sèche vite au soleil.",
         "en": "ហាល (hal), “to put out in the sun to dry”. In Cambodia, washing dries fast in the sun. French « étendre le linge » means “to hang out the laundry”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "On partage le travail.", "en": "Let's share the work.", "km": "យើងចែកការងារគ្នា។", "tr": "yeung tchaèk ka-ngéa knéa.",
+      "es": "Nos repartimos el trabajo.", "it": "Dividiamoci il lavoro.", "ru": "Давай разделим работу.", "zh": "我们分工吧。", "zh_tr": "Wǒmen fēngōng ba.",
       "note": {
         "fr": "ចែក (tchaèk), « partager, distribuer », suivi de គ្នា, « entre nous ».",
         "en": "ចែក (tchaèk), “to share, to hand out”, followed by គ្នា, “between us”. French « partager » means “to share”.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Le samedi matin", "en": "Saturday morning", "km": "ព្រឹកថ្ងៃសៅរ៍"},
       "fr": "Le samedi matin, nous faisons le ménage ensemble.", "en": "On Saturday mornings, we do the housework together.",
-      "km": "ព្រឹកថ្ងៃសៅរ៍ យើងធ្វើការងារផ្ទះជាមួយគ្នា។", "tr": "preuk thngay sav, yeung thveu ka-ngéa phtéah tchéa-mouy knéa."
+      "km": "ព្រឹកថ្ងៃសៅរ៍ យើងធ្វើការងារផ្ទះជាមួយគ្នា។", "tr": "preuk thngay sav, yeung thveu ka-ngéa phtéah tchéa-mouy knéa.",
+      "es": "Los sábados por la mañana hacemos juntos las tareas de casa.", "it": "Il sabato mattina facciamo insieme le pulizie.", "ru": "По субботам утром мы вместе убираем дом.", "zh": "星期六上午我们一起做家务。", "zh_tr": "Xīngqīliù shàngwǔ wǒmen yìqǐ zuò jiāwù."
     },
     {
       "situation": {"fr": "À l'entrée de la maison", "en": "At the front door", "km": "នៅមាត់ទ្វារផ្ទះ"},
       "fr": "Tes chaussures sont sales, laisse-les devant la porte.", "en": "Your shoes are dirty, leave them in front of the door.",
-      "km": "ស្បែកជើងកខ្វក់ ទុកវានៅមុខទ្វារ។", "tr": "sbaèk tcheung kâ-khvâk, touk véa neuv mouk tvéa."
+      "km": "ស្បែកជើងកខ្វក់ ទុកវានៅមុខទ្វារ។", "tr": "sbaèk tcheung kâ-khvâk, touk véa neuv mouk tvéa.",
+      "es": "Tus zapatos están sucios, déjalos delante de la puerta.", "it": "Le tue scarpe sono sporche, lasciale davanti alla porta.", "ru": "У тебя грязные ботинки, оставь их у двери.", "zh": "你的鞋很脏，放在门口吧。", "zh_tr": "Nǐ de xié hěn zāng, fàng zài ménkǒu ba."
     },
     {
       "situation": {"fr": "Après le repas", "en": "After the meal", "km": "ក្រោយពេលញ៉ាំបាយ"},
       "fr": "Chez nous, celui qui cuisine ne fait pas la vaisselle.", "en": "In our home, whoever cooks doesn't do the dishes.",
-      "km": "នៅផ្ទះយើង អ្នកធ្វើម្ហូបមិនលាងចានទេ។", "tr": "neuv phtéah yeung, néak thveu mhôp min léang tchan té."
+      "km": "នៅផ្ទះយើង អ្នកធ្វើម្ហូបមិនលាងចានទេ។", "tr": "neuv phtéah yeung, néak thveu mhôp min léang tchan té.",
+      "es": "En casa, quien cocina no friega los platos.", "it": "Da noi chi cucina non lava i piatti.", "ru": "У нас кто готовит, тот не моет посуду.", "zh": "在我们家，做饭的人不洗碗。", "zh_tr": "Zài wǒmen jiā, zuò fàn de rén bù xǐ wǎn."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Un samedi matin, à la maison.", "en": "One Saturday morning, at home.", "km": "ព្រឹកថ្ងៃសៅរ៍មួយ នៅផ្ទះ។"},
     "lines": [
-      {"speaker": "B", "fr": "Samedi, c'est le jour du ménage !", "en": "Saturday is housework day!", "km": "ថ្ងៃសៅរ៍ ជាថ្ងៃធ្វើការងារផ្ទះ!", "tr": "thngay sav, tchéa thngay thveu ka-ngéa phtéah !"},
-      {"speaker": "A", "fr": "On partage le travail. Tu balaies, et moi, je fais la lessive ?", "en": "Let's share the work. You sweep, and I'll do the laundry?", "km": "យើងចែកការងារគ្នា។ {B} បោសផ្ទះ ហើយខ្ញុំបោកខោអាវ បានទេ?", "tr": "yeung tchaèk ka-ngéa knéa. {B} baoh phtéah, haeuy khgnom baok khao-av, ban té ?"},
-      {"speaker": "B", "fr": "D'accord. Et la vaisselle d'hier soir ?", "en": "Okay. And the dishes from last night?", "km": "បាន។ ចុះចានពីយប់មិញវិញ?", "tr": "ban. tchoh tchan pi youp mign vign ?"},
-      {"speaker": "A", "fr": "Hier, c'est moi qui ai cuisiné. Donc c'est ton tour !", "en": "Yesterday, I was the one who cooked. So it's your turn!", "km": "ម្សិលមិញ ខ្ញុំធ្វើម្ហូប។ អញ្ចឹងដល់វេន {B} ហើយ!", "tr": "msel-mign, khgnom thveu mhôp. agn-tcheung dâl vén {B} haeuy !"},
-      {"speaker": "B", "fr": "Bon, je m'en occupe. Il fait chaud, le linge va sécher vite.", "en": "Fine, I'll take care of it. It's hot, the laundry will dry quickly.", "km": "បានហើយ ទុកឱ្យខ្ញុំធ្វើ។ ថ្ងៃនេះក្តៅ ខោអាវឆាប់ស្ងួត។", "tr": "ban haeuy, touk aoy khgnom thveu. thngay nih kdav, khao-av tchhap sngouot."},
-      {"speaker": "A", "fr": "Super ! Après, la maison sera propre et on pourra se reposer.", "en": "Great! Afterwards, the house will be clean and we can rest.", "km": "ល្អណាស់! បន្ទាប់មក ផ្ទះនឹងស្អាត ហើយយើងអាចសម្រាកបាន។", "tr": "l'â nah ! bân-toap mok, phtéah neung s'at, haeuy yeung atch sâm-rak ban."}
+      {"speaker": "B", "fr": "Samedi, c'est le jour du ménage !", "en": "Saturday is housework day!", "km": "ថ្ងៃសៅរ៍ ជាថ្ងៃធ្វើការងារផ្ទះ!", "tr": "thngay sav, tchéa thngay thveu ka-ngéa phtéah !",
+        "es": "¡El sábado es el día de la limpieza!", "it": "Il sabato è il giorno delle pulizie!", "ru": "Суббота — день уборки!", "zh": "星期六是打扫的日子！", "zh_tr": "Xīngqīliù shì dǎsǎo de rìzi!"},
+      {"speaker": "A", "fr": "On partage le travail. Tu balaies, et moi, je fais la lessive ?", "en": "Let's share the work. You sweep, and I'll do the laundry?", "km": "យើងចែកការងារគ្នា។ {B} បោសផ្ទះ ហើយខ្ញុំបោកខោអាវ បានទេ?", "tr": "yeung tchaèk ka-ngéa knéa. {B} baoh phtéah, haeuy khgnom baok khao-av, ban té ?",
+        "es": "Nos repartimos el trabajo. ¿Tú barres y yo hago la colada?", "it": "Dividiamoci il lavoro. Tu spazzi e io faccio il bucato?", "ru": "Давай разделим работу. Ты подметаешь, а я стираю?", "zh": "我们分工吧。你扫地，我洗衣服，好吗？", "zh_tr": "Wǒmen fēngōng ba. Nǐ sǎodì, wǒ xǐ yīfu, hǎo ma?"},
+      {"speaker": "B", "fr": "D'accord. Et la vaisselle d'hier soir ?", "en": "Okay. And the dishes from last night?", "km": "បាន។ ចុះចានពីយប់មិញវិញ?", "tr": "ban. tchoh tchan pi youp mign vign ?",
+        "es": "Vale. ¿Y los platos de anoche?", "it": "D'accordo. E i piatti di ieri sera?", "ru": "Хорошо. А посуда со вчерашнего вечера?", "zh": "好。那昨天晚上的碗呢？", "zh_tr": "Hǎo. Nà zuótiān wǎnshang de wǎn ne?"},
+      {"speaker": "A", "fr": "Hier, c'est moi qui ai cuisiné. Donc c'est ton tour !", "en": "Yesterday, I was the one who cooked. So it's your turn!", "km": "ម្សិលមិញ ខ្ញុំធ្វើម្ហូប។ អញ្ចឹងដល់វេន {B} ហើយ!", "tr": "msel-mign, khgnom thveu mhôp. agn-tcheung dâl vén {B} haeuy !",
+        "es": "Ayer cociné yo. ¡Así que te toca a ti!", "it": "Ieri ho cucinato io. Quindi tocca a te!", "ru": "Вчера готовила я. Значит, твоя очередь!", "zh": "昨天是我做的饭。所以轮到你了！", "zh_tr": "Zuótiān shì wǒ zuò de fàn. Suǒyǐ lún dào nǐ le!"},
+      {"speaker": "B", "fr": "Bon, je m'en occupe. Il fait chaud, le linge va sécher vite.", "en": "Fine, I'll take care of it. It's hot, the laundry will dry quickly.", "km": "បានហើយ ទុកឱ្យខ្ញុំធ្វើ។ ថ្ងៃនេះក្តៅ ខោអាវឆាប់ស្ងួត។", "tr": "ban haeuy, touk aoy khgnom thveu. thngay nih kdav, khao-av tchhap sngouot.",
+        "es": "Bueno, yo me encargo. Hace calor, la ropa se secará rápido.", "it": "Va bene, ci penso io. Fa caldo, il bucato si asciugherà in fretta.", "ru": "Ладно, я займусь этим. Жарко, бельё быстро высохнет.", "zh": "好吧，我来洗。天很热，衣服很快就干了。", "zh_tr": "Hǎo ba, wǒ lái xǐ. Tiān hěn rè, yīfu hěn kuài jiù gān le."},
+      {"speaker": "A", "fr": "Super ! Après, la maison sera propre et on pourra se reposer.", "en": "Great! Afterwards, the house will be clean and we can rest.", "km": "ល្អណាស់! បន្ទាប់មក ផ្ទះនឹងស្អាត ហើយយើងអាចសម្រាកបាន។", "tr": "l'â nah ! bân-toap mok, phtéah neung s'at, haeuy yeung atch sâm-rak ban.",
+        "es": "¡Genial! Después, la casa estará limpia y podremos descansar.", "it": "Benissimo! Dopo la casa sarà pulita e potremo riposarci.", "ru": "Отлично! Потом в доме будет чисто, и мы сможем отдохнуть.", "zh": "太好了！做完以后房子就干净了，我们可以休息了。", "zh_tr": "Tài hǎo le! Zuò wán yǐhòu fángzi jiù gānjìng le, wǒmen kěyǐ xiūxi le."}
     ]
   },
   "comprehension": {

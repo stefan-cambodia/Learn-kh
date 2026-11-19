@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le temple", "en": "temple", "km": "ប្រាសាទ", "tr": "pra-sat", "pos": "nom",
+      "fr": "le temple", "en": "temple", "km": "ប្រាសាទ", "tr": "pra-sat",
+      "es": "el templo", "it": "il tempio", "ru": "храм", "zh": "寺庙", "zh_tr": "sìmiào", "pos": "nom",
       "note": {
         "fr": "ប្រាសាទ désigne les temples de pierre de l'époque angkorienne. On le voit sur le drapeau cambodgien.",
         "en": "ប្រាសាទ means the stone temples of the Angkor period. One appears on the Cambodian flag. French « temple » is masculine.",
         "km": "« temple » ជានាមភេទប្រុស៖ le temple d'Angkor។ អង់គ្លេស៖ « temple »។"
       },
-      "example": {"fr": "Nous visitons trois temples aujourd'hui.", "en": "We're visiting three temples today.", "km": "ថ្ងៃនេះ យើងទស្សនាប្រាសាទបី។", "tr": "thngay nih, yeung tos-sâ-na pra-sat bey."}
+      "example": {"fr": "Nous visitons trois temples aujourd'hui.", "en": "We're visiting three temples today.", "km": "ថ្ងៃនេះ យើងទស្សនាប្រាសាទបី។", "tr": "thngay nih, yeung tos-sâ-na pra-sat bey.",
+      "es": "Hoy visitamos tres templos.", "it": "Oggi visitiamo tre templi.", "ru": "Сегодня мы посетим три храма.", "zh": "今天我们参观三座寺庙。", "zh_tr": "Jīntiān wǒmen cānguān sān zuò sìmiào."}
     },
     {
-      "fr": "ancien", "en": "ancient", "km": "បុរាណ", "tr": "bo-ran", "pos": "adjectif",
+      "fr": "ancien", "en": "ancient", "km": "បុរាណ", "tr": "bo-ran",
+      "es": "antiguo", "it": "antico", "ru": "древний", "zh": "古老", "zh_tr": "gǔlǎo", "pos": "adjectif",
       "note": {
         "fr": "បុរាណ se dit de ce qui est très vieux et a de la valeur : ទីក្រុងបុរាណ, la cité ancienne. Pour un objet simplement usé, on dit ចាស់.",
         "en": "បុរាណ is said of what is very old and valuable: ទីក្រុងបុរាណ, the ancient city. For something merely worn, say ចាស់. French « ancien » becomes « ancienne » in the feminine.",
         "km": "« ancien » ភេទស្រីគឺ « ancienne »។ នៅមុននាម វាមានន័យថា អតីត៖ mon ancien travail។ អង់គ្លេស៖ « ancient », « old »។"
       },
-      "example": {"fr": "C'est une ville très ancienne.", "en": "It's a very ancient city.", "km": "ជាទីក្រុងបុរាណណាស់។", "tr": "tchéa ti-krong bo-ran nah."}
+      "example": {"fr": "C'est une ville très ancienne.", "en": "It's a very ancient city.", "km": "ជាទីក្រុងបុរាណណាស់។", "tr": "tchéa ti-krong bo-ran nah.",
+      "es": "Es una ciudad muy antigua.", "it": "È una città molto antica.", "ru": "Это очень древний город.", "zh": "这是一座很古老的城市。", "zh_tr": "Zhè shì yí zuò hěn gǔlǎo de chéngshì."}
     },
     {
-      "fr": "l'histoire", "en": "history", "km": "ប្រវត្តិសាស្ត្រ", "tr": "prâ-vat-te-sah", "pos": "nom",
+      "fr": "l'histoire", "en": "history", "km": "ប្រវត្តិសាស្ត្រ", "tr": "prâ-vat-te-sah",
+      "es": "la historia", "it": "la storia", "ru": "история", "zh": "历史", "zh_tr": "lìshǐ", "pos": "nom",
       "note": {
         "fr": "ប្រវត្តិ (prâ-vat), « le parcours », et សាស្ត្រ (sah), « la science ». Une histoire que l'on raconte se dit រឿង (reuang).",
         "en": "ប្រវត្តិ (prâ-vat), “course of events”, and សាស្ត្រ (sah), “science”. A story you tell is រឿង (reuang). French « histoire » means both history and story.",
         "km": "« histoire » មានន័យពីរ៖ ប្រវត្តិសាស្ត្រ និងរឿងនិទាន។ អង់គ្លេស៖ « history », « story »។"
       },
-      "example": {"fr": "J'aime l'histoire des rois khmers.", "en": "I like the history of the Khmer kings.", "km": "ខ្ញុំចូលចិត្តប្រវត្តិសាស្ត្រស្តេចខ្មែរ។", "tr": "khgnom tchôl tchet prâ-vat-te-sah sdetch khmaè."}
+      "example": {"fr": "J'aime l'histoire des rois khmers.", "en": "I like the history of the Khmer kings.", "km": "ខ្ញុំចូលចិត្តប្រវត្តិសាស្ត្រស្តេចខ្មែរ។", "tr": "khgnom tchôl tchet prâ-vat-te-sah sdetch khmaè.",
+      "es": "Me gusta la historia de los reyes jemeres.", "it": "Mi piace la storia dei re khmer.", "ru": "Мне нравится история кхмерских королей.", "zh": "我喜欢高棉国王的历史。", "zh_tr": "Wǒ xǐhuan Gāomián guówáng de lìshǐ."}
     },
     {
-      "fr": "le roi", "en": "king", "km": "ស្តេច", "tr": "sdetch", "pos": "nom",
+      "fr": "le roi", "en": "king", "km": "ស្តេច", "tr": "sdetch",
+      "es": "el rey", "it": "il re", "ru": "король", "zh": "国王", "zh_tr": "guówáng", "pos": "nom",
       "note": {
         "fr": "ស្តេច est le mot courant. Pour le roi actuel, on emploie la langue royale, plus respectueuse : ព្រះមហាក្សត្រ (préah mâ-ha-ksat).",
         "en": "ស្តេច is the everyday word. For the present king, the more respectful royal vocabulary is used: ព្រះមហាក្សត្រ (préah mâ-ha-ksat). French « roi » sounds like “rwa”; « la reine » is the queen.",
         "km": "« roi » ជានាមភេទប្រុស ហើយ « la reine » គឺមហាក្សត្រិយានី។ អង់គ្លេស៖ « king », « queen »។"
       },
-      "example": {"fr": "Le roi a construit ce temple.", "en": "The king built this temple.", "km": "ស្តេចបានសាងសង់ប្រាសាទនេះ។", "tr": "sdetch ban sang-sâng pra-sat nih."}
+      "example": {"fr": "Le roi a construit ce temple.", "en": "The king built this temple.", "km": "ស្តេចបានសាងសង់ប្រាសាទនេះ។", "tr": "sdetch ban sang-sâng pra-sat nih.",
+      "es": "El rey construyó este templo.", "it": "Il re ha costruito questo tempio.", "ru": "Король построил этот храм.", "zh": "这座寺庙是国王建的。", "zh_tr": "Zhè zuò sìmiào shì guówáng jiàn de."}
     },
     {
-      "fr": "la sculpture", "en": "carving", "km": "ចម្លាក់", "tr": "tchâm-lak", "pos": "nom",
+      "fr": "la sculpture", "en": "carving", "km": "ចម្លាក់", "tr": "tchâm-lak",
+      "es": "la escultura", "it": "la scultura", "ru": "резьба", "zh": "雕刻", "zh_tr": "diāokè", "pos": "nom",
       "note": {
         "fr": "ចម្លាក់ désigne les bas-reliefs et les sculptures. Ceux des danseuses célestes, les អប្សរា (âp-sâ-ra), couvrent les murs d'Angkor.",
         "en": "ចម្លាក់ means bas-reliefs and carvings. Those of celestial dancers, the អប្សរា (âp-sâ-ra), cover the walls of Angkor. French « sculpture »: the p is silent.",
         "km": "« sculpture » ជានាមភេទស្រី ហើយ p មិនអានទេ៖ la sculpture។ អង់គ្លេស៖ « sculpture », « carving »។"
       },
-      "example": {"fr": "Ces sculptures sont très anciennes.", "en": "These carvings are very old.", "km": "ចម្លាក់ទាំងនេះចាស់បុរាណណាស់។", "tr": "tchâm-lak téang nih tchah bo-ran nah."}
+      "example": {"fr": "Ces sculptures sont très anciennes.", "en": "These carvings are very old.", "km": "ចម្លាក់ទាំងនេះចាស់បុរាណណាស់។", "tr": "tchâm-lak téang nih tchah bo-ran nah.",
+      "es": "Estas esculturas son muy antiguas.", "it": "Queste sculture sono antichissime.", "ru": "Эти барельефы очень древние.", "zh": "这些雕刻非常古老。", "zh_tr": "Zhèxiē diāokè fēicháng gǔlǎo."}
     },
     {
-      "fr": "le siècle", "en": "century", "km": "សតវត្សរ៍", "tr": "sâ-ta-voat", "pos": "nom",
+      "fr": "le siècle", "en": "century", "km": "សតវត្សរ៍", "tr": "sâ-ta-voat",
+      "es": "el siglo", "it": "il secolo", "ru": "век", "zh": "世纪", "zh_tr": "shìjì", "pos": "nom",
       "note": {
         "fr": "On compte les siècles avec ទី : សតវត្សរ៍ទីដប់ពីរ, le douzième siècle. Le signe ៍ final marque des lettres muettes.",
         "en": "Centuries are counted with ទី: សតវត្សរ៍ទីដប់ពីរ, the twelfth century. The final sign ៍ marks silent letters. French « siècle » is masculine and often written in Roman numerals.",
         "km": "« siècle » ជានាមភេទប្រុស៖ le douzième siècle, le XIIe siècle។ អង់គ្លេស៖ « century »។"
       },
-      "example": {"fr": "Angkor Vat date du douzième siècle.", "en": "Angkor Wat dates from the twelfth century.", "km": "អង្គរវត្តសាងសង់នៅសតវត្សរ៍ទីដប់ពីរ។", "tr": "âng-kô voat sang-sâng neuv sâ-ta-voat ti dâp-pi."}
+      "example": {"fr": "Angkor Vat date du douzième siècle.", "en": "Angkor Wat dates from the twelfth century.", "km": "អង្គរវត្តសាងសង់នៅសតវត្សរ៍ទីដប់ពីរ។", "tr": "âng-kô voat sang-sâng neuv sâ-ta-voat ti dâp-pi.",
+      "es": "Angkor Wat data del siglo doce.", "it": "Angkor Wat risale al dodicesimo secolo.", "ru": "Ангкор-Ват построен в двенадцатом веке.", "zh": "吴哥窟建于十二世纪。", "zh_tr": "Wúgē Kū jiàn yú shí'èr shìjì."}
     }
   ],
   "expressions": [
     {
       "fr": "Il a été construit quand ?", "en": "When was it built?", "km": "សាងសង់នៅពេលណា?", "tr": "sang-sâng neuv pél na ?",
+      "es": "¿Cuándo se construyó?", "it": "Quando è stato costruito?", "ru": "Когда его построили?", "zh": "它是什么时候建的？", "zh_tr": "Tā shì shénme shíhou jiàn de?",
       "note": {
         "fr": "Le khmer n'a pas besoin de passif : សាងសង់, « construire », reste tel quel.",
         "en": "Khmer needs no passive: សាងសង់, “to build”, stays as it is. French uses the passive: il a été construit.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "On peut prendre des photos ?", "en": "Can we take photos?", "km": "ថតរូបបានទេ?", "tr": "thât roup ban té ?",
+      "es": "¿Se pueden hacer fotos?", "it": "Si possono fare foto?", "ru": "Можно фотографировать?", "zh": "可以拍照吗？", "zh_tr": "Kěyǐ pāizhào ma?",
       "note": {
         "fr": "Verbe + បានទេ? demande une permission. Dans certains sanctuaires, les photos sont interdites.",
         "en": "Verb + បានទេ? asks for permission. In some sanctuaries, photos are not allowed. French « On peut… ? » means “Can we…?”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Il faut enlever ses chaussures ?", "en": "Do we have to take off our shoes?", "km": "ត្រូវដោះស្បែកជើងទេ?", "tr": "treuv doh sbaèk tcheung té ?",
+      "es": "¿Hay que quitarse los zapatos?", "it": "Bisogna togliersi le scarpe?", "ru": "Нужно снимать обувь?", "zh": "要脱鞋吗？", "zh_tr": "Yào tuō xié ma?",
       "note": {
         "fr": "ត្រូវ, « devoir, il faut ». Dans une pagode, on se déchausse toujours avant d'entrer dans le sanctuaire.",
         "en": "ត្រូវ, “must, have to”. In a pagoda, you always take off your shoes before entering the sanctuary. French « il faut » means “one must”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "On se lève tôt pour voir le lever du soleil.", "en": "Let's get up early to see the sunrise.", "km": "ក្រោកពីព្រលឹមមើលថ្ងៃរះ។", "tr": "kraok pi pro-leum meul thngay reah.",
+      "es": "Nos levantamos temprano para ver el amanecer.", "it": "Ci alziamo presto per vedere l'alba.", "ru": "Встанем пораньше, чтобы увидеть рассвет.", "zh": "我们早点儿起床去看日出。", "zh_tr": "Wǒmen zǎo diǎnr qǐchuáng qù kàn rìchū.",
       "note": {
         "fr": "ថ្ងៃរះ (thngay reah), « le soleil se lève ». Le coucher du soleil se dit ថ្ងៃលិច (thngay letch).",
         "en": "ថ្ងៃរះ (thngay reah), “the sun rises”. Sunset is ថ្ងៃលិច (thngay letch). French « le lever du soleil » is the sunrise, « le coucher du soleil » the sunset.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "À Siem Reap", "en": "In Siem Reap", "km": "នៅសៀមរាប"},
       "fr": "Angkor Vat est le plus grand temple du monde.", "en": "Angkor Wat is the largest temple in the world.",
-      "km": "អង្គរវត្តជាប្រាសាទធំជាងគេលើលោក។", "tr": "âng-kô voat tchéa pra-sat thom tchéang ké leu lok."
+      "km": "អង្គរវត្តជាប្រាសាទធំជាងគេលើលោក។", "tr": "âng-kô voat tchéa pra-sat thom tchéang ké leu lok.",
+      "es": "Angkor Wat es el templo más grande del mundo.", "it": "Angkor Wat è il tempio più grande del mondo.", "ru": "Ангкор-Ват — самый большой храм в мире.", "zh": "吴哥窟是世界上最大的寺庙。", "zh_tr": "Wúgē Kū shì shìjiè shang zuì dà de sìmiào."
     },
     {
       "situation": {"fr": "À l'école", "en": "At school", "km": "នៅសាលារៀន"},
       "fr": "Les enfants apprennent l'histoire du Cambodge.", "en": "The children are learning the history of Cambodia.",
-      "km": "ក្មេងៗរៀនប្រវត្តិសាស្ត្រកម្ពុជា។", "tr": "kméng-kméng rien prâ-vat-te-sah kam-pou-tchéa."
+      "km": "ក្មេងៗរៀនប្រវត្តិសាស្ត្រកម្ពុជា។", "tr": "kméng-kméng rien prâ-vat-te-sah kam-pou-tchéa.",
+      "es": "Los niños aprenden la historia de Camboya.", "it": "I bambini imparano la storia della Cambogia.", "ru": "Дети изучают историю Камбоджи.", "zh": "孩子们在学柬埔寨的历史。", "zh_tr": "Háizimen zài xué Jiǎnpǔzhài de lìshǐ."
     },
     {
       "situation": {"fr": "Au musée", "en": "At the museum", "km": "នៅសារមន្ទីរ"},
       "fr": "Le musée national se trouve près du palais royal.", "en": "The national museum is near the royal palace.",
-      "km": "សារមន្ទីរជាតិនៅជិតព្រះបរមរាជវាំង។", "tr": "sa-ra-mon-ti tchéat neuv tchit préah bâ-rom réach-véang."
+      "km": "សារមន្ទីរជាតិនៅជិតព្រះបរមរាជវាំង។", "tr": "sa-ra-mon-ti tchéat neuv tchit préah bâ-rom réach-véang.",
+      "es": "El museo nacional está cerca del palacio real.", "it": "Il museo nazionale si trova vicino al palazzo reale.", "ru": "Национальный музей находится рядом с королевским дворцом.", "zh": "国家博物馆在王宫附近。", "zh_tr": "Guójiā bówùguǎn zài wánggōng fùjìn."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} et {B} visitent Angkor Vat très tôt le matin.", "en": "{A} and {B} are visiting Angkor Wat very early in the morning.", "km": "{A} និង {B} ទស្សនាអង្គរវត្តតាំងពីព្រលឹម។"},
     "lines": [
-      {"speaker": "B", "fr": "C'est magnifique ! Il a été construit quand ?", "en": "It's magnificent! When was it built?", "km": "ស្អាតខ្លាំងណាស់! សាងសង់នៅពេលណា?", "tr": "s'at khlang nah ! sang-sâng neuv pél na ?"},
-      {"speaker": "A", "fr": "Au douzième siècle, par un célèbre roi khmer.", "en": "In the twelfth century, by a famous Khmer king.", "km": "នៅសតវត្សរ៍ទីដប់ពីរ ដោយស្តេចខ្មែរដ៏ល្បីមួយអង្គ។", "tr": "neuv sâ-ta-voat ti dâp-pi, daoy sdetch khmaè dâ lbey mouy âng."},
-      {"speaker": "B", "fr": "On peut prendre des photos ?", "en": "Can we take photos?", "km": "ថតរូបបានទេ?", "tr": "thât roup ban té ?"},
-      {"speaker": "A", "fr": "Oui, mais demande toujours avant de photographier un moine.", "en": "Yes, but always ask before photographing a monk.", "km": "បាន ប៉ុន្តែត្រូវសុំជានិច្ច មុនថតរូបព្រះសង្ឃ។", "tr": "ban, pon-taè treuv som tchéa-netch, moun thât roup préah sâng."},
-      {"speaker": "B", "fr": "Regarde ces sculptures d'apsaras sur les murs !", "en": "Look at these apsara carvings on the walls!", "km": "មើលចម្លាក់អប្សរាទាំងនេះនៅលើជញ្ជាំង!", "tr": "meul tchâm-lak âp-sâ-ra téang nih neuv leu tchum-tcheang !"},
-      {"speaker": "A", "fr": "Elles ont presque neuf cents ans.", "en": "They are almost nine hundred years old.", "km": "វាមានអាយុជិតប្រាំបួនរយឆ្នាំហើយ។", "tr": "véa méan a-you tchit pram-bouon roy tchhnam haeuy."}
+      {"speaker": "B", "fr": "C'est magnifique ! Il a été construit quand ?", "en": "It's magnificent! When was it built?", "km": "ស្អាតខ្លាំងណាស់! សាងសង់នៅពេលណា?", "tr": "s'at khlang nah ! sang-sâng neuv pél na ?",
+        "es": "¡Es magnífico! ¿Cuándo se construyó?", "it": "È magnifico! Quando è stato costruito?", "ru": "Великолепно! Когда его построили?", "zh": "太壮观了！它是什么时候建的？", "zh_tr": "Tài zhuàngguān le! Tā shì shénme shíhou jiàn de?"},
+      {"speaker": "A", "fr": "Au douzième siècle, par un célèbre roi khmer.", "en": "In the twelfth century, by a famous Khmer king.", "km": "នៅសតវត្សរ៍ទីដប់ពីរ ដោយស្តេចខ្មែរដ៏ល្បីមួយអង្គ។", "tr": "neuv sâ-ta-voat ti dâp-pi, daoy sdetch khmaè dâ lbey mouy âng.",
+        "es": "En el siglo doce, por un famoso rey jemer.", "it": "Nel dodicesimo secolo, da un famoso re khmer.", "ru": "В двенадцатом веке, его построил знаменитый кхмерский король.", "zh": "十二世纪，是一位有名的高棉国王建的。", "zh_tr": "Shí'èr shìjì, shì yí wèi yǒumíng de Gāomián guówáng jiàn de."},
+      {"speaker": "B", "fr": "On peut prendre des photos ?", "en": "Can we take photos?", "km": "ថតរូបបានទេ?", "tr": "thât roup ban té ?",
+        "es": "¿Se pueden hacer fotos?", "it": "Si possono fare foto?", "ru": "Можно фотографировать?", "zh": "可以拍照吗？", "zh_tr": "Kěyǐ pāizhào ma?"},
+      {"speaker": "A", "fr": "Oui, mais demande toujours avant de photographier un moine.", "en": "Yes, but always ask before photographing a monk.", "km": "បាន ប៉ុន្តែត្រូវសុំជានិច្ច មុនថតរូបព្រះសង្ឃ។", "tr": "ban, pon-taè treuv som tchéa-netch, moun thât roup préah sâng.",
+        "es": "Sí, pero pregunta siempre antes de fotografiar a un monje.", "it": "Sì, ma chiedi sempre prima di fotografare un monaco.", "ru": "Да, но всегда спрашивай, прежде чем фотографировать монаха.", "zh": "可以，不过给僧人拍照以前，一定要先问一下。", "zh_tr": "Kěyǐ, búguò gěi sēngrén pāizhào yǐqián, yídìng yào xiān wèn yíxià."},
+      {"speaker": "B", "fr": "Regarde ces sculptures d'apsaras sur les murs !", "en": "Look at these apsara carvings on the walls!", "km": "មើលចម្លាក់អប្សរាទាំងនេះនៅលើជញ្ជាំង!", "tr": "meul tchâm-lak âp-sâ-ra téang nih neuv leu tchum-tcheang !",
+        "es": "¡Mira estas esculturas de apsaras en los muros!", "it": "Guarda queste sculture di apsara sui muri!", "ru": "Посмотри на эти барельефы апсар на стенах!", "zh": "你看墙上这些仙女雕刻！", "zh_tr": "Nǐ kàn qiáng shang zhèxiē xiānnǚ diāokè!"},
+      {"speaker": "A", "fr": "Elles ont presque neuf cents ans.", "en": "They are almost nine hundred years old.", "km": "វាមានអាយុជិតប្រាំបួនរយឆ្នាំហើយ។", "tr": "véa méan a-you tchit pram-bouon roy tchhnam haeuy.",
+        "es": "Tienen casi novecientos años.", "it": "Hanno quasi novecento anni.", "ru": "Им почти девятьсот лет.", "zh": "它们差不多有九百年了。", "zh_tr": "Tāmen chàbuduō yǒu jiǔbǎi nián le."}
     ]
   },
   "comprehension": {

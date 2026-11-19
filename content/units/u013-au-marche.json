@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le marché", "en": "market", "km": "ផ្សារ", "tr": "phsa", "pos": "nom",
+      "fr": "le marché", "en": "market", "km": "ផ្សារ", "tr": "phsa",
+      "es": "el mercado", "it": "il mercato", "ru": "рынок", "zh": "市场", "zh_tr": "shìchǎng", "pos": "nom",
       "note": {
         "fr": "Le រ final ne se prononce pas. « Aller au marché » se dit ទៅផ្សារ, sans préposition.",
         "en": "The final រ is silent. “Go to the market” is ទៅផ្សារ, with no preposition. French « marché » is masculine; « bon marché » means “cheap”.",
         "km": "« marché » ជានាមភេទប្រុស៖ le marché។ « aller au marché » មានន័យថា ទៅផ្សារ។ អង់គ្លេស៖ « market »។"
       },
-      "example": {"fr": "Ma mère va au marché tous les jours.", "en": "My mother goes to the market every day.", "km": "ម្តាយខ្ញុំទៅផ្សាររាល់ថ្ងៃ។", "tr": "mday khgnom teuv phsa roal thngay."}
+      "example": {"fr": "Ma mère va au marché tous les jours.", "en": "My mother goes to the market every day.", "km": "ម្តាយខ្ញុំទៅផ្សាររាល់ថ្ងៃ។", "tr": "mday khgnom teuv phsa roal thngay.",
+      "es": "Mi madre va al mercado todos los días.", "it": "Mia madre va al mercato tutti i giorni.", "ru": "Моя мама ходит на рынок каждый день.", "zh": "我妈妈每天去市场。", "zh_tr": "Wǒ māma měitiān qù shìchǎng."}
     },
     {
-      "fr": "acheter", "en": "to buy", "km": "ទិញ", "tr": "tign", "pos": "verbe",
+      "fr": "acheter", "en": "to buy", "km": "ទិញ", "tr": "tign",
+      "es": "comprar", "it": "comprare", "ru": "покупать", "zh": "买", "zh_tr": "mǎi", "pos": "verbe",
       "note": {
         "fr": "Verbe invariable. Attention : le riz cru que l'on achète se dit អង្ករ (âng-kâ) ; បាយ, c'est le riz cuit.",
         "en": "The verb never changes. Note: the uncooked rice you buy is អង្ករ (âng-kâ); បាយ is cooked rice. French « acheter »: j'achète, with a grave accent.",
         "km": "កិរិយាសព្ទ « acheter » ប្តូររូបតាមប្រធាន៖ j'achète, nous achetons។ អង់គ្លេស៖ « buy » ហើយអតីតកាលគឺ « bought »។"
       },
-      "example": {"fr": "Je veux acheter du riz.", "en": "I want to buy some rice.", "km": "ខ្ញុំចង់ទិញអង្ករ។", "tr": "khgnom tchâng tign âng-kâ."}
+      "example": {"fr": "Je veux acheter du riz.", "en": "I want to buy some rice.", "km": "ខ្ញុំចង់ទិញអង្ករ។", "tr": "khgnom tchâng tign âng-kâ.",
+      "es": "Quiero comprar arroz.", "it": "Voglio comprare del riso.", "ru": "Я хочу купить рис.", "zh": "我想买大米。", "zh_tr": "Wǒ xiǎng mǎi dàmǐ."}
     },
     {
-      "fr": "vendre", "en": "to sell", "km": "លក់", "tr": "lok", "pos": "verbe",
+      "fr": "vendre", "en": "to sell", "km": "លក់", "tr": "lok",
+      "es": "vender", "it": "vendere", "ru": "продавать", "zh": "卖", "zh_tr": "mài", "pos": "verbe",
       "note": {
         "fr": "មានលក់…ទេ? = « vous vendez… ? », mot à mot « il y a à vendre… ? ». Réponse négative : អត់មានទេ (ât méan té), « il n'y en a pas ».",
         "en": "មានលក់…ទេ? = “do you sell…?”, word for word “is there for sale…?”. Negative answer: អត់មានទេ (ât méan té), “there isn't any”. French « vendre »: je vends.",
         "km": "« vendre »៖ je vends, nous vendons។ អ្នកលក់ហៅថា « le vendeur » ឬ « la vendeuse »។ អង់គ្លេស៖ « sell »។"
       },
-      "example": {"fr": "Vous vendez du café ?", "en": "Do you sell coffee?", "km": "មានលក់កាហ្វេទេ?", "tr": "méan lok ka-fé té ?"}
+      "example": {"fr": "Vous vendez du café ?", "en": "Do you sell coffee?", "km": "មានលក់កាហ្វេទេ?", "tr": "méan lok ka-fé té ?",
+      "es": "¿Vende café?", "it": "Vende caffè?", "ru": "Вы продаёте кофе?", "zh": "您卖咖啡吗？", "zh_tr": "Nín mài kāfēi ma?"}
     },
     {
-      "fr": "le prix", "en": "price", "km": "តម្លៃ", "tr": "dâm-lay", "pos": "nom",
+      "fr": "le prix", "en": "price", "km": "តម្លៃ", "tr": "dâm-lay",
+      "es": "el precio", "it": "il prezzo", "ru": "цена", "zh": "价格", "zh_tr": "jiàgé", "pos": "nom",
       "note": {
         "fr": "តម្លៃ est le nom « prix ». À l'oral, on demande plus souvent ថ្លៃប៉ុន្មាន? que តម្លៃប៉ុន្មាន?",
         "en": "តម្លៃ is the noun “price”. In speech, people more often ask ថ្លៃប៉ុន្មាន? than តម្លៃប៉ុន្មាន? French « prix » is masculine and the x is silent.",
         "km": "« prix » ជានាមភេទប្រុស អក្សរ x ចុងពាក្យមិនអានទេ៖ le prix។ អង់គ្លេស៖ « price »។"
       },
-      "example": {"fr": "Quel est le prix de ce café ?", "en": "What is the price of this coffee?", "km": "កាហ្វេនេះតម្លៃប៉ុន្មាន?", "tr": "ka-fé nih dâm-lay pon-man ?"}
+      "example": {"fr": "Quel est le prix de ce café ?", "en": "What is the price of this coffee?", "km": "កាហ្វេនេះតម្លៃប៉ុន្មាន?", "tr": "ka-fé nih dâm-lay pon-man ?",
+      "es": "¿Cuál es el precio de este café?", "it": "Qual è il prezzo di questo caffè?", "ru": "Какая цена у этого кофе?", "zh": "这种咖啡多少钱？", "zh_tr": "Zhè zhǒng kāfēi duōshao qián?"}
     },
     {
-      "fr": "cher", "en": "expensive", "km": "ថ្លៃ", "tr": "thlay", "pos": "adjectif",
+      "fr": "cher", "en": "expensive", "km": "ថ្លៃ", "tr": "thlay",
+      "es": "caro", "it": "caro", "ru": "дорогой", "zh": "贵", "zh_tr": "guì", "pos": "adjectif",
       "note": {
         "fr": "ថ្លៃ veut dire à la fois « cher » et « coûter ». ថ្លៃពេក = « trop cher » ; មិនថ្លៃទេ = « pas cher ».",
         "en": "ថ្លៃ means both “expensive” and “to cost”. ថ្លៃពេក = “too expensive”; មិនថ្លៃទេ = “not expensive”. French: « cher », feminine « chère », same sound.",
         "km": "« cher » (ភេទប្រុស) និង « chère » (ភេទស្រី) អានដូចគ្នា។ « trop cher » មានន័យថា ថ្លៃពេក។ អង់គ្លេស៖ « expensive »។"
       },
-      "example": {"fr": "C'est trop cher !", "en": "It is too expensive!", "km": "ថ្លៃពេក!", "tr": "thlay pék !"}
+      "example": {"fr": "C'est trop cher !", "en": "It is too expensive!", "km": "ថ្លៃពេក!", "tr": "thlay pék !",
+      "es": "¡Es demasiado caro!", "it": "È troppo caro!", "ru": "Это слишком дорого!", "zh": "太贵了！", "zh_tr": "Tài guì le!"}
     },
     {
-      "fr": "bon marché", "en": "cheap", "km": "ថោក", "tr": "thaok", "pos": "adjectif",
+      "fr": "bon marché", "en": "cheap", "km": "ថោក", "tr": "thaok",
+      "es": "barato", "it": "economico", "ru": "дешёвый", "zh": "便宜", "zh_tr": "piányi", "pos": "adjectif",
       "note": {
         "fr": "Le contraire de ថ្លៃ. Pour comparer, on ajoute ជាង (tchéang) : ថោកជាង, « moins cher ».",
         "en": "The opposite of ថ្លៃ. To compare, add ជាង (tchéang): ថោកជាង, “cheaper”. French « bon marché » never changes; « pas cher » is more common.",
         "km": "« bon marché » មិនប្តូររូបតាមភេទទេ។ ពេលនិយាយ គេច្រើនប្រើ « pas cher »។ អង់គ្លេស៖ « cheap »។"
       },
-      "example": {"fr": "Ici, le café est très bon marché.", "en": "Coffee is very cheap here.", "km": "កាហ្វេនៅទីនេះថោកណាស់។", "tr": "ka-fé neuv ti-nih thaok nah."}
+      "example": {"fr": "Ici, le café est très bon marché.", "en": "Coffee is very cheap here.", "km": "កាហ្វេនៅទីនេះថោកណាស់។", "tr": "ka-fé neuv ti-nih thaok nah.",
+      "es": "Aquí el café es muy barato.", "it": "Qui il caffè è molto economico.", "ru": "Здесь кофе очень дешёвый.", "zh": "这里的咖啡很便宜。", "zh_tr": "Zhèlǐ de kāfēi hěn piányi."}
     }
   ],
   "expressions": [
     {
       "fr": "Combien coûte un kilo ?", "en": "How much is one kilo?", "km": "មួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "mouy ki-lô thlay pon-man ?",
+      "es": "¿Cuánto cuesta un kilo?", "it": "Quanto costa un chilo?", "ru": "Сколько стоит килограмм?", "zh": "一公斤多少钱？", "zh_tr": "Yì gōngjīn duōshao qián?",
       "note": {
         "fr": "Mot à mot « un kilo coûte combien ? » : le mot interrogatif ប៉ុន្មាន reste à la fin de la phrase.",
         "en": "Word for word “one kilo costs how much?”: the question word ប៉ុន្មាន stays at the end.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Vous pouvez baisser un peu le prix ?", "en": "Can you lower the price a little?", "km": "ចុះថ្លៃបន្តិចបានទេ?", "tr": "tchoh thlay bân-tetch ban té ?",
+      "es": "¿Me puede bajar un poco el precio?", "it": "Può abbassare un po' il prezzo?", "ru": "Можете немного уступить?", "zh": "能便宜一点儿吗？", "zh_tr": "Néng piányi yìdiǎnr ma?",
       "note": {
         "fr": "ចុះថ្លៃ = « baisser le prix ». បានទេ? en fin de phrase demande « est-ce possible ? » : c'est la façon polie de demander un service.",
         "en": "ចុះថ្លៃ = “lower the price”. បានទេ? at the end asks “is it possible?”: the polite way to ask a favour.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Je le prends.", "en": "I'll take it.", "km": "ខ្ញុំយកមួយនេះ។", "tr": "khgnom yok mouy nih.",
+      "es": "Me lo llevo.", "it": "Lo prendo.", "ru": "Я беру.", "zh": "我要了。", "zh_tr": "Wǒ yào le.",
       "note": {
         "fr": "យក (yok) = « prendre » ; មួយនេះ = « celui-ci ».",
         "en": "យក (yok) = “to take”; មួយនេះ = “this one”. In French, « le » refers back to the thing: je le prends.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Ça fait combien en tout ?", "en": "How much is it altogether?", "km": "ទាំងអស់ថ្លៃប៉ុន្មាន?", "tr": "téang âh thlay pon-man ?",
+      "es": "¿Cuánto es en total?", "it": "Quanto fa in tutto?", "ru": "Сколько всего?", "zh": "一共多少钱？", "zh_tr": "Yígòng duōshao qián?",
       "note": {
         "fr": "ទាំងអស់ (téang âh) = « tout, en tout ».",
         "en": "ទាំងអស់ (téang âh) = “all, altogether”. French « en tout » means “in total”.",
@@ -103,17 +119,20 @@
     {
       "situation": {"fr": "Demander le prix", "en": "Asking the price", "km": "ពេលសួរតម្លៃ"},
       "fr": "Bonjour, vous vendez du riz ? C'est combien le kilo ?", "en": "Hello, do you sell rice? How much is a kilo?",
-      "km": "សួស្តី មានលក់អង្ករទេ? មួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "souos-dey, méan lok âng-kâ té ? mouy ki-lô thlay pon-man ?"
+      "km": "សួស្តី មានលក់អង្ករទេ? មួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "souos-dey, méan lok âng-kâ té ? mouy ki-lô thlay pon-man ?",
+      "es": "Hola, ¿vende arroz? ¿Cuánto cuesta el kilo?", "it": "Buongiorno, vende riso? Quanto costa al chilo?", "ru": "Здравствуйте, вы продаёте рис? Сколько стоит килограмм?", "zh": "你好，您卖大米吗？一公斤多少钱？", "zh_tr": "Nǐ hǎo, nín mài dàmǐ ma? Yì gōngjīn duōshao qián?"
     },
     {
       "situation": {"fr": "Marchander", "en": "Bargaining", "km": "ពេលតថ្លៃ"},
       "fr": "C'est trop cher, vous pouvez baisser un peu ?", "en": "It is too expensive, can you lower it a little?",
-      "km": "ថ្លៃពេក ចុះបន្តិចបានទេ?", "tr": "thlay pék, tchoh bân-tetch ban té ?"
+      "km": "ថ្លៃពេក ចុះបន្តិចបានទេ?", "tr": "thlay pék, tchoh bân-tetch ban té ?",
+      "es": "Es demasiado caro, ¿puede bajarlo un poco?", "it": "È troppo caro, può abbassarlo un po'?", "ru": "Это слишком дорого, можете немного уступить?", "zh": "太贵了，能便宜一点儿吗？", "zh_tr": "Tài guì le, néng piányi yìdiǎnr ma?"
     },
     {
       "situation": {"fr": "Prévoir les courses", "en": "Planning the shopping", "km": "ពេលគ្រោងទៅផ្សារ"},
       "fr": "Demain matin, nous allons au marché pour acheter du riz et du café.", "en": "Tomorrow morning, we are going to the market to buy rice and coffee.",
-      "km": "ព្រឹកស្អែក យើងទៅផ្សារទិញអង្ករ និងកាហ្វេ។", "tr": "preuk s'aèk, yeung teuv phsa tign âng-kâ ning ka-fé."
+      "km": "ព្រឹកស្អែក យើងទៅផ្សារទិញអង្ករ និងកាហ្វេ។", "tr": "preuk s'aèk, yeung teuv phsa tign âng-kâ ning ka-fé.",
+      "es": "Mañana por la mañana vamos al mercado a comprar arroz y café.", "it": "Domani mattina andiamo al mercato a comprare riso e caffè.", "ru": "Завтра утром мы пойдём на рынок купить рис и кофе.", "zh": "明天早上我们去市场买大米和咖啡。", "zh_tr": "Míngtiān zǎoshang wǒmen qù shìchǎng mǎi dàmǐ hé kāfēi."
     }
   ],
   "dialogue": {
@@ -123,12 +142,18 @@
       "km": "លេងតួនៅផ្សារ៖ {A} លក់កាហ្វេ ហើយ {B} ចង់ទិញ។"
     },
     "lines": [
-      {"speaker": "B", "fr": "Bonjour ! Combien coûte un kilo de café ?", "en": "Hello! How much is one kilo of coffee?", "km": "សួស្តី! កាហ្វេមួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "souos-dey ! ka-fé mouy ki-lô thlay pon-man ?"},
-      {"speaker": "A", "fr": "Dix dollars le kilo.", "en": "Ten dollars a kilo.", "km": "មួយគីឡូដប់ដុល្លារ។", "tr": "mouy ki-lô dâp dol-la."},
-      {"speaker": "B", "fr": "C'est trop cher ! Vous pouvez baisser un peu le prix ?", "en": "It is too expensive! Can you lower the price a little?", "km": "ថ្លៃពេក! ចុះថ្លៃបន្តិចបានទេ?", "tr": "thlay pék ! tchoh thlay bân-tetch ban té ?"},
-      {"speaker": "A", "fr": "D'accord, huit dollars. Ce n'est pas cher !", "en": "Okay, eight dollars. That is not expensive!", "km": "បាន ប្រាំបីដុល្លារ។ មិនថ្លៃទេ!", "tr": "ban, pram-bey dol-la. min thlay té !"},
-      {"speaker": "B", "fr": "D'accord, j'achète un kilo.", "en": "Okay, I'll buy one kilo.", "km": "បាន ខ្ញុំទិញមួយគីឡូ។", "tr": "ban, khgnom tign mouy ki-lô."},
-      {"speaker": "A", "fr": "Voici le café. Merci beaucoup !", "en": "Here is the coffee. Thank you very much!", "km": "នេះកាហ្វេ។ អរគុណច្រើន!", "tr": "nih ka-fé. â-koun tchraeun !"}
+      {"speaker": "B", "fr": "Bonjour ! Combien coûte un kilo de café ?", "en": "Hello! How much is one kilo of coffee?", "km": "សួស្តី! កាហ្វេមួយគីឡូថ្លៃប៉ុន្មាន?", "tr": "souos-dey ! ka-fé mouy ki-lô thlay pon-man ?",
+        "es": "¡Hola! ¿Cuánto cuesta un kilo de café?", "it": "Buongiorno! Quanto costa un chilo di caffè?", "ru": "Здравствуйте! Сколько стоит килограмм кофе?", "zh": "你好！一公斤咖啡多少钱？", "zh_tr": "Nǐ hǎo! Yì gōngjīn kāfēi duōshao qián?"},
+      {"speaker": "A", "fr": "Dix dollars le kilo.", "en": "Ten dollars a kilo.", "km": "មួយគីឡូដប់ដុល្លារ។", "tr": "mouy ki-lô dâp dol-la.",
+        "es": "Diez dólares el kilo.", "it": "Dieci dollari al chilo.", "ru": "Десять долларов за килограмм.", "zh": "一公斤十美元。", "zh_tr": "Yì gōngjīn shí měiyuán."},
+      {"speaker": "B", "fr": "C'est trop cher ! Vous pouvez baisser un peu le prix ?", "en": "It is too expensive! Can you lower the price a little?", "km": "ថ្លៃពេក! ចុះថ្លៃបន្តិចបានទេ?", "tr": "thlay pék ! tchoh thlay bân-tetch ban té ?",
+        "es": "¡Es demasiado caro! ¿Me puede bajar un poco el precio?", "it": "È troppo caro! Può abbassare un po' il prezzo?", "ru": "Это слишком дорого! Можете немного уступить?", "zh": "太贵了！能便宜一点儿吗？", "zh_tr": "Tài guì le! Néng piányi yìdiǎnr ma?"},
+      {"speaker": "A", "fr": "D'accord, huit dollars. Ce n'est pas cher !", "en": "Okay, eight dollars. That is not expensive!", "km": "បាន ប្រាំបីដុល្លារ។ មិនថ្លៃទេ!", "tr": "ban, pram-bey dol-la. min thlay té !",
+        "es": "Vale, ocho dólares. ¡No es caro!", "it": "D'accordo, otto dollari. Non è caro!", "ru": "Хорошо, восемь долларов. Это недорого!", "zh": "好吧，八美元。不贵！", "zh_tr": "Hǎo ba, bā měiyuán. Bú guì!"},
+      {"speaker": "B", "fr": "D'accord, j'achète un kilo.", "en": "Okay, I'll buy one kilo.", "km": "បាន ខ្ញុំទិញមួយគីឡូ។", "tr": "ban, khgnom tign mouy ki-lô.",
+        "es": "Vale, compro un kilo.", "it": "D'accordo, ne compro un chilo.", "ru": "Хорошо, я куплю килограмм.", "zh": "好，我买一公斤。", "zh_tr": "Hǎo, wǒ mǎi yì gōngjīn."},
+      {"speaker": "A", "fr": "Voici le café. Merci beaucoup !", "en": "Here is the coffee. Thank you very much!", "km": "នេះកាហ្វេ។ អរគុណច្រើន!", "tr": "nih ka-fé. â-koun tchraeun !",
+        "es": "Aquí tiene el café. ¡Muchas gracias!", "it": "Ecco il caffè. Grazie mille!", "ru": "Вот ваш кофе. Большое спасибо!", "zh": "这是您的咖啡。非常感谢！", "zh_tr": "Zhè shì nín de kāfēi. Fēicháng gǎnxiè!"}
     ]
   },
   "comprehension": {

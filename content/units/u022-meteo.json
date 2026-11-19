@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "chaud", "en": "hot", "km": "ក្តៅ", "tr": "kdav", "pos": "adjectif",
+      "fr": "chaud", "en": "hot", "km": "ក្តៅ", "tr": "kdav",
+      "es": "caluroso", "it": "caldo", "ru": "жаркий", "zh": "热", "zh_tr": "rè", "pos": "adjectif",
       "note": {
         "fr": "ក្តៅ s'emploie pour le temps, un plat ou une boisson. « J'ai chaud » se dit simplement ខ្ញុំក្តៅ (khgnom kdav).",
         "en": "ក្តៅ is used for the weather, a dish or a drink. “I'm hot” is simply ខ្ញុំក្តៅ (khgnom kdav). French: « il fait chaud », but « j'ai chaud » for a person.",
         "km": "សម្រាប់អាកាសធាតុ គេនិយាយថា « il fait chaud »។ ភេទស្រីសរសេរថា « chaude »។ អង់គ្លេស៖ « hot »។"
       },
-      "example": {"fr": "Aujourd'hui, il fait très chaud.", "en": "Today, it is very hot.", "km": "ថ្ងៃនេះក្តៅណាស់។", "tr": "thngay nih kdav nah."}
+      "example": {"fr": "Aujourd'hui, il fait très chaud.", "en": "Today, it is very hot.", "km": "ថ្ងៃនេះក្តៅណាស់។", "tr": "thngay nih kdav nah.",
+      "es": "Hoy hace mucho calor.", "it": "Oggi fa molto caldo.", "ru": "Сегодня очень жарко.", "zh": "今天很热。", "zh_tr": "Jīntiān hěn rè."}
     },
     {
-      "fr": "froid", "en": "cold", "km": "ត្រជាក់", "tr": "trâ-tchéak", "pos": "adjectif",
+      "fr": "froid", "en": "cold", "km": "ត្រជាក់", "tr": "trâ-tchéak",
+      "es": "frío", "it": "freddo", "ru": "холодный", "zh": "冷", "zh_tr": "lěng", "pos": "adjectif",
       "note": {
         "fr": "ត្រជាក់ veut dire froid ou frais, pour le temps comme pour une boisson. « J'ai froid » se dit ខ្ញុំរងា (khgnom ro-ngéa).",
         "en": "ត្រជាក់ means cold or cool, for the weather as well as for a drink. “I'm cold” is ខ្ញុំរងា (khgnom ro-ngéa). French « froid »: il fait froid, j'ai froid.",
         "km": "អក្សរ d ចុងពាក្យ « froid » មិនអានទេ។ « J'ai froid » មានន័យថា ខ្ញុំរងា។ អង់គ្លេស៖ « cold »។"
       },
-      "example": {"fr": "Le matin, il fait froid.", "en": "In the morning, it is cold.", "km": "ពេលព្រឹកត្រជាក់។", "tr": "pél preuk trâ-tchéak."}
+      "example": {"fr": "Le matin, il fait froid.", "en": "In the morning, it is cold.", "km": "ពេលព្រឹកត្រជាក់។", "tr": "pél preuk trâ-tchéak.",
+      "es": "Por la mañana hace frío.", "it": "La mattina fa freddo.", "ru": "Утром холодно.", "zh": "早上很冷。", "zh_tr": "Zǎoshang hěn lěng."}
     },
     {
-      "fr": "la pluie", "en": "rain", "km": "ភ្លៀង", "tr": "phlieng", "pos": "nom",
+      "fr": "la pluie", "en": "rain", "km": "ភ្លៀង", "tr": "phlieng",
+      "es": "la lluvia", "it": "la pioggia", "ru": "дождь", "zh": "雨", "zh_tr": "yǔ", "pos": "nom",
       "note": {
         "fr": "ភ្លៀង est à la fois le nom « pluie » et le verbe « pleuvoir ». On dit souvent មេឃភ្លៀង (mék phlieng), mot à mot « le ciel pleut ».",
         "en": "ភ្លៀង is both the noun “rain” and the verb “to rain”. People often say មេឃភ្លៀង (mék phlieng), word for word “the sky rains”. French: « la pluie », and « il pleut ».",
         "km": "« pluie » ជានាមភេទស្រី៖ la pluie។ កិរិយាសព្ទគឺ « pleuvoir »៖ « il pleut » មានន័យថា មេឃភ្លៀង។ អង់គ្លេស៖ « rain », « it is raining »។"
       },
-      "example": {"fr": "Il pleut beaucoup aujourd'hui.", "en": "It is raining a lot today.", "km": "ថ្ងៃនេះភ្លៀងខ្លាំងណាស់។", "tr": "thngay nih phlieng khlang nah."}
+      "example": {"fr": "Il pleut beaucoup aujourd'hui.", "en": "It is raining a lot today.", "km": "ថ្ងៃនេះភ្លៀងខ្លាំងណាស់។", "tr": "thngay nih phlieng khlang nah.",
+      "es": "Hoy llueve mucho.", "it": "Oggi piove molto.", "ru": "Сегодня идёт сильный дождь.", "zh": "今天雨下得很大。", "zh_tr": "Jīntiān yǔ xià de hěn dà."}
     },
     {
-      "fr": "le soleil", "en": "sun", "km": "ព្រះអាទិត្យ", "tr": "préah a-teut", "pos": "nom",
+      "fr": "le soleil", "en": "sun", "km": "ព្រះអាទិត្យ", "tr": "préah a-teut",
+      "es": "el sol", "it": "il sole", "ru": "солнце", "zh": "太阳", "zh_tr": "tàiyáng", "pos": "nom",
       "note": {
         "fr": "ព្រះអាទិត្យ est le mot soigné. Dans la conversation, on dit souvent ថ្ងៃ (thngay), qui veut aussi dire « jour » : ថ្ងៃក្តៅ, « le soleil tape ».",
         "en": "ព្រះអាទិត្យ is the formal word. In conversation, people often say ថ្ងៃ (thngay), which also means “day”: ថ្ងៃក្តៅ, “the sun is beating down”. French « soleil » is masculine.",
         "km": "« soleil » ជានាមភេទប្រុស៖ le soleil។ « Il y a du soleil » មានន័យថា មានថ្ងៃ។ អង់គ្លេស៖ « sun », « it is sunny »។"
       },
-      "example": {"fr": "Le soleil se lève le matin.", "en": "The sun rises in the morning.", "km": "ព្រះអាទិត្យរះនៅពេលព្រឹក។", "tr": "préah a-teut réah neuv pél preuk."}
+      "example": {"fr": "Le soleil se lève le matin.", "en": "The sun rises in the morning.", "km": "ព្រះអាទិត្យរះនៅពេលព្រឹក។", "tr": "préah a-teut réah neuv pél preuk.",
+      "es": "El sol sale por la mañana.", "it": "Il sole sorge la mattina.", "ru": "Солнце встаёт утром.", "zh": "太阳早上升起。", "zh_tr": "Tàiyáng zǎoshang shēngqǐ."}
     },
     {
-      "fr": "le vent", "en": "wind", "km": "ខ្យល់", "tr": "khyâl", "pos": "nom",
+      "fr": "le vent", "en": "wind", "km": "ខ្យល់", "tr": "khyâl",
+      "es": "el viento", "it": "il vento", "ru": "ветер", "zh": "风", "zh_tr": "fēng", "pos": "nom",
       "note": {
         "fr": "ខ្យល់ désigne le vent et aussi l'air. Un vent fort : ខ្យល់ខ្លាំង (khyâl khlang).",
         "en": "ខ្យល់ means wind and also air. A strong wind: ខ្យល់ខ្លាំង (khyâl khlang). French: « il y a du vent », “it's windy”.",
         "km": "« vent » ជានាមភេទប្រុស៖ le vent។ អក្សរ t ចុងពាក្យមិនអានទេ។ « Il y a du vent » មានន័យថា មានខ្យល់។ អង់គ្លេស៖ « wind », « it is windy »។"
       },
-      "example": {"fr": "Il y a beaucoup de vent aujourd'hui.", "en": "It is very windy today.", "km": "ថ្ងៃនេះខ្យល់ខ្លាំង។", "tr": "thngay nih khyâl khlang."}
+      "example": {"fr": "Il y a beaucoup de vent aujourd'hui.", "en": "It is very windy today.", "km": "ថ្ងៃនេះខ្យល់ខ្លាំង។", "tr": "thngay nih khyâl khlang.",
+      "es": "Hoy hace mucho viento.", "it": "Oggi c'è molto vento.", "ru": "Сегодня очень ветрено.", "zh": "今天风很大。", "zh_tr": "Jīntiān fēng hěn dà."}
     },
     {
-      "fr": "la saison", "en": "season", "km": "រដូវ", "tr": "ro-deuv", "pos": "nom",
+      "fr": "la saison", "en": "season", "km": "រដូវ", "tr": "ro-deuv",
+      "es": "la estación", "it": "la stagione", "ru": "сезон", "zh": "季节", "zh_tr": "jìjié", "pos": "nom",
       "note": {
         "fr": "Deux saisons au Cambodge : រដូវប្រាំង (ro-deuv prang), la saison sèche, et រដូវភ្លៀង (ro-deuv phlieng), la saison des pluies, que l'on écrit aussi រដូវវស្សា.",
         "en": "Two seasons in Cambodia: រដូវប្រាំង (ro-deuv prang), the dry season, and រដូវភ្លៀង (ro-deuv phlieng), the rainy season, also written រដូវវស្សា. French « saison » is feminine.",
         "km": "« saison » ជានាមភេទស្រី៖ la saison។ នៅប្រទេសបារាំងមានបួនរដូវ៖ le printemps, l'été, l'automne, l'hiver។ អង់គ្លេស៖ « season »។"
       },
-      "example": {"fr": "Au Cambodge, il y a deux saisons.", "en": "In Cambodia, there are two seasons.", "km": "នៅប្រទេសកម្ពុជាមានរដូវពីរ។", "tr": "neuv prâ-téh kam-pou-tchéa méan ro-deuv pi."}
+      "example": {"fr": "Au Cambodge, il y a deux saisons.", "en": "In Cambodia, there are two seasons.", "km": "នៅប្រទេសកម្ពុជាមានរដូវពីរ។", "tr": "neuv prâ-téh kam-pou-tchéa méan ro-deuv pi.",
+      "es": "En Camboya hay dos estaciones.", "it": "In Cambogia ci sono due stagioni.", "ru": "В Камбодже два сезона.", "zh": "柬埔寨有两个季节。", "zh_tr": "Jiǎnpǔzhài yǒu liǎng ge jìjié."}
     }
   ],
   "expressions": [
     {
       "fr": "Quel temps fait-il ?", "en": "What is the weather like?", "km": "អាកាសធាតុយ៉ាងម៉េចដែរ?", "tr": "a-kah-théat yang métch daè ?",
+      "es": "¿Qué tiempo hace?", "it": "Che tempo fa?", "ru": "Какая погода?", "zh": "天气怎么样？", "zh_tr": "Tiānqì zěnmeyàng?",
       "note": {
         "fr": "អាកាសធាតុ (a-kah-théat) est le mot pour « le temps qu'il fait ». ដែរ en fin de question adoucit le ton.",
         "en": "អាកាសធាតុ (a-kah-théat) is the word for “the weather”. ដែរ at the end of a question softens the tone. French « Quel temps fait-il ? » literally means “what weather does it make?”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Il fait beau.", "en": "The weather is nice.", "km": "អាកាសធាតុល្អ។", "tr": "a-kah-théat l'â.",
+      "es": "Hace buen tiempo.", "it": "Fa bel tempo.", "ru": "Хорошая погода.", "zh": "天气很好。", "zh_tr": "Tiānqì hěn hǎo.",
       "note": {
         "fr": "Mot à mot « le temps est bon ». ល្អ (l'â) veut dire « bon, bien ».",
         "en": "Word for word “the weather is good”. ល្អ (l'â) means “good, well”. French « beau » means “beautiful”, but « il fait beau » means “the weather is nice”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Il va pleuvoir.", "en": "It is going to rain.", "km": "មេឃជិតភ្លៀងហើយ។", "tr": "mék tchit phlieng haeuy.",
+      "es": "Va a llover.", "it": "Sta per piovere.", "ru": "Будет дождь.", "zh": "要下雨了。", "zh_tr": "Yào xià yǔ le.",
       "note": {
         "fr": "Mot à mot « le ciel est près de pleuvoir ». ជិត (tchit), « près », sert aussi à dire qu'une chose est sur le point d'arriver.",
         "en": "Word for word “the sky is near raining”. ជិត (tchit), “near”, also says something is about to happen. French « aller » + verb gives the near future: il va pleuvoir.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "N'oublie pas ton parapluie.", "en": "Don't forget your umbrella.", "km": "កុំភ្លេចយកឆ័ត្រ។", "tr": "kom phlétch yok tchhat.",
+      "es": "No olvides el paraguas.", "it": "Non dimenticare l'ombrello.", "ru": "Не забудь зонтик.", "zh": "别忘了带伞。", "zh_tr": "Bié wàng le dài sǎn.",
       "note": {
         "fr": "កុំ (kom) exprime l'interdiction, « ne… pas » : កុំភ្លេច, « n'oublie pas ». ឆ័ត្រ (tchhat) : le parapluie.",
         "en": "កុំ (kom) expresses a ban, “don't”: កុំភ្លេច, “don't forget”. ឆ័ត្រ (tchhat): umbrella. French « parapluie » is masculine.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "À la maison, à midi", "en": "At home, at noon", "km": "នៅផ្ទះ ពេលថ្ងៃត្រង់"},
       "fr": "Il fait chaud, je veux boire de l'eau fraîche.", "en": "It is hot, I want to drink cold water.",
-      "km": "ក្តៅណាស់ ខ្ញុំចង់ផឹកទឹកត្រជាក់។", "tr": "kdav nah, khgnom tchâng pheuk teuk trâ-tchéak."
+      "km": "ក្តៅណាស់ ខ្ញុំចង់ផឹកទឹកត្រជាក់។", "tr": "kdav nah, khgnom tchâng pheuk teuk trâ-tchéak.",
+      "es": "Hace calor, quiero beber agua fría.", "it": "Fa caldo, voglio bere acqua fresca.", "ru": "Жарко, я хочу выпить холодной воды.", "zh": "天很热，我想喝凉水。", "zh_tr": "Tiān hěn rè, wǒ xiǎng hē liáng shuǐ."
     },
     {
       "situation": {"fr": "Avant de sortir", "en": "Before going out", "km": "មុនពេលចេញពីផ្ទះ"},
       "fr": "Il pleut, nous prenons la voiture.", "en": "It is raining, we are taking the car.",
-      "km": "ភ្លៀងហើយ យើងជិះឡានទៅ។", "tr": "phlieng haeuy, yeung tchih lan teuv."
+      "km": "ភ្លៀងហើយ យើងជិះឡានទៅ។", "tr": "phlieng haeuy, yeung tchih lan teuv.",
+      "es": "Está lloviendo, cogemos el coche.", "it": "Piove, prendiamo la macchina.", "ru": "Идёт дождь, мы едем на машине.", "zh": "下雨了，我们开车去。", "zh_tr": "Xià yǔ le, wǒmen kāichē qù."
     },
     {
       "situation": {"fr": "En parlant des saisons", "en": "Talking about the seasons", "km": "និយាយអំពីរដូវ"},
       "fr": "Pendant la saison des pluies, il pleut presque tous les jours.", "en": "During the rainy season, it rains almost every day.",
-      "km": "នៅរដូវភ្លៀង ភ្លៀងស្ទើរតែរាល់ថ្ងៃ។", "tr": "neuv ro-deuv phlieng, phlieng steu-taè roal thngay."
+      "km": "នៅរដូវភ្លៀង ភ្លៀងស្ទើរតែរាល់ថ្ងៃ។", "tr": "neuv ro-deuv phlieng, phlieng steu-taè roal thngay.",
+      "es": "Durante la estación de lluvias, llueve casi todos los días.", "it": "Durante la stagione delle piogge piove quasi tutti i giorni.", "ru": "В сезон дождей дождь идёт почти каждый день.", "zh": "雨季的时候，几乎每天都下雨。", "zh_tr": "Yǔjì de shíhou, jīhū měitiān dōu xià yǔ."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Le matin, à la maison, avant de sortir.", "en": "In the morning, at home, before going out.", "km": "ពេលព្រឹក នៅផ្ទះ មុនពេលចេញទៅក្រៅ។"},
     "lines": [
-      {"speaker": "B", "fr": "Quel temps fait-il aujourd'hui ?", "en": "What is the weather like today?", "km": "ថ្ងៃនេះអាកាសធាតុយ៉ាងម៉េចដែរ?", "tr": "thngay nih a-kah-théat yang métch daè ?"},
-      {"speaker": "A", "fr": "Il fait très chaud, mais il y a du vent.", "en": "It is very hot, but it is windy.", "km": "ក្តៅណាស់ ប៉ុន្តែមានខ្យល់។", "tr": "kdav nah, pon-taè méan khyâl."},
-      {"speaker": "B", "fr": "Tu crois qu'il va pleuvoir ?", "en": "Do you think it is going to rain?", "km": "គិតថាមេឃនឹងភ្លៀងទេ?", "tr": "kit tha mék neung phlieng té ?"},
-      {"speaker": "A", "fr": "Oui, cet après-midi. C'est la saison des pluies.", "en": "Yes, this afternoon. It is the rainy season.", "km": "{A_yes} រសៀលនេះ។ ឥឡូវជារដូវភ្លៀង។", "tr": "{A_yes}, ro-siel nih. ey-leuv tchéa ro-deuv phlieng."},
-      {"speaker": "B", "fr": "Alors je prends mon parapluie.", "en": "Then I am taking my umbrella.", "km": "អញ្ចឹងខ្ញុំយកឆ័ត្រទៅ។", "tr": "agn-tcheung khgnom yok tchhat teuv."},
-      {"speaker": "A", "fr": "Bonne idée. Et n'oublie pas de boire de l'eau !", "en": "Good idea. And don't forget to drink water!", "km": "គំនិតល្អ។ ហើយកុំភ្លេចផឹកទឹកផង!", "tr": "koum-neut l'â. haeuy kom phlétch pheuk teuk phâng !"}
+      {"speaker": "B", "fr": "Quel temps fait-il aujourd'hui ?", "en": "What is the weather like today?", "km": "ថ្ងៃនេះអាកាសធាតុយ៉ាងម៉េចដែរ?", "tr": "thngay nih a-kah-théat yang métch daè ?",
+        "es": "¿Qué tiempo hace hoy?", "it": "Che tempo fa oggi?", "ru": "Какая сегодня погода?", "zh": "今天天气怎么样？", "zh_tr": "Jīntiān tiānqì zěnmeyàng?"},
+      {"speaker": "A", "fr": "Il fait très chaud, mais il y a du vent.", "en": "It is very hot, but it is windy.", "km": "ក្តៅណាស់ ប៉ុន្តែមានខ្យល់។", "tr": "kdav nah, pon-taè méan khyâl.",
+        "es": "Hace mucho calor, pero hace viento.", "it": "Fa molto caldo, ma c'è vento.", "ru": "Очень жарко, но дует ветер.", "zh": "很热，不过有风。", "zh_tr": "Hěn rè, búguò yǒu fēng."},
+      {"speaker": "B", "fr": "Tu crois qu'il va pleuvoir ?", "en": "Do you think it is going to rain?", "km": "គិតថាមេឃនឹងភ្លៀងទេ?", "tr": "kit tha mék neung phlieng té ?",
+        "es": "¿Crees que va a llover?", "it": "Pensi che pioverà?", "ru": "Думаешь, будет дождь?", "zh": "你觉得会下雨吗？", "zh_tr": "Nǐ juéde huì xià yǔ ma?"},
+      {"speaker": "A", "fr": "Oui, cet après-midi. C'est la saison des pluies.", "en": "Yes, this afternoon. It is the rainy season.", "km": "{A_yes} រសៀលនេះ។ ឥឡូវជារដូវភ្លៀង។", "tr": "{A_yes}, ro-siel nih. ey-leuv tchéa ro-deuv phlieng.",
+        "es": "Sí, esta tarde. Es la estación de lluvias.", "it": "Sì, oggi pomeriggio. È la stagione delle piogge.", "ru": "Да, сегодня днём. Сейчас сезон дождей.", "zh": "会，今天下午。现在是雨季。", "zh_tr": "Huì, jīntiān xiàwǔ. Xiànzài shì yǔjì."},
+      {"speaker": "B", "fr": "Alors je prends mon parapluie.", "en": "Then I am taking my umbrella.", "km": "អញ្ចឹងខ្ញុំយកឆ័ត្រទៅ។", "tr": "agn-tcheung khgnom yok tchhat teuv.",
+        "es": "Entonces me llevo el paraguas.", "it": "Allora prendo l'ombrello.", "ru": "Тогда я возьму зонтик.", "zh": "那我带伞。", "zh_tr": "Nà wǒ dài sǎn."},
+      {"speaker": "A", "fr": "Bonne idée. Et n'oublie pas de boire de l'eau !", "en": "Good idea. And don't forget to drink water!", "km": "គំនិតល្អ។ ហើយកុំភ្លេចផឹកទឹកផង!", "tr": "koum-neut l'â. haeuy kom phlétch pheuk teuk phâng !",
+        "es": "Buena idea. ¡Y no olvides beber agua!", "it": "Buona idea. E non dimenticare di bere acqua!", "ru": "Хорошая идея. И не забывай пить воду!", "zh": "好主意。别忘了喝水！", "zh_tr": "Hǎo zhǔyi. Bié wàng le hē shuǐ!"}
     ]
   },
   "comprehension": {

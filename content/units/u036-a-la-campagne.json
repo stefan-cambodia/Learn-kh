@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "la campagne", "en": "countryside", "km": "ជនបទ", "tr": "tchun-na-bot", "pos": "nom",
+      "fr": "la campagne", "en": "countryside", "km": "ជនបទ", "tr": "tchun-na-bot",
+      "es": "el campo", "it": "la campagna", "ru": "деревня", "zh": "乡下", "zh_tr": "xiāngxia", "pos": "nom",
       "note": {
         "fr": "Mot savant venu du sanskrit. Au quotidien, on dit plus volontiers ស្រុក (srok), le pays natal, ou ស្រុកស្រែ, « le pays des rizières ».",
         "en": "A learned word from Sanskrit. In daily life, people prefer ស្រុក (srok), the home region, or ស្រុកស្រែ, “rice-field country”. French « campagne » is feminine: à la campagne.",
         "km": "« campagne » ជានាមភេទស្រី៖ la campagne។ « à la campagne » មានន័យថា នៅជនបទ។ អង់គ្លេស៖ « in the countryside »។"
       },
-      "example": {"fr": "Mes parents habitent à la campagne.", "en": "My parents live in the countryside.", "km": "ឪពុកម្តាយខ្ញុំរស់នៅជនបទ។", "tr": "eu-pouk mday khgnom rouh neuv tchun-na-bot."}
+      "example": {"fr": "Mes parents habitent à la campagne.", "en": "My parents live in the countryside.", "km": "ឪពុកម្តាយខ្ញុំរស់នៅជនបទ។", "tr": "eu-pouk mday khgnom rouh neuv tchun-na-bot.",
+      "es": "Mis padres viven en el campo.", "it": "I miei genitori abitano in campagna.", "ru": "Мои родители живут в деревне.", "zh": "我爸爸妈妈住在乡下。", "zh_tr": "Wǒ bàba māma zhù zài xiāngxia."}
     },
     {
-      "fr": "la rizière", "en": "rice field", "km": "ស្រែ", "tr": "srè", "pos": "nom",
+      "fr": "la rizière", "en": "rice field", "km": "ស្រែ", "tr": "srè",
+      "es": "el arrozal", "it": "la risaia", "ru": "рисовое поле", "zh": "稻田", "zh_tr": "dàotián", "pos": "nom",
       "note": {
         "fr": "ស្រែ est la rizière ; វាលស្រែ (véal srè), la plaine de rizières. Un riziculteur se dit អ្នកធ្វើស្រែ, « celui qui fait la rizière ».",
         "en": "ស្រែ is the rice field; វាលស្រែ (véal srè), the rice-field plain. A rice farmer is អ្នកធ្វើស្រែ, “the one who makes the rice field”. French « rizière » comes from « riz ».",
         "km": "« rizière » ជានាមភេទស្រី មកពី « riz »៖ la rizière។ អង់គ្លេស៖ « rice field » ឬ « paddy »។"
       },
-      "example": {"fr": "Derrière la maison, il y a une rizière.", "en": "Behind the house, there is a rice field.", "km": "នៅក្រោយផ្ទះ មានស្រែមួយ។", "tr": "neuv kraoy phtéah, méan srè mouy."}
+      "example": {"fr": "Derrière la maison, il y a une rizière.", "en": "Behind the house, there is a rice field.", "km": "នៅក្រោយផ្ទះ មានស្រែមួយ។", "tr": "neuv kraoy phtéah, méan srè mouy.",
+      "es": "Detrás de la casa hay un arrozal.", "it": "Dietro la casa c'è una risaia.", "ru": "За домом есть рисовое поле.", "zh": "房子后面有一片稻田。", "zh_tr": "Fángzi hòumiàn yǒu yí piàn dàotián."}
     },
     {
-      "fr": "l'arbre", "en": "tree", "km": "ដើមឈើ", "tr": "daeum tchheu", "pos": "nom",
+      "fr": "l'arbre", "en": "tree", "km": "ដើមឈើ", "tr": "daeum tchheu",
+      "es": "el árbol", "it": "l'albero", "ru": "дерево", "zh": "树", "zh_tr": "shù", "pos": "nom",
       "note": {
         "fr": "ដើម (daeum), « le tronc », se place devant le nom de chaque arbre : ដើមស្វាយ, le manguier ; ដើមដូង, le cocotier.",
         "en": "ដើម (daeum), “trunk”, goes before the name of each tree: ដើមស្វាយ, mango tree; ដើមដូង, coconut palm. French « arbre » is masculine: l'arbre.",
         "km": "« arbre » ជានាមភេទប្រុស៖ l'arbre។ ដើមស្វាយគឺ « le manguier »។ អង់គ្លេស៖ « tree », ដើមស្វាយគឺ « mango tree »។"
       },
-      "example": {"fr": "Les enfants jouent sous l'arbre.", "en": "The children are playing under the tree.", "km": "ក្មេងៗលេងនៅក្រោមដើមឈើ។", "tr": "kméng-kméng léng neuv kraom daeum tchheu."}
+      "example": {"fr": "Les enfants jouent sous l'arbre.", "en": "The children are playing under the tree.", "km": "ក្មេងៗលេងនៅក្រោមដើមឈើ។", "tr": "kméng-kméng léng neuv kraom daeum tchheu.",
+      "es": "Los niños juegan debajo del árbol.", "it": "I bambini giocano sotto l'albero.", "ru": "Дети играют под деревом.", "zh": "孩子们在树下玩。", "zh_tr": "Háizimen zài shù xià wán."}
     },
     {
-      "fr": "le fleuve", "en": "river", "km": "ទន្លេ", "tr": "tonlé", "pos": "nom",
+      "fr": "le fleuve", "en": "river", "km": "ទន្លេ", "tr": "tonlé",
+      "es": "el río", "it": "il fiume", "ru": "река", "zh": "河", "zh_tr": "hé", "pos": "nom",
       "note": {
         "fr": "ទន្លេ désigne un grand cours d'eau, comme le Mékong : ទន្លេមេគង្គ. Une petite rivière se dit ស្ទឹង (steung).",
         "en": "ទន្លេ is a large river, like the Mekong: ទន្លេមេគង្គ. A small river is ស្ទឹង (steung). French « fleuve » flows into the sea; « rivière » is a smaller river.",
         "km": "« fleuve » ជានាមភេទប្រុស ហើយហូរទៅសមុទ្រ៖ le fleuve។ ទន្លេតូចគឺ « la rivière »។ អង់គ្លេស៖ « river »។"
       },
-      "example": {"fr": "Le Mékong est un très grand fleuve.", "en": "The Mekong is a very big river.", "km": "ទន្លេមេគង្គជាទន្លេធំណាស់។", "tr": "tonlé mé-kong tchéa tonlé thom nah."}
+      "example": {"fr": "Le Mékong est un très grand fleuve.", "en": "The Mekong is a very big river.", "km": "ទន្លេមេគង្គជាទន្លេធំណាស់។", "tr": "tonlé mé-kong tchéa tonlé thom nah.",
+      "es": "El Mekong es un río muy grande.", "it": "Il Mekong è un fiume molto grande.", "ru": "Меконг — очень большая река.", "zh": "湄公河是一条很大的河。", "zh_tr": "Méigōng hé shì yì tiáo hěn dà de hé."}
     },
     {
-      "fr": "la montagne", "en": "mountain", "km": "ភ្នំ", "tr": "phnom", "pos": "nom",
+      "fr": "la montagne", "en": "mountain", "km": "ភ្នំ", "tr": "phnom",
+      "es": "la montaña", "it": "la montagna", "ru": "гора", "zh": "山", "zh_tr": "shān", "pos": "nom",
       "note": {
         "fr": "ភ្នំ désigne aussi une simple colline : c'est le Phnom de Phnom Penh. Au Cambodge, on trouve souvent une pagode au sommet.",
         "en": "ភ្នំ is also just a hill: it is the Phnom in Phnom Penh. In Cambodia, there is often a pagoda at the top. French « montagne »: “gn” sounds like the “ny” in “canyon”.",
         "km": "« montagne » ជានាមភេទស្រី៖ la montagne។ ភ្នំតូចគឺ « la colline »។ អង់គ្លេស៖ « mountain », ភ្នំតូចគឺ « hill »។"
       },
-      "example": {"fr": "Il y a une pagode sur la montagne.", "en": "There is a pagoda on the mountain.", "km": "មានវត្តមួយនៅលើភ្នំ។", "tr": "méan voat mouy neuv leu phnom."}
+      "example": {"fr": "Il y a une pagode sur la montagne.", "en": "There is a pagoda on the mountain.", "km": "មានវត្តមួយនៅលើភ្នំ។", "tr": "méan voat mouy neuv leu phnom.",
+      "es": "Hay una pagoda en la montaña.", "it": "C'è una pagoda sulla montagna.", "ru": "На горе есть пагода.", "zh": "山上有一座佛寺。", "zh_tr": "Shān shang yǒu yí zuò fósì."}
     },
     {
-      "fr": "le village", "en": "village", "km": "ភូមិ", "tr": "phoum", "pos": "nom",
+      "fr": "le village", "en": "village", "km": "ភូមិ", "tr": "phoum",
+      "es": "el pueblo", "it": "il villaggio", "ru": "деревня", "zh": "村子", "zh_tr": "cūnzi", "pos": "nom",
       "note": {
         "fr": "ភូមិ est la plus petite unité du pays. Plusieurs villages forment une commune, ឃុំ (khoum).",
         "en": "ភូមិ is the smallest unit of the country. Several villages form a commune, ឃុំ (khoum). French « village » is masculine and spelled as in English.",
         "km": "« village » ជានាមភេទប្រុស៖ le village។ អ្នកភូមិគឺ « les villageois »។ អង់គ្លេស៖ « village »។"
       },
-      "example": {"fr": "Dans mon village, tout le monde se connaît.", "en": "In my village, everyone knows each other.", "km": "នៅភូមិខ្ញុំ គ្រប់គ្នាស្គាល់គ្នា។", "tr": "neuv phoum khgnom, kroup knéa skoal knéa."}
+      "example": {"fr": "Dans mon village, tout le monde se connaît.", "en": "In my village, everyone knows each other.", "km": "នៅភូមិខ្ញុំ គ្រប់គ្នាស្គាល់គ្នា។", "tr": "neuv phoum khgnom, kroup knéa skoal knéa.",
+      "es": "En mi pueblo todo el mundo se conoce.", "it": "Nel mio villaggio si conoscono tutti.", "ru": "В моей деревне все друг друга знают.", "zh": "在我的村子里，大家都互相认识。", "zh_tr": "Zài wǒ de cūnzi li, dàjiā dōu hùxiāng rènshi."}
     }
   ],
   "expressions": [
     {
       "fr": "C'est calme ici.", "en": "It's quiet here.", "km": "នៅទីនេះស្ងាត់ណាស់។", "tr": "neuv ti-nih sngat nah.",
+      "es": "Aquí se está tranquilo.", "it": "Qui è tranquillo.", "ru": "Здесь тихо.", "zh": "这儿很安静。", "zh_tr": "Zhèr hěn ānjìng.",
       "note": {
         "fr": "ស្ងាត់ (sngat), « silencieux, tranquille ». Le contraire est អ៊ូអរ (ou-â), « bruyant, animé ».",
         "en": "ស្ងាត់ (sngat), “silent, peaceful”. The opposite is អ៊ូអរ (ou-â), “noisy, lively”. French « calme » means “quiet, calm”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "L'air est frais ici.", "en": "The air is fresh here.", "km": "ខ្យល់នៅទីនេះស្រស់ស្រាយ។", "tr": "khyâl neuv ti-nih sroh-sray.",
+      "es": "Aquí el aire es fresco.", "it": "Qui l'aria è fresca.", "ru": "Здесь свежий воздух.", "zh": "这儿空气很清新。", "zh_tr": "Zhèr kōngqì hěn qīngxīn.",
       "note": {
         "fr": "ស្រស់ស្រាយ, « frais et agréable », se dit de l'air, d'un visage ou d'une humeur.",
         "en": "ស្រស់ស្រាយ, “fresh and pleasant”, is said of the air, a face or a mood. French « frais » also means “cool”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "On va se promener ?", "en": "Shall we go for a walk?", "km": "ទៅដើរលេងទេ?", "tr": "teuv daeu léng té ?",
+      "es": "¿Vamos a dar un paseo?", "it": "Andiamo a fare una passeggiata?", "ru": "Пойдём погуляем?", "zh": "我们去散散步吧？", "zh_tr": "Wǒmen qù sànsan bù ba?",
       "note": {
         "fr": "ដើរលេង, « marcher pour jouer », veut dire se promener, et plus largement sortir pour le plaisir.",
         "en": "ដើរលេង, “walk for fun”, means to go for a walk, and more broadly to go out for pleasure. French « se promener »: on va se promener ?",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Quel beau paysage !", "en": "What a beautiful landscape!", "km": "ទេសភាពស្អាតណាស់!", "tr": "té-sa-phéap s'at nah !",
+      "es": "¡Qué paisaje tan bonito!", "it": "Che bel paesaggio!", "ru": "Какой красивый пейзаж!", "zh": "风景真美！", "zh_tr": "Fēngjǐng zhēn měi!",
       "note": {
         "fr": "ទេសភាព, « le paysage », mot savant mais courant dans la bouche des voyageurs.",
         "en": "ទេសភាព, “landscape”, a learned word but common among travellers. French « Quel beau… ! » means “What a beautiful…!”.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "La saison des pluies", "en": "The rainy season", "km": "រដូវភ្លៀង"},
       "fr": "Pendant la saison des pluies, les paysans plantent le riz.", "en": "During the rainy season, farmers plant rice.",
-      "km": "នៅរដូវភ្លៀង កសិករដាំស្រូវ។", "tr": "neuv ro-deuv phlieng, kâ-sek-kâ dam srouv."
+      "km": "នៅរដូវភ្លៀង កសិករដាំស្រូវ។", "tr": "neuv ro-deuv phlieng, kâ-sek-kâ dam srouv.",
+      "es": "Durante la estación de lluvias, los campesinos plantan el arroz.", "it": "Durante la stagione delle piogge i contadini piantano il riso.", "ru": "В сезон дождей крестьяне сажают рис.", "zh": "雨季的时候，农民种水稻。", "zh_tr": "Yǔjì de shíhou, nóngmín zhòng shuǐdào."
     },
     {
       "situation": {"fr": "Au bord du fleuve", "en": "By the river", "km": "នៅមាត់ទន្លេ"},
       "fr": "Le soir, les gens se promènent au bord du fleuve.", "en": "In the evening, people walk along the river.",
-      "km": "ពេលល្ងាច គេដើរលេងតាមមាត់ទន្លេ។", "tr": "pél lngéatch, ké daeu léng tam moat tonlé."
+      "km": "ពេលល្ងាច គេដើរលេងតាមមាត់ទន្លេ។", "tr": "pél lngéatch, ké daeu léng tam moat tonlé.",
+      "es": "Por la tarde, la gente pasea a orillas del río.", "it": "La sera la gente passeggia lungo il fiume.", "ru": "Вечером люди гуляют вдоль реки.", "zh": "晚上人们在河边散步。", "zh_tr": "Wǎnshang rénmen zài hébiān sànbù."
     },
     {
       "situation": {"fr": "En haut de la montagne", "en": "At the top of the mountain", "km": "នៅលើកំពូលភ្នំ"},
       "fr": "D'en haut, on voit toutes les rizières du village.", "en": "From up here, you can see all the rice fields of the village.",
-      "km": "ពីលើនេះ យើងមើលឃើញស្រែទាំងអស់របស់ភូមិ។", "tr": "pi leu nih, yeung meul kheugn srè téang âh ro-bâh phoum."
+      "km": "ពីលើនេះ យើងមើលឃើញស្រែទាំងអស់របស់ភូមិ។", "tr": "pi leu nih, yeung meul kheugn srè téang âh ro-bâh phoum.",
+      "es": "Desde aquí arriba se ven todos los arrozales del pueblo.", "it": "Da quassù si vedono tutte le risaie del villaggio.", "ru": "Отсюда сверху видны все рисовые поля деревни.", "zh": "从上面可以看到村子里所有的稻田。", "zh_tr": "Cóng shàngmiàn kěyǐ kàndào cūnzi li suǒyǒu de dàotián."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} fait visiter son village natal à {B}.", "en": "{A} shows {B} around {A}'s home village.", "km": "{A} នាំ {B} ទៅលេងភូមិកំណើត។"},
     "lines": [
-      {"speaker": "A", "fr": "Voici mon village. C'est calme ici, n'est-ce pas ?", "en": "Here is my village. It's quiet here, isn't it?", "km": "នេះភូមិខ្ញុំ។ នៅទីនេះស្ងាត់ណាស់ មែនទេ?", "tr": "nih phoum khgnom. neuv ti-nih sngat nah, mèn té ?"},
-      {"speaker": "B", "fr": "Oui, et l'air est frais. Quel beau paysage !", "en": "Yes, and the air is fresh. What a beautiful landscape!", "km": "{B_yes} ហើយខ្យល់ស្រស់ស្រាយ។ ទេសភាពស្អាតណាស់!", "tr": "{B_yes}, haeuy khyâl sroh-sray. té-sa-phéap s'at nah !"},
-      {"speaker": "A", "fr": "Derrière la maison, c'est la rizière de mes parents.", "en": "Behind the house is my parents' rice field.", "km": "នៅក្រោយផ្ទះ គឺស្រែរបស់ឪពុកម្តាយខ្ញុំ។", "tr": "neuv kraoy phtéah, keu srè ro-bâh eu-pouk mday khgnom."},
-      {"speaker": "B", "fr": "Et ce grand arbre, c'est un manguier ?", "en": "And this big tree, is it a mango tree?", "km": "ហើយដើមឈើធំនោះ ជាដើមស្វាយមែនទេ?", "tr": "haeuy daeum tchheu thom nouh, tchéa daeum svay mèn té ?"},
-      {"speaker": "A", "fr": "Oui. On va se promener jusqu'au fleuve ?", "en": "Yes. Shall we walk to the river?", "km": "{A_yes}។ ទៅដើរលេងដល់មាត់ទន្លេទេ?", "tr": "{A_yes}. teuv daeu léng dâl moat tonlé té ?"},
-      {"speaker": "B", "fr": "Avec plaisir ! On peut se baigner ?", "en": "With pleasure! Can we swim?", "km": "រីករាយណាស់! អាចហែលទឹកបានទេ?", "tr": "rik-réay nah ! atch haèl teuk ban té ?"},
-      {"speaker": "A", "fr": "Non, l'eau est trop profonde. Mais le coucher de soleil est très beau.", "en": "No, the water is too deep. But the sunset is very beautiful.", "km": "អត់ទេ ទឹកជ្រៅពេក។ ប៉ុន្តែពេលថ្ងៃលិចស្អាតណាស់។", "tr": "ât té, teuk tchrov pék. pon-taè pél thngay letch s'at nah."}
+      {"speaker": "A", "fr": "Voici mon village. C'est calme ici, n'est-ce pas ?", "en": "Here is my village. It's quiet here, isn't it?", "km": "នេះភូមិខ្ញុំ។ នៅទីនេះស្ងាត់ណាស់ មែនទេ?", "tr": "nih phoum khgnom. neuv ti-nih sngat nah, mèn té ?",
+        "es": "Este es mi pueblo. Aquí se está tranquilo, ¿verdad?", "it": "Ecco il mio villaggio. Qui è tranquillo, vero?", "ru": "Вот моя деревня. Здесь тихо, правда?", "zh": "这是我的村子。这儿很安静，对吧？", "zh_tr": "Zhè shì wǒ de cūnzi. Zhèr hěn ānjìng, duì ba?"},
+      {"speaker": "B", "fr": "Oui, et l'air est frais. Quel beau paysage !", "en": "Yes, and the air is fresh. What a beautiful landscape!", "km": "{B_yes} ហើយខ្យល់ស្រស់ស្រាយ។ ទេសភាពស្អាតណាស់!", "tr": "{B_yes}, haeuy khyâl sroh-sray. té-sa-phéap s'at nah !",
+        "es": "Sí, y el aire es fresco. ¡Qué paisaje tan bonito!", "it": "Sì, e l'aria è fresca. Che bel paesaggio!", "ru": "Да, и воздух свежий. Какой красивый пейзаж!", "zh": "是啊，空气也很清新。风景真美！", "zh_tr": "Shì a, kōngqì yě hěn qīngxīn. Fēngjǐng zhēn měi!"},
+      {"speaker": "A", "fr": "Derrière la maison, c'est la rizière de mes parents.", "en": "Behind the house is my parents' rice field.", "km": "នៅក្រោយផ្ទះ គឺស្រែរបស់ឪពុកម្តាយខ្ញុំ។", "tr": "neuv kraoy phtéah, keu srè ro-bâh eu-pouk mday khgnom.",
+        "es": "Detrás de la casa está el arrozal de mis padres.", "it": "Dietro la casa c'è la risaia dei miei genitori.", "ru": "За домом — рисовое поле моих родителей.", "zh": "房子后面是我爸爸妈妈的稻田。", "zh_tr": "Fángzi hòumiàn shì wǒ bàba māma de dàotián."},
+      {"speaker": "B", "fr": "Et ce grand arbre, c'est un manguier ?", "en": "And this big tree, is it a mango tree?", "km": "ហើយដើមឈើធំនោះ ជាដើមស្វាយមែនទេ?", "tr": "haeuy daeum tchheu thom nouh, tchéa daeum svay mèn té ?",
+        "es": "Y este árbol grande, ¿es un mango?", "it": "E questo grande albero è un albero di mango?", "ru": "А это большое дерево — манговое?", "zh": "这棵大树是芒果树吗？", "zh_tr": "Zhè kē dà shù shì mángguǒ shù ma?"},
+      {"speaker": "A", "fr": "Oui. On va se promener jusqu'au fleuve ?", "en": "Yes. Shall we walk to the river?", "km": "{A_yes}។ ទៅដើរលេងដល់មាត់ទន្លេទេ?", "tr": "{A_yes}. teuv daeu léng dâl moat tonlé té ?",
+        "es": "Sí. ¿Vamos a pasear hasta el río?", "it": "Sì. Facciamo una passeggiata fino al fiume?", "ru": "Да. Прогуляемся до реки?", "zh": "对。我们走到河边去吧？", "zh_tr": "Duì. Wǒmen zǒu dào hébiān qù ba?"},
+      {"speaker": "B", "fr": "Avec plaisir ! On peut se baigner ?", "en": "With pleasure! Can we swim?", "km": "រីករាយណាស់! អាចហែលទឹកបានទេ?", "tr": "rik-réay nah ! atch haèl teuk ban té ?",
+        "es": "¡Con mucho gusto! ¿Podemos bañarnos?", "it": "Volentieri! Possiamo fare il bagno?", "ru": "С удовольствием! А купаться можно?", "zh": "好啊！可以游泳吗？", "zh_tr": "Hǎo a! Kěyǐ yóuyǒng ma?"},
+      {"speaker": "A", "fr": "Non, l'eau est trop profonde. Mais le coucher de soleil est très beau.", "en": "No, the water is too deep. But the sunset is very beautiful.", "km": "អត់ទេ ទឹកជ្រៅពេក។ ប៉ុន្តែពេលថ្ងៃលិចស្អាតណាស់។", "tr": "ât té, teuk tchrov pék. pon-taè pél thngay letch s'at nah.",
+        "es": "No, el agua es demasiado profunda. Pero la puesta de sol es muy bonita.", "it": "No, l'acqua è troppo profonda. Ma il tramonto è bellissimo.", "ru": "Нет, там слишком глубоко. Но закат очень красивый.", "zh": "不行，水太深了。不过日落很美。", "zh_tr": "Bù xíng, shuǐ tài shēn le. Búguò rìluò hěn měi."}
     ]
   },
   "comprehension": {

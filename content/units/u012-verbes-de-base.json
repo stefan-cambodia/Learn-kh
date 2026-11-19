@@ -11,75 +11,91 @@
   },
   "vocabulary": [
     {
-      "fr": "aller", "en": "to go", "km": "ទៅ", "tr": "teuv", "pos": "verbe",
+      "fr": "aller", "en": "to go", "km": "ទៅ", "tr": "teuv",
+      "es": "ir", "it": "andare", "ru": "идти", "zh": "去", "zh_tr": "qù", "pos": "verbe",
       "note": {
         "fr": "Pas de préposition devant le lieu : ទៅផ្សារ (teuv phsa), « aller au marché ».",
         "en": "No preposition before the place: ទៅផ្សារ (teuv phsa), “go to the market”. French « aller » is irregular: je vais, tu vas, nous allons.",
         "km": "កិរិយាសព្ទ « aller » ប្តូររូបច្រើន៖ je vais, tu vas, il va, nous allons។ ភាសាអង់គ្លេស៖ « to go »។"
       },
-      "example": {"fr": "Je vais à Phnom Penh.", "en": "I am going to Phnom Penh.", "km": "ខ្ញុំទៅភ្នំពេញ។", "tr": "khgnom teuv phnom-pégn."}
+      "example": {"fr": "Je vais à Phnom Penh.", "en": "I am going to Phnom Penh.", "km": "ខ្ញុំទៅភ្នំពេញ។", "tr": "khgnom teuv phnom-pégn.",
+      "es": "Voy a Phnom Penh.", "it": "Vado a Phnom Penh.", "ru": "Я еду в Пномпень.", "zh": "我去金边。", "zh_tr": "Wǒ qù Jīnbiān."}
     },
     {
-      "fr": "venir", "en": "to come", "km": "មក", "tr": "mok", "pos": "verbe",
+      "fr": "venir", "en": "to come", "km": "មក", "tr": "mok",
+      "es": "venir", "it": "venire", "ru": "приходить", "zh": "来", "zh_tr": "lái", "pos": "verbe",
       "note": {
         "fr": "មក indique un mouvement vers celui qui parle, ទៅ un mouvement qui s'en éloigne. មកពី (mok pi) : venir de.",
         "en": "មក is movement towards the speaker, ទៅ movement away. មកពី (mok pi): to come from. French « venir »: je viens, nous venons.",
         "km": "កិរិយាសព្ទ « venir » ប្តូររូបតាមប្រធាន៖ je viens, tu viens, nous venons។ ភាសាអង់គ្លេស៖ « to come »។"
       },
-      "example": {"fr": "Mes amis viennent ce soir.", "en": "My friends are coming this evening.", "km": "មិត្តភក្តិរបស់ខ្ញុំមកល្ងាចនេះ។", "tr": "mit-phéak ro-bâh khgnom mok lngéatch nih."}
+      "example": {"fr": "Mes amis viennent ce soir.", "en": "My friends are coming this evening.", "km": "មិត្តភក្តិរបស់ខ្ញុំមកល្ងាចនេះ។", "tr": "mit-phéak ro-bâh khgnom mok lngéatch nih.",
+      "es": "Mis amigos vienen esta noche.", "it": "I miei amici vengono stasera.", "ru": "Мои друзья придут сегодня вечером.", "zh": "我的朋友们今天晚上来。", "zh_tr": "Wǒ de péngyoumen jīntiān wǎnshang lái."}
     },
     {
-      "fr": "vouloir", "en": "to want", "km": "ចង់", "tr": "tchâng", "pos": "verbe",
+      "fr": "vouloir", "en": "to want", "km": "ចង់", "tr": "tchâng",
+      "es": "querer", "it": "volere", "ru": "хотеть", "zh": "想", "zh_tr": "xiǎng", "pos": "verbe",
       "note": {
         "fr": "ចង់ se place devant un verbe : ចង់ញ៉ាំ, « vouloir manger ». Devant un nom, on dit ចង់បាន (tchâng ban) : ចង់បានកាហ្វេ, « vouloir un café ».",
         "en": "ចង់ goes before a verb: ចង់ញ៉ាំ, “want to eat”. Before a noun, say ចង់បាន (tchâng ban): ចង់បានកាហ្វេ, “want a coffee”. French « vouloir »: je veux; « je voudrais » is more polite.",
         "km": "កិរិយាសព្ទ « vouloir » ប្តូររូបតាមប្រធាន៖ je veux, tu veux, nous voulons។ ដើម្បីគួរសម គេនិយាយថា « je voudrais »។ ភាសាអង់គ្លេស៖ « to want »។"
       },
-      "example": {"fr": "Je veux aller au marché.", "en": "I want to go to the market.", "km": "ខ្ញុំចង់ទៅផ្សារ។", "tr": "khgnom tchâng teuv phsa."}
+      "example": {"fr": "Je veux aller au marché.", "en": "I want to go to the market.", "km": "ខ្ញុំចង់ទៅផ្សារ។", "tr": "khgnom tchâng teuv phsa.",
+      "es": "Quiero ir al mercado.", "it": "Voglio andare al mercato.", "ru": "Я хочу пойти на рынок.", "zh": "我想去市场。", "zh_tr": "Wǒ xiǎng qù shìchǎng."}
     },
     {
-      "fr": "avoir", "en": "to have", "km": "មាន", "tr": "méan", "pos": "verbe",
+      "fr": "avoir", "en": "to have", "km": "មាន", "tr": "méan",
+      "es": "tener", "it": "avere", "ru": "иметь", "zh": "有", "zh_tr": "yǒu", "pos": "verbe",
       "note": {
         "fr": "មាន signifie aussi « il y a » : មានកាហ្វេទេ?, « est-ce qu'il y a du café ? ». Négation : គ្មាន (kméan) ou, à l'oral, អត់មាន (ât méan).",
         "en": "មាន also means “there is”: មានកាហ្វេទេ?, “is there any coffee?”. Negative: គ្មាន (kméan) or, in speech, អត់មាន (ât méan). French « avoir »: j'ai; « il y a » means “there is”.",
         "km": "កិរិយាសព្ទ « avoir » ប្តូររូបច្រើន៖ j'ai, tu as, il a, nous avons។ « il y a » មានន័យថា មាន។ ភាសាអង់គ្លេស៖ « to have »។"
       },
-      "example": {"fr": "J'ai une grande famille.", "en": "I have a big family.", "km": "ខ្ញុំមានគ្រួសារធំ។", "tr": "khgnom méan krouo-sa thom."}
+      "example": {"fr": "J'ai une grande famille.", "en": "I have a big family.", "km": "ខ្ញុំមានគ្រួសារធំ។", "tr": "khgnom méan krouo-sa thom.",
+      "es": "Tengo una familia grande.", "it": "Ho una famiglia numerosa.", "ru": "У меня большая семья.", "zh": "我有一个大家庭。", "zh_tr": "Wǒ yǒu yí ge dà jiātíng."}
     },
     {
-      "fr": "aimer", "en": "to like", "km": "ចូលចិត្ត", "tr": "tchôl tchet", "pos": "verbe",
+      "fr": "aimer", "en": "to like", "km": "ចូលចិត្ត", "tr": "tchôl tchet",
+      "es": "gustar", "it": "piacere", "ru": "любить", "zh": "喜欢", "zh_tr": "xǐhuan", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « entrer dans le cœur ». S'emploie pour les choses et les activités ; pour une personne que l'on aime, on dit ស្រឡាញ់ (srâ-lagn).",
         "en": "Word for word “enter the heart”. Used for things and activities; for a person you love, say ស្រឡាញ់ (srâ-lagn). French « aimer » covers both; « aimer bien » means “to like”.",
         "km": "« aimer » មានន័យទាំង ចូលចិត្ត ទាំង ស្រឡាញ់។ ភាសាអង់គ្លេសបែងចែកជា « to like » និង « to love »។"
       },
-      "example": {"fr": "Mon père aime le café noir.", "en": "My father likes black coffee.", "km": "ឪពុករបស់ខ្ញុំចូលចិត្តកាហ្វេខ្មៅ។", "tr": "eu-pouk ro-bâh khgnom tchôl tchet ka-fé khmav."}
+      "example": {"fr": "Mon père aime le café noir.", "en": "My father likes black coffee.", "km": "ឪពុករបស់ខ្ញុំចូលចិត្តកាហ្វេខ្មៅ។", "tr": "eu-pouk ro-bâh khgnom tchôl tchet ka-fé khmav.",
+      "es": "A mi padre le gusta el café solo.", "it": "A mio padre piace il caffè nero.", "ru": "Мой папа любит чёрный кофе.", "zh": "我爸爸喜欢喝黑咖啡。", "zh_tr": "Wǒ bàba xǐhuan hē hēi kāfēi."}
     },
     {
-      "fr": "comprendre", "en": "to understand", "km": "យល់", "tr": "yol", "pos": "verbe",
+      "fr": "comprendre", "en": "to understand", "km": "យល់", "tr": "yol",
+      "es": "entender", "it": "capire", "ru": "понимать", "zh": "懂", "zh_tr": "dǒng", "pos": "verbe",
       "note": {
         "fr": "Très utile : យល់ទេ? (yol té ?), « tu comprends ? ». On répond យល់ (oui) ou អត់យល់ទេ (ât yol té), « je ne comprends pas ».",
         "en": "Very useful: យល់ទេ? (yol té ?), “do you understand?”. Answer យល់ (yes) or អត់យល់ទេ (ât yol té), “I don't understand”. French « comprendre »: je comprends.",
         "km": "កិរិយាសព្ទ « comprendre » ប្តូររូបតាមប្រធាន៖ je comprends, tu comprends, nous comprenons។ ភាសាអង់គ្លេស៖ « to understand »។"
       },
-      "example": {"fr": "Je comprends un peu le khmer.", "en": "I understand a little Khmer.", "km": "ខ្ញុំយល់ភាសាខ្មែរបន្តិចបន្តួច។", "tr": "khgnom yol phéa-sa khmaè bân-tetch bân-touotch."}
+      "example": {"fr": "Je comprends un peu le khmer.", "en": "I understand a little Khmer.", "km": "ខ្ញុំយល់ភាសាខ្មែរបន្តិចបន្តួច។", "tr": "khgnom yol phéa-sa khmaè bân-tetch bân-touotch.",
+      "es": "Entiendo un poco de jemer.", "it": "Capisco un po' il khmer.", "ru": "Я немного понимаю по-кхмерски.", "zh": "我懂一点儿高棉语。", "zh_tr": "Wǒ dǒng yìdiǎnr Gāomiányǔ."}
     }
   ],
   "expressions": [
     {
       "fr": "Je ne comprends pas.", "en": "I don't understand.", "km": "ខ្ញុំមិនយល់ទេ។", "tr": "khgnom min yol té.",
+      "es": "No entiendo.", "it": "Non capisco.", "ru": "Я не понимаю.", "zh": "我不懂。", "zh_tr": "Wǒ bù dǒng.",
       "note": {"fr": "À l'oral : ខ្ញុំអត់យល់ទេ (khgnom ât yol té). On peut commencer par សុំទោស (som toh), « pardon ».", "en": "In speech: ខ្ញុំអត់យល់ទេ (khgnom ât yol té). You can start with សុំទោស (som toh), “sorry”.", "km": "ប្រយោគសំខាន់សម្រាប់អ្នករៀនភាសា។ ភាសាអង់គ្លេស៖ « I don't understand »។"}
     },
     {
       "fr": "On y va !", "en": "Let's go!", "km": "តោះ ទៅ!", "tr": "tâh, teuv !",
+      "es": "¡Vamos!", "it": "Andiamo!", "ru": "Пошли!", "zh": "走吧！", "zh_tr": "Zǒu ba!",
       "note": {"fr": "តោះ (tâh) invite à faire quelque chose ensemble : តោះ ញ៉ាំបាយ!, « allons manger ! ».", "en": "តោះ (tâh) invites someone to do something together: តោះ ញ៉ាំបាយ!, “let's eat!”. French « On y va ! » literally means “we go there!”.", "km": "ប្រើពេលបបួលគ្នាចេញដំណើរ។ ភាសាអង់គ្លេស៖ « Let's go! »។"}
     },
     {
       "fr": "Viens ici.", "en": "Come here.", "km": "មកនេះ។", "tr": "mok nih.",
+      "es": "Ven aquí.", "it": "Vieni qui.", "ru": "Иди сюда.", "zh": "过来。", "zh_tr": "Guòlai.",
       "note": {"fr": "Entre proches. Plus doux : មកនេះបន្តិច (mok nih bân-tetch), « viens ici un instant ».", "en": "Between close people. Softer: មកនេះបន្តិច (mok nih bân-tetch), “come here a moment”. French « Viens ici » is familiar; « Venez ici » is polite.", "km": "« ici » មានន័យថា ទីនេះ។ ដើម្បីគួរសម គេបន្ថែម « s'il te plaît »។"}
     },
     {
       "fr": "Tu as le temps ?", "en": "Do you have time?", "km": "មានពេលទេ?", "tr": "méan pél té ?",
+      "es": "¿Tienes tiempo?", "it": "Hai tempo?", "ru": "У тебя есть время?", "zh": "你有时间吗？", "zh_tr": "Nǐ yǒu shíjiān ma?",
       "note": {"fr": "ពេល (pél), le temps, le moment. On répond en reprenant le verbe : មាន (oui) ou អត់មានទេ (non).", "en": "ពេល (pél), time, moment. Answer by repeating the verb: មាន (yes) or អត់មានទេ (no). French « le temps » also means “the weather”.", "km": "សំណួរនេះប្រើកិរិយាសព្ទ « avoir »៖ « Tu as le temps ? »។ ភាសាអង់គ្លេស៖ « Do you have time? »។"}
     }
   ],
@@ -87,17 +103,20 @@
     {
       "situation": {"fr": "Proposer une sortie", "en": "Suggesting an outing", "km": "ពេលបបួលដើរលេង"},
       "fr": "Tu veux aller au marché avec moi ?", "en": "Do you want to go to the market with me?",
-      "km": "ចង់ទៅផ្សារជាមួយខ្ញុំទេ?", "tr": "tchâng teuv phsa tchéa-mouy khgnom té ?"
+      "km": "ចង់ទៅផ្សារជាមួយខ្ញុំទេ?", "tr": "tchâng teuv phsa tchéa-mouy khgnom té ?",
+      "es": "¿Quieres ir al mercado conmigo?", "it": "Vuoi venire al mercato con me?", "ru": "Хочешь пойти со мной на рынок?", "zh": "你想跟我一起去市场吗？", "zh_tr": "Nǐ xiǎng gēn wǒ yìqǐ qù shìchǎng ma?"
     },
     {
       "situation": {"fr": "Inviter un ami", "en": "Inviting a friend", "km": "ពេលអញ្ជើញមិត្តភក្តិ"},
       "fr": "Viens manger chez nous demain soir.", "en": "Come and eat at our place tomorrow evening.",
-      "km": "ល្ងាចស្អែក មកញ៉ាំបាយនៅផ្ទះយើង។", "tr": "lngéatch s'aèk, mok gnam bay neuv phtéah yeung."
+      "km": "ល្ងាចស្អែក មកញ៉ាំបាយនៅផ្ទះយើង។", "tr": "lngéatch s'aèk, mok gnam bay neuv phtéah yeung.",
+      "es": "Ven a cenar a casa mañana por la noche.", "it": "Vieni a mangiare da noi domani sera.", "ru": "Приходи к нам ужинать завтра вечером.", "zh": "明天晚上来我们家吃饭吧。", "zh_tr": "Míngtiān wǎnshang lái wǒmen jiā chī fàn ba."
     },
     {
       "situation": {"fr": "Apprendre une langue", "en": "Learning a language", "km": "ពេលរៀនភាសា"},
       "fr": "J'aime le khmer, mais je ne comprends pas tout.", "en": "I like Khmer, but I don't understand everything.",
-      "km": "ខ្ញុំចូលចិត្តភាសាខ្មែរ ប៉ុន្តែខ្ញុំមិនយល់ទាំងអស់ទេ។", "tr": "khgnom tchôl tchet phéa-sa khmaè, pon-taè khgnom min yol téang âh té."
+      "km": "ខ្ញុំចូលចិត្តភាសាខ្មែរ ប៉ុន្តែខ្ញុំមិនយល់ទាំងអស់ទេ។", "tr": "khgnom tchôl tchet phéa-sa khmaè, pon-taè khgnom min yol téang âh té.",
+      "es": "Me gusta el jemer, pero no lo entiendo todo.", "it": "Mi piace il khmer, ma non capisco tutto.", "ru": "Мне нравится кхмерский, но я понимаю не всё.", "zh": "我喜欢高棉语，但是不全懂。", "zh_tr": "Wǒ xǐhuan Gāomiányǔ, dànshì bù quán dǒng."
     }
   ],
   "dialogue": {
@@ -107,12 +126,18 @@
       "km": "ពេលព្រឹក {A} ប្រាប់ {B} ថានឹងមានភ្ញៀវមកលេង។"
     },
     "lines": [
-      {"speaker": "A", "fr": "Ce soir, ma mère vient à la maison.", "en": "This evening, my mother is coming to our house.", "km": "ល្ងាចនេះ ម្តាយខ្ញុំមកផ្ទះយើង។", "tr": "lngéatch nih, mday khgnom mok phtéah yeung."},
-      {"speaker": "B", "fr": "Très bien ! Mais je ne comprends pas bien le khmer.", "en": "Very good! But I don't understand Khmer well.", "km": "ល្អណាស់! ប៉ុន្តែខ្ញុំមិនសូវយល់ភាសាខ្មែរទេ។", "tr": "l'â nah ! pon-taè khgnom min seuv yol phéa-sa khmaè té."},
-      {"speaker": "A", "fr": "Ce n'est pas grave ! Elle aime le thé. Nous avons du thé ?", "en": "It doesn't matter! She likes tea. Do we have any tea?", "km": "មិនអីទេ! គាត់ចូលចិត្តទឹកតែ។ យើងមានទឹកតែទេ?", "tr": "min ey té ! koat tchôl tchet teuk taè. yeung méan teuk taè té ?"},
-      {"speaker": "B", "fr": "Non. Je vais au marché.", "en": "No. I am going to the market.", "km": "អត់មានទេ។ ខ្ញុំទៅផ្សារ។", "tr": "ât méan té. khgnom teuv phsa."},
-      {"speaker": "A", "fr": "Je veux venir avec toi.", "en": "I want to come with you.", "km": "ខ្ញុំចង់ទៅជាមួយដែរ។", "tr": "khgnom tchâng teuv tchéa-mouy daè."},
-      {"speaker": "B", "fr": "D'accord, on y va !", "en": "Okay, let's go!", "km": "បាន តោះ ទៅ!", "tr": "ban, tâh, teuv !"}
+      {"speaker": "A", "fr": "Ce soir, ma mère vient à la maison.", "en": "This evening, my mother is coming to our house.", "km": "ល្ងាចនេះ ម្តាយខ្ញុំមកផ្ទះយើង។", "tr": "lngéatch nih, mday khgnom mok phtéah yeung.",
+        "es": "Esta noche viene mi madre a casa.", "it": "Stasera mia madre viene a casa nostra.", "ru": "Сегодня вечером ко мне придёт мама.", "zh": "今天晚上我妈妈来我们家。", "zh_tr": "Jīntiān wǎnshang wǒ māma lái wǒmen jiā."},
+      {"speaker": "B", "fr": "Très bien ! Mais je ne comprends pas bien le khmer.", "en": "Very good! But I don't understand Khmer well.", "km": "ល្អណាស់! ប៉ុន្តែខ្ញុំមិនសូវយល់ភាសាខ្មែរទេ។", "tr": "l'â nah ! pon-taè khgnom min seuv yol phéa-sa khmaè té.",
+        "es": "¡Muy bien! Pero no entiendo bien el jemer.", "it": "Benissimo! Ma non capisco bene il khmer.", "ru": "Отлично! Но я плохо понимаю по-кхмерски.", "zh": "太好了！可是我不太懂高棉语。", "zh_tr": "Tài hǎo le! Kěshì wǒ bú tài dǒng Gāomiányǔ."},
+      {"speaker": "A", "fr": "Ce n'est pas grave ! Elle aime le thé. Nous avons du thé ?", "en": "It doesn't matter! She likes tea. Do we have any tea?", "km": "មិនអីទេ! គាត់ចូលចិត្តទឹកតែ។ យើងមានទឹកតែទេ?", "tr": "min ey té ! koat tchôl tchet teuk taè. yeung méan teuk taè té ?",
+        "es": "¡No pasa nada! Le gusta el té. ¿Tenemos té?", "it": "Non importa! Le piace il tè. Abbiamo del tè?", "ru": "Ничего страшного! Она любит чай. У нас есть чай?", "zh": "没关系！她喜欢喝茶。我们有茶吗？", "zh_tr": "Méi guānxi! Tā xǐhuan hē chá. Wǒmen yǒu chá ma?"},
+      {"speaker": "B", "fr": "Non. Je vais au marché.", "en": "No. I am going to the market.", "km": "អត់មានទេ។ ខ្ញុំទៅផ្សារ។", "tr": "ât méan té. khgnom teuv phsa.",
+        "es": "No. Voy al mercado.", "it": "No. Vado al mercato.", "ru": "Нет. Я схожу на рынок.", "zh": "没有。我去市场。", "zh_tr": "Méiyǒu. Wǒ qù shìchǎng."},
+      {"speaker": "A", "fr": "Je veux venir avec toi.", "en": "I want to come with you.", "km": "ខ្ញុំចង់ទៅជាមួយដែរ។", "tr": "khgnom tchâng teuv tchéa-mouy daè.",
+        "es": "Quiero ir contigo.", "it": "Voglio venire con te.", "ru": "Я хочу пойти с тобой.", "zh": "我想跟你一起去。", "zh_tr": "Wǒ xiǎng gēn nǐ yìqǐ qù."},
+      {"speaker": "B", "fr": "D'accord, on y va !", "en": "Okay, let's go!", "km": "បាន តោះ ទៅ!", "tr": "ban, tâh, teuv !",
+        "es": "¡Vale, vamos!", "it": "D'accordo, andiamo!", "ru": "Хорошо, пошли!", "zh": "好，走吧！", "zh_tr": "Hǎo, zǒu ba!"}
     ]
   },
   "comprehension": {

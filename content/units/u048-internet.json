@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "l'ordinateur", "en": "computer", "km": "កុំព្យូទ័រ", "tr": "kom-pyou-tô", "pos": "nom",
+      "fr": "l'ordinateur", "en": "computer", "km": "កុំព្យូទ័រ", "tr": "kom-pyou-tô",
+      "es": "el ordenador", "it": "il computer", "ru": "компьютер", "zh": "电脑", "zh_tr": "diànnǎo", "pos": "nom",
       "note": {
         "fr": "Emprunté à l'anglais « computer ». Un ordinateur portable se dit កុំព្យូទ័រយួរដៃ, « ordinateur qu'on porte à la main ».",
         "en": "Borrowed from English “computer”. A laptop is កុំព្យូទ័រយួរដៃ, “computer you carry in your hand”. French « ordinateur » is masculine; a laptop is « un portable ».",
         "km": "« ordinateur » ជានាមភេទប្រុស៖ l'ordinateur។ កុំព្យូទ័រយួរដៃគឺ « l'ordinateur portable »។ អង់គ្លេស៖ « computer », « laptop »។"
       },
-      "example": {"fr": "Je travaille sur l'ordinateur.", "en": "I work on the computer.", "km": "ខ្ញុំធ្វើការនៅលើកុំព្យូទ័រ។", "tr": "khgnom thveu-ka neuv leu kom-pyou-tô."}
+      "example": {"fr": "Je travaille sur l'ordinateur.", "en": "I work on the computer.", "km": "ខ្ញុំធ្វើការនៅលើកុំព្យូទ័រ។", "tr": "khgnom thveu-ka neuv leu kom-pyou-tô.",
+      "es": "Trabajo con el ordenador.", "it": "Lavoro al computer.", "ru": "Я работаю на компьютере.", "zh": "我用电脑工作。", "zh_tr": "Wǒ yòng diànnǎo gōngzuò."}
     },
     {
-      "fr": "internet", "en": "internet", "km": "អ៊ីនធឺណិត", "tr": "in-theu-net", "pos": "nom",
+      "fr": "internet", "en": "internet", "km": "អ៊ីនធឺណិត", "tr": "in-theu-net",
+      "es": "internet", "it": "internet", "ru": "интернет", "zh": "网络", "zh_tr": "wǎngluò", "pos": "nom",
       "note": {
         "fr": "Emprunté à l'anglais. Pour « se connecter », on dit ភ្ជាប់អ៊ីនធឺណិត (phtchoap in-theu-net).",
         "en": "Borrowed from English. To connect is ភ្ជាប់អ៊ីនធឺណិត (phtchoap in-theu-net). French writes « internet » without an article.",
         "km": "« internet » មិនសូវប្រើពាក្យនាំមុខទេ៖ sur internet។ អង់គ្លេស៖ « on the internet »។"
       },
-      "example": {"fr": "Internet est lent ce soir.", "en": "The internet is slow tonight.", "km": "យប់នេះ អ៊ីនធឺណិតយឺត។", "tr": "youp nih, in-theu-net yeut."}
+      "example": {"fr": "Internet est lent ce soir.", "en": "The internet is slow tonight.", "km": "យប់នេះ អ៊ីនធឺណិតយឺត។", "tr": "youp nih, in-theu-net yeut.",
+      "es": "Internet va lento esta noche.", "it": "Stasera internet è lento.", "ru": "Сегодня вечером интернет медленный.", "zh": "今天晚上网很慢。", "zh_tr": "Jīntiān wǎnshang wǎng hěn màn."}
     },
     {
-      "fr": "la photo", "en": "photo", "km": "រូបថត", "tr": "roup-thât", "pos": "nom",
+      "fr": "la photo", "en": "photo", "km": "រូបថត", "tr": "roup-thât",
+      "es": "la foto", "it": "la foto", "ru": "фотография", "zh": "照片", "zh_tr": "zhàopiàn", "pos": "nom",
       "note": {
         "fr": "រូប, « l'image », et ថត, « enregistrer, photographier ». Prendre une photo se dit ថតរូប.",
         "en": "រូប, “image”, and ថត, “to record, to photograph”. To take a photo is ថតរូប. French « photo » is feminine.",
         "km": "« photo » ជានាមភេទស្រី៖ la photo។ « prendre une photo » មានន័យថា ថតរូប។ អង់គ្លេស៖ « photo », « to take a picture »។"
       },
-      "example": {"fr": "On prend une photo ensemble ?", "en": "Shall we take a photo together?", "km": "ថតរូបជាមួយគ្នាទេ?", "tr": "thât roup tchéa-mouy knéa té ?"}
+      "example": {"fr": "On prend une photo ensemble ?", "en": "Shall we take a photo together?", "km": "ថតរូបជាមួយគ្នាទេ?", "tr": "thât roup tchéa-mouy knéa té ?",
+      "es": "¿Nos hacemos una foto juntos?", "it": "Facciamo una foto insieme?", "ru": "Сфотографируемся вместе?", "zh": "我们一起拍张照片吧？", "zh_tr": "Wǒmen yìqǐ pāi zhāng zhàopiàn ba?"}
     },
     {
-      "fr": "envoyer", "en": "to send", "km": "ផ្ញើ", "tr": "phgnaeu", "pos": "verbe",
+      "fr": "envoyer", "en": "to send", "km": "ផ្ញើ", "tr": "phgnaeu",
+      "es": "enviar", "it": "mandare", "ru": "отправлять", "zh": "发", "zh_tr": "fā", "pos": "verbe",
       "note": {
         "fr": "ផ្ញើ sert pour une lettre, un colis ou un message. Pour un message, on dit aussi ផ្ញើសារ.",
         "en": "ផ្ញើ is used for a letter, a parcel or a message. For a message, people also say ផ្ញើសារ. French « envoyer »: j'envoie.",
         "km": "« envoyer »៖ j'envoie, tu envoies, nous envoyons។ អង់គ្លេស៖ « to send »។"
       },
-      "example": {"fr": "Je t'envoie un message ce soir.", "en": "I'll send you a message tonight.", "km": "យប់នេះ ខ្ញុំផ្ញើសារទៅអ្នក។", "tr": "youp nih, khgnom phgnaeu sa teuv néak."}
+      "example": {"fr": "Je t'envoie un message ce soir.", "en": "I'll send you a message tonight.", "km": "យប់នេះ ខ្ញុំផ្ញើសារទៅអ្នក។", "tr": "youp nih, khgnom phgnaeu sa teuv néak.",
+      "es": "Te mando un mensaje esta noche.", "it": "Ti mando un messaggio stasera.", "ru": "Я пришлю тебе сообщение сегодня вечером.", "zh": "我今天晚上给你发消息。", "zh_tr": "Wǒ jīntiān wǎnshang gěi nǐ fā xiāoxi."}
     },
     {
-      "fr": "le mot de passe", "en": "password", "km": "ពាក្យសម្ងាត់", "tr": "péak sâm-ngat", "pos": "nom",
+      "fr": "le mot de passe", "en": "password", "km": "ពាក្យសម្ងាត់", "tr": "péak sâm-ngat",
+      "es": "la contraseña", "it": "la password", "ru": "пароль", "zh": "密码", "zh_tr": "mìmǎ", "pos": "nom",
       "note": {
         "fr": "Mot à mot « le mot secret ». សម្ងាត់ (sâm-ngat), « le secret », vient de ស្ងាត់, « silencieux ».",
         "en": "Word for word “secret word”. សម្ងាត់ (sâm-ngat), “secret”, comes from ស្ងាត់, “silent”. French « mot de passe » literally means “word for passing”.",
         "km": "« le mot de passe » មានន័យថា ពាក្យសម្ងាត់។ « mot » មានន័យថា ពាក្យ។ អង់គ្លេស៖ « password »។"
       },
-      "example": {"fr": "J'ai oublié mon mot de passe.", "en": "I forgot my password.", "km": "ខ្ញុំភ្លេចពាក្យសម្ងាត់។", "tr": "khgnom phlétch péak sâm-ngat."}
+      "example": {"fr": "J'ai oublié mon mot de passe.", "en": "I forgot my password.", "km": "ខ្ញុំភ្លេចពាក្យសម្ងាត់។", "tr": "khgnom phlétch péak sâm-ngat.",
+      "es": "He olvidado mi contraseña.", "it": "Ho dimenticato la password.", "ru": "Я забыл пароль.", "zh": "我忘了密码。", "zh_tr": "Wǒ wàng le mìmǎ."}
     },
     {
-      "fr": "la batterie", "en": "battery", "km": "ថ្ម", "tr": "thmâ", "pos": "nom",
+      "fr": "la batterie", "en": "battery", "km": "ថ្ម", "tr": "thmâ",
+      "es": "la batería", "it": "la batteria", "ru": "батарея", "zh": "电池", "zh_tr": "diànchí", "pos": "nom",
       "note": {
         "fr": "ថ្ម veut d'abord dire « la pierre ». Recharger le téléphone se dit សាកថ្ម (sak thmâ).",
         "en": "ថ្ម first means “stone”. To charge the phone is សាកថ្ម (sak thmâ). French « batterie » is feminine.",
         "km": "« batterie » ជានាមភេទស្រី៖ la batterie។ « recharger » មានន័យថា សាកថ្ម។ អង់គ្លេស៖ « battery », « to charge »។"
       },
-      "example": {"fr": "Je dois recharger la batterie.", "en": "I need to charge the battery.", "km": "ខ្ញុំត្រូវសាកថ្ម។", "tr": "khgnom treuv sak thmâ."}
+      "example": {"fr": "Je dois recharger la batterie.", "en": "I need to charge the battery.", "km": "ខ្ញុំត្រូវសាកថ្ម។", "tr": "khgnom treuv sak thmâ.",
+      "es": "Tengo que cargar la batería.", "it": "Devo ricaricare la batteria.", "ru": "Мне нужно зарядить батарею.", "zh": "我得充电了。", "zh_tr": "Wǒ děi chōngdiàn le."}
     }
   ],
   "expressions": [
     {
       "fr": "Quel est le code du wifi ?", "en": "What's the wifi password?", "km": "លេខកូដវ៉ាយហ្វាយលេខប៉ុន្មាន?", "tr": "lék kôt vay-fay lék pon-man ?",
+      "es": "¿Cuál es la contraseña del wifi?", "it": "Qual è la password del wifi?", "ru": "Какой пароль от вайфая?", "zh": "无线网密码是多少？", "zh_tr": "Wúxiànwǎng mìmǎ shì duōshao?",
       "note": {
         "fr": "Question indispensable au café ou à l'hôtel. Le wifi se prononce « vay-fay » en khmer, comme en anglais.",
         "en": "An essential question at a café or hotel. Wifi is pronounced “vay-fay” in Khmer, as in English. French says « le code du wifi », pronounced “wee-fee”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Ma batterie est vide.", "en": "My battery is dead.", "km": "ថ្មអស់ហើយ។", "tr": "thmâ âh haeuy.",
+      "es": "Me he quedado sin batería.", "it": "Ho la batteria scarica.", "ru": "У меня сел телефон.", "zh": "我的手机没电了。", "zh_tr": "Wǒ de shǒujī méi diàn le.",
       "note": {
         "fr": "អស់ (âh), « épuisé, fini ». Le même mot sert quand il n'y a plus rien : អស់លុយ, plus d'argent.",
         "en": "អស់ (âh), “used up, finished”. The same word is used when there is nothing left: អស់លុយ, out of money. French « vide » means “empty”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Envoie-moi la photo.", "en": "Send me the photo.", "km": "ផ្ញើរូបមកខ្ញុំផង។", "tr": "phgnaeu roup mok khgnom phâng.",
+      "es": "Mándame la foto.", "it": "Mandami la foto.", "ru": "Пришли мне фото.", "zh": "把照片发给我。", "zh_tr": "Bǎ zhàopiàn fā gěi wǒ.",
       "note": {
         "fr": "មក, « venir », indique la direction vers celui qui parle. ផង adoucit la demande.",
         "en": "មក, “to come”, shows the direction towards the speaker. ផង softens the request. French « Envoie-moi » is familiar.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "On fait un appel vidéo ?", "en": "Shall we do a video call?", "km": "ហៅវីដេអូទេ?", "tr": "hav vi-dé-ô té ?",
+      "es": "¿Hacemos una videollamada?", "it": "Facciamo una videochiamata?", "ru": "Созвонимся по видео?", "zh": "我们视频通话吧？", "zh_tr": "Wǒmen shìpín tōnghuà ba?",
       "note": {
         "fr": "Mot à mot « appeler en vidéo ». Très utilisé pour parler à la famille à l'étranger.",
         "en": "Word for word “call by video”. Widely used to talk to family abroad. French « appel vidéo ».",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Loin de la famille", "en": "Far from the family", "km": "ពេលនៅឆ្ងាយពីគ្រួសារ"},
       "fr": "Je parle avec ma famille en France par appel vidéo.", "en": "I talk with my family in France by video call.",
-      "km": "ខ្ញុំនិយាយជាមួយគ្រួសារនៅប្រទេសបារាំងតាមវីដេអូ។", "tr": "khgnom ni-yéay tchéa-mouy krouo-sa neuv prâ-téh ba-rang tam vi-dé-ô."
+      "km": "ខ្ញុំនិយាយជាមួយគ្រួសារនៅប្រទេសបារាំងតាមវីដេអូ។", "tr": "khgnom ni-yéay tchéa-mouy krouo-sa neuv prâ-téh ba-rang tam vi-dé-ô.",
+      "es": "Hablo con mi familia en Francia por videollamada.", "it": "Parlo con la mia famiglia in Francia in videochiamata.", "ru": "Я разговариваю с семьёй во Франции по видеосвязи.", "zh": "我跟在法国的家人视频通话。", "zh_tr": "Wǒ gēn zài Fǎguó de jiārén shìpín tōnghuà."
     },
     {
       "situation": {"fr": "Un conseil de sécurité", "en": "A safety tip", "km": "ដំបូន្មានសុវត្ថិភាព"},
       "fr": "N'écris pas ton mot de passe sur un papier.", "en": "Don't write your password on a piece of paper.",
-      "km": "កុំសរសេរពាក្យសម្ងាត់លើក្រដាស។", "tr": "kom sâ-sé péak sâm-ngat leu krâ-dah."
+      "km": "កុំសរសេរពាក្យសម្ងាត់លើក្រដាស។", "tr": "kom sâ-sé péak sâm-ngat leu krâ-dah.",
+      "es": "No escribas tu contraseña en un papel.", "it": "Non scrivere la password su un foglio.", "ru": "Не записывай пароль на бумажке.", "zh": "别把密码写在纸上。", "zh_tr": "Bié bǎ mìmǎ xiě zài zhǐ shang."
     },
     {
       "situation": {"fr": "Au café", "en": "At the café", "km": "នៅហាងកាហ្វេ"},
       "fr": "Dans ce café, internet est gratuit.", "en": "In this café, the internet is free.",
-      "km": "នៅហាងកាហ្វេនេះ អ៊ីនធឺណិតឥតគិតលុយ។", "tr": "neuv hang ka-fé nih, in-theu-net et kit louy."
+      "km": "នៅហាងកាហ្វេនេះ អ៊ីនធឺណិតឥតគិតលុយ។", "tr": "neuv hang ka-fé nih, in-theu-net et kit louy.",
+      "es": "En esta cafetería, internet es gratis.", "it": "In questo bar internet è gratis.", "ru": "В этом кафе бесплатный интернет.", "zh": "这家咖啡馆的网是免费的。", "zh_tr": "Zhè jiā kāfēiguǎn de wǎng shì miǎnfèi de."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{B} est en France et appelle {A} en vidéo.", "en": "{B} is in France and video-calls {A}.", "km": "{B} នៅប្រទេសបារាំង ហើយហៅវីដេអូទៅ {A}។"},
     "lines": [
-      {"speaker": "B", "fr": "Tu m'entends ? On fait un appel vidéo ?", "en": "Can you hear me? Shall we do a video call?", "km": "ឮខ្ញុំទេ? ហៅវីដេអូទេ?", "tr": "leu khgnom té ? hav vi-dé-ô té ?"},
-      {"speaker": "A", "fr": "Attends, internet est lent ici.", "en": "Wait, the internet is slow here.", "km": "ចាំបន្តិច អ៊ីនធឺណិតនៅទីនេះយឺត។", "tr": "tcham bân-tetch, in-theu-net neuv ti-nih yeut."},
-      {"speaker": "B", "fr": "Ça y est, je te vois !", "en": "There we go, I can see you!", "km": "ឃើញហើយ!", "tr": "kheugn haeuy !"},
-      {"speaker": "A", "fr": "Envoie-moi les photos de ta famille !", "en": "Send me the photos of your family!", "km": "ផ្ញើរូបថតគ្រួសារមកខ្ញុំផង!", "tr": "phgnaeu roup-thât krouo-sa mok khgnom phâng !"},
-      {"speaker": "B", "fr": "D'accord, je les envoie depuis l'ordinateur ce soir. Ma batterie est presque vide.", "en": "Okay, I'll send them from the computer tonight. My battery is almost dead.", "km": "បាន យប់នេះខ្ញុំផ្ញើពីកុំព្យូទ័រ។ ថ្មទូរស័ព្ទជិតអស់ហើយ។", "tr": "ban, youp nih khgnom phgnaeu pi kom-pyou-tô. thmâ tou-ro-sap tchit âh haeuy."},
-      {"speaker": "A", "fr": "Alors à ce soir. Tu me manques !", "en": "See you tonight then. I miss you!", "km": "អញ្ចឹង ជួបគ្នាយប់នេះ។ នឹក {B} ណាស់!", "tr": "agn-tcheung, tchouop knéa youp nih. neuk {B} nah !"}
+      {"speaker": "B", "fr": "Tu m'entends ? On fait un appel vidéo ?", "en": "Can you hear me? Shall we do a video call?", "km": "ឮខ្ញុំទេ? ហៅវីដេអូទេ?", "tr": "leu khgnom té ? hav vi-dé-ô té ?",
+        "es": "¿Me oyes? ¿Hacemos una videollamada?", "it": "Mi senti? Facciamo una videochiamata?", "ru": "Ты меня слышишь? Созвонимся по видео?", "zh": "你听得见吗？我们视频通话吧？", "zh_tr": "Nǐ tīng de jiàn ma? Wǒmen shìpín tōnghuà ba?"},
+      {"speaker": "A", "fr": "Attends, internet est lent ici.", "en": "Wait, the internet is slow here.", "km": "ចាំបន្តិច អ៊ីនធឺណិតនៅទីនេះយឺត។", "tr": "tcham bân-tetch, in-theu-net neuv ti-nih yeut.",
+        "es": "Espera, aquí internet va lento.", "it": "Aspetta, qui internet è lento.", "ru": "Подожди, здесь медленный интернет.", "zh": "等一下，这儿的网很慢。", "zh_tr": "Děng yíxià, zhèr de wǎng hěn màn."},
+      {"speaker": "B", "fr": "Ça y est, je te vois !", "en": "There we go, I can see you!", "km": "ឃើញហើយ!", "tr": "kheugn haeuy !",
+        "es": "¡Ya está, te veo!", "it": "Ecco, ti vedo!", "ru": "Всё, я тебя вижу!", "zh": "好了，我看到你了！", "zh_tr": "Hǎo le, wǒ kàndào nǐ le!"},
+      {"speaker": "A", "fr": "Envoie-moi les photos de ta famille !", "en": "Send me the photos of your family!", "km": "ផ្ញើរូបថតគ្រួសារមកខ្ញុំផង!", "tr": "phgnaeu roup-thât krouo-sa mok khgnom phâng !",
+        "es": "¡Mándame las fotos de tu familia!", "it": "Mandami le foto della tua famiglia!", "ru": "Пришли мне фотографии твоей семьи!", "zh": "把你家人的照片发给我！", "zh_tr": "Bǎ nǐ jiārén de zhàopiàn fā gěi wǒ!"},
+      {"speaker": "B", "fr": "D'accord, je les envoie depuis l'ordinateur ce soir. Ma batterie est presque vide.", "en": "Okay, I'll send them from the computer tonight. My battery is almost dead.", "km": "បាន យប់នេះខ្ញុំផ្ញើពីកុំព្យូទ័រ។ ថ្មទូរស័ព្ទជិតអស់ហើយ។", "tr": "ban, youp nih khgnom phgnaeu pi kom-pyou-tô. thmâ tou-ro-sap tchit âh haeuy.",
+        "es": "Vale, te las mando esta noche desde el ordenador. Casi no me queda batería.", "it": "D'accordo, te le mando stasera dal computer. Ho la batteria quasi scarica.", "ru": "Хорошо, я пришлю их вечером с компьютера. У меня почти села батарея.", "zh": "好，我今天晚上用电脑发给你。我的手机快没电了。", "zh_tr": "Hǎo, wǒ jīntiān wǎnshang yòng diànnǎo fā gěi nǐ. Wǒ de shǒujī kuài méi diàn le."},
+      {"speaker": "A", "fr": "Alors à ce soir. Tu me manques !", "en": "See you tonight then. I miss you!", "km": "អញ្ចឹង ជួបគ្នាយប់នេះ។ នឹក {B} ណាស់!", "tr": "agn-tcheung, tchouop knéa youp nih. neuk {B} nah !",
+        "es": "Entonces, hasta esta noche. ¡Te echo de menos!", "it": "Allora a stasera. Mi manchi!", "ru": "Тогда до вечера. Я по тебе скучаю!", "zh": "那晚上见。我想你！", "zh_tr": "Nà wǎnshang jiàn. Wǒ xiǎng nǐ!"}
     ]
   },
   "comprehension": {

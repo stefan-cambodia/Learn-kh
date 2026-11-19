@@ -16,13 +16,20 @@
   /* « revision.html#lecon=12 » (lien en fin de leçon) : réviser uniquement les mots de cette leçon. */
   var LESSON = (function () { var m = /(?:^|[#&])lecon=(\d+)/.exec(location.hash); return m ? Number(m[1]) : 0; })();
   var ICON_PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.2v13.6L19.5 12z"/></svg>';
-  var TAGS = { fr: "FR", en: "EN", km: "KH" };
+  var TAGS = { fr: "FR", en: "EN", km: "KH", es: "ES", it: "IT", ru: "RU", zh: "ZH" };
+  var CONTENT_LANGS = (window.FRKH_LANGS && window.FRKH_LANGS.all) || ["fr", "en", "km"];
+  /* Langues qu'on ne tape pas au clavier dans l'exercice « Écrire » (écriture non latine sans clavier dédié). */
+  var NO_WRITE = ["km", "zh"];
 
   /* Libellés : [français, anglais, khmer] — la langue du profil actif est utilisée. */
   var T = {
     lang_fr: ["Français", "French", "ភាសាបារាំង"],
     lang_en: ["Anglais", "English", "ភាសាអង់គ្លេស"],
     lang_km: ["Khmer", "Khmer", "ភាសាខ្មែរ"],
+    lang_es: ["Espagnol", "Spanish", "ភាសាអេស្ប៉ាញ"],
+    lang_it: ["Italien", "Italian", "ភាសាអ៊ីតាលី"],
+    lang_ru: ["Russe", "Russian", "ភាសារុស្ស៊ី"],
+    lang_zh: ["Chinois", "Chinese", "ភាសាចិន"],
     studied: ["Langue révisée", "Language", "ភាសាដែលរំលឹក"],
     mode: ["Exercice", "Exercise", "លំហាត់"],
     recognize: ["Reconnaître le mot", "Recognise the word", "ស្គាល់ពាក្យ"],
@@ -115,7 +122,20 @@
   }
 
   /* ------------------------------------------------------------- Réglages */
-  function targets() { return PROFILES[profile()].slice(); }
+  function shown(lang) { return window.frkhLangShown ? window.frkhLangShown(lang) : true; }
+  /* Langues révisables : celles du profil, puis les langues supplémentaires affichées. */
+  function targets() {
+    var langs = PROFILES[profile()].slice();
+    CONTENT_LANGS.forEach(function (l) {
+      if (l !== profile() && langs.indexOf(l) === -1 && ALL.some(function (c) { return c[l]; })) { langs.push(l); }
+    });
+    var visible = langs.filter(shown);
+    return visible.length ? visible : langs;
+  }
+  /* Ordre des langues au dos de la carte : la langue révisée, puis les autres langues affichées. */
+  function backOrder() {
+    return [settings.lang].concat(CONTENT_LANGS.filter(function (l) { return l !== settings.lang && shown(l); }));
+  }
   function native() { return profile(); }
 
   function prefs() {
@@ -128,7 +148,7 @@
       scope: LESSON ? "lesson" : ["all", "recent"].indexOf(saved.scope) !== -1 ? saved.scope : "due"
     };
   }
-  function fixPrefs() { if (settings.dir === "write" && settings.lang === "km") { settings.dir = "recognize"; } }
+  function fixPrefs() { if (settings.dir === "write" && NO_WRITE.indexOf(settings.lang) !== -1) { settings.dir = "recognize"; } }
   function savePrefs() {
     var saved = { lang: settings.lang, dir: settings.dir, scope: settings.scope === "lesson" ? "due" : settings.scope };
     store.set("frkh-review-" + profile(), JSON.stringify(saved));
@@ -176,11 +196,11 @@
 
   function available() {
     var today = todayISO();
-    return ALL.filter(function (card) { return card.d <= today; });
+    return ALL.filter(function (card) { return card.d <= today && card[settings.lang]; });
   }
 
   function pool() {
-    if (settings.scope === "lesson") { return ALL.filter(function (card) { return card.n === LESSON; }); }
+    if (settings.scope === "lesson") { return ALL.filter(function (card) { return card.n === LESSON && card[settings.lang]; }); }
     if (settings.scope === "due") { return dueCards(); }
     var cards = available();
     if (settings.scope === "recent") {
@@ -324,7 +344,9 @@
   }
 
   function row(card, lang, withAudio) {
-    var translit = lang === "km" && card.tr ? '<p class="translit">' + esc(card.tr) + "</p>" : "";
+    if (!card[lang]) { return ""; }
+    var reading = lang === "km" ? card.tr : card[lang + "_tr"];
+    var translit = reading ? '<p class="translit">' + esc(reading) + "</p>" : "";
     var audio = withAudio && card.a[lang]
       ? '<span class="audio is-enhanced"><button type="button" class="play" data-play="' + lang + '" aria-label="' + esc(t("play")) + '">' + ICON_PLAY + "</button></span>"
       : "";
@@ -343,7 +365,7 @@
     var controls =
       chips("studied", langs.map(function (l) { return { value: l, label: t("lang_" + l) }; }), settings.lang) +
       chips("mode", [{ value: "recognize", label: t("recognize") }, { value: "recall", label: t("recall") },
-                     { value: "listen", label: t("listen") }].concat(settings.lang !== "km" ? [{ value: "write", label: t("write") }] : []),
+                     { value: "listen", label: t("listen") }].concat(NO_WRITE.indexOf(settings.lang) === -1 ? [{ value: "write", label: t("write") }] : []),
             settings.dir) +
       chips("scope", (LESSON ? [{ value: "lesson", label: t("this_lesson").replace("{n}", num(LESSON)) }] : [])
         .concat([{ value: "due", label: t("due").replace("{n}", num(dueCards().length)) },
@@ -373,12 +395,13 @@
       var face = '<p class="fc-question">' + esc(question) + "</p>" +
         '<div class="fc-front lang-' + front + '"><p class="fc-prompt" lang="' + front + '">' + esc(card[front]) + "</p>" +
         (front === "km" && card.tr && profile() !== "km" ? '<p class="translit">' + esc(card.tr) + "</p>" : "") +
+        (front !== "km" && card[front + "_tr"] ? '<p class="translit">' + esc(card[front + "_tr"]) + "</p>" : "") +
         (card.a[front] && settings.dir === "recognize"
           ? '<span class="audio is-enhanced"><button type="button" class="play" data-play="' + front + '" aria-label="' + esc(t("play")) + '">' + ICON_PLAY + "</button></span>" : "") +
         "</div>";
       var back = "";
       if (revealed) {
-        var order = [settings.lang].concat(["fr", "en", "km"].filter(function (l) { return l !== settings.lang; }));
+        var order = backOrder();
         back = '<div class="fc-back tri">' + order.map(function (l) { return row(card, l, true); }).join("") + "</div>" +
           '<p class="fc-source"><a data-nav href="' + esc(card.href) + '">' + esc(t("lesson")) + " " + num(card.n) + "</a></p>" +
           '<div class="fc-answers"><button type="button" class="fc-btn fc-again" data-answer="0">' + esc(t("again")) +
@@ -406,7 +429,7 @@
     var after = "";
     if (card._verdict) {
       var label = card._verdict === "right" ? t("right") : card._verdict === "almost" ? t("almost") : t("wrong");
-      var order = [settings.lang].concat(["fr", "en", "km"].filter(function (l) { return l !== settings.lang; }));
+      var order = backOrder();
       after = '<p class="fc-verdict ' + (card._verdict === "wrong" ? "is-wrong" : "is-right") + '">' + esc(label) + "</p>" +
         '<div class="fc-back tri">' + order.map(function (l) { return row(card, l, true); }).join("") + "</div>" +
         '<button type="button" class="fc-btn fc-reveal" data-action="next">' + esc(t("next")) + " <kbd>" + esc(t("key_enter")) + "</kbd></button>";
@@ -433,7 +456,7 @@
     var after = "";
     if (card._chosen !== -1) {
       var ok = card._choices[card._chosen] === card;
-      var order = [settings.lang].concat(["fr", "en", "km"].filter(function (l) { return l !== settings.lang; }));
+      var order = backOrder();
       after = '<p class="fc-verdict ' + (ok ? "is-right" : "is-wrong") + '">' + esc(ok ? t("right") : t("wrong")) + "</p>" +
         '<div class="fc-back tri">' + order.map(function (l) { return row(card, l, true); }).join("") + "</div>" +
         '<button type="button" class="fc-btn fc-reveal" data-action="next">' + esc(t("next")) + " <kbd>" + esc(t("key_space")) + "</kbd></button>";
@@ -517,6 +540,8 @@
       changes.forEach(function (change) { if (change.attributeName === "data-profile") { init(); } });
     }).observe(root, { attributes: true });
   }
+  /* Langue masquée ou réaffichée dans le sélecteur « Langues » : les langues révisables changent. */
+  root.addEventListener("frkh:langs", function () { init(); });
   document.addEventListener("frkh:synced", function () {
     if (!position && !revealed) { init(); } else { /* séance en cours : on garde les cartes */ }
   });

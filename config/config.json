@@ -31,7 +31,10 @@
       "name": {
         "latin": "Dara",
         "km": "ដារ៉ា",
-        "tr": "da-ra"
+        "tr": "da-ra",
+        "ru": "Дара",
+        "zh": "达拉",
+        "zh_tr": "Dálā"
       },
       "gender": "f"
     },
@@ -39,7 +42,10 @@
       "name": {
         "latin": "Alex",
         "km": "អាឡិច",
-        "tr": "a-lech"
+        "tr": "a-lech",
+        "ru": "Алекс",
+        "zh": "亚历克斯",
+        "zh_tr": "Yàlìkèsī"
       },
       "gender": "m"
     }
@@ -94,9 +100,47 @@
         "provider": "azure",
         "voice": "km-KH-SreymomNeural"
       }
+    },
+    "es": {
+      "locale": "es-ES",
+      "provider": "command",
+      "voice": "gtranslate-es",
+      "fallback": {
+        "provider": "google",
+        "voice": "es-ES-Neural2-A"
+      }
+    },
+    "it": {
+      "locale": "it-IT",
+      "provider": "command",
+      "voice": "gtranslate-it",
+      "fallback": {
+        "provider": "google",
+        "voice": "it-IT-Neural2-A"
+      }
+    },
+    "ru": {
+      "locale": "ru-RU",
+      "provider": "command",
+      "voice": "gtranslate-ru",
+      "fallback": {
+        "provider": "google",
+        "voice": "ru-RU-Wavenet-A"
+      }
+    },
+    "zh": {
+      "locale": "zh-CN",
+      "provider": "command",
+      "voice": "gtranslate-zh",
+      "fallback": {
+        "provider": "google",
+        "voice": "cmn-CN-Wavenet-A"
+      }
     }
   },
   "audio": {
+    "format": "mp3",
+    "mp3_bitrate_kbps": 48,
     "sample_rate_hz": 24000,
     "speaking_rate": 0.9,
     "pitch": 0.0,
@@ -143,5 +187,16 @@
     "level": "INFO",
     "max_bytes": 1048576,
     "backups": 5
+  },
+  "display": {
+    "languages": [
+      "fr",
+      "en",
+      "km",
+      "es",
+      "it",
+      "ru",
+      "zh"
+    ]
   }
 }

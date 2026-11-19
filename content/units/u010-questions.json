@@ -11,75 +11,91 @@
   },
   "vocabulary": [
     {
-      "fr": "quoi", "en": "what", "km": "អ្វី", "tr": "ey", "pos": "interrogatif",
+      "fr": "quoi", "en": "what", "km": "អ្វី", "tr": "ey",
+      "es": "qué", "it": "che cosa", "ru": "что", "zh": "什么", "zh_tr": "shénme", "pos": "interrogatif",
       "note": {
         "fr": "Dans la conversation, អ្វី se prononce « ey » et s'écrit alors souvent អី. Il se place après le verbe.",
         "en": "In conversation, អ្វី is pronounced “ey” and often written អី. It goes after the verb. French « quoi » becomes « que » at the start of a question: que fais-tu ?",
         "km": "« quoi » ប្រើនៅចុងប្រយោគ៖ « Tu manges quoi ? »។ នៅដើមប្រយោគ គេប្រើ « Qu'est-ce que »។ ភាសាអង់គ្លេស៖ « what »។"
       },
-      "example": {"fr": "Tu manges quoi ?", "en": "What are you eating?", "km": "អ្នកញ៉ាំអ្វី?", "tr": "néak gnam ey ?"}
+      "example": {"fr": "Tu manges quoi ?", "en": "What are you eating?", "km": "អ្នកញ៉ាំអ្វី?", "tr": "néak gnam ey ?",
+      "es": "¿Qué comes?", "it": "Che cosa mangi?", "ru": "Что ты ешь?", "zh": "你吃什么？", "zh_tr": "Nǐ chī shénme?"}
     },
     {
-      "fr": "qui", "en": "who", "km": "នរណា", "tr": "no-na", "pos": "interrogatif",
+      "fr": "qui", "en": "who", "km": "នរណា", "tr": "no-na",
+      "es": "quién", "it": "chi", "ru": "кто", "zh": "谁", "zh_tr": "shéi", "pos": "interrogatif",
       "note": {
         "fr": "À l'oral, on dit aussi អ្នកណា (néak na), mot à mot « quelle personne ».",
         "en": "In speech, people also say អ្នកណា (néak na), word for word “which person”. French « qui » sounds like “key”.",
         "km": "« qui » ប្រើសួរអំពីមនុស្ស៖ « C'est qui ? »។ ភាសាអង់គ្លេស៖ « who »។"
       },
-      "example": {"fr": "Qui est-ce ?", "en": "Who is that?", "km": "នោះជានរណា?", "tr": "nouh tchéa no-na ?"}
+      "example": {"fr": "Qui est-ce ?", "en": "Who is that?", "km": "នោះជានរណា?", "tr": "nouh tchéa no-na ?",
+      "es": "¿Quién es?", "it": "Chi è?", "ru": "Кто это?", "zh": "那是谁？", "zh_tr": "Nà shì shéi?"}
     },
     {
-      "fr": "où", "en": "where", "km": "នៅឯណា", "tr": "neuv aè na", "pos": "interrogatif",
+      "fr": "où", "en": "where", "km": "នៅឯណា", "tr": "neuv aè na",
+      "es": "dónde", "it": "dove", "ru": "где", "zh": "哪儿", "zh_tr": "nǎr", "pos": "interrogatif",
       "note": {
         "fr": "នៅ (être à) suivi de ឯណា (quel endroit). Avec un verbe de mouvement, ណា suffit : ទៅណា? (teuv na ?), « où vas-tu ? ».",
         "en": "នៅ (to be at) followed by ឯណា (which place). With a verb of movement, ណា is enough: ទៅណា? (teuv na ?), “where are you going?”. French « où » has an accent to tell it apart from « ou », “or”.",
         "km": "« où » មានសញ្ញាលើអក្សរ u ដើម្បីកុំច្រឡំជាមួយ « ou » ដែលមានន័យថា ឬ។ ពាក្យទាំងពីរអានដូចគ្នា។ ភាសាអង់គ្លេស៖ « where »។"
       },
-      "example": {"fr": "Où sont les toilettes ?", "en": "Where is the toilet?", "km": "បន្ទប់ទឹកនៅឯណា?", "tr": "bân-toup teuk neuv aè na ?"}
+      "example": {"fr": "Où sont les toilettes ?", "en": "Where is the toilet?", "km": "បន្ទប់ទឹកនៅឯណា?", "tr": "bân-toup teuk neuv aè na ?",
+      "es": "¿Dónde está el baño?", "it": "Dov'è il bagno?", "ru": "Где туалет?", "zh": "洗手间在哪儿？", "zh_tr": "Xǐshǒujiān zài nǎr?"}
     },
     {
-      "fr": "quand", "en": "when", "km": "ពេលណា", "tr": "pél na", "pos": "interrogatif",
+      "fr": "quand", "en": "when", "km": "ពេលណា", "tr": "pél na",
+      "es": "cuándo", "it": "quando", "ru": "когда", "zh": "什么时候", "zh_tr": "shénme shíhou", "pos": "interrogatif",
       "note": {
         "fr": "ពេល (pél), le moment, suivi de ណា (na), « quel ». Se place souvent en fin de phrase.",
         "en": "ពេល (pél), moment, followed by ណា (na), “which”. Often placed at the end. French « quand » sounds like “kahn”, with a nasal vowel.",
         "km": "ក្នុងពាក្យ « quand » អក្សរ d ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « when »។"
       },
-      "example": {"fr": "Quand viens-tu ?", "en": "When are you coming?", "km": "អ្នកមកពេលណា?", "tr": "néak mok pél na ?"}
+      "example": {"fr": "Quand viens-tu ?", "en": "When are you coming?", "km": "អ្នកមកពេលណា?", "tr": "néak mok pél na ?",
+      "es": "¿Cuándo vienes?", "it": "Quando vieni?", "ru": "Когда ты придёшь?", "zh": "你什么时候来？", "zh_tr": "Nǐ shénme shíhou lái?"}
     },
     {
-      "fr": "pourquoi", "en": "why", "km": "ហេតុអ្វី", "tr": "haèt ey", "pos": "interrogatif",
+      "fr": "pourquoi", "en": "why", "km": "ហេតុអ្វី", "tr": "haèt ey",
+      "es": "por qué", "it": "perché", "ru": "почему", "zh": "为什么", "zh_tr": "wèishénme", "pos": "interrogatif",
       "note": {
         "fr": "Mot à mot « raison quoi ». Se place au début de la phrase. Pour répondre : ពីព្រោះ (pi-prouh), « parce que ».",
         "en": "Word for word “reason what”. It goes at the start of the sentence. To answer: ពីព្រោះ (pi-prouh), “because”; in French, « parce que ».",
         "km": "« pourquoi » ប្រើសួររកមូលហេតុ។ ចម្លើយចាប់ផ្តើមដោយ « parce que »។ ភាសាអង់គ្លេស៖ « why » និង « because »។"
       },
-      "example": {"fr": "Pourquoi tu ne manges pas ?", "en": "Why are you not eating?", "km": "ហេតុអ្វីអ្នកមិនញ៉ាំបាយ?", "tr": "haèt ey néak min gnam bay ?"}
+      "example": {"fr": "Pourquoi tu ne manges pas ?", "en": "Why are you not eating?", "km": "ហេតុអ្វីអ្នកមិនញ៉ាំបាយ?", "tr": "haèt ey néak min gnam bay ?",
+      "es": "¿Por qué no comes?", "it": "Perché non mangi?", "ru": "Почему ты не ешь?", "zh": "你为什么不吃？", "zh_tr": "Nǐ wèishénme bù chī?"}
     },
     {
-      "fr": "comment", "en": "how", "km": "យ៉ាងម៉េច", "tr": "yang métch", "pos": "interrogatif",
+      "fr": "comment", "en": "how", "km": "យ៉ាងម៉េច", "tr": "yang métch",
+      "es": "cómo", "it": "come", "ru": "как", "zh": "怎么", "zh_tr": "zěnme", "pos": "interrogatif",
       "note": {
         "fr": "Forme courante à l'oral, placée après le verbe. À l'écrit, on trouve plutôt ដូចម្តេច (dôtch mdétch).",
         "en": "The common spoken form, placed after the verb. In writing, ដូចម្តេច (dôtch mdétch) is more usual. French « comment » also starts « Comment ça va ? ».",
         "km": "ក្នុងពាក្យ « comment » អក្សរ t ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « how »។"
       },
-      "example": {"fr": "Comment dit-on ça en khmer ?", "en": "How do you say this in Khmer?", "km": "នេះភាសាខ្មែរថាយ៉ាងម៉េច?", "tr": "nih phéa-sa khmaè tha yang métch ?"}
+      "example": {"fr": "Comment dit-on ça en khmer ?", "en": "How do you say this in Khmer?", "km": "នេះភាសាខ្មែរថាយ៉ាងម៉េច?", "tr": "nih phéa-sa khmaè tha yang métch ?",
+      "es": "¿Cómo se dice esto en jemer?", "it": "Come si dice questo in khmer?", "ru": "Как это сказать по-кхмерски?", "zh": "这个用高棉语怎么说？", "zh_tr": "Zhège yòng Gāomiányǔ zěnme shuō?"}
     }
   ],
   "expressions": [
     {
       "fr": "Qu'est-ce que c'est ?", "en": "What is this?", "km": "នេះជាអ្វី?", "tr": "nih tchéa ey ?",
+      "es": "¿Qué es esto?", "it": "Che cos'è?", "ru": "Что это?", "zh": "这是什么？", "zh_tr": "Zhè shì shénme?",
       "note": {"fr": "Pour un objet plus éloigné, on remplace នេះ par នោះ : នោះជាអ្វី? (nouh tchéa ey ?).", "en": "For something further away, replace នេះ with នោះ: នោះជាអ្វី? (nouh tchéa ey ?). In French, « Qu'est-ce que c'est ? » is a fixed phrase.", "km": "សំណួរនេះវែង ប៉ុន្តែអានលឿនជាបីព្យាង្គ។ ភាសាអង់គ្លេស៖ « What is this? »។"}
     },
     {
       "fr": "Où vas-tu ?", "en": "Where are you going?", "km": "ទៅណា?", "tr": "teuv na ?",
+      "es": "¿Adónde vas?", "it": "Dove vai?", "ru": "Куда ты идёшь?", "zh": "你去哪儿？", "zh_tr": "Nǐ qù nǎr?",
       "note": {"fr": "Question très courante pour saluer une connaissance dans la rue ; on n'attend pas de réponse précise.", "en": "A very common question to greet someone you know in the street; nobody expects a precise answer.", "km": "ជនជាតិបារាំងសួរសំណួរនេះតែនៅពេលចង់ដឹងមែន មិនមែនជាពាក្យស្វាគមន៍ទេ។"}
     },
     {
       "fr": "Je ne sais pas.", "en": "I don't know.", "km": "ខ្ញុំមិនដឹងទេ។", "tr": "khgnom min deung té.",
+      "es": "No lo sé.", "it": "Non lo so.", "ru": "Я не знаю.", "zh": "我不知道。", "zh_tr": "Wǒ bù zhīdào.",
       "note": {"fr": "ដឹង (deung), savoir. La négation encadre le verbe : មិន… ទេ. À l'oral : អត់ដឹងទេ (ât deung té).", "en": "ដឹង (deung), to know. The negative frames the verb: មិន… ទេ. In speech: អត់ដឹងទេ (ât deung té). In casual French, the « ne » is often dropped: je sais pas.", "km": "ចម្លើយនៅពេលមិនដឹង។ ពេលនិយាយលឿន ជនជាតិបារាំងនិយាយថា « Je sais pas »។"}
     },
     {
       "fr": "C'est à qui ?", "en": "Whose is this?", "km": "នេះរបស់នរណា?", "tr": "nih ro-bâh no-na ?",
+      "es": "¿De quién es?", "it": "Di chi è?", "ru": "Чьё это?", "zh": "这是谁的？", "zh_tr": "Zhè shì shéi de?",
       "note": {"fr": "របស់ (ro-bâh) marque la possession : របស់នរណា, « à qui » ; របស់ខ្ញុំ, « à moi ».", "en": "របស់ (ro-bâh) marks possession: របស់នរណា, “whose”; របស់ខ្ញុំ, “mine”. French: c'est à moi, “it's mine”.", "km": "ចម្លើយ៖ « C'est à moi » មានន័យថា នេះរបស់ខ្ញុំ។ ភាសាអង់គ្លេស៖ « Whose is this? »។"}
     }
   ],
@@ -87,17 +103,20 @@
     {
       "situation": {"fr": "Avant le repas", "en": "Before the meal", "km": "មុនពេលញ៉ាំបាយ"},
       "fr": "Qu'est-ce que tu veux manger ?", "en": "What do you want to eat?",
-      "km": "ចង់ញ៉ាំអ្វី?", "tr": "tchâng gnam ey ?"
+      "km": "ចង់ញ៉ាំអ្វី?", "tr": "tchâng gnam ey ?",
+      "es": "¿Qué quieres comer?", "it": "Che cosa vuoi mangiare?", "ru": "Что ты хочешь съесть?", "zh": "你想吃什么？", "zh_tr": "Nǐ xiǎng chī shénme?"
     },
     {
       "situation": {"fr": "Prendre rendez-vous", "en": "Making an appointment", "km": "ពេលណាត់ជួប"},
       "fr": "Quand est-ce qu'on se voit ?", "en": "When shall we meet?",
-      "km": "យើងជួបគ្នាពេលណា?", "tr": "yeung tchouop knéa pél na ?"
+      "km": "យើងជួបគ្នាពេលណា?", "tr": "yeung tchouop knéa pél na ?",
+      "es": "¿Cuándo nos vemos?", "it": "Quando ci vediamo?", "ru": "Когда мы увидимся?", "zh": "我们什么时候见面？", "zh_tr": "Wǒmen shénme shíhou jiànmiàn?"
     },
     {
       "situation": {"fr": "Parler des langues", "en": "Talking about languages", "km": "និយាយអំពីភាសា"},
       "fr": "Pourquoi apprends-tu le khmer ?", "en": "Why are you learning Khmer?",
-      "km": "ហេតុអ្វីអ្នករៀនភាសាខ្មែរ?", "tr": "haèt ey néak rien phéa-sa khmaè ?"
+      "km": "ហេតុអ្វីអ្នករៀនភាសាខ្មែរ?", "tr": "haèt ey néak rien phéa-sa khmaè ?",
+      "es": "¿Por qué aprendes jemer?", "it": "Perché impari il khmer?", "ru": "Почему ты учишь кхмерский?", "zh": "你为什么学高棉语？", "zh_tr": "Nǐ wèishénme xué Gāomiányǔ?"
     }
   ],
   "dialogue": {
@@ -107,12 +126,18 @@
       "km": "{B} ឃើញ {A} រៀបចំខ្លួនចេញក្រៅ។"
     },
     "lines": [
-      {"speaker": "B", "fr": "{A}, où vas-tu ?", "en": "{A}, where are you going?", "km": "{A} ទៅណា?", "tr": "{A} teuv na ?"},
-      {"speaker": "A", "fr": "Je vais au marché.", "en": "I am going to the market.", "km": "ខ្ញុំទៅផ្សារ។", "tr": "khgnom teuv phsa."},
-      {"speaker": "B", "fr": "Tu y vas avec qui ?", "en": "Who are you going with?", "km": "ទៅជាមួយនរណា?", "tr": "teuv tchéa-mouy no-na ?"},
-      {"speaker": "A", "fr": "Avec des amis. Pourquoi ?", "en": "With some friends. Why?", "km": "ជាមួយមិត្តភក្តិ។ ហេតុអ្វី?", "tr": "tchéa-mouy mit-phéak. haèt ey ?"},
-      {"speaker": "B", "fr": "Je veux venir aussi ! Vous partez quand ?", "en": "I want to come too! When are you leaving?", "km": "ខ្ញុំក៏ចង់ទៅដែរ! ចេញទៅពេលណា?", "tr": "khgnom kâ tchâng teuv daè ! tchégn teuv pél na ?"},
-      {"speaker": "A", "fr": "Ce soir, à cinq heures.", "en": "This evening, at five o'clock.", "km": "ល្ងាចនេះ ម៉ោងប្រាំ។", "tr": "lngéatch nih, maong pram."}
+      {"speaker": "B", "fr": "{A}, où vas-tu ?", "en": "{A}, where are you going?", "km": "{A} ទៅណា?", "tr": "{A} teuv na ?",
+        "es": "{A}, ¿adónde vas?", "it": "{A}, dove vai?", "ru": "{A}, куда ты идёшь?", "zh": "{A}，你去哪儿？", "zh_tr": "{A}, nǐ qù nǎr?"},
+      {"speaker": "A", "fr": "Je vais au marché.", "en": "I am going to the market.", "km": "ខ្ញុំទៅផ្សារ។", "tr": "khgnom teuv phsa.",
+        "es": "Voy al mercado.", "it": "Vado al mercato.", "ru": "Я иду на рынок.", "zh": "我去市场。", "zh_tr": "Wǒ qù shìchǎng."},
+      {"speaker": "B", "fr": "Tu y vas avec qui ?", "en": "Who are you going with?", "km": "ទៅជាមួយនរណា?", "tr": "teuv tchéa-mouy no-na ?",
+        "es": "¿Con quién vas?", "it": "Con chi ci vai?", "ru": "С кем ты идёшь?", "zh": "你跟谁一起去？", "zh_tr": "Nǐ gēn shéi yìqǐ qù?"},
+      {"speaker": "A", "fr": "Avec des amis. Pourquoi ?", "en": "With some friends. Why?", "km": "ជាមួយមិត្តភក្តិ។ ហេតុអ្វី?", "tr": "tchéa-mouy mit-phéak. haèt ey ?",
+        "es": "Con unos amigos. ¿Por qué?", "it": "Con degli amici. Perché?", "ru": "С друзьями. А что?", "zh": "跟几个朋友。怎么了？", "zh_tr": "Gēn jǐ ge péngyou. Zěnme le?"},
+      {"speaker": "B", "fr": "Je veux venir aussi ! Vous partez quand ?", "en": "I want to come too! When are you leaving?", "km": "ខ្ញុំក៏ចង់ទៅដែរ! ចេញទៅពេលណា?", "tr": "khgnom kâ tchâng teuv daè ! tchégn teuv pél na ?",
+        "es": "¡Yo también quiero ir! ¿Cuándo salís?", "it": "Voglio venire anch'io! Quando partite?", "ru": "Я тоже хочу пойти! Когда вы уходите?", "zh": "我也想去！你们什么时候走？", "zh_tr": "Wǒ yě xiǎng qù! Nǐmen shénme shíhou zǒu?"},
+      {"speaker": "A", "fr": "Ce soir, à cinq heures.", "en": "This evening, at five o'clock.", "km": "ល្ងាចនេះ ម៉ោងប្រាំ។", "tr": "lngéatch nih, maong pram.",
+        "es": "Esta tarde, a las cinco.", "it": "Stasera, alle cinque.", "ru": "Сегодня вечером, в пять часов.", "zh": "今天晚上五点。", "zh_tr": "Jīntiān wǎnshang wǔ diǎn."}
     ]
   },
   "comprehension": {

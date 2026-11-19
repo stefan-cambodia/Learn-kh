@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "déjà", "en": "already", "km": "រួចហើយ", "tr": "rouotch haeuy", "pos": "adverbe",
+      "fr": "déjà", "en": "already", "km": "រួចហើយ", "tr": "rouotch haeuy",
+      "es": "ya", "it": "già", "ru": "уже", "zh": "已经", "zh_tr": "yǐjīng", "pos": "adverbe",
       "note": {
         "fr": "រួចហើយ insiste sur le fait que c'est terminé. ហើយ (haeuy) seul, en fin de phrase, suffit souvent : ញ៉ាំហើយ, « j'ai mangé ».",
         "en": "រួចហើយ stresses that it is over. ហើយ (haeuy) alone at the end is often enough: ញ៉ាំហើយ, “I have eaten”. French « déjà » goes after the auxiliary: j'ai déjà mangé.",
         "km": "« déjà » ដាក់នៅកណ្តាល « passé composé »៖ j'ai déjà mangé។ អង់គ្លេស៖ « already »។"
       },
-      "example": {"fr": "Nous avons déjà mangé.", "en": "We have already eaten.", "km": "យើងញ៉ាំបាយរួចហើយ។", "tr": "yeung gnam bay rouotch haeuy."}
+      "example": {"fr": "Nous avons déjà mangé.", "en": "We have already eaten.", "km": "យើងញ៉ាំបាយរួចហើយ។", "tr": "yeung gnam bay rouotch haeuy.",
+      "es": "Ya hemos comido.", "it": "Abbiamo già mangiato.", "ru": "Мы уже поели.", "zh": "我们已经吃过了。", "zh_tr": "Wǒmen yǐjīng chī guo le."}
     },
     {
-      "fr": "avant", "en": "before", "km": "ពីមុន", "tr": "pi moun", "pos": "adverbe",
+      "fr": "avant", "en": "before", "km": "ពីមុន", "tr": "pi moun",
+      "es": "antes", "it": "prima", "ru": "раньше", "zh": "以前", "zh_tr": "yǐqián", "pos": "adverbe",
       "note": {
         "fr": "ពីមុន signifie « auparavant, autrefois ». Pour « avant de faire quelque chose », on dit មុនពេល (moun pél) suivi du verbe.",
         "en": "ពីមុន means “before, in the past”. For “before doing something”, say មុនពេល (moun pél) followed by the verb. French: « avant », and « avant de » + verb.",
         "km": "« avant » មានន័យថា ពីមុន ឬមុន។ « avant de manger » = មុនពេលញ៉ាំបាយ។ អង់គ្លេស៖ « before »។"
       },
-      "example": {"fr": "Avant, j'habitais en France.", "en": "Before, I lived in France.", "km": "ពីមុន ខ្ញុំរស់នៅប្រទេសបារាំង។", "tr": "pi moun, khgnom rouh neuv prâ-téh ba-rang."}
+      "example": {"fr": "Avant, j'habitais en France.", "en": "Before, I lived in France.", "km": "ពីមុន ខ្ញុំរស់នៅប្រទេសបារាំង។", "tr": "pi moun, khgnom rouh neuv prâ-téh ba-rang.",
+      "es": "Antes vivía en Francia.", "it": "Prima abitavo in Francia.", "ru": "Раньше я жил во Франции.", "zh": "我以前住在法国。", "zh_tr": "Wǒ yǐqián zhù zài Fǎguó."}
     },
     {
-      "fr": "la semaine dernière", "en": "last week", "km": "សប្តាហ៍មុន", "tr": "sap-da moun", "pos": "nom",
+      "fr": "la semaine dernière", "en": "last week", "km": "សប្តាហ៍មុន", "tr": "sap-da moun",
+      "es": "la semana pasada", "it": "la settimana scorsa", "ru": "на прошлой неделе", "zh": "上个星期", "zh_tr": "shàng ge xīngqī", "pos": "nom",
       "note": {
         "fr": "សប្តាហ៍ (sap-da), la semaine, suivi de មុន (moun), « d'avant ». À l'oral, on dit aussi អាទិត្យមុន (a-teut moun). De même : ខែមុន, le mois dernier ; ឆ្នាំមុន, l'année dernière.",
         "en": "សប្តាហ៍ (sap-da), week, followed by មុន (moun), “before”. In speech, people also say អាទិត្យមុន (a-teut moun). Likewise: ខែមុន, last month; ឆ្នាំមុន, last year. French « dernière » goes after the noun.",
         "km": "« dernière » នៅទីនេះមានន័យថា មុន។ « la semaine dernière » = សប្តាហ៍មុន, « l'année dernière » = ឆ្នាំមុន។ អង់គ្លេស៖ « last week »។"
       },
-      "example": {"fr": "La semaine dernière, nous sommes allés à Siem Reap.", "en": "Last week, we went to Siem Reap.", "km": "សប្តាហ៍មុន យើងបានទៅសៀមរាប។", "tr": "sap-da moun, yeung ban teuv siem-réap."}
+      "example": {"fr": "La semaine dernière, nous sommes allés à Siem Reap.", "en": "Last week, we went to Siem Reap.", "km": "សប្តាហ៍មុន យើងបានទៅសៀមរាប។", "tr": "sap-da moun, yeung ban teuv siem-réap.",
+      "es": "La semana pasada fuimos a Siem Reap.", "it": "La settimana scorsa siamo andati a Siem Reap.", "ru": "На прошлой неделе мы ездили в Сиемреап.", "zh": "上个星期我们去了暹粒。", "zh_tr": "Shàng ge xīngqī wǒmen qù le Xiānlì."}
     },
     {
-      "fr": "finir", "en": "to finish", "km": "ចប់", "tr": "tchâp", "pos": "verbe",
+      "fr": "finir", "en": "to finish", "km": "ចប់", "tr": "tchâp",
+      "es": "terminar", "it": "finire", "ru": "заканчивать", "zh": "结束", "zh_tr": "jiéshù", "pos": "verbe",
       "note": {
         "fr": "ចប់ se dit d'une chose qui se termine. Placé après un autre verbe, il indique que l'action est achevée : ធ្វើចប់, « finir de faire ». Le verbe soigné pour « terminer quelque chose » est បញ្ចប់ (bagn-tchâp).",
         "en": "ចប់ is said of something that ends. After another verb, it shows the action is complete: ធ្វើចប់, “finish doing”. The formal verb for “to end something” is បញ្ចប់ (bagn-tchâp). French « finir »: j'ai fini.",
         "km": "« finir »៖ je finis, nous finissons។ អតីតកាល៖ « j'ai fini » (ខ្ញុំធ្វើចប់ហើយ)។ អង់គ្លេស៖ « to finish », « to end »។"
       },
-      "example": {"fr": "Le film a fini à dix heures.", "en": "The film ended at ten o'clock.", "km": "កុនចប់ម៉ោងដប់។", "tr": "kon tchâp maong dâp."}
+      "example": {"fr": "Le film a fini à dix heures.", "en": "The film ended at ten o'clock.", "km": "កុនចប់ម៉ោងដប់។", "tr": "kon tchâp maong dâp.",
+      "es": "La película terminó a las diez.", "it": "Il film è finito alle dieci.", "ru": "Фильм закончился в десять часов.", "zh": "电影十点结束了。", "zh_tr": "Diànyǐng shí diǎn jiéshù le."}
     },
     {
-      "fr": "se souvenir", "en": "to remember", "km": "ចាំ", "tr": "tcham", "pos": "verbe",
+      "fr": "se souvenir", "en": "to remember", "km": "ចាំ", "tr": "tcham",
+      "es": "acordarse", "it": "ricordarsi", "ru": "помнить", "zh": "记得", "zh_tr": "jìde", "pos": "verbe",
       "note": {
         "fr": "ចាំ signifie « se souvenir », mais aussi « attendre », comme dans រង់ចាំ. Le contexte fait la différence : នៅចាំទេ? « tu t'en souviens encore ? ».",
         "en": "ចាំ means “to remember”, but also “to wait”, as in រង់ចាំ. The context tells them apart: នៅចាំទេ? “do you still remember?”. French « se souvenir de »: je me souviens.",
         "km": "« se souvenir de »៖ je me souviens de ce jour (ខ្ញុំចាំថ្ងៃនោះ)។ អង់គ្លេស៖ « to remember »។"
       },
-      "example": {"fr": "Tu te souviens de ce restaurant ?", "en": "Do you remember this restaurant?", "km": "នៅចាំភោជនីយដ្ឋាននេះទេ?", "tr": "neuv tcham phô-tchéa-ni-yéa-than nih té ?"}
+      "example": {"fr": "Tu te souviens de ce restaurant ?", "en": "Do you remember this restaurant?", "km": "នៅចាំភោជនីយដ្ឋាននេះទេ?", "tr": "neuv tcham phô-tchéa-ni-yéa-than nih té ?",
+      "es": "¿Te acuerdas de este restaurante?", "it": "Ti ricordi di questo ristorante?", "ru": "Ты помнишь этот ресторан?", "zh": "你还记得这家饭馆吗？", "zh_tr": "Nǐ hái jìde zhè jiā fànguǎn ma?"}
     },
     {
-      "fr": "le voyage", "en": "trip", "km": "ដំណើរ", "tr": "dâm-naeu", "pos": "nom",
+      "fr": "le voyage", "en": "trip", "km": "ដំណើរ", "tr": "dâm-naeu",
+      "es": "el viaje", "it": "il viaggio", "ru": "поездка", "zh": "旅行", "zh_tr": "lǚxíng", "pos": "nom",
       "note": {
         "fr": "ដំណើរ désigne le trajet, le déplacement. Voyager se dit ធ្វើដំណើរ (thveu dâm-naeu) ; partir en balade : ទៅដើរលេង (teuv daeu léng).",
         "en": "ដំណើរ is the journey, the trip. To travel is ធ្វើដំណើរ (thveu dâm-naeu); to go for a stroll: ទៅដើរលេង (teuv daeu léng). French « voyage » is masculine; « voyager », to travel.",
         "km": "« voyage » ជានាមភេទប្រុស៖ le voyage។ « Bon voyage ! » ប្រើជូនពរអ្នកដែលចេញដំណើរ។ អង់គ្លេស៖ « trip », « journey »។"
       },
-      "example": {"fr": "Le voyage a duré six heures.", "en": "The trip took six hours.", "km": "ដំណើរនេះចំណាយពេលប្រាំមួយម៉ោង។", "tr": "dâm-naeu nih tchâm-nay pél pram-mouy maong."}
+      "example": {"fr": "Le voyage a duré six heures.", "en": "The trip took six hours.", "km": "ដំណើរនេះចំណាយពេលប្រាំមួយម៉ោង។", "tr": "dâm-naeu nih tchâm-nay pél pram-mouy maong.",
+      "es": "El viaje duró seis horas.", "it": "Il viaggio è durato sei ore.", "ru": "Поездка длилась шесть часов.", "zh": "这次旅行花了六个小时。", "zh_tr": "Zhè cì lǚxíng huā le liù ge xiǎoshí."}
     }
   ],
   "expressions": [
     {
       "fr": "Qu'est-ce que tu as fait hier ?", "en": "What did you do yesterday?", "km": "ម្សិលមិញបានធ្វើអ្វីខ្លះ?", "tr": "msel-mign ban thveu ey khlah ?",
+      "es": "¿Qué hiciste ayer?", "it": "Che cosa hai fatto ieri?", "ru": "Что ты делал вчера?", "zh": "你昨天做了什么？", "zh_tr": "Nǐ zuótiān zuò le shénme?",
       "note": {
         "fr": "ខ្លះ (khlah), « quelques », en fin de question invite à énumérer : « qu'as-tu fait, entre autres ? ».",
         "en": "ខ្លះ (khlah), “some”, at the end of a question invites a list: “what did you do, among other things?”. French: « Qu'est-ce que tu as fait ? ».",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Il y a longtemps.", "en": "A long time ago.", "km": "យូរណាស់មកហើយ។", "tr": "you nah mok haeuy.",
+      "es": "Hace mucho tiempo.", "it": "Tanto tempo fa.", "ru": "Давным-давно.", "zh": "很久以前。", "zh_tr": "Hěn jiǔ yǐqián.",
       "note": {
         "fr": "យូរ (you) veut dire « longtemps ». មកហើយ indique que le temps s'est écoulé jusqu'à maintenant.",
         "en": "យូរ (you) means “a long time”. មកហើយ shows that time has passed up to now. French « Il y a longtemps » literally means “there is long time”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Je n'ai pas encore fini.", "en": "I have not finished yet.", "km": "ខ្ញុំធ្វើមិនទាន់ចប់ទេ។", "tr": "khgnom thveu min toan tchâp té.",
+      "es": "Todavía no he terminado.", "it": "Non ho ancora finito.", "ru": "Я ещё не закончил.", "zh": "我还没做完。", "zh_tr": "Wǒ hái méi zuò wán.",
       "note": {
         "fr": "មិនទាន់… ទេ (min toan… té) signifie « pas encore ». Mot à mot : « je fais, pas encore fini ».",
         "en": "មិនទាន់… ទេ (min toan… té) means “not yet”. Word for word: “I do, not yet finished”. French « pas encore » means “not yet”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Je ne m'en souviens pas.", "en": "I can't remember.", "km": "ខ្ញុំចាំមិនបានទេ។", "tr": "khgnom tcham min ban té.",
+      "es": "No me acuerdo.", "it": "Non me lo ricordo.", "ru": "Я не помню.", "zh": "我不记得了。", "zh_tr": "Wǒ bú jìde le.",
       "note": {
         "fr": "Verbe + មិនបាន (min ban) : ne pas arriver à faire. Si l'on a oublié, on dit ខ្ញុំភ្លេចហើយ (khgnom phlétch haeuy), « j'ai oublié ».",
         "en": "Verb + មិនបាន (min ban): not manage to do. If you have forgotten, say ខ្ញុំភ្លេចហើយ (khgnom phlétch haeuy), “I have forgotten”. French « Je ne m'en souviens pas ».",
@@ -103,30 +119,41 @@
     {
       "situation": {"fr": "Le lendemain d'une sortie", "en": "The day after an outing", "km": "មួយថ្ងៃក្រោយពេលដើរលេង"},
       "fr": "Hier soir, nous avons mangé dans un bon restaurant.", "en": "Last night, we ate at a good restaurant.",
-      "km": "យប់មិញ យើងបានញ៉ាំបាយនៅភោជនីយដ្ឋានឆ្ងាញ់មួយ។", "tr": "youp mign, yeung ban gnam bay neuv phô-tchéa-ni-yéa-than tchhngagn mouy."
+      "km": "យប់មិញ យើងបានញ៉ាំបាយនៅភោជនីយដ្ឋានឆ្ងាញ់មួយ។", "tr": "youp mign, yeung ban gnam bay neuv phô-tchéa-ni-yéa-than tchhngagn mouy.",
+      "es": "Anoche cenamos en un buen restaurante.", "it": "Ieri sera abbiamo mangiato in un buon ristorante.", "ru": "Вчера вечером мы поужинали в хорошем ресторане.", "zh": "昨天晚上我们在一家好饭馆吃了饭。", "zh_tr": "Zuótiān wǎnshang wǒmen zài yì jiā hǎo fànguǎn chī le fàn."
     },
     {
       "situation": {"fr": "En regardant des photos", "en": "Looking at photos", "km": "ពេលមើលរូបថត"},
       "fr": "L'année dernière, nous sommes allés au bord de la mer.", "en": "Last year, we went to the seaside.",
-      "km": "ឆ្នាំមុន យើងបានទៅដើរលេងនៅមាត់សមុទ្រ។", "tr": "tchhnam moun, yeung ban teuv daeu léng neuv moat sâ-mot."
+      "km": "ឆ្នាំមុន យើងបានទៅដើរលេងនៅមាត់សមុទ្រ។", "tr": "tchhnam moun, yeung ban teuv daeu léng neuv moat sâ-mot.",
+      "es": "El año pasado fuimos a la playa.", "it": "L'anno scorso siamo andati al mare.", "ru": "В прошлом году мы ездили на море.", "zh": "去年我们去了海边。", "zh_tr": "Qùnián wǒmen qù le hǎibiān."
     },
     {
       "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
       "fr": "J'ai déjà fini ce travail.", "en": "I have already finished this work.",
-      "km": "ខ្ញុំបានធ្វើការងារនេះចប់រួចហើយ។", "tr": "khgnom ban thveu ka-ngéa nih tchâp rouotch haeuy."
+      "km": "ខ្ញុំបានធ្វើការងារនេះចប់រួចហើយ។", "tr": "khgnom ban thveu ka-ngéa nih tchâp rouotch haeuy.",
+      "es": "Ya he terminado este trabajo.", "it": "Ho già finito questo lavoro.", "ru": "Я уже закончил эту работу.", "zh": "我已经做完这个工作了。", "zh_tr": "Wǒ yǐjīng zuò wán zhège gōngzuò le."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Le soir, {A} et {B} regardent les photos d'un voyage.", "en": "In the evening, {A} and {B} are looking at photos from a trip.", "km": "ពេលល្ងាច {A} និង {B} កំពុងមើលរូបថតពេលទៅដើរលេង។"},
     "lines": [
-      {"speaker": "B", "fr": "Tu te souviens de notre voyage à Siem Reap ?", "en": "Do you remember our trip to Siem Reap?", "km": "នៅចាំពេលយើងទៅសៀមរាបទេ?", "tr": "neuv tcham pél yeung teuv siem-réap té ?"},
-      {"speaker": "A", "fr": "Oui, bien sûr ! Nous avons visité les temples.", "en": "Yes, of course! We visited the temples.", "km": "{A_yes} ចាំតើ! យើងបានទៅមើលប្រាសាទ។", "tr": "{A_yes}, tcham taeu ! yeung ban teuv meul pra-sat."},
-      {"speaker": "B", "fr": "Avant, je ne connaissais pas le Cambodge.", "en": "Before, I did not know Cambodia.", "km": "ពីមុន ខ្ញុំមិនស្គាល់ប្រទេសកម្ពុជាទេ។", "tr": "pi moun, khgnom min skoal prâ-téh kam-pou-tchéa té."},
-      {"speaker": "A", "fr": "Et maintenant, tu as déjà vu beaucoup d'endroits !", "en": "And now, you have already seen many places!", "km": "ហើយឥឡូវ {B} បានឃើញកន្លែងច្រើនរួចហើយ!", "tr": "haeuy ey-leuv {B} ban kheugn kân-laèng tchraeun rouotch haeuy !"},
-      {"speaker": "B", "fr": "Le voyage en bus était long, mais le paysage était beau.", "en": "The bus trip was long, but the scenery was beautiful.", "km": "ដំណើរតាមឡានក្រុងយូរណាស់ ប៉ុន្តែទេសភាពស្អាត។", "tr": "dâm-naeu tam lan-krong you nah, pon-taè té-sa-phéap s'at."},
-      {"speaker": "A", "fr": "À la fin du voyage, nous avons bien dormi !", "en": "At the end of the trip, we slept well!", "km": "ពេលដំណើរចប់ យើងគេងលក់ស្រួលណាស់!", "tr": "pél dâm-naeu tchâp, yeung kéng lok srouol nah !"},
-      {"speaker": "B", "fr": "On y retourne l'année prochaine ?", "en": "Shall we go back next year?", "km": "ឆ្នាំក្រោយ យើងទៅម្តងទៀតទេ?", "tr": "tchhnam kraoy, yeung teuv mdâng tiet té ?"},
-      {"speaker": "A", "fr": "Oui, j'ai très envie d'y retourner !", "en": "Yes, I really want to go back!", "km": "{A_yes} ខ្ញុំចង់ទៅម្តងទៀតណាស់!", "tr": "{A_yes}, khgnom tchâng teuv mdâng tiet nah !"}
+      {"speaker": "B", "fr": "Tu te souviens de notre voyage à Siem Reap ?", "en": "Do you remember our trip to Siem Reap?", "km": "នៅចាំពេលយើងទៅសៀមរាបទេ?", "tr": "neuv tcham pél yeung teuv siem-réap té ?",
+        "es": "¿Te acuerdas de nuestro viaje a Siem Reap?", "it": "Ti ricordi del nostro viaggio a Siem Reap?", "ru": "Ты помнишь нашу поездку в Сиемреап?", "zh": "你还记得我们去暹粒的旅行吗？", "zh_tr": "Nǐ hái jìde wǒmen qù Xiānlì de lǚxíng ma?"},
+      {"speaker": "A", "fr": "Oui, bien sûr ! Nous avons visité les temples.", "en": "Yes, of course! We visited the temples.", "km": "{A_yes} ចាំតើ! យើងបានទៅមើលប្រាសាទ។", "tr": "{A_yes}, tcham taeu ! yeung ban teuv meul pra-sat.",
+        "es": "¡Sí, claro! Visitamos los templos.", "it": "Sì, certo! Abbiamo visitato i templi.", "ru": "Да, конечно! Мы осматривали храмы.", "zh": "当然记得！我们参观了寺庙。", "zh_tr": "Dāngrán jìde! Wǒmen cānguān le sìmiào."},
+      {"speaker": "B", "fr": "Avant, je ne connaissais pas le Cambodge.", "en": "Before, I did not know Cambodia.", "km": "ពីមុន ខ្ញុំមិនស្គាល់ប្រទេសកម្ពុជាទេ។", "tr": "pi moun, khgnom min skoal prâ-téh kam-pou-tchéa té.",
+        "es": "Antes no conocía Camboya.", "it": "Prima non conoscevo la Cambogia.", "ru": "Раньше я не знал Камбоджу.", "zh": "以前我不了解柬埔寨。", "zh_tr": "Yǐqián wǒ bù liǎojiě Jiǎnpǔzhài."},
+      {"speaker": "A", "fr": "Et maintenant, tu as déjà vu beaucoup d'endroits !", "en": "And now, you have already seen many places!", "km": "ហើយឥឡូវ {B} បានឃើញកន្លែងច្រើនរួចហើយ!", "tr": "haeuy ey-leuv {B} ban kheugn kân-laèng tchraeun rouotch haeuy !",
+        "es": "¡Y ahora ya has visto muchos lugares!", "it": "E adesso hai già visto tanti posti!", "ru": "А теперь ты уже видел много мест!", "zh": "现在你已经去过很多地方了！", "zh_tr": "Xiànzài nǐ yǐjīng qù guo hěn duō dìfang le!"},
+      {"speaker": "B", "fr": "Le voyage en bus était long, mais le paysage était beau.", "en": "The bus trip was long, but the scenery was beautiful.", "km": "ដំណើរតាមឡានក្រុងយូរណាស់ ប៉ុន្តែទេសភាពស្អាត។", "tr": "dâm-naeu tam lan-krong you nah, pon-taè té-sa-phéap s'at.",
+        "es": "El viaje en autobús fue largo, pero el paisaje era bonito.", "it": "Il viaggio in autobus è stato lungo, ma il paesaggio era bello.", "ru": "Поездка на автобусе была долгой, но пейзаж был красивый.", "zh": "坐公共汽车很久，但是风景很美。", "zh_tr": "Zuò gōnggòng qìchē hěn jiǔ, dànshì fēngjǐng hěn měi."},
+      {"speaker": "A", "fr": "À la fin du voyage, nous avons bien dormi !", "en": "At the end of the trip, we slept well!", "km": "ពេលដំណើរចប់ យើងគេងលក់ស្រួលណាស់!", "tr": "pél dâm-naeu tchâp, yeung kéng lok srouol nah !",
+        "es": "¡Al final del viaje dormimos muy bien!", "it": "Alla fine del viaggio abbiamo dormito benissimo!", "ru": "В конце поездки мы хорошо выспались!", "zh": "旅行结束的时候，我们睡得很好！", "zh_tr": "Lǚxíng jiéshù de shíhou, wǒmen shuì de hěn hǎo!"},
+      {"speaker": "B", "fr": "On y retourne l'année prochaine ?", "en": "Shall we go back next year?", "km": "ឆ្នាំក្រោយ យើងទៅម្តងទៀតទេ?", "tr": "tchhnam kraoy, yeung teuv mdâng tiet té ?",
+        "es": "¿Volvemos el año que viene?", "it": "Ci torniamo l'anno prossimo?", "ru": "Поедем туда снова в следующем году?", "zh": "明年我们再去吧？", "zh_tr": "Míngnián wǒmen zài qù ba?"},
+      {"speaker": "A", "fr": "Oui, j'ai très envie d'y retourner !", "en": "Yes, I really want to go back!", "km": "{A_yes} ខ្ញុំចង់ទៅម្តងទៀតណាស់!", "tr": "{A_yes}, khgnom tchâng teuv mdâng tiet nah !",
+        "es": "¡Sí, tengo muchas ganas de volver!", "it": "Sì, ho tanta voglia di tornarci!", "ru": "Да, мне очень хочется туда вернуться!", "zh": "好啊，我很想再去！", "zh_tr": "Hǎo a, wǒ hěn xiǎng zài qù!"}
     ]
   },
   "comprehension": {

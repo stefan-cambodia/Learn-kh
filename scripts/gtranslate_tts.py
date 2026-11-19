@@ -30,7 +30,7 @@ def split_text(text: str) -> list[str]:
     text = " ".join(text.split())
     if len(text) <= MAX_CHARS:
         return [text]
-    pieces = [p for p in re.split(r"(?<=[.!?។៕,;:،])\s*", text) if p]
+    pieces = [p for p in re.split(r"(?<=[.!?។៕,;:،。！？，；：])\s*", text) if p]
     chunks: list[str] = []
     current = ""
     for piece in pieces:
@@ -81,7 +81,8 @@ def main() -> int:
         print("texte vide", file=sys.stderr)
         return 2
     chunks = split_text(text)
-    mp3 = b"".join(fetch(chunk, args.lang, i, len(chunks)) for i, chunk in enumerate(chunks))
+    lang = {"zh": "zh-CN"}.get(args.lang, args.lang)
+    mp3 = b"".join(fetch(chunk, lang, i, len(chunks)) for i, chunk in enumerate(chunks))
 
     filters = []
     if abs(args.rate - 1.0) > 1e-3:

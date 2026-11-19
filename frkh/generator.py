@@ -11,7 +11,8 @@ from . import db, srs
 from .audio import AudioLibrary
 from .curriculum import Curriculum, personalize_tree
 from .quality import check_trilingual, summarize, vocab_key
-from .textutil import LANGS, speech_text
+from .langs import CONTENT_LANGS, Translations
+from .textutil import speech_text
 
 CONTENT_VERSION = 1
 
@@ -49,7 +50,8 @@ def estimate_seconds(content: dict) -> int:
             + SECONDS["quiz"])
 
 
-def audio_items(content: dict, include_examples: bool = True) -> list[tuple[str, str]]:
+def audio_items(content: dict, include_examples: bool = True,
+                langs: tuple[str, ...] = CONTENT_LANGS) -> list[tuple[str, str]]:
     """Tous les couples (langue, texte) d'une leçon qui doivent avoir un fichier audio."""
     seen: set[tuple[str, str]] = set()
     items: list[tuple[str, str]] = []
@@ -57,7 +59,7 @@ def audio_items(content: dict, include_examples: bool = True) -> list[tuple[str,
     def add(entry: dict | None) -> None:
         if not isinstance(entry, dict):
             return
-        for lang in LANGS:
+        for lang in langs:
             text = speech_text(entry.get(lang, ""))
             if text and (lang, text) not in seen:
                 seen.add((lang, text))
@@ -112,6 +114,30 @@ class LessonService:
             renderer = SiteRenderer(config, conn, self.library, self.log)
         self.renderer = renderer
         self.intervals = [int(i) for i in config.get("review.intervals_days", [1, 3, 7, 14, 30])]
+        self._translations: Translations | None = None
+
+    # --- langues supplémentaires ---------------------------------------------------------
+    @property
+    def translations(self) -> Translations:
+        if self._translations is None:
+            self._translations = Translations(self.config.paths.content, self.config.characters(), self.log)
+        return self._translations
+
+    def sync_languages(self) -> int:
+        """Complète les leçons enregistrées avec les traductions supplémentaires des unités
+        (espagnol, italien, russe, chinois). Retourne le nombre de leçons mises à jour."""
+        changed = 0
+        rows = self.conn.execute("SELECT id, content_json FROM lessons WHERE content_json != '{}'").fetchall()
+        with db.transaction(self.conn):
+            for row in rows:
+                content = json.loads(row["content_json"])
+                if self.translations.enrich(content):
+                    self.conn.execute("UPDATE lessons SET content_json = ? WHERE id = ?",
+                                      (json.dumps(content, ensure_ascii=False), row["id"]))
+                    changed += 1
+        if changed:
+            self.log.info("Langues supplémentaires ajoutées à %d leçon(s).", changed)
+        return changed
 
     # --- point d'entrée -----------------------------------------------------------
     def generate(self, day: dt.date | str | None = None, force: bool = False,
@@ -135,6 +161,8 @@ class LessonService:
                 content = self._create(day, messages)
                 status = "created"
             else:
+                self.sync_languages()
+                row = self.conn.execute("SELECT * FROM lessons WHERE lesson_date = ?", (day,)).fetchone()
                 content = json.loads(row["content_json"])
                 status = "refreshed" if row["status"] == "complete" else "resumed"
                 if status == "resumed":
@@ -195,6 +223,7 @@ class LessonService:
                 messages.append("Programme terminé : leçon de révision composée à partir des acquis. "
                                 "Ajoutez de nouvelles unités dans content/units pour continuer la progression.")
             self._add_review(content, day, lesson_id)
+            self.translations.enrich(content)
             content["estimated_seconds"] = estimate_seconds(content)
             content["quality"] = self._quality(content)
             self.conn.execute(
@@ -389,7 +418,7 @@ class LessonService:
     def _audio(self, content: dict, with_audio: bool = True) -> tuple[int, int]:
         ready = missing = 0
         include = bool(self.config.get("audio.include_examples", True))
-        for lang, text in audio_items(content, include):
+        for lang, text in audio_items(content, include, self.config.content_langs()):
             ref = self.library.ensure(text, lang) if with_audio else self.library.lookup(text, lang)
             if ref.ready:
                 ready += 1
@@ -410,6 +439,7 @@ class LessonService:
         """
         run_id = self._start_run("audio-repair", None)
         include = bool(self.config.get("audio.include_examples", True))
+        self.sync_languages()
         needed: set[str] = set()
         totals = {"ready": 0, "missing": 0, "generated": 0, "lessons": 0, "damaged": 0}
         try:
@@ -424,7 +454,7 @@ class LessonService:
                     continue
                 content = json.loads(row["content_json"])
                 ready = missing = 0
-                for lang, text in audio_items(content, include):
+                for lang, text in audio_items(content, include, self.config.content_langs()):
                     ref = self.library.ensure(text, lang)
                     needed.add(ref.text_hash)
                     ready, missing = ready + ref.ready, missing + (not ref.ready)

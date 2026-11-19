@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "couper", "en": "to cut", "km": "កាត់", "tr": "kat", "pos": "verbe",
+      "fr": "couper", "en": "to cut", "km": "កាត់", "tr": "kat",
+      "es": "cortar", "it": "tagliare", "ru": "резать", "zh": "切", "zh_tr": "qiē", "pos": "verbe",
       "note": {
         "fr": "កាត់ sert pour couper, mais aussi pour raccourcir un chemin : កាត់ផ្លូវ, prendre un raccourci.",
         "en": "កាត់ is used for cutting, but also for shortening a route: កាត់ផ្លូវ, take a shortcut. French « couper »: je coupe les légumes.",
         "km": "« couper »៖ je coupe, tu coupes។ « un couteau » មានន័យថា កាំបិត។ អង់គ្លេស៖ « to cut »។"
       },
-      "example": {"fr": "Je coupe les légumes.", "en": "I'm cutting the vegetables.", "km": "ខ្ញុំកាត់បន្លែ។", "tr": "khgnom kat bân-laè."}
+      "example": {"fr": "Je coupe les légumes.", "en": "I'm cutting the vegetables.", "km": "ខ្ញុំកាត់បន្លែ។", "tr": "khgnom kat bân-laè.",
+      "es": "Corto las verduras.", "it": "Taglio le verdure.", "ru": "Я режу овощи.", "zh": "我在切菜。", "zh_tr": "Wǒ zài qiē cài."}
     },
     {
-      "fr": "faire frire", "en": "to fry", "km": "ចៀន", "tr": "tchien", "pos": "verbe",
+      "fr": "faire frire", "en": "to fry", "km": "ចៀន", "tr": "tchien",
+      "es": "freír", "it": "friggere", "ru": "жарить", "zh": "炸", "zh_tr": "zhá", "pos": "verbe",
       "note": {
         "fr": "ចៀន, « frire dans l'huile ». Faire sauter se dit ឆា (tchha), et faire bouillir ស្ងោរ (sngao).",
         "en": "ចៀន, “to fry in oil”. To stir-fry is ឆា (tchha), and to boil ស្ងោរ (sngao). French « faire frire » literally means “make fry”.",
         "km": "« faire frire » មានន័យថា ចៀនក្នុងប្រេង។ « l'huile » មានន័យថា ប្រេង។ អង់គ្លេស៖ « to fry »។"
       },
-      "example": {"fr": "Je fais frire le poisson.", "en": "I'm frying the fish.", "km": "ខ្ញុំចៀនត្រី។", "tr": "khgnom tchien trey."}
+      "example": {"fr": "Je fais frire le poisson.", "en": "I'm frying the fish.", "km": "ខ្ញុំចៀនត្រី។", "tr": "khgnom tchien trey.",
+      "es": "Frío el pescado.", "it": "Friggo il pesce.", "ru": "Я жарю рыбу.", "zh": "我在炸鱼。", "zh_tr": "Wǒ zài zhá yú."}
     },
     {
-      "fr": "le sel", "en": "salt", "km": "អំបិល", "tr": "âm-bel", "pos": "nom",
+      "fr": "le sel", "en": "salt", "km": "អំបិល", "tr": "âm-bel",
+      "es": "la sal", "it": "il sale", "ru": "соль", "zh": "盐", "zh_tr": "yán", "pos": "nom",
       "note": {
         "fr": "Le goût salé se dit ប្រៃ (prey). Le sel de Kampot est célèbre dans tout le pays.",
         "en": "The salty taste is ប្រៃ (prey). Kampot salt is famous all over the country. French « sel » is masculine; « salé » means “salty”.",
         "km": "« sel » ជានាមភេទប្រុស៖ le sel។ « salé » មានន័យថា ប្រៃ។ អង់គ្លេស៖ « salt », « salty »។"
       },
-      "example": {"fr": "Il faut un peu de sel.", "en": "It needs a little salt.", "km": "ត្រូវការអំបិលបន្តិច។", "tr": "treuv-ka âm-bel bân-tetch."}
+      "example": {"fr": "Il faut un peu de sel.", "en": "It needs a little salt.", "km": "ត្រូវការអំបិលបន្តិច។", "tr": "treuv-ka âm-bel bân-tetch.",
+      "es": "Hace falta un poco de sal.", "it": "Ci vuole un po' di sale.", "ru": "Нужно немного соли.", "zh": "要放一点儿盐。", "zh_tr": "Yào fàng yìdiǎnr yán."}
     },
     {
-      "fr": "le sucre", "en": "sugar", "km": "ស្ករ", "tr": "skâ", "pos": "nom",
+      "fr": "le sucre", "en": "sugar", "km": "ស្ករ", "tr": "skâ",
+      "es": "el azúcar", "it": "lo zucchero", "ru": "сахар", "zh": "糖", "zh_tr": "táng", "pos": "nom",
       "note": {
         "fr": "Le sucre de palme, ស្ករត្នោត (skâ thnaot), donne leur goût à beaucoup de plats et de desserts khmers.",
         "en": "Palm sugar, ស្ករត្នោត (skâ thnaot), flavours many Khmer dishes and desserts. French « sucre » is masculine; « sucré » means “sweet”.",
         "km": "« sucre » ជានាមភេទប្រុស៖ le sucre។ « sucré » មានន័យថា ផ្អែម។ អង់គ្លេស៖ « sugar », « sweet »។"
       },
-      "example": {"fr": "Tu mets du sucre dans ton café ?", "en": "Do you put sugar in your coffee?", "km": "ដាក់ស្ករក្នុងកាហ្វេទេ?", "tr": "dak skâ knong ka-fé té ?"}
+      "example": {"fr": "Tu mets du sucre dans ton café ?", "en": "Do you put sugar in your coffee?", "km": "ដាក់ស្ករក្នុងកាហ្វេទេ?", "tr": "dak skâ knong ka-fé té ?",
+      "es": "¿Le pones azúcar al café?", "it": "Metti lo zucchero nel caffè?", "ru": "Ты кладёшь сахар в кофе?", "zh": "你的咖啡放糖吗？", "zh_tr": "Nǐ de kāfēi fàng táng ma?"}
     },
     {
-      "fr": "l'œuf", "en": "egg", "km": "ពងមាន់", "tr": "pong moan", "pos": "nom",
+      "fr": "l'œuf", "en": "egg", "km": "ពងមាន់", "tr": "pong moan",
+      "es": "el huevo", "it": "l'uovo", "ru": "яйцо", "zh": "鸡蛋", "zh_tr": "jīdàn", "pos": "nom",
       "note": {
         "fr": "ពង (pong) veut dire « œuf », et មាន់ (moan) « poule » : œuf de poule. Un œuf de cane se dit ពងទា.",
         "en": "ពង (pong) means “egg”, and មាន់ (moan) “hen”: hen's egg. A duck egg is ពងទា. French « œuf »: the f is heard in the singular, silent in « des œufs ».",
         "km": "« œuf » ជានាមភេទប្រុស៖ un œuf (f អាន)។ ពហុវចនៈ « des œufs » f មិនអានទេ។ អង់គ្លេស៖ « egg »។"
       },
-      "example": {"fr": "Le matin, je mange un œuf avec du riz.", "en": "In the morning, I eat an egg with rice.", "km": "ពេលព្រឹក ខ្ញុំញ៉ាំពងមាន់ជាមួយបាយ។", "tr": "pél preuk, khgnom gnam pong moan tchéa-mouy bay."}
+      "example": {"fr": "Le matin, je mange un œuf avec du riz.", "en": "In the morning, I eat an egg with rice.", "km": "ពេលព្រឹក ខ្ញុំញ៉ាំពងមាន់ជាមួយបាយ។", "tr": "pél preuk, khgnom gnam pong moan tchéa-mouy bay.",
+      "es": "Por la mañana como un huevo con arroz.", "it": "La mattina mangio un uovo con il riso.", "ru": "Утром я ем яйцо с рисом.", "zh": "早上我吃一个鸡蛋配米饭。", "zh_tr": "Zǎoshang wǒ chī yí ge jīdàn pèi mǐfàn."}
     },
     {
-      "fr": "la sauce de poisson", "en": "fish sauce", "km": "ទឹកត្រី", "tr": "teuk trey", "pos": "nom",
+      "fr": "la sauce de poisson", "en": "fish sauce", "km": "ទឹកត្រី", "tr": "teuk trey",
+      "es": "la salsa de pescado", "it": "la salsa di pesce", "ru": "рыбный соус", "zh": "鱼露", "zh_tr": "yúlù", "pos": "nom",
       "note": {
         "fr": "Mot à mot « eau de poisson ». Elle remplace souvent le sel dans la cuisine khmère.",
         "en": "Word for word “fish water”. It often replaces salt in Khmer cooking. French « sauce de poisson » is also called « nuoc-mâm ».",
         "km": "« sauce » ជានាមភេទស្រី៖ la sauce។ « de poisson » មានន័យថា ធ្វើពីត្រី។ អង់គ្លេស៖ « fish sauce »។"
       },
-      "example": {"fr": "J'ajoute un peu de sauce de poisson.", "en": "I add a little fish sauce.", "km": "ខ្ញុំថែមទឹកត្រីបន្តិច។", "tr": "khgnom thaèm teuk trey bân-tetch."}
+      "example": {"fr": "J'ajoute un peu de sauce de poisson.", "en": "I add a little fish sauce.", "km": "ខ្ញុំថែមទឹកត្រីបន្តិច។", "tr": "khgnom thaèm teuk trey bân-tetch.",
+      "es": "Añado un poco de salsa de pescado.", "it": "Aggiungo un po' di salsa di pesce.", "ru": "Я добавляю немного рыбного соуса.", "zh": "我加一点儿鱼露。", "zh_tr": "Wǒ jiā yìdiǎnr yúlù."}
     }
   ],
   "expressions": [
     {
       "fr": "Goûte, c'est assez salé ?", "en": "Taste it, is it salty enough?", "km": "ភ្លក់មើល ប្រៃល្មមទេ?", "tr": "phlok meul, prey lmâm té ?",
+      "es": "Prueba, ¿está bien de sal?", "it": "Assaggia, è salato abbastanza?", "ru": "Попробуй, достаточно соли?", "zh": "尝尝，够咸吗？", "zh_tr": "Chángchang, gòu xián ma?",
       "note": {
         "fr": "ល្មម (lmâm), « juste ce qu'il faut ». ល្មមហើយ veut dire « c'est parfait ainsi ».",
         "en": "ល្មម (lmâm), “just right”. ល្មមហើយ means “it's perfect like that”. French « assez » means “enough”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Il manque un peu de sel.", "en": "It needs a bit more salt.", "km": "ខ្វះអំបិលបន្តិច។", "tr": "khvah âm-bel bân-tetch.",
+      "es": "Le falta un poco de sal.", "it": "Manca un po' di sale.", "ru": "Не хватает соли.", "zh": "还差一点儿盐。", "zh_tr": "Hái chà yìdiǎnr yán.",
       "note": {
         "fr": "ខ្វះ (khvah), « manquer de ». Le contraire, « il y en a trop », se dit ច្រើនពេក.",
         "en": "ខ្វះ (khvah), “to lack”. The opposite, “there's too much”, is ច្រើនពេក. French « il manque » means “there is missing”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Attention, c'est chaud !", "en": "Careful, it's hot!", "km": "ប្រយ័ត្ន ក្តៅ!", "tr": "prâ-yat, kdav !",
+      "es": "¡Cuidado, que quema!", "it": "Attenzione, scotta!", "ru": "Осторожно, горячо!", "zh": "小心，很烫！", "zh_tr": "Xiǎoxīn, hěn tàng!",
       "note": {
         "fr": "Le khmer n'a pas besoin de « c'est » : l'adjectif ក្តៅ suffit.",
         "en": "Khmer does not need “it is”: the adjective ក្តៅ is enough. French « Attention, c'est chaud ! » keeps « c'est ».",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Tu peux m'aider ?", "en": "Can you help me?", "km": "ជួយខ្ញុំបន្តិចបានទេ?", "tr": "tchouoy khgnom bân-tetch ban té ?",
+      "es": "¿Me puedes ayudar?", "it": "Mi puoi aiutare?", "ru": "Можешь мне помочь?", "zh": "你能帮我吗？", "zh_tr": "Nǐ néng bāng wǒ ma?",
       "note": {
         "fr": "បន្តិច, « un peu », rend la demande plus légère et plus polie.",
         "en": "បន្តិច, “a little”, makes the request lighter and more polite. French « m'aider » puts the pronoun before the verb.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "Le petit-déjeuner", "en": "Breakfast", "km": "អាហារពេលព្រឹក"},
       "fr": "Pour l'omelette, j'ajoute un peu de sauce de poisson.", "en": "For the omelette, I add a little fish sauce.",
-      "km": "ពេលចៀនពងមាន់ ខ្ញុំដាក់ទឹកត្រីបន្តិច។", "tr": "pél tchien pong moan, khgnom dak teuk trey bân-tetch."
+      "km": "ពេលចៀនពងមាន់ ខ្ញុំដាក់ទឹកត្រីបន្តិច។", "tr": "pél tchien pong moan, khgnom dak teuk trey bân-tetch.",
+      "es": "Para la tortilla, añado un poco de salsa de pescado.", "it": "Per la frittata aggiungo un po' di salsa di pesce.", "ru": "В омлет я добавляю немного рыбного соуса.", "zh": "做煎蛋饼的时候，我加一点儿鱼露。", "zh_tr": "Zuò jiāndànbǐng de shíhou, wǒ jiā yìdiǎnr yúlù."
     },
     {
       "situation": {"fr": "Au marché du matin", "en": "At the morning market", "km": "នៅផ្សារពេលព្រឹក"},
       "fr": "Il faut acheter le poisson tôt, quand il est encore frais.", "en": "You have to buy fish early, while it is still fresh.",
-      "km": "ត្រូវទិញត្រីពីព្រឹក ពេលវានៅស្រស់។", "tr": "treuv tign trey pi preuk, pél véa neuv sroh."
+      "km": "ត្រូវទិញត្រីពីព្រឹក ពេលវានៅស្រស់។", "tr": "treuv tign trey pi preuk, pél véa neuv sroh.",
+      "es": "Hay que comprar el pescado temprano, cuando todavía está fresco.", "it": "Bisogna comprare il pesce presto, quando è ancora fresco.", "ru": "Рыбу нужно покупать рано, пока она свежая.", "zh": "鱼要早点儿买，那时候还很新鲜。", "zh_tr": "Yú yào zǎo diǎnr mǎi, nà shíhou hái hěn xīnxiān."
     },
     {
       "situation": {"fr": "Dans la cuisine", "en": "In the kitchen", "km": "នៅក្នុងផ្ទះបាយ"},
       "fr": "Coupe les légumes en petits morceaux, s'il te plaît.", "en": "Cut the vegetables into small pieces, please.",
-      "km": "សូមកាត់បន្លែជាដុំតូចៗ។", "tr": "sôm kat bân-laè tchéa dom tôtch-tôtch."
+      "km": "សូមកាត់បន្លែជាដុំតូចៗ។", "tr": "sôm kat bân-laè tchéa dom tôtch-tôtch.",
+      "es": "Corta las verduras en trozos pequeños, por favor.", "it": "Taglia le verdure a pezzetti, per favore.", "ru": "Нарежь овощи мелкими кусочками, пожалуйста.", "zh": "请把菜切成小块。", "zh_tr": "Qǐng bǎ cài qiē chéng xiǎo kuài."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Le soir, dans la cuisine.", "en": "In the evening, in the kitchen.", "km": "ពេលល្ងាច នៅក្នុងផ្ទះបាយ។"},
     "lines": [
-      {"speaker": "A", "fr": "Ce soir, on fait une soupe aigre ensemble ?", "en": "Tonight, shall we make a sour soup together?", "km": "យប់នេះ យើងធ្វើសម្លម្ជូរជាមួយគ្នាទេ?", "tr": "youp nih, yeung thveu sâm-lâ mtchou tchéa-mouy knéa té ?"},
-      {"speaker": "B", "fr": "Bonne idée ! Qu'est-ce que je fais ?", "en": "Good idea! What should I do?", "km": "គំនិតល្អ! ខ្ញុំធ្វើអ្វី?", "tr": "koum-neut l'â ! khgnom thveu ey ?"},
-      {"speaker": "A", "fr": "Coupe les légumes, s'il te plaît. Moi, je prépare le poisson.", "en": "Cut the vegetables, please. I'll prepare the fish.", "km": "សូមកាត់បន្លែផង។ ខ្ញុំរៀបចំត្រី។", "tr": "sôm kat bân-laè phâng. khgnom riep-tcham trey."},
-      {"speaker": "B", "fr": "C'est fait. Je mets du sucre ?", "en": "Done. Shall I add sugar?", "km": "រួចហើយ។ ដាក់ស្ករទេ?", "tr": "rouotch haeuy. dak skâ té ?"},
-      {"speaker": "A", "fr": "Un peu de sucre et de la sauce de poisson. Goûte, c'est assez salé ?", "en": "A little sugar and some fish sauce. Taste it, is it salty enough?", "km": "ដាក់ស្ករបន្តិច និងទឹកត្រី។ ភ្លក់មើល ប្រៃល្មមទេ?", "tr": "dak skâ bân-tetch neung teuk trey. phlok meul, prey lmâm té ?"},
-      {"speaker": "B", "fr": "Il manque un peu de sel.", "en": "It needs a bit more salt.", "km": "ខ្វះអំបិលបន្តិច។", "tr": "khvah âm-bel bân-tetch."},
-      {"speaker": "A", "fr": "D'accord, j'en ajoute. Attention, c'est chaud !", "en": "Okay, I'll add some. Careful, it's hot!", "km": "បាន ខ្ញុំថែមបន្តិច។ ប្រយ័ត្ន ក្តៅ!", "tr": "ban, khgnom thaèm bân-tetch. prâ-yat, kdav !"}
+      {"speaker": "A", "fr": "Ce soir, on fait une soupe aigre ensemble ?", "en": "Tonight, shall we make a sour soup together?", "km": "យប់នេះ យើងធ្វើសម្លម្ជូរជាមួយគ្នាទេ?", "tr": "youp nih, yeung thveu sâm-lâ mtchou tchéa-mouy knéa té ?",
+        "es": "Esta noche, ¿hacemos juntos una sopa agria?", "it": "Stasera facciamo insieme una zuppa agra?", "ru": "Сварим сегодня вечером вместе кислый суп?", "zh": "今天晚上我们一起做酸汤吧？", "zh_tr": "Jīntiān wǎnshang wǒmen yìqǐ zuò suān tāng ba?"},
+      {"speaker": "B", "fr": "Bonne idée ! Qu'est-ce que je fais ?", "en": "Good idea! What should I do?", "km": "គំនិតល្អ! ខ្ញុំធ្វើអ្វី?", "tr": "koum-neut l'â ! khgnom thveu ey ?",
+        "es": "¡Buena idea! ¿Qué hago yo?", "it": "Buona idea! Che cosa faccio io?", "ru": "Хорошая идея! Что мне делать?", "zh": "好主意！我做什么？", "zh_tr": "Hǎo zhǔyi! Wǒ zuò shénme?"},
+      {"speaker": "A", "fr": "Coupe les légumes, s'il te plaît. Moi, je prépare le poisson.", "en": "Cut the vegetables, please. I'll prepare the fish.", "km": "សូមកាត់បន្លែផង។ ខ្ញុំរៀបចំត្រី។", "tr": "sôm kat bân-laè phâng. khgnom riep-tcham trey.",
+        "es": "Corta las verduras, por favor. Yo preparo el pescado.", "it": "Taglia le verdure, per favore. Io preparo il pesce.", "ru": "Нарежь овощи, пожалуйста. А я приготовлю рыбу.", "zh": "请你切菜。我来处理鱼。", "zh_tr": "Qǐng nǐ qiē cài. Wǒ lái chǔlǐ yú."},
+      {"speaker": "B", "fr": "C'est fait. Je mets du sucre ?", "en": "Done. Shall I add sugar?", "km": "រួចហើយ។ ដាក់ស្ករទេ?", "tr": "rouotch haeuy. dak skâ té ?",
+        "es": "Hecho. ¿Le pongo azúcar?", "it": "Fatto. Metto lo zucchero?", "ru": "Готово. Положить сахар?", "zh": "切好了。要放糖吗？", "zh_tr": "Qiē hǎo le. Yào fàng táng ma?"},
+      {"speaker": "A", "fr": "Un peu de sucre et de la sauce de poisson. Goûte, c'est assez salé ?", "en": "A little sugar and some fish sauce. Taste it, is it salty enough?", "km": "ដាក់ស្ករបន្តិច និងទឹកត្រី។ ភ្លក់មើល ប្រៃល្មមទេ?", "tr": "dak skâ bân-tetch neung teuk trey. phlok meul, prey lmâm té ?",
+        "es": "Un poco de azúcar y salsa de pescado. Prueba, ¿está bien de sal?", "it": "Un po' di zucchero e di salsa di pesce. Assaggia, è salato abbastanza?", "ru": "Немного сахара и рыбного соуса. Попробуй, достаточно соли?", "zh": "放一点儿糖和鱼露。尝尝，够咸吗？", "zh_tr": "Fàng yìdiǎnr táng hé yúlù. Chángchang, gòu xián ma?"},
+      {"speaker": "B", "fr": "Il manque un peu de sel.", "en": "It needs a bit more salt.", "km": "ខ្វះអំបិលបន្តិច។", "tr": "khvah âm-bel bân-tetch.",
+        "es": "Le falta un poco de sal.", "it": "Manca un po' di sale.", "ru": "Не хватает соли.", "zh": "还差一点儿盐。", "zh_tr": "Hái chà yìdiǎnr yán."},
+      {"speaker": "A", "fr": "D'accord, j'en ajoute. Attention, c'est chaud !", "en": "Okay, I'll add some. Careful, it's hot!", "km": "បាន ខ្ញុំថែមបន្តិច។ ប្រយ័ត្ន ក្តៅ!", "tr": "ban, khgnom thaèm bân-tetch. prâ-yat, kdav !",
+        "es": "Vale, le pongo más. ¡Cuidado, que quema!", "it": "D'accordo, ne aggiungo. Attenzione, scotta!", "ru": "Хорошо, добавлю. Осторожно, горячо!", "zh": "好，我再加点儿。小心，很烫！", "zh_tr": "Hǎo, wǒ zài jiā diǎnr. Xiǎoxīn, hěn tàng!"}
     ]
   },
   "comprehension": {

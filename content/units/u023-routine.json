@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "se réveiller", "en": "to wake up", "km": "ភ្ញាក់", "tr": "phgnéak", "pos": "verbe",
+      "fr": "se réveiller", "en": "to wake up", "km": "ភ្ញាក់", "tr": "phgnéak",
+      "es": "despertarse", "it": "svegliarsi", "ru": "просыпаться", "zh": "醒", "zh_tr": "xǐng", "pos": "verbe",
       "note": {
         "fr": "On dit souvent ភ្ញាក់ពីគេង (phgnéak pi kéng), mot à mot « se réveiller du sommeil ».",
         "en": "People often say ភ្ញាក់ពីគេង (phgnéak pi kéng), word for word “wake from sleep”. French « se réveiller »: je me réveille.",
         "km": "« se réveiller »៖ je me réveille, tu te réveilles។ អង់គ្លេស៖ « to wake up »។"
       },
-      "example": {"fr": "Je me réveille à six heures.", "en": "I wake up at six o'clock.", "km": "ខ្ញុំភ្ញាក់ពីគេងម៉ោងប្រាំមួយ។", "tr": "khgnom phgnéak pi kéng maong pram-mouy."}
+      "example": {"fr": "Je me réveille à six heures.", "en": "I wake up at six o'clock.", "km": "ខ្ញុំភ្ញាក់ពីគេងម៉ោងប្រាំមួយ។", "tr": "khgnom phgnéak pi kéng maong pram-mouy.",
+      "es": "Me despierto a las seis.", "it": "Mi sveglio alle sei.", "ru": "Я просыпаюсь в шесть часов.", "zh": "我六点醒。", "zh_tr": "Wǒ liù diǎn xǐng."}
     },
     {
-      "fr": "dormir", "en": "to sleep", "km": "គេង", "tr": "kéng", "pos": "verbe",
+      "fr": "dormir", "en": "to sleep", "km": "គេង", "tr": "kéng",
+      "es": "dormir", "it": "dormire", "ru": "спать", "zh": "睡觉", "zh_tr": "shuìjiào", "pos": "verbe",
       "note": {
         "fr": "គេង est le mot courant et poli. ដេក (dék) est plus familier. « Aller se coucher » : ចូលគេង (tchôl kéng).",
         "en": "គេង is the common, polite word. ដេក (dék) is more casual. “Go to bed”: ចូលគេង (tchôl kéng). French « dormir »: je dors; « se coucher » is “to go to bed”.",
         "km": "« dormir »៖ je dors, nous dormons។ អក្សរ s ចុងពាក្យ « dors » មិនអានទេ។ អង់គ្លេស៖ « to sleep »។"
       },
-      "example": {"fr": "Je dors huit heures par nuit.", "en": "I sleep eight hours a night.", "km": "ខ្ញុំគេងប្រាំបីម៉ោងក្នុងមួយយប់។", "tr": "khgnom kéng pram-bey maong knong mouy youp."}
+      "example": {"fr": "Je dors huit heures par nuit.", "en": "I sleep eight hours a night.", "km": "ខ្ញុំគេងប្រាំបីម៉ោងក្នុងមួយយប់។", "tr": "khgnom kéng pram-bey maong knong mouy youp.",
+      "es": "Duermo ocho horas por noche.", "it": "Dormo otto ore a notte.", "ru": "Я сплю восемь часов в сутки.", "zh": "我每天晚上睡八个小时。", "zh_tr": "Wǒ měitiān wǎnshang shuì bā ge xiǎoshí."}
     },
     {
-      "fr": "travailler", "en": "to work", "km": "ធ្វើការ", "tr": "thveu-ka", "pos": "verbe",
+      "fr": "travailler", "en": "to work", "km": "ធ្វើការ", "tr": "thveu-ka",
+      "es": "trabajar", "it": "lavorare", "ru": "работать", "zh": "工作", "zh_tr": "gōngzuò", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « faire le travail » : ធ្វើ (thveu), faire, et ការ (ka), tâche.",
         "en": "Word for word “do the task”: ធ្វើ (thveu), to do, and ការ (ka), task. French « travailler »: je travaille.",
         "km": "« travailler »៖ je travaille, nous travaillons។ អង់គ្លេស៖ « to work »។"
       },
-      "example": {"fr": "Je travaille du matin au soir.", "en": "I work from morning to evening.", "km": "ខ្ញុំធ្វើការពីព្រឹកដល់ល្ងាច។", "tr": "khgnom thveu-ka pi preuk dâl lngéatch."}
+      "example": {"fr": "Je travaille du matin au soir.", "en": "I work from morning to evening.", "km": "ខ្ញុំធ្វើការពីព្រឹកដល់ល្ងាច។", "tr": "khgnom thveu-ka pi preuk dâl lngéatch.",
+      "es": "Trabajo de la mañana a la noche.", "it": "Lavoro dalla mattina alla sera.", "ru": "Я работаю с утра до вечера.", "zh": "我从早到晚工作。", "zh_tr": "Wǒ cóng zǎo dào wǎn gōngzuò."}
     },
     {
-      "fr": "cuisiner", "en": "to cook", "km": "ធ្វើម្ហូប", "tr": "thveu mhôp", "pos": "verbe",
+      "fr": "cuisiner", "en": "to cook", "km": "ធ្វើម្ហូប", "tr": "thveu mhôp",
+      "es": "cocinar", "it": "cucinare", "ru": "готовить", "zh": "做饭", "zh_tr": "zuò fàn", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « faire un plat ». On entend aussi ធ្វើបាយ (thveu bay), « faire le riz », pour « préparer le repas ».",
         "en": "Word for word “make a dish”. You also hear ធ្វើបាយ (thveu bay), “make the rice”, for “prepare the meal”. French « cuisiner », or « faire la cuisine ».",
         "km": "« cuisiner » មកពីពាក្យ « la cuisine » (ផ្ទះបាយ)។ Je cuisine = ខ្ញុំធ្វើម្ហូប។ អង់គ្លេស៖ « to cook »។"
       },
-      "example": {"fr": "Ce soir, je cuisine pour la famille.", "en": "Tonight, I am cooking for the family.", "km": "ល្ងាចនេះ ខ្ញុំធ្វើម្ហូបសម្រាប់គ្រួសារ។", "tr": "lngéatch nih, khgnom thveu mhôp sâm-rap krouo-sa."}
+      "example": {"fr": "Ce soir, je cuisine pour la famille.", "en": "Tonight, I am cooking for the family.", "km": "ល្ងាចនេះ ខ្ញុំធ្វើម្ហូបសម្រាប់គ្រួសារ។", "tr": "lngéatch nih, khgnom thveu mhôp sâm-rap krouo-sa.",
+      "es": "Esta noche cocino para la familia.", "it": "Stasera cucino per la famiglia.", "ru": "Сегодня вечером я готовлю для семьи.", "zh": "今天晚上我给家人做饭。", "zh_tr": "Jīntiān wǎnshang wǒ gěi jiārén zuò fàn."}
     },
     {
-      "fr": "se doucher", "en": "to take a shower", "km": "ងូតទឹក", "tr": "ngout teuk", "pos": "verbe",
+      "fr": "se doucher", "en": "to take a shower", "km": "ងូតទឹក", "tr": "ngout teuk",
+      "es": "ducharse", "it": "fare la doccia", "ru": "принимать душ", "zh": "洗澡", "zh_tr": "xǐzǎo", "pos": "verbe",
       "note": {
         "fr": "ងូតទឹក veut dire « se laver à l'eau » : il sert pour la douche comme pour le bain. Avec la chaleur, on se douche souvent deux fois par jour.",
         "en": "ងូតទឹក means “wash with water”: it covers both shower and bath. In the heat, people often shower twice a day. French « se doucher »: je me douche.",
         "km": "« se doucher »៖ je me douche។ គេក៏និយាយថា « prendre une douche » ដែរ។ អង់គ្លេស៖ « to take a shower »។"
       },
-      "example": {"fr": "Je me douche avant de dormir.", "en": "I take a shower before sleeping.", "km": "ខ្ញុំងូតទឹកមុនពេលគេង។", "tr": "khgnom ngout teuk moun pél kéng."}
+      "example": {"fr": "Je me douche avant de dormir.", "en": "I take a shower before sleeping.", "km": "ខ្ញុំងូតទឹកមុនពេលគេង។", "tr": "khgnom ngout teuk moun pél kéng.",
+      "es": "Me ducho antes de dormir.", "it": "Faccio la doccia prima di dormire.", "ru": "Я принимаю душ перед сном.", "zh": "我睡觉前洗澡。", "zh_tr": "Wǒ shuìjiào qián xǐzǎo."}
     },
     {
-      "fr": "se reposer", "en": "to rest", "km": "សម្រាក", "tr": "sâm-rak", "pos": "verbe",
+      "fr": "se reposer", "en": "to rest", "km": "សម្រាក", "tr": "sâm-rak",
+      "es": "descansar", "it": "riposarsi", "ru": "отдыхать", "zh": "休息", "zh_tr": "xiūxi", "pos": "verbe",
       "note": {
         "fr": "សម្រាក sert aussi pour un jour de congé : ថ្ងៃសម្រាក (thngay sâm-rak), « jour de repos ».",
         "en": "សម្រាក also means a day off: ថ្ងៃសម្រាក (thngay sâm-rak), “rest day”. French « se reposer »: je me repose.",
         "km": "« se reposer »៖ je me repose, nous nous reposons។ អង់គ្លេស៖ « to rest »។"
       },
-      "example": {"fr": "Le dimanche, nous nous reposons à la maison.", "en": "On Sundays, we rest at home.", "km": "ថ្ងៃអាទិត្យ យើងសម្រាកនៅផ្ទះ។", "tr": "thngay a-teut, yeung sâm-rak neuv phtéah."}
+      "example": {"fr": "Le dimanche, nous nous reposons à la maison.", "en": "On Sundays, we rest at home.", "km": "ថ្ងៃអាទិត្យ យើងសម្រាកនៅផ្ទះ។", "tr": "thngay a-teut, yeung sâm-rak neuv phtéah.",
+      "es": "Los domingos descansamos en casa.", "it": "La domenica ci riposiamo a casa.", "ru": "По воскресеньям мы отдыхаем дома.", "zh": "星期天我们在家休息。", "zh_tr": "Xīngqītiān wǒmen zài jiā xiūxi."}
     }
   ],
   "expressions": [
     {
       "fr": "Je me lève tôt.", "en": "I get up early.", "km": "ខ្ញុំក្រោកពីព្រលឹម។", "tr": "khgnom kraok pi pro-leum.",
+      "es": "Me levanto temprano.", "it": "Mi alzo presto.", "ru": "Я встаю рано.", "zh": "我起得很早。", "zh_tr": "Wǒ qǐ de hěn zǎo.",
       "note": {
         "fr": "ក្រោក (kraok), « se lever ». ពីព្រលឹម (pi pro-leum), « dès l'aube », est la façon courante de dire « très tôt ».",
         "en": "ក្រោក (kraok), “to get up”. ពីព្រលឹម (pi pro-leum), “at dawn”, is the usual way to say “very early”. French « se lever »: je me lève.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Qu'est-ce que tu fais ?", "en": "What are you doing?", "km": "កំពុងធ្វើអ្វី?", "tr": "kâm-poung thveu ey ?",
+      "es": "¿Qué haces?", "it": "Che cosa fai?", "ru": "Что ты делаешь?", "zh": "你在做什么？", "zh_tr": "Nǐ zài zuò shénme?",
       "note": {
         "fr": "កំពុង (kâm-poung) placé devant le verbe indique une action en cours, comme « être en train de ».",
         "en": "កំពុង (kâm-poung) before the verb marks an action in progress, like “-ing”. French uses the present: « Qu'est-ce que tu fais ? ».",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "J'ai beaucoup de travail aujourd'hui.", "en": "I have a lot of work today.", "km": "ថ្ងៃនេះខ្ញុំមានការងារច្រើន។", "tr": "thngay nih khgnom méan ka-ngéa tchraeun.",
+      "es": "Hoy tengo mucho trabajo.", "it": "Oggi ho molto lavoro.", "ru": "Сегодня у меня много работы.", "zh": "我今天工作很多。", "zh_tr": "Wǒ jīntiān gōngzuò hěn duō.",
       "note": {
         "fr": "ការងារ (ka-ngéa) est le nom « travail » ; ច្រើន (tchraeun), « beaucoup », se place après le nom.",
         "en": "ការងារ (ka-ngéa) is the noun “work”; ច្រើន (tchraeun), “a lot”, goes after the noun. French « beaucoup de » goes before it: beaucoup de travail.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Dors bien !", "en": "Sleep well!", "km": "គេងឱ្យលក់ស្រួលណា!", "tr": "kéng aoy lok srouol na !",
+      "es": "¡Que duermas bien!", "it": "Dormi bene!", "ru": "Спи спокойно!", "zh": "睡个好觉！", "zh_tr": "Shuì ge hǎo jiào!",
       "note": {
         "fr": "Mot à mot « dors d'un sommeil agréable ». គេងលក់ (kéng lok) signifie « dormir profondément ».",
         "en": "Word for word “sleep a pleasant sleep”. គេងលក់ (kéng lok) means “to sleep soundly”. French « Dors bien » is familiar; « Dormez bien » is polite.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Le matin", "en": "In the morning", "km": "ពេលព្រឹក"},
       "fr": "Le matin, je bois un café, puis je vais travailler.", "en": "In the morning, I drink a coffee, then I go to work.",
-      "km": "ពេលព្រឹក ខ្ញុំផឹកកាហ្វេ រួចទៅធ្វើការ។", "tr": "pél preuk, khgnom pheuk ka-fé, rouotch teuv thveu-ka."
+      "km": "ពេលព្រឹក ខ្ញុំផឹកកាហ្វេ រួចទៅធ្វើការ។", "tr": "pél preuk, khgnom pheuk ka-fé, rouotch teuv thveu-ka.",
+      "es": "Por la mañana bebo un café y luego voy a trabajar.", "it": "La mattina bevo un caffè, poi vado a lavorare.", "ru": "Утром я пью кофе, а потом иду на работу.", "zh": "早上我喝一杯咖啡，然后去上班。", "zh_tr": "Zǎoshang wǒ hē yì bēi kāfēi, ránhòu qù shàngbān."
     },
     {
       "situation": {"fr": "Le soir, à la maison", "en": "In the evening, at home", "km": "ពេលល្ងាច នៅផ្ទះ"},
       "fr": "Après le travail, je me douche et je me repose.", "en": "After work, I take a shower and rest.",
-      "km": "ក្រោយពេលធ្វើការ ខ្ញុំងូតទឹក ហើយសម្រាក។", "tr": "kraoy pél thveu-ka, khgnom ngout teuk, haeuy sâm-rak."
+      "km": "ក្រោយពេលធ្វើការ ខ្ញុំងូតទឹក ហើយសម្រាក។", "tr": "kraoy pél thveu-ka, khgnom ngout teuk, haeuy sâm-rak.",
+      "es": "Después del trabajo, me ducho y descanso.", "it": "Dopo il lavoro faccio la doccia e mi riposo.", "ru": "После работы я принимаю душ и отдыхаю.", "zh": "下班以后，我洗澡，然后休息。", "zh_tr": "Xiàbān yǐhòu, wǒ xǐzǎo, ránhòu xiūxi."
     },
     {
       "situation": {"fr": "Le dimanche", "en": "On Sunday", "km": "ថ្ងៃអាទិត្យ"},
       "fr": "Le dimanche, nous ne travaillons pas.", "en": "On Sundays, we do not work.",
-      "km": "ថ្ងៃអាទិត្យ យើងមិនធ្វើការទេ។", "tr": "thngay a-teut, yeung min thveu-ka té."
+      "km": "ថ្ងៃអាទិត្យ យើងមិនធ្វើការទេ។", "tr": "thngay a-teut, yeung min thveu-ka té.",
+      "es": "Los domingos no trabajamos.", "it": "La domenica non lavoriamo.", "ru": "По воскресеньям мы не работаем.", "zh": "星期天我们不工作。", "zh_tr": "Xīngqītiān wǒmen bù gōngzuò."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Le soir, à la maison, {A} et {B} discutent.", "en": "In the evening, at home, {A} and {B} are chatting.", "km": "ពេលល្ងាច នៅផ្ទះ {A} និង {B} និយាយគ្នាលេង។"},
     "lines": [
-      {"speaker": "A", "fr": "Tu te réveilles à quelle heure demain ?", "en": "What time do you wake up tomorrow?", "km": "ថ្ងៃស្អែក {B} ភ្ញាក់ម៉ោងប៉ុន្មាន?", "tr": "thngay s'aèk {B} phgnéak maong pon-man ?"},
-      {"speaker": "B", "fr": "À six heures. Je travaille tôt.", "en": "At six o'clock. I work early.", "km": "ម៉ោងប្រាំមួយ។ ខ្ញុំធ្វើការពីព្រលឹម។", "tr": "maong pram-mouy. khgnom thveu-ka pi pro-leum."},
-      {"speaker": "A", "fr": "Alors ce soir, c'est moi qui cuisine.", "en": "Then tonight, I am cooking.", "km": "អញ្ចឹងល្ងាចនេះ ខ្ញុំជាអ្នកធ្វើម្ហូប។", "tr": "agn-tcheung lngéatch nih, khgnom tchéa néak thveu mhôp."},
-      {"speaker": "B", "fr": "Merci ! Je me douche d'abord.", "en": "Thank you! I am taking a shower first.", "km": "អរគុណ! ខ្ញុំទៅងូតទឹកសិន។", "tr": "â-koun ! khgnom teuv ngout teuk sen."},
-      {"speaker": "A", "fr": "D'accord. Après le repas, repose-toi.", "en": "Okay. After the meal, get some rest.", "km": "បាន។ ញ៉ាំបាយរួច សម្រាកទៅ។", "tr": "ban. gnam bay rouotch, sâm-rak teuv."},
-      {"speaker": "B", "fr": "Oui, je veux dormir tôt ce soir.", "en": "Yes, I want to sleep early tonight.", "km": "{B_yes} យប់នេះខ្ញុំចង់ចូលគេងឆាប់។", "tr": "{B_yes}, youp nih khgnom tchâng tchôl kéng tchhap."}
+      {"speaker": "A", "fr": "Tu te réveilles à quelle heure demain ?", "en": "What time do you wake up tomorrow?", "km": "ថ្ងៃស្អែក {B} ភ្ញាក់ម៉ោងប៉ុន្មាន?", "tr": "thngay s'aèk {B} phgnéak maong pon-man ?",
+        "es": "¿A qué hora te despiertas mañana?", "it": "A che ora ti svegli domani?", "ru": "Во сколько ты завтра встаёшь?", "zh": "你明天几点醒？", "zh_tr": "Nǐ míngtiān jǐ diǎn xǐng?"},
+      {"speaker": "B", "fr": "À six heures. Je travaille tôt.", "en": "At six o'clock. I work early.", "km": "ម៉ោងប្រាំមួយ។ ខ្ញុំធ្វើការពីព្រលឹម។", "tr": "maong pram-mouy. khgnom thveu-ka pi pro-leum.",
+        "es": "A las seis. Trabajo temprano.", "it": "Alle sei. Lavoro presto.", "ru": "В шесть. Я рано начинаю работать.", "zh": "六点。我上班很早。", "zh_tr": "Liù diǎn. Wǒ shàngbān hěn zǎo."},
+      {"speaker": "A", "fr": "Alors ce soir, c'est moi qui cuisine.", "en": "Then tonight, I am cooking.", "km": "អញ្ចឹងល្ងាចនេះ ខ្ញុំជាអ្នកធ្វើម្ហូប។", "tr": "agn-tcheung lngéatch nih, khgnom tchéa néak thveu mhôp.",
+        "es": "Entonces esta noche cocino yo.", "it": "Allora stasera cucino io.", "ru": "Тогда сегодня вечером готовлю я.", "zh": "那今天晚上我来做饭。", "zh_tr": "Nà jīntiān wǎnshang wǒ lái zuò fàn."},
+      {"speaker": "B", "fr": "Merci ! Je me douche d'abord.", "en": "Thank you! I am taking a shower first.", "km": "អរគុណ! ខ្ញុំទៅងូតទឹកសិន។", "tr": "â-koun ! khgnom teuv ngout teuk sen.",
+        "es": "¡Gracias! Primero me ducho.", "it": "Grazie! Prima faccio la doccia.", "ru": "Спасибо! Сначала я приму душ.", "zh": "谢谢！我先洗个澡。", "zh_tr": "Xièxie! Wǒ xiān xǐ ge zǎo."},
+      {"speaker": "A", "fr": "D'accord. Après le repas, repose-toi.", "en": "Okay. After the meal, get some rest.", "km": "បាន។ ញ៉ាំបាយរួច សម្រាកទៅ។", "tr": "ban. gnam bay rouotch, sâm-rak teuv.",
+        "es": "Vale. Después de cenar, descansa.", "it": "D'accordo. Dopo cena, riposati.", "ru": "Хорошо. После ужина отдохни.", "zh": "好的。吃完饭你休息吧。", "zh_tr": "Hǎo de. Chī wán fàn nǐ xiūxi ba."},
+      {"speaker": "B", "fr": "Oui, je veux dormir tôt ce soir.", "en": "Yes, I want to sleep early tonight.", "km": "{B_yes} យប់នេះខ្ញុំចង់ចូលគេងឆាប់។", "tr": "{B_yes}, youp nih khgnom tchâng tchôl kéng tchhap.",
+        "es": "Sí, esta noche quiero dormir temprano.", "it": "Sì, stasera voglio andare a dormire presto.", "ru": "Да, сегодня я хочу лечь спать пораньше.", "zh": "对，今天晚上我想早点儿睡觉。", "zh_tr": "Duì, jīntiān wǎnshang wǒ xiǎng zǎo diǎnr shuìjiào."}
     ]
   },
   "comprehension": {

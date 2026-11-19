@@ -11,75 +11,91 @@
   },
   "vocabulary": [
     {
-      "fr": "un", "en": "one", "km": "មួយ", "tr": "mouy", "pos": "nombre",
+      "fr": "un", "en": "one", "km": "មួយ", "tr": "mouy",
+      "es": "uno", "it": "uno", "ru": "один", "zh": "一", "zh_tr": "yī", "pos": "nombre",
       "note": {
         "fr": "Le nombre se place après le nom : កាហ្វេមួយ signifie « un café ».",
         "en": "The number goes after the noun: កាហ្វេមួយ means “one coffee”. French « un » also means “a” and becomes « une » before feminine nouns.",
         "km": "« un » ប្រើជាមួយនាមភេទប្រុស និង « une » ជាមួយនាមភេទស្រី៖ un café, une table។"
       },
-      "example": {"fr": "Un thé, s'il vous plaît.", "en": "One tea, please.", "km": "សូមតែមួយកែវ។", "tr": "sôm taè mouy kaèv."}
+      "example": {"fr": "Un thé, s'il vous plaît.", "en": "One tea, please.", "km": "សូមតែមួយកែវ។", "tr": "sôm taè mouy kaèv.",
+      "es": "Un té, por favor.", "it": "Un tè, per favore.", "ru": "Один чай, пожалуйста.", "zh": "请来一杯茶。", "zh_tr": "Qǐng lái yì bēi chá."}
     },
     {
-      "fr": "deux", "en": "two", "km": "ពីរ", "tr": "pi", "pos": "nombre",
+      "fr": "deux", "en": "two", "km": "ពីរ", "tr": "pi",
+      "es": "dos", "it": "due", "ru": "два", "zh": "二", "zh_tr": "èr", "pos": "nombre",
       "note": {
         "fr": "Le រ final ne se prononce pas : on dit « pi ».",
         "en": "The final រ is silent: say “pi”. French « deux » has a rounded vowel, close to the “u” in “fur”.",
         "km": "ក្នុងពាក្យ « deux » អក្សរ x ចុងពាក្យមិនអានទេ។"
       },
-      "example": {"fr": "Deux cafés, s'il vous plaît.", "en": "Two coffees, please.", "km": "សូមកាហ្វេពីរកែវ។", "tr": "sôm ka-fé pi kaèv."}
+      "example": {"fr": "Deux cafés, s'il vous plaît.", "en": "Two coffees, please.", "km": "សូមកាហ្វេពីរកែវ។", "tr": "sôm ka-fé pi kaèv.",
+      "es": "Dos cafés, por favor.", "it": "Due caffè, per favore.", "ru": "Два кофе, пожалуйста.", "zh": "请来两杯咖啡。", "zh_tr": "Qǐng lái liǎng bēi kāfēi."}
     },
     {
-      "fr": "trois", "en": "three", "km": "បី", "tr": "bey", "pos": "nombre",
+      "fr": "trois", "en": "three", "km": "បី", "tr": "bey",
+      "es": "tres", "it": "tre", "ru": "три", "zh": "三", "zh_tr": "sān", "pos": "nombre",
       "note": {
         "fr": "Se prononce « bey », comme la fin du mot « abeille ».",
         "en": "Pronounced like “bay”. In French « trois », the “oi” sounds like “wa”.",
         "km": "ក្នុងពាក្យ « trois » អក្សរ s ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « three »។"
       },
-      "example": {"fr": "J'ai trois amis.", "en": "I have three friends.", "km": "ខ្ញុំមានមិត្តភក្តិបីនាក់។", "tr": "khgnom méan mit-phéak bey néak."}
+      "example": {"fr": "J'ai trois amis.", "en": "I have three friends.", "km": "ខ្ញុំមានមិត្តភក្តិបីនាក់។", "tr": "khgnom méan mit-phéak bey néak.",
+      "es": "Tengo tres amigos.", "it": "Ho tre amici.", "ru": "У меня три друга.", "zh": "我有三个朋友。", "zh_tr": "Wǒ yǒu sān ge péngyou."}
     },
     {
-      "fr": "quatre", "en": "four", "km": "បួន", "tr": "bouon", "pos": "nombre",
+      "fr": "quatre", "en": "four", "km": "បួន", "tr": "bouon",
+      "es": "cuatro", "it": "quattro", "ru": "четыре", "zh": "四", "zh_tr": "sì", "pos": "nombre",
       "note": {
         "fr": "Une seule syllabe : « bouon ».",
         "en": "A single syllable: “bouon”, like “boo-un” said quickly. In French « quatre », the final “re” is barely heard.",
         "km": "ភាសាអង់គ្លេស « four » អានដូចពាក្យ « for » ដែលមានន័យថា សម្រាប់។"
       },
-      "example": {"fr": "Nous sommes quatre.", "en": "There are four of us.", "km": "យើងមានគ្នាបួននាក់។", "tr": "yeung méan knéa bouon néak."}
+      "example": {"fr": "Nous sommes quatre.", "en": "There are four of us.", "km": "យើងមានគ្នាបួននាក់។", "tr": "yeung méan knéa bouon néak.",
+      "es": "Somos cuatro.", "it": "Siamo in quattro.", "ru": "Нас четверо.", "zh": "我们有四个人。", "zh_tr": "Wǒmen yǒu sì ge rén."}
     },
     {
-      "fr": "cinq", "en": "five", "km": "ប្រាំ", "tr": "pram", "pos": "nombre",
+      "fr": "cinq", "en": "five", "km": "ប្រាំ", "tr": "pram",
+      "es": "cinco", "it": "cinque", "ru": "пять", "zh": "五", "zh_tr": "wǔ", "pos": "nombre",
       "note": {
         "fr": "Sert de base aux nombres de 6 à 9 : ប្រាំមួយ, « cinq-un », signifie six.",
         "en": "The base for the numbers 6 to 9: ប្រាំមួយ, “five-one”, means six. In French « cinq », the final q is pronounced: “sank”.",
         "km": "ក្នុងពាក្យ « cinq » អក្សរ q ចុងពាក្យអានដូចអក្សរ « ក »។"
       },
-      "example": {"fr": "Il est cinq heures.", "en": "It is five o'clock.", "km": "ម៉ោងប្រាំហើយ។", "tr": "maong pram haeuy."}
+      "example": {"fr": "Il est cinq heures.", "en": "It is five o'clock.", "km": "ម៉ោងប្រាំហើយ។", "tr": "maong pram haeuy.",
+      "es": "Son las cinco.", "it": "Sono le cinque.", "ru": "Сейчас пять часов.", "zh": "现在五点。", "zh_tr": "Xiànzài wǔ diǎn."}
     },
     {
-      "fr": "zéro", "en": "zero", "km": "សូន្យ", "tr": "soun", "pos": "nombre",
+      "fr": "zéro", "en": "zero", "km": "សូន្យ", "tr": "soun",
+      "es": "cero", "it": "zero", "ru": "ноль", "zh": "零", "zh_tr": "líng", "pos": "nombre",
       "note": {
         "fr": "Utile pour dicter un numéro de téléphone.",
         "en": "Useful for reading out a phone number. In French, « zéro » is stressed on the last syllable.",
         "km": "ប្រើពេលប្រាប់លេខទូរស័ព្ទ។"
       },
-      "example": {"fr": "Mon numéro commence par zéro.", "en": "My number starts with zero.", "km": "លេខទូរស័ព្ទរបស់ខ្ញុំចាប់ផ្តើមដោយលេខសូន្យ។", "tr": "lék tou-ro-sap ro-bâh khgnom tchap-phdaeum daoy lék soun."}
+      "example": {"fr": "Mon numéro commence par zéro.", "en": "My number starts with zero.", "km": "លេខទូរស័ព្ទរបស់ខ្ញុំចាប់ផ្តើមដោយលេខសូន្យ។", "tr": "lék tou-ro-sap ro-bâh khgnom tchap-phdaeum daoy lék soun.",
+      "es": "Mi número empieza por cero.", "it": "Il mio numero comincia con lo zero.", "ru": "Мой номер начинается с нуля.", "zh": "我的号码以零开头。", "zh_tr": "Wǒ de hàomǎ yǐ líng kāitóu."}
     }
   ],
   "expressions": [
     {
       "fr": "Un, deux, trois !", "en": "One, two, three!", "km": "មួយ ពីរ បី!", "tr": "mouy, pi, bey !",
+      "es": "¡Uno, dos, tres!", "it": "Uno, due, tre!", "ru": "Раз, два, три!", "zh": "一、二、三！", "zh_tr": "Yī, èr, sān!",
       "note": {"fr": "Pour donner le départ ou compter ensemble.", "en": "To give a start signal or count together.", "km": "ប្រើពេលរាប់ ឬពេលចាប់ផ្តើមធ្វើអ្វីមួយព្រមគ្នា។"}
     },
     {
       "fr": "Encore un, s'il vous plaît.", "en": "One more, please.", "km": "សូមមួយទៀត។", "tr": "sôm mouy tiet.",
+      "es": "Otro, por favor.", "it": "Un altro, per favore.", "ru": "Ещё один, пожалуйста.", "zh": "请再来一个。", "zh_tr": "Qǐng zài lái yí ge.",
       "note": {"fr": "ទៀត (tiet) signifie « encore, de plus ».", "en": "ទៀត (tiet) means “more, again”. In French, « encore » means “again” or “more”.", "km": "ប្រើពេលចង់បានមួយថែមទៀត។"}
     },
     {
       "fr": "Tous les deux.", "en": "Both of us.", "km": "ទាំងពីរនាក់។", "tr": "téang pi néak.",
+      "es": "Los dos.", "it": "Tutti e due.", "ru": "Мы оба.", "zh": "我们俩。", "zh_tr": "Wǒmen liǎ.",
       "note": {"fr": "នាក់ (néak) est le classificateur qui sert à compter les personnes.", "en": "នាក់ (néak) is the classifier used to count people. In French, « tous les deux » means “both”.", "km": "មានន័យថា មនុស្សទាំងពីរនាក់។"}
     },
     {
       "fr": "Quel est votre numéro de téléphone ?", "en": "What is your phone number?", "km": "តើលេខទូរស័ព្ទរបស់អ្នកលេខប៉ុន្មាន?", "tr": "taeu lék tou-ro-sap ro-bâh néak lék pon-man ?",
+      "es": "¿Cuál es su número de teléfono?", "it": "Qual è il suo numero di telefono?", "ru": "Какой у вас номер телефона?", "zh": "您的电话号码是多少？", "zh_tr": "Nín de diànhuà hàomǎ shì duōshao?",
       "note": {"fr": "ប៉ុន្មាន (pon-man) signifie « combien » ou « quel numéro ».", "en": "ប៉ុន្មាន (pon-man) means “how much” or “what number”. In French, « quel » agrees with the noun: quel numéro, quelle heure.", "km": "សំណួរដើម្បីសុំលេខទូរស័ព្ទ។"}
     }
   ],
@@ -87,17 +103,20 @@
     {
       "situation": {"fr": "Au café", "en": "At the café", "km": "នៅហាងកាហ្វេ"},
       "fr": "Deux cafés et un thé, s'il vous plaît.", "en": "Two coffees and one tea, please.",
-      "km": "សូមកាហ្វេពីរកែវ និងតែមួយកែវ។", "tr": "sôm ka-fé pi kaèv ning taè mouy kaèv."
+      "km": "សូមកាហ្វេពីរកែវ និងតែមួយកែវ។", "tr": "sôm ka-fé pi kaèv ning taè mouy kaèv.",
+      "es": "Dos cafés y un té, por favor.", "it": "Due caffè e un tè, per favore.", "ru": "Два кофе и один чай, пожалуйста.", "zh": "请来两杯咖啡和一杯茶。", "zh_tr": "Qǐng lái liǎng bēi kāfēi hé yì bēi chá."
     },
     {
       "situation": {"fr": "Au téléphone", "en": "On the phone", "km": "ពេលនិយាយទូរស័ព្ទ"},
       "fr": "Mon numéro est le zéro, un, deux, trois, quatre, cinq.", "en": "My number is zero, one, two, three, four, five.",
-      "km": "លេខរបស់ខ្ញុំគឺ សូន្យ មួយ ពីរ បី បួន ប្រាំ។", "tr": "lék ro-bâh khgnom keu soun, mouy, pi, bey, bouon, pram."
+      "km": "លេខរបស់ខ្ញុំគឺ សូន្យ មួយ ពីរ បី បួន ប្រាំ។", "tr": "lék ro-bâh khgnom keu soun, mouy, pi, bey, bouon, pram.",
+      "es": "Mi número es el cero, uno, dos, tres, cuatro, cinco.", "it": "Il mio numero è zero, uno, due, tre, quattro, cinque.", "ru": "Мой номер: ноль, один, два, три, четыре, пять.", "zh": "我的号码是零一二三四五。", "zh_tr": "Wǒ de hàomǎ shì líng yāo èr sān sì wǔ."
     },
     {
       "situation": {"fr": "Parler de ses amis", "en": "Talking about your friends", "km": "និយាយអំពីមិត្តភក្តិ"},
       "fr": "J'ai cinq amis en France.", "en": "I have five friends in France.",
-      "km": "ខ្ញុំមានមិត្តភក្តិប្រាំនាក់នៅប្រទេសបារាំង។", "tr": "khgnom méan mit-phéak pram néak neuv prâ-téh ba-rang."
+      "km": "ខ្ញុំមានមិត្តភក្តិប្រាំនាក់នៅប្រទេសបារាំង។", "tr": "khgnom méan mit-phéak pram néak neuv prâ-téh ba-rang.",
+      "es": "Tengo cinco amigos en Francia.", "it": "Ho cinque amici in Francia.", "ru": "У меня пять друзей во Франции.", "zh": "我在法国有五个朋友。", "zh_tr": "Wǒ zài Fǎguó yǒu wǔ ge péngyou."
     }
   ],
   "dialogue": {
@@ -107,11 +126,16 @@
       "km": "នៅហាងកាហ្វេ {A} និង {B} កុម្ម៉ង់ភេសជ្ជៈ។"
     },
     "lines": [
-      {"speaker": "B", "fr": "Tu veux un café ?", "en": "Do you want a coffee?", "km": "ចង់ញ៉ាំកាហ្វេទេ?", "tr": "tchâng gnam ka-fé té ?"},
-      {"speaker": "A", "fr": "Oui, deux cafés : un pour toi, un pour moi.", "en": "Yes, two coffees: one for you, one for me.", "km": "{A_yes} កាហ្វេពីរកែវ៖ មួយសម្រាប់ {B} មួយសម្រាប់ខ្ញុំ។", "tr": "{A_yes}, ka-fé pi kaèv : mouy sâm-rap {B}, mouy sâm-rap khgnom."},
-      {"speaker": "B", "fr": "Et de l'eau ?", "en": "And some water?", "km": "ចុះទឹកវិញ?", "tr": "tchoh teuk vign ?"},
-      {"speaker": "A", "fr": "Oui, une bouteille d'eau, s'il te plaît.", "en": "Yes, one bottle of water, please.", "km": "{A_yes} សូមទឹកមួយដប។", "tr": "{A_yes}, sôm teuk mouy dâp."},
-      {"speaker": "B", "fr": "D'accord : deux cafés et une bouteille d'eau.", "en": "Okay: two coffees and one bottle of water.", "km": "បាន៖ កាហ្វេពីរកែវ និងទឹកមួយដប។", "tr": "ban : ka-fé pi kaèv ning teuk mouy dâp."}
+      {"speaker": "B", "fr": "Tu veux un café ?", "en": "Do you want a coffee?", "km": "ចង់ញ៉ាំកាហ្វេទេ?", "tr": "tchâng gnam ka-fé té ?",
+        "es": "¿Quieres un café?", "it": "Vuoi un caffè?", "ru": "Хочешь кофе?", "zh": "你想喝咖啡吗？", "zh_tr": "Nǐ xiǎng hē kāfēi ma?"},
+      {"speaker": "A", "fr": "Oui, deux cafés : un pour toi, un pour moi.", "en": "Yes, two coffees: one for you, one for me.", "km": "{A_yes} កាហ្វេពីរកែវ៖ មួយសម្រាប់ {B} មួយសម្រាប់ខ្ញុំ។", "tr": "{A_yes}, ka-fé pi kaèv : mouy sâm-rap {B}, mouy sâm-rap khgnom.",
+        "es": "Sí, dos cafés: uno para ti y uno para mí.", "it": "Sì, due caffè: uno per te e uno per me.", "ru": "Да, два кофе: один тебе, один мне.", "zh": "好，两杯咖啡：一杯给你，一杯给我。", "zh_tr": "Hǎo, liǎng bēi kāfēi: yì bēi gěi nǐ, yì bēi gěi wǒ."},
+      {"speaker": "B", "fr": "Et de l'eau ?", "en": "And some water?", "km": "ចុះទឹកវិញ?", "tr": "tchoh teuk vign ?",
+        "es": "¿Y agua?", "it": "E dell'acqua?", "ru": "А воду?", "zh": "还要水吗？", "zh_tr": "Hái yào shuǐ ma?"},
+      {"speaker": "A", "fr": "Oui, une bouteille d'eau, s'il te plaît.", "en": "Yes, one bottle of water, please.", "km": "{A_yes} សូមទឹកមួយដប។", "tr": "{A_yes}, sôm teuk mouy dâp.",
+        "es": "Sí, una botella de agua, por favor.", "it": "Sì, una bottiglia d'acqua, per favore.", "ru": "Да, одну бутылку воды, пожалуйста.", "zh": "要，一瓶水，谢谢。", "zh_tr": "Yào, yì píng shuǐ, xièxie."},
+      {"speaker": "B", "fr": "D'accord : deux cafés et une bouteille d'eau.", "en": "Okay: two coffees and one bottle of water.", "km": "បាន៖ កាហ្វេពីរកែវ និងទឹកមួយដប។", "tr": "ban : ka-fé pi kaèv ning teuk mouy dâp.",
+        "es": "Vale: dos cafés y una botella de agua.", "it": "D'accordo: due caffè e una bottiglia d'acqua.", "ru": "Хорошо: два кофе и бутылка воды.", "zh": "好的：两杯咖啡和一瓶水。", "zh_tr": "Hǎo de: liǎng bēi kāfēi hé yì píng shuǐ."}
     ]
   },
   "comprehension": {

@@ -19,7 +19,7 @@
   /* Avec le serveur local (« manage.py serve »), la progression est partagée entre l'ordinateur
      et le téléphone : le serveur fusionne les états entrée par entrée (la plus récente gagne).
      Fichiers ouverts depuis le disque : chaque appareil garde sa propre progression. */
-  var SYNC_KEY = /^frkh-(done2-(fr|en|km)|days-(fr|en|km)|boxes-(fr|en|km)-(fr|en|km))$/;
+  var SYNC_KEY = /^frkh-(done2-(fr|en|km)|days-(fr|en|km)|boxes-(fr|en|km)-(fr|en|km|es|it|ru|zh))$/;
   var syncTimer = 0, syncBusy = false, syncAgain = false;
 
   function syncURL() { return (root.getAttribute("data-root") || ".") + "/api/progress"; }
@@ -269,7 +269,11 @@
   var LANG_NAMES = {
     fr: { fr: "en français", en: "in French", km: "ជាភាសាបារាំង" },
     en: { fr: "en anglais", en: "in English", km: "ជាភាសាអង់គ្លេស" },
-    km: { fr: "en khmer", en: "in Khmer", km: "ជាភាសាខ្មែរ" }
+    km: { fr: "en khmer", en: "in Khmer", km: "ជាភាសាខ្មែរ" },
+    es: { fr: "en espagnol", en: "in Spanish", km: "ជាភាសាអេស្ប៉ាញ" },
+    it: { fr: "en italien", en: "in Italian", km: "ជាភាសាអ៊ីតាលី" },
+    ru: { fr: "en russe", en: "in Russian", km: "ជាភាសារុស្ស៊ី" },
+    zh: { fr: "en chinois", en: "in Chinese", km: "ជាភាសាចិន" }
   };
   function rpText(key) {
     var name = LANG_NAMES[roleplay.lang][profile()];
@@ -765,6 +769,46 @@
   }
   var lexiconCount = null;
 
+  /* --------------------------------------------------- Langues affichées */
+  /* Chaque langue cochée reste visible ; une langue décochée est masquée sur toutes les pages
+     (classe hide-xx sur <html>). Le choix est gardé dans le navigateur. */
+  var LANGS = window.FRKH_LANGS || { all: ["fr", "en", "km"], shown: ["fr", "en", "km"] };
+  function hiddenLangs() {
+    return LANGS.all.filter(function (l) { return root.classList.contains("hide-" + l); });
+  }
+  function langShown(lang) { return !root.classList.contains("hide-" + lang); }
+  window.frkhLangShown = langShown;
+  function initLangPicker() {
+    var picker = document.getElementById("lang-picker");
+    if (!picker) { return; }
+    var boxes = all("[data-lang-toggle]", picker), count = document.getElementById("lang-count");
+    function refresh() {
+      var shown = 0;
+      boxes.forEach(function (box) {
+        box.checked = langShown(box.getAttribute("data-lang-toggle"));
+        if (box.checked) { shown += 1; }
+      });
+      boxes.forEach(function (box) { box.disabled = box.checked && shown === 1; });
+      if (count) { count.textContent = num(shown); }
+    }
+    boxes.forEach(function (box) {
+      box.addEventListener("change", function () {
+        root.classList.toggle("hide-" + box.getAttribute("data-lang-toggle"), !box.checked);
+        store.set("frkh-langs-hidden", JSON.stringify(hiddenLangs()));
+        refresh();
+        if (root.dispatchEvent && typeof CustomEvent === "function") { root.dispatchEvent(new CustomEvent("frkh:langs")); }
+      });
+    });
+    document.addEventListener("click", function (event) {
+      if (picker.open && !picker.contains(event.target)) { picker.open = false; }
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && picker.open) { picker.open = false; picker.querySelector("summary").focus(); }
+    });
+    root.addEventListener("frkh:profile", refresh);
+    refresh();
+  }
+
   /* -------------------------------------------------------- Initialisation */
   function init() {
     all("[data-audio]").forEach(enhanceAudio);
@@ -774,6 +818,7 @@
     all("[data-profile-choice]").forEach(function (button) {
       button.addEventListener("click", function () { applyProfile(button.getAttribute("data-profile-choice"), true); });
     });
+    initLangPicker();
     initSlowToggle();
     initSize();
     initLightAudio();

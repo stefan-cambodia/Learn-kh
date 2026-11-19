@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "la fête", "en": "festival", "km": "បុណ្យ", "tr": "bon", "pos": "nom",
+      "fr": "la fête", "en": "festival", "km": "បុណ្យ", "tr": "bon",
+      "es": "la fiesta", "it": "la festa", "ru": "праздник", "zh": "节日", "zh_tr": "jiérì", "pos": "nom",
       "note": {
         "fr": "បុណ្យ désigne une fête religieuse ou traditionnelle, et aussi le « mérite » bouddhique. Pour une fête entre amis, on dit ជប់លៀង (tchoup-lieng).",
         "en": "បុណ្យ is a religious or traditional festival, and also Buddhist “merit”. For a party with friends, say ជប់លៀង (tchoup-lieng). French « fête » covers both.",
         "km": "« fête » ជានាមភេទស្រី៖ la fête។ ប្រើបានទាំងបុណ្យប្រពៃណី និងពិធីជប់លៀង។ អង់គ្លេស៖ « festival » សម្រាប់បុណ្យ និង « party » សម្រាប់ជប់លៀង។"
       },
-      "example": {"fr": "Demain, il y a une fête au village.", "en": "Tomorrow, there is a festival in the village.", "km": "ថ្ងៃស្អែកមានបុណ្យនៅភូមិ។", "tr": "thngay s'aèk méan bon neuv phoum."}
+      "example": {"fr": "Demain, il y a une fête au village.", "en": "Tomorrow, there is a festival in the village.", "km": "ថ្ងៃស្អែកមានបុណ្យនៅភូមិ។", "tr": "thngay s'aèk méan bon neuv phoum.",
+      "es": "Mañana hay una fiesta en el pueblo.", "it": "Domani c'è una festa al villaggio.", "ru": "Завтра в деревне праздник.", "zh": "明天村里有个节日活动。", "zh_tr": "Míngtiān cūn li yǒu ge jiérì huódòng."}
     },
     {
-      "fr": "le Nouvel An khmer", "en": "Khmer New Year", "km": "ចូលឆ្នាំខ្មែរ", "tr": "tchôl tchhnam khmaè", "pos": "nom",
+      "fr": "le Nouvel An khmer", "en": "Khmer New Year", "km": "ចូលឆ្នាំខ្មែរ", "tr": "tchôl tchhnam khmaè",
+      "es": "el Año Nuevo jemer", "it": "il Capodanno khmer", "ru": "кхмерский Новый год", "zh": "柬埔寨新年", "zh_tr": "Jiǎnpǔzhài xīnnián", "pos": "nom",
       "note": {
         "fr": "Mot à mot « entrer dans l'année khmère ». On dit aussi ចូលឆ្នាំថ្មី (tchôl tchhnam thmey), « entrer dans la nouvelle année ».",
         "en": "Word for word “enter the Khmer year”. People also say ចូលឆ្នាំថ្មី (tchôl tchhnam thmey), “enter the new year”. French: « le Nouvel An ».",
         "km": "« le Nouvel An » មានន័យថា ចូលឆ្នាំថ្មី។ នៅប្រទេសបារាំង ចូលឆ្នាំថ្មីនៅថ្ងៃទី១ ខែមករា។ អង់គ្លេស៖ « Khmer New Year »។"
       },
-      "example": {"fr": "Le Nouvel An khmer est en avril.", "en": "Khmer New Year is in April.", "km": "ចូលឆ្នាំខ្មែរនៅខែមេសា។", "tr": "tchôl tchhnam khmaè neuv khaè mé-sa."}
+      "example": {"fr": "Le Nouvel An khmer est en avril.", "en": "Khmer New Year is in April.", "km": "ចូលឆ្នាំខ្មែរនៅខែមេសា។", "tr": "tchôl tchhnam khmaè neuv khaè mé-sa.",
+      "es": "El Año Nuevo jemer es en abril.", "it": "Il Capodanno khmer è ad aprile.", "ru": "Кхмерский Новый год бывает в апреле.", "zh": "柬埔寨新年在四月。", "zh_tr": "Jiǎnpǔzhài xīnnián zài sìyuè."}
     },
     {
-      "fr": "la pagode", "en": "pagoda", "km": "វត្ត", "tr": "voat", "pos": "nom",
+      "fr": "la pagode", "en": "pagoda", "km": "វត្ត", "tr": "voat",
+      "es": "la pagoda", "it": "la pagoda", "ru": "пагода", "zh": "佛寺", "zh_tr": "fósì", "pos": "nom",
       "note": {
         "fr": "វត្ត est le monastère bouddhique, au cœur de la vie du village. On s'y habille correctement, épaules et genoux couverts, et on se déchausse avant d'entrer dans le sanctuaire.",
         "en": "វត្ត is the Buddhist monastery, at the heart of village life. Dress properly, shoulders and knees covered, and take off your shoes before entering the sanctuary. French « pagode » is feminine.",
         "km": "« pagode » ជានាមភេទស្រី៖ la pagode។ នៅប្រទេសបារាំង កន្លែងគោរពសាសនាដែលមានច្រើនជាងគេគឺ « l'église » (ព្រះវិហារគ្រិស្តសាសនា)។ អង់គ្លេស៖ « pagoda »។"
       },
-      "example": {"fr": "Nous allons à la pagode le matin.", "en": "We go to the pagoda in the morning.", "km": "យើងទៅវត្តនៅពេលព្រឹក។", "tr": "yeung teuv voat neuv pél preuk."}
+      "example": {"fr": "Nous allons à la pagode le matin.", "en": "We go to the pagoda in the morning.", "km": "យើងទៅវត្តនៅពេលព្រឹក។", "tr": "yeung teuv voat neuv pél preuk.",
+      "es": "Vamos a la pagoda por la mañana.", "it": "Andiamo alla pagoda la mattina.", "ru": "Мы ходим в пагоду утром.", "zh": "我们早上去佛寺。", "zh_tr": "Wǒmen zǎoshang qù fósì."}
     },
     {
-      "fr": "le cadeau", "en": "gift", "km": "អំណោយ", "tr": "âm-naoy", "pos": "nom",
+      "fr": "le cadeau", "en": "gift", "km": "អំណោយ", "tr": "âm-naoy",
+      "es": "el regalo", "it": "il regalo", "ru": "подарок", "zh": "礼物", "zh_tr": "lǐwù", "pos": "nom",
       "note": {
         "fr": "អំណោយ est le mot soigné. À l'oral, on entend très souvent កាដូ (ka-dô), emprunté au français « cadeau ».",
         "en": "អំណោយ is the formal word. In speech, you very often hear កាដូ (ka-dô), borrowed from French « cadeau ». Plural: « des cadeaux », with an x.",
         "km": "« cadeau » ជានាមភេទប្រុស៖ le cadeau, ពហុវចនៈ « des cadeaux »។ ពាក្យខ្មែរ « កាដូ » មកពីពាក្យនេះ។ អង់គ្លេស៖ « gift », « present »។"
       },
-      "example": {"fr": "J'ai un cadeau pour toi.", "en": "I have a gift for you.", "km": "ខ្ញុំមានអំណោយសម្រាប់អ្នក។", "tr": "khgnom méan âm-naoy sâm-rap néak."}
+      "example": {"fr": "J'ai un cadeau pour toi.", "en": "I have a gift for you.", "km": "ខ្ញុំមានអំណោយសម្រាប់អ្នក។", "tr": "khgnom méan âm-naoy sâm-rap néak.",
+      "es": "Tengo un regalo para ti.", "it": "Ho un regalo per te.", "ru": "У меня для тебя подарок.", "zh": "我有一份礼物给你。", "zh_tr": "Wǒ yǒu yí fèn lǐwù gěi nǐ."}
     },
     {
-      "fr": "inviter", "en": "to invite", "km": "អញ្ជើញ", "tr": "agn-tcheugn", "pos": "verbe",
+      "fr": "inviter", "en": "to invite", "km": "អញ្ជើញ", "tr": "agn-tcheugn",
+      "es": "invitar", "it": "invitare", "ru": "приглашать", "zh": "邀请", "zh_tr": "yāoqǐng", "pos": "verbe",
       "note": {
         "fr": "អញ្ជើញ signifie « inviter », et sert aussi de formule polie pour « je vous en prie » : អញ្ជើញចូល, « entrez ».",
         "en": "អញ្ជើញ means “to invite”, and is also a polite “please”: អញ្ជើញចូល, “come in”. French « inviter »: je t'invite.",
         "km": "« inviter »៖ j'invite, nous invitons។ « une invitation » មានន័យថា ការអញ្ជើញ។ អង់គ្លេស៖ « to invite »។"
       },
-      "example": {"fr": "Nous invitons nos amis à la maison.", "en": "We are inviting our friends home.", "km": "យើងអញ្ជើញមិត្តភក្តិមកផ្ទះ។", "tr": "yeung agn-tcheugn mit-phéak mok phtéah."}
+      "example": {"fr": "Nous invitons nos amis à la maison.", "en": "We are inviting our friends home.", "km": "យើងអញ្ជើញមិត្តភក្តិមកផ្ទះ។", "tr": "yeung agn-tcheugn mit-phéak mok phtéah.",
+      "es": "Invitamos a nuestros amigos a casa.", "it": "Invitiamo i nostri amici a casa.", "ru": "Мы приглашаем друзей к себе домой.", "zh": "我们邀请朋友来家里。", "zh_tr": "Wǒmen yāoqǐng péngyou lái jiāli."}
     },
     {
-      "fr": "ensemble", "en": "together", "km": "ជាមួយគ្នា", "tr": "tchéa-mouy knéa", "pos": "adverbe",
+      "fr": "ensemble", "en": "together", "km": "ជាមួយគ្នា", "tr": "tchéa-mouy knéa",
+      "es": "juntos", "it": "insieme", "ru": "вместе", "zh": "一起", "zh_tr": "yìqǐ", "pos": "adverbe",
       "note": {
         "fr": "ជាមួយ (tchéa-mouy), « avec », suivi de គ្នា (knéa), « l'un l'autre » : mot à mot « les uns avec les autres ».",
         "en": "ជាមួយ (tchéa-mouy), “with”, followed by គ្នា (knéa), “each other”: word for word “with one another”. French « ensemble » never changes.",
         "km": "« ensemble » មិនប្រែប្រួលទេ ហើយដាក់នៅក្រោយកិរិយាសព្ទ៖ nous mangeons ensemble។ អង់គ្លេស៖ « together »។"
       },
-      "example": {"fr": "Toute la famille mange ensemble.", "en": "The whole family eats together.", "km": "គ្រួសារទាំងមូលញ៉ាំបាយជាមួយគ្នា។", "tr": "krouo-sa téang moul gnam bay tchéa-mouy knéa."}
+      "example": {"fr": "Toute la famille mange ensemble.", "en": "The whole family eats together.", "km": "គ្រួសារទាំងមូលញ៉ាំបាយជាមួយគ្នា។", "tr": "krouo-sa téang moul gnam bay tchéa-mouy knéa.",
+      "es": "Toda la familia come junta.", "it": "Tutta la famiglia mangia insieme.", "ru": "Вся семья ест вместе.", "zh": "全家人一起吃饭。", "zh_tr": "Quán jiā rén yìqǐ chī fàn."}
     }
   ],
   "expressions": [
     {
       "fr": "Bonne année !", "en": "Happy New Year!", "km": "សួស្តីឆ្នាំថ្មី!", "tr": "souos-dey tchhnam thmey !",
+      "es": "¡Feliz año nuevo!", "it": "Buon anno!", "ru": "С Новым годом!", "zh": "新年快乐！", "zh_tr": "Xīnnián kuàilè!",
       "note": {
         "fr": "Mot à mot « bonjour, nouvelle année ». La formule sert pour le Nouvel An khmer comme pour le 1er janvier.",
         "en": "Word for word “hello, new year”. The phrase works for Khmer New Year and for 1 January. French « Bonne année ! » is said throughout January.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Joyeux anniversaire !", "en": "Happy birthday!", "km": "រីករាយថ្ងៃកំណើត!", "tr": "rik-réay thngay kâm-naeut !",
+      "es": "¡Feliz cumpleaños!", "it": "Buon compleanno!", "ru": "С днём рождения!", "zh": "生日快乐！", "zh_tr": "Shēngrì kuàilè!",
       "note": {
         "fr": "រីករាយ (rik-réay), joyeux, et ថ្ងៃកំណើត (thngay kâm-naeut), le jour de naissance. On dit aussi ថ្ងៃខួបកំណើត.",
         "en": "រីករាយ (rik-réay), happy, and ថ្ងៃកំណើត (thngay kâm-naeut), birthday. People also say ថ្ងៃខួបកំណើត. French « anniversaire » also means an anniversary.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Félicitations !", "en": "Congratulations!", "km": "សូមអបអរសាទរ!", "tr": "sôm âp-â sa-tô !",
+      "es": "¡Enhorabuena!", "it": "Congratulazioni!", "ru": "Поздравляю!", "zh": "恭喜！", "zh_tr": "Gōngxǐ!",
       "note": {
         "fr": "Formule soignée, pour un mariage, une naissance ou une réussite.",
         "en": "A formal phrase for a wedding, a birth or a success. French « Félicitations ! » is always plural.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Merci pour l'invitation.", "en": "Thank you for the invitation.", "km": "អរគុណដែលបានអញ្ជើញ។", "tr": "â-koun dael ban agn-tcheugn.",
+      "es": "Gracias por la invitación.", "it": "Grazie per l'invito.", "ru": "Спасибо за приглашение.", "zh": "谢谢你的邀请。", "zh_tr": "Xièxie nǐ de yāoqǐng.",
       "note": {
         "fr": "Mot à mot « merci d'avoir invité ». ដែល (dael) relie ici le remerciement à sa raison.",
         "en": "Word for word “thank you for having invited”. ដែល (dael) links the thanks to its reason. French « merci pour » or « merci de ».",
@@ -103,30 +119,41 @@
     {
       "situation": {"fr": "Le Nouvel An khmer", "en": "Khmer New Year", "km": "ចូលឆ្នាំខ្មែរ"},
       "fr": "Pendant le Nouvel An khmer, les familles se retrouvent et vont à la pagode.", "en": "During Khmer New Year, families gather and go to the pagoda.",
-      "km": "ពេលចូលឆ្នាំខ្មែរ គ្រួសារជួបជុំគ្នា ហើយទៅវត្ត។", "tr": "pél tchôl tchhnam khmaè, krouo-sa tchouop-tchoum knéa, haeuy teuv voat."
+      "km": "ពេលចូលឆ្នាំខ្មែរ គ្រួសារជួបជុំគ្នា ហើយទៅវត្ត។", "tr": "pél tchôl tchhnam khmaè, krouo-sa tchouop-tchoum knéa, haeuy teuv voat.",
+      "es": "Durante el Año Nuevo jemer, las familias se reúnen y van a la pagoda.", "it": "Durante il Capodanno khmer le famiglie si riuniscono e vanno alla pagoda.", "ru": "На кхмерский Новый год семьи собираются вместе и идут в пагоду.", "zh": "柬埔寨新年的时候，家人团聚，一起去佛寺。", "zh_tr": "Jiǎnpǔzhài xīnnián de shíhou, jiārén tuánjù, yìqǐ qù fósì."
     },
     {
       "situation": {"fr": "La fête des ancêtres, Pchum Ben", "en": "The festival of the ancestors, Pchum Ben", "km": "បុណ្យភ្ជុំបិណ្ឌ"},
       "fr": "Pour Pchum Ben, on apporte de la nourriture aux moines en pensant aux ancêtres.", "en": "For Pchum Ben, people bring food to the monks in memory of their ancestors.",
-      "km": "ពេលបុណ្យភ្ជុំបិណ្ឌ គេយកម្ហូបទៅប្រគេនព្រះសង្ឃ ដើម្បីឧទ្ទិសដល់ដូនតា។", "tr": "pél bon phtchoum ben, ké yok mhôp teuv prâ-kén préah sâng, daeum-bey out-teuh dâl dôn-ta."
+      "km": "ពេលបុណ្យភ្ជុំបិណ្ឌ គេយកម្ហូបទៅប្រគេនព្រះសង្ឃ ដើម្បីឧទ្ទិសដល់ដូនតា។", "tr": "pél bon phtchoum ben, ké yok mhôp teuv prâ-kén préah sâng, daeum-bey out-teuh dâl dôn-ta.",
+      "es": "En Pchum Ben, se lleva comida a los monjes en recuerdo de los antepasados.", "it": "Per il Pchum Ben si porta cibo ai monaci in ricordo degli antenati.", "ru": "На праздник Пчум Бен люди приносят монахам еду в память о предках.", "zh": "亡人节的时候，人们给僧人送食物，纪念祖先。", "zh_tr": "Wángrén jié de shíhou, rénmen gěi sēngrén sòng shíwù, jìniàn zǔxiān."
     },
     {
       "situation": {"fr": "Une invitation", "en": "An invitation", "km": "ការអញ្ជើញ"},
       "fr": "Samedi, nous sommes invités à un mariage.", "en": "On Saturday, we are invited to a wedding.",
-      "km": "ថ្ងៃសៅរ៍ គេអញ្ជើញយើងទៅពិធីមង្គលការ។", "tr": "thngay sav, ké agn-tcheugn yeung teuv pi-thi mong-kol-ka."
+      "km": "ថ្ងៃសៅរ៍ គេអញ្ជើញយើងទៅពិធីមង្គលការ។", "tr": "thngay sav, ké agn-tcheugn yeung teuv pi-thi mong-kol-ka.",
+      "es": "El sábado estamos invitados a una boda.", "it": "Sabato siamo invitati a un matrimonio.", "ru": "В субботу нас пригласили на свадьбу.", "zh": "星期六我们被邀请参加婚礼。", "zh_tr": "Xīngqīliù wǒmen bèi yāoqǐng cānjiā hūnlǐ."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Quelques jours avant le Nouvel An khmer.", "en": "A few days before Khmer New Year.", "km": "ប៉ុន្មានថ្ងៃមុនចូលឆ្នាំខ្មែរ។"},
     "lines": [
-      {"speaker": "B", "fr": "Le Nouvel An khmer arrive bientôt. Qu'est-ce qu'on fait ?", "en": "Khmer New Year is coming soon. What are we doing?", "km": "ជិតចូលឆ្នាំខ្មែរហើយ។ យើងធ្វើអ្វីខ្លះ?", "tr": "tchit tchôl tchhnam khmaè haeuy. yeung thveu ey khlah ?"},
-      {"speaker": "A", "fr": "Ma famille nous invite à la campagne.", "en": "My family is inviting us to the countryside.", "km": "គ្រួសារខ្ញុំអញ្ជើញយើងទៅលេងស្រុក។", "tr": "krouo-sa khgnom agn-tcheugn yeung teuv léng srok."},
-      {"speaker": "B", "fr": "Avec plaisir ! On va à la pagode ensemble ?", "en": "With pleasure! Shall we go to the pagoda together?", "km": "រីករាយណាស់! យើងទៅវត្តជាមួយគ្នាទេ?", "tr": "rik-réay nah ! yeung teuv voat tchéa-mouy knéa té ?"},
-      {"speaker": "A", "fr": "Oui, le matin. Ensuite, toute la famille mange ensemble.", "en": "Yes, in the morning. Then the whole family eats together.", "km": "{A_yes} ទៅពេលព្រឹក។ បន្ទាប់មក គ្រួសារទាំងមូលញ៉ាំបាយជាមួយគ្នា។", "tr": "{A_yes}, teuv pél preuk. bân-toap mok, krouo-sa téang moul gnam bay tchéa-mouy knéa."},
-      {"speaker": "B", "fr": "Je dois apporter un cadeau ?", "en": "Should I bring a gift?", "km": "ខ្ញុំត្រូវយកអំណោយទៅទេ?", "tr": "khgnom treuv yok âm-naoy teuv té ?"},
-      {"speaker": "A", "fr": "Oui, des fruits pour mes parents, c'est très bien.", "en": "Yes, some fruit for my parents is very good.", "km": "{A_yes} យកផ្លែឈើជូនឪពុកម្តាយខ្ញុំ គឺល្អណាស់។", "tr": "{A_yes}, yok phlaè-tchheu tchoun eu-pouk mday khgnom, keu l'â nah."},
-      {"speaker": "B", "fr": "D'accord. Et comment dit-on bonne année ?", "en": "Okay. And how do you say happy New Year?", "km": "បាន។ ហើយពាក្យជូនពរឆ្នាំថ្មីថាម៉េច?", "tr": "ban. haeuy péak tchoun pô tchhnam thmey tha métch ?"},
-      {"speaker": "A", "fr": "On dit : bonne année !", "en": "We say: happy New Year!", "km": "គេថា៖ សួស្តីឆ្នាំថ្មី!", "tr": "ké tha : souos-dey tchhnam thmey !"}
+      {"speaker": "B", "fr": "Le Nouvel An khmer arrive bientôt. Qu'est-ce qu'on fait ?", "en": "Khmer New Year is coming soon. What are we doing?", "km": "ជិតចូលឆ្នាំខ្មែរហើយ។ យើងធ្វើអ្វីខ្លះ?", "tr": "tchit tchôl tchhnam khmaè haeuy. yeung thveu ey khlah ?",
+        "es": "Ya llega el Año Nuevo jemer. ¿Qué hacemos?", "it": "Il Capodanno khmer arriva presto. Che cosa facciamo?", "ru": "Скоро кхмерский Новый год. Что будем делать?", "zh": "柬埔寨新年快到了。我们做什么？", "zh_tr": "Jiǎnpǔzhài xīnnián kuài dào le. Wǒmen zuò shénme?"},
+      {"speaker": "A", "fr": "Ma famille nous invite à la campagne.", "en": "My family is inviting us to the countryside.", "km": "គ្រួសារខ្ញុំអញ្ជើញយើងទៅលេងស្រុក។", "tr": "krouo-sa khgnom agn-tcheugn yeung teuv léng srok.",
+        "es": "Mi familia nos invita al campo.", "it": "La mia famiglia ci invita in campagna.", "ru": "Моя семья приглашает нас в деревню.", "zh": "我的家人请我们去乡下。", "zh_tr": "Wǒ de jiārén qǐng wǒmen qù xiāngxia."},
+      {"speaker": "B", "fr": "Avec plaisir ! On va à la pagode ensemble ?", "en": "With pleasure! Shall we go to the pagoda together?", "km": "រីករាយណាស់! យើងទៅវត្តជាមួយគ្នាទេ?", "tr": "rik-réay nah ! yeung teuv voat tchéa-mouy knéa té ?",
+        "es": "¡Con mucho gusto! ¿Vamos juntos a la pagoda?", "it": "Con piacere! Andiamo insieme alla pagoda?", "ru": "С удовольствием! Пойдём вместе в пагоду?", "zh": "好啊！我们一起去佛寺吗？", "zh_tr": "Hǎo a! Wǒmen yìqǐ qù fósì ma?"},
+      {"speaker": "A", "fr": "Oui, le matin. Ensuite, toute la famille mange ensemble.", "en": "Yes, in the morning. Then the whole family eats together.", "km": "{A_yes} ទៅពេលព្រឹក។ បន្ទាប់មក គ្រួសារទាំងមូលញ៉ាំបាយជាមួយគ្នា។", "tr": "{A_yes}, teuv pél preuk. bân-toap mok, krouo-sa téang moul gnam bay tchéa-mouy knéa.",
+        "es": "Sí, por la mañana. Después, toda la familia come junta.", "it": "Sì, la mattina. Poi tutta la famiglia mangia insieme.", "ru": "Да, утром. Потом вся семья ест вместе.", "zh": "对，早上去。然后全家人一起吃饭。", "zh_tr": "Duì, zǎoshang qù. Ránhòu quán jiā rén yìqǐ chī fàn."},
+      {"speaker": "B", "fr": "Je dois apporter un cadeau ?", "en": "Should I bring a gift?", "km": "ខ្ញុំត្រូវយកអំណោយទៅទេ?", "tr": "khgnom treuv yok âm-naoy teuv té ?",
+        "es": "¿Tengo que llevar un regalo?", "it": "Devo portare un regalo?", "ru": "Мне нужно принести подарок?", "zh": "我要带礼物吗？", "zh_tr": "Wǒ yào dài lǐwù ma?"},
+      {"speaker": "A", "fr": "Oui, des fruits pour mes parents, c'est très bien.", "en": "Yes, some fruit for my parents is very good.", "km": "{A_yes} យកផ្លែឈើជូនឪពុកម្តាយខ្ញុំ គឺល្អណាស់។", "tr": "{A_yes}, yok phlaè-tchheu tchoun eu-pouk mday khgnom, keu l'â nah.",
+        "es": "Sí, un poco de fruta para mis padres está muy bien.", "it": "Sì, un po' di frutta per i miei genitori va benissimo.", "ru": "Да, фрукты для моих родителей — это очень хорошо.", "zh": "要，给我爸爸妈妈带点儿水果就很好。", "zh_tr": "Yào, gěi wǒ bàba māma dài diǎnr shuǐguǒ jiù hěn hǎo."},
+      {"speaker": "B", "fr": "D'accord. Et comment dit-on bonne année ?", "en": "Okay. And how do you say happy New Year?", "km": "បាន។ ហើយពាក្យជូនពរឆ្នាំថ្មីថាម៉េច?", "tr": "ban. haeuy péak tchoun pô tchhnam thmey tha métch ?",
+        "es": "Vale. ¿Y cómo se dice feliz año nuevo?", "it": "D'accordo. E come si dice buon anno?", "ru": "Хорошо. А как сказать «с Новым годом»?", "zh": "好的。新年快乐怎么说？", "zh_tr": "Hǎo de. Xīnnián kuàilè zěnme shuō?"},
+      {"speaker": "A", "fr": "On dit : bonne année !", "en": "We say: happy New Year!", "km": "គេថា៖ សួស្តីឆ្នាំថ្មី!", "tr": "ké tha : souos-dey tchhnam thmey !",
+        "es": "Se dice: ¡feliz año nuevo!", "it": "Si dice: buon anno!", "ru": "Говорят: «С Новым годом!»", "zh": "要说：新年快乐！", "zh_tr": "Yào shuō: Xīnnián kuàilè!"}
     ]
   },
   "comprehension": {

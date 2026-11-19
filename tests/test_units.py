@@ -758,3 +758,83 @@ class ConfigurationTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
+
+class MultilingualTest(unittest.TestCase):
+    """Langues supplémentaires : translittération, complément des leçons, contrôles d'écriture."""
+
+    def test_russian_transliteration(self):
+        from frkh.langs import ru_translit, translit
+        self.assertEqual(ru_translit("Привет, спасибо!"), "Privet, spasibo!")
+        self.assertEqual(ru_translit("ещё"), "yeshchyo")
+        self.assertEqual(ru_translit("Где мой телефон?"), "Gde moy telefon?")
+        self.assertEqual(ru_translit("подъезд, соль"), "podyezd, sol'")
+        self.assertEqual(translit({"ru": "да"}, "ru"), "da")
+        self.assertEqual(translit({"ru": "да", "ru_tr": "dá"}, "ru"), "dá", "une translittération imposée est gardée")
+        self.assertEqual(translit({"zh": "你好", "zh_tr": "nǐ hǎo"}, "zh"), "nǐ hǎo")
+        self.assertEqual(translit({"es": "hola"}, "es"), "")
+
+    def test_old_lessons_are_completed_from_the_units(self):
+        from frkh.langs import Translations
+        tr = Translations(ROOT / "content" / "units", DEFAULT_CONFIG["characters"])
+        content = {
+            "vocabulary": [{"fr": "bonjour", "en": "hello", "km": "សួស្តី",
+                            "example": {"fr": "Bonjour, comment ça va ?", "en": "Hello, how are you?"}}],
+            "dialogue": {"lines": [{"speaker": "B", "fr": "Bonjour Dara ! Comment ça va ?",
+                                    "en": "Good morning, Dara! How are you?"}]},
+            "review": {"words": [{"fr": "merci", "en": "thank you"}], "translation": {"fr": "Non, merci.", "en": "No, thank you."}},
+        }
+        self.assertTrue(tr.enrich(content))
+        word = content["vocabulary"][0]
+        self.assertEqual((word["es"], word["it"], word["ru"], word["zh"], word["zh_tr"]),
+                         ("hola", "buongiorno", "здравствуйте", "你好", "nǐ hǎo"))
+        self.assertEqual(word["example"]["zh"], "你好，最近好吗？")
+        line = content["dialogue"]["lines"][0]
+        self.assertEqual((line["ru"], line["zh"]), ("Доброе утро, Дара! Как дела?", "早上好，达拉！你好吗？"),
+                         "les prénoms sont écrits dans chaque langue")
+        self.assertEqual(content["review"]["words"][0]["it"], "grazie")
+        self.assertEqual(content["review"]["translation"]["es"], "No, gracias.")
+        self.assertFalse(tr.enrich(content), "une seconde passe ne change rien")
+
+    def test_extra_languages_are_checked(self):
+        from frkh.quality import check_extra
+        good = {"es": "hola", "it": "ciao", "ru": "привет", "zh": "你好", "zh_tr": "nǐ hǎo"}
+        self.assertEqual(check_extra(good, "x"), [])
+        messages = " | ".join(str(i) for i in check_extra(
+            {"es": "hola", "it": "ciao", "ru": "privet", "zh": "ni hao", "zh_tr": "你好"}, "x"))
+        self.assertIn("cyrillique", messages)
+        self.assertIn("caractères chinois", messages)
+        self.assertIn("pinyin", messages)
+        missing = check_extra({"es": "hola"}, "x")
+        self.assertEqual({i.level for i in missing}, {"warning"}, "une traduction absente n'est qu'un avertissement")
+
+
+@unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg absent")
+class Mp3LibraryTest(LibraryCase):
+    config_overrides = {"audio": {"format": "mp3", "mp3_bitrate_kbps": 48}}
+
+    def test_mp3_files_are_generated_checked_and_converted(self):
+        from frkh.audio import mp3util
+        tts = MemoryTTS()
+        lib = self.library(memory=tts)
+        ref = lib.ensure("Bonjour", "fr")
+        self.assertTrue(ref.ready, ref.reason)
+        self.assertRegex(ref.path, r"^audio/fr-FR/bonjour_[0-9a-f]{12}\.mp3$")
+        info = mp3util.inspect_mp3_file(self.root / ref.path, expected_rate=24000)
+        self.assertGreater(info.duration, 0.2)
+        self.assertEqual(self.library(memory=tts).ensure("Bonjour", "fr").source, "cache")
+        self.assertEqual(len(tts.calls), 1)
+        data = (self.root / ref.path).read_bytes()
+        with self.assertRaises(wavutil.AudioFormatError):
+            mp3util.inspect_mp3_bytes(data[:-50])
+
+        report = lib.convert("wav")
+        self.assertEqual(report["converted"], 1)
+        row = self.conn.execute("SELECT * FROM audio_files").fetchone()
+        self.assertTrue(row["file_path"].endswith(".wav"))
+        self.assertEqual(row["format"], "wav/pcm_s16le/mono")
+        self.assertFalse((self.root / ref.path).exists(), "l'ancien fichier est supprimé")
+        wavutil.inspect_wav_file(self.root / row["file_path"], expected_rate=24000)
+        self.assertEqual(lib.convert("mp3")["converted"], 1)
+        self.assertEqual(lib.lookup("Bonjour", "fr").path, ref.path, "retour au MP3 : même nom qu'à la création")
+        self.assertEqual(len(tts.calls), 1, "aucune conversion n'appelle le fournisseur")

@@ -11,75 +11,91 @@
   },
   "vocabulary": [
     {
-      "fr": "le père", "en": "father", "km": "ឪពុក", "tr": "eu-pouk", "pos": "nom",
+      "fr": "le père", "en": "father", "km": "ឪពុក", "tr": "eu-pouk",
+      "es": "el padre", "it": "il padre", "ru": "отец", "zh": "爸爸", "zh_tr": "bàba", "pos": "nom",
       "note": {
         "fr": "Mot standard. À la maison, on dit plutôt ប៉ា (pa), « papa ».",
         "en": "The standard word. At home, people say ប៉ា (pa), “dad”; in French, « papa ».",
         "km": "« père » ជាពាក្យផ្លូវការ។ នៅផ្ទះ កូនៗហៅថា « papa »។ ភាសាអង់គ្លេស៖ « father » និង « dad »។"
       },
-      "example": {"fr": "Mon père habite en France.", "en": "My father lives in France.", "km": "ឪពុករបស់ខ្ញុំរស់នៅប្រទេសបារាំង។", "tr": "eu-pouk ro-bâh khgnom rouh neuv prâ-téh ba-rang."}
+      "example": {"fr": "Mon père habite en France.", "en": "My father lives in France.", "km": "ឪពុករបស់ខ្ញុំរស់នៅប្រទេសបារាំង។", "tr": "eu-pouk ro-bâh khgnom rouh neuv prâ-téh ba-rang.",
+      "es": "Mi padre vive en Francia.", "it": "Mio padre abita in Francia.", "ru": "Мой отец живёт во Франции.", "zh": "我爸爸住在法国。", "zh_tr": "Wǒ bàba zhù zài Fǎguó."}
     },
     {
-      "fr": "la mère", "en": "mother", "km": "ម្តាយ", "tr": "mday", "pos": "nom",
+      "fr": "la mère", "en": "mother", "km": "ម្តាយ", "tr": "mday",
+      "es": "la madre", "it": "la madre", "ru": "мать", "zh": "妈妈", "zh_tr": "māma", "pos": "nom",
       "note": {
         "fr": "Les deux consonnes du début se prononcent d'un seul souffle : mday. À la maison, on dit plutôt ម៉ាក់ (mak), « maman ».",
         "en": "The two opening consonants are said in one breath: mday. At home, people say ម៉ាក់ (mak), “mum”; in French, « maman ».",
         "km": "« mère » ជាពាក្យផ្លូវការ។ នៅផ្ទះ កូនៗហៅថា « maman »។ ភាសាអង់គ្លេស៖ « mother » និង « mom »។"
       },
-      "example": {"fr": "Ma mère est à la maison.", "en": "My mother is at home.", "km": "ម្តាយរបស់ខ្ញុំនៅផ្ទះ។", "tr": "mday ro-bâh khgnom neuv phtéah."}
+      "example": {"fr": "Ma mère est à la maison.", "en": "My mother is at home.", "km": "ម្តាយរបស់ខ្ញុំនៅផ្ទះ។", "tr": "mday ro-bâh khgnom neuv phtéah.",
+      "es": "Mi madre está en casa.", "it": "Mia madre è a casa.", "ru": "Моя мама дома.", "zh": "我妈妈在家。", "zh_tr": "Wǒ māma zài jiā."}
     },
     {
-      "fr": "le mari", "en": "husband", "km": "ប្តី", "tr": "pdey", "pos": "nom",
+      "fr": "le mari", "en": "husband", "km": "ប្តី", "tr": "pdey",
+      "es": "el marido", "it": "il marito", "ru": "муж", "zh": "丈夫", "zh_tr": "zhàngfu", "pos": "nom",
       "note": {
         "fr": "Mot courant. Plus soigné, pour parler du mari de quelqu'un d'autre : ស្វាមី (sva-mey).",
         "en": "The everyday word. More formal, for someone else's husband: ស្វាមី (sva-mey). French « mari » is masculine: le mari.",
         "km": "« mari » ជានាមភេទប្រុស៖ le mari។ « mon mari » មានន័យថា ប្តីរបស់ខ្ញុំ។ ភាសាអង់គ្លេស៖ « husband »។"
       },
-      "example": {"fr": "Voici mon mari.", "en": "This is my husband.", "km": "នេះជាប្តីរបស់ខ្ញុំ។", "tr": "nih tchéa pdey ro-bâh khgnom."}
+      "example": {"fr": "Voici mon mari.", "en": "This is my husband.", "km": "នេះជាប្តីរបស់ខ្ញុំ។", "tr": "nih tchéa pdey ro-bâh khgnom.",
+      "es": "Este es mi marido.", "it": "Questo è mio marito.", "ru": "Это мой муж.", "zh": "这是我丈夫。", "zh_tr": "Zhè shì wǒ zhàngfu."}
     },
     {
-      "fr": "la femme", "en": "wife", "km": "ប្រពន្ធ", "tr": "prâ-pon", "pos": "nom",
+      "fr": "la femme", "en": "wife", "km": "ប្រពន្ធ", "tr": "prâ-pon",
+      "es": "la esposa", "it": "la moglie", "ru": "жена", "zh": "妻子", "zh_tr": "qīzi", "pos": "nom",
       "note": {
         "fr": "ប្រពន្ធ désigne uniquement l'épouse ; une femme en général se dit ស្រី (srey). Plus soigné : ភរិយា (phéa-ri-yéa).",
         "en": "ប្រពន្ធ only means “wife”; a woman in general is ស្រី (srey). More formal: ភរិយា (phéa-ri-yéa). French « femme » means both “wife” and “woman”, and sounds like “fam”.",
         "km": "« femme » មានន័យពីរ៖ ប្រពន្ធ និង មនុស្សស្រី។ អក្សរ e ទីមួយអានដូច « a »៖ ហ្វាម។ ភាសាអង់គ្លេស៖ « wife »។"
       },
-      "example": {"fr": "Ma femme vient du Cambodge.", "en": "My wife is from Cambodia.", "km": "ប្រពន្ធរបស់ខ្ញុំមកពីប្រទេសកម្ពុជា។", "tr": "prâ-pon ro-bâh khgnom mok pi prâ-téh kam-pou-tchéa."}
+      "example": {"fr": "Ma femme vient du Cambodge.", "en": "My wife is from Cambodia.", "km": "ប្រពន្ធរបស់ខ្ញុំមកពីប្រទេសកម្ពុជា។", "tr": "prâ-pon ro-bâh khgnom mok pi prâ-téh kam-pou-tchéa.",
+      "es": "Mi esposa es de Camboya.", "it": "Mia moglie viene dalla Cambogia.", "ru": "Моя жена из Камбоджи.", "zh": "我妻子来自柬埔寨。", "zh_tr": "Wǒ qīzi láizì Jiǎnpǔzhài."}
     },
     {
-      "fr": "l'enfant", "en": "child", "km": "កូន", "tr": "kôn", "pos": "nom",
+      "fr": "l'enfant", "en": "child", "km": "កូន", "tr": "kôn",
+      "es": "el niño", "it": "il bambino", "ru": "ребёнок", "zh": "孩子", "zh_tr": "háizi", "pos": "nom",
       "note": {
         "fr": "កូន désigne l'enfant de quelqu'un : កូនប្រុស (kôn proh), le fils ; កូនស្រី (kôn srey), la fille. Un enfant en général se dit ក្មេង (kméng).",
         "en": "កូន is someone's child: កូនប្រុស (kôn proh), son; កូនស្រី (kôn srey), daughter. A child in general is ក្មេង (kméng). French « enfant » is the same for a boy or a girl.",
         "km": "« enfant » ប្រើបានទាំងកូនប្រុស និងកូនស្រី។ កូនប្រុសហៅថា « fils » កូនស្រីហៅថា « fille »។ ភាសាអង់គ្លេស៖ « child »។"
       },
-      "example": {"fr": "Ils ont deux enfants.", "en": "They have two children.", "km": "ពួកគេមានកូនពីរនាក់។", "tr": "pouok-ké méan kôn pi néak."}
+      "example": {"fr": "Ils ont deux enfants.", "en": "They have two children.", "km": "ពួកគេមានកូនពីរនាក់។", "tr": "pouok-ké méan kôn pi néak.",
+      "es": "Tienen dos hijos.", "it": "Hanno due figli.", "ru": "У них двое детей.", "zh": "他们有两个孩子。", "zh_tr": "Tāmen yǒu liǎng ge háizi."}
     },
     {
-      "fr": "la famille", "en": "family", "km": "គ្រួសារ", "tr": "krouo-sa", "pos": "nom",
+      "fr": "la famille", "en": "family", "km": "គ្រួសារ", "tr": "krouo-sa",
+      "es": "la familia", "it": "la famiglia", "ru": "семья", "zh": "家庭", "zh_tr": "jiātíng", "pos": "nom",
       "note": {
         "fr": "Le រ final ne se prononce pas : krouo-sa. Au Cambodge, la famille inclut volontiers les grands-parents, les oncles et les tantes.",
         "en": "The final រ is silent: krouo-sa. In Cambodia, the family readily includes grandparents, uncles and aunts. French « famille » is feminine; “ille” sounds like “ee-y”.",
         "km": "« famille » ជានាមភេទស្រី៖ la famille។ អក្សរ « ille » ចុងពាក្យអានដូច « អ៊ីយ »។ ភាសាអង់គ្លេស៖ « family »។"
       },
-      "example": {"fr": "Ma famille habite à Phnom Penh.", "en": "My family lives in Phnom Penh.", "km": "គ្រួសាររបស់ខ្ញុំរស់នៅភ្នំពេញ។", "tr": "krouo-sa ro-bâh khgnom rouh neuv phnom-pégn."}
+      "example": {"fr": "Ma famille habite à Phnom Penh.", "en": "My family lives in Phnom Penh.", "km": "គ្រួសាររបស់ខ្ញុំរស់នៅភ្នំពេញ។", "tr": "krouo-sa ro-bâh khgnom rouh neuv phnom-pégn.",
+      "es": "Mi familia vive en Phnom Penh.", "it": "La mia famiglia abita a Phnom Penh.", "ru": "Моя семья живёт в Пномпене.", "zh": "我的家人住在金边。", "zh_tr": "Wǒ de jiārén zhù zài Jīnbiān."}
     }
   ],
   "expressions": [
     {
       "fr": "Voici ma famille.", "en": "This is my family.", "km": "នេះជាគ្រួសាររបស់ខ្ញុំ។", "tr": "nih tchéa krouo-sa ro-bâh khgnom.",
+      "es": "Esta es mi familia.", "it": "Questa è la mia famiglia.", "ru": "Это моя семья.", "zh": "这是我的家人。", "zh_tr": "Zhè shì wǒ de jiārén.",
       "note": {"fr": "នេះជា… (nih tchéa) sert à présenter une personne ou une chose : « voici… ».", "en": "នេះជា… (nih tchéa) introduces a person or a thing: “this is…”. In French, « voici » means “here is”.", "km": "« Voici… » ប្រើដើម្បីណែនាំមនុស្ស ឬបង្ហាញរបស់អ្វីមួយ។"}
     },
     {
       "fr": "Tu as des frères et sœurs ?", "en": "Do you have any brothers and sisters?", "km": "មានបងប្អូនទេ?", "tr": "méan bâng p'ôn té ?",
+      "es": "¿Tienes hermanos?", "it": "Hai fratelli o sorelle?", "ru": "У тебя есть братья и сёстры?", "zh": "你有兄弟姐妹吗？", "zh_tr": "Nǐ yǒu xiōngdì jiěmèi ma?",
       "note": {"fr": "បងប្អូន (bâng p'ôn) réunit បង, l'aîné, et ប្អូន, le cadet : les frères et sœurs, sans préciser le sexe.", "en": "បងប្អូន (bâng p'ôn) combines បង, the older one, and ប្អូន, the younger one: brothers and sisters, whatever their sex. French separates « frère » and « sœur ».", "km": "ភាសាបារាំងបែងចែកតាមភេទ៖ « frère » គឺបងប្អូនប្រុស ហើយ « sœur » គឺបងប្អូនស្រី។"}
     },
     {
       "fr": "Comment va ta famille ?", "en": "How is your family?", "km": "គ្រួសារសុខសប្បាយទេ?", "tr": "krouo-sa sok sa-bay té ?",
+      "es": "¿Cómo está tu familia?", "it": "Come sta la tua famiglia?", "ru": "Как твоя семья?", "zh": "你家人好吗？", "zh_tr": "Nǐ jiārén hǎo ma?",
       "note": {"fr": "On reprend សុខសប្បាយទេ? en plaçant devant la personne dont on demande des nouvelles.", "en": "Reuse សុខសប្បាយទេ? with the person you are asking about in front. French « ta » is familiar; « votre » is polite.", "km": "ប្រើដើម្បីសួរសុខទុក្ខគ្រួសាររបស់នរណាម្នាក់។ « ta » ប្រើជាមួយមនុស្សស្និទ្ធស្នាល ហើយ « votre » ប្រើដោយគោរព។"}
     },
     {
       "fr": "J'aime ma famille.", "en": "I love my family.", "km": "ខ្ញុំស្រឡាញ់គ្រួសាររបស់ខ្ញុំ។", "tr": "khgnom srâ-lagn krouo-sa ro-bâh khgnom.",
+      "es": "Quiero a mi familia.", "it": "Voglio bene alla mia famiglia.", "ru": "Я люблю свою семью.", "zh": "我爱我的家人。", "zh_tr": "Wǒ ài wǒ de jiārén.",
       "note": {"fr": "ស្រឡាញ់ (srâ-lagn) signifie aimer quelqu'un, avec affection.", "en": "ស្រឡាញ់ (srâ-lagn) means to love someone, with affection. French « aimer » means both “to love” and “to like”.", "km": "កិរិយាសព្ទ « aimer » ប្រើបានទាំងជាមួយមនុស្ស ទាំងជាមួយរបស់។ ភាសាអង់គ្លេសប្រើ « love » សម្រាប់គ្រួសារ។"}
     }
   ],
@@ -87,17 +103,20 @@
     {
       "situation": {"fr": "Parler de sa famille", "en": "Talking about your family", "km": "និយាយអំពីគ្រួសារ"},
       "fr": "Dans ma famille, nous sommes cinq.", "en": "There are five of us in my family.",
-      "km": "គ្រួសារខ្ញុំមានគ្នាប្រាំនាក់។", "tr": "krouo-sa khgnom méan knéa pram néak."
+      "km": "គ្រួសារខ្ញុំមានគ្នាប្រាំនាក់។", "tr": "krouo-sa khgnom méan knéa pram néak.",
+      "es": "En mi familia somos cinco.", "it": "Nella mia famiglia siamo in cinque.", "ru": "В моей семье пять человек.", "zh": "我家有五口人。", "zh_tr": "Wǒ jiā yǒu wǔ kǒu rén."
     },
     {
       "situation": {"fr": "Parler d'un ami", "en": "Talking about a friend", "km": "និយាយអំពីមិត្តភក្តិម្នាក់"},
       "fr": "Mon ami a trois enfants.", "en": "My friend has three children.",
-      "km": "មិត្តភក្តិរបស់ខ្ញុំមានកូនបីនាក់។", "tr": "mit-phéak ro-bâh khgnom méan kôn bey néak."
+      "km": "មិត្តភក្តិរបស់ខ្ញុំមានកូនបីនាក់។", "tr": "mit-phéak ro-bâh khgnom méan kôn bey néak.",
+      "es": "Mi amigo tiene tres hijos.", "it": "Il mio amico ha tre figli.", "ru": "У моего друга трое детей.", "zh": "我的朋友有三个孩子。", "zh_tr": "Wǒ de péngyou yǒu sān ge háizi."
     },
     {
       "situation": {"fr": "Appeler sa mère", "en": "Calling your mother", "km": "ពេលទូរស័ព្ទទៅម្តាយ"},
       "fr": "Maman, comment ça va ?", "en": "Mom, how are you?",
-      "km": "ម៉ាក់ សុខសប្បាយទេ?", "tr": "mak, sok sa-bay té ?"
+      "km": "ម៉ាក់ សុខសប្បាយទេ?", "tr": "mak, sok sa-bay té ?",
+      "es": "Mamá, ¿cómo estás?", "it": "Mamma, come stai?", "ru": "Мама, как ты?", "zh": "妈妈，你好吗？", "zh_tr": "Māma, nǐ hǎo ma?"
     }
   ],
   "dialogue": {
@@ -107,12 +126,18 @@
       "km": "{A} និង {B} មើលរូបថតគ្រួសាររបស់ {A}។"
     },
     "lines": [
-      {"speaker": "B", "fr": "C'est ta famille ?", "en": "Is this your family?", "km": "នេះជាគ្រួសាររបស់ {A} មែនទេ?", "tr": "nih tchéa krouo-sa ro-bâh {A} mèn té ?"},
-      {"speaker": "A", "fr": "Oui. Voici mon père et ma mère.", "en": "Yes. This is my father and my mother.", "km": "{A_yes} នេះជាឪពុក និងម្តាយរបស់ខ្ញុំ។", "tr": "{A_yes}, nih tchéa eu-pouk ning mday ro-bâh khgnom."},
-      {"speaker": "B", "fr": "Tu as des frères et sœurs ?", "en": "Do you have any brothers and sisters?", "km": "{A} មានបងប្អូនទេ?", "tr": "{A} méan bâng p'ôn té ?"},
-      {"speaker": "A", "fr": "Oui, j'ai deux grandes sœurs.", "en": "Yes, I have two older sisters.", "km": "{A_yes} ខ្ញុំមានបងស្រីពីរនាក់។", "tr": "{A_yes}, khgnom méan bâng srey pi néak."},
-      {"speaker": "B", "fr": "Ils habitent à Phnom Penh ?", "en": "Do they live in Phnom Penh?", "km": "ពួកគាត់រស់នៅភ្នំពេញមែនទេ?", "tr": "pouok-koat rouh neuv phnom-pégn mèn té ?"},
-      {"speaker": "A", "fr": "Non, ils habitent à Siem Reap.", "en": "No, they live in Siem Reap.", "km": "ទេ ពួកគាត់រស់នៅសៀមរាប។", "tr": "té, pouok-koat rouh neuv siem-réap."}
+      {"speaker": "B", "fr": "C'est ta famille ?", "en": "Is this your family?", "km": "នេះជាគ្រួសាររបស់ {A} មែនទេ?", "tr": "nih tchéa krouo-sa ro-bâh {A} mèn té ?",
+        "es": "¿Es tu familia?", "it": "È la tua famiglia?", "ru": "Это твоя семья?", "zh": "这是你的家人吗？", "zh_tr": "Zhè shì nǐ de jiārén ma?"},
+      {"speaker": "A", "fr": "Oui. Voici mon père et ma mère.", "en": "Yes. This is my father and my mother.", "km": "{A_yes} នេះជាឪពុក និងម្តាយរបស់ខ្ញុំ។", "tr": "{A_yes}, nih tchéa eu-pouk ning mday ro-bâh khgnom.",
+        "es": "Sí. Este es mi padre y esta es mi madre.", "it": "Sì. Questi sono mio padre e mia madre.", "ru": "Да. Вот мой папа и моя мама.", "zh": "对。这是我爸爸和我妈妈。", "zh_tr": "Duì. Zhè shì wǒ bàba hé wǒ māma."},
+      {"speaker": "B", "fr": "Tu as des frères et sœurs ?", "en": "Do you have any brothers and sisters?", "km": "{A} មានបងប្អូនទេ?", "tr": "{A} méan bâng p'ôn té ?",
+        "es": "¿Tienes hermanos?", "it": "Hai fratelli o sorelle?", "ru": "У тебя есть братья и сёстры?", "zh": "你有兄弟姐妹吗？", "zh_tr": "Nǐ yǒu xiōngdì jiěmèi ma?"},
+      {"speaker": "A", "fr": "Oui, j'ai deux grandes sœurs.", "en": "Yes, I have two older sisters.", "km": "{A_yes} ខ្ញុំមានបងស្រីពីរនាក់។", "tr": "{A_yes}, khgnom méan bâng srey pi néak.",
+        "es": "Sí, tengo dos hermanas mayores.", "it": "Sì, ho due sorelle maggiori.", "ru": "Да, у меня две старшие сестры.", "zh": "有，我有两个姐姐。", "zh_tr": "Yǒu, wǒ yǒu liǎng ge jiějie."},
+      {"speaker": "B", "fr": "Ils habitent à Phnom Penh ?", "en": "Do they live in Phnom Penh?", "km": "ពួកគាត់រស់នៅភ្នំពេញមែនទេ?", "tr": "pouok-koat rouh neuv phnom-pégn mèn té ?",
+        "es": "¿Viven en Phnom Penh?", "it": "Abitano a Phnom Penh?", "ru": "Они живут в Пномпене?", "zh": "她们住在金边吗？", "zh_tr": "Tāmen zhù zài Jīnbiān ma?"},
+      {"speaker": "A", "fr": "Non, ils habitent à Siem Reap.", "en": "No, they live in Siem Reap.", "km": "ទេ ពួកគាត់រស់នៅសៀមរាប។", "tr": "té, pouok-koat rouh neuv siem-réap.",
+        "es": "No, viven en Siem Reap.", "it": "No, abitano a Siem Reap.", "ru": "Нет, они живут в Сиемреапе.", "zh": "不，她们住在暹粒。", "zh_tr": "Bù, tāmen zhù zài Xiānlì."}
     ]
   },
   "comprehension": {

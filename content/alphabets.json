@@ -143,5 +143,1336 @@
       {"lang": "en", "letters": "w", "km": "វ", "note": {"fr": "Arrondissez les lèvres comme pour « ou » : water commence par « ou ».", "km": "មូលបបូរមាត់ ដូចចាប់ផ្តើមនិយាយ « អ៊ូ »។"}, "example": {"word": "water", "km": "ទឹក"}},
       {"lang": "en", "letters": "ee", "km": "អ៊ី", "note": {"fr": "Un « i » long : tree.", "km": "ស្រៈវែង ដូច ី ក្នុងពាក្យ គី។"}, "example": {"word": "tree", "km": "ដើមឈើ"}}
     ]
+  },
+  "cyrillic": {
+    "intro": {
+      "fr": "Le russe s'écrit avec l'alphabet cyrillique : 33 lettres. Certaines ressemblent aux lettres latines et se lisent pareil (А, К, М, О, Т) ; d'autres ont la même forme mais un autre son (В se lit « v », Н « n », Р « r », С « s », У « ou », Х « kh »). Sous chaque mot russe, les leçons donnent une translittération latine.",
+      "en": "Russian is written in the Cyrillic alphabet: 33 letters. Some look like Latin letters and sound the same (А, К, М, О, Т); others look the same but sound different (В is “v”, Н “n”, Р “r”, С “s”, У “oo”, Х “kh”). Under every Russian word, the lessons give a Latin transliteration.",
+      "km": "ភាសារុស្ស៊ីសរសេរដោយអក្សរស៊ីរីលិក ដែលមាន៣៣តួ។ អក្សរខ្លះដូចអក្សរឡាតាំង ហើយអានដូចគ្នា (А, К, М, О, Т)។ អក្សរខ្លះមានរាងដូចគ្នា តែអានខុសគ្នា (В អានថា « វ », Н « ន », Р « រ », С « ស », У « អ៊ូ »)។"
+    },
+    "letters": [
+      {
+        "upper": "А",
+        "lower": "а",
+        "name": "а",
+        "sound": "a",
+        "example": {
+          "word": "мама",
+          "tr": "mama",
+          "fr": "maman",
+          "en": "mom",
+          "km": "ម្តាយ"
+        }
+      },
+      {
+        "upper": "Б",
+        "lower": "б",
+        "name": "бэ",
+        "sound": "b",
+        "example": {
+          "word": "банан",
+          "tr": "banan",
+          "fr": "banane",
+          "en": "banana",
+          "km": "ចេក"
+        }
+      },
+      {
+        "upper": "В",
+        "lower": "в",
+        "name": "вэ",
+        "sound": "v",
+        "example": {
+          "word": "вода",
+          "tr": "voda",
+          "fr": "eau",
+          "en": "water",
+          "km": "ទឹក"
+        }
+      },
+      {
+        "upper": "Г",
+        "lower": "г",
+        "name": "гэ",
+        "sound": "g",
+        "example": {
+          "word": "город",
+          "tr": "gorod",
+          "fr": "ville",
+          "en": "city",
+          "km": "ទីក្រុង"
+        }
+      },
+      {
+        "upper": "Д",
+        "lower": "д",
+        "name": "дэ",
+        "sound": "d",
+        "example": {
+          "word": "дом",
+          "tr": "dom",
+          "fr": "maison",
+          "en": "house",
+          "km": "ផ្ទះ"
+        }
+      },
+      {
+        "upper": "Е",
+        "lower": "е",
+        "name": "е",
+        "sound": "ye, e",
+        "example": {
+          "word": "еда",
+          "tr": "yeda",
+          "fr": "nourriture",
+          "en": "food",
+          "km": "អាហារ"
+        },
+        "note": {
+          "fr": "Se lit « yé » en début de mot et après une voyelle, « é » après une consonne.",
+          "en": "Read “ye” at the start of a word and after a vowel, “e” after a consonant.",
+          "km": "អានថា « យេ » នៅដើមពាក្យ ឬក្រោយស្រៈ និង « អេ » ក្រោយព្យញ្ជនៈ។"
+        }
+      },
+      {
+        "upper": "Ё",
+        "lower": "ё",
+        "name": "ё",
+        "sound": "yo",
+        "example": {
+          "word": "ёлка",
+          "tr": "yolka",
+          "fr": "sapin",
+          "en": "fir tree",
+          "km": "ដើមស្រល់"
+        },
+        "note": {
+          "fr": "Toujours accentué. Dans les livres, on l'écrit souvent sans les deux points : е.",
+          "en": "Always stressed. Books often print it without the two dots: е.",
+          "km": "តែងតែសង្កត់សំឡេង។ ក្នុងសៀវភៅ គេច្រើនសរសេរដោយគ្មានចំណុចពីរ៖ е។"
+        }
+      },
+      {
+        "upper": "Ж",
+        "lower": "ж",
+        "name": "жэ",
+        "sound": "zh",
+        "example": {
+          "word": "жена",
+          "tr": "zhena",
+          "fr": "épouse",
+          "en": "wife",
+          "km": "ប្រពន្ធ"
+        },
+        "note": {
+          "fr": "Comme le « j » de « jour ».",
+          "en": "Like the “s” in “measure”.",
+          "km": "ដូចអក្សរ « j » ក្នុងពាក្យបារាំង « jour »។"
+        }
+      },
+      {
+        "upper": "З",
+        "lower": "з",
+        "name": "зэ",
+        "sound": "z",
+        "example": {
+          "word": "зима",
+          "tr": "zima",
+          "fr": "hiver",
+          "en": "winter",
+          "km": "រដូវរងា"
+        }
+      },
+      {
+        "upper": "И",
+        "lower": "и",
+        "name": "и",
+        "sound": "i",
+        "example": {
+          "word": "имя",
+          "tr": "imya",
+          "fr": "prénom",
+          "en": "first name",
+          "km": "ឈ្មោះ"
+        }
+      },
+      {
+        "upper": "Й",
+        "lower": "й",
+        "name": "и краткое",
+        "sound": "y",
+        "example": {
+          "word": "чай",
+          "tr": "chay",
+          "fr": "thé",
+          "en": "tea",
+          "km": "តែ"
+        },
+        "note": {
+          "fr": "« i bref », comme le « ille » de « paille ».",
+          "en": "A short “i”, like the “y” in “boy”.",
+          "km": "ស្រៈ « អ៊ី » ខ្លី ដូចអក្សរ យ នៅចុងពាក្យ។"
+        }
+      },
+      {
+        "upper": "К",
+        "lower": "к",
+        "name": "ка",
+        "sound": "k",
+        "example": {
+          "word": "кофе",
+          "tr": "kofe",
+          "fr": "café",
+          "en": "coffee",
+          "km": "កាហ្វេ"
+        }
+      },
+      {
+        "upper": "Л",
+        "lower": "л",
+        "name": "эль",
+        "sound": "l",
+        "example": {
+          "word": "луна",
+          "tr": "luna",
+          "fr": "lune",
+          "en": "moon",
+          "km": "ព្រះចន្ទ"
+        }
+      },
+      {
+        "upper": "М",
+        "lower": "м",
+        "name": "эм",
+        "sound": "m",
+        "example": {
+          "word": "мир",
+          "tr": "mir",
+          "fr": "paix",
+          "en": "peace",
+          "km": "សន្តិភាព"
+        }
+      },
+      {
+        "upper": "Н",
+        "lower": "н",
+        "name": "эн",
+        "sound": "n",
+        "example": {
+          "word": "нос",
+          "tr": "nos",
+          "fr": "nez",
+          "en": "nose",
+          "km": "ច្រមុះ"
+        }
+      },
+      {
+        "upper": "О",
+        "lower": "о",
+        "name": "о",
+        "sound": "o",
+        "example": {
+          "word": "окно",
+          "tr": "okno",
+          "fr": "fenêtre",
+          "en": "window",
+          "km": "បង្អួច"
+        },
+        "note": {
+          "fr": "Sans accent tonique, il se prononce presque « a » : молоко se dit « malako ».",
+          "en": "When unstressed it sounds almost like “a”: молоко is said “malako”.",
+          "km": "ពេលមិនសង្កត់សំឡេង វាអានស្ទើរតែដូច « អា »៖ молоко អានថា « ម៉ាឡាកូ »។"
+        }
+      },
+      {
+        "upper": "П",
+        "lower": "п",
+        "name": "пэ",
+        "sound": "p",
+        "example": {
+          "word": "папа",
+          "tr": "papa",
+          "fr": "papa",
+          "en": "dad",
+          "km": "ប៉ា"
+        }
+      },
+      {
+        "upper": "Р",
+        "lower": "р",
+        "name": "эр",
+        "sound": "r",
+        "example": {
+          "word": "рыба",
+          "tr": "ryba",
+          "fr": "poisson",
+          "en": "fish",
+          "km": "ត្រី"
+        },
+        "note": {
+          "fr": "R roulé, comme le រ khmer.",
+          "en": "A rolled r, like Khmer រ.",
+          "km": "អក្សរ R ញ័រអណ្តាត ដូចអក្សរ រ ខ្មែរ។"
+        }
+      },
+      {
+        "upper": "С",
+        "lower": "с",
+        "name": "эс",
+        "sound": "s",
+        "example": {
+          "word": "сок",
+          "tr": "sok",
+          "fr": "jus",
+          "en": "juice",
+          "km": "ទឹកផ្លែឈើ"
+        },
+        "note": {
+          "fr": "Ressemble au C latin, mais se lit « s ».",
+          "en": "Looks like Latin C, but sounds like “s”.",
+          "km": "មើលទៅដូចអក្សរ C ឡាតាំង ប៉ុន្តែអានថា « ស »។"
+        }
+      },
+      {
+        "upper": "Т",
+        "lower": "т",
+        "name": "тэ",
+        "sound": "t",
+        "example": {
+          "word": "такси",
+          "tr": "taksi",
+          "fr": "taxi",
+          "en": "taxi",
+          "km": "តាក់ស៊ី"
+        }
+      },
+      {
+        "upper": "У",
+        "lower": "у",
+        "name": "у",
+        "sound": "u",
+        "example": {
+          "word": "утро",
+          "tr": "utro",
+          "fr": "matin",
+          "en": "morning",
+          "km": "ពេលព្រឹក"
+        },
+        "note": {
+          "fr": "Ressemble au y latin, mais se lit « ou ».",
+          "en": "Looks like Latin y, but sounds like “oo”.",
+          "km": "មើលទៅដូចអក្សរ y ឡាតាំង ប៉ុន្តែអានថា « អ៊ូ »។"
+        }
+      },
+      {
+        "upper": "Ф",
+        "lower": "ф",
+        "name": "эф",
+        "sound": "f",
+        "example": {
+          "word": "фото",
+          "tr": "foto",
+          "fr": "photo",
+          "en": "photo",
+          "km": "រូបថត"
+        }
+      },
+      {
+        "upper": "Х",
+        "lower": "х",
+        "name": "ха",
+        "sound": "kh",
+        "example": {
+          "word": "хлеб",
+          "tr": "khleb",
+          "fr": "pain",
+          "en": "bread",
+          "km": "នំប៉័ង"
+        },
+        "note": {
+          "fr": "Comme la jota espagnole, un « r » raclé dans la gorge.",
+          "en": "Like the “ch” in Scottish “loch”.",
+          "km": "ដូចអក្សរ ខ ប៉ុន្តែខ្យល់ចេញពីបំពង់កខ្លាំងជាង។"
+        }
+      },
+      {
+        "upper": "Ц",
+        "lower": "ц",
+        "name": "цэ",
+        "sound": "ts",
+        "example": {
+          "word": "цвет",
+          "tr": "tsvet",
+          "fr": "couleur",
+          "en": "colour",
+          "km": "ពណ៌"
+        },
+        "note": {
+          "fr": "« ts » comme dans « tsar ».",
+          "en": "“ts” as in “cats”.",
+          "km": "អានថា « តស » ជាប់គ្នា។"
+        }
+      },
+      {
+        "upper": "Ч",
+        "lower": "ч",
+        "name": "че",
+        "sound": "ch",
+        "example": {
+          "word": "час",
+          "tr": "chas",
+          "fr": "heure",
+          "en": "hour",
+          "km": "ម៉ោង"
+        },
+        "note": {
+          "fr": "« tch » comme dans « tchèque » ; proche du ច khmer.",
+          "en": "“ch” as in “church”; close to Khmer ច.",
+          "km": "ជិតនឹងអក្សរ ច ខ្មែរ។"
+        }
+      },
+      {
+        "upper": "Ш",
+        "lower": "ш",
+        "name": "ша",
+        "sound": "sh",
+        "example": {
+          "word": "школа",
+          "tr": "shkola",
+          "fr": "école",
+          "en": "school",
+          "km": "សាលារៀន"
+        },
+        "note": {
+          "fr": "Comme le « ch » de « chat ».",
+          "en": "Like the “sh” in “ship”.",
+          "km": "ដូចសំឡេង « ស » ដែលមានខ្យល់ច្រើន ដូច « sh » អង់គ្លេស។"
+        }
+      },
+      {
+        "upper": "Щ",
+        "lower": "щ",
+        "name": "ща",
+        "sound": "shch",
+        "example": {
+          "word": "овощи",
+          "tr": "ovoshchi",
+          "fr": "légumes",
+          "en": "vegetables",
+          "km": "បន្លែ"
+        },
+        "note": {
+          "fr": "Un « ch » long et doux, un peu mouillé.",
+          "en": "A long, soft “sh”.",
+          "km": "សំឡេង « sh » វែង និងស្រទន់។"
+        }
+      },
+      {
+        "upper": "Ъ",
+        "lower": "ъ",
+        "name": "твёрдый знак",
+        "sound": "—",
+        "example": {
+          "word": "подъезд",
+          "tr": "podyezd",
+          "fr": "entrée d'immeuble",
+          "en": "building entrance",
+          "km": "ច្រកចូលអគារ"
+        },
+        "note": {
+          "fr": "Signe dur : il ne se prononce pas, il sépare la consonne de la voyelle qui suit.",
+          "en": "Hard sign: it has no sound; it separates a consonant from the following vowel.",
+          "km": "សញ្ញារឹង៖ មិនបញ្ចេញសំឡេងទេ គ្រាន់តែបំបែកព្យញ្ជនៈពីស្រៈបន្ទាប់។"
+        }
+      },
+      {
+        "upper": "Ы",
+        "lower": "ы",
+        "name": "ы",
+        "sound": "y",
+        "example": {
+          "word": "сын",
+          "tr": "syn",
+          "fr": "fils",
+          "en": "son",
+          "km": "កូនប្រុស"
+        },
+        "note": {
+          "fr": "Un « i » dit la langue en arrière, proche du ឹ khmer (eu).",
+          "en": "An “i” said with the tongue pulled back, close to Khmer ឹ (eu).",
+          "km": "ជិតនឹងស្រៈ ឹ ខ្មែរ។"
+        }
+      },
+      {
+        "upper": "Ь",
+        "lower": "ь",
+        "name": "мягкий знак",
+        "sound": "'",
+        "example": {
+          "word": "соль",
+          "tr": "sol'",
+          "fr": "sel",
+          "en": "salt",
+          "km": "អំបិល"
+        },
+        "note": {
+          "fr": "Signe mou : sans son propre, il « mouille » la consonne précédente.",
+          "en": "Soft sign: it has no sound of its own; it softens the consonant before it.",
+          "km": "សញ្ញាទន់៖ មិនមានសំឡេងផ្ទាល់ខ្លួនទេ ធ្វើឱ្យព្យញ្ជនៈមុនវាស្រទន់។"
+        }
+      },
+      {
+        "upper": "Э",
+        "lower": "э",
+        "name": "э",
+        "sound": "e",
+        "example": {
+          "word": "это",
+          "tr": "eto",
+          "fr": "c'est",
+          "en": "this is",
+          "km": "នេះ"
+        },
+        "note": {
+          "fr": "Un « è » ouvert, sans « y » devant.",
+          "en": "An open “e” as in “met”.",
+          "km": "អានថា « អែ »។"
+        }
+      },
+      {
+        "upper": "Ю",
+        "lower": "ю",
+        "name": "ю",
+        "sound": "yu",
+        "example": {
+          "word": "юбка",
+          "tr": "yubka",
+          "fr": "jupe",
+          "en": "skirt",
+          "km": "សំពត់"
+        }
+      },
+      {
+        "upper": "Я",
+        "lower": "я",
+        "name": "я",
+        "sound": "ya",
+        "example": {
+          "word": "яблоко",
+          "tr": "yabloko",
+          "fr": "pomme",
+          "en": "apple",
+          "km": "ផ្លែប៉ោម"
+        }
+      }
+    ]
+  },
+  "chinese": {
+    "intro": {
+      "fr": "Le chinois n'a pas d'alphabet : chaque caractère (汉字) note une syllabe et un sens. Pour apprendre la prononciation, on utilise le pinyin, une écriture latine avec des accents qui indiquent le ton. Le même son change de sens selon le ton : mā, maman ; mǎ, cheval. Les leçons donnent le pinyin sous chaque phrase chinoise.",
+      "en": "Chinese has no alphabet: each character (汉字) stands for one syllable and one meaning. Pronunciation is learned with pinyin, a Latin spelling whose accent marks show the tone. The same sound changes meaning with the tone: mā, mom; mǎ, horse. The lessons give the pinyin under every Chinese sentence.",
+      "km": "ភាសាចិនគ្មានអក្ខរក្រមទេ៖ តួអក្សរនីមួយៗ (汉字) តំណាងព្យាង្គមួយ និងន័យមួយ។ ដើម្បីរៀនការបញ្ចេញសំឡេង គេប្រើ pinyin ដែលជាការសរសេរជាអក្សរឡាតាំង មានសញ្ញាបង្ហាញសំឡេង។ សំឡេងដូចគ្នា តែខុសសំឡេងឡើងចុះ ន័យក៏ខុសគ្នា៖ mā ម្តាយ, mǎ សេះ។"
+    },
+    "tones_intro": {
+      "fr": "Quatre tons, plus un ton neutre. Écoutez la même syllabe ma dans les cinq tons.",
+      "en": "Four tones, plus a neutral tone. Listen to the same syllable ma in all five tones.",
+      "km": "មានសំឡេងបួន និងសំឡេងធម្មតាមួយ។ ស្តាប់ព្យាង្គ ma ក្នុងសំឡេងទាំងប្រាំ។"
+    },
+    "tones": [
+      {
+        "number": 1,
+        "char": "妈",
+        "py": "mā",
+        "meaning": {
+          "fr": "maman",
+          "en": "mom",
+          "km": "ម្តាយ"
+        },
+        "note": {
+          "fr": "1er ton : haut et plat, tenu comme une note de musique.",
+          "en": "1st tone: high and flat, held like a musical note.",
+          "km": "សំឡេងទី១៖ ខ្ពស់ និងរាបស្មើ ដូចច្រៀងមួយណូត។"
+        }
+      },
+      {
+        "number": 2,
+        "char": "麻",
+        "py": "má",
+        "meaning": {
+          "fr": "chanvre",
+          "en": "hemp",
+          "km": "ធ្មៃ"
+        },
+        "note": {
+          "fr": "2e ton : montant, comme quand on s'étonne : « hein ? ».",
+          "en": "2nd tone: rising, like a surprised “huh?”.",
+          "km": "សំឡេងទី២៖ ឡើងពីទាបទៅខ្ពស់ ដូចពេលសួរដោយភ្ញាក់ផ្អើល។"
+        }
+      },
+      {
+        "number": 3,
+        "char": "马",
+        "py": "mǎ",
+        "meaning": {
+          "fr": "cheval",
+          "en": "horse",
+          "km": "សេះ"
+        },
+        "note": {
+          "fr": "3e ton : descend tout en bas, puis remonte un peu.",
+          "en": "3rd tone: dips low, then rises a little.",
+          "km": "សំឡេងទី៣៖ ចុះទាប រួចឡើងវិញបន្តិច។"
+        }
+      },
+      {
+        "number": 4,
+        "char": "骂",
+        "py": "mà",
+        "meaning": {
+          "fr": "gronder",
+          "en": "to scold",
+          "km": "ស្តីបន្ទោស"
+        },
+        "note": {
+          "fr": "4e ton : tombe d'un coup, sec, comme un ordre.",
+          "en": "4th tone: falls sharply, like a command.",
+          "km": "សំឡេងទី៤៖ ធ្លាក់ចុះខ្លាំង និងខ្លី ដូចពេលបញ្ជា។"
+        }
+      },
+      {
+        "number": 0,
+        "char": "吗",
+        "py": "ma",
+        "meaning": {
+          "fr": "particule de question",
+          "en": "question particle",
+          "km": "និបាតសំណួរ"
+        },
+        "note": {
+          "fr": "Ton neutre : léger et court, sans accent.",
+          "en": "Neutral tone: light and short, with no mark.",
+          "km": "សំឡេងធម្មតា៖ ស្រាល និងខ្លី គ្មានសញ្ញា។"
+        }
+      }
+    ],
+    "initials": [
+      {
+        "char": "八",
+        "py": "bā",
+        "meaning": {
+          "fr": "huit",
+          "en": "eight",
+          "km": "ប្រាំបី"
+        },
+        "note": {
+          "fr": "Non aspiré, proche du ប khmer.",
+          "en": "Unaspirated, close to Khmer ប.",
+          "km": "ដូចអក្សរ ប។"
+        },
+        "letters": "b"
+      },
+      {
+        "char": "跑",
+        "py": "pǎo",
+        "meaning": {
+          "fr": "courir",
+          "en": "to run",
+          "km": "រត់"
+        },
+        "note": {
+          "fr": "Aspiré, comme le ផ khmer.",
+          "en": "Aspirated, like Khmer ផ.",
+          "km": "ដូចអក្សរ ផ។"
+        },
+        "letters": "p"
+      },
+      {
+        "char": "门",
+        "py": "mén",
+        "meaning": {
+          "fr": "porte",
+          "en": "door",
+          "km": "ទ្វារ"
+        },
+        "letters": "m"
+      },
+      {
+        "char": "饭",
+        "py": "fàn",
+        "meaning": {
+          "fr": "riz cuit, repas",
+          "en": "cooked rice, meal",
+          "km": "បាយ"
+        },
+        "letters": "f"
+      },
+      {
+        "char": "大",
+        "py": "dà",
+        "meaning": {
+          "fr": "grand",
+          "en": "big",
+          "km": "ធំ"
+        },
+        "note": {
+          "fr": "Non aspiré, proche du ដ khmer.",
+          "en": "Unaspirated, close to Khmer ដ.",
+          "km": "ដូចអក្សរ ដ។"
+        },
+        "letters": "d"
+      },
+      {
+        "char": "他",
+        "py": "tā",
+        "meaning": {
+          "fr": "il",
+          "en": "he",
+          "km": "គាត់"
+        },
+        "note": {
+          "fr": "Aspiré, comme le ថ khmer.",
+          "en": "Aspirated, like Khmer ថ.",
+          "km": "ដូចអក្សរ ថ។"
+        },
+        "letters": "t"
+      },
+      {
+        "char": "你",
+        "py": "nǐ",
+        "meaning": {
+          "fr": "tu",
+          "en": "you",
+          "km": "អ្នក"
+        },
+        "letters": "n"
+      },
+      {
+        "char": "来",
+        "py": "lái",
+        "meaning": {
+          "fr": "venir",
+          "en": "to come",
+          "km": "មក"
+        },
+        "letters": "l"
+      },
+      {
+        "char": "狗",
+        "py": "gǒu",
+        "meaning": {
+          "fr": "chien",
+          "en": "dog",
+          "km": "ឆ្កែ"
+        },
+        "note": {
+          "fr": "Non aspiré, proche du ក khmer.",
+          "en": "Unaspirated, close to Khmer ក.",
+          "km": "ដូចអក្សរ ក។"
+        },
+        "letters": "g"
+      },
+      {
+        "char": "看",
+        "py": "kàn",
+        "meaning": {
+          "fr": "regarder",
+          "en": "to look",
+          "km": "មើល"
+        },
+        "note": {
+          "fr": "Aspiré, comme le ខ khmer.",
+          "en": "Aspirated, like Khmer ខ.",
+          "km": "ដូចអក្សរ ខ។"
+        },
+        "letters": "k"
+      },
+      {
+        "char": "好",
+        "py": "hǎo",
+        "meaning": {
+          "fr": "bien, bon",
+          "en": "good",
+          "km": "ល្អ"
+        },
+        "note": {
+          "fr": "Raclé dans la gorge, plus fort que le h anglais.",
+          "en": "Rougher than English h, from the throat.",
+          "km": "ដូចអក្សរ ហ ប៉ុន្តែខ្លាំងជាង។"
+        },
+        "letters": "h"
+      },
+      {
+        "char": "家",
+        "py": "jiā",
+        "meaning": {
+          "fr": "maison, famille",
+          "en": "home, family",
+          "km": "ផ្ទះ គ្រួសារ"
+        },
+        "note": {
+          "fr": "« dj » doux, la langue à plat ; proche du ច khmer.",
+          "en": "A soft “j” with a flat tongue; close to Khmer ច.",
+          "km": "ជិតនឹងអក្សរ ច។"
+        },
+        "letters": "j"
+      },
+      {
+        "char": "七",
+        "py": "qī",
+        "meaning": {
+          "fr": "sept",
+          "en": "seven",
+          "km": "ប្រាំពីរ"
+        },
+        "note": {
+          "fr": "« tch » aspiré, proche du ឆ khmer.",
+          "en": "An aspirated “ch”, close to Khmer ឆ.",
+          "km": "ជិតនឹងអក្សរ ឆ។"
+        },
+        "letters": "q"
+      },
+      {
+        "char": "小",
+        "py": "xiǎo",
+        "meaning": {
+          "fr": "petit",
+          "en": "small",
+          "km": "តូច"
+        },
+        "note": {
+          "fr": "Entre « s » et « ch », la langue à plat.",
+          "en": "Between “s” and “sh”, tongue flat.",
+          "km": "សំឡេងរវាង « ស » និង « sh »។"
+        },
+        "letters": "x"
+      },
+      {
+        "char": "中",
+        "py": "zhōng",
+        "meaning": {
+          "fr": "milieu, Chine",
+          "en": "middle, China",
+          "km": "កណ្តាល ប្រទេសចិន"
+        },
+        "note": {
+          "fr": "« dj » avec la langue retroussée.",
+          "en": "A “j” with the tongue curled back.",
+          "km": "អានដោយកោងអណ្តាតឡើងលើ។"
+        },
+        "letters": "zh"
+      },
+      {
+        "char": "吃",
+        "py": "chī",
+        "meaning": {
+          "fr": "manger",
+          "en": "to eat",
+          "km": "ញ៉ាំ"
+        },
+        "note": {
+          "fr": "« tch » aspiré, langue retroussée.",
+          "en": "An aspirated “ch”, tongue curled back.",
+          "km": "ដូច « ឆ » ដោយកោងអណ្តាត។"
+        },
+        "letters": "ch"
+      },
+      {
+        "char": "水",
+        "py": "shuǐ",
+        "meaning": {
+          "fr": "eau",
+          "en": "water",
+          "km": "ទឹក"
+        },
+        "note": {
+          "fr": "« ch » français, langue retroussée.",
+          "en": "“sh” with the tongue curled back.",
+          "km": "ដូច « sh » ដោយកោងអណ្តាត។"
+        },
+        "letters": "sh"
+      },
+      {
+        "char": "热",
+        "py": "rè",
+        "meaning": {
+          "fr": "chaud",
+          "en": "hot",
+          "km": "ក្តៅ"
+        },
+        "note": {
+          "fr": "Proche du « j » de « jour ».",
+          "en": "Close to the “s” in “pleasure”.",
+          "km": "ជិតនឹងអក្សរ « j » បារាំង។"
+        },
+        "letters": "r"
+      },
+      {
+        "char": "字",
+        "py": "zì",
+        "meaning": {
+          "fr": "caractère",
+          "en": "character",
+          "km": "តួអក្សរ"
+        },
+        "note": {
+          "fr": "« dz », non aspiré.",
+          "en": "“dz”, unaspirated.",
+          "km": "អានថា « ដស » ជាប់គ្នា។"
+        },
+        "letters": "z"
+      },
+      {
+        "char": "菜",
+        "py": "cài",
+        "meaning": {
+          "fr": "plat, légume",
+          "en": "dish, vegetable",
+          "km": "ម្ហូប បន្លែ"
+        },
+        "note": {
+          "fr": "« ts » aspiré, avec un souffle.",
+          "en": "An aspirated “ts”.",
+          "km": "អានថា « តស » មានខ្យល់ចេញ។"
+        },
+        "letters": "c"
+      },
+      {
+        "char": "三",
+        "py": "sān",
+        "meaning": {
+          "fr": "trois",
+          "en": "three",
+          "km": "បី"
+        },
+        "letters": "s"
+      }
+    ],
+    "finals": [
+      {
+        "char": "他",
+        "py": "tā",
+        "meaning": {
+          "fr": "il",
+          "en": "he",
+          "km": "គាត់"
+        },
+        "letters": "a"
+      },
+      {
+        "char": "我",
+        "py": "wǒ",
+        "meaning": {
+          "fr": "je, moi",
+          "en": "I, me",
+          "km": "ខ្ញុំ"
+        },
+        "letters": "o"
+      },
+      {
+        "char": "喝",
+        "py": "hē",
+        "meaning": {
+          "fr": "boire",
+          "en": "to drink",
+          "km": "ផឹក"
+        },
+        "letters": "e"
+      },
+      {
+        "char": "你",
+        "py": "nǐ",
+        "meaning": {
+          "fr": "tu",
+          "en": "you",
+          "km": "អ្នក"
+        },
+        "letters": "i"
+      },
+      {
+        "char": "五",
+        "py": "wǔ",
+        "meaning": {
+          "fr": "cinq",
+          "en": "five",
+          "km": "ប្រាំ"
+        },
+        "letters": "u"
+      },
+      {
+        "char": "女",
+        "py": "nǚ",
+        "meaning": {
+          "fr": "femme",
+          "en": "woman",
+          "km": "ស្ត្រី"
+        },
+        "letters": "ü"
+      },
+      {
+        "char": "爱",
+        "py": "ài",
+        "meaning": {
+          "fr": "aimer",
+          "en": "to love",
+          "km": "ស្រឡាញ់"
+        },
+        "letters": "ai"
+      },
+      {
+        "char": "北",
+        "py": "běi",
+        "meaning": {
+          "fr": "nord",
+          "en": "north",
+          "km": "ខាងជើង"
+        },
+        "letters": "ei"
+      },
+      {
+        "char": "好",
+        "py": "hǎo",
+        "meaning": {
+          "fr": "bien, bon",
+          "en": "good",
+          "km": "ល្អ"
+        },
+        "letters": "ao"
+      },
+      {
+        "char": "狗",
+        "py": "gǒu",
+        "meaning": {
+          "fr": "chien",
+          "en": "dog",
+          "km": "ឆ្កែ"
+        },
+        "letters": "ou"
+      },
+      {
+        "char": "饭",
+        "py": "fàn",
+        "meaning": {
+          "fr": "repas",
+          "en": "meal",
+          "km": "បាយ"
+        },
+        "letters": "an"
+      },
+      {
+        "char": "人",
+        "py": "rén",
+        "meaning": {
+          "fr": "personne",
+          "en": "person",
+          "km": "មនុស្ស"
+        },
+        "letters": "en"
+      },
+      {
+        "char": "忙",
+        "py": "máng",
+        "meaning": {
+          "fr": "occupé",
+          "en": "busy",
+          "km": "រវល់"
+        },
+        "letters": "ang"
+      },
+      {
+        "char": "冷",
+        "py": "lěng",
+        "meaning": {
+          "fr": "froid",
+          "en": "cold",
+          "km": "ត្រជាក់"
+        },
+        "letters": "eng"
+      },
+      {
+        "char": "中",
+        "py": "zhōng",
+        "meaning": {
+          "fr": "milieu",
+          "en": "middle",
+          "km": "កណ្តាល"
+        },
+        "letters": "ong"
+      },
+      {
+        "char": "二",
+        "py": "èr",
+        "meaning": {
+          "fr": "deux",
+          "en": "two",
+          "km": "ពីរ"
+        },
+        "letters": "er"
+      }
+    ],
+    "characters_intro": {
+      "fr": "Beaucoup de caractères simples sont d'anciens dessins. On les combine pour en former d'autres.",
+      "en": "Many simple characters started as pictures. They are combined to build new ones.",
+      "km": "តួអក្សរសាមញ្ញជាច្រើនកើតចេញពីរូបគំនូរ។ គេផ្សំវាដើម្បីបង្កើតតួអក្សរថ្មី។"
+    },
+    "characters": [
+      {
+        "char": "人",
+        "py": "rén",
+        "meaning": {
+          "fr": "personne",
+          "en": "person",
+          "km": "មនុស្ស"
+        },
+        "note": {
+          "fr": "Deux jambes qui marchent.",
+          "en": "Two walking legs.",
+          "km": "ជើងពីរកំពុងដើរ។"
+        }
+      },
+      {
+        "char": "口",
+        "py": "kǒu",
+        "meaning": {
+          "fr": "bouche",
+          "en": "mouth",
+          "km": "មាត់"
+        },
+        "note": {
+          "fr": "Une bouche ouverte.",
+          "en": "An open mouth.",
+          "km": "មាត់ចំហ។"
+        }
+      },
+      {
+        "char": "日",
+        "py": "rì",
+        "meaning": {
+          "fr": "soleil, jour",
+          "en": "sun, day",
+          "km": "ព្រះអាទិត្យ ថ្ងៃ"
+        },
+        "note": {
+          "fr": "Le soleil, dessiné carré.",
+          "en": "The sun, drawn square.",
+          "km": "ព្រះអាទិត្យ គូរជារាងការ៉េ។"
+        }
+      },
+      {
+        "char": "月",
+        "py": "yuè",
+        "meaning": {
+          "fr": "lune, mois",
+          "en": "moon, month",
+          "km": "ព្រះចន្ទ ខែ"
+        },
+        "note": {
+          "fr": "Un croissant de lune.",
+          "en": "A crescent moon.",
+          "km": "ព្រះចន្ទចំណិត។"
+        }
+      },
+      {
+        "char": "山",
+        "py": "shān",
+        "meaning": {
+          "fr": "montagne",
+          "en": "mountain",
+          "km": "ភ្នំ"
+        },
+        "note": {
+          "fr": "Trois sommets.",
+          "en": "Three peaks.",
+          "km": "កំពូលភ្នំបី។"
+        }
+      },
+      {
+        "char": "水",
+        "py": "shuǐ",
+        "meaning": {
+          "fr": "eau",
+          "en": "water",
+          "km": "ទឹក"
+        },
+        "note": {
+          "fr": "Un cours d'eau et ses gouttes.",
+          "en": "A stream and its drops.",
+          "km": "ទឹកហូរ និងតំណក់ទឹក។"
+        }
+      },
+      {
+        "char": "火",
+        "py": "huǒ",
+        "meaning": {
+          "fr": "feu",
+          "en": "fire",
+          "km": "ភ្លើង"
+        },
+        "note": {
+          "fr": "Des flammes.",
+          "en": "Flames.",
+          "km": "អណ្តាតភ្លើង។"
+        }
+      },
+      {
+        "char": "木",
+        "py": "mù",
+        "meaning": {
+          "fr": "arbre, bois",
+          "en": "tree, wood",
+          "km": "ដើមឈើ"
+        },
+        "note": {
+          "fr": "Un arbre, ses branches et ses racines.",
+          "en": "A tree with branches and roots.",
+          "km": "ដើមឈើ មែក និងឫស។"
+        }
+      },
+      {
+        "char": "大",
+        "py": "dà",
+        "meaning": {
+          "fr": "grand",
+          "en": "big",
+          "km": "ធំ"
+        },
+        "note": {
+          "fr": "Une personne qui ouvre grand les bras.",
+          "en": "A person stretching out their arms.",
+          "km": "មនុស្សលាតដៃធំ។"
+        }
+      },
+      {
+        "char": "小",
+        "py": "xiǎo",
+        "meaning": {
+          "fr": "petit",
+          "en": "small",
+          "km": "តូច"
+        }
+      },
+      {
+        "char": "中",
+        "py": "zhōng",
+        "meaning": {
+          "fr": "milieu",
+          "en": "middle",
+          "km": "កណ្តាល"
+        },
+        "note": {
+          "fr": "Un trait qui traverse le centre. 中国 : la Chine.",
+          "en": "A line through the centre. 中国: China.",
+          "km": "បន្ទាត់កាត់កណ្តាល។ 中国៖ ប្រទេសចិន។"
+        }
+      },
+      {
+        "char": "上",
+        "py": "shàng",
+        "meaning": {
+          "fr": "dessus, monter",
+          "en": "above, up",
+          "km": "លើ"
+        }
+      },
+      {
+        "char": "下",
+        "py": "xià",
+        "meaning": {
+          "fr": "dessous, descendre",
+          "en": "below, down",
+          "km": "ក្រោម"
+        }
+      },
+      {
+        "char": "一",
+        "py": "yī",
+        "meaning": {
+          "fr": "un",
+          "en": "one",
+          "km": "មួយ"
+        }
+      },
+      {
+        "char": "二",
+        "py": "èr",
+        "meaning": {
+          "fr": "deux",
+          "en": "two",
+          "km": "ពីរ"
+        }
+      },
+      {
+        "char": "三",
+        "py": "sān",
+        "meaning": {
+          "fr": "trois",
+          "en": "three",
+          "km": "បី"
+        }
+      },
+      {
+        "char": "女",
+        "py": "nǚ",
+        "meaning": {
+          "fr": "femme",
+          "en": "woman",
+          "km": "ស្ត្រី"
+        }
+      },
+      {
+        "char": "子",
+        "py": "zǐ",
+        "meaning": {
+          "fr": "enfant",
+          "en": "child",
+          "km": "កូន"
+        }
+      },
+      {
+        "char": "好",
+        "py": "hǎo",
+        "meaning": {
+          "fr": "bien, bon",
+          "en": "good",
+          "km": "ល្អ"
+        },
+        "note": {
+          "fr": "女 + 子 : une femme et son enfant, c'est « bien ».",
+          "en": "女 + 子: a woman with her child means “good”.",
+          "km": "女 + 子៖ ម្តាយ និងកូន គឺ « ល្អ »។"
+        }
+      },
+      {
+        "char": "明",
+        "py": "míng",
+        "meaning": {
+          "fr": "lumineux",
+          "en": "bright",
+          "km": "ភ្លឺ"
+        },
+        "note": {
+          "fr": "日 + 月 : le soleil et la lune ensemble.",
+          "en": "日 + 月: the sun and the moon together.",
+          "km": "日 + 月៖ ព្រះអាទិត្យ និងព្រះចន្ទ។"
+        }
+      },
+      {
+        "char": "门",
+        "py": "mén",
+        "meaning": {
+          "fr": "porte",
+          "en": "door",
+          "km": "ទ្វារ"
+        }
+      },
+      {
+        "char": "心",
+        "py": "xīn",
+        "meaning": {
+          "fr": "cœur",
+          "en": "heart",
+          "km": "បេះដូង"
+        }
+      }
+    ]
   }
 }

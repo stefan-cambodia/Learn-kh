@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "la ville", "en": "city", "km": "ទីក្រុង", "tr": "ti-krong", "pos": "nom",
+      "fr": "la ville", "en": "city", "km": "ទីក្រុង", "tr": "ti-krong",
+      "es": "la ciudad", "it": "la città", "ru": "город", "zh": "城市", "zh_tr": "chéngshì", "pos": "nom",
       "note": {
         "fr": "ទី (ti), « le lieu », et ក្រុង (krong), « la cité ». La capitale se dit រាជធានី (réach-théa-ni).",
         "en": "ទី (ti), “place”, and ក្រុង (krong), “city”. The capital is រាជធានី (réach-théa-ni). French « ville » is feminine; « en ville » means “in town”.",
         "km": "« ville » ជានាមភេទស្រី៖ la ville។ « en ville » មានន័យថា នៅក្នុងទីក្រុង។ អង់គ្លេស៖ « city » ឬ « town »។"
       },
-      "example": {"fr": "Phnom Penh est une grande ville.", "en": "Phnom Penh is a big city.", "km": "ភ្នំពេញជាទីក្រុងធំ។", "tr": "phnom-pégn tchéa ti-krong thom."}
+      "example": {"fr": "Phnom Penh est une grande ville.", "en": "Phnom Penh is a big city.", "km": "ភ្នំពេញជាទីក្រុងធំ។", "tr": "phnom-pégn tchéa ti-krong thom.",
+      "es": "Phnom Penh es una ciudad grande.", "it": "Phnom Penh è una grande città.", "ru": "Пномпень — большой город.", "zh": "金边是一个大城市。", "zh_tr": "Jīnbiān shì yí ge dà chéngshì."}
     },
     {
-      "fr": "la banque", "en": "bank", "km": "ធនាគារ", "tr": "thô-néa-kéa", "pos": "nom",
+      "fr": "la banque", "en": "bank", "km": "ធនាគារ", "tr": "thô-néa-kéa",
+      "es": "el banco", "it": "la banca", "ru": "банк", "zh": "银行", "zh_tr": "yínháng", "pos": "nom",
       "note": {
         "fr": "Mot savant : ធន (thôn), « la richesse », et អាគារ (a-kéa), « le bâtiment ». Le distributeur de billets se dit ATM, comme en anglais.",
         "en": "A learned word: ធន (thôn), “wealth”, and អាគារ (a-kéa), “building”. A cash machine is called ATM, as in English. French « banque » is feminine.",
         "km": "« banque » ជានាមភេទស្រី៖ la banque។ « un distributeur » មានន័យថា ម៉ាស៊ីន ATM។ អង់គ្លេស៖ « bank »។"
       },
-      "example": {"fr": "La banque ouvre à huit heures.", "en": "The bank opens at eight o'clock.", "km": "ធនាគារបើកម៉ោងប្រាំបី។", "tr": "thô-néa-kéa baeuk maong pram-bey."}
+      "example": {"fr": "La banque ouvre à huit heures.", "en": "The bank opens at eight o'clock.", "km": "ធនាគារបើកម៉ោងប្រាំបី។", "tr": "thô-néa-kéa baeuk maong pram-bey.",
+      "es": "El banco abre a las ocho.", "it": "La banca apre alle otto.", "ru": "Банк открывается в восемь часов.", "zh": "银行八点开门。", "zh_tr": "Yínháng bā diǎn kāimén."}
     },
     {
-      "fr": "la poste", "en": "post office", "km": "ប្រៃសណីយ៍", "tr": "pray-sâ-ni", "pos": "nom",
+      "fr": "la poste", "en": "post office", "km": "ប្រៃសណីយ៍", "tr": "pray-sâ-ni",
+      "es": "correos", "it": "l'ufficio postale", "ru": "почта", "zh": "邮局", "zh_tr": "yóujú", "pos": "nom",
       "note": {
         "fr": "Le dernier signe ៍ indique une lettre muette. Envoyer se dit ផ្ញើ (phgnaeu) : ផ្ញើសំបុត្រ, envoyer une lettre.",
         "en": "The final sign ៍ marks a silent letter. To send is ផ្ញើ (phgnaeu): ផ្ញើសំបុត្រ, send a letter. French « la poste » is the post office.",
         "km": "« poste » ជានាមភេទស្រី៖ la poste។ « envoyer » មានន័យថា ផ្ញើ។ អង់គ្លេស៖ « post office »។"
       },
-      "example": {"fr": "Je vais à la poste pour envoyer un colis.", "en": "I'm going to the post office to send a parcel.", "km": "ខ្ញុំទៅប្រៃសណីយ៍ ដើម្បីផ្ញើកញ្ចប់។", "tr": "khgnom teuv pray-sâ-ni, daeum-bey phgnaeu kagn-tchâp."}
+      "example": {"fr": "Je vais à la poste pour envoyer un colis.", "en": "I'm going to the post office to send a parcel.", "km": "ខ្ញុំទៅប្រៃសណីយ៍ ដើម្បីផ្ញើកញ្ចប់។", "tr": "khgnom teuv pray-sâ-ni, daeum-bey phgnaeu kagn-tchâp.",
+      "es": "Voy a correos a enviar un paquete.", "it": "Vado all'ufficio postale a spedire un pacco.", "ru": "Я иду на почту отправить посылку.", "zh": "我去邮局寄包裹。", "zh_tr": "Wǒ qù yóujú jì bāoguǒ."}
     },
     {
-      "fr": "la pharmacie", "en": "pharmacy", "km": "ហាងលក់ថ្នាំ", "tr": "hang lok thnam", "pos": "nom",
+      "fr": "la pharmacie", "en": "pharmacy", "km": "ហាងលក់ថ្នាំ", "tr": "hang lok thnam",
+      "es": "la farmacia", "it": "la farmacia", "ru": "аптека", "zh": "药店", "zh_tr": "yàodiàn", "pos": "nom",
       "note": {
         "fr": "Mot à mot « boutique qui vend des médicaments ». Sur les enseignes, on lit aussi ឱសថស្ថាន (ao-sâth-than).",
         "en": "Word for word “shop selling medicine”. On signs, you also see ឱសថស្ថាន (ao-sâth-than). French « pharmacie » is marked by a green cross.",
         "km": "« pharmacie » ជានាមភេទស្រី៖ la pharmacie។ អ្នកលក់ថ្នាំគឺ « le pharmacien »។ អង់គ្លេស៖ « pharmacy »។"
       },
-      "example": {"fr": "Il y a une pharmacie près d'ici ?", "en": "Is there a pharmacy near here?", "km": "មានហាងលក់ថ្នាំនៅជិតនេះទេ?", "tr": "méan hang lok thnam neuv tchit nih té ?"}
+      "example": {"fr": "Il y a une pharmacie près d'ici ?", "en": "Is there a pharmacy near here?", "km": "មានហាងលក់ថ្នាំនៅជិតនេះទេ?", "tr": "méan hang lok thnam neuv tchit nih té ?",
+      "es": "¿Hay una farmacia cerca de aquí?", "it": "C'è una farmacia qui vicino?", "ru": "Здесь рядом есть аптека?", "zh": "这附近有药店吗？", "zh_tr": "Zhè fùjìn yǒu yàodiàn ma?"}
     },
     {
-      "fr": "le parc", "en": "park", "km": "សួនច្បារ", "tr": "souon tchba", "pos": "nom",
+      "fr": "le parc", "en": "park", "km": "សួនច្បារ", "tr": "souon tchba",
+      "es": "el parque", "it": "il parco", "ru": "парк", "zh": "公园", "zh_tr": "gōngyuán", "pos": "nom",
       "note": {
         "fr": "សួន (souon) seul veut dire « le jardin ». Le soir, les parcs de Phnom Penh sont pleins de gens qui font de l'aérobic.",
         "en": "សួន (souon) alone means “garden”. In the evening, Phnom Penh's parks are full of people doing aerobics. French « parc » is masculine.",
         "km": "« parc » ជានាមភេទប្រុស ហើយ c អានដូច k៖ le parc។ អង់គ្លេស៖ « park »។"
       },
-      "example": {"fr": "Le soir, nous marchons dans le parc.", "en": "In the evening, we walk in the park.", "km": "ពេលល្ងាច យើងដើរលេងក្នុងសួនច្បារ។", "tr": "pél lngéatch, yeung daeu léng knong souon tchba."}
+      "example": {"fr": "Le soir, nous marchons dans le parc.", "en": "In the evening, we walk in the park.", "km": "ពេលល្ងាច យើងដើរលេងក្នុងសួនច្បារ។", "tr": "pél lngéatch, yeung daeu léng knong souon tchba.",
+      "es": "Por la tarde paseamos por el parque.", "it": "La sera passeggiamo nel parco.", "ru": "Вечером мы гуляем в парке.", "zh": "晚上我们在公园散步。", "zh_tr": "Wǎnshang wǒmen zài gōngyuán sànbù."}
     },
     {
-      "fr": "traverser", "en": "to cross", "km": "ឆ្លង", "tr": "tchhlâng", "pos": "verbe",
+      "fr": "traverser", "en": "to cross", "km": "ឆ្លង", "tr": "tchhlâng",
+      "es": "cruzar", "it": "attraversare", "ru": "переходить", "zh": "过马路", "zh_tr": "guò mǎlù", "pos": "verbe",
       "note": {
         "fr": "ឆ្លង sert pour une rue, un fleuve ou une frontière : ឆ្លងទន្លេ, traverser le fleuve.",
         "en": "ឆ្លង is used for a street, a river or a border: ឆ្លងទន្លេ, cross the river. French « traverser »: je traverse la rue.",
         "km": "« traverser » + នាម៖ traverser la rue។ អង់គ្លេស៖ « to cross »។"
       },
-      "example": {"fr": "Fais attention quand tu traverses la rue.", "en": "Be careful when you cross the street.", "km": "ប្រយ័ត្នពេលឆ្លងផ្លូវ។", "tr": "prâ-yat pél tchhlâng phleuv."}
+      "example": {"fr": "Fais attention quand tu traverses la rue.", "en": "Be careful when you cross the street.", "km": "ប្រយ័ត្នពេលឆ្លងផ្លូវ។", "tr": "prâ-yat pél tchhlâng phleuv.",
+      "es": "Ten cuidado al cruzar la calle.", "it": "Fai attenzione quando attraversi la strada.", "ru": "Будь осторожен, когда переходишь улицу.", "zh": "过马路的时候要小心。", "zh_tr": "Guò mǎlù de shíhou yào xiǎoxīn."}
     }
   ],
   "expressions": [
     {
       "fr": "Où est la banque la plus proche ?", "en": "Where is the nearest bank?", "km": "ធនាគារដែលនៅជិតជាងគេនៅឯណា?", "tr": "thô-néa-kéa dael neuv tchit tchéang ké neuv aè na ?",
+      "es": "¿Dónde está el banco más cercano?", "it": "Dov'è la banca più vicina?", "ru": "Где ближайший банк?", "zh": "最近的银行在哪儿？", "zh_tr": "Zuìjìn de yínháng zài nǎr?",
       "note": {
         "fr": "ជាងគេ (tchéang ké), « plus que les autres », forme le superlatif : ជិតជាងគេ, le plus proche.",
         "en": "ជាងគេ (tchéang ké), “more than the others”, forms the superlative: ជិតជាងគេ, the nearest. French: « la plus proche ».",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "C'est ouvert le dimanche ?", "en": "Is it open on Sundays?", "km": "ថ្ងៃអាទិត្យបើកទេ?", "tr": "thngay a-teut baeuk té ?",
+      "es": "¿Abre los domingos?", "it": "È aperto la domenica?", "ru": "Открыто по воскресеньям?", "zh": "星期天开门吗？", "zh_tr": "Xīngqītiān kāimén ma?",
       "note": {
         "fr": "បើក (baeuk), « ouvrir », est le même verbe que pour la porte ou pour conduire une voiture.",
         "en": "បើក (baeuk), “to open”, is the same verb as for a door or for driving a car. French « ouvert » means “open”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "C'est déjà fermé.", "en": "It's already closed.", "km": "បិទបាត់ហើយ។", "tr": "bet bat haeuy.",
+      "es": "Ya está cerrado.", "it": "È già chiuso.", "ru": "Уже закрыто.", "zh": "已经关门了。", "zh_tr": "Yǐjīng guānmén le.",
       "note": {
         "fr": "បាត់ (bat) après un verbe insiste sur le fait que c'est trop tard : c'est fermé, on l'a raté.",
         "en": "បាត់ (bat) after a verb stresses that it is too late: it's closed, we missed it. French « fermé » means “closed”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Attention aux motos !", "en": "Watch out for the motorbikes!", "km": "ប្រយ័ត្នម៉ូតូ!", "tr": "prâ-yat mô-tô !",
+      "es": "¡Cuidado con las motos!", "it": "Attenzione alle moto!", "ru": "Осторожно, мотоциклы!", "zh": "小心摩托车！", "zh_tr": "Xiǎoxīn mótuōchē!",
       "note": {
         "fr": "En ville, on traverse lentement et sans s'arrêter : les motos vous contournent.",
         "en": "In town, cross slowly and without stopping: the motorbikes go around you. French « Attention aux motos ! » means “watch out for motorbikes!”.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "À Phnom Penh", "en": "In Phnom Penh", "km": "នៅភ្នំពេញ"},
       "fr": "Phnom Penh est une grande ville, il y a beaucoup de motos.", "en": "Phnom Penh is a big city, there are a lot of motorbikes.",
-      "km": "ភ្នំពេញជាទីក្រុងធំ មានម៉ូតូច្រើនណាស់។", "tr": "phnom-pégn tchéa ti-krong thom, méan mô-tô tchraeun nah."
+      "km": "ភ្នំពេញជាទីក្រុងធំ មានម៉ូតូច្រើនណាស់។", "tr": "phnom-pégn tchéa ti-krong thom, méan mô-tô tchraeun nah.",
+      "es": "Phnom Penh es una ciudad grande, hay muchas motos.", "it": "Phnom Penh è una grande città, ci sono molte moto.", "ru": "Пномпень — большой город, там много мотоциклов.", "zh": "金边是个大城市，摩托车很多。", "zh_tr": "Jīnbiān shì ge dà chéngshì, mótuōchē hěn duō."
     },
     {
       "situation": {"fr": "À la banque", "en": "At the bank", "km": "នៅធនាគារ"},
       "fr": "Je voudrais retirer de l'argent, s'il vous plaît.", "en": "I would like to withdraw some money, please.",
-      "km": "ខ្ញុំសុំដកលុយ។", "tr": "khgnom som dâk louy."
+      "km": "ខ្ញុំសុំដកលុយ។", "tr": "khgnom som dâk louy.",
+      "es": "Quería sacar dinero, por favor.", "it": "Vorrei prelevare dei soldi, per favore.", "ru": "Я хотел бы снять деньги, пожалуйста.", "zh": "我想取钱。", "zh_tr": "Wǒ xiǎng qǔ qián."
     },
     {
       "situation": {"fr": "À la poste", "en": "At the post office", "km": "នៅប្រៃសណីយ៍"},
       "fr": "Je voudrais envoyer ce colis en France.", "en": "I would like to send this parcel to France.",
-      "km": "ខ្ញុំចង់ផ្ញើកញ្ចប់នេះទៅប្រទេសបារាំង។", "tr": "khgnom tchâng phgnaeu kagn-tchâp nih teuv prâ-téh ba-rang."
+      "km": "ខ្ញុំចង់ផ្ញើកញ្ចប់នេះទៅប្រទេសបារាំង។", "tr": "khgnom tchâng phgnaeu kagn-tchâp nih teuv prâ-téh ba-rang.",
+      "es": "Quería enviar este paquete a Francia.", "it": "Vorrei spedire questo pacco in Francia.", "ru": "Я хотел бы отправить эту посылку во Францию.", "zh": "我想把这个包裹寄到法国。", "zh_tr": "Wǒ xiǎng bǎ zhège bāoguǒ jì dào Fǎguó."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Un samedi matin, avant de partir en ville.", "en": "One Saturday morning, before going into town.", "km": "ព្រឹកថ្ងៃសៅរ៍មួយ មុនពេលចេញទៅក្នុងក្រុង។"},
     "lines": [
-      {"speaker": "B", "fr": "Aujourd'hui, je dois aller à la banque et à la poste.", "en": "Today, I have to go to the bank and the post office.", "km": "ថ្ងៃនេះ ខ្ញុំត្រូវទៅធនាគារ និងប្រៃសណីយ៍។", "tr": "thngay nih, khgnom treuv teuv thô-néa-kéa neung pray-sâ-ni."},
-      {"speaker": "A", "fr": "Le samedi, la poste ferme à midi. Vas-y d'abord.", "en": "On Saturdays, the post office closes at noon. Go there first.", "km": "ថ្ងៃសៅរ៍ ប្រៃសណីយ៍បិទម៉ោងដប់ពីរ។ ទៅប្រៃសណីយ៍មុនសិនទៅ។", "tr": "thngay sav, pray-sâ-ni bet maong dâp-pi. teuv pray-sâ-ni moun sen teuv."},
-      {"speaker": "B", "fr": "D'accord. C'est loin d'ici ?", "en": "Okay. Is it far from here?", "km": "បាន។ នៅឆ្ងាយពីទីនេះទេ?", "tr": "ban. neuv tchhngay pi ti-nih té ?"},
-      {"speaker": "A", "fr": "Non. Va tout droit, c'est à gauche, en face du parc.", "en": "No. Go straight ahead, it's on the left, opposite the park.", "km": "អត់ទេ។ ទៅត្រង់ នៅខាងឆ្វេង ទល់មុខសួនច្បារ។", "tr": "ât té. teuv trâng, neuv khang tchhvéng, tol mouk souon tchba."},
-      {"speaker": "B", "fr": "Et la pharmacie ? J'ai besoin de médicaments.", "en": "And the pharmacy? I need some medicine.", "km": "ចុះហាងលក់ថ្នាំវិញ? ខ្ញុំត្រូវការថ្នាំ។", "tr": "tchoh hang lok thnam vign ? khgnom treuv-ka thnam."},
-      {"speaker": "A", "fr": "Il y en a une à côté de la banque. Et attention aux motos quand tu traverses !", "en": "There is one next to the bank. And watch out for the motorbikes when you cross!", "km": "មានមួយនៅក្បែរធនាគារ។ ហើយប្រយ័ត្នម៉ូតូពេលឆ្លងផ្លូវណា!", "tr": "méan mouy neuv kbae thô-néa-kéa. haeuy prâ-yat mô-tô pél tchhlâng phleuv na !"}
+      {"speaker": "B", "fr": "Aujourd'hui, je dois aller à la banque et à la poste.", "en": "Today, I have to go to the bank and the post office.", "km": "ថ្ងៃនេះ ខ្ញុំត្រូវទៅធនាគារ និងប្រៃសណីយ៍។", "tr": "thngay nih, khgnom treuv teuv thô-néa-kéa neung pray-sâ-ni.",
+        "es": "Hoy tengo que ir al banco y a correos.", "it": "Oggi devo andare in banca e all'ufficio postale.", "ru": "Сегодня мне нужно сходить в банк и на почту.", "zh": "今天我得去银行和邮局。", "zh_tr": "Jīntiān wǒ děi qù yínháng hé yóujú."},
+      {"speaker": "A", "fr": "Le samedi, la poste ferme à midi. Vas-y d'abord.", "en": "On Saturdays, the post office closes at noon. Go there first.", "km": "ថ្ងៃសៅរ៍ ប្រៃសណីយ៍បិទម៉ោងដប់ពីរ។ ទៅប្រៃសណីយ៍មុនសិនទៅ។", "tr": "thngay sav, pray-sâ-ni bet maong dâp-pi. teuv pray-sâ-ni moun sen teuv.",
+        "es": "Los sábados, correos cierra a mediodía. Ve primero allí.", "it": "Il sabato l'ufficio postale chiude a mezzogiorno. Vacci prima.", "ru": "По субботам почта закрывается в полдень. Сходи туда сначала.", "zh": "星期六邮局中午关门。你先去邮局吧。", "zh_tr": "Xīngqīliù yóujú zhōngwǔ guānmén. Nǐ xiān qù yóujú ba."},
+      {"speaker": "B", "fr": "D'accord. C'est loin d'ici ?", "en": "Okay. Is it far from here?", "km": "បាន។ នៅឆ្ងាយពីទីនេះទេ?", "tr": "ban. neuv tchhngay pi ti-nih té ?",
+        "es": "Vale. ¿Está lejos de aquí?", "it": "D'accordo. È lontano da qui?", "ru": "Хорошо. Это далеко отсюда?", "zh": "好的。离这儿远吗？", "zh_tr": "Hǎo de. Lí zhèr yuǎn ma?"},
+      {"speaker": "A", "fr": "Non. Va tout droit, c'est à gauche, en face du parc.", "en": "No. Go straight ahead, it's on the left, opposite the park.", "km": "អត់ទេ។ ទៅត្រង់ នៅខាងឆ្វេង ទល់មុខសួនច្បារ។", "tr": "ât té. teuv trâng, neuv khang tchhvéng, tol mouk souon tchba.",
+        "es": "No. Sigue todo recto, está a la izquierda, enfrente del parque.", "it": "No. Vai sempre dritto, è a sinistra, di fronte al parco.", "ru": "Нет. Иди прямо, она слева, напротив парка.", "zh": "不远。一直走，在左边，公园对面。", "zh_tr": "Bù yuǎn. Yìzhí zǒu, zài zuǒbian, gōngyuán duìmiàn."},
+      {"speaker": "B", "fr": "Et la pharmacie ? J'ai besoin de médicaments.", "en": "And the pharmacy? I need some medicine.", "km": "ចុះហាងលក់ថ្នាំវិញ? ខ្ញុំត្រូវការថ្នាំ។", "tr": "tchoh hang lok thnam vign ? khgnom treuv-ka thnam.",
+        "es": "¿Y la farmacia? Necesito medicamentos.", "it": "E la farmacia? Ho bisogno di medicine.", "ru": "А аптека? Мне нужны лекарства.", "zh": "药店呢？我需要买药。", "zh_tr": "Yàodiàn ne? Wǒ xūyào mǎi yào."},
+      {"speaker": "A", "fr": "Il y en a une à côté de la banque. Et attention aux motos quand tu traverses !", "en": "There is one next to the bank. And watch out for the motorbikes when you cross!", "km": "មានមួយនៅក្បែរធនាគារ។ ហើយប្រយ័ត្នម៉ូតូពេលឆ្លងផ្លូវណា!", "tr": "méan mouy neuv kbae thô-néa-kéa. haeuy prâ-yat mô-tô pél tchhlâng phleuv na !",
+        "es": "Hay una al lado del banco. ¡Y cuidado con las motos al cruzar!", "it": "Ce n'è una accanto alla banca. E attenzione alle moto quando attraversi!", "ru": "Есть одна рядом с банком. И осторожно с мотоциклами, когда переходишь улицу!", "zh": "银行旁边有一家。过马路的时候小心摩托车！", "zh_tr": "Yínháng pángbiān yǒu yì jiā. Guò mǎlù de shíhou xiǎoxīn mótuōchē!"}
     ]
   },
   "comprehension": {

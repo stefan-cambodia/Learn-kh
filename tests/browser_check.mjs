@@ -3,7 +3,7 @@
  *
  * Vérifie, sur un site déjà généré : l'absence d'erreur JavaScript et de requête réseau,
  * l'affichage du khmer avec la police embarquée, la recherche, le changement de profil,
- * la navigation entre leçons et la lecture réelle des fichiers WAV.
+ * la navigation entre leçons et la lecture réelle des fichiers audio (MP3 ou WAV).
  *
  * Usage : node tests/browser_check.mjs <dossier_du_site> [dossier_des_captures]
  * Nécessite Node.js 22+ et Firefox. Aucun module à installer.
@@ -252,7 +252,7 @@ try {
     return out;
   })()`);
   for (const item of playback) {
-    check(`lecture WAV ${item.lang.toUpperCase()} jusqu'au bout`, item.state === "ended" && item.duration > 0.05,
+    check(`lecture audio ${item.lang.toUpperCase()} jusqu'au bout`, item.state === "ended" && item.duration > 0.05,
       `${item.src} (${Number(item.duration).toFixed(2)} s, ${item.state})`);
   }
 
@@ -415,6 +415,29 @@ try {
   })()`);
   check("lexique : mots des leçons passées seulement, recherche", lexicon.all > 0 && lexicon.found >= 1 && !lexicon.overflow,
     `${lexicon.all} entrée(s), « ${terms.fr} » → ${lexicon.found}`);
+
+  // Sélecteur « Langues » : décocher le chinois le masque partout, et le choix est gardé d'une page à l'autre.
+  await open("lessons/lesson-001.html#profil=fr");
+  const langs = await evaluate(`(() => {
+    const visible = l => [...document.querySelectorAll(".entry .lang-" + l)].filter(x => x.offsetParent !== null).length;
+    const box = document.querySelector('[data-lang-toggle="zh"]');
+    const before = { zh: visible("zh"), ru: visible("ru"), boxes: document.querySelectorAll("[data-lang-toggle]").length };
+    box.click();
+    return { before, after: { zh: visible("zh"), ru: visible("ru") }, cls: document.documentElement.classList.contains("hide-zh") };
+  })()`);
+  check("langues : sept langues proposées, le chinois se masque d'un clic",
+    langs.before.boxes === 7 && langs.before.zh > 0 && langs.after.zh === 0 && langs.after.ru === langs.before.ru && langs.cls,
+    JSON.stringify(langs));
+  await open("lessons/lesson-002.html#profil=fr");
+  const kept = await evaluate(`(() => {
+    const zh = [...document.querySelectorAll(".entry .lang-zh")].filter(x => x.offsetParent !== null).length;
+    const box = document.querySelector('[data-lang-toggle="zh"]');
+    const unchecked = !box.checked;
+    box.click();
+    return { zh, unchecked, back: [...document.querySelectorAll(".entry .lang-zh")].filter(x => x.offsetParent !== null).length };
+  })()`);
+  check("langues : choix gardé sur la page suivante, puis rétabli", kept.zh === 0 && kept.unchecked && kept.back > 0,
+    JSON.stringify(kept));
   if (existsSync(join(site, "alphabet.html"))) {     // page présente seulement avec content/alphabets.json
     await open("alphabet.html#profil=km", 390, 844);
     const alpha = await evaluate(`({ cards: document.querySelectorAll(".glyph-card").length,

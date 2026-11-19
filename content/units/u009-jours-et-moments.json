@@ -11,75 +11,91 @@
   },
   "vocabulary": [
     {
-      "fr": "aujourd'hui", "en": "today", "km": "ថ្ងៃនេះ", "tr": "thngay nih", "pos": "adverbe",
+      "fr": "aujourd'hui", "en": "today", "km": "ថ្ងៃនេះ", "tr": "thngay nih",
+      "es": "hoy", "it": "oggi", "ru": "сегодня", "zh": "今天", "zh_tr": "jīntiān", "pos": "adverbe",
       "note": {
         "fr": "Mot à mot « jour-ci » : ថ្ងៃ (thngay), le jour, suivi de នេះ (nih), « ce ».",
         "en": "Word for word “day-this”: ថ្ងៃ (thngay), day, followed by នេះ (nih), “this”. French « aujourd'hui » is written as one word with an apostrophe.",
         "km": "« aujourd'hui » ជាពាក្យតែមួយ ទោះបីមានសញ្ញា « ' » នៅកណ្តាលក៏ដោយ។ ភាសាអង់គ្លេស៖ « today »។"
       },
-      "example": {"fr": "Aujourd'hui, je reste à la maison.", "en": "Today, I am staying at home.", "km": "ថ្ងៃនេះ ខ្ញុំនៅផ្ទះ។", "tr": "thngay nih, khgnom neuv phtéah."}
+      "example": {"fr": "Aujourd'hui, je reste à la maison.", "en": "Today, I am staying at home.", "km": "ថ្ងៃនេះ ខ្ញុំនៅផ្ទះ។", "tr": "thngay nih, khgnom neuv phtéah.",
+      "es": "Hoy me quedo en casa.", "it": "Oggi resto a casa.", "ru": "Сегодня я остаюсь дома.", "zh": "今天我在家。", "zh_tr": "Jīntiān wǒ zài jiā."}
     },
     {
-      "fr": "demain", "en": "tomorrow", "km": "ថ្ងៃស្អែក", "tr": "thngay s'aèk", "pos": "adverbe",
+      "fr": "demain", "en": "tomorrow", "km": "ថ្ងៃស្អែក", "tr": "thngay s'aèk",
+      "es": "mañana", "it": "domani", "ru": "завтра", "zh": "明天", "zh_tr": "míngtiān", "pos": "adverbe",
       "note": {
         "fr": "L'apostrophe marque une petite coupure de la voix : s'aèk. À l'oral, on dit aussi simplement ស្អែក.",
         "en": "The apostrophe marks a small break in the voice: s'aèk. In speech, people also just say ស្អែក. French « demain » has a nasal ending.",
         "km": "ក្នុងពាក្យ « demain » អក្សរ « ain » អានចេញតាមច្រមុះ។ « À demain ! » មានន័យថា ជួបគ្នាថ្ងៃស្អែក។ ភាសាអង់គ្លេស៖ « tomorrow »។"
       },
-      "example": {"fr": "Demain, mon ami vient à la maison.", "en": "Tomorrow, my friend is coming to the house.", "km": "ថ្ងៃស្អែក មិត្តភក្តិរបស់ខ្ញុំមកផ្ទះ។", "tr": "thngay s'aèk, mit-phéak ro-bâh khgnom mok phtéah."}
+      "example": {"fr": "Demain, mon ami vient à la maison.", "en": "Tomorrow, my friend is coming to the house.", "km": "ថ្ងៃស្អែក មិត្តភក្តិរបស់ខ្ញុំមកផ្ទះ។", "tr": "thngay s'aèk, mit-phéak ro-bâh khgnom mok phtéah.",
+      "es": "Mañana mi amigo viene a casa.", "it": "Domani il mio amico viene a casa.", "ru": "Завтра мой друг придёт к нам домой.", "zh": "明天我的朋友来我家。", "zh_tr": "Míngtiān wǒ de péngyou lái wǒ jiā."}
     },
     {
-      "fr": "hier", "en": "yesterday", "km": "ម្សិលមិញ", "tr": "msel-mign", "pos": "adverbe",
+      "fr": "hier", "en": "yesterday", "km": "ម្សិលមិញ", "tr": "msel-mign",
+      "es": "ayer", "it": "ieri", "ru": "вчера", "zh": "昨天", "zh_tr": "zuótiān", "pos": "adverbe",
       "note": {
         "fr": "Le m et le s du début se prononcent d'un seul souffle : msel-mign. Avec ce mot, le verbe ne change pas de forme.",
         "en": "The opening m and s are said in one breath: msel-mign. With this word, the verb does not change. French « hier » sounds like “yair”.",
         "km": "ក្នុងពាក្យ « hier » អក្សរ h មិនអានទេ។ ភាសាអង់គ្លេស៖ « yesterday »។"
       },
-      "example": {"fr": "Hier, mon père était malade.", "en": "Yesterday, my father was sick.", "km": "ម្សិលមិញ ឪពុករបស់ខ្ញុំឈឺ។", "tr": "msel-mign, eu-pouk ro-bâh khgnom tchheu."}
+      "example": {"fr": "Hier, mon père était malade.", "en": "Yesterday, my father was sick.", "km": "ម្សិលមិញ ឪពុករបស់ខ្ញុំឈឺ។", "tr": "msel-mign, eu-pouk ro-bâh khgnom tchheu.",
+      "es": "Ayer mi padre estaba enfermo.", "it": "Ieri mio padre era malato.", "ru": "Вчера мой папа болел.", "zh": "昨天我爸爸生病了。", "zh_tr": "Zuótiān wǒ bàba shēngbìng le."}
     },
     {
-      "fr": "le matin", "en": "morning", "km": "ព្រឹក", "tr": "preuk", "pos": "nom",
+      "fr": "le matin", "en": "morning", "km": "ព្រឹក", "tr": "preuk",
+      "es": "la mañana", "it": "la mattina", "ru": "утро", "zh": "早上", "zh_tr": "zǎoshang", "pos": "nom",
       "note": {
         "fr": "On dit souvent ពេលព្រឹក (pél preuk), « au moment du matin ». ព្រឹកនេះ (preuk nih) : ce matin.",
         "en": "People often say ពេលព្រឹក (pél preuk), “in the morning time”. ព្រឹកនេះ (preuk nih): this morning. French « matin » is masculine: le matin.",
         "km": "« matin » ជានាមភេទប្រុស៖ le matin។ « ce matin » មានន័យថា ព្រឹកនេះ។ ភាសាអង់គ្លេស៖ « morning »។"
       },
-      "example": {"fr": "Ce matin, j'ai très faim.", "en": "This morning, I am very hungry.", "km": "ព្រឹកនេះ ខ្ញុំឃ្លានណាស់។", "tr": "preuk nih, khgnom khléan nah."}
+      "example": {"fr": "Ce matin, j'ai très faim.", "en": "This morning, I am very hungry.", "km": "ព្រឹកនេះ ខ្ញុំឃ្លានណាស់។", "tr": "preuk nih, khgnom khléan nah.",
+      "es": "Esta mañana tengo mucha hambre.", "it": "Stamattina ho molta fame.", "ru": "Сегодня утром я очень хочу есть.", "zh": "今天早上我很饿。", "zh_tr": "Jīntiān zǎoshang wǒ hěn è."}
     },
     {
-      "fr": "le soir", "en": "evening", "km": "ល្ងាច", "tr": "lngéatch", "pos": "nom",
+      "fr": "le soir", "en": "evening", "km": "ល្ងាច", "tr": "lngéatch",
+      "es": "la tarde", "it": "la sera", "ru": "вечер", "zh": "晚上", "zh_tr": "wǎnshang", "pos": "nom",
       "note": {
         "fr": "Désigne la fin de l'après-midi et le début de la soirée. ល្ងាចនេះ (lngéatch nih) : ce soir.",
         "en": "Covers late afternoon and early evening. ល្ងាចនេះ (lngéatch nih): this evening. French « soir » is masculine: le soir.",
         "km": "« soir » ជានាមភេទប្រុស៖ le soir។ នៅពេលល្ងាច គេស្វាគមន៍ថា « bonsoir »។ ភាសាអង់គ្លេស៖ « evening »។"
       },
-      "example": {"fr": "Ce soir, nous mangeons à la maison.", "en": "This evening, we are eating at home.", "km": "ល្ងាចនេះ យើងញ៉ាំបាយនៅផ្ទះ។", "tr": "lngéatch nih, yeung gnam bay neuv phtéah."}
+      "example": {"fr": "Ce soir, nous mangeons à la maison.", "en": "This evening, we are eating at home.", "km": "ល្ងាចនេះ យើងញ៉ាំបាយនៅផ្ទះ។", "tr": "lngéatch nih, yeung gnam bay neuv phtéah.",
+      "es": "Esta tarde comemos en casa.", "it": "Stasera mangiamo a casa.", "ru": "Сегодня вечером мы едим дома.", "zh": "今天晚上我们在家吃饭。", "zh_tr": "Jīntiān wǎnshang wǒmen zài jiā chī fàn."}
     },
     {
-      "fr": "la nuit", "en": "night", "km": "យប់", "tr": "youp", "pos": "nom",
+      "fr": "la nuit", "en": "night", "km": "យប់", "tr": "youp",
+      "es": "la noche", "it": "la notte", "ru": "ночь", "zh": "夜里", "zh_tr": "yèli", "pos": "nom",
       "note": {
         "fr": "Voyelle brève : youp. យប់នេះ (youp nih) : cette nuit. យប់មិញ (youp mign) : la nuit dernière.",
         "en": "A short vowel: youp. យប់នេះ (youp nih): tonight. យប់មិញ (youp mign): last night. French « nuit » is feminine: la nuit.",
         "km": "« nuit » ជានាមភេទស្រី៖ la nuit។ អក្សរ t ចុងពាក្យមិនអានទេ។ ភាសាអង់គ្លេស៖ « night »។"
       },
-      "example": {"fr": "La nuit, les enfants dorment.", "en": "At night, the children sleep.", "km": "ពេលយប់ កូនៗគេង។", "tr": "pél youp, kôn-kôn kéng."}
+      "example": {"fr": "La nuit, les enfants dorment.", "en": "At night, the children sleep.", "km": "ពេលយប់ កូនៗគេង។", "tr": "pél youp, kôn-kôn kéng.",
+      "es": "Por la noche, los niños duermen.", "it": "Di notte i bambini dormono.", "ru": "Ночью дети спят.", "zh": "夜里孩子们睡觉。", "zh_tr": "Yèli háizimen shuìjiào."}
     }
   ],
   "expressions": [
     {
       "fr": "À demain !", "en": "See you tomorrow!", "km": "ជួបគ្នាថ្ងៃស្អែក!", "tr": "tchouop knéa thngay s'aèk !",
+      "es": "¡Hasta mañana!", "it": "A domani!", "ru": "До завтра!", "zh": "明天见！", "zh_tr": "Míngtiān jiàn!",
       "note": {"fr": "Mot à mot « se rencontrer demain ». ជួបគ្នា (tchouop knéa) signifie « se voir ».", "en": "Word for word “meet each other tomorrow”. ជួបគ្នា (tchouop knéa) means “to see each other”. In French, « À demain ! » is enough.", "km": "ប្រើពេលលាគ្នា នៅពេលដឹងថានឹងជួបគ្នាម្តងទៀតនៅថ្ងៃស្អែក។"}
     },
     {
       "fr": "Tous les jours.", "en": "Every day.", "km": "រាល់ថ្ងៃ។", "tr": "roal thngay.",
+      "es": "Todos los días.", "it": "Tutti i giorni.", "ru": "Каждый день.", "zh": "每天。", "zh_tr": "Měitiān.",
       "note": {"fr": "រាល់ (roal) signifie « chaque » : រាល់ព្រឹក (chaque matin), រាល់យប់ (chaque nuit).", "en": "រាល់ (roal) means “each, every”: រាល់ព្រឹក (every morning), រាល់យប់ (every night). French: tous les matins, toutes les nuits.", "km": "« tous les jours » មានន័យថា រាល់ថ្ងៃ។ ភាសាអង់គ្លេស៖ « every day »។"}
     },
     {
       "fr": "Quel jour sommes-nous aujourd'hui ?", "en": "What day is it today?", "km": "ថ្ងៃនេះថ្ងៃអ្វី?", "tr": "thngay nih thngay ey ?",
+      "es": "¿Qué día es hoy?", "it": "Che giorno è oggi?", "ru": "Какой сегодня день?", "zh": "今天星期几？", "zh_tr": "Jīntiān xīngqī jǐ?",
       "note": {"fr": "On répond ថ្ងៃ suivi du nom du jour, par exemple ថ្ងៃអាទិត្យ (thngay a-tit), dimanche.", "en": "Answer with ថ្ងៃ followed by the name of the day, for example ថ្ងៃអាទិត្យ (thngay a-tit), Sunday.", "km": "ចម្លើយ៖ « Nous sommes dimanche » មានន័យថា ថ្ងៃនេះថ្ងៃអាទិត្យ។"}
     },
     {
       "fr": "Il fait déjà nuit.", "en": "It is already dark.", "km": "យប់ហើយ។", "tr": "youp haeuy.",
+      "es": "Ya es de noche.", "it": "È già buio.", "ru": "Уже темно.", "zh": "天已经黑了。", "zh_tr": "Tiān yǐjīng hēi le.",
       "note": {"fr": "ហើយ (haeuy) après un mot de temps signifie « déjà ». Pour dire qu'il est très tard : យប់ជ្រៅហើយ (youp tchrov haeuy).", "en": "ហើយ (haeuy) after a time word means “already”. To say it is very late: យប់ជ្រៅហើយ (youp tchrov haeuy).", "km": "ភាសាបារាំងប្រើ « il fait » ដើម្បីនិយាយពីពេលវេលា ឬអាកាសធាតុ៖ « il fait nuit », « il fait jour »។"}
     }
   ],
@@ -87,17 +103,20 @@
     {
       "situation": {"fr": "Faire des projets", "en": "Making plans", "km": "ពេលរៀបចំគម្រោង"},
       "fr": "Demain matin, je vais au marché.", "en": "Tomorrow morning, I am going to the market.",
-      "km": "ព្រឹកស្អែក ខ្ញុំទៅផ្សារ។", "tr": "preuk s'aèk, khgnom teuv phsa."
+      "km": "ព្រឹកស្អែក ខ្ញុំទៅផ្សារ។", "tr": "preuk s'aèk, khgnom teuv phsa.",
+      "es": "Mañana por la mañana voy al mercado.", "it": "Domani mattina vado al mercato.", "ru": "Завтра утром я иду на рынок.", "zh": "明天早上我去市场。", "zh_tr": "Míngtiān zǎoshang wǒ qù shìchǎng."
     },
     {
       "situation": {"fr": "Raconter sa soirée", "en": "Talking about your evening", "km": "ពេលនិយាយអំពីល្ងាចមិញ"},
       "fr": "Hier soir, nous avons mangé avec des amis.", "en": "Yesterday evening, we ate with friends.",
-      "km": "ល្ងាចមិញ យើងញ៉ាំបាយជាមួយមិត្តភក្តិ។", "tr": "lngéatch mign, yeung gnam bay tchéa-mouy mit-phéak."
+      "km": "ល្ងាចមិញ យើងញ៉ាំបាយជាមួយមិត្តភក្តិ។", "tr": "lngéatch mign, yeung gnam bay tchéa-mouy mit-phéak.",
+      "es": "Anoche cenamos con unos amigos.", "it": "Ieri sera abbiamo mangiato con degli amici.", "ru": "Вчера вечером мы ужинали с друзьями.", "zh": "昨天晚上我们和朋友一起吃饭了。", "zh_tr": "Zuótiān wǎnshang wǒmen hé péngyou yìqǐ chī fàn le."
     },
     {
       "situation": {"fr": "Au téléphone", "en": "On the phone", "km": "ពេលនិយាយទូរស័ព្ទ"},
       "fr": "Tu es à la maison ce soir ?", "en": "Are you at home this evening?",
-      "km": "ល្ងាចនេះ នៅផ្ទះទេ?", "tr": "lngéatch nih, neuv phtéah té ?"
+      "km": "ល្ងាចនេះ នៅផ្ទះទេ?", "tr": "lngéatch nih, neuv phtéah té ?",
+      "es": "¿Estás en casa esta noche?", "it": "Sei a casa stasera?", "ru": "Ты сегодня вечером дома?", "zh": "你今天晚上在家吗？", "zh_tr": "Nǐ jīntiān wǎnshang zài jiā ma?"
     }
   ],
   "dialogue": {
@@ -107,12 +126,18 @@
       "km": "ពេលល្ងាច {A} និង {B} និយាយគ្នាអំពីថ្ងៃនេះ និងថ្ងៃស្អែក។"
     },
     "lines": [
-      {"speaker": "B", "fr": "Comment vas-tu aujourd'hui ?", "en": "How are you today?", "km": "ថ្ងៃនេះ {A} សុខសប្បាយទេ?", "tr": "thngay nih {A} sok sa-bay té ?"},
-      {"speaker": "A", "fr": "Hier j'étais malade, mais aujourd'hui je vais bien.", "en": "Yesterday I was sick, but today I am well.", "km": "ម្សិលមិញខ្ញុំឈឺ ប៉ុន្តែថ្ងៃនេះខ្ញុំសុខសប្បាយហើយ។", "tr": "msel-mign khgnom tchheu, pon-taè thngay nih khgnom sok sa-bay haeuy."},
-      {"speaker": "B", "fr": "Très bien ! Demain matin, on va au marché ?", "en": "Very good! Shall we go to the market tomorrow morning?", "km": "ល្អណាស់! ព្រឹកស្អែក យើងទៅផ្សារទេ?", "tr": "l'â nah ! preuk s'aèk, yeung teuv phsa té ?"},
-      {"speaker": "A", "fr": "Le matin, ce n'est pas possible. Demain soir, ça va ?", "en": "The morning is not possible. Is tomorrow evening okay?", "km": "ពេលព្រឹកមិនបានទេ។ ល្ងាចស្អែកបានទេ?", "tr": "pél preuk min ban té. lngéatch s'aèk ban té ?"},
-      {"speaker": "B", "fr": "D'accord, demain soir.", "en": "Okay, tomorrow evening.", "km": "បាន ល្ងាចស្អែក។", "tr": "ban, lngéatch s'aèk."},
-      {"speaker": "A", "fr": "Bonne nuit, à demain !", "en": "Good night, see you tomorrow!", "km": "រាត្រីសួស្តី ជួបគ្នាថ្ងៃស្អែក!", "tr": "réa-trey souos-dey, tchouop knéa thngay s'aèk !"}
+      {"speaker": "B", "fr": "Comment vas-tu aujourd'hui ?", "en": "How are you today?", "km": "ថ្ងៃនេះ {A} សុខសប្បាយទេ?", "tr": "thngay nih {A} sok sa-bay té ?",
+        "es": "¿Cómo estás hoy?", "it": "Come stai oggi?", "ru": "Как ты сегодня?", "zh": "你今天怎么样？", "zh_tr": "Nǐ jīntiān zěnmeyàng?"},
+      {"speaker": "A", "fr": "Hier j'étais malade, mais aujourd'hui je vais bien.", "en": "Yesterday I was sick, but today I am well.", "km": "ម្សិលមិញខ្ញុំឈឺ ប៉ុន្តែថ្ងៃនេះខ្ញុំសុខសប្បាយហើយ។", "tr": "msel-mign khgnom tchheu, pon-taè thngay nih khgnom sok sa-bay haeuy.",
+        "es": "Ayer estaba enferma, pero hoy estoy bien.", "it": "Ieri ero malata, ma oggi sto bene.", "ru": "Вчера я болела, но сегодня мне хорошо.", "zh": "昨天我生病了，但是今天很好。", "zh_tr": "Zuótiān wǒ shēngbìng le, dànshì jīntiān hěn hǎo."},
+      {"speaker": "B", "fr": "Très bien ! Demain matin, on va au marché ?", "en": "Very good! Shall we go to the market tomorrow morning?", "km": "ល្អណាស់! ព្រឹកស្អែក យើងទៅផ្សារទេ?", "tr": "l'â nah ! preuk s'aèk, yeung teuv phsa té ?",
+        "es": "¡Muy bien! ¿Vamos al mercado mañana por la mañana?", "it": "Benissimo! Domani mattina andiamo al mercato?", "ru": "Отлично! Пойдём завтра утром на рынок?", "zh": "太好了！明天早上我们去市场吧？", "zh_tr": "Tài hǎo le! Míngtiān zǎoshang wǒmen qù shìchǎng ba?"},
+      {"speaker": "A", "fr": "Le matin, ce n'est pas possible. Demain soir, ça va ?", "en": "The morning is not possible. Is tomorrow evening okay?", "km": "ពេលព្រឹកមិនបានទេ។ ល្ងាចស្អែកបានទេ?", "tr": "pél preuk min ban té. lngéatch s'aèk ban té ?",
+        "es": "Por la mañana no puedo. ¿Mañana por la tarde te va bien?", "it": "La mattina non è possibile. Domani sera va bene?", "ru": "Утром не получится. Завтра вечером можно?", "zh": "早上不行。明天晚上可以吗？", "zh_tr": "Zǎoshang bù xíng. Míngtiān wǎnshang kěyǐ ma?"},
+      {"speaker": "B", "fr": "D'accord, demain soir.", "en": "Okay, tomorrow evening.", "km": "បាន ល្ងាចស្អែក។", "tr": "ban, lngéatch s'aèk.",
+        "es": "Vale, mañana por la tarde.", "it": "D'accordo, domani sera.", "ru": "Хорошо, завтра вечером.", "zh": "好的，明天晚上。", "zh_tr": "Hǎo de, míngtiān wǎnshang."},
+      {"speaker": "A", "fr": "Bonne nuit, à demain !", "en": "Good night, see you tomorrow!", "km": "រាត្រីសួស្តី ជួបគ្នាថ្ងៃស្អែក!", "tr": "réa-trey souos-dey, tchouop knéa thngay s'aèk !",
+        "es": "¡Buenas noches, hasta mañana!", "it": "Buonanotte, a domani!", "ru": "Спокойной ночи, до завтра!", "zh": "晚安，明天见！", "zh_tr": "Wǎn'ān, míngtiān jiàn!"}
     ]
   },
   "comprehension": {

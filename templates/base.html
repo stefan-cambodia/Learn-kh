@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="$root/css/style.css?v=$version">
 <script>
 window.FRKH_PROFILES = $profiles_json;
+window.FRKH_LANGS = $langs_json;
 (function () {
   var root = document.documentElement, profile = null, legacy = { A: "km", B: "fr" };
   root.classList.add("js");
@@ -44,6 +45,15 @@ window.FRKH_PROFILES = $profiles_json;
   profile = legacy[profile] || profile;
   if (profile && window.FRKH_PROFILES[profile]) { root.setAttribute("data-profile", profile); }
   root.setAttribute("lang", root.getAttribute("data-profile"));
+  /* Langues masquées par le sélecteur « Langues » (classes hide-xx posées avant l'affichage). */
+  try {
+    var langs = window.FRKH_LANGS, hidden = null, saved = localStorage.getItem("frkh-langs-hidden");
+    if (saved !== null) { hidden = JSON.parse(saved); }
+    if (!(hidden instanceof Array)) {
+      hidden = langs.all.filter(function (l) { return langs.shown.indexOf(l) === -1; });
+    }
+    hidden.forEach(function (l) { if (langs.all.indexOf(l) !== -1) { root.classList.add("hide-" + l); } });
+  } catch (e) {}
   try { var size = localStorage.getItem("frkh-size"); if (size === "l" || size === "xl") root.setAttribute("data-size", size); } catch (e) {}
 })();
 </script>
@@ -64,6 +74,7 @@ window.FRKH_PROFILES = $profiles_json;
       <button type="button" class="tool-slow js-only" id="slow-toggle" aria-pressed="false">
         <span class="tool-slow-rate" aria-hidden="true">0,75×</span>$ui_slow
       </button>
+      $lang_picker
       <div class="profile-switch js-only" role="group" aria-label="$ui_profile">$profile_buttons</div>
     </div>
   </div>

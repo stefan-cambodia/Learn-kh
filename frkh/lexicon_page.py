@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 
 from .audio import wavutil
+from .langs import LANG_META, TRANSLIT_LANG, search_text, translit
 from .textutil import LANGS, fold, speech_text, to_khmer_digits
 
 PAGE = "lexique.html"
@@ -19,16 +20,16 @@ TEXT = {
     "title": ("Lexique", "Glossary", "សទ្ទានុក្រម"),
     "kicker": ("Tous les mots vus", "Every word seen so far", "ពាក្យទាំងអស់ដែលបានរៀន"),
     "intro": ("Les mots et expressions des leçons passées, du plus récent au plus ancien. Cherchez dans les trois langues.",
-              "Words and expressions from past lessons, newest first. Search in any of the three languages.",
-              "ពាក្យ និងឃ្លាពីមេរៀនដែលបានរៀនរួច ពីថ្មីទៅចាស់។ អាចស្វែងរកជាបីភាសា។"),
+              "Words and expressions from past lessons, newest first. Search in any language.",
+              "ពាក្យ និងឃ្លាពីមេរៀនដែលបានរៀនរួច ពីថ្មីទៅចាស់។ អាចស្វែងរកជាគ្រប់ភាសា។"),
     "search": ("Rechercher un mot", "Search for a word", "ស្វែងរកពាក្យ"),
-    "placeholder": ("Mot en français, anglais ou khmer…", "Word in French, English or Khmer…", "ពាក្យជាភាសាបារាំង អង់គ្លេស ឬខ្មែរ…"),
+    "placeholder": ("Un mot, dans n'importe quelle langue…", "A word, in any language…", "ពាក្យ ជាភាសាណាក៏បាន…"),
     "all": ("Tout", "All", "ទាំងអស់"),
     "words": ("Mots", "Words", "ពាក្យ"),
     "expressions": ("Expressions", "Expressions", "ឃ្លា"),
     "none": ("Aucun mot ne correspond à cette recherche.", "No word matches this search.", "រកមិនឃើញពាក្យទេ។"),
 }
-LISTEN = {"fr": "Écouter en français", "en": "Listen in English", "km": "ស្តាប់ជាភាសាខ្មែរ"}
+LISTEN = {lang: meta["listen"] for lang, meta in LANG_META.items()}
 
 
 def _bi(key: str, tag: str = "span") -> str:
@@ -53,15 +54,18 @@ def render(renderer) -> str:
                     continue
                 seen.add(key)
                 cells = []
-                for lang in LANGS:
+                for lang in renderer.config.content_langs():
+                    if not entry.get(lang):
+                        continue
                     ref = renderer.library.lookup(speech_text(entry[lang]), lang)
                     button = (f'<button type="button" class="play" data-src="{esc(ref.path)}" '
                               f'aria-label="{esc(LISTEN[lang])} : {esc(entry[lang])}">{icon_play}</button>') if ref.ready else ""
-                    translit = (f'<span class="translit">{esc(entry["tr"])}</span>'
-                                if lang == "km" and entry.get("tr") else "")
+                    reading = translit(entry, lang)
+                    translit_html = (f'<span class="translit" lang="{TRANSLIT_LANG[lang]}">{esc(reading)}</span>'
+                                     if reading else "")
                     cells.append(f'<div class="lex-cell lang-{lang}"><span class="lex-text"><span lang="{lang}">'
-                                  f'{esc(entry[lang])}</span>{translit}</span>{button}</div>')
-                search = fold(" ".join([entry["fr"], entry["en"], entry["km"], entry.get("tr", "")]))
+                                  f'{esc(entry[lang])}</span>{translit_html}</span>{button}</div>')
+                search = fold(search_text(entry))
                 n = row["lesson_number"]
                 items.append(
                     f'<li class="lex-item" data-date="{esc(row["lesson_date"])}" data-kind="{"w" if kind == "vocabulary" else "e"}" '
@@ -88,7 +92,7 @@ def render(renderer) -> str:
         f'<p class="empty" id="lex-none" hidden>{_bi("none")}</p>'
         f'</article>')
     page = renderer._page(root=".", title=f'{TEXT["title"][0]} — {renderer.config.get("site.title", "FR-KH Learning")}',
-                          description="Tous les mots et expressions des leçons, en français, anglais et khmer, avec audio.",
+                          description="Tous les mots et expressions des leçons, dans toutes les langues, avec audio.",
                           body_class="page-lexicon", content=content)
     target = renderer.paths.index.parent / PAGE
     wavutil.atomic_write(target, page.encode("utf-8"))

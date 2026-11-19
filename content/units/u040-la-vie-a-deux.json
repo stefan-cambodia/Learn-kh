@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "l'amour", "en": "love", "km": "សេចក្តីស្រឡាញ់", "tr": "sétch-kdey srâ-lagn", "pos": "nom",
+      "fr": "l'amour", "en": "love", "km": "សេចក្តីស្រឡាញ់", "tr": "sétch-kdey srâ-lagn",
+      "es": "el amor", "it": "l'amore", "ru": "любовь", "zh": "爱情", "zh_tr": "àiqíng", "pos": "nom",
       "note": {
         "fr": "សេចក្តី (sétch-kdey) transforme un verbe en nom : ស្រឡាញ់, aimer, devient សេចក្តីស្រឡាញ់, l'amour. L'amour romantique se dit aussi ស្នេហា (snaè-ha).",
         "en": "សេចក្តី (sétch-kdey) turns a verb into a noun: ស្រឡាញ់, to love, becomes សេចក្តីស្រឡាញ់, love. Romantic love is also ស្នេហា (snaè-ha). French « amour » is masculine.",
         "km": "« amour » ជានាមភេទប្រុស៖ l'amour។ « amoureux » មានន័យថា កំពុងស្រឡាញ់។ អង់គ្លេស៖ « love »។"
       },
-      "example": {"fr": "L'amour, c'est aussi la patience.", "en": "Love is also patience.", "km": "សេចក្តីស្រឡាញ់ ក៏ជាការអត់ធ្មត់ដែរ។", "tr": "sétch-kdey srâ-lagn kâ tchéa ka ât-thmât daè."}
+      "example": {"fr": "L'amour, c'est aussi la patience.", "en": "Love is also patience.", "km": "សេចក្តីស្រឡាញ់ ក៏ជាការអត់ធ្មត់ដែរ។", "tr": "sétch-kdey srâ-lagn kâ tchéa ka ât-thmât daè.",
+      "es": "El amor también es paciencia.", "it": "L'amore è anche pazienza.", "ru": "Любовь — это ещё и терпение.", "zh": "爱情也需要耐心。", "zh_tr": "Àiqíng yě xūyào nàixīn."}
     },
     {
-      "fr": "manquer", "en": "to miss", "km": "នឹក", "tr": "neuk", "pos": "verbe",
+      "fr": "manquer", "en": "to miss", "km": "នឹក", "tr": "neuk",
+      "es": "echar de menos", "it": "mancare", "ru": "скучать", "zh": "想念", "zh_tr": "xiǎngniàn", "pos": "verbe",
       "note": {
         "fr": "នឹក se construit comme en anglais : ខ្ញុំនឹកអ្នក, « je pense à toi avec tristesse », c'est-à-dire « tu me manques ». Attention, នឹក (neuk) se prononce presque comme នឹង (neung), le futur.",
         "en": "នឹក works like English “miss”: ខ្ញុំនឹកអ្នក, “I miss you”. Careful, នឹក (neuk) sounds almost like នឹង (neung), the future marker. French turns it around: « tu me manques », “you are missing to me”.",
         "km": "« manquer à »៖ tu me manques = ខ្ញុំនឹកអ្នក; je te manque = អ្នកនឹកខ្ញុំ។ អង់គ្លេស៖ « to miss », « I miss you »។"
       },
-      "example": {"fr": "Ma famille me manque.", "en": "I miss my family.", "km": "ខ្ញុំនឹកគ្រួសារ។", "tr": "khgnom neuk krouo-sa."}
+      "example": {"fr": "Ma famille me manque.", "en": "I miss my family.", "km": "ខ្ញុំនឹកគ្រួសារ។", "tr": "khgnom neuk krouo-sa.",
+      "es": "Echo de menos a mi familia.", "it": "Mi manca la mia famiglia.", "ru": "Я скучаю по своей семье.", "zh": "我想念我的家人。", "zh_tr": "Wǒ xiǎngniàn wǒ de jiārén."}
     },
     {
-      "fr": "se marier", "en": "to get married", "km": "រៀបការ", "tr": "riep-ka", "pos": "verbe",
+      "fr": "se marier", "en": "to get married", "km": "រៀបការ", "tr": "riep-ka",
+      "es": "casarse", "it": "sposarsi", "ru": "жениться", "zh": "结婚", "zh_tr": "jiéhūn", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « organiser la cérémonie ». La cérémonie de mariage se dit មង្គលការ (mong-kol-ka).",
         "en": "Word for word “arrange the ceremony”. The wedding ceremony is មង្គលការ (mong-kol-ka). French « se marier »: ils se sont mariés.",
         "km": "« se marier » ជាកិរិយាសព្ទឆ្លុះ៖ nous nous marions។ « marié » មានន័យថា រៀបការហើយ។ អង់គ្លេស៖ « to get married »។"
       },
-      "example": {"fr": "Ils se marient au mois de mai.", "en": "They are getting married in May.", "km": "គាត់រៀបការនៅខែឧសភា។", "tr": "koat riep-ka neuv khaè ou-sâ-phéa."}
+      "example": {"fr": "Ils se marient au mois de mai.", "en": "They are getting married in May.", "km": "គាត់រៀបការនៅខែឧសភា។", "tr": "koat riep-ka neuv khaè ou-sâ-phéa.",
+      "es": "Se casan en mayo.", "it": "Si sposano a maggio.", "ru": "Они женятся в мае.", "zh": "他们五月结婚。", "zh_tr": "Tāmen wǔyuè jiéhūn."}
     },
     {
-      "fr": "le cœur", "en": "heart", "km": "បេះដូង", "tr": "béh-doung", "pos": "nom",
+      "fr": "le cœur", "en": "heart", "km": "បេះដូង", "tr": "béh-doung",
+      "es": "el corazón", "it": "il cuore", "ru": "сердце", "zh": "心", "zh_tr": "xīn", "pos": "nom",
       "note": {
         "fr": "បេះដូង est l'organe et le symbole de l'amour. Pour les sentiments, le khmer utilise plutôt ចិត្ត (tchet), le cœur au sens de l'esprit.",
         "en": "បេះដូង is the organ and the symbol of love. For feelings, Khmer prefers ចិត្ត (tchet), the heart as mind. French « cœur » contains the letter œ.",
         "km": "« cœur » ជានាមភេទប្រុស៖ le cœur។ « de tout mon cœur » មានន័យថា ដោយអស់ពីចិត្ត។ អង់គ្លេស៖ « heart »។"
       },
-      "example": {"fr": "Mon cœur bat vite.", "en": "My heart is beating fast.", "km": "បេះដូងខ្ញុំលោតញាប់។", "tr": "béh-doung khgnom lot gnoap."}
+      "example": {"fr": "Mon cœur bat vite.", "en": "My heart is beating fast.", "km": "បេះដូងខ្ញុំលោតញាប់។", "tr": "béh-doung khgnom lot gnoap.",
+      "es": "Mi corazón late rápido.", "it": "Il mio cuore batte forte.", "ru": "Моё сердце быстро бьётся.", "zh": "我的心跳得很快。", "zh_tr": "Wǒ de xīn tiào de hěn kuài."}
     },
     {
-      "fr": "la confiance", "en": "trust", "km": "ការទុកចិត្ត", "tr": "ka touk tchet", "pos": "nom",
+      "fr": "la confiance", "en": "trust", "km": "ការទុកចិត្ត", "tr": "ka touk tchet",
+      "es": "la confianza", "it": "la fiducia", "ru": "доверие", "zh": "信任", "zh_tr": "xìnrèn", "pos": "nom",
       "note": {
         "fr": "Mot à mot « le fait de déposer son cœur ». Le verbe ទុកចិត្ត veut dire « faire confiance ».",
         "en": "Word for word “the act of placing your heart”. The verb ទុកចិត្ត means “to trust”. French « faire confiance à »: je te fais confiance.",
         "km": "« confiance » ជានាមភេទស្រី៖ la confiance។ « avoir confiance en » មានន័យថា ទុកចិត្ត។ អង់គ្លេស៖ « trust »។"
       },
-      "example": {"fr": "J'ai confiance en toi.", "en": "I trust you.", "km": "ខ្ញុំទុកចិត្តអ្នក។", "tr": "khgnom touk tchet néak."}
+      "example": {"fr": "J'ai confiance en toi.", "en": "I trust you.", "km": "ខ្ញុំទុកចិត្តអ្នក។", "tr": "khgnom touk tchet néak.",
+      "es": "Confío en ti.", "it": "Ho fiducia in te.", "ru": "Я тебе доверяю.", "zh": "我信任你。", "zh_tr": "Wǒ xìnrèn nǐ."}
     },
     {
-      "fr": "promettre", "en": "to promise", "km": "សន្យា", "tr": "sân-ya", "pos": "verbe",
+      "fr": "promettre", "en": "to promise", "km": "សន្យា", "tr": "sân-ya",
+      "es": "prometer", "it": "promettere", "ru": "обещать", "zh": "答应", "zh_tr": "dāying", "pos": "verbe",
       "note": {
         "fr": "សន្យា sert aussi de nom : « la promesse ». Pour insister : ខ្ញុំសន្យាពិតៗ, je te le promets vraiment.",
         "en": "សន្យា is also a noun: “a promise”. To insist: ខ្ញុំសន្យាពិតៗ, I really promise. French « promettre »: je te le promets.",
         "km": "« promettre »៖ je promets, tu promets។ « une promesse » មានន័យថា ការសន្យា។ អង់គ្លេស៖ « to promise »។"
       },
-      "example": {"fr": "Je te promets de t'appeler ce soir.", "en": "I promise to call you tonight.", "km": "ខ្ញុំសន្យាថា នឹងហៅទូរស័ព្ទទៅយប់នេះ។", "tr": "khgnom sân-ya tha neung hav tou-ro-sap teuv youp nih."}
+      "example": {"fr": "Je te promets de t'appeler ce soir.", "en": "I promise to call you tonight.", "km": "ខ្ញុំសន្យាថា នឹងហៅទូរស័ព្ទទៅយប់នេះ។", "tr": "khgnom sân-ya tha neung hav tou-ro-sap teuv youp nih.",
+      "es": "Te prometo que te llamo esta noche.", "it": "Ti prometto di chiamarti stasera.", "ru": "Обещаю позвонить тебе сегодня вечером.", "zh": "我答应你今天晚上给你打电话。", "zh_tr": "Wǒ dāying nǐ jīntiān wǎnshang gěi nǐ dǎ diànhuà."}
     }
   ],
   "expressions": [
     {
       "fr": "Je t'aime.", "en": "I love you.", "km": "ខ្ញុំស្រឡាញ់អ្នក។", "tr": "khgnom srâ-lagn néak.",
+      "es": "Te quiero.", "it": "Ti amo.", "ru": "Я тебя люблю.", "zh": "我爱你。", "zh_tr": "Wǒ ài nǐ.",
       "note": {
         "fr": "Forme neutre et un peu formelle. Entre amoureux, on dira plutôt បងស្រឡាញ់អូន ou អូនស្រឡាញ់បង, selon qui parle.",
         "en": "A neutral, rather formal form. Between lovers, people say បងស្រឡាញ់អូន or អូនស្រឡាញ់បង, depending on who is speaking. French « Je t'aime » also means “I like you a lot”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Tu me manques.", "en": "I miss you.", "km": "ខ្ញុំនឹកអ្នកណាស់។", "tr": "khgnom neuk néak nah.",
+      "es": "Te echo de menos.", "it": "Mi manchi.", "ru": "Я по тебе скучаю.", "zh": "我想你。", "zh_tr": "Wǒ xiǎng nǐ.",
       "note": {
         "fr": "En khmer, comme en anglais, c'est la personne qui ressent le manque qui est le sujet.",
         "en": "In Khmer, as in English, the person who feels the absence is the subject. In French it is the other way round: « Tu me manques ».",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Prends soin de toi.", "en": "Take care of yourself.", "km": "ថែរក្សាខ្លួនផង។", "tr": "thaè-réak-sa khlouon phâng.",
+      "es": "Cuídate.", "it": "Abbi cura di te.", "ru": "Береги себя.", "zh": "照顾好自己。", "zh_tr": "Zhàogù hǎo zìjǐ.",
       "note": {
         "fr": "ថែរក្សា, « prendre soin, préserver », et ខ្លួន, « soi-même ». Se dit au moment de se quitter.",
         "en": "ថែរក្សា, “to look after, to preserve”, and ខ្លួន, “oneself”. Said when parting. French « Prends soin de toi » is familiar.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Rentre vite.", "en": "Come back soon.", "km": "ឆាប់ត្រឡប់មកវិញណា។", "tr": "tchhap trâ-lâp mok vign na.",
+      "es": "Vuelve pronto.", "it": "Torna presto.", "ru": "Возвращайся скорее.", "zh": "早点儿回来。", "zh_tr": "Zǎo diǎnr huílai.",
       "note": {
         "fr": "ឆាប់, « vite », se place devant le verbe. ណា en fin de phrase adoucit la demande.",
         "en": "ឆាប់, “quickly”, goes before the verb. ណា at the end softens the request. French « rentrer » means “to come back home”.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Un mariage khmer", "en": "A Khmer wedding", "km": "មង្គលការខ្មែរ"},
       "fr": "Un mariage khmer traditionnel peut durer plusieurs jours.", "en": "A traditional Khmer wedding can last several days.",
-      "km": "មង្គលការប្រពៃណីខ្មែរ អាចធ្វើច្រើនថ្ងៃ។", "tr": "mong-kol-ka prâ-pey-ni khmaè atch thveu tchraeun thngay."
+      "km": "មង្គលការប្រពៃណីខ្មែរ អាចធ្វើច្រើនថ្ងៃ។", "tr": "mong-kol-ka prâ-pey-ni khmaè atch thveu tchraeun thngay.",
+      "es": "Una boda jemer tradicional puede durar varios días.", "it": "Un matrimonio khmer tradizionale può durare diversi giorni.", "ru": "Традиционная кхмерская свадьба может длиться несколько дней.", "zh": "传统的柬埔寨婚礼可以持续好几天。", "zh_tr": "Chuántǒng de Jiǎnpǔzhài hūnlǐ kěyǐ chíxù hǎo jǐ tiān."
     },
     {
       "situation": {"fr": "Loin l'un de l'autre", "en": "Far from each other", "km": "ពេលនៅឆ្ងាយគ្នា"},
       "fr": "Quand nous sommes loin, nous nous appelons tous les soirs.", "en": "When we are far apart, we call each other every evening.",
-      "km": "ពេលនៅឆ្ងាយគ្នា យើងហៅទូរស័ព្ទគ្នារាល់ល្ងាច។", "tr": "pél neuv tchhngay knéa, yeung hav tou-ro-sap knéa roal lngéatch."
+      "km": "ពេលនៅឆ្ងាយគ្នា យើងហៅទូរស័ព្ទគ្នារាល់ល្ងាច។", "tr": "pél neuv tchhngay knéa, yeung hav tou-ro-sap knéa roal lngéatch.",
+      "es": "Cuando estamos lejos, nos llamamos todas las noches.", "it": "Quando siamo lontani, ci sentiamo tutte le sere.", "ru": "Когда мы далеко друг от друга, мы созваниваемся каждый вечер.", "zh": "我们不在一起的时候，每天晚上都打电话。", "zh_tr": "Wǒmen bú zài yìqǐ de shíhou, měitiān wǎnshang dōu dǎ diànhuà."
     },
     {
       "situation": {"fr": "Un conseil", "en": "A piece of advice", "km": "ដំបូន្មានមួយ"},
       "fr": "Dans un couple, la confiance est très importante.", "en": "In a relationship, trust is very important.",
-      "km": "ក្នុងជីវិតគូ ការទុកចិត្តគ្នាសំខាន់ណាស់។", "tr": "knong tchi-vit kou, ka touk tchet knéa sâm-khan nah."
+      "km": "ក្នុងជីវិតគូ ការទុកចិត្តគ្នាសំខាន់ណាស់។", "tr": "knong tchi-vit kou, ka touk tchet knéa sâm-khan nah.",
+      "es": "En una pareja, la confianza es muy importante.", "it": "In una coppia la fiducia è molto importante.", "ru": "В паре доверие очень важно.", "zh": "两个人在一起，信任很重要。", "zh_tr": "Liǎng ge rén zài yìqǐ, xìnrèn hěn zhòngyào."
     }
   ],
   "dialogue": {
     "setting": {"fr": "La veille du départ de {B} pour la France.", "en": "The day before {B} leaves for France.", "km": "មួយថ្ងៃមុន {B} ចេញដំណើរទៅប្រទេសបារាំង។"},
     "lines": [
-      {"speaker": "A", "fr": "Tu pars demain. Tu vas me manquer.", "en": "You are leaving tomorrow. I'm going to miss you.", "km": "ថ្ងៃស្អែក {B} ទៅហើយ។ ខ្ញុំនឹងនឹក {B} ណាស់។", "tr": "thngay s'aèk {B} teuv haeuy. khgnom neung neuk {B} nah."},
-      {"speaker": "B", "fr": "Toi aussi, tu vas me manquer. Mais c'est seulement deux semaines.", "en": "I'll miss you too. But it's only two weeks.", "km": "ខ្ញុំក៏អញ្ចឹងដែរ។ ប៉ុន្តែគ្រាន់តែពីរសប្តាហ៍ទេ។", "tr": "khgnom kâ agn-tcheung daè. pon-taè kroan-taè pi sap-da té."},
-      {"speaker": "A", "fr": "Tu m'appelles tous les soirs ?", "en": "Will you call me every evening?", "km": "ហៅទូរស័ព្ទមករាល់ល្ងាចបានទេ?", "tr": "hav tou-ro-sap mok roal lngéatch ban té ?"},
-      {"speaker": "B", "fr": "Oui, je te le promets. Et je pense à toi tous les jours.", "en": "Yes, I promise. And I think of you every day.", "km": "{B_yes} ខ្ញុំសន្យា។ ហើយខ្ញុំគិតដល់ {A} រាល់ថ្ងៃ។", "tr": "{B_yes}, khgnom sân-ya. haeuy khgnom kit dâl {A} roal thngay."},
-      {"speaker": "A", "fr": "Prends soin de toi, et rentre vite.", "en": "Take care of yourself, and come back soon.", "km": "ថែរក្សាខ្លួនផង ហើយឆាប់ត្រឡប់មកវិញណា។", "tr": "thaè-réak-sa khlouon phâng, haeuy tchhap trâ-lâp mok vign na."},
-      {"speaker": "B", "fr": "Bien sûr. Je t'aime.", "en": "Of course. I love you.", "km": "ប្រាកដហើយ។ ខ្ញុំស្រឡាញ់ {A}។", "tr": "prâ-kât haeuy. khgnom srâ-lagn {A}."}
+      {"speaker": "A", "fr": "Tu pars demain. Tu vas me manquer.", "en": "You are leaving tomorrow. I'm going to miss you.", "km": "ថ្ងៃស្អែក {B} ទៅហើយ។ ខ្ញុំនឹងនឹក {B} ណាស់។", "tr": "thngay s'aèk {B} teuv haeuy. khgnom neung neuk {B} nah.",
+        "es": "Te vas mañana. Te voy a echar de menos.", "it": "Parti domani. Mi mancherai.", "ru": "Ты завтра уезжаешь. Я буду по тебе скучать.", "zh": "你明天就走了。我会想你的。", "zh_tr": "Nǐ míngtiān jiù zǒu le. Wǒ huì xiǎng nǐ de."},
+      {"speaker": "B", "fr": "Toi aussi, tu vas me manquer. Mais c'est seulement deux semaines.", "en": "I'll miss you too. But it's only two weeks.", "km": "ខ្ញុំក៏អញ្ចឹងដែរ។ ប៉ុន្តែគ្រាន់តែពីរសប្តាហ៍ទេ។", "tr": "khgnom kâ agn-tcheung daè. pon-taè kroan-taè pi sap-da té.",
+        "es": "Yo también te voy a echar de menos. Pero solo son dos semanas.", "it": "Anche tu mi mancherai. Ma sono solo due settimane.", "ru": "Я тоже буду скучать по тебе. Но это всего две недели.", "zh": "我也会想你的。不过只有两个星期。", "zh_tr": "Wǒ yě huì xiǎng nǐ de. Búguò zhǐ yǒu liǎng ge xīngqī."},
+      {"speaker": "A", "fr": "Tu m'appelles tous les soirs ?", "en": "Will you call me every evening?", "km": "ហៅទូរស័ព្ទមករាល់ល្ងាចបានទេ?", "tr": "hav tou-ro-sap mok roal lngéatch ban té ?",
+        "es": "¿Me llamas todas las noches?", "it": "Mi chiami tutte le sere?", "ru": "Ты будешь звонить мне каждый вечер?", "zh": "你每天晚上给我打电话吗？", "zh_tr": "Nǐ měitiān wǎnshang gěi wǒ dǎ diànhuà ma?"},
+      {"speaker": "B", "fr": "Oui, je te le promets. Et je pense à toi tous les jours.", "en": "Yes, I promise. And I think of you every day.", "km": "{B_yes} ខ្ញុំសន្យា។ ហើយខ្ញុំគិតដល់ {A} រាល់ថ្ងៃ។", "tr": "{B_yes}, khgnom sân-ya. haeuy khgnom kit dâl {A} roal thngay.",
+        "es": "Sí, te lo prometo. Y pienso en ti todos los días.", "it": "Sì, te lo prometto. E penso a te tutti i giorni.", "ru": "Да, обещаю. И я думаю о тебе каждый день.", "zh": "会，我答应你。我每天都想着你。", "zh_tr": "Huì, wǒ dāying nǐ. Wǒ měitiān dōu xiǎng zhe nǐ."},
+      {"speaker": "A", "fr": "Prends soin de toi, et rentre vite.", "en": "Take care of yourself, and come back soon.", "km": "ថែរក្សាខ្លួនផង ហើយឆាប់ត្រឡប់មកវិញណា។", "tr": "thaè-réak-sa khlouon phâng, haeuy tchhap trâ-lâp mok vign na.",
+        "es": "Cuídate y vuelve pronto.", "it": "Abbi cura di te e torna presto.", "ru": "Береги себя и возвращайся скорее.", "zh": "照顾好自己，早点儿回来。", "zh_tr": "Zhàogù hǎo zìjǐ, zǎo diǎnr huílai."},
+      {"speaker": "B", "fr": "Bien sûr. Je t'aime.", "en": "Of course. I love you.", "km": "ប្រាកដហើយ។ ខ្ញុំស្រឡាញ់ {A}។", "tr": "prâ-kât haeuy. khgnom srâ-lagn {A}.",
+        "es": "Claro. Te quiero.", "it": "Certo. Ti amo.", "ru": "Конечно. Я тебя люблю.", "zh": "当然。我爱你。", "zh_tr": "Dāngrán. Wǒ ài nǐ."}
     ]
   },
   "comprehension": {

@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le tuk-tuk", "en": "tuk-tuk", "km": "តុកតុក", "tr": "tok-tok", "pos": "nom",
+      "fr": "le tuk-tuk", "en": "tuk-tuk", "km": "តុកតុក", "tr": "tok-tok",
+      "es": "el tuk-tuk", "it": "il tuk-tuk", "ru": "тук-тук", "zh": "嘟嘟车", "zh_tr": "dūdū chē", "pos": "nom",
       "note": {
         "fr": "Le modèle traditionnel, une remorque tirée par une moto, s'appelle aussi រ៉ឺម៉ក (reu-mâk), du français « remorque ».",
         "en": "The traditional model, a trailer pulled by a motorbike, is also called រ៉ឺម៉ក (reu-mâk), from French « remorque », “trailer”. French writes « le tuk-tuk ».",
         "km": "ពាក្យនេះដូចគ្នាទាំងបីភាសា។ ភាសាបារាំងសរសេរ « le tuk-tuk » ជានាមភេទប្រុស។"
       },
-      "example": {"fr": "Nous allons au marché en tuk-tuk.", "en": "We go to the market by tuk-tuk.", "km": "យើងជិះតុកតុកទៅផ្សារ។", "tr": "yeung tchih tok-tok teuv phsa."}
+      "example": {"fr": "Nous allons au marché en tuk-tuk.", "en": "We go to the market by tuk-tuk.", "km": "យើងជិះតុកតុកទៅផ្សារ។", "tr": "yeung tchih tok-tok teuv phsa.",
+      "es": "Vamos al mercado en tuk-tuk.", "it": "Andiamo al mercato in tuk-tuk.", "ru": "Мы едем на рынок на тук-туке.", "zh": "我们坐嘟嘟车去市场。", "zh_tr": "Wǒmen zuò dūdū chē qù shìchǎng."}
     },
     {
-      "fr": "la voiture", "en": "car", "km": "ឡាន", "tr": "lan", "pos": "nom",
+      "fr": "la voiture", "en": "car", "km": "ឡាន", "tr": "lan",
+      "es": "el coche", "it": "la macchina", "ru": "машина", "zh": "汽车", "zh_tr": "qìchē", "pos": "nom",
       "note": {
         "fr": "Mot de tous les jours. Le terme officiel, រថយន្ត (rot-yon), se lit sur les panneaux et dans les journaux.",
         "en": "The everyday word. The official term, រថយន្ត (rot-yon), appears on signs and in newspapers. French « voiture » is feminine.",
         "km": "« voiture » ជានាមភេទស្រី៖ la voiture, une voiture។ អង់គ្លេស៖ « car »។"
       },
-      "example": {"fr": "Mon père a une voiture blanche.", "en": "My father has a white car.", "km": "ឪពុកខ្ញុំមានឡានពណ៌សមួយ។", "tr": "eu-pouk khgnom méan lan poa sâ mouy."}
+      "example": {"fr": "Mon père a une voiture blanche.", "en": "My father has a white car.", "km": "ឪពុកខ្ញុំមានឡានពណ៌សមួយ។", "tr": "eu-pouk khgnom méan lan poa sâ mouy.",
+      "es": "Mi padre tiene un coche blanco.", "it": "Mio padre ha una macchina bianca.", "ru": "У моего папы белая машина.", "zh": "我爸爸有一辆白色的汽车。", "zh_tr": "Wǒ bàba yǒu yí liàng báisè de qìchē."}
     },
     {
-      "fr": "la moto", "en": "motorbike", "km": "ម៉ូតូ", "tr": "mô-tô", "pos": "nom",
+      "fr": "la moto", "en": "motorbike", "km": "ម៉ូតូ", "tr": "mô-tô",
+      "es": "la moto", "it": "la moto", "ru": "мотоцикл", "zh": "摩托车", "zh_tr": "mótuōchē", "pos": "nom",
       "note": {
         "fr": "ជិះម៉ូតូ (tchih mô-tô) = « aller à moto ». Le moto-taxi se dit ម៉ូតូឌុប (mô-tô doup).",
         "en": "ជិះម៉ូតូ (tchih mô-tô) = “go by motorbike”. A motorbike taxi is ម៉ូតូឌុប (mô-tô doup). French « moto » is feminine: la moto.",
         "km": "« moto » ជានាមភេទស្រី៖ la moto។ ពាក្យខ្មែរ « ម៉ូតូ » មកពីភាសាបារាំង។ អង់គ្លេស៖ « motorbike »។"
       },
-      "example": {"fr": "Je vais au travail à moto.", "en": "I go to work by motorbike.", "km": "ខ្ញុំជិះម៉ូតូទៅធ្វើការ។", "tr": "khgnom tchih mô-tô teuv thveu-ka."}
+      "example": {"fr": "Je vais au travail à moto.", "en": "I go to work by motorbike.", "km": "ខ្ញុំជិះម៉ូតូទៅធ្វើការ។", "tr": "khgnom tchih mô-tô teuv thveu-ka.",
+      "es": "Voy al trabajo en moto.", "it": "Vado al lavoro in moto.", "ru": "Я езжу на работу на мотоцикле.", "zh": "我骑摩托车去上班。", "zh_tr": "Wǒ qí mótuōchē qù shàngbān."}
     },
     {
-      "fr": "le bus", "en": "bus", "km": "ឡានក្រុង", "tr": "lan-krong", "pos": "nom",
+      "fr": "le bus", "en": "bus", "km": "ឡានក្រុង", "tr": "lan-krong",
+      "es": "el autobús", "it": "l'autobus", "ru": "автобус", "zh": "公共汽车", "zh_tr": "gōnggòng qìchē", "pos": "nom",
       "note": {
         "fr": "Mot à mot « voiture de ville ». Se dit aussi pour les cars qui relient les villes.",
         "en": "Word for word “town car”. Also used for coaches between cities. French « bus » is masculine and the s is pronounced.",
         "km": "« bus » ជានាមភេទប្រុស៖ le bus។ ក្នុងពាក្យនេះ ភាសាបារាំងអានអក្សរ s នៅចុងពាក្យ។ អង់គ្លេសសរសេរដូចគ្នា។"
       },
-      "example": {"fr": "Le bus pour Siem Reap part le matin.", "en": "The bus to Siem Reap leaves in the morning.", "km": "ឡានក្រុងទៅសៀមរាបចេញពេលព្រឹក។", "tr": "lan-krong teuv siem-réap tchégn pél preuk."}
+      "example": {"fr": "Le bus pour Siem Reap part le matin.", "en": "The bus to Siem Reap leaves in the morning.", "km": "ឡានក្រុងទៅសៀមរាបចេញពេលព្រឹក។", "tr": "lan-krong teuv siem-réap tchégn pél preuk.",
+      "es": "El autobús a Siem Reap sale por la mañana.", "it": "L'autobus per Siem Reap parte la mattina.", "ru": "Автобус в Сиемреап уходит утром.", "zh": "去暹粒的公共汽车早上出发。", "zh_tr": "Qù Xiānlì de gōnggòng qìchē zǎoshang chūfā."}
     },
     {
-      "fr": "la route", "en": "road", "km": "ផ្លូវ", "tr": "phleuv", "pos": "nom",
+      "fr": "la route", "en": "road", "km": "ផ្លូវ", "tr": "phleuv",
+      "es": "la carretera", "it": "la strada", "ru": "дорога", "zh": "路", "zh_tr": "lù", "pos": "nom",
       "note": {
         "fr": "ផ្លូវ signifie « route », « rue » et « chemin ». Les rues numérotées de Phnom Penh se disent ផ្លូវលេខ… (rue numéro…).",
         "en": "ផ្លូវ means “road”, “street” and “way”. Phnom Penh's numbered streets are ផ្លូវលេខ… (street number…). French « route » is feminine; « rue » is a street in town.",
         "km": "« route » ជានាមភេទស្រី៖ la route។ ផ្លូវក្នុងទីក្រុងហៅថា « la rue »។ អង់គ្លេស៖ « road » និង « street »។"
       },
-      "example": {"fr": "Il y a beaucoup de voitures sur cette route.", "en": "There are a lot of cars on this road.", "km": "ផ្លូវនេះមានឡានច្រើនណាស់។", "tr": "phleuv nih méan lan tchraeun nah."}
+      "example": {"fr": "Il y a beaucoup de voitures sur cette route.", "en": "There are a lot of cars on this road.", "km": "ផ្លូវនេះមានឡានច្រើនណាស់។", "tr": "phleuv nih méan lan tchraeun nah.",
+      "es": "Hay muchos coches en esta carretera.", "it": "Ci sono molte macchine su questa strada.", "ru": "На этой дороге много машин.", "zh": "这条路上有很多车。", "zh_tr": "Zhè tiáo lù shang yǒu hěn duō chē."}
     },
     {
-      "fr": "conduire", "en": "to drive", "km": "បើកបរ", "tr": "baeuk-bâ", "pos": "verbe",
+      "fr": "conduire", "en": "to drive", "km": "បើកបរ", "tr": "baeuk-bâ",
+      "es": "conducir", "it": "guidare", "ru": "водить машину", "zh": "开车", "zh_tr": "kāichē", "pos": "verbe",
       "note": {
         "fr": "បើក seul veut dire « ouvrir » et « conduire ». Au quotidien, on précise le véhicule : បើកឡាន, conduire une voiture ; pour une moto, on dit plutôt ជិះម៉ូតូ.",
         "en": "បើក alone means “to open” and “to drive”. In daily life, name the vehicle: បើកឡាន, drive a car; for a motorbike, people say ជិះម៉ូតូ. French « conduire »: je conduis.",
         "km": "« conduire »៖ je conduis, nous conduisons។ អង់គ្លេស៖ « drive » ហើយអតីតកាលគឺ « drove »។"
       },
-      "example": {"fr": "Je ne sais pas conduire.", "en": "I cannot drive.", "km": "ខ្ញុំមិនចេះបើកបរទេ។", "tr": "khgnom min tchéh baeuk-bâ té."}
+      "example": {"fr": "Je ne sais pas conduire.", "en": "I cannot drive.", "km": "ខ្ញុំមិនចេះបើកបរទេ។", "tr": "khgnom min tchéh baeuk-bâ té.",
+      "es": "No sé conducir.", "it": "Non so guidare.", "ru": "Я не умею водить машину.", "zh": "我不会开车。", "zh_tr": "Wǒ bú huì kāichē."}
     }
   ],
   "expressions": [
     {
       "fr": "C'est combien pour aller au marché ?", "en": "How much is it to go to the market?", "km": "ទៅផ្សារថ្លៃប៉ុន្មាន?", "tr": "teuv phsa thlay pon-man ?",
+      "es": "¿Cuánto cuesta ir al mercado?", "it": "Quanto costa andare al mercato?", "ru": "Сколько стоит доехать до рынка?", "zh": "去市场多少钱？", "zh_tr": "Qù shìchǎng duōshao qián?",
       "note": {
         "fr": "Pas besoin de « pour » : ទៅផ្សារ (aller au marché) + ថ្លៃប៉ុន្មាន (coûte combien). Mieux vaut fixer le prix avant de monter.",
         "en": "No “for” needed: ទៅផ្សារ (go to the market) + ថ្លៃប៉ុន្មាន (costs how much). Better to agree on the price before getting in.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Arrêtez-vous ici, s'il vous plaît.", "en": "Please stop here.", "km": "សូមឈប់ត្រង់នេះ។", "tr": "sôm tchhoup trâng nih.",
+      "es": "Pare aquí, por favor.", "it": "Si fermi qui, per favore.", "ru": "Остановитесь здесь, пожалуйста.", "zh": "请在这儿停一下。", "zh_tr": "Qǐng zài zhèr tíng yíxià.",
       "note": {
         "fr": "ឈប់ (tchhoup) = « s'arrêter » ; ត្រង់នេះ (trâng nih) = « juste ici ».",
         "en": "ឈប់ (tchhoup) = “to stop”; ត្រង់នេះ (trâng nih) = “right here”. French « Arrêtez-vous » is the polite form.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Roulez doucement, s'il vous plaît.", "en": "Please drive slowly.", "km": "សូមបើកយឺតៗ។", "tr": "sôm baeuk yeut-yeut.",
+      "es": "Vaya despacio, por favor.", "it": "Vada piano, per favore.", "ru": "Езжайте помедленнее, пожалуйста.", "zh": "请开慢一点儿。", "zh_tr": "Qǐng kāi màn yìdiǎnr.",
       "note": {
         "fr": "Le signe ៗ indique que le mot se répète : យឺតៗ se lit « yeut-yeut », « tout doucement ».",
         "en": "The sign ៗ means the word is repeated: យឺតៗ reads “yeut-yeut”, “nice and slowly”. French « doucement » means “gently, slowly”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Il y a beaucoup d'embouteillages.", "en": "There is a lot of traffic.", "km": "ស្ទះផ្លូវណាស់។", "tr": "stéah phleuv nah.",
+      "es": "Hay mucho tráfico.", "it": "C'è molto traffico.", "ru": "Большие пробки.", "zh": "堵车很厉害。", "zh_tr": "Dǔchē hěn lìhai.",
       "note": {
         "fr": "ស្ទះ (stéah) = « bouché ». ស្ទះផ្លូវ, « la route est bouchée », se dit tous les jours à Phnom Penh.",
         "en": "ស្ទះ (stéah) = “blocked”. ស្ទះផ្លូវ, “the road is blocked”, is heard every day in Phnom Penh. French « embouteillage » literally means “bottling”.",
@@ -103,17 +119,20 @@
     {
       "situation": {"fr": "En tuk-tuk", "en": "In a tuk-tuk", "km": "ពេលជិះតុកតុក"},
       "fr": "Arrêtez-vous devant la porte rouge, s'il vous plaît.", "en": "Please stop in front of the red door.",
-      "km": "សូមឈប់នៅមុខទ្វារក្រហម។", "tr": "sôm tchhoup neuv mouk tvéa krâ-hâm."
+      "km": "សូមឈប់នៅមុខទ្វារក្រហម។", "tr": "sôm tchhoup neuv mouk tvéa krâ-hâm.",
+      "es": "Pare delante de la puerta roja, por favor.", "it": "Si fermi davanti alla porta rossa, per favore.", "ru": "Остановитесь у красной двери, пожалуйста.", "zh": "请在红色的门前面停一下。", "zh_tr": "Qǐng zài hóngsè de mén qiánmiàn tíng yíxià."
     },
     {
       "situation": {"fr": "Parler de soi", "en": "Talking about yourself", "km": "និយាយអំពីខ្លួនឯង"},
       "fr": "Je ne sais pas conduire une voiture, mais je sais conduire une moto.", "en": "I cannot drive a car, but I can ride a motorbike.",
-      "km": "ខ្ញុំមិនចេះបើកឡានទេ ប៉ុន្តែខ្ញុំចេះជិះម៉ូតូ។", "tr": "khgnom min tchéh baeuk lan té, pon-taè khgnom tchéh tchih mô-tô."
+      "km": "ខ្ញុំមិនចេះបើកឡានទេ ប៉ុន្តែខ្ញុំចេះជិះម៉ូតូ។", "tr": "khgnom min tchéh baeuk lan té, pon-taè khgnom tchéh tchih mô-tô.",
+      "es": "No sé conducir un coche, pero sé llevar una moto.", "it": "Non so guidare la macchina, ma so guidare la moto.", "ru": "Я не умею водить машину, но умею ездить на мотоцикле.", "zh": "我不会开汽车，但是会骑摩托车。", "zh_tr": "Wǒ bú huì kāi qìchē, dànshì huì qí mótuōchē."
     },
     {
       "situation": {"fr": "Préparer un voyage", "en": "Preparing a trip", "km": "ពេលរៀបចំធ្វើដំណើរ"},
       "fr": "Demain, nous prenons le bus pour aller à Siem Reap.", "en": "Tomorrow, we are taking the bus to Siem Reap.",
-      "km": "ថ្ងៃស្អែក យើងជិះឡានក្រុងទៅសៀមរាប។", "tr": "thngay s'aèk, yeung tchih lan-krong teuv siem-réap."
+      "km": "ថ្ងៃស្អែក យើងជិះឡានក្រុងទៅសៀមរាប។", "tr": "thngay s'aèk, yeung tchih lan-krong teuv siem-réap.",
+      "es": "Mañana tomamos el autobús para ir a Siem Reap.", "it": "Domani prendiamo l'autobus per andare a Siem Reap.", "ru": "Завтра мы поедем в Сиемреап на автобусе.", "zh": "明天我们坐公共汽车去暹粒。", "zh_tr": "Míngtiān wǒmen zuò gōnggòng qìchē qù Xiānlì."
     }
   ],
   "dialogue": {
@@ -123,12 +142,18 @@
       "km": "លេងតួនៅតាមផ្លូវ៖ {A} បើកតុកតុក ហើយ {B} ចង់ទៅផ្សារ។"
     },
     "lines": [
-      {"speaker": "B", "fr": "Bonjour ! C'est combien pour aller au marché ?", "en": "Hello! How much is it to go to the market?", "km": "សួស្តី! ទៅផ្សារថ្លៃប៉ុន្មាន?", "tr": "souos-dey ! teuv phsa thlay pon-man ?"},
-      {"speaker": "A", "fr": "Huit mille riels.", "en": "Eight thousand riel.", "km": "ប្រាំបីពាន់រៀល។", "tr": "pram-bey poan riel."},
-      {"speaker": "B", "fr": "C'est très cher ! Six mille, d'accord ?", "en": "That is very expensive! Six thousand, okay?", "km": "ថ្លៃណាស់! ប្រាំមួយពាន់បានទេ?", "tr": "thlay nah ! pram-mouy poan ban té ?"},
-      {"speaker": "A", "fr": "D'accord, montez !", "en": "Okay, get in!", "km": "បាន ឡើងមក!", "tr": "ban, laeung mok !"},
-      {"speaker": "B", "fr": "Merci. Roulez doucement, s'il vous plaît, il y a beaucoup de voitures.", "en": "Thank you. Please drive slowly, there are a lot of cars.", "km": "អរគុណ។ សូមបើកយឺតៗ ឡានច្រើនណាស់។", "tr": "â-koun. sôm baeuk yeut-yeut, lan tchraeun nah."},
-      {"speaker": "A", "fr": "Oui, pas de problème, je roule doucement.", "en": "Yes, no problem, I drive slowly.", "km": "{A_yes} អត់អីទេ ខ្ញុំបើកយឺតៗ។", "tr": "{A_yes}, ât ey té, khgnom baeuk yeut-yeut."}
+      {"speaker": "B", "fr": "Bonjour ! C'est combien pour aller au marché ?", "en": "Hello! How much is it to go to the market?", "km": "សួស្តី! ទៅផ្សារថ្លៃប៉ុន្មាន?", "tr": "souos-dey ! teuv phsa thlay pon-man ?",
+        "es": "¡Hola! ¿Cuánto cuesta ir al mercado?", "it": "Buongiorno! Quanto costa andare al mercato?", "ru": "Здравствуйте! Сколько стоит доехать до рынка?", "zh": "你好！去市场多少钱？", "zh_tr": "Nǐ hǎo! Qù shìchǎng duōshao qián?"},
+      {"speaker": "A", "fr": "Huit mille riels.", "en": "Eight thousand riel.", "km": "ប្រាំបីពាន់រៀល។", "tr": "pram-bey poan riel.",
+        "es": "Ocho mil rieles.", "it": "Ottomila riel.", "ru": "Восемь тысяч риелей.", "zh": "八千瑞尔。", "zh_tr": "Bāqiān ruì'ěr."},
+      {"speaker": "B", "fr": "C'est très cher ! Six mille, d'accord ?", "en": "That is very expensive! Six thousand, okay?", "km": "ថ្លៃណាស់! ប្រាំមួយពាន់បានទេ?", "tr": "thlay nah ! pram-mouy poan ban té ?",
+        "es": "¡Es muy caro! Seis mil, ¿vale?", "it": "È molto caro! Seimila, va bene?", "ru": "Это очень дорого! Шесть тысяч, хорошо?", "zh": "太贵了！六千，可以吗？", "zh_tr": "Tài guì le! Liùqiān, kěyǐ ma?"},
+      {"speaker": "A", "fr": "D'accord, montez !", "en": "Okay, get in!", "km": "បាន ឡើងមក!", "tr": "ban, laeung mok !",
+        "es": "Vale, ¡suba!", "it": "D'accordo, salga!", "ru": "Ладно, садитесь!", "zh": "好吧，上车！", "zh_tr": "Hǎo ba, shàng chē!"},
+      {"speaker": "B", "fr": "Merci. Roulez doucement, s'il vous plaît, il y a beaucoup de voitures.", "en": "Thank you. Please drive slowly, there are a lot of cars.", "km": "អរគុណ។ សូមបើកយឺតៗ ឡានច្រើនណាស់។", "tr": "â-koun. sôm baeuk yeut-yeut, lan tchraeun nah.",
+        "es": "Gracias. Vaya despacio, por favor, hay muchos coches.", "it": "Grazie. Vada piano, per favore, ci sono molte macchine.", "ru": "Спасибо. Езжайте помедленнее, пожалуйста, машин много.", "zh": "谢谢。请开慢一点儿，车很多。", "zh_tr": "Xièxie. Qǐng kāi màn yìdiǎnr, chē hěn duō."},
+      {"speaker": "A", "fr": "Oui, pas de problème, je roule doucement.", "en": "Yes, no problem, I drive slowly.", "km": "{A_yes} អត់អីទេ ខ្ញុំបើកយឺតៗ។", "tr": "{A_yes}, ât ey té, khgnom baeuk yeut-yeut.",
+        "es": "Sí, no hay problema, voy despacio.", "it": "Sì, nessun problema, vado piano.", "ru": "Да, без проблем, я еду медленно.", "zh": "好，没问题，我开得很慢。", "zh_tr": "Hǎo, méi wèntí, wǒ kāi de hěn màn."}
     ]
   },
   "comprehension": {

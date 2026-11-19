@@ -1,7 +1,7 @@
 {
  "name": "FR - ENG - Khmer Learning",
  "short_name": "FR-ENG-KH",
- "description": "Leçons quotidiennes de français, d'anglais et de khmer.",
+ "description": "Leçons quotidiennes en français, anglais, khmer, espagnol, italien, russe et chinois.",
  "lang": "fr",
  "start_url": "index.html",
  "scope": "./",

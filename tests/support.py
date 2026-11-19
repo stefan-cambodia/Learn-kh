@@ -61,6 +61,10 @@ def fake_tts_config(extra: dict | None = None) -> dict:
             "fr": {"locale": "fr-FR", "provider": "command", "voice": "fake-fr", "fallback": None},
             "en": {"locale": "en-US", "provider": "command", "voice": "fake-en", "fallback": None},
             "km": {"locale": "km-KH", "provider": "command", "voice": "fake-km"},
+            "es": {"locale": "es-ES", "provider": "command", "voice": "fake-es", "fallback": None},
+            "it": {"locale": "it-IT", "provider": "command", "voice": "fake-it", "fallback": None},
+            "ru": {"locale": "ru-RU", "provider": "command", "voice": "fake-ru", "fallback": None},
+            "zh": {"locale": "zh-CN", "provider": "command", "voice": "fake-zh", "fallback": None},
         },
         "tts": {
             "retries": 1, "retry_backoff_seconds": 0,

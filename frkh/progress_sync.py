@@ -21,7 +21,7 @@ from pathlib import Path
 
 from .audio import wavutil
 
-KEY_RE = re.compile(r"^frkh-(done2-(fr|en|km)|days-(fr|en|km)|boxes-(fr|en|km)-(fr|en|km))$")
+KEY_RE = re.compile(r"^frkh-(done2-(fr|en|km)|days-(fr|en|km)|boxes-(fr|en|km)-(fr|en|km|es|it|ru|zh))$")
 # Anciens profils « A » (khmer) et « B » (français) : clés renommées au chargement.
 LEGACY_KEY_RE = re.compile(r"^(frkh-(?:done2|days|boxes))-([AB])((?:-(?:fr|en|km))?)$")
 LEGACY_PROFILES = {"A": "km", "B": "fr"}

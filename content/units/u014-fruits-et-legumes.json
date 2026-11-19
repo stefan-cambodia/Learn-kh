@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le fruit", "en": "fruit", "km": "ផ្លែឈើ", "tr": "phlaè-tchheu", "pos": "nom",
+      "fr": "le fruit", "en": "fruit", "km": "ផ្លែឈើ", "tr": "phlaè-tchheu",
+      "es": "la fruta", "it": "la frutta", "ru": "фрукт", "zh": "水果", "zh_tr": "shuǐguǒ", "pos": "nom",
       "note": {
         "fr": "Mot à mot « fruit d'arbre ». ផ្លែ (phlaè) seul se place souvent devant le nom du fruit : ផ្លែស្វាយ, la mangue.",
         "en": "Word for word “tree fruit”. ផ្លែ (phlaè) alone often goes before the name of a fruit: ផ្លែស្វាយ, mango. French « fruit » is masculine; the t is silent.",
         "km": "« fruit » ជានាមភេទប្រុស៖ un fruit, des fruits។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេសសរសេរដូចគ្នា។"
       },
-      "example": {"fr": "J'aime beaucoup les fruits.", "en": "I like fruit very much.", "km": "ខ្ញុំចូលចិត្តផ្លែឈើណាស់។", "tr": "khgnom tchôl tchet phlaè-tchheu nah."}
+      "example": {"fr": "J'aime beaucoup les fruits.", "en": "I like fruit very much.", "km": "ខ្ញុំចូលចិត្តផ្លែឈើណាស់។", "tr": "khgnom tchôl tchet phlaè-tchheu nah.",
+      "es": "Me gusta mucho la fruta.", "it": "Mi piace molto la frutta.", "ru": "Я очень люблю фрукты.", "zh": "我很喜欢水果。", "zh_tr": "Wǒ hěn xǐhuan shuǐguǒ."}
     },
     {
-      "fr": "le légume", "en": "vegetable", "km": "បន្លែ", "tr": "bân-laè", "pos": "nom",
+      "fr": "le légume", "en": "vegetable", "km": "បន្លែ", "tr": "bân-laè",
+      "es": "la verdura", "it": "la verdura", "ru": "овощ", "zh": "蔬菜", "zh_tr": "shūcài", "pos": "nom",
       "note": {
         "fr": "បន្លែ désigne tous les légumes. Il n'y a pas de pluriel en khmer : le contexte suffit.",
         "en": "បន្លែ covers all vegetables. Khmer has no plural: the context is enough. French « légume » is masculine: le légume.",
         "km": "« légume » ជានាមភេទប្រុស៖ un légume, des légumes។ អង់គ្លេស៖ « vegetable »។"
       },
-      "example": {"fr": "Je mange des légumes tous les jours.", "en": "I eat vegetables every day.", "km": "ខ្ញុំញ៉ាំបន្លែរាល់ថ្ងៃ។", "tr": "khgnom gnam bân-laè roal thngay."}
+      "example": {"fr": "Je mange des légumes tous les jours.", "en": "I eat vegetables every day.", "km": "ខ្ញុំញ៉ាំបន្លែរាល់ថ្ងៃ។", "tr": "khgnom gnam bân-laè roal thngay.",
+      "es": "Como verdura todos los días.", "it": "Mangio verdura tutti i giorni.", "ru": "Я ем овощи каждый день.", "zh": "我每天吃蔬菜。", "zh_tr": "Wǒ měitiān chī shūcài."}
     },
     {
-      "fr": "la mangue", "en": "mango", "km": "ស្វាយ", "tr": "svay", "pos": "nom",
+      "fr": "la mangue", "en": "mango", "km": "ស្វាយ", "tr": "svay",
+      "es": "el mango", "it": "il mango", "ru": "манго", "zh": "芒果", "zh_tr": "mángguǒ", "pos": "nom",
       "note": {
         "fr": "On distingue ស្វាយទុំ (svay toum), la mangue mûre, et ស្វាយខ្ចី (svay khtchey), la mangue verte que l'on mange avec du sel et du piment.",
         "en": "Khmer distinguishes ស្វាយទុំ (svay toum), the ripe mango, from ស្វាយខ្ចី (svay khtchey), the green mango eaten with salt and chilli. French « mangue » is feminine.",
         "km": "« mangue » ជានាមភេទស្រី៖ la mangue, une mangue។ អង់គ្លេស៖ « mango »។"
       },
-      "example": {"fr": "Cette mangue est très sucrée.", "en": "This mango is very sweet.", "km": "ស្វាយនេះផ្អែមណាស់។", "tr": "svay nih ph'aèm nah."}
+      "example": {"fr": "Cette mangue est très sucrée.", "en": "This mango is very sweet.", "km": "ស្វាយនេះផ្អែមណាស់។", "tr": "svay nih ph'aèm nah.",
+      "es": "Este mango es muy dulce.", "it": "Questo mango è molto dolce.", "ru": "Это манго очень сладкое.", "zh": "这个芒果很甜。", "zh_tr": "Zhège mángguǒ hěn tián."}
     },
     {
-      "fr": "la banane", "en": "banana", "km": "ចេក", "tr": "tchék", "pos": "nom",
+      "fr": "la banane", "en": "banana", "km": "ចេក", "tr": "tchék",
+      "es": "el plátano", "it": "la banana", "ru": "банан", "zh": "香蕉", "zh_tr": "xiāngjiāo", "pos": "nom",
       "note": {
         "fr": "Les bananes s'achètent par « main » : ចេកមួយស្និត (tchék mouy snet), une main de bananes.",
         "en": "Bananas are bought by the “hand”: ចេកមួយស្និត (tchék mouy snet), a hand of bananas. French « banane » is feminine.",
         "km": "« banane » ជានាមភេទស្រី៖ une banane។ ចេកមួយស្និតហៅថា « une main de bananes »។ អង់គ្លេស៖ « banana »។"
       },
-      "example": {"fr": "Je veux acheter une main de bananes.", "en": "I want to buy a bunch of bananas.", "km": "ខ្ញុំចង់ទិញចេកមួយស្និត។", "tr": "khgnom tchâng tign tchék mouy snet."}
+      "example": {"fr": "Je veux acheter une main de bananes.", "en": "I want to buy a bunch of bananas.", "km": "ខ្ញុំចង់ទិញចេកមួយស្និត។", "tr": "khgnom tchâng tign tchék mouy snet.",
+      "es": "Quiero comprar un racimo de plátanos.", "it": "Voglio comprare un casco di banane.", "ru": "Я хочу купить связку бананов.", "zh": "我想买一串香蕉。", "zh_tr": "Wǒ xiǎng mǎi yí chuàn xiāngjiāo."}
     },
     {
-      "fr": "la noix de coco", "en": "coconut", "km": "ដូង", "tr": "dông", "pos": "nom",
+      "fr": "la noix de coco", "en": "coconut", "km": "ដូង", "tr": "dông",
+      "es": "el coco", "it": "la noce di cocco", "ru": "кокос", "zh": "椰子", "zh_tr": "yēzi", "pos": "nom",
       "note": {
         "fr": "L'eau de coco, que l'on boit bien fraîche, se dit ទឹកដូង (teuk dông).",
         "en": "Coconut water, drunk nice and cold, is ទឹកដូង (teuk dông). In French, « noix de coco » means “coco nut”.",
         "km": "« noix de coco » ជានាមភេទស្រី៖ une noix de coco។ ទឹកដូងហៅថា « l'eau de coco »។ អង់គ្លេស៖ « coconut »។"
       },
-      "example": {"fr": "Je veux boire de l'eau de coco.", "en": "I want to drink coconut water.", "km": "ខ្ញុំចង់ផឹកទឹកដូង។", "tr": "khgnom tchâng pheuk teuk dông."}
+      "example": {"fr": "Je veux boire de l'eau de coco.", "en": "I want to drink coconut water.", "km": "ខ្ញុំចង់ផឹកទឹកដូង។", "tr": "khgnom tchâng pheuk teuk dông.",
+      "es": "Quiero beber agua de coco.", "it": "Voglio bere acqua di cocco.", "ru": "Я хочу выпить кокосовой воды.", "zh": "我想喝椰子水。", "zh_tr": "Wǒ xiǎng hē yēzi shuǐ."}
     },
     {
-      "fr": "frais", "en": "fresh", "km": "ស្រស់", "tr": "sroh", "pos": "adjectif",
+      "fr": "frais", "en": "fresh", "km": "ស្រស់", "tr": "sroh",
+      "es": "fresco", "it": "fresco", "ru": "свежий", "zh": "新鲜", "zh_tr": "xīnxiān", "pos": "adjectif",
       "note": {
         "fr": "L'adjectif se place après le nom : បន្លែស្រស់, « légumes frais ». Pour une boisson fraîche, on dit plutôt ត្រជាក់ (trâ-tchéak), « froid ».",
         "en": "The adjective goes after the noun: បន្លែស្រស់, “fresh vegetables”. For a cold drink, people say ត្រជាក់ (trâ-tchéak), “cold”. French « frais » becomes « fraîche » in the feminine.",
         "km": "« frais » សម្រាប់ភេទប្រុស និង « fraîche » សម្រាប់ភេទស្រី។ គុណនាមបារាំងច្រើននៅក្រោយនាម៖ des légumes frais។ អង់គ្លេស៖ « fresh »។"
       },
-      "example": {"fr": "Ces légumes sont très frais.", "en": "These vegetables are very fresh.", "km": "បន្លែនេះស្រស់ណាស់។", "tr": "bân-laè nih sroh nah."}
+      "example": {"fr": "Ces légumes sont très frais.", "en": "These vegetables are very fresh.", "km": "បន្លែនេះស្រស់ណាស់។", "tr": "bân-laè nih sroh nah.",
+      "es": "Estas verduras están muy frescas.", "it": "Queste verdure sono freschissime.", "ru": "Эти овощи очень свежие.", "zh": "这些蔬菜很新鲜。", "zh_tr": "Zhèxiē shūcài hěn xīnxiān."}
     }
   ],
   "expressions": [
     {
       "fr": "C'est sucré ?", "en": "Is it sweet?", "km": "ផ្អែមទេ?", "tr": "ph'aèm té ?",
+      "es": "¿Está dulce?", "it": "È dolce?", "ru": "Это сладкое?", "zh": "甜吗？", "zh_tr": "Tián ma?",
       "note": {
         "fr": "Pour poser une question fermée, on ajoute ទេ à la fin. On répond en reprenant le mot : ផ្អែម (oui) ou អត់ផ្អែមទេ (non).",
         "en": "For a yes/no question, add ទេ at the end. Answer by repeating the word: ផ្អែម (yes) or អត់ផ្អែមទេ (no). French « sucré » means “sweet”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Je peux goûter ?", "en": "Can I taste it?", "km": "សុំភ្លក់មើលបានទេ?", "tr": "som phlok meul ban té ?",
+      "es": "¿Puedo probar?", "it": "Posso assaggiare?", "ru": "Можно попробовать?", "zh": "我可以尝尝吗？", "zh_tr": "Wǒ kěyǐ chángchang ma?",
       "note": {
         "fr": "សុំ … បានទេ? = « puis-je… ? ». មើល (regarder) après un verbe ajoute l'idée d'essayer pour voir.",
         "en": "សុំ … បានទេ? = “may I…?”. មើល (to look) after a verb adds the idea of trying. French « goûter » means “to taste”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Un kilo de mangues, s'il vous plaît.", "en": "One kilo of mangoes, please.", "km": "សុំស្វាយមួយគីឡូ។", "tr": "som svay mouy ki-lô.",
+      "es": "Un kilo de mangos, por favor.", "it": "Un chilo di manghi, per favore.", "ru": "Килограмм манго, пожалуйста.", "zh": "请给我一公斤芒果。", "zh_tr": "Qǐng gěi wǒ yì gōngjīn mángguǒ.",
       "note": {
         "fr": "Ordre khmer : សុំ + la chose + la quantité. សុំ (som), « je demande », est plus courant à l'oral que សូម (sôm).",
         "en": "Khmer order: សុំ + the thing + the quantity. សុំ (som), “I ask”, is more common in speech than សូម (sôm). French says « un kilo de mangues », with « de ».",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Ce n'est pas encore mûr.", "en": "It is not ripe yet.", "km": "មិនទាន់ទុំទេ។", "tr": "min toan toum té.",
+      "es": "Todavía no está maduro.", "it": "Non è ancora maturo.", "ru": "Это ещё не созрело.", "zh": "还没熟。", "zh_tr": "Hái méi shú.",
       "note": {
         "fr": "មិនទាន់ … ទេ = « pas encore ». ទុំ (toum) = « mûr ».",
         "en": "មិនទាន់ … ទេ = “not yet”. ទុំ (toum) = “ripe”. French « pas encore » means “not yet”.",
@@ -103,17 +119,20 @@
     {
       "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
       "fr": "Aujourd'hui, les mangues sont très fraîches : cinq mille riels le kilo.", "en": "Today the mangoes are very fresh: five thousand riel a kilo.",
-      "km": "ថ្ងៃនេះស្វាយស្រស់ណាស់ មួយគីឡូប្រាំពាន់រៀល។", "tr": "thngay nih svay sroh nah, mouy ki-lô pram poan riel."
+      "km": "ថ្ងៃនេះស្វាយស្រស់ណាស់ មួយគីឡូប្រាំពាន់រៀល។", "tr": "thngay nih svay sroh nah, mouy ki-lô pram poan riel.",
+      "es": "Hoy los mangos están muy frescos: cinco mil rieles el kilo.", "it": "Oggi i manghi sono freschissimi: cinquemila riel al chilo.", "ru": "Сегодня манго очень свежие: пять тысяч риелей за килограмм.", "zh": "今天的芒果很新鲜：一公斤五千瑞尔。", "zh_tr": "Jīntiān de mángguǒ hěn xīnxiān: yì gōngjīn wǔqiān ruì'ěr."
     },
     {
       "situation": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
       "fr": "Il n'y a plus de bananes à la maison, je vais en acheter au marché.", "en": "There are no more bananas at home, I am going to buy some at the market.",
-      "km": "នៅផ្ទះអស់ចេកហើយ ខ្ញុំទៅទិញនៅផ្សារ។", "tr": "neuv phtéah âh tchék haeuy, khgnom teuv tign neuv phsa."
+      "km": "នៅផ្ទះអស់ចេកហើយ ខ្ញុំទៅទិញនៅផ្សារ។", "tr": "neuv phtéah âh tchék haeuy, khgnom teuv tign neuv phsa.",
+      "es": "Ya no quedan plátanos en casa, voy a comprar al mercado.", "it": "A casa non ci sono più banane, vado a comprarne al mercato.", "ru": "Дома больше нет бананов, я схожу купить их на рынке.", "zh": "家里没有香蕉了，我去市场买。", "zh_tr": "Jiāli méiyǒu xiāngjiāo le, wǒ qù shìchǎng mǎi."
     },
     {
       "situation": {"fr": "Parler de ses goûts", "en": "Talking about what you like", "km": "និយាយអំពីចំណូលចិត្ត"},
       "fr": "J'aime les mangues, mais je n'aime pas la noix de coco.", "en": "I like mangoes, but I do not like coconut.",
-      "km": "ខ្ញុំចូលចិត្តស្វាយ ប៉ុន្តែមិនចូលចិត្តដូងទេ។", "tr": "khgnom tchôl tchet svay, pon-taè min tchôl tchet dông té."
+      "km": "ខ្ញុំចូលចិត្តស្វាយ ប៉ុន្តែមិនចូលចិត្តដូងទេ។", "tr": "khgnom tchôl tchet svay, pon-taè min tchôl tchet dông té.",
+      "es": "Me gustan los mangos, pero no me gusta el coco.", "it": "Mi piacciono i manghi, ma non mi piace il cocco.", "ru": "Я люблю манго, но не люблю кокос.", "zh": "我喜欢芒果，但是不喜欢椰子。", "zh_tr": "Wǒ xǐhuan mángguǒ, dànshì bù xǐhuan yēzi."
     }
   ],
   "dialogue": {
@@ -123,12 +142,18 @@
       "km": "នៅផ្សារ {A} និង {B} រើសផ្លែឈើ។"
     },
     "lines": [
-      {"speaker": "B", "fr": "{A}, tu veux des mangues ou des bananes ?", "en": "{A}, do you want mangoes or bananas?", "km": "{A} ចង់បានស្វាយ ឬចេក?", "tr": "{A} tchâng ban svay reu tchék ?"},
-      {"speaker": "A", "fr": "Les deux ! J'aime beaucoup les fruits.", "en": "Both! I like fruit very much.", "km": "ទាំងពីរ! ខ្ញុំចូលចិត្តផ្លែឈើណាស់។", "tr": "téang pi ! khgnom tchôl tchet phlaè-tchheu nah."},
-      {"speaker": "B", "fr": "Ces mangues sont sucrées ?", "en": "Are these mangoes sweet?", "km": "ស្វាយនេះផ្អែមទេ?", "tr": "svay nih ph'aèm té ?"},
-      {"speaker": "A", "fr": "Oui, elles sont mûres et très sucrées.", "en": "Yes, they are ripe and very sweet.", "km": "{A_yes} ទុំហើយ ផ្អែមណាស់។", "tr": "{A_yes}, toum haeuy, ph'aèm nah."},
-      {"speaker": "B", "fr": "Alors on achète un kilo de mangues et une main de bananes.", "en": "Then let's buy one kilo of mangoes and a bunch of bananas.", "km": "អ៊ីចឹង យើងទិញស្វាយមួយគីឡូ និងចេកមួយស្និត។", "tr": "ey-tcheung, yeung tign svay mouy ki-lô ning tchék mouy snet."},
-      {"speaker": "A", "fr": "Et une noix de coco aussi ! J'ai soif.", "en": "And a coconut too! I am thirsty.", "km": "ហើយដូងមួយផ្លែទៀត! ខ្ញុំស្រេកទឹក។", "tr": "haeuy dông mouy phlaè tiet ! khgnom srék teuk."}
+      {"speaker": "B", "fr": "{A}, tu veux des mangues ou des bananes ?", "en": "{A}, do you want mangoes or bananas?", "km": "{A} ចង់បានស្វាយ ឬចេក?", "tr": "{A} tchâng ban svay reu tchék ?",
+        "es": "{A}, ¿quieres mangos o plátanos?", "it": "{A}, vuoi dei manghi o delle banane?", "ru": "{A}, ты хочешь манго или бананы?", "zh": "{A}，你要芒果还是香蕉？", "zh_tr": "{A}, nǐ yào mángguǒ háishi xiāngjiāo?"},
+      {"speaker": "A", "fr": "Les deux ! J'aime beaucoup les fruits.", "en": "Both! I like fruit very much.", "km": "ទាំងពីរ! ខ្ញុំចូលចិត្តផ្លែឈើណាស់។", "tr": "téang pi ! khgnom tchôl tchet phlaè-tchheu nah.",
+        "es": "¡Las dos cosas! Me gusta mucho la fruta.", "it": "Tutti e due! Mi piace molto la frutta.", "ru": "И то и другое! Я очень люблю фрукты.", "zh": "都要！我很喜欢水果。", "zh_tr": "Dōu yào! Wǒ hěn xǐhuan shuǐguǒ."},
+      {"speaker": "B", "fr": "Ces mangues sont sucrées ?", "en": "Are these mangoes sweet?", "km": "ស្វាយនេះផ្អែមទេ?", "tr": "svay nih ph'aèm té ?",
+        "es": "¿Estos mangos están dulces?", "it": "Questi manghi sono dolci?", "ru": "Эти манго сладкие?", "zh": "这些芒果甜吗？", "zh_tr": "Zhèxiē mángguǒ tián ma?"},
+      {"speaker": "A", "fr": "Oui, elles sont mûres et très sucrées.", "en": "Yes, they are ripe and very sweet.", "km": "{A_yes} ទុំហើយ ផ្អែមណាស់។", "tr": "{A_yes}, toum haeuy, ph'aèm nah.",
+        "es": "Sí, están maduros y muy dulces.", "it": "Sì, sono maturi e dolcissimi.", "ru": "Да, они спелые и очень сладкие.", "zh": "甜，都熟了，很甜。", "zh_tr": "Tián, dōu shú le, hěn tián."},
+      {"speaker": "B", "fr": "Alors on achète un kilo de mangues et une main de bananes.", "en": "Then let's buy one kilo of mangoes and a bunch of bananas.", "km": "អ៊ីចឹង យើងទិញស្វាយមួយគីឡូ និងចេកមួយស្និត។", "tr": "ey-tcheung, yeung tign svay mouy ki-lô ning tchék mouy snet.",
+        "es": "Entonces compramos un kilo de mangos y un racimo de plátanos.", "it": "Allora compriamo un chilo di manghi e un casco di banane.", "ru": "Тогда купим килограмм манго и связку бананов.", "zh": "那我们买一公斤芒果和一串香蕉吧。", "zh_tr": "Nà wǒmen mǎi yì gōngjīn mángguǒ hé yí chuàn xiāngjiāo ba."},
+      {"speaker": "A", "fr": "Et une noix de coco aussi ! J'ai soif.", "en": "And a coconut too! I am thirsty.", "km": "ហើយដូងមួយផ្លែទៀត! ខ្ញុំស្រេកទឹក។", "tr": "haeuy dông mouy phlaè tiet ! khgnom srék teuk.",
+        "es": "¡Y un coco también! Tengo sed.", "it": "E anche una noce di cocco! Ho sete.", "ru": "И ещё кокос! Я хочу пить.", "zh": "再买一个椰子！我渴了。", "zh_tr": "Zài mǎi yí ge yēzi! Wǒ kě le."}
     ]
   },
   "comprehension": {

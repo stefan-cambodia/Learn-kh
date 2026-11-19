@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "triste", "en": "sad", "km": "សោកសៅ", "tr": "saok-sav", "pos": "adjectif",
+      "fr": "triste", "en": "sad", "km": "សោកសៅ", "tr": "saok-sav",
+      "es": "triste", "it": "triste", "ru": "грустный", "zh": "难过", "zh_tr": "nánguò", "pos": "adjectif",
       "note": {
         "fr": "សោកសៅ est le mot juste mais un peu soutenu. À l'oral, on dit souvent ពិបាកចិត្ត (pi-bak tchet), « cœur en difficulté ».",
         "en": "សោកសៅ is the right word but rather formal. In speech, people often say ពិបាកចិត្ត (pi-bak tchet), “troubled heart”. French « triste » is the same for men and women.",
         "km": "« triste » មិនប្តូរតាមភេទទេ៖ il est triste, elle est triste។ អង់គ្លេស៖ « sad »។"
       },
-      "example": {"fr": "Ce film est triste.", "en": "This film is sad.", "km": "រឿងនេះគួរឱ្យសោកសៅ។", "tr": "reuang nih kouo aoy saok-sav."}
+      "example": {"fr": "Ce film est triste.", "en": "This film is sad.", "km": "រឿងនេះគួរឱ្យសោកសៅ។", "tr": "reuang nih kouo aoy saok-sav.",
+      "es": "Esta película es triste.", "it": "Questo film è triste.", "ru": "Этот фильм грустный.", "zh": "这部电影很让人难过。", "zh_tr": "Zhè bù diànyǐng hěn ràng rén nánguò."}
     },
     {
-      "fr": "en colère", "en": "angry", "km": "ខឹង", "tr": "kheung", "pos": "adjectif",
+      "fr": "en colère", "en": "angry", "km": "ខឹង", "tr": "kheung",
+      "es": "enfadado", "it": "arrabbiato", "ru": "сердитый", "zh": "生气", "zh_tr": "shēngqì", "pos": "adjectif",
       "note": {
         "fr": "ខឹង s'emploie seul, comme un verbe : ខ្ញុំខឹង, je suis en colère. Pour dire contre qui : ខឹងនឹង, en colère contre.",
         "en": "ខឹង is used alone, like a verb: ខ្ញុំខឹង, I am angry. To say at whom: ខឹងនឹង, angry with. French « être en colère contre » means “angry with”.",
         "km": "« être en colère » មានន័យថា ខឹង។ « contre » មានន័យថា នឹង៖ en colère contre moi។ អង់គ្លេស៖ « angry »។"
       },
-      "example": {"fr": "Pourquoi tu es en colère ?", "en": "Why are you angry?", "km": "ហេតុអ្វីខឹង?", "tr": "haèt ey kheung ?"}
+      "example": {"fr": "Pourquoi tu es en colère ?", "en": "Why are you angry?", "km": "ហេតុអ្វីខឹង?", "tr": "haèt ey kheung ?",
+      "es": "¿Por qué estás enfadado?", "it": "Perché sei arrabbiato?", "ru": "Почему ты сердишься?", "zh": "你为什么生气？", "zh_tr": "Nǐ wèishénme shēngqì?"}
     },
     {
-      "fr": "avoir peur", "en": "to be afraid", "km": "ខ្លាច", "tr": "khlatch", "pos": "verbe",
+      "fr": "avoir peur", "en": "to be afraid", "km": "ខ្លាច", "tr": "khlatch",
+      "es": "tener miedo", "it": "avere paura", "ru": "бояться", "zh": "害怕", "zh_tr": "hàipà", "pos": "verbe",
       "note": {
         "fr": "ខ្លាច se met directement devant ce qui fait peur : ខ្លាចឆ្កែ, avoir peur des chiens ; ខ្លាចយឺត, avoir peur d'être en retard.",
         "en": "ខ្លាច goes straight before what is scary: ខ្លាចឆ្កែ, afraid of dogs; ខ្លាចយឺត, afraid of being late. French uses « avoir »: j'ai peur des chiens.",
         "km": "« avoir peur de » + នាម៖ j'ai peur des chiens។ « la peur » មានន័យថា ការភ័យខ្លាច។ អង់គ្លេស៖ « to be afraid of »។"
       },
-      "example": {"fr": "Mon enfant a peur des chiens.", "en": "My child is afraid of dogs.", "km": "កូនខ្ញុំខ្លាចឆ្កែ។", "tr": "kôn khgnom khlatch tchhkaè."}
+      "example": {"fr": "Mon enfant a peur des chiens.", "en": "My child is afraid of dogs.", "km": "កូនខ្ញុំខ្លាចឆ្កែ។", "tr": "kôn khgnom khlatch tchhkaè.",
+      "es": "Mi hijo tiene miedo de los perros.", "it": "Mio figlio ha paura dei cani.", "ru": "Мой ребёнок боится собак.", "zh": "我的孩子怕狗。", "zh_tr": "Wǒ de háizi pà gǒu."}
     },
     {
-      "fr": "surpris", "en": "surprised", "km": "ភ្ញាក់ផ្អើល", "tr": "phgnéak ph'aeul", "pos": "adjectif",
+      "fr": "surpris", "en": "surprised", "km": "ភ្ញាក់ផ្អើល", "tr": "phgnéak ph'aeul",
+      "es": "sorprendido", "it": "sorpreso", "ru": "удивлённый", "zh": "惊讶", "zh_tr": "jīngyà", "pos": "adjectif",
       "note": {
         "fr": "ភ្ញាក់ (phgnéak) veut aussi dire « se réveiller » : la surprise est un « réveil brusque ».",
         "en": "ភ្ញាក់ (phgnéak) also means “to wake up”: surprise is a “sudden waking”. French « surpris » becomes « surprise » in the feminine.",
         "km": "« surpris » សម្រាប់ភេទប្រុស និង « surprise » សម្រាប់ភេទស្រី។ « une surprise » ក៏មានន័យថា របស់ ឬរឿងដែលគេមិនបានដឹងមុន។ អង់គ្លេស៖ « surprised »។"
       },
-      "example": {"fr": "Tout le monde est surpris.", "en": "Everyone is surprised.", "km": "គ្រប់គ្នាភ្ញាក់ផ្អើល។", "tr": "kroup knéa phgnéak ph'aeul."}
+      "example": {"fr": "Tout le monde est surpris.", "en": "Everyone is surprised.", "km": "គ្រប់គ្នាភ្ញាក់ផ្អើល។", "tr": "kroup knéa phgnéak ph'aeul.",
+      "es": "Todo el mundo está sorprendido.", "it": "Tutti sono sorpresi.", "ru": "Все удивлены.", "zh": "大家都很惊讶。", "zh_tr": "Dàjiā dōu hěn jīngyà."}
     },
     {
-      "fr": "s'ennuyer", "en": "to be bored", "km": "ធុញ", "tr": "thougn", "pos": "verbe",
+      "fr": "s'ennuyer", "en": "to be bored", "km": "ធុញ", "tr": "thougn",
+      "es": "aburrirse", "it": "annoiarsi", "ru": "скучать", "zh": "无聊", "zh_tr": "wúliáo", "pos": "verbe",
       "note": {
         "fr": "ធុញ veut dire « s'ennuyer » et aussi « en avoir assez » : ធុញហើយ, j'en ai marre.",
         "en": "ធុញ means “to be bored” and also “to be fed up”: ធុញហើយ, I've had enough. French « s'ennuyer »: je m'ennuie.",
         "km": "« s'ennuyer » ជាកិរិយាសព្ទឆ្លុះ៖ je m'ennuie, tu t'ennuies។ អង់គ្លេស៖ « to be bored »។"
       },
-      "example": {"fr": "Le dimanche, les enfants s'ennuient à la maison.", "en": "On Sundays, the children get bored at home.", "km": "ថ្ងៃអាទិត្យ ក្មេងៗធុញនៅផ្ទះ។", "tr": "thngay a-teut, kméng-kméng thougn neuv phtéah."}
+      "example": {"fr": "Le dimanche, les enfants s'ennuient à la maison.", "en": "On Sundays, the children get bored at home.", "km": "ថ្ងៃអាទិត្យ ក្មេងៗធុញនៅផ្ទះ។", "tr": "thngay a-teut, kméng-kméng thougn neuv phtéah.",
+      "es": "Los domingos, los niños se aburren en casa.", "it": "La domenica i bambini si annoiano a casa.", "ru": "По воскресеньям дети скучают дома.", "zh": "星期天孩子们在家很无聊。", "zh_tr": "Xīngqītiān háizimen zài jiā hěn wúliáo."}
     },
     {
-      "fr": "pleurer", "en": "to cry", "km": "យំ", "tr": "youm", "pos": "verbe",
+      "fr": "pleurer", "en": "to cry", "km": "យំ", "tr": "youm",
+      "es": "llorar", "it": "piangere", "ru": "плакать", "zh": "哭", "zh_tr": "kū", "pos": "verbe",
       "note": {
         "fr": "យំ sert aussi pour le cri des animaux : សត្វស្លាបយំ, les oiseaux chantent.",
         "en": "យំ is also used for animal calls: សត្វស្លាបយំ, the birds are singing. French « pleurer »: il pleure.",
         "km": "« pleurer »៖ je pleure, il pleure។ « les larmes » មានន័យថា ទឹកភ្នែក។ អង់គ្លេស៖ « to cry »។"
       },
-      "example": {"fr": "Le bébé pleure parce qu'il a faim.", "en": "The baby is crying because he is hungry.", "km": "កូនង៉ែតយំ ព្រោះវាឃ្លាន។", "tr": "kôn ngaèt youm, prouh véa khléan."}
+      "example": {"fr": "Le bébé pleure parce qu'il a faim.", "en": "The baby is crying because he is hungry.", "km": "កូនង៉ែតយំ ព្រោះវាឃ្លាន។", "tr": "kôn ngaèt youm, prouh véa khléan.",
+      "es": "El bebé llora porque tiene hambre.", "it": "Il bambino piange perché ha fame.", "ru": "Малыш плачет, потому что хочет есть.", "zh": "宝宝饿了，所以在哭。", "zh_tr": "Bǎobao è le, suǒyǐ zài kū."}
     }
   ],
   "expressions": [
     {
       "fr": "Pourquoi tu fais cette tête ?", "en": "Why the long face?", "km": "ម៉េចក៏មុខក្រញូវអញ្ចឹង?", "tr": "métch kâ mouk krâ-gnouv agn-tcheung ?",
+      "es": "¿Por qué pones esa cara?", "it": "Perché fai quella faccia?", "ru": "Что ты такой грустный?", "zh": "你怎么不高兴？", "zh_tr": "Nǐ zěnme bù gāoxìng?",
       "note": {
         "fr": "ក្រញូវ (krâ-gnouv), « froncé ». Mot à mot « pourquoi ce visage froncé comme ça ? ».",
         "en": "ក្រញូវ (krâ-gnouv), “frowning”. Word for word “why the frowning face like that?”. French « faire une tête » means “to pull a face”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Calme-toi.", "en": "Calm down.", "km": "ត្រជាក់ចិត្តសិន។", "tr": "trâ-tchéak tchet sen.",
+      "es": "Tranquilízate.", "it": "Calmati.", "ru": "Успокойся.", "zh": "冷静一点儿。", "zh_tr": "Lěngjìng yìdiǎnr.",
       "note": {
         "fr": "Mot à mot « refroidis ton cœur d'abord ». En khmer, le calme est « froid » et la colère est « chaude » : ក្តៅចិត្ត.",
         "en": "Word for word “cool your heart first”. In Khmer, calm is “cold” and anger is “hot”: ក្តៅចិត្ត. French « Calme-toi » is familiar.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Ce n'est pas grave.", "en": "It's not a big deal.", "km": "មិនអីទេ។", "tr": "min ey té.",
+      "es": "No pasa nada.", "it": "Non è grave.", "ru": "Ничего страшного.", "zh": "没关系。", "zh_tr": "Méi guānxi.",
       "note": {
         "fr": "Réponse passe-partout pour rassurer ou accepter des excuses. Se dit aussi pour « de rien ».",
         "en": "An all-purpose answer to reassure or accept an apology. Also used for “you're welcome”. French « Ce n'est pas grave » is very common.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Je ne l'ai pas fait exprès.", "en": "I didn't do it on purpose.", "km": "ខ្ញុំមិនចេតនាទេ។", "tr": "khgnom min tchét-ta-na té.",
+      "es": "No lo he hecho a propósito.", "it": "Non l'ho fatto apposta.", "ru": "Я не нарочно.", "zh": "我不是故意的。", "zh_tr": "Wǒ bú shì gùyì de.",
       "note": {
         "fr": "ចេតនា (tchét-ta-na), « l'intention », vient du pali. On le fait souvent précéder de សុំទោស, pardon.",
         "en": "ចេតនា (tchét-ta-na), “intention”, comes from Pali. It is often preceded by សុំទោស, sorry. French « exprès » means “on purpose”.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Au cinéma", "en": "At the cinema", "km": "នៅរោងកុន"},
       "fr": "Ce film est très triste, j'ai pleuré à la fin.", "en": "This film is very sad, I cried at the end.",
-      "km": "រឿងនេះគួរឱ្យសោកសៅណាស់ ខ្ញុំយំនៅចុងបញ្ចប់។", "tr": "reuang nih kouo aoy saok-sav nah, khgnom youm neuv tchong bagn-tchâp."
+      "km": "រឿងនេះគួរឱ្យសោកសៅណាស់ ខ្ញុំយំនៅចុងបញ្ចប់។", "tr": "reuang nih kouo aoy saok-sav nah, khgnom youm neuv tchong bagn-tchâp.",
+      "es": "Esta película es muy triste, lloré al final.", "it": "Questo film è molto triste, alla fine ho pianto.", "ru": "Этот фильм очень грустный, в конце я плакал.", "zh": "这部电影很让人难过，最后我哭了。", "zh_tr": "Zhè bù diànyǐng hěn ràng rén nánguò, zuìhòu wǒ kū le."
     },
     {
       "situation": {"fr": "Dans un embouteillage", "en": "In a traffic jam", "km": "ពេលស្ទះផ្លូវ"},
       "fr": "Ne te mets pas en colère, nous ne sommes pas encore en retard.", "en": "Don't get angry, we are not late yet.",
-      "km": "កុំខឹងអី យើងមិនទាន់យឺតទេ។", "tr": "kom kheung ey, yeung min toan yeut té."
+      "km": "កុំខឹងអី យើងមិនទាន់យឺតទេ។", "tr": "kom kheung ey, yeung min toan yeut té.",
+      "es": "No te enfades, todavía no llegamos tarde.", "it": "Non arrabbiarti, non siamo ancora in ritardo.", "ru": "Не сердись, мы ещё не опаздываем.", "zh": "别生气，我们还没迟到。", "zh_tr": "Bié shēngqì, wǒmen hái méi chídào."
     },
     {
       "situation": {"fr": "Une fête surprise", "en": "A surprise party", "km": "ពិធីជប់លៀងភ្ញាក់ផ្អើល"},
       "fr": "Quand tout le monde a crié joyeux anniversaire, quelle surprise !", "en": "When everyone shouted happy birthday, what a surprise!",
-      "km": "ពេលគ្រប់គ្នាស្រែកថា រីករាយថ្ងៃកំណើត ខ្ញុំភ្ញាក់ផ្អើលណាស់។", "tr": "pél kroup knéa sraèk tha rik-réay thngay kâm-naeut, khgnom phgnéak ph'aeul nah."
+      "km": "ពេលគ្រប់គ្នាស្រែកថា រីករាយថ្ងៃកំណើត ខ្ញុំភ្ញាក់ផ្អើលណាស់។", "tr": "pél kroup knéa sraèk tha rik-réay thngay kâm-naeut, khgnom phgnéak ph'aeul nah.",
+      "es": "Cuando todos gritaron feliz cumpleaños, ¡qué sorpresa!", "it": "Quando tutti hanno gridato buon compleanno, che sorpresa!", "ru": "Когда все закричали «С днём рождения!», вот это был сюрприз!", "zh": "大家一起喊生日快乐的时候，真是个惊喜！", "zh_tr": "Dàjiā yìqǐ hǎn shēngrì kuàilè de shíhou, zhēn shì ge jīngxǐ!"
     }
   ],
   "dialogue": {
     "setting": {"fr": "Le matin, devant la maison.", "en": "In the morning, in front of the house.", "km": "ពេលព្រឹក នៅមុខផ្ទះ។"},
     "lines": [
-      {"speaker": "A", "fr": "Pourquoi tu fais cette tête ?", "en": "Why the long face?", "km": "ម៉េចក៏មុខក្រញូវអញ្ចឹង?", "tr": "métch kâ mouk krâ-gnouv agn-tcheung ?"},
-      {"speaker": "B", "fr": "Je suis en colère. Le mécanicien n'a pas encore réparé la moto.", "en": "I'm angry. The mechanic hasn't repaired the motorbike yet.", "km": "ខ្ញុំខឹង។ ជាងមិនទាន់ជួសជុលម៉ូតូទេ។", "tr": "khgnom kheung. tchéang min toan tchouoh-tchoul mô-tô té."},
-      {"speaker": "A", "fr": "Calme-toi. Ce n'est pas grave, on peut prendre un tuk-tuk.", "en": "Calm down. It's not a big deal, we can take a tuk-tuk.", "km": "ត្រជាក់ចិត្តសិន។ មិនអីទេ យើងជិះតុកតុកបាន។", "tr": "trâ-tchéak tchet sen. min ey té, yeung tchih tok-tok ban."},
-      {"speaker": "B", "fr": "Tu as raison. Mais j'ai peur d'être en retard au travail.", "en": "You're right. But I'm afraid of being late for work.", "km": "និយាយត្រូវ។ ប៉ុន្តែខ្ញុំខ្លាចយឺតទៅធ្វើការ។", "tr": "ni-yéay treuv. pon-taè khgnom khlatch yeut teuv thveu-ka."},
-      {"speaker": "A", "fr": "Mais non, il est seulement sept heures.", "en": "No, it's only seven o'clock.", "km": "អត់ទេ ទើបតែម៉ោងប្រាំពីរទេ។", "tr": "ât té, teup-taè maong pram-pi té."},
-      {"speaker": "B", "fr": "Ah bon ? Alors ça va, je me calme.", "en": "Really? Then it's fine, I'll calm down.", "km": "មែនឬ? អញ្ចឹងមិនអីទេ ខ្ញុំត្រជាក់ចិត្តវិញហើយ។", "tr": "mèn reu ? agn-tcheung min ey té, khgnom trâ-tchéak tchet vign haeuy."}
+      {"speaker": "A", "fr": "Pourquoi tu fais cette tête ?", "en": "Why the long face?", "km": "ម៉េចក៏មុខក្រញូវអញ្ចឹង?", "tr": "métch kâ mouk krâ-gnouv agn-tcheung ?",
+        "es": "¿Por qué pones esa cara?", "it": "Perché fai quella faccia?", "ru": "Что ты такой грустный?", "zh": "你怎么不高兴？", "zh_tr": "Nǐ zěnme bù gāoxìng?"},
+      {"speaker": "B", "fr": "Je suis en colère. Le mécanicien n'a pas encore réparé la moto.", "en": "I'm angry. The mechanic hasn't repaired the motorbike yet.", "km": "ខ្ញុំខឹង។ ជាងមិនទាន់ជួសជុលម៉ូតូទេ។", "tr": "khgnom kheung. tchéang min toan tchouoh-tchoul mô-tô té.",
+        "es": "Estoy enfadado. El mecánico todavía no ha arreglado la moto.", "it": "Sono arrabbiato. Il meccanico non ha ancora riparato la moto.", "ru": "Я злюсь. Механик ещё не починил мотоцикл.", "zh": "我很生气。修理工还没修好摩托车。", "zh_tr": "Wǒ hěn shēngqì. Xiūlǐgōng hái méi xiū hǎo mótuōchē."},
+      {"speaker": "A", "fr": "Calme-toi. Ce n'est pas grave, on peut prendre un tuk-tuk.", "en": "Calm down. It's not a big deal, we can take a tuk-tuk.", "km": "ត្រជាក់ចិត្តសិន។ មិនអីទេ យើងជិះតុកតុកបាន។", "tr": "trâ-tchéak tchet sen. min ey té, yeung tchih tok-tok ban.",
+        "es": "Tranquilízate. No pasa nada, podemos coger un tuk-tuk.", "it": "Calmati. Non è grave, possiamo prendere un tuk-tuk.", "ru": "Успокойся. Ничего страшного, можно поехать на тук-туке.", "zh": "冷静一点儿。没关系，我们可以坐嘟嘟车。", "zh_tr": "Lěngjìng yìdiǎnr. Méi guānxi, wǒmen kěyǐ zuò dūdū chē."},
+      {"speaker": "B", "fr": "Tu as raison. Mais j'ai peur d'être en retard au travail.", "en": "You're right. But I'm afraid of being late for work.", "km": "និយាយត្រូវ។ ប៉ុន្តែខ្ញុំខ្លាចយឺតទៅធ្វើការ។", "tr": "ni-yéay treuv. pon-taè khgnom khlatch yeut teuv thveu-ka.",
+        "es": "Tienes razón. Pero tengo miedo de llegar tarde al trabajo.", "it": "Hai ragione. Ma ho paura di arrivare in ritardo al lavoro.", "ru": "Ты права. Но я боюсь опоздать на работу.", "zh": "你说得对。可是我怕上班迟到。", "zh_tr": "Nǐ shuō de duì. Kěshì wǒ pà shàngbān chídào."},
+      {"speaker": "A", "fr": "Mais non, il est seulement sept heures.", "en": "No, it's only seven o'clock.", "km": "អត់ទេ ទើបតែម៉ោងប្រាំពីរទេ។", "tr": "ât té, teup-taè maong pram-pi té.",
+        "es": "Que no, solo son las siete.", "it": "Ma no, sono solo le sette.", "ru": "Да нет, сейчас только семь часов.", "zh": "不会的，现在才七点。", "zh_tr": "Bú huì de, xiànzài cái qī diǎn."},
+      {"speaker": "B", "fr": "Ah bon ? Alors ça va, je me calme.", "en": "Really? Then it's fine, I'll calm down.", "km": "មែនឬ? អញ្ចឹងមិនអីទេ ខ្ញុំត្រជាក់ចិត្តវិញហើយ។", "tr": "mèn reu ? agn-tcheung min ey té, khgnom trâ-tchéak tchet vign haeuy.",
+        "es": "¿Ah, sí? Entonces está bien, ya me tranquilizo.", "it": "Ah, sì? Allora va bene, mi calmo.", "ru": "Правда? Тогда всё в порядке, я успокаиваюсь.", "zh": "是吗？那就好，我不急了。", "zh_tr": "Shì ma? Nà jiù hǎo, wǒ bù jí le."}
     ]
   },
   "comprehension": {

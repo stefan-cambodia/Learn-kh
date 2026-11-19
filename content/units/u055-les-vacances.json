@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "les vacances", "en": "holidays", "km": "វិស្សមកាល", "tr": "vih-sâ-mâ-kal", "pos": "nom",
+      "fr": "les vacances", "en": "holidays", "km": "វិស្សមកាល", "tr": "vih-sâ-mâ-kal",
+      "es": "las vacaciones", "it": "le vacanze", "ru": "отпуск", "zh": "假期", "zh_tr": "jiàqī", "pos": "nom",
       "note": {
         "fr": "Mot savant, employé pour les vacances scolaires ou les congés. À l'oral, on dit plutôt ថ្ងៃឈប់សម្រាក, « jours de repos ».",
         "en": "A learned word, used for school holidays or leave. In speech, people say ថ្ងៃឈប់សម្រាក, “days off”. French « vacances » is feminine plural.",
         "km": "« vacances » ជានាមភេទស្រី ហើយតែងតែជាពហុវចនៈ៖ les vacances។ អង់គ្លេស៖ « holidays »។"
       },
-      "example": {"fr": "Les vacances commencent demain.", "en": "The holidays start tomorrow.", "km": "វិស្សមកាលចាប់ផ្តើមថ្ងៃស្អែក។", "tr": "vih-sâ-mâ-kal tchap phdaeum thngay s'aèk."}
+      "example": {"fr": "Les vacances commencent demain.", "en": "The holidays start tomorrow.", "km": "វិស្សមកាលចាប់ផ្តើមថ្ងៃស្អែក។", "tr": "vih-sâ-mâ-kal tchap phdaeum thngay s'aèk.",
+      "es": "Las vacaciones empiezan mañana.", "it": "Le vacanze cominciano domani.", "ru": "Отпуск начинается завтра.", "zh": "假期明天开始。", "zh_tr": "Jiàqī míngtiān kāishǐ."}
     },
     {
-      "fr": "visiter", "en": "to visit", "km": "ទស្សនា", "tr": "tos-sâ-na", "pos": "verbe",
+      "fr": "visiter", "en": "to visit", "km": "ទស្សនា", "tr": "tos-sâ-na",
+      "es": "visitar", "it": "visitare", "ru": "посещать", "zh": "参观", "zh_tr": "cānguān", "pos": "verbe",
       "note": {
         "fr": "ទស្សនា s'emploie pour un lieu : un temple, un musée. Pour rendre visite à quelqu'un, on dit ទៅលេង : ទៅលេងយាយ, « aller voir grand-mère ».",
         "en": "ទស្សនា is used for a place: a temple, a museum. To visit a person, say ទៅលេង: ទៅលេងយាយ, “go and see grandma”. French « visiter » is for places; for people, « rendre visite à ».",
         "km": "« visiter » ប្រើសម្រាប់ទីកន្លែង។ ចំពោះមនុស្ស គេនិយាយ « rendre visite à »។ អង់គ្លេស៖ « to visit »។"
       },
-      "example": {"fr": "Nous visitons le musée ce matin.", "en": "We are visiting the museum this morning.", "km": "ព្រឹកនេះ យើងទស្សនាសារមន្ទីរ។", "tr": "preuk nih, yeung tos-sâ-na sa-ra-mon-ti."}
+      "example": {"fr": "Nous visitons le musée ce matin.", "en": "We are visiting the museum this morning.", "km": "ព្រឹកនេះ យើងទស្សនាសារមន្ទីរ។", "tr": "preuk nih, yeung tos-sâ-na sa-ra-mon-ti.",
+      "es": "Esta mañana visitamos el museo.", "it": "Stamattina visitiamo il museo.", "ru": "Сегодня утром мы идём в музей.", "zh": "今天上午我们参观博物馆。", "zh_tr": "Jīntiān shàngwǔ wǒmen cānguān bówùguǎn."}
     },
     {
-      "fr": "le touriste", "en": "tourist", "km": "ភ្ញៀវទេសចរ", "tr": "phgnieu tés-sâ-tâ", "pos": "nom",
+      "fr": "le touriste", "en": "tourist", "km": "ភ្ញៀវទេសចរ", "tr": "phgnieu tés-sâ-tâ",
+      "es": "el turista", "it": "il turista", "ru": "турист", "zh": "游客", "zh_tr": "yóukè", "pos": "nom",
       "note": {
         "fr": "Mot à mot « invité voyageur ». ទេសចរណ៍ (tés-sâ-tâ), écrit avec ណ៍, désigne le tourisme.",
         "en": "Word for word “travelling guest”. ទេសចរណ៍, written with ណ៍, is tourism. French « touriste » is the same for men and women.",
         "km": "« touriste » ប្រើទាំងប្រុស និងស្រី៖ un touriste, une touriste។ អង់គ្លេស៖ « tourist »។"
       },
-      "example": {"fr": "Il y a beaucoup de touristes en décembre.", "en": "There are lots of tourists in December.", "km": "នៅខែធ្នូ មានភ្ញៀវទេសចរច្រើន។", "tr": "neuv khaè thnou, méan phgnieu tés-sâ-tâ tchraeun."}
+      "example": {"fr": "Il y a beaucoup de touristes en décembre.", "en": "There are lots of tourists in December.", "km": "នៅខែធ្នូ មានភ្ញៀវទេសចរច្រើន។", "tr": "neuv khaè thnou, méan phgnieu tés-sâ-tâ tchraeun.",
+      "es": "En diciembre hay muchos turistas.", "it": "A dicembre ci sono molti turisti.", "ru": "В декабре много туристов.", "zh": "十二月游客很多。", "zh_tr": "Shí'èryuè yóukè hěn duō."}
     },
     {
-      "fr": "le plan", "en": "map", "km": "ផែនទី", "tr": "phaèn-ti", "pos": "nom",
+      "fr": "le plan", "en": "map", "km": "ផែនទី", "tr": "phaèn-ti",
+      "es": "el plano", "it": "la mappa", "ru": "карта", "zh": "地图", "zh_tr": "dìtú", "pos": "nom",
       "note": {
         "fr": "ផែនទី sert pour une carte comme pour le plan d'une ville. Aujourd'hui, on le regarde surtout sur son téléphone.",
         "en": "ផែនទី is used for a map or a town plan. Today, people mostly look at it on their phone. In French, « un plan » is a town map, « une carte » a larger map.",
         "km": "« plan » ជាផែនទីទីក្រុង ហើយ « carte » ជាផែនទីប្រទេស។ អង់គ្លេស៖ « map »។"
       },
-      "example": {"fr": "Regarde le plan, on est ici.", "en": "Look at the map, we're here.", "km": "មើលផែនទី យើងនៅទីនេះ។", "tr": "meul phaèn-ti, yeung neuv ti-nih."}
+      "example": {"fr": "Regarde le plan, on est ici.", "en": "Look at the map, we're here.", "km": "មើលផែនទី យើងនៅទីនេះ។", "tr": "meul phaèn-ti, yeung neuv ti-nih.",
+      "es": "Mira el plano, estamos aquí.", "it": "Guarda la mappa, siamo qui.", "ru": "Посмотри на карту, мы здесь.", "zh": "你看地图，我们在这儿。", "zh_tr": "Nǐ kàn dìtú, wǒmen zài zhèr."}
     },
     {
-      "fr": "se perdre", "en": "to get lost", "km": "វង្វេងផ្លូវ", "tr": "vung-véng phleuv", "pos": "verbe",
+      "fr": "se perdre", "en": "to get lost", "km": "វង្វេងផ្លូវ", "tr": "vung-véng phleuv",
+      "es": "perderse", "it": "perdersi", "ru": "заблудиться", "zh": "迷路", "zh_tr": "mílù", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « s'égarer de chemin ». វង្វេង seul veut dire « s'égarer », aussi au sens figuré : avoir l'esprit confus.",
         "en": "Word for word “stray from the road”. វង្វេង alone means “to stray”, also figuratively: to be confused. French « se perdre »: je me suis perdu.",
         "km": "« se perdre » ជាកិរិយាសព្ទឆ្លុះ៖ je me perds, je me suis perdu។ អង់គ្លេស៖ « to get lost »។"
       },
-      "example": {"fr": "Sans plan, on se perd vite.", "en": "Without a map, you get lost quickly.", "km": "គ្មានផែនទី ងាយវង្វេងផ្លូវណាស់។", "tr": "kméan phaèn-ti, ngéay vung-véng phleuv nah."}
+      "example": {"fr": "Sans plan, on se perd vite.", "en": "Without a map, you get lost quickly.", "km": "គ្មានផែនទី ងាយវង្វេងផ្លូវណាស់។", "tr": "kméan phaèn-ti, ngéay vung-véng phleuv nah.",
+      "es": "Sin plano, uno se pierde enseguida.", "it": "Senza mappa ci si perde in fretta.", "ru": "Без карты легко заблудиться.", "zh": "没有地图，很容易迷路。", "zh_tr": "Méiyǒu dìtú, hěn róngyì mílù."}
     },
     {
-      "fr": "partir", "en": "to leave", "km": "ចេញដំណើរ", "tr": "tchégn dâm-naeu", "pos": "verbe",
+      "fr": "partir", "en": "to leave", "km": "ចេញដំណើរ", "tr": "tchégn dâm-naeu",
+      "es": "salir", "it": "partire", "ru": "уезжать", "zh": "出发", "zh_tr": "chūfā", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « commencer le voyage ». Pour sortir d'un lieu, ចេញ (tchégn) suffit : ចេញពីផ្ទះ, « partir de la maison ».",
         "en": "Word for word “set out on the journey”. To leave a place, ចេញ (tchégn) is enough: ចេញពីផ្ទះ, “leave home”. French « partir » uses « être »: je suis parti.",
         "km": "« partir »៖ je pars, nous partons, je suis parti។ អង់គ្លេស៖ « to leave »។"
       },
-      "example": {"fr": "Nous partons à six heures du matin.", "en": "We leave at six in the morning.", "km": "យើងចេញដំណើរម៉ោងប្រាំមួយព្រឹក។", "tr": "yeung tchégn dâm-naeu maong pram-mouy preuk."}
+      "example": {"fr": "Nous partons à six heures du matin.", "en": "We leave at six in the morning.", "km": "យើងចេញដំណើរម៉ោងប្រាំមួយព្រឹក។", "tr": "yeung tchégn dâm-naeu maong pram-mouy preuk.",
+      "es": "Salimos a las seis de la mañana.", "it": "Partiamo alle sei del mattino.", "ru": "Мы выезжаем в шесть утра.", "zh": "我们早上六点出发。", "zh_tr": "Wǒmen zǎoshang liù diǎn chūfā."}
     }
   ],
   "expressions": [
     {
       "fr": "Bonnes vacances !", "en": "Have a good holiday!", "km": "វិស្សមកាលរីករាយ!", "tr": "vih-sâ-mâ-kal rik-réay !",
+      "es": "¡Felices vacaciones!", "it": "Buone vacanze!", "ru": "Хорошего отпуска!", "zh": "假期愉快！", "zh_tr": "Jiàqī yúkuài!",
       "note": {
         "fr": "Même modèle que les vœux de fête, avec រីករាយ, « joyeux ». À l'oral : ទៅលេងឱ្យសប្បាយណា!",
         "en": "The same pattern as festival wishes, with រីករាយ, “happy”. In speech: ទៅលេងឱ្យសប្បាយណា! French « Bonnes vacances ! » is always plural.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "On s'est perdus.", "en": "We're lost.", "km": "យើងវង្វេងផ្លូវហើយ។", "tr": "yeung vung-véng phleuv haeuy.",
+      "es": "Nos hemos perdido.", "it": "Ci siamo persi.", "ru": "Мы заблудились.", "zh": "我们迷路了。", "zh_tr": "Wǒmen mílù le.",
       "note": {
         "fr": "ហើយ en fin de phrase : c'est arrivé. Pour demander de l'aide, on enchaîne avec សុំទោស ផ្លូវទៅ… នៅឯណា?",
         "en": "ហើយ at the end: it has happened. To ask for help, go on with សុំទោស ផ្លូវទៅ… នៅឯណា? French « on » takes a plural agreement here: perdus.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Vous pouvez nous prendre en photo ?", "en": "Could you take a photo of us?", "km": "ជួយថតរូបឱ្យយើងបានទេ?", "tr": "tchouoy thât roup aoy yeung ban té ?",
+      "es": "¿Nos puede hacer una foto?", "it": "Può farci una foto?", "ru": "Вы можете нас сфотографировать?", "zh": "您能帮我们拍张照片吗？", "zh_tr": "Nín néng bāng wǒmen pāi zhāng zhàopiàn ma?",
       "note": {
         "fr": "ជួយ… បានទេ? : la façon polie de demander un service. ថតរូប, prendre une photo.",
         "en": "ជួយ… បានទេ?: the polite way to ask a favour. ថតរូប, to take a photo. French « prendre en photo » means “to photograph”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "C'est magnifique !", "en": "It's magnificent!", "km": "ស្អាតខ្លាំងណាស់!", "tr": "s'at khlang nah !",
+      "es": "¡Es magnífico!", "it": "È magnifico!", "ru": "Это великолепно!", "zh": "太壮观了！", "zh_tr": "Tài zhuàngguān le!",
       "note": {
         "fr": "ខ្លាំង (khlang), « fort », renforce l'adjectif avant ណាស់ : « vraiment très beau ».",
         "en": "ខ្លាំង (khlang), “strong”, intensifies the adjective before ណាស់: “really very beautiful”. French « magnifique » is the same for men and women.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Avant le départ", "en": "Before leaving", "km": "មុនចេញដំណើរ"},
       "fr": "Nous partons en vacances la semaine prochaine.", "en": "We're going on holiday next week.",
-      "km": "សប្តាហ៍ក្រោយ យើងចេញដំណើរទៅលេង។", "tr": "sap-da kraoy, yeung tchégn dâm-naeu teuv léng."
+      "km": "សប្តាហ៍ក្រោយ យើងចេញដំណើរទៅលេង។", "tr": "sap-da kraoy, yeung tchégn dâm-naeu teuv léng.",
+      "es": "Nos vamos de vacaciones la semana que viene.", "it": "Partiamo per le vacanze la settimana prossima.", "ru": "На следующей неделе мы уезжаем в отпуск.", "zh": "下个星期我们去度假。", "zh_tr": "Xià ge xīngqī wǒmen qù dùjià."
     },
     {
       "situation": {"fr": "À Siem Reap", "en": "In Siem Reap", "km": "នៅសៀមរាប"},
       "fr": "Beaucoup de touristes visitent les temples d'Angkor.", "en": "Many tourists visit the Angkor temples.",
-      "km": "ភ្ញៀវទេសចរជាច្រើនទស្សនាប្រាសាទអង្គរ។", "tr": "phgnieu tés-sâ-tâ tchéa tchraeun tos-sâ-na pra-sat âng-kô."
+      "km": "ភ្ញៀវទេសចរជាច្រើនទស្សនាប្រាសាទអង្គរ។", "tr": "phgnieu tés-sâ-tâ tchéa tchraeun tos-sâ-na pra-sat âng-kô.",
+      "es": "Muchos turistas visitan los templos de Angkor.", "it": "Molti turisti visitano i templi di Angkor.", "ru": "Многие туристы посещают храмы Ангкора.", "zh": "很多游客参观吴哥的寺庙。", "zh_tr": "Hěn duō yóukè cānguān Wúgē de sìmiào."
     },
     {
       "situation": {"fr": "Une carte postale", "en": "A postcard", "km": "កាតប៉ុស្តាល់"},
       "fr": "Il fait beau et nous sommes très contents.", "en": "The weather is nice and we are very happy.",
-      "km": "អាកាសធាតុល្អ ហើយយើងសប្បាយចិត្តណាស់។", "tr": "a-kah-théat l'â, haeuy yeung sa-bay tchet nah."
+      "km": "អាកាសធាតុល្អ ហើយយើងសប្បាយចិត្តណាស់។", "tr": "a-kah-théat l'â, haeuy yeung sa-bay tchet nah.",
+      "es": "Hace buen tiempo y estamos muy contentos.", "it": "Fa bel tempo e siamo molto contenti.", "ru": "Погода хорошая, и мы очень довольны.", "zh": "天气很好，我们很高兴。", "zh_tr": "Tiānqì hěn hǎo, wǒmen hěn gāoxìng."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} et {B} sont en vacances à Battambang et cherchent leur hôtel.", "en": "{A} and {B} are on holiday in Battambang and are looking for their hotel.", "km": "{A} និង {B} ទៅលេងបាត់ដំបង ហើយកំពុងរកសណ្ឋាគាររបស់ខ្លួន។"},
     "lines": [
-      {"speaker": "B", "fr": "Je crois qu'on s'est perdus…", "en": "I think we're lost…", "km": "ខ្ញុំគិតថា យើងវង្វេងផ្លូវហើយ…", "tr": "khgnom kit tha yeung vung-véng phleuv haeuy…"},
-      {"speaker": "A", "fr": "Attends, je regarde le plan sur mon téléphone.", "en": "Wait, I'm looking at the map on my phone.", "km": "ចាំបន្តិច ខ្ញុំមើលផែនទីក្នុងទូរស័ព្ទ។", "tr": "tcham bân-tetch, khgnom meul phaèn-ti knong tou-ro-sap."},
-      {"speaker": "B", "fr": "L'hôtel est loin d'ici ?", "en": "Is the hotel far from here?", "km": "សណ្ឋាគារនៅឆ្ងាយពីទីនេះទេ?", "tr": "sân-tha-kéa neuv tchhngay pi ti-nih té ?"},
-      {"speaker": "A", "fr": "Non, c'est à cinq minutes à pied, près du fleuve.", "en": "No, it's a five-minute walk, near the river.", "km": "ទេ ដើរប្រាំនាទីទេ នៅជិតទន្លេ។", "tr": "té, daeu pram néa-ti té, neuv tchit tonlé."},
-      {"speaker": "B", "fr": "Super ! Et demain, qu'est-ce qu'on visite ?", "en": "Great! And tomorrow, what are we visiting?", "km": "ល្អណាស់! ហើយថ្ងៃស្អែក យើងទស្សនាអ្វី?", "tr": "l'â nah ! haeuy thngay s'aèk, yeung tos-sâ-na ey ?"},
-      {"speaker": "A", "fr": "Le vieux marché, puis le train de bambou !", "en": "The old market, then the bamboo train!", "km": "ផ្សារចាស់ បន្ទាប់មក រទេះភ្លើងឫស្សី!", "tr": "phsa tchah, bân-toap mok, ro-téh phleung reus-sey !"}
+      {"speaker": "B", "fr": "Je crois qu'on s'est perdus…", "en": "I think we're lost…", "km": "ខ្ញុំគិតថា យើងវង្វេងផ្លូវហើយ…", "tr": "khgnom kit tha yeung vung-véng phleuv haeuy…",
+        "es": "Creo que nos hemos perdido…", "it": "Credo che ci siamo persi…", "ru": "Кажется, мы заблудились…", "zh": "我觉得我们迷路了……", "zh_tr": "Wǒ juéde wǒmen mílù le…"},
+      {"speaker": "A", "fr": "Attends, je regarde le plan sur mon téléphone.", "en": "Wait, I'm looking at the map on my phone.", "km": "ចាំបន្តិច ខ្ញុំមើលផែនទីក្នុងទូរស័ព្ទ។", "tr": "tcham bân-tetch, khgnom meul phaèn-ti knong tou-ro-sap.",
+        "es": "Espera, miro el plano en el móvil.", "it": "Aspetta, guardo la mappa sul telefono.", "ru": "Подожди, я посмотрю карту в телефоне.", "zh": "等一下，我看看手机上的地图。", "zh_tr": "Děng yíxià, wǒ kànkan shǒujī shang de dìtú."},
+      {"speaker": "B", "fr": "L'hôtel est loin d'ici ?", "en": "Is the hotel far from here?", "km": "សណ្ឋាគារនៅឆ្ងាយពីទីនេះទេ?", "tr": "sân-tha-kéa neuv tchhngay pi ti-nih té ?",
+        "es": "¿El hotel está lejos de aquí?", "it": "L'albergo è lontano da qui?", "ru": "Гостиница далеко отсюда?", "zh": "酒店离这儿远吗？", "zh_tr": "Jiǔdiàn lí zhèr yuǎn ma?"},
+      {"speaker": "A", "fr": "Non, c'est à cinq minutes à pied, près du fleuve.", "en": "No, it's a five-minute walk, near the river.", "km": "ទេ ដើរប្រាំនាទីទេ នៅជិតទន្លេ។", "tr": "té, daeu pram néa-ti té, neuv tchit tonlé.",
+        "es": "No, está a cinco minutos a pie, cerca del río.", "it": "No, è a cinque minuti a piedi, vicino al fiume.", "ru": "Нет, пять минут пешком, рядом с рекой.", "zh": "不远，走路五分钟，在河边。", "zh_tr": "Bù yuǎn, zǒulù wǔ fēnzhōng, zài hébiān."},
+      {"speaker": "B", "fr": "Super ! Et demain, qu'est-ce qu'on visite ?", "en": "Great! And tomorrow, what are we visiting?", "km": "ល្អណាស់! ហើយថ្ងៃស្អែក យើងទស្សនាអ្វី?", "tr": "l'â nah ! haeuy thngay s'aèk, yeung tos-sâ-na ey ?",
+        "es": "¡Genial! Y mañana, ¿qué visitamos?", "it": "Benissimo! E domani che cosa visitiamo?", "ru": "Отлично! А завтра что посмотрим?", "zh": "太好了！明天我们参观什么？", "zh_tr": "Tài hǎo le! Míngtiān wǒmen cānguān shénme?"},
+      {"speaker": "A", "fr": "Le vieux marché, puis le train de bambou !", "en": "The old market, then the bamboo train!", "km": "ផ្សារចាស់ បន្ទាប់មក រទេះភ្លើងឫស្សី!", "tr": "phsa tchah, bân-toap mok, ro-téh phleung reus-sey !",
+        "es": "¡El mercado antiguo y luego el tren de bambú!", "it": "Il vecchio mercato, poi il treno di bambù!", "ru": "Старый рынок, а потом бамбуковый поезд!", "zh": "先去老市场，然后坐竹子火车！", "zh_tr": "Xiān qù lǎo shìchǎng, ránhòu zuò zhúzi huǒchē!"}
     ]
   },
   "comprehension": {

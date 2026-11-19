@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le métier", "en": "job", "km": "មុខរបរ", "tr": "mouk ro-bâ", "pos": "nom",
+      "fr": "le métier", "en": "job", "km": "មុខរបរ", "tr": "mouk ro-bâ",
+      "es": "el oficio", "it": "il mestiere", "ru": "профессия", "zh": "职业", "zh_tr": "zhíyè", "pos": "nom",
       "note": {
         "fr": "មុខរបរ désigne le métier, la profession. À l'oral, on demande plus simplement ធ្វើការអ្វី?, « tu fais quel travail ? ».",
         "en": "មុខរបរ is a trade or profession. In speech, people simply ask ធ្វើការអ្វី?, “what work do you do?”. French « métier » is masculine.",
         "km": "« métier » ជានាមភេទប្រុស៖ le métier។ អង់គ្លេស៖ « job », « profession »។"
       },
-      "example": {"fr": "Cuisinier, c'est un beau métier.", "en": "Being a cook is a fine job.", "km": "ចុងភៅជាមុខរបរល្អមួយ។", "tr": "tchong-phov tchéa mouk ro-bâ l'â mouy."}
+      "example": {"fr": "Cuisinier, c'est un beau métier.", "en": "Being a cook is a fine job.", "km": "ចុងភៅជាមុខរបរល្អមួយ។", "tr": "tchong-phov tchéa mouk ro-bâ l'â mouy.",
+      "es": "Ser cocinero es un buen oficio.", "it": "Fare il cuoco è un bel mestiere.", "ru": "Повар — хорошая профессия.", "zh": "厨师是一个好职业。", "zh_tr": "Chúshī shì yí ge hǎo zhíyè."}
     },
     {
-      "fr": "le paysan", "en": "farmer", "km": "កសិករ", "tr": "kâ-se-kâ", "pos": "nom",
+      "fr": "le paysan", "en": "farmer", "km": "កសិករ", "tr": "kâ-se-kâ",
+      "es": "el campesino", "it": "il contadino", "ru": "крестьянин", "zh": "农民", "zh_tr": "nóngmín", "pos": "nom",
       "note": {
         "fr": "Mot soigné. Pour un riziculteur, on dit souvent អ្នកធ្វើស្រែ, « celui qui fait la rizière ». La plupart des Cambodgiens ont de la famille à la campagne.",
         "en": "A formal word. For a rice farmer, people often say អ្នកធ្វើស្រែ, “one who works the rice field”. French « paysan » becomes « paysanne » for a woman.",
         "km": "« paysan » ជានាមភេទប្រុស ភេទស្រីគឺ « paysanne »។ ពាក្យ « agriculteur » ក៏មានន័យដូចគ្នា។ អង់គ្លេស៖ « farmer »។"
       },
-      "example": {"fr": "Mon grand-père était paysan.", "en": "My grandfather was a farmer.", "km": "តារបស់ខ្ញុំជាកសិករ។", "tr": "ta ro-bâh khgnom tchéa kâ-se-kâ."}
+      "example": {"fr": "Mon grand-père était paysan.", "en": "My grandfather was a farmer.", "km": "តារបស់ខ្ញុំជាកសិករ។", "tr": "ta ro-bâh khgnom tchéa kâ-se-kâ.",
+      "es": "Mi abuelo era campesino.", "it": "Mio nonno era contadino.", "ru": "Мой дедушка был крестьянином.", "zh": "我爷爷以前是农民。", "zh_tr": "Wǒ yéye yǐqián shì nóngmín."}
     },
     {
-      "fr": "le vendeur", "en": "seller", "km": "អ្នកលក់", "tr": "néak lok", "pos": "nom",
+      "fr": "le vendeur", "en": "seller", "km": "អ្នកលក់", "tr": "néak lok",
+      "es": "el vendedor", "it": "il venditore", "ru": "продавец", "zh": "售货员", "zh_tr": "shòuhuòyuán", "pos": "nom",
       "note": {
         "fr": "អ្នក + លក់ (vendre). De même : អ្នកទិញ, l'acheteur ou le client.",
         "en": "អ្នក + លក់ (to sell). Likewise: អ្នកទិញ, the buyer or customer. French « vendeur » becomes « vendeuse » for a woman.",
         "km": "« vendeur » ភេទស្រីគឺ « vendeuse »។ « le client » មានន័យថា អ្នកទិញ។ អង់គ្លេស៖ « seller », « shop assistant »។"
       },
-      "example": {"fr": "La vendeuse est très gentille.", "en": "The seller is very kind.", "km": "អ្នកលក់ចិត្តល្អណាស់។", "tr": "néak lok tchet l'â nah."}
+      "example": {"fr": "La vendeuse est très gentille.", "en": "The seller is very kind.", "km": "អ្នកលក់ចិត្តល្អណាស់។", "tr": "néak lok tchet l'â nah.",
+      "es": "La vendedora es muy amable.", "it": "La venditrice è molto gentile.", "ru": "Продавщица очень добрая.", "zh": "这个售货员很友好。", "zh_tr": "Zhège shòuhuòyuán hěn yǒuhǎo."}
     },
     {
-      "fr": "le chauffeur", "en": "driver", "km": "អ្នកបើកឡាន", "tr": "néak baeuk lan", "pos": "nom",
+      "fr": "le chauffeur", "en": "driver", "km": "អ្នកបើកឡាន", "tr": "néak baeuk lan",
+      "es": "el conductor", "it": "l'autista", "ru": "водитель", "zh": "司机", "zh_tr": "sījī", "pos": "nom",
       "note": {
         "fr": "Mot à mot « celui qui conduit la voiture ». Un chauffeur de tuk-tuk se dit អ្នកបើកតុកតុក, et on l'appelle poliment ពូ, « oncle ».",
         "en": "Word for word “one who drives the car”. A tuk-tuk driver is អ្នកបើកតុកតុក, politely called ពូ, “uncle”. French « chauffeur » is spelled with two f's.",
         "km": "« chauffeur » ជានាមភេទប្រុស៖ le chauffeur de taxi។ អង់គ្លេស៖ « driver »។"
       },
-      "example": {"fr": "Le chauffeur connaît bien la ville.", "en": "The driver knows the city well.", "km": "អ្នកបើកឡានស្គាល់ទីក្រុងច្បាស់។", "tr": "néak baeuk lan skoal ti-krong tchbah."}
+      "example": {"fr": "Le chauffeur connaît bien la ville.", "en": "The driver knows the city well.", "km": "អ្នកបើកឡានស្គាល់ទីក្រុងច្បាស់។", "tr": "néak baeuk lan skoal ti-krong tchbah.",
+      "es": "El conductor conoce bien la ciudad.", "it": "L'autista conosce bene la città.", "ru": "Водитель хорошо знает город.", "zh": "司机很熟悉这个城市。", "zh_tr": "Sījī hěn shúxī zhège chéngshì."}
     },
     {
-      "fr": "le policier", "en": "police officer", "km": "ប៉ូលិស", "tr": "po-lih", "pos": "nom",
+      "fr": "le policier", "en": "police officer", "km": "ប៉ូលិស", "tr": "po-lih",
+      "es": "el policía", "it": "il poliziotto", "ru": "полицейский", "zh": "警察", "zh_tr": "jǐngchá", "pos": "nom",
       "note": {
         "fr": "Emprunté au français « police ». Le poste de police se dit ប៉ុស្តិ៍ប៉ូលិស (pos po-lih).",
         "en": "Borrowed from French « police ». A police station is ប៉ុស្តិ៍ប៉ូលិស (pos po-lih). French: « le policier », « la policière »; « la police » is the force.",
         "km": "« policier » ជាមនុស្ស ហើយ « la police » ជាស្ថាប័ន។ អង់គ្លេស៖ « police officer »។"
       },
-      "example": {"fr": "Le policier aide les enfants à traverser.", "en": "The police officer helps the children cross.", "km": "ប៉ូលិសជួយក្មេងៗឆ្លងផ្លូវ។", "tr": "po-lih tchouoy kméng-kméng tchhlâng phleuv."}
+      "example": {"fr": "Le policier aide les enfants à traverser.", "en": "The police officer helps the children cross.", "km": "ប៉ូលិសជួយក្មេងៗឆ្លងផ្លូវ។", "tr": "po-lih tchouoy kméng-kméng tchhlâng phleuv.",
+      "es": "El policía ayuda a los niños a cruzar.", "it": "Il poliziotto aiuta i bambini ad attraversare.", "ru": "Полицейский помогает детям перейти улицу.", "zh": "警察帮孩子们过马路。", "zh_tr": "Jǐngchá bāng háizimen guò mǎlù."}
     },
     {
-      "fr": "le cuisinier", "en": "cook", "km": "ចុងភៅ", "tr": "tchong-phov", "pos": "nom",
+      "fr": "le cuisinier", "en": "cook", "km": "ចុងភៅ", "tr": "tchong-phov",
+      "es": "el cocinero", "it": "il cuoco", "ru": "повар", "zh": "厨师", "zh_tr": "chúshī", "pos": "nom",
       "note": {
         "fr": "ចុងភៅ désigne le cuisinier d'un restaurant ou d'une maison. Le chef cuisinier se dit មេចុងភៅ, « chef des cuisiniers ».",
         "en": "ចុងភៅ is the cook in a restaurant or a household. The head chef is មេចុងភៅ. French « cuisinier » becomes « cuisinière » for a woman, which also means a cooker.",
         "km": "« cuisinier » ភេទស្រីគឺ « cuisinière » ដែលក៏មានន័យថា ចង្ក្រានដែរ។ អង់គ្លេស៖ « cook », « chef »។"
       },
-      "example": {"fr": "Le cuisinier prépare la soupe.", "en": "The cook is making the soup.", "km": "ចុងភៅកំពុងធ្វើសម្ល។", "tr": "tchong-phov kâm-poung thveu sâm-lâ."}
+      "example": {"fr": "Le cuisinier prépare la soupe.", "en": "The cook is making the soup.", "km": "ចុងភៅកំពុងធ្វើសម្ល។", "tr": "tchong-phov kâm-poung thveu sâm-lâ.",
+      "es": "El cocinero prepara la sopa.", "it": "Il cuoco prepara la zuppa.", "ru": "Повар готовит суп.", "zh": "厨师在做汤。", "zh_tr": "Chúshī zài zuò tāng."}
     }
   ],
   "expressions": [
     {
       "fr": "Qu'est-ce que tu fais dans la vie ?", "en": "What do you do for a living?", "km": "អ្នកធ្វើការអ្វី?", "tr": "néak thveu-ka ey ?",
+      "es": "¿A qué te dedicas?", "it": "Che lavoro fai?", "ru": "Кем ты работаешь?", "zh": "你是做什么工作的？", "zh_tr": "Nǐ shì zuò shénme gōngzuò de?",
       "note": {
         "fr": "Mot à mot « tu fais quel travail ? ». Question très courante dès la première rencontre.",
         "en": "Word for word “you do what work?”. A very common question from the first meeting. French « dans la vie » means “in life”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Je travaille dans un bureau.", "en": "I work in an office.", "km": "ខ្ញុំធ្វើការនៅការិយាល័យ។", "tr": "khgnom thveu-ka neuv ka-ri-ya-lay.",
+      "es": "Trabajo en una oficina.", "it": "Lavoro in un ufficio.", "ru": "Я работаю в офисе.", "zh": "我在办公室工作。", "zh_tr": "Wǒ zài bàngōngshì gōngzuò.",
       "note": {
         "fr": "ការិយាល័យ (ka-ri-ya-lay), le bureau, est un mot savant. La phrase reste la même pour un homme ou une femme.",
         "en": "ការិយាល័យ (ka-ri-ya-lay), office, is a learned word. French « bureau » means both the office and the desk.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "J'aime mon travail.", "en": "I like my job.", "km": "ខ្ញុំចូលចិត្តការងាររបស់ខ្ញុំ។", "tr": "khgnom tchôl tchet ka-ngéa ro-bâh khgnom.",
+      "es": "Me gusta mi trabajo.", "it": "Mi piace il mio lavoro.", "ru": "Мне нравится моя работа.", "zh": "我喜欢我的工作。", "zh_tr": "Wǒ xǐhuan wǒ de gōngzuò.",
       "note": {
         "fr": "ចូលចិត្ត pour les choses et les activités. Pour l'inverse : មិនសូវចូលចិត្តទេ, « je ne l'aime pas trop ».",
         "en": "ចូលចិត្ត is for things and activities. The opposite: មិនសូវចូលចិត្តទេ, “I don't really like it”. French « aimer » covers both “like” and “love”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Tu travailles où ?", "en": "Where do you work?", "km": "ធ្វើការនៅឯណា?", "tr": "thveu-ka neuv aè na ?",
+      "es": "¿Dónde trabajas?", "it": "Dove lavori?", "ru": "Где ты работаешь?", "zh": "你在哪儿工作？", "zh_tr": "Nǐ zài nǎr gōngzuò?",
       "note": {
         "fr": "Le mot interrogatif នៅឯណា reste en fin de phrase, comme toujours en khmer.",
         "en": "The question word នៅឯណា stays at the end, as always in Khmer. Casual French also puts « où » at the end.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "Parler de sa famille", "en": "Talking about your family", "km": "និយាយពីគ្រួសារ"},
       "fr": "Mes parents sont paysans, ils cultivent du riz.", "en": "My parents are farmers, they grow rice.",
-      "km": "ឪពុកម្តាយខ្ញុំជាកសិករ ពួកគាត់ធ្វើស្រែ។", "tr": "eu-pouk mday khgnom tchéa kâ-se-kâ, pouok-koat thveu srè."
+      "km": "ឪពុកម្តាយខ្ញុំជាកសិករ ពួកគាត់ធ្វើស្រែ។", "tr": "eu-pouk mday khgnom tchéa kâ-se-kâ, pouok-koat thveu srè.",
+      "es": "Mis padres son campesinos, cultivan arroz.", "it": "I miei genitori sono contadini, coltivano riso.", "ru": "Мои родители крестьяне, они выращивают рис.", "zh": "我爸爸妈妈是农民，他们种水稻。", "zh_tr": "Wǒ bàba māma shì nóngmín, tāmen zhòng shuǐdào."
     },
     {
       "situation": {"fr": "En taxi", "en": "In a taxi", "km": "ក្នុងតាក់ស៊ី"},
       "fr": "Le chauffeur nous attend devant l'hôtel.", "en": "The driver is waiting for us in front of the hotel.",
-      "km": "អ្នកបើកឡានរង់ចាំយើងនៅមុខសណ្ឋាគារ។", "tr": "néak baeuk lan rong-tcham yeung neuv mouk sân-tha-kéa."
+      "km": "អ្នកបើកឡានរង់ចាំយើងនៅមុខសណ្ឋាគារ។", "tr": "néak baeuk lan rong-tcham yeung neuv mouk sân-tha-kéa.",
+      "es": "El conductor nos espera delante del hotel.", "it": "L'autista ci aspetta davanti all'albergo.", "ru": "Водитель ждёт нас перед гостиницей.", "zh": "司机在酒店门口等我们。", "zh_tr": "Sījī zài jiǔdiàn ménkǒu děng wǒmen."
     },
     {
       "situation": {"fr": "Les projets d'un enfant", "en": "A child's plans", "km": "ក្តីស្រមៃរបស់ក្មេង"},
       "fr": "Plus tard, je voudrais être médecin.", "en": "Later, I would like to be a doctor.",
-      "km": "ថ្ងៃក្រោយ ខ្ញុំចង់ធ្វើជាគ្រូពេទ្យ។", "tr": "thngay kraoy, khgnom tchâng thveu tchéa krou-pét."
+      "km": "ថ្ងៃក្រោយ ខ្ញុំចង់ធ្វើជាគ្រូពេទ្យ។", "tr": "thngay kraoy, khgnom tchâng thveu tchéa krou-pét.",
+      "es": "De mayor, me gustaría ser médico.", "it": "Da grande vorrei fare il medico.", "ru": "В будущем я хотел бы стать врачом.", "zh": "以后我想当医生。", "zh_tr": "Yǐhòu wǒ xiǎng dāng yīshēng."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} et {B} parlent de leur travail en buvant un café.", "en": "{A} and {B} talk about their work over a coffee.", "km": "{A} និង {B} និយាយពីការងាររបស់ខ្លួន ពេលកំពុងផឹកកាហ្វេ។"},
     "lines": [
-      {"speaker": "B", "fr": "Qu'est-ce que tu fais dans la vie ?", "en": "What do you do for a living?", "km": "{A} ធ្វើការអ្វី?", "tr": "{A} thveu-ka ey ?"},
-      {"speaker": "A", "fr": "Je travaille dans la cuisine d'un restaurant.", "en": "I work in a restaurant kitchen.", "km": "ខ្ញុំធ្វើការនៅផ្ទះបាយរបស់ភោជនីយដ្ឋានមួយ។", "tr": "khgnom thveu-ka neuv phtéah bay ro-bâh phô-tchéa-ni-yéa-than mouy."},
-      {"speaker": "B", "fr": "C'est un beau métier ! Et tes parents ?", "en": "That's a fine job! And your parents?", "km": "ជាមុខរបរល្អ! ចុះឪពុកម្តាយ {A} វិញ?", "tr": "tchéa mouk ro-bâ l'â ! tchoh eu-pouk mday {A} vign ?"},
-      {"speaker": "A", "fr": "Ils sont paysans, ils cultivent du riz à Takeo.", "en": "They're farmers, they grow rice in Takeo.", "km": "ពួកគាត់ជាកសិករ ធ្វើស្រែនៅតាកែវ។", "tr": "pouok-koat tchéa kâ-se-kâ, thveu srè neuv ta-kaèv."},
-      {"speaker": "B", "fr": "Moi, je travaille dans un bureau, devant un ordinateur.", "en": "I work in an office, in front of a computer.", "km": "ចំណែកខ្ញុំ ធ្វើការនៅការិយាល័យ មុខកុំព្យូទ័រ។", "tr": "tchâm-naèk khgnom, thveu-ka neuv ka-ri-ya-lay, mouk kom-pyou-tô."},
-      {"speaker": "A", "fr": "Et tu aimes ton travail ?", "en": "And do you like your job?", "km": "ហើយចូលចិត្តការងារនោះទេ?", "tr": "haeuy tchôl tchet ka-ngéa nouh té ?"},
-      {"speaker": "B", "fr": "Oui, mais je préfère cuisiner avec toi !", "en": "Yes, but I prefer cooking with you!", "km": "{B_yes} ប៉ុន្តែខ្ញុំចូលចិត្តធ្វើម្ហូបជាមួយ {A} ជាង!", "tr": "{B_yes}, pon-taè khgnom tchôl tchet thveu mhôp tchéa-mouy {A} tchéang !"}
+      {"speaker": "B", "fr": "Qu'est-ce que tu fais dans la vie ?", "en": "What do you do for a living?", "km": "{A} ធ្វើការអ្វី?", "tr": "{A} thveu-ka ey ?",
+        "es": "¿A qué te dedicas?", "it": "Che lavoro fai?", "ru": "Кем ты работаешь?", "zh": "你是做什么工作的？", "zh_tr": "Nǐ shì zuò shénme gōngzuò de?"},
+      {"speaker": "A", "fr": "Je travaille dans la cuisine d'un restaurant.", "en": "I work in a restaurant kitchen.", "km": "ខ្ញុំធ្វើការនៅផ្ទះបាយរបស់ភោជនីយដ្ឋានមួយ។", "tr": "khgnom thveu-ka neuv phtéah bay ro-bâh phô-tchéa-ni-yéa-than mouy.",
+        "es": "Trabajo en la cocina de un restaurante.", "it": "Lavoro nella cucina di un ristorante.", "ru": "Я работаю на кухне в ресторане.", "zh": "我在一家饭馆的厨房工作。", "zh_tr": "Wǒ zài yì jiā fànguǎn de chúfáng gōngzuò."},
+      {"speaker": "B", "fr": "C'est un beau métier ! Et tes parents ?", "en": "That's a fine job! And your parents?", "km": "ជាមុខរបរល្អ! ចុះឪពុកម្តាយ {A} វិញ?", "tr": "tchéa mouk ro-bâ l'â ! tchoh eu-pouk mday {A} vign ?",
+        "es": "¡Es un buen oficio! ¿Y tus padres?", "it": "È un bel mestiere! E i tuoi genitori?", "ru": "Хорошая профессия! А твои родители?", "zh": "这是个好职业！你爸爸妈妈呢？", "zh_tr": "Zhè shì ge hǎo zhíyè! Nǐ bàba māma ne?"},
+      {"speaker": "A", "fr": "Ils sont paysans, ils cultivent du riz à Takeo.", "en": "They're farmers, they grow rice in Takeo.", "km": "ពួកគាត់ជាកសិករ ធ្វើស្រែនៅតាកែវ។", "tr": "pouok-koat tchéa kâ-se-kâ, thveu srè neuv ta-kaèv.",
+        "es": "Son campesinos, cultivan arroz en Takeo.", "it": "Sono contadini, coltivano riso a Takeo.", "ru": "Они крестьяне, выращивают рис в Такео.", "zh": "他们是农民，在茶胶种水稻。", "zh_tr": "Tāmen shì nóngmín, zài Chájiāo zhòng shuǐdào."},
+      {"speaker": "B", "fr": "Moi, je travaille dans un bureau, devant un ordinateur.", "en": "I work in an office, in front of a computer.", "km": "ចំណែកខ្ញុំ ធ្វើការនៅការិយាល័យ មុខកុំព្យូទ័រ។", "tr": "tchâm-naèk khgnom, thveu-ka neuv ka-ri-ya-lay, mouk kom-pyou-tô.",
+        "es": "Yo trabajo en una oficina, delante de un ordenador.", "it": "Io lavoro in ufficio, davanti a un computer.", "ru": "А я работаю в офисе, за компьютером.", "zh": "我在办公室工作，整天对着电脑。", "zh_tr": "Wǒ zài bàngōngshì gōngzuò, zhěngtiān duì zhe diànnǎo."},
+      {"speaker": "A", "fr": "Et tu aimes ton travail ?", "en": "And do you like your job?", "km": "ហើយចូលចិត្តការងារនោះទេ?", "tr": "haeuy tchôl tchet ka-ngéa nouh té ?",
+        "es": "¿Y te gusta tu trabajo?", "it": "E ti piace il tuo lavoro?", "ru": "А тебе нравится твоя работа?", "zh": "你喜欢你的工作吗？", "zh_tr": "Nǐ xǐhuan nǐ de gōngzuò ma?"},
+      {"speaker": "B", "fr": "Oui, mais je préfère cuisiner avec toi !", "en": "Yes, but I prefer cooking with you!", "km": "{B_yes} ប៉ុន្តែខ្ញុំចូលចិត្តធ្វើម្ហូបជាមួយ {A} ជាង!", "tr": "{B_yes}, pon-taè khgnom tchôl tchet thveu mhôp tchéa-mouy {A} tchéang !",
+        "es": "Sí, ¡pero prefiero cocinar contigo!", "it": "Sì, ma preferisco cucinare con te!", "ru": "Да, но мне больше нравится готовить с тобой!", "zh": "喜欢，不过我更喜欢跟你一起做饭！", "zh_tr": "Xǐhuan, búguò wǒ gèng xǐhuan gēn nǐ yìqǐ zuò fàn!"}
     ]
   },
   "comprehension": {

@@ -17,6 +17,7 @@ from .generator import GenerationError, LessonService, audio_items
 from .lock import AlreadyRunning, ProcessLock
 from .quality import summarize
 from .render import RenderError
+from .langs import CONTENT_LANGS
 from .textutil import LANGS, format_date, speech_text
 
 EXIT_OK, EXIT_ERROR, EXIT_BUSY = 0, 1, 2
@@ -147,6 +148,7 @@ def cmd_daily(app: App, args) -> int:
 def cmd_render(app: App, args) -> int:
     with app.lock():
         if args.all or not args.numbers:
+            app.service.sync_languages()
             count = app.service.renderer.render_all()
             print(f"{count} page(s) de leçon et l'index ont été régénérés.")
         else:
@@ -188,7 +190,26 @@ def cmd_audio(app: App, args) -> int:
         print(f"{len(items)} fichier(s) à générer : « python3 manage.py audio repair »")
         return EXIT_OK
 
+    if args.action == "convert":
+        fmt = args.format or app.config.audio_format()
+        with app.lock():
+            def progress(i, total):
+                if i % 200 == 0:
+                    print(f"  … {i} / {total}", flush=True)
+            report = library.convert(fmt, progress=progress)
+            app.service.sync_languages()
+            app.service.renderer.render_all()
+        print(f"Fichiers convertis en {fmt.upper()} : {report['converted']} "
+              f"({_size(report['bytes_before'])} → {_size(report['bytes_after'])}), déjà au format : {report['skipped']}")
+        for item in report["failed"]:
+            print(f"  ✗ {item['file']} — {item['reason']}")
+        if fmt != app.config.audio_format():
+            print(f"Pensez à indiquer « \"format\": \"{fmt}\" » dans la rubrique « audio » de config/config.json.")
+        return EXIT_ERROR if report["failed"] else EXIT_OK
+
     if args.action == "repair":
+        if args.no_limits:
+            app.config.data["tts"]["limits"] = {}
         with app.lock():
             totals = app.service.repair_audio(scope="all", lessons=args.lesson or None)
         print(f"Leçons contrôlées : {totals['lessons']}   |   fichiers endommagés détectés : {totals['damaged']}")
@@ -419,7 +440,7 @@ def cmd_tts(app: App, args) -> int:
     library, config = app.library, app.config
     if args.action == "status":
         print(f"Fournisseurs disponibles : {', '.join(provider_names())}")
-        for lang in LANGS:
+        for lang in config.content_langs():
             spec = library.spec_for(lang)
             try:
                 ready, reason = library.provider(spec.provider).configured()
@@ -443,9 +464,11 @@ def cmd_tts(app: App, args) -> int:
             print(f"  {voice['name']:<34} {voice['gender']:<8}{mark}")
         print(f"{len(voices)} voix {spec.locale} chez « {name} ».")
         return EXIT_OK
-    samples = {"fr": "Bonjour, bienvenue.", "en": "Hello, welcome.", "km": "សួស្តី សូមស្វាគមន៍។"}
+    samples = {"fr": "Bonjour, bienvenue.", "en": "Hello, welcome.", "km": "សួស្តី សូមស្វាគមន៍។",
+               "es": "Hola, bienvenido.", "it": "Ciao, benvenuto.", "ru": "Здравствуйте, добро пожаловать.",
+               "zh": "你好，欢迎。"}
     failures = 0
-    for lang in ([args.lang] if args.lang else LANGS):
+    for lang in ([args.lang] if args.lang else config.content_langs()):
         ref = library.ensure(samples[lang], lang)
         if ref.ready:
             print(f"  {library.spec_for(lang).locale} : OK — {ref.path} ({ref.duration:.1f} s, {ref.source})")
@@ -511,10 +534,13 @@ def build_parser() -> argparse.ArgumentParser:
     a.add_parser("missing", help="lister les audios manquants ou corrompus")
     r = a.add_parser("repair", help="régénérer uniquement les audios manquants ou corrompus")
     r.add_argument("--lesson", type=int, action="append", metavar="N", help="limiter à une leçon (répétable)")
+    r.add_argument("--no-limits", action="store_true", help="ignorer les plafonds de consommation (rattrapage en masse)")
+    c = a.add_parser("convert", help="convertir la bibliothèque audio en MP3 ou en WAV, sans appel au fournisseur")
+    c.add_argument("--format", choices=("mp3", "wav"), help="format visé (par défaut : audio.format de la configuration)")
     g = a.add_parser("regen", help="régénérer un audio précis")
     g.add_argument("--text", help="texte prononcé")
-    g.add_argument("--lang", choices=LANGS, help="langue du texte")
-    g.add_argument("--file", help="chemin ou nom du fichier WAV")
+    g.add_argument("--lang", choices=CONTENT_LANGS, help="langue du texte")
+    g.add_argument("--file", help="chemin ou nom du fichier audio")
     g.add_argument("--hash", help="début de l'empreinte SHA-256")
     pr = a.add_parser("prune", help="supprimer les audios qui ne servent plus à aucune leçon")
     pr.add_argument("--dry-run", action="store_true", help="montrer sans supprimer")
@@ -549,7 +575,8 @@ def build_parser() -> argparse.ArgumentParser:
     p = sub.add_parser("correct", help="corriger un texte dans les leçons, le vocabulaire et les unités")
     p.add_argument("--find", required=True, help="texte fautif")
     p.add_argument("--replace", required=True, help="texte corrigé")
-    p.add_argument("--lang", choices=LANGS + ("tr",), help="limiter à une langue (tr = translittération)")
+    p.add_argument("--lang", choices=CONTENT_LANGS + ("tr", "zh_tr", "ru_tr"),
+                   help="limiter à une langue (tr = translittération du khmer, zh_tr = pinyin)")
     p.add_argument("--lesson", type=int, help="limiter à une leçon")
     p.add_argument("--dry-run", action="store_true", help="montrer sans modifier")
     p.set_defaults(func=cmd_correct)
@@ -579,10 +606,10 @@ def build_parser() -> argparse.ArgumentParser:
     a = p.add_subparsers(dest="action", metavar="action", required=True)
     a.add_parser("status", help="fournisseurs, voix configurées et consommation")
     v = a.add_parser("voices", help="lister les voix proposées pour une langue")
-    v.add_argument("--lang", choices=LANGS, required=True)
+    v.add_argument("--lang", choices=CONTENT_LANGS, required=True)
     v.add_argument("--provider", help="fournisseur à interroger (par défaut : celui de la langue)")
     t = a.add_parser("test", help="synthétiser une phrase d'essai")
-    t.add_argument("--lang", choices=LANGS)
+    t.add_argument("--lang", choices=CONTENT_LANGS)
     p.set_defaults(func=cmd_tts)
 
     p = sub.add_parser("alphabet", help="module Alphabets : générer les audios et la page alphabet.html")

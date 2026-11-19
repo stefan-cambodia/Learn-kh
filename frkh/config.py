@@ -25,8 +25,10 @@ DEFAULT_CONFIG: dict = {
     },
     # Les deux personnages des dialogues ({A} et {B} dans les unités).
     "characters": {
-        "A": {"name": {"latin": "Dara", "km": "ដារ៉ា", "tr": "da-ra"}, "gender": "f"},
-        "B": {"name": {"latin": "Alex", "km": "អាឡិច", "tr": "a-lech"}, "gender": "m"},
+        "A": {"name": {"latin": "Dara", "km": "ដារ៉ា", "tr": "da-ra", "ru": "Дара", "zh": "达拉", "zh_tr": "Dálā"},
+              "gender": "f"},
+        "B": {"name": {"latin": "Alex", "km": "អាឡិច", "tr": "a-lech", "ru": "Алекс", "zh": "亚历克斯",
+                       "zh_tr": "Yàlìkèsī"}, "gender": "m"},
     },
     "schedule": {
         "time": "07:00",
@@ -63,8 +65,22 @@ DEFAULT_CONFIG: dict = {
             "provider": "azure",
             "voice": "km-KH-SreymomNeural",
         },
+        "es": {"locale": "es-ES", "provider": "google", "voice": "es-ES-Neural2-A",
+               "fallback": {"provider": "azure", "voice": "es-ES-ElviraNeural"}},
+        "it": {"locale": "it-IT", "provider": "google", "voice": "it-IT-Neural2-A",
+               "fallback": {"provider": "azure", "voice": "it-IT-ElsaNeural"}},
+        "ru": {"locale": "ru-RU", "provider": "google", "voice": "ru-RU-Wavenet-A",
+               "fallback": {"provider": "azure", "voice": "ru-RU-SvetlanaNeural"}},
+        "zh": {"locale": "zh-CN", "provider": "google", "voice": "cmn-CN-Wavenet-A",
+               "fallback": {"provider": "azure", "voice": "zh-CN-XiaoxiaoNeural"}},
     },
+    # Langues que les pages affichent par défaut (chacun peut ensuite en masquer dans le sélecteur).
+    "display": {"languages": ["fr", "en", "km", "es", "it", "ru", "zh"]},
     "audio": {
+        # « wav » (PCM 16 bits mono) ou « mp3 » (dix fois plus léger, recommandé pour un site publié ;
+        # nécessite ffmpeg). Changer de format : « python3 manage.py audio convert ».
+        "format": "wav",
+        "mp3_bitrate_kbps": 48,
         "sample_rate_hz": 24000,
         "speaking_rate": 0.9,
         "pitch": 0.0,
@@ -101,7 +117,7 @@ _FIXED_OFFSETS = {"Asia/Phnom_Penh": 7, "Asia/Bangkok": 7, "Asia/Ho_Chi_Minh": 7
 
 
 # Langues dans lesquelles l'interface et les explications existent : un profil doit en faire partie.
-PROFILE_LANGS = ("fr", "en", "km")
+from .langs import CONTENT_LANGS, EXTRA_LANGS, PROFILE_LANGS  # noqa: E402
 # Anciens profils (« A » : personne khmère, « B » : personne française) → nouveaux identifiants.
 LEGACY_PROFILES = {"A": "km", "B": "fr"}
 
@@ -251,6 +267,20 @@ class Config:
     def locale(self, lang: str) -> str:
         return self.data["languages"][lang]["locale"]
 
+    def content_langs(self) -> tuple[str, ...]:
+        """Langues des leçons : celles des profils, puis les langues supplémentaires configurées."""
+        configured = self.data.get("languages", {})
+        return PROFILE_LANGS + tuple(lang for lang in EXTRA_LANGS if lang in configured)
+
+    def display_langs(self) -> list[str]:
+        """Langues visibles par défaut dans les pages."""
+        wanted = self.get("display.languages") or list(CONTENT_LANGS)
+        langs = [lang for lang in self.content_langs() if lang in wanted]
+        return langs or list(PROFILE_LANGS)
+
+    def audio_format(self) -> str:
+        return str(self.get("audio.format", "wav") or "wav").lower()
+
     def validate(self) -> list[str]:
         """Retourne la liste des problèmes de configuration (vide si tout va bien)."""
         problems: list[str] = []
@@ -259,10 +289,18 @@ class Config:
             self.schedule_time()
         except ConfigError as exc:
             problems.append(str(exc))
-        for lang in ("fr", "en", "km"):
+        for lang in self.content_langs():
             spec = self.data.get("languages", {}).get(lang)
             if not spec or not spec.get("locale") or not spec.get("provider"):
                 problems.append(f"languages.{lang} : « locale » et « provider » sont obligatoires")
+        if self.audio_format() not in ("wav", "mp3"):
+            problems.append(f"audio.format = {self.get('audio.format')!r} : valeurs admises « mp3 » ou « wav »")
+        if self.audio_format() == "mp3" and int(self.get("audio.mp3_bitrate_kbps", 48)) not in (32, 40, 48, 56, 64, 80, 96, 112, 128):
+            problems.append("audio.mp3_bitrate_kbps : valeurs admises 32, 40, 48, 56, 64, 80, 96, 112 ou 128")
+        unknown = [lang for lang in self.get("display.languages", []) or [] if lang not in CONTENT_LANGS]
+        if unknown:
+            problems.append(f"display.languages : langue(s) inconnue(s) {', '.join(map(str, unknown))} "
+                            f"(possibles : {', '.join(CONTENT_LANGS)})")
         rate = self.get("audio.sample_rate_hz")
         if rate not in (16000, 22050, 24000, 44100, 48000):
             problems.append(f"audio.sample_rate_hz = {rate} : valeurs admises 22050 ou 24000 (16000, 44100, 48000 tolérées)")

@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le médecin", "en": "doctor", "km": "គ្រូពេទ្យ", "tr": "krou-pét", "pos": "nom",
+      "fr": "le médecin", "en": "doctor", "km": "គ្រូពេទ្យ", "tr": "krou-pét",
+      "es": "el médico", "it": "il medico", "ru": "врач", "zh": "医生", "zh_tr": "yīshēng", "pos": "nom",
       "note": {
         "fr": "Mot à mot « maître de médecine ». On s'adresse au médecin en disant លោកគ្រូពេទ្យ à un homme et អ្នកគ្រូពេទ្យ à une femme.",
         "en": "Word for word “master of medicine”. Address a doctor as លោកគ្រូពេទ្យ (a man) or អ្នកគ្រូពេទ្យ (a woman). French « médecin » is used for men and women.",
         "km": "« médecin » ប្រើបានទាំងប្រុសទាំងស្រី៖ le médecin។ ពេលហៅ គេនិយាយថា « Docteur »។ អង់គ្លេស៖ « doctor »។"
       },
-      "example": {"fr": "Je dois aller chez le médecin.", "en": "I have to go to the doctor.", "km": "ខ្ញុំត្រូវទៅជួបគ្រូពេទ្យ។", "tr": "khgnom treuv teuv tchouop krou-pét."}
+      "example": {"fr": "Je dois aller chez le médecin.", "en": "I have to go to the doctor.", "km": "ខ្ញុំត្រូវទៅជួបគ្រូពេទ្យ។", "tr": "khgnom treuv teuv tchouop krou-pét.",
+      "es": "Tengo que ir al médico.", "it": "Devo andare dal medico.", "ru": "Мне нужно пойти к врачу.", "zh": "我得去看医生。", "zh_tr": "Wǒ děi qù kàn yīshēng."}
     },
     {
-      "fr": "l'hôpital", "en": "hospital", "km": "មន្ទីរពេទ្យ", "tr": "mon-ti-pét", "pos": "nom",
+      "fr": "l'hôpital", "en": "hospital", "km": "មន្ទីរពេទ្យ", "tr": "mon-ti-pét",
+      "es": "el hospital", "it": "l'ospedale", "ru": "больница", "zh": "医院", "zh_tr": "yīyuàn", "pos": "nom",
       "note": {
         "fr": "Dans la conversation, ទៅពេទ្យ (teuv pét) veut dire aussi bien « aller à l'hôpital » que « aller chez le médecin ».",
         "en": "In conversation, ទៅពេទ្យ (teuv pét) means both “go to hospital” and “go to the doctor's”. French « hôpital » is masculine; the h is silent.",
         "km": "« hôpital » ជានាមភេទប្រុស អក្សរ h មិនអានទេ៖ l'hôpital។ អង់គ្លេស « hospital » អានអក្សរ h។"
       },
-      "example": {"fr": "L'hôpital est près du marché.", "en": "The hospital is near the market.", "km": "មន្ទីរពេទ្យនៅជិតផ្សារ។", "tr": "mon-ti-pét neuv tchit phsa."}
+      "example": {"fr": "L'hôpital est près du marché.", "en": "The hospital is near the market.", "km": "មន្ទីរពេទ្យនៅជិតផ្សារ។", "tr": "mon-ti-pét neuv tchit phsa.",
+      "es": "El hospital está cerca del mercado.", "it": "L'ospedale è vicino al mercato.", "ru": "Больница рядом с рынком.", "zh": "医院离市场很近。", "zh_tr": "Yīyuàn lí shìchǎng hěn jìn."}
     },
     {
-      "fr": "le médicament", "en": "medicine", "km": "ថ្នាំ", "tr": "thnam", "pos": "nom",
+      "fr": "le médicament", "en": "medicine", "km": "ថ្នាំ", "tr": "thnam",
+      "es": "el medicamento", "it": "la medicina", "ru": "лекарство", "zh": "药", "zh_tr": "yào", "pos": "nom",
       "note": {
         "fr": "លេបថ្នាំ (lép thnam) = « prendre un médicament », mot à mot « avaler ». Sur les enseignes, la pharmacie s'écrit ឱសថស្ថាន.",
         "en": "លេបថ្នាំ (lép thnam) = “take medicine”, word for word “swallow”. On signs, a pharmacy is written ឱសថស្ថាន. French « médicament » is masculine.",
         "km": "« médicament » ជានាមភេទប្រុស៖ un médicament។ « prendre un médicament » មានន័យថា លេបថ្នាំ។ អង់គ្លេស៖ « medicine »។"
       },
-      "example": {"fr": "Prends ce médicament après le repas.", "en": "Take this medicine after the meal.", "km": "លេបថ្នាំនេះក្រោយពេលញ៉ាំបាយ។", "tr": "lép thnam nih kraoy pél gnam bay."}
+      "example": {"fr": "Prends ce médicament après le repas.", "en": "Take this medicine after the meal.", "km": "លេបថ្នាំនេះក្រោយពេលញ៉ាំបាយ។", "tr": "lép thnam nih kraoy pél gnam bay.",
+      "es": "Tómate este medicamento después de comer.", "it": "Prendi questa medicina dopo il pasto.", "ru": "Прими это лекарство после еды.", "zh": "饭后吃这个药。", "zh_tr": "Fàn hòu chī zhège yào."}
     },
     {
-      "fr": "avoir mal", "en": "to hurt", "km": "ឈឺ", "tr": "tchheu", "pos": "verbe",
+      "fr": "avoir mal", "en": "to hurt", "km": "ឈឺ", "tr": "tchheu",
+      "es": "doler", "it": "fare male", "ru": "болеть", "zh": "疼", "zh_tr": "téng", "pos": "verbe",
       "note": {
         "fr": "Déjà vu au sens de « malade ». Suivi d'une partie du corps, ឈឺ veut dire « avoir mal à » : ឈឺក្បាល, « avoir mal à la tête ».",
         "en": "Seen before meaning “sick”. Followed by a body part, ឈឺ means “to have a pain in”: ឈឺក្បាល, “to have a headache”. French: « avoir mal ».",
         "km": "« malade » មានន័យថា ឈឺជាទូទៅ។ ពេលឈឺត្រង់កន្លែងណាមួយ បារាំងប្រើ « avoir mal à »៖ j'ai mal à la tête។ អង់គ្លេស៖ « my head hurts »។"
       },
-      "example": {"fr": "Où avez-vous mal ?", "en": "Where does it hurt?", "km": "ឈឺត្រង់ណា?", "tr": "tchheu trâng na ?"}
+      "example": {"fr": "Où avez-vous mal ?", "en": "Where does it hurt?", "km": "ឈឺត្រង់ណា?", "tr": "tchheu trâng na ?",
+      "es": "¿Dónde le duele?", "it": "Dove le fa male?", "ru": "Где у вас болит?", "zh": "您哪儿疼？", "zh_tr": "Nín nǎr téng?"}
     },
     {
-      "fr": "la tête", "en": "head", "km": "ក្បាល", "tr": "kbal", "pos": "nom",
+      "fr": "la tête", "en": "head", "km": "ក្បាល", "tr": "kbal",
+      "es": "la cabeza", "it": "la testa", "ru": "голова", "zh": "头", "zh_tr": "tóu", "pos": "nom",
       "note": {
         "fr": "ឈឺក្បាល (tchheu kbal) = « avoir mal à la tête ». Au Cambodge, on évite de toucher la tête de quelqu'un : c'est la partie la plus respectée du corps.",
         "en": "ឈឺក្បាល (tchheu kbal) = “to have a headache”. In Cambodia, avoid touching someone's head: it is the most respected part of the body. French « tête » is feminine.",
         "km": "« tête » ជានាមភេទស្រី៖ la tête។ « J'ai mal à la tête » = ខ្ញុំឈឺក្បាល។ អង់គ្លេស៖ « head »។"
       },
-      "example": {"fr": "J'ai mal à la tête depuis ce matin.", "en": "I have had a headache since this morning.", "km": "ខ្ញុំឈឺក្បាលតាំងពីព្រឹក។", "tr": "khgnom tchheu kbal tang pi preuk."}
+      "example": {"fr": "J'ai mal à la tête depuis ce matin.", "en": "I have had a headache since this morning.", "km": "ខ្ញុំឈឺក្បាលតាំងពីព្រឹក។", "tr": "khgnom tchheu kbal tang pi preuk.",
+      "es": "Me duele la cabeza desde esta mañana.", "it": "Ho mal di testa da stamattina.", "ru": "У меня с утра болит голова.", "zh": "我从早上开始头疼。", "zh_tr": "Wǒ cóng zǎoshang kāishǐ tóu téng."}
     },
     {
-      "fr": "le ventre", "en": "stomach", "km": "ពោះ", "tr": "pouh", "pos": "nom",
+      "fr": "le ventre", "en": "stomach", "km": "ពោះ", "tr": "pouh",
+      "es": "la barriga", "it": "la pancia", "ru": "живот", "zh": "肚子", "zh_tr": "dùzi", "pos": "nom",
       "note": {
         "fr": "ឈឺពោះ (tchheu pouh) = « avoir mal au ventre ». Le ះ final se prononce comme un h soufflé.",
         "en": "ឈឺពោះ (tchheu pouh) = “to have a stomach ache”. The final ះ is a breathed h. French « ventre » means “belly”.",
         "km": "« ventre » ជានាមភេទប្រុស៖ le ventre។ « J'ai mal au ventre » = ខ្ញុំឈឺពោះ។ អង់គ្លេស៖ « stomach »។"
       },
-      "example": {"fr": "Mon enfant a mal au ventre.", "en": "My child has a stomach ache.", "km": "កូនខ្ញុំឈឺពោះ។", "tr": "kôn khgnom tchheu pouh."}
+      "example": {"fr": "Mon enfant a mal au ventre.", "en": "My child has a stomach ache.", "km": "កូនខ្ញុំឈឺពោះ។", "tr": "kôn khgnom tchheu pouh.",
+      "es": "A mi hijo le duele la barriga.", "it": "Mio figlio ha mal di pancia.", "ru": "У моего ребёнка болит живот.", "zh": "我的孩子肚子疼。", "zh_tr": "Wǒ de háizi dùzi téng."}
     }
   ],
   "expressions": [
     {
       "fr": "Ça fait mal ici.", "en": "It hurts here.", "km": "ឈឺត្រង់នេះ។", "tr": "tchheu trâng nih.",
+      "es": "Me duele aquí.", "it": "Mi fa male qui.", "ru": "Болит здесь.", "zh": "这儿疼。", "zh_tr": "Zhèr téng.",
       "note": {
         "fr": "ត្រង់នេះ (trâng nih) = « juste ici », en montrant l'endroit. La question correspondante : ឈឺត្រង់ណា?",
         "en": "ត្រង់នេះ (trâng nih) = “right here”, pointing at the spot. The matching question: ឈឺត្រង់ណា?",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "J'ai de la fièvre.", "en": "I have a fever.", "km": "ខ្ញុំក្តៅខ្លួន។", "tr": "khgnom kdav khlouon.",
+      "es": "Tengo fiebre.", "it": "Ho la febbre.", "ru": "У меня температура.", "zh": "我发烧了。", "zh_tr": "Wǒ fāshāo le.",
       "note": {
         "fr": "Mot à mot « j'ai le corps chaud ». On dit aussi គ្រុន (kroun) pour la fièvre.",
         "en": "Word for word “my body is hot”. Fever is also គ្រុន (kroun). French: « J'ai de la fièvre ».",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Trois fois par jour.", "en": "Three times a day.", "km": "មួយថ្ងៃបីដង។", "tr": "mouy thngay bey dâng.",
+      "es": "Tres veces al día.", "it": "Tre volte al giorno.", "ru": "Три раза в день.", "zh": "一天三次。", "zh_tr": "Yì tiān sān cì.",
       "note": {
         "fr": "Mot à mot « un jour, trois fois ». Pour demander : មួយថ្ងៃប៉ុន្មានដង?, « combien de fois par jour ? ».",
         "en": "Word for word “one day, three times”. To ask: មួយថ្ងៃប៉ុន្មានដង?, “how many times a day?”. French: « trois fois par jour ».",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Depuis quand avez-vous mal ?", "en": "How long has it been hurting?", "km": "ឈឺតាំងពីពេលណា?", "tr": "tchheu tang pi pél na ?",
+      "es": "¿Desde cuándo le duele?", "it": "Da quando le fa male?", "ru": "С какого времени у вас болит?", "zh": "您疼了多长时间了？", "zh_tr": "Nín téng le duō cháng shíjiān le?",
       "note": {
         "fr": "តាំងពី (tang pi) = « depuis » ; ពេលណា = « quand ». Réponse : តាំងពីម្សិលមិញ, « depuis hier ».",
         "en": "តាំងពី (tang pi) = “since”; ពេលណា = “when”. Answer: តាំងពីម្សិលមិញ, “since yesterday”. French « depuis » also means “since” and “for”.",
@@ -103,17 +119,20 @@
     {
       "situation": {"fr": "Chez le médecin", "en": "At the doctor's", "km": "នៅកន្លែងគ្រូពេទ្យ"},
       "fr": "J'ai mal à la tête et j'ai de la fièvre depuis hier.", "en": "I have had a headache and a fever since yesterday.",
-      "km": "ខ្ញុំឈឺក្បាល ហើយក្តៅខ្លួនតាំងពីម្សិលមិញ។", "tr": "khgnom tchheu kbal haeuy kdav khlouon tang pi msel-mign."
+      "km": "ខ្ញុំឈឺក្បាល ហើយក្តៅខ្លួនតាំងពីម្សិលមិញ។", "tr": "khgnom tchheu kbal haeuy kdav khlouon tang pi msel-mign.",
+      "es": "Me duele la cabeza y tengo fiebre desde ayer.", "it": "Ho mal di testa e la febbre da ieri.", "ru": "У меня со вчерашнего дня болит голова и температура.", "zh": "我从昨天开始头疼，还发烧。", "zh_tr": "Wǒ cóng zuótiān kāishǐ tóu téng, hái fāshāo."
     },
     {
       "situation": {"fr": "À la pharmacie", "en": "At the pharmacy", "km": "នៅឱសថស្ថាន"},
       "fr": "Vous avez un médicament pour le mal de ventre ?", "en": "Do you have medicine for a stomach ache?",
-      "km": "មានថ្នាំឈឺពោះទេ?", "tr": "méan thnam tchheu pouh té ?"
+      "km": "មានថ្នាំឈឺពោះទេ?", "tr": "méan thnam tchheu pouh té ?",
+      "es": "¿Tiene algún medicamento para el dolor de barriga?", "it": "Ha una medicina per il mal di pancia?", "ru": "У вас есть лекарство от боли в животе?", "zh": "有治肚子疼的药吗？", "zh_tr": "Yǒu zhì dùzi téng de yào ma?"
     },
     {
       "situation": {"fr": "Prendre des nouvelles", "en": "Asking how someone is", "km": "ពេលសួរសុខទុក្ខ"},
       "fr": "Tu as encore mal à la tête ? Bois beaucoup d'eau.", "en": "Do you still have a headache? Drink plenty of water.",
-      "km": "នៅឈឺក្បាលទេ? ផឹកទឹកច្រើនៗណា។", "tr": "neuv tchheu kbal té ? pheuk teuk tchraeun-tchraeun na."
+      "km": "នៅឈឺក្បាលទេ? ផឹកទឹកច្រើនៗណា។", "tr": "neuv tchheu kbal té ? pheuk teuk tchraeun-tchraeun na.",
+      "es": "¿Todavía te duele la cabeza? Bebe mucha agua.", "it": "Hai ancora mal di testa? Bevi molta acqua.", "ru": "У тебя ещё болит голова? Пей много воды.", "zh": "你还头疼吗？多喝水。", "zh_tr": "Nǐ hái tóu téng ma? Duō hē shuǐ."
     }
   ],
   "dialogue": {
@@ -123,12 +142,18 @@
       "km": "នៅផ្ទះ {B} មិនស្រួលខ្លួនទេ។"
     },
     "lines": [
-      {"speaker": "A", "fr": "{B}, qu'est-ce que tu as ? Où as-tu mal ?", "en": "{B}, what is wrong? Where does it hurt?", "km": "{B} កើតអី? ឈឺត្រង់ណា?", "tr": "{B} kaeut ey ? tchheu trâng na ?"},
-      {"speaker": "B", "fr": "J'ai mal au ventre et un peu mal à la tête.", "en": "I have a stomach ache and a slight headache.", "km": "ខ្ញុំឈឺពោះ ហើយឈឺក្បាលបន្តិច។", "tr": "khgnom tchheu pouh haeuy tchheu kbal bân-tetch."},
-      {"speaker": "A", "fr": "Tu as de la fièvre ?", "en": "Do you have a fever?", "km": "ក្តៅខ្លួនទេ?", "tr": "kdav khlouon té ?"},
-      {"speaker": "B", "fr": "Non, je n'ai pas de fièvre.", "en": "No, I do not have a fever.", "km": "ទេ អត់ក្តៅខ្លួនទេ។", "tr": "té, ât kdav khlouon té."},
-      {"speaker": "A", "fr": "Prends d'abord ce médicament. Demain, nous allons chez le médecin.", "en": "Take this medicine first. Tomorrow, we are going to the doctor.", "km": "លេបថ្នាំនេះសិន។ ថ្ងៃស្អែក យើងទៅជួបគ្រូពេទ្យ។", "tr": "lép thnam nih sen. thngay s'aèk, yeung teuv tchouop krou-pét."},
-      {"speaker": "B", "fr": "D'accord, merci {A}.", "en": "Okay, thank you, {A}.", "km": "{B_yes} អរគុណ {A}។", "tr": "{B_yes}, â-koun {A}."}
+      {"speaker": "A", "fr": "{B}, qu'est-ce que tu as ? Où as-tu mal ?", "en": "{B}, what is wrong? Where does it hurt?", "km": "{B} កើតអី? ឈឺត្រង់ណា?", "tr": "{B} kaeut ey ? tchheu trâng na ?",
+        "es": "{B}, ¿qué te pasa? ¿Dónde te duele?", "it": "{B}, che cos'hai? Dove ti fa male?", "ru": "{B}, что с тобой? Где у тебя болит?", "zh": "{B}，你怎么了？哪儿疼？", "zh_tr": "{B}, nǐ zěnme le? Nǎr téng?"},
+      {"speaker": "B", "fr": "J'ai mal au ventre et un peu mal à la tête.", "en": "I have a stomach ache and a slight headache.", "km": "ខ្ញុំឈឺពោះ ហើយឈឺក្បាលបន្តិច។", "tr": "khgnom tchheu pouh haeuy tchheu kbal bân-tetch.",
+        "es": "Me duele la barriga y un poco la cabeza.", "it": "Ho mal di pancia e un po' di mal di testa.", "ru": "У меня болит живот и немного голова.", "zh": "我肚子疼，头也有点儿疼。", "zh_tr": "Wǒ dùzi téng, tóu yě yǒudiǎnr téng."},
+      {"speaker": "A", "fr": "Tu as de la fièvre ?", "en": "Do you have a fever?", "km": "ក្តៅខ្លួនទេ?", "tr": "kdav khlouon té ?",
+        "es": "¿Tienes fiebre?", "it": "Hai la febbre?", "ru": "У тебя температура?", "zh": "你发烧了吗？", "zh_tr": "Nǐ fāshāo le ma?"},
+      {"speaker": "B", "fr": "Non, je n'ai pas de fièvre.", "en": "No, I do not have a fever.", "km": "ទេ អត់ក្តៅខ្លួនទេ។", "tr": "té, ât kdav khlouon té.",
+        "es": "No, no tengo fiebre.", "it": "No, non ho la febbre.", "ru": "Нет, температуры нет.", "zh": "没有，我没发烧。", "zh_tr": "Méiyǒu, wǒ méi fāshāo."},
+      {"speaker": "A", "fr": "Prends d'abord ce médicament. Demain, nous allons chez le médecin.", "en": "Take this medicine first. Tomorrow, we are going to the doctor.", "km": "លេបថ្នាំនេះសិន។ ថ្ងៃស្អែក យើងទៅជួបគ្រូពេទ្យ។", "tr": "lép thnam nih sen. thngay s'aèk, yeung teuv tchouop krou-pét.",
+        "es": "Primero tómate este medicamento. Mañana vamos al médico.", "it": "Prima prendi questa medicina. Domani andiamo dal medico.", "ru": "Сначала прими это лекарство. Завтра пойдём к врачу.", "zh": "先吃这个药。明天我们去看医生。", "zh_tr": "Xiān chī zhège yào. Míngtiān wǒmen qù kàn yīshēng."},
+      {"speaker": "B", "fr": "D'accord, merci {A}.", "en": "Okay, thank you, {A}.", "km": "{B_yes} អរគុណ {A}។", "tr": "{B_yes}, â-koun {A}.",
+        "es": "Vale, gracias, {A}.", "it": "D'accordo, grazie, {A}.", "ru": "Хорошо, спасибо, {A}.", "zh": "好的，谢谢你，{A}。", "zh_tr": "Hǎo de, xièxie nǐ, {A}."}
     ]
   },
   "comprehension": {

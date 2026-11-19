@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "Noël", "en": "Christmas", "km": "បុណ្យណូអែល", "tr": "bon nô-aèl", "pos": "nom",
+      "fr": "Noël", "en": "Christmas", "km": "បុណ្យណូអែល", "tr": "bon nô-aèl",
+      "es": "la Navidad", "it": "il Natale", "ru": "Рождество", "zh": "圣诞节", "zh_tr": "Shèngdànjié", "pos": "nom",
       "note": {
         "fr": "បុណ្យ, « la fête », suivi du nom emprunté au français. On dit aussi simplement ណូអែល.",
         "en": "បុណ្យ, “festival”, followed by the name borrowed from French. People also just say ណូអែល. French « Noël »: the two dots on the ë mean o and e are read separately.",
         "km": "« Noël » សរសេរដោយអក្សរធំ ហើយមិនប្រើពាក្យនាំមុខទេ៖ à Noël, pour Noël។ អង់គ្លេស៖ « Christmas »។"
       },
-      "example": {"fr": "Noël est le vingt-cinq décembre.", "en": "Christmas is on the twenty-fifth of December.", "km": "បុណ្យណូអែលនៅថ្ងៃទីម្ភៃប្រាំ ខែធ្នូ។", "tr": "bon nô-aèl neuv thngay ti mphey-pram khaè thnou."}
+      "example": {"fr": "Noël est le vingt-cinq décembre.", "en": "Christmas is on the twenty-fifth of December.", "km": "បុណ្យណូអែលនៅថ្ងៃទីម្ភៃប្រាំ ខែធ្នូ។", "tr": "bon nô-aèl neuv thngay ti mphey-pram khaè thnou.",
+      "es": "La Navidad es el veinticinco de diciembre.", "it": "Natale è il venticinque dicembre.", "ru": "Рождество — двадцать пятого декабря.", "zh": "圣诞节是十二月二十五日。", "zh_tr": "Shèngdànjié shì shí'èryuè èrshíwǔ rì."}
     },
     {
-      "fr": "le sapin", "en": "fir tree", "km": "ដើមស្រល់", "tr": "daeum srâl", "pos": "nom",
+      "fr": "le sapin", "en": "fir tree", "km": "ដើមស្រល់", "tr": "daeum srâl",
+      "es": "el abeto", "it": "l'abete", "ru": "ёлка", "zh": "圣诞树", "zh_tr": "shèngdànshù", "pos": "nom",
       "note": {
         "fr": "ដើមស្រល់ est le pin. Le sapin de Noël décoré se dit souvent ដើមណូអែល, « l'arbre de Noël ».",
         "en": "ដើមស្រល់ is the pine tree. The decorated Christmas tree is often ដើមណូអែល, “Christmas tree”. French: « le sapin de Noël ».",
         "km": "« sapin » ជានាមភេទប្រុស៖ le sapin។ « le sapin de Noël » មានន័យថា ដើមណូអែល។ អង់គ្លេស៖ « Christmas tree »។"
       },
-      "example": {"fr": "Nous décorons le sapin ensemble.", "en": "We decorate the Christmas tree together.", "km": "យើងតុបតែងដើមណូអែលជាមួយគ្នា។", "tr": "yeung tob-taèng daeum nô-aèl tchéa-mouy knéa."}
+      "example": {"fr": "Nous décorons le sapin ensemble.", "en": "We decorate the Christmas tree together.", "km": "យើងតុបតែងដើមណូអែលជាមួយគ្នា។", "tr": "yeung tob-taèng daeum nô-aèl tchéa-mouy knéa.",
+      "es": "Decoramos el árbol juntos.", "it": "Decoriamo l'albero insieme.", "ru": "Мы вместе наряжаем ёлку.", "zh": "我们一起装饰圣诞树。", "zh_tr": "Wǒmen yìqǐ zhuāngshì shèngdànshù."}
     },
     {
-      "fr": "la neige", "en": "snow", "km": "ព្រិល", "tr": "prel", "pos": "nom",
+      "fr": "la neige", "en": "snow", "km": "ព្រិល", "tr": "prel",
+      "es": "la nieve", "it": "la neve", "ru": "снег", "zh": "雪", "zh_tr": "xuě", "pos": "nom",
       "note": {
         "fr": "Pour « il neige », on dit ព្រិលធ្លាក់ (prel thléak), « la neige tombe », comme pour la pluie.",
         "en": "For “it's snowing”, say ព្រិលធ្លាក់ (prel thléak), “snow falls”, as for rain. French « neige » is feminine; « il neige » means “it's snowing”.",
         "km": "« neige » ជានាមភេទស្រី៖ la neige។ « il neige » មានន័យថា ព្រិលធ្លាក់។ អង់គ្លេស៖ « snow », « it's snowing »។"
       },
-      "example": {"fr": "Il n'y a jamais de neige au Cambodge.", "en": "There is never any snow in Cambodia.", "km": "នៅកម្ពុជា មិនដែលមានព្រិលទេ។", "tr": "neuv kâm-pou-tchéa, min daèl méan prel té."}
+      "example": {"fr": "Il n'y a jamais de neige au Cambodge.", "en": "There is never any snow in Cambodia.", "km": "នៅកម្ពុជា មិនដែលមានព្រិលទេ។", "tr": "neuv kâm-pou-tchéa, min daèl méan prel té.",
+      "es": "En Camboya nunca hay nieve.", "it": "In Cambogia non c'è mai la neve.", "ru": "В Камбодже никогда не бывает снега.", "zh": "柬埔寨从来不下雪。", "zh_tr": "Jiǎnpǔzhài cónglái bú xià xuě."}
     },
     {
-      "fr": "souhaiter", "en": "to wish", "km": "ជូនពរ", "tr": "tchoun pô", "pos": "verbe",
+      "fr": "souhaiter", "en": "to wish", "km": "ជូនពរ", "tr": "tchoun pô",
+      "es": "desear", "it": "augurare", "ru": "желать", "zh": "祝", "zh_tr": "zhù", "pos": "verbe",
       "note": {
         "fr": "ជូន, « offrir », et ពរ, « la bénédiction » : mot à mot « offrir ses vœux ».",
         "en": "ជូន, “to offer”, and ពរ, “blessing”: word for word “offer your wishes”. French « souhaiter »: je te souhaite un joyeux Noël.",
         "km": "« souhaiter »៖ je te souhaite un joyeux Noël។ « les vœux » មានន័យថា ពាក្យជូនពរ។ អង់គ្លេស៖ « to wish »។"
       },
-      "example": {"fr": "Je souhaite une bonne santé à toute ta famille.", "en": "I wish your whole family good health.", "km": "ខ្ញុំជូនពរគ្រួសាររបស់អ្នកទាំងអស់ឱ្យមានសុខភាពល្អ។", "tr": "khgnom tchoun pô krouo-sa ro-bâh néak téang âh aoy méan sok-kha-phéap l'â."}
+      "example": {"fr": "Je souhaite une bonne santé à toute ta famille.", "en": "I wish your whole family good health.", "km": "ខ្ញុំជូនពរគ្រួសាររបស់អ្នកទាំងអស់ឱ្យមានសុខភាពល្អ។", "tr": "khgnom tchoun pô krouo-sa ro-bâh néak téang âh aoy méan sok-kha-phéap l'â.",
+      "es": "Le deseo buena salud a toda tu familia.", "it": "Auguro buona salute a tutta la tua famiglia.", "ru": "Желаю здоровья всей твоей семье.", "zh": "祝你全家身体健康。", "zh_tr": "Zhù nǐ quán jiā shēntǐ jiànkāng."}
     },
     {
-      "fr": "la bougie", "en": "candle", "km": "ទៀន", "tr": "tien", "pos": "nom",
+      "fr": "la bougie", "en": "candle", "km": "ទៀន", "tr": "tien",
+      "es": "la vela", "it": "la candela", "ru": "свеча", "zh": "蜡烛", "zh_tr": "làzhú", "pos": "nom",
       "note": {
         "fr": "Allumer une bougie se dit អុជទៀន (outch tien). On allume aussi des bougies et de l'encens à la pagode.",
         "en": "To light a candle is អុជទៀន (outch tien). Candles and incense are also lit at the pagoda. French « bougie » is feminine.",
         "km": "« bougie » ជានាមភេទស្រី៖ la bougie។ « allumer » មានន័យថា អុជ ឬបើក។ អង់គ្លេស៖ « candle »។"
       },
-      "example": {"fr": "On allume des bougies sur la table.", "en": "We light candles on the table.", "km": "យើងអុជទៀនលើតុ។", "tr": "yeung outch tien leu tok."}
+      "example": {"fr": "On allume des bougies sur la table.", "en": "We light candles on the table.", "km": "យើងអុជទៀនលើតុ។", "tr": "yeung outch tien leu tok.",
+      "es": "Encendemos velas en la mesa.", "it": "Accendiamo delle candele sul tavolo.", "ru": "Мы зажигаем свечи на столе.", "zh": "我们在桌子上点蜡烛。", "zh_tr": "Wǒmen zài zhuōzi shang diǎn làzhú."}
     },
     {
-      "fr": "le repas", "en": "meal", "km": "អាហារ", "tr": "a-ha", "pos": "nom",
+      "fr": "le repas", "en": "meal", "km": "អាហារ", "tr": "a-ha",
+      "es": "la comida", "it": "il pranzo", "ru": "трапеза", "zh": "饭", "zh_tr": "fàn", "pos": "nom",
       "note": {
         "fr": "អាហារ est le mot général. Au quotidien, on dit plutôt បាយ, le riz : ញ៉ាំបាយ, prendre son repas.",
         "en": "អាហារ is the general word. In daily life, people say បាយ, rice: ញ៉ាំបាយ, have a meal. French « repas » is masculine; the s is silent.",
         "km": "« repas » ជានាមភេទប្រុស ហើយ s មិនអានទេ៖ le repas។ អាហារពេលព្រឹក៖ le petit-déjeuner; ថ្ងៃត្រង់៖ le déjeuner; ល្ងាច៖ le dîner។ អង់គ្លេស៖ « meal »។"
       },
-      "example": {"fr": "Le repas de Noël dure longtemps.", "en": "The Christmas meal lasts a long time.", "km": "អាហារបុណ្យណូអែលញ៉ាំយូរណាស់។", "tr": "a-ha bon nô-aèl gnam you nah."}
+      "example": {"fr": "Le repas de Noël dure longtemps.", "en": "The Christmas meal lasts a long time.", "km": "អាហារបុណ្យណូអែលញ៉ាំយូរណាស់។", "tr": "a-ha bon nô-aèl gnam you nah.",
+      "es": "La cena de Navidad dura mucho tiempo.", "it": "Il cenone di Natale dura a lungo.", "ru": "Рождественский ужин длится долго.", "zh": "圣诞大餐要吃很长时间。", "zh_tr": "Shèngdàn dàcān yào chī hěn cháng shíjiān."}
     }
   ],
   "expressions": [
     {
       "fr": "Joyeux Noël !", "en": "Merry Christmas!", "km": "រីករាយបុណ្យណូអែល!", "tr": "rik-réay bon nô-aèl !",
+      "es": "¡Feliz Navidad!", "it": "Buon Natale!", "ru": "С Рождеством!", "zh": "圣诞快乐！", "zh_tr": "Shèngdàn kuàilè!",
       "note": {
         "fr": "Même modèle que រីករាយថ្ងៃកំណើត, joyeux anniversaire : រីករាយ suivi du nom de la fête.",
         "en": "The same pattern as រីករាយថ្ងៃកំណើត, happy birthday: រីករាយ followed by the festival. French « Joyeux Noël ! »",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Bonnes fêtes !", "en": "Happy holidays!", "km": "រីករាយថ្ងៃបុណ្យ!", "tr": "rik-réay thngay bon !",
+      "es": "¡Felices fiestas!", "it": "Buone feste!", "ru": "С праздниками!", "zh": "节日快乐！", "zh_tr": "Jiérì kuàilè!",
       "note": {
         "fr": "Formule de fin d'année, pour Noël et le Nouvel An à la fois.",
         "en": "An end-of-year phrase, for Christmas and New Year together. French « Bonnes fêtes ! »",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "C'est pour toi.", "en": "This is for you.", "km": "នេះសម្រាប់អ្នក។", "tr": "nih sâm-rap néak.",
+      "es": "Es para ti.", "it": "È per te.", "ru": "Это тебе.", "zh": "这是给你的。", "zh_tr": "Zhè shì gěi nǐ de.",
       "note": {
         "fr": "On offre un cadeau avec les deux mains, ou la main droite soutenue par la gauche : c'est plus poli.",
         "en": "Give a present with both hands, or the right hand supported by the left: it is more polite. French « pour toi » is familiar; « pour vous » is polite.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Ça me fait très plaisir.", "en": "That makes me very happy.", "km": "ខ្ញុំសប្បាយចិត្តណាស់។", "tr": "khgnom sa-bay tchet nah.",
+      "es": "Me hace mucha ilusión.", "it": "Mi fa molto piacere.", "ru": "Мне очень приятно.", "zh": "我很高兴。", "zh_tr": "Wǒ hěn gāoxìng.",
       "note": {
         "fr": "Réponse naturelle à un cadeau ou à une attention : « je suis très content ».",
         "en": "A natural answer to a present or a kind gesture: “I am very happy”. French « faire plaisir » means “to please”.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "Noël en France", "en": "Christmas in France", "km": "បុណ្យណូអែលនៅប្រទេសបារាំង"},
       "fr": "En France, il fait froid à Noël, et parfois il neige.", "en": "In France, it's cold at Christmas, and sometimes it snows.",
-      "km": "នៅប្រទេសបារាំង ពេលបុណ្យណូអែលរងា ហើយពេលខ្លះមានព្រិលធ្លាក់។", "tr": "neuv prâ-téh ba-rang, pél bon nô-aèl rô-ngéa, haeuy pél khlah méan prel thléak."
+      "km": "នៅប្រទេសបារាំង ពេលបុណ្យណូអែលរងា ហើយពេលខ្លះមានព្រិលធ្លាក់។", "tr": "neuv prâ-téh ba-rang, pél bon nô-aèl rô-ngéa, haeuy pél khlah méan prel thléak.",
+      "es": "En Francia hace frío en Navidad, y a veces nieva.", "it": "In Francia a Natale fa freddo e a volte nevica.", "ru": "Во Франции на Рождество холодно, а иногда идёт снег.", "zh": "在法国，圣诞节很冷，有时候会下雪。", "zh_tr": "Zài Fǎguó, Shèngdànjié hěn lěng, yǒu shíhou huì xià xuě."
     },
     {
       "situation": {"fr": "Noël à Phnom Penh", "en": "Christmas in Phnom Penh", "km": "បុណ្យណូអែលនៅភ្នំពេញ"},
       "fr": "À Phnom Penh, on voit des sapins de Noël dans les grands magasins.", "en": "In Phnom Penh, you can see Christmas trees in the big shops.",
-      "km": "នៅភ្នំពេញ គេដាក់ដើមណូអែលនៅតាមហាងធំៗ។", "tr": "neuv phnom-pégn, ké dak daeum nô-aèl neuv tam hang thom-thom."
+      "km": "នៅភ្នំពេញ គេដាក់ដើមណូអែលនៅតាមហាងធំៗ។", "tr": "neuv phnom-pégn, ké dak daeum nô-aèl neuv tam hang thom-thom.",
+      "es": "En Phnom Penh se ven árboles de Navidad en los grandes almacenes.", "it": "A Phnom Penh si vedono alberi di Natale nei grandi magazzini.", "ru": "В Пномпене в больших магазинах можно увидеть рождественские ёлки.", "zh": "在金边的大商场里可以看到圣诞树。", "zh_tr": "Zài Jīnbiān de dà shāngchǎng li kěyǐ kàndào shèngdànshù."
     },
     {
       "situation": {"fr": "Le soir de Noël", "en": "Christmas Eve", "km": "យប់បុណ្យណូអែល"},
       "fr": "Le soir de Noël, toute la famille prend un grand repas ensemble.", "en": "On Christmas Eve, the whole family has a big meal together.",
-      "km": "យប់បុណ្យណូអែល គ្រួសារទាំងមូលញ៉ាំអាហារជាមួយគ្នា។", "tr": "youp bon nô-aèl, krouo-sa téang moul gnam a-ha tchéa-mouy knéa."
+      "km": "យប់បុណ្យណូអែល គ្រួសារទាំងមូលញ៉ាំអាហារជាមួយគ្នា។", "tr": "youp bon nô-aèl, krouo-sa téang moul gnam a-ha tchéa-mouy knéa.",
+      "es": "En Nochebuena, toda la familia cena junta.", "it": "La sera della vigilia tutta la famiglia fa un grande cenone insieme.", "ru": "В сочельник вся семья вместе садится за большой ужин.", "zh": "平安夜，全家人一起吃一顿大餐。", "zh_tr": "Píng'ānyè, quán jiā rén yìqǐ chī yí dùn dàcān."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Le soir du vingt-quatre décembre.", "en": "On the evening of the twenty-fourth of December.", "km": "ល្ងាចថ្ងៃទីម្ភៃបួន ខែធ្នូ។"},
     "lines": [
-      {"speaker": "A", "fr": "Comment on fête Noël en France ?", "en": "How do people celebrate Christmas in France?", "km": "នៅប្រទេសបារាំង គេធ្វើបុណ្យណូអែលយ៉ាងម៉េច?", "tr": "neuv prâ-téh ba-rang, ké thveu bon nô-aèl yang métch ?"},
-      {"speaker": "B", "fr": "On décore un sapin, et on prend un grand repas en famille.", "en": "We decorate a tree, and we have a big family meal.", "km": "គេតុបតែងដើមស្រល់ ហើយញ៉ាំអាហារជុំគ្នាជាគ្រួសារ។", "tr": "ké tob-taèng daeum srâl, haeuy gnam a-ha tchoum knéa tchéa krouo-sa."},
-      {"speaker": "A", "fr": "Et il neige ?", "en": "And does it snow?", "km": "ហើយមានព្រិលធ្លាក់ទេ?", "tr": "haeuy méan prel thléak té ?"},
-      {"speaker": "B", "fr": "Parfois, surtout à la montagne. Il fait très froid.", "en": "Sometimes, especially in the mountains. It's very cold.", "km": "ពេលខ្លះ ជាពិសេសនៅលើភ្នំ។ រងាណាស់។", "tr": "pél khlah, tchéa pi-sés neuv leu phnom. rô-ngéa nah."},
-      {"speaker": "A", "fr": "Ce soir, on allume des bougies ici aussi ?", "en": "Tonight, shall we light candles here too?", "km": "យប់នេះ យើងអុជទៀននៅទីនេះដែរទេ?", "tr": "youp nih, yeung outch tien neuv ti-nih daè té ?"},
-      {"speaker": "B", "fr": "Oui ! Et j'ai un cadeau pour toi. Joyeux Noël !", "en": "Yes! And I have a gift for you. Merry Christmas!", "km": "{B_yes}! ហើយខ្ញុំមានអំណោយសម្រាប់ {A}។ រីករាយបុណ្យណូអែល!", "tr": "{B_yes} ! haeuy khgnom méan âm-naoy sâm-rap {A}. rik-réay bon nô-aèl !"},
-      {"speaker": "A", "fr": "Merci, ça me fait très plaisir !", "en": "Thank you, that makes me very happy!", "km": "អរគុណ ខ្ញុំសប្បាយចិត្តណាស់!", "tr": "â-koun, khgnom sa-bay tchet nah !"}
+      {"speaker": "A", "fr": "Comment on fête Noël en France ?", "en": "How do people celebrate Christmas in France?", "km": "នៅប្រទេសបារាំង គេធ្វើបុណ្យណូអែលយ៉ាងម៉េច?", "tr": "neuv prâ-téh ba-rang, ké thveu bon nô-aèl yang métch ?",
+        "es": "¿Cómo se celebra la Navidad en Francia?", "it": "Come si festeggia il Natale in Francia?", "ru": "Как празднуют Рождество во Франции?", "zh": "法国人怎么过圣诞节？", "zh_tr": "Fǎguó rén zěnme guò Shèngdànjié?"},
+      {"speaker": "B", "fr": "On décore un sapin, et on prend un grand repas en famille.", "en": "We decorate a tree, and we have a big family meal.", "km": "គេតុបតែងដើមស្រល់ ហើយញ៉ាំអាហារជុំគ្នាជាគ្រួសារ។", "tr": "ké tob-taèng daeum srâl, haeuy gnam a-ha tchoum knéa tchéa krouo-sa.",
+        "es": "Se decora un árbol y se hace una gran comida en familia.", "it": "Si decora un albero e si fa un grande pranzo in famiglia.", "ru": "Наряжают ёлку и устраивают большой семейный ужин.", "zh": "我们装饰圣诞树，全家一起吃大餐。", "zh_tr": "Wǒmen zhuāngshì shèngdànshù, quán jiā yìqǐ chī dàcān."},
+      {"speaker": "A", "fr": "Et il neige ?", "en": "And does it snow?", "km": "ហើយមានព្រិលធ្លាក់ទេ?", "tr": "haeuy méan prel thléak té ?",
+        "es": "¿Y nieva?", "it": "E nevica?", "ru": "А снег идёт?", "zh": "会下雪吗？", "zh_tr": "Huì xià xuě ma?"},
+      {"speaker": "B", "fr": "Parfois, surtout à la montagne. Il fait très froid.", "en": "Sometimes, especially in the mountains. It's very cold.", "km": "ពេលខ្លះ ជាពិសេសនៅលើភ្នំ។ រងាណាស់។", "tr": "pél khlah, tchéa pi-sés neuv leu phnom. rô-ngéa nah.",
+        "es": "A veces, sobre todo en la montaña. Hace mucho frío.", "it": "A volte, soprattutto in montagna. Fa molto freddo.", "ru": "Иногда, особенно в горах. Очень холодно.", "zh": "有时候会，特别是在山区。天很冷。", "zh_tr": "Yǒu shíhou huì, tèbié shì zài shānqū. Tiān hěn lěng."},
+      {"speaker": "A", "fr": "Ce soir, on allume des bougies ici aussi ?", "en": "Tonight, shall we light candles here too?", "km": "យប់នេះ យើងអុជទៀននៅទីនេះដែរទេ?", "tr": "youp nih, yeung outch tien neuv ti-nih daè té ?",
+        "es": "Esta noche, ¿encendemos velas aquí también?", "it": "Stasera accendiamo delle candele anche qui?", "ru": "Зажжём сегодня вечером свечи и здесь?", "zh": "今天晚上我们在这儿也点蜡烛吧？", "zh_tr": "Jīntiān wǎnshang wǒmen zài zhèr yě diǎn làzhú ba?"},
+      {"speaker": "B", "fr": "Oui ! Et j'ai un cadeau pour toi. Joyeux Noël !", "en": "Yes! And I have a gift for you. Merry Christmas!", "km": "{B_yes}! ហើយខ្ញុំមានអំណោយសម្រាប់ {A}។ រីករាយបុណ្យណូអែល!", "tr": "{B_yes} ! haeuy khgnom méan âm-naoy sâm-rap {A}. rik-réay bon nô-aèl !",
+        "es": "¡Sí! Y tengo un regalo para ti. ¡Feliz Navidad!", "it": "Sì! E ho un regalo per te. Buon Natale!", "ru": "Да! И у меня для тебя подарок. С Рождеством!", "zh": "好啊！我还有一份礼物给你。圣诞快乐！", "zh_tr": "Hǎo a! Wǒ hái yǒu yí fèn lǐwù gěi nǐ. Shèngdàn kuàilè!"},
+      {"speaker": "A", "fr": "Merci, ça me fait très plaisir !", "en": "Thank you, that makes me very happy!", "km": "អរគុណ ខ្ញុំសប្បាយចិត្តណាស់!", "tr": "â-koun, khgnom sa-bay tchet nah !",
+        "es": "¡Gracias, me hace mucha ilusión!", "it": "Grazie, mi fa molto piacere!", "ru": "Спасибо, мне очень приятно!", "zh": "谢谢，我很高兴！", "zh_tr": "Xièxie, wǒ hěn gāoxìng!"}
     ]
   },
   "comprehension": {

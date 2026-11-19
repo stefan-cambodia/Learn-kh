@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le grand frère", "en": "older brother", "km": "បងប្រុស", "tr": "bâng proh", "pos": "nom",
+      "fr": "le grand frère", "en": "older brother", "km": "បងប្រុស", "tr": "bâng proh",
+      "es": "el hermano mayor", "it": "il fratello maggiore", "ru": "старший брат", "zh": "哥哥", "zh_tr": "gēge", "pos": "nom",
       "note": {
         "fr": "បង, « aîné », et ប្រុស, « masculin ». Entre amoureux, បង désigne aussi l'homme ou le plus âgé du couple.",
         "en": "បង, “older”, and ប្រុស, “male”. Between lovers, បង also means the man or the older partner. French « grand frère », “big brother”.",
         "km": "« le grand frère » មានន័យថា បងប្រុស។ ជាទូទៅ គេនិយាយត្រឹមតែ « mon frère »។ អង់គ្លេស៖ « older brother »។"
       },
-      "example": {"fr": "Mon grand frère habite à Battambang.", "en": "My older brother lives in Battambang.", "km": "បងប្រុសខ្ញុំរស់នៅបាត់ដំបង។", "tr": "bâng proh khgnom rouh neuv bat-dâm-bâng."}
+      "example": {"fr": "Mon grand frère habite à Battambang.", "en": "My older brother lives in Battambang.", "km": "បងប្រុសខ្ញុំរស់នៅបាត់ដំបង។", "tr": "bâng proh khgnom rouh neuv bat-dâm-bâng.",
+      "es": "Mi hermano mayor vive en Battambang.", "it": "Mio fratello maggiore abita a Battambang.", "ru": "Мой старший брат живёт в Баттамбанге.", "zh": "我哥哥住在马德望。", "zh_tr": "Wǒ gēge zhù zài Mǎdéwàng."}
     },
     {
-      "fr": "la petite sœur", "en": "younger sister", "km": "ប្អូនស្រី", "tr": "p'ôn srey", "pos": "nom",
+      "fr": "la petite sœur", "en": "younger sister", "km": "ប្អូនស្រី", "tr": "p'ôn srey",
+      "es": "la hermana pequeña", "it": "la sorella minore", "ru": "младшая сестра", "zh": "妹妹", "zh_tr": "mèimei", "pos": "nom",
       "note": {
         "fr": "ប្អូន, « cadet », et ស្រី, « féminin ». Le petit frère se dit ប្អូនប្រុស, la grande sœur បងស្រី.",
         "en": "ប្អូន, “younger”, and ស្រី, “female”. A younger brother is ប្អូនប្រុស, an older sister បងស្រី. French « petite sœur », “little sister”.",
         "km": "« la petite sœur » មានន័យថា ប្អូនស្រី។ « sœur » អានដូច « seur »។ អង់គ្លេស៖ « younger sister »។"
       },
-      "example": {"fr": "Ma petite sœur étudie à l'université.", "en": "My younger sister studies at university.", "km": "ប្អូនស្រីខ្ញុំរៀននៅសាកលវិទ្យាល័យ។", "tr": "p'ôn srey khgnom rien neuv sa-kâl-vi-tyéa-lay."}
+      "example": {"fr": "Ma petite sœur étudie à l'université.", "en": "My younger sister studies at university.", "km": "ប្អូនស្រីខ្ញុំរៀននៅសាកលវិទ្យាល័យ។", "tr": "p'ôn srey khgnom rien neuv sa-kâl-vi-tyéa-lay.",
+      "es": "Mi hermana pequeña estudia en la universidad.", "it": "Mia sorella minore studia all'università.", "ru": "Моя младшая сестра учится в университете.", "zh": "我妹妹在上大学。", "zh_tr": "Wǒ mèimei zài shàng dàxué."}
     },
     {
-      "fr": "le grand-père", "en": "grandfather", "km": "តា", "tr": "ta", "pos": "nom",
+      "fr": "le grand-père", "en": "grandfather", "km": "តា", "tr": "ta",
+      "es": "el abuelo", "it": "il nonno", "ru": "дедушка", "zh": "爷爷", "zh_tr": "yéye", "pos": "nom",
       "note": {
         "fr": "តា s'emploie aussi pour s'adresser poliment à tout homme âgé. Les grands-parents ensemble se disent តាយាយ.",
         "en": "តា is also a polite way to address any elderly man. Grandparents together are តាយាយ. French « grand-père » has a hyphen; « papi » is affectionate.",
         "km": "« le grand-père » មានសញ្ញាតភ្ជាប់ (-)។ ពហុវចនៈ « les grands-pères »។ « les grands-parents » មានន័យថា តាយាយ។ អង់គ្លេស៖ « grandfather »។"
       },
-      "example": {"fr": "Mon grand-père raconte des histoires.", "en": "My grandfather tells stories.", "km": "តាខ្ញុំនិទានរឿង។", "tr": "ta khgnom ni-téan reuang."}
+      "example": {"fr": "Mon grand-père raconte des histoires.", "en": "My grandfather tells stories.", "km": "តាខ្ញុំនិទានរឿង។", "tr": "ta khgnom ni-téan reuang.",
+      "es": "Mi abuelo cuenta historias.", "it": "Mio nonno racconta storie.", "ru": "Мой дедушка рассказывает истории.", "zh": "我爷爷讲故事。", "zh_tr": "Wǒ yéye jiǎng gùshi."}
     },
     {
-      "fr": "la grand-mère", "en": "grandmother", "km": "យាយ", "tr": "yéay", "pos": "nom",
+      "fr": "la grand-mère", "en": "grandmother", "km": "យាយ", "tr": "yéay",
+      "es": "la abuela", "it": "la nonna", "ru": "бабушка", "zh": "奶奶", "zh_tr": "nǎinai", "pos": "nom",
       "note": {
         "fr": "យាយ sert aussi pour toute femme âgée. On l'entend souvent au marché : យាយ, ស្វាយប៉ុន្មាន?",
         "en": "យាយ is also used for any elderly woman. You often hear it at the market: យាយ, ស្វាយប៉ុន្មាន? French « grand-mère »; « mamie » is affectionate.",
         "km": "« la grand-mère » មានសញ្ញាតភ្ជាប់ (-)។ ក្មេងៗហៅយាយថា « mamie »។ អង់គ្លេស៖ « grandmother », « grandma »។"
       },
-      "example": {"fr": "Ma grand-mère cuisine très bien.", "en": "My grandmother cooks very well.", "km": "យាយខ្ញុំធ្វើម្ហូបឆ្ងាញ់ណាស់។", "tr": "yéay khgnom thveu mhôp tchhngagn nah."}
+      "example": {"fr": "Ma grand-mère cuisine très bien.", "en": "My grandmother cooks very well.", "km": "យាយខ្ញុំធ្វើម្ហូបឆ្ងាញ់ណាស់។", "tr": "yéay khgnom thveu mhôp tchhngagn nah.",
+      "es": "Mi abuela cocina muy bien.", "it": "Mia nonna cucina benissimo.", "ru": "Моя бабушка очень хорошо готовит.", "zh": "我奶奶做饭做得很好。", "zh_tr": "Wǒ nǎinai zuò fàn zuò de hěn hǎo."}
     },
     {
-      "fr": "l'oncle", "en": "uncle", "km": "ពូ", "tr": "pou", "pos": "nom",
+      "fr": "l'oncle", "en": "uncle", "km": "ពូ", "tr": "pou",
+      "es": "el tío", "it": "lo zio", "ru": "дядя", "zh": "叔叔", "zh_tr": "shūshu", "pos": "nom",
       "note": {
         "fr": "ពូ est l'oncle plus jeune que les parents ; l'oncle plus âgé se dit ឪពុកធំ. On appelle aussi ពូ un chauffeur de tuk-tuk ou un vendeur.",
         "en": "ពូ is an uncle younger than your parents; an older uncle is ឪពុកធំ. A tuk-tuk driver or a seller is also called ពូ. French « oncle » is masculine.",
         "km": "« oncle » ជានាមភេទប្រុស៖ l'oncle, mon oncle។ ភាសាបារាំងមិនបែងចែកពូ និងឪពុកធំទេ។ អង់គ្លេស៖ « uncle »។"
       },
-      "example": {"fr": "Mon oncle conduit un tuk-tuk.", "en": "My uncle drives a tuk-tuk.", "km": "ពូខ្ញុំបើកតុកតុក។", "tr": "pou khgnom baeuk tok-tok."}
+      "example": {"fr": "Mon oncle conduit un tuk-tuk.", "en": "My uncle drives a tuk-tuk.", "km": "ពូខ្ញុំបើកតុកតុក។", "tr": "pou khgnom baeuk tok-tok.",
+      "es": "Mi tío conduce un tuk-tuk.", "it": "Mio zio guida un tuk-tuk.", "ru": "Мой дядя водит тук-тук.", "zh": "我叔叔开嘟嘟车。", "zh_tr": "Wǒ shūshu kāi dūdū chē."}
     },
     {
-      "fr": "la tante", "en": "aunt", "km": "មីង", "tr": "ming", "pos": "nom",
+      "fr": "la tante", "en": "aunt", "km": "មីង", "tr": "ming",
+      "es": "la tía", "it": "la zia", "ru": "тётя", "zh": "阿姨", "zh_tr": "āyí", "pos": "nom",
       "note": {
         "fr": "មីង est la tante plus jeune que les parents ; la tante plus âgée se dit ម្តាយធំ. On appelle aussi មីង une vendeuse au marché.",
         "en": "មីង is an aunt younger than your parents; an older aunt is ម្តាយធំ. A woman seller at the market is also called មីង. French « tante » is feminine.",
         "km": "« tante » ជានាមភេទស្រី៖ la tante, ma tante។ អង់គ្លេស៖ « aunt »។"
       },
-      "example": {"fr": "Ma tante vend des fruits au marché.", "en": "My aunt sells fruit at the market.", "km": "មីងខ្ញុំលក់ផ្លែឈើនៅផ្សារ។", "tr": "ming khgnom lok phlaè-tchheu neuv phsa."}
+      "example": {"fr": "Ma tante vend des fruits au marché.", "en": "My aunt sells fruit at the market.", "km": "មីងខ្ញុំលក់ផ្លែឈើនៅផ្សារ។", "tr": "ming khgnom lok phlaè-tchheu neuv phsa.",
+      "es": "Mi tía vende fruta en el mercado.", "it": "Mia zia vende frutta al mercato.", "ru": "Моя тётя продаёт фрукты на рынке.", "zh": "我阿姨在市场卖水果。", "zh_tr": "Wǒ āyí zài shìchǎng mài shuǐguǒ."}
     }
   ],
   "expressions": [
     {
       "fr": "Tu es l'aîné ?", "en": "Are you the eldest?", "km": "អ្នកជាកូនច្បងទេ?", "tr": "néak tchéa kôn tchbâng té ?",
+      "es": "¿Eres el mayor?", "it": "Sei il maggiore?", "ru": "Ты старший?", "zh": "你是老大吗？", "zh_tr": "Nǐ shì lǎodà ma?",
       "note": {
         "fr": "កូនច្បង (kôn tchbâng), l'aîné ; កូនពៅ (kôn pov), le benjamin, le plus jeune.",
         "en": "កូនច្បង (kôn tchbâng), the eldest; កូនពៅ (kôn pov), the youngest. French « l'aîné » means “the eldest”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Nous sommes cinq frères et sœurs.", "en": "There are five of us siblings.", "km": "យើងមានបងប្អូនប្រាំនាក់។", "tr": "yeung méan bâng p'ôn pram néak.",
+      "es": "Somos cinco hermanos.", "it": "Siamo cinque fratelli.", "ru": "Нас пятеро: братья и сёстры.", "zh": "我们兄弟姐妹五个。", "zh_tr": "Wǒmen xiōngdì jiěmèi wǔ ge.",
       "note": {
         "fr": "បងប្អូន, « aînés et cadets », désigne tous les frères et sœurs. នាក់ compte les personnes.",
         "en": "បងប្អូន, “older and younger”, means all brothers and sisters. នាក់ counts people. French « frères et sœurs » means “siblings”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "C'est mon cousin.", "en": "This is my cousin.", "km": "នេះបងប្អូនជីដូនមួយរបស់ខ្ញុំ។", "tr": "nih bâng p'ôn tchi-dôn mouy ro-bâh khgnom.",
+      "es": "Es mi primo.", "it": "È mio cugino.", "ru": "Это мой двоюродный брат.", "zh": "这是我表哥。", "zh_tr": "Zhè shì wǒ biǎogē.",
       "note": {
         "fr": "Mot à mot « frère ou sœur d'une même grand-mère ». Au quotidien, on dit souvent simplement បងប្អូន.",
         "en": "Word for word “brother or sister from the same grandmother”. In daily life, people often just say បងប្អូន. French « cousin », feminine « cousine ».",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Elle vit avec nous.", "en": "She lives with us.", "km": "គាត់រស់នៅជាមួយយើង។", "tr": "koat rouh neuv tchéa-mouy yeung.",
+      "es": "Vive con nosotros.", "it": "Vive con noi.", "ru": "Она живёт с нами.", "zh": "她跟我们一起住。", "zh_tr": "Tā gēn wǒmen yìqǐ zhù.",
       "note": {
         "fr": "Au Cambodge, les grands-parents vivent souvent avec la famille d'un de leurs enfants.",
         "en": "In Cambodia, grandparents often live with the family of one of their children. French « vivre avec » means “to live with”.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
       "fr": "Au Cambodge, on appelle aussi les vendeuses tante ou grande sœur.", "en": "In Cambodia, people also call market sellers aunt or big sister.",
-      "km": "នៅកម្ពុជា គេហៅអ្នកលក់ថា មីង ឬបង ដែរ។", "tr": "neuv kâm-pou-tchéa, ké hav néak lok tha ming reu bâng daè."
+      "km": "នៅកម្ពុជា គេហៅអ្នកលក់ថា មីង ឬបង ដែរ។", "tr": "neuv kâm-pou-tchéa, ké hav néak lok tha ming reu bâng daè.",
+      "es": "En Camboya, a las vendedoras también se les llama tía o hermana mayor.", "it": "In Cambogia le venditrici si chiamano anche zia o sorella maggiore.", "ru": "В Камбодже продавщиц тоже называют тётей или старшей сестрой.", "zh": "在柬埔寨，人们也叫女摊主阿姨或者姐姐。", "zh_tr": "Zài Jiǎnpǔzhài, rénmen yě jiào nǚ tānzhǔ āyí huòzhě jiějie."
     },
     {
       "situation": {"fr": "Le dimanche", "en": "On Sunday", "km": "ថ្ងៃអាទិត្យ"},
       "fr": "Le dimanche, mes grands-parents viennent manger à la maison.", "en": "On Sundays, my grandparents come to eat at our house.",
-      "km": "ថ្ងៃអាទិត្យ តាយាយខ្ញុំមកញ៉ាំបាយនៅផ្ទះ។", "tr": "thngay a-teut, ta yéay khgnom mok gnam bay neuv phtéah."
+      "km": "ថ្ងៃអាទិត្យ តាយាយខ្ញុំមកញ៉ាំបាយនៅផ្ទះ។", "tr": "thngay a-teut, ta yéay khgnom mok gnam bay neuv phtéah.",
+      "es": "Los domingos, mis abuelos vienen a comer a casa.", "it": "La domenica i miei nonni vengono a mangiare da noi.", "ru": "По воскресеньям бабушка с дедушкой приходят к нам обедать.", "zh": "星期天我爷爷奶奶来我们家吃饭。", "zh_tr": "Xīngqītiān wǒ yéye nǎinai lái wǒmen jiā chī fàn."
     },
     {
       "situation": {"fr": "Une grande famille", "en": "A big family", "km": "គ្រួសារធំ"},
       "fr": "Pendant le Nouvel An, tous les oncles, tantes et cousins se retrouvent.", "en": "During New Year, all the uncles, aunts and cousins get together.",
-      "km": "ពេលចូលឆ្នាំ ពូមីង និងបងប្អូនជីដូនមួយទាំងអស់ជួបជុំគ្នា។", "tr": "pél tchôl tchhnam, pou ming neung bâng p'ôn tchi-dôn mouy téang âh tchouop-tchoum knéa."
+      "km": "ពេលចូលឆ្នាំ ពូមីង និងបងប្អូនជីដូនមួយទាំងអស់ជួបជុំគ្នា។", "tr": "pél tchôl tchhnam, pou ming neung bâng p'ôn tchi-dôn mouy téang âh tchouop-tchoum knéa.",
+      "es": "Durante el Año Nuevo se reúnen todos los tíos, tías y primos.", "it": "Durante il Capodanno si ritrovano tutti gli zii, le zie e i cugini.", "ru": "На Новый год собираются все дяди, тёти и двоюродные братья и сёстры.", "zh": "新年的时候，叔叔阿姨和表兄弟姐妹都聚在一起。", "zh_tr": "Xīnnián de shíhou, shūshu āyí hé biǎo xiōngdì jiěmèi dōu jù zài yìqǐ."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{B} pose des questions sur la famille de {A}.", "en": "{B} asks about {A}'s family.", "km": "{B} សួរអំពីគ្រួសាររបស់ {A}។"},
     "lines": [
-      {"speaker": "B", "fr": "Tu as combien de frères et sœurs ?", "en": "How many brothers and sisters do you have?", "km": "{A} មានបងប្អូនប៉ុន្មាននាក់?", "tr": "{A} méan bâng p'ôn pon-man néak ?"},
-      {"speaker": "A", "fr": "Nous sommes cinq. J'ai deux grands frères et deux petites sœurs.", "en": "There are five of us. I have two older brothers and two younger sisters.", "km": "យើងមានប្រាំនាក់។ ខ្ញុំមានបងប្រុសពីរនាក់ និងប្អូនស្រីពីរនាក់។", "tr": "yeung méan pram néak. khgnom méan bâng proh pi néak neung p'ôn srey pi néak."},
-      {"speaker": "B", "fr": "Et tes grands-parents, ils habitent où ?", "en": "And your grandparents, where do they live?", "km": "ចុះតាយាយរបស់ {A} រស់នៅឯណា?", "tr": "tchoh ta yéay ro-bâh {A} rouh neuv aè na ?"},
-      {"speaker": "A", "fr": "Ma grand-mère vit avec mes parents. Mon grand-père n'est plus là.", "en": "My grandmother lives with my parents. My grandfather has passed away.", "km": "យាយខ្ញុំរស់នៅជាមួយឪពុកម្តាយខ្ញុំ។ តាខ្ញុំមិននៅទៀតទេ។", "tr": "yéay khgnom rouh neuv tchéa-mouy eu-pouk mday khgnom. ta khgnom min neuv tiet té."},
-      {"speaker": "B", "fr": "Je suis désolé. Et ta tante drôle, sur la photo ?", "en": "I'm sorry. And your funny aunt, in the photo?", "km": "សុំទោស។ ចុះមីងកំប្លែងក្នុងរូបថតនោះវិញ?", "tr": "som toh. tchoh ming kâm-plaèng knong roup-thât nouh vign ?"},
-      {"speaker": "A", "fr": "Elle habite à Siem Reap, avec mon oncle et mes cousins.", "en": "She lives in Siem Reap, with my uncle and my cousins.", "km": "គាត់រស់នៅសៀមរាប ជាមួយពូ និងបងប្អូនជីដូនមួយរបស់ខ្ញុំ។", "tr": "koat rouh neuv siem-réap, tchéa-mouy pou neung bâng p'ôn tchi-dôn mouy ro-bâh khgnom."}
+      {"speaker": "B", "fr": "Tu as combien de frères et sœurs ?", "en": "How many brothers and sisters do you have?", "km": "{A} មានបងប្អូនប៉ុន្មាននាក់?", "tr": "{A} méan bâng p'ôn pon-man néak ?",
+        "es": "¿Cuántos hermanos tienes?", "it": "Quanti fratelli e sorelle hai?", "ru": "Сколько у тебя братьев и сестёр?", "zh": "你有几个兄弟姐妹？", "zh_tr": "Nǐ yǒu jǐ ge xiōngdì jiěmèi?"},
+      {"speaker": "A", "fr": "Nous sommes cinq. J'ai deux grands frères et deux petites sœurs.", "en": "There are five of us. I have two older brothers and two younger sisters.", "km": "យើងមានប្រាំនាក់។ ខ្ញុំមានបងប្រុសពីរនាក់ និងប្អូនស្រីពីរនាក់។", "tr": "yeung méan pram néak. khgnom méan bâng proh pi néak neung p'ôn srey pi néak.",
+        "es": "Somos cinco. Tengo dos hermanos mayores y dos hermanas pequeñas.", "it": "Siamo in cinque. Ho due fratelli maggiori e due sorelle minori.", "ru": "Нас пятеро. У меня два старших брата и две младшие сестры.", "zh": "我们一共五个。我有两个哥哥和两个妹妹。", "zh_tr": "Wǒmen yígòng wǔ ge. Wǒ yǒu liǎng ge gēge hé liǎng ge mèimei."},
+      {"speaker": "B", "fr": "Et tes grands-parents, ils habitent où ?", "en": "And your grandparents, where do they live?", "km": "ចុះតាយាយរបស់ {A} រស់នៅឯណា?", "tr": "tchoh ta yéay ro-bâh {A} rouh neuv aè na ?",
+        "es": "¿Y tus abuelos dónde viven?", "it": "E i tuoi nonni dove abitano?", "ru": "А где живут твои бабушка и дедушка?", "zh": "你爷爷奶奶住在哪儿？", "zh_tr": "Nǐ yéye nǎinai zhù zài nǎr?"},
+      {"speaker": "A", "fr": "Ma grand-mère vit avec mes parents. Mon grand-père n'est plus là.", "en": "My grandmother lives with my parents. My grandfather has passed away.", "km": "យាយខ្ញុំរស់នៅជាមួយឪពុកម្តាយខ្ញុំ។ តាខ្ញុំមិននៅទៀតទេ។", "tr": "yéay khgnom rouh neuv tchéa-mouy eu-pouk mday khgnom. ta khgnom min neuv tiet té.",
+        "es": "Mi abuela vive con mis padres. Mi abuelo ya no está.", "it": "Mia nonna vive con i miei genitori. Mio nonno non c'è più.", "ru": "Бабушка живёт с моими родителями. Дедушки уже нет.", "zh": "我奶奶跟我爸爸妈妈一起住。我爷爷已经去世了。", "zh_tr": "Wǒ nǎinai gēn wǒ bàba māma yìqǐ zhù. Wǒ yéye yǐjīng qùshì le."},
+      {"speaker": "B", "fr": "Je suis désolé. Et ta tante drôle, sur la photo ?", "en": "I'm sorry. And your funny aunt, in the photo?", "km": "សុំទោស។ ចុះមីងកំប្លែងក្នុងរូបថតនោះវិញ?", "tr": "som toh. tchoh ming kâm-plaèng knong roup-thât nouh vign ?",
+        "es": "Lo siento. ¿Y tu tía tan graciosa de la foto?", "it": "Mi dispiace. E tua zia, quella simpatica della foto?", "ru": "Мне очень жаль. А твоя весёлая тётя с фотографии?", "zh": "很遗憾。照片上那个很有趣的阿姨呢？", "zh_tr": "Hěn yíhàn. Zhàopiàn shang nàge hěn yǒuqù de āyí ne?"},
+      {"speaker": "A", "fr": "Elle habite à Siem Reap, avec mon oncle et mes cousins.", "en": "She lives in Siem Reap, with my uncle and my cousins.", "km": "គាត់រស់នៅសៀមរាប ជាមួយពូ និងបងប្អូនជីដូនមួយរបស់ខ្ញុំ។", "tr": "koat rouh neuv siem-réap, tchéa-mouy pou neung bâng p'ôn tchi-dôn mouy ro-bâh khgnom.",
+        "es": "Vive en Siem Reap, con mi tío y mis primos.", "it": "Abita a Siem Reap, con mio zio e i miei cugini.", "ru": "Она живёт в Сиемреапе с моим дядей и двоюродными братьями.", "zh": "她跟我叔叔和表兄弟姐妹住在暹粒。", "zh_tr": "Tā gēn wǒ shūshu hé biǎo xiōngdì jiěmèi zhù zài Xiānlì."}
     ]
   },
   "comprehension": {

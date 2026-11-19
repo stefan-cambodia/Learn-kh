@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "saluer", "en": "to greet", "km": "សំពះ", "tr": "sâm-péah", "pos": "verbe",
+      "fr": "saluer", "en": "to greet", "km": "សំពះ", "tr": "sâm-péah",
+      "es": "saludar", "it": "salutare", "ru": "здороваться", "zh": "打招呼", "zh_tr": "dǎ zhāohu", "pos": "verbe",
       "note": {
         "fr": "សំពះ désigne précisément le salut mains jointes. Pour saluer en général, on dit aussi ស្វាគមន៍, accueillir.",
         "en": "សំពះ is precisely the greeting with joined hands. For greeting in general, people also say ស្វាគមន៍, to welcome. French « saluer » means “to greet”.",
         "km": "« saluer » មានន័យថា និយាយសួស្តី ឬសំពះ។ នៅប្រទេសបារាំង គេចាប់ដៃ៖ « serrer la main »។ អង់គ្លេស៖ « to greet »។"
       },
-      "example": {"fr": "Les enfants saluent leur grand-mère.", "en": "The children greet their grandmother.", "km": "ក្មេងៗសំពះយាយ។", "tr": "kméng-kméng sâm-péah yéay."}
+      "example": {"fr": "Les enfants saluent leur grand-mère.", "en": "The children greet their grandmother.", "km": "ក្មេងៗសំពះយាយ។", "tr": "kméng-kméng sâm-péah yéay.",
+      "es": "Los niños saludan a su abuela.", "it": "I bambini salutano la nonna.", "ru": "Дети здороваются с бабушкой.", "zh": "孩子们跟奶奶打招呼。", "zh_tr": "Háizimen gēn nǎinai dǎ zhāohu."}
     },
     {
-      "fr": "poli", "en": "polite", "km": "គួរសម", "tr": "kouo-sâm", "pos": "adjectif",
+      "fr": "poli", "en": "polite", "km": "គួរសម", "tr": "kouo-sâm",
+      "es": "educado", "it": "educato", "ru": "вежливый", "zh": "有礼貌", "zh_tr": "yǒu lǐmào", "pos": "adjectif",
       "note": {
         "fr": "គួរសម, « convenable, comme il faut ». Le contraire : មិនគួរសម, impoli.",
         "en": "គួរសម, “proper, as it should be”. The opposite: មិនគួរសម, impolite. French « poli » becomes « polie » in the feminine.",
         "km": "« poli » សម្រាប់ភេទប្រុស និង « polie » សម្រាប់ភេទស្រី (អានដូចគ្នា)។ ផ្ទុយគឺ « impoli »។ អង់គ្លេស៖ « polite »។"
       },
-      "example": {"fr": "Ton fils est très poli.", "en": "Your son is very polite.", "km": "កូនប្រុសរបស់អ្នកគួរសមណាស់។", "tr": "kôn proh ro-bâh néak kouo-sâm nah."}
+      "example": {"fr": "Ton fils est très poli.", "en": "Your son is very polite.", "km": "កូនប្រុសរបស់អ្នកគួរសមណាស់។", "tr": "kôn proh ro-bâh néak kouo-sâm nah.",
+      "es": "Tu hijo es muy educado.", "it": "Tuo figlio è molto educato.", "ru": "Твой сын очень вежливый.", "zh": "你儿子很有礼貌。", "zh_tr": "Nǐ érzi hěn yǒu lǐmào."}
     },
     {
-      "fr": "respecter", "en": "to respect", "km": "គោរព", "tr": "kô-rup", "pos": "verbe",
+      "fr": "respecter", "en": "to respect", "km": "គោរព", "tr": "kô-rup",
+      "es": "respetar", "it": "rispettare", "ru": "уважать", "zh": "尊重", "zh_tr": "zūnzhòng", "pos": "verbe",
       "note": {
         "fr": "គោរព s'emploie aussi dans les formules écrites : សូមគោរព, « avec respect », en début de lettre.",
         "en": "គោរព is also used in written formulas: សូមគោរព, “respectfully”, at the start of a letter. French « respecter »: je respecte.",
         "km": "« respecter »៖ je respecte, nous respectons។ « le respect » មានន័យថា ការគោរព។ អង់គ្លេស៖ « to respect »។"
       },
-      "example": {"fr": "Il faut respecter les moines.", "en": "One must respect the monks.", "km": "ត្រូវគោរពព្រះសង្ឃ។", "tr": "treuv kô-rup préah sâng."}
+      "example": {"fr": "Il faut respecter les moines.", "en": "One must respect the monks.", "km": "ត្រូវគោរពព្រះសង្ឃ។", "tr": "treuv kô-rup préah sâng.",
+      "es": "Hay que respetar a los monjes.", "it": "Bisogna rispettare i monaci.", "ru": "Нужно уважать монахов.", "zh": "要尊重僧人。", "zh_tr": "Yào zūnzhòng sēngrén."}
     },
     {
-      "fr": "la coutume", "en": "custom", "km": "ទំនៀមទម្លាប់", "tr": "toum-niem toum-loap", "pos": "nom",
+      "fr": "la coutume", "en": "custom", "km": "ទំនៀមទម្លាប់", "tr": "toum-niem toum-loap",
+      "es": "la costumbre", "it": "l'usanza", "ru": "обычай", "zh": "习俗", "zh_tr": "xísú", "pos": "nom",
       "note": {
         "fr": "Deux mots associés : ទំនៀម, la tradition, et ទម្លាប់, l'habitude. Le mot ប្រពៃណី, la tradition, est proche.",
         "en": "Two words together: ទំនៀម, tradition, and ទម្លាប់, habit. The word ប្រពៃណី, tradition, is close. French « coutume » is feminine.",
         "km": "« coutume » ជានាមភេទស្រី៖ la coutume, les coutumes khmères។ អង់គ្លេស៖ « custom », « tradition »។"
       },
-      "example": {"fr": "Chaque pays a ses coutumes.", "en": "Every country has its customs.", "km": "ប្រទេសនីមួយៗមានទំនៀមទម្លាប់រៀងៗខ្លួន។", "tr": "prâ-téh ni-mouy-mouy méan toum-niem toum-loap rieng-rieng khlouon."}
+      "example": {"fr": "Chaque pays a ses coutumes.", "en": "Every country has its customs.", "km": "ប្រទេសនីមួយៗមានទំនៀមទម្លាប់រៀងៗខ្លួន។", "tr": "prâ-téh ni-mouy-mouy méan toum-niem toum-loap rieng-rieng khlouon.",
+      "es": "Cada país tiene sus costumbres.", "it": "Ogni paese ha le sue usanze.", "ru": "У каждой страны свои обычаи.", "zh": "每个国家都有自己的习俗。", "zh_tr": "Měi ge guójiā dōu yǒu zìjǐ de xísú."}
     },
     {
-      "fr": "l'invité", "en": "guest", "km": "ភ្ញៀវ", "tr": "phgnieu", "pos": "nom",
+      "fr": "l'invité", "en": "guest", "km": "ភ្ញៀវ", "tr": "phgnieu",
+      "es": "el invitado", "it": "l'ospite", "ru": "гость", "zh": "客人", "zh_tr": "kèrén", "pos": "nom",
       "note": {
         "fr": "ភ្ញៀវ veut dire l'invité, mais aussi le client d'un magasin ou le touriste : ភ្ញៀវទេសចរ.",
         "en": "ភ្ញៀវ means a guest, but also a shop customer or a tourist: ភ្ញៀវទេសចរ. French « invité » becomes « invitée » for a woman.",
         "km": "« invité » សម្រាប់ប្រុស និង « invitée » សម្រាប់ស្រី (អានដូចគ្នា)។ អង់គ្លេស៖ « guest »។"
       },
-      "example": {"fr": "Ce soir, nous avons des invités.", "en": "Tonight, we have guests.", "km": "យប់នេះ យើងមានភ្ញៀវ។", "tr": "youp nih, yeung méan phgnieu."}
+      "example": {"fr": "Ce soir, nous avons des invités.", "en": "Tonight, we have guests.", "km": "យប់នេះ យើងមានភ្ញៀវ។", "tr": "youp nih, yeung méan phgnieu.",
+      "es": "Esta noche tenemos invitados.", "it": "Stasera abbiamo ospiti.", "ru": "Сегодня вечером у нас гости.", "zh": "今天晚上我们家有客人。", "zh_tr": "Jīntiān wǎnshang wǒmen jiā yǒu kèrén."}
     },
     {
-      "fr": "les aînés", "en": "elders", "km": "ចាស់ទុំ", "tr": "tchah toum", "pos": "nom",
+      "fr": "les aînés", "en": "elders", "km": "ចាស់ទុំ", "tr": "tchah toum",
+      "es": "los mayores", "it": "gli anziani", "ru": "старшие", "zh": "长辈", "zh_tr": "zhǎngbèi", "pos": "nom",
       "note": {
         "fr": "ចាស់, « vieux », et ទុំ, « mûr » comme un fruit : les anciens sont « mûrs » de sagesse.",
         "en": "ចាស់, “old”, and ទុំ, “ripe” like a fruit: elders are “ripe” with wisdom. French « aînés » means “elders”.",
         "km": "« les aînés » មានន័យថា មនុស្សចាស់ ឬមនុស្សដែលមានអាយុច្រើនជាង។ អង់គ្លេស៖ « elders »។"
       },
-      "example": {"fr": "On écoute les conseils des aînés.", "en": "We listen to the elders' advice.", "km": "យើងស្តាប់ដំបូន្មានរបស់ចាស់ទុំ។", "tr": "yeung sdap dâm-boun-méan ro-bâh tchah toum."}
+      "example": {"fr": "On écoute les conseils des aînés.", "en": "We listen to the elders' advice.", "km": "យើងស្តាប់ដំបូន្មានរបស់ចាស់ទុំ។", "tr": "yeung sdap dâm-boun-méan ro-bâh tchah toum.",
+      "es": "Escuchamos los consejos de los mayores.", "it": "Ascoltiamo i consigli degli anziani.", "ru": "Мы слушаем советы старших.", "zh": "我们听长辈的建议。", "zh_tr": "Wǒmen tīng zhǎngbèi de jiànyì."}
     }
   ],
   "expressions": [
     {
       "fr": "Ce n'est pas poli.", "en": "That's not polite.", "km": "មិនគួរសមទេ។", "tr": "min kouo-sâm té.",
+      "es": "Eso no es de buena educación.", "it": "Non è educato.", "ru": "Это невежливо.", "zh": "这样不礼貌。", "zh_tr": "Zhèyàng bù lǐmào.",
       "note": {
         "fr": "Remarque courante quand on apprend les bonnes manières aux enfants.",
         "en": "A common remark when teaching children good manners. French « Ce n'est pas poli ».",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Après vous.", "en": "After you.", "km": "អញ្ជើញមុនចុះ។", "tr": "agn-tcheugn moun tchoh.",
+      "es": "Usted primero.", "it": "Prego, dopo di lei.", "ru": "После вас.", "zh": "您先请。", "zh_tr": "Nín xiān qǐng.",
       "note": {
         "fr": "Mot à mot « je vous en prie, passez devant ». On laisse passer les aînés en premier.",
         "en": "Word for word “please, go ahead”. Elders are let through first. French « Après vous ».",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Servez-vous, je vous en prie.", "en": "Please help yourself.", "km": "សូមអញ្ជើញយកតាមចិត្ត។", "tr": "sôm agn-tcheugn yok tam tchet.",
+      "es": "Sírvase, por favor.", "it": "Si serva, prego.", "ru": "Угощайтесь, пожалуйста.", "zh": "请随便吃。", "zh_tr": "Qǐng suíbiàn chī.",
       "note": {
         "fr": "តាមចិត្ត, « selon votre cœur », c'est-à-dire « comme vous voulez ».",
         "en": "តាមចិត្ត, “according to your heart”, that is, “as you like”. French « Servez-vous » means “help yourself”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Ne vous dérangez pas.", "en": "Don't go to any trouble.", "km": "កុំរវល់អី។", "tr": "kom ro-vol ey.",
+      "es": "No se moleste.", "it": "Non si disturbi.", "ru": "Не беспокойтесь.", "zh": "您别麻烦了。", "zh_tr": "Nín bié máfan le.",
       "note": {
         "fr": "Se dit quand l'hôte veut préparer quelque chose pour vous. Mais on accepte toujours le verre d'eau offert.",
         "en": "Said when the host wants to prepare something for you. But always accept the glass of water you are offered. French « se déranger » means “to go to trouble”.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "Saluer un aîné", "en": "Greeting an elder", "km": "សំពះចាស់ទុំ"},
       "fr": "On salue les aînés en joignant les mains devant le visage.", "en": "We greet elders by joining our hands in front of the face.",
-      "km": "គេសំពះចាស់ទុំ ដោយលើកដៃប្រណម្យនៅមុខ។", "tr": "ké sâm-péah tchah toum, daoy laeuk day prâ-nâm neuv mouk."
+      "km": "គេសំពះចាស់ទុំ ដោយលើកដៃប្រណម្យនៅមុខ។", "tr": "ké sâm-péah tchah toum, daoy laeuk day prâ-nâm neuv mouk.",
+      "es": "A los mayores se les saluda juntando las manos delante de la cara.", "it": "Gli anziani si salutano congiungendo le mani davanti al viso.", "ru": "Со старшими здороваются, сложив ладони перед лицом.", "zh": "跟长辈打招呼的时候，要在脸前双手合十。", "zh_tr": "Gēn zhǎngbèi dǎ zhāohu de shíhou, yào zài liǎn qián shuāng shǒu hé shí."
     },
     {
       "situation": {"fr": "Un interdit", "en": "Something not done", "km": "ហាមឃាត់"},
       "fr": "Il ne faut pas toucher la tête de quelqu'un.", "en": "You must not touch someone's head.",
-      "km": "មិនត្រូវប៉ះក្បាលអ្នកដទៃទេ។", "tr": "min treuv pah kbal néak dâ-tey té."
+      "km": "មិនត្រូវប៉ះក្បាលអ្នកដទៃទេ។", "tr": "min treuv pah kbal néak dâ-tey té.",
+      "es": "No se debe tocar la cabeza de nadie.", "it": "Non si deve toccare la testa di qualcuno.", "ru": "Нельзя трогать человека за голову.", "zh": "不可以摸别人的头。", "zh_tr": "Bù kěyǐ mō biérén de tóu."
     },
     {
       "situation": {"fr": "Recevoir un invité", "en": "Welcoming a guest", "km": "ទទួលភ្ញៀវ"},
       "fr": "Quand un invité arrive, on lui offre d'abord de l'eau.", "en": "When a guest arrives, we first offer them some water.",
-      "km": "ពេលភ្ញៀវមកដល់ គេយកទឹកមកជូនមុនគេ។", "tr": "pél phgnieu mok dâl, ké yok teuk mok tchoun moun ké."
+      "km": "ពេលភ្ញៀវមកដល់ គេយកទឹកមកជូនមុនគេ។", "tr": "pél phgnieu mok dâl, ké yok teuk mok tchoun moun ké.",
+      "es": "Cuando llega un invitado, primero se le ofrece agua.", "it": "Quando arriva un ospite, gli si offre prima dell'acqua.", "ru": "Когда приходит гость, ему сначала предлагают воды.", "zh": "客人来了，先给他倒杯水。", "zh_tr": "Kèrén lái le, xiān gěi tā dào bēi shuǐ."
     }
   ],
   "dialogue": {
     "setting": {"fr": "La veille d'une visite chez les grands-parents de {A}.", "en": "The day before a visit to {A}'s grandparents.", "km": "មួយថ្ងៃមុនទៅលេងតាយាយរបស់ {A}។"},
     "lines": [
-      {"speaker": "B", "fr": "Demain, je rencontre ta grand-mère. Comment je dois la saluer ?", "en": "Tomorrow, I'm meeting your grandmother. How should I greet her?", "km": "ថ្ងៃស្អែក ខ្ញុំជួបយាយរបស់ {A}។ ត្រូវសំពះគាត់យ៉ាងម៉េច?", "tr": "thngay s'aèk, khgnom tchouop yéay ro-bâh {A}. treuv sâm-péah koat yang métch ?"},
-      {"speaker": "A", "fr": "Joins les mains devant le visage, et baisse un peu la tête.", "en": "Join your hands in front of your face, and bow your head a little.", "km": "លើកដៃប្រណម្យនៅមុខ ហើយឱនក្បាលបន្តិច។", "tr": "laeuk day prâ-nâm neuv mouk, haeuy aon kbal bân-tetch."},
-      {"speaker": "B", "fr": "Et je peux m'asseoir à côté d'elle ?", "en": "And can I sit next to her?", "km": "ហើយខ្ញុំអាចអង្គុយក្បែរគាត់បានទេ?", "tr": "haeuy khgnom atch âng-kouy kbae koat ban té ?"},
-      {"speaker": "A", "fr": "Oui, mais attends qu'elle s'assoie d'abord. Il faut respecter les aînés.", "en": "Yes, but wait for her to sit down first. You must respect the elders.", "km": "បាន ប៉ុន្តែចាំគាត់អង្គុយមុនសិន។ ត្រូវគោរពចាស់ទុំ។", "tr": "ban, pon-taè tcham koat âng-kouy moun sen. treuv kô-rup tchah toum."},
-      {"speaker": "B", "fr": "Et pendant le repas ?", "en": "And during the meal?", "km": "ចុះពេលញ៉ាំបាយវិញ?", "tr": "tchoh pél gnam bay vign ?"},
-      {"speaker": "A", "fr": "Les aînés commencent en premier. Et ne pointe pas tes pieds vers eux, ce n'est pas poli.", "en": "The elders start first. And don't point your feet towards them, it's not polite.", "km": "ចាស់ទុំញ៉ាំមុន។ ហើយកុំលាតជើងទៅរកគាត់ មិនគួរសមទេ។", "tr": "tchah toum gnam moun. haeuy kom léat tcheung teuv rok koat, min kouo-sâm té."},
-      {"speaker": "B", "fr": "Merci ! Je veux bien respecter vos coutumes.", "en": "Thank you! I really want to respect your customs.", "km": "អរគុណ! ខ្ញុំចង់គោរពទំនៀមទម្លាប់ខ្មែរឱ្យបានល្អ។", "tr": "â-koun ! khgnom tchâng kô-rup toum-niem toum-loap khmaè aoy ban l'â."}
+      {"speaker": "B", "fr": "Demain, je rencontre ta grand-mère. Comment je dois la saluer ?", "en": "Tomorrow, I'm meeting your grandmother. How should I greet her?", "km": "ថ្ងៃស្អែក ខ្ញុំជួបយាយរបស់ {A}។ ត្រូវសំពះគាត់យ៉ាងម៉េច?", "tr": "thngay s'aèk, khgnom tchouop yéay ro-bâh {A}. treuv sâm-péah koat yang métch ?",
+        "es": "Mañana conozco a tu abuela. ¿Cómo tengo que saludarla?", "it": "Domani conosco tua nonna. Come devo salutarla?", "ru": "Завтра я познакомлюсь с твоей бабушкой. Как мне с ней поздороваться?", "zh": "明天我要见你奶奶。我该怎么跟她打招呼？", "zh_tr": "Míngtiān wǒ yào jiàn nǐ nǎinai. Wǒ gāi zěnme gēn tā dǎ zhāohu?"},
+      {"speaker": "A", "fr": "Joins les mains devant le visage, et baisse un peu la tête.", "en": "Join your hands in front of your face, and bow your head a little.", "km": "លើកដៃប្រណម្យនៅមុខ ហើយឱនក្បាលបន្តិច។", "tr": "laeuk day prâ-nâm neuv mouk, haeuy aon kbal bân-tetch.",
+        "es": "Junta las manos delante de la cara y baja un poco la cabeza.", "it": "Congiungi le mani davanti al viso e abbassa un po' la testa.", "ru": "Сложи ладони перед лицом и слегка наклони голову.", "zh": "在脸前双手合十，再稍微低一下头。", "zh_tr": "Zài liǎn qián shuāng shǒu hé shí, zài shāowēi dī yíxià tóu."},
+      {"speaker": "B", "fr": "Et je peux m'asseoir à côté d'elle ?", "en": "And can I sit next to her?", "km": "ហើយខ្ញុំអាចអង្គុយក្បែរគាត់បានទេ?", "tr": "haeuy khgnom atch âng-kouy kbae koat ban té ?",
+        "es": "¿Y puedo sentarme a su lado?", "it": "E posso sedermi accanto a lei?", "ru": "А можно сесть рядом с ней?", "zh": "我可以坐在她旁边吗？", "zh_tr": "Wǒ kěyǐ zuò zài tā pángbiān ma?"},
+      {"speaker": "A", "fr": "Oui, mais attends qu'elle s'assoie d'abord. Il faut respecter les aînés.", "en": "Yes, but wait for her to sit down first. You must respect the elders.", "km": "បាន ប៉ុន្តែចាំគាត់អង្គុយមុនសិន។ ត្រូវគោរពចាស់ទុំ។", "tr": "ban, pon-taè tcham koat âng-kouy moun sen. treuv kô-rup tchah toum.",
+        "es": "Sí, pero espera a que ella se siente primero. Hay que respetar a los mayores.", "it": "Sì, ma aspetta che si sieda prima lei. Bisogna rispettare gli anziani.", "ru": "Да, но подожди, пока она сядет первой. Нужно уважать старших.", "zh": "可以，不过要等她先坐下。要尊重长辈。", "zh_tr": "Kěyǐ, búguò yào děng tā xiān zuò xià. Yào zūnzhòng zhǎngbèi."},
+      {"speaker": "B", "fr": "Et pendant le repas ?", "en": "And during the meal?", "km": "ចុះពេលញ៉ាំបាយវិញ?", "tr": "tchoh pél gnam bay vign ?",
+        "es": "¿Y durante la comida?", "it": "E durante il pasto?", "ru": "А во время еды?", "zh": "吃饭的时候呢？", "zh_tr": "Chī fàn de shíhou ne?"},
+      {"speaker": "A", "fr": "Les aînés commencent en premier. Et ne pointe pas tes pieds vers eux, ce n'est pas poli.", "en": "The elders start first. And don't point your feet towards them, it's not polite.", "km": "ចាស់ទុំញ៉ាំមុន។ ហើយកុំលាតជើងទៅរកគាត់ មិនគួរសមទេ។", "tr": "tchah toum gnam moun. haeuy kom léat tcheung teuv rok koat, min kouo-sâm té.",
+        "es": "Los mayores empiezan primero. Y no les apuntes con los pies, no es de buena educación.", "it": "Gli anziani cominciano per primi. E non puntare i piedi verso di loro, non è educato.", "ru": "Старшие начинают первыми. И не направляй на них ноги, это невежливо.", "zh": "长辈先吃。别把脚对着他们，这样不礼貌。", "zh_tr": "Zhǎngbèi xiān chī. Bié bǎ jiǎo duì zhe tāmen, zhèyàng bù lǐmào."},
+      {"speaker": "B", "fr": "Merci ! Je veux bien respecter vos coutumes.", "en": "Thank you! I really want to respect your customs.", "km": "អរគុណ! ខ្ញុំចង់គោរពទំនៀមទម្លាប់ខ្មែរឱ្យបានល្អ។", "tr": "â-koun ! khgnom tchâng kô-rup toum-niem toum-loap khmaè aoy ban l'â.",
+        "es": "¡Gracias! Quiero respetar vuestras costumbres.", "it": "Grazie! Voglio davvero rispettare le vostre usanze.", "ru": "Спасибо! Я очень хочу уважать ваши обычаи.", "zh": "谢谢！我很想尊重你们的习俗。", "zh_tr": "Xièxie! Wǒ hěn xiǎng zūnzhòng nǐmen de xísú."}
     ]
   },
   "comprehension": {

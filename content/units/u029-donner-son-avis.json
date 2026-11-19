@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "penser", "en": "to think", "km": "គិត", "tr": "kit", "pos": "verbe",
+      "fr": "penser", "en": "to think", "km": "គិត", "tr": "kit",
+      "es": "pensar", "it": "pensare", "ru": "думать", "zh": "认为", "zh_tr": "rènwéi", "pos": "verbe",
       "note": {
         "fr": "គិត signifie « penser » et aussi « compter », comme dans គិតលុយ, « faire l'addition ». « Penser que » : គិតថា (kit tha).",
         "en": "គិត means “to think” and also “to count”, as in គិតលុយ, “settle the bill”. “To think that”: គិតថា (kit tha). French « penser »: je pense que…",
         "km": "« penser »៖ je pense, nous pensons។ « Je pense que… » = ខ្ញុំគិតថា…។ អង់គ្លេស៖ « to think »។"
       },
-      "example": {"fr": "Je pense que c'est une bonne idée.", "en": "I think it is a good idea.", "km": "ខ្ញុំគិតថាជាគំនិតល្អ។", "tr": "khgnom kit tha tchéa koum-neut l'â."}
+      "example": {"fr": "Je pense que c'est une bonne idée.", "en": "I think it is a good idea.", "km": "ខ្ញុំគិតថាជាគំនិតល្អ។", "tr": "khgnom kit tha tchéa koum-neut l'â.",
+      "es": "Pienso que es una buena idea.", "it": "Penso che sia una buona idea.", "ru": "Я думаю, это хорошая идея.", "zh": "我认为这是个好主意。", "zh_tr": "Wǒ rènwéi zhè shì ge hǎo zhǔyi."}
     },
     {
-      "fr": "être d'accord", "en": "to agree", "km": "យល់ស្រប", "tr": "yol srâp", "pos": "verbe",
+      "fr": "être d'accord", "en": "to agree", "km": "យល់ស្រប", "tr": "yol srâp",
+      "es": "estar de acuerdo", "it": "essere d'accordo", "ru": "соглашаться", "zh": "同意", "zh_tr": "tóngyì", "pos": "verbe",
       "note": {
         "fr": "យល់ (yol), comprendre, et ស្រប (srâp), être conforme : « comprendre dans le même sens ».",
         "en": "យល់ (yol), to understand, and ស្រប (srâp), to match: “understand the same way”. French « être d'accord »: je suis d'accord.",
         "km": "« être d'accord »៖ je suis d'accord, nous sommes d'accord។ « D'accord ! » មានន័យថា បាន ឬយល់ព្រម។ អង់គ្លេស៖ « to agree »។"
       },
-      "example": {"fr": "Je suis d'accord avec toi.", "en": "I agree with you.", "km": "ខ្ញុំយល់ស្របជាមួយអ្នក។", "tr": "khgnom yol srâp tchéa-mouy néak."}
+      "example": {"fr": "Je suis d'accord avec toi.", "en": "I agree with you.", "km": "ខ្ញុំយល់ស្របជាមួយអ្នក។", "tr": "khgnom yol srâp tchéa-mouy néak.",
+      "es": "Estoy de acuerdo contigo.", "it": "Sono d'accordo con te.", "ru": "Я с тобой согласен.", "zh": "我同意你的看法。", "zh_tr": "Wǒ tóngyì nǐ de kànfǎ."}
     },
     {
-      "fr": "préférer", "en": "to prefer", "km": "ចូលចិត្តជាង", "tr": "tchôl tchet tchéang", "pos": "verbe",
+      "fr": "préférer", "en": "to prefer", "km": "ចូលចិត្តជាង", "tr": "tchôl tchet tchéang",
+      "es": "preferir", "it": "preferire", "ru": "предпочитать", "zh": "更喜欢", "zh_tr": "gèng xǐhuan", "pos": "verbe",
       "note": {
         "fr": "Pas de verbe à part en khmer : on dit « aimer plus ». Ce que l'on préfère se glisse entre ចូលចិត្ត et ជាង : ចូលចិត្តតែជាងកាហ្វេ, « préférer le thé au café ».",
         "en": "Khmer has no separate verb: it says “like more”. What you prefer sits between ចូលចិត្ត and ជាង: ចូលចិត្តតែជាងកាហ្វេ, “prefer tea to coffee”. French « préférer »: je préfère le thé.",
         "km": "« préférer » មានន័យថា ចូលចិត្តជាង៖ je préfère, nous préférons។ « préférer A à B » = ចូលចិត្ត A ជាង B។ អង់គ្លេស៖ « to prefer »។"
       },
-      "example": {"fr": "Je préfère le thé au café.", "en": "I prefer tea to coffee.", "km": "ខ្ញុំចូលចិត្តតែជាងកាហ្វេ។", "tr": "khgnom tchôl tchet taè tchéang ka-fé."}
+      "example": {"fr": "Je préfère le thé au café.", "en": "I prefer tea to coffee.", "km": "ខ្ញុំចូលចិត្តតែជាងកាហ្វេ។", "tr": "khgnom tchôl tchet taè tchéang ka-fé.",
+      "es": "Prefiero el té al café.", "it": "Preferisco il tè al caffè.", "ru": "Я предпочитаю чай кофе.", "zh": "比起咖啡，我更喜欢茶。", "zh_tr": "Bǐqǐ kāfēi, wǒ gèng xǐhuan chá."}
     },
     {
-      "fr": "important", "en": "important", "km": "សំខាន់", "tr": "sâm-khan", "pos": "adjectif",
+      "fr": "important", "en": "important", "km": "សំខាន់", "tr": "sâm-khan",
+      "es": "importante", "it": "importante", "ru": "важный", "zh": "重要", "zh_tr": "zhòngyào", "pos": "adjectif",
       "note": {
         "fr": "Le plus important : សំខាន់ជាងគេ (sâm-khan tchéang ké), mot à mot « plus important que les autres ».",
         "en": "The most important: សំខាន់ជាងគេ (sâm-khan tchéang ké), word for word “more important than the others”. French « important » is spelled as in English.",
         "km": "« important » ភេទស្រីសរសេរថា « importante » ហើយអានអក្សរ t។ អង់គ្លេសសរសេរដូចគ្នា៖ « important »។"
       },
-      "example": {"fr": "La famille est très importante.", "en": "Family is very important.", "km": "គ្រួសារសំខាន់ណាស់។", "tr": "krouo-sa sâm-khan nah."}
+      "example": {"fr": "La famille est très importante.", "en": "Family is very important.", "km": "គ្រួសារសំខាន់ណាស់។", "tr": "krouo-sa sâm-khan nah.",
+      "es": "La familia es muy importante.", "it": "La famiglia è molto importante.", "ru": "Семья очень важна.", "zh": "家庭很重要。", "zh_tr": "Jiātíng hěn zhòngyào."}
     },
     {
-      "fr": "vrai", "en": "true", "km": "ពិត", "tr": "peut", "pos": "adjectif",
+      "fr": "vrai", "en": "true", "km": "ពិត", "tr": "peut",
+      "es": "verdadero", "it": "vero", "ru": "правдивый", "zh": "真的", "zh_tr": "zhēn de", "pos": "adjectif",
       "note": {
         "fr": "Pour acquiescer, on dit ពិតមែន (peut mèn), « c'est bien vrai ». Pour s'étonner : មែនឬ? (mèn reu), « vraiment ? ».",
         "en": "To agree, say ពិតមែន (peut mèn), “that's very true”. To show surprise: មែនឬ? (mèn reu), “really?”. French « vrai » also gives « vraiment », “really”.",
         "km": "« vrai » ភេទស្រីសរសេរថា « vraie »។ « C'est vrai » មានន័យថា ពិតមែន។ ពាក្យផ្ទុយគឺ « faux » (មិនពិត)។ អង់គ្លេស៖ « true », « false »។"
       },
-      "example": {"fr": "C'est une histoire vraie.", "en": "It is a true story.", "km": "នេះជារឿងពិត។", "tr": "nih tchéa reuang peut."}
+      "example": {"fr": "C'est une histoire vraie.", "en": "It is a true story.", "km": "នេះជារឿងពិត។", "tr": "nih tchéa reuang peut.",
+      "es": "Es una historia real.", "it": "È una storia vera.", "ru": "Это правдивая история.", "zh": "这是一个真实的故事。", "zh_tr": "Zhè shì yí ge zhēnshí de gùshi."}
     },
     {
-      "fr": "se tromper", "en": "to be wrong", "km": "ខុស", "tr": "khoh", "pos": "verbe",
+      "fr": "se tromper", "en": "to be wrong", "km": "ខុស", "tr": "khoh",
+      "es": "equivocarse", "it": "sbagliarsi", "ru": "ошибаться", "zh": "错", "zh_tr": "cuò", "pos": "verbe",
       "note": {
         "fr": "ខុស signifie « faux, erroné » et « se tromper ». Son contraire est ត្រូវ (treuv), « juste, correct ».",
         "en": "ខុស means “wrong, incorrect” and “to make a mistake”. Its opposite is ត្រូវ (treuv), “right, correct”. French « se tromper »: je me suis trompé.",
         "km": "« se tromper »៖ je me trompe, tu te trompes។ គេក៏និយាយថា « avoir tort » ដែរ។ អង់គ្លេស៖ « to be wrong »។"
       },
-      "example": {"fr": "Je crois que tu te trompes.", "en": "I think you are wrong.", "km": "ខ្ញុំគិតថាអ្នកខុសហើយ។", "tr": "khgnom kit tha néak khoh haeuy."}
+      "example": {"fr": "Je crois que tu te trompes.", "en": "I think you are wrong.", "km": "ខ្ញុំគិតថាអ្នកខុសហើយ។", "tr": "khgnom kit tha néak khoh haeuy.",
+      "es": "Creo que te equivocas.", "it": "Credo che tu ti sbagli.", "ru": "По-моему, ты ошибаешься.", "zh": "我觉得你错了。", "zh_tr": "Wǒ juéde nǐ cuò le."}
     }
   ],
   "expressions": [
     {
       "fr": "Qu'est-ce que tu en penses ?", "en": "What do you think about it?", "km": "គិតយ៉ាងម៉េចដែរ?", "tr": "kit yang métch daè ?",
+      "es": "¿Qué te parece?", "it": "Che ne pensi?", "ru": "Что ты об этом думаешь?", "zh": "你觉得怎么样？", "zh_tr": "Nǐ juéde zěnmeyàng?",
       "note": {
         "fr": "Mot à mot « penser comment ? ». ដែរ adoucit la question.",
         "en": "Word for word “think how?”. ដែរ softens the question. French « en » stands for “about it”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Tu as raison.", "en": "You are right.", "km": "អ្នកនិយាយត្រូវ។", "tr": "néak ni-yéay treuv.",
+      "es": "Tienes razón.", "it": "Hai ragione.", "ru": "Ты прав.", "zh": "你说得对。", "zh_tr": "Nǐ shuō de duì.",
       "note": {
         "fr": "Mot à mot « tu parles juste ». ត្រូវ (treuv) : juste, correct.",
         "en": "Word for word “you speak right”. ត្រូវ (treuv): right, correct. French uses « avoir »: tu as raison, “you have reason”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Je ne suis pas d'accord.", "en": "I do not agree.", "km": "ខ្ញុំមិនយល់ស្របទេ។", "tr": "khgnom min yol srâp té.",
+      "es": "No estoy de acuerdo.", "it": "Non sono d'accordo.", "ru": "Я не согласен.", "zh": "我不同意。", "zh_tr": "Wǒ bù tóngyì.",
       "note": {
         "fr": "La négation encadre le verbe : មិន… ទេ. Dire son désaccord trop directement peut sembler brusque ; on l'adoucit volontiers d'un sourire.",
         "en": "The negative frames the verb: មិន… ទេ. Disagreeing too directly can seem abrupt; people often soften it with a smile.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "À mon avis…", "en": "In my opinion…", "km": "តាមខ្ញុំគិត…", "tr": "tam khgnom kit…",
+      "es": "En mi opinión…", "it": "Secondo me…", "ru": "По-моему…", "zh": "我觉得……", "zh_tr": "Wǒ juéde…",
       "note": {
         "fr": "Mot à mot « selon ce que je pense ». តាម (tam) : selon, en suivant.",
         "en": "Word for word “according to what I think”. តាម (tam): according to, following. French « avis » means “opinion”.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "Choisir où manger", "en": "Choosing where to eat", "km": "ជ្រើសរើសកន្លែងញ៉ាំបាយ"},
       "fr": "Moi, je préfère manger à la maison.", "en": "I prefer eating at home.",
-      "km": "ខ្ញុំចូលចិត្តញ៉ាំបាយនៅផ្ទះជាង។", "tr": "khgnom tchôl tchet gnam bay neuv phtéah tchéang."
+      "km": "ខ្ញុំចូលចិត្តញ៉ាំបាយនៅផ្ទះជាង។", "tr": "khgnom tchôl tchet gnam bay neuv phtéah tchéang.",
+      "es": "Yo prefiero comer en casa.", "it": "Io preferisco mangiare a casa.", "ru": "Я предпочитаю есть дома.", "zh": "我更喜欢在家吃饭。", "zh_tr": "Wǒ gèng xǐhuan zài jiā chī fàn."
     },
     {
       "situation": {"fr": "En parlant de l'avenir", "en": "Talking about the future", "km": "និយាយអំពីអនាគត"},
       "fr": "Je pense qu'il est important d'apprendre les langues.", "en": "I think it is important to learn languages.",
-      "km": "ខ្ញុំគិតថាការរៀនភាសាសំខាន់ណាស់។", "tr": "khgnom kit tha ka rien phéa-sa sâm-khan nah."
+      "km": "ខ្ញុំគិតថាការរៀនភាសាសំខាន់ណាស់។", "tr": "khgnom kit tha ka rien phéa-sa sâm-khan nah.",
+      "es": "Pienso que es importante aprender idiomas.", "it": "Penso che sia importante imparare le lingue.", "ru": "Я думаю, что учить языки важно.", "zh": "我认为学外语很重要。", "zh_tr": "Wǒ rènwéi xué wàiyǔ hěn zhòngyào."
     },
     {
       "situation": {"fr": "Reconnaître son erreur", "en": "Admitting a mistake", "km": "ទទួលស្គាល់កំហុស"},
       "fr": "C'est vrai, tu avais raison et je me trompais.", "en": "It is true, you were right and I was wrong.",
-      "km": "ពិតមែន អ្នកនិយាយត្រូវ ហើយខ្ញុំខុស។", "tr": "peut mèn, néak ni-yéay treuv, haeuy khgnom khoh."
+      "km": "ពិតមែន អ្នកនិយាយត្រូវ ហើយខ្ញុំខុស។", "tr": "peut mèn, néak ni-yéay treuv, haeuy khgnom khoh.",
+      "es": "Es verdad, tenías razón y yo me equivocaba.", "it": "È vero, avevi ragione e io mi sbagliavo.", "ru": "Это правда, ты был прав, а я ошибался.", "zh": "真的，你是对的，我错了。", "zh_tr": "Zhēn de, nǐ shì duì de, wǒ cuò le."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} et {B} choisissent où partir pendant les congés.", "en": "{A} and {B} are choosing where to go during their time off.", "km": "{A} និង {B} កំពុងគិតថាទៅលេងឯណាពេលឈប់សម្រាក។"},
     "lines": [
-      {"speaker": "B", "fr": "Pour les congés, je pense à la mer. Qu'est-ce que tu en penses ?", "en": "For our time off, I am thinking of the sea. What do you think?", "km": "ពេលឈប់សម្រាក ខ្ញុំគិតចង់ទៅសមុទ្រ។ {A} គិតយ៉ាងម៉េចដែរ?", "tr": "pél tchhoup sâm-rak, khgnom kit tchâng teuv sâ-mot. {A} kit yang métch daè ?"},
-      {"speaker": "A", "fr": "Moi, je préfère la montagne. Il y fait moins chaud.", "en": "I prefer the mountains. It is less hot there.", "km": "ខ្ញុំចូលចិត្តភ្នំជាង។ នៅទីនោះមិនសូវក្តៅទេ។", "tr": "khgnom tchôl tchet phnom tchéang. neuv ti-nouh min seuv kdav té."},
-      {"speaker": "B", "fr": "C'est vrai. Mais la mer, c'est bien pour se reposer.", "en": "That is true. But the sea is good for resting.", "km": "ពិតមែន។ ប៉ុន្តែសមុទ្រល្អសម្រាប់សម្រាក។", "tr": "peut mèn. pon-taè sâ-mot l'â sâm-rap sâm-rak."},
-      {"speaker": "A", "fr": "Je suis d'accord. Pour moi, le plus important est de bien se reposer.", "en": "I agree. For me, the most important thing is to rest well.", "km": "ខ្ញុំយល់ស្រប។ សម្រាប់ខ្ញុំ អ្វីដែលសំខាន់ជាងគេ គឺបានសម្រាកឱ្យស្រួល។", "tr": "khgnom yol srâp. sâm-rap khgnom, ey dael sâm-khan tchéang ké, keu ban sâm-rak aoy srouol."},
-      {"speaker": "B", "fr": "Alors, la mer cette année et la montagne l'année prochaine ?", "en": "So, the sea this year and the mountains next year?", "km": "អញ្ចឹង ឆ្នាំនេះទៅសមុទ្រ ឆ្នាំក្រោយទៅភ្នំ ម៉េចដែរ?", "tr": "agn-tcheung, tchhnam nih teuv sâ-mot, tchhnam kraoy teuv phnom, métch daè ?"},
-      {"speaker": "A", "fr": "Bonne idée, tu as raison !", "en": "Good idea, you are right!", "km": "គំនិតល្អ {B} និយាយត្រូវ!", "tr": "koum-neut l'â, {B} ni-yéay treuv !"},
-      {"speaker": "B", "fr": "Parfait. Je pense que ce sera un beau voyage.", "en": "Perfect. I think it will be a nice trip.", "km": "ល្អណាស់។ ខ្ញុំគិតថាវានឹងជាដំណើរដ៏សប្បាយ។", "tr": "l'â nah. khgnom kit tha véa neung tchéa dâm-naeu dâ sa-bay."}
+      {"speaker": "B", "fr": "Pour les congés, je pense à la mer. Qu'est-ce que tu en penses ?", "en": "For our time off, I am thinking of the sea. What do you think?", "km": "ពេលឈប់សម្រាក ខ្ញុំគិតចង់ទៅសមុទ្រ។ {A} គិតយ៉ាងម៉េចដែរ?", "tr": "pél tchhoup sâm-rak, khgnom kit tchâng teuv sâ-mot. {A} kit yang métch daè ?",
+        "es": "Para las vacaciones, pienso en la playa. ¿Qué te parece?", "it": "Per le ferie penso al mare. Che ne pensi?", "ru": "На отпуск я думаю о море. Что скажешь?", "zh": "放假的时候，我想去海边。你觉得怎么样？", "zh_tr": "Fàngjià de shíhou, wǒ xiǎng qù hǎibiān. Nǐ juéde zěnmeyàng?"},
+      {"speaker": "A", "fr": "Moi, je préfère la montagne. Il y fait moins chaud.", "en": "I prefer the mountains. It is less hot there.", "km": "ខ្ញុំចូលចិត្តភ្នំជាង។ នៅទីនោះមិនសូវក្តៅទេ។", "tr": "khgnom tchôl tchet phnom tchéang. neuv ti-nouh min seuv kdav té.",
+        "es": "Yo prefiero la montaña. Allí hace menos calor.", "it": "Io preferisco la montagna. Fa meno caldo.", "ru": "Я предпочитаю горы. Там не так жарко.", "zh": "我更喜欢山区。那儿没那么热。", "zh_tr": "Wǒ gèng xǐhuan shānqū. Nàr méi nàme rè."},
+      {"speaker": "B", "fr": "C'est vrai. Mais la mer, c'est bien pour se reposer.", "en": "That is true. But the sea is good for resting.", "km": "ពិតមែន។ ប៉ុន្តែសមុទ្រល្អសម្រាប់សម្រាក។", "tr": "peut mèn. pon-taè sâ-mot l'â sâm-rap sâm-rak.",
+        "es": "Es verdad. Pero la playa es buena para descansar.", "it": "È vero. Ma il mare è bello per riposarsi.", "ru": "Это правда. Но на море хорошо отдыхать.", "zh": "没错。不过海边很适合休息。", "zh_tr": "Méi cuò. Búguò hǎibiān hěn shìhé xiūxi."},
+      {"speaker": "A", "fr": "Je suis d'accord. Pour moi, le plus important est de bien se reposer.", "en": "I agree. For me, the most important thing is to rest well.", "km": "ខ្ញុំយល់ស្រប។ សម្រាប់ខ្ញុំ អ្វីដែលសំខាន់ជាងគេ គឺបានសម្រាកឱ្យស្រួល។", "tr": "khgnom yol srâp. sâm-rap khgnom, ey dael sâm-khan tchéang ké, keu ban sâm-rak aoy srouol.",
+        "es": "Estoy de acuerdo. Para mí, lo más importante es descansar bien.", "it": "Sono d'accordo. Per me la cosa più importante è riposarsi bene.", "ru": "Я согласна. Для меня главное — хорошо отдохнуть.", "zh": "我同意。对我来说，最重要的是好好休息。", "zh_tr": "Wǒ tóngyì. Duì wǒ lái shuō, zuì zhòngyào de shì hǎohāo xiūxi."},
+      {"speaker": "B", "fr": "Alors, la mer cette année et la montagne l'année prochaine ?", "en": "So, the sea this year and the mountains next year?", "km": "អញ្ចឹង ឆ្នាំនេះទៅសមុទ្រ ឆ្នាំក្រោយទៅភ្នំ ម៉េចដែរ?", "tr": "agn-tcheung, tchhnam nih teuv sâ-mot, tchhnam kraoy teuv phnom, métch daè ?",
+        "es": "Entonces, ¿la playa este año y la montaña el año que viene?", "it": "Allora il mare quest'anno e la montagna l'anno prossimo?", "ru": "Тогда море в этом году, а горы в следующем?", "zh": "那今年去海边，明年去山区？", "zh_tr": "Nà jīnnián qù hǎibiān, míngnián qù shānqū?"},
+      {"speaker": "A", "fr": "Bonne idée, tu as raison !", "en": "Good idea, you are right!", "km": "គំនិតល្អ {B} និយាយត្រូវ!", "tr": "koum-neut l'â, {B} ni-yéay treuv !",
+        "es": "¡Buena idea, tienes razón!", "it": "Buona idea, hai ragione!", "ru": "Хорошая идея, ты прав!", "zh": "好主意，你说得对！", "zh_tr": "Hǎo zhǔyi, nǐ shuō de duì!"},
+      {"speaker": "B", "fr": "Parfait. Je pense que ce sera un beau voyage.", "en": "Perfect. I think it will be a nice trip.", "km": "ល្អណាស់។ ខ្ញុំគិតថាវានឹងជាដំណើរដ៏សប្បាយ។", "tr": "l'â nah. khgnom kit tha véa neung tchéa dâm-naeu dâ sa-bay.",
+        "es": "Perfecto. Creo que será un viaje precioso.", "it": "Perfetto. Penso che sarà un bel viaggio.", "ru": "Отлично. Думаю, это будет прекрасная поездка.", "zh": "太好了。我觉得这会是一次很棒的旅行。", "zh_tr": "Tài hǎo le. Wǒ juéde zhè huì shì yí cì hěn bàng de lǚxíng."}
     ]
   },
   "comprehension": {

@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le thé", "en": "tea", "km": "តែ", "tr": "taè", "pos": "nom",
+      "fr": "le thé", "en": "tea", "km": "តែ", "tr": "taè",
+      "es": "el té", "it": "il tè", "ru": "чай", "zh": "茶", "zh_tr": "chá", "pos": "nom",
       "note": {
         "fr": "Au restaurant, on sert souvent du thé glacé gratuit, តែទឹកកក (taè teuk kâk). Le thé chaud se dit តែក្តៅ.",
         "en": "Restaurants often serve free iced tea, តែទឹកកក (taè teuk kâk). Hot tea is តែក្តៅ. French « thé » is masculine and spelled with an h.",
         "km": "« thé » ជានាមភេទប្រុស ហើយ h មិនអានទេ៖ le thé។ អង់គ្លេស៖ « tea »។"
       },
-      "example": {"fr": "Je bois du thé chaud le matin.", "en": "I drink hot tea in the morning.", "km": "ខ្ញុំផឹកតែក្តៅពេលព្រឹក។", "tr": "khgnom pheuk taè kdav pél preuk."}
+      "example": {"fr": "Je bois du thé chaud le matin.", "en": "I drink hot tea in the morning.", "km": "ខ្ញុំផឹកតែក្តៅពេលព្រឹក។", "tr": "khgnom pheuk taè kdav pél preuk.",
+      "es": "Por la mañana bebo té caliente.", "it": "La mattina bevo tè caldo.", "ru": "Утром я пью горячий чай.", "zh": "我早上喝热茶。", "zh_tr": "Wǒ zǎoshang hē rè chá."}
     },
     {
-      "fr": "le jus", "en": "juice", "km": "ទឹកផ្លែឈើ", "tr": "teuk phlaè-tchheu", "pos": "nom",
+      "fr": "le jus", "en": "juice", "km": "ទឹកផ្លែឈើ", "tr": "teuk phlaè-tchheu",
+      "es": "el zumo", "it": "il succo", "ru": "сок", "zh": "果汁", "zh_tr": "guǒzhī", "pos": "nom",
       "note": {
         "fr": "Mot à mot « eau de fruit ». On précise le fruit : ទឹកក្រូច (teuk krôtch), le jus d'orange ; ទឹកស្វាយ, le jus de mangue.",
         "en": "Word for word “fruit water”. Name the fruit: ទឹកក្រូច (teuk krôtch), orange juice; ទឹកស្វាយ, mango juice. French « jus » is masculine; the s is silent.",
         "km": "« jus » ជានាមភេទប្រុស ហើយ s មិនអានទេ៖ un jus d'orange។ អង់គ្លេស៖ « juice »។"
       },
-      "example": {"fr": "Un jus de mangue, s'il vous plaît.", "en": "A mango juice, please.", "km": "សុំទឹកស្វាយមួយកែវ។", "tr": "som teuk svay mouy kaèv."}
+      "example": {"fr": "Un jus de mangue, s'il vous plaît.", "en": "A mango juice, please.", "km": "សុំទឹកស្វាយមួយកែវ។", "tr": "som teuk svay mouy kaèv.",
+      "es": "Un zumo de mango, por favor.", "it": "Un succo di mango, per favore.", "ru": "Манговый сок, пожалуйста.", "zh": "请来一杯芒果汁。", "zh_tr": "Qǐng lái yì bēi mángguǒ zhī."}
     },
     {
-      "fr": "la glace", "en": "ice", "km": "ទឹកកក", "tr": "teuk kâk", "pos": "nom",
+      "fr": "la glace", "en": "ice", "km": "ទឹកកក", "tr": "teuk kâk",
+      "es": "el hielo", "it": "il ghiaccio", "ru": "лёд", "zh": "冰", "zh_tr": "bīng", "pos": "nom",
       "note": {
         "fr": "Mot à mot « eau gelée » : កក (kâk), « figer, geler ». La crème glacée se dit ការ៉េម (ka-rém), emprunté au français « crème ».",
         "en": "Word for word “frozen water”: កក (kâk), “to freeze”. Ice cream is ការ៉េម (ka-rém), from French « crème ». French « glace » means both ice and ice cream.",
         "km": "« glace » មានន័យពីរ៖ ទឹកកក និងការ៉េម។ « avec de la glace » មានន័យថា ដាក់ទឹកកក។ អង់គ្លេស៖ « ice », « ice cream »។"
       },
-      "example": {"fr": "Pas trop de glace, s'il vous plaît.", "en": "Not too much ice, please.", "km": "សុំកុំដាក់ទឹកកកច្រើនពេក។", "tr": "som kom dak teuk kâk tchraeun pék."}
+      "example": {"fr": "Pas trop de glace, s'il vous plaît.", "en": "Not too much ice, please.", "km": "សុំកុំដាក់ទឹកកកច្រើនពេក។", "tr": "som kom dak teuk kâk tchraeun pék.",
+      "es": "No mucho hielo, por favor.", "it": "Non troppo ghiaccio, per favore.", "ru": "Не очень много льда, пожалуйста.", "zh": "少放点儿冰，谢谢。", "zh_tr": "Shǎo fàng diǎnr bīng, xièxie."}
     },
     {
-      "fr": "le lait", "en": "milk", "km": "ទឹកដោះគោ", "tr": "teuk dâh kô", "pos": "nom",
+      "fr": "le lait", "en": "milk", "km": "ទឹកដោះគោ", "tr": "teuk dâh kô",
+      "es": "la leche", "it": "il latte", "ru": "молоко", "zh": "牛奶", "zh_tr": "niúnǎi", "pos": "nom",
       "note": {
         "fr": "Mot à mot « lait de vache ». Le café khmer se boit souvent avec du lait concentré sucré : កាហ្វេទឹកដោះគោ.",
         "en": "Word for word “cow's milk”. Khmer coffee is often drunk with sweetened condensed milk: កាហ្វេទឹកដោះគោ. French « lait »: the t is silent.",
         "km": "« lait » ជានាមភេទប្រុស ហើយ t មិនអានទេ៖ le lait។ « un café au lait » មានន័យថា កាហ្វេទឹកដោះគោ។ អង់គ្លេស៖ « milk »។"
       },
-      "example": {"fr": "Un café au lait glacé, s'il vous plaît.", "en": "An iced coffee with milk, please.", "km": "សុំកាហ្វេទឹកដោះគោទឹកកកមួយ។", "tr": "som ka-fé teuk dâh kô teuk kâk mouy."}
+      "example": {"fr": "Un café au lait glacé, s'il vous plaît.", "en": "An iced coffee with milk, please.", "km": "សុំកាហ្វេទឹកដោះគោទឹកកកមួយ។", "tr": "som ka-fé teuk dâh kô teuk kâk mouy.",
+      "es": "Un café con leche con hielo, por favor.", "it": "Un caffè latte freddo, per favore.", "ru": "Кофе с молоком со льдом, пожалуйста.", "zh": "请来一杯冰奶咖啡。", "zh_tr": "Qǐng lái yì bēi bīng nǎi kāfēi."}
     },
     {
-      "fr": "la bière", "en": "beer", "km": "ស្រាបៀរ", "tr": "sra-bie", "pos": "nom",
+      "fr": "la bière", "en": "beer", "km": "ស្រាបៀរ", "tr": "sra-bie",
+      "es": "la cerveza", "it": "la birra", "ru": "пиво", "zh": "啤酒", "zh_tr": "píjiǔ", "pos": "nom",
       "note": {
         "fr": "ស្រា (sra) désigne toute boisson alcoolisée ; បៀរ vient du français « bière ». Au Cambodge, la bière se boit souvent avec des glaçons.",
         "en": "ស្រា (sra) means any alcoholic drink; បៀរ comes from French « bière ». In Cambodia, beer is often drunk with ice. French « bière » is feminine.",
         "km": "« bière » ជានាមភេទស្រី៖ la bière។ « le vin » មានន័យថា ស្រាទំពាំងបាយជូរ។ អង់គ្លេស៖ « beer »។"
       },
-      "example": {"fr": "Le soir, il boit une bière avec ses amis.", "en": "In the evening, he drinks a beer with his friends.", "km": "ពេលល្ងាច គាត់ផឹកស្រាបៀរជាមួយមិត្តភក្តិ។", "tr": "pél lngéatch, koat pheuk sra-bie tchéa-mouy mit-phéak."}
+      "example": {"fr": "Le soir, il boit une bière avec ses amis.", "en": "In the evening, he drinks a beer with his friends.", "km": "ពេលល្ងាច គាត់ផឹកស្រាបៀរជាមួយមិត្តភក្តិ។", "tr": "pél lngéatch, koat pheuk sra-bie tchéa-mouy mit-phéak.",
+      "es": "Por la tarde, se toma una cerveza con sus amigos.", "it": "La sera beve una birra con gli amici.", "ru": "Вечером он пьёт пиво с друзьями.", "zh": "晚上他和朋友一起喝啤酒。", "zh_tr": "Wǎnshang tā hé péngyou yìqǐ hē píjiǔ."}
     },
     {
-      "fr": "le verre", "en": "glass", "km": "កែវ", "tr": "kaèv", "pos": "nom",
+      "fr": "le verre", "en": "glass", "km": "កែវ", "tr": "kaèv",
+      "es": "el vaso", "it": "il bicchiere", "ru": "стакан", "zh": "杯子", "zh_tr": "bēizi", "pos": "nom",
       "note": {
         "fr": "កែវ sert aussi de classificateur pour les boissons : កាហ្វេពីរកែវ, deux cafés. La tasse se dit ពែង (péng).",
         "en": "កែវ is also the classifier for drinks: កាហ្វេពីរកែវ, two coffees. A cup is ពែង (péng). French « verre » sounds like « vert », green.",
         "km": "« verre » ជានាមភេទប្រុស៖ un verre d'eau។ អានដូចពាក្យ « vert » (ពណ៌បៃតង)។ អង់គ្លេស៖ « glass »។"
       },
-      "example": {"fr": "Je voudrais un verre d'eau.", "en": "I would like a glass of water.", "km": "ខ្ញុំចង់បានទឹកមួយកែវ។", "tr": "khgnom tchâng ban teuk mouy kaèv."}
+      "example": {"fr": "Je voudrais un verre d'eau.", "en": "I would like a glass of water.", "km": "ខ្ញុំចង់បានទឹកមួយកែវ។", "tr": "khgnom tchâng ban teuk mouy kaèv.",
+      "es": "Quería un vaso de agua.", "it": "Vorrei un bicchiere d'acqua.", "ru": "Я хотел бы стакан воды.", "zh": "我想要一杯水。", "zh_tr": "Wǒ xiǎng yào yì bēi shuǐ."}
     }
   ],
   "expressions": [
     {
       "fr": "Avec de la glace ?", "en": "With ice?", "km": "ដាក់ទឹកកកទេ?", "tr": "dak teuk kâk té ?",
+      "es": "¿Con hielo?", "it": "Con ghiaccio?", "ru": "Со льдом?", "zh": "加冰吗？", "zh_tr": "Jiā bīng ma?",
       "note": {
         "fr": "Mot à mot « mettre de la glace ? ». On répond ដាក់ (oui) ou កុំដាក់ (non, n'en mettez pas).",
         "en": "Word for word “put ice?”. Answer ដាក់ (yes) or កុំដាក់ (no, don't put any). French « de la » means “some”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Sans sucre, s'il vous plaît.", "en": "No sugar, please.", "km": "សុំកុំដាក់ស្ករ។", "tr": "som kom dak skâ.",
+      "es": "Sin azúcar, por favor.", "it": "Senza zucchero, per favore.", "ru": "Без сахара, пожалуйста.", "zh": "不要糖，谢谢。", "zh_tr": "Bú yào táng, xièxie.",
       "note": {
         "fr": "Les boissons sont souvent très sucrées. Pour un peu de sucre seulement : ដាក់ស្ករតិច (dak skâ tetch).",
         "en": "Drinks are often very sweet. For just a little sugar: ដាក់ស្ករតិច (dak skâ tetch). French « sans » means “without”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Encore un verre, s'il vous plaît.", "en": "Another glass, please.", "km": "សុំមួយកែវទៀត។", "tr": "som mouy kaèv tiet.",
+      "es": "Otro vaso, por favor.", "it": "Un altro bicchiere, per favore.", "ru": "Ещё стакан, пожалуйста.", "zh": "请再来一杯。", "zh_tr": "Qǐng zài lái yì bēi.",
       "note": {
         "fr": "ទៀត (tiet), « encore », se place après la quantité, comme dans សូមមួយទៀត.",
         "en": "ទៀត (tiet), “more”, goes after the quantity, as in សូមមួយទៀត. French « encore » means “another, more”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Santé !", "en": "Cheers!", "km": "ជល់មួយ!", "tr": "tchol mouy !",
+      "es": "¡Salud!", "it": "Salute!", "ru": "Ваше здоровье!", "zh": "干杯！", "zh_tr": "Gānbēi!",
       "uncertain": true,
       "uncertain_note": "Formule orale pour trinquer : faire confirmer par un locuteur natif qu'elle est la plus naturelle.",
       "note": {
@@ -105,28 +121,37 @@
     {
       "situation": {"fr": "Par une journée chaude", "en": "On a hot day", "km": "នៅថ្ងៃក្តៅ"},
       "fr": "Quand il fait chaud, je bois beaucoup d'eau.", "en": "When it's hot, I drink a lot of water.",
-      "km": "ពេលក្តៅ ខ្ញុំផឹកទឹកច្រើន។", "tr": "pél kdav, khgnom pheuk teuk tchraeun."
+      "km": "ពេលក្តៅ ខ្ញុំផឹកទឹកច្រើន។", "tr": "pél kdav, khgnom pheuk teuk tchraeun.",
+      "es": "Cuando hace calor, bebo mucha agua.", "it": "Quando fa caldo bevo molta acqua.", "ru": "Когда жарко, я пью много воды.", "zh": "天热的时候，我喝很多水。", "zh_tr": "Tiān rè de shíhou, wǒ hē hěn duō shuǐ."
     },
     {
       "situation": {"fr": "Au café", "en": "At the café", "km": "នៅហាងកាហ្វេ"},
       "fr": "Un thé glacé et un jus d'orange, s'il vous plaît.", "en": "An iced tea and an orange juice, please.",
-      "km": "សុំតែទឹកកកមួយ និងទឹកក្រូចមួយ។", "tr": "som taè teuk kâk mouy ning teuk krôtch mouy."
+      "km": "សុំតែទឹកកកមួយ និងទឹកក្រូចមួយ។", "tr": "som taè teuk kâk mouy ning teuk krôtch mouy.",
+      "es": "Un té con hielo y un zumo de naranja, por favor.", "it": "Un tè freddo e un succo d'arancia, per favore.", "ru": "Холодный чай и апельсиновый сок, пожалуйста.", "zh": "请来一杯冰茶和一杯橙汁。", "zh_tr": "Qǐng lái yì bēi bīngchá hé yì bēi chéngzhī."
     },
     {
       "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
       "fr": "Le jus de canne à sucre est très sucré.", "en": "Sugar cane juice is very sweet.",
-      "km": "ទឹកអំពៅផ្អែមណាស់។", "tr": "teuk âm-pov ph'aèm nah."
+      "km": "ទឹកអំពៅផ្អែមណាស់។", "tr": "teuk âm-pov ph'aèm nah.",
+      "es": "El zumo de caña de azúcar es muy dulce.", "it": "Il succo di canna da zucchero è molto dolce.", "ru": "Сок сахарного тростника очень сладкий.", "zh": "甘蔗汁很甜。", "zh_tr": "Gānzhe zhī hěn tián."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Il fait très chaud. {A} et {B} s'arrêtent à un stand de boissons.", "en": "It is very hot. {A} and {B} stop at a drinks stall.", "km": "ក្តៅណាស់។ {A} និង {B} ឈប់នៅតូបលក់ភេសជ្ជៈមួយ។"},
     "lines": [
-      {"speaker": "B", "fr": "J'ai très soif ! Qu'est-ce que tu bois ?", "en": "I'm so thirsty! What are you drinking?", "km": "ខ្ញុំស្រេកទឹកណាស់! {A} ផឹកអ្វី?", "tr": "khgnom srék teuk nah ! {A} pheuk ey ?"},
-      {"speaker": "A", "fr": "Un jus de canne à sucre. Tu veux goûter ?", "en": "Sugar cane juice. Do you want a taste?", "km": "ទឹកអំពៅ។ ចង់ភ្លក់មើលទេ?", "tr": "teuk âm-pov. tchâng phlok meul té ?"},
-      {"speaker": "B", "fr": "Oui… C'est très sucré, mais c'est bon !", "en": "Yes… It's very sweet, but it's good!", "km": "{B_yes}… ផ្អែមណាស់ ប៉ុន្តែឆ្ងាញ់!", "tr": "{B_yes}… ph'aèm nah, pon-taè tchhngagn !"},
-      {"speaker": "A", "fr": "Tu en veux un, avec de la glace ?", "en": "Do you want one, with ice?", "km": "យកមួយទេ ដាក់ទឹកកក?", "tr": "yok mouy té, dak teuk kâk ?"},
-      {"speaker": "B", "fr": "Oui, un grand verre, s'il te plaît !", "en": "Yes, a big glass, please!", "km": "{B_yes} សុំមួយកែវធំ!", "tr": "{B_yes}, som mouy kaèv thom !"},
-      {"speaker": "A", "fr": "Deux jus de canne, s'il vous plaît !", "en": "Two sugar cane juices, please!", "km": "សុំទឹកអំពៅពីរកែវ!", "tr": "som teuk âm-pov pi kaèv !"}
+      {"speaker": "B", "fr": "J'ai très soif ! Qu'est-ce que tu bois ?", "en": "I'm so thirsty! What are you drinking?", "km": "ខ្ញុំស្រេកទឹកណាស់! {A} ផឹកអ្វី?", "tr": "khgnom srék teuk nah ! {A} pheuk ey ?",
+        "es": "¡Tengo mucha sed! ¿Qué bebes?", "it": "Ho tanta sete! Che cosa bevi?", "ru": "Я так хочу пить! Что ты пьёшь?", "zh": "我好渴！你喝什么？", "zh_tr": "Wǒ hǎo kě! Nǐ hē shénme?"},
+      {"speaker": "A", "fr": "Un jus de canne à sucre. Tu veux goûter ?", "en": "Sugar cane juice. Do you want a taste?", "km": "ទឹកអំពៅ។ ចង់ភ្លក់មើលទេ?", "tr": "teuk âm-pov. tchâng phlok meul té ?",
+        "es": "Zumo de caña de azúcar. ¿Quieres probar?", "it": "Succo di canna da zucchero. Vuoi assaggiare?", "ru": "Сок сахарного тростника. Хочешь попробовать?", "zh": "甘蔗汁。你想尝尝吗？", "zh_tr": "Gānzhe zhī. Nǐ xiǎng chángchang ma?"},
+      {"speaker": "B", "fr": "Oui… C'est très sucré, mais c'est bon !", "en": "Yes… It's very sweet, but it's good!", "km": "{B_yes}… ផ្អែមណាស់ ប៉ុន្តែឆ្ងាញ់!", "tr": "{B_yes}… ph'aèm nah, pon-taè tchhngagn !",
+        "es": "Sí… Es muy dulce, ¡pero está bueno!", "it": "Sì… È molto dolce, ma è buono!", "ru": "Да… Очень сладко, но вкусно!", "zh": "好……很甜，不过很好喝！", "zh_tr": "Hǎo… Hěn tián, búguò hěn hǎohē!"},
+      {"speaker": "A", "fr": "Tu en veux un, avec de la glace ?", "en": "Do you want one, with ice?", "km": "យកមួយទេ ដាក់ទឹកកក?", "tr": "yok mouy té, dak teuk kâk ?",
+        "es": "¿Quieres uno, con hielo?", "it": "Ne vuoi uno, con ghiaccio?", "ru": "Хочешь такой, со льдом?", "zh": "你要一杯吗？加冰？", "zh_tr": "Nǐ yào yì bēi ma? Jiā bīng?"},
+      {"speaker": "B", "fr": "Oui, un grand verre, s'il te plaît !", "en": "Yes, a big glass, please!", "km": "{B_yes} សុំមួយកែវធំ!", "tr": "{B_yes}, som mouy kaèv thom !",
+        "es": "¡Sí, un vaso grande, por favor!", "it": "Sì, un bicchiere grande, per favore!", "ru": "Да, большой стакан, пожалуйста!", "zh": "要，大杯的，谢谢！", "zh_tr": "Yào, dà bēi de, xièxie!"},
+      {"speaker": "A", "fr": "Deux jus de canne, s'il vous plaît !", "en": "Two sugar cane juices, please!", "km": "សុំទឹកអំពៅពីរកែវ!", "tr": "som teuk âm-pov pi kaèv !",
+        "es": "¡Dos zumos de caña, por favor!", "it": "Due succhi di canna, per favore!", "ru": "Два сока сахарного тростника, пожалуйста!", "zh": "请来两杯甘蔗汁！", "zh_tr": "Qǐng lái liǎng bēi gānzhe zhī!"}
     ]
   },
   "comprehension": {

@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le restaurant", "en": "restaurant", "km": "ភោជនីយដ្ឋាន", "tr": "phô-tchéa-ni-yéa-than", "pos": "nom",
+      "fr": "le restaurant", "en": "restaurant", "km": "ភោជនីយដ្ឋាន", "tr": "phô-tchéa-ni-yéa-than",
+      "es": "el restaurante", "it": "il ristorante", "ru": "ресторан", "zh": "饭馆", "zh_tr": "fànguǎn", "pos": "nom",
       "note": {
         "fr": "Mot soigné, celui des enseignes. Dans la conversation, on dit plutôt ហាងបាយ (hang bay), mot à mot « boutique de riz ».",
         "en": "A formal word, the one on signs. In conversation, people say ហាងបាយ (hang bay), word for word “rice shop”. French « restaurant » is spelled as in English.",
         "km": "« restaurant » ជានាមភេទប្រុស៖ le restaurant។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេសសរសេរដូចគ្នា ប៉ុន្តែអានអក្សរ t។"
       },
-      "example": {"fr": "Ce soir, nous mangeons au restaurant.", "en": "Tonight, we are eating at the restaurant.", "km": "ល្ងាចនេះ យើងញ៉ាំបាយនៅភោជនីយដ្ឋាន។", "tr": "lngéatch nih, yeung gnam bay neuv phô-tchéa-ni-yéa-than."}
+      "example": {"fr": "Ce soir, nous mangeons au restaurant.", "en": "Tonight, we are eating at the restaurant.", "km": "ល្ងាចនេះ យើងញ៉ាំបាយនៅភោជនីយដ្ឋាន។", "tr": "lngéatch nih, yeung gnam bay neuv phô-tchéa-ni-yéa-than.",
+      "es": "Esta noche cenamos en el restaurante.", "it": "Stasera mangiamo al ristorante.", "ru": "Сегодня вечером мы ужинаем в ресторане.", "zh": "今天晚上我们在饭馆吃饭。", "zh_tr": "Jīntiān wǎnshang wǒmen zài fànguǎn chī fàn."}
     },
     {
-      "fr": "le menu", "en": "menu", "km": "ម៉ឺនុយ", "tr": "meu-nouy", "pos": "nom",
+      "fr": "le menu", "en": "menu", "km": "ម៉ឺនុយ", "tr": "meu-nouy",
+      "es": "la carta", "it": "il menù", "ru": "меню", "zh": "菜单", "zh_tr": "càidān", "pos": "nom",
       "note": {
         "fr": "Emprunt au français, prononcé à la khmère. Le terme soigné est បញ្ជីមុខម្ហូប (bagn-tchi mouk mhôp), « liste des plats ».",
         "en": "Borrowed from French, pronounced the Khmer way. The formal term is បញ្ជីមុខម្ហូប (bagn-tchi mouk mhôp), “list of dishes”. French « menu » is also a fixed-price set meal.",
         "km": "ពាក្យខ្មែរ « ម៉ឺនុយ » មកពីពាក្យបារាំង « menu »។ អង់គ្លេសសរសេរដូចគ្នា ប៉ុន្តែអានថា « មេញូ »។"
       },
-      "example": {"fr": "Je peux voir le menu, s'il vous plaît ?", "en": "Can I see the menu, please?", "km": "សុំមើលម៉ឺនុយបន្តិច។", "tr": "som meul meu-nouy bân-tetch."}
+      "example": {"fr": "Je peux voir le menu, s'il vous plaît ?", "en": "Can I see the menu, please?", "km": "សុំមើលម៉ឺនុយបន្តិច។", "tr": "som meul meu-nouy bân-tetch.",
+      "es": "¿Puedo ver la carta, por favor?", "it": "Posso vedere il menù, per favore?", "ru": "Можно посмотреть меню, пожалуйста?", "zh": "我可以看看菜单吗？", "zh_tr": "Wǒ kěyǐ kànkan càidān ma?"}
     },
     {
-      "fr": "commander", "en": "to order", "km": "កុម្ម៉ង់", "tr": "kom-mâng", "pos": "verbe",
+      "fr": "commander", "en": "to order", "km": "កុម្ម៉ង់", "tr": "kom-mâng",
+      "es": "pedir", "it": "ordinare", "ru": "заказывать", "zh": "点菜", "zh_tr": "diǎn cài", "pos": "verbe",
       "note": {
         "fr": "Emprunt au français « commande ». On dit aussi ហៅម្ហូប (hav mhôp), mot à mot « appeler un plat ».",
         "en": "Borrowed from French « commande ». People also say ហៅម្ហូប (hav mhôp), word for word “call a dish”. French « commander »: je commande.",
         "km": "« commander »៖ je commande, nous commandons។ អង់គ្លេស៖ « to order »។"
       },
-      "example": {"fr": "Qu'est-ce que tu veux commander ?", "en": "What do you want to order?", "km": "ចង់កុម្ម៉ង់អ្វី?", "tr": "tchâng kom-mâng ey ?"}
+      "example": {"fr": "Qu'est-ce que tu veux commander ?", "en": "What do you want to order?", "km": "ចង់កុម្ម៉ង់អ្វី?", "tr": "tchâng kom-mâng ey ?",
+      "es": "¿Qué quieres pedir?", "it": "Che cosa vuoi ordinare?", "ru": "Что ты хочешь заказать?", "zh": "你想点什么？", "zh_tr": "Nǐ xiǎng diǎn shénme?"}
     },
     {
-      "fr": "le plat", "en": "dish", "km": "ម្ហូប", "tr": "mhôp", "pos": "nom",
+      "fr": "le plat", "en": "dish", "km": "ម្ហូប", "tr": "mhôp",
+      "es": "el plato", "it": "il piatto", "ru": "блюдо", "zh": "菜", "zh_tr": "cài", "pos": "nom",
       "note": {
         "fr": "ម្ហូប désigne ce qui accompagne le riz, donc « plat » ou « cuisine » : ម្ហូបខ្មែរ, la cuisine khmère.",
         "en": "ម្ហូប is what goes with the rice, so “dish” or “cuisine”: ម្ហូបខ្មែរ, Khmer cuisine. French « plat » is masculine; the t is silent.",
         "km": "« plat » ជានាមភេទប្រុស៖ le plat។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេស៖ « dish »។"
       },
-      "example": {"fr": "J'aime beaucoup les plats khmers.", "en": "I like Khmer dishes very much.", "km": "ខ្ញុំចូលចិត្តម្ហូបខ្មែរណាស់។", "tr": "khgnom tchôl tchet mhôp khmaè nah."}
+      "example": {"fr": "J'aime beaucoup les plats khmers.", "en": "I like Khmer dishes very much.", "km": "ខ្ញុំចូលចិត្តម្ហូបខ្មែរណាស់។", "tr": "khgnom tchôl tchet mhôp khmaè nah.",
+      "es": "Me gustan mucho los platos jemeres.", "it": "Mi piacciono molto i piatti khmer.", "ru": "Я очень люблю кхмерские блюда.", "zh": "我很喜欢柬埔寨菜。", "zh_tr": "Wǒ hěn xǐhuan Jiǎnpǔzhài cài."}
     },
     {
-      "fr": "l'addition", "en": "bill", "km": "វិក្កយបត្រ", "tr": "vik-ka-yéa-bat", "pos": "nom",
+      "fr": "l'addition", "en": "bill", "km": "វិក្កយបត្រ", "tr": "vik-ka-yéa-bat",
+      "es": "la cuenta", "it": "il conto", "ru": "счёт", "zh": "账单", "zh_tr": "zhàngdān", "pos": "nom",
       "note": {
         "fr": "Mot écrit, qui désigne aussi une facture. Au restaurant, on ne demande pas « l'addition » : on dit សុំគិតលុយ (som kit louy), « comptez l'argent, s'il vous plaît ».",
         "en": "A written word, also meaning an invoice. At a restaurant, you do not ask for “the bill”: you say សុំគិតលុយ (som kit louy), “please count the money”. French « addition » is feminine.",
         "km": "« addition » ជានាមភេទស្រី៖ l'addition។ នៅភោជនីយដ្ឋាន គេនិយាយថា « L'addition, s'il vous plaît »។ អង់គ្លេស៖ « the bill »។"
       },
-      "example": {"fr": "Voici l'addition.", "en": "Here is the bill.", "km": "នេះវិក្កយបត្រ។", "tr": "nih vik-ka-yéa-bat."}
+      "example": {"fr": "Voici l'addition.", "en": "Here is the bill.", "km": "នេះវិក្កយបត្រ។", "tr": "nih vik-ka-yéa-bat.",
+      "es": "Aquí tiene la cuenta.", "it": "Ecco il conto.", "ru": "Вот ваш счёт.", "zh": "这是账单。", "zh_tr": "Zhè shì zhàngdān."}
     },
     {
-      "fr": "épicé", "en": "spicy", "km": "ហឹរ", "tr": "heul", "pos": "adjectif",
+      "fr": "épicé", "en": "spicy", "km": "ហឹរ", "tr": "heul",
+      "es": "picante", "it": "piccante", "ru": "острый", "zh": "辣", "zh_tr": "là", "pos": "adjectif",
       "note": {
         "fr": "Se prononce « heul » : dans ce mot, le រ final s'entend comme un l. Le piment se dit ម្ទេស (mtéh).",
         "en": "Pronounced “heul”: in this word, the final រ sounds like an l. Chilli is ម្ទេស (mtéh). French « épicé » becomes « épicée » in the feminine.",
         "km": "« épicé » ប្រើសម្រាប់ម្ហូបដែលមានម្ទេស។ « C'est épicé ? » មានន័យថា ហឹរទេ? អង់គ្លេស៖ « spicy »។"
       },
-      "example": {"fr": "Ce plat est très épicé.", "en": "This dish is very spicy.", "km": "ម្ហូបនេះហឹរណាស់។", "tr": "mhôp nih heul nah."}
+      "example": {"fr": "Ce plat est très épicé.", "en": "This dish is very spicy.", "km": "ម្ហូបនេះហឹរណាស់។", "tr": "mhôp nih heul nah.",
+      "es": "Este plato es muy picante.", "it": "Questo piatto è molto piccante.", "ru": "Это блюдо очень острое.", "zh": "这个菜很辣。", "zh_tr": "Zhège cài hěn là."}
     }
   ],
   "expressions": [
     {
       "fr": "L'addition, s'il vous plaît.", "en": "The bill, please.", "km": "សុំគិតលុយ។", "tr": "som kit louy.",
+      "es": "La cuenta, por favor.", "it": "Il conto, per favore.", "ru": "Счёт, пожалуйста.", "zh": "买单。", "zh_tr": "Mǎidān.",
       "note": {
         "fr": "Mot à mot « je demande de compter l'argent ». C'est la formule que tout le monde emploie.",
         "en": "Word for word “I ask to count the money”. It is the phrase everyone uses.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Pas trop épicé, s'il vous plaît.", "en": "Not too spicy, please.", "km": "សុំកុំហឹរពេក។", "tr": "som kom heul pék.",
+      "es": "No muy picante, por favor.", "it": "Non troppo piccante, per favore.", "ru": "Не очень остро, пожалуйста.", "zh": "别太辣，谢谢。", "zh_tr": "Bié tài là, xièxie.",
       "note": {
         "fr": "កុំ (kom) sert à demander de ne pas faire quelque chose, comme « ne … pas » à l'impératif. ពេក (pék) = « trop ».",
         "en": "កុំ (kom) asks someone not to do something, like “don't”. ពេក (pék) = “too”. French « trop » means “too”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Je prends la même chose.", "en": "I'll have the same.", "km": "ខ្ញុំយកដូចគ្នា។", "tr": "khgnom yok dôtch knéa.",
+      "es": "Yo tomo lo mismo.", "it": "Prendo la stessa cosa.", "ru": "Мне то же самое.", "zh": "我也要一样的。", "zh_tr": "Wǒ yě yào yíyàng de.",
       "note": {
         "fr": "យក (yok) = « prendre » ; ដូចគ្នា (dôtch knéa) = « pareil, la même chose ».",
         "en": "យក (yok) = “to take”; ដូចគ្នា (dôtch knéa) = “the same”. French « la même chose » means “the same thing”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Qu'est-ce qui est bon ici ?", "en": "What is good here?", "km": "នៅទីនេះមានអ្វីឆ្ងាញ់?", "tr": "neuv ti-nih méan ey tchhngagn ?",
+      "es": "¿Qué está bueno aquí?", "it": "Che cosa c'è di buono qui?", "ru": "Что здесь вкусное?", "zh": "这儿什么菜好吃？", "zh_tr": "Zhèr shénme cài hǎochī?",
       "note": {
         "fr": "Mot à mot « ici, il y a quoi de délicieux ? ». Le mot interrogatif អ្វី reste à sa place dans la phrase, sans inversion.",
         "en": "Word for word “here, there is what delicious?”. The question word អ្វី stays in place, with no inversion.",
@@ -103,17 +119,20 @@
     {
       "situation": {"fr": "En arrivant au restaurant", "en": "Arriving at the restaurant", "km": "ពេលមកដល់ភោជនីយដ្ឋាន"},
       "fr": "Bonjour, vous avez une table pour deux personnes ?", "en": "Hello, do you have a table for two people?",
-      "km": "សួស្តី មានតុសម្រាប់ពីរនាក់ទេ?", "tr": "souos-dey, méan tok sâm-rap pi néak té ?"
+      "km": "សួស្តី មានតុសម្រាប់ពីរនាក់ទេ?", "tr": "souos-dey, méan tok sâm-rap pi néak té ?",
+      "es": "Hola, ¿tienen una mesa para dos personas?", "it": "Buonasera, avete un tavolo per due persone?", "ru": "Здравствуйте, у вас есть столик на двоих?", "zh": "你好，有两个人的桌子吗？", "zh_tr": "Nǐ hǎo, yǒu liǎng ge rén de zhuōzi ma?"
     },
     {
       "situation": {"fr": "Commander", "en": "Ordering", "km": "ពេលកុម្ម៉ង់ម្ហូប"},
       "fr": "Une assiette de riz sauté, s'il vous plaît, pas trop épicé.", "en": "One plate of fried rice, please, not too spicy.",
-      "km": "សុំបាយឆាមួយចាន កុំហឹរពេក។", "tr": "som bay tchha mouy tchan, kom heul pék."
+      "km": "សុំបាយឆាមួយចាន កុំហឹរពេក។", "tr": "som bay tchha mouy tchan, kom heul pék.",
+      "es": "Un plato de arroz frito, por favor, no muy picante.", "it": "Un piatto di riso saltato, per favore, non troppo piccante.", "ru": "Одну порцию жареного риса, пожалуйста, не очень острого.", "zh": "请来一份炒饭，别太辣。", "zh_tr": "Qǐng lái yí fèn chǎofàn, bié tài là."
     },
     {
       "situation": {"fr": "À la fin du repas", "en": "At the end of the meal", "km": "ពេលញ៉ាំរួច"},
       "fr": "C'était délicieux ! L'addition, s'il vous plaît.", "en": "It was delicious! The bill, please.",
-      "km": "ឆ្ងាញ់ណាស់! សុំគិតលុយ។", "tr": "tchhngagn nah ! som kit louy."
+      "km": "ឆ្ងាញ់ណាស់! សុំគិតលុយ។", "tr": "tchhngagn nah ! som kit louy.",
+      "es": "¡Estaba delicioso! La cuenta, por favor.", "it": "Era delizioso! Il conto, per favore.", "ru": "Было очень вкусно! Счёт, пожалуйста.", "zh": "太好吃了！买单。", "zh_tr": "Tài hǎochī le! Mǎidān."
     }
   ],
   "dialogue": {
@@ -123,12 +142,18 @@
       "km": "នៅភោជនីយដ្ឋាន {A} និង {B} មើលម៉ឺនុយ។"
     },
     "lines": [
-      {"speaker": "B", "fr": "{A}, qu'est-ce que tu veux commander ?", "en": "{A}, what do you want to order?", "km": "{A} ចង់កុម្ម៉ង់អ្វី?", "tr": "{A} tchâng kom-mâng ey ?"},
-      {"speaker": "A", "fr": "Je veux manger du riz sauté. Et toi ?", "en": "I want to eat fried rice. And you?", "km": "ខ្ញុំចង់ញ៉ាំបាយឆា។ ចុះ {B} វិញ?", "tr": "khgnom tchâng gnam bay tchha. tchoh {B} vign ?"},
-      {"speaker": "B", "fr": "Je prends la même chose. C'est épicé ?", "en": "I'll have the same. Is it spicy?", "km": "ខ្ញុំយកដូចគ្នា។ ហឹរទេ?", "tr": "khgnom yok dôtch knéa. heul té ?"},
-      {"speaker": "A", "fr": "Non, ce n'est pas épicé.", "en": "No, it is not spicy.", "km": "ទេ មិនហឹរទេ។", "tr": "té, min heul té."},
-      {"speaker": "B", "fr": "Très bien ! Alors deux assiettes de riz sauté et deux noix de coco.", "en": "Great! So two plates of fried rice and two coconuts.", "km": "ល្អណាស់! អ៊ីចឹង បាយឆាពីរចាន និងដូងពីរផ្លែ។", "tr": "l'â nah ! ey-tcheung, bay tchha pi tchan ning dông pi phlaè."},
-      {"speaker": "A", "fr": "D'accord. Ce restaurant est bon et pas cher.", "en": "Okay. This restaurant is good and not expensive.", "km": "បាន។ ហាងបាយនេះឆ្ងាញ់ ហើយមិនថ្លៃទេ។", "tr": "ban. hang bay nih tchhngagn haeuy min thlay té."}
+      {"speaker": "B", "fr": "{A}, qu'est-ce que tu veux commander ?", "en": "{A}, what do you want to order?", "km": "{A} ចង់កុម្ម៉ង់អ្វី?", "tr": "{A} tchâng kom-mâng ey ?",
+        "es": "{A}, ¿qué quieres pedir?", "it": "{A}, che cosa vuoi ordinare?", "ru": "{A}, что ты хочешь заказать?", "zh": "{A}，你想点什么？", "zh_tr": "{A}, nǐ xiǎng diǎn shénme?"},
+      {"speaker": "A", "fr": "Je veux manger du riz sauté. Et toi ?", "en": "I want to eat fried rice. And you?", "km": "ខ្ញុំចង់ញ៉ាំបាយឆា។ ចុះ {B} វិញ?", "tr": "khgnom tchâng gnam bay tchha. tchoh {B} vign ?",
+        "es": "Quiero comer arroz frito. ¿Y tú?", "it": "Voglio mangiare riso saltato. E tu?", "ru": "Я хочу жареный рис. А ты?", "zh": "我想吃炒饭。你呢？", "zh_tr": "Wǒ xiǎng chī chǎofàn. Nǐ ne?"},
+      {"speaker": "B", "fr": "Je prends la même chose. C'est épicé ?", "en": "I'll have the same. Is it spicy?", "km": "ខ្ញុំយកដូចគ្នា។ ហឹរទេ?", "tr": "khgnom yok dôtch knéa. heul té ?",
+        "es": "Yo tomo lo mismo. ¿Es picante?", "it": "Prendo la stessa cosa. È piccante?", "ru": "Мне то же самое. Это остро?", "zh": "我也要一样的。辣吗？", "zh_tr": "Wǒ yě yào yíyàng de. Là ma?"},
+      {"speaker": "A", "fr": "Non, ce n'est pas épicé.", "en": "No, it is not spicy.", "km": "ទេ មិនហឹរទេ។", "tr": "té, min heul té.",
+        "es": "No, no es picante.", "it": "No, non è piccante.", "ru": "Нет, не остро.", "zh": "不辣。", "zh_tr": "Bú là."},
+      {"speaker": "B", "fr": "Très bien ! Alors deux assiettes de riz sauté et deux noix de coco.", "en": "Great! So two plates of fried rice and two coconuts.", "km": "ល្អណាស់! អ៊ីចឹង បាយឆាពីរចាន និងដូងពីរផ្លែ។", "tr": "l'â nah ! ey-tcheung, bay tchha pi tchan ning dông pi phlaè.",
+        "es": "¡Muy bien! Entonces, dos platos de arroz frito y dos cocos.", "it": "Benissimo! Allora due piatti di riso saltato e due noci di cocco.", "ru": "Отлично! Тогда две порции жареного риса и два кокоса.", "zh": "太好了！那就两份炒饭和两个椰子。", "zh_tr": "Tài hǎo le! Nà jiù liǎng fèn chǎofàn hé liǎng ge yēzi."},
+      {"speaker": "A", "fr": "D'accord. Ce restaurant est bon et pas cher.", "en": "Okay. This restaurant is good and not expensive.", "km": "បាន។ ហាងបាយនេះឆ្ងាញ់ ហើយមិនថ្លៃទេ។", "tr": "ban. hang bay nih tchhngagn haeuy min thlay té.",
+        "es": "Vale. Este restaurante es bueno y no es caro.", "it": "D'accordo. Questo ristorante è buono e non è caro.", "ru": "Хорошо. Этот ресторан хороший и недорогой.", "zh": "好的。这家饭馆又好吃又不贵。", "zh_tr": "Hǎo de. Zhè jiā fànguǎn yòu hǎochī yòu bú guì."}
     ]
   },
   "comprehension": {

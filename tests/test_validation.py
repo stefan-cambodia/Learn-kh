@@ -132,10 +132,11 @@ class ThreeLessonsTest(unittest.TestCase):
             self.assertGreater(len(sources), 30)
             self.assertNotIn("audio-missing", html)
             self.assertEqual(html.count("<audio controls preload=\"none\""), len(sources))
-            for lang, locale in (("fr", "fr-FR"), ("en", "en-US"), ("km", "km-KH")):
+            for lang, locale in (("fr", "fr-FR"), ("en", "en-US"), ("km", "km-KH"), ("es", "es-ES"),
+                                 ("it", "it-IT"), ("ru", "ru-RU"), ("zh", "zh-CN")):
                 self.assertTrue(any(s.startswith(f"audio/{locale}/") for s in sources), f"audio {lang} absent")
             for source in sources:
-                self.assertRegex(source, r"^audio/(fr-FR|en-US|km-KH)/[a-z0-9-]+_[0-9a-f]{12}\.wav$")
+                self.assertRegex(source, r"^audio/(fr-FR|en-US|km-KH|es-ES|it-IT|ru-RU|zh-CN)/[a-z0-9-]+_[0-9a-f]{12}\.wav$")
                 seen.add(source)
         for source in seen:
             with wave.open(str(self.project.dir / source), "rb") as wav:

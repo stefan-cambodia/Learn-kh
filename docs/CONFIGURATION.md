@@ -114,12 +114,20 @@ proposé. Suivi : `python3 manage.py progress show`.
          "fallback": {"provider": "azure", "voice": "fr-FR-DeniseNeural"}},
   "en": {"locale": "en-US", "provider": "google", "voice": "en-US-Neural2-F",
          "fallback": {"provider": "azure", "voice": "en-US-JennyNeural"}},
-  "km": {"locale": "km-KH", "provider": "azure", "voice": "km-KH-SreymomNeural"}
+  "km": {"locale": "km-KH", "provider": "azure", "voice": "km-KH-SreymomNeural"},
+  "es": {"locale": "es-ES", "provider": "google", "voice": "es-ES-Neural2-A"},
+  "it": {"locale": "it-IT", "provider": "google", "voice": "it-IT-Neural2-A"},
+  "ru": {"locale": "ru-RU", "provider": "google", "voice": "ru-RU-Wavenet-A"},
+  "zh": {"locale": "zh-CN", "provider": "google", "voice": "cmn-CN-Wavenet-A"}
 }
 ```
 
-- `locale` : `fr-FR`, `en-US` ou `en-GB`, `km-KH`. Elle détermine aussi le
-  dossier de rangement (`audio/en-GB/…`).
+- `fr`, `en`, `km` sont les langues des profils (obligatoires). `es` (espagnol),
+  `it` (italien), `ru` (russe) et `zh` (chinois mandarin) sont des langues
+  supplémentaires : retirer l'une d'elles de `languages` la fait disparaître des
+  pages et arrête la génération de ses audios.
+- `locale` : `fr-FR`, `en-US` ou `en-GB`, `km-KH`, `es-ES`, `it-IT`, `ru-RU`,
+  `zh-CN`. Elle détermine aussi le dossier de rangement (`audio/en-GB/…`).
 - `provider` : `google`, `azure` ou `command`.
 - `voice` : nom exact de la voix (`python3 manage.py tts voices --lang fr`).
 - `fallback` : fournisseur de secours, utilisé seulement si le fournisseur
@@ -131,14 +139,30 @@ proposé. Suivi : `python3 manage.py progress show`.
 
 | Clé | Défaut | Rôle |
 | --- | --- | --- |
+| `format` | `"wav"` | `"mp3"` (environ huit fois plus léger, recommandé pour un site publié ; nécessite ffmpeg) ou `"wav"` |
+| `mp3_bitrate_kbps` | `48` | débit des fichiers MP3 (mono) |
 | `sample_rate_hz` | `24000` | fréquence d'échantillonnage : `24000` ou `22050` |
 | `speaking_rate` | `0.9` | vitesse de lecture (1.0 = normale ; 0.5 à 1.5) |
 | `pitch` | `0.0` | hauteur de la voix, en demi-tons |
 | `include_examples` | `true` | générer aussi l'audio des phrases d'exemple du vocabulaire |
 
-Les fichiers sont toujours des WAV PCM mono 16 bits. Modifier l'un de ces
-réglages change l'empreinte des audios : de nouveaux fichiers sont générés, les
-anciens restent jusqu'à `python3 manage.py audio prune`.
+Les fichiers sont des MP3 mono ou des WAV PCM mono 16 bits. Pour changer de
+format sans rien demander au fournisseur vocal, modifiez `format` puis lancez
+`python3 manage.py audio convert` : chaque fichier est converti, vérifié, puis
+l'ancien est supprimé. Modifier un autre réglage change l'empreinte des audios :
+de nouveaux fichiers sont générés, les anciens restent jusqu'à
+`python3 manage.py audio prune`.
+
+## Langues affichées (`display`)
+
+```json
+"display": {"languages": ["fr", "en", "km", "es", "it", "ru", "zh"]}
+```
+
+Langues visibles à la première visite. Chacun peut ensuite cocher ou décocher
+des langues dans le sélecteur « Langues » en haut de page ; ce choix est gardé
+par le navigateur. Une langue masquée disparaît des leçons, du lexique, des
+cartes de révision et de la page Alphabets.
 
 ## Synthèse vocale (`tts`)
 
@@ -196,7 +220,8 @@ quand vous changez de moteur ou de modèle.
 
 - `templates/` : gabarits HTML (variables `$nom`). `python3 manage.py render --all`
   applique une modification à toutes les pages.
-- `css/style.css` : une couleur par langue (variables `--fr`, `--en`, `--km` en
-  tête de fichier), thème clair et thème sombre automatiques.
+- `css/style.css` : une couleur par langue (variables `--fr`, `--en`, `--km`,
+  `--es`, `--it`, `--ru`, `--zh` en tête de fichier), thème clair et thème sombre
+  automatiques.
 - `fonts/` : police Noto Sans Khmer embarquée, pour un affichage correct du
   khmer sans connexion.

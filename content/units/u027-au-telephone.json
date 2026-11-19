@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le téléphone", "en": "phone", "km": "ទូរស័ព្ទ", "tr": "tou-ro-sap", "pos": "nom",
+      "fr": "le téléphone", "en": "phone", "km": "ទូរស័ព្ទ", "tr": "tou-ro-sap",
+      "es": "el teléfono", "it": "il telefono", "ru": "телефон", "zh": "电话", "zh_tr": "diànhuà", "pos": "nom",
       "note": {
         "fr": "Mot savant : ទូរ (tou-ro), « loin », et ស័ព្ទ (sap), « son ». Le téléphone portable : ទូរស័ព្ទដៃ (tou-ro-sap day), mot à mot « téléphone de main ».",
         "en": "A learned word: ទូរ (tou-ro), “far”, and ស័ព្ទ (sap), “sound”. A mobile phone: ទូរស័ព្ទដៃ (tou-ro-sap day), word for word “hand phone”. French « téléphone » is masculine; a mobile is « un portable ».",
         "km": "« téléphone » ជានាមភេទប្រុស៖ le téléphone។ ទូរស័ព្ទដៃហៅថា « le portable »។ អង់គ្លេស៖ « phone », « mobile phone »។"
       },
-      "example": {"fr": "Mon téléphone est dans la chambre.", "en": "My phone is in the bedroom.", "km": "ទូរស័ព្ទរបស់ខ្ញុំនៅក្នុងបន្ទប់គេង។", "tr": "tou-ro-sap ro-bâh khgnom neuv knong bân-toup kéng."}
+      "example": {"fr": "Mon téléphone est dans la chambre.", "en": "My phone is in the bedroom.", "km": "ទូរស័ព្ទរបស់ខ្ញុំនៅក្នុងបន្ទប់គេង។", "tr": "tou-ro-sap ro-bâh khgnom neuv knong bân-toup kéng.",
+      "es": "Mi teléfono está en el dormitorio.", "it": "Il mio telefono è in camera da letto.", "ru": "Мой телефон в спальне.", "zh": "我的手机在卧室里。", "zh_tr": "Wǒ de shǒujī zài wòshì li."}
     },
     {
-      "fr": "appeler", "en": "to call", "km": "ហៅទូរស័ព្ទ", "tr": "hav tou-ro-sap", "pos": "verbe",
+      "fr": "appeler", "en": "to call", "km": "ហៅទូរស័ព្ទ", "tr": "hav tou-ro-sap",
+      "es": "llamar", "it": "chiamare", "ru": "звонить", "zh": "打电话", "zh_tr": "dǎ diànhuà", "pos": "verbe",
       "note": {
         "fr": "ហៅ (hav) seul signifie « appeler quelqu'un », de vive voix ou par son nom. Au téléphone, on entend surtout តេទៅ (té teuv), plus familier.",
         "en": "ហៅ (hav) alone means “to call someone”, aloud or by name. On the phone, you mostly hear តេទៅ (té teuv), more casual. French « appeler »: je t'appelle.",
         "km": "« appeler »៖ j'appelle, nous appelons។ « Je t'appelle » = ខ្ញុំហៅទូរស័ព្ទទៅអ្នក។ អង់គ្លេស៖ « to call »។"
       },
-      "example": {"fr": "Je t'appelle ce soir.", "en": "I will call you tonight.", "km": "ល្ងាចនេះ ខ្ញុំនឹងហៅទូរស័ព្ទទៅអ្នក។", "tr": "lngéatch nih, khgnom neung hav tou-ro-sap teuv néak."}
+      "example": {"fr": "Je t'appelle ce soir.", "en": "I will call you tonight.", "km": "ល្ងាចនេះ ខ្ញុំនឹងហៅទូរស័ព្ទទៅអ្នក។", "tr": "lngéatch nih, khgnom neung hav tou-ro-sap teuv néak.",
+      "es": "Te llamo esta noche.", "it": "Ti chiamo stasera.", "ru": "Я позвоню тебе сегодня вечером.", "zh": "我今天晚上给你打电话。", "zh_tr": "Wǒ jīntiān wǎnshang gěi nǐ dǎ diànhuà."}
     },
     {
-      "fr": "le message", "en": "message", "km": "សារ", "tr": "sa", "pos": "nom",
+      "fr": "le message", "en": "message", "km": "សារ", "tr": "sa",
+      "es": "el mensaje", "it": "il messaggio", "ru": "сообщение", "zh": "短信", "zh_tr": "duǎnxìn", "pos": "nom",
       "note": {
         "fr": "Envoyer un message : ផ្ញើសារ (phgnaeu sa). Le même mot sert pour un SMS ou un message dans une application.",
         "en": "To send a message: ផ្ញើសារ (phgnaeu sa). The same word is used for a text or an app message. French « message » is masculine.",
         "km": "« message » ជានាមភេទប្រុស៖ un message។ « envoyer un message » = ផ្ញើសារ។ អង់គ្លេសសរសេរដូចគ្នា៖ « message »។"
       },
-      "example": {"fr": "J'ai envoyé un message à ma mère.", "en": "I sent a message to my mother.", "km": "ខ្ញុំបានផ្ញើសារទៅម្តាយរបស់ខ្ញុំ។", "tr": "khgnom ban phgnaeu sa teuv mday ro-bâh khgnom."}
+      "example": {"fr": "J'ai envoyé un message à ma mère.", "en": "I sent a message to my mother.", "km": "ខ្ញុំបានផ្ញើសារទៅម្តាយរបស់ខ្ញុំ។", "tr": "khgnom ban phgnaeu sa teuv mday ro-bâh khgnom.",
+      "es": "Le he mandado un mensaje a mi madre.", "it": "Ho mandato un messaggio a mia madre.", "ru": "Я отправил сообщение маме.", "zh": "我给妈妈发了一条短信。", "zh_tr": "Wǒ gěi māma fā le yì tiáo duǎnxìn."}
     },
     {
-      "fr": "le numéro", "en": "number", "km": "លេខ", "tr": "lék", "pos": "nom",
+      "fr": "le numéro", "en": "number", "km": "លេខ", "tr": "lék",
+      "es": "el número", "it": "il numero", "ru": "номер", "zh": "号码", "zh_tr": "hàomǎ", "pos": "nom",
       "note": {
         "fr": "លេខ désigne un chiffre ou un numéro. Le numéro de téléphone : លេខទូរស័ព្ទ (lék tou-ro-sap).",
         "en": "លេខ means a digit or a number. Phone number: លេខទូរស័ព្ទ (lék tou-ro-sap). French « numéro » is masculine.",
         "km": "« numéro » ជានាមភេទប្រុស៖ le numéro។ « le numéro de téléphone » = លេខទូរស័ព្ទ។ អង់គ្លេស៖ « number »។"
       },
-      "example": {"fr": "J'ai un nouveau numéro.", "en": "I have a new number.", "km": "ខ្ញុំមានលេខថ្មី។", "tr": "khgnom méan lék thmey."}
+      "example": {"fr": "J'ai un nouveau numéro.", "en": "I have a new number.", "km": "ខ្ញុំមានលេខថ្មី។", "tr": "khgnom méan lék thmey.",
+      "es": "Tengo un número nuevo.", "it": "Ho un numero nuovo.", "ru": "У меня новый номер.", "zh": "我有一个新号码。", "zh_tr": "Wǒ yǒu yí ge xīn hàomǎ."}
     },
     {
-      "fr": "répondre", "en": "to answer", "km": "ឆ្លើយ", "tr": "tchhlaeuy", "pos": "verbe",
+      "fr": "répondre", "en": "to answer", "km": "ឆ្លើយ", "tr": "tchhlaeuy",
+      "es": "contestar", "it": "rispondere", "ru": "отвечать", "zh": "回复", "zh_tr": "huífù", "pos": "verbe",
       "note": {
         "fr": "ឆ្លើយ, c'est répondre à une question ou à un message. Pour « décrocher le téléphone », on dit លើកទូរស័ព្ទ (leuk tou-ro-sap), mot à mot « soulever le téléphone ».",
         "en": "ឆ្លើយ is to answer a question or a message. For “to pick up the phone”, say លើកទូរស័ព្ទ (leuk tou-ro-sap), word for word “lift the phone”. French « répondre à »: je réponds au téléphone.",
         "km": "« répondre »៖ je réponds, nous répondons។ « répondre à un message » = ឆ្លើយសារ។ អង់គ្លេស៖ « to answer », « to reply »។"
       },
-      "example": {"fr": "Il n'a pas répondu à mon message.", "en": "He did not answer my message.", "km": "គាត់មិនបានឆ្លើយសាររបស់ខ្ញុំទេ។", "tr": "koat min ban tchhlaeuy sa ro-bâh khgnom té."}
+      "example": {"fr": "Il n'a pas répondu à mon message.", "en": "He did not answer my message.", "km": "គាត់មិនបានឆ្លើយសាររបស់ខ្ញុំទេ។", "tr": "koat min ban tchhlaeuy sa ro-bâh khgnom té.",
+      "es": "No ha contestado a mi mensaje.", "it": "Non ha risposto al mio messaggio.", "ru": "Он не ответил на моё сообщение.", "zh": "他没有回复我的短信。", "zh_tr": "Tā méiyǒu huífù wǒ de duǎnxìn."}
     },
     {
-      "fr": "occupé", "en": "busy", "km": "ជាប់រវល់", "tr": "tchoap ro-vol", "pos": "adjectif",
+      "fr": "occupé", "en": "busy", "km": "ជាប់រវល់", "tr": "tchoap ro-vol",
+      "es": "ocupado", "it": "occupato", "ru": "занятый", "zh": "忙", "zh_tr": "máng", "pos": "adjectif",
       "note": {
         "fr": "រវល់ (ro-vol) seul suffit à l'oral : ខ្ញុំរវល់, « je suis pris ». ជាប់ ajoute l'idée d'être « retenu ».",
         "en": "រវល់ (ro-vol) alone is enough in speech: ខ្ញុំរវល់, “I'm busy”. ជាប់ adds the idea of being “held up”. French « occupé » becomes « occupée » for a woman.",
         "km": "« occupé » ភេទស្រីសរសេរថា « occupée » ប៉ុន្តែអានដូចគ្នា។ « Je suis occupé » = ខ្ញុំជាប់រវល់។ អង់គ្លេស៖ « busy »។"
       },
-      "example": {"fr": "Le médecin est occupé maintenant.", "en": "The doctor is busy now.", "km": "ឥឡូវនេះគ្រូពេទ្យជាប់រវល់។", "tr": "ey-leuv nih krou-pét tchoap ro-vol."}
+      "example": {"fr": "Le médecin est occupé maintenant.", "en": "The doctor is busy now.", "km": "ឥឡូវនេះគ្រូពេទ្យជាប់រវល់។", "tr": "ey-leuv nih krou-pét tchoap ro-vol.",
+      "es": "El médico está ocupado ahora.", "it": "Il medico adesso è occupato.", "ru": "Врач сейчас занят.", "zh": "医生现在很忙。", "zh_tr": "Yīshēng xiànzài hěn máng."}
     }
   ],
   "expressions": [
     {
       "fr": "Allô ?", "en": "Hello?", "km": "អាឡូ?", "tr": "a-lô ?",
+      "es": "¿Diga?", "it": "Pronto?", "ru": "Алло?", "zh": "喂？", "zh_tr": "Wéi?",
       "note": {
         "fr": "Le mot vient du français et ne sert qu'au téléphone, comme chez nous.",
         "en": "The word comes from French and is only used on the phone, as in France.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Qui est à l'appareil ?", "en": "Who is speaking?", "km": "នរណានិយាយហ្នឹង?", "tr": "no-na ni-yéay neung ?",
+      "es": "¿Quién es?", "it": "Chi parla?", "ru": "Кто говорит?", "zh": "请问是哪位？", "zh_tr": "Qǐngwèn shì nǎ wèi?",
       "uncertain": true,
       "uncertain_note": "Tournure orale courante ; faire confirmer par un locuteur natif la formule la plus polie pour un inconnu.",
       "note": {
@@ -86,6 +100,7 @@
     },
     {
       "fr": "Je te rappelle plus tard.", "en": "I will call you back later.", "km": "ចាំខ្ញុំហៅទៅវិញពេលក្រោយ។", "tr": "tcham khgnom hav teuv vign pél kraoy.",
+      "es": "Te llamo más tarde.", "it": "Ti richiamo più tardi.", "ru": "Я перезвоню тебе позже.", "zh": "我待会儿给你回电话。", "zh_tr": "Wǒ dāihuìr gěi nǐ huí diànhuà.",
       "note": {
         "fr": "វិញ (vign) exprime le retour : ហៅទៅវិញ, « rappeler ». ពេលក្រោយ : plus tard.",
         "en": "វិញ (vign) expresses a return: ហៅទៅវិញ, “call back”. ពេលក្រោយ: later. French « rappeler » means “to call back”.",
@@ -94,6 +109,7 @@
     },
     {
       "fr": "Je n'entends pas bien.", "en": "I can't hear well.", "km": "ខ្ញុំស្តាប់មិនសូវឮទេ។", "tr": "khgnom sdap min seuv leu té.",
+      "es": "No te oigo bien.", "it": "Non ti sento bene.", "ru": "Я плохо слышу.", "zh": "我听不清楚。", "zh_tr": "Wǒ tīng bu qīngchu.",
       "note": {
         "fr": "ស្តាប់ (sdap), écouter ; ឮ (leu), entendre. មិនសូវ… ទេ signifie « pas très, pas bien ».",
         "en": "ស្តាប់ (sdap), to listen; ឮ (leu), to hear. មិនសូវ… ទេ means “not very, not well”. French « entendre » means “to hear”, « écouter » “to listen”.",
@@ -105,29 +121,39 @@
     {
       "situation": {"fr": "Au téléphone avec un ami", "en": "On the phone with a friend", "km": "និយាយទូរស័ព្ទជាមួយមិត្តភក្តិ"},
       "fr": "Allô, c'est moi. Tu as le temps de parler ?", "en": "Hello, it's me. Do you have time to talk?",
-      "km": "អាឡូ ខ្ញុំទេតើ។ មានពេលនិយាយទេ?", "tr": "a-lô, khgnom té taeu. méan pél ni-yéay té ?"
+      "km": "អាឡូ ខ្ញុំទេតើ។ មានពេលនិយាយទេ?", "tr": "a-lô, khgnom té taeu. méan pél ni-yéay té ?",
+      "es": "Hola, soy yo. ¿Tienes tiempo para hablar?", "it": "Pronto, sono io. Hai tempo per parlare?", "ru": "Алло, это я. У тебя есть время поговорить?", "zh": "喂，是我。你有时间说话吗？", "zh_tr": "Wéi, shì wǒ. Nǐ yǒu shíjiān shuōhuà ma?"
     },
     {
       "situation": {"fr": "Échanger ses numéros", "en": "Swapping numbers", "km": "សុំលេខទូរស័ព្ទគ្នា"},
       "fr": "Donne-moi ton numéro, je t'envoie un message.", "en": "Give me your number, I will send you a message.",
-      "km": "សុំលេខទូរស័ព្ទមក ខ្ញុំនឹងផ្ញើសារទៅ។", "tr": "som lék tou-ro-sap mok, khgnom neung phgnaeu sa teuv."
+      "km": "សុំលេខទូរស័ព្ទមក ខ្ញុំនឹងផ្ញើសារទៅ។", "tr": "som lék tou-ro-sap mok, khgnom neung phgnaeu sa teuv.",
+      "es": "Dame tu número y te mando un mensaje.", "it": "Dammi il tuo numero, ti mando un messaggio.", "ru": "Дай мне свой номер, я пришлю тебе сообщение.", "zh": "把你的号码给我，我给你发短信。", "zh_tr": "Bǎ nǐ de hàomǎ gěi wǒ, wǒ gěi nǐ fā duǎnxìn."
     },
     {
       "situation": {"fr": "Un appel sans réponse", "en": "An unanswered call", "km": "ពេលគេមិនលើកទូរស័ព្ទ"},
       "fr": "Je t'ai appelé trois fois, mais tu n'as pas répondu.", "en": "I called you three times, but you did not answer.",
-      "km": "ខ្ញុំបានហៅទូរស័ព្ទទៅបីដង ប៉ុន្តែអ្នកមិនបានលើកទេ។", "tr": "khgnom ban hav tou-ro-sap teuv bey dâng, pon-taè néak min ban leuk té."
+      "km": "ខ្ញុំបានហៅទូរស័ព្ទទៅបីដង ប៉ុន្តែអ្នកមិនបានលើកទេ។", "tr": "khgnom ban hav tou-ro-sap teuv bey dâng, pon-taè néak min ban leuk té.",
+      "es": "Te he llamado tres veces, pero no has contestado.", "it": "Ti ho chiamato tre volte, ma non hai risposto.", "ru": "Я звонил тебе три раза, но ты не ответил.", "zh": "我给你打了三次电话，可是你没接。", "zh_tr": "Wǒ gěi nǐ dǎ le sān cì diànhuà, kěshì nǐ méi jiē."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{B} téléphone à {A}, qui est au marché.", "en": "{B} phones {A}, who is at the market.", "km": "{B} ហៅទូរស័ព្ទទៅ {A} ដែលកំពុងនៅផ្សារ។"},
     "lines": [
-      {"speaker": "A", "fr": "Allô ?", "en": "Hello?", "km": "អាឡូ?", "tr": "a-lô ?"},
-      {"speaker": "B", "fr": "Allô {A}, c'est {B}. Tu m'entends ?", "en": "Hello {A}, it's {B}. Can you hear me?", "km": "អាឡូ {A} ខ្ញុំ {B} ទេតើ។ ឮទេ?", "tr": "a-lô {A}, khgnom {B} té taeu. leu té ?"},
-      {"speaker": "A", "fr": "Pas très bien, je suis au marché. Il y a du bruit ici.", "en": "Not very well, I am at the market. It is noisy here.", "km": "មិនសូវឮទេ ខ្ញុំនៅផ្សារ។ ទីនេះអ៊ូអរណាស់។", "tr": "min seuv leu té, khgnom neuv phsa. ti-nih ou-â nah."},
-      {"speaker": "B", "fr": "D'accord. Alors je t'envoie un message.", "en": "Okay. Then I will send you a message.", "km": "បាន អញ្ចឹងខ្ញុំផ្ញើសារទៅ។", "tr": "ban, agn-tcheung khgnom phgnaeu sa teuv."},
-      {"speaker": "A", "fr": "Oui, envoie-le. Je répondrai tout de suite.", "en": "Yes, send it. I will answer right away.", "km": "{A_yes} ផ្ញើមក។ ខ្ញុំនឹងឆ្លើយភ្លាម។", "tr": "{A_yes}, phgnaeu mok. khgnom neung tchhlaeuy phléam."},
-      {"speaker": "B", "fr": "Et rappelle-moi quand tu as fini les courses.", "en": "And call me back when you have finished shopping.", "km": "ហើយទិញឥវ៉ាន់ចប់ ហៅមកខ្ញុំវិញផង។", "tr": "haeuy tign ey-van tchâp, hav mok khgnom vign phâng."},
-      {"speaker": "A", "fr": "D'accord. À tout à l'heure !", "en": "Okay. See you later!", "km": "បាន។ ជួបគ្នាពេលក្រោយ!", "tr": "ban. tchouop knéa pél kraoy !"}
+      {"speaker": "A", "fr": "Allô ?", "en": "Hello?", "km": "អាឡូ?", "tr": "a-lô ?",
+        "es": "¿Diga?", "it": "Pronto?", "ru": "Алло?", "zh": "喂？", "zh_tr": "Wéi?"},
+      {"speaker": "B", "fr": "Allô {A}, c'est {B}. Tu m'entends ?", "en": "Hello {A}, it's {B}. Can you hear me?", "km": "អាឡូ {A} ខ្ញុំ {B} ទេតើ។ ឮទេ?", "tr": "a-lô {A}, khgnom {B} té taeu. leu té ?",
+        "es": "Hola, {A}, soy {B}. ¿Me oyes?", "it": "Pronto, {A}, sono {B}. Mi senti?", "ru": "Алло, {A}, это {B}. Ты меня слышишь?", "zh": "喂，{A}，我是{B}。你听得见吗？", "zh_tr": "Wéi, {A}, wǒ shì {B}. Nǐ tīng de jiàn ma?"},
+      {"speaker": "A", "fr": "Pas très bien, je suis au marché. Il y a du bruit ici.", "en": "Not very well, I am at the market. It is noisy here.", "km": "មិនសូវឮទេ ខ្ញុំនៅផ្សារ។ ទីនេះអ៊ូអរណាស់។", "tr": "min seuv leu té, khgnom neuv phsa. ti-nih ou-â nah.",
+        "es": "No muy bien, estoy en el mercado. Aquí hay mucho ruido.", "it": "Non molto bene, sono al mercato. C'è rumore qui.", "ru": "Не очень, я на рынке. Здесь шумно.", "zh": "听不太清楚，我在市场。这儿很吵。", "zh_tr": "Tīng bu tài qīngchu, wǒ zài shìchǎng. Zhèr hěn chǎo."},
+      {"speaker": "B", "fr": "D'accord. Alors je t'envoie un message.", "en": "Okay. Then I will send you a message.", "km": "បាន អញ្ចឹងខ្ញុំផ្ញើសារទៅ។", "tr": "ban, agn-tcheung khgnom phgnaeu sa teuv.",
+        "es": "Vale. Entonces te mando un mensaje.", "it": "D'accordo. Allora ti mando un messaggio.", "ru": "Хорошо. Тогда я пришлю тебе сообщение.", "zh": "好的。那我给你发短信。", "zh_tr": "Hǎo de. Nà wǒ gěi nǐ fā duǎnxìn."},
+      {"speaker": "A", "fr": "Oui, envoie-le. Je répondrai tout de suite.", "en": "Yes, send it. I will answer right away.", "km": "{A_yes} ផ្ញើមក។ ខ្ញុំនឹងឆ្លើយភ្លាម។", "tr": "{A_yes}, phgnaeu mok. khgnom neung tchhlaeuy phléam.",
+        "es": "Sí, mándamelo. Te contesto enseguida.", "it": "Sì, mandalo. Ti rispondo subito.", "ru": "Да, присылай. Я сразу отвечу.", "zh": "好，发吧。我马上回复。", "zh_tr": "Hǎo, fā ba. Wǒ mǎshàng huífù."},
+      {"speaker": "B", "fr": "Et rappelle-moi quand tu as fini les courses.", "en": "And call me back when you have finished shopping.", "km": "ហើយទិញឥវ៉ាន់ចប់ ហៅមកខ្ញុំវិញផង។", "tr": "haeuy tign ey-van tchâp, hav mok khgnom vign phâng.",
+        "es": "Y llámame cuando termines la compra.", "it": "E richiamami quando hai finito la spesa.", "ru": "И перезвони мне, когда закончишь с покупками.", "zh": "买完东西给我回个电话。", "zh_tr": "Mǎi wán dōngxi gěi wǒ huí ge diànhuà."},
+      {"speaker": "A", "fr": "D'accord. À tout à l'heure !", "en": "Okay. See you later!", "km": "បាន។ ជួបគ្នាពេលក្រោយ!", "tr": "ban. tchouop knéa pél kraoy !",
+        "es": "Vale. ¡Hasta luego!", "it": "D'accordo. A dopo!", "ru": "Хорошо. До скорого!", "zh": "好的。待会儿见！", "zh_tr": "Hǎo de. Dāihuìr jiàn!"}
     ]
   },
   "comprehension": {

@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "la semaine prochaine", "en": "next week", "km": "សប្តាហ៍ក្រោយ", "tr": "sap-da kraoy", "pos": "nom",
+      "fr": "la semaine prochaine", "en": "next week", "km": "សប្តាហ៍ក្រោយ", "tr": "sap-da kraoy",
+      "es": "la semana que viene", "it": "la settimana prossima", "ru": "на следующей неделе", "zh": "下个星期", "zh_tr": "xià ge xīngqī", "pos": "nom",
       "note": {
         "fr": "ក្រោយ (kraoy), « après, derrière », donne « prochain » : ខែក្រោយ, le mois prochain ; ឆ្នាំក្រោយ, l'année prochaine. Son contraire est មុន (moun).",
         "en": "ក្រោយ (kraoy), “after, behind”, gives “next”: ខែក្រោយ, next month; ឆ្នាំក្រោយ, next year. Its opposite is មុន (moun). French « prochaine » goes after « semaine »: la semaine prochaine.",
         "km": "« prochaine » មានន័យថា ក្រោយ ឬខាងមុខ។ « le mois prochain » = ខែក្រោយ។ អង់គ្លេស៖ « next week », « next month »។"
       },
-      "example": {"fr": "La semaine prochaine, je vais à Phnom Penh.", "en": "Next week, I am going to Phnom Penh.", "km": "សប្តាហ៍ក្រោយ ខ្ញុំនឹងទៅភ្នំពេញ។", "tr": "sap-da kraoy, khgnom neung teuv phnom-pégn."}
+      "example": {"fr": "La semaine prochaine, je vais à Phnom Penh.", "en": "Next week, I am going to Phnom Penh.", "km": "សប្តាហ៍ក្រោយ ខ្ញុំនឹងទៅភ្នំពេញ។", "tr": "sap-da kraoy, khgnom neung teuv phnom-pégn.",
+      "es": "La semana que viene voy a Phnom Penh.", "it": "La settimana prossima vado a Phnom Penh.", "ru": "На следующей неделе я еду в Пномпень.", "zh": "下个星期我去金边。", "zh_tr": "Xià ge xīngqī wǒ qù Jīnbiān."}
     },
     {
-      "fr": "le projet", "en": "plan", "km": "គម្រោង", "tr": "koum-rông", "pos": "nom",
+      "fr": "le projet", "en": "plan", "km": "គម្រោង", "tr": "koum-rông",
+      "es": "el plan", "it": "il progetto", "ru": "план", "zh": "计划", "zh_tr": "jìhuà", "pos": "nom",
       "note": {
         "fr": "គម្រោង désigne un projet, personnel ou professionnel. « Avoir un projet » : មានគម្រោង (méan koum-rông).",
         "en": "គម្រោង is a plan or project, personal or professional. “To have a plan”: មានគម្រោង (méan koum-rông). French « projet » is masculine.",
         "km": "« projet » ជានាមភេទប្រុស៖ le projet។ អក្សរ t ចុងពាក្យមិនអានទេ។ អង់គ្លេស៖ « plan » សម្រាប់គម្រោងផ្ទាល់ខ្លួន និង « project » សម្រាប់ការងារ។"
       },
-      "example": {"fr": "Nous avons un projet pour le week-end.", "en": "We have a plan for the weekend.", "km": "យើងមានគម្រោងសម្រាប់ចុងសប្តាហ៍។", "tr": "yeung méan koum-rông sâm-rap tchong sap-da."}
+      "example": {"fr": "Nous avons un projet pour le week-end.", "en": "We have a plan for the weekend.", "km": "យើងមានគម្រោងសម្រាប់ចុងសប្តាហ៍។", "tr": "yeung méan koum-rông sâm-rap tchong sap-da.",
+      "es": "Tenemos un plan para el fin de semana.", "it": "Abbiamo un progetto per il fine settimana.", "ru": "У нас есть план на выходные.", "zh": "我们有一个周末计划。", "zh_tr": "Wǒmen yǒu yí ge zhōumò jìhuà."}
     },
     {
-      "fr": "espérer", "en": "to hope", "km": "សង្ឃឹម", "tr": "sâng-kheum", "pos": "verbe",
+      "fr": "espérer", "en": "to hope", "km": "សង្ឃឹម", "tr": "sâng-kheum",
+      "es": "esperar", "it": "sperare", "ru": "надеяться", "zh": "希望", "zh_tr": "xīwàng", "pos": "verbe",
       "note": {
         "fr": "On dit សង្ឃឹមថា (sâng-kheum tha), « espérer que », suivi de la phrase.",
         "en": "Say សង្ឃឹមថា (sâng-kheum tha), “to hope that”, followed by the sentence. French « espérer que »: j'espère que tu viendras.",
         "km": "« espérer »៖ j'espère, nous espérons។ « J'espère que… » = ខ្ញុំសង្ឃឹមថា…។ អង់គ្លេស៖ « to hope »។"
       },
-      "example": {"fr": "J'espère que tu viendras.", "en": "I hope you will come.", "km": "ខ្ញុំសង្ឃឹមថាអ្នកនឹងមក។", "tr": "khgnom sâng-kheum tha néak neung mok."}
+      "example": {"fr": "J'espère que tu viendras.", "en": "I hope you will come.", "km": "ខ្ញុំសង្ឃឹមថាអ្នកនឹងមក។", "tr": "khgnom sâng-kheum tha néak neung mok.",
+      "es": "Espero que vengas.", "it": "Spero che tu venga.", "ru": "Надеюсь, ты придёшь.", "zh": "我希望你会来。", "zh_tr": "Wǒ xīwàng nǐ huì lái."}
     },
     {
-      "fr": "peut-être", "en": "maybe", "km": "ប្រហែលជា", "tr": "prâ-haèl tchéa", "pos": "adverbe",
+      "fr": "peut-être", "en": "maybe", "km": "ប្រហែលជា", "tr": "prâ-haèl tchéa",
+      "es": "quizás", "it": "forse", "ru": "может быть", "zh": "也许", "zh_tr": "yěxǔ", "pos": "adverbe",
       "note": {
         "fr": "ប្រហែលជា se place avant le verbe ou en début de phrase. ប្រហែល seul signifie aussi « environ ».",
         "en": "ប្រហែលជា goes before the verb or at the start of the sentence. ប្រហែល alone also means “about, roughly”. French « peut-être » literally means “can be”.",
         "km": "« peut-être » មានន័យថា ប្រហែលជា។ ជាធម្មតាដាក់នៅក្រោយកិរិយាសព្ទ៖ il va peut-être venir។ អង់គ្លេស៖ « maybe », « perhaps »។"
       },
-      "example": {"fr": "Demain, il va peut-être pleuvoir.", "en": "Tomorrow, it may rain.", "km": "ថ្ងៃស្អែក ប្រហែលជាមេឃភ្លៀង។", "tr": "thngay s'aèk, prâ-haèl tchéa mék phlieng."}
+      "example": {"fr": "Demain, il va peut-être pleuvoir.", "en": "Tomorrow, it may rain.", "km": "ថ្ងៃស្អែក ប្រហែលជាមេឃភ្លៀង។", "tr": "thngay s'aèk, prâ-haèl tchéa mék phlieng.",
+      "es": "Mañana quizás llueva.", "it": "Domani forse pioverà.", "ru": "Завтра, может быть, пойдёт дождь.", "zh": "明天也许会下雨。", "zh_tr": "Míngtiān yěxǔ huì xià yǔ."}
     },
     {
-      "fr": "décider", "en": "to decide", "km": "សម្រេចចិត្ត", "tr": "sâm-rétch tchet", "pos": "verbe",
+      "fr": "décider", "en": "to decide", "km": "សម្រេចចិត្ត", "tr": "sâm-rétch tchet",
+      "es": "decidir", "it": "decidere", "ru": "решать", "zh": "决定", "zh_tr": "juédìng", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « accomplir le cœur » : ចិត្ត (tchet), le cœur, entre dans beaucoup de mots de sentiment, comme សប្បាយចិត្ត, content.",
         "en": "Word for word “accomplish the heart”: ចិត្ត (tchet), the heart, appears in many feeling words, like សប្បាយចិត្ត, happy. French « décider »: j'ai décidé de partir.",
         "km": "« décider »៖ je décide, nous décidons។ « décider de partir » = សម្រេចចិត្តចេញដំណើរ។ អង់គ្លេស៖ « to decide »។"
       },
-      "example": {"fr": "Nous n'avons pas encore décidé.", "en": "We have not decided yet.", "km": "យើងមិនទាន់សម្រេចចិត្តទេ។", "tr": "yeung min toan sâm-rétch tchet té."}
+      "example": {"fr": "Nous n'avons pas encore décidé.", "en": "We have not decided yet.", "km": "យើងមិនទាន់សម្រេចចិត្តទេ។", "tr": "yeung min toan sâm-rétch tchet té.",
+      "es": "Todavía no lo hemos decidido.", "it": "Non abbiamo ancora deciso.", "ru": "Мы ещё не решили.", "zh": "我们还没决定。", "zh_tr": "Wǒmen hái méi juédìng."}
     },
     {
-      "fr": "bientôt", "en": "soon", "km": "ឆាប់ៗនេះ", "tr": "tchhap-tchhap nih", "pos": "adverbe",
+      "fr": "bientôt", "en": "soon", "km": "ឆាប់ៗនេះ", "tr": "tchhap-tchhap nih",
+      "es": "pronto", "it": "presto", "ru": "скоро", "zh": "很快", "zh_tr": "hěn kuài", "pos": "adverbe",
       "note": {
         "fr": "ឆាប់ (tchhap) veut dire « vite, tôt » ; redoublé et suivi de នេះ, il donne « très prochainement ».",
         "en": "ឆាប់ (tchhap) means “quickly, early”; doubled and followed by នេះ, it means “very soon”. French « À bientôt ! » means “see you soon!”.",
         "km": "« bientôt » មានន័យថា ឆាប់ៗនេះ។ « À bientôt ! » ប្រើពេលលាគ្នា មានន័យថា ជួបគ្នាឆាប់ៗ។ អង់គ្លេស៖ « soon », « See you soon! »។"
       },
-      "example": {"fr": "Mes parents vont bientôt venir.", "en": "My parents are coming soon.", "km": "ឪពុកម្តាយរបស់ខ្ញុំនឹងមកឆាប់ៗនេះ។", "tr": "eu-pouk mday ro-bâh khgnom neung mok tchhap-tchhap nih."}
+      "example": {"fr": "Mes parents vont bientôt venir.", "en": "My parents are coming soon.", "km": "ឪពុកម្តាយរបស់ខ្ញុំនឹងមកឆាប់ៗនេះ។", "tr": "eu-pouk mday ro-bâh khgnom neung mok tchhap-tchhap nih.",
+      "es": "Mis padres van a venir pronto.", "it": "I miei genitori verranno presto.", "ru": "Мои родители скоро приедут.", "zh": "我爸爸妈妈很快就来了。", "zh_tr": "Wǒ bàba māma hěn kuài jiù lái le."}
     }
   ],
   "expressions": [
     {
       "fr": "Qu'est-ce que tu vas faire demain ?", "en": "What are you going to do tomorrow?", "km": "ថ្ងៃស្អែកនឹងធ្វើអ្វី?", "tr": "thngay s'aèk neung thveu ey ?",
+      "es": "¿Qué vas a hacer mañana?", "it": "Che cosa farai domani?", "ru": "Что ты будешь делать завтра?", "zh": "你明天打算做什么？", "zh_tr": "Nǐ míngtiān dǎsuan zuò shénme?",
       "note": {
         "fr": "Le mot de temps se place en tête de phrase ; នឹង (neung) annonce le futur.",
         "en": "The time word goes first; នឹង (neung) announces the future. French « tu vas faire » uses « aller » for the near future.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "J'aimerais aller à la mer.", "en": "I would like to go to the sea.", "km": "ខ្ញុំចង់ទៅលេងសមុទ្រ។", "tr": "khgnom tchâng teuv léng sâ-mot.",
+      "es": "Me gustaría ir a la playa.", "it": "Mi piacerebbe andare al mare.", "ru": "Я хотел бы поехать на море.", "zh": "我想去海边。", "zh_tr": "Wǒ xiǎng qù hǎibiān.",
       "note": {
         "fr": "ទៅលេង (teuv léng), mot à mot « aller s'amuser », se dit pour une visite ou une sortie. សមុទ្រ (sâ-mot) : la mer.",
         "en": "ទៅលេង (teuv léng), word for word “go and play”, is said for a visit or an outing. សមុទ្រ (sâ-mot): the sea. French « J'aimerais » is a polite “I would like”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "On verra.", "en": "We will see.", "km": "ចាំមើលសិន។", "tr": "tcham meul sen.",
+      "es": "Ya veremos.", "it": "Vedremo.", "ru": "Посмотрим.", "zh": "再说吧。", "zh_tr": "Zài shuō ba.",
       "note": {
         "fr": "Mot à mot « attendons de voir d'abord ». សិន (sen) en fin de phrase signifie « d'abord, pour l'instant ».",
         "en": "Word for word “let's wait and see first”. សិន (sen) at the end means “first, for now”. French « On verra » uses « on », a casual “we”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "C'est une bonne idée !", "en": "That is a good idea!", "km": "គំនិតល្អណាស់!", "tr": "koum-neut l'â nah !",
+      "es": "¡Es una buena idea!", "it": "È una buona idea!", "ru": "Хорошая идея!", "zh": "好主意！", "zh_tr": "Hǎo zhǔyi!",
       "note": {
         "fr": "គំនិត (koum-neut), l'idée, vient du verbe គិត (kit), penser.",
         "en": "គំនិត (koum-neut), idea, comes from the verb គិត (kit), to think. French « idée » is feminine: une bonne idée.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "Un projet de voyage", "en": "A travel plan", "km": "គម្រោងធ្វើដំណើរ"},
       "fr": "Le mois prochain, nous irons voir ma famille en France.", "en": "Next month, we will go to see my family in France.",
-      "km": "ខែក្រោយ យើងនឹងទៅលេងគ្រួសារខ្ញុំនៅប្រទេសបារាំង។", "tr": "khaè kraoy, yeung neung teuv léng krouo-sa khgnom neuv prâ-téh ba-rang."
+      "km": "ខែក្រោយ យើងនឹងទៅលេងគ្រួសារខ្ញុំនៅប្រទេសបារាំង។", "tr": "khaè kraoy, yeung neung teuv léng krouo-sa khgnom neuv prâ-téh ba-rang.",
+      "es": "El mes que viene iremos a ver a mi familia a Francia.", "it": "Il mese prossimo andremo a trovare la mia famiglia in Francia.", "ru": "В следующем месяце мы поедем к моей семье во Францию.", "zh": "下个月我们要去法国看我的家人。", "zh_tr": "Xià ge yuè wǒmen yào qù Fǎguó kàn wǒ de jiārén."
     },
     {
       "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
       "fr": "Je vais bientôt terminer ce projet.", "en": "I am going to finish this project soon.",
-      "km": "ខ្ញុំនឹងបញ្ចប់គម្រោងនេះឆាប់ៗនេះ។", "tr": "khgnom neung bagn-tchâp koum-rông nih tchhap-tchhap nih."
+      "km": "ខ្ញុំនឹងបញ្ចប់គម្រោងនេះឆាប់ៗនេះ។", "tr": "khgnom neung bagn-tchâp koum-rông nih tchhap-tchhap nih.",
+      "es": "Pronto voy a terminar este proyecto.", "it": "Presto finirò questo progetto.", "ru": "Я скоро закончу этот проект.", "zh": "我很快就要完成这个项目了。", "zh_tr": "Wǒ hěn kuài jiù yào wánchéng zhège xiàngmù le."
     },
     {
       "situation": {"fr": "Un grand projet", "en": "A big plan", "km": "គម្រោងធំមួយ"},
       "fr": "Nous allons peut-être acheter une maison.", "en": "We may buy a house.",
-      "km": "យើងប្រហែលជានឹងទិញផ្ទះមួយ។", "tr": "yeung prâ-haèl tchéa neung tign phtéah mouy."
+      "km": "យើងប្រហែលជានឹងទិញផ្ទះមួយ។", "tr": "yeung prâ-haèl tchéa neung tign phtéah mouy.",
+      "es": "Quizás compremos una casa.", "it": "Forse compreremo una casa.", "ru": "Может быть, мы купим дом.", "zh": "我们也许会买一套房子。", "zh_tr": "Wǒmen yěxǔ huì mǎi yí tào fángzi."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} et {B} parlent du week-end prochain.", "en": "{A} and {B} are talking about next weekend.", "km": "{A} និង {B} និយាយគ្នាអំពីចុងសប្តាហ៍ក្រោយ។"},
     "lines": [
-      {"speaker": "A", "fr": "Qu'est-ce qu'on fait le week-end prochain ?", "en": "What are we doing next weekend?", "km": "ចុងសប្តាហ៍ក្រោយ យើងធ្វើអ្វីដែរ?", "tr": "tchong sap-da kraoy, yeung thveu ey daè ?"},
-      {"speaker": "B", "fr": "J'ai un projet : aller à Kampot.", "en": "I have a plan: going to Kampot.", "km": "ខ្ញុំមានគម្រោងមួយ គឺទៅកំពត។", "tr": "khgnom méan koum-rông mouy, keu teuv kâm-pot."},
-      {"speaker": "A", "fr": "Bonne idée ! Mais il va peut-être pleuvoir.", "en": "Good idea! But it may rain.", "km": "គំនិតល្អ! ប៉ុន្តែប្រហែលជាមេឃភ្លៀង។", "tr": "koum-neut l'â ! pon-taè prâ-haèl tchéa mék phlieng."},
-      {"speaker": "B", "fr": "J'espère qu'il fera beau.", "en": "I hope the weather will be nice.", "km": "ខ្ញុំសង្ឃឹមថាអាកាសធាតុនឹងល្អ។", "tr": "khgnom sâng-kheum tha a-kah-théat neung l'â."},
-      {"speaker": "A", "fr": "On prend le bus ou la voiture ?", "en": "Do we take the bus or the car?", "km": "ជិះឡានក្រុង ឬបើកឡានទៅ?", "tr": "tchih lan-krong reu baeuk lan teuv ?"},
-      {"speaker": "B", "fr": "Je n'ai pas encore décidé. On verra demain.", "en": "I have not decided yet. We will see tomorrow.", "km": "ខ្ញុំមិនទាន់សម្រេចចិត្តទេ។ ចាំមើលថ្ងៃស្អែកសិន។", "tr": "khgnom min toan sâm-rétch tchet té. tcham meul thngay s'aèk sen."},
-      {"speaker": "A", "fr": "D'accord. Je vais bientôt réserver l'hôtel.", "en": "Okay. I am going to book the hotel soon.", "km": "បាន។ ខ្ញុំនឹងកក់សណ្ឋាគារឆាប់ៗនេះ។", "tr": "ban. khgnom neung kâk sân-tha-kéa tchhap-tchhap nih."}
+      {"speaker": "A", "fr": "Qu'est-ce qu'on fait le week-end prochain ?", "en": "What are we doing next weekend?", "km": "ចុងសប្តាហ៍ក្រោយ យើងធ្វើអ្វីដែរ?", "tr": "tchong sap-da kraoy, yeung thveu ey daè ?",
+        "es": "¿Qué hacemos el fin de semana que viene?", "it": "Che cosa facciamo il prossimo fine settimana?", "ru": "Что мы делаем в следующие выходные?", "zh": "下个周末我们做什么？", "zh_tr": "Xià ge zhōumò wǒmen zuò shénme?"},
+      {"speaker": "B", "fr": "J'ai un projet : aller à Kampot.", "en": "I have a plan: going to Kampot.", "km": "ខ្ញុំមានគម្រោងមួយ គឺទៅកំពត។", "tr": "khgnom méan koum-rông mouy, keu teuv kâm-pot.",
+        "es": "Tengo un plan: ir a Kampot.", "it": "Ho un'idea: andare a Kampot.", "ru": "У меня есть план: поехать в Кампот.", "zh": "我有个计划：去贡布。", "zh_tr": "Wǒ yǒu ge jìhuà: qù Gòngbù."},
+      {"speaker": "A", "fr": "Bonne idée ! Mais il va peut-être pleuvoir.", "en": "Good idea! But it may rain.", "km": "គំនិតល្អ! ប៉ុន្តែប្រហែលជាមេឃភ្លៀង។", "tr": "koum-neut l'â ! pon-taè prâ-haèl tchéa mék phlieng.",
+        "es": "¡Buena idea! Pero quizás llueva.", "it": "Buona idea! Ma forse pioverà.", "ru": "Хорошая идея! Но, может быть, пойдёт дождь.", "zh": "好主意！不过也许会下雨。", "zh_tr": "Hǎo zhǔyi! Búguò yěxǔ huì xià yǔ."},
+      {"speaker": "B", "fr": "J'espère qu'il fera beau.", "en": "I hope the weather will be nice.", "km": "ខ្ញុំសង្ឃឹមថាអាកាសធាតុនឹងល្អ។", "tr": "khgnom sâng-kheum tha a-kah-théat neung l'â.",
+        "es": "Espero que haga buen tiempo.", "it": "Spero che faccia bel tempo.", "ru": "Надеюсь, будет хорошая погода.", "zh": "希望天气会很好。", "zh_tr": "Xīwàng tiānqì huì hěn hǎo."},
+      {"speaker": "A", "fr": "On prend le bus ou la voiture ?", "en": "Do we take the bus or the car?", "km": "ជិះឡានក្រុង ឬបើកឡានទៅ?", "tr": "tchih lan-krong reu baeuk lan teuv ?",
+        "es": "¿Cogemos el autobús o el coche?", "it": "Prendiamo l'autobus o la macchina?", "ru": "Поедем на автобусе или на машине?", "zh": "我们坐公共汽车还是开车？", "zh_tr": "Wǒmen zuò gōnggòng qìchē háishi kāichē?"},
+      {"speaker": "B", "fr": "Je n'ai pas encore décidé. On verra demain.", "en": "I have not decided yet. We will see tomorrow.", "km": "ខ្ញុំមិនទាន់សម្រេចចិត្តទេ។ ចាំមើលថ្ងៃស្អែកសិន។", "tr": "khgnom min toan sâm-rétch tchet té. tcham meul thngay s'aèk sen.",
+        "es": "Todavía no lo he decidido. Ya veremos mañana.", "it": "Non ho ancora deciso. Vedremo domani.", "ru": "Я ещё не решил. Посмотрим завтра.", "zh": "我还没决定。明天再说吧。", "zh_tr": "Wǒ hái méi juédìng. Míngtiān zài shuō ba."},
+      {"speaker": "A", "fr": "D'accord. Je vais bientôt réserver l'hôtel.", "en": "Okay. I am going to book the hotel soon.", "km": "បាន។ ខ្ញុំនឹងកក់សណ្ឋាគារឆាប់ៗនេះ។", "tr": "ban. khgnom neung kâk sân-tha-kéa tchhap-tchhap nih.",
+        "es": "Vale. Pronto voy a reservar el hotel.", "it": "D'accordo. Presto prenoto l'albergo.", "ru": "Хорошо. Я скоро забронирую гостиницу.", "zh": "好的。我马上就去订酒店。", "zh_tr": "Hǎo de. Wǒ mǎshàng jiù qù dìng jiǔdiàn."}
     ]
   },
   "comprehension": {

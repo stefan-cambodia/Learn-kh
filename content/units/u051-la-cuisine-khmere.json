@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "la soupe", "en": "soup", "km": "សម្ល", "tr": "sâm-lâ", "pos": "nom",
+      "fr": "la soupe", "en": "soup", "km": "សម្ល", "tr": "sâm-lâ",
+      "es": "la sopa", "it": "la zuppa", "ru": "суп", "zh": "汤", "zh_tr": "tāng", "pos": "nom",
       "note": {
         "fr": "សម្ល désigne tous les plats en bouillon ou en sauce qui accompagnent le riz : សម្លម្ជូរ, la soupe aigre ; សម្លកកូរ (sâm-lâ kâ-kou), la soupe de légumes.",
         "en": "សម្ល covers every dish in broth or sauce that goes with rice: សម្លម្ជូរ, sour soup; សម្លកកូរ (sâm-lâ kâ-kou), vegetable soup. French « soupe » is feminine: la soupe.",
         "km": "« soupe » ជានាមភេទស្រី៖ la soupe។ អង់គ្លេស៖ « soup »។"
       },
-      "example": {"fr": "Cette soupe est un peu acide.", "en": "This soup is a little sour.", "km": "សម្លនេះជូរបន្តិច។", "tr": "sâm-lâ nih tchou bân-tetch."}
+      "example": {"fr": "Cette soupe est un peu acide.", "en": "This soup is a little sour.", "km": "សម្លនេះជូរបន្តិច។", "tr": "sâm-lâ nih tchou bân-tetch.",
+      "es": "Esta sopa está un poco ácida.", "it": "Questa zuppa è un po' aspra.", "ru": "Этот суп немного кислый.", "zh": "这个汤有点儿酸。", "zh_tr": "Zhège tāng yǒudiǎnr suān."}
     },
     {
-      "fr": "le poulet", "en": "chicken", "km": "សាច់មាន់", "tr": "sach moan", "pos": "nom",
+      "fr": "le poulet", "en": "chicken", "km": "សាច់មាន់", "tr": "sach moan",
+      "es": "el pollo", "it": "il pollo", "ru": "курица", "zh": "鸡肉", "zh_tr": "jīròu", "pos": "nom",
       "note": {
         "fr": "សាច់ (sach) veut dire « viande » : សាច់មាន់, mot à mot « viande de poule ». La poule vivante se dit simplement មាន់ (moan).",
         "en": "សាច់ (sach) means “meat”: សាច់មាន់, word for word “hen meat”. A live hen is just មាន់ (moan). French « poulet » is the meat; a live hen is « une poule ».",
         "km": "« poulet » ជានាមភេទប្រុស៖ le poulet។ មាន់ញីនៅរស់ ហៅថា « une poule »។ អង់គ្លេស៖ « chicken »។"
       },
-      "example": {"fr": "Je voudrais du riz au poulet.", "en": "I would like chicken rice.", "km": "ខ្ញុំចង់បានបាយសាច់មាន់។", "tr": "khgnom tchâng ban bay sach moan."}
+      "example": {"fr": "Je voudrais du riz au poulet.", "en": "I would like chicken rice.", "km": "ខ្ញុំចង់បានបាយសាច់មាន់។", "tr": "khgnom tchâng ban bay sach moan.",
+      "es": "Quería arroz con pollo.", "it": "Vorrei del riso con il pollo.", "ru": "Я хотел бы рис с курицей.", "zh": "我想要鸡肉饭。", "zh_tr": "Wǒ xiǎng yào jīròu fàn."}
     },
     {
-      "fr": "le porc", "en": "pork", "km": "សាច់ជ្រូក", "tr": "sach tchrouk", "pos": "nom",
+      "fr": "le porc", "en": "pork", "km": "សាច់ជ្រូក", "tr": "sach tchrouk",
+      "es": "el cerdo", "it": "il maiale", "ru": "свинина", "zh": "猪肉", "zh_tr": "zhūròu", "pos": "nom",
       "note": {
         "fr": "ជ្រូក (tchrouk) est le cochon. បាយសាច់ជ្រូក, du riz avec du porc grillé, est le petit-déjeuner le plus populaire du Cambodge.",
         "en": "ជ្រូក (tchrouk) is the pig. បាយសាច់ជ្រូក, rice with grilled pork, is Cambodia's favourite breakfast. In French « porc », the final c is silent.",
         "km": "« porc » ជានាមភេទប្រុស ហើយ c ចុងពាក្យមិនអានទេ។ អង់គ្លេស៖ « pork »។"
       },
-      "example": {"fr": "Le matin, je mange du riz au porc.", "en": "In the morning, I eat rice with pork.", "km": "ពេលព្រឹក ខ្ញុំញ៉ាំបាយសាច់ជ្រូក។", "tr": "pél preuk, khgnom gnam bay sach tchrouk."}
+      "example": {"fr": "Le matin, je mange du riz au porc.", "en": "In the morning, I eat rice with pork.", "km": "ពេលព្រឹក ខ្ញុំញ៉ាំបាយសាច់ជ្រូក។", "tr": "pél preuk, khgnom gnam bay sach tchrouk.",
+      "es": "Por la mañana como arroz con cerdo.", "it": "La mattina mangio riso con il maiale.", "ru": "Утром я ем рис со свининой.", "zh": "早上我吃猪肉饭。", "zh_tr": "Zǎoshang wǒ chī zhūròu fàn."}
     },
     {
-      "fr": "le bœuf", "en": "beef", "km": "សាច់គោ", "tr": "sach kô", "pos": "nom",
+      "fr": "le bœuf", "en": "beef", "km": "សាច់គោ", "tr": "sach kô",
+      "es": "la ternera", "it": "il manzo", "ru": "говядина", "zh": "牛肉", "zh_tr": "niúròu", "pos": "nom",
       "note": {
         "fr": "សាច់គោ est la viande de bœuf. Le célèbre ឡុកឡាក់ (lok-lak) est un bœuf sauté, servi avec une sauce au citron vert et au poivre de Kampot.",
         "en": "សាច់គោ is beef. The famous ឡុកឡាក់ (lok-lak) is stir-fried beef, served with a lime and Kampot pepper dip. French « bœuf »: the f is heard in the singular, silent in « des bœufs ».",
         "km": "« bœuf » មានន័យទាំងសាច់គោ និងគោឈ្មោល។ អង់គ្លេស៖ « beef » (សាច់) និង « ox » (សត្វ)។"
       },
-      "example": {"fr": "Le lok lak est un plat de bœuf.", "en": "Lok lak is a beef dish.", "km": "ឡុកឡាក់ជាម្ហូបសាច់គោ។", "tr": "lok-lak tchéa mhôp sach kô."}
+      "example": {"fr": "Le lok lak est un plat de bœuf.", "en": "Lok lak is a beef dish.", "km": "ឡុកឡាក់ជាម្ហូបសាច់គោ។", "tr": "lok-lak tchéa mhôp sach kô.",
+      "es": "El lok lak es un plato de ternera.", "it": "Il lok lak è un piatto di manzo.", "ru": "Лок лак — это блюдо из говядины.", "zh": "Lok lak是一道牛肉菜。", "zh_tr": "Lok lak shì yí dào niúròu cài."}
     },
     {
-      "fr": "les nouilles", "en": "noodles", "km": "មី", "tr": "mi", "pos": "nom",
+      "fr": "les nouilles", "en": "noodles", "km": "មី", "tr": "mi",
+      "es": "los fideos", "it": "i noodles", "ru": "лапша", "zh": "面条", "zh_tr": "miàntiáo", "pos": "nom",
       "note": {
         "fr": "មី désigne les nouilles de blé, souvent sautées : មីឆា (mi tchha). La soupe de nouilles de riz du matin s'appelle គុយទាវ (kouy-téav).",
         "en": "មី means wheat noodles, often stir-fried: មីឆា (mi tchha). The morning rice-noodle soup is គុយទាវ (kouy-téav). French « nouille » is feminine and usually plural: des nouilles.",
         "km": "« nouille » ជានាមភេទស្រី ហើយគេច្រើនប្រើជាពហុវចនៈ៖ les nouilles។ អង់គ្លេស៖ « noodles »។"
       },
-      "example": {"fr": "Je prends des nouilles sautées.", "en": "I'll have fried noodles.", "km": "ខ្ញុំយកមីឆា។", "tr": "khgnom yok mi tchha."}
+      "example": {"fr": "Je prends des nouilles sautées.", "en": "I'll have fried noodles.", "km": "ខ្ញុំយកមីឆា។", "tr": "khgnom yok mi tchha.",
+      "es": "Yo tomo fideos salteados.", "it": "Prendo dei noodles saltati.", "ru": "Я возьму жареную лапшу.", "zh": "我要炒面。", "zh_tr": "Wǒ yào chǎomiàn."}
     },
     {
-      "fr": "griller", "en": "to grill", "km": "អាំង", "tr": "âng", "pos": "verbe",
+      "fr": "griller", "en": "to grill", "km": "អាំង", "tr": "âng",
+      "es": "asar a la parrilla", "it": "grigliare", "ru": "жарить на гриле", "zh": "烤", "zh_tr": "kǎo", "pos": "verbe",
       "note": {
         "fr": "Au bord des routes, on grille poisson, poulet et maïs sur du charbon : ត្រីអាំង, le poisson grillé ; មាន់អាំង, le poulet grillé.",
         "en": "By the roadside, fish, chicken and corn are grilled over charcoal: ត្រីអាំង, grilled fish; មាន់អាំង, grilled chicken. French « griller »: du poulet grillé.",
         "km": "« griller »៖ je grille។ « grillé » មានន័យថា ដែលបានអាំង៖ du poulet grillé។ អង់គ្លេស៖ « to grill »។"
       },
-      "example": {"fr": "Ils grillent du poisson au bord du fleuve.", "en": "They are grilling fish by the river.", "km": "ពួកគេអាំងត្រីនៅមាត់ទន្លេ។", "tr": "pouok-ké âng trey neuv moat tonlé."}
+      "example": {"fr": "Ils grillent du poisson au bord du fleuve.", "en": "They are grilling fish by the river.", "km": "ពួកគេអាំងត្រីនៅមាត់ទន្លេ។", "tr": "pouok-ké âng trey neuv moat tonlé.",
+      "es": "Asan pescado a la orilla del río.", "it": "Grigliano del pesce in riva al fiume.", "ru": "Они жарят рыбу на гриле у реки.", "zh": "他们在河边烤鱼。", "zh_tr": "Tāmen zài hébiān kǎo yú."}
     }
   ],
   "expressions": [
     {
       "fr": "Qu'est-ce que tu recommandes ?", "en": "What do you recommend?", "km": "តើអ្នកណែនាំម្ហូបអ្វី?", "tr": "taeu néak naè-noam mhôp ey ?",
+      "es": "¿Qué me recomiendas?", "it": "Che cosa mi consigli?", "ru": "Что ты посоветуешь?", "zh": "你推荐什么？", "zh_tr": "Nǐ tuījiàn shénme?",
       "note": {
         "fr": "ណែនាំ (naè-noam) veut dire « recommander » et aussi « présenter » quelqu'un.",
         "en": "ណែនាំ (naè-noam) means “to recommend” and also “to introduce” someone. French « recommander » takes two m's.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Pas de glutamate, s'il vous plaît.", "en": "No MSG, please.", "km": "សុំកុំដាក់ម្សៅស៊ុប។", "tr": "som kom dak msav soup.",
+      "es": "Sin glutamato, por favor.", "it": "Senza glutammato, per favore.", "ru": "Без глутамата, пожалуйста.", "zh": "请不要放味精。", "zh_tr": "Qǐng bú yào fàng wèijīng.",
       "note": {
         "fr": "ម្សៅស៊ុប (msav soup), « poudre à soupe », est le glutamate, très utilisé. ដាក់ (dak) veut dire « mettre ».",
         "en": "ម្សៅស៊ុប (msav soup), “soup powder”, is MSG, widely used. ដាក់ (dak) means “to put”. French « Pas de… » means “no…”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "À emporter, s'il vous plaît.", "en": "To take away, please.", "km": "សុំខ្ចប់។", "tr": "som khtchâp.",
+      "es": "Para llevar, por favor.", "it": "Da portare via, per favore.", "ru": "С собой, пожалуйста.", "zh": "打包，谢谢。", "zh_tr": "Dǎbāo, xièxie.",
       "note": {
         "fr": "ខ្ចប់ (khtchâp) veut dire « emballer » : on demande que le plat soit emballé pour l'emporter.",
         "en": "ខ្ចប់ (khtchâp) means “to wrap”: you ask for the dish to be wrapped up to take away. French « emporter » means “to take with you”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "C'est fait avec quoi ?", "en": "What is it made with?", "km": "នេះធ្វើពីអ្វី?", "tr": "nih thveu pi ey ?",
+      "es": "¿De qué está hecho?", "it": "Con che cosa è fatto?", "ru": "Из чего это сделано?", "zh": "这是用什么做的？", "zh_tr": "Zhè shì yòng shénme zuò de?",
       "note": {
         "fr": "ធ្វើពី (thveu pi), « fait à partir de ». Utile pour éviter un ingrédient.",
         "en": "ធ្វើពី (thveu pi), “made from”. Useful to avoid an ingredient. French « fait avec » means “made with”.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Au petit-déjeuner", "en": "At breakfast", "km": "អាហារពេលព្រឹក"},
       "fr": "Le matin, beaucoup de Cambodgiens mangent une soupe de nouilles.", "en": "In the morning, many Cambodians eat noodle soup.",
-      "km": "ពេលព្រឹក ប្រជាជនកម្ពុជាជាច្រើនញ៉ាំគុយទាវ។", "tr": "pél preuk, prâ-tchéa-tchun kam-pou-tchéa tchéa tchraeun gnam kouy-téav."
+      "km": "ពេលព្រឹក ប្រជាជនកម្ពុជាជាច្រើនញ៉ាំគុយទាវ។", "tr": "pél preuk, prâ-tchéa-tchun kam-pou-tchéa tchéa tchraeun gnam kouy-téav.",
+      "es": "Por la mañana, muchos camboyanos comen sopa de fideos.", "it": "La mattina molti cambogiani mangiano una zuppa di noodles.", "ru": "Утром многие камбоджийцы едят суп с лапшой.", "zh": "早上很多柬埔寨人吃汤面。", "zh_tr": "Zǎoshang hěn duō Jiǎnpǔzhài rén chī tāngmiàn."
     },
     {
       "situation": {"fr": "Au restaurant", "en": "At the restaurant", "km": "នៅហាងបាយ"},
       "fr": "Je voudrais une soupe et du riz pour deux personnes.", "en": "I would like a soup and rice for two people.",
-      "km": "ខ្ញុំចង់បានសម្លមួយ និងបាយសម្រាប់ពីរនាក់។", "tr": "khgnom tchâng ban sâm-lâ mouy ning bay sâm-rap pi néak."
+      "km": "ខ្ញុំចង់បានសម្លមួយ និងបាយសម្រាប់ពីរនាក់។", "tr": "khgnom tchâng ban sâm-lâ mouy ning bay sâm-rap pi néak.",
+      "es": "Quería una sopa y arroz para dos personas.", "it": "Vorrei una zuppa e del riso per due persone.", "ru": "Я хотел бы суп и рис на двоих.", "zh": "我想要一份汤和两个人的米饭。", "zh_tr": "Wǒ xiǎng yào yí fèn tāng hé liǎng ge rén de mǐfàn."
     },
     {
       "situation": {"fr": "Au marché de nuit", "en": "At the night market", "km": "នៅផ្សាររាត្រី"},
       "fr": "Le poulet grillé sent très bon.", "en": "The grilled chicken smells very good.",
-      "km": "មាន់អាំងក្លិនឈ្ងុយណាស់។", "tr": "moan âng klen tchhngouy nah."
+      "km": "មាន់អាំងក្លិនឈ្ងុយណាស់។", "tr": "moan âng klen tchhngouy nah.",
+      "es": "El pollo asado huele muy bien.", "it": "Il pollo alla griglia ha un profumo buonissimo.", "ru": "Курица на гриле очень вкусно пахнет.", "zh": "烤鸡闻起来很香。", "zh_tr": "Kǎojī wén qilai hěn xiāng."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} emmène {B} manger dans un petit restaurant khmer.", "en": "{A} takes {B} to eat at a small Khmer restaurant.", "km": "{A} នាំ {B} ទៅញ៉ាំបាយនៅហាងបាយខ្មែរតូចមួយ។"},
     "lines": [
-      {"speaker": "B", "fr": "Je ne connais pas ces plats. Qu'est-ce que tu recommandes ?", "en": "I don't know these dishes. What do you recommend?", "km": "ខ្ញុំមិនស្គាល់ម្ហូបទាំងនេះទេ។ {A} ណែនាំម្ហូបអ្វី?", "tr": "khgnom min skoal mhôp téang nih té. {A} naè-noam mhôp ey ?"},
-      {"speaker": "A", "fr": "Le lok lak, c'est du bœuf sauté. C'est délicieux.", "en": "Lok lak is stir-fried beef. It's delicious.", "km": "ឡុកឡាក់ ជាសាច់គោឆា។ ឆ្ងាញ់ណាស់។", "tr": "lok-lak tchéa sach kô tchha. tchhngagn nah."},
-      {"speaker": "B", "fr": "Et cette soupe, c'est fait avec quoi ?", "en": "And this soup, what is it made with?", "km": "ចុះសម្លនេះ ធ្វើពីអ្វី?", "tr": "tchoh sâm-lâ nih thveu pi ey ?"},
-      {"speaker": "A", "fr": "Avec du poisson et des légumes. Elle est un peu acide.", "en": "With fish and vegetables. It's a little sour.", "km": "ធ្វើពីត្រី និងបន្លែ។ ជូរបន្តិច។", "tr": "thveu pi trey ning bân-laè. tchou bân-tetch."},
-      {"speaker": "B", "fr": "Alors je prends les deux, avec du riz !", "en": "Then I'll have both, with rice!", "km": "អញ្ចឹង ខ្ញុំយកទាំងពីរ ជាមួយបាយ!", "tr": "agn-tcheung, khgnom yok téang pi tchéa-mouy bay !"},
-      {"speaker": "A", "fr": "Bonne idée. Mais pas trop épicé pour toi !", "en": "Good idea. But not too spicy for you!", "km": "គំនិតល្អ។ តែកុំឱ្យហឹរពេកសម្រាប់ {B}!", "tr": "koum-neut l'â. taè kom aoy heul pék sâm-rap {B} !"}
+      {"speaker": "B", "fr": "Je ne connais pas ces plats. Qu'est-ce que tu recommandes ?", "en": "I don't know these dishes. What do you recommend?", "km": "ខ្ញុំមិនស្គាល់ម្ហូបទាំងនេះទេ។ {A} ណែនាំម្ហូបអ្វី?", "tr": "khgnom min skoal mhôp téang nih té. {A} naè-noam mhôp ey ?",
+        "es": "No conozco estos platos. ¿Qué me recomiendas?", "it": "Non conosco questi piatti. Che cosa mi consigli?", "ru": "Я не знаю этих блюд. Что ты посоветуешь?", "zh": "我不认识这些菜。你推荐什么？", "zh_tr": "Wǒ bú rènshi zhèxiē cài. Nǐ tuījiàn shénme?"},
+      {"speaker": "A", "fr": "Le lok lak, c'est du bœuf sauté. C'est délicieux.", "en": "Lok lak is stir-fried beef. It's delicious.", "km": "ឡុកឡាក់ ជាសាច់គោឆា។ ឆ្ងាញ់ណាស់។", "tr": "lok-lak tchéa sach kô tchha. tchhngagn nah.",
+        "es": "El lok lak es ternera salteada. Está delicioso.", "it": "Il lok lak è manzo saltato. È delizioso.", "ru": "Лок лак — это жареная говядина. Очень вкусно.", "zh": "Lok lak是炒牛肉，很好吃。", "zh_tr": "Lok lak shì chǎo niúròu, hěn hǎochī."},
+      {"speaker": "B", "fr": "Et cette soupe, c'est fait avec quoi ?", "en": "And this soup, what is it made with?", "km": "ចុះសម្លនេះ ធ្វើពីអ្វី?", "tr": "tchoh sâm-lâ nih thveu pi ey ?",
+        "es": "¿Y esta sopa de qué está hecha?", "it": "E questa zuppa con che cosa è fatta?", "ru": "А этот суп из чего?", "zh": "这个汤是用什么做的？", "zh_tr": "Zhège tāng shì yòng shénme zuò de?"},
+      {"speaker": "A", "fr": "Avec du poisson et des légumes. Elle est un peu acide.", "en": "With fish and vegetables. It's a little sour.", "km": "ធ្វើពីត្រី និងបន្លែ។ ជូរបន្តិច។", "tr": "thveu pi trey ning bân-laè. tchou bân-tetch.",
+        "es": "De pescado y verduras. Está un poco ácida.", "it": "Con pesce e verdure. È un po' aspra.", "ru": "Из рыбы и овощей. Он немного кислый.", "zh": "用鱼和蔬菜做的。有点儿酸。", "zh_tr": "Yòng yú hé shūcài zuò de. Yǒudiǎnr suān."},
+      {"speaker": "B", "fr": "Alors je prends les deux, avec du riz !", "en": "Then I'll have both, with rice!", "km": "អញ្ចឹង ខ្ញុំយកទាំងពីរ ជាមួយបាយ!", "tr": "agn-tcheung, khgnom yok téang pi tchéa-mouy bay !",
+        "es": "¡Entonces tomo los dos, con arroz!", "it": "Allora prendo tutti e due, con il riso!", "ru": "Тогда я возьму и то и другое, с рисом!", "zh": "那我两个都要，再来米饭！", "zh_tr": "Nà wǒ liǎng ge dōu yào, zài lái mǐfàn!"},
+      {"speaker": "A", "fr": "Bonne idée. Mais pas trop épicé pour toi !", "en": "Good idea. But not too spicy for you!", "km": "គំនិតល្អ។ តែកុំឱ្យហឹរពេកសម្រាប់ {B}!", "tr": "koum-neut l'â. taè kom aoy heul pék sâm-rap {B} !",
+        "es": "Buena idea. ¡Pero no muy picante para ti!", "it": "Buona idea. Ma non troppo piccante per te!", "ru": "Хорошая идея. Но тебе не слишком остро!", "zh": "好主意。不过给你的别太辣！", "zh_tr": "Hǎo zhǔyi. Búguò gěi nǐ de bié tài là!"}
     ]
   },
   "comprehension": {

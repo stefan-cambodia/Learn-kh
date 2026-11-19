@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le mot", "en": "word", "km": "ពាក្យ", "tr": "péak", "pos": "nom",
+      "fr": "le mot", "en": "word", "km": "ពាក្យ", "tr": "péak",
+      "es": "la palabra", "it": "la parola", "ru": "слово", "zh": "词", "zh_tr": "cí", "pos": "nom",
       "note": {
         "fr": "ពាក្យ veut dire « le mot » et aussi « la parole ». Un nouveau mot : ពាក្យថ្មី.",
         "en": "ពាក្យ means “word” and also “speech”. A new word: ពាក្យថ្មី. French « mot » is masculine; the t is silent.",
         "km": "« mot » ជានាមភេទប្រុស ហើយ t មិនអានទេ៖ le mot, les mots។ អង់គ្លេស៖ « word »។"
       },
-      "example": {"fr": "J'apprends cinq mots chaque matin.", "en": "I learn five words every morning.", "km": "រៀងរាល់ព្រឹក ខ្ញុំរៀនពាក្យប្រាំ។", "tr": "rieng roal preuk, khgnom rien péak pram."}
+      "example": {"fr": "J'apprends cinq mots chaque matin.", "en": "I learn five words every morning.", "km": "រៀងរាល់ព្រឹក ខ្ញុំរៀនពាក្យប្រាំ។", "tr": "rieng roal preuk, khgnom rien péak pram.",
+      "es": "Aprendo cinco palabras cada mañana.", "it": "Imparo cinque parole ogni mattina.", "ru": "Я учу пять слов каждое утро.", "zh": "我每天早上学五个词。", "zh_tr": "Wǒ měitiān zǎoshang xué wǔ ge cí."}
     },
     {
-      "fr": "la phrase", "en": "sentence", "km": "ប្រយោគ", "tr": "prâ-yaok", "pos": "nom",
+      "fr": "la phrase", "en": "sentence", "km": "ប្រយោគ", "tr": "prâ-yaok",
+      "es": "la frase", "it": "la frase", "ru": "предложение", "zh": "句子", "zh_tr": "jùzi", "pos": "nom",
       "note": {
         "fr": "En khmer, une phrase se termine par le signe ។, l'équivalent du point.",
         "en": "In Khmer, a sentence ends with the sign ។, the equivalent of a full stop. French « phrase » means “sentence”, not “phrase”.",
         "km": "« phrase » ជានាមភេទស្រី ហើយ ph អានដូច f៖ la phrase។ អង់គ្លេស៖ « sentence »។"
       },
-      "example": {"fr": "Cette phrase est trop longue.", "en": "This sentence is too long.", "km": "ប្រយោគនេះវែងពេក។", "tr": "prâ-yaok nih vaèng pék."}
+      "example": {"fr": "Cette phrase est trop longue.", "en": "This sentence is too long.", "km": "ប្រយោគនេះវែងពេក។", "tr": "prâ-yaok nih vaèng pék.",
+      "es": "Esta frase es demasiado larga.", "it": "Questa frase è troppo lunga.", "ru": "Это предложение слишком длинное.", "zh": "这个句子太长了。", "zh_tr": "Zhège jùzi tài cháng le."}
     },
     {
-      "fr": "prononcer", "en": "to pronounce", "km": "បញ្ចេញសំឡេង", "tr": "bagn-tchégn sâm-léng", "pos": "verbe",
+      "fr": "prononcer", "en": "to pronounce", "km": "បញ្ចេញសំឡេង", "tr": "bagn-tchégn sâm-léng",
+      "es": "pronunciar", "it": "pronunciare", "ru": "произносить", "zh": "发音", "zh_tr": "fāyīn", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « faire sortir le son ». សំឡេង (sâm-léng), le son ou la voix.",
         "en": "Word for word “bring out the sound”. សំឡេង (sâm-léng), sound or voice. French « prononcer »: je prononce.",
         "km": "« prononcer »៖ je prononce, nous prononçons (ç អានដូច s)។ « la prononciation » មានន័យថា ការបញ្ចេញសំឡេង។ អង់គ្លេស៖ « to pronounce »។"
       },
-      "example": {"fr": "Ce mot est difficile à prononcer.", "en": "This word is difficult to pronounce.", "km": "ពាក្យនេះពិបាកបញ្ចេញសំឡេង។", "tr": "péak nih pi-bak bagn-tchégn sâm-léng."}
+      "example": {"fr": "Ce mot est difficile à prononcer.", "en": "This word is difficult to pronounce.", "km": "ពាក្យនេះពិបាកបញ្ចេញសំឡេង។", "tr": "péak nih pi-bak bagn-tchégn sâm-léng.",
+      "es": "Esta palabra es difícil de pronunciar.", "it": "Questa parola è difficile da pronunciare.", "ru": "Это слово трудно произнести.", "zh": "这个词很难发音。", "zh_tr": "Zhège cí hěn nán fāyīn."}
     },
     {
-      "fr": "écrire", "en": "to write", "km": "សរសេរ", "tr": "sâ-sé", "pos": "verbe",
+      "fr": "écrire", "en": "to write", "km": "សរសេរ", "tr": "sâ-sé",
+      "es": "escribir", "it": "scrivere", "ru": "писать", "zh": "写", "zh_tr": "xiě", "pos": "verbe",
       "note": {
         "fr": "L'écriture se dit អក្សរ (âk-sâ), qui veut aussi dire « la lettre ».",
         "en": "Writing is អក្សរ (âk-sâ), which also means “letter”. French « écrire »: j'écris.",
         "km": "« écrire »៖ j'écris, tu écris, nous écrivons។ « une lettre » មានន័យថា អក្សរមួយតួ ឬសំបុត្រ។ អង់គ្លេស៖ « to write »។"
       },
-      "example": {"fr": "J'écris mon nom en khmer.", "en": "I write my name in Khmer.", "km": "ខ្ញុំសរសេរឈ្មោះខ្ញុំជាភាសាខ្មែរ។", "tr": "khgnom sâ-sé tchhmouh khgnom tchéa phéa-sa khmaè."}
+      "example": {"fr": "J'écris mon nom en khmer.", "en": "I write my name in Khmer.", "km": "ខ្ញុំសរសេរឈ្មោះខ្ញុំជាភាសាខ្មែរ។", "tr": "khgnom sâ-sé tchhmouh khgnom tchéa phéa-sa khmaè.",
+      "es": "Escribo mi nombre en jemer.", "it": "Scrivo il mio nome in khmer.", "ru": "Я пишу своё имя по-кхмерски.", "zh": "我用高棉文写我的名字。", "zh_tr": "Wǒ yòng Gāomiánwén xiě wǒ de míngzi."}
     },
     {
-      "fr": "traduire", "en": "to translate", "km": "បកប្រែ", "tr": "bâk-praè", "pos": "verbe",
+      "fr": "traduire", "en": "to translate", "km": "បកប្រែ", "tr": "bâk-praè",
+      "es": "traducir", "it": "tradurre", "ru": "переводить", "zh": "翻译", "zh_tr": "fānyì", "pos": "verbe",
       "note": {
         "fr": "បក, « éplucher », et ប្រែ, « changer » : traduire, c'est « éplucher et transformer » le sens.",
         "en": "បក, “to peel”, and ប្រែ, “to change”: translating is “peeling and transforming” the meaning. French « traduire »: je traduis.",
         "km": "« traduire »៖ je traduis, nous traduisons។ « la traduction » មានន័យថា ការបកប្រែ។ អង់គ្លេស៖ « to translate »។"
       },
-      "example": {"fr": "Tu peux traduire cette phrase ?", "en": "Can you translate this sentence?", "km": "អាចបកប្រែប្រយោគនេះបានទេ?", "tr": "atch bâk-praè prâ-yaok nih ban té ?"}
+      "example": {"fr": "Tu peux traduire cette phrase ?", "en": "Can you translate this sentence?", "km": "អាចបកប្រែប្រយោគនេះបានទេ?", "tr": "atch bâk-praè prâ-yaok nih ban té ?",
+      "es": "¿Puedes traducir esta frase?", "it": "Puoi tradurre questa frase?", "ru": "Можешь перевести это предложение?", "zh": "你能翻译这个句子吗？", "zh_tr": "Nǐ néng fānyì zhège jùzi ma?"}
     },
     {
-      "fr": "s'entraîner", "en": "to practise", "km": "ហាត់", "tr": "hat", "pos": "verbe",
+      "fr": "s'entraîner", "en": "to practise", "km": "ហាត់", "tr": "hat",
+      "es": "practicar", "it": "esercitarsi", "ru": "тренироваться", "zh": "练习", "zh_tr": "liànxí", "pos": "verbe",
       "note": {
         "fr": "ហាត់ sert pour le sport comme pour les langues : ហាត់និយាយ, s'entraîner à parler.",
         "en": "ហាត់ is used for sport and for languages: ហាត់និយាយ, practise speaking. French « s'entraîner »: je m'entraîne.",
         "km": "« s'entraîner » ជាកិរិយាសព្ទឆ្លុះ៖ je m'entraîne។ អង់គ្លេស៖ « to practise »។"
       },
-      "example": {"fr": "Je m'entraîne à parler tous les jours.", "en": "I practise speaking every day.", "km": "ខ្ញុំហាត់និយាយរាល់ថ្ងៃ។", "tr": "khgnom hat ni-yéay roal thngay."}
+      "example": {"fr": "Je m'entraîne à parler tous les jours.", "en": "I practise speaking every day.", "km": "ខ្ញុំហាត់និយាយរាល់ថ្ងៃ។", "tr": "khgnom hat ni-yéay roal thngay.",
+      "es": "Practico la conversación todos los días.", "it": "Mi esercito a parlare tutti i giorni.", "ru": "Я каждый день тренируюсь говорить.", "zh": "我每天练习说话。", "zh_tr": "Wǒ měitiān liànxí shuōhuà."}
     }
   ],
   "expressions": [
     {
       "fr": "Comment on dit ça en khmer ?", "en": "How do you say that in Khmer?", "km": "ជាភាសាខ្មែរ គេថាម៉េច?", "tr": "tchéa phéa-sa khmaè ké tha métch ?",
+      "es": "¿Cómo se dice eso en jemer?", "it": "Come si dice in khmer?", "ru": "Как это сказать по-кхмерски?", "zh": "这个用高棉语怎么说？", "zh_tr": "Zhège yòng Gāomiányǔ zěnme shuō?",
       "note": {
         "fr": "La question la plus utile pour apprendre. Remplacer ខ្មែរ par បារាំង pour le français.",
         "en": "The most useful question for learning. Replace ខ្មែរ with បារាំង for French. French « Comment on dit ça en français ? »",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Comment ça s'écrit ?", "en": "How do you spell it?", "km": "សរសេរយ៉ាងម៉េច?", "tr": "sâ-sé yang métch ?",
+      "es": "¿Cómo se escribe?", "it": "Come si scrive?", "ru": "Как это пишется?", "zh": "这个怎么写？", "zh_tr": "Zhège zěnme xiě?",
       "note": {
         "fr": "Utile pour les noms propres, ou quand un même son s'écrit de plusieurs façons.",
         "en": "Useful for names, or when the same sound can be written in several ways. French « Comment ça s'écrit ? »",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Corrige-moi, s'il te plaît.", "en": "Please correct me.", "km": "សូមកែឱ្យខ្ញុំផង។", "tr": "sôm kaè aoy khgnom phâng.",
+      "es": "Corrígeme, por favor.", "it": "Correggimi, per favore.", "ru": "Поправляй меня, пожалуйста.", "zh": "请帮我改一改。", "zh_tr": "Qǐng bāng wǒ gǎi yi gǎi.",
       "note": {
         "fr": "កែ (kaè), « corriger, réparer ». On apprend plus vite quand l'autre ose corriger.",
         "en": "កែ (kaè), “to correct, to fix”. You learn faster when the other person dares to correct you. French « Corrige-moi » is familiar.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Tu as fait beaucoup de progrès !", "en": "You've made a lot of progress!", "km": "ចេះច្រើនជាងមុនហើយ!", "tr": "tchéh tchraeun tchéang moun haeuy !",
+      "es": "¡Has progresado mucho!", "it": "Hai fatto molti progressi!", "ru": "Ты очень продвинулся!", "zh": "你进步很大！", "zh_tr": "Nǐ jìnbù hěn dà!",
       "note": {
         "fr": "Mot à mot « tu sais beaucoup plus qu'avant ». Un encouragement qui fait toujours plaisir.",
         "en": "Word for word “you know much more than before”. Encouragement that always pleases. French « faire des progrès » means “to make progress”.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "L'alphabet khmer", "en": "The Khmer alphabet", "km": "អក្សរខ្មែរ"},
       "fr": "L'écriture khmère a trente-trois consonnes.", "en": "The Khmer script has thirty-three consonants.",
-      "km": "អក្សរខ្មែរមានព្យញ្ជនៈសាមសិបបីតួ។", "tr": "âk-sâ khmaè méan pyagn-tchéak sam-sep bey tuo."
+      "km": "អក្សរខ្មែរមានព្យញ្ជនៈសាមសិបបីតួ។", "tr": "âk-sâ khmaè méan pyagn-tchéak sam-sep bey tuo.",
+      "es": "La escritura jemer tiene treinta y tres consonantes.", "it": "La scrittura khmer ha trentatré consonanti.", "ru": "В кхмерском письме тридцать три согласных.", "zh": "高棉文有三十三个辅音。", "zh_tr": "Gāomiánwén yǒu sānshísān ge fǔyīn."
     },
     {
       "situation": {"fr": "Une méthode", "en": "A method", "km": "វិធីរៀន"},
       "fr": "Écouter les dialogues tous les jours aide à bien prononcer.", "en": "Listening to the dialogues every day helps you pronounce well.",
-      "km": "ស្តាប់សន្ទនារាល់ថ្ងៃ ជួយឱ្យបញ្ចេញសំឡេងបានល្អ។", "tr": "sdap sân-téak-na roal thngay, tchouoy aoy bagn-tchégn sâm-léng ban l'â."
+      "km": "ស្តាប់សន្ទនារាល់ថ្ងៃ ជួយឱ្យបញ្ចេញសំឡេងបានល្អ។", "tr": "sdap sân-téak-na roal thngay, tchouoy aoy bagn-tchégn sâm-léng ban l'â.",
+      "es": "Escuchar los diálogos todos los días ayuda a pronunciar bien.", "it": "Ascoltare i dialoghi tutti i giorni aiuta a pronunciare bene.", "ru": "Если слушать диалоги каждый день, произношение становится лучше.", "zh": "每天听对话，发音会越来越好。", "zh_tr": "Měitiān tīng duìhuà, fāyīn huì yuè lái yuè hǎo."
     },
     {
       "situation": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
       "fr": "À la maison, nous parlons trois langues.", "en": "At home, we speak three languages.",
-      "km": "នៅផ្ទះ យើងនិយាយបីភាសា។", "tr": "neuv phtéah, yeung ni-yéay bey phéa-sa."
+      "km": "នៅផ្ទះ យើងនិយាយបីភាសា។", "tr": "neuv phtéah, yeung ni-yéay bey phéa-sa.",
+      "es": "En casa hablamos tres idiomas.", "it": "A casa parliamo tre lingue.", "ru": "Дома мы говорим на трёх языках.", "zh": "在家里我们说三种语言。", "zh_tr": "Zài jiāli wǒmen shuō sān zhǒng yǔyán."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{B} a écrit une phrase en khmer et la montre à {A}.", "en": "{B} has written a sentence in Khmer and shows it to {A}.", "km": "{B} បានសរសេរប្រយោគមួយជាភាសាខ្មែរ ហើយយកមកឱ្យ {A} មើល។"},
     "lines": [
-      {"speaker": "B", "fr": "J'ai écrit une phrase en khmer. Tu peux me corriger ?", "en": "I wrote a sentence in Khmer. Can you correct me?", "km": "ខ្ញុំសរសេរប្រយោគមួយជាភាសាខ្មែរ។ កែឱ្យខ្ញុំបានទេ?", "tr": "khgnom sâ-sé prâ-yaok mouy tchéa phéa-sa khmaè. kaè aoy khgnom ban té ?"},
-      {"speaker": "A", "fr": "Bien sûr, montre-moi.", "en": "Of course, show me.", "km": "បានណា យកមកមើល។", "tr": "ban na, yok mok meul."},
-      {"speaker": "B", "fr": "Voilà. Et ce mot, comment ça se prononce ?", "en": "Here. And this word, how do you pronounce it?", "km": "នេះ។ ហើយពាក្យនេះ បញ្ចេញសំឡេងយ៉ាងម៉េច?", "tr": "nih. haeuy péak nih, bagn-tchégn sâm-léng yang métch ?"},
-      {"speaker": "A", "fr": "On dit neuk, tu me manques. Ta phrase est presque parfaite !", "en": "You say neuk, I miss you. Your sentence is almost perfect!", "km": "គេថា នឹក។ ប្រយោគរបស់ {B} ជិតត្រឹមត្រូវហើយ!", "tr": "ké tha neuk. prâ-yaok ro-bâh {B} tchit treum-treuv haeuy !"},
-      {"speaker": "B", "fr": "Je m'entraîne tous les jours avec nos leçons.", "en": "I practise every day with our lessons.", "km": "ខ្ញុំហាត់រាល់ថ្ងៃជាមួយមេរៀនរបស់យើង។", "tr": "khgnom hat roal thngay tchéa-mouy mé-rien ro-bâh yeung."},
-      {"speaker": "A", "fr": "Ça se voit, tu as fait beaucoup de progrès !", "en": "It shows, you've made a lot of progress!", "km": "ឃើញច្បាស់ {B} ចេះច្រើនជាងមុនហើយ!", "tr": "kheugn tchbah, {B} tchéh tchraeun tchéang moun haeuy !"},
-      {"speaker": "B", "fr": "Merci, c'est grâce à toi !", "en": "Thank you, it's thanks to you!", "km": "អរគុណ ដោយសារ {A}!", "tr": "â-koun, daoy sa {A} !"}
+      {"speaker": "B", "fr": "J'ai écrit une phrase en khmer. Tu peux me corriger ?", "en": "I wrote a sentence in Khmer. Can you correct me?", "km": "ខ្ញុំសរសេរប្រយោគមួយជាភាសាខ្មែរ។ កែឱ្យខ្ញុំបានទេ?", "tr": "khgnom sâ-sé prâ-yaok mouy tchéa phéa-sa khmaè. kaè aoy khgnom ban té ?",
+        "es": "He escrito una frase en jemer. ¿Me la puedes corregir?", "it": "Ho scritto una frase in khmer. Puoi correggermi?", "ru": "Я написал предложение по-кхмерски. Можешь меня поправить?", "zh": "我用高棉文写了一个句子。你能帮我改一改吗？", "zh_tr": "Wǒ yòng Gāomiánwén xiě le yí ge jùzi. Nǐ néng bāng wǒ gǎi yi gǎi ma?"},
+      {"speaker": "A", "fr": "Bien sûr, montre-moi.", "en": "Of course, show me.", "km": "បានណា យកមកមើល។", "tr": "ban na, yok mok meul.",
+        "es": "Claro, enséñamela.", "it": "Certo, fammi vedere.", "ru": "Конечно, покажи.", "zh": "当然，给我看看。", "zh_tr": "Dāngrán, gěi wǒ kànkan."},
+      {"speaker": "B", "fr": "Voilà. Et ce mot, comment ça se prononce ?", "en": "Here. And this word, how do you pronounce it?", "km": "នេះ។ ហើយពាក្យនេះ បញ្ចេញសំឡេងយ៉ាងម៉េច?", "tr": "nih. haeuy péak nih, bagn-tchégn sâm-léng yang métch ?",
+        "es": "Aquí está. Y esta palabra, ¿cómo se pronuncia?", "it": "Ecco. E questa parola come si pronuncia?", "ru": "Вот. А это слово как произносится?", "zh": "给你。这个词怎么念？", "zh_tr": "Gěi nǐ. Zhège cí zěnme niàn?"},
+      {"speaker": "A", "fr": "On dit neuk, tu me manques. Ta phrase est presque parfaite !", "en": "You say neuk, I miss you. Your sentence is almost perfect!", "km": "គេថា នឹក។ ប្រយោគរបស់ {B} ជិតត្រឹមត្រូវហើយ!", "tr": "ké tha neuk. prâ-yaok ro-bâh {B} tchit treum-treuv haeuy !",
+        "es": "Se dice neuk, te echo de menos. ¡Tu frase está casi perfecta!", "it": "Si dice neuk, mi manchi. La tua frase è quasi perfetta!", "ru": "Говорят «нык» — я скучаю по тебе. Твоё предложение почти идеальное!", "zh": "念neuk，意思是我想你。你的句子几乎完美！", "zh_tr": "Niàn neuk, yìsi shì wǒ xiǎng nǐ. Nǐ de jùzi jīhū wánměi!"},
+      {"speaker": "B", "fr": "Je m'entraîne tous les jours avec nos leçons.", "en": "I practise every day with our lessons.", "km": "ខ្ញុំហាត់រាល់ថ្ងៃជាមួយមេរៀនរបស់យើង។", "tr": "khgnom hat roal thngay tchéa-mouy mé-rien ro-bâh yeung.",
+        "es": "Practico todos los días con nuestras lecciones.", "it": "Mi esercito tutti i giorni con le nostre lezioni.", "ru": "Я тренируюсь каждый день по нашим урокам.", "zh": "我每天用我们的课练习。", "zh_tr": "Wǒ měitiān yòng wǒmen de kè liànxí."},
+      {"speaker": "A", "fr": "Ça se voit, tu as fait beaucoup de progrès !", "en": "It shows, you've made a lot of progress!", "km": "ឃើញច្បាស់ {B} ចេះច្រើនជាងមុនហើយ!", "tr": "kheugn tchbah, {B} tchéh tchraeun tchéang moun haeuy !",
+        "es": "¡Se nota, has progresado mucho!", "it": "Si vede, hai fatto molti progressi!", "ru": "Это заметно, ты очень продвинулся!", "zh": "看得出来，你进步很大！", "zh_tr": "Kàn de chūlai, nǐ jìnbù hěn dà!"},
+      {"speaker": "B", "fr": "Merci, c'est grâce à toi !", "en": "Thank you, it's thanks to you!", "km": "អរគុណ ដោយសារ {A}!", "tr": "â-koun, daoy sa {A} !",
+        "es": "¡Gracias, es gracias a ti!", "it": "Grazie, è merito tuo!", "ru": "Спасибо, это благодаря тебе!", "zh": "谢谢，这都是因为你！", "zh_tr": "Xièxie, zhè dōu shì yīnwèi nǐ!"}
     ]
   },
   "comprehension": {

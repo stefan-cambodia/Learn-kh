@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "la musique", "en": "music", "km": "តន្ត្រី", "tr": "tân-trey", "pos": "nom",
+      "fr": "la musique", "en": "music", "km": "តន្ត្រី", "tr": "tân-trey",
+      "es": "la música", "it": "la musica", "ru": "музыка", "zh": "音乐", "zh_tr": "yīnyuè", "pos": "nom",
       "note": {
         "fr": "តន្ត្រី est le mot général. À l'oral, on dit souvent ភ្លេង (phléng) : ស្តាប់ភ្លេង, écouter de la musique.",
         "en": "តន្ត្រី is the general word. In speech, people often say ភ្លេង (phléng): ស្តាប់ភ្លេង, listen to music. French « musique » is feminine.",
         "km": "« musique » ជានាមភេទស្រី៖ la musique។ « écouter de la musique » មានន័យថា ស្តាប់តន្ត្រី។ អង់គ្លេស៖ « music »។"
       },
-      "example": {"fr": "J'écoute de la musique khmère.", "en": "I listen to Khmer music.", "km": "ខ្ញុំស្តាប់តន្ត្រីខ្មែរ។", "tr": "khgnom sdap tân-trey khmaè."}
+      "example": {"fr": "J'écoute de la musique khmère.", "en": "I listen to Khmer music.", "km": "ខ្ញុំស្តាប់តន្ត្រីខ្មែរ។", "tr": "khgnom sdap tân-trey khmaè.",
+      "es": "Escucho música jemer.", "it": "Ascolto musica khmer.", "ru": "Я слушаю кхмерскую музыку.", "zh": "我听柬埔寨音乐。", "zh_tr": "Wǒ tīng Jiǎnpǔzhài yīnyuè."}
     },
     {
-      "fr": "chanter", "en": "to sing", "km": "ច្រៀង", "tr": "tchrieng", "pos": "verbe",
+      "fr": "chanter", "en": "to sing", "km": "ច្រៀង", "tr": "tchrieng",
+      "es": "cantar", "it": "cantare", "ru": "петь", "zh": "唱歌", "zh_tr": "chàng gē", "pos": "verbe",
       "note": {
         "fr": "Une chanson se dit ចម្រៀង (tchâm-rieng), formé sur le même mot. Le chanteur est អ្នកចម្រៀង.",
         "en": "A song is ចម្រៀង (tchâm-rieng), built on the same word. A singer is អ្នកចម្រៀង. French: « chanter », and « une chanson » for a song.",
         "km": "« chanter »៖ je chante, tu chantes។ « une chanson » មានន័យថា ចម្រៀង។ អង់គ្លេស៖ « to sing », « song »។"
       },
-      "example": {"fr": "Elle chante très bien.", "en": "She sings very well.", "km": "គាត់ច្រៀងពីរោះណាស់។", "tr": "koat tchrieng pi-rouh nah."}
+      "example": {"fr": "Elle chante très bien.", "en": "She sings very well.", "km": "គាត់ច្រៀងពីរោះណាស់។", "tr": "koat tchrieng pi-rouh nah.",
+      "es": "Ella canta muy bien.", "it": "Lei canta molto bene.", "ru": "Она очень хорошо поёт.", "zh": "她唱歌唱得很好。", "zh_tr": "Tā chàng gē chàng de hěn hǎo."}
     },
     {
-      "fr": "danser", "en": "to dance", "km": "រាំ", "tr": "roam", "pos": "verbe",
+      "fr": "danser", "en": "to dance", "km": "រាំ", "tr": "roam",
+      "es": "bailar", "it": "ballare", "ru": "танцевать", "zh": "跳舞", "zh_tr": "tiàowǔ", "pos": "verbe",
       "note": {
         "fr": "រាំ s'emploie pour toutes les danses. La danse classique khmère, celle des apsaras, se dit របាំ (ro-bam).",
         "en": "រាំ is used for every kind of dance. Classical Khmer dance, the apsara dance, is របាំ (ro-bam). French « danser »: on danse ?",
         "km": "« danser »៖ je danse, nous dansons។ « la danse » មានន័យថា របាំ។ អង់គ្លេស៖ « to dance »។"
       },
-      "example": {"fr": "Aux mariages, tout le monde danse.", "en": "At weddings, everyone dances.", "km": "នៅពិធីមង្គលការ គ្រប់គ្នារាំ។", "tr": "neuv pi-thi mong-kol-ka, kroup knéa roam."}
+      "example": {"fr": "Aux mariages, tout le monde danse.", "en": "At weddings, everyone dances.", "km": "នៅពិធីមង្គលការ គ្រប់គ្នារាំ។", "tr": "neuv pi-thi mong-kol-ka, kroup knéa roam.",
+      "es": "En las bodas, todo el mundo baila.", "it": "Ai matrimoni ballano tutti.", "ru": "На свадьбах все танцуют.", "zh": "在婚礼上，大家都跳舞。", "zh_tr": "Zài hūnlǐ shang, dàjiā dōu tiàowǔ."}
     },
     {
-      "fr": "lire", "en": "to read", "km": "អាន", "tr": "an", "pos": "verbe",
+      "fr": "lire", "en": "to read", "km": "អាន", "tr": "an",
+      "es": "leer", "it": "leggere", "ru": "читать", "zh": "看书", "zh_tr": "kàn shū", "pos": "verbe",
       "note": {
         "fr": "អាន sert pour lire un livre, et aussi pour réciter à voix haute. Un livre se dit សៀវភៅ (siev-phov).",
         "en": "អាន is used for reading a book, and also for reciting aloud. A book is សៀវភៅ (siev-phov). French « lire »: je lis.",
         "km": "« lire »៖ je lis, tu lis, il lit។ « un livre » មានន័យថា សៀវភៅ។ អង់គ្លេស៖ « to read », « book »។"
       },
-      "example": {"fr": "Le soir, j'aime lire avant de dormir.", "en": "In the evening, I like to read before sleeping.", "km": "ពេលយប់ ខ្ញុំចូលចិត្តអានសៀវភៅមុនគេង។", "tr": "pél youp, khgnom tchôl tchet an siev-phov moun kéng."}
+      "example": {"fr": "Le soir, j'aime lire avant de dormir.", "en": "In the evening, I like to read before sleeping.", "km": "ពេលយប់ ខ្ញុំចូលចិត្តអានសៀវភៅមុនគេង។", "tr": "pél youp, khgnom tchôl tchet an siev-phov moun kéng.",
+      "es": "Por la noche me gusta leer antes de dormir.", "it": "La sera mi piace leggere prima di dormire.", "ru": "Вечером я люблю читать перед сном.", "zh": "晚上我喜欢睡觉前看书。", "zh_tr": "Wǎnshang wǒ xǐhuan shuìjiào qián kàn shū."}
     },
     {
-      "fr": "le film", "en": "film", "km": "ភាពយន្ត", "tr": "phéap-yun", "pos": "nom",
+      "fr": "le film", "en": "film", "km": "ភាពយន្ត", "tr": "phéap-yun",
+      "es": "la película", "it": "il film", "ru": "фильм", "zh": "电影", "zh_tr": "diànyǐng", "pos": "nom",
       "note": {
         "fr": "ភាពយន្ត est le mot écrit. À l'oral, on dit កុន (kon) : មើលកុន, voir un film ; រោងកុន, le cinéma.",
         "en": "ភាពយន្ត is the written word. In speech, people say កុន (kon): មើលកុន, watch a film; រោងកុន, cinema. French « film » is masculine.",
         "km": "« film » ជានាមភេទប្រុស៖ le film។ « le cinéma » មានន័យថា រោងកុន។ អង់គ្លេស៖ « film » ឬ « movie »។"
       },
-      "example": {"fr": "Ce film khmer est très bon.", "en": "This Khmer film is very good.", "km": "ភាពយន្តខ្មែរនេះល្អណាស់។", "tr": "phéap-yun khmaè nih l'â nah."}
+      "example": {"fr": "Ce film khmer est très bon.", "en": "This Khmer film is very good.", "km": "ភាពយន្តខ្មែរនេះល្អណាស់។", "tr": "phéap-yun khmaè nih l'â nah.",
+      "es": "Esta película jemer es muy buena.", "it": "Questo film khmer è molto bello.", "ru": "Этот кхмерский фильм очень хороший.", "zh": "这部柬埔寨电影很好看。", "zh_tr": "Zhè bù Jiǎnpǔzhài diànyǐng hěn hǎokàn."}
     },
     {
-      "fr": "le sport", "en": "sport", "km": "កីឡា", "tr": "key-la", "pos": "nom",
+      "fr": "le sport", "en": "sport", "km": "កីឡា", "tr": "key-la",
+      "es": "el deporte", "it": "lo sport", "ru": "спорт", "zh": "运动", "zh_tr": "yùndòng", "pos": "nom",
       "note": {
         "fr": "Pour « faire du sport », on dit លេងកីឡា (léng key-la) ou, pour l'exercice physique, ហាត់ប្រាណ (hat pran).",
         "en": "For “do sport”, say លេងកីឡា (léng key-la) or, for physical exercise, ហាត់ប្រាណ (hat pran). French « faire du sport ».",
         "km": "« sport » ជានាមភេទប្រុស៖ le sport។ « faire du sport » មានន័យថា លេងកីឡា។ អង់គ្លេស៖ « to play sports », « to exercise »។"
       },
-      "example": {"fr": "Je fais du sport trois fois par semaine.", "en": "I exercise three times a week.", "km": "ខ្ញុំលេងកីឡាមួយសប្តាហ៍បីដង។", "tr": "khgnom léng key-la mouy sap-da bey dâng."}
+      "example": {"fr": "Je fais du sport trois fois par semaine.", "en": "I exercise three times a week.", "km": "ខ្ញុំលេងកីឡាមួយសប្តាហ៍បីដង។", "tr": "khgnom léng key-la mouy sap-da bey dâng.",
+      "es": "Hago deporte tres veces por semana.", "it": "Faccio sport tre volte a settimana.", "ru": "Я занимаюсь спортом три раза в неделю.", "zh": "我一个星期运动三次。", "zh_tr": "Wǒ yí ge xīngqī yùndòng sān cì."}
     }
   ],
   "expressions": [
     {
       "fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?", "km": "ចុងសប្តាហ៍ធ្វើអ្វីខ្លះ?", "tr": "tchong sap-da thveu ey khlah ?",
+      "es": "¿Qué haces el fin de semana?", "it": "Che cosa fai nel fine settimana?", "ru": "Что ты делаешь на выходных?", "zh": "你周末做什么？", "zh_tr": "Nǐ zhōumò zuò shénme?",
       "note": {
         "fr": "ចុងសប្តាហ៍, « le bout de la semaine ». ខ្លះ en fin de question demande plusieurs réponses.",
         "en": "ចុងសប្តាហ៍, “the end of the week”. ខ្លះ at the end of a question asks for several answers. French uses « le week-end », borrowed from English.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "J'adore ça !", "en": "I love it!", "km": "ខ្ញុំចូលចិត្តណាស់!", "tr": "khgnom tchôl tchet nah !",
+      "es": "¡Me encanta!", "it": "Lo adoro!", "ru": "Обожаю это!", "zh": "我太喜欢了！", "zh_tr": "Wǒ tài xǐhuan le!",
       "note": {
         "fr": "Le khmer renforce simplement le verbe avec ណាស់, « très ».",
         "en": "Khmer simply strengthens the verb with ណាស់, “very”. French « adorer » means “to love”, for things too.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Je n'aime pas trop ça.", "en": "I'm not really into it.", "km": "ខ្ញុំមិនសូវចូលចិត្តទេ។", "tr": "khgnom min seuv tchôl tchet té.",
+      "es": "No me gusta mucho.", "it": "Non mi piace molto.", "ru": "Мне это не очень нравится.", "zh": "我不太喜欢。", "zh_tr": "Wǒ bú tài xǐhuan.",
       "note": {
         "fr": "មិនសូវ (min seuv), « pas tellement ». Façon polie de dire non, sans vexer.",
         "en": "មិនសូវ (min seuv), “not really”. A polite way of saying no without offending. French « pas trop » means “not much”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "On va au cinéma ?", "en": "Shall we go to the cinema?", "km": "ទៅមើលកុនទេ?", "tr": "teuv meul kon té ?",
+      "es": "¿Vamos al cine?", "it": "Andiamo al cinema?", "ru": "Пойдём в кино?", "zh": "我们去看电影吧？", "zh_tr": "Wǒmen qù kàn diànyǐng ba?",
       "note": {
         "fr": "Mot à mot « aller regarder un film ? ». On ne mentionne pas le lieu.",
         "en": "Word for word “go and watch a film?”. The place is not mentioned. French « On va au cinéma ? ».",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "À un mariage", "en": "At a wedding", "km": "នៅពិធីមង្គលការ"},
       "fr": "Aux mariages khmers, tout le monde danse ensemble en cercle.", "en": "At Khmer weddings, everyone dances together in a circle.",
-      "km": "នៅពិធីមង្គលការខ្មែរ គេរាំវង់ជាមួយគ្នាទាំងអស់។", "tr": "neuv pi-thi mong-kol-ka khmaè, ké roam-vong tchéa-mouy knéa téang âh."
+      "km": "នៅពិធីមង្គលការខ្មែរ គេរាំវង់ជាមួយគ្នាទាំងអស់។", "tr": "neuv pi-thi mong-kol-ka khmaè, ké roam-vong tchéa-mouy knéa téang âh.",
+      "es": "En las bodas jemeres, todo el mundo baila junto en círculo.", "it": "Ai matrimoni khmer tutti ballano insieme in cerchio.", "ru": "На кхмерских свадьбах все вместе танцуют по кругу.", "zh": "在柬埔寨婚礼上，大家围成一圈一起跳舞。", "zh_tr": "Zài Jiǎnpǔzhài hūnlǐ shang, dàjiā wéi chéng yì quān yìqǐ tiàowǔ."
     },
     {
       "situation": {"fr": "Au bord du fleuve", "en": "By the river", "km": "នៅមាត់ទន្លេ"},
       "fr": "Le matin, beaucoup de gens font du sport au bord du fleuve.", "en": "In the morning, many people exercise by the river.",
-      "km": "ពេលព្រឹក មនុស្សច្រើនហាត់ប្រាណនៅមាត់ទន្លេ។", "tr": "pél preuk, mo-nouh tchraeun hat pran neuv moat tonlé."
+      "km": "ពេលព្រឹក មនុស្សច្រើនហាត់ប្រាណនៅមាត់ទន្លេ។", "tr": "pél preuk, mo-nouh tchraeun hat pran neuv moat tonlé.",
+      "es": "Por la mañana, mucha gente hace deporte a orillas del río.", "it": "La mattina molte persone fanno sport lungo il fiume.", "ru": "Утром многие занимаются спортом на берегу реки.", "zh": "早上很多人在河边运动。", "zh_tr": "Zǎoshang hěn duō rén zài hébiān yùndòng."
     },
     {
       "situation": {"fr": "Un soir tranquille", "en": "A quiet evening", "km": "ល្ងាចស្ងាត់មួយ"},
       "fr": "Ce soir, je reste à la maison pour lire et écouter de la musique.", "en": "Tonight, I'm staying home to read and listen to music.",
-      "km": "យប់នេះ ខ្ញុំនៅផ្ទះ អានសៀវភៅ និងស្តាប់តន្ត្រី។", "tr": "youp nih, khgnom neuv phtéah, an siev-phov neung sdap tân-trey."
+      "km": "យប់នេះ ខ្ញុំនៅផ្ទះ អានសៀវភៅ និងស្តាប់តន្ត្រី។", "tr": "youp nih, khgnom neuv phtéah, an siev-phov neung sdap tân-trey.",
+      "es": "Esta noche me quedo en casa para leer y escuchar música.", "it": "Stasera resto a casa a leggere e ad ascoltare musica.", "ru": "Сегодня вечером я остаюсь дома читать и слушать музыку.", "zh": "今天晚上我在家看书、听音乐。", "zh_tr": "Jīntiān wǎnshang wǒ zài jiā kàn shū, tīng yīnyuè."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Un vendredi soir.", "en": "One Friday evening.", "km": "ល្ងាចថ្ងៃសុក្រមួយ។"},
     "lines": [
-      {"speaker": "B", "fr": "Qu'est-ce qu'on fait ce week-end ?", "en": "What shall we do this weekend?", "km": "ចុងសប្តាហ៍នេះ យើងធ្វើអ្វី?", "tr": "tchong sap-da nih, yeung thveu ey ?"},
-      {"speaker": "A", "fr": "On va au cinéma ? Il y a un nouveau film khmer.", "en": "Shall we go to the cinema? There is a new Khmer film.", "km": "ទៅមើលកុនទេ? មានភាពយន្តខ្មែរថ្មី។", "tr": "teuv meul kon té ? méan phéap-yun khmaè thmey."},
-      {"speaker": "B", "fr": "Bonne idée. Et après, on va danser ?", "en": "Good idea. And afterwards, shall we go dancing?", "km": "គំនិតល្អ។ ហើយបន្ទាប់មក ទៅរាំទេ?", "tr": "koum-neut l'â. haeuy bân-toap mok, teuv roam té ?"},
-      {"speaker": "A", "fr": "Je n'aime pas trop ça. Je préfère chanter au karaoké !", "en": "I'm not really into it. I'd rather sing karaoke!", "km": "ខ្ញុំមិនសូវចូលចិត្តទេ។ ខ្ញុំចូលចិត្តច្រៀងខារ៉ាអូខេជាង!", "tr": "khgnom min seuv tchôl tchet té. khgnom tchôl tchet tchrieng kha-ra-ô-khé tchéang !"},
-      {"speaker": "B", "fr": "D'accord, mais je chante mal !", "en": "Okay, but I'm a bad singer!", "km": "បាន ប៉ុន្តែខ្ញុំច្រៀងមិនពីរោះទេ!", "tr": "ban, pon-taè khgnom tchrieng min pi-rouh té !"},
-      {"speaker": "A", "fr": "Ce n'est pas grave. L'important, c'est de s'amuser !", "en": "It doesn't matter. The important thing is to have fun!", "km": "មិនអីទេ។ សំខាន់គឺសប្បាយ!", "tr": "min ey té. sâm-khan keu sa-bay !"}
+      {"speaker": "B", "fr": "Qu'est-ce qu'on fait ce week-end ?", "en": "What shall we do this weekend?", "km": "ចុងសប្តាហ៍នេះ យើងធ្វើអ្វី?", "tr": "tchong sap-da nih, yeung thveu ey ?",
+        "es": "¿Qué hacemos este fin de semana?", "it": "Che cosa facciamo questo fine settimana?", "ru": "Что будем делать на этих выходных?", "zh": "这个周末我们做什么？", "zh_tr": "Zhège zhōumò wǒmen zuò shénme?"},
+      {"speaker": "A", "fr": "On va au cinéma ? Il y a un nouveau film khmer.", "en": "Shall we go to the cinema? There is a new Khmer film.", "km": "ទៅមើលកុនទេ? មានភាពយន្តខ្មែរថ្មី។", "tr": "teuv meul kon té ? méan phéap-yun khmaè thmey.",
+        "es": "¿Vamos al cine? Hay una película jemer nueva.", "it": "Andiamo al cinema? C'è un nuovo film khmer.", "ru": "Пойдём в кино? Вышел новый кхмерский фильм.", "zh": "我们去看电影吧？有一部新的柬埔寨电影。", "zh_tr": "Wǒmen qù kàn diànyǐng ba? Yǒu yí bù xīn de Jiǎnpǔzhài diànyǐng."},
+      {"speaker": "B", "fr": "Bonne idée. Et après, on va danser ?", "en": "Good idea. And afterwards, shall we go dancing?", "km": "គំនិតល្អ។ ហើយបន្ទាប់មក ទៅរាំទេ?", "tr": "koum-neut l'â. haeuy bân-toap mok, teuv roam té ?",
+        "es": "Buena idea. ¿Y después vamos a bailar?", "it": "Buona idea. E dopo andiamo a ballare?", "ru": "Хорошая идея. А потом пойдём танцевать?", "zh": "好主意。然后我们去跳舞吧？", "zh_tr": "Hǎo zhǔyi. Ránhòu wǒmen qù tiàowǔ ba?"},
+      {"speaker": "A", "fr": "Je n'aime pas trop ça. Je préfère chanter au karaoké !", "en": "I'm not really into it. I'd rather sing karaoke!", "km": "ខ្ញុំមិនសូវចូលចិត្តទេ។ ខ្ញុំចូលចិត្តច្រៀងខារ៉ាអូខេជាង!", "tr": "khgnom min seuv tchôl tchet té. khgnom tchôl tchet tchrieng kha-ra-ô-khé tchéang !",
+        "es": "No me gusta mucho. ¡Prefiero cantar en el karaoke!", "it": "Non mi piace molto. Preferisco cantare al karaoke!", "ru": "Мне это не очень нравится. Я лучше спою в караоке!", "zh": "我不太喜欢跳舞。我更喜欢去唱卡拉OK！", "zh_tr": "Wǒ bú tài xǐhuan tiàowǔ. Wǒ gèng xǐhuan qù chàng kǎlā OK!"},
+      {"speaker": "B", "fr": "D'accord, mais je chante mal !", "en": "Okay, but I'm a bad singer!", "km": "បាន ប៉ុន្តែខ្ញុំច្រៀងមិនពីរោះទេ!", "tr": "ban, pon-taè khgnom tchrieng min pi-rouh té !",
+        "es": "Vale, ¡pero canto fatal!", "it": "D'accordo, ma io canto male!", "ru": "Ладно, но я плохо пою!", "zh": "好吧，不过我唱得不好！", "zh_tr": "Hǎo ba, búguò wǒ chàng de bù hǎo!"},
+      {"speaker": "A", "fr": "Ce n'est pas grave. L'important, c'est de s'amuser !", "en": "It doesn't matter. The important thing is to have fun!", "km": "មិនអីទេ។ សំខាន់គឺសប្បាយ!", "tr": "min ey té. sâm-khan keu sa-bay !",
+        "es": "No pasa nada. ¡Lo importante es divertirse!", "it": "Non importa. L'importante è divertirsi!", "ru": "Ничего страшного. Главное — повеселиться!", "zh": "没关系。开心最重要！", "zh_tr": "Méi guānxi. Kāixīn zuì zhòngyào!"}
     ]
   },
   "comprehension": {

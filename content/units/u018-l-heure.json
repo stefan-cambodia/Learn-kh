@@ -11,34 +11,41 @@
   },
   "vocabulary": [
     {
-      "fr": "l'heure", "en": "hour", "km": "ម៉ោង", "tr": "maong", "pos": "nom",
+      "fr": "l'heure", "en": "hour", "km": "ម៉ោង", "tr": "maong",
+      "es": "la hora", "it": "l'ora", "ru": "час", "zh": "点", "zh_tr": "diǎn", "pos": "nom",
       "note": {
         "fr": "ម៉ោង se place avant le nombre pour l'heure qu'il est (ម៉ោងបី, trois heures) et après le nombre pour une durée (បីម៉ោង, pendant trois heures).",
         "en": "ម៉ោង goes before the number for the time of day (ម៉ោងបី, three o'clock) and after it for a duration (បីម៉ោង, for three hours). French « heure » is feminine; the h is silent.",
         "km": "« heure » ជានាមភេទស្រី អក្សរ h មិនអានទេ៖ l'heure។ បារាំងនិយាយ « Il est trois heures » ហើយអង់គ្លេសនិយាយ « It is three o'clock »។"
       },
-      "example": {"fr": "Il est huit heures.", "en": "It is eight o'clock.", "km": "ម៉ោងប្រាំបីហើយ។", "tr": "maong pram-bey haeuy."}
+      "example": {"fr": "Il est huit heures.", "en": "It is eight o'clock.", "km": "ម៉ោងប្រាំបីហើយ។", "tr": "maong pram-bey haeuy.",
+      "es": "Son las ocho.", "it": "Sono le otto.", "ru": "Сейчас восемь часов.", "zh": "现在八点。", "zh_tr": "Xiànzài bā diǎn."}
     },
     {
-      "fr": "la minute", "en": "minute", "km": "នាទី", "tr": "néa-ti", "pos": "nom",
+      "fr": "la minute", "en": "minute", "km": "នាទី", "tr": "néa-ti",
+      "es": "el minuto", "it": "il minuto", "ru": "минута", "zh": "分钟", "zh_tr": "fēnzhōng", "pos": "nom",
       "note": {
         "fr": "Les minutes suivent l'heure : ម៉ោងបី ដប់នាទី, « trois heures dix ».",
         "en": "Minutes follow the hour: ម៉ោងបី ដប់នាទី, “ten past three”. French says the same: trois heures dix.",
         "km": "« minute » ជានាមភេទស្រី៖ une minute, dix minutes។ អង់គ្លេសសរសេរដូចគ្នា ប៉ុន្តែអានថា « មីនីត »។"
       },
-      "example": {"fr": "Attends cinq minutes, s'il te plaît.", "en": "Wait five minutes, please.", "km": "សូមចាំប្រាំនាទី។", "tr": "sôm tcham pram néa-ti."}
+      "example": {"fr": "Attends cinq minutes, s'il te plaît.", "en": "Wait five minutes, please.", "km": "សូមចាំប្រាំនាទី។", "tr": "sôm tcham pram néa-ti.",
+      "es": "Espera cinco minutos, por favor.", "it": "Aspetta cinque minuti, per favore.", "ru": "Подожди пять минут, пожалуйста.", "zh": "请等五分钟。", "zh_tr": "Qǐng děng wǔ fēnzhōng."}
     },
     {
-      "fr": "maintenant", "en": "now", "km": "ឥឡូវនេះ", "tr": "ey-leuv nih", "pos": "adverbe",
+      "fr": "maintenant", "en": "now", "km": "ឥឡូវនេះ", "tr": "ey-leuv nih",
+      "es": "ahora", "it": "adesso", "ru": "сейчас", "zh": "现在", "zh_tr": "xiànzài", "pos": "adverbe",
       "note": {
         "fr": "Se dit aussi simplement ឥឡូវ (ey-leuv). Se place le plus souvent en début de phrase.",
         "en": "Also simply ឥឡូវ (ey-leuv). It usually goes at the start of the sentence. French « maintenant » has two nasal vowels.",
         "km": "« maintenant » ច្រើននៅដើម ឬចុងប្រយោគ៖ « Je pars maintenant »។ អង់គ្លេស៖ « now »។"
       },
-      "example": {"fr": "Quelle heure est-il maintenant ?", "en": "What time is it now?", "km": "ឥឡូវនេះម៉ោងប៉ុន្មានហើយ?", "tr": "ey-leuv nih maong pon-man haeuy ?"}
+      "example": {"fr": "Quelle heure est-il maintenant ?", "en": "What time is it now?", "km": "ឥឡូវនេះម៉ោងប៉ុន្មានហើយ?", "tr": "ey-leuv nih maong pon-man haeuy ?",
+      "es": "¿Qué hora es ahora?", "it": "Che ore sono adesso?", "ru": "Который сейчас час?", "zh": "现在几点？", "zh_tr": "Xiànzài jǐ diǎn?"}
     },
     {
-      "fr": "en avance", "en": "early", "km": "មុនម៉ោង", "tr": "moun maong", "pos": "adverbe",
+      "fr": "en avance", "en": "early", "km": "មុនម៉ោង", "tr": "moun maong",
+      "es": "temprano", "it": "in anticipo", "ru": "рано", "zh": "早", "zh_tr": "zǎo", "pos": "adverbe",
       "uncertain": true,
       "uncertain_note": "Pas d'équivalent en un seul mot ; មុនម៉ោង (« avant l'heure ») est la tournure courante retenue. À faire confirmer par un locuteur natif.",
       "note": {
@@ -46,30 +53,36 @@
         "en": "Word for word “before the hour”. Used after a verb: មកមុនម៉ោង, “arrive early”. French « en avance » means “ahead of time”.",
         "km": "« en avance » មានន័យថា មកដល់មុនម៉ោងកំណត់។ ពាក្យផ្ទុយគឺ « en retard »។ អង់គ្លេស៖ « early »។"
       },
-      "example": {"fr": "Aujourd'hui, je suis en avance.", "en": "Today, I am early.", "km": "ថ្ងៃនេះខ្ញុំមកមុនម៉ោង។", "tr": "thngay nih khgnom mok moun maong."}
+      "example": {"fr": "Aujourd'hui, je suis en avance.", "en": "Today, I am early.", "km": "ថ្ងៃនេះខ្ញុំមកមុនម៉ោង។", "tr": "thngay nih khgnom mok moun maong.",
+      "es": "Hoy llego temprano.", "it": "Oggi sono in anticipo.", "ru": "Сегодня я прихожу рано.", "zh": "今天我来早了。", "zh_tr": "Jīntiān wǒ lái zǎo le."}
     },
     {
-      "fr": "en retard", "en": "late", "km": "យឺត", "tr": "yeut", "pos": "adverbe",
+      "fr": "en retard", "en": "late", "km": "យឺត", "tr": "yeut",
+      "es": "tarde", "it": "in ritardo", "ru": "поздно", "zh": "晚", "zh_tr": "wǎn", "pos": "adverbe",
       "note": {
         "fr": "យឺត signifie d'abord « lent » : មកយឺត, c'est arriver en retard. យឺតហើយ ! = « on est en retard ! ».",
         "en": "យឺត first means “slow”: មកយឺត is to arrive late. យឺតហើយ! = “we're late!”. French « en retard » means “late”.",
         "km": "« en retard » មានន័យថា មកយឺត ឬហួសម៉ោង។ « Je suis en retard » = ខ្ញុំយឺតហើយ។ អង់គ្លេស៖ « late »។"
       },
-      "example": {"fr": "Excuse-moi, je suis en retard.", "en": "Sorry, I am late.", "km": "សុំទោស ខ្ញុំមកយឺត។", "tr": "som toh, khgnom mok yeut."}
+      "example": {"fr": "Excuse-moi, je suis en retard.", "en": "Sorry, I am late.", "km": "សុំទោស ខ្ញុំមកយឺត។", "tr": "som toh, khgnom mok yeut.",
+      "es": "Perdona, llego tarde.", "it": "Scusa, sono in ritardo.", "ru": "Извини, я опаздываю.", "zh": "对不起，我来晚了。", "zh_tr": "Duìbuqǐ, wǒ lái wǎn le."}
     },
     {
-      "fr": "attendre", "en": "to wait", "km": "រង់ចាំ", "tr": "rong-tcham", "pos": "verbe",
+      "fr": "attendre", "en": "to wait", "km": "រង់ចាំ", "tr": "rong-tcham",
+      "es": "esperar", "it": "aspettare", "ru": "ждать", "zh": "等", "zh_tr": "děng", "pos": "verbe",
       "note": {
         "fr": "Dans la conversation, on abrège souvent en ចាំ (tcham) : ចាំបន្តិច, « attends un peu ».",
         "en": "In conversation, often shortened to ចាំ (tcham): ចាំបន្តិច, “wait a little”. French « attendre » takes no preposition: j'attends le bus.",
         "km": "« attendre »៖ j'attends, nous attendons។ អង់គ្លេសត្រូវថែម « for » នៅពីមុខអ្វីដែលគេរង់ចាំ៖ « wait for the bus »។"
       },
-      "example": {"fr": "Nous attendons le bus.", "en": "We are waiting for the bus.", "km": "យើងរង់ចាំឡានក្រុង។", "tr": "yeung rong-tcham lan-krong."}
+      "example": {"fr": "Nous attendons le bus.", "en": "We are waiting for the bus.", "km": "យើងរង់ចាំឡានក្រុង។", "tr": "yeung rong-tcham lan-krong.",
+      "es": "Esperamos el autobús.", "it": "Aspettiamo l'autobus.", "ru": "Мы ждём автобус.", "zh": "我们在等公共汽车。", "zh_tr": "Wǒmen zài děng gōnggòng qìchē."}
     }
   ],
   "expressions": [
     {
       "fr": "Dans dix minutes.", "en": "In ten minutes.", "km": "ដប់នាទីទៀត។", "tr": "dâp néa-ti tiet.",
+      "es": "Dentro de diez minutos.", "it": "Tra dieci minuti.", "ru": "Через десять минут.", "zh": "十分钟以后。", "zh_tr": "Shí fēnzhōng yǐhòu.",
       "note": {
         "fr": "Mot à mot « dix minutes encore ». ទៀត (tiet) placé après une durée signifie « dans… ».",
         "en": "Word for word “ten minutes more”. ទៀត (tiet) after a duration means “in…”. French: « dans dix minutes ».",
@@ -78,6 +91,7 @@
     },
     {
       "fr": "On part à quelle heure ?", "en": "What time are we leaving?", "km": "យើងចេញទៅម៉ោងប៉ុន្មាន?", "tr": "yeung tchégn teuv maong pon-man ?",
+      "es": "¿A qué hora salimos?", "it": "A che ora partiamo?", "ru": "Во сколько мы выходим?", "zh": "我们几点走？", "zh_tr": "Wǒmen jǐ diǎn zǒu?",
       "note": {
         "fr": "Sans ហើយ, ម៉ោងប៉ុន្មាន? demande « à quelle heure ? ». Aucune préposition n'est nécessaire.",
         "en": "Without ហើយ, ម៉ោងប៉ុន្មាន? asks “at what time?”. No preposition is needed. French: « à quelle heure ? ».",
@@ -86,6 +100,7 @@
     },
     {
       "fr": "Attends un peu.", "en": "Wait a moment.", "km": "ចាំបន្តិច។", "tr": "tcham bân-tetch.",
+      "es": "Espera un momento.", "it": "Aspetta un attimo.", "ru": "Подожди немного.", "zh": "等一下。", "zh_tr": "Děng yíxià.",
       "note": {
         "fr": "ចាំ est la forme courte de រង់ចាំ ; បន្តិច = « un peu ».",
         "en": "ចាំ is the short form of រង់ចាំ; បន្តិច = “a little”. French « Attends » is familiar; « Attendez » is polite.",
@@ -94,6 +109,7 @@
     },
     {
       "fr": "Il est sept heures et demie.", "en": "It is half past seven.", "km": "ម៉ោងប្រាំពីរកន្លះ។", "tr": "maong pram-pi kân-lah.",
+      "es": "Son las siete y media.", "it": "Sono le sette e mezza.", "ru": "Сейчас половина восьмого.", "zh": "现在七点半。", "zh_tr": "Xiànzài qī diǎn bàn.",
       "note": {
         "fr": "កន្លះ (kân-lah) = « et demie », toujours placé après l'heure.",
         "en": "កន្លះ (kân-lah) = “and a half”, always placed after the hour. French « et demie » also follows the hour: sept heures et demie.",
@@ -105,17 +121,20 @@
     {
       "situation": {"fr": "Fixer un rendez-vous", "en": "Setting a time to meet", "km": "ពេលណាត់ជួប"},
       "fr": "On se retrouve à six heures du soir devant le marché.", "en": "Let's meet at six in the evening in front of the market.",
-      "km": "ជួបគ្នាម៉ោងប្រាំមួយល្ងាច នៅមុខផ្សារ។", "tr": "tchouop knéa maong pram-mouy lngéatch, neuv mouk phsa."
+      "km": "ជួបគ្នាម៉ោងប្រាំមួយល្ងាច នៅមុខផ្សារ។", "tr": "tchouop knéa maong pram-mouy lngéatch, neuv mouk phsa.",
+      "es": "Quedamos a las seis de la tarde delante del mercado.", "it": "Ci vediamo alle sei di sera davanti al mercato.", "ru": "Встретимся в шесть вечера перед рынком.", "zh": "我们晚上六点在市场前面见。", "zh_tr": "Wǒmen wǎnshang liù diǎn zài shìchǎng qiánmiàn jiàn."
     },
     {
       "situation": {"fr": "Arriver en retard", "en": "Arriving late", "km": "ពេលមកយឺត"},
       "fr": "Excuse-moi, je suis en retard de dix minutes.", "en": "Sorry, I am ten minutes late.",
-      "km": "សុំទោស ខ្ញុំមកយឺតដប់នាទី។", "tr": "som toh, khgnom mok yeut dâp néa-ti."
+      "km": "សុំទោស ខ្ញុំមកយឺតដប់នាទី។", "tr": "som toh, khgnom mok yeut dâp néa-ti.",
+      "es": "Perdona, llego diez minutos tarde.", "it": "Scusa, sono in ritardo di dieci minuti.", "ru": "Извини, я опаздываю на десять минут.", "zh": "对不起，我晚了十分钟。", "zh_tr": "Duìbuqǐ, wǒ wǎn le shí fēnzhōng."
     },
     {
       "situation": {"fr": "Prendre le bus", "en": "Taking the bus", "km": "ពេលជិះឡានក្រុង"},
       "fr": "Le bus part à sept heures et demie, ne sois pas en retard !", "en": "The bus leaves at half past seven, do not be late!",
-      "km": "ឡានក្រុងចេញម៉ោងប្រាំពីរកន្លះ កុំមកយឺតណា!", "tr": "lan-krong tchégn maong pram-pi kân-lah, kom mok yeut na !"
+      "km": "ឡានក្រុងចេញម៉ោងប្រាំពីរកន្លះ កុំមកយឺតណា!", "tr": "lan-krong tchégn maong pram-pi kân-lah, kom mok yeut na !",
+      "es": "El autobús sale a las siete y media, ¡no llegues tarde!", "it": "L'autobus parte alle sette e mezza, non fare tardi!", "ru": "Автобус уходит в половине восьмого, не опаздывай!", "zh": "公共汽车七点半出发，别迟到！", "zh_tr": "Gōnggòng qìchē qī diǎn bàn chūfā, bié chídào!"
     }
   ],
   "dialogue": {
@@ -125,12 +144,18 @@
       "km": "ពេលល្ងាច នៅផ្ទះ៖ {A} និង {B} ត្រូវទៅជិះឡានក្រុង។"
     },
     "lines": [
-      {"speaker": "B", "fr": "Quelle heure est-il maintenant ?", "en": "What time is it now?", "km": "ឥឡូវនេះម៉ោងប៉ុន្មានហើយ?", "tr": "ey-leuv nih maong pon-man haeuy ?"},
-      {"speaker": "A", "fr": "Il est six heures et demie.", "en": "It is half past six.", "km": "ម៉ោងប្រាំមួយកន្លះហើយ។", "tr": "maong pram-mouy kân-lah haeuy."},
-      {"speaker": "B", "fr": "Oh ! Le bus part à sept heures. Nous sommes en retard !", "en": "Oh! The bus leaves at seven. We are late!", "km": "អូ! ឡានក្រុងចេញម៉ោងប្រាំពីរ។ យើងយឺតហើយ!", "tr": "ô ! lan-krong tchégn maong pram-pi. yeung yeut haeuy !"},
-      {"speaker": "A", "fr": "Attends-moi cinq minutes, s'il te plaît.", "en": "Wait five minutes for me, please.", "km": "ចាំខ្ញុំប្រាំនាទីសិន។", "tr": "tcham khgnom pram néa-ti sen."},
-      {"speaker": "B", "fr": "D'accord, je t'attends devant la porte.", "en": "Okay, I'll wait for you at the door.", "km": "បាន ខ្ញុំរង់ចាំនៅមុខទ្វារ។", "tr": "ban, khgnom rong-tcham neuv mouk tvéa."},
-      {"speaker": "A", "fr": "Merci ! J'arrive tout de suite.", "en": "Thank you! I am coming right now.", "km": "អរគុណ! ខ្ញុំមកឥឡូវហើយ។", "tr": "â-koun ! khgnom mok ey-leuv haeuy."}
+      {"speaker": "B", "fr": "Quelle heure est-il maintenant ?", "en": "What time is it now?", "km": "ឥឡូវនេះម៉ោងប៉ុន្មានហើយ?", "tr": "ey-leuv nih maong pon-man haeuy ?",
+        "es": "¿Qué hora es ahora?", "it": "Che ore sono adesso?", "ru": "Который сейчас час?", "zh": "现在几点？", "zh_tr": "Xiànzài jǐ diǎn?"},
+      {"speaker": "A", "fr": "Il est six heures et demie.", "en": "It is half past six.", "km": "ម៉ោងប្រាំមួយកន្លះហើយ។", "tr": "maong pram-mouy kân-lah haeuy.",
+        "es": "Son las seis y media.", "it": "Sono le sei e mezza.", "ru": "Сейчас половина седьмого.", "zh": "现在六点半。", "zh_tr": "Xiànzài liù diǎn bàn."},
+      {"speaker": "B", "fr": "Oh ! Le bus part à sept heures. Nous sommes en retard !", "en": "Oh! The bus leaves at seven. We are late!", "km": "អូ! ឡានក្រុងចេញម៉ោងប្រាំពីរ។ យើងយឺតហើយ!", "tr": "ô ! lan-krong tchégn maong pram-pi. yeung yeut haeuy !",
+        "es": "¡Oh! El autobús sale a las siete. ¡Llegamos tarde!", "it": "Oh! L'autobus parte alle sette. Siamo in ritardo!", "ru": "Ой! Автобус уходит в семь. Мы опаздываем!", "zh": "哎呀！公共汽车七点出发。我们要迟到了！", "zh_tr": "Āiyā! Gōnggòng qìchē qī diǎn chūfā. Wǒmen yào chídào le!"},
+      {"speaker": "A", "fr": "Attends-moi cinq minutes, s'il te plaît.", "en": "Wait five minutes for me, please.", "km": "ចាំខ្ញុំប្រាំនាទីសិន។", "tr": "tcham khgnom pram néa-ti sen.",
+        "es": "Espérame cinco minutos, por favor.", "it": "Aspettami cinque minuti, per favore.", "ru": "Подожди меня пять минут, пожалуйста.", "zh": "请等我五分钟。", "zh_tr": "Qǐng děng wǒ wǔ fēnzhōng."},
+      {"speaker": "B", "fr": "D'accord, je t'attends devant la porte.", "en": "Okay, I'll wait for you at the door.", "km": "បាន ខ្ញុំរង់ចាំនៅមុខទ្វារ។", "tr": "ban, khgnom rong-tcham neuv mouk tvéa.",
+        "es": "Vale, te espero en la puerta.", "it": "D'accordo, ti aspetto alla porta.", "ru": "Хорошо, я жду тебя у двери.", "zh": "好，我在门口等你。", "zh_tr": "Hǎo, wǒ zài ménkǒu děng nǐ."},
+      {"speaker": "A", "fr": "Merci ! J'arrive tout de suite.", "en": "Thank you! I am coming right now.", "km": "អរគុណ! ខ្ញុំមកឥឡូវហើយ។", "tr": "â-koun ! khgnom mok ey-leuv haeuy.",
+        "es": "¡Gracias! Voy enseguida.", "it": "Grazie! Arrivo subito.", "ru": "Спасибо! Я сейчас иду.", "zh": "谢谢！我马上来。", "zh_tr": "Xièxie! Wǒ mǎshàng lái."}
     ]
   },
   "comprehension": {

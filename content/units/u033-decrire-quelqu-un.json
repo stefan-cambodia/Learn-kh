@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "grand", "en": "tall", "km": "ខ្ពស់", "tr": "khpoh", "pos": "adjectif",
+      "fr": "grand", "en": "tall", "km": "ខ្ពស់", "tr": "khpoh",
+      "es": "alto", "it": "alto", "ru": "высокий", "zh": "高", "zh_tr": "gāo", "pos": "adjectif",
       "note": {
         "fr": "ខ្ពស់ s'emploie pour la taille d'une personne ou la hauteur d'un bâtiment. Pour « grand » au sens de « gros », on dit ធំ (thom).",
         "en": "ខ្ពស់ is used for a person's height or a building's. For “big” in size, say ធំ (thom). French « grand » means both “tall” and “big”; feminine « grande ».",
         "km": "« grand » មានន័យថា ខ្ពស់ (មនុស្ស) ឬ ធំ (របស់)។ ភេទស្រី៖ grande។ អង់គ្លេស៖ « tall » សម្រាប់មនុស្ស, « big » សម្រាប់របស់។"
       },
-      "example": {"fr": "Mon frère est plus grand que moi.", "en": "My brother is taller than me.", "km": "បងប្រុសខ្ញុំខ្ពស់ជាងខ្ញុំ។", "tr": "bâng proh khgnom khpoh tchéang khgnom."}
+      "example": {"fr": "Mon frère est plus grand que moi.", "en": "My brother is taller than me.", "km": "បងប្រុសខ្ញុំខ្ពស់ជាងខ្ញុំ។", "tr": "bâng proh khgnom khpoh tchéang khgnom.",
+      "es": "Mi hermano es más alto que yo.", "it": "Mio fratello è più alto di me.", "ru": "Мой брат выше меня.", "zh": "我哥哥比我高。", "zh_tr": "Wǒ gēge bǐ wǒ gāo."}
     },
     {
-      "fr": "petit", "en": "short", "km": "ទាប", "tr": "téap", "pos": "adjectif",
+      "fr": "petit", "en": "short", "km": "ទាប", "tr": "téap",
+      "es": "bajo", "it": "basso", "ru": "невысокий", "zh": "矮", "zh_tr": "ǎi", "pos": "adjectif",
       "note": {
         "fr": "ទាប, « bas », sert pour une petite taille. Pour un petit objet, on dit តូច (tôtch).",
         "en": "ទាប, “low”, is used for a short person. For a small object, say តូច (tôtch). French « petit » covers both; feminine « petite ».",
         "km": "« petit » មានន័យថា ទាប (មនុស្ស) ឬ តូច (របស់)។ ភេទស្រី៖ petite។ អង់គ្លេស៖ « short » សម្រាប់មនុស្ស, « small » សម្រាប់របស់។"
       },
-      "example": {"fr": "Ma grand-mère est petite.", "en": "My grandmother is short.", "km": "យាយខ្ញុំទាប។", "tr": "yéay khgnom téap."}
+      "example": {"fr": "Ma grand-mère est petite.", "en": "My grandmother is short.", "km": "យាយខ្ញុំទាប។", "tr": "yéay khgnom téap.",
+      "es": "Mi abuela es bajita.", "it": "Mia nonna è bassa.", "ru": "Моя бабушка невысокая.", "zh": "我奶奶个子很矮。", "zh_tr": "Wǒ nǎinai gèzi hěn ǎi."}
     },
     {
-      "fr": "jeune", "en": "young", "km": "ក្មេង", "tr": "kméng", "pos": "adjectif",
+      "fr": "jeune", "en": "young", "km": "ក្មេង", "tr": "kméng",
+      "es": "joven", "it": "giovane", "ru": "молодой", "zh": "年轻", "zh_tr": "niánqīng", "pos": "adjectif",
       "note": {
         "fr": "ក្មេង veut dire « jeune » et aussi « enfant ». Pour dire que quelqu'un est encore jeune : នៅក្មេង (neuv kméng).",
         "en": "ក្មេង means “young” and also “child”. To say someone is still young: នៅក្មេង (neuv kméng). French « jeune » is the same in the masculine and feminine.",
         "km": "« jeune » មិនប្តូរតាមភេទទេ៖ il est jeune, elle est jeune។ « un jeune » មានន័យថា យុវជន។ អង់គ្លេស៖ « young »។"
       },
-      "example": {"fr": "Sur cette photo, mes parents sont jeunes.", "en": "In this photo, my parents are young.", "km": "ក្នុងរូបថតនេះ ឪពុកម្តាយខ្ញុំនៅក្មេង។", "tr": "knong roup-thât nih, eu-pouk mday khgnom neuv kméng."}
+      "example": {"fr": "Sur cette photo, mes parents sont jeunes.", "en": "In this photo, my parents are young.", "km": "ក្នុងរូបថតនេះ ឪពុកម្តាយខ្ញុំនៅក្មេង។", "tr": "knong roup-thât nih, eu-pouk mday khgnom neuv kméng.",
+      "es": "En esta foto, mis padres son jóvenes.", "it": "In questa foto i miei genitori sono giovani.", "ru": "На этой фотографии мои родители молодые.", "zh": "在这张照片上，我爸爸妈妈很年轻。", "zh_tr": "Zài zhè zhāng zhàopiàn shang, wǒ bàba māma hěn niánqīng."}
     },
     {
-      "fr": "âgé", "en": "old", "km": "ចាស់", "tr": "tchah", "pos": "adjectif",
+      "fr": "âgé", "en": "old", "km": "ចាស់", "tr": "tchah",
+      "es": "mayor", "it": "anziano", "ru": "пожилой", "zh": "老", "zh_tr": "lǎo", "pos": "adjectif",
       "note": {
         "fr": "ចាស់ veut dire « vieux » pour une personne comme pour un objet. Pour les personnes âgées, on dit poliment មនុស្សចាស់ ou ចាស់ទុំ (tchah toum).",
         "en": "ចាស់ means “old” for a person as well as an object. For elderly people, say politely មនុស្សចាស់ or ចាស់ទុំ (tchah toum). French « âgé » is polite; « vieux » is more direct.",
         "km": "« âgé » គួរសមជាង « vieux » សម្រាប់មនុស្ស។ ភេទស្រី៖ âgée។ អង់គ្លេស៖ « old » ឬ « elderly »។"
       },
-      "example": {"fr": "Mon grand-père est âgé, mais il marche beaucoup.", "en": "My grandfather is old, but he walks a lot.", "km": "តាខ្ញុំចាស់ហើយ ប៉ុន្តែគាត់ដើរច្រើន។", "tr": "ta khgnom tchah haeuy, pon-taè koat daeu tchraeun."}
+      "example": {"fr": "Mon grand-père est âgé, mais il marche beaucoup.", "en": "My grandfather is old, but he walks a lot.", "km": "តាខ្ញុំចាស់ហើយ ប៉ុន្តែគាត់ដើរច្រើន។", "tr": "ta khgnom tchah haeuy, pon-taè koat daeu tchraeun.",
+      "es": "Mi abuelo es mayor, pero camina mucho.", "it": "Mio nonno è anziano, ma cammina molto.", "ru": "Мой дедушка пожилой, но много ходит пешком.", "zh": "我爷爷年纪大了，但是常常走路。", "zh_tr": "Wǒ yéye niánjì dà le, dànshì chángcháng zǒulù."}
     },
     {
-      "fr": "gentil", "en": "kind", "km": "ចិត្តល្អ", "tr": "tchet l'â", "pos": "adjectif",
+      "fr": "gentil", "en": "kind", "km": "ចិត្តល្អ", "tr": "tchet l'â",
+      "es": "amable", "it": "gentile", "ru": "добрый", "zh": "好心", "zh_tr": "hǎoxīn", "pos": "adjectif",
       "note": {
         "fr": "Mot à mot « cœur bon ». Beaucoup de traits de caractère se forment avec ចិត្ត (tchet) : ចិត្តឆេវ, colérique ; ចិត្តត្រជាក់, calme.",
         "en": "Word for word “good heart”. Many character traits are formed with ចិត្ត (tchet): ចិត្តឆេវ, hot-tempered; ចិត្តត្រជាក់, calm. French « gentil » becomes « gentille » in the feminine.",
         "km": "« gentil » សម្រាប់ភេទប្រុស និង « gentille » សម្រាប់ភេទស្រី។ អង់គ្លេស៖ « kind » ឬ « nice »។"
       },
-      "example": {"fr": "Ta sœur est très gentille.", "en": "Your sister is very kind.", "km": "ប្អូនស្រីរបស់អ្នកចិត្តល្អណាស់។", "tr": "p'ôn srey ro-bâh néak tchet l'â nah."}
+      "example": {"fr": "Ta sœur est très gentille.", "en": "Your sister is very kind.", "km": "ប្អូនស្រីរបស់អ្នកចិត្តល្អណាស់។", "tr": "p'ôn srey ro-bâh néak tchet l'â nah.",
+      "es": "Tu hermana es muy amable.", "it": "Tua sorella è molto gentile.", "ru": "Твоя сестра очень добрая.", "zh": "你姐姐人很好。", "zh_tr": "Nǐ jiějie rén hěn hǎo."}
     },
     {
-      "fr": "drôle", "en": "funny", "km": "កំប្លែង", "tr": "kâm-plaèng", "pos": "adjectif",
+      "fr": "drôle", "en": "funny", "km": "កំប្លែង", "tr": "kâm-plaèng",
+      "es": "gracioso", "it": "divertente", "ru": "смешной", "zh": "有趣", "zh_tr": "yǒuqù", "pos": "adjectif",
       "note": {
         "fr": "កំប្លែង veut dire « drôle » et aussi « plaisanter » : កុំកំប្លែង, ne plaisante pas.",
         "en": "កំប្លែង means “funny” and also “to joke”: កុំកំប្លែង, don't joke. French « drôle » is the same in the masculine and feminine.",
         "km": "« drôle » មិនប្តូរតាមភេទទេ។ « une blague » មានន័យថា រឿងកំប្លែង។ អង់គ្លេស៖ « funny »។"
       },
-      "example": {"fr": "Mon oncle est très drôle.", "en": "My uncle is very funny.", "km": "ពូខ្ញុំកំប្លែងណាស់។", "tr": "pou khgnom kâm-plaèng nah."}
+      "example": {"fr": "Mon oncle est très drôle.", "en": "My uncle is very funny.", "km": "ពូខ្ញុំកំប្លែងណាស់។", "tr": "pou khgnom kâm-plaèng nah.",
+      "es": "Mi tío es muy gracioso.", "it": "Mio zio è molto divertente.", "ru": "Мой дядя очень весёлый.", "zh": "我叔叔很有趣。", "zh_tr": "Wǒ shūshu hěn yǒuqù."}
     }
   ],
   "expressions": [
     {
       "fr": "Il te ressemble beaucoup.", "en": "He looks a lot like you.", "km": "គាត់មុខដូចអ្នកណាស់។", "tr": "koat mouk dôtch néak nah.",
+      "es": "Se parece mucho a ti.", "it": "Ti somiglia molto.", "ru": "Он очень похож на тебя.", "zh": "他长得很像你。", "zh_tr": "Tā zhǎng de hěn xiàng nǐ.",
       "note": {
         "fr": "Mot à mot « son visage est comme le tien ». មុខ (mouk), le visage, et ដូច (dôtch), comme.",
         "en": "Word for word “his face is like yours”. មុខ (mouk), face, and ដូច (dôtch), like. French « ressembler à »: il ressemble à son père.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Elle a l'air gentille.", "en": "She seems nice.", "km": "គាត់មើលទៅចិត្តល្អ។", "tr": "koat meul teuv tchet l'â.",
+      "es": "Parece simpática.", "it": "Sembra gentile.", "ru": "Она кажется милой.", "zh": "她看起来人很好。", "zh_tr": "Tā kàn qilai rén hěn hǎo.",
       "note": {
         "fr": "មើលទៅ (meul teuv), mot à mot « à regarder », se place devant l'adjectif pour dire « avoir l'air ».",
         "en": "មើលទៅ (meul teuv), word for word “to look at”, goes before the adjective to mean “to seem”. French « avoir l'air »: elle a l'air gentille.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Il porte des lunettes.", "en": "He wears glasses.", "km": "គាត់ពាក់វ៉ែនតា។", "tr": "koat péak vaèn-ta.",
+      "es": "Lleva gafas.", "it": "Porta gli occhiali.", "ru": "Он носит очки.", "zh": "他戴眼镜。", "zh_tr": "Tā dài yǎnjìng.",
       "note": {
         "fr": "ពាក់ (péak), « porter » pour ce qui s'accroche : lunettes, bijoux, montre, chapeau. Pour les habits, on dit ស្លៀកពាក់ (sliek péak).",
         "en": "ពាក់ (péak), “to wear” for things that hang: glasses, jewellery, watch, hat. For clothes, say ស្លៀកពាក់ (sliek péak). French « porter » covers everything.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Tu n'as pas changé !", "en": "You haven't changed!", "km": "មិនប្រែប្រួលសោះ!", "tr": "min praè-prouol sâh !",
+      "es": "¡No has cambiado!", "it": "Non sei cambiato!", "ru": "Ты не изменился!", "zh": "你一点儿都没变！", "zh_tr": "Nǐ yìdiǎnr dōu méi biàn!",
       "note": {
         "fr": "សោះ (sâh) en fin de phrase renforce la négation : « pas du tout ». Compliment courant quand on revoit quelqu'un.",
         "en": "សោះ (sâh) at the end strengthens the negative: “not at all”. A common compliment when you see someone again. French « changer »: tu n'as pas changé.",
@@ -103,29 +119,39 @@
     {
       "situation": {"fr": "En famille", "en": "With the family", "km": "ក្នុងគ្រួសារ"},
       "fr": "Mon petit frère est jeune, mais il est déjà plus grand que moi.", "en": "My little brother is young, but he is already taller than me.",
-      "km": "ប្អូនប្រុសខ្ញុំនៅក្មេង ប៉ុន្តែគាត់ខ្ពស់ជាងខ្ញុំហើយ។", "tr": "p'ôn proh khgnom neuv kméng, pon-taè koat khpoh tchéang khgnom haeuy."
+      "km": "ប្អូនប្រុសខ្ញុំនៅក្មេង ប៉ុន្តែគាត់ខ្ពស់ជាងខ្ញុំហើយ។", "tr": "p'ôn proh khgnom neuv kméng, pon-taè koat khpoh tchéang khgnom haeuy.",
+      "es": "Mi hermano pequeño es joven, pero ya es más alto que yo.", "it": "Il mio fratellino è giovane, ma è già più alto di me.", "ru": "Мой младший брат молодой, но уже выше меня.", "zh": "我弟弟年纪小，可是已经比我高了。", "zh_tr": "Wǒ dìdi niánjì xiǎo, kěshì yǐjīng bǐ wǒ gāo le."
     },
     {
       "situation": {"fr": "Une vieille photo", "en": "An old photo", "km": "រូបថតចាស់"},
       "fr": "Sur cette photo, ma grand-mère est encore jeune.", "en": "In this photo, my grandmother is still young.",
-      "km": "ក្នុងរូបថតនេះ យាយខ្ញុំនៅក្មេងនៅឡើយ។", "tr": "knong roup-thât nih, yéay khgnom neuv kméng neuv laeuy."
+      "km": "ក្នុងរូបថតនេះ យាយខ្ញុំនៅក្មេងនៅឡើយ។", "tr": "knong roup-thât nih, yéay khgnom neuv kméng neuv laeuy.",
+      "es": "En esta foto, mi abuela todavía es joven.", "it": "In questa foto mia nonna è ancora giovane.", "ru": "На этой фотографии моя бабушка ещё молодая.", "zh": "在这张照片上，我奶奶还很年轻。", "zh_tr": "Zài zhè zhāng zhàopiàn shang, wǒ nǎinai hái hěn niánqīng."
     },
     {
       "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
       "fr": "Mon nouveau collègue est drôle et très gentil.", "en": "My new colleague is funny and very kind.",
-      "km": "មិត្តរួមការងារថ្មីរបស់ខ្ញុំកំប្លែង ហើយចិត្តល្អណាស់។", "tr": "mit rouom ka-ngéa thmey ro-bâh khgnom kâm-plaèng, haeuy tchet l'â nah."
+      "km": "មិត្តរួមការងារថ្មីរបស់ខ្ញុំកំប្លែង ហើយចិត្តល្អណាស់។", "tr": "mit rouom ka-ngéa thmey ro-bâh khgnom kâm-plaèng, haeuy tchet l'â nah.",
+      "es": "Mi nuevo compañero de trabajo es gracioso y muy amable.", "it": "Il mio nuovo collega è divertente e molto gentile.", "ru": "Мой новый коллега весёлый и очень добрый.", "zh": "我的新同事很有趣，人也很好。", "zh_tr": "Wǒ de xīn tóngshì hěn yǒuqù, rén yě hěn hǎo."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{A} et {B} regardent un album de photos de famille.", "en": "{A} and {B} are looking at a family photo album.", "km": "{A} និង {B} កំពុងមើលអាល់ប៊ុមរូបថតគ្រួសារ។"},
     "lines": [
-      {"speaker": "A", "fr": "Regarde, ce sont mes parents quand ils étaient jeunes.", "en": "Look, these are my parents when they were young.", "km": "មើលនេះ ឪពុកម្តាយខ្ញុំពេលគាត់នៅក្មេង។", "tr": "meul nih, eu-pouk mday khgnom pél koat neuv kméng."},
-      {"speaker": "B", "fr": "Ta mère est très belle ! Et ton père est grand.", "en": "Your mother is very beautiful! And your father is tall.", "km": "ម្តាយ {A} ស្អាតណាស់! ហើយឪពុក {A} ខ្ពស់។", "tr": "mday {A} s'at nah ! haeuy eu-pouk {A} khpoh."},
-      {"speaker": "A", "fr": "Oui, mais maintenant, ils sont âgés.", "en": "Yes, but now they are old.", "km": "{A_yes} ប៉ុន្តែឥឡូវ គាត់ចាស់ហើយ។", "tr": "{A_yes}, pon-taè ey-leuv, koat tchah haeuy."},
-      {"speaker": "B", "fr": "Et cet enfant, c'est toi ? Tu n'as pas changé !", "en": "And this child, is that you? You haven't changed!", "km": "ហើយក្មេងនេះ គឺ {A} មែនទេ? មិនប្រែប្រួលសោះ!", "tr": "haeuy kméng nih, keu {A} mèn té ? min praè-prouol sâh !"},
-      {"speaker": "A", "fr": "Tu es drôle ! Sur cette photo, j'ai cinq ans.", "en": "You're funny! In this photo, I'm five years old.", "km": "{B} កំប្លែងណាស់! ក្នុងរូបនេះ ខ្ញុំអាយុប្រាំឆ្នាំ។", "tr": "{B} kâm-plaèng nah ! knong roup nih, khgnom a-you pram tchhnam."},
-      {"speaker": "B", "fr": "Et qui est à côté de toi ?", "en": "And who is next to you?", "km": "ហើយអ្នកនៅក្បែរ {A} ជានរណា?", "tr": "haeuy néak neuv kbae {A} tchéa no-na ?"},
-      {"speaker": "A", "fr": "C'est ma tante. Elle est très gentille et très drôle.", "en": "That's my aunt. She is very kind and very funny.", "km": "នោះមីងខ្ញុំ។ គាត់ចិត្តល្អ ហើយកំប្លែងណាស់។", "tr": "nouh ming khgnom. koat tchet l'â, haeuy kâm-plaèng nah."}
+      {"speaker": "A", "fr": "Regarde, ce sont mes parents quand ils étaient jeunes.", "en": "Look, these are my parents when they were young.", "km": "មើលនេះ ឪពុកម្តាយខ្ញុំពេលគាត់នៅក្មេង។", "tr": "meul nih, eu-pouk mday khgnom pél koat neuv kméng.",
+        "es": "Mira, son mis padres cuando eran jóvenes.", "it": "Guarda, sono i miei genitori da giovani.", "ru": "Смотри, это мои родители, когда они были молодыми.", "zh": "你看，这是我爸爸妈妈年轻的时候。", "zh_tr": "Nǐ kàn, zhè shì wǒ bàba māma niánqīng de shíhou."},
+      {"speaker": "B", "fr": "Ta mère est très belle ! Et ton père est grand.", "en": "Your mother is very beautiful! And your father is tall.", "km": "ម្តាយ {A} ស្អាតណាស់! ហើយឪពុក {A} ខ្ពស់។", "tr": "mday {A} s'at nah ! haeuy eu-pouk {A} khpoh.",
+        "es": "¡Tu madre es muy guapa! Y tu padre es alto.", "it": "Tua madre è bellissima! E tuo padre è alto.", "ru": "Твоя мама очень красивая! А папа высокий.", "zh": "你妈妈真漂亮！你爸爸个子很高。", "zh_tr": "Nǐ māma zhēn piàoliang! Nǐ bàba gèzi hěn gāo."},
+      {"speaker": "A", "fr": "Oui, mais maintenant, ils sont âgés.", "en": "Yes, but now they are old.", "km": "{A_yes} ប៉ុន្តែឥឡូវ គាត់ចាស់ហើយ។", "tr": "{A_yes}, pon-taè ey-leuv, koat tchah haeuy.",
+        "es": "Sí, pero ahora son mayores.", "it": "Sì, ma adesso sono anziani.", "ru": "Да, но теперь они пожилые.", "zh": "对，不过现在他们老了。", "zh_tr": "Duì, búguò xiànzài tāmen lǎo le."},
+      {"speaker": "B", "fr": "Et cet enfant, c'est toi ? Tu n'as pas changé !", "en": "And this child, is that you? You haven't changed!", "km": "ហើយក្មេងនេះ គឺ {A} មែនទេ? មិនប្រែប្រួលសោះ!", "tr": "haeuy kméng nih, keu {A} mèn té ? min praè-prouol sâh !",
+        "es": "Y esta niña, ¿eres tú? ¡No has cambiado nada!", "it": "E questa bambina sei tu? Non sei cambiata!", "ru": "А этот ребёнок — это ты? Ты не изменилась!", "zh": "这个小孩是你吗？你一点儿都没变！", "zh_tr": "Zhège xiǎohái shì nǐ ma? Nǐ yìdiǎnr dōu méi biàn!"},
+      {"speaker": "A", "fr": "Tu es drôle ! Sur cette photo, j'ai cinq ans.", "en": "You're funny! In this photo, I'm five years old.", "km": "{B} កំប្លែងណាស់! ក្នុងរូបនេះ ខ្ញុំអាយុប្រាំឆ្នាំ។", "tr": "{B} kâm-plaèng nah ! knong roup nih, khgnom a-you pram tchhnam.",
+        "es": "¡Qué gracioso eres! En esta foto tengo cinco años.", "it": "Sei divertente! In questa foto ho cinque anni.", "ru": "Ты смешной! На этой фотографии мне пять лет.", "zh": "你真逗！这张照片上我才五岁。", "zh_tr": "Nǐ zhēn dòu! Zhè zhāng zhàopiàn shang wǒ cái wǔ suì."},
+      {"speaker": "B", "fr": "Et qui est à côté de toi ?", "en": "And who is next to you?", "km": "ហើយអ្នកនៅក្បែរ {A} ជានរណា?", "tr": "haeuy néak neuv kbae {A} tchéa no-na ?",
+        "es": "¿Y quién está a tu lado?", "it": "E chi c'è accanto a te?", "ru": "А кто рядом с тобой?", "zh": "你旁边的人是谁？", "zh_tr": "Nǐ pángbiān de rén shì shéi?"},
+      {"speaker": "A", "fr": "C'est ma tante. Elle est très gentille et très drôle.", "en": "That's my aunt. She is very kind and very funny.", "km": "នោះមីងខ្ញុំ។ គាត់ចិត្តល្អ ហើយកំប្លែងណាស់។", "tr": "nouh ming khgnom. koat tchet l'â, haeuy kâm-plaèng nah.",
+        "es": "Es mi tía. Es muy amable y muy graciosa.", "it": "È mia zia. È molto gentile e molto divertente.", "ru": "Это моя тётя. Она очень добрая и очень весёлая.", "zh": "那是我阿姨。她人很好，也很有趣。", "zh_tr": "Nà shì wǒ āyí. Tā rén hěn hǎo, yě hěn yǒuqù."}
     ]
   },
   "comprehension": {

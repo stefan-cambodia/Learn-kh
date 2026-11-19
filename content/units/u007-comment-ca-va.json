@@ -11,75 +11,91 @@
   },
   "vocabulary": [
     {
-      "fr": "aller bien", "en": "to be well", "km": "សុខសប្បាយ", "tr": "sok sa-bay", "pos": "verbe",
+      "fr": "aller bien", "en": "to be well", "km": "សុខសប្បាយ", "tr": "sok sa-bay",
+      "es": "estar bien", "it": "stare bene", "ru": "хорошо себя чувствовать", "zh": "很好", "zh_tr": "hěn hǎo", "pos": "verbe",
       "note": {
         "fr": "Réunit សុខ (la santé) et សប្បាយ (la joie). Pas de verbe « être » : ខ្ញុំសុខសប្បាយ, « je vais bien ».",
         "en": "Combines សុខ (health) and សប្បាយ (joy). No verb “to be”: ខ្ញុំសុខសប្បាយ, “I am well”. In French, « je vais bien » literally means “I go well”.",
         "km": "ភាសាបារាំងប្រើកិរិយាសព្ទ « aller » ដើម្បីនិយាយពីសុខភាព៖ je vais bien, tu vas bien។ ភាសាអង់គ្លេស៖ « I am well » ឬ « I am fine »។"
       },
-      "example": {"fr": "Ma mère va bien, merci.", "en": "My mother is well, thank you.", "km": "ម្តាយរបស់ខ្ញុំសុខសប្បាយ អរគុណ។", "tr": "mday ro-bâh khgnom sok sa-bay, â-koun."}
+      "example": {"fr": "Ma mère va bien, merci.", "en": "My mother is well, thank you.", "km": "ម្តាយរបស់ខ្ញុំសុខសប្បាយ អរគុណ។", "tr": "mday ro-bâh khgnom sok sa-bay, â-koun.",
+      "es": "Mi madre está bien, gracias.", "it": "Mia madre sta bene, grazie.", "ru": "Моя мама хорошо себя чувствует, спасибо.", "zh": "我妈妈很好，谢谢。", "zh_tr": "Wǒ māma hěn hǎo, xièxie."}
     },
     {
-      "fr": "fatigué", "en": "tired", "km": "ហត់", "tr": "hât", "pos": "adjectif",
+      "fr": "fatigué", "en": "tired", "km": "ហត់", "tr": "hât",
+      "es": "cansado", "it": "stanco", "ru": "усталый", "zh": "累", "zh_tr": "lèi", "pos": "adjectif",
       "note": {
         "fr": "Se dit surtout après un effort. Quand on n'a plus aucune énergie, on dit អស់កម្លាំង (âh kâm-lang), « épuisé ».",
         "en": "Said mostly after an effort. When you have no energy left, say អស់កម្លាំង (âh kâm-lang), “exhausted”. French « fatigué » becomes « fatiguée » for a woman, with the same sound.",
         "km": "« fatigué » សម្រាប់ប្រុស និង « fatiguée » សម្រាប់ស្រី អានដូចគ្នា។ ភាសាអង់គ្លេស៖ « tired »។"
       },
-      "example": {"fr": "Mon père est fatigué.", "en": "My father is tired.", "km": "ឪពុករបស់ខ្ញុំហត់។", "tr": "eu-pouk ro-bâh khgnom hât."}
+      "example": {"fr": "Mon père est fatigué.", "en": "My father is tired.", "km": "ឪពុករបស់ខ្ញុំហត់។", "tr": "eu-pouk ro-bâh khgnom hât.",
+      "es": "Mi padre está cansado.", "it": "Mio padre è stanco.", "ru": "Мой папа устал.", "zh": "我爸爸很累。", "zh_tr": "Wǒ bàba hěn lèi."}
     },
     {
-      "fr": "avoir faim", "en": "to be hungry", "km": "ឃ្លាន", "tr": "khléan", "pos": "verbe",
+      "fr": "avoir faim", "en": "to be hungry", "km": "ឃ្លាន", "tr": "khléan",
+      "es": "tener hambre", "it": "avere fame", "ru": "хотеть есть", "zh": "饿", "zh_tr": "è", "pos": "verbe",
       "note": {
         "fr": "Un seul mot, sans « avoir » : ខ្ញុំឃ្លាន. On dit souvent ឃ្លានបាយ (khléan bay), mot à mot « avoir faim de riz ».",
         "en": "A single word, with no “have”: ខ្ញុំឃ្លាន. People often say ឃ្លានបាយ (khléan bay), word for word “hungry for rice”. French: « avoir faim », j'ai faim.",
         "km": "ភាសាបារាំងប្រើកិរិយាសព្ទ « avoir »៖ « j'ai faim »។ អក្សរ m ចុងពាក្យមិនអានដាច់ទេ សំឡេងចេញតាមច្រមុះ។ ភាសាអង់គ្លេស៖ « I am hungry »។"
       },
-      "example": {"fr": "J'ai très faim.", "en": "I am very hungry.", "km": "ខ្ញុំឃ្លានណាស់។", "tr": "khgnom khléan nah."}
+      "example": {"fr": "J'ai très faim.", "en": "I am very hungry.", "km": "ខ្ញុំឃ្លានណាស់។", "tr": "khgnom khléan nah.",
+      "es": "Tengo mucha hambre.", "it": "Ho molta fame.", "ru": "Я очень хочу есть.", "zh": "我很饿。", "zh_tr": "Wǒ hěn è."}
     },
     {
-      "fr": "avoir soif", "en": "to be thirsty", "km": "ស្រេកទឹក", "tr": "srék teuk", "pos": "verbe",
+      "fr": "avoir soif", "en": "to be thirsty", "km": "ស្រេកទឹក", "tr": "srék teuk",
+      "es": "tener sed", "it": "avere sete", "ru": "хотеть пить", "zh": "渴", "zh_tr": "kě", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « avoir soif d'eau » : ទឹក (l'eau) fait partie de l'expression.",
         "en": "Word for word “thirsty for water”: ទឹក (water) is part of the expression. French: « avoir soif », j'ai soif.",
         "km": "ភាសាបារាំងនិយាយថា « j'ai soif »។ អក្សរ f ចុងពាក្យត្រូវអាន។ ភាសាអង់គ្លេស៖ « I am thirsty »។"
       },
-      "example": {"fr": "Tu as soif ?", "en": "Are you thirsty?", "km": "ស្រេកទឹកទេ?", "tr": "srék teuk té ?"}
+      "example": {"fr": "Tu as soif ?", "en": "Are you thirsty?", "km": "ស្រេកទឹកទេ?", "tr": "srék teuk té ?",
+      "es": "¿Tienes sed?", "it": "Hai sete?", "ru": "Ты хочешь пить?", "zh": "你渴吗？", "zh_tr": "Nǐ kě ma?"}
     },
     {
-      "fr": "content", "en": "happy", "km": "សប្បាយចិត្ត", "tr": "sa-bay tchet", "pos": "adjectif",
+      "fr": "content", "en": "happy", "km": "សប្បាយចិត្ត", "tr": "sa-bay tchet",
+      "es": "contento", "it": "contento", "ru": "довольный", "zh": "高兴", "zh_tr": "gāoxìng", "pos": "adjectif",
       "note": {
         "fr": "Mot à mot « cœur joyeux ». ចិត្ត (tchet), le cœur, sert à former beaucoup de mots de sentiment.",
         "en": "Word for word “joyful heart”. ចិត្ត (tchet), the heart, forms many words for feelings. French « content » becomes « contente » for a woman: the t is then heard.",
         "km": "« content » សម្រាប់ប្រុស អក្សរ t មិនអានទេ។ « contente » សម្រាប់ស្រី អក្សរ t ត្រូវអាន។ ភាសាអង់គ្លេស៖ « happy »។"
       },
-      "example": {"fr": "Les enfants sont contents.", "en": "The children are happy.", "km": "កូនៗសប្បាយចិត្ត។", "tr": "kôn-kôn sa-bay tchet."}
+      "example": {"fr": "Les enfants sont contents.", "en": "The children are happy.", "km": "កូនៗសប្បាយចិត្ត។", "tr": "kôn-kôn sa-bay tchet.",
+      "es": "Los niños están contentos.", "it": "I bambini sono contenti.", "ru": "Дети довольны.", "zh": "孩子们很高兴。", "zh_tr": "Háizimen hěn gāoxìng."}
     },
     {
-      "fr": "malade", "en": "sick", "km": "ឈឺ", "tr": "tchheu", "pos": "adjectif",
+      "fr": "malade", "en": "sick", "km": "ឈឺ", "tr": "tchheu",
+      "es": "enfermo", "it": "malato", "ru": "больной", "zh": "生病", "zh_tr": "shēngbìng", "pos": "adjectif",
       "note": {
         "fr": "ឈឺ signifie à la fois « être malade » et « avoir mal ». Pas de verbe « être » : ខ្ញុំឈឺ, « je suis malade ».",
         "en": "ឈឺ means both “to be sick” and “to hurt”. No verb “to be”: ខ្ញុំឈឺ, “I am sick”. French « malade » is the same for men and women.",
         "km": "« malade » សរសេរដូចគ្នា ទាំងសម្រាប់ប្រុស ទាំងសម្រាប់ស្រី។ ភាសាអង់គ្លេស៖ « sick » ឬ « ill »។"
       },
-      "example": {"fr": "Mon enfant est malade.", "en": "My child is sick.", "km": "កូនរបស់ខ្ញុំឈឺ។", "tr": "kôn ro-bâh khgnom tchheu."}
+      "example": {"fr": "Mon enfant est malade.", "en": "My child is sick.", "km": "កូនរបស់ខ្ញុំឈឺ។", "tr": "kôn ro-bâh khgnom tchheu.",
+      "es": "Mi hijo está enfermo.", "it": "Mio figlio è malato.", "ru": "Мой ребёнок болеет.", "zh": "我的孩子生病了。", "zh_tr": "Wǒ de háizi shēngbìng le."}
     }
   ],
   "expressions": [
     {
       "fr": "Je ne me sens pas bien.", "en": "I don't feel well.", "km": "ខ្ញុំមិនស្រួលខ្លួនទេ។", "tr": "khgnom min srouol khlouon té.",
+      "es": "No me encuentro bien.", "it": "Non mi sento bene.", "ru": "Я плохо себя чувствую.", "zh": "我不太舒服。", "zh_tr": "Wǒ bú tài shūfu.",
       "note": {"fr": "ស្រួលខ្លួន (srouol khlouon), mot à mot « corps à l'aise ». La négation មិន… ទេ encadre l'expression.", "en": "ស្រួលខ្លួន (srouol khlouon), word for word “body at ease”. The negative មិន… ទេ frames the expression.", "km": "ប្រើនៅពេលមិនស្រួលខ្លួន ឬចាប់ផ្តើមឈឺ។ ភាសាអង់គ្លេស៖ « I don't feel well »។"}
     },
     {
       "fr": "Moi aussi, j'ai faim.", "en": "I am hungry too.", "km": "ខ្ញុំក៏ឃ្លានដែរ។", "tr": "khgnom kâ khléan daè.",
+      "es": "Yo también tengo hambre.", "it": "Anch'io ho fame.", "ru": "Я тоже хочу есть.", "zh": "我也饿了。", "zh_tr": "Wǒ yě è le.",
       "note": {"fr": "ក៏… ដែរ (kâ… daè) encadre le mot pour dire « aussi ».", "en": "ក៏… ដែរ (kâ… daè) frames the word to mean “too”. In French, « moi aussi » means “me too”.", "km": "« moi aussi » មានន័យថា ខ្ញុំក៏ដូចគ្នាដែរ។ ភាសាអង់គ្លេសដាក់ « too » នៅចុងប្រយោគ។"}
     },
     {
       "fr": "Repose-toi un peu.", "en": "Rest a little.", "km": "សម្រាកបន្តិចទៅ។", "tr": "sâm-rak bân-tetch teuv.",
+      "es": "Descansa un poco.", "it": "Riposati un po'.", "ru": "Отдохни немного.", "zh": "休息一下吧。", "zh_tr": "Xiūxi yíxià ba.",
       "note": {"fr": "សម្រាក (sâm-rak), se reposer ; បន្តិច (bân-tetch), un peu. ទៅ en fin de phrase adoucit le conseil.", "en": "សម្រាក (sâm-rak), to rest; បន្តិច (bân-tetch), a little. ទៅ at the end softens the advice. French « Repose-toi » is familiar; « Reposez-vous » is polite.", "km": "ជាដំបូន្មានសម្រាប់មនុស្សដែលហត់ ឬឈឺ។ « un peu » មានន័យថា បន្តិច។"}
     },
     {
       "fr": "Rétablis-toi vite !", "en": "Get well soon!", "km": "ឆាប់ជាណា!", "tr": "tchhap tchéa na !",
+      "es": "¡Que te mejores!", "it": "Guarisci presto!", "ru": "Выздоравливай скорее!", "zh": "早日康复！", "zh_tr": "Zǎorì kāngfù!",
       "note": {"fr": "ឆាប់ (tchhap), vite ; ជា (tchéa) signifie ici « guérir ». ណា en fin de phrase adoucit le souhait.", "en": "ឆាប់ (tchhap), quickly; ជា (tchéa) here means “to heal”. ណា at the end softens the wish. French « Rétablis-toi vite » is familiar.", "km": "ប្រើជូនពរមនុស្សឈឺ។ ភាសាអង់គ្លេស៖ « Get well soon! »។"},
       "uncertain": true,
       "uncertain_note": "Tournure orale entre proches : faire confirmer par un locuteur natif que la particule finale est naturelle ici (la formule soignée est plus longue)."
@@ -89,17 +105,20 @@
     {
       "situation": {"fr": "En rentrant à la maison", "en": "Coming home", "km": "ពេលត្រឡប់មកផ្ទះ"},
       "fr": "J'ai faim et j'ai soif !", "en": "I am hungry and thirsty!",
-      "km": "ខ្ញុំឃ្លានផង ស្រេកទឹកផង!", "tr": "khgnom khléan phâng, srék teuk phâng !"
+      "km": "ខ្ញុំឃ្លានផង ស្រេកទឹកផង!", "tr": "khgnom khléan phâng, srék teuk phâng !",
+      "es": "¡Tengo hambre y sed!", "it": "Ho fame e sete!", "ru": "Я хочу есть и пить!", "zh": "我又饿又渴！", "zh_tr": "Wǒ yòu è yòu kě!"
     },
     {
       "situation": {"fr": "Prendre des nouvelles", "en": "Asking how someone is", "km": "ពេលសួរសុខទុក្ខ"},
       "fr": "Tes parents vont bien ?", "en": "Are your parents well?",
-      "km": "ឪពុកម្តាយសុខសប្បាយទេ?", "tr": "eu-pouk mday sok sa-bay té ?"
+      "km": "ឪពុកម្តាយសុខសប្បាយទេ?", "tr": "eu-pouk mday sok sa-bay té ?",
+      "es": "¿Tus padres están bien?", "it": "I tuoi genitori stanno bene?", "ru": "Как твои родители?", "zh": "你爸爸妈妈好吗？", "zh_tr": "Nǐ bàba māma hǎo ma?"
     },
     {
       "situation": {"fr": "Répondre à un ami", "en": "Answering a friend", "km": "ពេលឆ្លើយមិត្តភក្តិ"},
       "fr": "Je vais bien, mais j'ai un peu faim.", "en": "I am well, but I am a little hungry.",
-      "km": "ខ្ញុំសុខសប្បាយ ប៉ុន្តែឃ្លានបន្តិច។", "tr": "khgnom sok sa-bay, pon-taè khléan bân-tetch."
+      "km": "ខ្ញុំសុខសប្បាយ ប៉ុន្តែឃ្លានបន្តិច។", "tr": "khgnom sok sa-bay, pon-taè khléan bân-tetch.",
+      "es": "Estoy bien, pero tengo un poco de hambre.", "it": "Sto bene, ma ho un po' di fame.", "ru": "У меня всё хорошо, но я немного хочу есть.", "zh": "我很好，就是有点儿饿。", "zh_tr": "Wǒ hěn hǎo, jiùshì yǒudiǎnr è."
     }
   ],
   "dialogue": {
@@ -109,12 +128,18 @@
       "km": "ពេលល្ងាច {B} ត្រឡប់មកផ្ទះវិញ។"
     },
     "lines": [
-      {"speaker": "A", "fr": "{B}, tu vas bien ?", "en": "{B}, are you all right?", "km": "{B} សុខសប្បាយទេ?", "tr": "{B} sok sa-bay té ?"},
-      {"speaker": "B", "fr": "Non, je ne me sens pas bien.", "en": "No, I don't feel well.", "km": "ទេ ខ្ញុំមិនស្រួលខ្លួនទេ។", "tr": "té, khgnom min srouol khlouon té."},
-      {"speaker": "A", "fr": "Tu es malade ?", "en": "Are you sick?", "km": "{B} ឈឺមែនទេ?", "tr": "{B} tchheu mèn té ?"},
-      {"speaker": "B", "fr": "Non, c'est juste la fatigue. Et j'ai très faim !", "en": "No, I am just tired. And I am very hungry!", "km": "ទេ ខ្ញុំគ្រាន់តែហត់ ហើយឃ្លានណាស់!", "tr": "té, khgnom kroan-taè hât, haeuy khléan nah !"},
-      {"speaker": "A", "fr": "Repose-toi un peu. Le riz est prêt.", "en": "Rest a little. The rice is ready.", "km": "សម្រាកបន្តិចទៅ។ បាយឆ្អិនហើយ។", "tr": "sâm-rak bân-tetch teuv. bay tchh'en haeuy."},
-      {"speaker": "B", "fr": "Merci ! Ça me fait très plaisir.", "en": "Thank you! That makes me very happy.", "km": "អរគុណ! ខ្ញុំសប្បាយចិត្តណាស់។", "tr": "â-koun ! khgnom sa-bay tchet nah."}
+      {"speaker": "A", "fr": "{B}, tu vas bien ?", "en": "{B}, are you all right?", "km": "{B} សុខសប្បាយទេ?", "tr": "{B} sok sa-bay té ?",
+        "es": "{B}, ¿estás bien?", "it": "{B}, stai bene?", "ru": "{B}, ты в порядке?", "zh": "{B}，你还好吗？", "zh_tr": "{B}, nǐ hái hǎo ma?"},
+      {"speaker": "B", "fr": "Non, je ne me sens pas bien.", "en": "No, I don't feel well.", "km": "ទេ ខ្ញុំមិនស្រួលខ្លួនទេ។", "tr": "té, khgnom min srouol khlouon té.",
+        "es": "No, no me encuentro bien.", "it": "No, non mi sento bene.", "ru": "Нет, я плохо себя чувствую.", "zh": "不，我不太舒服。", "zh_tr": "Bù, wǒ bú tài shūfu."},
+      {"speaker": "A", "fr": "Tu es malade ?", "en": "Are you sick?", "km": "{B} ឈឺមែនទេ?", "tr": "{B} tchheu mèn té ?",
+        "es": "¿Estás enfermo?", "it": "Sei malato?", "ru": "Ты заболел?", "zh": "你生病了吗？", "zh_tr": "Nǐ shēngbìng le ma?"},
+      {"speaker": "B", "fr": "Non, c'est juste la fatigue. Et j'ai très faim !", "en": "No, I am just tired. And I am very hungry!", "km": "ទេ ខ្ញុំគ្រាន់តែហត់ ហើយឃ្លានណាស់!", "tr": "té, khgnom kroan-taè hât, haeuy khléan nah !",
+        "es": "No, solo estoy cansado. ¡Y tengo mucha hambre!", "it": "No, sono solo stanco. E ho molta fame!", "ru": "Нет, я просто устал. И очень хочу есть!", "zh": "没有，只是有点儿累。我还很饿！", "zh_tr": "Méiyǒu, zhǐshì yǒudiǎnr lèi. Wǒ hái hěn è!"},
+      {"speaker": "A", "fr": "Repose-toi un peu. Le riz est prêt.", "en": "Rest a little. The rice is ready.", "km": "សម្រាកបន្តិចទៅ។ បាយឆ្អិនហើយ។", "tr": "sâm-rak bân-tetch teuv. bay tchh'en haeuy.",
+        "es": "Descansa un poco. El arroz está listo.", "it": "Riposati un po'. Il riso è pronto.", "ru": "Отдохни немного. Рис готов.", "zh": "休息一下吧。饭好了。", "zh_tr": "Xiūxi yíxià ba. Fàn hǎo le."},
+      {"speaker": "B", "fr": "Merci ! Ça me fait très plaisir.", "en": "Thank you! That makes me very happy.", "km": "អរគុណ! ខ្ញុំសប្បាយចិត្តណាស់។", "tr": "â-koun ! khgnom sa-bay tchet nah.",
+        "es": "¡Gracias! Me alegra mucho.", "it": "Grazie! Mi fa molto piacere.", "ru": "Спасибо! Мне очень приятно.", "zh": "谢谢！我太高兴了。", "zh_tr": "Xièxie! Wǒ tài gāoxìng le."}
     ]
   },
   "comprehension": {

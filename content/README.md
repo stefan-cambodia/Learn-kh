@@ -19,6 +19,20 @@ Chaque explication existe dans la langue de chaque profil :
 Le dialogue de chaque unité se joue entre deux personnages, A et B (Dara et
 Alex par défaut, voir `characters` dans la configuration).
 
+## Les langues supplémentaires
+
+Chaque texte à apprendre (mot, exemple, expression, phrase, réplique) existe
+aussi en **espagnol** (`es`), **italien** (`it`), **russe** (`ru`, en cyrillique)
+et **chinois mandarin** (`zh`, en caractères simplifiés), avec le **pinyin**
+(`zh_tr`). La translittération latine du russe est calculée automatiquement
+(`ru_tr` permet de l'imposer). Les explications (`note`, `tip`), les titres, les
+situations et la question de compréhension restent en `fr`, `en` et `km`.
+
+Une nouvelle unité doit donc comporter ces cinq champs sur chaque entrée :
+`python3 manage.py content check` signale ceux qui manquent. Les leçons déjà
+créées sont complétées automatiquement à partir des unités (`render --all`,
+`audio repair` et la génération quotidienne s'en chargent).
+
 ## Format d'une unité
 
 ```json
@@ -32,22 +46,26 @@ Alex par défaut, voir `characters` dans la configuration).
           "km": "conseil sur le français ou l'anglais, en khmer"},
   "vocabulary": [
     {
-      "fr": "le père", "en": "father", "km": "ឪពុក", "tr": "eu-pouk", "pos": "nom",
+      "fr": "le père", "en": "father", "km": "ឪពុក", "tr": "eu-pouk",
+      "es": "el padre", "it": "il padre", "ru": "отец", "zh": "爸爸", "zh_tr": "bàba", "pos": "nom",
       "note": {"fr": "explication en français", "en": "explication en anglais", "km": "explication en khmer"},
-      "example": {"fr": "…", "en": "…", "km": "…", "tr": "…"}
+      "example": {"fr": "…", "en": "…", "km": "…", "tr": "…",
+                  "es": "…", "it": "…", "ru": "…", "zh": "…", "zh_tr": "…"}
     }
   ],
   "expressions": [
-    {"fr": "…", "en": "…", "km": "…", "tr": "…", "note": {"fr": "…", "en": "…", "km": "…"}}
+    {"fr": "…", "en": "…", "km": "…", "tr": "…", "es": "…", "it": "…", "ru": "…", "zh": "…", "zh_tr": "…",
+     "note": {"fr": "…", "en": "…", "km": "…"}}
   ],
   "sentences": [
-    {"situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"}, "fr": "…", "en": "…", "km": "…", "tr": "…"}
+    {"situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"}, "fr": "…", "en": "…", "km": "…", "tr": "…",
+     "es": "…", "it": "…", "ru": "…", "zh": "…", "zh_tr": "…"}
   ],
   "dialogue": {
     "setting": {"fr": "…", "en": "…", "km": "…"},
     "lines": [
-      {"speaker": "B", "fr": "…", "en": "…", "km": "…", "tr": "…"},
-      {"speaker": "A", "fr": "…", "en": "…", "km": "…", "tr": "…"}
+      {"speaker": "B", "fr": "…", "en": "…", "km": "…", "tr": "…", "es": "…", "it": "…", "ru": "…", "zh": "…", "zh_tr": "…"},
+      {"speaker": "A", "fr": "…", "en": "…", "km": "…", "tr": "…", "es": "…", "it": "…", "ru": "…", "zh": "…", "zh_tr": "…"}
     ]
   },
   "comprehension": {
@@ -91,12 +109,29 @@ Alex par défaut, voir `characters` dans la configuration).
    l'anglais à un francophone ; `note.en` explique le khmer et le français à
    un anglophone ; `note.km` explique le français ou l'anglais, en khmer
    simple. Une note peut citer un mot d'une autre langue.
-8. **Textes destinés à la synthèse vocale** (`fr`, `en`, `km` hors notes) : pas de
+8. **Textes destinés à la synthèse vocale** (`fr`, `en`, `km`, `es`, `it`, `ru`, `zh` hors notes) : pas de
    parenthèses, de barres obliques ni d'abréviations ; une seule formulation.
    Exception admise : `បាទ / ចាស` pour « oui ».
 9. **Genre des personnages.** Le genre de A et de B est configurable. Préférer
    des tournures neutres quand A ou B parle de soi (« je vais bien », « j'ai
    faim ») plutôt qu'un adjectif dont la prononciation change au féminin.
+
+10. **Espagnol et italien** : noms avec leur article (`el padre`, `la casa`,
+    `il padre`, `l'acqua`), verbes à l'infinitif (`comer`, `mangiare`). Espagnol
+    d'Espagne, vouvoiement avec `usted` / `Lei` quand le français dit « vous » à
+    un inconnu.
+11. **Russe** : cyrillique, noms au nominatif, verbes à l'infinitif imperfectif
+    (`есть`, `пить`). Écrire `ё` (avec les deux points) : la translittération et
+    la prononciation en dépendent. Pas d'accent tonique noté.
+12. **Chinois** : caractères simplifiés, ponctuation chinoise (`，。？！：`).
+    Le pinyin (`zh_tr`) porte les tons en diacritiques (`nǐ hǎo`), regroupe les
+    syllabes d'un même mot (`péngyou`, `Jiǎnpǔzhài`), commence par une majuscule
+    en début de phrase et reprend la ponctuation latine. Noter les changements de
+    ton de 不 et 一 (`bú kèqi`, `yí ge`).
+13. **Genre des personnages dans ces langues.** L'espagnol, l'italien et le russe
+    accordent adjectifs et passé avec le locuteur : les traductions suivent les
+    genres par défaut (A, Dara, au féminin ; B, Alex, au masculin). Hors
+    dialogue, on emploie le masculin.
 
 ## Variables
 
@@ -104,6 +139,10 @@ Alex par défaut, voir `characters` dans la configuration).
 | --- | --- | --- |
 | `{A}`, `{B}` | prénom du personnage (latin ou khmer selon la langue) | partout |
 | `{A_yes}`, `{B_yes}` | `បាទ` ou `ចាស` selon le genre du locuteur | `km` et `tr` uniquement |
+
+En russe et en chinois, `{A}` et `{B}` deviennent les prénoms écrits dans ces
+langues (`name.ru`, `name.zh`, `name.zh_tr` des personnages : Дара, Алекс ;
+达拉 Dálā, 亚历克斯 Yàlìkèsī).
 
 En khmer, on s'adresse volontiers à quelqu'un par son prénom plutôt que par
 « tu » : `ចុះ {B} វិញ?` est plus naturel que `ចុះអ្នកវិញ?` entre proches.

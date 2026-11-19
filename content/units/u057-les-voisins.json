@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "le voisin", "en": "neighbour", "km": "អ្នកជិតខាង", "tr": "néak tchit khang", "pos": "nom",
+      "fr": "le voisin", "en": "neighbour", "km": "អ្នកជិតខាង", "tr": "néak tchit khang",
+      "es": "el vecino", "it": "il vicino", "ru": "сосед", "zh": "邻居", "zh_tr": "línjū", "pos": "nom",
       "note": {
         "fr": "Mot à mot « la personne d'à côté » : ជិត (près) et ខាង (côté). Le même mot vaut pour une voisine.",
         "en": "Word for word “the person close by”: ជិត (near) and ខាង (side). The same word works for a woman. French « voisin » becomes « voisine » in the feminine.",
         "km": "« voisin » ភេទស្រីគឺ « voisine »។ អង់គ្លេស៖ « neighbour »។"
       },
-      "example": {"fr": "Nos voisins sont très gentils.", "en": "Our neighbours are very kind.", "km": "អ្នកជិតខាងរបស់យើងចិត្តល្អណាស់។", "tr": "néak tchit khang ro-bâh yeung tchet l'â nah."}
+      "example": {"fr": "Nos voisins sont très gentils.", "en": "Our neighbours are very kind.", "km": "អ្នកជិតខាងរបស់យើងចិត្តល្អណាស់។", "tr": "néak tchit khang ro-bâh yeung tchet l'â nah.",
+      "es": "Nuestros vecinos son muy amables.", "it": "I nostri vicini sono molto gentili.", "ru": "Наши соседи очень добрые.", "zh": "我们的邻居人很好。", "zh_tr": "Wǒmen de línjū rén hěn hǎo."}
     },
     {
-      "fr": "le quartier", "en": "neighbourhood", "km": "សង្កាត់", "tr": "sâng-kat", "pos": "nom",
+      "fr": "le quartier", "en": "neighbourhood", "km": "សង្កាត់", "tr": "sâng-kat",
+      "es": "el barrio", "it": "il quartiere", "ru": "район", "zh": "街区", "zh_tr": "jiēqū", "pos": "nom",
       "note": {
         "fr": "សង្កាត់ est aussi une division administrative des villes, un peu comme un arrondissement. À la campagne, on parle plutôt du ភូមិ, le village.",
         "en": "សង្កាត់ is also an administrative division of cities, a bit like a district. In the countryside, people talk about the ភូមិ, the village. French « quartier » is masculine.",
         "km": "« quartier » ជានាមភេទប្រុស៖ le quartier, dans mon quartier (នៅសង្កាត់ខ្ញុំ)។ អង់គ្លេស៖ « neighbourhood »។"
       },
-      "example": {"fr": "Notre quartier est calme le soir.", "en": "Our neighbourhood is quiet in the evening.", "km": "សង្កាត់របស់យើងស្ងាត់នៅពេលល្ងាច។", "tr": "sâng-kat ro-bâh yeung sngat neuv pél lngéatch."}
+      "example": {"fr": "Notre quartier est calme le soir.", "en": "Our neighbourhood is quiet in the evening.", "km": "សង្កាត់របស់យើងស្ងាត់នៅពេលល្ងាច។", "tr": "sâng-kat ro-bâh yeung sngat neuv pél lngéatch.",
+      "es": "Nuestro barrio es tranquilo por la noche.", "it": "Il nostro quartiere è tranquillo la sera.", "ru": "Вечером в нашем районе тихо.", "zh": "我们的街区晚上很安静。", "zh_tr": "Wǒmen de jiēqū wǎnshang hěn ānjìng."}
     },
     {
-      "fr": "prêter", "en": "to lend", "km": "ឱ្យខ្ចី", "tr": "aoy khtchey", "pos": "verbe",
+      "fr": "prêter", "en": "to lend", "km": "ឱ្យខ្ចី", "tr": "aoy khtchey",
+      "es": "prestar", "it": "prestare", "ru": "одалживать", "zh": "借给", "zh_tr": "jiè gěi", "pos": "verbe",
       "note": {
         "fr": "Mot à mot « faire emprunter » : ឱ្យ (donner, faire) + ខ្ចី (emprunter). C'est le même mot vu de l'autre côté.",
         "en": "Word for word “let borrow”: ឱ្យ (give, let) + ខ្ចី (borrow). It is the same word seen from the other side. French « prêter »: je te prête.",
         "km": "« prêter »៖ je prête, tu me prêtes។ អង់គ្លេស៖ « to lend »។"
       },
-      "example": {"fr": "Je te prête mon vélo.", "en": "I'll lend you my bike.", "km": "ខ្ញុំឱ្យអ្នកខ្ចីកង់របស់ខ្ញុំ។", "tr": "khgnom aoy néak khtchey kâng ro-bâh khgnom."}
+      "example": {"fr": "Je te prête mon vélo.", "en": "I'll lend you my bike.", "km": "ខ្ញុំឱ្យអ្នកខ្ចីកង់របស់ខ្ញុំ។", "tr": "khgnom aoy néak khtchey kâng ro-bâh khgnom.",
+      "es": "Te presto mi bici.", "it": "Ti presto la mia bici.", "ru": "Я одолжу тебе свой велосипед.", "zh": "我把自行车借给你。", "zh_tr": "Wǒ bǎ zìxíngchē jiè gěi nǐ."}
     },
     {
-      "fr": "emprunter", "en": "to borrow", "km": "ខ្ចី", "tr": "khtchey", "pos": "verbe",
+      "fr": "emprunter", "en": "to borrow", "km": "ខ្ចី", "tr": "khtchey",
+      "es": "tomar prestado", "it": "prendere in prestito", "ru": "брать взаймы", "zh": "借", "zh_tr": "jiè", "pos": "verbe",
       "note": {
         "fr": "Pour demander poliment : សុំខ្ចី (som khtchey), « je demande à emprunter ». Rendre se dit សងវិញ (sâng vign).",
         "en": "To ask politely: សុំខ្ចី (som khtchey), “I ask to borrow”. To give back is សងវិញ (sâng vign). French « emprunter »: j'emprunte.",
         "km": "« emprunter »៖ j'emprunte។ « rendre » មានន័យថា សងវិញ។ អង់គ្លេស៖ « to borrow »។"
       },
-      "example": {"fr": "J'emprunte souvent des livres à la bibliothèque.", "en": "I often borrow books from the library.", "km": "ខ្ញុំច្រើនខ្ចីសៀវភៅពីបណ្ណាល័យ។", "tr": "khgnom tchraeun khtchey siev-phov pi ban-na-lay."}
+      "example": {"fr": "J'emprunte souvent des livres à la bibliothèque.", "en": "I often borrow books from the library.", "km": "ខ្ញុំច្រើនខ្ចីសៀវភៅពីបណ្ណាល័យ។", "tr": "khgnom tchraeun khtchey siev-phov pi ban-na-lay.",
+      "es": "A menudo saco libros de la biblioteca.", "it": "Prendo spesso libri in prestito in biblioteca.", "ru": "Я часто беру книги в библиотеке.", "zh": "我常常在图书馆借书。", "zh_tr": "Wǒ chángcháng zài túshūguǎn jiè shū."}
     },
     {
-      "fr": "bruyant", "en": "noisy", "km": "អ៊ូអរ", "tr": "ou-â", "pos": "adjectif",
+      "fr": "bruyant", "en": "noisy", "km": "អ៊ូអរ", "tr": "ou-â",
+      "es": "ruidoso", "it": "rumoroso", "ru": "шумный", "zh": "吵", "zh_tr": "chǎo", "pos": "adjectif",
       "note": {
         "fr": "អ៊ូអរ se dit d'un lieu bruyant et animé, sans forcément de reproche : une fête est toujours un peu អ៊ូអរ.",
         "en": "អ៊ូអរ describes a noisy, lively place, not always as a complaint: a party is always a bit អ៊ូអរ. French « bruyant » becomes « bruyante » in the feminine.",
         "km": "« bruyant » ភេទស្រីគឺ « bruyante »។ « le bruit » មានន័យថា សំឡេងអ៊ូអរ។ អង់គ្លេស៖ « noisy »។"
       },
-      "example": {"fr": "La rue est bruyante le matin.", "en": "The street is noisy in the morning.", "km": "ផ្លូវអ៊ូអរនៅពេលព្រឹក។", "tr": "phleuv ou-â neuv pél preuk."}
+      "example": {"fr": "La rue est bruyante le matin.", "en": "The street is noisy in the morning.", "km": "ផ្លូវអ៊ូអរនៅពេលព្រឹក។", "tr": "phleuv ou-â neuv pél preuk.",
+      "es": "La calle es ruidosa por la mañana.", "it": "La strada è rumorosa la mattina.", "ru": "Утром на улице шумно.", "zh": "早上街上很吵。", "zh_tr": "Zǎoshang jiē shang hěn chǎo."}
     },
     {
-      "fr": "frapper", "en": "to knock", "km": "គោះ", "tr": "koh", "pos": "verbe",
+      "fr": "frapper", "en": "to knock", "km": "គោះ", "tr": "koh",
+      "es": "llamar a la puerta", "it": "bussare", "ru": "стучать", "zh": "敲门", "zh_tr": "qiāo mén", "pos": "verbe",
       "note": {
         "fr": "គោះទ្វារ (koh tvéa), « frapper à la porte ». Le ះ final se prononce comme un h soufflé.",
         "en": "គោះទ្វារ (koh tvéa), “knock at the door”. The final ះ is a breathed h. French « frapper » also means “to hit”.",
         "km": "« frapper à la porte » មានន័យថា គោះទ្វារ។ « frapper » ក៏មានន័យថា វាយដែរ។ អង់គ្លេស៖ « to knock »។"
       },
-      "example": {"fr": "Quelqu'un frappe à la porte.", "en": "Someone is knocking at the door.", "km": "មាននរណាម្នាក់គោះទ្វារ។", "tr": "méan no-na mnéak koh tvéa."}
+      "example": {"fr": "Quelqu'un frappe à la porte.", "en": "Someone is knocking at the door.", "km": "មាននរណាម្នាក់គោះទ្វារ។", "tr": "méan no-na mnéak koh tvéa.",
+      "es": "Alguien llama a la puerta.", "it": "Qualcuno bussa alla porta.", "ru": "Кто-то стучит в дверь.", "zh": "有人在敲门。", "zh_tr": "Yǒu rén zài qiāo mén."}
     }
   ],
   "expressions": [
     {
       "fr": "Excuse-moi de te déranger.", "en": "Sorry to bother you.", "km": "សុំទោសដែលរំខាន។", "tr": "som toh dael rum-khan.",
+      "es": "Perdona que te moleste.", "it": "Scusa se ti disturbo.", "ru": "Извини, что беспокою.", "zh": "不好意思打扰你。", "zh_tr": "Bù hǎoyìsi dǎrǎo nǐ.",
       "note": {
         "fr": "រំខាន (rum-khan), « déranger ». ដែល (dael) relie l'excuse à sa raison, comme dans អរគុណដែល…",
         "en": "រំខាន (rum-khan), “to disturb”. ដែល (dael) links the apology to its reason, as in អរគុណដែល… French « déranger » means “to disturb”.",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Tu peux me prêter une échelle ?", "en": "Can you lend me a ladder?", "km": "ខ្ញុំសុំខ្ចីជណ្តើរបានទេ?", "tr": "khgnom som khtchey tchum-daeu ban té ?",
+      "es": "¿Me puedes prestar una escalera?", "it": "Mi puoi prestare una scala?", "ru": "Можешь одолжить мне лестницу?", "zh": "你能借我一把梯子吗？", "zh_tr": "Nǐ néng jiè wǒ yì bǎ tīzi ma?",
       "note": {
         "fr": "Le khmer préfère « je demande à emprunter » à « tu peux me prêter ». ជណ្តើរ veut dire l'escalier et l'échelle.",
         "en": "Khmer prefers “I ask to borrow” to “can you lend me”. ជណ្តើរ means both stairs and ladder. French « échelle » is feminine.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Je te le rends ce soir.", "en": "I'll give it back tonight.", "km": "ល្ងាចនេះខ្ញុំយកមកសងវិញ។", "tr": "lngéatch nih khgnom yok mok sâng vign.",
+      "es": "Te lo devuelvo esta noche.", "it": "Te lo restituisco stasera.", "ru": "Я верну тебе это сегодня вечером.", "zh": "我今天晚上还给你。", "zh_tr": "Wǒ jīntiān wǎnshang huán gěi nǐ.",
       "note": {
         "fr": "យកមកសងវិញ, mot à mot « apporter pour rendre ». វិញ marque le retour.",
         "en": "យកមកសងវិញ, word for word “bring to give back”. វិញ marks the return. French « rendre » means “to give back”.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Désolé pour le bruit.", "en": "Sorry about the noise.", "km": "សុំទោសដែលអ៊ូអរ។", "tr": "som toh dael ou-â.",
+      "es": "Perdón por el ruido.", "it": "Scusate per il rumore.", "ru": "Извините за шум.", "zh": "不好意思，太吵了。", "zh_tr": "Bù hǎoyìsi, tài chǎo le.",
       "note": {
         "fr": "Après une fête, on va volontiers s'excuser chez les voisins, souvent avec un plat à partager.",
         "en": "After a party, people like to apologise to the neighbours, often with a dish to share. French « désolé » becomes « désolée » for a woman.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Une fête chez les voisins", "en": "A party next door", "km": "ពិធីនៅផ្ទះអ្នកជិតខាង"},
       "fr": "Les voisins font une fête, c'est très bruyant.", "en": "The neighbours are having a party, it's very noisy.",
-      "km": "អ្នកជិតខាងមានពិធីជប់លៀង អ៊ូអរណាស់។", "tr": "néak tchit khang méan pi-thi tchoup-lieng, ou-â nah."
+      "km": "អ្នកជិតខាងមានពិធីជប់លៀង អ៊ូអរណាស់។", "tr": "néak tchit khang méan pi-thi tchoup-lieng, ou-â nah.",
+      "es": "Los vecinos hacen una fiesta, hay mucho ruido.", "it": "I vicini fanno una festa, c'è molto rumore.", "ru": "У соседей вечеринка, очень шумно.", "zh": "邻居在开派对，很吵。", "zh_tr": "Línjū zài kāi pàiduì, hěn chǎo."
     },
     {
       "situation": {"fr": "Avant de partir en voyage", "en": "Before going away", "km": "មុនចេញដំណើរ"},
       "fr": "Notre voisine garde la clé de la maison.", "en": "Our neighbour is keeping the house key.",
-      "km": "អ្នកជិតខាងរបស់យើងទុកកូនសោផ្ទះឱ្យ។", "tr": "néak tchit khang ro-bâh yeung touk kôn sao phtéah aoy."
+      "km": "អ្នកជិតខាងរបស់យើងទុកកូនសោផ្ទះឱ្យ។", "tr": "néak tchit khang ro-bâh yeung touk kôn sao phtéah aoy.",
+      "es": "Nuestra vecina guarda la llave de la casa.", "it": "La nostra vicina tiene la chiave di casa.", "ru": "Наша соседка хранит ключ от дома.", "zh": "我们家的钥匙放在邻居阿姨那儿。", "zh_tr": "Wǒmen jiā de yàoshi fàng zài línjū āyí nàr."
     },
     {
       "situation": {"fr": "Dans la rue", "en": "In the street", "km": "នៅតាមផ្លូវ"},
       "fr": "Dans mon quartier, tout le monde se dit bonjour.", "en": "In my neighbourhood, everyone says hello to each other.",
-      "km": "នៅសង្កាត់ខ្ញុំ អ្នកទាំងអស់គ្នាសួរសុខទុក្ខគ្នា។", "tr": "neuv sâng-kat khgnom, néak téang âh knéa sour sok-tuk knéa."
+      "km": "នៅសង្កាត់ខ្ញុំ អ្នកទាំងអស់គ្នាសួរសុខទុក្ខគ្នា។", "tr": "neuv sâng-kat khgnom, néak téang âh knéa sour sok-tuk knéa.",
+      "es": "En mi barrio, todo el mundo se saluda.", "it": "Nel mio quartiere tutti si salutano.", "ru": "В моём районе все здороваются друг с другом.", "zh": "在我们街区，大家见面都打招呼。", "zh_tr": "Zài wǒmen jiēqū, dàjiā jiànmiàn dōu dǎ zhāohu."
     }
   ],
   "dialogue": {
     "setting": {"fr": "{B} frappe à la porte de sa voisine {A} pour lui demander un service.", "en": "{B} knocks at the door of {A}, who lives next door, to ask a favour.", "km": "{B} គោះទ្វារផ្ទះ {A} ដែលជាអ្នកជិតខាង ដើម្បីសុំជំនួយ។"},
     "lines": [
-      {"speaker": "B", "fr": "Bonjour ! Excuse-moi de te déranger.", "en": "Hello! Sorry to bother you.", "km": "សួស្តី! សុំទោសដែលរំខាន។", "tr": "souos-dey ! som toh dael rum-khan."},
-      {"speaker": "A", "fr": "Pas de problème, entre !", "en": "No problem, come in!", "km": "អត់បញ្ហាទេ ចូលមក!", "tr": "ât bagn-ha té, tchôl mok !"},
-      {"speaker": "B", "fr": "Tu peux me prêter une échelle ? Je dois réparer le toit.", "en": "Can you lend me a ladder? I have to fix the roof.", "km": "ខ្ញុំសុំខ្ចីជណ្តើរបានទេ? ខ្ញុំត្រូវជួសជុលដំបូល។", "tr": "khgnom som khtchey tchum-daeu ban té ? khgnom treuv tchouoh-tchoul dâm-boul."},
-      {"speaker": "A", "fr": "Bien sûr, elle est derrière la maison.", "en": "Of course, it's behind the house.", "km": "បានណា វានៅក្រោយផ្ទះ។", "tr": "ban na, véa neuv kraoy phtéah."},
-      {"speaker": "B", "fr": "Merci ! Je te la rends ce soir.", "en": "Thanks! I'll give it back tonight.", "km": "អរគុណ! ល្ងាចនេះខ្ញុំយកមកសងវិញ។", "tr": "â-koun ! lngéatch nih khgnom yok mok sâng vign."},
-      {"speaker": "A", "fr": "Prends ton temps. Et fais attention en montant !", "en": "Take your time. And be careful going up!", "km": "មិនអីទេ យឺតៗក៏បាន។ ហើយប្រយ័ត្នពេលឡើង!", "tr": "min ey té, yeut-yeut kâ ban. haeuy prâ-yat pél laeung !"}
+      {"speaker": "B", "fr": "Bonjour ! Excuse-moi de te déranger.", "en": "Hello! Sorry to bother you.", "km": "សួស្តី! សុំទោសដែលរំខាន។", "tr": "souos-dey ! som toh dael rum-khan.",
+        "es": "¡Hola! Perdona que te moleste.", "it": "Ciao! Scusa se ti disturbo.", "ru": "Привет! Извини, что беспокою.", "zh": "你好！不好意思打扰你。", "zh_tr": "Nǐ hǎo! Bù hǎoyìsi dǎrǎo nǐ."},
+      {"speaker": "A", "fr": "Pas de problème, entre !", "en": "No problem, come in!", "km": "អត់បញ្ហាទេ ចូលមក!", "tr": "ât bagn-ha té, tchôl mok !",
+        "es": "No pasa nada, ¡pasa!", "it": "Nessun problema, entra!", "ru": "Ничего, заходи!", "zh": "没关系，进来吧！", "zh_tr": "Méi guānxi, jìnlai ba!"},
+      {"speaker": "B", "fr": "Tu peux me prêter une échelle ? Je dois réparer le toit.", "en": "Can you lend me a ladder? I have to fix the roof.", "km": "ខ្ញុំសុំខ្ចីជណ្តើរបានទេ? ខ្ញុំត្រូវជួសជុលដំបូល។", "tr": "khgnom som khtchey tchum-daeu ban té ? khgnom treuv tchouoh-tchoul dâm-boul.",
+        "es": "¿Me puedes prestar una escalera? Tengo que arreglar el tejado.", "it": "Mi puoi prestare una scala? Devo riparare il tetto.", "ru": "Можешь одолжить мне лестницу? Мне нужно починить крышу.", "zh": "你能借我一把梯子吗？我得修屋顶。", "zh_tr": "Nǐ néng jiè wǒ yì bǎ tīzi ma? Wǒ děi xiū wūdǐng."},
+      {"speaker": "A", "fr": "Bien sûr, elle est derrière la maison.", "en": "Of course, it's behind the house.", "km": "បានណា វានៅក្រោយផ្ទះ។", "tr": "ban na, véa neuv kraoy phtéah.",
+        "es": "Claro, está detrás de la casa.", "it": "Certo, è dietro la casa.", "ru": "Конечно, она за домом.", "zh": "当然，在房子后面。", "zh_tr": "Dāngrán, zài fángzi hòumiàn."},
+      {"speaker": "B", "fr": "Merci ! Je te la rends ce soir.", "en": "Thanks! I'll give it back tonight.", "km": "អរគុណ! ល្ងាចនេះខ្ញុំយកមកសងវិញ។", "tr": "â-koun ! lngéatch nih khgnom yok mok sâng vign.",
+        "es": "¡Gracias! Te la devuelvo esta noche.", "it": "Grazie! Te la restituisco stasera.", "ru": "Спасибо! Я верну её сегодня вечером.", "zh": "谢谢！我今天晚上还给你。", "zh_tr": "Xièxie! Wǒ jīntiān wǎnshang huán gěi nǐ."},
+      {"speaker": "A", "fr": "Prends ton temps. Et fais attention en montant !", "en": "Take your time. And be careful going up!", "km": "មិនអីទេ យឺតៗក៏បាន។ ហើយប្រយ័ត្នពេលឡើង!", "tr": "min ey té, yeut-yeut kâ ban. haeuy prâ-yat pél laeung !",
+        "es": "Tómate tu tiempo. ¡Y ten cuidado al subir!", "it": "Fai con calma. E fai attenzione quando sali!", "ru": "Не торопись. И будь осторожен, когда полезешь наверх!", "zh": "不着急。上去的时候小心点儿！", "zh_tr": "Bù zháojí. Shàngqu de shíhou xiǎoxīn diǎnr!"}
     ]
   },
   "comprehension": {

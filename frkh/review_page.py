@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 
 from .audio import wavutil
+from .langs import translit
 from .textutil import LANGS, speech_text
 
 PAGE = "revision.html"
@@ -45,16 +46,23 @@ def collect(renderer) -> list[dict]:
                     continue
                 seen.add(key)
                 audio = {}
-                for lang in LANGS:
+                langs = [lang for lang in renderer.config.content_langs() if entry.get(lang)]
+                for lang in langs:
                     ref = renderer.library.lookup(speech_text(entry[lang]), lang)
                     if ref.ready:
                         audio[lang] = ref.path
-                cards.append({
+                card = {
                     "id": f'{entry["fr"]}|{entry["km"]}', "n": row["lesson_number"], "d": row["lesson_date"],
                     "k": "w" if kind == "vocabulary" else "e",
                     "fr": entry["fr"], "en": entry["en"], "km": entry["km"], "tr": entry.get("tr", ""),
                     "a": audio, "href": row["html_path"] or f'lessons/lesson-{row["lesson_number"]:03d}.html',
-                })
+                }
+                for lang in langs:
+                    card[lang] = entry[lang]
+                    reading = translit(entry, lang)
+                    if reading and lang != "km":
+                        card[f"{lang}_tr"] = reading
+                cards.append(card)
     return cards
 
 
@@ -75,7 +83,7 @@ def render(renderer) -> str:
         f'<script src="./js/review.js?v={renderer._asset_version()}" defer></script>'
         f'</article>')
     page = renderer._page(root=".", title=f'{TEXT["title"][0]} — {renderer.config.get("site.title", "FR-KH Learning")}',
-                          description="Cartes mémoire du vocabulaire des leçons, en français, anglais et khmer.",
+                          description="Cartes mémoire du vocabulaire des leçons, dans toutes les langues.",
                           body_class="page-review", content=content)
     target = renderer.paths.index.parent / PAGE
     wavutil.atomic_write(target, page.encode("utf-8"))

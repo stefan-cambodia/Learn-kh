@@ -1,5 +1,6 @@
-"""Module « Alphabets » : alphabet khmer (consonnes, voyelles, chiffres) et alphabet latin
-(noms des lettres en français et en anglais, accents, sons particuliers), avec audio.
+"""Module « Alphabets » : alphabet khmer (consonnes, voyelles, chiffres), alphabet latin
+(noms des lettres en français et en anglais, accents, sons particuliers), alphabet
+cyrillique (russe) et écriture chinoise (tons, pinyin, premiers caractères), avec audio.
 
 Les données se trouvent dans ``content/alphabets.json`` ; la page produite est
 ``alphabet.html``, à la racine du site, à côté de ``index.html``.
@@ -23,8 +24,18 @@ PAGE = "alphabet.html"
 LABELS = {
     "title": ("Alphabets", "Alphabets", "អក្សរ"),
     "kicker": ("Module d'écriture", "Writing module", "ម៉ូឌុលអក្សរ"),
-    "subtitle": ("Lettres khmères et latines, avec leur prononciation", "Khmer and Latin letters, with their pronunciation",
-                 "អក្សរខ្មែរ និងអក្សរឡាតាំង ព្រមទាំងការបញ្ចេញសំឡេង"),
+    "subtitle": ("Lettres khmères, latines et cyrilliques, et l'écriture chinoise, avec leur prononciation",
+                 "Khmer, Latin and Cyrillic letters, and Chinese writing, with their pronunciation",
+                 "អក្សរខ្មែរ ឡាតាំង ស៊ីរីលិក និងអក្សរចិន ព្រមទាំងការបញ្ចេញសំឡេង"),
+    "cyrillic": ("Alphabet cyrillique (russe)", "Cyrillic alphabet (Russian)", "អក្សរស៊ីរីលិក (ភាសារុស្ស៊ី)"),
+    "cyr_letters": ("Les 33 lettres", "The 33 letters", "អក្សរ៣៣តួ"),
+    "chinese": ("Écriture chinoise", "Chinese writing", "អក្សរចិន"),
+    "tones": ("Les tons", "Tones", "សំឡេងឡើងចុះ"),
+    "initials": ("Les initiales du pinyin", "Pinyin initials", "សំឡេងដើម pinyin"),
+    "finals": ("Les finales du pinyin", "Pinyin finals", "សំឡេងចុង pinyin"),
+    "characters": ("Premiers caractères", "First characters", "តួអក្សរដំបូង"),
+    "toc_cyrillic": ("Cyrillique", "Cyrillic", "ស៊ីរីលិក"),
+    "toc_chinese": ("Chinois", "Chinese", "ចិន"),
     "khmer": ("Alphabet khmer", "Khmer alphabet", "អក្សរខ្មែរ"),
     "latin": ("Alphabet latin", "Latin alphabet", "អក្សរឡាតាំង"),
     "consonants": ("Les 33 consonnes", "The 33 consonants", "ព្យញ្ជនៈ៣៣តួ"),
@@ -116,6 +127,14 @@ def audio_items(data: dict | None) -> list[tuple[str, str]]:
         add("fr", accent["example"]["word"])
     for sound in latin.get("sounds", []):
         add(sound["lang"], sound["example"]["word"])
+
+    for letter in data.get("cyrillic", {}).get("letters", []):
+        add("ru", letter["name"])
+        add("ru", letter["example"]["word"])
+    chinese = data.get("chinese", {})
+    for key in ("tones", "initials", "finals", "characters"):
+        for item in chinese.get(key, []):
+            add("zh", item["char"])
     return items
 
 
@@ -246,6 +265,68 @@ def _sounds(renderer, latin: dict) -> str:
     return "".join(cards)
 
 
+def _meaning3(meaning: dict | None) -> str:
+    """Sens d'un mot d'exemple, dans la langue du profil (fr, en ou km)."""
+    return "".join(f'<span class="glyph-meaning for-{lang}" lang="{lang}">{_esc(text)}</span>'
+                   for lang, text in (meaning or {}).items() if text)
+
+
+def _cyrillic_letters(renderer, cyr: dict) -> str:
+    cards = []
+    for letter in cyr.get("letters", []):
+        ex = letter["example"]
+        cards.append(
+            f'<article class="glyph-card glyph-letter glyph-cyr"><div class="glyph-head">'
+            f'<span class="glyph glyph-latin-big" lang="ru">{_esc(letter["upper"])} {_esc(letter["lower"])}</span>'
+            f'<span class="glyph-sound translit" lang="ru-Latn">{_esc(letter["sound"])}</span></div>'
+            f'<div class="glyph-row lang-ru"><span class="lang-tag" aria-hidden="true">RU</span>'
+            f'<span class="glyph-name" lang="ru">{_esc(letter["name"])}</span>{_audio(renderer, letter["name"], "ru")}</div>'
+            f'<div class="glyph-example lang-ru"><span class="glyph-word" lang="ru">{_esc(ex["word"])}</span>'
+            f'<span class="translit" lang="ru-Latn">{_esc(ex["tr"])}</span>'
+            f'{_meaning3({k: ex.get(k) for k in ("fr", "en", "km")})}{_audio(renderer, ex["word"], "ru")}</div>'
+            f'{_notes(letter.get("note"), "glyph-note")}</article>')
+    return "".join(cards)
+
+
+def _han_cards(renderer, items: list, with_letters: bool = False) -> str:
+    cards = []
+    for item in items:
+        if with_letters:
+            head = (f'<div class="glyph-head"><span class="glyph glyph-latin-big glyph-combo" lang="zh-Latn-pinyin">'
+                    f'{_esc(item["letters"])}</span></div>'
+                    f'<div class="glyph-example lang-zh"><span class="glyph-word glyph-han" lang="zh">{_esc(item["char"])}</span>'
+                    f'<span class="translit" lang="zh-Latn-pinyin">{_esc(item["py"])}</span>'
+                    f'{_meaning3(item.get("meaning"))}{_audio(renderer, item["char"], "zh")}</div>')
+        else:
+            head = (f'<div class="glyph-head"><span class="glyph glyph-han" lang="zh">{_esc(item["char"])}</span>'
+                    f'<span class="glyph-sound" lang="zh-Latn-pinyin">{_esc(item["py"])}</span>{_audio(renderer, item["char"], "zh")}</div>'
+                    f'<div class="glyph-badges">{_meaning3(item.get("meaning"))}</div>')
+        cards.append(f'<article class="glyph-card glyph-zh">{head}{_notes(item.get("note"), "glyph-note")}</article>')
+    return "".join(cards)
+
+
+def _extra_parts(renderer, data: dict) -> str:
+    """Parties « Cyrillique » et « Chinois » (masquées avec la langue correspondante)."""
+    out = ""
+    cyr = data.get("cyrillic")
+    if cyr:
+        out += (f'<section class="part alpha-part only-ru" id="cyrillique"><header class="part-head">'
+                f'<span class="part-num" aria-hidden="true" lang="ru">Я</span><h2>{lbl("cyrillic")}</h2></header>'
+                f'{_intro(cyr.get("intro"))}'
+                f'{_block("cyr-lettres", "cyr_letters", _cyrillic_letters(renderer, cyr))}</section>')
+    zh = data.get("chinese")
+    if zh:
+        out += (f'<section class="part alpha-part only-zh" id="chinois"><header class="part-head">'
+                f'<span class="part-num" aria-hidden="true" lang="zh">中</span><h2>{lbl("chinese")}</h2></header>'
+                f'{_intro(zh.get("intro"))}'
+                f'{_block("tons", "tones", _han_cards(renderer, zh.get("tones", [])), _notes(zh.get("tones_intro"), "alpha-hint"))}'
+                f'{_block("initiales", "initials", _han_cards(renderer, zh.get("initials", []), with_letters=True))}'
+                f'{_block("finales", "finals", _han_cards(renderer, zh.get("finals", []), with_letters=True))}'
+                f'{_block("caracteres", "characters", _han_cards(renderer, zh.get("characters", [])), _notes(zh.get("characters_intro"), "alpha-hint"))}'
+                f'</section>')
+    return out
+
+
 def render(renderer, data: dict | None) -> str | None:
     """Écrit alphabet.html et renvoie son chemin relatif (None si les données sont absentes)."""
     if not data:
@@ -258,6 +339,9 @@ def render(renderer, data: dict | None) -> str | None:
     toc = "".join(f'<a class="chip" href="#{anchor}">{lbl(key)}</a>' for anchor, key in (
         ("consonnes", "consonants"), ("voyelles", "vowels"), ("chiffres", "digits"),
         ("lettres", "letters"), ("accents", "accents"), ("sons", "sounds")))
+    toc += "".join(f'<a class="chip {css}" href="#{anchor}">{lbl(key)}</a>' for anchor, key, css in (
+        ("cyrillique", "toc_cyrillic", "only-ru"), ("chinois", "toc_chinese", "only-zh"))
+        if data.get({"only-ru": "cyrillic", "only-zh": "chinese"}[css]))
     khmer_part = (
         f'<section class="part alpha-part" id="khmer"><header class="part-head">'
         f'<span class="part-num" aria-hidden="true" lang="km">ក</span><h2>{lbl("khmer")}</h2></header>'
@@ -282,9 +366,9 @@ def render(renderer, data: dict | None) -> str | None:
         f'<span class="t-km" lang="km">{_esc(LABELS["title"][2])}</span></h1>'
         f'<p class="alpha-subtitle">{lbl("subtitle")}</p></header>'
         f'<nav class="alpha-toc" aria-label="Sommaire">{toc}</nav>'
-        f'<div class="alpha-parts">{khmer_part}{latin_part}</div></article>')
+        f'<div class="alpha-parts">{khmer_part}{latin_part}{_extra_parts(renderer, data)}</div></article>')
     page = renderer._page(root=".", title=f'{LABELS["title"][0]} — {renderer.config.get("site.title", "FR-KH Learning")}',
-                          description="Alphabet khmer et alphabet latin, avec la prononciation de chaque lettre.",
+                          description="Alphabets khmer, latin et cyrillique, et écriture chinoise, avec la prononciation.",
                           body_class="page-alphabet", content=content)
     target = renderer.paths.index.parent / PAGE
     wavutil.atomic_write(target, page.encode("utf-8"))

@@ -11,6 +11,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
+from .langs import EXTRA_LANGS, has_cyrillic, has_han
 from .textutil import fold, has_khmer, has_latin, khmer_issues, normalize_text
 
 LEVELS = ("debutant", "elementaire", "intermediaire")
@@ -89,6 +90,40 @@ def check_trilingual(entry, where: str, need_tr: bool = True, langs=("fr", "en",
     return issues
 
 
+def check_extra(entry, where: str) -> list[Issue]:
+    """Langues supplémentaires d'une entrée : espagnol, italien, russe (cyrillique), chinois (+ pinyin)."""
+    issues: list[Issue] = []
+    if not isinstance(entry, dict):
+        return issues
+    for lang in EXTRA_LANGS:
+        raw = entry.get(lang)
+        if raw is None:
+            issues.append(Issue("warning", where, f"traduction « {lang} » manquante"))
+            continue
+        if not isinstance(raw, str) or not normalize_text(raw):
+            issues.append(Issue("error", where, f"texte « {lang} » vide"))
+            continue
+        text = _strip_placeholders(normalize_text(raw))
+        for ph in _PLACEHOLDER_RE.findall(raw):
+            if ph not in ("{A}", "{B}"):
+                issues.append(Issue("error", where, f"variable {ph} non permise en « {lang} »"))
+        if has_khmer(text):
+            issues.append(Issue("error", where, f"caractères khmers dans le texte « {lang} »"))
+        if lang == "ru" and not has_cyrillic(text):
+            issues.append(Issue("error", where, "le russe doit être écrit en cyrillique"))
+        if lang == "zh" and not has_han(text):
+            issues.append(Issue("error", where, "le chinois doit être écrit en caractères chinois"))
+        if lang in ("es", "it") and (has_cyrillic(text) or has_han(text)):
+            issues.append(Issue("error", where, f"écriture inattendue dans le texte « {lang} »"))
+    if isinstance(entry.get("zh"), str):
+        pinyin = entry.get("zh_tr")
+        if not isinstance(pinyin, str) or not normalize_text(pinyin):
+            issues.append(Issue("warning", where, "pinyin (zh_tr) manquant"))
+        elif has_han(pinyin) or has_khmer(pinyin):
+            issues.append(Issue("error", where, "le pinyin (zh_tr) doit être en lettres latines"))
+    return issues
+
+
 def check_unit(unit: dict, name: str = "") -> list[Issue]:
     """Valide une unité complète du programme."""
     w = name or unit.get("id", "?")
@@ -118,10 +153,12 @@ def check_unit(unit: dict, name: str = "") -> list[Issue]:
             issues += check_trilingual(item, here)
             if not isinstance(item, dict):
                 continue
+            issues += check_extra(item, here)
             if section == "vocabulary":
                 if item.get("pos") not in POS:
                     issues.append(Issue("error", here, f"catégorie grammaticale invalide : {item.get('pos')!r}"))
                 issues += check_trilingual(item.get("example"), f"{here}/example")
+                issues += check_extra(item.get("example"), f"{here}/example")
             if section in ("vocabulary", "expressions"):
                 issues += check_trilingual(item.get("note"), f"{here}/note", need_tr=False,
                                            langs=("fr", "en", "km"), mixed=True)
@@ -140,6 +177,7 @@ def check_unit(unit: dict, name: str = "") -> list[Issue]:
         for i, line in enumerate(lines, 1):
             here = f"{w}/dialogue[{i}]"
             issues += check_trilingual(line, here)
+            issues += check_extra(line, here)
             if isinstance(line, dict):
                 if line.get("speaker") not in ("A", "B"):
                     issues.append(Issue("error", here, "locuteur attendu : A ou B"))

@@ -15,11 +15,19 @@ from pathlib import Path
 
 from .. import db
 from ..textutil import normalize_text, slugify
-from . import wavutil
+from . import mp3util, wavutil
 from .providers import (TTSError, TTSProvider, TTSUnavailable, VoiceSpec, create_provider)
 
 HASH_PREFIX = 12          # caractères de l'empreinte repris dans le nom du fichier
 KEY_VERSION = 1           # à incrémenter si la composition de la clé change
+
+
+def inspect_file(path: Path, sample_rate: int | None, quick: bool = False):
+    """Contrôle d'un fichier de la bibliothèque selon son extension (.mp3 ou .wav)."""
+    if Path(path).suffix.lower() == ".mp3":
+        return mp3util.inspect_mp3_file(path, expected_rate=sample_rate)
+    check = wavutil.quick_check_file if quick else wavutil.inspect_wav_file
+    return check(path, expected_rate=sample_rate)
 
 
 @dataclass
@@ -84,7 +92,9 @@ class AudioLibrary:
         spec = VoiceSpec(lang=lang, locale=entry["locale"], provider=provider, voice=voice,
                          speaking_rate=round(float(entry.get("speaking_rate", audio.get("speaking_rate", 1.0))), 3),
                          pitch=round(float(entry.get("pitch", audio.get("pitch", 0.0))), 3),
-                         sample_rate=int(audio.get("sample_rate_hz", 24000)))
+                         sample_rate=int(audio.get("sample_rate_hz", 24000)),
+                         audio_format=self.config.audio_format(),
+                         bitrate=int(audio.get("mp3_bitrate_kbps", 48)) if self.config.audio_format() == "mp3" else 0)
         self._specs[lang] = spec
         return spec
 
@@ -95,7 +105,17 @@ class AudioLibrary:
             return ""
 
     # --- clé de cache et nom de fichier -----------------------------------------
-    def cache_key(self, text: str, spec: VoiceSpec) -> str:
+    @staticmethod
+    def audio_payload(spec: VoiceSpec) -> dict:
+        if spec.audio_format == "mp3":
+            return {"encoding": "mp3", "channels": 1, "bitrate": spec.bitrate, "sample_rate": spec.sample_rate}
+        return {"encoding": "pcm_s16le", "channels": 1, "bits": 16, "sample_rate": spec.sample_rate}
+
+    @staticmethod
+    def format_label(spec: VoiceSpec) -> str:
+        return f"mp3/{spec.bitrate}k/mono" if spec.audio_format == "mp3" else "wav/pcm_s16le/mono"
+
+    def cache_key(self, text: str, spec: VoiceSpec, engine: str | None = None) -> str:
         """Empreinte SHA-256 de tout ce qui détermine le son produit."""
         payload = {
             "v": KEY_VERSION,
@@ -106,16 +126,17 @@ class AudioLibrary:
             "voice": spec.voice,
             "speaking_rate": spec.speaking_rate,
             "pitch": spec.pitch,
-            "audio": {"encoding": "pcm_s16le", "channels": 1, "bits": 16, "sample_rate": spec.sample_rate},
-            "engine": self.engine_version(spec),
+            "audio": self.audio_payload(spec),
+            "engine": self.engine_version(spec) if engine is None else engine,
         }
         canonical = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
         return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
 
     def file_for(self, text: str, spec: VoiceSpec, text_hash: str) -> Path:
-        """Nom déterministe : audio/<locale>/<texte-lisible>_<empreinte>.wav"""
+        """Nom déterministe : audio/<locale>/<texte-lisible>_<empreinte>.mp3 (ou .wav)"""
         slug = slugify(text, default=spec.lang)
-        return self.paths.audio / spec.locale / f"{slug}_{text_hash[:HASH_PREFIX]}.wav"
+        ext = "mp3" if spec.audio_format == "mp3" else "wav"
+        return self.paths.audio / spec.locale / f"{slug}_{text_hash[:HASH_PREFIX]}.{ext}"
 
     # --- consultation sans génération ---------------------------------------------
     def lookup(self, text: str, lang: str) -> AudioRef:
@@ -193,8 +214,7 @@ class AudioLibrary:
         if not path.is_file():
             return None
         try:
-            check = wavutil.quick_check_file if quick else wavutil.inspect_wav_file
-            return check(path, expected_rate=spec.sample_rate)
+            return inspect_file(path, spec.sample_rate, quick=quick)
         except wavutil.AudioFormatError:
             return None
 
@@ -235,6 +255,8 @@ class AudioLibrary:
             self._down[spec.provider] = str(exc)
             return missing(str(exc))
         ok, reason = provider.configured()
+        if ok and spec.audio_format == "mp3":
+            ok, reason = mp3util.ffmpeg_ready()
         if not ok:
             self._down[spec.provider] = f"fournisseur « {spec.provider} » non configuré : {reason}"
             self.log.warning("Audio %s indisponible — %s", spec.locale, self._down[spec.provider])
@@ -255,6 +277,8 @@ class AudioLibrary:
             try:
                 result = provider.synthesize(text, spec)
                 wav = wavutil.to_wav_pcm16_mono(result.audio, result.fmt, spec.sample_rate, result.sample_rate)
+                if spec.audio_format == "mp3":
+                    wav = mp3util.wav_to_mp3(wav, spec.sample_rate, spec.bitrate)
             except TTSError as exc:
                 last_error = str(exc)
                 self._log_call(spec, text, text_hash, False, started, last_error)
@@ -275,7 +299,7 @@ class AudioLibrary:
             self._log_call(spec, text, text_hash, True, started, None)
             # Le nouveau fichier est complet et vérifié avant de remplacer quoi que ce soit.
             wavutil.atomic_write(target, wav)
-            info = wavutil.inspect_wav_file(target, expected_rate=spec.sample_rate)
+            info = inspect_file(target, spec.sample_rate)
             self._store(text, spec, text_hash, target, info, status="ready")
             self._failures[spec.provider] = 0
             self.run_generated.append(self.paths.rel(target))
@@ -301,21 +325,22 @@ class AudioLibrary:
         db.bump(self.conn, self._day(), "tts_calls")
 
     def _store(self, text: str, spec: VoiceSpec, text_hash: str, target: Path, info, *, status: str,
-               error: str | None = None, attempts: int | None = None) -> None:
+               error: str | None = None, attempts: int | None = None, engine: str | None = None) -> None:
         now = db.utcnow()
         size = target.stat().st_size if info is not None else 0
         checksum = wavutil.sha256_file(target) if info is not None else None
         self.conn.execute(
             """INSERT INTO audio_files(text_hash, text, language, locale, provider, voice, speaking_rate, pitch,
-                   sample_rate, engine_version, file_path, file_size, duration, checksum, status, attempts,
+                   sample_rate, engine_version, format, file_path, file_size, duration, checksum, status, attempts,
                    last_error, created_at, updated_at)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                ON CONFLICT(text_hash) DO UPDATE SET
-                   file_path = excluded.file_path, file_size = excluded.file_size, duration = excluded.duration,
+                   format = excluded.format, file_path = excluded.file_path, file_size = excluded.file_size, duration = excluded.duration,
                    checksum = excluded.checksum, status = excluded.status, last_error = excluded.last_error,
                    attempts = excluded.attempts, updated_at = excluded.updated_at""",
             (text_hash, text, spec.lang, spec.locale, spec.provider, spec.voice, spec.speaking_rate, spec.pitch,
-             spec.sample_rate, self.engine_version(spec), self.paths.rel(target), size,
+             spec.sample_rate, engine if engine is not None else self.engine_version(spec), self.format_label(spec),
+             self.paths.rel(target), size,
              round(info.duration, 3) if info is not None else 0, checksum, status, attempts or 0, error, now, now))
 
     # --- contrôle de la bibliothèque --------------------------------------------------------
@@ -337,7 +362,7 @@ class AudioLibrary:
                 report["missing"].append(item)
                 continue
             try:
-                wavutil.inspect_wav_file(path, expected_rate=row["sample_rate"])
+                inspect_file(path, row["sample_rate"])
                 if path.stat().st_size != row["file_size"]:
                     raise wavutil.AudioFormatError("taille différente de celle enregistrée")
                 if deep and row["checksum"] and wavutil.sha256_file(path) != row["checksum"]:
@@ -350,7 +375,7 @@ class AudioLibrary:
             report["bytes"] += row["file_size"]
             report["seconds"] += row["duration"]
         if self.paths.audio.is_dir():
-            for path in sorted(self.paths.audio.rglob("*.wav")):
+            for path in sorted(p for ext in ("*.wav", "*.mp3") for p in self.paths.audio.rglob(ext)):
                 rel = self.paths.rel(path)
                 if rel not in known:
                     report["orphans"].append(rel)
@@ -394,6 +419,56 @@ class AudioLibrary:
         for text_hash in stale:
             self.conn.execute("DELETE FROM audio_files WHERE text_hash = ?", (text_hash,))
         return len(stale)
+
+    def convert(self, fmt: str, progress=None) -> dict:
+        """Convertit les fichiers prêts dans le format demandé (« mp3 » ou « wav »), sans appel au fournisseur.
+
+        Chaque fichier converti reçoit la clé de cache et le nom qu'aurait un fichier
+        généré directement dans ce format ; l'ancien fichier est supprimé une fois le
+        nouveau écrit et vérifié.
+        """
+        fmt = fmt.lower()
+        bitrate = int(self.config.get("audio.mp3_bitrate_kbps", 48)) if fmt == "mp3" else 0
+        if fmt == "mp3":
+            ok, reason = mp3util.ffmpeg_ready()
+            if not ok:
+                raise wavutil.AudioFormatError(reason)
+        report = {"converted": 0, "skipped": 0, "failed": [], "bytes_before": 0, "bytes_after": 0}
+        rows = self.conn.execute("SELECT * FROM audio_files WHERE status = 'ready' ORDER BY id").fetchall()
+        for i, row in enumerate(rows, 1):
+            old = self.paths.root / row["file_path"]
+            if old.suffix.lower() == f".{fmt}":
+                report["skipped"] += 1
+                continue
+            spec = VoiceSpec(lang=row["language"], locale=row["locale"], provider=row["provider"], voice=row["voice"],
+                             speaking_rate=row["speaking_rate"], pitch=row["pitch"], sample_rate=row["sample_rate"],
+                             audio_format=fmt, bitrate=bitrate)
+            engine = row["engine_version"] or ""
+            text_hash = self.cache_key(row["text"], spec, engine=engine)
+            target = self.file_for(row["text"], spec, text_hash)
+            try:
+                if old.suffix.lower() == ".mp3":
+                    data = wavutil.to_wav_pcm16_mono(old.read_bytes(), "mp3", spec.sample_rate)
+                else:
+                    wavutil.inspect_wav_file(old, expected_rate=row["sample_rate"])
+                    data = mp3util.wav_to_mp3(old.read_bytes(), spec.sample_rate, bitrate)
+                wavutil.atomic_write(target, data)
+                info = inspect_file(target, spec.sample_rate)
+            except (OSError, wavutil.AudioFormatError) as exc:
+                report["failed"].append({"file": row["file_path"], "reason": str(exc)})
+                continue
+            with db.transaction(self.conn):
+                self._store(row["text"], spec, text_hash, target, info, status="ready", engine=engine)
+                self.conn.execute("DELETE FROM audio_files WHERE id = ?", (row["id"],))
+            report["bytes_before"] += row["file_size"]
+            report["bytes_after"] += target.stat().st_size
+            if target != old:
+                old.unlink(missing_ok=True)
+            report["converted"] += 1
+            if progress:
+                progress(i, len(rows))
+        self._checked.clear()
+        return report
 
     def statistics(self) -> dict:
         row = self.conn.execute(

@@ -31,6 +31,14 @@
   --en-soft: #e3f4ee;
   --km: #b53d1c;
   --km-soft: #fcebe4;
+  --es: #a21caf;
+  --es-soft: #fae8fb;
+  --it: #0e7490;
+  --it-soft: #e0f4f8;
+  --ru: #6d28d9;
+  --ru-soft: #efe9fd;
+  --zh: #a15c07;
+  --zh-soft: #fbf0d9;
   --gold: #a16a00;
   --gold-soft: #fbf1d8;
   --radius: 14px;
@@ -55,6 +63,14 @@
     --en-soft: #173229;
     --km: #ff9273;
     --km-soft: #3a2119;
+    --es: #f0abfc;
+    --es-soft: #3b1a3e;
+    --it: #67e8f9;
+    --it-soft: #123139;
+    --ru: #c4b5fd;
+    --ru-soft: #2a2142;
+    --zh: #fcd34d;
+    --zh-soft: #3a2f14;
     --gold: #f0c060;
     --gold-soft: #3a3016;
     --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
@@ -423,7 +439,7 @@ html[data-profile="km"] .alpha-parts #latin { order: -1; }
 .alpha-part .tip { margin-top: 0; }
 
 .glyph-grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 168px), 1fr)); }
-#lettres .glyph-grid, #accents .glyph-grid, #sons .glyph-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
+#lettres .glyph-grid, #accents .glyph-grid, #sons .glyph-grid, #cyr-lettres .glyph-grid, #tons .glyph-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
 .glyph-card {
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px;
   box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 8px; min-width: 0;
@@ -836,3 +852,80 @@ html[data-profile="km"] .due-link { font-family: var(--latin), var(--khmer); }
   .tool-link { width: 38px; padding: 0; justify-content: center; }
   .tool-slow > span:not(.tool-slow-rate) { display: none; }
 }
+
+/* --- Langues supplémentaires (espagnol, italien, russe, chinois) ------------------------------- */
+.lang-es { --c: var(--es); --soft: var(--es-soft); }
+.lang-it { --c: var(--it); --soft: var(--it-soft); }
+.lang-ru { --c: var(--ru); --soft: var(--ru-soft); }
+.lang-zh { --c: var(--zh); --soft: var(--zh-soft); }
+.chip-es { color: var(--es); border-color: var(--es); font-weight: 700; }
+.chip-it { color: var(--it); border-color: var(--it); font-weight: 700; }
+.chip-ru { color: var(--ru); border-color: var(--ru); font-weight: 700; }
+.chip-zh { color: var(--zh); border-color: var(--zh); font-weight: 700; }
+.chip-es[data-rp-lang].is-active { background: var(--es); border-color: var(--es); }
+.chip-it[data-rp-lang].is-active { background: var(--it); border-color: var(--it); }
+.chip-ru[data-rp-lang].is-active { background: var(--ru); border-color: var(--ru); }
+.chip-zh[data-rp-lang].is-active { background: var(--zh); border-color: var(--zh); }
+.t-es { color: var(--es); } .t-it { color: var(--it); } .t-ru { color: var(--ru); } .t-zh { color: var(--zh); }
+:lang(zh) { font-family: "Noto Sans SC", "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", var(--latin); }
+.lang-zh .lang-main { font-size: 1.3rem; font-weight: 500; letter-spacing: .02em; }
+.tri-compact .lang-zh .lang-main { font-size: 1.16rem; }
+.translit:lang(zh-Latn-pinyin) { font-style: normal; color: var(--ink-2); }
+
+/* Langues masquées par le sélecteur (classe hide-xx posée sur <html>). */
+html.hide-fr .lang-fr:not(.lang-option), html.hide-fr .chip-fr, html.hide-fr .only-fr,
+html.hide-en .lang-en:not(.lang-option), html.hide-en .chip-en, html.hide-en .only-en,
+html.hide-km .lang-km:not(.lang-option), html.hide-km .chip-km, html.hide-km .only-km,
+html.hide-es .lang-es:not(.lang-option), html.hide-es .chip-es, html.hide-es .only-es,
+html.hide-it .lang-it:not(.lang-option), html.hide-it .chip-it, html.hide-it .only-it,
+html.hide-ru .lang-ru:not(.lang-option), html.hide-ru .chip-ru, html.hide-ru .only-ru,
+html.hide-zh .lang-zh:not(.lang-option), html.hide-zh .chip-zh, html.hide-zh .only-zh { display: none !important; }
+
+/* Mode test et jeu de rôle : mêmes règles que pour le français, l'anglais et le khmer. */
+html.quiz-mode .entry .lang-es:not(.is-shown) .lang-text,
+html.quiz-mode .entry .lang-it:not(.is-shown) .lang-text,
+html.quiz-mode .entry .lang-ru:not(.is-shown) .lang-text,
+html.quiz-mode .entry .lang-zh:not(.is-shown) .lang-text { filter: blur(7px); user-select: none; }
+.line[data-mask="es"] .lang-es .lang-text, .line[data-mask="it"] .lang-it .lang-text,
+.line[data-mask="ru"] .lang-ru .lang-text, .line[data-mask="zh"] .lang-zh .lang-text { filter: blur(7px); user-select: none; }
+.line[data-mask="es"] .lang-es .audio, .line[data-mask="it"] .lang-it .audio,
+.line[data-mask="ru"] .lang-ru .audio, .line[data-mask="zh"] .lang-zh .audio { visibility: hidden; }
+
+/* Sélecteur « Langues » */
+.lang-picker { position: relative; }
+.lang-picker > summary {
+  list-style: none; display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 12px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-size: .85rem; color: var(--ink-2); white-space: nowrap;
+}
+.lang-picker > summary::-webkit-details-marker { display: none; }
+.lang-picker > summary:hover, .lang-picker[open] > summary { border-color: var(--ink-2); color: var(--ink); }
+.lang-picker > summary :lang(km) { line-height: 1.3; }
+.lang-count { min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px; background: var(--ink); color: var(--bg); font-size: .7rem; font-weight: 700; display: inline-grid; place-items: center; }
+.lang-panel {
+  position: absolute; right: 0; top: calc(100% + 8px); z-index: 30; width: 250px; padding: 12px; border-radius: 14px;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); display: grid; gap: 4px;
+}
+.lang-panel-title { font-weight: 700; font-size: .9rem; margin-bottom: 4px; }
+.lang-panel-hint { font-size: .78rem; color: var(--muted); margin-top: 6px; line-height: 1.4; }
+.lang-option { display: grid; grid-template-columns: auto auto 1fr; align-items: center; gap: 10px; padding: 6px 8px; border-radius: 10px; cursor: pointer; background: var(--soft); }
+.lang-option input { width: 18px; height: 18px; margin: 0; accent-color: var(--c); cursor: pointer; }
+.lang-option input:disabled { cursor: not-allowed; }
+.lang-option:has(input:not(:checked)) { background: transparent; opacity: .6; }
+.lang-option-name { font-size: .92rem; font-weight: 600; color: var(--ink); }
+@media (max-width: 720px) {
+  .lang-picker-label { display: none; }
+  .lang-picker > summary { padding: 0 9px; }
+}
+@media (max-width: 440px) {
+  .lang-picker > summary { height: 34px; padding: 0 7px; gap: 4px; }
+  .lang-panel { position: fixed; left: 16px; right: 16px; top: 64px; width: auto; }
+}
+
+/* Alphabets : cyrillique et chinois */
+.glyph-han { font-size: 2.2rem; line-height: 1.3; font-weight: 500; }
+.glyph-word.glyph-han { font-size: 1.5rem; }
+.glyph-zh .glyph-badges { gap: 4px; }
+.glyph-cyr .glyph-sound { font-style: normal; color: var(--ru); }
+.glyph-zh .glyph-sound { color: var(--zh); }
+.glyph-card.glyph-cyr { border-top: 3px solid var(--ru); }
+.glyph-card.glyph-zh { border-top: 3px solid var(--zh); }

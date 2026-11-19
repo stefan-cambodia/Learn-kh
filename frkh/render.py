@@ -15,13 +15,14 @@ from string import Template
 
 from .audio import wavutil
 from .config import LEGACY_PROFILES, LEVEL_LABELS
+from .langs import LANG_META, TRANSLIT_LANG, search_text, translit
 from .textutil import LANGS, fold, format_date, speech_text, to_khmer_digits
 
 # Libellés d'interface : (français, anglais, khmer). Le profil choisi dans la page décide lequel s'affiche.
 UI = {
-    "tagline": ("Une leçon de moins de dix minutes, chaque jour, en trois langues.",
-                "A lesson of less than ten minutes, every day, in three languages.",
-                "មេរៀនខ្លីមិនដល់ ១០ នាទី រៀងរាល់ថ្ងៃ ជាបីភាសា។"),
+    "tagline": ("Une leçon de moins de dix minutes, chaque jour, en sept langues.",
+                "A lesson of less than ten minutes, every day, in seven languages.",
+                "មេរៀនខ្លីមិនដល់ ១០ នាទី រៀងរាល់ថ្ងៃ ជាប្រាំពីរភាសា។"),
     "lesson": ("Leçon", "Lesson", "មេរៀន"),
     "home": ("Toutes les leçons", "All lessons", "មេរៀនទាំងអស់"),
     "previous": ("Leçon précédente", "Previous lesson", "មេរៀនមុន"),
@@ -41,7 +42,12 @@ UI = {
     "example": ("Exemple", "Example", "ឧទាហរណ៍"),
     "tip": ("Le conseil du jour", "Tip of the day", "គន្លឹះថ្ងៃនេះ"),
     "audio_missing": ("Audio pas encore disponible", "Audio not available yet", "មិនទាន់មានសំឡេង"),
-    "download": ("Télécharger le fichier WAV", "Download the WAV file", "ទាញយកឯកសារ WAV"),
+    "download": ("Télécharger le fichier audio", "Download the audio file", "ទាញយកឯកសារសំឡេង"),
+    "langs": ("Langues", "Languages", "ភាសា"),
+    "langs_title": ("Langues affichées", "Languages shown", "ភាសាដែលបង្ហាញ"),
+    "langs_hint": ("Décochez une langue pour la masquer dans toutes les pages.",
+                   "Untick a language to hide it on every page.",
+                   "ដោះធីកភាសាណាមួយ ដើម្បីលាក់វានៅគ្រប់ទំព័រ។"),
     "listen_all": ("Écouter tout le dialogue", "Listen to the whole dialogue", "ស្តាប់ការសន្ទនាទាំងមូល"),
     "review_words": ("Mots à revoir", "Words to review", "ពាក្យត្រូវរំលឹក"),
     "review_hint": ("Revoir un mot à intervalles espacés aide à le retenir.",
@@ -93,10 +99,10 @@ UI = {
     "sc_review": ("Cartes mémoire et exercice d'écoute", "Flashcards and listening practice", "កាតចងចាំ និងលំហាត់ស្តាប់"),
     "sc_lexicon": ("Tous les mots vus, avec l'audio", "Every word seen so far, with audio",
                    "ពាក្យទាំងអស់ដែលបានរៀន ព្រមទាំងសំឡេង"),
-    "sc_alphabet": ("Lettres khmères et latines", "Khmer and Latin letters", "អក្សរខ្មែរ និងអក្សរឡាតាំង"),
-    "alphabet_promo": ("Apprendre les alphabets khmer et latin, avec la prononciation",
-                       "Learn the Khmer and Latin alphabets, with pronunciation",
-                       "រៀនអក្សរខ្មែរ និងអក្សរឡាតាំង ព្រមទាំងការបញ្ចេញសំឡេង"),
+    "sc_alphabet": ("Khmer, latin, cyrillique, chinois", "Khmer, Latin, Cyrillic, Chinese", "ខ្មែរ ឡាតាំង ស៊ីរីលិក ចិន"),
+    "alphabet_promo": ("Apprendre les alphabets khmer, latin et cyrillique, et l'écriture chinoise, avec la prononciation",
+                       "Learn the Khmer, Latin and Cyrillic alphabets and Chinese writing, with pronunciation",
+                       "រៀនអក្សរខ្មែរ ឡាតាំង ស៊ីរីលិក និងអក្សរចិន ព្រមទាំងការបញ្ចេញសំឡេង"),
     "roleplay": ("Jeu de rôle, je suis :", "Role play, I am:", "លេងតួ ខ្ញុំជា៖"),
     "roleplay_lang": ("en", "in", "ជា"),
     "rp_continue": ("Continuer", "Continue", "បន្ត"),
@@ -123,17 +129,11 @@ POS_LABELS = {
 }
 
 # Nom de chaque langue, dans chaque langue d'interface.
-LANG_NAMES = {
-    "fr": {"fr": "français", "en": "French", "km": "ភាសាបារាំង"},
-    "en": {"fr": "anglais", "en": "English", "km": "ភាសាអង់គ្លេស"},
-    "km": {"fr": "khmer", "en": "Khmer", "km": "ភាសាខ្មែរ"},
-}
+LANG_NAMES = {lang: dict(meta["names"]) for lang, meta in LANG_META.items()}
 
-LANG_INFO = {
-    "fr": {"tag": "FR", "listen": "Écouter en français"},
-    "en": {"tag": "EN", "listen": "Listen in English"},
-    "km": {"tag": "KH", "listen": "ស្តាប់ជាភាសាខ្មែរ"},
-}
+LANG_INFO = {lang: {"tag": meta["tag"], "listen": meta["listen"]} for lang, meta in LANG_META.items()}
+
+AUDIO_TYPES = {".mp3": "audio/mpeg", ".wav": "audio/wav"}
 
 PART_MINUTES = {"vocabulary": 3, "expressions": 2, "sentences": 2, "dialogue": 2, "review": 1}
 
@@ -152,6 +152,10 @@ ICONS = {
     "cards": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
     "clock": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
 }
+
+
+def translit_of(entry: dict, lang: str) -> str:
+    return translit(entry, lang)
 
 
 class RenderError(Exception):
@@ -266,9 +270,31 @@ class SiteRenderer:
             ui_profile=esc(UI["profile"][0]), ui_slow=ui("slow"), ui_skip=ui("skip"), ui_footer=ui("footer"),
             ui_home=ui("home"), ui_alphabet=ui("alphabet_nav"), ui_review=ui("review_nav"), ui_lexicon=ui("lexicon_nav"), icon_book=ICONS["book"],
             ui_size_title=esc(UI["size"][0]), app_name=esc(self._app_name()),
+            lang_picker=self._lang_picker(), langs_json=self._langs_json(),
             ui_home_short=ui("home_short"), ui_alphabet_short=ui("alphabet_nav"), icon_house=ICONS["house"],
             icon_cards=ICONS["cards"], version=self._asset_version(), root_attr=root, timezone=esc(self.config.get("schedule.timezone", "Asia/Phnom_Penh")),
             content=content)
+
+    def _langs_json(self) -> str:
+        langs = list(self.config.content_langs())
+        payload = {"all": langs, "shown": self.config.display_langs()}
+        return json.dumps(payload, separators=(",", ":")).replace("</", "<\\/")
+
+    def _lang_picker(self) -> str:
+        """Sélecteur des langues affichées (mémorisé dans le navigateur)."""
+        items = "".join(
+            f'<label class="lang-option lang-{lang}"><input type="checkbox" data-lang-toggle="{lang}" checked>'
+            f'<span class="lang-tag" aria-hidden="true">{esc(LANG_META[lang]["tag"])}</span>'
+            f'<span class="lang-option-name" lang="{lang}">{esc(LANG_META[lang]["native"])}</span></label>'
+            for lang in self.config.content_langs())
+        globe = ('<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" '
+                 'stroke-width="2"/><path d="M3.5 12h17M12 3.5c2.6 2.4 3.8 5.2 3.8 8.5s-1.2 6.1-3.8 8.5c-2.6-2.4-3.8-5.2-3.8-8.5'
+                 's1.2-6.1 3.8-8.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>')
+        return (f'<details class="lang-picker js-only" id="lang-picker"><summary title="{esc(UI["langs_title"][0])}">'
+                f'{globe}<span class="lang-picker-label">{ui("langs")}</span><span class="lang-count" id="lang-count"></span></summary>'
+                f'<div class="lang-panel" role="group" aria-label="{esc(UI["langs_title"][0])}">'
+                f'<p class="lang-panel-title">{ui("langs_title")}</p>{items}'
+                f'<p class="lang-panel-hint">{ui("langs_hint")}</p></div></details>')
 
     def _asset_version(self) -> str:
         """Numéro de version des fichiers CSS et JS : force le navigateur à recharger après une mise à jour."""
@@ -289,18 +315,21 @@ class SiteRenderer:
                               reason=esc(UI["audio_missing"][0]))
         src = f"{root}/{ref.path}"
         return self._fill("partials/audio", lang=lang, src=esc(src), filename=esc(Path(ref.path).name),
+                          mime=AUDIO_TYPES.get(Path(ref.path).suffix.lower(), "audio/mpeg"),
                           label=esc(f"{LANG_INFO[lang]['listen']} : {text}"),
                           download_title=esc(UI["download"][0]), icon_download=ICONS["download"])
 
     def _rows(self, entry: dict, root: str, *, audio: bool = True, compact: bool = False) -> str:
         rows = []
-        for lang in LANGS:
+        for lang in self.config.content_langs():
             text = entry.get(lang)
             if not text:
                 continue
             translit = ""
-            if lang == "km" and entry.get("tr"):
-                translit = f'<p class="translit not-km" lang="km-Latn">{esc(entry["tr"])}</p>'
+            reading = translit_of(entry, lang)
+            if reading:
+                hide = " not-km" if lang == "km" else ""
+                translit = f'<p class="translit{hide}" lang="{TRANSLIT_LANG[lang]}">{esc(reading)}</p>'
             rows.append(self._fill("partials/lang_row", lang=lang, tag=LANG_INFO[lang]["tag"], text=esc(text),
                                    translit=translit, audio=self._audio(text, lang, root) if audio else ""))
         return f'<div class="tri{" tri-compact" if compact else ""}">{"".join(rows)}</div>'
@@ -409,7 +438,7 @@ class SiteRenderer:
         setting = dialogue.get("setting") or {}
         play_all = "".join(
             f'<button type="button" class="chip chip-{lang}" data-play-all="{lang}">{LANG_INFO[lang]["tag"]}</button>'
-            for lang in LANGS)
+            for lang in self.config.content_langs())
         roles = "".join(
             f'<button type="button" class="chip chip-role" data-role="{who.lower()}">'
             f'{self._character_name(characters.get(who, {}).get("name", {}), who)}</button>'
@@ -417,7 +446,7 @@ class SiteRenderer:
         # Langues du jeu de rôle : celles que le profil étudie.
         rp_langs = "".join(
             f'<button type="button" class="chip chip-{lang} not-{lang}" data-rp-lang="{lang}">{LANG_INFO[lang]["tag"]}</button>'
-            for lang in LANGS)
+            for lang in self.config.content_langs())
         roleplay = (f'<div class="roleplay js-only" data-roleplay><span>{ui("roleplay")}</span>{roles}'
                     f'<span class="rp-lang-label">{ui("roleplay_lang")}</span>{rp_langs}</div>'
                     f'<div class="roleplay-bar" id="roleplay-bar" hidden role="status"><p class="rp-msg" id="rp-msg"></p>'
@@ -567,7 +596,7 @@ class SiteRenderer:
                 format_date(date, "fr"), format_date(date, "en"), format_date(date, "km"),
                 row["theme"], row["theme"].replace("-", " "), row["title_fr"], row["title_en"], row["title_km"],
                 level["fr"], level["en"], level["km"], row["level"],
-                " ".join(f"{w['fr']} {w['en']} {w['km']}" for w in words),
+                " ".join(search_text(w) for w in words),
             ])
             preview = "".join(
                 f'<li><span lang="fr">{esc(w["fr"])}</span><span lang="en">{esc(w["en"])}</span>'
@@ -618,12 +647,12 @@ class SiteRenderer:
         body = self._fill(
             "index", site_title=esc(self.config.get("site.title", "FR-KH Learning")), tagline=ui("tagline"),
             stats=stats, search_label=ui("search"), icon_search=ICONS["search"],
-            placeholder_fr=esc("Numéro, date, thème ou mot en français, anglais ou khmer…"),
-            placeholder_en=esc("Number, date, topic or word in French, English or Khmer…"),
+            placeholder_fr=esc("Numéro, date, thème ou mot, dans n'importe quelle langue…"),
+            placeholder_en=esc("Number, date, topic or word, in any language…"),
             placeholder_km=esc("លេខ កាលបរិច្ឆេទ ប្រធានបទ ឬពាក្យ…"),
             filters=filters, lessons="".join(cards), no_result=ui("no_result"),
             alphabet_link=(f'<a class="alpha-promo" data-nav href="alphabet.html"><span class="alpha-promo-glyphs" aria-hidden="true">'
-                           f'<span lang="km">ក ខ គ</span> A B C</span><span class="alpha-promo-text">'
+                           f'<span lang="km">ក ខ</span> A B <span lang="ru">Я</span> <span lang="zh">中</span></span><span class="alpha-promo-text">'
                            f'{ui("alphabet_promo")}'
                            f'</span></a>'),
             empty=f'<p class="empty">{ui("no_lessons")}</p>' if not rows else "",
@@ -633,7 +662,7 @@ class SiteRenderer:
             today_badge=ui("today_badge"), future_badge=ui("future_badge"), icon_next=ICONS["next"],
             icon_flame=ICONS["flame"])
         page = self._page(root=".", title=str(self.config.get("site.title", "FR-KH Learning")),
-                          description="Leçons quotidiennes de français, d'anglais et de khmer — Daily French, English and Khmer lessons.",
+                          description="Leçons quotidiennes en français, anglais, khmer, espagnol, italien, russe et chinois.",
                           body_class="page-index", content=body)
         wavutil.atomic_write(self.paths.index, page.encode("utf-8"))
         self.render_review()
@@ -655,7 +684,7 @@ class SiteRenderer:
         manifest = {
             "name": str(self.config.get("site.title", "FR-KH Learning")),
             "short_name": self._app_name(),
-            "description": "Leçons quotidiennes de français, d'anglais et de khmer.",
+            "description": "Leçons quotidiennes en français, anglais, khmer, espagnol, italien, russe et chinois.",
             "lang": "fr", "start_url": "index.html", "scope": "./", "display": "standalone",
             "background_color": "#f5f2ec", "theme_color": "#1d2230",
             "icons": [

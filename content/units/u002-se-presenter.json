@@ -11,75 +11,91 @@
   },
   "vocabulary": [
     {
-      "fr": "je, moi", "en": "I, me", "km": "ខ្ញុំ", "tr": "khgnom", "pos": "pronom",
+      "fr": "je, moi", "en": "I, me", "km": "ខ្ញុំ", "tr": "khgnom",
+      "es": "yo", "it": "io", "ru": "я", "zh": "我", "zh_tr": "wǒ", "pos": "pronom",
       "note": {
         "fr": "Pronom neutre et poli, pour un homme comme pour une femme.",
         "en": "A neutral, polite pronoun, for men and women alike. French has « je » before a verb and « moi » on its own.",
         "km": "« je » ជាប្រធានប្រយោគ ហើយ « moi » ប្រើសម្រាប់បញ្ជាក់។ ភាសាអង់គ្លេស៖ « I » និង « me »។"
       },
-      "example": {"fr": "Je suis à la maison.", "en": "I am at home.", "km": "ខ្ញុំនៅផ្ទះ។", "tr": "khgnom neuv phtéah."}
+      "example": {"fr": "Je suis à la maison.", "en": "I am at home.", "km": "ខ្ញុំនៅផ្ទះ។", "tr": "khgnom neuv phtéah.",
+      "es": "Estoy en casa.", "it": "Sono a casa.", "ru": "Я дома.", "zh": "我在家。", "zh_tr": "Wǒ zài jiā."}
     },
     {
-      "fr": "vous, tu", "en": "you", "km": "អ្នក", "tr": "néak", "pos": "pronom",
+      "fr": "vous, tu", "en": "you", "km": "អ្នក", "tr": "néak",
+      "es": "usted, tú", "it": "Lei, tu", "ru": "вы, ты", "zh": "您，你", "zh_tr": "nín, nǐ", "pos": "pronom",
       "note": {
         "fr": "Forme neutre. Entre proches, on préfère les termes de parenté : បង (bâng) pour l'aîné, អូន (oun) pour le plus jeune.",
         "en": "The neutral form. Between close people, Khmer prefers family terms: បង (bâng) for someone older, អូន (oun) for someone younger. French « vous » is polite, « tu » is familiar.",
         "km": "« vous » ប្រើដោយគោរព ឬជាមួយមនុស្សច្រើននាក់។ « tu » ប្រើជាមួយមិត្តភក្តិ និងគ្រួសារ។ ភាសាអង់គ្លេសមានតែ « you »។"
       },
-      "example": {"fr": "Et vous ?", "en": "And you?", "km": "ចុះអ្នកវិញ?", "tr": "tchoh néak vign ?"}
+      "example": {"fr": "Et vous ?", "en": "And you?", "km": "ចុះអ្នកវិញ?", "tr": "tchoh néak vign ?",
+      "es": "¿Y usted?", "it": "E Lei?", "ru": "А вы?", "zh": "您呢？", "zh_tr": "Nín ne?"}
     },
     {
-      "fr": "le nom", "en": "name", "km": "ឈ្មោះ", "tr": "tchhmouh", "pos": "nom",
+      "fr": "le nom", "en": "name", "km": "ឈ្មោះ", "tr": "tchhmouh",
+      "es": "el nombre", "it": "il nome", "ru": "имя", "zh": "名字", "zh_tr": "míngzi", "pos": "nom",
       "note": {
         "fr": "Sert aussi de verbe : ខ្ញុំឈ្មោះ… signifie « je m'appelle… ».",
         "en": "Also works as a verb: ខ្ញុំឈ្មោះ… means “my name is…”. French « nom » is masculine: le nom.",
         "km": "« nom » ជានាមភេទប្រុស៖ le nom។ អក្សរ m ចុងពាក្យមិនអានដាច់ទេ សំឡេងចេញតាមច្រមុះ។"
       },
-      "example": {"fr": "Quel est votre nom ?", "en": "What is your name?", "km": "តើអ្នកឈ្មោះអ្វី?", "tr": "taeu néak tchhmouh ey ?"}
+      "example": {"fr": "Quel est votre nom ?", "en": "What is your name?", "km": "តើអ្នកឈ្មោះអ្វី?", "tr": "taeu néak tchhmouh ey ?",
+      "es": "¿Cómo se llama usted?", "it": "Come si chiama?", "ru": "Как вас зовут?", "zh": "您叫什么名字？", "zh_tr": "Nín jiào shénme míngzi?"}
     },
     {
-      "fr": "le pays", "en": "country", "km": "ប្រទេស", "tr": "prâ-téh", "pos": "nom",
+      "fr": "le pays", "en": "country", "km": "ប្រទេស", "tr": "prâ-téh",
+      "es": "el país", "it": "il paese", "ru": "страна", "zh": "国家", "zh_tr": "guójiā", "pos": "nom",
       "note": {
         "fr": "Se place devant le nom du pays : ប្រទេសបារាំង (la France), ប្រទេសកម្ពុជា (le Cambodge).",
         "en": "Goes in front of the country's name: ប្រទេសបារាំង (France), ប្រទេសកម្ពុជា (Cambodia). French « pays » is masculine.",
         "km": "« pays » អានថា « ប៉េអ៊ី »។ អក្សរ s ចុងពាក្យមិនអានទេ។"
       },
-      "example": {"fr": "Le Cambodge est un beau pays.", "en": "Cambodia is a beautiful country.", "km": "កម្ពុជាជាប្រទេសដ៏ស្រស់ស្អាត។", "tr": "kam-pou-tchéa tchéa prâ-téh dâ sroh s'at."}
+      "example": {"fr": "Le Cambodge est un beau pays.", "en": "Cambodia is a beautiful country.", "km": "កម្ពុជាជាប្រទេសដ៏ស្រស់ស្អាត។", "tr": "kam-pou-tchéa tchéa prâ-téh dâ sroh s'at.",
+      "es": "Camboya es un país bonito.", "it": "La Cambogia è un bel paese.", "ru": "Камбоджа — красивая страна.", "zh": "柬埔寨是一个美丽的国家。", "zh_tr": "Jiǎnpǔzhài shì yí ge měilì de guójiā."}
     },
     {
-      "fr": "habiter", "en": "to live", "km": "រស់នៅ", "tr": "rouh neuv", "pos": "verbe",
+      "fr": "habiter", "en": "to live", "km": "រស់នៅ", "tr": "rouh neuv",
+      "es": "vivir", "it": "abitare", "ru": "жить", "zh": "住", "zh_tr": "zhù", "pos": "verbe",
       "note": {
         "fr": "Le verbe khmer ne se conjugue pas : រស់នៅ reste identique à toutes les personnes.",
         "en": "Khmer verbs are never conjugated: រស់នៅ stays the same for every person. French « habiter » changes: j'habite, nous habitons; the h is silent.",
         "km": "កិរិយាសព្ទបារាំងប្តូររូបតាមប្រធាន៖ j'habite, tu habites, nous habitons។"
       },
-      "example": {"fr": "J'habite à Phnom Penh.", "en": "I live in Phnom Penh.", "km": "ខ្ញុំរស់នៅភ្នំពេញ។", "tr": "khgnom rouh neuv phnom-pégn."}
+      "example": {"fr": "J'habite à Phnom Penh.", "en": "I live in Phnom Penh.", "km": "ខ្ញុំរស់នៅភ្នំពេញ។", "tr": "khgnom rouh neuv phnom-pégn.",
+      "es": "Vivo en Phnom Penh.", "it": "Abito a Phnom Penh.", "ru": "Я живу в Пномпене.", "zh": "我住在金边。", "zh_tr": "Wǒ zhù zài Jīnbiān."}
     },
     {
-      "fr": "l'ami", "en": "friend", "km": "មិត្តភក្តិ", "tr": "mit-phéak", "pos": "nom",
+      "fr": "l'ami", "en": "friend", "km": "មិត្តភក្តិ", "tr": "mit-phéak",
+      "es": "el amigo", "it": "l'amico", "ru": "друг", "zh": "朋友", "zh_tr": "péngyou", "pos": "nom",
       "note": {
         "fr": "S'emploie pour un ami comme pour une amie.",
         "en": "Used for a male or a female friend. French distinguishes « un ami » and « une amie », which sound the same.",
         "km": "មិត្តប្រុសសរសេរ « ami » មិត្តស្រីសរសេរ « amie »។ អានដូចគ្នា។"
       },
-      "example": {"fr": "C'est mon ami.", "en": "This is my friend.", "km": "នេះជាមិត្តភក្តិរបស់ខ្ញុំ។", "tr": "nih tchéa mit-phéak ro-bâh khgnom."}
+      "example": {"fr": "C'est mon ami.", "en": "This is my friend.", "km": "នេះជាមិត្តភក្តិរបស់ខ្ញុំ។", "tr": "nih tchéa mit-phéak ro-bâh khgnom.",
+      "es": "Es mi amigo.", "it": "È il mio amico.", "ru": "Это мой друг.", "zh": "这是我的朋友。", "zh_tr": "Zhè shì wǒ de péngyou."}
     }
   ],
   "expressions": [
     {
       "fr": "Je m'appelle…", "en": "My name is…", "km": "ខ្ញុំឈ្មោះ…", "tr": "khgnom tchhmouh…",
+      "es": "Me llamo…", "it": "Mi chiamo…", "ru": "Меня зовут…", "zh": "我叫……", "zh_tr": "Wǒ jiào…",
       "note": {"fr": "On ajoute simplement son prénom après ឈ្មោះ.", "en": "Just add your first name after ឈ្មោះ. In French, « Je m'appelle » literally means “I call myself”.", "km": "និយាយឈ្មោះរបស់អ្នកបន្ទាប់ពី « Je m'appelle »។"}
     },
     {
       "fr": "D'où venez-vous ?", "en": "Where are you from?", "km": "តើអ្នកមកពីណា?", "tr": "taeu néak mok pi na ?",
+      "es": "¿De dónde es usted?", "it": "Di dov'è?", "ru": "Откуда вы?", "zh": "您是哪里人？", "zh_tr": "Nín shì nǎlǐ rén?",
       "note": {"fr": "តើ (taeu) annonce une question ; il est facultatif à l'oral.", "en": "តើ (taeu) announces a question; it is optional in speech.", "km": "សំណួរដើម្បីសួរពីប្រទេស ឬទីកន្លែងកំណើត។"}
     },
     {
       "fr": "Je viens de France.", "en": "I am from France.", "km": "ខ្ញុំមកពីប្រទេសបារាំង។", "tr": "khgnom mok pi prâ-téh ba-rang.",
+      "es": "Soy de Francia.", "it": "Vengo dalla Francia.", "ru": "Я из Франции.", "zh": "我来自法国。", "zh_tr": "Wǒ láizì Fǎguó.",
       "note": {"fr": "មកពី (mok pi) signifie « venir de ».", "en": "មកពី (mok pi) means “to come from”. In French, « de » becomes « du » before masculine countries: je viens du Cambodge.", "km": "ប្តូរឈ្មោះប្រទេសបាន៖ « Je viens du Cambodge »។"}
     },
     {
       "fr": "Enchanté de vous rencontrer.", "en": "Nice to meet you.", "km": "រីករាយដែលបានជួបអ្នក។", "tr": "rik-réay dael ban tchouop néak.",
+      "es": "Encantado de conocerle.", "it": "Piacere di conoscerla.", "ru": "Очень приятно познакомиться.", "zh": "很高兴认识您。", "zh_tr": "Hěn gāoxìng rènshi nín.",
       "note": {
         "fr": "Formule polie lors d'une première rencontre. Une femme écrit « enchantée » ; la prononciation est identique.",
         "en": "A polite phrase for a first meeting. In French, a woman writes « enchantée »; it sounds the same.",
@@ -91,17 +107,20 @@
     {
       "situation": {"fr": "Faire connaissance", "en": "Getting to know someone", "km": "ពេលស្គាល់គ្នាដំបូង"},
       "fr": "Bonjour, je m'appelle {B} et je viens de France.", "en": "Hello, my name is {B} and I am from France.",
-      "km": "សួស្តី ខ្ញុំឈ្មោះ {B} ហើយខ្ញុំមកពីប្រទេសបារាំង។", "tr": "souos-dey, khgnom tchhmouh {B} haeuy khgnom mok pi prâ-téh ba-rang."
+      "km": "សួស្តី ខ្ញុំឈ្មោះ {B} ហើយខ្ញុំមកពីប្រទេសបារាំង។", "tr": "souos-dey, khgnom tchhmouh {B} haeuy khgnom mok pi prâ-téh ba-rang.",
+      "es": "Hola, me llamo {B} y soy de Francia.", "it": "Buongiorno, mi chiamo {B} e vengo dalla Francia.", "ru": "Здравствуйте, меня зовут {B}, я из Франции.", "zh": "你好，我叫{B}，我来自法国。", "zh_tr": "Nǐ hǎo, wǒ jiào {B}, wǒ láizì Fǎguó."
     },
     {
       "situation": {"fr": "Présenter quelqu'un", "en": "Introducing someone", "km": "ពេលណែនាំនរណាម្នាក់"},
       "fr": "Je vous présente {A}, qui vient du Cambodge.", "en": "This is {A}, who is from Cambodia.",
-      "km": "នេះគឺ {A} ដែលមកពីប្រទេសកម្ពុជា។", "tr": "nih keu {A} dael mok pi prâ-téh kam-pou-tchéa."
+      "km": "នេះគឺ {A} ដែលមកពីប្រទេសកម្ពុជា។", "tr": "nih keu {A} dael mok pi prâ-téh kam-pou-tchéa.",
+      "es": "Le presento a {A}, que es de Camboya.", "it": "Le presento {A}, che viene dalla Cambogia.", "ru": "Познакомьтесь, это {A}, она из Камбоджи.", "zh": "我给您介绍一下，这是{A}，她来自柬埔寨。", "zh_tr": "Wǒ gěi nín jièshào yíxià, zhè shì {A}, tā láizì Jiǎnpǔzhài."
     },
     {
       "situation": {"fr": "Parler de sa ville", "en": "Talking about your town", "km": "និយាយអំពីទីក្រុងរបស់ខ្លួន"},
       "fr": "Nous habitons à Phnom Penh.", "en": "We live in Phnom Penh.",
-      "km": "យើងរស់នៅភ្នំពេញ។", "tr": "yeung rouh neuv phnom-pégn."
+      "km": "យើងរស់នៅភ្នំពេញ។", "tr": "yeung rouh neuv phnom-pégn.",
+      "es": "Vivimos en Phnom Penh.", "it": "Abitiamo a Phnom Penh.", "ru": "Мы живём в Пномпене.", "zh": "我们住在金边。", "zh_tr": "Wǒmen zhù zài Jīnbiān."
     }
   ],
   "dialogue": {
@@ -111,12 +130,18 @@
       "km": "លេងតួ៖ {A} និង {B} ធ្វើដូចជាទើបតែជួបគ្នាលើកដំបូង។"
     },
     "lines": [
-      {"speaker": "A", "fr": "Bonjour ! Comment vous appelez-vous ?", "en": "Hello! What is your name?", "km": "សួស្តី! តើអ្នកឈ្មោះអ្វី?", "tr": "souos-dey ! taeu néak tchhmouh ey ?"},
-      {"speaker": "B", "fr": "Je m'appelle {B}. Et vous ?", "en": "My name is {B}. And you?", "km": "ខ្ញុំឈ្មោះ {B}។ ចុះអ្នកវិញ?", "tr": "khgnom tchhmouh {B}. tchoh néak vign ?"},
-      {"speaker": "A", "fr": "Je m'appelle {A}. D'où venez-vous ?", "en": "My name is {A}. Where are you from?", "km": "ខ្ញុំឈ្មោះ {A}។ តើអ្នកមកពីណា?", "tr": "khgnom tchhmouh {A}. taeu néak mok pi na ?"},
-      {"speaker": "B", "fr": "Je viens de France, mais j'habite au Cambodge.", "en": "I am from France, but I live in Cambodia.", "km": "ខ្ញុំមកពីប្រទេសបារាំង ប៉ុន្តែខ្ញុំរស់នៅប្រទេសកម្ពុជា។", "tr": "khgnom mok pi prâ-téh ba-rang, pon-taè khgnom rouh neuv prâ-téh kam-pou-tchéa."},
-      {"speaker": "A", "fr": "C'est un plaisir de vous rencontrer !", "en": "It is a pleasure to meet you!", "km": "រីករាយដែលបានជួបអ្នក!", "tr": "rik-réay dael ban tchouop néak !"},
-      {"speaker": "B", "fr": "Moi aussi !", "en": "Me too!", "km": "ខ្ញុំក៏អ៊ីចឹងដែរ!", "tr": "khgnom kâ ey-tcheung daè !"}
+      {"speaker": "A", "fr": "Bonjour ! Comment vous appelez-vous ?", "en": "Hello! What is your name?", "km": "សួស្តី! តើអ្នកឈ្មោះអ្វី?", "tr": "souos-dey ! taeu néak tchhmouh ey ?",
+        "es": "¡Hola! ¿Cómo se llama usted?", "it": "Buongiorno! Come si chiama?", "ru": "Здравствуйте! Как вас зовут?", "zh": "你好！您叫什么名字？", "zh_tr": "Nǐ hǎo! Nín jiào shénme míngzi?"},
+      {"speaker": "B", "fr": "Je m'appelle {B}. Et vous ?", "en": "My name is {B}. And you?", "km": "ខ្ញុំឈ្មោះ {B}។ ចុះអ្នកវិញ?", "tr": "khgnom tchhmouh {B}. tchoh néak vign ?",
+        "es": "Me llamo {B}. ¿Y usted?", "it": "Mi chiamo {B}. E Lei?", "ru": "Меня зовут {B}. А вас?", "zh": "我叫{B}。您呢？", "zh_tr": "Wǒ jiào {B}. Nín ne?"},
+      {"speaker": "A", "fr": "Je m'appelle {A}. D'où venez-vous ?", "en": "My name is {A}. Where are you from?", "km": "ខ្ញុំឈ្មោះ {A}។ តើអ្នកមកពីណា?", "tr": "khgnom tchhmouh {A}. taeu néak mok pi na ?",
+        "es": "Me llamo {A}. ¿De dónde es usted?", "it": "Mi chiamo {A}. Di dov'è?", "ru": "Меня зовут {A}. Откуда вы?", "zh": "我叫{A}。您是哪里人？", "zh_tr": "Wǒ jiào {A}. Nín shì nǎlǐ rén?"},
+      {"speaker": "B", "fr": "Je viens de France, mais j'habite au Cambodge.", "en": "I am from France, but I live in Cambodia.", "km": "ខ្ញុំមកពីប្រទេសបារាំង ប៉ុន្តែខ្ញុំរស់នៅប្រទេសកម្ពុជា។", "tr": "khgnom mok pi prâ-téh ba-rang, pon-taè khgnom rouh neuv prâ-téh kam-pou-tchéa.",
+        "es": "Soy de Francia, pero vivo en Camboya.", "it": "Vengo dalla Francia, ma abito in Cambogia.", "ru": "Я из Франции, но живу в Камбодже.", "zh": "我来自法国，但是住在柬埔寨。", "zh_tr": "Wǒ láizì Fǎguó, dànshì zhù zài Jiǎnpǔzhài."},
+      {"speaker": "A", "fr": "C'est un plaisir de vous rencontrer !", "en": "It is a pleasure to meet you!", "km": "រីករាយដែលបានជួបអ្នក!", "tr": "rik-réay dael ban tchouop néak !",
+        "es": "¡Es un placer conocerle!", "it": "È un piacere conoscerla!", "ru": "Очень приятно с вами познакомиться!", "zh": "很高兴认识您！", "zh_tr": "Hěn gāoxìng rènshi nín!"},
+      {"speaker": "B", "fr": "Moi aussi !", "en": "Me too!", "km": "ខ្ញុំក៏អ៊ីចឹងដែរ!", "tr": "khgnom kâ ey-tcheung daè !",
+        "es": "¡Igualmente!", "it": "Anche per me!", "ru": "Мне тоже!", "zh": "我也是！", "zh_tr": "Wǒ yě shì!"}
     ]
   },
   "comprehension": {

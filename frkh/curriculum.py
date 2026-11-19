@@ -7,9 +7,10 @@ import logging
 from pathlib import Path
 
 from .quality import Issue, check_bank, check_unit
+from .langs import ru_translit
 from .textutil import normalize_text
 
-TEXT_FIELDS = ("fr", "en", "km", "tr")
+TEXT_FIELDS = ("fr", "en", "km", "tr", "es", "it", "ru", "zh", "zh_tr", "ru_tr")
 _YES = {"m": {"km": "បាទ", "tr": "bat"}, "f": {"km": "ចាស", "tr": "tchah"}}
 
 
@@ -20,10 +21,10 @@ def personalize(text: str, field: str, characters: dict) -> str:
     for key in ("A", "B"):
         learner = characters.get(key, {})
         name = learner.get("name", {})
-        if field == "km":
-            shown = name.get("km") or name.get("latin") or key
-        elif field == "tr":
-            shown = name.get("tr") or name.get("latin") or key
+        if field in ("km", "tr", "ru", "zh", "zh_tr"):
+            shown = name.get(field) or name.get("latin") or key
+        elif field == "ru_tr":
+            shown = ru_translit(name["ru"]) if name.get("ru") else (name.get("latin") or key)
         else:
             shown = name.get("latin") or key
         yes = _YES.get(learner.get("gender", "f"), _YES["f"])

@@ -11,63 +11,76 @@
   },
   "vocabulary": [
     {
-      "fr": "la main", "en": "hand", "km": "ដៃ", "tr": "day", "pos": "nom",
+      "fr": "la main", "en": "hand", "km": "ដៃ", "tr": "day",
+      "es": "la mano", "it": "la mano", "ru": "рука", "zh": "手", "zh_tr": "shǒu", "pos": "nom",
       "note": {
         "fr": "ដៃ veut dire la main et tout le bras. Le mot sert aussi à compter les gestes : ម្តងមួយដៃ, une main à la fois.",
         "en": "ដៃ means the hand and the whole arm. The word also counts actions: ម្តងមួយដៃ, one hand at a time. French « main » is feminine: la main.",
         "km": "« main » ជានាមភេទស្រី៖ la main, ពហុវចនៈ les mains។ ដៃពីស្មាដល់កែងដៃ គឺ « le bras »។ អង់គ្លេស៖ « hand » និង « arm »។"
       },
-      "example": {"fr": "Je me lave les mains avant de manger.", "en": "I wash my hands before eating.", "km": "ខ្ញុំលាងដៃមុនញ៉ាំបាយ។", "tr": "khgnom léang day moun gnam bay."}
+      "example": {"fr": "Je me lave les mains avant de manger.", "en": "I wash my hands before eating.", "km": "ខ្ញុំលាងដៃមុនញ៉ាំបាយ។", "tr": "khgnom léang day moun gnam bay.",
+      "es": "Me lavo las manos antes de comer.", "it": "Mi lavo le mani prima di mangiare.", "ru": "Я мою руки перед едой.", "zh": "我吃饭前洗手。", "zh_tr": "Wǒ chī fàn qián xǐ shǒu."}
     },
     {
-      "fr": "le pied", "en": "foot", "km": "ជើង", "tr": "tcheung", "pos": "nom",
+      "fr": "le pied", "en": "foot", "km": "ជើង", "tr": "tcheung",
+      "es": "el pie", "it": "il piede", "ru": "нога", "zh": "脚", "zh_tr": "jiǎo", "pos": "nom",
       "note": {
         "fr": "ជើង désigne le pied et la jambe. On le retrouve dans ស្បែកជើង (sbaèk tcheung), mot à mot « peau de pied », les chaussures.",
         "en": "ជើង means the foot and the leg. It appears in ស្បែកជើង (sbaèk tcheung), word for word “foot skin”, shoes. French « pied » is masculine; the d is silent.",
         "km": "« pied » ជានាមភេទប្រុស៖ le pied។ ជើងពីជង្គង់ឡើងទៅ គឺ « la jambe »។ « à pied » មានន័យថា ដើរ។ អង់គ្លេស៖ « foot », ពហុវចនៈ « feet »។"
       },
-      "example": {"fr": "Je vais au marché à pied.", "en": "I walk to the market.", "km": "ខ្ញុំដើរទៅផ្សារ។", "tr": "khgnom daeu teuv phsa."}
+      "example": {"fr": "Je vais au marché à pied.", "en": "I walk to the market.", "km": "ខ្ញុំដើរទៅផ្សារ។", "tr": "khgnom daeu teuv phsa.",
+      "es": "Voy al mercado a pie.", "it": "Vado al mercato a piedi.", "ru": "Я хожу на рынок пешком.", "zh": "我走路去市场。", "zh_tr": "Wǒ zǒulù qù shìchǎng."}
     },
     {
-      "fr": "les yeux", "en": "eyes", "km": "ភ្នែក", "tr": "phnaèk", "pos": "nom",
+      "fr": "les yeux", "en": "eyes", "km": "ភ្នែក", "tr": "phnaèk",
+      "es": "los ojos", "it": "gli occhi", "ru": "глаза", "zh": "眼睛", "zh_tr": "yǎnjing", "pos": "nom",
       "note": {
         "fr": "ភ្នែក ne change pas au pluriel. Pour dire « deux yeux », on ajoute le nombre : ភ្នែកទាំងពីរ.",
         "en": "ភ្នែក does not change in the plural. For “two eyes”, add the number: ភ្នែកទាំងពីរ. French has an irregular plural: un œil, des yeux.",
         "km": "មួយគឺ « un œil », ពីរឡើងទៅគឺ « les yeux »។ ពាក្យទាំងពីរខុសគ្នាទាំងស្រុង។ អង់គ្លេស៖ « eye », « eyes »។"
       },
-      "example": {"fr": "Ton enfant a de beaux yeux noirs.", "en": "Your child has beautiful black eyes.", "km": "កូនរបស់អ្នកមានភ្នែកខ្មៅស្អាត។", "tr": "kôn ro-bâh néak méan phnaèk khmav s'at."}
+      "example": {"fr": "Ton enfant a de beaux yeux noirs.", "en": "Your child has beautiful black eyes.", "km": "កូនរបស់អ្នកមានភ្នែកខ្មៅស្អាត។", "tr": "kôn ro-bâh néak méan phnaèk khmav s'at.",
+      "es": "Tu hijo tiene unos ojos negros preciosos.", "it": "Tuo figlio ha dei begli occhi neri.", "ru": "У твоего ребёнка красивые чёрные глаза.", "zh": "你的孩子有一双漂亮的黑眼睛。", "zh_tr": "Nǐ de háizi yǒu yì shuāng piàoliang de hēi yǎnjing."}
     },
     {
-      "fr": "la bouche", "en": "mouth", "km": "មាត់", "tr": "moat", "pos": "nom",
+      "fr": "la bouche", "en": "mouth", "km": "មាត់", "tr": "moat",
+      "es": "la boca", "it": "la bocca", "ru": "рот", "zh": "嘴", "zh_tr": "zuǐ", "pos": "nom",
       "note": {
         "fr": "មាត់ sert aussi pour le bord de quelque chose : មាត់ទន្លេ (moat tonlé), le bord du fleuve, et មាត់ទ្វារ, le pas de la porte.",
         "en": "មាត់ is also the edge of something: មាត់ទន្លេ (moat tonlé), the riverbank, and មាត់ទ្វារ, the doorstep. French « bouche » is feminine.",
         "km": "« bouche » ជានាមភេទស្រី៖ la bouche។ « ouvre la bouche » មានន័យថា ហាមាត់។ អង់គ្លេស៖ « mouth »។"
       },
-      "example": {"fr": "Le médecin dit : ouvrez la bouche.", "en": "The doctor says: open your mouth.", "km": "គ្រូពេទ្យនិយាយថា៖ ហាមាត់។", "tr": "krou-pét ni-yéay tha : ha moat."}
+      "example": {"fr": "Le médecin dit : ouvrez la bouche.", "en": "The doctor says: open your mouth.", "km": "គ្រូពេទ្យនិយាយថា៖ ហាមាត់។", "tr": "krou-pét ni-yéay tha : ha moat.",
+      "es": "El médico dice: abra la boca.", "it": "Il medico dice: apra la bocca.", "ru": "Врач говорит: откройте рот.", "zh": "医生说：张开嘴。", "zh_tr": "Yīshēng shuō: zhāngkāi zuǐ."}
     },
     {
-      "fr": "le dos", "en": "back", "km": "ខ្នង", "tr": "khnâng", "pos": "nom",
+      "fr": "le dos", "en": "back", "km": "ខ្នង", "tr": "khnâng",
+      "es": "la espalda", "it": "la schiena", "ru": "спина", "zh": "背", "zh_tr": "bèi", "pos": "nom",
       "note": {
         "fr": "Pour dire qu'on a mal, on met ឈឺ (tchheu) devant la partie du corps : ឈឺខ្នង, mal au dos ; ឈឺក្បាល, mal à la tête.",
         "en": "To say something hurts, put ឈឺ (tchheu) before the body part: ឈឺខ្នង, backache; ឈឺក្បាល, headache. French « dos » is masculine; the s is silent.",
         "km": "« dos » ជានាមភេទប្រុស ហើយ s នៅចុងមិនអានទេ៖ le dos។ « j'ai mal au dos » មានន័យថា ខ្ញុំឈឺខ្នង។ អង់គ្លេស៖ « back »។"
       },
-      "example": {"fr": "J'ai mal au dos après le travail.", "en": "My back hurts after work.", "km": "ខ្ញុំឈឺខ្នងក្រោយពេលធ្វើការ។", "tr": "khgnom tchheu khnâng kraoy pél thveu-ka."}
+      "example": {"fr": "J'ai mal au dos après le travail.", "en": "My back hurts after work.", "km": "ខ្ញុំឈឺខ្នងក្រោយពេលធ្វើការ។", "tr": "khgnom tchheu khnâng kraoy pél thveu-ka.",
+      "es": "Me duele la espalda después del trabajo.", "it": "Dopo il lavoro mi fa male la schiena.", "ru": "После работы у меня болит спина.", "zh": "下班以后我背疼。", "zh_tr": "Xiàbān yǐhòu wǒ bèi téng."}
     },
     {
-      "fr": "les cheveux", "en": "hair", "km": "សក់", "tr": "sâk", "pos": "nom",
+      "fr": "les cheveux", "en": "hair", "km": "សក់", "tr": "sâk",
+      "es": "el pelo", "it": "i capelli", "ru": "волосы", "zh": "头发", "zh_tr": "tóufa", "pos": "nom",
       "note": {
         "fr": "សក់ désigne uniquement les cheveux. Pour se faire couper les cheveux, on dit កាត់សក់ (kat sâk), et le coiffeur est ជាងកាត់សក់.",
         "en": "សក់ only means the hair on your head. To get a haircut is កាត់សក់ (kat sâk), and the hairdresser is ជាងកាត់សក់. French « cheveux » is always plural.",
         "km": "ភាសាបារាំងតែងប្រើពហុវចនៈ៖ les cheveux។ សក់មួយសរសៃគឺ « un cheveu »។ អង់គ្លេស៖ « hair » មិនដែលថែម s ទេ។"
       },
-      "example": {"fr": "Elle a les cheveux longs.", "en": "She has long hair.", "km": "គាត់មានសក់វែង។", "tr": "koat méan sâk vaèng."}
+      "example": {"fr": "Elle a les cheveux longs.", "en": "She has long hair.", "km": "គាត់មានសក់វែង។", "tr": "koat méan sâk vaèng.",
+      "es": "Ella tiene el pelo largo.", "it": "Lei ha i capelli lunghi.", "ru": "У неё длинные волосы.", "zh": "她的头发很长。", "zh_tr": "Tā de tóufa hěn cháng."}
     }
   ],
   "expressions": [
     {
       "fr": "J'ai mal au dos.", "en": "My back hurts.", "km": "ខ្ញុំឈឺខ្នង។", "tr": "khgnom tchheu khnâng.",
+      "es": "Me duele la espalda.", "it": "Mi fa male la schiena.", "ru": "У меня болит спина.", "zh": "我背疼。", "zh_tr": "Wǒ bèi téng.",
       "note": {
         "fr": "Même modèle pour tout le corps : ឈឺជើង, mal aux pieds ; ឈឺភ្នែក, mal aux yeux.",
         "en": "The same pattern for the whole body: ឈឺជើង, sore feet; ឈឺភ្នែក, sore eyes. French: « J'ai mal au dos », « j'ai mal aux pieds ».",
@@ -76,6 +89,7 @@
     },
     {
       "fr": "Lave-toi les mains.", "en": "Wash your hands.", "km": "លាងដៃសិន។", "tr": "léang day sen.",
+      "es": "Lávate las manos.", "it": "Lavati le mani.", "ru": "Помой руки.", "zh": "去洗手。", "zh_tr": "Qù xǐ shǒu.",
       "note": {
         "fr": "សិន (sen), « d'abord », adoucit la demande : on la fait avant autre chose, souvent avant le repas.",
         "en": "សិន (sen), “first”, softens the request: it is done before something else, often before a meal. French uses « se laver les mains », not “your hands”.",
@@ -84,6 +98,7 @@
     },
     {
       "fr": "Ferme les yeux.", "en": "Close your eyes.", "km": "បិទភ្នែក។", "tr": "bet phnaèk.",
+      "es": "Cierra los ojos.", "it": "Chiudi gli occhi.", "ru": "Закрой глаза.", "zh": "闭上眼睛。", "zh_tr": "Bì shang yǎnjing.",
       "note": {
         "fr": "បិទ (bet), « fermer », est le même verbe que pour la porte. Le contraire est បើក (baeuk), « ouvrir ».",
         "en": "បិទ (bet), “to close”, is the same verb as for a door. The opposite is បើក (baeuk), “to open”. French « Ferme » is familiar; « Fermez » is polite.",
@@ -92,6 +107,7 @@
     },
     {
       "fr": "Fais attention !", "en": "Be careful!", "km": "ប្រយ័ត្ន!", "tr": "prâ-yat !",
+      "es": "¡Ten cuidado!", "it": "Fai attenzione!", "ru": "Осторожно!", "zh": "小心！", "zh_tr": "Xiǎoxīn!",
       "note": {
         "fr": "ប្រយ័ត្ន s'emploie seul pour avertir d'un danger, ou suivi de ce qui est dangereux : ប្រយ័ត្នម៉ូតូ, attention aux motos.",
         "en": "ប្រយ័ត្ន is used alone to warn of danger, or followed by what is dangerous: ប្រយ័ត្នម៉ូតូ, watch out for motorbikes. French « Attention ! » also works alone.",
@@ -103,28 +119,37 @@
     {
       "situation": {"fr": "Après une longue marche", "en": "After a long walk", "km": "ក្រោយពេលដើរយូរ"},
       "fr": "J'ai mal aux pieds parce que j'ai trop marché.", "en": "My feet hurt because I walked too much.",
-      "km": "ខ្ញុំឈឺជើង ព្រោះដើរច្រើនពេក។", "tr": "khgnom tchheu tcheung, prouh daeu tchraeun pék."
+      "km": "ខ្ញុំឈឺជើង ព្រោះដើរច្រើនពេក។", "tr": "khgnom tchheu tcheung, prouh daeu tchraeun pék.",
+      "es": "Me duelen los pies porque he caminado demasiado.", "it": "Mi fanno male i piedi perché ho camminato troppo.", "ru": "У меня болят ноги, потому что я слишком много ходил.", "zh": "我走了太多路，脚很疼。", "zh_tr": "Wǒ zǒu le tài duō lù, jiǎo hěn téng."
     },
     {
       "situation": {"fr": "Chez le coiffeur", "en": "At the hairdresser's", "km": "នៅហាងកាត់សក់"},
       "fr": "Je voudrais me faire couper les cheveux, mais pas trop court.", "en": "I would like a haircut, but not too short.",
-      "km": "ខ្ញុំចង់កាត់សក់ ប៉ុន្តែកុំខ្លីពេក។", "tr": "khgnom tchâng kat sâk, pon-taè kom khley pék."
+      "km": "ខ្ញុំចង់កាត់សក់ ប៉ុន្តែកុំខ្លីពេក។", "tr": "khgnom tchâng kat sâk, pon-taè kom khley pék.",
+      "es": "Quería cortarme el pelo, pero no muy corto.", "it": "Vorrei tagliarmi i capelli, ma non troppo corti.", "ru": "Я хотел бы подстричься, но не очень коротко.", "zh": "我想剪头发，但是别剪得太短。", "zh_tr": "Wǒ xiǎng jiǎn tóufa, dànshì bié jiǎn de tài duǎn."
     },
     {
       "situation": {"fr": "Avant le repas", "en": "Before the meal", "km": "មុនពេលញ៉ាំបាយ"},
       "fr": "Les enfants, lavez-vous les mains avant de manger.", "en": "Children, wash your hands before eating.",
-      "km": "កូនៗ ទៅលាងដៃមុនញ៉ាំបាយ។", "tr": "kôn-kôn, teuv léang day moun gnam bay."
+      "km": "កូនៗ ទៅលាងដៃមុនញ៉ាំបាយ។", "tr": "kôn-kôn, teuv léang day moun gnam bay.",
+      "es": "Niños, lavaos las manos antes de comer.", "it": "Bambini, lavatevi le mani prima di mangiare.", "ru": "Дети, помойте руки перед едой.", "zh": "孩子们，吃饭前洗手。", "zh_tr": "Háizimen, chī fàn qián xǐ shǒu."
     }
   ],
   "dialogue": {
     "setting": {"fr": "Un matin, à la maison.", "en": "One morning, at home.", "km": "ពេលព្រឹកមួយ នៅផ្ទះ។"},
     "lines": [
-      {"speaker": "B", "fr": "Ce matin, j'ai mal au dos.", "en": "This morning, my back hurts.", "km": "ព្រឹកនេះ ខ្ញុំឈឺខ្នង។", "tr": "preuk nih, khgnom tchheu khnâng."},
-      {"speaker": "A", "fr": "Pourquoi ? Tu as trop travaillé hier ?", "en": "Why? Did you work too much yesterday?", "km": "ហេតុអ្វី? ម្សិលមិញធ្វើការច្រើនពេកឬ?", "tr": "haèt ey ? msel-mign thveu-ka tchraeun pék reu ?"},
-      {"speaker": "B", "fr": "Oui, j'ai réparé la moto toute la journée.", "en": "Yes, I repaired the motorbike all day.", "km": "{B_yes} ខ្ញុំជួសជុលម៉ូតូពេញមួយថ្ងៃ។", "tr": "{B_yes}, khgnom tchouoh-tchoul mô-tô pégn mouy thngay."},
-      {"speaker": "A", "fr": "Assieds-toi et ferme les yeux. Je vais te masser le dos.", "en": "Sit down and close your eyes. I will massage your back.", "km": "អង្គុយចុះ ហើយបិទភ្នែក។ ខ្ញុំច្របាច់ខ្នងឱ្យ។", "tr": "âng-kouy tchoh, haeuy bet phnaèk. khgnom tchrâ-batch khnâng aoy."},
-      {"speaker": "B", "fr": "Merci, ça fait du bien !", "en": "Thank you, that feels good!", "km": "អរគុណ ស្រួលខ្លួនណាស់!", "tr": "â-koun, srouol khlouon nah !"},
-      {"speaker": "A", "fr": "Aujourd'hui, repose-toi. Et fais attention à ton dos !", "en": "Today, get some rest. And be careful with your back!", "km": "ថ្ងៃនេះ សម្រាកសិនទៅ។ ហើយប្រយ័ត្នខ្នងផង!", "tr": "thngay nih, sâm-rak sen teuv. haeuy prâ-yat khnâng phâng !"}
+      {"speaker": "B", "fr": "Ce matin, j'ai mal au dos.", "en": "This morning, my back hurts.", "km": "ព្រឹកនេះ ខ្ញុំឈឺខ្នង។", "tr": "preuk nih, khgnom tchheu khnâng.",
+        "es": "Esta mañana me duele la espalda.", "it": "Stamattina mi fa male la schiena.", "ru": "Сегодня утром у меня болит спина.", "zh": "今天早上我背疼。", "zh_tr": "Jīntiān zǎoshang wǒ bèi téng."},
+      {"speaker": "A", "fr": "Pourquoi ? Tu as trop travaillé hier ?", "en": "Why? Did you work too much yesterday?", "km": "ហេតុអ្វី? ម្សិលមិញធ្វើការច្រើនពេកឬ?", "tr": "haèt ey ? msel-mign thveu-ka tchraeun pék reu ?",
+        "es": "¿Por qué? ¿Trabajaste demasiado ayer?", "it": "Perché? Ieri hai lavorato troppo?", "ru": "Почему? Ты вчера слишком много работал?", "zh": "为什么？你昨天工作太多了吗？", "zh_tr": "Wèishénme? Nǐ zuótiān gōngzuò tài duō le ma?"},
+      {"speaker": "B", "fr": "Oui, j'ai réparé la moto toute la journée.", "en": "Yes, I repaired the motorbike all day.", "km": "{B_yes} ខ្ញុំជួសជុលម៉ូតូពេញមួយថ្ងៃ។", "tr": "{B_yes}, khgnom tchouoh-tchoul mô-tô pégn mouy thngay.",
+        "es": "Sí, estuve arreglando la moto todo el día.", "it": "Sì, ho riparato la moto tutto il giorno.", "ru": "Да, я весь день чинил мотоцикл.", "zh": "对，我修了一整天摩托车。", "zh_tr": "Duì, wǒ xiū le yì zhěng tiān mótuōchē."},
+      {"speaker": "A", "fr": "Assieds-toi et ferme les yeux. Je vais te masser le dos.", "en": "Sit down and close your eyes. I will massage your back.", "km": "អង្គុយចុះ ហើយបិទភ្នែក។ ខ្ញុំច្របាច់ខ្នងឱ្យ។", "tr": "âng-kouy tchoh, haeuy bet phnaèk. khgnom tchrâ-batch khnâng aoy.",
+        "es": "Siéntate y cierra los ojos. Te voy a dar un masaje en la espalda.", "it": "Siediti e chiudi gli occhi. Ti faccio un massaggio alla schiena.", "ru": "Садись и закрой глаза. Я сделаю тебе массаж спины.", "zh": "坐下，闭上眼睛。我给你按摩一下背。", "zh_tr": "Zuò xià, bì shang yǎnjing. Wǒ gěi nǐ ànmó yíxià bèi."},
+      {"speaker": "B", "fr": "Merci, ça fait du bien !", "en": "Thank you, that feels good!", "km": "អរគុណ ស្រួលខ្លួនណាស់!", "tr": "â-koun, srouol khlouon nah !",
+        "es": "Gracias, ¡qué alivio!", "it": "Grazie, che sollievo!", "ru": "Спасибо, как хорошо!", "zh": "谢谢，真舒服！", "zh_tr": "Xièxie, zhēn shūfu!"},
+      {"speaker": "A", "fr": "Aujourd'hui, repose-toi. Et fais attention à ton dos !", "en": "Today, get some rest. And be careful with your back!", "km": "ថ្ងៃនេះ សម្រាកសិនទៅ។ ហើយប្រយ័ត្នខ្នងផង!", "tr": "thngay nih, sâm-rak sen teuv. haeuy prâ-yat khnâng phâng !",
+        "es": "Hoy descansa. ¡Y cuida tu espalda!", "it": "Oggi riposati. E fai attenzione alla schiena!", "ru": "Сегодня отдыхай. И береги спину!", "zh": "今天好好休息。小心你的背！", "zh_tr": "Jīntiān hǎohāo xiūxi. Xiǎoxīn nǐ de bèi!"}
     ]
   },
   "comprehension": {

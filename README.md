@@ -14,9 +14,14 @@ page :
 Les profils se règlent dans `config/config.json` (rubrique `profiles`, voir
 [docs/CONFIGURATION.md](docs/CONFIGURATION.md)).
 
+Chaque mot, phrase et réplique existe aussi en **espagnol**, **italien**,
+**russe** (avec une translittération latine) et **chinois mandarin** (avec le
+pinyin), chacun avec son audio. Le sélecteur **Langues**, en haut de chaque page,
+affiche ou masque chacune des sept langues ; le choix est gardé par le navigateur.
+
 Chaque jour à 07h00 (heure du Cambodge), le système choisit le thème suivant du
 programme, compose la leçon, ajoute les révisions espacées, génère les fichiers
-audio WAV manquants, écrit la page HTML et met à jour l'index. Le site obtenu
+fichiers audio manquants, écrit la page HTML et met à jour l'index. Le site obtenu
 est entièrement local : il se consulte sans connexion Internet.
 
 ## Démarrage rapide
@@ -37,7 +42,7 @@ généré automatiquement dès que les clés seront en place.
 
 | Partie | Durée | Contenu |
 | --- | --- | --- |
-| 1. Vocabulaire | ≈ 3 min | 6 mots nouveaux (5 à 8) : trois langues, catégorie, explication, exemple, audio |
+| 1. Vocabulaire | ≈ 3 min | 6 mots nouveaux (5 à 8) : sept langues, catégorie, explication, exemple, audio |
 | 2. Expressions pratiques | ≈ 2 min | 4 expressions utiles (3 à 5) |
 | 3. Phrases de la vie quotidienne | ≈ 2 min | 3 phrases complètes, en situation |
 | 4. Petit dialogue | ≈ 2 min | un échange entre deux personnages (Dara et Alex), écoute enchaînée, jeu de rôle |
@@ -56,17 +61,22 @@ moins bien maîtrisés ; il suffit de déposer de nouvelles unités dans
 | Français | `fr-FR` | Google Cloud Text-to-Speech | `fr-FR-Neural2-F` |
 | Anglais | `en-US` (ou `en-GB`) | Google Cloud Text-to-Speech | `en-US-Neural2-F` |
 | Khmer | `km-KH` | Azure AI Speech | `km-KH-SreymomNeural` |
+| Espagnol | `es-ES` | Google Cloud Text-to-Speech | `es-ES-Neural2-A` |
+| Italien | `it-IT` | Google Cloud Text-to-Speech | `it-IT-Neural2-A` |
+| Russe | `ru-RU` | Google Cloud Text-to-Speech | `ru-RU-Wavenet-A` |
+| Chinois | `zh-CN` | Google Cloud Text-to-Speech | `cmn-CN-Wavenet-A` |
 
 **Google Cloud Text-to-Speech ne propose aucune voix khmère.** Le khmer est donc
 confié à l'API officielle Azure AI Speech, derrière la même couche
 d'abstraction (`frkh/audio/providers/`). Avec la seule clé Azure, les trois
 langues fonctionnent ; un moteur local (Piper, etc.) peut aussi être branché.
 
-Chaque fichier est un WAV PCM mono 16 bits (24 000 Hz par défaut, 22 050 Hz au
-choix), rangé sous un nom déterministe :
+Chaque fichier est un MP3 mono (`"format": "mp3"`, environ huit fois plus léger,
+recommandé pour un site publié ; nécessite ffmpeg) ou un WAV PCM mono 16 bits
+(24 000 Hz par défaut, 22 050 Hz au choix), rangé sous un nom déterministe :
 
 ```
-audio/fr-FR/bonjour_6688f0a282ea.wav
+audio/fr-FR/bonjour_6688f0a282ea.mp3
             └ texte ┘└ début de l'empreinte SHA-256 ┘
 ```
 
@@ -85,12 +95,13 @@ python3 manage.py audio verify                # contrôler tous les fichiers aud
 python3 manage.py audio missing               # lister les audios manquants
 python3 manage.py audio repair                # régénérer uniquement les manquants ou corrompus
 python3 manage.py audio regen --text "bonjour" --lang fr
+python3 manage.py audio convert --format mp3  # convertir toute la bibliothèque (MP3 ⇄ WAV), sans appel TTS
 python3 manage.py stats                       # appels TTS, cache, volume de la bibliothèque
 python3 manage.py export                      # archive ZIP de toutes les leçons
 python3 manage.py check                       # vérification générale du projet
 python3 manage.py schedule install            # activer la génération quotidienne
 python3 manage.py serve --host 0.0.0.0        # consulter le site depuis un téléphone (progression partagée entre appareils)
-python3 manage.py alphabet                    # module Alphabets : audios et page alphabet.html
+python3 manage.py alphabet                    # Alphabets (khmer, latin, cyrillique, chinois) : audios et page
                                               # téléphone : « Ajouter à l'écran d'accueil » installe le site comme une application
 ```
 
@@ -100,11 +111,11 @@ La liste complète est dans [docs/ADMINISTRATION.md](docs/ADMINISTRATION.md).
 
 ```
 index.html            page d'accueil : statistiques, recherche, liste des leçons
-alphabet.html         module Alphabets : lettres khmères et latines, avec audio
+alphabet.html         module Alphabets : khmer, latin, cyrillique, tons et caractères chinois, avec audio
 revision.html         cartes mémoire du vocabulaire des leçons passées (régénérée avec l'index)
 lexique.html          tous les mots et expressions vus, avec recherche et audio
 lessons/              une page par leçon (lesson-001.html, …)
-audio/                bibliothèque WAV : fr-FR/, en-US/, km-KH/
+audio/                bibliothèque audio : fr-FR/, en-US/, km-KH/, es-ES/, it-IT/, ru-RU/, zh-CN/
 css/  js/  fonts/     style, comportement, police Noto Sans Khmer embarquée
 data/                 lessons.json, vocabulary.json, audio-library.json
 database/             learning.db (SQLite) et backups/
@@ -140,7 +151,7 @@ Les tests créent des projets temporaires et n'utilisent ni clé API ni réseau 
 un moteur vocal factice (`tests/fake_tts.py`) produit de vrais fichiers WAV, et
 de faux serveurs HTTP vérifient les requêtes envoyées à Google et à Azure. Si
 Node.js et Firefox sont installés, le site est aussi contrôlé dans un vrai
-navigateur (lecture des WAV, police khmère, recherche, absence de requête
+navigateur (lecture des audios, police khmère, recherche, absence de requête
 réseau) : `node tests/browser_check.mjs <dossier du site>`.
 
 ## Licences
