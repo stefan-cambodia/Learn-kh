@@ -146,7 +146,7 @@ def check_project(config, conn, library, deep: bool = False) -> Report:
     # Bibliothèque audio
     audit = library.verify(deep=deep)
     megabytes = audit["bytes"] / 1048576
-    report.ok(f"Audio : {audit['ready']} fichier(s) WAV valide(s), {megabytes:.1f} Mo, {audit['seconds'] / 60:.1f} min")
+    report.ok(f"Audio : {audit['ready']} fichier(s) audio valide(s) ({config.audio_format().upper()}), {megabytes:.1f} Mo, {audit['seconds'] / 60:.1f} min")
     if audit["corrupt"]:
         report.error(f"Audio : {len(audit['corrupt'])} fichier(s) corrompu(s) (« audio repair »)")
     waiting = [m for m in audit["missing"] if m["reason"] != "fichier supprimé"]

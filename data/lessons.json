@@ -13367,7 +13367,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-017.html",
-  "audio_missing": 64,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:31:47Z",
   "content": {
    "version": 1,
@@ -14212,7 +14212,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-018.html",
-  "audio_missing": 94,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:32:35Z",
   "content": {
    "version": 1,
@@ -15059,7 +15059,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-019.html",
-  "audio_missing": 100,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:33:18Z",
   "content": {
    "version": 1,
@@ -15928,7 +15928,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-020.html",
-  "audio_missing": 119,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:34:04Z",
   "content": {
    "version": 1,
@@ -16795,7 +16795,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-021.html",
-  "audio_missing": 124,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:34:50Z",
   "content": {
    "version": 1,
@@ -17664,7 +17664,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-022.html",
-  "audio_missing": 122,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:35:38Z",
   "content": {
    "version": 1,
@@ -18533,7 +18533,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-023.html",
-  "audio_missing": 124,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:36:30Z",
   "content": {
    "version": 1,
@@ -19400,7 +19400,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-024.html",
-  "audio_missing": 121,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:37:29Z",
   "content": {
    "version": 1,
@@ -20267,7 +20267,7 @@
   },
   "estimated_duration_seconds": 592,
   "html_path": "lessons/lesson-025.html",
-  "audio_missing": 132,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:38:24Z",
   "content": {
    "version": 1,
@@ -21158,7 +21158,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-026.html",
-  "audio_missing": 127,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:39:28Z",
   "content": {
    "version": 1,
@@ -22037,7 +22037,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-027.html",
-  "audio_missing": 122,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:40:21Z",
   "content": {
    "version": 1,
@@ -22918,7 +22918,7 @@
   },
   "estimated_duration_seconds": 592,
   "html_path": "lessons/lesson-028.html",
-  "audio_missing": 132,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:41:12Z",
   "content": {
    "version": 1,
@@ -23809,7 +23809,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-029.html",
-  "audio_missing": 132,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:42:04Z",
   "content": {
    "version": 1,
@@ -24666,7 +24666,7 @@
   },
   "estimated_duration_seconds": 592,
   "html_path": "lessons/lesson-030.html",
-  "audio_missing": 143,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:42:56Z",
   "content": {
    "version": 1,
@@ -25535,7 +25535,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-031.html",
-  "audio_missing": 132,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:56:54Z",
   "content": {
    "version": 1,
@@ -26380,7 +26380,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-032.html",
-  "audio_missing": 130,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:57:38Z",
   "content": {
    "version": 1,
@@ -27225,7 +27225,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-033.html",
-  "audio_missing": 136,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:58:23Z",
   "content": {
    "version": 1,
@@ -28082,7 +28082,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-034.html",
-  "audio_missing": 131,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:59:08Z",
   "content": {
    "version": 1,
@@ -28905,7 +28905,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-035.html",
-  "audio_missing": 135,
+  "audio_missing": 0,
   "created_at": "2026-11-16T04:59:50Z",
   "content": {
    "version": 1,
@@ -29728,7 +29728,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-036.html",
-  "audio_missing": 138,
+  "audio_missing": 0,
   "created_at": "2026-11-16T05:00:37Z",
   "content": {
    "version": 1,
@@ -30563,7 +30563,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-037.html",
-  "audio_missing": 134,
+  "audio_missing": 0,
   "created_at": "2026-11-16T05:01:26Z",
   "content": {
    "version": 1,
@@ -31398,7 +31398,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-038.html",
-  "audio_missing": 131,
+  "audio_missing": 0,
   "created_at": "2026-11-16T05:02:13Z",
   "content": {
    "version": 1,
@@ -32254,7 +32254,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-039.html",
-  "audio_missing": 132,
+  "audio_missing": 0,
   "created_at": "2026-11-16T05:02:59Z",
   "content": {
    "version": 1,
@@ -33121,7 +33121,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-040.html",
-  "audio_missing": 131,
+  "audio_missing": 0,
   "created_at": "2026-11-16T05:03:46Z",
   "content": {
    "version": 1,
@@ -33988,7 +33988,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-041.html",
-  "audio_missing": 134,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:26:13Z",
   "content": {
    "version": 1,
@@ -34867,7 +34867,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-042.html",
-  "audio_missing": 132,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:27:01Z",
   "content": {
    "version": 1,
@@ -35734,7 +35734,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-043.html",
-  "audio_missing": 128,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:27:51Z",
   "content": {
    "version": 1,
@@ -36615,7 +36615,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-044.html",
-  "audio_missing": 131,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:28:39Z",
   "content": {
    "version": 1,
@@ -37482,7 +37482,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-045.html",
-  "audio_missing": 132,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:29:24Z",
   "content": {
    "version": 1,
@@ -38349,7 +38349,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-046.html",
-  "audio_missing": 126,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:30:07Z",
   "content": {
    "version": 1,
@@ -39216,7 +39216,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-047.html",
-  "audio_missing": 127,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:30:50Z",
   "content": {
    "version": 1,
@@ -40095,7 +40095,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-048.html",
-  "audio_missing": 130,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:31:32Z",
   "content": {
    "version": 1,
@@ -40962,7 +40962,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-049.html",
-  "audio_missing": 136,
+  "audio_missing": 0,
   "created_at": "2026-11-16T15:32:15Z",
   "content": {
    "version": 1,
@@ -41841,7 +41841,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-050.html",
-  "audio_missing": 133,
+  "audio_missing": 77,
   "created_at": "2026-11-16T15:33:05Z",
   "content": {
    "version": 1,
@@ -42720,7 +42720,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-051.html",
-  "audio_missing": 132,
+  "audio_missing": 100,
   "created_at": "2026-11-16T15:50:38Z",
   "content": {
    "version": 1,
@@ -43587,7 +43587,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-052.html",
-  "audio_missing": 130,
+  "audio_missing": 98,
   "created_at": "2026-11-16T15:51:17Z",
   "content": {
    "version": 1,
@@ -44456,7 +44456,7 @@
   },
   "estimated_duration_seconds": 576,
   "html_path": "lessons/lesson-053.html",
-  "audio_missing": 131,
+  "audio_missing": 104,
   "created_at": "2026-11-16T15:51:53Z",
   "content": {
    "version": 1,
@@ -45335,7 +45335,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-054.html",
-  "audio_missing": 130,
+  "audio_missing": 106,
   "created_at": "2026-11-16T15:52:04Z",
   "content": {
    "version": 1,
@@ -46202,7 +46202,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-055.html",
-  "audio_missing": 132,
+  "audio_missing": 108,
   "created_at": "2026-11-16T15:52:06Z",
   "content": {
    "version": 1,
@@ -47069,7 +47069,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-056.html",
-  "audio_missing": 132,
+  "audio_missing": 107,
   "created_at": "2026-11-16T15:52:07Z",
   "content": {
    "version": 1,
@@ -47936,7 +47936,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-057.html",
-  "audio_missing": 132,
+  "audio_missing": 122,
   "created_at": "2026-11-16T15:52:08Z",
   "content": {
    "version": 1,
@@ -48803,7 +48803,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-058.html",
-  "audio_missing": 130,
+  "audio_missing": 122,
   "created_at": "2026-11-16T15:52:09Z",
   "content": {
    "version": 1,
@@ -49670,7 +49670,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-059.html",
-  "audio_missing": 128,
+  "audio_missing": 120,
   "created_at": "2026-11-16T15:52:10Z",
   "content": {
    "version": 1,
@@ -50537,7 +50537,7 @@
   },
   "estimated_duration_seconds": 560,
   "html_path": "lessons/lesson-060.html",
-  "audio_missing": 131,
+  "audio_missing": 123,
   "created_at": "2026-11-16T15:52:11Z",
   "content": {
    "version": 1,
