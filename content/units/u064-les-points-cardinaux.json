@@ -1,0 +1,159 @@
+{
+  "id": "u064",
+  "order": 64,
+  "level": "intermediaire",
+  "theme": "les-points-cardinaux",
+  "title": {"fr": "Les points cardinaux et les provinces", "en": "Compass points and provinces", "km": "ទិស និងខេត្ត"},
+  "tip": {
+    "fr": "Les points cardinaux khmers commencent tous par ខាង, « côté ». ខាងកើត, l'est, est « le côté où naît » le soleil, et ខាងលិច, l'ouest, « le côté où il plonge ». Avec ភាគ, « partie », on parle d'une région : ភាគខាងជើង, « le nord du pays ».",
+    "en": "Khmer compass points all start with ខាង, “side”. ខាងកើត, east, is “the side where the sun is born”, and ខាងលិច, west, “the side where it sinks”. With ភាគ, “part”, you talk about a region: ភាគខាងជើង, “the north of the country”. French: au nord de, “north of”; dans le nord, “in the north”.",
+    "km": "ភាសាបារាំង « au nord de » មានន័យថា នៅខាងជើង ហើយ « dans le nord » មានន័យថា នៅភាគខាងជើង។ ភាសាអង់គ្លេស៖ « north of » និង « in the north »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le nord", "en": "north", "km": "ខាងជើង", "tr": "khang tcheung",
+      "es": "el norte", "it": "il nord", "ru": "север", "zh": "北边", "zh_tr": "běibian", "pos": "nom",
+      "note": {
+        "fr": "ជើង veut aussi dire « pied ». Le nord du Cambodge borde le Laos et la Thaïlande.",
+        "en": "ជើង also means “foot”. Northern Cambodia borders Laos and Thailand. French « le nord » is masculine, like all compass points.",
+        "km": "« le nord » ជានាមភេទប្រុស ដូចទិសទាំងអស់។ អង់គ្លេស៖ « north », « northern » (ខាងជើង ជាគុណនាម)។"
+      },
+      "example": {"fr": "Siem Reap est au nord du lac Tonlé Sap.", "en": "Siem Reap is north of the Tonle Sap lake.", "km": "សៀមរាបនៅខាងជើងបឹងទន្លេសាប។", "tr": "siem-réap neuv khang tcheung beung tonlé sap.",
+      "es": "Siem Reap está al norte del lago Tonlé Sap.", "it": "Siem Reap è a nord del lago Tonlé Sap.", "ru": "Сиемреап находится к северу от озера Тонлесап.", "zh": "暹粒在洞里萨湖的北边。", "zh_tr": "Xiānlì zài Dònglǐsà Hú de běibian."}
+    },
+    {
+      "fr": "le sud", "en": "south", "km": "ខាងត្បូង", "tr": "khang tbong",
+      "es": "el sur", "it": "il sud", "ru": "юг", "zh": "南边", "zh_tr": "nánbian", "pos": "nom",
+      "note": {
+        "fr": "ត្បូង veut aussi dire « pierre précieuse ». Le sud, c'est la côte : Kampot, Kep, Sihanoukville.",
+        "en": "ត្បូង also means “gemstone”. The south is the coast: Kampot, Kep, Sihanoukville. French « le sud », « dans le sud ».",
+        "km": "« le sud » មានន័យថា ខាងត្បូង។ « le sud-est » គឺ អាគ្នេយ៍ ហើយ « le sud-ouest » គឺ និរតី។ អង់គ្លេស៖ « south »។"
+      },
+      "example": {"fr": "Kampot est dans le sud du Cambodge.", "en": "Kampot is in the south of Cambodia.", "km": "កំពតនៅភាគខាងត្បូងនៃប្រទេសកម្ពុជា។", "tr": "kâm-pot neuv phéak khang tbong nei prâ-téh kâm-pou-tchéa.",
+      "es": "Kampot está en el sur de Camboya.", "it": "Kampot si trova nel sud della Cambogia.", "ru": "Кампот находится на юге Камбоджи.", "zh": "贡布在柬埔寨南部。", "zh_tr": "Gòngbù zài Jiǎnpǔzhài nánbù."}
+    },
+    {
+      "fr": "l'est", "en": "east", "km": "ខាងកើត", "tr": "khang kaeut",
+      "es": "el este", "it": "l'est", "ru": "восток", "zh": "东边", "zh_tr": "dōngbian", "pos": "nom",
+      "note": {
+        "fr": "កើត, « naître » : l'est est le côté où naît le soleil. On dit aussi ថ្ងៃរះ, « le soleil se lève ».",
+        "en": "កើត, “to be born”: east is where the sun is born. ថ្ងៃរះ means “sunrise”. In French, the final « t » of « l'est » is pronounced.",
+        "km": "« l'est » អានថា « lest » ដោយបញ្ចេញសំឡេង t ។ អង់គ្លេស៖ « east »។"
+      },
+      "example": {"fr": "Le soleil se lève à l'est.", "en": "The sun rises in the east.", "km": "ព្រះអាទិត្យរះនៅទិសខាងកើត។", "tr": "préah a-teut reah neuv tis khang kaeut.",
+      "es": "El sol sale por el este.", "it": "Il sole sorge a est.", "ru": "Солнце встаёт на востоке.", "zh": "太阳从东边升起。", "zh_tr": "Tàiyáng cóng dōngbian shēngqǐ."}
+    },
+    {
+      "fr": "l'ouest", "en": "west", "km": "ខាងលិច", "tr": "khang letch",
+      "es": "el oeste", "it": "l'ovest", "ru": "запад", "zh": "西边", "zh_tr": "xībian", "pos": "nom",
+      "note": {
+        "fr": "លិច, « sombrer, se coucher » : ថ្ងៃលិច, « le coucher du soleil ». La Thaïlande est à l'ouest.",
+        "en": "លិច, “to sink, to set”: ថ្ងៃលិច, “sunset”. Thailand lies to the west. French « l'ouest » sounds like « west ».",
+        "km": "« l'ouest » អានស្រដៀង « west » ក្នុងភាសាអង់គ្លេស។ « le coucher du soleil » មានន័យថា ថ្ងៃលិច។"
+      },
+      "example": {"fr": "La Thaïlande est à l'ouest du Cambodge.", "en": "Thailand is west of Cambodia.", "km": "ប្រទេសថៃនៅខាងលិចប្រទេសកម្ពុជា។", "tr": "prâ-téh thay neuv khang letch prâ-téh kâm-pou-tchéa.",
+      "es": "Tailandia está al oeste de Camboya.", "it": "La Thailandia è a ovest della Cambogia.", "ru": "Таиланд находится к западу от Камбоджи.", "zh": "泰国在柬埔寨的西边。", "zh_tr": "Tàiguó zài Jiǎnpǔzhài de xībian."}
+    },
+    {
+      "fr": "la province", "en": "province", "km": "ខេត្ត", "tr": "khaèt",
+      "es": "la provincia", "it": "la provincia", "ru": "провинция", "zh": "省", "zh_tr": "shěng", "pos": "nom",
+      "note": {
+        "fr": "ខេត្ត se place devant le nom : ខេត្តកំពត, « la province de Kampot ». Phnom Penh est la capitale, រាជធានី.",
+        "en": "ខេត្ត goes before the name: ខេត្តកំពត, “Kampot province”. Phnom Penh is the capital, រាជធានី. French « la province de Kampot »; « en province » also means “outside the capital”.",
+        "km": "« la province de Kampot » មានន័យថា ខេត្តកំពត។ « en province » មានន័យថា នៅខាងក្រៅរាជធានី។ អង់គ្លេស៖ « province »។"
+      },
+      "example": {"fr": "Mon village est dans la province de Battambang.", "en": "My village is in Battambang province.", "km": "ភូមិរបស់ខ្ញុំនៅខេត្តបាត់ដំបង។", "tr": "phoum ro-bâh khgnom neuv khaèt bat-dâm-bâng.",
+      "es": "Mi pueblo está en la provincia de Battambang.", "it": "Il mio villaggio è nella provincia di Battambang.", "ru": "Моя деревня находится в провинции Баттамбанг.", "zh": "我的村子在马德望省。", "zh_tr": "Wǒ de cūnzi zài Mǎdéwàng Shěng."}
+    },
+    {
+      "fr": "la frontière", "en": "border", "km": "ព្រំដែន", "tr": "prum-daèn",
+      "es": "la frontera", "it": "il confine", "ru": "граница", "zh": "边境", "zh_tr": "biānjìng", "pos": "nom",
+      "note": {
+        "fr": "ព្រំ, « limite », et ដែន, « territoire ». On passe la frontière : ឆ្លងព្រំដែន, avec le verbe de « traverser ».",
+        "en": "ព្រំ, “limit”, and ដែន, “territory”. To cross the border is ឆ្លងព្រំដែន, with the verb for “to cross”. French « passer la frontière ».",
+        "km": "« passer la frontière » មានន័យថា ឆ្លងព្រំដែន។ អង់គ្លេស៖ « to cross the border »។"
+      },
+      "example": {"fr": "Nous avons passé la frontière en bus.", "en": "We crossed the border by bus.", "km": "យើងបានឆ្លងព្រំដែនតាមឡានក្រុង។", "tr": "yeung ban tchhlâng prum-daèn tam lan-krong.",
+      "es": "Cruzamos la frontera en autobús.", "it": "Abbiamo passato il confine in autobus.", "ru": "Мы пересекли границу на автобусе.", "zh": "我们坐大巴过了边境。", "zh_tr": "Wǒmen zuò dàbā guò le biānjìng."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est dans quelle direction ?", "en": "Which direction is it?", "km": "នៅទិសខាងណា?", "tr": "neuv tis khang na ?",
+      "es": "¿En qué dirección está?", "it": "In che direzione è?", "ru": "В какую сторону?", "zh": "在哪个方向？", "zh_tr": "Zài nǎge fāngxiàng?",
+      "note": {
+        "fr": "ទិស, « direction, point cardinal ». À l'oral, on dit souvent juste ខាងណា?",
+        "en": "ទិស, “direction, compass point”. In speech, people often just say ខាងណា? French « la direction » is feminine.",
+        "km": "« la direction » មានន័យថា ទិស។ អង់គ្លេស៖ « Which way is it? » ក៏បានដែរ។"
+      }
+    },
+    {
+      "fr": "Je rentre au village.", "en": "I'm going back to my home village.", "km": "ខ្ញុំទៅស្រុកវិញ។", "tr": "khgnom teuv srok vign.",
+      "es": "Vuelvo a mi pueblo.", "it": "Torno al mio paese.", "ru": "Я еду домой, в родную деревню.", "zh": "我回老家。", "zh_tr": "Wǒ huí lǎojiā.",
+      "note": {
+        "fr": "ស្រុក, « le pays natal, la terre d'origine ». Aux fêtes, Phnom Penh se vide : tout le monde ទៅស្រុក.",
+        "en": "ស្រុក, “home district, where you come from”. At festivals Phnom Penh empties: everyone ទៅស្រុក. French « rentrer » means “to go back home”.",
+        "km": "« rentrer » មានន័យថា ត្រឡប់ទៅផ្ទះវិញ។ « le village natal » មានន័យថា ស្រុកកំណើត។ អង់គ្លេស៖ « home town »។"
+      }
+    },
+    {
+      "fr": "C'est loin de la frontière ?", "en": "Is it far from the border?", "km": "ឆ្ងាយពីព្រំដែនទេ?", "tr": "tchhngay pi prum-daèn té ?",
+      "es": "¿Está lejos de la frontera?", "it": "È lontano dal confine?", "ru": "Это далеко от границы?", "zh": "离边境远吗？", "zh_tr": "Lí biānjìng yuǎn ma?",
+      "note": {
+        "fr": "ឆ្ងាយពី, « loin de ». Le contraire : ជិត, « près de ».",
+        "en": "ឆ្ងាយពី, “far from”. The opposite: ជិត, “near”. French « loin de », « près de ».",
+        "km": "« loin de » មានន័យថា ឆ្ងាយពី ហើយ « près de » មានន័យថា ជិត។ អង់គ្លេស៖ « far from », « near »។"
+      }
+    },
+    {
+      "fr": "Tout au nord.", "en": "Right up in the north.", "km": "នៅខាងជើងបង្អស់។", "tr": "neuv khang tcheung bâng-âh.",
+      "es": "En el extremo norte.", "it": "Proprio al nord.", "ru": "На самом севере.", "zh": "在最北边。", "zh_tr": "Zài zuì běibian.",
+      "note": {
+        "fr": "បង្អស់, « tout à fait, le plus » : ខាងចុងបង្អស់, « tout au bout ».",
+        "en": "បង្អស់, “the very most”: ខាងចុងបង្អស់, “right at the end”. French « tout au nord », « tout au bout ».",
+        "km": "« tout au » មានន័យថា ... បង្អស់៖ tout au sud (ខាងត្បូងបង្អស់)។ អង់គ្លេស៖ « right in the north », « in the far north »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "En préparant un voyage", "en": "Planning a trip", "km": "ពេលរៀបចំដំណើរ"},
+      "fr": "Mondulkiri est une province de montagnes, à l'est.", "en": "Mondulkiri is a mountain province in the east.",
+      "km": "មណ្ឌលគិរីជាខេត្តភ្នំ នៅខាងកើត។", "tr": "mon-dol-ki-ri tchéa khaèt phnom, neuv khang kaeut.",
+      "es": "Mondulkiri es una provincia de montañas, al este.", "it": "Mondulkiri è una provincia di montagna, a est.", "ru": "Мондулькири — горная провинция на востоке.", "zh": "蒙多基里是东部的山区省份。", "zh_tr": "Méngduōjīlǐ shì dōngbù de shānqū shěngfèn."
+    },
+    {
+      "situation": {"fr": "À la gare routière", "en": "At the bus station", "km": "នៅចំណតឡានក្រុង"},
+      "fr": "Le bus pour le Vietnam part à sept heures.", "en": "The bus to Vietnam leaves at seven.",
+      "km": "ឡានក្រុងទៅប្រទេសវៀតណាមចេញម៉ោងប្រាំពីរ។", "tr": "lan-krong teuv prâ-téh viet-nam tchégn maong pram-pi.",
+      "es": "El autobús a Vietnam sale a las siete.", "it": "L'autobus per il Vietnam parte alle sette.", "ru": "Автобус во Вьетнам отправляется в семь.", "zh": "去越南的大巴七点出发。", "zh_tr": "Qù Yuènán de dàbā qī diǎn chūfā."
+    },
+    {
+      "situation": {"fr": "En parlant du pays", "en": "Talking about the country", "km": "និយាយអំពីប្រទេស"},
+      "fr": "Le Laos est au nord du Cambodge.", "en": "Laos is north of Cambodia.",
+      "km": "ប្រទេសឡាវនៅខាងជើងប្រទេសកម្ពុជា។", "tr": "prâ-téh lav neuv khang tcheung prâ-téh kâm-pou-tchéa.",
+      "es": "Laos está al norte de Camboya.", "it": "Il Laos è a nord della Cambogia.", "ru": "Лаос находится к северу от Камбоджи.", "zh": "老挝在柬埔寨的北边。", "zh_tr": "Lǎowō zài Jiǎnpǔzhài de běibian."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} demande à {A} d'où vient sa famille.", "en": "{B} asks {A} where the family comes from.", "km": "{B} សួរ {A} ថាគ្រួសារមកពីណា។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, tu viens de quelle province ?", "en": "{A}, which province are you from?", "km": "{A} មកពីខេត្តណា?", "tr": "{A}, mok pi khaèt na ?",
+        "es": "{A}, ¿de qué provincia eres?", "it": "{A}, di che provincia sei?", "ru": "{A}, из какой ты провинции?", "zh": "{A}，你是哪个省的？", "zh_tr": "{A}, nǐ shì nǎge shěng de?"},
+      {"speaker": "A", "fr": "De Battambang, à l'ouest, près de la frontière thaïlandaise.", "en": "From Battambang, in the west, near the Thai border.", "km": "មកពីបាត់ដំបង នៅខាងលិច ជិតព្រំដែនថៃ។", "tr": "mok pi bat-dâm-bâng, neuv khang letch, tchit prum-daèn thay.",
+        "es": "De Battambang, en el oeste, cerca de la frontera con Tailandia.", "it": "Di Battambang, a ovest, vicino al confine con la Thailandia.", "ru": "Из Баттамбанга, на западе, недалеко от границы с Таиландом.", "zh": "马德望的，在西边，靠近泰国边境。", "zh_tr": "Mǎdéwàng de, zài xībian, kàojìn Tàiguó biānjìng."},
+      {"speaker": "B", "fr": "C'est loin de Phnom Penh ?", "en": "Is it far from Phnom Penh?", "km": "ឆ្ងាយពីភ្នំពេញទេ?", "tr": "tchhngay pi phnom-pégn té ?",
+        "es": "¿Está lejos de Nom Pen?", "it": "È lontano da Phnom Penh?", "ru": "Это далеко от Пномпеня?", "zh": "离金边远吗？", "zh_tr": "Lí Jīnbiān yuǎn ma?"},
+      {"speaker": "A", "fr": "Environ cinq heures en bus. Je rentre au village pour le Nouvel An.", "en": "About five hours by bus. I go back to the village for New Year.", "km": "ប្រហែលប្រាំម៉ោងតាមឡានក្រុង។ ខ្ញុំទៅស្រុកវិញពេលចូលឆ្នាំ។", "tr": "prâ-haèl pram maong tam lan-krong. khgnom teuv srok vign pél tchôl tchhnam.",
+        "es": "Unas cinco horas en autobús. Vuelvo a mi pueblo por Año Nuevo.", "it": "Circa cinque ore di autobus. Torno al mio paese per Capodanno.", "ru": "Около пяти часов на автобусе. На Новый год я езжу домой.", "zh": "坐大巴大约五个小时。过新年我回老家。", "zh_tr": "Zuò dàbā dàyuē wǔ ge xiǎoshí. Guò xīnnián wǒ huí lǎojiā."},
+      {"speaker": "B", "fr": "Moi, je ne connais que le sud : Kampot et Kep.", "en": "I only know the south: Kampot and Kep.", "km": "ខ្ញុំស្គាល់តែខាងត្បូងទេ គឺកំពត និងកែប។", "tr": "khgnom skoal taè khang tbong té, keu kâm-pot ning kaèp.",
+        "es": "Yo solo conozco el sur: Kampot y Kep.", "it": "Io conosco solo il sud: Kampot e Kep.", "ru": "А я знаю только юг: Кампот и Кеп.", "zh": "我只去过南部：贡布和白马。", "zh_tr": "Wǒ zhǐ qù guo nánbù: Gòngbù hé Báimǎ."},
+      {"speaker": "A", "fr": "Alors viens avec moi à Battambang !", "en": "Then come with me to Battambang!", "km": "អញ្ចឹង តោះទៅបាត់ដំបងជាមួយខ្ញុំ!", "tr": "agn-tcheung, tâh teuv bat-dâm-bâng tchéa-mouy khgnom !",
+        "es": "¡Entonces ven conmigo a Battambang!", "it": "Allora vieni con me a Battambang!", "ru": "Тогда поехали со мной в Баттамбанг!", "zh": "那跟我一起去马德望吧！", "zh_tr": "Nà gēn wǒ yìqǐ qù Mǎdéwàng ba!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où se trouve Battambang ?", "en": "Where is Battambang?", "km": "បាត់ដំបងនៅឯណា?"},
+    "answer": {"fr": "À l'ouest, près de la frontière thaïlandaise.", "en": "In the west, near the Thai border.", "km": "នៅខាងលិច ជិតព្រំដែនថៃ។"}
+  }
+}

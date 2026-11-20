@@ -1,0 +1,159 @@
+{
+  "id": "u061",
+  "order": 61,
+  "level": "intermediaire",
+  "theme": "les-grands-nombres",
+  "title": {"fr": "Les grands nombres", "en": "Big numbers", "km": "លេខធំៗ"},
+  "tip": {
+    "fr": "Les nombres khmers montent par paliers : ដប់ (10), រយ (100), ពាន់ (1 000), ម៉ឺន (10 000), សែន (100 000), លាន (1 000 000). Comme le chinois avec 万, le khmer compte par dizaines de mille : ម្ភៃម៉ឺន, « vingt dix-mille », fait 200 000.",
+    "en": "Khmer numbers climb in steps: ដប់ (10), រយ (100), ពាន់ (1,000), ម៉ឺន (10,000), សែន (100,000), លាន (1,000,000). Like Chinese 万, Khmer counts in tens of thousands: ម្ភៃម៉ឺន, “twenty ten-thousands”, is 200,000. French says soixante-dix (60 + 10) for 70, quatre-vingts (4 × 20) for 80 and quatre-vingt-dix for 90.",
+    "km": "ភាសាបារាំង ៧០ គឺ soixante-dix (៦០ + ១០), ៨០ គឺ quatre-vingts (៤ × ២០), ៩០ គឺ quatre-vingt-dix។ ភាសាអង់គ្លេស ១០០០០ គឺ ten thousand ព្រោះគ្មានពាក្យដូច ម៉ឺន ទេ។"
+  },
+  "vocabulary": [
+    {
+      "fr": "vingt", "en": "twenty", "km": "ម្ភៃ", "tr": "mphey",
+      "es": "veinte", "it": "venti", "ru": "двадцать", "zh": "二十", "zh_tr": "èrshí", "pos": "nombre",
+      "note": {
+        "fr": "ម្ភៃ, puis សាមសិប (30) et សែសិប (40) : à partir de trente, les dizaines se terminent par សិប. ម្ភៃប្រាំ, 25.",
+        "en": "ម្ភៃ, then សាមសិប (30) and សែសិប (40): from thirty on, tens end in សិប. French: vingt, trente, quarante; the « t » of vingt is heard in vingt-cinq.",
+        "km": "« vingt » គឺ ម្ភៃ។ vingt et un គឺ ម្ភៃមួយ ហើយ vingt-cinq គឺ ម្ភៃប្រាំ។ អង់គ្លេស៖ twenty, twenty-five។"
+      },
+      "example": {"fr": "J'ai vingt-cinq ans.", "en": "I'm twenty-five years old.", "km": "ខ្ញុំអាយុម្ភៃប្រាំឆ្នាំ។", "tr": "khgnom a-you mphey-pram tchhnam.",
+      "es": "Tengo veinticinco años.", "it": "Ho venticinque anni.", "ru": "Мне двадцать пять лет.", "zh": "我二十五岁。", "zh_tr": "Wǒ èrshíwǔ suì."}
+    },
+    {
+      "fr": "cinquante", "en": "fifty", "km": "ហាសិប", "tr": "ha-sep",
+      "es": "cincuenta", "it": "cinquanta", "ru": "пятьдесят", "zh": "五十", "zh_tr": "wǔshí", "pos": "nombre",
+      "note": {
+        "fr": "Les dizaines : សាមសិប, សែសិប, ហាសិប, ហុកសិប, ចិតសិប, ប៉ែតសិប, កៅសិប. Elles sont à apprendre par cœur : elles ne ressemblent pas à បី ou ប្រាំ.",
+        "en": "The tens: សាមសិប, សែសិប, ហាសិប, ហុកសិប, ចិតសិប, ប៉ែតសិប, កៅសិប. They don't look like បី or ប្រាំ. French: cinquante, soixante, then soixante-dix for 70.",
+        "km": "« cinquante » គឺ ហាសិប។ soixante គឺ ហុកសិប ហើយ soixante-dix (ហុកសិប + ដប់) គឺ ចិតសិប។ អង់គ្លេស៖ fifty, sixty, seventy។"
+      },
+      "example": {"fr": "Le billet coûte cinquante dollars.", "en": "The ticket costs fifty dollars.", "km": "សំបុត្រថ្លៃហាសិបដុល្លារ។", "tr": "sâm-bot thlay ha-sep dol-la.",
+      "es": "El billete cuesta cincuenta dólares.", "it": "Il biglietto costa cinquanta dollari.", "ru": "Билет стоит пятьдесят долларов.", "zh": "票价是五十美元。", "zh_tr": "Piàojià shì wǔshí měiyuán."}
+    },
+    {
+      "fr": "cent", "en": "a hundred", "km": "មួយរយ", "tr": "mouy roy",
+      "es": "cien", "it": "cento", "ru": "сто", "zh": "一百", "zh_tr": "yìbǎi", "pos": "nombre",
+      "note": {
+        "fr": "រយ se dit toujours avec un nombre devant : មួយរយ (100), ពីររយ (200), ប្រាំរយ (500).",
+        "en": "រយ always takes a number before it: មួយរយ (100), ពីររយ (200), ប្រាំរយ (500). French « cent » takes an s in round hundreds: deux cents, but deux cent cinquante.",
+        "km": "« cent » គឺ មួយរយ។ ពីររយ គឺ deux cents (មាន s) ប៉ុន្តែ deux cent cinquante (គ្មាន s)។ អង់គ្លេស៖ one hundred, two hundred។"
+      },
+      "example": {"fr": "Il y a cent invités à la fête.", "en": "There are a hundred guests at the party.", "km": "មានភ្ញៀវមួយរយនាក់នៅពិធីជប់លៀង។", "tr": "méan phgnieu mouy roy néak neuv pi-thi tchoup-lieng.",
+      "es": "Hay cien invitados en la fiesta.", "it": "Ci sono cento invitati alla festa.", "ru": "На празднике сто гостей.", "zh": "聚会上有一百位客人。", "zh_tr": "Jùhuì shang yǒu yìbǎi wèi kèrén."}
+    },
+    {
+      "fr": "mille", "en": "a thousand", "km": "មួយពាន់", "tr": "mouy poan",
+      "es": "mil", "it": "mille", "ru": "тысяча", "zh": "一千", "zh_tr": "yìqiān", "pos": "nombre",
+      "note": {
+        "fr": "ពាន់ : មួយពាន់, ពីរពាន់. Au marché, les prix en riels se disent souvent en milliers : ប្រាំពាន់រៀល.",
+        "en": "ពាន់: មួយពាន់, ពីរពាន់. At the market, prices in riels are usually in thousands: ប្រាំពាន់រៀល. French « mille » never takes an s: deux mille.",
+        "km": "« mille » មិនដែលថែម s ទេ៖ deux mille (ពីរពាន់)។ អង់គ្លេស៖ a thousand, two thousand។"
+      },
+      "example": {"fr": "Une bouteille d'eau coûte mille riels.", "en": "A bottle of water costs a thousand riels.", "km": "ទឹកមួយដបថ្លៃមួយពាន់រៀល។", "tr": "teuk mouy dâp thlay mouy poan riel.",
+      "es": "Una botella de agua cuesta mil rieles.", "it": "Una bottiglia d'acqua costa mille riel.", "ru": "Бутылка воды стоит тысячу риелей.", "zh": "一瓶水一千瑞尔。", "zh_tr": "Yì píng shuǐ yìqiān ruì'ěr."}
+    },
+    {
+      "fr": "dix mille", "en": "ten thousand", "km": "មួយម៉ឺន", "tr": "mouy meun",
+      "es": "diez mil", "it": "diecimila", "ru": "десять тысяч", "zh": "一万", "zh_tr": "yíwàn", "pos": "nombre",
+      "note": {
+        "fr": "ម៉ឺន est une unité à part, comme 万 en chinois : ពីរម៉ឺន, 20 000 ; ដប់ម៉ឺន, 100 000. Très utile pour les prix en riels.",
+        "en": "ម៉ឺន is a unit of its own, like Chinese 万: ពីរម៉ឺន, 20,000; ដប់ម៉ឺន, 100,000. Very handy for prices in riels. French has no such word: dix mille, vingt mille.",
+        "km": "ភាសាបារាំង និងអង់គ្លេស គ្មានពាក្យដូច ម៉ឺន ទេ៖ dix mille, ten thousand។ ពីរម៉ឺន គឺ vingt mille, twenty thousand។"
+      },
+      "example": {"fr": "Ça fait dix mille riels.", "en": "That's ten thousand riels.", "km": "អស់មួយម៉ឺនរៀល។", "tr": "âh mouy meun riel.",
+      "es": "Son diez mil rieles.", "it": "Sono diecimila riel.", "ru": "С вас десять тысяч риелей.", "zh": "一共一万瑞尔。", "zh_tr": "Yígòng yíwàn ruì'ěr."}
+    },
+    {
+      "fr": "un million", "en": "a million", "km": "មួយលាន", "tr": "mouy léan",
+      "es": "un millón", "it": "un milione", "ru": "миллион", "zh": "一百万", "zh_tr": "yìbǎi wàn", "pos": "nombre",
+      "note": {
+        "fr": "លាន, « million ». សែន, « cent mille », est plus rare à l'oral : on entend aussi ដប់ម៉ឺន.",
+        "en": "លាន, “million”. សែន, “a hundred thousand”, is less common in speech: people also say ដប់ម៉ឺន. French « un million de » + noun: deux millions d'habitants.",
+        "km": "« un million de » + នាម៖ deux millions d'habitants (ប្រជាជនពីរលាននាក់)។ អង់គ្លេស៖ two million people (គ្មាន s)។"
+      },
+      "example": {"fr": "Phnom Penh a plus de deux millions d'habitants.", "en": "Phnom Penh has more than two million people.", "km": "ភ្នំពេញមានប្រជាជនជាងពីរលាននាក់។", "tr": "phnom-pégn méan prâ-tchéa-tchun tchéang pi léan néak.",
+      "es": "Nom Pen tiene más de dos millones de habitantes.", "it": "Phnom Penh ha più di due milioni di abitanti.", "ru": "В Пномпене живёт больше двух миллионов человек.", "zh": "金边有两百多万人口。", "zh_tr": "Jīnbiān yǒu liǎngbǎi duō wàn rénkǒu."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Ça fait combien en riels ?", "en": "How much is that in riels?", "km": "គិតជាលុយរៀលប៉ុន្មាន?", "tr": "kit tchéa louy riel pon-man ?",
+      "es": "¿Cuánto es en rieles?", "it": "Quanto fa in riel?", "ru": "Сколько это в риелях?", "zh": "换成瑞尔是多少？", "zh_tr": "Huànchéng ruì'ěr shì duōshao?",
+      "note": {
+        "fr": "គិតជា, « compter en ». Au Cambodge, on paie souvent en dollars et on reçoit la monnaie en riels : environ quatre mille riels pour un dollar.",
+        "en": "គិតជា, “to count in”. In Cambodia you often pay in dollars and get change in riels: about four thousand riels to the dollar. French « Ça fait combien ? » asks for a total.",
+        "km": "« Ça fait combien ? » មានន័យថា អស់ប៉ុន្មាន? អង់គ្លេស៖ « How much is that? »។"
+      }
+    },
+    {
+      "fr": "Vous acceptez les dollars ?", "en": "Do you take dollars?", "km": "យកលុយដុល្លារទេ?", "tr": "yok louy dol-la té ?",
+      "es": "¿Acepta dólares?", "it": "Accetta dollari?", "ru": "Вы принимаете доллары?", "zh": "收美元吗？", "zh_tr": "Shōu měiyuán ma?",
+      "note": {
+        "fr": "យក, « prendre ». La question courte suffit : le vendeur répond យក ou មិនយកទេ.",
+        "en": "យក, “to take”. The short question is enough: the seller answers យក or មិនយកទេ. French « accepter » means “to accept, to take”.",
+        "km": "« accepter » មានន័យថា ទទួល ឬ យក។ អង់គ្លេស៖ « Do you take dollars? »។"
+      }
+    },
+    {
+      "fr": "Environ cent personnes.", "en": "About a hundred people.", "km": "ប្រហែលមួយរយនាក់។", "tr": "prâ-haèl mouy roy néak.",
+      "es": "Unas cien personas.", "it": "Circa cento persone.", "ru": "Около ста человек.", "zh": "大约一百个人。", "zh_tr": "Dàyuē yìbǎi ge rén.",
+      "note": {
+        "fr": "ប្រហែល, « environ », se place devant le nombre. នាក់ est le classificateur des personnes.",
+        "en": "ប្រហែល, “about”, goes before the number. នាក់ is the classifier for people. French « environ » also goes before the number.",
+        "km": "« environ » មានន័យថា ប្រហែល ហើយដាក់មុនលេខ ដូចភាសាខ្មែរ។ អង់គ្លេស៖ « about »។"
+      }
+    },
+    {
+      "fr": "Plus de mille !", "en": "More than a thousand!", "km": "ជាងមួយពាន់!", "tr": "tchéang mouy poan !",
+      "es": "¡Más de mil!", "it": "Più di mille!", "ru": "Больше тысячи!", "zh": "一千多！", "zh_tr": "Yìqiān duō!",
+      "note": {
+        "fr": "ជាង, vu avec les comparaisons, veut dire « plus de » devant un nombre.",
+        "en": "ជាង, seen with comparisons, means “more than” before a number. French: « plus de » before a number, « plus que » in comparisons.",
+        "km": "មុនលេខ ភាសាបារាំងប្រើ « plus de »៖ plus de mille (ជាងមួយពាន់)។ អង់គ្លេស៖ « more than »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Trois mangues pour cinq mille riels.", "en": "Three mangoes for five thousand riels.",
+      "km": "ស្វាយបីផ្លែ ប្រាំពាន់រៀល។", "tr": "svay bey phlaè, pram poan riel.",
+      "es": "Tres mangos por cinco mil rieles.", "it": "Tre manghi per cinquemila riel.", "ru": "Три манго за пять тысяч риелей.", "zh": "三个芒果五千瑞尔。", "zh_tr": "Sān ge mángguǒ wǔqiān ruì'ěr."
+    },
+    {
+      "situation": {"fr": "Au bureau de change", "en": "At the exchange counter", "km": "នៅកន្លែងប្តូរប្រាក់"},
+      "fr": "Je voudrais changer cent dollars en riels.", "en": "I'd like to change a hundred dollars into riels.",
+      "km": "ខ្ញុំចង់ប្តូរលុយមួយរយដុល្លារជាលុយរៀល។", "tr": "khgnom tchâng pdou louy mouy roy dol-la tchéa louy riel.",
+      "es": "Quisiera cambiar cien dólares a rieles.", "it": "Vorrei cambiare cento dollari in riel.", "ru": "Я хотел бы поменять сто долларов на риели.", "zh": "我想把一百美元换成瑞尔。", "zh_tr": "Wǒ xiǎng bǎ yìbǎi měiyuán huànchéng ruì'ěr."
+    },
+    {
+      "situation": {"fr": "En parlant du pays", "en": "Talking about the country", "km": "និយាយអំពីប្រទេស"},
+      "fr": "Le Cambodge compte environ dix-sept millions d'habitants.", "en": "Cambodia has about seventeen million people.",
+      "km": "កម្ពុជាមានប្រជាជនប្រហែលដប់ប្រាំពីរលាននាក់។", "tr": "kâm-pou-tchéa méan prâ-tchéa-tchun prâ-haèl dâp-pram-pi léan néak.",
+      "es": "Camboya tiene unos diecisiete millones de habitantes.", "it": "La Cambogia ha circa diciassette milioni di abitanti.", "ru": "В Камбодже живёт около семнадцати миллионов человек.", "zh": "柬埔寨大约有一千七百万人口。", "zh_tr": "Jiǎnpǔzhài dàyuē yǒu yìqiān qībǎi wàn rénkǒu."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} préparent le budget d'un voyage à Siem Reap.", "en": "{A} and {B} are working out the budget for a trip to Siem Reap.", "km": "{A} និង {B} កំពុងគិតលុយសម្រាប់ដំណើរទៅសៀមរាប។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, combien coûte le bus pour Siem Reap ?", "en": "{B}, how much is the bus to Siem Reap?", "km": "{B} ឡានក្រុងទៅសៀមរាបថ្លៃប៉ុន្មាន?", "tr": "{B}, lan-krong teuv siem-réap thlay pon-man ?",
+        "es": "{B}, ¿cuánto cuesta el autobús a Siem Reap?", "it": "{B}, quanto costa l'autobus per Siem Reap?", "ru": "{B}, сколько стоит автобус до Сиемреапа?", "zh": "{B}，去暹粒的大巴多少钱？", "zh_tr": "{B}, qù Xiānlì de dàbā duōshao qián?"},
+      {"speaker": "B", "fr": "Environ douze dollars par personne.", "en": "About twelve dollars each.", "km": "ប្រហែលដប់ពីរដុល្លារក្នុងម្នាក់។", "tr": "prâ-haèl dâp-pi dol-la knong mnéak.",
+        "es": "Unos doce dólares por persona.", "it": "Circa dodici dollari a persona.", "ru": "Около двенадцати долларов с человека.", "zh": "每人大约十二美元。", "zh_tr": "Měi rén dàyuē shí'èr měiyuán."},
+      {"speaker": "A", "fr": "Et l'hôtel coûte cent dollars pour trois nuits.", "en": "And the hotel is a hundred dollars for three nights.", "km": "ហើយសណ្ឋាគារថ្លៃមួយរយដុល្លារសម្រាប់បីយប់។", "tr": "haeuy sân-tha-kéa thlay mouy roy dol-la sâm-rap bey youp.",
+        "es": "Y el hotel cuesta cien dólares por tres noches.", "it": "E l'albergo costa cento dollari per tre notti.", "ru": "А гостиница стоит сто долларов за три ночи.", "zh": "酒店三个晚上一百美元。", "zh_tr": "Jiǔdiàn sān ge wǎnshang yìbǎi měiyuán."},
+      {"speaker": "B", "fr": "Avec les repas, il nous faut environ deux cent cinquante dollars.", "en": "With meals, we need about two hundred and fifty dollars.", "km": "គិតទាំងម្ហូប យើងត្រូវការប្រហែលពីររយហាសិបដុល្លារ។", "tr": "kit téang mhôp, yeung treuv-ka prâ-haèl pi roy ha-sep dol-la.",
+        "es": "Con las comidas, necesitamos unos doscientos cincuenta dólares.", "it": "Con i pasti, ci servono circa duecentocinquanta dollari.", "ru": "С едой нам нужно около двухсот пятидесяти долларов.", "zh": "加上吃饭，我们大概需要两百五十美元。", "zh_tr": "Jiāshang chīfàn, wǒmen dàgài xūyào liǎngbǎi wǔshí měiyuán."},
+      {"speaker": "A", "fr": "J'ai cinq cents dollars. C'est assez !", "en": "I have five hundred dollars. That's enough!", "km": "ខ្ញុំមានលុយប្រាំរយដុល្លារ។ គ្រប់គ្រាន់ហើយ!", "tr": "khgnom méan louy pram roy dol-la. krup-kroan haeuy !",
+        "es": "Tengo quinientos dólares. ¡Es suficiente!", "it": "Ho cinquecento dollari. Bastano!", "ru": "У меня есть пятьсот долларов. Этого хватит!", "zh": "我有五百美元，够了！", "zh_tr": "Wǒ yǒu wǔbǎi měiyuán, gòu le!"},
+      {"speaker": "B", "fr": "Parfait, on part la semaine prochaine !", "en": "Perfect, we're off next week!", "km": "ល្អណាស់ យើងចេញដំណើរសប្តាហ៍ក្រោយ!", "tr": "l'â nah, yeung tchégn dâm-naeu sap-da kraoy !",
+        "es": "¡Perfecto, nos vamos la semana que viene!", "it": "Perfetto, partiamo la settimana prossima!", "ru": "Отлично, едем на следующей неделе!", "zh": "太好了，我们下个星期出发！", "zh_tr": "Tài hǎo le, wǒmen xià ge xīngqī chūfā!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Combien d'argent faut-il pour le voyage ?", "en": "How much money do they need for the trip?", "km": "ត្រូវការលុយប៉ុន្មានសម្រាប់ដំណើរនេះ?"},
+    "answer": {"fr": "Environ deux cent cinquante dollars.", "en": "About two hundred and fifty dollars.", "km": "ប្រហែលពីររយហាសិបដុល្លារ។"}
+  }
+}

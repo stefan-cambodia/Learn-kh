@@ -1,0 +1,161 @@
+{
+  "id": "u069",
+  "order": 69,
+  "level": "intermediaire",
+  "theme": "les-plantes",
+  "title": {"fr": "Les plantes et les fleurs", "en": "Plants and flowers", "km": "រុក្ខជាតិ និងផ្កា"},
+  "tip": {
+    "fr": "En khmer, les noms de fleurs commencent par ផ្កា et les noms d'arbres par ដើម : ផ្កាឈូក, « le lotus » ; ដើមស្វាយ, « le manguier ». Le mot qui suit dit de quelle plante il s'agit. La fleur nationale du Cambodge est le romduol, ផ្ការំដួល, petite fleur jaune très parfumée.",
+    "en": "In Khmer, flower names start with ផ្កា and tree names with ដើម: ផ្កាឈូក, “lotus”; ដើមស្វាយ, “mango tree”. The next word names the plant. Cambodia's national flower is the romduol, ផ្ការំដួល, a small, very fragrant yellow flower. French fruit trees often end in -ier: le manguier, le bananier, le cocotier.",
+    "km": "ភាសាបារាំង ឈ្មោះដើមឈើហូបផ្លែច្រើនតែបញ្ចប់ដោយ -ier៖ la mangue (ផ្លែស្វាយ) → le manguier (ដើមស្វាយ), la banane (ផ្លែចេក) → le bananier (ដើមចេក)។ ភាសាអង់គ្លេស៖ mango tree, banana tree។"
+  },
+  "vocabulary": [
+    {
+      "fr": "la fleur", "en": "flower", "km": "ផ្កា", "tr": "phka",
+      "es": "la flor", "it": "il fiore", "ru": "цветок", "zh": "花", "zh_tr": "huā", "pos": "nom",
+      "note": {
+        "fr": "ផ្កា se met devant le nom de la fleur : ផ្កាឈូក, « le lotus » ; ផ្កាកុលាប, « la rose ». Le lotus est offert à la pagode.",
+        "en": "ផ្កា goes before the flower's name: ផ្កាឈូក, “lotus”; ផ្កាកុលាប, “rose”. Lotus flowers are offered at the pagoda. French « la fleur » is feminine, but Italian « il fiore » is masculine.",
+        "km": "« la fleur » ជានាមភេទស្រី។ « la rose » គឺ ផ្កាកុលាប ហើយ « le lotus » គឺ ផ្កាឈូក។ អង់គ្លេស៖ « flower »។"
+      },
+      "example": {"fr": "Ma mère aime les fleurs de lotus.", "en": "My mother loves lotus flowers.", "km": "ម្តាយខ្ញុំចូលចិត្តផ្កាឈូក។", "tr": "mday khgnom tchôl tchet phka tchhouk.",
+      "es": "A mi madre le gustan las flores de loto.", "it": "A mia madre piacciono i fiori di loto.", "ru": "Моя мама любит цветы лотоса.", "zh": "我妈妈喜欢莲花。", "zh_tr": "Wǒ māma xǐhuan liánhuā."}
+    },
+    {
+      "fr": "planter", "en": "to plant", "km": "ដាំ", "tr": "dam",
+      "es": "plantar", "it": "piantare", "ru": "сажать", "zh": "种", "zh_tr": "zhòng", "pos": "verbe",
+      "note": {
+        "fr": "ដាំ veut dire « planter », mais aussi « faire bouillir » : ដាំបាយ, « faire cuire le riz » ; ដាំទឹក, « faire bouillir de l'eau ».",
+        "en": "ដាំ means “to plant”, but also “to boil”: ដាំបាយ, “to cook rice”; ដាំទឹក, “to boil water”. French « planter » also means “to crash” for a computer, informally.",
+        "km": "« planter » មានន័យថា ដាំ។ ប៉ុន្តែ « faire bouillir » មានន័យថា ដាំទឹក ដាំបាយ។ អង់គ្លេស៖ « to plant », « to boil »។"
+      },
+      "example": {"fr": "Nous plantons un manguier dans le jardin.", "en": "We're planting a mango tree in the garden.", "km": "យើងដាំដើមស្វាយមួយនៅក្នុងសួន។", "tr": "yeung dam daeum svay mouy neuv knong souon.",
+      "es": "Plantamos un mango en el jardín.", "it": "Piantiamo un albero di mango in giardino.", "ru": "Мы сажаем манговое дерево в саду.", "zh": "我们在院子里种了一棵芒果树。", "zh_tr": "Wǒmen zài yuànzi li zhòng le yì kē mángguǒ shù."}
+    },
+    {
+      "fr": "arroser", "en": "to water", "km": "ស្រោចទឹក", "tr": "sraotch teuk",
+      "es": "regar", "it": "annaffiare", "ru": "поливать", "zh": "浇水", "zh_tr": "jiāoshuǐ", "pos": "verbe",
+      "note": {
+        "fr": "ស្រោច, « verser sur », et ទឹក, « l'eau ». On arrose tôt le matin ou le soir, jamais en plein soleil.",
+        "en": "ស្រោច, “to pour over”, and ទឹក, “water”. You water early in the morning or in the evening, never in full sun. French « arroser » is also used for celebrating with a drink: on arrose ça !",
+        "km": "« arroser » មានន័យថា ស្រោចទឹក។ « On arrose ça ! » ក៏មានន័យថា តោះផឹកអបអរ! អង់គ្លេស៖ « to water »។"
+      },
+      "example": {"fr": "J'arrose les fleurs le matin et le soir.", "en": "I water the flowers in the morning and in the evening.", "km": "ខ្ញុំស្រោចទឹកផ្កាពេលព្រឹក និងពេលល្ងាច។", "tr": "khgnom sraotch teuk phka pél preuk ning pél lngéatch.",
+      "es": "Riego las flores por la mañana y por la tarde.", "it": "Annaffio i fiori la mattina e la sera.", "ru": "Я поливаю цветы утром и вечером.", "zh": "我早上和晚上给花浇水。", "zh_tr": "Wǒ zǎoshang hé wǎnshang gěi huā jiāoshuǐ."}
+    },
+    {
+      "fr": "la feuille", "en": "leaf", "km": "ស្លឹក", "tr": "sleuk",
+      "es": "la hoja", "it": "la foglia", "ru": "лист", "zh": "叶子", "zh_tr": "yèzi", "pos": "nom",
+      "note": {
+        "fr": "ស្លឹកចេក, « la feuille de bananier », sert d'emballage et de plat : l'amok y cuit à la vapeur.",
+        "en": "ស្លឹកចេក, “banana leaf”, is used as wrapping and as a dish: amok is steamed in it. French « la feuille » is also a sheet of paper: une feuille de papier.",
+        "km": "« la feuille » មានន័យពីរ៖ ស្លឹកឈើ និង ក្រដាសមួយសន្លឹក (une feuille de papier)។ អង់គ្លេស៖ « leaf », « sheet »។"
+      },
+      "example": {"fr": "On cuit l'amok dans des feuilles de bananier.", "en": "Amok is cooked in banana leaves.", "km": "គេចំហុយអាម៉ុកក្នុងស្លឹកចេក។", "tr": "ké tchâm-hoy a-mok knong sleuk tchék.",
+      "es": "El amok se cocina en hojas de plátano.", "it": "L'amok si cuoce in foglie di banano.", "ru": "Амок готовят в банановых листьях.", "zh": "柬式咖喱鱼是用香蕉叶包着蒸的。", "zh_tr": "Jiǎnshì gālí yú shì yòng xiāngjiāo yè bāozhe zhēng de."}
+    },
+    {
+      "fr": "pousser", "en": "to grow", "km": "ដុះ", "tr": "doh",
+      "es": "crecer", "it": "crescere", "ru": "расти", "zh": "长", "zh_tr": "zhǎng", "pos": "verbe",
+      "note": {
+        "fr": "ដុះ se dit des plantes, des cheveux, des dents. Pour un enfant qui grandit, on dit ធំឡើង.",
+        "en": "ដុះ is used for plants, hair and teeth. For a child growing up, say ធំឡើង. French « pousser » for plants and hair, « grandir » for children; « pousser » also means “to push”.",
+        "km": "« pousser » សម្រាប់រុក្ខជាតិ និងសក់ ហើយ « grandir » សម្រាប់ក្មេងធំឡើង។ « pousser » ក៏មានន័យថា រុញ ដែរ។ អង់គ្លេស៖ « to grow »។"
+      },
+      "example": {"fr": "Le riz pousse vite pendant la saison des pluies.", "en": "Rice grows quickly in the rainy season.", "km": "ស្រូវដុះលឿននៅរដូវភ្លៀង។", "tr": "srouv doh leuan neuv ro-deuv phlieng.",
+      "es": "El arroz crece rápido en la temporada de lluvias.", "it": "Il riso cresce in fretta nella stagione delle piogge.", "ru": "В сезон дождей рис быстро растёт.", "zh": "雨季时稻子长得很快。", "zh_tr": "Yǔjì shí dàozi zhǎng de hěn kuài."}
+    },
+    {
+      "fr": "l'herbe", "en": "grass", "km": "ស្មៅ", "tr": "smav",
+      "es": "la hierba", "it": "l'erba", "ru": "трава", "zh": "草", "zh_tr": "cǎo", "pos": "nom",
+      "note": {
+        "fr": "ស្មៅ, « l'herbe » ; កាត់ស្មៅ, « tondre la pelouse ». Les vaches ស៊ីស្មៅ, « broutent l'herbe ».",
+        "en": "ស្មៅ, “grass”; កាត់ស្មៅ, “to mow the lawn”. Cows ស៊ីស្មៅ, “graze”. French « l'herbe » is feminine; « les herbes » are also kitchen herbs.",
+        "km": "« l'herbe » មានន័យថា ស្មៅ។ « les fines herbes » គឺជាជីរសម្រាប់ធ្វើម្ហូប។ អង់គ្លេស៖ « grass », « herbs »។"
+      },
+      "example": {"fr": "Les enfants jouent dans l'herbe.", "en": "The children are playing on the grass.", "km": "ក្មេងៗលេងលើស្មៅ។", "tr": "kméng-kméng léng leu smav.",
+      "es": "Los niños juegan en la hierba.", "it": "I bambini giocano sull'erba.", "ru": "Дети играют на траве.", "zh": "孩子们在草地上玩。", "zh_tr": "Háizimen zài cǎodì shang wán."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Qu'est-ce que ça sent bon !", "en": "What a lovely smell!", "km": "ក្លិនក្រអូបណាស់!", "tr": "klen krâ-oup nah !",
+      "es": "¡Qué bien huele!", "it": "Che buon profumo!", "ru": "Как приятно пахнет!", "zh": "好香啊！", "zh_tr": "Hǎo xiāng a!",
+      "note": {
+        "fr": "ក្រអូប, « parfumé », pour les fleurs et le savon. Pour la cuisine, on dit plutôt ឈ្ងុយ.",
+        "en": "ក្រអូប, “fragrant”, for flowers and soap. For cooking, people say ឈ្ងុយ instead. French « ça sent bon » works for both.",
+        "km": "« ça sent bon » ប្រើបានទាំងផ្កា និងម្ហូប។ អង់គ្លេស៖ « It smells nice » ឬ « What a lovely smell! »។"
+      }
+    },
+    {
+      "fr": "Ne marchez pas sur l'herbe.", "en": "Keep off the grass.", "km": "កុំដើរជាន់ស្មៅ។", "tr": "kom daeu tchoan smav.",
+      "es": "No pise el césped.", "it": "Non calpestate l'erba.", "ru": "По газонам не ходить.", "zh": "请勿践踏草坪。", "zh_tr": "Qǐng wù jiàntà cǎopíng.",
+      "note": {
+        "fr": "ជាន់, « marcher sur, piétiner ». Un panneau courant dans les parcs.",
+        "en": "ជាន់, “to step on”. A common sign in parks. French signs say « Pelouse interdite ».",
+        "km": "ផ្ទាំងសញ្ញាបារាំងសរសេរថា « Pelouse interdite » មានន័យថា ហាមដើរលើស្មៅ។ អង់គ្លេស៖ « Keep off the grass »។"
+      }
+    },
+    {
+      "fr": "C'est quelle plante ?", "en": "What plant is this?", "km": "នេះដើមអ្វី?", "tr": "nih daeum ey ?",
+      "es": "¿Qué planta es esta?", "it": "Che pianta è questa?", "ru": "Что это за растение?", "zh": "这是什么植物？", "zh_tr": "Zhè shì shénme zhíwù?",
+      "note": {
+        "fr": "ដើម, « tronc, pied », sert de mot pour toutes les plantes. Pour une fleur : នេះផ្កាអ្វី?",
+        "en": "ដើម, “trunk, stem”, is the general word for any plant. For a flower: នេះផ្កាអ្វី? French « la plante » is feminine.",
+        "km": "« la plante » មានន័យថា រុក្ខជាតិ ឬ ដើម។ អង់គ្លេស៖ « plant »។"
+      }
+    },
+    {
+      "fr": "Les fleurs sont fanées.", "en": "The flowers have wilted.", "km": "ផ្កាស្រពោនអស់ហើយ។", "tr": "phka srâ-poun âh haeuy.",
+      "es": "Las flores están marchitas.", "it": "I fiori sono appassiti.", "ru": "Цветы завяли.", "zh": "花都蔫了。", "zh_tr": "Huā dōu niān le.",
+      "note": {
+        "fr": "ស្រពោន, « se faner ». អស់ហើយ souligne que c'est fini pour toutes.",
+        "en": "ស្រពោន, “to wilt”. អស់ហើយ stresses that they all have. French « faner », « fané ».",
+        "km": "« fané » មានន័យថា ស្រពោន។ អង់គ្លេស៖ « wilted », « faded »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Chez le fleuriste", "en": "At the florist's", "km": "នៅហាងលក់ផ្កា"},
+      "fr": "Je voudrais un bouquet de roses.", "en": "I'd like a bunch of roses.",
+      "km": "ខ្ញុំចង់បានផ្កាកុលាបមួយបាច់។", "tr": "khgnom tchâng ban phka ko-lap mouy batch.",
+      "es": "Quisiera un ramo de rosas.", "it": "Vorrei un mazzo di rose.", "ru": "Я хотел бы букет роз.", "zh": "我想要一束玫瑰。", "zh_tr": "Wǒ xiǎng yào yí shù méigui."
+    },
+    {
+      "situation": {"fr": "Au jardin", "en": "In the garden", "km": "នៅក្នុងសួន"},
+      "fr": "Le jardin a besoin d'eau : il n'a pas plu depuis une semaine.", "en": "The garden needs water: it hasn't rained for a week.",
+      "km": "សួនត្រូវការទឹក ព្រោះមួយសប្តាហ៍ហើយមិនមានភ្លៀងសោះ។", "tr": "souon treuv-ka teuk, prouh mouy sap-da haeuy min méan phlieng sâh.",
+      "es": "El jardín necesita agua: hace una semana que no llueve.", "it": "Il giardino ha bisogno d'acqua: non piove da una settimana.", "ru": "Саду нужна вода: уже неделю нет дождя.", "zh": "院子需要浇水，已经一个星期没下雨了。", "zh_tr": "Yuànzi xūyào jiāoshuǐ, yǐjīng yí ge xīngqī méi xià yǔ le."
+    },
+    {
+      "situation": {"fr": "En parlant du pays", "en": "Talking about the country", "km": "និយាយអំពីប្រទេស"},
+      "fr": "La fleur nationale du Cambodge est le romduol.", "en": "Cambodia's national flower is the romduol.",
+      "km": "ផ្ការំដួលជាផ្កាជាតិរបស់កម្ពុជា។", "tr": "phka rum-duol tchéa phka tchéat ro-bâh kâm-pou-tchéa.",
+      "es": "La flor nacional de Camboya es el romduol.", "it": "Il fiore nazionale della Cambogia è il romduol.", "ru": "Национальный цветок Камбоджи — ромдуол.", "zh": "柬埔寨的国花是隆都花。", "zh_tr": "Jiǎnpǔzhài de guóhuā shì lóngdūhuā."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} montre son petit jardin à {B}.", "en": "{A} shows {B} the little garden.", "km": "{A} នាំ {B} មើលសួនតូចរបស់ខ្លួន។"},
+    "lines": [
+      {"speaker": "A", "fr": "Viens voir mon petit jardin !", "en": "Come and see my little garden!", "km": "មកមើលសួនតូចរបស់ខ្ញុំមក!", "tr": "mok meul souon tôtch ro-bâh khgnom mok !",
+        "es": "¡Ven a ver mi pequeño jardín!", "it": "Vieni a vedere il mio giardinetto!", "ru": "Иди посмотри на мой маленький сад!", "zh": "来看看我的小花园！", "zh_tr": "Lái kànkan wǒ de xiǎo huāyuán!"},
+      {"speaker": "B", "fr": "Qu'est-ce que ça sent bon ! Ce sont quelles fleurs ?", "en": "What a lovely smell! What flowers are these?", "km": "ក្លិនក្រអូបណាស់! នេះផ្កាអ្វី?", "tr": "klen krâ-oup nah ! nih phka ey ?",
+        "es": "¡Qué bien huele! ¿Qué flores son?", "it": "Che buon profumo! Che fiori sono?", "ru": "Как приятно пахнет! Что это за цветы?", "zh": "好香啊！这是什么花？", "zh_tr": "Hǎo xiāng a! Zhè shì shénme huā?"},
+      {"speaker": "A", "fr": "Du jasmin. Je l'ai planté l'année dernière.", "en": "Jasmine. I planted it last year.", "km": "ផ្កាម្លិះ។ ខ្ញុំដាំវាកាលពីឆ្នាំមុន។", "tr": "phka mlih. khgnom dam véa kal pi tchhnam moun.",
+        "es": "Jazmín. Lo planté el año pasado.", "it": "Gelsomino. L'ho piantato l'anno scorso.", "ru": "Жасмин. Я посадила его в прошлом году.", "zh": "茉莉花。我去年种的。", "zh_tr": "Mòlìhuā. Wǒ qùnián zhòng de."},
+      {"speaker": "B", "fr": "Il a vite poussé ! Tu l'arroses tous les jours ?", "en": "It's grown fast! Do you water it every day?", "km": "វាដុះលឿនណាស់! ស្រោចទឹករាល់ថ្ងៃទេ?", "tr": "véa doh leuan nah ! sraotch teuk roal thngay té ?",
+        "es": "¡Ha crecido rápido! ¿Lo riegas todos los días?", "it": "È cresciuto in fretta! Lo annaffi tutti i giorni?", "ru": "Он быстро вырос! Ты поливаешь его каждый день?", "zh": "长得真快！你每天浇水吗？", "zh_tr": "Zhǎng de zhēn kuài! Nǐ měitiān jiāoshuǐ ma?"},
+      {"speaker": "A", "fr": "Oui, le soir, quand il fait moins chaud.", "en": "Yes, in the evening, when it's cooler.", "km": "{A_yes} ពេលល្ងាច ពេលមិនសូវក្តៅ។", "tr": "{A_yes}, pél lngéatch, pél min seuv kdav.",
+        "es": "Sí, por la tarde, cuando hace menos calor.", "it": "Sì, la sera, quando fa meno caldo.", "ru": "Да, вечером, когда не так жарко.", "zh": "对，晚上不那么热的时候浇。", "zh_tr": "Duì, wǎnshang bú nàme rè de shíhou jiāo."},
+      {"speaker": "B", "fr": "Tu me donnes une fleur pour ma chambre ?", "en": "Could you give me a flower for my room?", "km": "ឱ្យខ្ញុំផ្កាមួយទុកក្នុងបន្ទប់បានទេ?", "tr": "aoy khgnom phka mouy touk knong bân-toup ban té ?",
+        "es": "¿Me das una flor para mi habitación?", "it": "Mi dai un fiore per la mia camera?", "ru": "Дашь мне цветок для моей комнаты?", "zh": "能给我一朵花放在房间里吗？", "zh_tr": "Néng gěi wǒ yì duǒ huā fàng zài fángjiān li ma?"},
+      {"speaker": "A", "fr": "Bien sûr, prends-en deux !", "en": "Of course, take two!", "km": "បានហើយ យកពីរទៅ!", "tr": "ban haeuy, yok pi teuv !",
+        "es": "¡Claro, coge dos!", "it": "Certo, prendine due!", "ru": "Конечно, возьми два!", "zh": "当然，拿两朵吧！", "zh_tr": "Dāngrán, ná liǎng duǒ ba!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quand est-ce que {A} arrose le jasmin ?", "en": "When does {A} water the jasmine?", "km": "{A} ស្រោចទឹកផ្កាម្លិះនៅពេលណា?"},
+    "answer": {"fr": "Le soir, quand il fait moins chaud.", "en": "In the evening, when it's cooler.", "km": "ពេលល្ងាច ពេលមិនសូវក្តៅ។"}
+  }
+}

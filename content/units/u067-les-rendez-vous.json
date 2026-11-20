@@ -1,0 +1,159 @@
+{
+  "id": "u067",
+  "order": 67,
+  "level": "intermediaire",
+  "theme": "les-rendez-vous",
+  "title": {"fr": "Les rendez-vous", "en": "Making plans", "km": "ការណាត់ជួប"},
+  "tip": {
+    "fr": "Au Cambodge, on dit rarement « non » tout net. Pour refuser une invitation, on répond plutôt ចាំលើកក្រោយ, « une prochaine fois », ou មិនសូវទំនេរទេ, « je ne suis pas très libre ». Le message est clair, et personne ne perd la face.",
+    "en": "In Cambodia people rarely say a flat “no”. To turn down an invitation, they say ចាំលើកក្រោយ, “next time”, or មិនសូវទំនេរទេ, “I'm not really free”. The message is clear and nobody loses face. In French, « avoir rendez-vous » covers a doctor, a meeting or a date.",
+    "km": "ភាសាបារាំង « un rendez-vous » ប្រើបានសម្រាប់ការណាត់ជួបគ្រប់ប្រភេទ៖ គ្រូពេទ្យ ការងារ ឬមិត្តភក្តិ។ ភាសាអង់គ្លេស ប្រើ « appointment » ជាមួយគ្រូពេទ្យ ប៉ុន្តែជាមួយមិត្តភក្តិ គេនិយាយ « to meet up »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le rendez-vous", "en": "appointment", "km": "ការណាត់ជួប", "tr": "ka nat tchouop",
+      "es": "la cita", "it": "l'appuntamento", "ru": "встреча", "zh": "约会", "zh_tr": "yuēhuì", "pos": "nom",
+      "note": {
+        "fr": "ណាត់, « fixer un rendez-vous » ; ណាត់ជួបគ្នា, « se donner rendez-vous ». មានណាត់, « avoir un rendez-vous ».",
+        "en": "ណាត់, “to arrange to meet”; ណាត់ជួបគ្នា, “to arrange to meet each other”. មានណាត់, “to have an appointment”. French « le rendez-vous » is masculine and never changes in the plural.",
+        "km": "« avoir rendez-vous » មានន័យថា មានណាត់។ « les rendez-vous » ពហុវចនៈ គ្មានការប្តូរទេ។ អង់គ្លេស៖ « appointment », « meeting »។"
+      },
+      "example": {"fr": "Nous avons rendez-vous devant le cinéma.", "en": "We're meeting in front of the cinema.", "km": "យើងណាត់ជួបគ្នានៅមុខរោងកុន។", "tr": "yeung nat tchouop knéa neuv mouk rông kon.",
+      "es": "Hemos quedado delante del cine.", "it": "Abbiamo appuntamento davanti al cinema.", "ru": "У нас встреча у кинотеатра.", "zh": "我们约在电影院门口见面。", "zh_tr": "Wǒmen yuē zài diànyǐngyuàn ménkǒu jiànmiàn."}
+    },
+    {
+      "fr": "libre", "en": "free", "km": "ទំនេរ", "tr": "toum-né",
+      "es": "libre", "it": "libero", "ru": "свободный", "zh": "有空", "zh_tr": "yǒu kòng", "pos": "adjectif",
+      "note": {
+        "fr": "ទំនេរ, « libre, inoccupé », pour une personne ou une chambre : បន្ទប់ទំនេរ. Le contraire est រវល់, « occupé ».",
+        "en": "ទំនេរ, “free, unoccupied”, for a person or a room: បន្ទប់ទំនេរ. The opposite is រវល់, “busy”. French « libre » is the same for masculine and feminine.",
+        "km": "« libre » មានន័យថា ទំនេរ ហើយមិនប្តូរតាមភេទទេ។ « gratuit » មានន័យថា ឥតគិតថ្លៃ។ អង់គ្លេស៖ « free » មានន័យទាំងពីរ។"
+      },
+      "example": {"fr": "Tu es libre samedi ?", "en": "Are you free on Saturday?", "km": "ថ្ងៃសៅរ៍ទំនេរទេ?", "tr": "thngay sav toum-né té ?",
+      "es": "¿Estás libre el sábado?", "it": "Sei libero sabato?", "ru": "Ты свободен в субботу?", "zh": "你星期六有空吗？", "zh_tr": "Nǐ xīngqīliù yǒu kòng ma?"}
+    },
+    {
+      "fr": "accepter", "en": "to accept", "km": "ទទួលយក", "tr": "tô-tuol yok",
+      "es": "aceptar", "it": "accettare", "ru": "принимать", "zh": "接受", "zh_tr": "jiēshòu", "pos": "verbe",
+      "note": {
+        "fr": "ទទួល, « recevoir », et យក, « prendre » : « accepter ». Pour une invitation, un simple បាន ou ព្រម suffit.",
+        "en": "ទទួល, “to receive”, and យក, “to take”: “to accept”. For an invitation, a simple បាន or ព្រម is enough. French « accepter » also works for cards and payments: on accepte les dollars.",
+        "km": "« accepter » មានន័យថា ទទួលយក៖ accepter une invitation (ទទួលយកការអញ្ជើញ)។ អង់គ្លេស៖ « to accept »។"
+      },
+      "example": {"fr": "Il accepte l'invitation avec plaisir.", "en": "He gladly accepts the invitation.", "km": "គាត់ទទួលយកការអញ្ជើញដោយរីករាយ។", "tr": "koat tô-tuol yok ka agn-tcheugn daoy rik-réay.",
+      "es": "Acepta la invitación con mucho gusto.", "it": "Accetta l'invito con piacere.", "ru": "Он с радостью принимает приглашение.", "zh": "他很高兴地接受了邀请。", "zh_tr": "Tā hěn gāoxìng de jiēshòu le yāoqǐng."}
+    },
+    {
+      "fr": "refuser", "en": "to refuse", "km": "បដិសេធ", "tr": "bâ-de-séth",
+      "es": "rechazar", "it": "rifiutare", "ru": "отказываться", "zh": "拒绝", "zh_tr": "jùjué", "pos": "verbe",
+      "note": {
+        "fr": "បដិសេធ est un mot assez fort. Dans la vie courante, on refuse en douceur : ចាំលើកក្រោយ, « une prochaine fois ».",
+        "en": "បដិសេធ is quite a strong word. In everyday life people refuse gently: ចាំលើកក្រោយ, “next time”. French « refuser » is also direct; « décliner » is softer.",
+        "km": "« refuser » មានន័យថា បដិសេធ។ ដើម្បីបដិសេធដោយគួរសម គេនិយាយ « Une autre fois, peut-être »។ អង់គ្លេស៖ « to refuse », « to turn down »។"
+      },
+      "example": {"fr": "Elle refuse poliment.", "en": "She politely refuses.", "km": "គាត់បដិសេធដោយគួរសម។", "tr": "koat bâ-de-séth daoy kouo-sâm.",
+      "es": "Ella rechaza con educación.", "it": "Rifiuta con gentilezza.", "ru": "Она вежливо отказывается.", "zh": "她礼貌地拒绝了。", "zh_tr": "Tā lǐmào de jùjué le."}
+    },
+    {
+      "fr": "annuler", "en": "to cancel", "km": "លុបចោល", "tr": "lop tchaol",
+      "es": "cancelar", "it": "annullare", "ru": "отменять", "zh": "取消", "zh_tr": "qǔxiāo", "pos": "verbe",
+      "note": {
+        "fr": "លុប, « effacer », et ចោល, « jeter » : « annuler ». Pour reporter, on dit ពន្យារពេល.",
+        "en": "លុប, “to erase”, and ចោល, “to throw away”: “to cancel”. To postpone is ពន្យារពេល. French « annuler », « reporter » for “to postpone”.",
+        "km": "« annuler » មានន័យថា លុបចោល ហើយ « reporter » មានន័យថា ពន្យារពេល។ អង់គ្លេស៖ « to cancel », « to postpone »។"
+      },
+      "example": {"fr": "Le concert est annulé à cause de la pluie.", "en": "The concert is cancelled because of the rain.", "km": "ការប្រគុំតន្ត្រីត្រូវបានលុបចោលដោយសារភ្លៀង។", "tr": "ka prâ-koum tân-trey treuv ban lop tchaol daoy sa phlieng.",
+      "es": "El concierto se cancela por la lluvia.", "it": "Il concerto è annullato per la pioggia.", "ru": "Концерт отменили из-за дождя.", "zh": "音乐会因为下雨取消了。", "zh_tr": "Yīnyuèhuì yīnwèi xià yǔ qǔxiāo le."}
+    },
+    {
+      "fr": "oublier", "en": "to forget", "km": "ភ្លេច", "tr": "phlétch",
+      "es": "olvidar", "it": "dimenticare", "ru": "забывать", "zh": "忘记", "zh_tr": "wàngjì", "pos": "verbe",
+      "note": {
+        "fr": "ភ្លេច, « oublier » ; កុំភ្លេច, « n'oublie pas ». Le contraire est ចាំ, « se souvenir ».",
+        "en": "ភ្លេច, “to forget”; កុំភ្លេច, “don't forget”. The opposite is ចាំ, “to remember”. French « N'oublie pas ! », « Je n'oublie pas ».",
+        "km": "« oublier » មានន័យថា ភ្លេច។ « N'oublie pas ! » មានន័យថា កុំភ្លេច! អង់គ្លេស៖ « to forget », « Don't forget! »។"
+      },
+      "example": {"fr": "N'oublie pas ton passeport !", "en": "Don't forget your passport!", "km": "កុំភ្លេចលិខិតឆ្លងដែន!", "tr": "kom phlétch lik-khet tchhlâng daèn !",
+      "es": "¡No olvides el pasaporte!", "it": "Non dimenticare il passaporto!", "ru": "Не забудь паспорт!", "zh": "别忘了护照！", "zh_tr": "Bié wàng le hùzhào!"}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "On se retrouve où ?", "en": "Where shall we meet?", "km": "ជួបគ្នានៅឯណា?", "tr": "tchouop knéa neuv aè na ?",
+      "es": "¿Dónde quedamos?", "it": "Dove ci vediamo?", "ru": "Где встретимся?", "zh": "我们在哪儿见？", "zh_tr": "Wǒmen zài nǎr jiàn?",
+      "note": {
+        "fr": "ជួបគ្នា, « se retrouver ». Pour l'heure : ជួបគ្នាម៉ោងប៉ុន្មាន?",
+        "en": "ជួបគ្នា, “to meet up”. For the time: ជួបគ្នាម៉ោងប៉ុន្មាន? French « se retrouver » means “to meet up”.",
+        "km": "« se retrouver » មានន័យថា ជួបគ្នា។ « À quelle heure ? » មានន័យថា ម៉ោងប៉ុន្មាន? អង់គ្លេស៖ « Where shall we meet? »។"
+      }
+    },
+    {
+      "fr": "Une autre fois, peut-être.", "en": "Another time, maybe.", "km": "ចាំលើកក្រោយចុះ។", "tr": "tcham leuk kraoy tchoh.",
+      "es": "Otra vez será.", "it": "Magari un'altra volta.", "ru": "Может быть, в другой раз.", "zh": "下次吧。", "zh_tr": "Xià cì ba.",
+      "note": {
+        "fr": "La façon polie de refuser. លើក, « fois, occasion » ; ចុះ adoucit la phrase.",
+        "en": "The polite way to say no. លើក, “time, occasion”; ចុះ softens the sentence. French « une autre fois » means “another time”.",
+        "km": "នេះជាការបដិសេធដោយគួរសម។ « une autre fois » មានន័យថា លើកក្រោយ។ អង់គ្លេស៖ « Maybe another time »។"
+      }
+    },
+    {
+      "fr": "Pardon, je suis en retard !", "en": "Sorry, I'm late!", "km": "សុំទោស ខ្ញុំមកយឺត!", "tr": "som toh, khgnom mok yeut !",
+      "es": "¡Perdón, llego tarde!", "it": "Scusa, sono in ritardo!", "ru": "Извини, я опаздываю!", "zh": "对不起，我来晚了！", "zh_tr": "Duìbuqǐ, wǒ lái wǎn le!",
+      "note": {
+        "fr": "យឺត, « lent, tard ». Les embouteillages de Phnom Penh sont l'excuse la plus courante !",
+        "en": "យឺត, “slow, late”. Phnom Penh traffic jams are the most common excuse! French « en retard » means “late”.",
+        "km": "« en retard » មានន័យថា យឺត ឬ ហួសម៉ោង។ « Pardon » មានន័យថា សុំទោស។ អង់គ្លេស៖ « Sorry, I'm late »។"
+      }
+    },
+    {
+      "fr": "Ça marche !", "en": "Deal!", "km": "ព្រមហើយ!", "tr": "prom haeuy !",
+      "es": "¡Vale!", "it": "Affare fatto!", "ru": "Договорились!", "zh": "一言为定！", "zh_tr": "Yì yán wéi dìng!",
+      "note": {
+        "fr": "ព្រម, « consentir, être d'accord ». Plus familier : អូខេ, emprunté à l'anglais « OK ».",
+        "en": "ព្រម, “to agree, to consent”. More casual: អូខេ, from English “OK”. French « Ça marche ! » is casual for “OK, agreed!”.",
+        "km": "« Ça marche ! » ជាភាសានិយាយ មានន័យថា ព្រមហើយ ឬ អូខេ។ អង់គ្លេស៖ « Deal! », « Sounds good! »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au téléphone", "en": "On the phone", "km": "តាមទូរស័ព្ទ"},
+      "fr": "Je dois annuler mon rendez-vous de demain.", "en": "I have to cancel my appointment tomorrow.",
+      "km": "ខ្ញុំត្រូវលុបចោលការណាត់ថ្ងៃស្អែក។", "tr": "khgnom treuv lop tchaol ka nat thngay s'aèk.",
+      "es": "Tengo que cancelar mi cita de mañana.", "it": "Devo annullare l'appuntamento di domani.", "ru": "Мне нужно отменить завтрашнюю встречу.", "zh": "我得取消明天的预约。", "zh_tr": "Wǒ děi qǔxiāo míngtiān de yùyuē."
+    },
+    {
+      "situation": {"fr": "Au bureau", "en": "At the office", "km": "នៅការិយាល័យ"},
+      "fr": "Je suis libre après quatre heures.", "en": "I'm free after four.",
+      "km": "ខ្ញុំទំនេរក្រោយម៉ោងបួន។", "tr": "khgnom toum-né kraoy maong bouon.",
+      "es": "Estoy libre después de las cuatro.", "it": "Sono libero dopo le quattro.", "ru": "Я свободен после четырёх.", "zh": "我四点以后有空。", "zh_tr": "Wǒ sì diǎn yǐhòu yǒu kòng."
+    },
+    {
+      "situation": {"fr": "En famille", "en": "With the family", "km": "ក្នុងគ្រួសារ"},
+      "fr": "Il ne faut pas oublier l'anniversaire de maman.", "en": "We mustn't forget Mum's birthday.",
+      "km": "កុំភ្លេចថ្ងៃកំណើតម្តាយ។", "tr": "kom phlétch thngay kâm-naeut mday.",
+      "es": "No hay que olvidar el cumpleaños de mamá.", "it": "Non bisogna dimenticare il compleanno della mamma.", "ru": "Нельзя забывать о дне рождения мамы.", "zh": "别忘了妈妈的生日。", "zh_tr": "Bié wàng le māma de shēngrì."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} appelle {A} pour l'inviter à dîner.", "en": "{B} calls {A} with a dinner invitation.", "km": "{B} ទូរស័ព្ទទៅ {A} ដើម្បីអញ្ជើញទៅញ៉ាំបាយល្ងាច។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, tu es libre samedi soir ? Je t'invite au restaurant.", "en": "{A}, are you free on Saturday evening? I'd like to take you out for dinner.", "km": "{A} ល្ងាចថ្ងៃសៅរ៍ទំនេរទេ? ខ្ញុំអញ្ជើញទៅញ៉ាំនៅភោជនីយដ្ឋាន។", "tr": "{A}, lngéatch thngay sav toum-né té ? khgnom agn-tcheugn teuv gnam neuv phô-tchéa-ni-yéa-than.",
+        "es": "{A}, ¿estás libre el sábado por la noche? Te invito al restaurante.", "it": "{A}, sei libera sabato sera? Ti invito al ristorante.", "ru": "{A}, ты свободна в субботу вечером? Приглашаю тебя в ресторан.", "zh": "{A}，星期六晚上有空吗？我请你去饭店吃饭。", "zh_tr": "{A}, xīngqīliù wǎnshang yǒu kòng ma? Wǒ qǐng nǐ qù fàndiàn chī fàn."},
+      {"speaker": "A", "fr": "Samedi, je ne suis pas libre. Dimanche, ça te va ?", "en": "I'm not free on Saturday. Does Sunday work for you?", "km": "ថ្ងៃសៅរ៍ ខ្ញុំមិនទំនេរទេ។ ថ្ងៃអាទិត្យបានទេ?", "tr": "thngay sav, khgnom min toum-né té. thngay a-teut ban té ?",
+        "es": "El sábado no estoy libre. ¿Te va bien el domingo?", "it": "Sabato non sono libera. Domenica ti va bene?", "ru": "В субботу я занята. А воскресенье тебе подходит?", "zh": "星期六我没空。星期天可以吗？", "zh_tr": "Xīngqīliù wǒ méi kòng. Xīngqītiān kěyǐ ma?"},
+      {"speaker": "B", "fr": "Ça marche ! On se retrouve où ?", "en": "Deal! Where shall we meet?", "km": "ព្រមហើយ! ជួបគ្នានៅឯណា?", "tr": "prom haeuy ! tchouop knéa neuv aè na ?",
+        "es": "¡Vale! ¿Dónde quedamos?", "it": "Affare fatto! Dove ci vediamo?", "ru": "Договорились! Где встретимся?", "zh": "一言为定！我们在哪儿见？", "zh_tr": "Yì yán wéi dìng! Wǒmen zài nǎr jiàn?"},
+      {"speaker": "A", "fr": "Devant le marché central, à sept heures.", "en": "In front of the Central Market, at seven.", "km": "នៅមុខផ្សារធំថ្មី ម៉ោងប្រាំពីរ។", "tr": "neuv mouk phsa thom thmey, maong pram-pi.",
+        "es": "Delante del Mercado Central, a las siete.", "it": "Davanti al Mercato Centrale, alle sette.", "ru": "У Центрального рынка, в семь.", "zh": "七点在中央市场前面。", "zh_tr": "Qī diǎn zài Zhōngyāng Shìchǎng qiánmian."},
+      {"speaker": "B", "fr": "Parfait. Cette fois, n'oublie pas !", "en": "Perfect. This time, don't forget!", "km": "ល្អ។ លើកនេះ កុំភ្លេចណា!", "tr": "l'â. leuk nih, kom phlétch na !",
+        "es": "Perfecto. ¡Esta vez no te olvides!", "it": "Perfetto. Stavolta non dimenticartene!", "ru": "Отлично. На этот раз не забудь!", "zh": "好。这次别忘了！", "zh_tr": "Hǎo. Zhè cì bié wàng le!"},
+      {"speaker": "A", "fr": "Promis ! Et je n'annule pas.", "en": "I promise! And I won't cancel.", "km": "សន្យា! ហើយខ្ញុំមិនលុបចោលទេ។", "tr": "sân-ya ! haeuy khgnom min lop tchaol té.",
+        "es": "¡Prometido! Y no voy a cancelar.", "it": "Promesso! E non annullo.", "ru": "Обещаю! И не отменю.", "zh": "我保证！我不会取消的。", "zh_tr": "Wǒ bǎozhèng! Wǒ bú huì qǔxiāo de."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quel jour {A} et {B} vont au restaurant ?", "en": "On which day are {A} and {B} going to the restaurant?", "km": "{A} និង {B} ទៅភោជនីយដ្ឋាននៅថ្ងៃណា?"},
+    "answer": {"fr": "Dimanche, à sept heures.", "en": "On Sunday, at seven.", "km": "ថ្ងៃអាទិត្យ ម៉ោងប្រាំពីរ។"}
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "u063",
+  "order": 63,
+  "level": "intermediaire",
+  "theme": "le-logement",
+  "title": {"fr": "Le logement", "en": "Housing", "km": "លំនៅដ្ឋាន"},
+  "tip": {
+    "fr": "Au Cambodge, on parle de ថ្លៃទឹក ថ្លៃភ្លើង, « l'eau et l'électricité », comme d'une seule facture. ភ្លើង veut dire « feu » et « lumière », mais aussi « courant électrique » : ភ្លើងដាច់, « coupure de courant ».",
+    "en": "In Cambodia, ថ្លៃទឹក ថ្លៃភ្លើង, “water and electricity”, are talked about as one bill. ភ្លើង means “fire” and “light”, but also “power”: ភ្លើងដាច់, “a power cut”. In French, « le loyer » is the rent and « les charges » are the extra costs of a flat.",
+    "km": "ភាសាបារាំង « le loyer » គឺថ្លៃឈ្នួល ហើយ « les charges » គឺថ្លៃបន្ថែម ដូចជាថ្លៃទឹក ថ្លៃភ្លើង។ ភាសាអង់គ្លេស « rent » គឺថ្លៃឈ្នួល ហើយ « bills » គឺថ្លៃទឹក ថ្លៃភ្លើង។"
+  },
+  "vocabulary": [
+    {
+      "fr": "louer", "en": "to rent", "km": "ជួល", "tr": "tchouol",
+      "es": "alquilar", "it": "affittare", "ru": "снимать", "zh": "租", "zh_tr": "zū", "pos": "verbe",
+      "note": {
+        "fr": "ជួល sert dans les deux sens, prendre ou donner en location. ផ្ទះជួល, « maison en location » ; ជួលម៉ូតូ, « louer une moto ».",
+        "en": "ជួល works both ways, renting from or renting out. ផ្ទះជួល, “a rented house”; ជួលម៉ូតូ, “to rent a motorbike”. French « louer » also works both ways.",
+        "km": "« louer » មានន័យថា ជួល ឬ ឱ្យគេជួល។ « à louer » មានន័យថា សម្រាប់ជួល។ អង់គ្លេស៖ « to rent », « for rent »។"
+      },
+      "example": {"fr": "Nous louons une maison près du marché.", "en": "We rent a house near the market.", "km": "យើងជួលផ្ទះមួយនៅជិតផ្សារ។", "tr": "yeung tchouol phtéah mouy neuv tchit phsa.",
+      "es": "Alquilamos una casa cerca del mercado.", "it": "Affittiamo una casa vicino al mercato.", "ru": "Мы снимаем дом рядом с рынком.", "zh": "我们在市场附近租了一套房子。", "zh_tr": "Wǒmen zài shìchǎng fùjìn zū le yí tào fángzi."}
+    },
+    {
+      "fr": "l'appartement", "en": "apartment", "km": "អាផាតមិន", "tr": "a-phat-men",
+      "es": "el piso", "it": "l'appartamento", "ru": "квартира", "zh": "公寓", "zh_tr": "gōngyù", "pos": "nom",
+      "note": {
+        "fr": "Mot emprunté à l'anglais. Pour une simple chambre en location, on dit បន្ទប់ជួល ; pour un immeuble moderne, ខុនដូ, « condo ».",
+        "en": "Borrowed from English. A simple rented room is បន្ទប់ជួល; a modern block is ខុនដូ, “condo”. French « l'appartement » is masculine.",
+        "km": "« l'appartement » ជានាមភេទប្រុស (un appartement)។ អង់គ្លេសអាមេរិក៖ « apartment »។ អង់គ្លេសអង់គ្លេស៖ « flat »។"
+      },
+      "example": {"fr": "L'appartement a deux chambres.", "en": "The apartment has two bedrooms.", "km": "អាផាតមិនមានបន្ទប់គេងពីរ។", "tr": "a-phat-men méan bân-toup kéng pi.",
+      "es": "El piso tiene dos dormitorios.", "it": "L'appartamento ha due camere da letto.", "ru": "В квартире две спальни.", "zh": "这套公寓有两个卧室。", "zh_tr": "Zhè tào gōngyù yǒu liǎng ge wòshì."}
+    },
+    {
+      "fr": "le loyer", "en": "rent", "km": "ថ្លៃឈ្នួល", "tr": "thlay tchhnuol",
+      "es": "el alquiler", "it": "l'affitto", "ru": "арендная плата", "zh": "房租", "zh_tr": "fángzū", "pos": "nom",
+      "note": {
+        "fr": "ថ្លៃឈ្នួល, « prix de la location ». À l'oral, on entend aussi ថ្លៃផ្ទះ ou ថ្លៃជួល.",
+        "en": "ថ្លៃឈ្នួល, “rental price”. In speech you also hear ថ្លៃផ្ទះ or ថ្លៃជួល. French « le loyer » comes from « louer ».",
+        "km": "« le loyer » មកពីពាក្យ « louer » (ជួល)។ អង់គ្លេស៖ « rent » ជានាមផង និងកិរិយាសព្ទផង។"
+      },
+      "example": {"fr": "Le loyer est de trois cents dollars par mois.", "en": "The rent is three hundred dollars a month.", "km": "ថ្លៃឈ្នួលបីរយដុល្លារក្នុងមួយខែ។", "tr": "thlay tchhnuol bey roy dol-la knong mouy khaè.",
+      "es": "El alquiler es de trescientos dólares al mes.", "it": "L'affitto è di trecento dollari al mese.", "ru": "Аренда стоит триста долларов в месяц.", "zh": "房租每个月三百美元。", "zh_tr": "Fángzū měi ge yuè sānbǎi měiyuán."}
+    },
+    {
+      "fr": "le propriétaire", "en": "landlord", "km": "ម្ចាស់ផ្ទះ", "tr": "mtchah phtéah",
+      "es": "el casero", "it": "il padrone di casa", "ru": "хозяин квартиры", "zh": "房东", "zh_tr": "fángdōng", "pos": "nom",
+      "note": {
+        "fr": "ម្ចាស់, « maître, propriétaire » : ម្ចាស់ហាង, « le patron de la boutique ». ម្ចាស់ផ្ទះ veut aussi dire « l'hôte » quand on est invité.",
+        "en": "ម្ចាស់, “owner”: ម្ចាស់ហាង, “shop owner”. ម្ចាស់ផ្ទះ also means “the host” when you are a guest. French « le propriétaire », feminine « la propriétaire ».",
+        "km": "« le propriétaire » មានន័យថា ម្ចាស់ផ្ទះ ឬ ម្ចាស់ទ្រព្យ។ អង់គ្លេស៖ « landlord » (ប្រុស) និង « landlady » (ស្រី)។"
+      },
+      "example": {"fr": "Le propriétaire habite au rez-de-chaussée.", "en": "The landlord lives on the ground floor.", "km": "ម្ចាស់ផ្ទះរស់នៅជាន់ផ្ទាល់ដី។", "tr": "mtchah phtéah rouh neuv tchoan phtoal dey.",
+      "es": "El casero vive en la planta baja.", "it": "Il padrone di casa abita al piano terra.", "ru": "Хозяин живёт на первом этаже.", "zh": "房东住在一楼。", "zh_tr": "Fángdōng zhù zài yī lóu."}
+    },
+    {
+      "fr": "déménager", "en": "to move house", "km": "រើផ្ទះ", "tr": "reu phtéah",
+      "es": "mudarse", "it": "traslocare", "ru": "переезжать", "zh": "搬家", "zh_tr": "bānjiā", "pos": "verbe",
+      "note": {
+        "fr": "រើ, « déplacer » : រើផ្ទះ, « changer de maison ». On dit aussi ប្តូរផ្ទះ. Avant d'emménager, beaucoup de Cambodgiens choisissent un jour favorable.",
+        "en": "រើ, “to shift”: រើផ្ទះ, “to move house”. You also hear ប្តូរផ្ទះ. Many Cambodians pick a lucky day to move in. French « déménager » is a single verb.",
+        "km": "« déménager » មានន័យថា រើផ្ទះ។ « emménager » មានន័យថា ចូលនៅផ្ទះថ្មី។ អង់គ្លេស៖ « to move house », « to move in »។"
+      },
+      "example": {"fr": "Nous déménageons le mois prochain.", "en": "We're moving next month.", "km": "ខែក្រោយ យើងរើផ្ទះ។", "tr": "khaè kraoy, yeung reu phtéah.",
+      "es": "Nos mudamos el mes que viene.", "it": "Il mese prossimo traslochiamo.", "ru": "В следующем месяце мы переезжаем.", "zh": "我们下个月搬家。", "zh_tr": "Wǒmen xià ge yuè bānjiā."}
+    },
+    {
+      "fr": "l'électricité", "en": "electricity", "km": "អគ្គិសនី", "tr": "âk-ki-sâ-ni",
+      "es": "la electricidad", "it": "l'elettricità", "ru": "электричество", "zh": "电", "zh_tr": "diàn", "pos": "nom",
+      "note": {
+        "fr": "អគ្គិសនី est le mot officiel ; à l'oral, on dit ភ្លើង : ថ្លៃភ្លើង, « la facture d'électricité ».",
+        "en": "អគ្គិសនី is the official word; in speech people say ភ្លើង: ថ្លៃភ្លើង, “the electricity bill”. French « l'électricité » is feminine; in speech, « la lumière » or « le courant ».",
+        "km": "« l'électricité » ជាពាក្យផ្លូវការ។ ភាសានិយាយ គេប្រើ « le courant » ឬ « la lumière »។ អង់គ្លេស៖ « electricity », « power »។"
+      },
+      "example": {"fr": "En saison chaude, l'électricité coûte cher.", "en": "In the hot season, electricity is expensive.", "km": "នៅរដូវក្តៅ ថ្លៃភ្លើងថ្លៃណាស់។", "tr": "neuv ro-deuv kdav, thlay phleung thlay nah.",
+      "es": "En la temporada de calor, la electricidad es cara.", "it": "Nella stagione calda l'elettricità costa cara.", "ru": "В жаркий сезон электричество дорогое.", "zh": "热季的时候，电费很贵。", "zh_tr": "Rèjì de shíhou, diànfèi hěn guì."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Vous avez des chambres à louer ?", "en": "Do you have rooms for rent?", "km": "មានបន្ទប់ជួលទេ?", "tr": "méan bân-toup tchouol té ?",
+      "es": "¿Tiene habitaciones en alquiler?", "it": "Avete camere in affitto?", "ru": "У вас сдаются комнаты?", "zh": "有房间出租吗？", "zh_tr": "Yǒu fángjiān chūzū ma?",
+      "note": {
+        "fr": "La question courte suffit. Repérez aussi la pancarte ផ្ទះសម្រាប់ជួល, « maison à louer ».",
+        "en": "The short question is enough. Look out for signs saying ផ្ទះសម្រាប់ជួល, “house for rent”. French: « à louer », on signs too.",
+        "km": "ផ្ទាំងសញ្ញា « À louer » មានន័យថា សម្រាប់ជួល។ អង់គ្លេស៖ « For rent » ឬ « To let »។"
+      }
+    },
+    {
+      "fr": "Eau et électricité comprises ?", "en": "Are water and electricity included?", "km": "រួមទាំងថ្លៃទឹកថ្លៃភ្លើងទេ?", "tr": "rouom téang thlay teuk thlay phleung té ?",
+      "es": "¿Agua y luz incluidas?", "it": "Acqua e luce incluse?", "ru": "Вода и электричество включены?", "zh": "包水电吗？", "zh_tr": "Bāo shuǐdiàn ma?",
+      "note": {
+        "fr": "រួមទាំង, « y compris ». Question essentielle : l'électricité est souvent facturée à part, au prix fixé par le propriétaire.",
+        "en": "រួមទាំង, “including”. A key question: electricity is often billed separately, at a rate set by the landlord. French « compris » means “included”.",
+        "km": "« compris » មានន័យថា រួមបញ្ចូល។ « charges comprises » មានន័យថា រួមទាំងថ្លៃទឹកថ្លៃភ្លើង។ អង់គ្លេស៖ « included »។"
+      }
+    },
+    {
+      "fr": "Il y a une coupure de courant.", "en": "There's a power cut.", "km": "ភ្លើងដាច់។", "tr": "phleung datch.",
+      "es": "Se ha ido la luz.", "it": "È andata via la corrente.", "ru": "Отключили свет.", "zh": "停电了。", "zh_tr": "Tíngdiàn le.",
+      "note": {
+        "fr": "ដាច់, « coupé, rompu ». ភ្លើងមកវិញហើយ, « le courant est revenu ».",
+        "en": "ដាច់, “cut, broken off”. ភ្លើងមកវិញហើយ, “the power's back”. French « une coupure de courant », or simply « il n'y a plus de courant ».",
+        "km": "« une coupure de courant » មានន័យថា ភ្លើងដាច់។ អង់គ្លេស៖ « a power cut », « a blackout »។"
+      }
+    },
+    {
+      "fr": "On peut voir la chambre ?", "en": "Can we see the room?", "km": "សុំមើលបន្ទប់បានទេ?", "tr": "som meul bân-toup ban té ?",
+      "es": "¿Podemos ver la habitación?", "it": "Possiamo vedere la camera?", "ru": "Можно посмотреть комнату?", "zh": "可以看看房间吗？", "zh_tr": "Kěyǐ kànkan fángjiān ma?",
+      "note": {
+        "fr": "សុំ… បានទេ : la demande polie habituelle. Vérifiez l'eau, la climatisation et le bruit avant de signer.",
+        "en": "សុំ… បានទេ: the usual polite request. Check the water, the air conditioning and the noise before you sign. French « on peut… ? » is the casual way to ask.",
+        "km": "« On peut… ? » ជាការសុំបែបធម្មតា។ « Est-ce qu'on peut… ? » គួរសមជាង។ អង់គ្លេស៖ « Can we… ? »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "En cherchant un logement", "en": "Looking for a place", "km": "ពេលរកកន្លែងស្នាក់នៅ"},
+      "fr": "Je cherche un appartement près de l'école.", "en": "I'm looking for an apartment near the school.",
+      "km": "ខ្ញុំរកអាផាតមិនមួយនៅជិតសាលា។", "tr": "khgnom rok a-phat-men mouy neuv tchit sa-la.",
+      "es": "Busco un piso cerca de la escuela.", "it": "Cerco un appartamento vicino alla scuola.", "ru": "Я ищу квартиру рядом со школой.", "zh": "我在找学校附近的公寓。", "zh_tr": "Wǒ zài zhǎo xuéxiào fùjìn de gōngyù."
+    },
+    {
+      "situation": {"fr": "Avec le propriétaire", "en": "With the landlord", "km": "ជាមួយម្ចាស់ផ្ទះ"},
+      "fr": "Il faut payer le loyer avant le cinq du mois.", "en": "The rent must be paid before the fifth of the month.",
+      "km": "ត្រូវបង់ថ្លៃឈ្នួលមុនថ្ងៃទីប្រាំនៃខែ។", "tr": "treuv bâng thlay tchhnuol moun thngay ti pram nei khaè.",
+      "es": "Hay que pagar el alquiler antes del día cinco del mes.", "it": "Bisogna pagare l'affitto prima del cinque del mese.", "ru": "Аренду нужно платить до пятого числа.", "zh": "每个月五号以前要交房租。", "zh_tr": "Měi ge yuè wǔ hào yǐqián yào jiāo fángzū."
+    },
+    {
+      "situation": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
+      "fr": "La climatisation consomme beaucoup d'électricité.", "en": "The air conditioning uses a lot of electricity.",
+      "km": "ម៉ាស៊ីនត្រជាក់ស៊ីភ្លើងច្រើនណាស់។", "tr": "ma-sin trâ-tchéak si phleung tchraeun nah.",
+      "es": "El aire acondicionado gasta mucha electricidad.", "it": "Il condizionatore consuma molta elettricità.", "ru": "Кондиционер потребляет много электричества.", "zh": "空调很费电。", "zh_tr": "Kōngtiáo hěn fèi diàn."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} cherche un logement ; {A} a trouvé une annonce.", "en": "{B} is looking for a place to live; {A} has found an ad.", "km": "{B} កំពុងរកកន្លែងស្នាក់នៅ ហើយ {A} បានឃើញការផ្សាយមួយ។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, j'ai trouvé un appartement pour toi, près du parc.", "en": "{B}, I've found an apartment for you, near the park.", "km": "{B} ខ្ញុំរកឃើញអាផាតមិនមួយសម្រាប់ {B} នៅជិតសួនច្បារ។", "tr": "{B}, khgnom rok kheugn a-phat-men mouy sâm-rap {B} neuv tchit souon tchba.",
+        "es": "{B}, te he encontrado un piso cerca del parque.", "it": "{B}, ti ho trovato un appartamento vicino al parco.", "ru": "{B}, я нашла тебе квартиру рядом с парком.", "zh": "{B}，我给你找到了一套公寓，在公园附近。", "zh_tr": "{B}, wǒ gěi nǐ zhǎodào le yí tào gōngyù, zài gōngyuán fùjìn."},
+      {"speaker": "B", "fr": "Super ! Le loyer est de combien ?", "en": "Great! How much is the rent?", "km": "ល្អណាស់! ថ្លៃឈ្នួលប៉ុន្មាន?", "tr": "l'â nah ! thlay tchhnuol pon-man ?",
+        "es": "¡Genial! ¿Cuánto es el alquiler?", "it": "Fantastico! Quant'è l'affitto?", "ru": "Здорово! Сколько стоит аренда?", "zh": "太好了！房租多少？", "zh_tr": "Tài hǎo le! Fángzū duōshao?"},
+      {"speaker": "A", "fr": "Deux cent cinquante dollars par mois.", "en": "Two hundred and fifty dollars a month.", "km": "ពីររយហាសិបដុល្លារក្នុងមួយខែ។", "tr": "pi roy ha-sep dol-la knong mouy khaè.",
+        "es": "Doscientos cincuenta dólares al mes.", "it": "Duecentocinquanta dollari al mese.", "ru": "Двести пятьдесят долларов в месяц.", "zh": "每个月两百五十美元。", "zh_tr": "Měi ge yuè liǎngbǎi wǔshí měiyuán."},
+      {"speaker": "B", "fr": "Eau et électricité comprises ?", "en": "Are water and electricity included?", "km": "រួមទាំងថ្លៃទឹកថ្លៃភ្លើងទេ?", "tr": "rouom téang thlay teuk thlay phleung té ?",
+        "es": "¿Agua y luz incluidas?", "it": "Acqua e luce incluse?", "ru": "Вода и электричество включены?", "zh": "包水电吗？", "zh_tr": "Bāo shuǐdiàn ma?"},
+      {"speaker": "A", "fr": "Non, l'électricité est en plus. Mais le propriétaire est très gentil.", "en": "No, electricity is extra. But the landlord is very kind.", "km": "ទេ ថ្លៃភ្លើងគិតដោយឡែក។ ប៉ុន្តែម្ចាស់ផ្ទះចិត្តល្អណាស់។", "tr": "té, thlay phleung kit daoy laèk. pon-taè mtchah phtéah tchet l'â nah.",
+        "es": "No, la luz se paga aparte. Pero el casero es muy amable.", "it": "No, la luce è a parte. Ma il padrone di casa è molto gentile.", "ru": "Нет, электричество отдельно. Но хозяин очень добрый.", "zh": "不包，电费另付。不过房东人很好。", "zh_tr": "Bù bāo, diànfèi lìng fù. Búguò fángdōng rén hěn hǎo."},
+      {"speaker": "B", "fr": "Parfait. On peut le voir demain ? Je veux déménager vite.", "en": "Perfect. Can we see it tomorrow? I want to move soon.", "km": "ល្អ។ ថ្ងៃស្អែក សុំទៅមើលបានទេ? ខ្ញុំចង់រើផ្ទះឆាប់ៗ។", "tr": "l'â. thngay s'aèk, som teuv meul ban té ? khgnom tchâng reu phtéah tchhap-tchhap.",
+        "es": "Perfecto. ¿Podemos verlo mañana? Quiero mudarme pronto.", "it": "Perfetto. Possiamo vederlo domani? Voglio traslocare presto.", "ru": "Отлично. Можно посмотреть завтра? Я хочу скорее переехать.", "zh": "好。明天可以去看看吗？我想早点儿搬家。", "zh_tr": "Hǎo. Míngtiān kěyǐ qù kànkan ma? Wǒ xiǎng zǎo diǎnr bānjiā."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce qui n'est pas compris dans le loyer ?", "en": "What isn't included in the rent?", "km": "អ្វីដែលមិនរួមក្នុងថ្លៃឈ្នួល?"},
+    "answer": {"fr": "L'électricité.", "en": "Electricity.", "km": "ថ្លៃភ្លើង។"}
+  }
+}

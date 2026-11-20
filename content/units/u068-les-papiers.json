@@ -1,0 +1,159 @@
+{
+  "id": "u068",
+  "order": 68,
+  "level": "intermediaire",
+  "theme": "les-papiers",
+  "title": {"fr": "Les papiers", "en": "Paperwork", "km": "ឯកសារ"},
+  "tip": {
+    "fr": "Le vocabulaire administratif khmer vient souvent du pali et du sanskrit : ទិដ្ឋាការ (visa), អត្តសញ្ញាណប័ណ្ណ (carte d'identité), ហត្ថលេខា (signature). Ces mots sont longs, mais on les entend tels quels au guichet. Les verbes, eux, restent simples : បំពេញ, « remplir » ; ចុះ, « poser » (sa signature).",
+    "en": "Khmer official vocabulary often comes from Pali and Sanskrit: ទិដ្ឋាការ (visa), អត្តសញ្ញាណប័ណ្ណ (ID card), ហត្ថលេខា (signature). The words are long, but that's what you'll hear at the counter. The verbs stay simple: បំពេញ, “to fill in”; ចុះ, “to put down” (a signature). French official forms use « vous » and the imperative: Remplissez, Signez.",
+    "km": "ភាសាបារាំង នៅការិយាល័យ គេប្រើ « vous » និងទម្រង់បញ្ជា៖ Remplissez (សូមបំពេញ), Signez ici (សូមចុះហត្ថលេខានៅទីនេះ)។ ភាសាអង់គ្លេស៖ Please fill in, Sign here។"
+  },
+  "vocabulary": [
+    {
+      "fr": "remplir", "en": "to fill in", "km": "បំពេញ", "tr": "bâm-pégn",
+      "es": "rellenar", "it": "compilare", "ru": "заполнять", "zh": "填写", "zh_tr": "tiánxiě", "pos": "verbe",
+      "note": {
+        "fr": "បំពេញ, « remplir, compléter ». On dit aussi បំពេញការងារ, « accomplir son travail ».",
+        "en": "បំពេញ, “to fill, to complete”. Also បំពេញការងារ, “to carry out your work”. French « remplir » is used for a glass and for a form.",
+        "km": "« remplir » មានន័យថា បំពេញ ឬ ចាក់ឱ្យពេញ៖ remplir un verre, remplir un formulaire។ អង់គ្លេស៖ « to fill in a form »។"
+      },
+      "example": {"fr": "Remplissez ce formulaire, s'il vous plaît.", "en": "Please fill in this form.", "km": "សូមបំពេញក្រដាសនេះ។", "tr": "sôm bâm-pégn krâ-dah nih.",
+      "es": "Rellene este formulario, por favor.", "it": "Compili questo modulo, per favore.", "ru": "Заполните, пожалуйста, этот бланк.", "zh": "请填一下这张表。", "zh_tr": "Qǐng tián yíxià zhè zhāng biǎo."}
+    },
+    {
+      "fr": "signer", "en": "to sign", "km": "ចុះហត្ថលេខា", "tr": "tchoh hât-tha-lé-kha",
+      "es": "firmar", "it": "firmare", "ru": "подписывать", "zh": "签字", "zh_tr": "qiānzì", "pos": "verbe",
+      "note": {
+        "fr": "ហត្ថលេខា, « la signature », mot à mot « écrit de la main ». ចុះ, « poser, inscrire ». À la campagne, on signe parfois avec l'empreinte du pouce, ស្នាមមេដៃ.",
+        "en": "ហត្ថលេខា, “signature”, literally “hand writing”. ចុះ, “to put down”. In the countryside, people sometimes sign with a thumbprint, ស្នាមមេដៃ. French « signer », « la signature ».",
+        "km": "« signer » មានន័យថា ចុះហត្ថលេខា ហើយ « la signature » មានន័យថា ហត្ថលេខា។ អង់គ្លេស៖ « to sign », « signature »។"
+      },
+      "example": {"fr": "Signez ici, s'il vous plaît.", "en": "Please sign here.", "km": "សូមចុះហត្ថលេខានៅទីនេះ។", "tr": "sôm tchoh hât-tha-lé-kha neuv ti-nih.",
+      "es": "Firme aquí, por favor.", "it": "Firmi qui, per favore.", "ru": "Подпишите здесь, пожалуйста.", "zh": "请在这里签字。", "zh_tr": "Qǐng zài zhèli qiānzì."}
+    },
+    {
+      "fr": "la carte d'identité", "en": "ID card", "km": "អត្តសញ្ញាណប័ណ្ណ", "tr": "at-ta-sagn-gnan-ban",
+      "es": "el carné de identidad", "it": "la carta d'identità", "ru": "удостоверение личности", "zh": "身份证", "zh_tr": "shēnfènzhèng", "pos": "nom",
+      "note": {
+        "fr": "អត្តសញ្ញាណ, « identité », et ប័ណ្ណ, « carte ». ប័ណ្ណ se retrouve dans ប័ណ្ណបើកបរ, « le permis de conduire ».",
+        "en": "អត្តសញ្ញាណ, “identity”, and ប័ណ្ណ, “card”. ប័ណ្ណ also appears in ប័ណ្ណបើកបរ, “driving licence”. French « une pièce d'identité » means any ID document.",
+        "km": "« la carte d'identité » មានន័យថា អត្តសញ្ញាណប័ណ្ណ។ « le permis de conduire » គឺ ប័ណ្ណបើកបរ។ អង់គ្លេស៖ « ID card », « driving licence »។"
+      },
+      "example": {"fr": "J'ai oublié ma carte d'identité à la maison.", "en": "I left my ID card at home.", "km": "ខ្ញុំភ្លេចអត្តសញ្ញាណប័ណ្ណនៅផ្ទះ។", "tr": "khgnom phlétch at-ta-sagn-gnan-ban neuv phtéah.",
+      "es": "Me he dejado el carné de identidad en casa.", "it": "Ho dimenticato la carta d'identità a casa.", "ru": "Я забыл удостоверение личности дома.", "zh": "我把身份证忘在家里了。", "zh_tr": "Wǒ bǎ shēnfènzhèng wàng zài jiā li le."}
+    },
+    {
+      "fr": "le visa", "en": "visa", "km": "ទិដ្ឋាការ", "tr": "tit-tha-ka",
+      "es": "el visado", "it": "il visto", "ru": "виза", "zh": "签证", "zh_tr": "qiānzhèng", "pos": "nom",
+      "note": {
+        "fr": "ទិដ្ឋាការ, « le visa ». ផុតកំណត់, « expirer » ; បន្ត, « prolonger ».",
+        "en": "ទិដ្ឋាការ, “visa”. ផុតកំណត់, “to expire”; បន្ត, “to extend”. French « le visa » is masculine; « expirer », « prolonger ».",
+        "km": "« le visa » ជានាមភេទប្រុស។ « prolonger le visa » មានន័យថា បន្តទិដ្ឋាការ។ អង់គ្លេស៖ « visa », « to extend a visa »។"
+      },
+      "example": {"fr": "Mon visa expire à la fin du mois.", "en": "My visa expires at the end of the month.", "km": "ទិដ្ឋាការរបស់ខ្ញុំផុតកំណត់នៅចុងខែ។", "tr": "tit-tha-ka ro-bâh khgnom phot kâm-not neuv tchong khaè.",
+      "es": "Mi visado caduca a final de mes.", "it": "Il mio visto scade a fine mese.", "ru": "Моя виза истекает в конце месяца.", "zh": "我的签证月底到期。", "zh_tr": "Wǒ de qiānzhèng yuèdǐ dàoqī."}
+    },
+    {
+      "fr": "le bureau", "en": "office", "km": "ការិយាល័យ", "tr": "ka-ri-ya-lay",
+      "es": "la oficina", "it": "l'ufficio", "ru": "офис", "zh": "办公室", "zh_tr": "bàngōngshì", "pos": "nom",
+      "note": {
+        "fr": "ការិយាល័យ, « le bureau, le service ». Les bureaux publics ferment souvent entre onze heures et deux heures.",
+        "en": "ការិយាល័យ, “office, department”. Public offices often close between eleven and two. French « le bureau » is both the room and the desk.",
+        "km": "« le bureau » មានន័យពីរ៖ ការិយាល័យ និង តុធ្វើការ។ អង់គ្លេស៖ « office » និង « desk »។"
+      },
+      "example": {"fr": "Le bureau ouvre à huit heures.", "en": "The office opens at eight.", "km": "ការិយាល័យបើកម៉ោងប្រាំបី។", "tr": "ka-ri-ya-lay baeuk maong pram-bey.",
+      "es": "La oficina abre a las ocho.", "it": "L'ufficio apre alle otto.", "ru": "Офис открывается в восемь.", "zh": "办公室八点开门。", "zh_tr": "Bàngōngshì bā diǎn kāimén."}
+    },
+    {
+      "fr": "la photocopie", "en": "photocopy", "km": "ច្បាប់ចម្លង", "tr": "tchbap tchâm-lâng",
+      "es": "la fotocopia", "it": "la fotocopia", "ru": "копия", "zh": "复印件", "zh_tr": "fùyìnjiàn", "pos": "nom",
+      "note": {
+        "fr": "ច្បាប់, « exemplaire », et ចម្លង, « copier ». « Photocopier » se dit ថតចម្លង. Gardez toujours une copie du passeport sur vous.",
+        "en": "ច្បាប់, “a copy, an exemplar”, and ចម្លង, “to copy”. “To photocopy” is ថតចម្លង. Always keep a copy of your passport with you. French « faire une photocopie ».",
+        "km": "« faire une photocopie » មានន័យថា ថតចម្លង។ អង់គ្លេស៖ « photocopy », « copy »។"
+      },
+      "example": {"fr": "Il faut deux photocopies du passeport.", "en": "You need two photocopies of your passport.", "km": "ត្រូវការច្បាប់ចម្លងលិខិតឆ្លងដែនពីរ។", "tr": "treuv-ka tchbap tchâm-lâng lik-khet tchhlâng daèn pi.",
+      "es": "Hacen falta dos fotocopias del pasaporte.", "it": "Servono due fotocopie del passaporto.", "ru": "Нужны две копии паспорта.", "zh": "需要两份护照复印件。", "zh_tr": "Xūyào liǎng fèn hùzhào fùyìnjiàn."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Quels papiers faut-il ?", "en": "What documents do I need?", "km": "ត្រូវការឯកសារអ្វីខ្លះ?", "tr": "treuv-ka aèk-ka-sa ey khlah ?",
+      "es": "¿Qué documentos hacen falta?", "it": "Quali documenti servono?", "ru": "Какие документы нужны?", "zh": "需要什么材料？", "zh_tr": "Xūyào shénme cáiliào?",
+      "note": {
+        "fr": "ឯកសារ, « les documents ». អ្វីខ្លះ, « quoi… (plusieurs) », attend une liste en réponse.",
+        "en": "ឯកសារ, “documents”. អ្វីខ្លះ, “which things”, expects a list in reply. French « les papiers » means “documents”, informally.",
+        "km": "« les papiers » ក្នុងបរិបទនេះ មានន័យថា ឯកសារ។ អង់គ្លេស៖ « documents », « paperwork »។"
+      }
+    },
+    {
+      "fr": "Il faut faire la queue.", "en": "You have to queue.", "km": "ត្រូវតម្រង់ជួរ។", "tr": "treuv tâm-rang tchuor.",
+      "es": "Hay que hacer cola.", "it": "Bisogna fare la fila.", "ru": "Нужно стоять в очереди.", "zh": "要排队。", "zh_tr": "Yào páiduì.",
+      "note": {
+        "fr": "ជួរ, « la file, la rangée » ; តម្រង់, « aligner ». Souvent, on prend un ticket avec un numéro.",
+        "en": "ជួរ, “line, row”; តម្រង់, “to line up”. Often you take a numbered ticket. French « faire la queue »; Americans say “to wait in line”.",
+        "km": "« faire la queue » មានន័យថា តម្រង់ជួរ។ អង់គ្លេសអង់គ្លេស៖ « to queue »។ អង់គ្លេសអាមេរិក៖ « to wait in line »។"
+      }
+    },
+    {
+      "fr": "Revenez demain.", "en": "Come back tomorrow.", "km": "ថ្ងៃស្អែកមកវិញ។", "tr": "thngay s'aèk mok vign.",
+      "es": "Vuelva mañana.", "it": "Torni domani.", "ru": "Приходите завтра.", "zh": "明天再来吧。", "zh_tr": "Míngtiān zài lái ba.",
+      "note": {
+        "fr": "មកវិញ, « revenir ». La phrase qu'on entend souvent au guichet : patience et sourire !",
+        "en": "មកវិញ, “to come back”. A phrase often heard at the counter: patience and a smile! French « revenir », « Revenez » is polite.",
+        "km": "« revenir » មានន័យថា មកវិញ។ « Revenez demain » មានន័យថា ថ្ងៃស្អែកមកវិញ។ អង់គ្លេស៖ « Come back tomorrow »។"
+      }
+    },
+    {
+      "fr": "C'est prêt quand ?", "en": "When will it be ready?", "km": "ពេលណាបានរួច?", "tr": "pél na ban rouotch ?",
+      "es": "¿Cuándo estará listo?", "it": "Quando sarà pronto?", "ru": "Когда будет готово?", "zh": "什么时候能好？", "zh_tr": "Shénme shíhou néng hǎo?",
+      "note": {
+        "fr": "រួច, « fini, terminé ». La réponse vient souvent avec ប្រហែល, « environ ».",
+        "en": "រួច, “done, finished”. The answer often comes with ប្រហែល, “about”. French « prêt » means “ready”; in writing, « Quand est-ce que ce sera prêt ? ».",
+        "km": "« prêt » មានន័យថា រួចរាល់។ អង់គ្លេស៖ « ready »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au service des visas", "en": "At the visa office", "km": "នៅការិយាល័យទិដ្ឋាការ"},
+      "fr": "Je voudrais prolonger mon visa d'un mois.", "en": "I'd like to extend my visa by a month.",
+      "km": "ខ្ញុំចង់បន្តទិដ្ឋាការមួយខែទៀត។", "tr": "khgnom tchâng bân-ta tit-tha-ka mouy khaè tiet.",
+      "es": "Quisiera prolongar mi visado un mes.", "it": "Vorrei prolungare il visto di un mese.", "ru": "Я хотел бы продлить визу на месяц.", "zh": "我想把签证延长一个月。", "zh_tr": "Wǒ xiǎng bǎ qiānzhèng yáncháng yí ge yuè."
+    },
+    {
+      "situation": {"fr": "À la banque", "en": "At the bank", "km": "នៅធនាគារ"},
+      "fr": "Pour ouvrir un compte, il faut une carte d'identité ou un passeport.", "en": "To open an account, you need an ID card or a passport.",
+      "km": "ដើម្បីបើកគណនី ត្រូវការអត្តសញ្ញាណប័ណ្ណ ឬលិខិតឆ្លងដែន។", "tr": "daeum-bey baeuk kâ-nâ-ni, treuv-ka at-ta-sagn-gnan-ban reu lik-khet tchhlâng daèn.",
+      "es": "Para abrir una cuenta, hace falta el carné de identidad o el pasaporte.", "it": "Per aprire un conto serve la carta d'identità o il passaporto.", "ru": "Чтобы открыть счёт, нужно удостоверение личности или паспорт.", "zh": "开户需要身份证或者护照。", "zh_tr": "Kāihù xūyào shēnfènzhèng huòzhě hùzhào."
+    },
+    {
+      "situation": {"fr": "Au guichet", "en": "At the counter", "km": "នៅបញ្ជរ"},
+      "fr": "Il manque une photo d'identité.", "en": "A passport photo is missing.",
+      "km": "ខ្វះរូបថតមួយសន្លឹក។", "tr": "khvah roup-thât mouy sân-leuk.",
+      "es": "Falta una foto de carné.", "it": "Manca una fototessera.", "ru": "Не хватает одной фотографии.", "zh": "还缺一张照片。", "zh_tr": "Hái quē yì zhāng zhàopiàn."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Le visa de {B} expire bientôt ; {A} explique les démarches.", "en": "{B}'s visa expires soon; {A} explains what to do.", "km": "ទិដ្ឋាការរបស់ {B} ជិតផុតកំណត់ ហើយ {A} ពន្យល់ពីអ្វីដែលត្រូវធ្វើ។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, mon visa expire la semaine prochaine. Qu'est-ce que je dois faire ?", "en": "{A}, my visa expires next week. What do I have to do?", "km": "{A} ទិដ្ឋាការរបស់ខ្ញុំផុតកំណត់សប្តាហ៍ក្រោយ។ ខ្ញុំត្រូវធ្វើយ៉ាងម៉េច?", "tr": "{A}, tit-tha-ka ro-bâh khgnom phot kâm-not sap-da kraoy. khgnom treuv thveu yang métch ?",
+        "es": "{A}, mi visado caduca la semana que viene. ¿Qué tengo que hacer?", "it": "{A}, il mio visto scade la settimana prossima. Cosa devo fare?", "ru": "{A}, моя виза истекает на следующей неделе. Что мне делать?", "zh": "{A}，我的签证下个星期到期。我该怎么办？", "zh_tr": "{A}, wǒ de qiānzhèng xià ge xīngqī dàoqī. Wǒ gāi zěnme bàn?"},
+      {"speaker": "A", "fr": "Il faut aller au bureau de l'immigration. Je viens avec toi.", "en": "You have to go to the immigration office. I'll come with you.", "km": "ត្រូវទៅការិយាល័យអន្តោប្រវេសន៍។ ខ្ញុំទៅជាមួយ។", "tr": "treuv teuv ka-ri-ya-lay ân-tao-prâ-vé. khgnom teuv tchéa-mouy.",
+        "es": "Hay que ir a la oficina de inmigración. Voy contigo.", "it": "Bisogna andare all'ufficio immigrazione. Vengo con te.", "ru": "Нужно идти в миграционную службу. Я пойду с тобой.", "zh": "要去移民局。我陪你去。", "zh_tr": "Yào qù yímínjú. Wǒ péi nǐ qù."},
+      {"speaker": "B", "fr": "Merci ! Quels papiers faut-il ?", "en": "Thanks! What documents do I need?", "km": "អរគុណ! ត្រូវការឯកសារអ្វីខ្លះ?", "tr": "â-koun ! treuv-ka aèk-ka-sa ey khlah ?",
+        "es": "¡Gracias! ¿Qué documentos hacen falta?", "it": "Grazie! Quali documenti servono?", "ru": "Спасибо! Какие документы нужны?", "zh": "谢谢！需要什么材料？", "zh_tr": "Xièxie! Xūyào shénme cáiliào?"},
+      {"speaker": "A", "fr": "Ton passeport, une photo et une photocopie. Et là-bas, tu remplis un formulaire.", "en": "Your passport, a photo and a photocopy. And there, you fill in a form.", "km": "លិខិតឆ្លងដែន រូបថតមួយ និងច្បាប់ចម្លងមួយ។ ហើយនៅទីនោះ ត្រូវបំពេញក្រដាសមួយ។", "tr": "lik-khet tchhlâng daèn, roup-thât mouy, ning tchbap tchâm-lâng mouy. haeuy neuv ti-nouh, treuv bâm-pégn krâ-dah mouy.",
+        "es": "Tu pasaporte, una foto y una fotocopia. Y allí rellenas un formulario.", "it": "Il passaporto, una foto e una fotocopia. E lì compili un modulo.", "ru": "Паспорт, фотографию и копию. А там заполнишь бланк.", "zh": "护照、一张照片和一份复印件。然后在那儿填一张表。", "zh_tr": "Hùzhào, yì zhāng zhàopiàn hé yí fèn fùyìnjiàn. Ránhòu zài nàr tián yì zhāng biǎo."},
+      {"speaker": "B", "fr": "Et c'est prêt quand ?", "en": "And when will it be ready?", "km": "ហើយពេលណាបានរួច?", "tr": "haeuy pél na ban rouotch ?",
+        "es": "¿Y cuándo estará listo?", "it": "E quando sarà pronto?", "ru": "А когда будет готово?", "zh": "那什么时候能好？", "zh_tr": "Nà shénme shíhou néng hǎo?"},
+      {"speaker": "A", "fr": "Dans une semaine environ. N'oublie pas de signer !", "en": "In about a week. Don't forget to sign!", "km": "ប្រហែលមួយសប្តាហ៍។ កុំភ្លេចចុះហត្ថលេខាណា!", "tr": "prâ-haèl mouy sap-da. kom phlétch tchoh hât-tha-lé-kha na !",
+        "es": "En una semana, más o menos. ¡No te olvides de firmar!", "it": "Tra circa una settimana. Non dimenticare di firmare!", "ru": "Примерно через неделю. Не забудь расписаться!", "zh": "大约一个星期。别忘了签字！", "zh_tr": "Dàyuē yí ge xīngqī. Bié wàng le qiānzì!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "De quoi {B} a besoin pour son visa ?", "en": "What does {B} need for the visa?", "km": "{B} ត្រូវការអ្វីខ្លះសម្រាប់ទិដ្ឋាការ?"},
+    "answer": {"fr": "Son passeport, une photo et une photocopie.", "en": "A passport, a photo and a photocopy.", "km": "លិខិតឆ្លងដែន រូបថតមួយ និងច្បាប់ចម្លងមួយ។"}
+  }
+}

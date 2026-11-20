@@ -1,0 +1,159 @@
+{
+  "id": "u070",
+  "order": 70,
+  "level": "intermediaire",
+  "theme": "les-compliments",
+  "title": {"fr": "Les compliments", "en": "Compliments", "km": "ពាក្យសរសើរ"},
+  "tip": {
+    "fr": "Au Cambodge, comme en Chine, on reçoit un compliment avec modestie : អត់ទេ មិនដល់ម្ល៉េះទេ, « mais non, pas tant que ça ». Accepter tout de suite un compliment peut sembler prétentieux. En France, on remercie plus volontiers : « Merci, c'est gentil ! »",
+    "en": "In Cambodia, as in China, you take a compliment modestly: អត់ទេ មិនដល់ម្ល៉េះទេ, “oh no, not really”. Accepting it straight away can seem boastful. In France and in English-speaking countries, people more readily say thank you: « Merci, c'est gentil ! », “Thanks, that's kind of you!”",
+    "km": "នៅប្រទេសបារាំង និងប្រទេសនិយាយអង់គ្លេស ពេលគេសរសើរ យើងតែងតែអរគុណ៖ « Merci, c'est gentil ! », « Thank you, that's kind of you! »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le compliment", "en": "compliment", "km": "ពាក្យសរសើរ", "tr": "péak sâ-saeu",
+      "es": "el cumplido", "it": "il complimento", "ru": "комплимент", "zh": "称赞", "zh_tr": "chēngzàn", "pos": "nom",
+      "note": {
+        "fr": "សរសើរ, « complimenter, faire l'éloge » ; ពាក្យ, « mot, parole ». គាត់សរសើរខ្ញុំ, « il m'a fait un compliment ».",
+        "en": "សរសើរ, “to praise”; ពាក្យ, “word”. គាត់សរសើរខ្ញុំ, “he complimented me”. French « faire un compliment à quelqu'un ».",
+        "km": "« faire un compliment » មានន័យថា សរសើរ។ អង់គ្លេស៖ « to pay someone a compliment », « to praise »។"
+      },
+      "example": {"fr": "Elle reçoit beaucoup de compliments sur sa cuisine.", "en": "She gets lots of compliments on her cooking.", "km": "គាត់ទទួលបានពាក្យសរសើរច្រើនអំពីម្ហូបរបស់គាត់។", "tr": "koat tô-tuol ban péak sâ-saeu tchraeun âm-pi mhôp ro-bâh koat.",
+      "es": "Recibe muchos cumplidos por su cocina.", "it": "Riceve molti complimenti per la sua cucina.", "ru": "Ей часто делают комплименты за её стряпню.", "zh": "她做的菜得到很多称赞。", "zh_tr": "Tā zuò de cài dédào hěn duō chēngzàn."}
+    },
+    {
+      "fr": "féliciter", "en": "to congratulate", "km": "អបអរសាទរ", "tr": "âp-â sa-tô",
+      "es": "felicitar", "it": "congratularsi", "ru": "поздравлять", "zh": "祝贺", "zh_tr": "zhùhè", "pos": "verbe",
+      "note": {
+        "fr": "អបអរ, « se réjouir », et សាទរ, « avec joie ». សូមអបអរសាទរ!, « Félicitations ! ». ចំពោះ introduit la raison.",
+        "en": "អបអរ, “to rejoice”, and សាទរ, “gladly”. សូមអបអរសាទរ!, “Congratulations!”. ចំពោះ introduces the reason. French « féliciter pour » + noun.",
+        "km": "« féliciter pour » + នាម៖ féliciter pour le travail។ « Félicitations ! » មានន័យថា សូមអបអរសាទរ! អង់គ្លេស៖ « Congratulations on… »។"
+      },
+      "example": {"fr": "Je te félicite pour ton nouveau travail !", "en": "Congratulations on your new job!", "km": "សូមអបអរសាទរចំពោះការងារថ្មីរបស់អ្នក!", "tr": "sôm âp-â sa-tô tchâm-pouh ka-ngéa thmey ro-bâh néak !",
+      "es": "¡Te felicito por tu nuevo trabajo!", "it": "Congratulazioni per il tuo nuovo lavoro!", "ru": "Поздравляю тебя с новой работой!", "zh": "祝贺你找到新工作！", "zh_tr": "Zhùhè nǐ zhǎodào xīn gōngzuò!"}
+    },
+    {
+      "fr": "intelligent", "en": "clever", "km": "ឆ្លាត", "tr": "tchhlat",
+      "es": "inteligente", "it": "intelligente", "ru": "умный", "zh": "聪明", "zh_tr": "cōngming", "pos": "adjectif",
+      "note": {
+        "fr": "ឆ្លាត, « intelligent, malin ». Pour un esprit vif, on entend aussi ឆ្លាតវៃ.",
+        "en": "ឆ្លាត, “clever, smart”. For a bright child you also hear ឆ្លាតវៃ. French « intelligent », feminine « intelligente » with a sounded t.",
+        "km": "« intelligent » សម្រាប់ប្រុស ហើយ « intelligente » សម្រាប់ស្រី ដោយអាន t ។ អង់គ្លេស៖ « clever », « smart »។"
+      },
+      "example": {"fr": "Ton fils est très intelligent.", "en": "Your son is very clever.", "km": "កូនប្រុសរបស់អ្នកឆ្លាតណាស់។", "tr": "kôn proh ro-bâh néak tchhlat nah.",
+      "es": "Tu hijo es muy inteligente.", "it": "Tuo figlio è molto intelligente.", "ru": "Твой сын очень умный.", "zh": "你儿子很聪明。", "zh_tr": "Nǐ érzi hěn cōngming."}
+    },
+    {
+      "fr": "doué", "en": "good at", "km": "ពូកែ", "tr": "pou-kè",
+      "es": "hábil", "it": "bravo", "ru": "способный", "zh": "厉害", "zh_tr": "lìhai", "pos": "adjectif",
+      "note": {
+        "fr": "ពូកែ + verbe : « doué pour » ; ពូកែរាំ, « doué pour la danse ». ពូកែណាស់!, « Bravo ! », est le compliment le plus courant.",
+        "en": "ពូកែ + verb: “good at”; ពូកែរាំ, “good at dancing”. ពូកែណាស់!, “Well done!”, is the most common compliment. French « doué pour » + noun: doué pour la musique.",
+        "km": "« doué pour » + នាម មានន័យថា ពូកែ៖ doué pour la musique (ពូកែតន្ត្រី)។ អង់គ្លេស៖ « good at », « talented »។"
+      },
+      "example": {"fr": "Elle est très douée pour la danse.", "en": "She's very good at dancing.", "km": "គាត់ពូកែរាំណាស់។", "tr": "koat pou-kè roam nah.",
+      "es": "Tiene mucho talento para el baile.", "it": "È molto brava a ballare.", "ru": "Она очень хорошо танцует.", "zh": "她跳舞很厉害。", "zh_tr": "Tā tiàowǔ hěn lìhai."}
+    },
+    {
+      "fr": "fier", "en": "proud", "km": "មានមោទនភាព", "tr": "méan mo-tâ-nâ-phéap",
+      "es": "orgulloso", "it": "orgoglioso", "ru": "гордый", "zh": "骄傲", "zh_tr": "jiāo'ào", "pos": "adjectif",
+      "note": {
+        "fr": "មោទនភាព, « la fierté » ; មាន, « avoir » : « avoir de la fierté ». ចំពោះ, « envers », introduit ce dont on est fier.",
+        "en": "មោទនភាព, “pride”; មាន, “to have”: “to have pride”. ចំពោះ introduces what you are proud of. French « fier de », feminine « fière ».",
+        "km": "« fier » សម្រាប់ប្រុស ហើយ « fière » សម្រាប់ស្រី។ « fier de » មានន័យថា មានមោទនភាពចំពោះ។ អង់គ្លេស៖ « proud of »។"
+      },
+      "example": {"fr": "Le village est fier de son équipe.", "en": "The village is proud of its team.", "km": "អ្នកភូមិមានមោទនភាពចំពោះក្រុមរបស់ខ្លួន។", "tr": "néak phoum méan mo-tâ-nâ-phéap tchâm-pouh krom ro-bâh khluon.",
+      "es": "El pueblo está orgulloso de su equipo.", "it": "Il paese è orgoglioso della sua squadra.", "ru": "Деревня гордится своей командой.", "zh": "村民们为自己的球队感到骄傲。", "zh_tr": "Cūnmínmen wèi zìjǐ de qiúduì gǎndào jiāo'ào."}
+    },
+    {
+      "fr": "réussir", "en": "to succeed", "km": "ជោគជ័យ", "tr": "tchôk-tchey",
+      "es": "tener éxito", "it": "riuscire", "ru": "добиваться успеха", "zh": "成功", "zh_tr": "chénggōng", "pos": "verbe",
+      "note": {
+        "fr": "ជោគជ័យ, « succès, réussir ». Pour un examen, on dit ប្រឡងជាប់ ; le contraire est ប្រឡងធ្លាក់, « échouer ».",
+        "en": "ជោគជ័យ, “success, to succeed”. For an exam, say ប្រឡងជាប់, “to pass an exam”. French « réussir un examen » means “to pass an exam”.",
+        "km": "« réussir un examen » មានន័យថា ប្រឡងជាប់។ « la réussite » មានន័យថា ជោគជ័យ។ អង់គ្លេស៖ « to succeed », « to pass an exam »។"
+      },
+      "example": {"fr": "Il a réussi son examen !", "en": "He passed his exam!", "km": "គាត់ប្រឡងជាប់ហើយ!", "tr": "koat prâ-long tchoap haeuy !",
+      "es": "¡Ha aprobado el examen!", "it": "Ha superato l'esame!", "ru": "Он сдал экзамен!", "zh": "他考试通过了！", "zh_tr": "Tā kǎoshì tōngguò le!"}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Bravo !", "en": "Well done!", "km": "ពូកែមែន!", "tr": "pou-kè mèn !",
+      "es": "¡Muy bien!", "it": "Bravo!", "ru": "Молодец!", "zh": "真棒！", "zh_tr": "Zhēn bàng!",
+      "note": {
+        "fr": "មែន, « vraiment », renforce le compliment. Avec les enfants, on dit aussi ល្អណាស់កូន!",
+        "en": "មែន, “really”, strengthens the compliment. With children, you also hear ល្អណាស់កូន!, “very good, dear!”. French « Bravo ! » works for everyone.",
+        "km": "« Bravo ! » ប្រើបានជាមួយមនុស្សគ្រប់គ្នា។ អង់គ្លេស៖ « Well done! », « Good job! »។"
+      }
+    },
+    {
+      "fr": "Oh non, pas tant que ça !", "en": "Oh no, not really!", "km": "អត់ទេ មិនដល់ម្ល៉េះទេ!", "tr": "ât té, min dâl mlèh té !",
+      "es": "¡Qué va, no es para tanto!", "it": "Ma no, non esageriamo!", "ru": "Да нет, что ты!", "zh": "哪里哪里！", "zh_tr": "Nǎli nǎli!",
+      "note": {
+        "fr": "La réponse modeste attendue après un compliment. ម្ល៉េះ, « à ce point ». Le chinois dit pareil : 哪里哪里, « où ça, où ça ? ».",
+        "en": "The modest reply expected after a compliment. ម្ល៉េះ, “that much”. Chinese does the same: 哪里哪里, “where, where?”. French « pas tant que ça » means “not that much”.",
+        "km": "នេះជាចម្លើយបែបរាបសារ។ ភាសាបារាំង និងអង់គ្លេស គេច្រើនតែឆ្លើយ « Merci ! » ឬ « Thank you! »។"
+      }
+    },
+    {
+      "fr": "Ça te va très bien !", "en": "That really suits you!", "km": "ពាក់ទៅស្អាតណាស់!", "tr": "péak teuv s'at nah !",
+      "es": "¡Te queda muy bien!", "it": "Ti sta benissimo!", "ru": "Тебе очень идёт!", "zh": "你穿着真好看！", "zh_tr": "Nǐ chuānzhe zhēn hǎokàn!",
+      "note": {
+        "fr": "ពាក់, « porter » (un vêtement, un bijou) ; ទៅ ici veut dire « ça donne ». Le compliment idéal pour une nouvelle tenue.",
+        "en": "ពាក់, “to wear”; ទៅ here means “it turns out”. The ideal compliment for a new outfit. French « aller bien à quelqu'un », “to suit someone”.",
+        "km": "« aller bien à » មានន័យថា សមនឹង៖ Ça te va bien (សមនឹងអ្នក)។ អង់គ្លេស៖ « It suits you »។"
+      }
+    },
+    {
+      "fr": "Toute la famille est fière de toi !", "en": "The whole family is proud of you!", "km": "គ្រួសារទាំងមូលមានមោទនភាពចំពោះអ្នក!", "tr": "krouo-sa téang moul méan mo-tâ-nâ-phéap tchâm-pouh néak !",
+      "es": "¡Toda la familia está orgullosa de ti!", "it": "Tutta la famiglia è fiera di te!", "ru": "Вся семья гордится тобой!", "zh": "全家人都为你骄傲！", "zh_tr": "Quán jiā rén dōu wèi nǐ jiāo'ào!",
+      "note": {
+        "fr": "ទាំងមូល, « tout entier ». Entre proches, on remplace អ្នក par le prénom.",
+        "en": "ទាំងមូល, “whole, entire”. Between close people, អ្នក is replaced by the first name. French « fière » agrees with « la famille », which is feminine.",
+        "km": "« fière » ជាភេទស្រី ព្រោះ « la famille » ជានាមភេទស្រី។ អង់គ្លេស៖ « proud of you »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
+      "fr": "Le directeur a félicité toute l'équipe.", "en": "The manager congratulated the whole team.",
+      "km": "នាយកបានអបអរសាទរក្រុមការងារទាំងមូល។", "tr": "néa-yok ban âp-â sa-tô krom ka-ngéa téang moul.",
+      "es": "El director felicitó a todo el equipo.", "it": "Il direttore si è congratulato con tutta la squadra.", "ru": "Директор поздравил всю команду.", "zh": "经理祝贺了整个团队。", "zh_tr": "Jīnglǐ zhùhè le zhěnggè tuánduì."
+    },
+    {
+      "situation": {"fr": "À l'école", "en": "At school", "km": "នៅសាលា"},
+      "fr": "Si on travaille dur, on réussit.", "en": "If you work hard, you succeed.",
+      "km": "បើខំប្រឹង នឹងជោគជ័យ។", "tr": "baeu khâm preung, neung tchôk-tchey.",
+      "es": "Si te esfuerzas, tienes éxito.", "it": "Se ti impegni, ci riesci.", "ru": "Если стараться, всё получится.", "zh": "只要努力，就会成功。", "zh_tr": "Zhǐyào nǔlì, jiù huì chénggōng."
+    },
+    {
+      "situation": {"fr": "À table", "en": "At the table", "km": "នៅតុបាយ"},
+      "fr": "Ta soupe est meilleure que celle du restaurant !", "en": "Your soup is better than the restaurant's!",
+      "km": "សម្លរបស់អ្នកឆ្ងាញ់ជាងនៅភោជនីយដ្ឋានទៅទៀត!", "tr": "sâm-lâ ro-bâh néak tchhngagn tchéang neuv phô-tchéa-ni-yéa-than teuv tiet !",
+      "es": "¡Tu sopa está más rica que la del restaurante!", "it": "La tua zuppa è più buona di quella del ristorante!", "ru": "Твой суп вкуснее, чем в ресторане!", "zh": "你做的汤比饭店的还好喝！", "zh_tr": "Nǐ zuò de tāng bǐ fàndiàn de hái hǎohē!"
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} vient de passer un examen de khmer. {A} lui fait un compliment.", "en": "{B} has just taken a Khmer exam. {A} pays a compliment.", "km": "{B} ទើបតែប្រឡងភាសាខ្មែរ។ {A} សរសើរ។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, tu parles très bien khmer maintenant !", "en": "{B}, you speak Khmer really well now!", "km": "{B} ឥឡូវនិយាយខ្មែរពូកែណាស់!", "tr": "{B}, ey-leuv ni-yéay khmaè pou-kè nah !",
+        "es": "{B}, ¡ahora hablas muy bien jemer!", "it": "{B}, adesso parli benissimo il khmer!", "ru": "{B}, теперь ты отлично говоришь по-кхмерски!", "zh": "{B}，你现在高棉语说得真好！", "zh_tr": "{B}, nǐ xiànzài Gāomiányǔ shuō de zhēn hǎo!"},
+      {"speaker": "B", "fr": "Oh non, pas tant que ça !", "en": "Oh no, not really!", "km": "អត់ទេ មិនដល់ម្ល៉េះទេ!", "tr": "ât té, min dâl mlèh té !",
+        "es": "¡Qué va, no es para tanto!", "it": "Ma no, non esageriamo!", "ru": "Да нет, что ты!", "zh": "哪里哪里！", "zh_tr": "Nǎli nǎli!"},
+      {"speaker": "A", "fr": "Si ! Et tu as réussi ton examen, non ?", "en": "Yes, you do! And you passed your exam, didn't you?", "km": "ពិតមែន! ហើយ {B} ប្រឡងជាប់ហើយមែនទេ?", "tr": "peut mèn ! haeuy {B} prâ-long tchoap haeuy mèn té ?",
+        "es": "¡Que sí! Y has aprobado el examen, ¿no?", "it": "Ma sì! E hai superato l'esame, vero?", "ru": "Правда! И ты ведь сдал экзамен?", "zh": "真的！而且你考试通过了，对吧？", "zh_tr": "Zhēn de! Érqiě nǐ kǎoshì tōngguò le, duì ba?"},
+      {"speaker": "B", "fr": "Oui, hier. Mon professeur m'a félicité.", "en": "Yes, yesterday. My teacher congratulated me.", "km": "{B_yes} កាលពីម្សិលមិញ។ គ្រូរបស់ខ្ញុំបានអបអរសាទរខ្ញុំ។", "tr": "{B_yes}, kal pi msel-mign. krou ro-bâh khgnom ban âp-â sa-tô khgnom.",
+        "es": "Sí, ayer. Mi profesor me felicitó.", "it": "Sì, ieri. Il mio insegnante si è congratulato con me.", "ru": "Да, вчера. Учитель меня поздравил.", "zh": "对，昨天。老师还祝贺了我。", "zh_tr": "Duì, zuótiān. Lǎoshī hái zhùhè le wǒ."},
+      {"speaker": "A", "fr": "Bravo ! Toute la famille est fière de toi.", "en": "Well done! The whole family is proud of you.", "km": "ពូកែមែន! គ្រួសារទាំងមូលមានមោទនភាពចំពោះ {B}។", "tr": "pou-kè mèn ! krouo-sa téang moul méan mo-tâ-nâ-phéap tchâm-pouh {B}.",
+        "es": "¡Muy bien! Toda la familia está orgullosa de ti.", "it": "Bravo! Tutta la famiglia è fiera di te.", "ru": "Молодец! Вся семья гордится тобой.", "zh": "真棒！全家人都为你骄傲。", "zh_tr": "Zhēn bàng! Quán jiā rén dōu wèi nǐ jiāo'ào."},
+      {"speaker": "B", "fr": "Merci. C'est grâce à toi : tu m'as beaucoup aidé.", "en": "Thank you. It's thanks to you: you helped me a lot.", "km": "អរគុណ។ ដោយសារ {A} ជួយខ្ញុំច្រើន។", "tr": "â-koun. daoy sa {A} tchouoy khgnom tchraeun.",
+        "es": "Gracias. Es gracias a ti: me has ayudado mucho.", "it": "Grazie. È merito tuo: mi hai aiutato tanto.", "ru": "Спасибо. Это благодаря тебе: ты мне очень помогла.", "zh": "谢谢。多亏你帮了我很多。", "zh_tr": "Xièxie. Duōkuī nǐ bāng le wǒ hěn duō."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qui a félicité {B} pour l'examen ?", "en": "Who congratulated {B} on the exam?", "km": "នរណាបានអបអរសាទរ {B} ពេលប្រឡងជាប់?"},
+    "answer": {"fr": "Son professeur.", "en": "The teacher.", "km": "គ្រូរបស់គាត់។"}
+  }
+}

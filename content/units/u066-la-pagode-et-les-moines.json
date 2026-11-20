@@ -1,0 +1,161 @@
+{
+  "id": "u066",
+  "order": 66,
+  "level": "intermediaire",
+  "theme": "la-pagode-et-les-moines",
+  "title": {"fr": "La pagode et les moines", "en": "The pagoda and the monks", "km": "វត្ត និងព្រះសង្ឃ"},
+  "tip": {
+    "fr": "Avec les moines, le khmer change de vocabulaire : un moine ne ញ៉ាំ pas, il ឆាន់ (mange) ; on ne lui ឱ្យ pas, on lui ប្រគេន (offre) ; on ne l'invite pas avec អញ្ជើញ mais avec និមន្ត. Son repas s'appelle ចង្ហាន់.",
+    "en": "With monks, Khmer switches vocabulary: a monk doesn't ញ៉ាំ, he ឆាន់ (eats); you don't ឱ្យ him something, you ប្រគេន (offer); you invite him not with អញ្ជើញ but with និមន្ត. His meal is ចង្ហាន់. French has no special words: « le moine mange », « on offre le repas aux moines ».",
+    "km": "ភាសាបារាំង និងអង់គ្លេស គ្មានពាក្យពិសេសសម្រាប់ព្រះសង្ឃទេ។ ឆាន់ គឺ manger, to eat ហើយ ប្រគេន គឺ offrir, to offer។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le moine", "en": "monk", "km": "ព្រះសង្ឃ", "tr": "préah sâng",
+      "es": "el monje", "it": "il monaco", "ru": "монах", "zh": "和尚", "zh_tr": "héshang", "pos": "nom",
+      "note": {
+        "fr": "ព្រះ marque le respect : ព្រះសង្ឃ, « le moine ». Le matin, les moines font la tournée des aumônes, បិណ្ឌបាត.",
+        "en": "ព្រះ marks respect: ព្រះសង្ឃ, “monk”. In the morning, monks go on the alms round, បិណ្ឌបាត. French « le moine », « la nonne » for a nun.",
+        "km": "« le moine » មានន័យថា ព្រះសង្ឃ។ « le bonze » ក៏ប្រើដែរ។ អង់គ្លេស៖ « monk »។"
+      },
+      "example": {"fr": "Le matin, les moines passent recevoir la nourriture.", "en": "In the morning, the monks go round collecting alms.", "km": "ពេលព្រឹក ព្រះសង្ឃនិមន្តបិណ្ឌបាត។", "tr": "pél preuk, préah sâng ni-mon ben-dâ-bat.",
+      "es": "Por la mañana, los monjes pasan a recoger comida.", "it": "La mattina i monaci passano a raccogliere il cibo.", "ru": "Утром монахи ходят за подаянием.", "zh": "早上和尚出来化缘。", "zh_tr": "Zǎoshang héshang chūlai huàyuán."}
+    },
+    {
+      "fr": "prier", "en": "to pray", "km": "បួងសួង", "tr": "bouong-souong",
+      "es": "rezar", "it": "pregare", "ru": "молиться", "zh": "祈祷", "zh_tr": "qídǎo", "pos": "verbe",
+      "note": {
+        "fr": "បួងសួង, « prier, implorer ». Devant le Bouddha, on dit aussi សំពះព្រះ, « saluer le Bouddha », les mains jointes.",
+        "en": "បួងសួង, “to pray, to implore”. Before the Buddha, people also say សំពះព្រះ, “to pay respect to the Buddha”, palms joined. French « prier pour » + noun: prier pour la santé.",
+        "km": "« prier » មានន័យថា បួងសួង។ « prier pour la famille » មានន័យថា បួងសួងសម្រាប់គ្រួសារ។ អង់គ្លេស៖ « to pray »។"
+      },
+      "example": {"fr": "Ma grand-mère prie pour la santé de la famille.", "en": "My grandmother prays for the family's health.", "km": "យាយខ្ញុំបួងសួងសុំឱ្យគ្រួសារមានសុខភាពល្អ។", "tr": "yéay khgnom bouong-souong som aoy krouo-sa méan sok-kha-phéap l'â.",
+      "es": "Mi abuela reza por la salud de la familia.", "it": "Mia nonna prega per la salute della famiglia.", "ru": "Моя бабушка молится о здоровье семьи.", "zh": "奶奶为家人的健康祈祷。", "zh_tr": "Nǎinai wèi jiārén de jiànkāng qídǎo."}
+    },
+    {
+      "fr": "l'offrande", "en": "offering", "km": "តង្វាយ", "tr": "tâng-vay",
+      "es": "la ofrenda", "it": "l'offerta", "ru": "подношение", "zh": "供品", "zh_tr": "gòngpǐn", "pos": "nom",
+      "note": {
+        "fr": "តង្វាយ : fleurs, fruits, encens ou argent offerts à la pagode. Le verbe pour donner à un moine est ប្រគេន.",
+        "en": "តង្វាយ: flowers, fruit, incense or money given to the pagoda. The verb for giving to a monk is ប្រគេន. French « l'offrande » is feminine.",
+        "km": "« l'offrande » ជានាមភេទស្រី។ « faire une offrande » មានន័យថា ថ្វាយតង្វាយ។ អង់គ្លេស៖ « offering »។"
+      },
+      "example": {"fr": "Les gens apportent des offrandes à la pagode.", "en": "People bring offerings to the pagoda.", "km": "គេយកតង្វាយទៅវត្ត។", "tr": "ké yok tâng-vay teuv voat.",
+      "es": "La gente lleva ofrendas a la pagoda.", "it": "La gente porta offerte alla pagoda.", "ru": "Люди приносят подношения в пагоду.", "zh": "人们把供品带到寺庙。", "zh_tr": "Rénmen bǎ gòngpǐn dài dào sìmiào."}
+    },
+    {
+      "fr": "les ancêtres", "en": "ancestors", "km": "ដូនតា", "tr": "dôn-ta",
+      "es": "los antepasados", "it": "gli antenati", "ru": "предки", "zh": "祖先", "zh_tr": "zǔxiān", "pos": "nom",
+      "note": {
+        "fr": "ដូន, « grand-mère », et តា, « grand-père » : les ancêtres. Pendant la fête de Pchum Ben, on leur dédie des offrandes.",
+        "en": "ដូន, “grandmother”, and តា, “grandfather”: the ancestors. During Pchum Ben, offerings are dedicated to them. French « les ancêtres » is plural, like the English.",
+        "km": "« les ancêtres » មានន័យថា ដូនតា។ « Pchum Ben » ជាពិធីបុណ្យឧទ្ទិសដល់ដូនតា។ អង់គ្លេស៖ « ancestors »។"
+      },
+      "example": {"fr": "Pendant Pchum Ben, on honore les ancêtres.", "en": "During Pchum Ben, people honour their ancestors.", "km": "ពេលបុណ្យភ្ជុំបិណ្ឌ គេឧទ្ទិសកុសលដល់ដូនតា។", "tr": "pél bon phtchoum ben, ké out-teuh kos-sâl dâl dôn-ta.",
+      "es": "Durante Pchum Ben se honra a los antepasados.", "it": "Durante il Pchum Ben si onorano gli antenati.", "ru": "Во время Пчум Бен чтят предков.", "zh": "亡人节期间，人们祭祀祖先。", "zh_tr": "Wángrénjié qījiān, rénmen jìsì zǔxiān."}
+    },
+    {
+      "fr": "bénir", "en": "to bless", "km": "ប្រទានពរ", "tr": "prâ-téan pô",
+      "es": "bendecir", "it": "benedire", "ru": "благословлять", "zh": "祝福", "zh_tr": "zhùfú", "pos": "verbe",
+      "note": {
+        "fr": "ពរ, « la bénédiction ». Un moine ប្រទានពរ ; entre amis, on se souhaite du bonheur avec ជូនពរ.",
+        "en": "ពរ, “blessing”. A monk ប្រទានពរ; friends wish each other well with ជូនពរ. French « bénir », « la bénédiction ».",
+        "km": "« bénir » មានន័យថា ប្រទានពរ ហើយ « souhaiter » មានន័យថា ជូនពរ។ អង់គ្លេស៖ « to bless », « blessing »។"
+      },
+      "example": {"fr": "Le moine bénit les jeunes mariés.", "en": "The monk blesses the newlyweds.", "km": "ព្រះសង្ឃប្រទានពរដល់កូនកំលោះកូនក្រមុំ។", "tr": "préah sâng prâ-téan pô dâl koun kâm-loh koun krâ-mom.",
+      "es": "El monje bendice a los novios.", "it": "Il monaco benedice gli sposi.", "ru": "Монах благословляет молодожёнов.", "zh": "和尚为新人祝福。", "zh_tr": "Héshang wèi xīnrén zhùfú."}
+    },
+    {
+      "fr": "l'encens", "en": "incense", "km": "ធូប", "tr": "thoup",
+      "es": "el incienso", "it": "l'incenso", "ru": "благовония", "zh": "香", "zh_tr": "xiāng", "pos": "nom",
+      "note": {
+        "fr": "ធូប, « l'encens » ; « allumer », c'est អុជ : អុជធូប. On compte les bâtons avec ដើម.",
+        "en": "ធូប, “incense”; “to light” is អុជ: អុជធូប. Sticks are counted with ដើម. French « l'encens » is masculine; the s is silent.",
+        "km": "« l'encens » អានថា « lansan »។ « allumer de l'encens » មានន័យថា អុជធូប។ អង់គ្លេស៖ « incense », « incense stick »។"
+      },
+      "example": {"fr": "Elle allume trois bâtons d'encens.", "en": "She lights three incense sticks.", "km": "គាត់អុជធូបបីដើម។", "tr": "koat outch thoup bey daeum.",
+      "es": "Enciende tres varitas de incienso.", "it": "Accende tre bastoncini d'incenso.", "ru": "Она зажигает три палочки благовоний.", "zh": "她点了三炷香。", "zh_tr": "Tā diǎn le sān zhù xiāng."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Je vous salue, vénérable.", "en": "Greetings, venerable monk.", "km": "សូមថ្វាយបង្គំព្រះតេជព្រះគុណ។", "tr": "sôm thvay bâng-kum préah té-tchéa préah koun.",
+      "es": "Le saludo, venerable.", "it": "La saluto, venerabile.", "ru": "Приветствую вас, почтенный.", "zh": "师父好。", "zh_tr": "Shīfu hǎo.",
+      "note": {
+        "fr": "ព្រះតេជព្រះគុណ, « Vénérable », pour s'adresser à un moine. ថ្វាយបង្គំ : on salue en joignant les mains très haut, ou en se prosternant.",
+        "en": "ព្រះតេជព្រះគុណ, “Venerable”, used to address a monk. ថ្វាយបង្គំ: you greet with palms joined high, or by bowing to the floor. French « vénérable » is the respectful title.",
+        "km": "« vénérable » ជាពាក្យគោរពសម្រាប់ព្រះសង្ឃ។ អង់គ្លេស៖ « Venerable »។"
+      }
+    },
+    {
+      "fr": "Nous allons offrir le repas aux moines.", "en": "We're going to offer the meal to the monks.", "km": "យើងទៅប្រគេនចង្ហាន់ព្រះសង្ឃ។", "tr": "yeung teuv prâ-kén tchâng-han préah sâng.",
+      "es": "Vamos a ofrecer la comida a los monjes.", "it": "Andiamo a offrire il pasto ai monaci.", "ru": "Мы идём подносить еду монахам.", "zh": "我们去给和尚供斋。", "zh_tr": "Wǒmen qù gěi héshang gòngzhāi.",
+      "note": {
+        "fr": "ចង្ហាន់, « le repas des moines », servi avant midi : après midi, les moines ne mangent plus.",
+        "en": "ចង្ហាន់, “the monks' meal”, served before noon: monks don't eat after midday. French « offrir » means “to offer, to give”.",
+        "km": "« offrir » មានន័យថា ឱ្យ ឬ ប្រគេន។ « le repas » មានន័យថា អាហារ។ អង់គ្លេស៖ « to offer »។"
+      }
+    },
+    {
+      "fr": "Longue vie, beauté, bonheur et force !", "en": "Long life, beauty, happiness and strength!", "km": "អាយុ វណ្ណៈ សុខៈ ពលៈ!", "tr": "a-you, voan-néak, sok-khak, pol-lak !",
+      "es": "¡Larga vida, belleza, felicidad y fuerza!", "it": "Lunga vita, bellezza, felicità e forza!", "ru": "Долгой жизни, красоты, счастья и силы!", "zh": "长寿、美丽、幸福、力量！", "zh_tr": "Chángshòu, měilì, xìngfú, lìliàng!",
+      "note": {
+        "fr": "Les quatre bénédictions, en pali, que les moines donnent à la fin d'une cérémonie. On les entend aussi dans les vœux.",
+        "en": "The four blessings, in Pali, that monks give at the end of a ceremony. You also hear them in good wishes. French blessings often start with « Je vous souhaite… ».",
+        "km": "ពរបួនប្រការនេះ ជាភាសាបារាំង៖ longue vie, beauté, bonheur et force។ អង់គ្លេស៖ long life, beauty, happiness and strength។"
+      }
+    },
+    {
+      "fr": "Ainsi soit-il !", "en": "So be it!", "km": "សាធុ!", "tr": "sa-thou !",
+      "es": "¡Así sea!", "it": "Così sia!", "ru": "Да будет так!", "zh": "善哉！", "zh_tr": "Shànzāi!",
+      "note": {
+        "fr": "សាធុ, « c'est bien », se dit tous ensemble, les mains jointes, après une bénédiction ou un sermon.",
+        "en": "សាធុ, “it is good”, said all together, palms joined, after a blessing or a sermon. French « Ainsi soit-il » is the closest phrase.",
+        "km": "« Ainsi soit-il » ជាពាក្យដែលនិយាយក្រោយការបួងសួង ដូច សាធុ។ អង់គ្លេស៖ « So be it », « Amen »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À la pagode", "en": "At the pagoda", "km": "នៅវត្ត"},
+      "fr": "Les femmes ne doivent pas toucher les moines.", "en": "Women must not touch monks.",
+      "km": "ស្ត្រីមិនត្រូវប៉ះពាល់ព្រះសង្ឃទេ។", "tr": "s'trey min treuv pah poal préah sâng té.",
+      "es": "Las mujeres no deben tocar a los monjes.", "it": "Le donne non devono toccare i monaci.", "ru": "Женщинам нельзя прикасаться к монахам.", "zh": "女性不能碰触僧人。", "zh_tr": "Nǚxìng bù néng pèngchù sēngrén."
+    },
+    {
+      "situation": {"fr": "Pendant Pchum Ben", "en": "During Pchum Ben", "km": "ពេលបុណ្យភ្ជុំបិណ្ឌ"},
+      "fr": "Nous apportons du riz à la pagode à quatre heures du matin.", "en": "We take rice to the pagoda at four in the morning.",
+      "km": "យើងយកបាយបិណ្ឌទៅវត្តនៅម៉ោងបួនទៀបភ្លឺ។", "tr": "yeung yok bay ben teuv voat neuv maong bouon tiep phleu.",
+      "es": "Llevamos arroz a la pagoda a las cuatro de la madrugada.", "it": "Portiamo il riso alla pagoda alle quattro del mattino.", "ru": "Мы несём рис в пагоду в четыре часа утра.", "zh": "我们凌晨四点把饭团带到寺庙。", "zh_tr": "Wǒmen língchén sì diǎn bǎ fàntuán dài dào sìmiào."
+    },
+    {
+      "situation": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
+      "fr": "Le soir, mon père allume de l'encens pour les ancêtres.", "en": "In the evening, my father lights incense for the ancestors.",
+      "km": "ពេលល្ងាច ឪពុកខ្ញុំអុជធូបឱ្យដូនតា។", "tr": "pél lngéatch, eu-pouk khgnom outch thoup aoy dôn-ta.",
+      "es": "Por la noche, mi padre enciende incienso para los antepasados.", "it": "La sera mio padre accende l'incenso per gli antenati.", "ru": "Вечером мой отец зажигает благовония для предков.", "zh": "晚上我爸爸给祖先上香。", "zh_tr": "Wǎnshang wǒ bàba gěi zǔxiān shàng xiāng."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} invite {B} à venir à la pagode un jour saint.", "en": "{A} invites {B} to the pagoda on a holy day.", "km": "{A} អញ្ជើញ {B} ទៅវត្តនៅថ្ងៃសីល។"},
+    "lines": [
+      {"speaker": "A", "fr": "Demain, c'est jour saint. Tu viens à la pagode avec moi ?", "en": "Tomorrow is a holy day. Will you come to the pagoda with me?", "km": "ថ្ងៃស្អែកជាថ្ងៃសីល។ ទៅវត្តជាមួយខ្ញុំទេ?", "tr": "thngay s'aèk tchéa thngay sel. teuv voat tchéa-mouy khgnom té ?",
+        "es": "Mañana es día sagrado. ¿Vienes conmigo a la pagoda?", "it": "Domani è giorno sacro. Vieni alla pagoda con me?", "ru": "Завтра священный день. Пойдёшь со мной в пагоду?", "zh": "明天是佛日。你跟我去寺庙吗？", "zh_tr": "Míngtiān shì fórì. Nǐ gēn wǒ qù sìmiào ma?"},
+      {"speaker": "B", "fr": "Avec plaisir. Qu'est-ce que je dois apporter ?", "en": "I'd love to. What should I bring?", "km": "បាន។ ខ្ញុំត្រូវយកអ្វីទៅ?", "tr": "ban. khgnom treuv yok ey teuv ?",
+        "es": "Con mucho gusto. ¿Qué tengo que llevar?", "it": "Volentieri. Cosa devo portare?", "ru": "С удовольствием. Что мне нужно взять?", "zh": "好啊。我要带什么？", "zh_tr": "Hǎo a. Wǒ yào dài shénme?"},
+      {"speaker": "A", "fr": "Un peu de nourriture pour les moines, et de l'encens.", "en": "A little food for the monks, and some incense.", "km": "ម្ហូបបន្តិចសម្រាប់ប្រគេនព្រះសង្ឃ និងធូប។", "tr": "mhôp bân-tetch sâm-rap prâ-kén préah sâng, ning thoup.",
+        "es": "Un poco de comida para los monjes, e incienso.", "it": "Un po' di cibo per i monaci, e dell'incenso.", "ru": "Немного еды для монахов и благовония.", "zh": "一点给和尚的饭菜，还有香。", "zh_tr": "Yìdiǎn gěi héshang de fàncài, hái yǒu xiāng."},
+      {"speaker": "B", "fr": "Et comment je dois m'habiller ?", "en": "And how should I dress?", "km": "ចុះខ្ញុំត្រូវស្លៀកពាក់យ៉ាងម៉េច?", "tr": "tchoh khgnom treuv sliek péak yang métch ?",
+        "es": "¿Y cómo tengo que vestirme?", "it": "E come mi devo vestire?", "ru": "А как мне одеться?", "zh": "那我该穿什么？", "zh_tr": "Nà wǒ gāi chuān shénme?"},
+      {"speaker": "A", "fr": "Une chemise blanche et un pantalon long. On enlève ses chaussures avant d'entrer.", "en": "A white shirt and long trousers. You take your shoes off before going in.", "km": "អាវស និងខោវែង។ ត្រូវដោះស្បែកជើងមុនចូល។", "tr": "av sâ ning khao vèng. treuv doh sbaèk tcheung moun tchôl.",
+        "es": "Una camisa blanca y un pantalón largo. Hay que quitarse los zapatos antes de entrar.", "it": "Una camicia bianca e pantaloni lunghi. Ci si toglie le scarpe prima di entrare.", "ru": "Белую рубашку и длинные брюки. Перед входом снимают обувь.", "zh": "白衬衫和长裤。进去之前要脱鞋。", "zh_tr": "Bái chènshān hé cháng kù. Jìnqu zhīqián yào tuō xié."},
+      {"speaker": "B", "fr": "D'accord. Et à la fin, le moine nous bénit ?", "en": "All right. And at the end, does the monk bless us?", "km": "បាន។ ហើយនៅចុងក្រោយ ព្រះសង្ឃប្រទានពរឱ្យយើងទេ?", "tr": "ban. haeuy neuv tchong kraoy, préah sâng prâ-téan pô aoy yeung té ?",
+        "es": "Vale. ¿Y al final el monje nos bendice?", "it": "D'accordo. E alla fine il monaco ci benedice?", "ru": "Хорошо. А в конце монах нас благословит?", "zh": "好的。最后和尚会给我们祝福吗？", "zh_tr": "Hǎo de. Zuìhòu héshang huì gěi wǒmen zhùfú ma?"},
+      {"speaker": "A", "fr": "Oui, et tout le monde répond : sâthu !", "en": "Yes, and everyone answers: sathu!", "km": "{A_yes} ហើយអ្នកទាំងអស់គ្នាឆ្លើយថា សាធុ!", "tr": "{A_yes}, haeuy néak téang âh knéa tchhlaeuy tha sa-thou !",
+        "es": "Sí, y todos responden: ¡sathu!", "it": "Sì, e tutti rispondono: sathu!", "ru": "Да, и все отвечают: сатху!", "zh": "会的，然后大家一起说：善哉！", "zh_tr": "Huì de, ránhòu dàjiā yìqǐ shuō: Shànzāi!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Que faut-il faire avant d'entrer dans la pagode ?", "en": "What must you do before going into the pagoda?", "km": "ត្រូវធ្វើអ្វីមុនចូលវត្ត?"},
+    "answer": {"fr": "Enlever ses chaussures.", "en": "Take off your shoes.", "km": "ដោះស្បែកជើង។"}
+  }
+}

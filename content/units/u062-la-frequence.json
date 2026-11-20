@@ -1,0 +1,159 @@
+{
+  "id": "u062",
+  "order": 62,
+  "level": "intermediaire",
+  "theme": "la-frequence",
+  "title": {"fr": "Dire à quelle fréquence", "en": "How often", "km": "ញឹកញាប់ប៉ុណ្ណា"},
+  "tip": {
+    "fr": "En khmer, តែងតែ, « toujours », et មិនដែល, « jamais », se placent devant le verbe : ខ្ញុំតែងតែញ៉ាំ, ខ្ញុំមិនដែលញ៉ាំ…ទេ. ញឹកញាប់, « souvent », et ម្តង, « une fois », se placent plutôt en fin de phrase, et ធម្មតា, « d'habitude », en tête.",
+    "en": "In Khmer, តែងតែ, “always”, and មិនដែល, “never”, go before the verb: ខ្ញុំតែងតែញ៉ាំ, ខ្ញុំមិនដែលញ៉ាំ…ទេ. ញឹកញាប់, “often”, and ម្តង, “once”, tend to go at the end, and ធម្មតា, “usually”, at the start. In French, toujours, souvent and jamais come right after the verb: je mange toujours, je ne mange jamais.",
+    "km": "ភាសាបារាំង toujours, souvent និង jamais ដាក់ក្រោយកិរិយាសព្ទ៖ je mange toujours (ខ្ញុំតែងតែញ៉ាំ)។ ភាសាអង់គ្លេស always, often, never ដាក់មុនកិរិយាសព្ទ៖ I always eat។"
+  },
+  "vocabulary": [
+    {
+      "fr": "toujours", "en": "always", "km": "តែងតែ", "tr": "taèng-taè",
+      "es": "siempre", "it": "sempre", "ru": "всегда", "zh": "总是", "zh_tr": "zǒngshì", "pos": "adverbe",
+      "note": {
+        "fr": "តែងតែ se place devant le verbe. On entend aussi ជានិច្ច, « en permanence », plus soutenu.",
+        "en": "តែងតែ goes before the verb. You also hear ជានិច្ច, “all the time”, more formal. French « toujours » also means “still”: il est toujours là, “he's still here”.",
+        "km": "« toujours » មានន័យពីរ៖ តែងតែ និង នៅតែ។ il est toujours là មានន័យថា គាត់នៅតែនៅទីនេះ។ អង់គ្លេស៖ « always »។"
+      },
+      "example": {"fr": "Mon père arrive toujours en avance.", "en": "My father always arrives early.", "km": "ឪពុកខ្ញុំតែងតែមកដល់មុនម៉ោង។", "tr": "eu-pouk khgnom taèng-taè mok dâl moun maong.",
+      "es": "Mi padre siempre llega temprano.", "it": "Mio padre arriva sempre in anticipo.", "ru": "Мой отец всегда приходит заранее.", "zh": "我爸爸总是早到。", "zh_tr": "Wǒ bàba zǒngshì zǎo dào."}
+    },
+    {
+      "fr": "souvent", "en": "often", "km": "ញឹកញាប់", "tr": "gneuk-gnoap",
+      "es": "a menudo", "it": "spesso", "ru": "часто", "zh": "经常", "zh_tr": "jīngcháng", "pos": "adverbe",
+      "note": {
+        "fr": "ញឹកញាប់ se place après le verbe. À l'oral, on dit aussi ច្រើនតែ devant le verbe : ខ្ញុំច្រើនតែទៅ, « je vais souvent ».",
+        "en": "ញឹកញាប់ goes after the verb. In speech you also hear ច្រើនតែ before the verb: ខ្ញុំច្រើនតែទៅ, “I often go”. French « souvent » goes after the verb: je vais souvent.",
+        "km": "« souvent » ដាក់ក្រោយកិរិយាសព្ទ៖ je vais souvent au marché។ អង់គ្លេស៖ « often » ដាក់មុនកិរិយាសព្ទ៖ I often go។"
+      },
+      "example": {"fr": "Nous allons souvent au marché le matin.", "en": "We often go to the market in the morning.", "km": "យើងទៅផ្សារញឹកញាប់នៅពេលព្រឹក។", "tr": "yeung teuv phsa gneuk-gnoap neuv pél preuk.",
+      "es": "A menudo vamos al mercado por la mañana.", "it": "Andiamo spesso al mercato la mattina.", "ru": "Мы часто ходим на рынок утром.", "zh": "我们早上经常去市场。", "zh_tr": "Wǒmen zǎoshang jīngcháng qù shìchǎng."}
+    },
+    {
+      "fr": "parfois", "en": "sometimes", "km": "ពេលខ្លះ", "tr": "pél khlah",
+      "es": "a veces", "it": "a volte", "ru": "иногда", "zh": "有时候", "zh_tr": "yǒushíhou", "pos": "adverbe",
+      "note": {
+        "fr": "ពេលខ្លះ, mot à mot « certains moments », se met en tête de phrase. ជួនកាល a le même sens, en plus soutenu.",
+        "en": "ពេលខ្លះ, literally “some times”, goes at the start of the sentence. ជួនកាល means the same, more formal. French « parfois » or « quelquefois ».",
+        "km": "« parfois » មានន័យថា ពេលខ្លះ។ គេក៏និយាយ « quelquefois » ដែរ។ អង់គ្លេស៖ « sometimes »។"
+      },
+      "example": {"fr": "Parfois, il pleut l'après-midi.", "en": "Sometimes it rains in the afternoon.", "km": "ពេលខ្លះ មេឃភ្លៀងនៅពេលរសៀល។", "tr": "pél khlah, mék phlieng neuv pél ro-siel.",
+      "es": "A veces llueve por la tarde.", "it": "A volte piove il pomeriggio.", "ru": "Иногда днём идёт дождь.", "zh": "有时候下午会下雨。", "zh_tr": "Yǒushíhou xiàwǔ huì xià yǔ."}
+    },
+    {
+      "fr": "jamais", "en": "never", "km": "មិនដែល", "tr": "min daèl",
+      "es": "nunca", "it": "mai", "ru": "никогда", "zh": "从来不", "zh_tr": "cónglái bù", "pos": "adverbe",
+      "note": {
+        "fr": "មិនដែល + verbe… ទេ : « ne… jamais ». Il sert aussi pour l'expérience : មិនដែលទៅ, « je n'y suis jamais allé ».",
+        "en": "មិនដែល + verb… ទេ: “never”. It also covers experience: មិនដែលទៅ, “I've never been”. French needs two parts: ne… jamais, as in je ne bois jamais.",
+        "km": "ភាសាបារាំងប្រើពីរពាក្យ៖ ne… jamais។ je ne bois jamais មានន័យថា ខ្ញុំមិនដែលផឹកទេ។ អង់គ្លេស៖ « never »។"
+      },
+      "example": {"fr": "Je ne bois jamais de café le soir.", "en": "I never drink coffee in the evening.", "km": "ខ្ញុំមិនដែលផឹកកាហ្វេពេលល្ងាចទេ។", "tr": "khgnom min daèl pheuk ka-fé pél lngéatch té.",
+      "es": "Nunca bebo café por la noche.", "it": "Non bevo mai caffè la sera.", "ru": "Я никогда не пью кофе вечером.", "zh": "我晚上从来不喝咖啡。", "zh_tr": "Wǒ wǎnshang cónglái bù hē kāfēi."}
+    },
+    {
+      "fr": "d'habitude", "en": "usually", "km": "ធម្មតា", "tr": "thoam-mâ-da",
+      "es": "normalmente", "it": "di solito", "ru": "обычно", "zh": "平时", "zh_tr": "píngshí", "pos": "adverbe",
+      "note": {
+        "fr": "ធម្មតា, « d'habitude, normal ». En tête de phrase, il parle d'une habitude ; après un nom, il veut dire « ordinaire » : ទឹកធម្មតា, « de l'eau plate ».",
+        "en": "ធម្មតា, “usually, normal”. At the start of a sentence it describes a habit; after a noun it means “ordinary”: ទឹកធម្មតា, “plain water”. French « d'habitude » usually starts the sentence.",
+        "km": "« d'habitude » មានន័យថា ធម្មតា ឬ ជាទម្លាប់។ « comme d'habitude » មានន័យថា ដូចសព្វដង។ អង់គ្លេស៖ « usually »។"
+      },
+      "example": {"fr": "D'habitude, je me lève à six heures.", "en": "I usually get up at six.", "km": "ធម្មតា ខ្ញុំក្រោកពីគេងម៉ោងប្រាំមួយ។", "tr": "thoam-mâ-da, khgnom kraok pi kéng maong pram-mouy.",
+      "es": "Normalmente me levanto a las seis.", "it": "Di solito mi alzo alle sei.", "ru": "Обычно я встаю в шесть.", "zh": "我平时六点起床。", "zh_tr": "Wǒ píngshí liù diǎn qǐchuáng."}
+    },
+    {
+      "fr": "une fois", "en": "once", "km": "ម្តង", "tr": "mdâng",
+      "es": "una vez", "it": "una volta", "ru": "один раз", "zh": "一次", "zh_tr": "yí cì", "pos": "expression",
+      "note": {
+        "fr": "ម្តង se place après la période : មួយសប្តាហ៍ម្តង, « une fois par semaine ». Pour deux fois et plus, on dit ដង : ពីរដង.",
+        "en": "ម្តង comes after the period: មួយសប្តាហ៍ម្តង, “once a week”. For twice and more, use ដង: ពីរដង. French: une fois par semaine, deux fois par jour.",
+        "km": "« une fois par semaine » មានន័យថា មួយសប្តាហ៍ម្តង។ « deux fois » គឺ ពីរដង។ អង់គ្លេស៖ « once », « twice », « three times »។"
+      },
+      "example": {"fr": "J'appelle ma mère une fois par semaine.", "en": "I call my mother once a week.", "km": "ខ្ញុំទូរស័ព្ទទៅម្តាយមួយសប្តាហ៍ម្តង។", "tr": "khgnom tou-ro-sap teuv mday mouy sap-da mdâng.",
+      "es": "Llamo a mi madre una vez por semana.", "it": "Chiamo mia madre una volta alla settimana.", "ru": "Я звоню маме один раз в неделю.", "zh": "我一个星期给妈妈打一次电话。", "zh_tr": "Wǒ yí ge xīngqī gěi māma dǎ yí cì diànhuà."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Tu viens souvent ici ?", "en": "Do you come here often?", "km": "មកទីនេះញឹកញាប់ទេ?", "tr": "mok ti-nih gneuk-gnoap té ?",
+      "es": "¿Vienes aquí a menudo?", "it": "Vieni spesso qui?", "ru": "Ты часто сюда приходишь?", "zh": "你常来这儿吗？", "zh_tr": "Nǐ cháng lái zhèr ma?",
+      "note": {
+        "fr": "Pour engager la conversation au café ou au marché. Le sujet est sous-entendu, comme souvent en khmer.",
+        "en": "A way to start a chat at a café or market. The subject is left out, as often in Khmer. French « ici » means “here”.",
+        "km": "« ici » មានន័យថា ទីនេះ។ អង់គ្លេស៖ « Do you come here often? »។"
+      }
+    },
+    {
+      "fr": "Pas tous les jours.", "en": "Not every day.", "km": "មិនមែនរាល់ថ្ងៃទេ។", "tr": "min mèn roal thngay té.",
+      "es": "No todos los días.", "it": "Non tutti i giorni.", "ru": "Не каждый день.", "zh": "不是每天。", "zh_tr": "Bú shì měitiān.",
+      "note": {
+        "fr": "មិនមែន… ទេ nie un nom ou un groupe entier : « ce n'est pas… ». រាល់ថ្ងៃ, « chaque jour ».",
+        "en": "មិនមែន… ទេ negates a noun or a whole phrase: “it isn't…”. រាល់ថ្ងៃ, “every day”. French « tous les jours » means “every day”.",
+        "km": "« tous les jours » មានន័យថា រាល់ថ្ងៃ។ « pas tous les jours » មានន័យថា មិនមែនរាល់ថ្ងៃទេ។ អង់គ្លេស៖ « every day »។"
+      }
+    },
+    {
+      "fr": "De temps en temps.", "en": "From time to time.", "km": "យូរៗម្តង។", "tr": "you-you mdâng.",
+      "es": "De vez en cuando.", "it": "Ogni tanto.", "ru": "Время от времени.", "zh": "偶尔。", "zh_tr": "Ǒu'ěr.",
+      "note": {
+        "fr": "យូរៗម្តង, mot à mot « une fois de temps en temps » : plus rare que ពេលខ្លះ.",
+        "en": "យូរៗម្តង, literally “once in a long while”: less often than ពេលខ្លះ. French « de temps en temps » is a fixed phrase.",
+        "km": "« de temps en temps » មានន័យថា យូរៗម្តង។ អង់គ្លេស៖ « from time to time », « now and then »។"
+      }
+    },
+    {
+      "fr": "Comme d'habitude !", "en": "As usual!", "km": "ដូចសព្វដង!", "tr": "dôtch sâp dâng !",
+      "es": "¡Como siempre!", "it": "Come al solito!", "ru": "Как обычно!", "zh": "跟平常一样！", "zh_tr": "Gēn píngcháng yíyàng!",
+      "note": {
+        "fr": "ដូចសព្វដង, « comme toutes les fois ». Pratique au café, quand on commande la même chose que d'habitude.",
+        "en": "ដូចសព្វដង, “like every time”. Handy at a café when you order your usual. French « comme d'habitude » works the same way.",
+        "km": "« comme d'habitude » មានន័យថា ដូចសព្វដង។ អង់គ្លេស៖ « as usual », « the usual »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au café", "en": "At the café", "km": "នៅហាងកាហ្វេ"},
+      "fr": "Le matin, je prends toujours un café glacé.", "en": "In the morning, I always have an iced coffee.",
+      "km": "ពេលព្រឹក ខ្ញុំតែងតែផឹកកាហ្វេទឹកកក។", "tr": "pél preuk, khgnom taèng-taè pheuk ka-fé teuk kâk.",
+      "es": "Por la mañana siempre tomo un café con hielo.", "it": "La mattina prendo sempre un caffè freddo.", "ru": "Утром я всегда пью холодный кофе.", "zh": "我早上总是喝冰咖啡。", "zh_tr": "Wǒ zǎoshang zǒngshì hē bīng kāfēi."
+    },
+    {
+      "situation": {"fr": "Entre amis", "en": "Among friends", "km": "ក្នុងចំណោមមិត្តភក្តិ"},
+      "fr": "Nous ne sommes jamais allés à Kampot.", "en": "We've never been to Kampot.",
+      "km": "យើងមិនដែលទៅកំពតទេ។", "tr": "yeung min daèl teuv kâm-pot té.",
+      "es": "Nunca hemos ido a Kampot.", "it": "Non siamo mai stati a Kampot.", "ru": "Мы никогда не были в Кампоте.", "zh": "我们从来没去过贡布。", "zh_tr": "Wǒmen cónglái méi qù guo Gòngbù."
+    },
+    {
+      "situation": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
+      "fr": "Nous faisons le ménage une fois par semaine.", "en": "We clean the house once a week.",
+      "km": "យើងសម្អាតផ្ទះមួយសប្តាហ៍ម្តង។", "tr": "yeung sâm-at phtéah mouy sap-da mdâng.",
+      "es": "Limpiamos la casa una vez por semana.", "it": "Facciamo le pulizie una volta alla settimana.", "ru": "Мы убираем дом раз в неделю.", "zh": "我们一个星期打扫一次房子。", "zh_tr": "Wǒmen yí ge xīngqī dǎsǎo yí cì fángzi."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} parlent de leurs habitudes pour les repas.", "en": "{A} and {B} talk about their eating habits.", "km": "{A} និង {B} និយាយអំពីទម្លាប់ញ៉ាំបាយរបស់ពួកគេ។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, tu cuisines souvent ?", "en": "{B}, do you cook often?", "km": "{B} ធ្វើម្ហូបញឹកញាប់ទេ?", "tr": "{B}, thveu mhôp gneuk-gnoap té ?",
+        "es": "{B}, ¿cocinas a menudo?", "it": "{B}, cucini spesso?", "ru": "{B}, ты часто готовишь?", "zh": "{B}，你经常做饭吗？", "zh_tr": "{B}, nǐ jīngcháng zuò fàn ma?"},
+      {"speaker": "B", "fr": "Pas tous les jours. D'habitude, je mange au marché.", "en": "Not every day. I usually eat at the market.", "km": "មិនមែនរាល់ថ្ងៃទេ។ ធម្មតា ខ្ញុំញ៉ាំនៅផ្សារ។", "tr": "min mèn roal thngay té. thoam-mâ-da, khgnom gnam neuv phsa.",
+        "es": "No todos los días. Normalmente como en el mercado.", "it": "Non tutti i giorni. Di solito mangio al mercato.", "ru": "Не каждый день. Обычно я ем на рынке.", "zh": "不是每天。我平时在市场吃饭。", "zh_tr": "Bú shì měitiān. Wǒ píngshí zài shìchǎng chī fàn."},
+      {"speaker": "A", "fr": "Moi, je cuisine toujours le soir. C'est moins cher.", "en": "I always cook in the evening. It's cheaper.", "km": "ខ្ញុំវិញ តែងតែធ្វើម្ហូបពេលល្ងាច។ ថោកជាង។", "tr": "khgnom vign, taèng-taè thveu mhôp pél lngéatch. thaok tchéang.",
+        "es": "Yo siempre cocino por la noche. Es más barato.", "it": "Io cucino sempre la sera. Costa meno.", "ru": "А я всегда готовлю вечером. Так дешевле.", "zh": "我总是晚上做饭，比较便宜。", "zh_tr": "Wǒ zǒngshì wǎnshang zuò fàn, bǐjiào piányi."},
+      {"speaker": "B", "fr": "Tu fais du lok lak de temps en temps ?", "en": "Do you make lok lak from time to time?", "km": "យូរៗម្តង ធ្វើឡុកឡាក់ទេ?", "tr": "you-you mdâng, thveu lok-lak té ?",
+        "es": "¿Haces lok lak de vez en cuando?", "it": "Ogni tanto fai il lok lak?", "ru": "Ты иногда готовишь лок лак?", "zh": "你偶尔做柬式炒牛肉吗？", "zh_tr": "Nǐ ǒu'ěr zuò Jiǎnshì chǎo niúròu ma?"},
+      {"speaker": "A", "fr": "Une fois par semaine, le dimanche. Viens manger dimanche !", "en": "Once a week, on Sundays. Come and eat on Sunday!", "km": "មួយសប្តាហ៍ម្តង នៅថ្ងៃអាទិត្យ។ អញ្ជើញមកញ៉ាំថ្ងៃអាទិត្យនេះ!", "tr": "mouy sap-da mdâng, neuv thngay a-teut. agn-tcheugn mok gnam thngay a-teut nih !",
+        "es": "Una vez por semana, los domingos. ¡Ven a comer el domingo!", "it": "Una volta alla settimana, la domenica. Vieni a mangiare domenica!", "ru": "Раз в неделю, по воскресеньям. Приходи поесть в воскресенье!", "zh": "一个星期一次，星期天做。星期天来吃吧！", "zh_tr": "Yí ge xīngqī yí cì, xīngqītiān zuò. Xīngqītiān lái chī ba!"},
+      {"speaker": "B", "fr": "Avec plaisir ! J'adore le lok lak.", "en": "I'd love to! I love lok lak.", "km": "រីករាយណាស់! ខ្ញុំចូលចិត្តឡុកឡាក់ណាស់។", "tr": "rik-réay nah ! khgnom tchôl tchet lok-lak nah.",
+        "es": "¡Con mucho gusto! Me encanta el lok lak.", "it": "Volentieri! Adoro il lok lak.", "ru": "С удовольствием! Я обожаю лок лак.", "zh": "好啊！我很喜欢柬式炒牛肉。", "zh_tr": "Hǎo a! Wǒ hěn xǐhuan Jiǎnshì chǎo niúròu."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Quel jour {A} prépare le lok lak ?", "en": "On which day does {A} make lok lak?", "km": "{A} ធ្វើឡុកឡាក់នៅថ្ងៃណា?"},
+    "answer": {"fr": "Le dimanche, une fois par semaine.", "en": "On Sundays, once a week.", "km": "នៅថ្ងៃអាទិត្យ មួយសប្តាហ៍ម្តង។"}
+  }
+}

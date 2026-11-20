@@ -1,0 +1,159 @@
+{
+  "id": "u065",
+  "order": 65,
+  "level": "intermediaire",
+  "theme": "faire-du-sport",
+  "title": {"fr": "Faire du sport", "en": "Doing sport", "km": "លេងកីឡា"},
+  "tip": {
+    "fr": "En khmer, on « joue » à un sport de balle avec លេង : លេងបាល់ទាត់, « jouer au football ». Pour la course ou la marche, le verbe suffit : ខ្ញុំរត់, « je cours ». Le soir, au bord du fleuve, on voit des groupes faire de la gymnastique en musique : រាំហាត់ប្រាណ.",
+    "en": "In Khmer you “play” ball sports with លេង: លេងបាល់ទាត់, “to play football”. For running or walking the verb is enough: ខ្ញុំរត់, “I run”. In the evening, by the river, groups exercise to music: រាំហាត់ប្រាណ. French uses « jouer au » for games and « faire du » for other sports: jouer au football, faire du vélo.",
+    "km": "ភាសាបារាំង ប្រើ « jouer au » សម្រាប់កីឡាបាល់៖ jouer au football (លេងបាល់ទាត់)។ ប្រើ « faire du » សម្រាប់កីឡាផ្សេងទៀត៖ faire du vélo (ជិះកង់)។ អង់គ្លេស៖ play football, go running។"
+  },
+  "vocabulary": [
+    {
+      "fr": "courir", "en": "to run", "km": "រត់", "tr": "rot",
+      "es": "correr", "it": "correre", "ru": "бегать", "zh": "跑步", "zh_tr": "pǎobù", "pos": "verbe",
+      "note": {
+        "fr": "រត់ veut dire « courir », mais aussi « s'enfuir » et, pour un moteur, « tourner ». ហាត់ប្រាណ, « faire de l'exercice ».",
+        "en": "រត់ means “to run”, also “to run away” and, for an engine, “to run”. ហាត់ប្រាណ, “to work out”. French « courir » is irregular: je cours, nous courons.",
+        "km": "« courir » មានន័យថា រត់៖ je cours (ខ្ញុំរត់)។ អង់គ្លេស៖ « to run », « I go running »។"
+      },
+      "example": {"fr": "Je cours au bord du fleuve tous les matins.", "en": "I run along the river every morning.", "km": "ខ្ញុំរត់នៅមាត់ទន្លេរាល់ព្រឹក។", "tr": "khgnom rot neuv moat tonlé roal preuk.",
+      "es": "Corro junto al río todas las mañanas.", "it": "Corro lungo il fiume ogni mattina.", "ru": "Каждое утро я бегаю вдоль реки.", "zh": "我每天早上在河边跑步。", "zh_tr": "Wǒ měitiān zǎoshang zài hébiān pǎobù."}
+    },
+    {
+      "fr": "marcher", "en": "to walk", "km": "ដើរ", "tr": "daeu",
+      "es": "caminar", "it": "camminare", "ru": "ходить пешком", "zh": "走路", "zh_tr": "zǒulù", "pos": "verbe",
+      "note": {
+        "fr": "ដើរ, « marcher » ; ដើរលេង, « se promener ». Comme en français, une machine qui marche ដើរ aussi.",
+        "en": "ដើរ, “to walk”; ដើរលេង, “to go for a stroll”. As in French, a machine that works also ដើរ. French « marcher » means “to walk” and “to work” for a machine.",
+        "km": "« marcher » មានន័យថា ដើរ ហើយក៏មានន័យថា ម៉ាស៊ីនដើរ ដូចភាសាខ្មែរដែរ។ « à pied » មានន័យថា ដើរ។ អង់គ្លេស៖ « to walk »។"
+      },
+      "example": {"fr": "Je vais au marché à pied.", "en": "I walk to the market.", "km": "ខ្ញុំដើរទៅផ្សារ។", "tr": "khgnom daeu teuv phsa.",
+      "es": "Voy andando al mercado.", "it": "Vado al mercato a piedi.", "ru": "Я хожу на рынок пешком.", "zh": "我走路去市场。", "zh_tr": "Wǒ zǒulù qù shìchǎng."}
+    },
+    {
+      "fr": "le football", "en": "football", "km": "បាល់ទាត់", "tr": "bal toat",
+      "es": "el fútbol", "it": "il calcio", "ru": "футбол", "zh": "足球", "zh_tr": "zúqiú", "pos": "nom",
+      "note": {
+        "fr": "បាល់, « ballon », et ទាត់, « donner un coup de pied ». Le volley-ball, très populaire au village, se dit បាល់ទះ, « ballon qu'on frappe ».",
+        "en": "បាល់, “ball”, and ទាត់, “to kick”. Volleyball, very popular in villages, is បាល់ទះ, “slapped ball”. French « le foot » for short; Americans say “soccer”.",
+        "km": "« le football » ឬ « le foot » មានន័យថា បាល់ទាត់។ អង់គ្លេសអាមេរិក៖ « soccer »។ « le volley » គឺ បាល់ទះ។"
+      },
+      "example": {"fr": "Les enfants jouent au football après l'école.", "en": "The children play football after school.", "km": "ក្មេងៗលេងបាល់ទាត់ក្រោយម៉ោងរៀន។", "tr": "kméng-kméng léng bal toat kraoy maong rien.",
+      "es": "Los niños juegan al fútbol después del colegio.", "it": "I bambini giocano a calcio dopo la scuola.", "ru": "Дети играют в футбол после школы.", "zh": "孩子们放学后踢足球。", "zh_tr": "Háizimen fàngxué hòu tī zúqiú."}
+    },
+    {
+      "fr": "l'équipe", "en": "team", "km": "ក្រុម", "tr": "krom",
+      "es": "el equipo", "it": "la squadra", "ru": "команда", "zh": "队", "zh_tr": "duì", "pos": "nom",
+      "note": {
+        "fr": "ក្រុម, « groupe, équipe ». ក្រុមយើង, « notre équipe » ; ក្រុមតន្ត្រី, « un groupe de musique ».",
+        "en": "ក្រុម, “group, team”. ក្រុមយើង, “our team”; ក្រុមតន្ត្រី, “a band”. French « l'équipe » is feminine: une équipe.",
+        "km": "« l'équipe » ជានាមភេទស្រី (une équipe)។ « notre équipe » មានន័យថា ក្រុមយើង។ អង់គ្លេស៖ « team »។"
+      },
+      "example": {"fr": "Mon grand frère joue dans l'équipe du village.", "en": "My older brother plays for the village team.", "km": "បងប្រុសខ្ញុំលេងឱ្យក្រុមបាល់ទាត់ភូមិ។", "tr": "bâng proh khgnom léng aoy krom bal toat phoum.",
+      "es": "Mi hermano mayor juega en el equipo del pueblo.", "it": "Mio fratello maggiore gioca nella squadra del paese.", "ru": "Мой старший брат играет в деревенской команде.", "zh": "我哥哥在村里的足球队踢球。", "zh_tr": "Wǒ gēge zài cūn lǐ de zúqiú duì tī qiú."}
+    },
+    {
+      "fr": "gagner", "en": "to win", "km": "ឈ្នះ", "tr": "tchhneah",
+      "es": "ganar", "it": "vincere", "ru": "выигрывать", "zh": "赢", "zh_tr": "yíng", "pos": "verbe",
+      "note": {
+        "fr": "ឈ្នះ, « gagner, vaincre » ; le contraire est ចាញ់, « perdre ». Pour « gagner de l'argent », on dit រកលុយ.",
+        "en": "ឈ្នះ, “to win”; the opposite is ចាញ់, “to lose”. To earn money is រកលុយ. French « gagner » means both “to win” and “to earn”.",
+        "km": "« gagner » មានន័យពីរ៖ ឈ្នះ និង រកលុយបាន (gagner de l'argent)។ អង់គ្លេស៖ « to win » និង « to earn »។"
+      },
+      "example": {"fr": "Notre équipe a gagné hier soir.", "en": "Our team won last night.", "km": "ក្រុមយើងឈ្នះកាលពីយប់មិញ។", "tr": "krom yeung tchhneah kal pi youp mign.",
+      "es": "Nuestro equipo ganó anoche.", "it": "La nostra squadra ha vinto ieri sera.", "ru": "Наша команда вчера вечером выиграла.", "zh": "我们队昨天晚上赢了。", "zh_tr": "Wǒmen duì zuótiān wǎnshang yíng le."}
+    },
+    {
+      "fr": "le match", "en": "match", "km": "ការប្រកួត", "tr": "ka prâ-kouot",
+      "es": "el partido", "it": "la partita", "ru": "матч", "zh": "比赛", "zh_tr": "bǐsài", "pos": "nom",
+      "note": {
+        "fr": "ប្រកួត, « s'affronter, concourir » ; avec ការ, il devient un nom. Une équipe contre une autre : ទល់នឹង.",
+        "en": "ប្រកួត, “to compete”; with ការ it becomes a noun. One team against another: ទល់នឹង. French « le match », plural « les matchs ».",
+        "km": "« le match » មកពីភាសាអង់គ្លេស។ « contre » មានន័យថា ទល់នឹង៖ Phnom Penh contre Siem Reap។ អង់គ្លេស៖ « match », « game »។"
+      },
+      "example": {"fr": "Le match commence à huit heures du soir.", "en": "The match starts at eight in the evening.", "km": "ការប្រកួតចាប់ផ្តើមម៉ោងប្រាំបីយប់។", "tr": "ka prâ-kouot tchap-phdaeum maong pram-bey youp.",
+      "es": "El partido empieza a las ocho de la tarde.", "it": "La partita comincia alle otto di sera.", "ru": "Матч начинается в восемь вечера.", "zh": "比赛晚上八点开始。", "zh_tr": "Bǐsài wǎnshang bā diǎn kāishǐ."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "On va courir ensemble ?", "en": "Shall we go for a run together?", "km": "ទៅរត់ជាមួយគ្នាទេ?", "tr": "teuv rot tchéa-mouy knéa té ?",
+      "es": "¿Vamos a correr juntos?", "it": "Andiamo a correre insieme?", "ru": "Пойдём побегаем вместе?", "zh": "一起去跑步吗？", "zh_tr": "Yìqǐ qù pǎobù ma?",
+      "note": {
+        "fr": "ជាមួយគ្នា, « ensemble ». Le matin très tôt, avant la chaleur, est le meilleur moment.",
+        "en": "ជាមួយគ្នា, “together”. Very early morning, before the heat, is the best time. French « on va… ? » is a friendly suggestion.",
+        "km": "« On va… ? » ជាការអញ្ជើញបែបរាក់ទាក់។ « ensemble » មានន័យថា ជាមួយគ្នា។ អង់គ្លេស៖ « Shall we… ? »។"
+      }
+    },
+    {
+      "fr": "Allez le Cambodge !", "en": "Go Cambodia!", "km": "ជយោកម្ពុជា!", "tr": "tchey-yo kâm-pou-tchéa !",
+      "es": "¡Vamos, Camboya!", "it": "Forza Cambogia!", "ru": "Вперёд, Камбоджа!", "zh": "柬埔寨加油！", "zh_tr": "Jiǎnpǔzhài jiāyóu!",
+      "note": {
+        "fr": "ជយោ, « victoire ! », le cri des supporters et des fêtes. On le crie aussi pour porter un toast.",
+        "en": "ជយោ, “victory!”, the cry of fans and celebrations. It's also shouted for a toast. French fans shout « Allez ! » followed by the team.",
+        "km": "អ្នកគាំទ្របារាំងស្រែក « Allez ! » បន្ទាប់មកឈ្មោះក្រុម៖ Allez les Bleus! អង់គ្លេស៖ « Go ...! », « Come on ...! »។"
+      }
+    },
+    {
+      "fr": "Qui a gagné ?", "en": "Who won?", "km": "អ្នកណាឈ្នះ?", "tr": "néak na tchhneah ?",
+      "es": "¿Quién ganó?", "it": "Chi ha vinto?", "ru": "Кто выиграл?", "zh": "谁赢了？", "zh_tr": "Shéi yíng le?",
+      "note": {
+        "fr": "Pour une équipe : ក្រុមណាឈ្នះ? Le score se dit avec ទល់ : ពីរទល់មួយ, « deux à un ».",
+        "en": "For a team: ក្រុមណាឈ្នះ? Scores use ទល់: ពីរទល់មួយ, “two-one”. French scores use « à »: deux à un.",
+        "km": "ពិន្ទុជាភាសាបារាំងប្រើ « à »៖ deux à un (ពីរទល់មួយ)។ អង់គ្លេស៖ « two-one », « two to one »។"
+      }
+    },
+    {
+      "fr": "Faisons une petite pause !", "en": "Let's take a short break!", "km": "សម្រាកបន្តិចសិន!", "tr": "sâm-rak bân-tetch sen !",
+      "es": "¡Descansemos un poco!", "it": "Facciamo una pausa!", "ru": "Давай немного отдохнём!", "zh": "休息一下吧！", "zh_tr": "Xiūxi yíxià ba!",
+      "note": {
+        "fr": "សិន, en fin de phrase, veut dire « d'abord, un moment ». Sous le soleil cambodgien, la pause est vite nécessaire !",
+        "en": "សិន at the end of a sentence means “first, for a moment”. Under the Cambodian sun, a break is soon needed! French « une pause » is a break.",
+        "km": "« Faisons… » មានន័យថា តោះ…។ « une pause » មានន័យថា ការសម្រាកបន្តិច។ អង់គ្លេស៖ « Let's take a break »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au bord du fleuve", "en": "By the river", "km": "នៅមាត់ទន្លេ"},
+      "fr": "Le soir, beaucoup de gens font de la gymnastique en musique.", "en": "In the evening, lots of people exercise to music.",
+      "km": "ពេលល្ងាច មនុស្សច្រើនរាំហាត់ប្រាណ។", "tr": "pél lngéatch, mo-nouh tchraeun roam hat pran.",
+      "es": "Por la tarde, mucha gente hace gimnasia con música.", "it": "La sera molta gente fa ginnastica con la musica.", "ru": "Вечером многие занимаются гимнастикой под музыку.", "zh": "傍晚很多人跟着音乐做健身操。", "zh_tr": "Bàngwǎn hěn duō rén gēnzhe yīnyuè zuò jiànshēncāo."
+    },
+    {
+      "situation": {"fr": "Entre amis", "en": "Among friends", "km": "ក្នុងចំណោមមិត្តភក្តិ"},
+      "fr": "Tu veux regarder le match chez nous ce soir ?", "en": "Do you want to watch the match at our place tonight?",
+      "km": "យប់នេះ ចង់មកមើលការប្រកួតនៅផ្ទះយើងទេ?", "tr": "youp nih, tchâng mok meul ka prâ-kouot neuv phtéah yeung té ?",
+      "es": "¿Quieres ver el partido en casa esta noche?", "it": "Vuoi vedere la partita da noi stasera?", "ru": "Хочешь посмотреть матч у нас сегодня вечером?", "zh": "今晚想来我们家看比赛吗？", "zh_tr": "Jīnwǎn xiǎng lái wǒmen jiā kàn bǐsài ma?"
+    },
+    {
+      "situation": {"fr": "Chez le médecin", "en": "At the doctor's", "km": "នៅគ្រូពេទ្យ"},
+      "fr": "Le médecin dit que je dois marcher tous les jours.", "en": "The doctor says I have to walk every day.",
+      "km": "គ្រូពេទ្យប្រាប់ថា ខ្ញុំត្រូវដើររាល់ថ្ងៃ។", "tr": "krou-pét prap tha khgnom treuv daeu roal thngay.",
+      "es": "El médico dice que tengo que caminar todos los días.", "it": "Il medico dice che devo camminare tutti i giorni.", "ru": "Врач говорит, что мне нужно ходить пешком каждый день.", "zh": "医生说我每天都要走路。", "zh_tr": "Yīshēng shuō wǒ měitiān dōu yào zǒulù."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} propose à {A} d'aller voir un match de football.", "en": "{B} asks {A} to come and watch a football match.", "km": "{B} អញ្ជើញ {A} ទៅមើលការប្រកួតបាល់ទាត់។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, il y a un match de football ce soir. Tu viens ?", "en": "{A}, there's a football match tonight. Are you coming?", "km": "{A} យប់នេះមានការប្រកួតបាល់ទាត់។ ទៅមើលទេ?", "tr": "{A}, youp nih méan ka prâ-kouot bal toat. teuv meul té ?",
+        "es": "{A}, esta noche hay un partido de fútbol. ¿Vienes?", "it": "{A}, stasera c'è una partita di calcio. Vieni?", "ru": "{A}, сегодня вечером футбольный матч. Пойдёшь?", "zh": "{A}，今晚有足球比赛。你来吗？", "zh_tr": "{A}, jīnwǎn yǒu zúqiú bǐsài. Nǐ lái ma?"},
+      {"speaker": "A", "fr": "Quelles équipes jouent ?", "en": "Which teams are playing?", "km": "ក្រុមណាខ្លះលេង?", "tr": "krom na khlah léng ?",
+        "es": "¿Qué equipos juegan?", "it": "Che squadre giocano?", "ru": "Какие команды играют?", "zh": "哪两个队比赛？", "zh_tr": "Nǎ liǎng ge duì bǐsài?"},
+      {"speaker": "B", "fr": "L'équipe de Phnom Penh contre celle de Siem Reap.", "en": "The Phnom Penh team against the Siem Reap team.", "km": "ក្រុមភ្នំពេញទល់នឹងក្រុមសៀមរាប។", "tr": "krom phnom-pégn tol neung krom siem-réap.",
+        "es": "El equipo de Nom Pen contra el de Siem Reap.", "it": "La squadra di Phnom Penh contro quella di Siem Reap.", "ru": "Команда Пномпеня против команды Сиемреапа.", "zh": "金边队对暹粒队。", "zh_tr": "Jīnbiān duì duì Xiānlì duì."},
+      {"speaker": "A", "fr": "D'accord. Mais demain matin, on va courir ensemble ?", "en": "All right. But tomorrow morning, shall we go for a run together?", "km": "បាន។ ប៉ុន្តែព្រឹកស្អែក ទៅរត់ជាមួយគ្នាទេ?", "tr": "ban. pon-taè preuk s'aèk, teuv rot tchéa-mouy knéa té ?",
+        "es": "Vale. Pero mañana por la mañana, ¿vamos a correr juntos?", "it": "D'accordo. Ma domani mattina andiamo a correre insieme?", "ru": "Ладно. Но завтра утром пойдём побегаем вместе?", "zh": "好。不过明天早上一起去跑步吗？", "zh_tr": "Hǎo. Búguò míngtiān zǎoshang yìqǐ qù pǎobù ma?"},
+      {"speaker": "B", "fr": "Courir ? Je préfère marcher !", "en": "Running? I'd rather walk!", "km": "រត់? ខ្ញុំចូលចិត្តដើរជាង!", "tr": "rot ? khgnom tchôl tchet daeu tchéang !",
+        "es": "¿Correr? ¡Prefiero caminar!", "it": "Correre? Preferisco camminare!", "ru": "Бегать? Я предпочитаю ходить пешком!", "zh": "跑步？我更喜欢走路！", "zh_tr": "Pǎobù? Wǒ gèng xǐhuan zǒulù!"},
+      {"speaker": "A", "fr": "Alors on marche. Le sport, c'est bon pour la santé !", "en": "Then we'll walk. Sport is good for your health!", "km": "អញ្ចឹងយើងដើរ។ កីឡាល្អសម្រាប់សុខភាព!", "tr": "agn-tcheung yeung daeu. key-la l'â sâm-rap sok-kha-phéap !",
+        "es": "Entonces caminamos. ¡El deporte es bueno para la salud!", "it": "Allora camminiamo. Lo sport fa bene alla salute!", "ru": "Тогда пойдём пешком. Спорт полезен для здоровья!", "zh": "那我们就走路。运动对身体好！", "zh_tr": "Nà wǒmen jiù zǒulù. Yùndòng duì shēntǐ hǎo!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Que préfère {B} : courir ou marcher ?", "en": "What does {B} prefer: running or walking?", "km": "{B} ចូលចិត្តរត់ ឬដើរ?"},
+    "answer": {"fr": "Marcher.", "en": "Walking.", "km": "ដើរ។"}
+  }
+}

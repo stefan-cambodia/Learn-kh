@@ -240,6 +240,26 @@ Les trois premières unités servent de modèle de ton et de niveau de détail.
 | u048 | `internet` | Internet et ordinateur | l'ordinateur, internet, la photo, envoyer, le mot de passe, la batterie |
 | u049 | `politesse` | La politesse et les coutumes | saluer, poli, respecter, la coutume, l'invité, les aînés |
 | u050 | `apprendre-une-langue` | Apprendre une langue | le mot, la phrase, prononcer, écrire, traduire, s'entraîner |
+| u051 | `la-cuisine-khmere` | La cuisine khmère | la soupe, le poulet, le porc, le bœuf, les nouilles, griller |
+| u052 | `les-boissons` | Les boissons | le thé, le jus, la glace, le lait, la bière, le verre |
+| u053 | `les-metiers` | Les métiers | le métier, le paysan, le vendeur, le chauffeur, le policier, le cuisinier |
+| u054 | `a-la-mer` | À la mer | la mer, la plage, nager, l'île, le bateau, le sable |
+| u055 | `les-vacances` | Les vacances | les vacances, visiter, le touriste, le plan, se perdre, partir |
+| u056 | `la-sante` | La santé | la santé, le rhume, tousser, la dent, le dentiste, guérir |
+| u057 | `les-voisins` | Les voisins | le voisin, le quartier, prêter, emprunter, bruyant, frapper |
+| u058 | `comparer` | Comparer | plus, moins, le même, différent, meilleur, comme |
+| u059 | `angkor` | Angkor et l'histoire | le temple, ancien, l'histoire, le roi, la sculpture, le siècle |
+| u060 | `les-quantites` | Les quantités | beaucoup, peu, assez, trop, la moitié, tout |
+| u061 | `les-grands-nombres` | Les grands nombres | vingt, cinquante, cent, mille, dix mille, un million |
+| u062 | `la-frequence` | Dire à quelle fréquence | toujours, souvent, parfois, jamais, d'habitude, une fois |
+| u063 | `le-logement` | Le logement | louer, l'appartement, le loyer, le propriétaire, déménager, l'électricité |
+| u064 | `les-points-cardinaux` | Les points cardinaux et les provinces | le nord, le sud, l'est, l'ouest, la province, la frontière |
+| u065 | `faire-du-sport` | Faire du sport | courir, marcher, le football, l'équipe, gagner, le match |
+| u066 | `la-pagode-et-les-moines` | La pagode et les moines | le moine, prier, l'offrande, les ancêtres, bénir, l'encens |
+| u067 | `les-rendez-vous` | Les rendez-vous | le rendez-vous, libre, accepter, refuser, annuler, oublier |
+| u068 | `les-papiers` | Les papiers | remplir, signer, la carte d'identité, le visa, le bureau, la photocopie |
+| u069 | `les-plantes` | Les plantes et les fleurs | la fleur, planter, arroser, la feuille, pousser, l'herbe |
+| u070 | `les-compliments` | Les compliments | le compliment, féliciter, intelligent, doué, fier, réussir |
 
 Aux niveaux élémentaire et intermédiaire, les phrases s'allongent ; au niveau
 intermédiaire, le dialogue compte 6 à 8 répliques et les notes abordent les
