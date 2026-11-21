@@ -24,6 +24,12 @@ programme, compose la leçon, ajoute les révisions espacées, génère les fich
 fichiers audio manquants, écrit la page HTML et met à jour l'index. Le site obtenu
 est entièrement local : il se consulte sans connexion Internet.
 
+Seule exception, la page **Traduire** (`traduction.html`) traduit entre les sept
+langues, à l'écrit ou à la voix (dictée au micro, lecture à voix haute). Elle a
+besoin d'Internet : traduction par le service gratuit de Google Traduction (sans
+clé, MyMemory en secours), dictée par le navigateur (Chrome, Edge, Safari ; page
+en https), voix de Google Traduction ou de l'appareil. Rien n'est conservé.
+
 ## Démarrage rapide
 
 ```bash
@@ -114,6 +120,7 @@ index.html            page d'accueil : statistiques, recherche, liste des leçon
 alphabet.html         module Alphabets : khmer, latin, cyrillique, tons et caractères chinois, avec audio
 revision.html         cartes mémoire du vocabulaire des leçons passées (régénérée avec l'index)
 lexique.html          tous les mots et expressions vus, avec recherche et audio
+traduction.html       traducteur écrit et vocal entre les sept langues (en ligne ; js/translate.js)
 lessons/              une page par leçon (lesson-001.html, …)
 audio/                bibliothèque audio : fr-FR/, en-US/, km-KH/, es-ES/, it-IT/, ru-RU/, zh-CN/
 css/  js/  fonts/     style, comportement, police Noto Sans Khmer embarquée

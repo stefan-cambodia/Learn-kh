@@ -15,7 +15,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="theme-color" content="#f5f2ec" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#14161c" media="(prefers-color-scheme: dark)">
-<link rel="stylesheet" href="./css/style.css?v=1795053710">
+<link rel="stylesheet" href="./css/style.css?v=1795294103">
 <script>
 window.FRKH_PROFILES = {"fr":["km","en"],"en":["km","fr"],"km":["fr","en"]};
 window.FRKH_LANGS = {"all":["fr","en","km","es","it","ru","zh"],"shown":["fr","en","km","es","it","ru","zh"]};
@@ -70,6 +70,7 @@ window.FRKH_LANGS = {"all":["fr","en","km","es","it","ru","zh"],"shown":["fr","e
       <a class="tool-link tool-review" data-nav href="./revision.html" title="Réviser" aria-label="Réviser"><span class="tool-link-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="ui-fr" lang="fr">Réviser</span><span class="ui-en" lang="en">Review</span><span class="ui-km" lang="km">រំលឹក</span></a>
       <a class="tool-link tool-lexicon" data-nav href="./lexique.html" title="Lexique" aria-label="Lexique"><span class="tool-link-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5zM5 19.5A1.5 1.5 0 0 0 6.5 21H19" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><span class="ui-fr" lang="fr">Lexique</span><span class="ui-en" lang="en">Glossary</span><span class="ui-km" lang="km">សទ្ទានុក្រម</span></a>
       <a class="tool-link" data-nav href="./alphabet.html" title="Alphabets" aria-label="Alphabets"><span class="tool-link-glyph" aria-hidden="true" lang="km">ក</span><span class="ui-fr" lang="fr">Alphabets</span><span class="ui-en" lang="en">Alphabets</span><span class="ui-km" lang="km">អក្សរ</span></a>
+      <a class="tool-link tool-translate" data-nav href="./traduction.html" title="Traduire" aria-label="Traduire"><span class="tool-link-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h9M8 3.5v2M10.5 5.5c-.8 3.6-3.2 6.4-6.5 8M6 8.5c1 2 2.6 3.6 4.5 4.6M12.5 20.5l4-10 4 10M14 17h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="ui-fr" lang="fr">Traduire</span><span class="ui-en" lang="en">Translate</span><span class="ui-km" lang="km">បកប្រែ</span></a>
       <button type="button" class="tool-size js-only" id="size-toggle" title="Taille du texte" aria-label="Taille du texte"><span aria-hidden="true">A<small>A</small></span></button>
       <button type="button" class="tool-slow js-only" id="slow-toggle" aria-pressed="false">
         <span class="tool-slow-rate" aria-hidden="true">0,75×</span><span class="ui-fr" lang="fr">Lecture lente</span><span class="ui-en" lang="en">Slow playback</span><span class="ui-km" lang="km">អានយឺត</span>
@@ -87,10 +88,11 @@ window.FRKH_LANGS = {"all":["fr","en","km","es","it","ru","zh"],"shown":["fr","e
   <a class="tab tab-review" data-nav href="./revision.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="tab-label"><span class="ui-fr" lang="fr">Réviser</span><span class="ui-en" lang="en">Review</span><span class="ui-km" lang="km">រំលឹក</span></span></a>
   <a class="tab tab-lexicon" data-nav href="./lexique.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5zM5 19.5A1.5 1.5 0 0 0 6.5 21H19" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="tab-label"><span class="ui-fr" lang="fr">Lexique</span><span class="ui-en" lang="en">Glossary</span><span class="ui-km" lang="km">សទ្ទានុក្រម</span></span></a>
   <a class="tab tab-alphabet" data-nav href="./alphabet.html"><span class="tab-glyph" lang="km" aria-hidden="true">ក</span><span class="tab-label"><span class="ui-fr" lang="fr">Alphabets</span><span class="ui-en" lang="en">Alphabets</span><span class="ui-km" lang="km">អក្សរ</span></span></a>
+  <a class="tab tab-translate" data-nav href="./traduction.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h9M8 3.5v2M10.5 5.5c-.8 3.6-3.2 6.4-6.5 8M6 8.5c1 2 2.6 3.6 4.5 4.6M12.5 20.5l4-10 4 10M14 17h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="tab-label"><span class="ui-fr" lang="fr">Traduire</span><span class="ui-en" lang="en">Translate</span><span class="ui-km" lang="km">បកប្រែ</span></span></a>
 </nav>
 <footer class="footer">
   <p>FR - ENG - Khmer Learning — <span class="ui-fr" lang="fr">Site généré automatiquement, consultable hors connexion.</span><span class="ui-en" lang="en">Site generated automatically, available offline.</span><span class="ui-km" lang="km">គេហទំព័រនេះបង្កើតដោយស្វ័យប្រវត្តិ និងប្រើបានដោយគ្មានអ៊ីនធឺណិត។</span></p>
 </footer>
-<script src="./js/app.js?v=1795053710" defer></script>
+<script src="./js/app.js?v=1795294103" defer></script>
 </body>
 </html>

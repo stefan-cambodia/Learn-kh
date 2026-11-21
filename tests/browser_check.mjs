@@ -446,6 +446,28 @@ try {
       `${alpha.cards} cartes`);
   }
 
+  /* Traduire : rien n'est envoyé au chargement (le réseau ne sert qu'une fois du texte saisi). */
+  await open("traduction.html#profil=km", 390, 844);
+  const translate = await evaluate(`(() => {
+    try { localStorage.removeItem("frkh-translate-langs"); } catch (e) {}
+    return null;
+  })()`);
+  await open("traduction.html#profil=km", 390, 844);
+  const tr = await evaluate(`(() => {
+    const from = document.getElementById("tr-from"), to = document.getElementById("tr-to");
+    const first = { from: from.value, to: to.value, options: from.options.length };
+    document.getElementById("tr-swap").click();
+    const swapped = { from: from.value, to: to.value };
+    to.value = from.value; to.dispatchEvent(new Event("change"));
+    const same = { from: from.value, to: to.value };
+    return { first, swapped, same, tab: !!document.querySelector(".tab-translate"),
+      overflow: document.documentElement.scrollWidth > window.innerWidth + 1 };
+  })()`);
+  check("traduire : khmer → français par défaut, inversion, jamais deux fois la même langue",
+    translate === null && tr.first.from === "km" && tr.first.to === "fr" && tr.first.options === 7 &&
+    tr.swapped.from === "fr" && tr.swapped.to === "km" && tr.same.from !== tr.same.to && tr.tab && !tr.overflow,
+    JSON.stringify(tr));
+
   const external = requests.filter((url) => !url.startsWith("file:") && !url.startsWith("about:") && !url.startsWith("data:") && !url.startsWith("blob:"));
   check("hors connexion : aucune requête réseau émise par le site", external.length === 0, external.slice(0, 3).join(", "));
   check("aucune erreur JavaScript", pageErrors.length === 0, pageErrors.slice(0, 3).join(" | "));

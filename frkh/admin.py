@@ -23,7 +23,7 @@ TASK_NAME = "FR-KH Learning"
 SYSTEMD_UNIT = "fr-kh-learning"
 PUBLIC_DIRS = ("lessons", "audio", "css", "js", "fonts", "data")
 # Pages publiques placées à la racine du site, à côté de index.html.
-PUBLIC_PAGES = ("alphabet.html", "revision.html", "lexique.html", "manifest.webmanifest")
+PUBLIC_PAGES = ("alphabet.html", "revision.html", "lexique.html", "traduction.html", "manifest.webmanifest")
 SECRET_VARS = ("GOOGLE_TTS_API_KEY", "GOOGLE_TTS_ACCESS_TOKEN", "AZURE_SPEECH_KEY")
 
 

@@ -95,11 +95,14 @@ UI = {
     "due_words": ("à réviser aujourd'hui", "to review today", "ត្រូវរំលឹកថ្ងៃនេះ"),
     "lexicon_nav": ("Lexique", "Glossary", "សទ្ទានុក្រម"),
     "alphabet_nav": ("Alphabets", "Alphabets", "អក្សរ"),
+    "translate_nav": ("Traduire", "Translate", "បកប្រែ"),
     "all_lessons": ("Toutes les leçons", "All lessons", "មេរៀនទាំងអស់"),
     "sc_review": ("Cartes mémoire et exercice d'écoute", "Flashcards and listening practice", "កាតចងចាំ និងលំហាត់ស្តាប់"),
     "sc_lexicon": ("Tous les mots vus, avec l'audio", "Every word seen so far, with audio",
                    "ពាក្យទាំងអស់ដែលបានរៀន ព្រមទាំងសំឡេង"),
     "sc_alphabet": ("Khmer, latin, cyrillique, chinois", "Khmer, Latin, Cyrillic, Chinese", "ខ្មែរ ឡាតាំង ស៊ីរីលិក ចិន"),
+    "sc_translate": ("Traduire à l'écrit et à voix haute", "Translate in writing and out loud",
+                     "បកប្រែជាអក្សរ និងជាសំឡេង"),
     "alphabet_promo": ("Apprendre les alphabets khmer, latin et cyrillique, et l'écriture chinoise, avec la prononciation",
                        "Learn the Khmer, Latin and Cyrillic alphabets and Chinese writing, with pronunciation",
                        "រៀនអក្សរខ្មែរ ឡាតាំង ស៊ីរីលិក និងអក្សរចិន ព្រមទាំងការបញ្ចេញសំឡេង"),
@@ -148,6 +151,7 @@ ICONS = {
     "house": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V19a1.5 1.5 0 0 1-1.5 1.5H14v-6h-4v6H5.5A1.5 1.5 0 0 1 4 19z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
     "eye": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg>',
     "book": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5zM5 19.5A1.5 1.5 0 0 0 6.5 21H19" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
+    "translate": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h9M8 3.5v2M10.5 5.5c-.8 3.6-3.2 6.4-6.5 8M6 8.5c1 2 2.6 3.6 4.5 4.6M12.5 20.5l4-10 4 10M14 17h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     "flame": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 3.5 5 5.5 5 10a5 5 0 0 1-10 0c0-2.2 1.2-3.6 2.4-4.6.2 1.6 1 2.6 2.1 2.9C11 8.9 11 6 12 3z" fill="currentColor"/></svg>',
     "cards": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
     "clock": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
@@ -269,6 +273,7 @@ class SiteRenderer:
             site_title=esc(self.config.get("site.title", "FR-KH Learning")),
             ui_profile=esc(UI["profile"][0]), ui_slow=ui("slow"), ui_skip=ui("skip"), ui_footer=ui("footer"),
             ui_home=ui("home"), ui_alphabet=ui("alphabet_nav"), ui_review=ui("review_nav"), ui_lexicon=ui("lexicon_nav"), icon_book=ICONS["book"],
+            ui_translate=ui("translate_nav"), icon_translate=ICONS["translate"],
             ui_size_title=esc(UI["size"][0]), app_name=esc(self._app_name()),
             lang_picker=self._lang_picker(), langs_json=self._langs_json(),
             ui_home_short=ui("home_short"), ui_alphabet_short=ui("alphabet_nav"), icon_house=ICONS["house"],
@@ -299,7 +304,7 @@ class SiteRenderer:
     def _asset_version(self) -> str:
         """Numéro de version des fichiers CSS et JS : force le navigateur à recharger après une mise à jour."""
         stamp = 0
-        for rel in ("css/style.css", "js/app.js", "js/review.js"):
+        for rel in ("css/style.css", "js/app.js", "js/review.js", "js/translate.js"):
             try:
                 stamp = max(stamp, int((self.paths.root / rel).stat().st_mtime))
             except OSError:
@@ -667,6 +672,7 @@ class SiteRenderer:
         wavutil.atomic_write(self.paths.index, page.encode("utf-8"))
         self.render_review()
         self.render_lexicon()
+        self.render_translate()
         self.render_manifest()
         return self.paths.rel(self.paths.index)
 
@@ -674,6 +680,11 @@ class SiteRenderer:
         """Page « Lexique » (lexique.html) : tous les mots et expressions, avec recherche et audio."""
         from . import lexicon_page
         return lexicon_page.render(self)
+
+    def render_translate(self) -> str:
+        """Page « Traduire » (traduction.html) : traducteur écrit et vocal entre les sept langues."""
+        from . import translate_page
+        return translate_page.render(self)
 
     def _app_name(self) -> str:
         """Nom court sous l'icône de l'écran d'accueil du téléphone."""
@@ -714,7 +725,8 @@ class SiteRenderer:
     def _shortcuts(self) -> str:
         tiles = (("revision.html", "review", ICONS["cards"], "review_nav", "sc_review"),
                  ("lexique.html", "lexicon", ICONS["book"], "lexicon_nav", "sc_lexicon"),
-                 ("alphabet.html", "alphabet", '<span lang="km">ក</span>', "alphabet_nav", "sc_alphabet"))
+                 ("alphabet.html", "alphabet", '<span lang="km">ក</span>', "alphabet_nav", "sc_alphabet"),
+                 ("traduction.html", "translate", ICONS["translate"], "translate_nav", "sc_translate"))
         return "".join(
             f'<a class="shortcut shortcut-{key}" data-nav href="{href}"><span class="shortcut-icon" aria-hidden="true">{icon}</span>'
             f'<span class="shortcut-text"><span class="shortcut-title">{ui(title)}</span>'
