@@ -1,0 +1,159 @@
+{
+  "id": "u073",
+  "order": 73,
+  "level": "intermediaire",
+  "theme": "les-gestes-du-quotidien",
+  "title": {"fr": "Les gestes du quotidien", "en": "Everyday actions", "km": "សកម្មភាពប្រចាំថ្ងៃ"},
+  "tip": {
+    "fr": "បើក et បិទ font double emploi : « ouvrir » et « allumer », « fermer » et « éteindre ». Pour demander un service, on commence par ជួយ, « aider », et on finit par ផង : ជួយបិទទ្វារផង, « ferme la porte, s'il te plaît ».",
+    "en": "បើក and បិទ do double duty: “open” and “switch on”, “close” and “switch off”. To ask a favour, start with ជួយ, “help”, and end with ផង: ជួយបិទទ្វារផង, “close the door, please”. French uses two verbs each time: ouvrir / allumer, fermer / éteindre.",
+    "km": "ភាសាបារាំងប្រើកិរិយាសព្ទខុសគ្នា៖ ouvrir (បើកទ្វារ) និង allumer (បើកភ្លើង) ; fermer (បិទទ្វារ) និង éteindre (បិទភ្លើង)។ អង់គ្លេស៖ open និង turn on ; close និង turn off។"
+  },
+  "vocabulary": [
+    {
+      "fr": "donner", "en": "to give", "km": "ឱ្យ", "tr": "aoy",
+      "es": "dar", "it": "dare", "ru": "давать", "zh": "给", "zh_tr": "gěi", "pos": "verbe",
+      "note": {
+        "fr": "ឱ្យ, « donner », sert aussi à dire « pour » et « laisser faire » : ទិញឱ្យខ្ញុំ, « achète-le pour moi ». Pour offrir avec respect, on dit ជូន.",
+        "en": "ឱ្យ, “to give”, also means “for” and “to let”: ទិញឱ្យខ្ញុំ, “buy it for me”. To give respectfully, say ជូន. French « donner quelque chose à quelqu'un ».",
+        "km": "« donner » មានន័យថា ឱ្យ៖ donner un livre à un ami។ អង់គ្លេស៖ « to give »; កិរិយាសព្ទមិនទៀង៖ give, gave, given។"
+      },
+      "example": {"fr": "Grand-mère donne des gâteaux aux enfants.", "en": "Grandma gives the children cakes.", "km": "យាយឱ្យនំដល់ក្មេងៗ។", "tr": "yéay aoy num dâl kméng-kméng.",
+      "es": "La abuela da pasteles a los niños.", "it": "La nonna dà dei dolci ai bambini.", "ru": "Бабушка даёт детям пирожные.", "zh": "奶奶给孩子们蛋糕。", "zh_tr": "Nǎinai gěi háizimen dàngāo."}
+    },
+    {
+      "fr": "prendre", "en": "to take", "km": "យក", "tr": "yok",
+      "es": "coger", "it": "prendere", "ru": "брать", "zh": "拿", "zh_tr": "ná", "pos": "verbe",
+      "note": {
+        "fr": "យក, « prendre ». Avec ទៅ ou មក, il indique le sens : យកទៅ, « emporter » ; យកមក, « apporter ».",
+        "en": "យក, “to take”. With ទៅ or មក it shows direction: យកទៅ, “to take away”; យកមក, “to bring”. French « prendre » is irregular: je prends, nous prenons.",
+        "km": "« prendre » មានន័យថា យក៖ je prends, nous prenons។ អង់គ្លេស៖ « to take » (យកទៅ) និង « to bring » (យកមក)។"
+      },
+      "example": {"fr": "Prends les clés avant de sortir.", "en": "Take the keys before you go out.", "km": "យកកូនសោទៅមុនពេលចេញ។", "tr": "yok kôn sao teuv moun pél tchégn.",
+      "es": "Coge las llaves antes de salir.", "it": "Prendi le chiavi prima di uscire.", "ru": "Возьми ключи перед выходом.", "zh": "出门以前把钥匙拿上。", "zh_tr": "Chūmén yǐqián bǎ yàoshi ná shàng."}
+    },
+    {
+      "fr": "mettre", "en": "to put", "km": "ដាក់", "tr": "dak",
+      "es": "poner", "it": "mettere", "ru": "класть", "zh": "放", "zh_tr": "fàng", "pos": "verbe",
+      "note": {
+        "fr": "ដាក់, « mettre, poser », sert aussi pour ajouter un ingrédient : ដាក់ស្ករ, « mettre du sucre ». Pour ranger ou garder, on dit ទុក.",
+        "en": "ដាក់, “to put, to place”, also adds an ingredient: ដាក់ស្ករ, “to add sugar”. To put away or keep, say ទុក. French « mettre » also means “to put on” clothes: mettre un chapeau.",
+        "km": "« mettre » មានន័យថា ដាក់ ហើយក៏មានន័យថា ពាក់ ដែរ៖ mettre un chapeau។ អង់គ្លេស៖ « to put »; « to put on » សម្រាប់ខោអាវ។"
+      },
+      "example": {"fr": "Mets le lait dans le réfrigérateur.", "en": "Put the milk in the fridge.", "km": "ដាក់ទឹកដោះគោក្នុងទូទឹកកក។", "tr": "dak teuk dâh kô knong tou teuk kâk.",
+      "es": "Pon la leche en la nevera.", "it": "Metti il latte in frigorifero.", "ru": "Поставь молоко в холодильник.", "zh": "把牛奶放进冰箱。", "zh_tr": "Bǎ niúnǎi fàng jìn bīngxiāng."}
+    },
+    {
+      "fr": "ouvrir", "en": "to open", "km": "បើក", "tr": "baeuk",
+      "es": "abrir", "it": "aprire", "ru": "открывать", "zh": "打开", "zh_tr": "dǎkāi", "pos": "verbe",
+      "note": {
+        "fr": "បើក, « ouvrir », veut aussi dire « allumer » et « conduire » : បើកភ្លើង, « allumer la lumière » ; បើកឡាន, « conduire une voiture ».",
+        "en": "បើក, “to open”, also means “to switch on” and “to drive”: បើកភ្លើង, “to turn on the light”; បើកឡាន, “to drive a car”. French « ouvrir »: j'ouvre; « allumer » for a light.",
+        "km": "« ouvrir » មានន័យថា បើក (ទ្វារ, បង្អួច)។ សម្រាប់ភ្លើង គេប្រើ « allumer »។ អង់គ្លេស៖ « to open »; « to turn on » សម្រាប់ភ្លើង។"
+      },
+      "example": {"fr": "Le magasin ouvre à huit heures.", "en": "The shop opens at eight o'clock.", "km": "ហាងបើកម៉ោងប្រាំបី។", "tr": "hang baeuk maong pram-bey.",
+      "es": "La tienda abre a las ocho.", "it": "Il negozio apre alle otto.", "ru": "Магазин открывается в восемь часов.", "zh": "商店八点开门。", "zh_tr": "Shāngdiàn bā diǎn kāimén."}
+    },
+    {
+      "fr": "fermer", "en": "to close", "km": "បិទ", "tr": "bet",
+      "es": "cerrar", "it": "chiudere", "ru": "закрывать", "zh": "关", "zh_tr": "guān", "pos": "verbe",
+      "note": {
+        "fr": "បិទ, « fermer », veut aussi dire « éteindre » : បិទភ្លើង, « éteindre la lumière ». Fermer à clé se dit ចាក់សោ.",
+        "en": "បិទ, “to close”, also means “to switch off”: បិទភ្លើង, “to turn off the light”. To lock is ចាក់សោ. French « fermer »; « éteindre » for a light, « fermer à clé » for “to lock”.",
+        "km": "« fermer » មានន័យថា បិទ (ទ្វារ)។ សម្រាប់ភ្លើង គេប្រើ « éteindre »។ អង់គ្លេស៖ « to close », « to shut »; « to turn off » សម្រាប់ភ្លើង។"
+      },
+      "example": {"fr": "N'oublie pas de fermer la porte.", "en": "Don't forget to close the door.", "km": "កុំភ្លេចបិទទ្វារ។", "tr": "kom phlétch bet tvéa.",
+      "es": "No olvides cerrar la puerta.", "it": "Non dimenticare di chiudere la porta.", "ru": "Не забудь закрыть дверь.", "zh": "别忘了关门。", "zh_tr": "Bié wàng le guān mén."}
+    },
+    {
+      "fr": "tenir", "en": "to hold", "km": "កាន់", "tr": "kan",
+      "es": "sujetar", "it": "tenere", "ru": "держать", "zh": "拿着", "zh_tr": "názhe", "pos": "verbe",
+      "note": {
+        "fr": "កាន់, « tenir dans la main ». កាន់ដៃ, « se tenir la main » ; ជួយកាន់, « aider à porter ».",
+        "en": "កាន់, “to hold in your hand”. កាន់ដៃ, “to hold hands”; ជួយកាន់, “to help carry”. French « tenir » is irregular: je tiens, nous tenons.",
+        "km": "« tenir » មានន័យថា កាន់៖ je tiens, nous tenons។ អង់គ្លេស៖ « to hold »; កិរិយាសព្ទមិនទៀង៖ hold, held។"
+      },
+      "example": {"fr": "Tiens mon sac une minute, s'il te plaît.", "en": "Hold my bag for a minute, please.", "km": "ជួយកាន់កាបូបខ្ញុំមួយភ្លែត។", "tr": "tchouoy kan ka-boup khgnom mouy phlèt.",
+      "es": "Sujétame el bolso un momento, por favor.", "it": "Tienimi la borsa un attimo, per favore.", "ru": "Подержи мою сумку минутку, пожалуйста.", "zh": "请帮我拿一下包。", "zh_tr": "Qǐng bāng wǒ ná yíxià bāo."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Passe-moi le sel, s'il te plaît.", "en": "Pass me the salt, please.", "km": "សុំហុចអំបិលឱ្យខ្ញុំផង។", "tr": "som hotch âm-bel aoy khgnom phâng.",
+      "es": "Pásame la sal, por favor.", "it": "Passami il sale, per favore.", "ru": "Передай мне соль, пожалуйста.", "zh": "请把盐递给我。", "zh_tr": "Qǐng bǎ yán dì gěi wǒ.",
+      "note": {
+        "fr": "ហុច, « tendre, passer de la main à la main ». ផង en fin de phrase adoucit la demande, comme « s'il te plaît ».",
+        "en": "ហុច, “to hand over”. ផង at the end softens the request, like “please”. French « passer » here means “to pass, to hand”.",
+        "km": "« Passe-moi… » មានន័យថា ហុច…ឱ្យខ្ញុំ។ អង់គ្លេស៖ « Pass me the salt, please »។"
+      }
+    },
+    {
+      "fr": "Allume la lumière.", "en": "Turn on the light.", "km": "បើកភ្លើងផង។", "tr": "baeuk phleung phâng.",
+      "es": "Enciende la luz.", "it": "Accendi la luce.", "ru": "Включи свет.", "zh": "把灯打开。", "zh_tr": "Bǎ dēng dǎkāi.",
+      "note": {
+        "fr": "បើកភ្លើង, mot à mot « ouvrir le feu » : allumer la lumière. ភ្លើង désigne le feu, la lumière et le courant.",
+        "en": "បើកភ្លើង, literally “open the fire”: to turn on the light. ភ្លើង covers fire, light and electricity. French « allumer »: allume la lumière.",
+        "km": "« allumer » មានន័យថា បើក (ភ្លើង, ទូរទស្សន៍)។ អង់គ្លេស៖ « to turn on », « to switch on »។"
+      }
+    },
+    {
+      "fr": "Éteins le ventilateur.", "en": "Turn off the fan.", "km": "បិទកង្ហារផង។", "tr": "bet kâng-ha phâng.",
+      "es": "Apaga el ventilador.", "it": "Spegni il ventilatore.", "ru": "Выключи вентилятор.", "zh": "把风扇关掉。", "zh_tr": "Bǎ fēngshàn guāndiào.",
+      "note": {
+        "fr": "បិទ, « fermer », sert pour éteindre. កង្ហារ, « ventilateur », indispensable à la saison chaude.",
+        "en": "បិទ, “to close”, is used for switching off. កង្ហារ, “fan”, a must in the hot season. French « éteindre »: éteins, with a silent s.",
+        "km": "« éteindre » មានន័យថា បិទ (ភ្លើង, កង្ហារ)៖ Éteins la lumière។ អង់គ្លេស៖ « to turn off », « to switch off »។"
+      }
+    },
+    {
+      "fr": "Je peux prendre ça ?", "en": "Can I take this?", "km": "ខ្ញុំយកនេះបានទេ?", "tr": "khgnom yok nih ban té ?",
+      "es": "¿Puedo coger esto?", "it": "Posso prendere questo?", "ru": "Можно это взять?", "zh": "我可以拿这个吗？", "zh_tr": "Wǒ kěyǐ ná zhège ma?",
+      "note": {
+        "fr": "…បានទេ?, « est-ce possible ? », demande la permission. On répond បាន, « oui, vas-y », ou អត់បានទេ, « non ».",
+        "en": "…បានទេ?, “is it possible?”, asks permission. The answer is បាន, “yes, go ahead”, or អត់បានទេ, “no”. French « Je peux… ? » is the everyday way to ask.",
+        "km": "« Je peux… ? » ប្រើសុំការអនុញ្ញាត៖ Je peux prendre ça ?។ អង់គ្លេស៖ « Can I take this? »; គួរសមជាង៖ « May I…? »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Avant de sortir", "en": "Before going out", "km": "មុនពេលចេញពីផ្ទះ"},
+      "fr": "Avant de partir, ferme les fenêtres et éteins la climatisation.", "en": "Before you leave, close the windows and turn off the air conditioning.",
+      "km": "មុនពេលចេញ បិទបង្អួច ហើយបិទម៉ាស៊ីនត្រជាក់ផង។", "tr": "moun pél tchégn, bet bâng-ouotch haeuy bet ma-sin trâ-tchéak phâng.",
+      "es": "Antes de salir, cierra las ventanas y apaga el aire acondicionado.", "it": "Prima di uscire, chiudi le finestre e spegni l'aria condizionata.", "ru": "Перед уходом закрой окна и выключи кондиционер.", "zh": "出门以前，把窗户关上，把空调关掉。", "zh_tr": "Chūmén yǐqián, bǎ chuānghu guānshàng, bǎ kōngtiáo guāndiào."
+    },
+    {
+      "situation": {"fr": "Les bonnes manières", "en": "Good manners", "km": "សុជីវធម៌"},
+      "fr": "On donne un objet à un aîné avec les deux mains.", "en": "You hand something to an elder with both hands.",
+      "km": "គេហុចរបស់ឱ្យចាស់ទុំដោយដៃទាំងពីរ។", "tr": "ké hotch ro-bâh aoy tchah toum daoy day téang pi.",
+      "es": "A una persona mayor se le dan las cosas con las dos manos.", "it": "A una persona anziana si porgono le cose con tutte e due le mani.", "ru": "Старшим вещи подают двумя руками.", "zh": "给长辈递东西要用双手。", "zh_tr": "Gěi zhǎngbèi dì dōngxi yào yòng shuāngshǒu."
+    },
+    {
+      "situation": {"fr": "En rentrant du marché", "en": "Coming back from the market", "km": "ត្រឡប់មកពីផ្សារ"},
+      "fr": "Je tiens le sac, ouvre la porte.", "en": "I'll hold the bag, you open the door.",
+      "km": "ខ្ញុំកាន់ថង់ អ្នកបើកទ្វារទៅ។", "tr": "khgnom kan thâng, néak baeuk tvéa teuv.",
+      "es": "Yo sujeto la bolsa, tú abre la puerta.", "it": "Io tengo la borsa, tu apri la porta.", "ru": "Я держу сумку, а ты открой дверь.", "zh": "我拿着袋子，你开门吧。", "zh_tr": "Wǒ názhe dàizi, nǐ kāi mén ba."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} rentrent du marché, les bras chargés.", "en": "{A} and {B} come home from the market with their arms full.", "km": "{A} និង {B} ត្រឡប់មកពីផ្សារ កាន់របស់ពេញដៃ។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, ouvre la porte, s'il te plaît. J'ai les mains pleines.", "en": "{B}, open the door, please. My hands are full.", "km": "{B} ជួយបើកទ្វារផង។ ដៃខ្ញុំជាប់កាន់របស់។", "tr": "{B}, tchouoy baeuk tvéa phâng. day khgnom tchoap kan ro-bâh.",
+        "es": "{B}, abre la puerta, por favor. Tengo las manos ocupadas.", "it": "{B}, apri la porta, per favore. Ho le mani occupate.", "ru": "{B}, открой, пожалуйста, дверь. У меня руки заняты.", "zh": "{B}，请开一下门。我手里拿着东西。", "zh_tr": "{B}, qǐng kāi yíxià mén. Wǒ shǒu lǐ názhe dōngxi."},
+      {"speaker": "B", "fr": "Attends, je prends la clé… Voilà, entre !", "en": "Wait, I'll get the key… There, come in!", "km": "ចាំបន្តិច ខ្ញុំយកកូនសោសិន… បើកហើយ ចូលមក!", "tr": "tcham bân-tetch, khgnom yok kôn sao sen… baeuk haeuy, tchôl mok !",
+        "es": "Espera, cojo la llave… ¡Ya está, entra!", "it": "Aspetta, prendo la chiave… Ecco, entra!", "ru": "Подожди, я возьму ключ… Вот, заходи!", "zh": "等一下，我拿钥匙……开了，进来吧！", "zh_tr": "Děng yíxià, wǒ ná yàoshi… Kāi le, jìnlái ba!"},
+      {"speaker": "A", "fr": "Merci. Je mets les légumes où ?", "en": "Thanks. Where do I put the vegetables?", "km": "អរគុណ។ បន្លែដាក់នៅឯណា?", "tr": "â-koun. bân-laè dak neuv aè na ?",
+        "es": "Gracias. ¿Dónde pongo las verduras?", "it": "Grazie. Dove metto le verdure?", "ru": "Спасибо. Куда положить овощи?", "zh": "谢谢。蔬菜放在哪儿？", "zh_tr": "Xièxie. Shūcài fàng zài nǎr?"},
+      {"speaker": "B", "fr": "Mets-les sur la table. Donne-moi le poisson, je le mets au frais.", "en": "Put them on the table. Give me the fish, I'll put it in the fridge.", "km": "ដាក់លើតុទៅ។ ឱ្យត្រីមកខ្ញុំ ខ្ញុំដាក់ក្នុងទូទឹកកក។", "tr": "dak leu tok teuv. aoy trey mok khgnom, khgnom dak knong tou teuk kâk.",
+        "es": "Ponlas sobre la mesa. Dame el pescado, lo pongo en la nevera.", "it": "Mettile sul tavolo. Dammi il pesce, lo metto in frigorifero.", "ru": "Положи их на стол. Дай мне рыбу, я положу её в холодильник.", "zh": "放在桌子上吧。把鱼给我，我放进冰箱。", "zh_tr": "Fàng zài zhuōzi shàng ba. Bǎ yú gěi wǒ, wǒ fàng jìn bīngxiāng."},
+      {"speaker": "A", "fr": "Il fait chaud ici ! Tu peux allumer le ventilateur ?", "en": "It's hot in here! Can you turn on the fan?", "km": "នៅទីនេះក្តៅណាស់! ជួយបើកកង្ហារបានទេ?", "tr": "neuv ti-nih kdav nah ! tchouoy baeuk kâng-ha ban té ?",
+        "es": "¡Qué calor hace aquí! ¿Puedes encender el ventilador?", "it": "Che caldo qui! Puoi accendere il ventilatore?", "ru": "Как здесь жарко! Можешь включить вентилятор?", "zh": "这里真热！你能开一下风扇吗？", "zh_tr": "Zhèlǐ zhēn rè! Nǐ néng kāi yíxià fēngshàn ma?"},
+      {"speaker": "B", "fr": "Oui, et je ferme la fenêtre : il y a trop de soleil.", "en": "Sure, and I'll close the window: there's too much sun.", "km": "{B_yes} បាន។ ហើយខ្ញុំបិទបង្អួច ព្រោះថ្ងៃក្តៅពេក។", "tr": "{B_yes}, ban. haeuy khgnom bet bâng-ouotch, prouh thngay kdav pék.",
+        "es": "Sí, y cierro la ventana: hay demasiado sol.", "it": "Sì, e chiudo la finestra: c'è troppo sole.", "ru": "Да, и я закрою окно: слишком сильное солнце.", "zh": "好，我把窗户也关上，太阳太晒了。", "zh_tr": "Hǎo, wǒ bǎ chuānghu yě guānshàng, tàiyáng tài shài le."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où met-on le poisson ?", "en": "Where does the fish go?", "km": "ត្រីដាក់នៅឯណា?"},
+    "answer": {"fr": "Dans le réfrigérateur.", "en": "In the fridge.", "km": "ក្នុងទូទឹកកក។"}
+  }
+}

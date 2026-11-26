@@ -1,0 +1,159 @@
+{
+  "id": "u077",
+  "order": 77,
+  "level": "intermediaire",
+  "theme": "l-argent-et-la-banque",
+  "title": {"fr": "L'argent et la banque", "en": "Money and the bank", "km": "លុយ និងធនាគារ"},
+  "tip": {
+    "fr": "Au Cambodge, deux monnaies circulent ensemble : le dollar pour les grosses sommes, le riel pour les petites. Les prix en riels se disent en milliers : បួនពាន់, « quatre mille », ប្រាំម៉ឺន, « cinquante mille ». Revoyez les grands nombres avant d'aller au marché !",
+    "en": "Two currencies circulate side by side in Cambodia: dollars for large amounts, riels for small ones. Riel prices come in thousands: បួនពាន់, “four thousand”, ប្រាំម៉ឺន, “fifty thousand”. In French, « l'argent » is money in general and « la monnaie » is change or coins.",
+    "km": "ភាសាបារាំង « l'argent » មានន័យថា លុយ ហើយ « la monnaie » មានន័យថា លុយអាប់ ឬ លុយរាយ។ អង់គ្លេស « money » គឺលុយ ហើយ « change » គឺលុយអាប់។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le compte", "en": "account", "km": "គណនី", "tr": "kâ-nâ-ni",
+      "es": "la cuenta", "it": "il conto", "ru": "счёт", "zh": "账户", "zh_tr": "zhànghù", "pos": "nom",
+      "note": {
+        "fr": "គណនី, « compte ». គណនីធនាគារ, « compte bancaire » ; លេខគណនី, « numéro de compte ».",
+        "en": "គណនី, “account”. គណនីធនាគារ, “bank account”; លេខគណនី, “account number”. French « le compte »; the verb « compter » means “to count”.",
+        "km": "« le compte » មានន័យថា គណនី; « le compte bancaire » គឺគណនីធនាគារ។ អង់គ្លេស៖ « account », « bank account »។"
+      },
+      "example": {"fr": "J'ai un compte dans cette banque.", "en": "I have an account at this bank.", "km": "ខ្ញុំមានគណនីនៅធនាគារនេះ។", "tr": "khgnom méan kâ-nâ-ni neuv thô-néa-kéa nih.",
+      "es": "Tengo una cuenta en este banco.", "it": "Ho un conto in questa banca.", "ru": "У меня есть счёт в этом банке.", "zh": "我在这家银行有账户。", "zh_tr": "Wǒ zài zhè jiā yínháng yǒu zhànghù."}
+    },
+    {
+      "fr": "retirer", "en": "to withdraw", "km": "ដកលុយ", "tr": "dâk louy",
+      "es": "sacar dinero", "it": "prelevare", "ru": "снимать деньги", "zh": "取钱", "zh_tr": "qǔ qián", "pos": "verbe",
+      "note": {
+        "fr": "ដក, « retirer, enlever », et លុយ, « argent ». Le contraire est ដាក់លុយ, « déposer de l'argent ». Le distributeur se dit ម៉ាស៊ីនអេធីអឹម.",
+        "en": "ដក, “to pull out”, and លុយ, “money”. The opposite is ដាក់លុយ, “to deposit money”. A cash machine is ម៉ាស៊ីនអេធីអឹម. French « retirer de l'argent »; the machine is « le distributeur ».",
+        "km": "« retirer de l'argent » មានន័យថា ដកលុយ; « déposer » មានន័យថា ដាក់លុយ។ អង់គ្លេស៖ « to withdraw money », « to take out money »។"
+      },
+      "example": {"fr": "Il retire de l'argent au distributeur.", "en": "He is withdrawing money from the cash machine.", "km": "គាត់ដកលុយពីម៉ាស៊ីនអេធីអឹម។", "tr": "koat dâk louy pi ma-sin é-thi-eum.",
+      "es": "Saca dinero del cajero.", "it": "Preleva dei soldi al bancomat.", "ru": "Он снимает деньги в банкомате.", "zh": "他在取款机取钱。", "zh_tr": "Tā zài qǔkuǎnjī qǔ qián."}
+    },
+    {
+      "fr": "changer", "en": "to exchange", "km": "ប្តូរ", "tr": "pdou",
+      "es": "cambiar", "it": "cambiare", "ru": "менять", "zh": "换", "zh_tr": "huàn", "pos": "verbe",
+      "note": {
+        "fr": "ប្តូរ, « changer, échanger ». ប្តូរលុយ, « changer de l'argent » ; ប្តូរខោអាវ, « se changer ». Les changeurs se trouvent souvent près des marchés.",
+        "en": "ប្តូរ, “to change, to swap”. ប្តូរលុយ, “to change money”; ប្តូរខោអាវ, “to change clothes”. Money changers are often found near markets. French « changer de l'argent ».",
+        "km": "« changer » មានន័យថា ប្តូរ៖ changer de l'argent (ប្តូរលុយ), changer d'avis (ប្តូរចិត្ត)។ អង់គ្លេស៖ « to change », « to exchange »។"
+      },
+      "example": {"fr": "On peut changer de l'argent près du marché.", "en": "You can change money near the market.", "km": "គេអាចប្តូរលុយនៅជិតផ្សារ។", "tr": "ké atch pdou louy neuv tchit phsa.",
+      "es": "Se puede cambiar dinero cerca del mercado.", "it": "Si possono cambiare i soldi vicino al mercato.", "ru": "Деньги можно поменять возле рынка.", "zh": "市场附近可以换钱。", "zh_tr": "Shìchǎng fùjìn kěyǐ huàn qián."}
+    },
+    {
+      "fr": "le riel", "en": "riel", "km": "រៀល", "tr": "riel",
+      "es": "el riel", "it": "il riel", "ru": "риель", "zh": "瑞尔", "zh_tr": "ruì'ěr", "pos": "nom",
+      "note": {
+        "fr": "រៀល, la monnaie du Cambodge. Un dollar vaut environ quatre mille riels ; on rend souvent la petite monnaie en riels, même quand on paie en dollars.",
+        "en": "រៀល, Cambodia's currency. One dollar is about four thousand riels; small change usually comes back in riels, even when you pay in dollars. French « le riel », plural « les riels ».",
+        "km": "« le riel » គឺប្រាក់រៀល។ នៅប្រទេសបារាំង គេប្រើ « l'euro »។ អង់គ្លេស៖ « riel »; នៅអាមេរិក គេប្រើ « dollar »។"
+      },
+      "example": {"fr": "Un dollar vaut environ quatre mille riels.", "en": "One dollar is worth about four thousand riels.", "km": "មួយដុល្លារស្មើនឹងប្រហែលបួនពាន់រៀល។", "tr": "mouy dol-la smaeu neung prâ-haèl bouon poan riel.",
+      "es": "Un dólar equivale a unos cuatro mil rieles.", "it": "Un dollaro vale circa quattromila riel.", "ru": "Один доллар равен примерно четырём тысячам риелей.", "zh": "一美元大约等于四千瑞尔。", "zh_tr": "Yì měiyuán dàyuē děngyú sìqiān ruì'ěr."}
+    },
+    {
+      "fr": "la monnaie", "en": "change", "km": "លុយអាប់", "tr": "louy ap",
+      "es": "el cambio", "it": "il resto", "ru": "сдача", "zh": "零钱", "zh_tr": "língqián", "pos": "nom",
+      "note": {
+        "fr": "អាប់, « rendre la monnaie » ; លុយអាប់, « la monnaie rendue ». La petite monnaie se dit លុយរាយ : អត់មានលុយរាយទេ, « je n'ai pas de monnaie ».",
+        "en": "អាប់, “to give change”; លុយអាប់, “the change you get back”. Small change is លុយរាយ: អត់មានលុយរាយទេ, “I have no change”. French « rendre la monnaie » means “to give change”.",
+        "km": "« la monnaie » មានន័យថា លុយអាប់ ឬ លុយរាយ; « rendre la monnaie » មានន័យថា អាប់លុយ។ អង់គ្លេស៖ « change »។"
+      },
+      "example": {"fr": "Le vendeur me rend la monnaie en riels.", "en": "The seller gives me my change in riels.", "km": "អ្នកលក់អាប់លុយឱ្យខ្ញុំជាលុយរៀល។", "tr": "néak lok ap louy aoy khgnom tchéa louy riel.",
+      "es": "El vendedor me da el cambio en rieles.", "it": "Il venditore mi dà il resto in riel.", "ru": "Продавец даёт мне сдачу в риелях.", "zh": "卖东西的人用瑞尔找给我零钱。", "zh_tr": "Mài dōngxi de rén yòng ruì'ěr zhǎo gěi wǒ língqián."}
+    },
+    {
+      "fr": "économiser", "en": "to save", "km": "សន្សំលុយ", "tr": "sân-sâm louy",
+      "es": "ahorrar", "it": "risparmiare", "ru": "копить", "zh": "存钱", "zh_tr": "cún qián", "pos": "verbe",
+      "note": {
+        "fr": "សន្សំ, « mettre de côté petit à petit ». សន្សំលុយ, « économiser de l'argent ». Pour dépenser moins, on dit សំចៃ, « être économe ».",
+        "en": "សន្សំ, “to put aside little by little”. សន្សំលុយ, “to save money”. To spend less is សំចៃ, “to be thrifty”. French « économiser » or « mettre de l'argent de côté ».",
+        "km": "« économiser » មានន័យថា សន្សំលុយ ឬ សំចៃ។ អង់គ្លេស៖ « to save money », « to save up for »។"
+      },
+      "example": {"fr": "Elle économise pour acheter une moto.", "en": "She is saving up to buy a motorbike.", "km": "គាត់សន្សំលុយដើម្បីទិញម៉ូតូ។", "tr": "koat sân-sâm louy daeum-bey tign mô-tô.",
+      "es": "Ahorra para comprarse una moto.", "it": "Risparmia per comprare una moto.", "ru": "Она копит на мотоцикл.", "zh": "她在存钱买摩托车。", "zh_tr": "Tā zài cún qián mǎi mótuōchē."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Gardez la monnaie.", "en": "Keep the change.", "km": "មិនបាច់អាប់ទេ។", "tr": "min batch ap té.",
+      "es": "Quédese con el cambio.", "it": "Tenga il resto.", "ru": "Сдачи не надо.", "zh": "不用找了。", "zh_tr": "Búyòng zhǎo le.",
+      "note": {
+        "fr": "មិនបាច់, « pas besoin de » ; អាប់, « rendre la monnaie » : « pas la peine de rendre ». Un petit geste apprécié du chauffeur de tuk-tuk.",
+        "en": "មិនបាច់, “no need to”; អាប់, “to give change”: “no need to give change”. A small gesture tuk-tuk drivers appreciate. French « Gardez la monnaie ».",
+        "km": "« Gardez la monnaie » មានន័យថា មិនបាច់អាប់ទេ។ អង់គ្លេស៖ « Keep the change »។"
+      }
+    },
+    {
+      "fr": "Vous avez de la monnaie ?", "en": "Do you have change?", "km": "មានលុយអាប់ទេ?", "tr": "méan louy ap té ?",
+      "es": "¿Tiene cambio?", "it": "Ha il resto?", "ru": "У вас есть сдача?", "zh": "您有零钱吗？", "zh_tr": "Nín yǒu língqián ma?",
+      "note": {
+        "fr": "À demander avant de tendre un gros billet. On répond មាន, « oui », ou អត់មានទេ, « non ».",
+        "en": "Ask before handing over a big note. The answer is មាន, “yes”, or អត់មានទេ, “no”. French « Vous avez de la monnaie ? ».",
+        "km": "« Vous avez de la monnaie ? » ប្រើសួរថា មានលុយអាប់ទេ។ អង់គ្លេស៖ « Do you have change? »។"
+      }
+    },
+    {
+      "fr": "Je peux payer avec le téléphone ?", "en": "Can I pay by phone?", "km": "ស្កេនបង់លុយបានទេ?", "tr": "skén bâng louy ban té ?",
+      "es": "¿Puedo pagar con el móvil?", "it": "Posso pagare con il telefono?", "ru": "Можно оплатить телефоном?", "zh": "可以用手机付钱吗？", "zh_tr": "Kěyǐ yòng shǒujī fù qián ma?",
+      "note": {
+        "fr": "ស្កេន vient de l'anglais « scan ». Au Cambodge, on paie presque partout en scannant un code avec l'application de sa banque, même au marché.",
+        "en": "ស្កេន comes from English “scan”. In Cambodia you can pay almost anywhere by scanning a code with your bank's app, even at the market. French « payer avec le téléphone ».",
+        "km": "« payer avec le téléphone » មានន័យថា បង់លុយតាមទូរស័ព្ទ។ អង់គ្លេស៖ « Can I pay by phone? »។"
+      }
+    },
+    {
+      "fr": "Je n'ai pas de liquide.", "en": "I don't have any cash.", "km": "ខ្ញុំអត់មានលុយសុទ្ធទេ។", "tr": "khgnom ât méan louy sot té.",
+      "es": "No llevo efectivo.", "it": "Non ho contanti.", "ru": "У меня нет наличных.", "zh": "我没有现金。", "zh_tr": "Wǒ méiyǒu xiànjīn.",
+      "note": {
+        "fr": "លុយសុទ្ធ, mot à mot « argent pur » : l'argent liquide. Plus formel : សាច់ប្រាក់.",
+        "en": "លុយសុទ្ធ, literally “pure money”: cash. More formal: សាច់ប្រាក់. French « le liquide » or « les espèces ».",
+        "km": "« le liquide » ឬ « les espèces » មានន័យថា លុយសុទ្ធ។ អង់គ្លេស៖ « cash »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À la banque", "en": "At the bank", "km": "នៅធនាគារ"},
+      "fr": "Je voudrais déposer deux cents dollars sur mon compte.", "en": "I'd like to pay two hundred dollars into my account.",
+      "km": "ខ្ញុំចង់ដាក់លុយពីររយដុល្លារចូលគណនី។", "tr": "khgnom tchâng dak louy pi roy dol-la tchôl kâ-nâ-ni.",
+      "es": "Quisiera ingresar doscientos dólares en mi cuenta.", "it": "Vorrei versare duecento dollari sul mio conto.", "ru": "Я хотел бы положить двести долларов на счёт.", "zh": "我想往账户里存两百美元。", "zh_tr": "Wǒ xiǎng wǎng zhànghù lǐ cún liǎngbǎi měiyuán."
+    },
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Désolé, je n'ai qu'un billet de cinquante dollars.", "en": "Sorry, I only have a fifty-dollar note.",
+      "km": "សុំទោស ខ្ញុំមានតែក្រដាសហាសិបដុល្លារ។", "tr": "som toh, khgnom méan taè krâ-dah ha-sep dol-la.",
+      "es": "Lo siento, solo tengo un billete de cincuenta dólares.", "it": "Mi dispiace, ho solo una banconota da cinquanta dollari.", "ru": "Извините, у меня только купюра в пятьдесят долларов.", "zh": "对不起，我只有一张五十美元的钞票。", "zh_tr": "Duìbuqǐ, wǒ zhǐ yǒu yì zhāng wǔshí měiyuán de chāopiào."
+    },
+    {
+      "situation": {"fr": "En famille", "en": "In the family", "km": "ក្នុងគ្រួសារ"},
+      "fr": "Chaque mois, nous économisons un peu pour les études des enfants.", "en": "Every month, we save a little for the children's education.",
+      "km": "រាល់ខែ យើងសន្សំលុយបន្តិចសម្រាប់ការសិក្សារបស់កូន។", "tr": "roal khaè, yeung sân-sâm louy bân-tetch sâm-rap ka sek-sa ro-bâh kôn.",
+      "es": "Cada mes ahorramos un poco para los estudios de los niños.", "it": "Ogni mese risparmiamo un po' per gli studi dei figli.", "ru": "Каждый месяц мы понемногу копим на учёбу детей.", "zh": "每个月我们都存一点钱，给孩子们上学用。", "zh_tr": "Měi ge yuè wǒmen dōu cún yìdiǎn qián, gěi háizimen shàngxué yòng."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} n'a plus de riels. {A} explique comment faire.", "en": "{B} has run out of riels. {A} explains what to do.", "km": "{B} អស់លុយរៀល។ {A} ប្រាប់ពីរបៀបធ្វើ។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, je n'ai plus de riels. Où est-ce que je peux changer de l'argent ?", "en": "{A}, I've run out of riels. Where can I change money?", "km": "{A} ខ្ញុំអស់លុយរៀលហើយ។ ប្តូរលុយនៅឯណាបាន?", "tr": "{A}, khgnom âh louy riel haeuy. pdou louy neuv aè na ban ?",
+        "es": "{A}, me he quedado sin rieles. ¿Dónde puedo cambiar dinero?", "it": "{A}, non ho più riel. Dove posso cambiare i soldi?", "ru": "{A}, у меня закончились риели. Где можно поменять деньги?", "zh": "{A}，我的瑞尔用完了。哪儿可以换钱？", "zh_tr": "{A}, wǒ de ruì'ěr yòngwán le. Nǎr kěyǐ huàn qián?"},
+      {"speaker": "A", "fr": "Près du marché. Mais tu as un compte ici, non ?", "en": "Near the market. But you have an account here, don't you?", "km": "នៅជិតផ្សារ។ ប៉ុន្តែ {B} មានគណនីនៅទីនេះ មែនទេ?", "tr": "neuv tchit phsa. pon-taè {B} méan kâ-nâ-ni neuv ti-nih, mèn té ?",
+        "es": "Cerca del mercado. Pero tienes una cuenta aquí, ¿no?", "it": "Vicino al mercato. Ma hai un conto qui, no?", "ru": "Возле рынка. Но у тебя ведь есть здесь счёт?", "zh": "市场附近。不过你在这儿有账户，对吧？", "zh_tr": "Shìchǎng fùjìn. Búguò nǐ zài zhèr yǒu zhànghù, duì ba?"},
+      {"speaker": "B", "fr": "Oui, mais je retire toujours des dollars.", "en": "Yes, but I always withdraw dollars.", "km": "{B_yes} ប៉ុន្តែខ្ញុំតែងតែដកលុយដុល្លារ។", "tr": "{B_yes}, pon-taè khgnom taèng-taè dâk louy dol-la.",
+        "es": "Sí, pero siempre saco dólares.", "it": "Sì, ma prelevo sempre dollari.", "ru": "Да, но я всегда снимаю доллары.", "zh": "有，可是我总是取美元。", "zh_tr": "Yǒu, kěshì wǒ zǒngshì qǔ měiyuán."},
+      {"speaker": "A", "fr": "Au distributeur, tu peux aussi retirer des riels. Ou payer avec le téléphone.", "en": "At the cash machine you can withdraw riels too. Or pay by phone.", "km": "នៅម៉ាស៊ីនអេធីអឹម ដកលុយរៀលក៏បានដែរ។ ឬស្កេនបង់លុយតាមទូរស័ព្ទ។", "tr": "neuv ma-sin é-thi-eum, dâk louy riel kâ ban daè. reu skén bâng louy tam tou-ro-sap.",
+        "es": "En el cajero también puedes sacar rieles. O pagar con el móvil.", "it": "Al bancomat puoi prelevare anche riel. Oppure pagare con il telefono.", "ru": "В банкомате можно снять и риели. Или платить телефоном.", "zh": "在取款机也可以取瑞尔。或者用手机付钱。", "zh_tr": "Zài qǔkuǎnjī yě kěyǐ qǔ ruì'ěr. Huòzhě yòng shǒujī fù qián."},
+      {"speaker": "B", "fr": "Même au marché ?", "en": "Even at the market?", "km": "សូម្បីតែនៅផ្សារក៏បាន?", "tr": "sôm-bey taè neuv phsa kâ ban ?",
+        "es": "¿Incluso en el mercado?", "it": "Anche al mercato?", "ru": "Даже на рынке?", "zh": "连市场也可以吗？", "zh_tr": "Lián shìchǎng yě kěyǐ ma?"},
+      {"speaker": "A", "fr": "Oui, partout ! Et comme ça, plus de problème de monnaie.", "en": "Yes, everywhere! And that way, no more trouble with change.", "km": "{A_yes} គ្រប់កន្លែង! ហើយអញ្ចឹង អត់មានបញ្ហាលុយអាប់ទៀតទេ។", "tr": "{A_yes}, kroup kân-laèng ! haeuy agn-tcheung, ât méan bagn-ha louy ap tiet té.",
+        "es": "¡Sí, en todas partes! Y así se acabó el problema del cambio.", "it": "Sì, dappertutto! E così niente più problemi con il resto.", "ru": "Да, везде! И тогда никаких проблем со сдачей.", "zh": "对，到处都可以！这样就不用担心零钱了。", "zh_tr": "Duì, dàochù dōu kěyǐ! Zhèyàng jiù búyòng dānxīn língqián le."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où peut-on changer de l'argent ?", "en": "Where can you change money?", "km": "ប្តូរលុយនៅឯណាបាន?"},
+    "answer": {"fr": "Près du marché.", "en": "Near the market.", "km": "នៅជិតផ្សារ។"}
+  }
+}

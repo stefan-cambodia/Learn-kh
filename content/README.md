@@ -260,6 +260,16 @@ Les trois premières unités servent de modèle de ton et de niveau de détail.
 | u068 | `les-papiers` | Les papiers | remplir, signer, la carte d'identité, le visa, le bureau, la photocopie |
 | u069 | `les-plantes` | Les plantes et les fleurs | la fleur, planter, arroser, la feuille, pousser, l'herbe |
 | u070 | `les-compliments` | Les compliments | le compliment, féliciter, intelligent, doué, fier, réussir |
+| u071 | `les-cinq-sens` | Les cinq sens | voir, regarder, entendre, écouter, sentir, toucher |
+| u072 | `situer-les-choses` | Situer les choses | sur, sous, dans, devant, derrière, à côté de |
+| u073 | `les-gestes-du-quotidien` | Les gestes du quotidien | donner, prendre, mettre, ouvrir, fermer, tenir |
+| u074 | `les-mouvements` | Entrer, sortir, monter, descendre | entrer, sortir, monter, descendre, s'asseoir, se lever |
+| u075 | `relier-ses-idees` | Relier ses idées | parce que, mais, donc, si, d'abord, ensuite |
+| u076 | `la-duree` | Parler de la durée | depuis, pendant, longtemps, jusqu'à, tout de suite, un moment |
+| u077 | `l-argent-et-la-banque` | L'argent et la banque | le compte, retirer, changer, le riel, la monnaie, économiser |
+| u078 | `marchander` | Marchander | marchander, la réduction, gratuit, le client, le kilo, peser |
+| u079 | `le-ciel-et-la-nature` | Le ciel et la nature | le ciel, la lune, l'étoile, le nuage, la forêt, le lac |
+| u080 | `le-mariage` | Le mariage khmer | le mariage, la cérémonie, le marié, la mariée, la bague, l'enveloppe |
 
 Aux niveaux élémentaire et intermédiaire, les phrases s'allongent ; au niveau
 intermédiaire, le dialogue compte 6 à 8 répliques et les notes abordent les

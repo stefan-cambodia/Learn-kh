@@ -1,0 +1,159 @@
+{
+  "id": "u074",
+  "order": 74,
+  "level": "intermediaire",
+  "theme": "les-mouvements",
+  "title": {"fr": "Entrer, sortir, monter, descendre", "en": "In, out, up and down", "km": "ចូល ចេញ ឡើង ចុះ"},
+  "tip": {
+    "fr": "Les verbes de mouvement khmers se combinent avec ទៅ, « aller », et មក, « venir », pour dire si l'on s'éloigne ou si l'on se rapproche de celui qui parle : ចូលមក, « entre (ici) » ; ចេញទៅ, « sors (d'ici) » ; ឡើងមក, « monte (vers moi) ».",
+    "en": "Khmer motion verbs combine with ទៅ, “go”, and មក, “come”, to show whether you move away from or towards the speaker: ចូលមក, “come in”; ចេញទៅ, “go out”; ឡើងមក, “come up”. In French the passé composé of these verbs takes « être »: je suis entré, elle est sortie.",
+    "km": "ភាសាបារាំង៖ កិរិយាសព្ទ entrer, sortir, monter, descendre ប្រើ « être » នៅអតីតកាល៖ je suis entré, elle est sortie។ អង់គ្លេសបន្ថែម in, out, up, down៖ come in, go out, go up, go down។"
+  },
+  "vocabulary": [
+    {
+      "fr": "entrer", "en": "to go in", "km": "ចូល", "tr": "tchôl",
+      "es": "entrar", "it": "entrare", "ru": "входить", "zh": "进", "zh_tr": "jìn", "pos": "verbe",
+      "note": {
+        "fr": "ចូល, « entrer ». On précise la direction : ចូលមក, « entre » (vers moi) ; ចូលទៅ, « entre » (en s'éloignant). ចូលចិត្ត, « aimer », c'est « entrer dans le cœur ».",
+        "en": "ចូល, “to enter”. Direction is added: ចូលមក, “come in”; ចូលទៅ, “go in”. ចូលចិត្ត, “to like”, is literally “to enter the heart”. French « entrer dans »: entrer dans la maison.",
+        "km": "« entrer dans » មានន័យថា ចូលក្នុង៖ entrer dans la maison។ អង់គ្លេស៖ « to come in » (ចូលមក), « to go in » (ចូលទៅ)។"
+      },
+      "example": {"fr": "On enlève ses chaussures avant d'entrer.", "en": "You take off your shoes before going in.", "km": "គេដោះស្បែកជើងមុនពេលចូល។", "tr": "ké doh sbaèk tcheung moun pél tchôl.",
+      "es": "Hay que quitarse los zapatos antes de entrar.", "it": "Ci si toglie le scarpe prima di entrare.", "ru": "Перед тем как войти, снимают обувь.", "zh": "进门以前要脱鞋。", "zh_tr": "Jìn mén yǐqián yào tuō xié."}
+    },
+    {
+      "fr": "sortir", "en": "to go out", "km": "ចេញ", "tr": "tchégn",
+      "es": "salir", "it": "uscire", "ru": "выходить", "zh": "出去", "zh_tr": "chūqù", "pos": "verbe",
+      "note": {
+        "fr": "ចេញ, « sortir, partir ». ចេញពីផ្ទះ, « sortir de la maison » ; ចេញក្រៅ, « sortir dehors ». Après un verbe, il marque l'éloignement : ដោះចេញ, « enlever ».",
+        "en": "ចេញ, “to go out, to leave”. ចេញពីផ្ទះ, “to leave the house”; ចេញក្រៅ, “to go outside”. After a verb it shows removal: ដោះចេញ, “to take off”. French « sortir de »: je sors de la maison.",
+        "km": "« sortir de » មានន័យថា ចេញពី៖ je sors de la maison។ អង់គ្លេស៖ « to go out », « to leave »។"
+      },
+      "example": {"fr": "Il pleut, je ne sors pas.", "en": "It's raining, I'm not going out.", "km": "ភ្លៀងហើយ ខ្ញុំមិនចេញក្រៅទេ។", "tr": "phlieng haeuy, khgnom min tchégn krav té.",
+      "es": "Llueve, no salgo.", "it": "Piove, non esco.", "ru": "Идёт дождь, я не выхожу из дома.", "zh": "下雨了，我不出去了。", "zh_tr": "Xià yǔ le, wǒ bù chūqù le."}
+    },
+    {
+      "fr": "monter", "en": "to go up", "km": "ឡើង", "tr": "laeung",
+      "es": "subir", "it": "salire", "ru": "подниматься", "zh": "上去", "zh_tr": "shàngqù", "pos": "verbe",
+      "note": {
+        "fr": "ឡើង, « monter ». Sert aussi pour monter dans un véhicule : ឡើងឡាន ; et pour ce qui augmente : ឡើងថ្លៃ, « le prix monte ».",
+        "en": "ឡើង, “to go up”. Also for getting into a vehicle: ឡើងឡាន; and for anything rising: ឡើងថ្លៃ, “the price goes up”. French « monter dans le bus » means “to get on the bus”.",
+        "km": "« monter » មានន័យថា ឡើង៖ monter l'escalier, monter dans le bus។ អង់គ្លេស៖ « to go up »; « to get on » សម្រាប់ឡានក្រុង។"
+      },
+      "example": {"fr": "Nous montons sur la montagne à pied.", "en": "We walk up the mountain.", "km": "យើងដើរឡើងភ្នំ។", "tr": "yeung daeu laeung phnom.",
+      "es": "Subimos a la montaña a pie.", "it": "Saliamo sulla montagna a piedi.", "ru": "Мы поднимаемся на гору пешком.", "zh": "我们走路上山。", "zh_tr": "Wǒmen zǒulù shàng shān."}
+    },
+    {
+      "fr": "descendre", "en": "to go down", "km": "ចុះ", "tr": "tchoh",
+      "es": "bajar", "it": "scendere", "ru": "спускаться", "zh": "下去", "zh_tr": "xiàqù", "pos": "verbe",
+      "note": {
+        "fr": "ចុះ, « descendre ». ចុះពីឡាន, « descendre de voiture » ; ចុះថ្លៃ, « baisser le prix ». En début de question, ចុះ veut dire « et… ? ».",
+        "en": "ចុះ, “to go down”. ចុះពីឡាន, “to get out of the car”; ចុះថ្លៃ, “to lower the price”. At the start of a question, ចុះ means “and what about…?”. French « descendre de »: descendre du bus.",
+        "km": "« descendre » មានន័យថា ចុះ៖ descendre l'escalier, descendre du bus។ អង់គ្លេស៖ « to go down »; « to get off » សម្រាប់ឡានក្រុង។"
+      },
+      "example": {"fr": "Je descends au prochain arrêt.", "en": "I'm getting off at the next stop.", "km": "ខ្ញុំចុះនៅចំណតក្រោយ។", "tr": "khgnom tchoh neuv tchâm-nât kraoy.",
+      "es": "Me bajo en la próxima parada.", "it": "Scendo alla prossima fermata.", "ru": "Я выхожу на следующей остановке.", "zh": "我在下一站下车。", "zh_tr": "Wǒ zài xià yí zhàn xià chē."}
+    },
+    {
+      "fr": "s'asseoir", "en": "to sit down", "km": "អង្គុយ", "tr": "âng-kouy",
+      "es": "sentarse", "it": "sedersi", "ru": "садиться", "zh": "坐", "zh_tr": "zuò", "pos": "verbe",
+      "note": {
+        "fr": "អង្គុយ, « s'asseoir, être assis ». Devant des aînés ou des moines, on s'assied jambes repliées sur le côté, sans pointer les pieds vers eux.",
+        "en": "អង្គុយ, “to sit down, to be sitting”. In front of elders or monks you sit with your legs folded to one side, feet pointing away. French « s'asseoir » is irregular: je m'assieds, assieds-toi.",
+        "km": "« s'asseoir » មានន័យថា អង្គុយ៖ je m'assieds, assieds-toi។ អង់គ្លេស៖ « to sit down »; « Sit down, please »។"
+      },
+      "example": {"fr": "On s'assoit sur la natte pour manger.", "en": "We sit on the mat to eat.", "km": "យើងអង្គុយលើកន្ទេលញ៉ាំបាយ។", "tr": "yeung âng-kouy leu kân-tél gnam bay.",
+      "es": "Nos sentamos en la esterilla para comer.", "it": "Ci sediamo sulla stuoia per mangiare.", "ru": "Мы садимся на циновку, чтобы поесть.", "zh": "我们坐在席子上吃饭。", "zh_tr": "Wǒmen zuò zài xízi shàng chīfàn."}
+    },
+    {
+      "fr": "se lever", "en": "to get up", "km": "ក្រោក", "tr": "kraok",
+      "es": "levantarse", "it": "alzarsi", "ru": "вставать", "zh": "起来", "zh_tr": "qǐlái", "pos": "verbe",
+      "note": {
+        "fr": "ក្រោក, « se lever » du lit ou d'un siège. ក្រោកឈរ, « se mettre debout » ; ឈរ seul veut dire « être debout ».",
+        "en": "ក្រោក, “to get up” from bed or from a seat. ក្រោកឈរ, “to stand up”; ឈរ alone means “to be standing”. French « se lever »: je me lève, lève-toi.",
+        "km": "« se lever » មានន័យថា ក្រោក៖ je me lève à six heures។ អង់គ្លេស៖ « to get up » (ក្រោកពីគេង), « to stand up » (ក្រោកឈរ)។"
+      },
+      "example": {"fr": "Les élèves se lèvent quand le professeur entre.", "en": "The pupils stand up when the teacher comes in.", "km": "សិស្សក្រោកឈរពេលគ្រូចូលមក។", "tr": "seuh kraok tchhô pél krou tchôl mok.",
+      "es": "Los alumnos se levantan cuando entra el profesor.", "it": "Gli alunni si alzano quando entra l'insegnante.", "ru": "Ученики встают, когда входит учитель.", "zh": "老师进来的时候，学生们都站起来。", "zh_tr": "Lǎoshī jìnlái de shíhou, xuéshengmen dōu zhàn qǐlái."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Je descends ici.", "en": "I'm getting off here.", "km": "ខ្ញុំចុះត្រង់នេះ។", "tr": "khgnom tchoh trâng nih.",
+      "es": "Me bajo aquí.", "it": "Scendo qui.", "ru": "Я выхожу здесь.", "zh": "我在这儿下车。", "zh_tr": "Wǒ zài zhèr xià chē.",
+      "note": {
+        "fr": "À dire au chauffeur du bus ou du tuk-tuk. ត្រង់នេះ, « juste ici ». On peut ajouter សូមឈប់, « arrêtez-vous ».",
+        "en": "Say it to the bus or tuk-tuk driver. ត្រង់នេះ, “right here”. You can add សូមឈប់, “please stop”. French « descendre » also means “to get off”.",
+        "km": "« Je descends ici » ប្រើប្រាប់អ្នកបើកឡានថា ខ្ញុំចុះត្រង់នេះ។ អង់គ្លេស៖ « I'm getting off here »។"
+      }
+    },
+    {
+      "fr": "Je sors un moment.", "en": "I'm going out for a moment.", "km": "ខ្ញុំចេញក្រៅមួយភ្លែត។", "tr": "khgnom tchégn krav mouy phlèt.",
+      "es": "Salgo un momento.", "it": "Esco un attimo.", "ru": "Я выйду на минутку.", "zh": "我出去一下。", "zh_tr": "Wǒ chūqù yíxià.",
+      "note": {
+        "fr": "ចេញក្រៅ, « sortir dehors » ; មួយភ្លែត, « un instant ». En partant, on dit souvent ខ្ញុំទៅសិនហើយ, « j'y vais ».",
+        "en": "ចេញក្រៅ, “to go outside”; មួយភ្លែត, “a moment”. When leaving, people often say ខ្ញុំទៅសិនហើយ, “I'm off”. French « un moment » means “a moment”.",
+        "km": "« Je sors un moment » មានន័យថា ខ្ញុំចេញក្រៅមួយភ្លែត។ អង់គ្លេស៖ « I'm going out for a moment », « I'll be right back »។"
+      }
+    },
+    {
+      "fr": "Lève-toi, il est tard !", "en": "Get up, it's late!", "km": "ក្រោកឡើង ថ្ងៃហើយ!", "tr": "kraok laeung, thngay haeuy !",
+      "es": "¡Levántate, que es tarde!", "it": "Alzati, è tardi!", "ru": "Вставай, уже поздно!", "zh": "快起来，不早了！", "zh_tr": "Kuài qǐlái, bù zǎo le!",
+      "note": {
+        "fr": "ក្រោកឡើង : ឡើង, « monter », renforce l'ordre. ថ្ងៃហើយ, mot à mot « c'est déjà le soleil » : il fait grand jour.",
+        "en": "ក្រោកឡើង: ឡើង, “up”, strengthens the order. ថ្ងៃហើយ, literally “it's sun already”: it's broad daylight. French « Lève-toi ! » means “Get up!”.",
+        "km": "« Lève-toi ! » ជាបញ្ជាសម្រាប់មនុស្សស្និទ្ធស្នាល ហើយ « Levez-vous ! » សម្រាប់និយាយគួរសម។ អង់គ្លេស៖ « Get up! »។"
+      }
+    },
+    {
+      "fr": "Il n'y a plus de place.", "en": "There are no seats left.", "km": "អស់កន្លែងអង្គុយហើយ។", "tr": "âh kân-laèng âng-kouy haeuy.",
+      "es": "Ya no quedan asientos.", "it": "Non ci sono più posti.", "ru": "Свободных мест больше нет.", "zh": "没有座位了。", "zh_tr": "Méiyǒu zuòwèi le.",
+      "note": {
+        "fr": "អស់, « épuisé, fini » ; កន្លែងអង្គុយ, « place assise ». Pratique dans le bus ou au restaurant.",
+        "en": "អស់, “used up, none left”; កន្លែងអង្គុយ, “a seat”. Handy on the bus or in a restaurant. French « ne… plus de » means “no more”.",
+        "km": "« Il n'y a plus de place » មានន័យថា អស់កន្លែងហើយ។ អង់គ្លេស៖ « There are no seats left », « It's full »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Dans le bus", "en": "On the bus", "km": "នៅក្នុងឡានក្រុង"},
+      "fr": "On monte par l'avant et on descend par l'arrière.", "en": "You get on at the front and get off at the back.",
+      "km": "គេឡើងតាមខាងមុខ ហើយចុះតាមខាងក្រោយ។", "tr": "ké laeung tam khang mouk, haeuy tchoh tam khang kraoy.",
+      "es": "Se sube por delante y se baja por detrás.", "it": "Si sale davanti e si scende dietro.", "ru": "Входят через переднюю дверь, а выходят через заднюю.", "zh": "从前门上车，从后门下车。", "zh_tr": "Cóng qiánmén shàng chē, cóng hòumén xià chē."
+    },
+    {
+      "situation": {"fr": "Chez des amis", "en": "At a friend's house", "km": "នៅផ្ទះមិត្តភក្តិ"},
+      "fr": "Entre, assieds-toi, je vais chercher de l'eau.", "en": "Come in, sit down, I'll get some water.",
+      "km": "ចូលមក អង្គុយសិនទៅ ខ្ញុំទៅយកទឹក។", "tr": "tchôl mok, âng-kouy sen teuv, khgnom teuv yok teuk.",
+      "es": "Pasa, siéntate, voy a por agua.", "it": "Entra, siediti, vado a prendere dell'acqua.", "ru": "Заходи, садись, я принесу воды.", "zh": "进来，请坐，我去拿水。", "zh_tr": "Jìnlái, qǐng zuò, wǒ qù ná shuǐ."
+    },
+    {
+      "situation": {"fr": "Dans un immeuble", "en": "In a building", "km": "នៅក្នុងអគារ"},
+      "fr": "L'ascenseur est en panne : il faut monter à pied.", "en": "The lift is out of order: we have to walk up.",
+      "km": "ជណ្តើរយន្តខូច ត្រូវដើរឡើង។", "tr": "tchum-daeu yun khôtch, treuv daeu laeung.",
+      "es": "El ascensor está averiado: hay que subir a pie.", "it": "L'ascensore è guasto: bisogna salire a piedi.", "ru": "Лифт не работает: придётся подниматься пешком.", "zh": "电梯坏了，只好走上去。", "zh_tr": "Diàntī huài le, zhǐhǎo zǒu shàngqù."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} prennent le bus pour Kampot.", "en": "{A} and {B} are taking the bus to Kampot.", "km": "{A} និង {B} ជិះឡានក្រុងទៅកំពត។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, monte vite, le bus va partir !", "en": "{B}, get on quickly, the bus is about to leave!", "km": "{B} ឡើងឡានឆាប់ឡើង ឡានជិតចេញហើយ!", "tr": "{B}, laeung lan tchhap laeung, lan tchit tchégn haeuy !",
+        "es": "{B}, sube rápido, ¡que el autobús se va!", "it": "{B}, sali in fretta, l'autobus sta per partire!", "ru": "{B}, садись скорее, автобус сейчас уедет!", "zh": "{B}，快上车，车要开了！", "zh_tr": "{B}, kuài shàng chē, chē yào kāi le!"},
+      {"speaker": "B", "fr": "J'arrive ! On s'assoit où ?", "en": "Coming! Where shall we sit?", "km": "មកហើយ! យើងអង្គុយនៅឯណា?", "tr": "mok haeuy ! yeung âng-kouy neuv aè na ?",
+        "es": "¡Ya voy! ¿Dónde nos sentamos?", "it": "Arrivo! Dove ci sediamo?", "ru": "Иду! Где мы сядем?", "zh": "来了！我们坐哪儿？", "zh_tr": "Lái le! Wǒmen zuò nǎr?"},
+      {"speaker": "A", "fr": "Là, à côté de la fenêtre. Il y a deux places libres.", "en": "There, by the window. There are two free seats.", "km": "នៅទីនោះ ក្បែរបង្អួច។ មានកន្លែងទំនេរពីរ។", "tr": "neuv ti-nouh, kbae bâng-ouotch. méan kân-laèng toum-né pi.",
+        "es": "Allí, al lado de la ventana. Hay dos asientos libres.", "it": "Lì, accanto al finestrino. Ci sono due posti liberi.", "ru": "Вон там, у окна. Там два свободных места.", "zh": "那儿，窗户旁边。有两个空位。", "zh_tr": "Nàr, chuānghu pángbiān. Yǒu liǎng ge kòngwèi."},
+      {"speaker": "B", "fr": "Parfait. On descend où ?", "en": "Perfect. Where do we get off?", "km": "ល្អណាស់។ យើងចុះនៅឯណា?", "tr": "l'â nah. yeung tchoh neuv aè na ?",
+        "es": "Perfecto. ¿Dónde nos bajamos?", "it": "Perfetto. Dove scendiamo?", "ru": "Отлично. А где мы выходим?", "zh": "太好了。我们在哪儿下车？", "zh_tr": "Tài hǎo le. Wǒmen zài nǎr xià chē?"},
+      {"speaker": "A", "fr": "Devant le marché de Kampot, dans trois heures.", "en": "In front of Kampot market, in three hours.", "km": "នៅមុខផ្សារកំពត បីម៉ោងទៀត។", "tr": "neuv mouk phsa kâm-pot, bey maong tiet.",
+        "es": "Delante del mercado de Kampot, dentro de tres horas.", "it": "Davanti al mercato di Kampot, fra tre ore.", "ru": "Перед рынком в Кампоте, через три часа.", "zh": "在贡布市场前面，还有三个小时。", "zh_tr": "Zài Gòngbù shìchǎng qiánmiàn, hái yǒu sān ge xiǎoshí."},
+      {"speaker": "B", "fr": "Trois heures de bus… Réveille-moi avant de descendre !", "en": "Three hours on the bus… Wake me up before we get off!", "km": "ជិះឡានបីម៉ោង… ដាស់ខ្ញុំផង មុនពេលចុះ!", "tr": "tchih lan bey maong… dah khgnom phâng, moun pél tchoh !",
+        "es": "Tres horas de autobús… ¡Despiértame antes de bajar!", "it": "Tre ore di autobus… Svegliami prima di scendere!", "ru": "Три часа в автобусе… Разбуди меня перед выходом!", "zh": "要坐三个小时的车……下车以前叫醒我！", "zh_tr": "Yào zuò sān ge xiǎoshí de chē… Xià chē yǐqián jiàoxǐng wǒ!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où descendent {A} et {B} ?", "en": "Where do {A} and {B} get off?", "km": "{A} និង {B} ចុះនៅឯណា?"},
+    "answer": {"fr": "Devant le marché de Kampot.", "en": "In front of Kampot market.", "km": "នៅមុខផ្សារកំពត។"}
+  }
+}

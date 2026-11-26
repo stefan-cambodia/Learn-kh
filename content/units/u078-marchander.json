@@ -1,0 +1,159 @@
+{
+  "id": "u078",
+  "order": 78,
+  "level": "intermediaire",
+  "theme": "marchander",
+  "title": {"fr": "Marchander", "en": "Bargaining", "km": "ការតថ្លៃ"},
+  "tip": {
+    "fr": "Pour marchander en khmer : demandez le prix (ថ្លៃប៉ុន្មាន?), étonnez-vous (ថ្លៃណាស់!), proposez (… បានទេ?), puis demandez un petit supplément (ថែមបន្តិចមក). Le sourire et quelques mots de khmer font baisser les prix mieux que tout.",
+    "en": "Bargaining in Khmer: ask the price (ថ្លៃប៉ុន្មាន?), look surprised (ថ្លៃណាស់!), make an offer (… បានទេ?), then ask for a little extra (ថែមបន្តិចមក). A smile and a few words of Khmer lower prices better than anything. In France, shop prices are fixed; people bargain only at flea markets.",
+    "km": "នៅប្រទេសបារាំង និងប្រទេសនិយាយអង់គ្លេស តម្លៃនៅហាងគឺថេរ គេមិនតថ្លៃទេ។ គេតថ្លៃតែនៅផ្សារលក់របស់ចាស់ៗប៉ុណ្ណោះ៖ « C'est votre dernier prix ? », « Is that your best price? »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "marchander", "en": "to bargain", "km": "តថ្លៃ", "tr": "tâ thlay",
+      "es": "regatear", "it": "contrattare", "ru": "торговаться", "zh": "讲价", "zh_tr": "jiǎngjià", "pos": "verbe",
+      "note": {
+        "fr": "ត, « négocier », et ថ្លៃ, « prix ». Au marché, marchander fait partie du jeu ; on le fait avec le sourire. Dans les magasins à prix affichés, on ne marchande pas.",
+        "en": "ត, “to negotiate”, and ថ្លៃ, “price”. At the market, bargaining is part of the game, always with a smile. Not in shops with marked prices. French « marchander ».",
+        "km": "« marchander » មានន័យថា តថ្លៃ។ នៅប្រទេសបារាំង គេមិនសូវតថ្លៃនៅហាងទេ។ អង់គ្លេស៖ « to bargain », « to haggle »។"
+      },
+      "example": {"fr": "Au marché, il faut marchander un peu.", "en": "At the market, you have to bargain a little.", "km": "នៅផ្សារ ត្រូវតថ្លៃបន្តិច។", "tr": "neuv phsa, treuv tâ thlay bân-tetch.",
+      "es": "En el mercado hay que regatear un poco.", "it": "Al mercato bisogna contrattare un po'.", "ru": "На рынке нужно немного торговаться.", "zh": "在市场上要讲讲价。", "zh_tr": "Zài shìchǎng shàng yào jiǎngjiang jià."}
+    },
+    {
+      "fr": "la réduction", "en": "discount", "km": "ការបញ្ចុះតម្លៃ", "tr": "ka bagn-tchoh dâm-lay",
+      "es": "el descuento", "it": "lo sconto", "ru": "скидка", "zh": "折扣", "zh_tr": "zhékòu", "pos": "nom",
+      "note": {
+        "fr": "បញ្ចុះ, « faire baisser », et តម្លៃ, « prix ». Sur les affiches des magasins, on lit បញ្ចុះតម្លៃ suivi du pourcentage.",
+        "en": "បញ្ចុះ, “to bring down”, and តម្លៃ, “price”. Shop signs say បញ្ចុះតម្លៃ followed by the percentage. French « la réduction » or « la remise »; « les soldes » are the sales.",
+        "km": "« la réduction » មានន័យថា ការបញ្ចុះតម្លៃ; « les soldes » គឺរដូវបញ្ចុះតម្លៃ។ អង់គ្លេស៖ « discount »; « sale »។"
+      },
+      "example": {"fr": "Ce magasin fait une réduction de vingt pour cent.", "en": "This shop is giving a twenty per cent discount.", "km": "ហាងនេះបញ្ចុះតម្លៃម្ភៃភាគរយ។", "tr": "hang nih bagn-tchoh dâm-lay mphey phéak roy.",
+      "es": "Esta tienda hace un descuento del veinte por ciento.", "it": "Questo negozio fa uno sconto del venti per cento.", "ru": "В этом магазине скидка двадцать процентов.", "zh": "这家商店有百分之二十的折扣。", "zh_tr": "Zhè jiā shāngdiàn yǒu bǎi fēn zhī èrshí de zhékòu."}
+    },
+    {
+      "fr": "gratuit", "en": "free", "km": "ឥតគិតថ្លៃ", "tr": "et kit thlay",
+      "es": "gratis", "it": "gratuito", "ru": "бесплатный", "zh": "免费", "zh_tr": "miǎnfèi", "pos": "adjectif",
+      "note": {
+        "fr": "ឥត, « sans » ; គិតថ្លៃ, « compter le prix » : gratuit. À l'oral, on dit aussi ហ្វ្រី, de l'anglais « free », ou អត់យកលុយ, « on ne prend pas d'argent ».",
+        "en": "ឥត, “without”; គិតថ្លៃ, “to charge”: free of charge. In speech you also hear ហ្វ្រី, from English, or អត់យកលុយ, “no money taken”. French « gratuit », feminine « gratuite ».",
+        "km": "« gratuit » មានន័យថា ឥតគិតថ្លៃ; ភេទស្រី៖ « gratuite »។ អង់គ្លេស៖ « free », « free of charge »។"
+      },
+      "example": {"fr": "L'entrée de la pagode est gratuite.", "en": "Entry to the pagoda is free.", "km": "ចូលវត្តឥតគិតថ្លៃ។", "tr": "tchôl voat et kit thlay.",
+      "es": "La entrada a la pagoda es gratis.", "it": "L'ingresso alla pagoda è gratuito.", "ru": "Вход в пагоду бесплатный.", "zh": "进寺庙是免费的。", "zh_tr": "Jìn sìmiào shì miǎnfèi de."}
+    },
+    {
+      "fr": "le client", "en": "customer", "km": "អតិថិជន", "tr": "a-te-the-tchun",
+      "es": "el cliente", "it": "il cliente", "ru": "покупатель", "zh": "顾客", "zh_tr": "gùkè", "pos": "nom",
+      "note": {
+        "fr": "អតិថិជន est le mot soigné. Au marché, on appelle les clients ភ្ញៀវ, « invité », et un habitué ម៉ូយ.",
+        "en": "អតិថិជន is the formal word. At the market, sellers call customers ភ្ញៀវ, “guest”, and a regular ម៉ូយ. French « le client », feminine « la cliente ».",
+        "km": "« le client » ឬ « la cliente » មានន័យថា អតិថិជន ឬ ភ្ញៀវ។ អង់គ្លេស៖ « customer »; អ្នកមកញឹកញាប់៖ « regular customer »។"
+      },
+      "example": {"fr": "Ce matin, il y a beaucoup de clients au marché.", "en": "This morning, there are lots of customers at the market.", "km": "ព្រឹកនេះ មានអតិថិជនច្រើននៅផ្សារ។", "tr": "preuk nih, méan a-te-the-tchun tchraeun neuv phsa.",
+      "es": "Esta mañana hay muchos clientes en el mercado.", "it": "Stamattina ci sono molti clienti al mercato.", "ru": "Сегодня утром на рынке много покупателей.", "zh": "今天早上市场上有很多顾客。", "zh_tr": "Jīntiān zǎoshang shìchǎng shàng yǒu hěn duō gùkè."}
+    },
+    {
+      "fr": "le kilo", "en": "kilo", "km": "គីឡូ", "tr": "ki-lô",
+      "es": "el kilo", "it": "il chilo", "ru": "килограмм", "zh": "公斤", "zh_tr": "gōngjīn", "pos": "nom",
+      "note": {
+        "fr": "គីឡូ sert pour le poids et, à l'oral, pour les kilomètres. កន្លះគីឡូ, « un demi-kilo » ; មួយគីឡូកន្លះ, « un kilo et demi ».",
+        "en": "គីឡូ is used for weight and, in speech, for kilometres. កន្លះគីឡូ, “half a kilo”; មួយគីឡូកន្លះ, “a kilo and a half”. French « un kilo de » + noun: un kilo de riz.",
+        "km": "« un kilo de » + នាម៖ un kilo de riz (អង្ករមួយគីឡូ)។ អង់គ្លេស៖ « a kilo of rice »។"
+      },
+      "example": {"fr": "Je voudrais deux kilos de riz.", "en": "I'd like two kilos of rice.", "km": "ខ្ញុំចង់បានអង្ករពីរគីឡូ។", "tr": "khgnom tchâng ban âng-kâ pi ki-lô.",
+      "es": "Quisiera dos kilos de arroz.", "it": "Vorrei due chili di riso.", "ru": "Мне, пожалуйста, два килограмма риса.", "zh": "我想要两公斤大米。", "zh_tr": "Wǒ xiǎng yào liǎng gōngjīn dàmǐ."}
+    },
+    {
+      "fr": "peser", "en": "to weigh", "km": "ថ្លឹង", "tr": "thleung",
+      "es": "pesar", "it": "pesare", "ru": "взвешивать", "zh": "称", "zh_tr": "chēng", "pos": "verbe",
+      "note": {
+        "fr": "ថ្លឹង, « peser ». La balance se dit ជញ្ជីង. On peut demander : ថ្លឹងឱ្យខ្ញុំមើល, « pesez-le que je voie ».",
+        "en": "ថ្លឹង, “to weigh”. The scales are ជញ្ជីង. You can ask: ថ្លឹងឱ្យខ្ញុំមើល, “weigh it so I can see”. French « peser »: je pèse, with a grave accent.",
+        "km": "« peser » មានន័យថា ថ្លឹង៖ je pèse les fruits។ « la balance » គឺជញ្ជីង។ អង់គ្លេស៖ « to weigh »; « scales »។"
+      },
+      "example": {"fr": "La vendeuse pèse les mangues.", "en": "The seller weighs the mangoes.", "km": "អ្នកលក់ថ្លឹងស្វាយ។", "tr": "néak lok thleung svay.",
+      "es": "La vendedora pesa los mangos.", "it": "La venditrice pesa i manghi.", "ru": "Продавщица взвешивает манго.", "zh": "卖水果的人在称芒果。", "zh_tr": "Mài shuǐguǒ de rén zài chēng mángguǒ."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est votre dernier prix ?", "en": "Is that your best price?", "km": "តម្លៃចុងក្រោយហើយឬ?", "tr": "dâm-lay tchong kraoy haeuy reu ?",
+      "es": "¿Es su último precio?", "it": "È il suo ultimo prezzo?", "ru": "Это ваша последняя цена?", "zh": "这是最低价吗？", "zh_tr": "Zhè shì zuì dī jià ma?",
+      "note": {
+        "fr": "តម្លៃចុងក្រោយ, « le prix final ». On vous répondra souvent ដាច់ថ្លៃហើយ, « c'est le prix ferme ».",
+        "en": "តម្លៃចុងក្រោយ, “the final price”. The seller often answers ដាច់ថ្លៃហើយ, “that's the fixed price”. French « le dernier prix ».",
+        "km": "« C'est votre dernier prix ? » ប្រើសួរថា តម្លៃចុងក្រោយហើយឬ។ អង់គ្លេស៖ « Is that your best price? »។"
+      }
+    },
+    {
+      "fr": "Si j'en prends deux, vous me faites un prix ?", "en": "If I take two, will you give me a better price?", "km": "បើយកពីរ ចុះថ្លៃឱ្យទេ?", "tr": "baeu yok pi, tchoh thlay aoy té ?",
+      "es": "Si me llevo dos, ¿me hace precio?", "it": "Se ne prendo due, mi fa uno sconto?", "ru": "Если я возьму два, вы сделаете скидку?", "zh": "买两个可以便宜一点吗？", "zh_tr": "Mǎi liǎng ge kěyǐ piányi yìdiǎn ma?",
+      "note": {
+        "fr": "បើយកពីរ, « si (j'en) prends deux ». Acheter en quantité est le meilleur argument : បើទិញច្រើន, « si j'achète beaucoup ».",
+        "en": "បើយកពីរ, “if (I) take two”. Buying in quantity is the best argument: បើទិញច្រើន, “if I buy a lot”. French « faire un prix » means “to give a good price”.",
+        "km": "« faire un prix » មានន័យថា ចុះថ្លៃឱ្យ។ អង់គ្លេស៖ « Will you give me a better price? »។"
+      }
+    },
+    {
+      "fr": "Ajoutez-en un peu !", "en": "Add a little extra!", "km": "ថែមបន្តិចមក!", "tr": "thaèm bân-tetch mok !",
+      "es": "¡Póngame un poco más!", "it": "Me ne aggiunga un po'!", "ru": "Добавьте ещё немножко!", "zh": "再多给一点吧！", "zh_tr": "Zài duō gěi yìdiǎn ba!",
+      "note": {
+        "fr": "ថែម, « ajouter en plus ». Quand le prix ne baisse plus, on demande un petit supplément gratuit : quelques piments, une mangue de plus.",
+        "en": "ថែម, “to add extra”. When the price won't drop any further, ask for a little something free: a few chillies, one more mango. French « ajouter » means “to add”.",
+        "km": "« Ajoutez-en un peu » មានន័យថា ថែមបន្តិចមក។ អង់គ្លេស៖ « Add a little extra », « Throw in one more »។"
+      }
+    },
+    {
+      "fr": "Tant pis, merci.", "en": "Never mind, thank you.", "km": "អត់អីទេ អរគុណ។", "tr": "ât ey té, â-koun.",
+      "es": "No importa, gracias.", "it": "Pazienza, grazie.", "ru": "Ничего, спасибо.", "zh": "那算了，谢谢。", "zh_tr": "Nà suàn le, xièxie.",
+      "note": {
+        "fr": "អត់អីទេ, « ce n'est rien ». On le dit en s'éloignant ; souvent, on vous rappelle alors avec un meilleur prix.",
+        "en": "អត់អីទេ, “it's nothing”. Say it as you walk away; quite often the seller calls you back with a better price. French « tant pis » means “never mind, too bad”.",
+        "km": "« Tant pis » មានន័យថា អត់អីទេ ឬ មិនអីទេ។ អង់គ្លេស៖ « Never mind », « Too bad »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Les clients fidèles ont toujours un meilleur prix.", "en": "Regular customers always get a better price.",
+      "km": "ម៉ូយតែងតែបានតម្លៃល្អជាង។", "tr": "môy taèng-taè ban dâm-lay l'â tchéang.",
+      "es": "Los clientes habituales siempre consiguen mejor precio.", "it": "I clienti abituali hanno sempre un prezzo migliore.", "ru": "Постоянным покупателям всегда дают лучшую цену.", "zh": "老顾客总是能拿到更好的价钱。", "zh_tr": "Lǎo gùkè zǒngshì néng nádào gèng hǎo de jiàqian."
+    },
+    {
+      "situation": {"fr": "Chez le poissonnier", "en": "At the fish stall", "km": "នៅកន្លែងលក់ត្រី"},
+      "fr": "Pouvez-vous peser ce poisson, s'il vous plaît ?", "en": "Could you weigh this fish, please?",
+      "km": "ជួយថ្លឹងត្រីនេះផង។", "tr": "tchouoy thleung trey nih phâng.",
+      "es": "¿Puede pesar este pescado, por favor?", "it": "Può pesare questo pesce, per favore?", "ru": "Взвесьте, пожалуйста, эту рыбу.", "zh": "请帮我称一下这条鱼。", "zh_tr": "Qǐng bāng wǒ chēng yíxià zhè tiáo yú."
+    },
+    {
+      "situation": {"fr": "Au restaurant", "en": "At the restaurant", "km": "នៅភោជនីយដ្ឋាន"},
+      "fr": "Le thé est gratuit, mais l'eau en bouteille est payante.", "en": "Tea is free, but you pay for bottled water.",
+      "km": "តែឥតគិតថ្លៃ ប៉ុន្តែទឹកដបត្រូវគិតលុយ។", "tr": "taè et kit thlay, pon-taè teuk dâp treuv kit louy.",
+      "es": "El té es gratis, pero el agua embotellada se paga.", "it": "Il tè è gratuito, ma l'acqua in bottiglia si paga.", "ru": "Чай бесплатный, а вода в бутылках платная.", "zh": "茶是免费的，但是瓶装水要付钱。", "zh_tr": "Chá shì miǎnfèi de, dànshì píngzhuāng shuǐ yào fù qián."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Jeu de rôle au marché : {A} vend des kramas et {B} veut en acheter.", "en": "Role play at the market: {A} sells kramas and {B} wants to buy some.", "km": "លេងតួនៅផ្សារ៖ {A} លក់ក្រមា ហើយ {B} ចង់ទិញ។"},
+    "lines": [
+      {"speaker": "B", "fr": "Bonjour ! Combien coûte ce krama ?", "en": "Hello! How much is this krama?", "km": "សួស្តី! ក្រមានេះថ្លៃប៉ុន្មាន?", "tr": "souos-dey ! krâ-ma nih thlay pon-man ?",
+        "es": "¡Hola! ¿Cuánto cuesta este krama?", "it": "Buongiorno! Quanto costa questo krama?", "ru": "Здравствуйте! Сколько стоит эта крама?", "zh": "您好！这条水布多少钱？", "zh_tr": "Nín hǎo! Zhè tiáo shuǐbù duōshao qián?"},
+      {"speaker": "A", "fr": "Trois dollars. Il est en coton, tissé à la main.", "en": "Three dollars. It's cotton, hand-woven.", "km": "បីដុល្លារ។ ក្រមាអំបោះ ត្បាញដោយដៃ។", "tr": "bey dol-la. krâ-ma âm-boh, tbagn daoy day.",
+        "es": "Tres dólares. Es de algodón, tejido a mano.", "it": "Tre dollari. È di cotone, tessuto a mano.", "ru": "Три доллара. Она из хлопка, ручной работы.", "zh": "三美元。是棉的，手工织的。", "zh_tr": "Sān měiyuán. Shì mián de, shǒugōng zhī de."},
+      {"speaker": "B", "fr": "Si j'en prends deux, vous me faites un prix ?", "en": "If I take two, will you give me a better price?", "km": "បើយកពីរ ចុះថ្លៃឱ្យទេ?", "tr": "baeu yok pi, tchoh thlay aoy té ?",
+        "es": "Si me llevo dos, ¿me hace precio?", "it": "Se ne prendo due, mi fa uno sconto?", "ru": "Если я возьму два, вы сделаете скидку?", "zh": "买两个可以便宜一点吗？", "zh_tr": "Mǎi liǎng ge kěyǐ piányi yìdiǎn ma?"},
+      {"speaker": "A", "fr": "Deux pour cinq dollars. C'est mon dernier prix !", "en": "Two for five dollars. That's my best price!", "km": "ពីរ ប្រាំដុល្លារ។ តម្លៃចុងក្រោយហើយ!", "tr": "pi, pram dol-la. dâm-lay tchong kraoy haeuy !",
+        "es": "Dos por cinco dólares. ¡Es mi último precio!", "it": "Due per cinque dollari. È il mio ultimo prezzo!", "ru": "Две за пять долларов. Это последняя цена!", "zh": "两条五美元。这是最低价了！", "zh_tr": "Liǎng tiáo wǔ měiyuán. Zhè shì zuì dī jià le!"},
+      {"speaker": "B", "fr": "D'accord, je prends le rouge et le bleu.", "en": "All right, I'll take the red one and the blue one.", "km": "បាន ខ្ញុំយកមួយក្រហម និងមួយខៀវ។", "tr": "ban, khgnom yok mouy krâ-hâm ning mouy khiev.",
+        "es": "De acuerdo, me llevo el rojo y el azul.", "it": "Va bene, prendo quello rosso e quello blu.", "ru": "Хорошо, я возьму красную и синюю.", "zh": "好，我要一条红的和一条蓝的。", "zh_tr": "Hǎo, wǒ yào yì tiáo hóng de hé yì tiáo lán de."},
+      {"speaker": "A", "fr": "Merci ! C'est ma première vente aujourd'hui : je vous offre un petit sac.", "en": "Thank you! You're my first customer today: here's a little bag for free.", "km": "អរគុណ! ថ្ងៃនេះអ្នកជាភ្ញៀវដំបូង ខ្ញុំថែមថង់តូចមួយឥតគិតថ្លៃ។", "tr": "â-koun ! thngay nih néak tchéa phgnieu dâm-bông, khgnom thaèm thâng tôtch mouy et kit thlay.",
+        "es": "¡Gracias! Es usted mi primer cliente de hoy: le regalo una bolsita.", "it": "Grazie! Lei è il mio primo cliente di oggi: Le regalo un sacchettino.", "ru": "Спасибо! Вы сегодня мой первый покупатель: дарю вам маленькую сумочку.", "zh": "谢谢！您是我今天的第一位顾客，送您一个小袋子。", "zh_tr": "Xièxie! Nín shì wǒ jīntiān de dì-yī wèi gùkè, sòng nín yí ge xiǎo dàizi."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Combien coûtent les deux kramas ?", "en": "How much are the two kramas?", "km": "ក្រមាពីរថ្លៃប៉ុន្មាន?"},
+    "answer": {"fr": "Cinq dollars.", "en": "Five dollars.", "km": "ប្រាំដុល្លារ។"}
+  }
+}

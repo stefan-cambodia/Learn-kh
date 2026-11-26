@@ -1,0 +1,159 @@
+{
+  "id": "u079",
+  "order": 79,
+  "level": "intermediaire",
+  "theme": "le-ciel-et-la-nature",
+  "title": {"fr": "Le ciel et la nature", "en": "The sky and nature", "km": "មេឃ និងធម្មជាតិ"},
+  "tip": {
+    "fr": "Le soleil et la lune portent le préfixe sacré ព្រះ : ព្រះអាទិត្យ, ព្រះចន្ទ. Dans la conversation, on dit plus simplement ថ្ងៃ, « le jour », pour le soleil et ខែ, « le mois », pour la lune : ថ្ងៃក្តៅ, « le soleil tape » ; ខែភ្លឺ, « la lune brille ».",
+    "en": "The sun and the moon carry the sacred prefix ព្រះ: ព្រះអាទិត្យ, ព្រះចន្ទ. In conversation people simply say ថ្ងៃ, “day”, for the sun and ខែ, “month”, for the moon: ថ្ងៃក្តៅ, “the sun is hot”; ខែភ្លឺ, “the moon is bright”. In French, « le soleil » is masculine and « la lune » feminine.",
+    "km": "ភាសាបារាំង៖ « le soleil » ជាភេទប្រុស ហើយ « la lune » និង « l'étoile » ជាភេទស្រី។ ពាក្យ « le ciel » មានន័យថា មេឃ។ អង់គ្លេស៖ the sun, the moon, the stars, the sky។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le ciel", "en": "sky", "km": "មេឃ", "tr": "mék",
+      "es": "el cielo", "it": "il cielo", "ru": "небо", "zh": "天空", "zh_tr": "tiānkōng", "pos": "nom",
+      "note": {
+        "fr": "មេឃ, « ciel ». Il sert à parler du temps : មេឃស្រឡះ, « ciel dégagé » ; មេឃងងឹត, « le ciel est sombre » ; មេឃភ្លៀង, « il pleut ».",
+        "en": "មេឃ, “sky”. It is used to talk about the weather: មេឃស្រឡះ, “clear sky”; មេឃងងឹត, “the sky is dark”; មេឃភ្លៀង, “it's raining”. French « le ciel ».",
+        "km": "« le ciel » មានន័យថា មេឃ៖ Le ciel est bleu។ អង់គ្លេស៖ « sky »; « in the sky » មានន័យថា នៅលើមេឃ។"
+      },
+      "example": {"fr": "Ce soir, le ciel est dégagé.", "en": "Tonight, the sky is clear.", "km": "យប់នេះ មេឃស្រឡះ។", "tr": "youp nih, mék srâ-lah.",
+      "es": "Esta noche el cielo está despejado.", "it": "Stasera il cielo è sereno.", "ru": "Сегодня вечером небо ясное.", "zh": "今晚天空很晴朗。", "zh_tr": "Jīnwǎn tiānkōng hěn qínglǎng."}
+    },
+    {
+      "fr": "la lune", "en": "moon", "km": "ព្រះចន្ទ", "tr": "préah tchan",
+      "es": "la luna", "it": "la luna", "ru": "луна", "zh": "月亮", "zh_tr": "yuèliang", "pos": "nom",
+      "note": {
+        "fr": "ព្រះ, préfixe du sacré, et ចន្ទ, « lune » ; le soleil se dit de même ព្រះអាទិត្យ. Le mois, ខែ, désigne aussi la lune : ខែពេញបូណ៌មី, « la pleine lune ».",
+        "en": "ព្រះ, the sacred prefix, and ចន្ទ, “moon”; the sun is likewise ព្រះអាទិត្យ. ខែ, “month”, also means the moon: ខែពេញបូណ៌មី, “the full moon”. French « la lune » is feminine.",
+        "km": "« la lune » មានន័យថា ព្រះចន្ទ ឬ ខែ។ អង់គ្លេស៖ « moon »; « full moon » គឺខែពេញបូណ៌មី។"
+      },
+      "example": {"fr": "La lune est ronde et très claire ce soir.", "en": "The moon is round and very bright tonight.", "km": "យប់នេះ ព្រះចន្ទមូល ហើយភ្លឺណាស់។", "tr": "youp nih, préah tchan moul haeuy phleu nah.",
+      "es": "Esta noche la luna está redonda y muy brillante.", "it": "Stasera la luna è rotonda e molto luminosa.", "ru": "Сегодня вечером луна круглая и очень яркая.", "zh": "今晚的月亮又圆又亮。", "zh_tr": "Jīnwǎn de yuèliang yòu yuán yòu liàng."}
+    },
+    {
+      "fr": "l'étoile", "en": "star", "km": "ផ្កាយ", "tr": "phkay",
+      "es": "la estrella", "it": "la stella", "ru": "звезда", "zh": "星星", "zh_tr": "xīngxing", "pos": "nom",
+      "note": {
+        "fr": "ផ្កាយ, « étoile ». À la campagne, loin des lumières de la ville, on en voit des milliers. សណ្ឋាគារផ្កាយប្រាំ, « un hôtel cinq étoiles ».",
+        "en": "ផ្កាយ, “star”. In the countryside, far from city lights, you can see thousands. សណ្ឋាគារផ្កាយប្រាំ, “a five-star hotel”. French « l'étoile » is feminine: une étoile.",
+        "km": "« l'étoile » មានន័យថា ផ្កាយ (ភេទស្រី)៖ une étoile, les étoiles។ អង់គ្លេស៖ « star »។"
+      },
+      "example": {"fr": "À la campagne, on voit beaucoup d'étoiles.", "en": "In the countryside, you can see lots of stars.", "km": "នៅជនបទ គេឃើញផ្កាយច្រើនណាស់។", "tr": "neuv tchun-na-bot, ké kheugn phkay tchraeun nah.",
+      "es": "En el campo se ven muchas estrellas.", "it": "In campagna si vedono tante stelle.", "ru": "В деревне видно много звёзд.", "zh": "在乡下能看见很多星星。", "zh_tr": "Zài xiāngxia néng kànjiàn hěn duō xīngxing."}
+    },
+    {
+      "fr": "le nuage", "en": "cloud", "km": "ពពក", "tr": "po-pok",
+      "es": "la nube", "it": "la nuvola", "ru": "облако", "zh": "云", "zh_tr": "yún", "pos": "nom",
+      "note": {
+        "fr": "ពពក, « nuage ». ពពកខ្មៅ, « nuages noirs », annoncent la pluie ; មេឃមានពពកច្រើន, « le ciel est très nuageux ».",
+        "en": "ពពក, “cloud”. ពពកខ្មៅ, “black clouds”, mean rain is coming; មេឃមានពពកច្រើន, “the sky is very cloudy”. French « le nuage »; « nuageux » means “cloudy”.",
+        "km": "« le nuage » មានន័យថា ពពក; « nuageux » មានន័យថា មានពពកច្រើន។ អង់គ្លេស៖ « cloud »; « cloudy »។"
+      },
+      "example": {"fr": "Il y a des nuages noirs : il va pleuvoir.", "en": "There are black clouds: it's going to rain.", "km": "មានពពកខ្មៅ មេឃជិតភ្លៀងហើយ។", "tr": "méan po-pok khmav, mék tchit phlieng haeuy.",
+      "es": "Hay nubes negras: va a llover.", "it": "Ci sono nuvole nere: sta per piovere.", "ru": "На небе тёмные облака: скоро пойдёт дождь.", "zh": "天上有黑云，快要下雨了。", "zh_tr": "Tiān shàng yǒu hēi yún, kuài yào xià yǔ le."}
+    },
+    {
+      "fr": "la forêt", "en": "forest", "km": "ព្រៃ", "tr": "prey",
+      "es": "el bosque", "it": "la foresta", "ru": "лес", "zh": "森林", "zh_tr": "sēnlín", "pos": "nom",
+      "note": {
+        "fr": "ព្រៃ, « forêt », veut aussi dire « sauvage » : សត្វព្រៃ, « animal sauvage ». ព្រៃឈើ, « la forêt, les bois ».",
+        "en": "ព្រៃ, “forest”, also means “wild”: សត្វព្រៃ, “wild animal”. ព្រៃឈើ, “woodland”. French « la forêt », with a circumflex and a silent t.",
+        "km": "« la forêt » មានន័យថា ព្រៃ (មិនអាន t ទេ)។ អង់គ្លេស៖ « forest »; « jungle » សម្រាប់ព្រៃក្រាស់នៅតំបន់ក្តៅ។"
+      },
+      "example": {"fr": "Il y a encore des éléphants dans la forêt.", "en": "There are still elephants in the forest.", "km": "នៅក្នុងព្រៃនៅមានដំរីនៅឡើយ។", "tr": "neuv knong prey neuv méan dâm-rey neuv laeuy.",
+      "es": "Todavía hay elefantes en el bosque.", "it": "Nella foresta ci sono ancora degli elefanti.", "ru": "В лесу ещё водятся слоны.", "zh": "森林里还有大象。", "zh_tr": "Sēnlín lǐ hái yǒu dàxiàng."}
+    },
+    {
+      "fr": "le lac", "en": "lake", "km": "បឹង", "tr": "beung",
+      "es": "el lago", "it": "il lago", "ru": "озеро", "zh": "湖", "zh_tr": "hú", "pos": "nom",
+      "note": {
+        "fr": "បឹង, « lac ». Le plus grand du pays est បឹងទន្លេសាប, le Tonlé Sap, qui grossit plusieurs fois à la saison des pluies.",
+        "en": "បឹង, “lake”. The country's biggest is បឹងទន្លេសាប, the Tonlé Sap, which swells to several times its size in the rainy season. French « le lac ».",
+        "km": "« le lac » មានន័យថា បឹង៖ le lac Tonlé Sap។ អង់គ្លេស៖ « lake »។"
+      },
+      "example": {"fr": "Les pêcheurs vivent sur le lac.", "en": "The fishermen live on the lake.", "km": "អ្នកនេសាទរស់នៅលើបឹង។", "tr": "néak né-sat rouh neuv leu beung.",
+      "es": "Los pescadores viven en el lago.", "it": "I pescatori vivono sul lago.", "ru": "Рыбаки живут на озере.", "zh": "渔民住在湖上。", "zh_tr": "Yúmín zhù zài hú shàng."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Le soleil se couche.", "en": "The sun is setting.", "km": "ថ្ងៃលិចហើយ។", "tr": "thngay letch haeuy.",
+      "es": "Se pone el sol.", "it": "Il sole tramonta.", "ru": "Солнце садится.", "zh": "太阳下山了。", "zh_tr": "Tàiyáng xià shān le.",
+      "note": {
+        "fr": "ថ្ងៃ, « jour, soleil », et លិច, « sombrer » : le soleil plonge. Le lever se dit ថ្ងៃរះ. C'est aussi pourquoi l'ouest se dit ខាងលិច.",
+        "en": "ថ្ងៃ, “day, sun”, and លិច, “to sink”: the sun goes under. Sunrise is ថ្ងៃរះ. That is also why west is ខាងលិច. French « le soleil se couche », literally “the sun goes to bed”.",
+        "km": "« Le soleil se couche » មានន័យថា ថ្ងៃលិច ហើយ « Le soleil se lève » មានន័យថា ថ្ងៃរះ។ អង់គ្លេស៖ « The sun is setting », « The sun is rising »។"
+      }
+    },
+    {
+      "fr": "C'est la pleine lune.", "en": "It's a full moon.", "km": "ថ្ងៃនេះខែពេញបូណ៌មី។", "tr": "thngay nih khaè pégn bô-ra-mey.",
+      "es": "Hay luna llena.", "it": "C'è la luna piena.", "ru": "Сегодня полнолуние.", "zh": "今天是满月。", "zh_tr": "Jīntiān shì mǎnyuè.",
+      "note": {
+        "fr": "ពេញបូណ៌មី, « pleine lune ». Les jours de pleine lune sont des jours saints : beaucoup vont à la pagode.",
+        "en": "ពេញបូណ៌មី, “full moon”. Full-moon days are holy days: many people go to the pagoda. French « la pleine lune ».",
+        "km": "« la pleine lune » មានន័យថា ខែពេញបូណ៌មី។ អង់គ្លេស៖ « full moon »។"
+      }
+    },
+    {
+      "fr": "Le ciel est couvert.", "en": "It's overcast.", "km": "មេឃស្រទំ។", "tr": "mék srâ-tum.",
+      "es": "El cielo está nublado.", "it": "Il cielo è coperto.", "ru": "Небо затянуто облаками.", "zh": "天阴了。", "zh_tr": "Tiān yīn le.",
+      "note": {
+        "fr": "ស្រទំ, « couvert, gris ». Le contraire est ស្រឡះ, « dégagé ».",
+        "en": "ស្រទំ, “overcast, grey”. The opposite is ស្រឡះ, “clear”. French « couvert », literally “covered”.",
+        "km": "« Le ciel est couvert » មានន័យថា មេឃស្រទំ; « dégagé » មានន័យថា ស្រឡះ។ អង់គ្លេស៖ « It's overcast », « It's cloudy »។"
+      }
+    },
+    {
+      "fr": "Il y a un arc-en-ciel !", "en": "There's a rainbow!", "km": "មានឥន្ទធនូ!", "tr": "méan en-thnou !",
+      "es": "¡Hay un arcoíris!", "it": "C'è l'arcobaleno!", "ru": "На небе радуга!", "zh": "有彩虹！", "zh_tr": "Yǒu cǎihóng!",
+      "note": {
+        "fr": "ឥន្ទធនូ, « l'arc d'Indra » : l'arc-en-ciel. On le voit souvent en fin d'après-midi à la saison des pluies.",
+        "en": "ឥន្ទធនូ, “Indra's bow”: the rainbow. You often see one in the late afternoon during the rainy season. French « un arc-en-ciel », literally “an arc in the sky”.",
+        "km": "« un arc-en-ciel » មានន័យថា ឥន្ទធនូ។ អង់គ្លេស៖ « rainbow »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au bord du lac", "en": "By the lake", "km": "នៅមាត់បឹង"},
+      "fr": "Le soir, le ciel devient rouge au-dessus du lac.", "en": "In the evening, the sky turns red over the lake.",
+      "km": "ពេលល្ងាច មេឃប្រែជាពណ៌ក្រហមនៅលើបឹង។", "tr": "pél lngéatch, mék praè tchéa poa krâ-hâm neuv leu beung.",
+      "es": "Al atardecer, el cielo se pone rojo sobre el lago.", "it": "La sera il cielo diventa rosso sopra il lago.", "ru": "Вечером небо над озером становится красным.", "zh": "傍晚，湖上的天空变红了。", "zh_tr": "Bàngwǎn, hú shàng de tiānkōng biàn hóng le."
+    },
+    {
+      "situation": {"fr": "Dans la forêt", "en": "In the forest", "km": "នៅក្នុងព្រៃ"},
+      "fr": "Dans la forêt, on entend les oiseaux mais on ne les voit pas.", "en": "In the forest, you can hear the birds but you can't see them.",
+      "km": "នៅក្នុងព្រៃ គេឮសំឡេងសត្វស្លាប ប៉ុន្តែមើលមិនឃើញទេ។", "tr": "neuv knong prey, ké leu sâm-léng sat slap, pon-taè meul min kheugn té.",
+      "es": "En el bosque se oyen los pájaros, pero no se ven.", "it": "Nella foresta si sentono gli uccelli, ma non si vedono.", "ru": "В лесу птиц слышно, но не видно.", "zh": "在森林里，听得见鸟叫，可是看不见鸟。", "zh_tr": "Zài sēnlín lǐ, tīng de jiàn niǎo jiào, kěshì kàn bu jiàn niǎo."
+    },
+    {
+      "situation": {"fr": "La nuit", "en": "At night", "km": "ពេលយប់"},
+      "fr": "Les nuages cachent la lune.", "en": "The clouds are hiding the moon.",
+      "km": "ពពកបាំងព្រះចន្ទ។", "tr": "po-pok bang préah tchan.",
+      "es": "Las nubes tapan la luna.", "it": "Le nuvole nascondono la luna.", "ru": "Облака закрывают луну.", "zh": "云把月亮遮住了。", "zh_tr": "Yún bǎ yuèliang zhēzhù le."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} passent la nuit au village et regardent le ciel.", "en": "{A} and {B} are spending the night in the village, looking at the sky.", "km": "{A} និង {B} គេងនៅភូមិ ហើយអង្គុយមើលមេឃ។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, regarde le ciel ! Il y a tellement d'étoiles !", "en": "{A}, look at the sky! There are so many stars!", "km": "{A} មើលមេឃ! ផ្កាយច្រើនណាស់!", "tr": "{A}, meul mék ! phkay tchraeun nah !",
+        "es": "{A}, ¡mira el cielo! ¡Cuántas estrellas!", "it": "{A}, guarda il cielo! Quante stelle!", "ru": "{A}, посмотри на небо! Сколько звёзд!", "zh": "{A}，你看天空！星星真多！", "zh_tr": "{A}, nǐ kàn tiānkōng! Xīngxing zhēn duō!"},
+      {"speaker": "A", "fr": "Oui, ici il n'y a pas de lumières, et pas de nuages ce soir.", "en": "Yes, there are no lights here, and no clouds tonight.", "km": "{A_yes} នៅទីនេះគ្មានភ្លើង ហើយយប់នេះក៏គ្មានពពកដែរ។", "tr": "{A_yes}, neuv ti-nih kmean phleung, haeuy youp nih kâ kmean po-pok daè.",
+        "es": "Sí, aquí no hay luces, y esta noche tampoco hay nubes.", "it": "Sì, qui non ci sono luci, e stasera non ci sono nuvole.", "ru": "Да, здесь нет огней, и сегодня нет облаков.", "zh": "是啊，这里没有灯光，今晚也没有云。", "zh_tr": "Shì a, zhèlǐ méiyǒu dēngguāng, jīnwǎn yě méiyǒu yún."},
+      {"speaker": "B", "fr": "En ville, je ne vois jamais les étoiles.", "en": "In the city, I never see the stars.", "km": "នៅទីក្រុង ខ្ញុំមិនដែលឃើញផ្កាយទេ។", "tr": "neuv ti-krong, khgnom min daèl kheugn phkay té.",
+        "es": "En la ciudad nunca veo las estrellas.", "it": "In città non vedo mai le stelle.", "ru": "В городе я никогда не вижу звёзд.", "zh": "在城市里，我从来看不见星星。", "zh_tr": "Zài chéngshì lǐ, wǒ cónglái kàn bu jiàn xīngxing."},
+      {"speaker": "A", "fr": "Et regarde la lune derrière la forêt. Demain, c'est la pleine lune.", "en": "And look at the moon behind the forest. Tomorrow is the full moon.", "km": "ហើយមើលព្រះចន្ទនៅខាងក្រោយព្រៃ។ ថ្ងៃស្អែកខែពេញបូណ៌មី។", "tr": "haeuy meul préah tchan neuv khang kraoy prey. thngay s'aèk khaè pégn bô-ra-mey.",
+        "es": "Y mira la luna detrás del bosque. Mañana hay luna llena.", "it": "E guarda la luna dietro la foresta. Domani c'è la luna piena.", "ru": "И посмотри на луну позади леса. Завтра полнолуние.", "zh": "你看森林后面的月亮。明天是满月。", "zh_tr": "Nǐ kàn sēnlín hòumiàn de yuèliang. Míngtiān shì mǎnyuè."},
+      {"speaker": "B", "fr": "Comme c'est beau ! On va au lac demain matin ?", "en": "How beautiful! Shall we go to the lake tomorrow morning?", "km": "ស្អាតណាស់! ព្រឹកស្អែកទៅបឹងទេ?", "tr": "s'at nah ! preuk s'aèk teuv beung té ?",
+        "es": "¡Qué bonito! ¿Vamos al lago mañana por la mañana?", "it": "Che bello! Andiamo al lago domani mattina?", "ru": "Как красиво! Пойдём завтра утром на озеро?", "zh": "真美！明天早上去湖边吗？", "zh_tr": "Zhēn měi! Míngtiān zǎoshang qù hú biān ma?"},
+      {"speaker": "A", "fr": "D'accord. On partira tôt pour voir le lever du soleil.", "en": "All right. We'll leave early to see the sunrise.", "km": "បាន។ យើងចេញពីព្រលឹម ដើម្បីមើលថ្ងៃរះ។", "tr": "ban. yeung tchégn pi pro-leum, daeum-bey meul thngay reah.",
+        "es": "De acuerdo. Saldremos temprano para ver el amanecer.", "it": "Va bene. Partiremo presto per vedere l'alba.", "ru": "Хорошо. Выйдем рано, чтобы увидеть восход солнца.", "zh": "好。我们早点儿出发，去看日出。", "zh_tr": "Hǎo. Wǒmen zǎo diǎnr chūfā, qù kàn rìchū."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi voit-on beaucoup d'étoiles au village ?", "en": "Why can you see so many stars in the village?", "km": "ហេតុអ្វីនៅភូមិគេឃើញផ្កាយច្រើន?"},
+    "answer": {"fr": "Parce qu'il n'y a pas de lumières ni de nuages.", "en": "Because there are no lights and no clouds.", "km": "ព្រោះគ្មានភ្លើង ហើយគ្មានពពក។"}
+  }
+}

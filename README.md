@@ -55,8 +55,8 @@ généré automatiquement dès que les clés seront en place.
 | 4. Petit dialogue | ≈ 2 min | un échange entre deux personnages (Dara et Alex), écoute enchaînée, jeu de rôle |
 | 5. Révision | ≈ 1 min | mots à revoir (J+1, J+3, J+7, J+14, J+30), 3 questions, traduction, compréhension, réponses masquées |
 
-Le programme fourni compte **70 unités** (12 de niveau débutant, 12 de niveau
-élémentaire, 46 de niveau intermédiaire), soit 700 mots et expressions. Quand il
+Le programme fourni compte **80 unités** (12 de niveau débutant, 12 de niveau
+élémentaire, 56 de niveau intermédiaire), soit 800 mots et expressions. Quand il
 est terminé, le système compose des leçons de révision à partir des acquis les
 moins bien maîtrisés ; il suffit de déposer de nouvelles unités dans
 `content/units/` pour reprendre la progression (voir `content/README.md`).

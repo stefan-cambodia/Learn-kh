@@ -1,0 +1,161 @@
+{
+  "id": "u080",
+  "order": 80,
+  "level": "intermediaire",
+  "theme": "le-mariage",
+  "title": {"fr": "Le mariage khmer", "en": "A Khmer wedding", "km": "មង្គលការខ្មែរ"},
+  "tip": {
+    "fr": "Un mariage khmer dure un jour ou deux, sous une grande tente dressée devant la maison. Le matin, les cérémonies se font en famille ; le soir, des centaines d'invités viennent dîner. On dit ទៅញ៉ាំការ, « aller manger le mariage », et l'on offre de l'argent : ចងដៃ.",
+    "en": "A Khmer wedding lasts a day or two, under a big tent put up in front of the house. The morning ceremonies are for the family; in the evening, hundreds of guests come to dinner. People say ទៅញ៉ាំការ, “to go and eat the wedding”, and give money: ចងដៃ. In France, a wedding starts at the town hall, then comes a meal and dancing.",
+    "km": "នៅប្រទេសបារាំង គេរៀបការនៅសាលាក្រុង (la mairie) ហើយខ្លះទៅព្រះវិហារ (l'église)។ បន្ទាប់មក មានញ៉ាំអាហារ និងរាំ។ ភ្ញៀវនិយាយថា « Vive les mariés ! »។ អង់គ្លេស៖ « Congratulations! »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le mariage", "en": "wedding", "km": "មង្គលការ", "tr": "mong-kol-ka",
+      "es": "la boda", "it": "il matrimonio", "ru": "свадьба", "zh": "婚礼", "zh_tr": "hūnlǐ", "pos": "nom",
+      "note": {
+        "fr": "មង្គលការ, « cérémonie de bon augure » : le mariage. On dit aussi អាពាហ៍ពិពាហ៍, plus formel, et រៀបការ pour « se marier ». La saison des mariages va de novembre à avril.",
+        "en": "មង្គលការ, “auspicious ceremony”: a wedding. អាពាហ៍ពិពាហ៍ is more formal, and រៀបការ is “to get married”. Wedding season runs from November to April. French « le mariage » means both the wedding and marriage.",
+        "km": "« le mariage » មានន័យថា មង្គលការ ឬ អាពាហ៍ពិពាហ៍។ អង់គ្លេស៖ « wedding » សម្រាប់ពិធី ហើយ « marriage » សម្រាប់ជីវិតគូ។"
+      },
+      "example": {"fr": "Le mariage de mon ami a lieu samedi.", "en": "My friend's wedding is on Saturday.", "km": "មង្គលការរបស់មិត្តភក្តិខ្ញុំធ្វើនៅថ្ងៃសៅរ៍។", "tr": "mong-kol-ka ro-bâh mit-phéak khgnom thveu neuv thngay sav.",
+      "es": "La boda de mi amigo es el sábado.", "it": "Il matrimonio del mio amico è sabato.", "ru": "Свадьба моего друга будет в субботу.", "zh": "我朋友的婚礼在星期六举行。", "zh_tr": "Wǒ péngyou de hūnlǐ zài xīngqīliù jǔxíng."}
+    },
+    {
+      "fr": "la cérémonie", "en": "ceremony", "km": "ពិធី", "tr": "pi-thi",
+      "es": "la ceremonia", "it": "la cerimonia", "ru": "церемония", "zh": "仪式", "zh_tr": "yíshì", "pos": "nom",
+      "note": {
+        "fr": "ពិធី, « cérémonie, rite ». Un mariage khmer en enchaîne plusieurs : ពិធីហែជំនូន, le cortège des cadeaux ; ពិធីកាត់សក់, la coupe de cheveux ; ពិធីចងដៃ, le nouage des poignets.",
+        "en": "ពិធី, “ceremony, rite”. A Khmer wedding strings several together: ពិធីហែជំនូន, the gift procession; ពិធីកាត់សក់, the hair-cutting; ពិធីចងដៃ, the wrist-tying. French « la cérémonie ».",
+        "km": "« la cérémonie » មានន័យថា ពិធី៖ la cérémonie du mariage។ អង់គ្លេស៖ « ceremony »។"
+      },
+      "example": {"fr": "La cérémonie commence tôt le matin.", "en": "The ceremony starts early in the morning.", "km": "ពិធីចាប់ផ្តើមពីព្រលឹម។", "tr": "pi-thi tchap-phdaeum pi pro-leum.",
+      "es": "La ceremonia empieza temprano por la mañana.", "it": "La cerimonia comincia la mattina presto.", "ru": "Церемония начинается рано утром.", "zh": "仪式一大早就开始。", "zh_tr": "Yíshì yí dà zǎo jiù kāishǐ."}
+    },
+    {
+      "fr": "le marié", "en": "groom", "km": "កូនកំលោះ", "tr": "kôn kâm-loh",
+      "es": "el novio", "it": "lo sposo", "ru": "жених", "zh": "新郎", "zh_tr": "xīnláng", "pos": "nom",
+      "note": {
+        "fr": "កូនកំលោះ, « le marié » ; កំលោះ seul veut dire « jeune homme célibataire ». Pendant la fête, il change de costume plusieurs fois.",
+        "en": "កូនកំលោះ, “the groom”; កំលោះ alone means “young unmarried man”. He changes outfits several times during the celebration. French « le marié »; « les mariés » are the bride and groom.",
+        "km": "« le marié » មានន័យថា កូនកំលោះ; « les mariés » គឺកូនកំលោះកូនក្រមុំ។ អង់គ្លេស៖ « groom », « bridegroom »។"
+      },
+      "example": {"fr": "Le marié porte un costume traditionnel.", "en": "The groom is wearing a traditional outfit.", "km": "កូនកំលោះស្លៀកពាក់ខោអាវប្រពៃណី។", "tr": "kôn kâm-loh sliek péak khao-av prâ-pey-ney.",
+      "es": "El novio lleva un traje tradicional.", "it": "Lo sposo indossa un abito tradizionale.", "ru": "Жених одет в традиционный костюм.", "zh": "新郎穿着传统服装。", "zh_tr": "Xīnláng chuānzhe chuántǒng fúzhuāng."}
+    },
+    {
+      "fr": "la mariée", "en": "bride", "km": "កូនក្រមុំ", "tr": "kôn krâ-mom",
+      "es": "la novia", "it": "la sposa", "ru": "невеста", "zh": "新娘", "zh_tr": "xīnniáng", "pos": "nom",
+      "note": {
+        "fr": "កូនក្រមុំ, « la mariée » ; ក្រមុំ seul veut dire « jeune fille ». Elle porte des tenues de soie de toutes les couleurs, jusqu'à sept ou huit dans la journée.",
+        "en": "កូនក្រមុំ, “the bride”; ក្រមុំ alone means “young unmarried woman”. She wears silk outfits in every colour, up to seven or eight in a day. French « la mariée ».",
+        "km": "« la mariée » មានន័យថា កូនក្រមុំ។ អង់គ្លេស៖ « bride »។"
+      },
+      "example": {"fr": "La mariée est très belle dans sa tenue de soie.", "en": "The bride looks beautiful in her silk outfit.", "km": "កូនក្រមុំស្លៀកសំពត់សូត្រស្អាតណាស់។", "tr": "kôn krâ-mom sliek sâm-pot sot s'at nah.",
+      "es": "La novia está muy guapa con su traje de seda.", "it": "La sposa è bellissima nel suo abito di seta.", "ru": "Невеста очень красива в шёлковом наряде.", "zh": "新娘穿着丝绸礼服，非常漂亮。", "zh_tr": "Xīnniáng chuānzhe sīchóu lǐfú, fēicháng piàoliang."}
+    },
+    {
+      "fr": "la bague", "en": "ring", "km": "ចិញ្ចៀន", "tr": "tchegn-tchien",
+      "es": "el anillo", "it": "l'anello", "ru": "кольцо", "zh": "戒指", "zh_tr": "jièzhi", "pos": "nom",
+      "note": {
+        "fr": "ចិញ្ចៀន, « bague, anneau ». ចិញ្ចៀនរៀបការ, « l'alliance » ; ពាក់ចិញ្ចៀន, « porter une bague ».",
+        "en": "ចិញ្ចៀន, “ring”. ចិញ្ចៀនរៀបការ, “wedding ring”; ពាក់ចិញ្ចៀន, “to wear a ring”. French « la bague »; the wedding ring is « l'alliance ».",
+        "km": "« la bague » មានន័យថា ចិញ្ចៀន; « l'alliance » គឺចិញ្ចៀនរៀបការ។ អង់គ្លេស៖ « ring », « wedding ring »។"
+      },
+      "example": {"fr": "Elle porte une bague en or.", "en": "She wears a gold ring.", "km": "គាត់ពាក់ចិញ្ចៀនមាស។", "tr": "koat péak tchegn-tchien méah.",
+      "es": "Lleva un anillo de oro.", "it": "Porta un anello d'oro.", "ru": "Она носит золотое кольцо.", "zh": "她戴着一枚金戒指。", "zh_tr": "Tā dàizhe yì méi jīn jièzhi."}
+    },
+    {
+      "fr": "l'enveloppe", "en": "envelope", "km": "ស្រោមសំបុត្រ", "tr": "sraom sâm-bot",
+      "es": "el sobre", "it": "la busta", "ru": "конверт", "zh": "信封", "zh_tr": "xìnfēng", "pos": "nom",
+      "note": {
+        "fr": "ស្រោម, « étui, enveloppe », et សំបុត្រ, « lettre ». L'invitation arrive dans une enveloppe à votre nom ; on la rend à l'entrée avec de l'argent dedans.",
+        "en": "ស្រោម, “sleeve, cover”, and សំបុត្រ, “letter”. The invitation comes in an envelope with your name on it; you hand it back at the door with money inside. French « l'enveloppe » is feminine.",
+        "km": "« l'enveloppe » មានន័យថា ស្រោមសំបុត្រ (ភេទស្រី)៖ une enveloppe។ អង់គ្លេស៖ « envelope »។"
+      },
+      "example": {"fr": "On met l'argent dans l'enveloppe de l'invitation.", "en": "You put the money in the invitation envelope.", "km": "គេដាក់លុយក្នុងស្រោមសំបុត្រអញ្ជើញ។", "tr": "ké dak louy knong sraom sâm-bot agn-tcheugn.",
+      "es": "El dinero se pone en el sobre de la invitación.", "it": "Si mettono i soldi nella busta dell'invito.", "ru": "Деньги кладут в конверт от приглашения.", "zh": "把钱放在请柬的信封里。", "zh_tr": "Bǎ qián fàng zài qǐngjiǎn de xìnfēng lǐ."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Tous mes vœux de bonheur !", "en": "Wishing you every happiness!", "km": "សូមជូនពរឱ្យមានសុភមង្គល!", "tr": "sôm tchoun pô aoy méan so-phéak-mong-kol !",
+      "es": "¡Que seáis muy felices!", "it": "Tanti auguri di felicità!", "ru": "Желаю вам счастья!", "zh": "祝你们幸福！", "zh_tr": "Zhù nǐmen xìngfú!",
+      "note": {
+        "fr": "ជូនពរ, « souhaiter » ; សុភមង្គល, « bonheur, félicité ». La formule se dit aux mariés en joignant les mains.",
+        "en": "ជូនពរ, “to wish”; សុភមង្គល, “happiness, bliss”. Said to the couple with palms together. French « Tous mes vœux de bonheur ! ».",
+        "km": "« Tous mes vœux de bonheur ! » ប្រើជូនពរកូនកំលោះកូនក្រមុំ។ អង់គ្លេស៖ « Wishing you every happiness! »។"
+      }
+    },
+    {
+      "fr": "Ils vont bien ensemble.", "en": "They make a lovely couple.", "km": "ពួកគេសមគ្នាណាស់។", "tr": "pouok-ké sâm knéa nah.",
+      "es": "Hacen muy buena pareja.", "it": "Stanno proprio bene insieme.", "ru": "Они прекрасная пара.", "zh": "他们真般配。", "zh_tr": "Tāmen zhēn bānpèi.",
+      "note": {
+        "fr": "សម, « convenir, aller bien », et គ្នា, « l'un l'autre » : ils vont bien ensemble. Le compliment classique d'un mariage.",
+        "en": "សម, “to suit”, and គ្នា, “each other”: they suit each other. The classic wedding compliment. French « aller bien ensemble ».",
+        "km": "« Ils vont bien ensemble » មានន័យថា ពួកគេសមគ្នា។ អង់គ្លេស៖ « They make a lovely couple »។"
+      }
+    },
+    {
+      "fr": "Tu vas au mariage ?", "en": "Are you going to the wedding?", "km": "ទៅញ៉ាំការទេ?", "tr": "teuv gnam ka té ?",
+      "es": "¿Vas a la boda?", "it": "Vai al matrimonio?", "ru": "Ты идёшь на свадьбу?", "zh": "你去参加婚礼吗？", "zh_tr": "Nǐ qù cānjiā hūnlǐ ma?",
+      "note": {
+        "fr": "ញ៉ាំការ, mot à mot « manger le mariage » : aller au banquet de noces. On est invité au repas du soir plus qu'aux cérémonies du matin.",
+        "en": "ញ៉ាំការ, literally “to eat the wedding”: to go to the wedding dinner. Guests are invited to the evening meal more than to the morning ceremonies. French « aller au mariage ».",
+        "km": "« aller au mariage » មានន័យថា ទៅញ៉ាំការ។ អង់គ្លេស៖ « to go to the wedding »។"
+      }
+    },
+    {
+      "fr": "On met combien dans l'enveloppe ?", "en": "How much do we put in the envelope?", "km": "ចងដៃប៉ុន្មាន?", "tr": "tchâng day pon-man ?",
+      "es": "¿Cuánto ponemos en el sobre?", "it": "Quanto mettiamo nella busta?", "ru": "Сколько положим в конверт?", "zh": "信封里放多少钱？", "zh_tr": "Xìnfēng lǐ fàng duōshao qián?",
+      "note": {
+        "fr": "ចងដៃ, mot à mot « nouer le poignet » : autrefois on nouait un fil au poignet des mariés ; aujourd'hui, cela veut dire offrir de l'argent dans l'enveloppe.",
+        "en": "ចងដៃ, literally “to tie the wrist”: guests once tied a thread round the couple's wrists; today it means giving money in the envelope. In France, guests usually pick from a gift list.",
+        "km": "នៅប្រទេសបារាំង ភ្ញៀវច្រើនទិញអំណោយតាមបញ្ជីរបស់គូស្វាមីភរិយា ឬដាក់លុយក្នុង « une enveloppe »។ អង់គ្លេស៖ « wedding gift »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au mariage", "en": "At the wedding", "km": "នៅពិធីមង្គលការ"},
+      "fr": "Les invités mangent, dansent et prennent des photos avec les mariés.", "en": "The guests eat, dance and take photos with the bride and groom.",
+      "km": "ភ្ញៀវញ៉ាំ រាំ ហើយថតរូបជាមួយកូនកំលោះកូនក្រមុំ។", "tr": "phgnieu gnam, roam, haeuy thât roup tchéa-mouy kôn kâm-loh kôn krâ-mom.",
+      "es": "Los invitados comen, bailan y se hacen fotos con los novios.", "it": "Gli invitati mangiano, ballano e fanno foto con gli sposi.", "ru": "Гости едят, танцуют и фотографируются с женихом и невестой.", "zh": "客人们吃饭、跳舞，还和新郎新娘合影。", "zh_tr": "Kèrenmen chīfàn, tiàowǔ, hái hé xīnláng xīnniáng héyǐng."
+    },
+    {
+      "situation": {"fr": "L'invitation", "en": "The invitation", "km": "សំបុត្រអញ្ជើញ"},
+      "fr": "Nous avons reçu une invitation pour le mariage de la voisine.", "en": "We've received an invitation to our neighbour's wedding.",
+      "km": "យើងបានទទួលសំបុត្រអញ្ជើញទៅមង្គលការអ្នកជិតខាង។", "tr": "yeung ban tô-tuol sâm-bot agn-tcheugn teuv mong-kol-ka néak tchit khang.",
+      "es": "Hemos recibido una invitación para la boda de la vecina.", "it": "Abbiamo ricevuto un invito per il matrimonio della vicina.", "ru": "Мы получили приглашение на свадьбу соседки.", "zh": "我们收到了邻居的婚礼请柬。", "zh_tr": "Wǒmen shōudào le línjū de hūnlǐ qǐngjiǎn."
+    },
+    {
+      "situation": {"fr": "Pendant la cérémonie", "en": "During the ceremony", "km": "ក្នុងពិធី"},
+      "fr": "Les parents nouent un fil rouge au poignet des mariés.", "en": "The parents tie a red thread round the couple's wrists.",
+      "km": "ឪពុកម្តាយចងអំបោះក្រហមនៅកដៃកូនកំលោះកូនក្រមុំ។", "tr": "eu-pouk mday tchâng âm-boh krâ-hâm neuv kâ day kôn kâm-loh kôn krâ-mom.",
+      "es": "Los padres atan un hilo rojo en la muñeca de los novios.", "it": "I genitori legano un filo rosso al polso degli sposi.", "ru": "Родители повязывают красную нить на запястья жениха и невесты.", "zh": "父母在新郎新娘的手腕上系红线。", "zh_tr": "Fùmǔ zài xīnláng xīnniáng de shǒuwàn shàng jì hóng xiàn."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} vont à un mariage samedi soir.", "en": "{A} and {B} are going to a wedding on Saturday evening.", "km": "{A} និង {B} នឹងទៅញ៉ាំការនៅល្ងាចថ្ងៃសៅរ៍។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, samedi soir, on va à un mariage !", "en": "{B}, on Saturday evening we're going to a wedding!", "km": "{B} ល្ងាចថ្ងៃសៅរ៍ យើងទៅញ៉ាំការ!", "tr": "{B}, lngéatch thngay sav, yeung teuv gnam ka !",
+        "es": "{B}, ¡el sábado por la noche vamos a una boda!", "it": "{B}, sabato sera andiamo a un matrimonio!", "ru": "{B}, в субботу вечером мы идём на свадьбу!", "zh": "{B}，星期六晚上我们去参加婚礼！", "zh_tr": "{B}, xīngqīliù wǎnshang wǒmen qù cānjiā hūnlǐ!"},
+      {"speaker": "B", "fr": "Super ! C'est mon premier mariage khmer. Je dois apporter un cadeau ?", "en": "Great! It's my first Khmer wedding. Should I bring a present?", "km": "ល្អណាស់! នេះជាលើកដំបូងដែលខ្ញុំទៅមង្គលការខ្មែរ។ ត្រូវយកអំណោយទៅទេ?", "tr": "l'â nah ! nih tchéa leuk dâm-bông dael khgnom teuv mong-kol-ka khmaè. treuv yok âm-naoy teuv té ?",
+        "es": "¡Genial! Es mi primera boda jemer. ¿Tengo que llevar un regalo?", "it": "Fantastico! È il mio primo matrimonio khmer. Devo portare un regalo?", "ru": "Здорово! Это моя первая кхмерская свадьба. Нужно принести подарок?", "zh": "太好了！这是我第一次参加高棉婚礼。要带礼物吗？", "zh_tr": "Tài hǎo le! Zhè shì wǒ dì-yī cì cānjiā Gāomián hūnlǐ. Yào dài lǐwù ma?"},
+      {"speaker": "A", "fr": "Non, on met de l'argent dans l'enveloppe.", "en": "No, you put money in the envelope.", "km": "អត់ទេ គេដាក់លុយក្នុងស្រោមសំបុត្រ។", "tr": "ât té, ké dak louy knong sraom sâm-bot.",
+        "es": "No, se pone dinero en el sobre.", "it": "No, si mettono i soldi nella busta.", "ru": "Нет, деньги кладут в конверт.", "zh": "不用，把钱放在信封里就行。", "zh_tr": "Búyòng, bǎ qián fàng zài xìnfēng lǐ jiù xíng."},
+      {"speaker": "B", "fr": "D'accord. Et on verra la cérémonie ?", "en": "All right. And will we see the ceremony?", "km": "បាន។ ហើយយើងបានមើលពិធីទេ?", "tr": "ban. haeuy yeung ban meul pi-thi té ?",
+        "es": "De acuerdo. ¿Y veremos la ceremonia?", "it": "Va bene. E vedremo la cerimonia?", "ru": "Хорошо. А мы увидим церемонию?", "zh": "好。我们能看到仪式吗？", "zh_tr": "Hǎo. Wǒmen néng kàndào yíshì ma?"},
+      {"speaker": "A", "fr": "La cérémonie est le matin, pour la famille. Le soir, on mange et on danse.", "en": "The ceremony is in the morning, for the family. In the evening, we eat and dance.", "km": "ពិធីធ្វើនៅពេលព្រឹក សម្រាប់គ្រួសារ។ ពេលល្ងាច យើងញ៉ាំ ហើយរាំ។", "tr": "pi-thi thveu neuv pél preuk, sâm-rap krouo-sa. pél lngéatch, yeung gnam haeuy roam.",
+        "es": "La ceremonia es por la mañana, para la familia. Por la noche se come y se baila.", "it": "La cerimonia è la mattina, per la famiglia. La sera si mangia e si balla.", "ru": "Церемония проходит утром, для семьи. А вечером едят и танцуют.", "zh": "仪式在早上，是给家人办的。晚上大家吃饭、跳舞。", "zh_tr": "Yíshì zài zǎoshang, shì gěi jiārén bàn de. Wǎnshang dàjiā chīfàn, tiàowǔ."},
+      {"speaker": "B", "fr": "Et je pourrai prendre une photo avec le marié et la mariée ?", "en": "And can I have a photo taken with the bride and groom?", "km": "ហើយខ្ញុំថតរូបជាមួយកូនកំលោះកូនក្រមុំបានទេ?", "tr": "haeuy khgnom thât roup tchéa-mouy kôn kâm-loh kôn krâ-mom ban té ?",
+        "es": "¿Y podré hacerme una foto con el novio y la novia?", "it": "E potrò fare una foto con lo sposo e la sposa?", "ru": "А можно будет сфотографироваться с женихом и невестой?", "zh": "我可以和新郎新娘合影吗？", "zh_tr": "Wǒ kěyǐ hé xīnláng xīnniáng héyǐng ma?"},
+      {"speaker": "A", "fr": "Bien sûr ! Ils attendent les invités à l'entrée.", "en": "Of course! They wait for the guests at the entrance.", "km": "បានតើ! គេឈរចាំទទួលភ្ញៀវនៅមាត់ទ្វារ។", "tr": "ban taeu ! ké tchhô tcham tô-tuol phgnieu neuv moat tvéa.",
+        "es": "¡Claro! Esperan a los invitados en la entrada.", "it": "Certo! Aspettano gli invitati all'ingresso.", "ru": "Конечно! Они встречают гостей у входа.", "zh": "当然可以！他们在门口迎接客人。", "zh_tr": "Dāngrán kěyǐ! Tāmen zài ménkǒu yíngjiē kèren."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce qu'on met dans l'enveloppe ?", "en": "What do you put in the envelope?", "km": "គេដាក់អ្វីក្នុងស្រោមសំបុត្រ?"},
+    "answer": {"fr": "De l'argent.", "en": "Money.", "km": "លុយ។"}
+  }
+}

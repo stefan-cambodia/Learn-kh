@@ -36572,12 +36572,12 @@
      "en": "Who is that?",
      "km": "នោះជានរណា?",
      "tr": "nouh tchéa no-na ?",
-     "source": "review",
      "es": "¿Quién es?",
      "it": "Chi è?",
      "ru": "Кто это?",
      "zh": "那是谁？",
-     "zh_tr": "Nà shì shéi?"
+     "zh_tr": "Nà shì shéi?",
+     "source": "review"
     },
     "comprehension": {
      "question": {
@@ -47893,12 +47893,12 @@
      "en": "I want to buy a bunch of bananas.",
      "km": "ខ្ញុំចង់ទិញចេកមួយស្និត។",
      "tr": "khgnom tchâng tign tchék mouy snet.",
-     "source": "review",
      "es": "Quiero comprar un racimo de plátanos.",
      "it": "Voglio comprare un casco di banane.",
      "ru": "Я хочу купить связку бананов.",
      "zh": "我想买一串香蕉。",
-     "zh_tr": "Wǒ xiǎng mǎi yí chuàn xiāngjiāo."
+     "zh_tr": "Wǒ xiǎng mǎi yí chuàn xiāngjiāo.",
+     "source": "review"
     },
     "comprehension": {
      "question": {
@@ -55696,12 +55696,12 @@
      "en": "My house is near the market.",
      "km": "ផ្ទះខ្ញុំនៅជិតផ្សារ។",
      "tr": "phtéah khgnom neuv tchit phsa.",
-     "source": "review",
      "es": "Mi casa está cerca del mercado.",
      "it": "La mia casa è vicino al mercato.",
      "ru": "Мой дом рядом с рынком.",
      "zh": "我家离市场很近。",
-     "zh_tr": "Wǒ jiā lí shìchǎng hěn jìn."
+     "zh_tr": "Wǒ jiā lí shìchǎng hěn jìn.",
+     "source": "review"
     },
     "comprehension": {
      "question": {
@@ -55904,7 +55904,7 @@
       "fr": "Le moine bénit les jeunes mariés.",
       "en": "The monk blesses the newlyweds.",
       "km": "ព្រះសង្ឃប្រទានពរដល់កូនកំលោះកូនក្រមុំ។",
-      "tr": "préah sâng prâ-téan pô dâl koun kâm-loh koun krâ-mom.",
+      "tr": "préah sâng prâ-téan pô dâl kôn kâm-loh kôn krâ-mom.",
       "es": "El monje bendice a los novios.",
       "it": "Il monaco benedice gli sposi.",
       "ru": "Монах благословляет молодожёнов.",
@@ -56575,12 +56575,12 @@
      "en": "At the market, turn right.",
      "km": "ដល់ផ្សារ សូមបត់ស្តាំ។",
      "tr": "dâl phsa, sôm bât sdam.",
-     "source": "review",
      "es": "En el mercado, gire a la derecha.",
      "it": "Al mercato, giri a destra.",
      "ru": "У рынка поверните направо.",
      "zh": "到了市场往右拐。",
-     "zh_tr": "Dào le shìchǎng wǎng yòu guǎi."
+     "zh_tr": "Dào le shìchǎng wǎng yòu guǎi.",
+     "source": "review"
     },
     "comprehension": {
      "question": {
@@ -57442,12 +57442,12 @@
      "en": "Wait five minutes, please.",
      "km": "សូមចាំប្រាំនាទី។",
      "tr": "sôm tcham pram néa-ti.",
-     "source": "review",
      "es": "Espera cinco minutos, por favor.",
      "it": "Aspetta cinque minuti, per favore.",
      "ru": "Подожди пять минут, пожалуйста.",
      "zh": "请等五分钟。",
-     "zh_tr": "Qǐng děng wǔ fēnzhōng."
+     "zh_tr": "Qǐng děng wǔ fēnzhōng.",
+     "source": "review"
     },
     "comprehension": {
      "question": {
@@ -60063,6 +60063,2541 @@
       "fr": "Son professeur.",
       "en": "The teacher.",
       "km": "គ្រូរបស់គាត់។"
+     }
+    }
+   },
+   "estimated_seconds": 560,
+   "quality": {
+    "errors": 0,
+    "warnings": 0,
+    "uncertain": 0,
+    "issues": []
+   }
+  }
+ },
+ {
+  "number": 71,
+  "date": "2027-01-24",
+  "theme": "les-cinq-sens",
+  "level": "intermediaire",
+  "kind": "unit",
+  "unit_id": "u071",
+  "title": {
+   "fr": "Les cinq sens",
+   "en": "The five senses",
+   "km": "វិញ្ញាណទាំងប្រាំ"
+  },
+  "estimated_duration_seconds": 560,
+  "html_path": "lessons/lesson-071.html",
+  "audio_missing": 0,
+  "created_at": "2026-11-26T22:22:04Z",
+  "content": {
+   "version": 1,
+   "number": 71,
+   "date": "2027-01-24",
+   "kind": "unit",
+   "unit_id": "u071",
+   "theme": "les-cinq-sens",
+   "level": "intermediaire",
+   "title": {
+    "fr": "Les cinq sens",
+    "en": "The five senses",
+    "km": "វិញ្ញាណទាំងប្រាំ"
+   },
+   "tip": {
+    "fr": "Le khmer sépare l'action de son résultat : មើល, « regarder », et ឃើញ, « voir » ; ស្តាប់, « écouter », et ឮ, « entendre ». On les enchaîne : មើលឃើញ, ស្តាប់ឮ. La négation se place au milieu : មើលមិនឃើញ, « je regarde mais je ne vois pas ».",
+    "en": "Khmer separates the action from its result: មើល, “to look”, and ឃើញ, “to see”; ស្តាប់, “to listen”, and ឮ, “to hear”. They chain together: មើលឃើញ, ស្តាប់ឮ. The negative goes in the middle: មើលមិនឃើញ, “I look but can't see”. French has the same pairs: regarder / voir, écouter / entendre.",
+    "km": "ភាសាបារាំងមានពាក្យជាគូដូចខ្មែរ៖ regarder (មើល) និង voir (ឃើញ) ; écouter (ស្តាប់) និង entendre (ឮ)។ អង់គ្លេស៖ to look និង to see ; to listen និង to hear។"
+   },
+   "vocabulary": [
+    {
+     "fr": "voir",
+     "en": "to see",
+     "km": "ឃើញ",
+     "tr": "kheugn",
+     "es": "ver",
+     "it": "vedere",
+     "ru": "видеть",
+     "zh": "看见",
+     "zh_tr": "kànjiàn",
+     "pos": "verbe",
+     "note": {
+      "fr": "ឃើញ désigne le résultat : on perçoit. Il suit souvent មើល : មើលឃើញ, « regarder et voir », donc « apercevoir ».",
+      "en": "ឃើញ is the result: you perceive. It often follows មើល: មើលឃើញ, “to look and see”. French « voir » is irregular: je vois, nous voyons.",
+      "km": "« voir » មានន័យថា ឃើញ៖ je vois, nous voyons។ អង់គ្លេស៖ « to see »; គេច្រើននិយាយ « I can see » ជាង « I see »។"
+     },
+     "example": {
+      "fr": "Je vois la montagne d'ici.",
+      "en": "I can see the mountain from here.",
+      "km": "ខ្ញុំឃើញភ្នំពីទីនេះ។",
+      "tr": "khgnom kheugn phnom pi ti-nih.",
+      "es": "Veo la montaña desde aquí.",
+      "it": "Vedo la montagna da qui.",
+      "ru": "Отсюда я вижу гору.",
+      "zh": "我从这里能看见山。",
+      "zh_tr": "Wǒ cóng zhèlǐ néng kànjiàn shān."
+     },
+     "vocab_id": 701,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "regarder",
+     "en": "to look at",
+     "km": "មើល",
+     "tr": "meul",
+     "es": "mirar",
+     "it": "guardare",
+     "ru": "смотреть",
+     "zh": "看",
+     "zh_tr": "kàn",
+     "pos": "verbe",
+     "note": {
+      "fr": "មើល, « regarder », sert aussi pour un film ou un livre : មើលកុន, « voir un film » ; មើលសៀវភៅ, « lire un livre ».",
+      "en": "មើល, “to look at, to watch”, also covers films and books: មើលកុន, “to watch a film”; មើលសៀវភៅ, “to read a book”. French « regarder » takes no preposition: regarder un film.",
+      "km": "« regarder » មានន័យថា មើល៖ regarder un film។ អង់គ្លេស៖ « to look at » សម្រាប់របស់នៅស្ងៀម ហើយ « to watch » សម្រាប់អ្វីដែលកម្រើក។"
+     },
+     "example": {
+      "fr": "Les enfants regardent les bateaux sur le fleuve.",
+      "en": "The children are watching the boats on the river.",
+      "km": "ក្មេងៗមើលទូកនៅលើទន្លេ។",
+      "tr": "kméng-kméng meul touk neuv leu tonlé.",
+      "es": "Los niños miran los barcos en el río.",
+      "it": "I bambini guardano le barche sul fiume.",
+      "ru": "Дети смотрят на лодки на реке.",
+      "zh": "孩子们在看河上的船。",
+      "zh_tr": "Háizimen zài kàn hé shàng de chuán."
+     },
+     "vocab_id": 702,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "entendre",
+     "en": "to hear",
+     "km": "ឮ",
+     "tr": "leu",
+     "es": "oír",
+     "it": "sentire",
+     "ru": "слышать",
+     "zh": "听见",
+     "zh_tr": "tīngjiàn",
+     "pos": "verbe",
+     "note": {
+      "fr": "ឮ désigne le résultat : le son arrive à l'oreille. ស្តាប់ឮ, « écouter et entendre » ; ស្តាប់មិនឮ, « ne pas réussir à entendre ».",
+      "en": "ឮ is the result: the sound reaches you. ស្តាប់ឮ, “to listen and hear”; ស្តាប់មិនឮ, “can't hear”. French « entendre »: j'entends, with a silent d.",
+      "km": "« entendre » មានន័យថា ឮ៖ j'entends (មិនអាន d ទេ)។ អង់គ្លេស៖ « to hear »; « I can hear you » មានន័យថា ខ្ញុំឮអ្នក។"
+     },
+     "example": {
+      "fr": "J'entends la pluie sur le toit.",
+      "en": "I can hear the rain on the roof.",
+      "km": "ខ្ញុំឮសំឡេងភ្លៀងលើដំបូល។",
+      "tr": "khgnom leu sâm-léng phlieng leu dâm-boul.",
+      "es": "Oigo la lluvia en el tejado.",
+      "it": "Sento la pioggia sul tetto.",
+      "ru": "Я слышу шум дождя на крыше.",
+      "zh": "我听见屋顶上的雨声。",
+      "zh_tr": "Wǒ tīngjiàn wūdǐng shàng de yǔshēng."
+     },
+     "vocab_id": 703,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "écouter",
+     "en": "to listen",
+     "km": "ស្តាប់",
+     "tr": "sdap",
+     "es": "escuchar",
+     "it": "ascoltare",
+     "ru": "слушать",
+     "zh": "听",
+     "zh_tr": "tīng",
+     "pos": "verbe",
+     "note": {
+      "fr": "ស្តាប់ est l'action volontaire. ស្តាប់បាន signifie aussi « comprendre à l'oreille » : ស្តាប់ខ្មែរបាន, « comprendre le khmer parlé ».",
+      "en": "ស្តាប់ is the deliberate action. ស្តាប់បាន also means “to understand by ear”: ស្តាប់ខ្មែរបាន, “to understand spoken Khmer”. French « écouter » takes no preposition: écouter la radio.",
+      "km": "« écouter » មានន័យថា ស្តាប់ ហើយមិនត្រូវការធ្នាក់ទេ៖ écouter la radio។ អង់គ្លេស៖ « to listen to » ត្រូវមាន « to » ជានិច្ច។"
+     },
+     "example": {
+      "fr": "Elle écoute la radio en cuisinant.",
+      "en": "She listens to the radio while cooking.",
+      "km": "គាត់ស្តាប់វិទ្យុពេលធ្វើម្ហូប។",
+      "tr": "koat sdap vit-you pél thveu mhôp.",
+      "es": "Escucha la radio mientras cocina.",
+      "it": "Ascolta la radio mentre cucina.",
+      "ru": "Она слушает радио, когда готовит.",
+      "zh": "她一边做饭一边听收音机。",
+      "zh_tr": "Tā yìbiān zuòfàn yìbiān tīng shōuyīnjī."
+     },
+     "vocab_id": 704,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "sentir",
+     "en": "to smell",
+     "km": "ធុំក្លិន",
+     "tr": "thoum klen",
+     "es": "oler",
+     "it": "sentire un odore",
+     "ru": "чувствовать запах",
+     "zh": "闻",
+     "zh_tr": "wén",
+     "pos": "verbe",
+     "note": {
+      "fr": "ធុំ, « percevoir une odeur », et ក្លិន, « odeur ». Pour renifler exprès, on dit ហិត. ក្លិនក្រអូប, « bonne odeur » ; ក្លិនស្អុយ, « mauvaise odeur ».",
+      "en": "ធុំ, “to notice a smell”, and ក្លិន, “smell”. To sniff on purpose, say ហិត. French « sentir » means both “to smell something” and “to smell of”: ça sent bon.",
+      "km": "« sentir » មានន័យពីរ៖ ធុំក្លិន (je sens le café) និង មានក្លិន (ça sent bon)។ អង់គ្លេស « to smell » ក៏ដូចគ្នា។"
+     },
+     "example": {
+      "fr": "Je sens une odeur de café.",
+      "en": "I can smell coffee.",
+      "km": "ខ្ញុំធុំក្លិនកាហ្វេ។",
+      "tr": "khgnom thoum klen ka-fé.",
+      "es": "Noto un olor a café.",
+      "it": "Sento odore di caffè.",
+      "ru": "Я чувствую запах кофе.",
+      "zh": "我闻到咖啡的香味了。",
+      "zh_tr": "Wǒ wéndào kāfēi de xiāngwèi le."
+     },
+     "vocab_id": 705,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "toucher",
+     "en": "to touch",
+     "km": "ប៉ះ",
+     "tr": "pah",
+     "es": "tocar",
+     "it": "toccare",
+     "ru": "трогать",
+     "zh": "摸",
+     "zh_tr": "mō",
+     "pos": "verbe",
+     "note": {
+      "fr": "ប៉ះ, « toucher ». Au Cambodge, on ne touche pas la tête de quelqu'un : c'est la partie la plus respectée du corps.",
+      "en": "ប៉ះ, “to touch”. In Cambodia you do not touch someone's head: it is the most respected part of the body. French « toucher » takes no preposition: toucher le mur.",
+      "km": "« toucher » មានន័យថា ប៉ះ៖ Ne touche pas ! (កុំប៉ះ!)។ អង់គ្លេស៖ « to touch »; « Don't touch! »។"
+     },
+     "example": {
+      "fr": "Ne touche pas le verre, il est chaud.",
+      "en": "Don't touch the glass, it's hot.",
+      "km": "កុំប៉ះកែវ វាក្តៅ។",
+      "tr": "kom pah kaèv, véa kdav.",
+      "es": "No toques el vaso, está caliente.",
+      "it": "Non toccare il bicchiere, è caldo.",
+      "ru": "Не трогай стакан, он горячий.",
+      "zh": "别摸杯子，很烫。",
+      "zh_tr": "Bié mō bēizi, hěn tàng."
+     },
+     "vocab_id": 706,
+     "is_new": true,
+     "kind": "word"
+    }
+   ],
+   "expressions": [
+    {
+     "fr": "Regarde là-bas !",
+     "en": "Look over there!",
+     "km": "មើលនោះ!",
+     "tr": "meul nouh !",
+     "es": "¡Mira allí!",
+     "it": "Guarda là!",
+     "ru": "Посмотри туда!",
+     "zh": "你看那边！",
+     "zh_tr": "Nǐ kàn nàbiān!",
+     "note": {
+      "fr": "មើល seul sert d'impératif ; នោះ, « là, cela ». Pour une chose toute proche, on dit មើលនេះ, « regarde ça ».",
+      "en": "មើល alone works as an imperative; នោះ, “there, that”. For something close, say មើលនេះ, “look at this”. French « là-bas » means “over there”.",
+      "km": "« Regarde ! » ប្រើជាមួយមនុស្សស្និទ្ធស្នាល ហើយ « Regardez ! » សម្រាប់និយាយគួរសម។ អង់គ្លេស៖ « Look! », « Look over there! »។"
+     },
+     "vocab_id": 707,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "Je ne vois rien.",
+     "en": "I can't see anything.",
+     "km": "ខ្ញុំមើលមិនឃើញអ្វីសោះ។",
+     "tr": "khgnom meul min kheugn ey sâh.",
+     "es": "No veo nada.",
+     "it": "Non vedo niente.",
+     "ru": "Я ничего не вижу.",
+     "zh": "我什么都看不见。",
+     "zh_tr": "Wǒ shénme dōu kàn bu jiàn.",
+     "note": {
+      "fr": "មើលមិនឃើញ : la négation មិន se glisse entre l'action et le résultat. សោះ, « du tout », renforce. Le chinois fait pareil : 看不见.",
+      "en": "មើលមិនឃើញ: the negative មិន goes between the action and the result. សោះ, “at all”, adds emphasis. Chinese does the same: 看不见. French « ne… rien » means “nothing”.",
+      "km": "« ne… rien » មានន័យថា គ្មានអ្វីសោះ៖ Je ne vois rien។ អង់គ្លេស៖ « I can't see anything »។"
+     },
+     "vocab_id": 708,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "Tu entends ce bruit ?",
+     "en": "Can you hear that noise?",
+     "km": "ឮសំឡេងនោះទេ?",
+     "tr": "leu sâm-léng nouh té ?",
+     "es": "¿Oyes ese ruido?",
+     "it": "Senti quel rumore?",
+     "ru": "Ты слышишь этот шум?",
+     "zh": "你听见那个声音了吗？",
+     "zh_tr": "Nǐ tīngjiàn nàge shēngyīn le ma?",
+     "note": {
+      "fr": "សំឡេង, « son, bruit, voix ». Le sujet « tu » est souvent omis en khmer quand il est évident.",
+      "en": "សំឡេង, “sound, noise, voice”. Khmer often drops “you” when it is obvious. French « le bruit » means “noise”.",
+      "km": "« le bruit » មានន័យថា សំឡេង ឬ សូរ។ អង់គ្លេស៖ « noise » សម្រាប់សំឡេងរំខាន ហើយ « sound » សម្រាប់សំឡេងទូទៅ។"
+     },
+     "vocab_id": 709,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "Ça sent mauvais !",
+     "en": "It smells bad!",
+     "km": "ក្លិនស្អុយណាស់!",
+     "tr": "klen s'oy nah !",
+     "es": "¡Huele mal!",
+     "it": "Che puzza!",
+     "ru": "Плохо пахнет!",
+     "zh": "真难闻！",
+     "zh_tr": "Zhēn nánwén!",
+     "note": {
+      "fr": "ស្អុយ, « puant ». Le contraire est ក្រអូប, « parfumé ». Le durian, lui, divise : ក្រអូប pour les uns, ស្អុយ pour les autres !",
+      "en": "ស្អុយ, “stinking”. The opposite is ក្រអូប, “fragrant”. Durian splits opinion: ក្រអូប for some, ស្អុយ for others! French « ça sent mauvais ».",
+      "km": "« Ça sent mauvais » មានន័យថា ក្លិនស្អុយ ហើយ « Ça sent bon » មានន័យថា ក្លិនក្រអូប។ អង់គ្លេស៖ « It smells bad », « It stinks »។"
+     },
+     "vocab_id": 710,
+     "is_new": true,
+     "kind": "expression"
+    }
+   ],
+   "sentences": [
+    {
+     "situation": {
+      "fr": "Sur la route, la nuit",
+      "en": "On the road at night",
+      "km": "នៅលើផ្លូវពេលយប់"
+     },
+     "fr": "Il fait trop sombre, je ne vois pas la route.",
+     "en": "It's too dark, I can't see the road.",
+     "km": "ងងឹតពេក ខ្ញុំមើលផ្លូវមិនឃើញទេ។",
+     "tr": "ngo-ngeut pék, khgnom meul phleuv min kheugn té.",
+     "es": "Está demasiado oscuro, no veo la carretera.",
+     "it": "È troppo buio, non vedo la strada.",
+     "ru": "Слишком темно, я не вижу дороги.",
+     "zh": "太黑了，我看不见路。",
+     "zh_tr": "Tài hēi le, wǒ kàn bu jiàn lù."
+    },
+    {
+     "situation": {
+      "fr": "À la campagne",
+      "en": "In the countryside",
+      "km": "នៅជនបទ"
+     },
+     "fr": "La nuit, on entend les grenouilles dans la rizière.",
+     "en": "At night, you can hear the frogs in the rice field.",
+     "km": "ពេលយប់ គេឮសំឡេងកង្កែបនៅក្នុងស្រែ។",
+     "tr": "pél youp, ké leu sâm-léng kâng-kaèp neuv knong srè.",
+     "es": "Por la noche se oyen las ranas en el arrozal.",
+     "it": "Di notte si sentono le rane nella risaia.",
+     "ru": "Ночью на рисовом поле слышно лягушек.",
+     "zh": "晚上能听见稻田里的蛙声。",
+     "zh_tr": "Wǎnshang néng tīngjiàn dàotián lǐ de wāshēng."
+    },
+    {
+     "situation": {
+      "fr": "Au marché",
+      "en": "At the market",
+      "km": "នៅផ្សារ"
+     },
+     "fr": "Au marché, on peut toucher et sentir les fruits avant d'acheter.",
+     "en": "At the market, you can touch and smell the fruit before you buy.",
+     "km": "នៅផ្សារ យើងអាចប៉ះ និងហិតក្លិនផ្លែឈើមុនពេលទិញ។",
+     "tr": "neuv phsa, yeung atch pah ning heut klen phlaè-tchheu moun pél tign.",
+     "es": "En el mercado se puede tocar y oler la fruta antes de comprar.",
+     "it": "Al mercato si può toccare e annusare la frutta prima di comprare.",
+     "ru": "На рынке фрукты можно потрогать и понюхать перед покупкой.",
+     "zh": "在市场上，买水果以前可以摸一摸、闻一闻。",
+     "zh_tr": "Zài shìchǎng shàng, mǎi shuǐguǒ yǐqián kěyǐ mō yi mō, wén yi wén."
+    }
+   ],
+   "dialogue": {
+    "setting": {
+     "fr": "Le soir, à la maison. Alex entend un drôle de bruit.",
+     "en": "In the evening, at home. Alex hears a strange noise.",
+     "km": "ពេលល្ងាច នៅផ្ទះ។ អាឡិច ឮសំឡេងចម្លែក។"
+    },
+    "lines": [
+     {
+      "speaker": "B",
+      "fr": "Dara, tu entends ce bruit ?",
+      "en": "Dara, can you hear that noise?",
+      "km": "ដារ៉ា ឮសំឡេងនោះទេ?",
+      "tr": "da-ra, leu sâm-léng nouh té ?",
+      "es": "Dara, ¿oyes ese ruido?",
+      "it": "Dara, senti quel rumore?",
+      "ru": "Дара, ты слышишь этот шум?",
+      "zh": "达拉，你听见那个声音了吗？",
+      "zh_tr": "Dálā, nǐ tīngjiàn nàge shēngyīn le ma?"
+     },
+     {
+      "speaker": "A",
+      "fr": "Oui, j'entends. C'est un gecko tokay.",
+      "en": "Yes, I can. It's a tokay gecko.",
+      "km": "ចាស ឮ។ នោះជាតុកកែ។",
+      "tr": "tchah, leu. nouh tchéa tok-kaè.",
+      "es": "Sí, lo oigo. Es un geco tokay.",
+      "it": "Sì, lo sento. È un geco tokay.",
+      "ru": "Да, слышу. Это геккон токи.",
+      "zh": "听见了。那是大壁虎。",
+      "zh_tr": "Tīngjiàn le. Nà shì dàbìhǔ."
+     },
+     {
+      "speaker": "B",
+      "fr": "Où est-il ? Je ne le vois pas.",
+      "en": "Where is it? I can't see it.",
+      "km": "វានៅឯណា? ខ្ញុំមើលមិនឃើញទេ។",
+      "tr": "véa neuv aè na ? khgnom meul min kheugn té.",
+      "es": "¿Dónde está? No lo veo.",
+      "it": "Dov'è? Non lo vedo.",
+      "ru": "Где он? Я его не вижу.",
+      "zh": "它在哪儿？我看不见。",
+      "zh_tr": "Tā zài nǎr? Wǒ kàn bu jiàn."
+     },
+     {
+      "speaker": "A",
+      "fr": "Regarde là-haut, sur le mur, près de la lampe.",
+      "en": "Look up there, on the wall, near the lamp.",
+      "km": "មើលនៅខាងលើ លើជញ្ជាំង ជិតអំពូលភ្លើង។",
+      "tr": "meul neuv khang leu, leu tchum-tcheang, tchit âm-poul phleung.",
+      "es": "Mira ahí arriba, en la pared, cerca de la lámpara.",
+      "it": "Guarda lassù, sul muro, vicino alla lampada.",
+      "ru": "Посмотри наверх, на стену, возле лампы.",
+      "zh": "你看上面，在墙上，灯旁边。",
+      "zh_tr": "Nǐ kàn shàngmiàn, zài qiáng shàng, dēng pángbiān."
+     },
+     {
+      "speaker": "B",
+      "fr": "Ah, je le vois ! Il est grand. Je peux le toucher ?",
+      "en": "Oh, I can see it! It's big. Can I touch it?",
+      "km": "អូ ឃើញហើយ! វាធំណាស់។ ខ្ញុំប៉ះវាបានទេ?",
+      "tr": "ô, kheugn haeuy ! véa thom nah. khgnom pah véa ban té ?",
+      "es": "¡Ah, ya lo veo! Es grande. ¿Puedo tocarlo?",
+      "it": "Ah, lo vedo! È grande. Posso toccarlo?",
+      "ru": "А, вижу! Он большой. Можно его потрогать?",
+      "zh": "啊，看见了！它真大。我可以摸它吗？",
+      "zh_tr": "À, kànjiàn le! Tā zhēn dà. Wǒ kěyǐ mō tā ma?"
+     },
+     {
+      "speaker": "A",
+      "fr": "Non, il mord ! Écoute-le seulement.",
+      "en": "No, it bites! Just listen to it.",
+      "km": "កុំ វាខាំ! ស្តាប់វាបានហើយ។",
+      "tr": "kom, véa kham ! sdap véa ban haeuy.",
+      "es": "¡No, que muerde! Solo escúchalo.",
+      "it": "No, morde! Ascoltalo e basta.",
+      "ru": "Нет, он кусается! Просто послушай его.",
+      "zh": "不行，它会咬人！听听就好了。",
+      "zh_tr": "Bù xíng, tā huì yǎo rén! Tīngting jiù hǎo le."
+     }
+    ]
+   },
+   "review": {
+    "words": [
+     {
+      "vocab_id": 681,
+      "kind": "word",
+      "fr": "la fleur",
+      "en": "flower",
+      "km": "ផ្កា",
+      "tr": "phka",
+      "pos": "nom",
+      "note": {
+       "fr": "ផ្កា se met devant le nom de la fleur : ផ្កាឈូក, « le lotus » ; ផ្កាកុលាប, « la rose ». Le lotus est offert à la pagode.",
+       "en": "ផ្កា goes before the flower's name: ផ្កាឈូក, “lotus”; ផ្កាកុលាប, “rose”. Lotus flowers are offered at the pagoda. French « la fleur » is feminine, but Italian « il fiore » is masculine.",
+       "km": "« la fleur » ជានាមភេទស្រី។ « la rose » គឺ ផ្កាកុលាប ហើយ « le lotus » គឺ ផ្កាឈូក។ អង់គ្លេស៖ « flower »។"
+      },
+      "example": {
+       "fr": "Ma mère aime les fleurs de lotus.",
+       "en": "My mother loves lotus flowers.",
+       "km": "ម្តាយខ្ញុំចូលចិត្តផ្កាឈូក។",
+       "tr": "mday khgnom tchôl tchet phka tchhouk.",
+       "es": "A mi madre le gustan las flores de loto.",
+       "it": "A mia madre piacciono i fiori di loto.",
+       "ru": "Моя мама любит цветы лотоса.",
+       "zh": "我妈妈喜欢莲花。",
+       "zh_tr": "Wǒ māma xǐhuan liánhuā."
+      },
+      "stage": 1,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 1,
+      "from_lesson": 69,
+      "es": "la flor",
+      "it": "il fiore",
+      "ru": "цветок",
+      "zh": "花",
+      "zh_tr": "huā"
+     },
+     {
+      "vocab_id": 643,
+      "kind": "word",
+      "fr": "le football",
+      "en": "football",
+      "km": "បាល់ទាត់",
+      "tr": "bal toat",
+      "pos": "nom",
+      "note": {
+       "fr": "បាល់, « ballon », et ទាត់, « donner un coup de pied ». Le volley-ball, très populaire au village, se dit បាល់ទះ, « ballon qu'on frappe ».",
+       "en": "បាល់, “ball”, and ទាត់, “to kick”. Volleyball, very popular in villages, is បាល់ទះ, “slapped ball”. French « le foot » for short; Americans say “soccer”.",
+       "km": "« le football » ឬ « le foot » មានន័យថា បាល់ទាត់។ អង់គ្លេសអាមេរិក៖ « soccer »។ « le volley » គឺ បាល់ទះ។"
+      },
+      "example": {
+       "fr": "Les enfants jouent au football après l'école.",
+       "en": "The children play football after school.",
+       "km": "ក្មេងៗលេងបាល់ទាត់ក្រោយម៉ោងរៀន។",
+       "tr": "kméng-kméng léng bal toat kraoy maong rien.",
+       "es": "Los niños juegan al fútbol después del colegio.",
+       "it": "I bambini giocano a calcio dopo la scuola.",
+       "ru": "Дети играют в футбол после школы.",
+       "zh": "孩子们放学后踢足球。",
+       "zh_tr": "Háizimen fàngxué hòu tī zúqiú."
+      },
+      "stage": 2,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 3,
+      "from_lesson": 65,
+      "es": "el fútbol",
+      "it": "il calcio",
+      "ru": "футбол",
+      "zh": "足球",
+      "zh_tr": "zúqiú"
+     },
+     {
+      "vocab_id": 635,
+      "kind": "word",
+      "fr": "la province",
+      "en": "province",
+      "km": "ខេត្ត",
+      "tr": "khaèt",
+      "pos": "nom",
+      "note": {
+       "fr": "ខេត្ត se place devant le nom : ខេត្តកំពត, « la province de Kampot ». Phnom Penh est la capitale, រាជធានី.",
+       "en": "ខេត្ត goes before the name: ខេត្តកំពត, “Kampot province”. Phnom Penh is the capital, រាជធានី. French « la province de Kampot »; « en province » also means “outside the capital”.",
+       "km": "« la province de Kampot » មានន័យថា ខេត្តកំពត។ « en province » មានន័យថា នៅខាងក្រៅរាជធានី។ អង់គ្លេស៖ « province »។"
+      },
+      "example": {
+       "fr": "Mon village est dans la province de Battambang.",
+       "en": "My village is in Battambang province.",
+       "km": "ភូមិរបស់ខ្ញុំនៅខេត្តបាត់ដំបង។",
+       "tr": "phoum ro-bâh khgnom neuv khaèt bat-dâm-bâng.",
+       "es": "Mi pueblo está en la provincia de Battambang.",
+       "it": "Il mio villaggio è nella provincia di Battambang.",
+       "ru": "Моя деревня находится в провинции Баттамбанг.",
+       "zh": "我的村子在马德望省。",
+       "zh_tr": "Wǒ de cūnzi zài Mǎdéwàng Shěng."
+      },
+      "stage": 3,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 7,
+      "from_lesson": 64,
+      "es": "la provincia",
+      "it": "la provincia",
+      "ru": "провинция",
+      "zh": "省",
+      "zh_tr": "shěng"
+     },
+     {
+      "vocab_id": 417,
+      "kind": "expression",
+      "fr": "Tu es l'aîné ?",
+      "en": "Are you the eldest?",
+      "km": "អ្នកជាកូនច្បងទេ?",
+      "tr": "néak tchéa kôn tchbâng té ?",
+      "pos": "expression",
+      "note": {
+       "fr": "កូនច្បង (kôn tchbâng), l'aîné ; កូនពៅ (kôn pov), le benjamin, le plus jeune.",
+       "en": "កូនច្បង (kôn tchbâng), the eldest; កូនពៅ (kôn pov), the youngest. French « l'aîné » means “the eldest”.",
+       "km": "« l'aîné » មានន័យថា កូនច្បង។ « le cadet » ឬ « le benjamin » មានន័យថា កូនពៅ។ អង់គ្លេស៖ « the eldest »។"
+      },
+      "stage": 4,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 14,
+      "from_lesson": 42,
+      "es": "¿Eres el mayor?",
+      "it": "Sei il maggiore?",
+      "ru": "Ты старший?",
+      "zh": "你是老大吗？",
+      "zh_tr": "Nǐ shì lǎodà ma?"
+     },
+     {
+      "vocab_id": 409,
+      "kind": "expression",
+      "fr": "C'est pour toi.",
+      "en": "This is for you.",
+      "km": "នេះសម្រាប់អ្នក។",
+      "tr": "nih sâm-rap néak.",
+      "pos": "expression",
+      "note": {
+       "fr": "On offre un cadeau avec les deux mains, ou la main droite soutenue par la gauche : c'est plus poli.",
+       "en": "Give a present with both hands, or the right hand supported by the left: it is more polite. French « pour toi » is familiar; « pour vous » is polite.",
+       "km": "« pour » + « toi » មានន័យថា សម្រាប់អ្នក។ អង់គ្លេស៖ « This is for you »។"
+      },
+      "stage": 5,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 30,
+      "from_lesson": 41,
+      "es": "Es para ti.",
+      "it": "È per te.",
+      "ru": "Это тебе.",
+      "zh": "这是给你的。",
+      "zh_tr": "Zhè shì gěi nǐ de."
+     },
+     {
+      "vocab_id": 682,
+      "kind": "word",
+      "fr": "planter",
+      "en": "to plant",
+      "km": "ដាំ",
+      "tr": "dam",
+      "pos": "verbe",
+      "note": {
+       "fr": "ដាំ veut dire « planter », mais aussi « faire bouillir » : ដាំបាយ, « faire cuire le riz » ; ដាំទឹក, « faire bouillir de l'eau ».",
+       "en": "ដាំ means “to plant”, but also “to boil”: ដាំបាយ, “to cook rice”; ដាំទឹក, “to boil water”. French « planter » also means “to crash” for a computer, informally.",
+       "km": "« planter » មានន័យថា ដាំ។ ប៉ុន្តែ « faire bouillir » មានន័យថា ដាំទឹក ដាំបាយ។ អង់គ្លេស៖ « to plant », « to boil »។"
+      },
+      "example": {
+       "fr": "Nous plantons un manguier dans le jardin.",
+       "en": "We're planting a mango tree in the garden.",
+       "km": "យើងដាំដើមស្វាយមួយនៅក្នុងសួន។",
+       "tr": "yeung dam daeum svay mouy neuv knong souon.",
+       "es": "Plantamos un mango en el jardín.",
+       "it": "Piantiamo un albero di mango in giardino.",
+       "ru": "Мы сажаем манговое дерево в саду.",
+       "zh": "我们在院子里种了一棵芒果树。",
+       "zh_tr": "Wǒmen zài yuànzi li zhòng le yì kē mángguǒ shù."
+      },
+      "stage": 1,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 1,
+      "from_lesson": 69,
+      "es": "plantar",
+      "it": "piantare",
+      "ru": "сажать",
+      "zh": "种",
+      "zh_tr": "zhòng"
+     },
+     {
+      "vocab_id": 644,
+      "kind": "word",
+      "fr": "l'équipe",
+      "en": "team",
+      "km": "ក្រុម",
+      "tr": "krom",
+      "pos": "nom",
+      "note": {
+       "fr": "ក្រុម, « groupe, équipe ». ក្រុមយើង, « notre équipe » ; ក្រុមតន្ត្រី, « un groupe de musique ».",
+       "en": "ក្រុម, “group, team”. ក្រុមយើង, “our team”; ក្រុមតន្ត្រី, “a band”. French « l'équipe » is feminine: une équipe.",
+       "km": "« l'équipe » ជានាមភេទស្រី (une équipe)។ « notre équipe » មានន័យថា ក្រុមយើង។ អង់គ្លេស៖ « team »។"
+      },
+      "example": {
+       "fr": "Mon grand frère joue dans l'équipe du village.",
+       "en": "My older brother plays for the village team.",
+       "km": "បងប្រុសខ្ញុំលេងឱ្យក្រុមបាល់ទាត់ភូមិ។",
+       "tr": "bâng proh khgnom léng aoy krom bal toat phoum.",
+       "es": "Mi hermano mayor juega en el equipo del pueblo.",
+       "it": "Mio fratello maggiore gioca nella squadra del paese.",
+       "ru": "Мой старший брат играет в деревенской команде.",
+       "zh": "我哥哥在村里的足球队踢球。",
+       "zh_tr": "Wǒ gēge zài cūn lǐ de zúqiú duì tī qiú."
+      },
+      "stage": 2,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 3,
+      "from_lesson": 65,
+      "es": "el equipo",
+      "it": "la squadra",
+      "ru": "команда",
+      "zh": "队",
+      "zh_tr": "duì"
+     },
+     {
+      "vocab_id": 636,
+      "kind": "word",
+      "fr": "la frontière",
+      "en": "border",
+      "km": "ព្រំដែន",
+      "tr": "prum-daèn",
+      "pos": "nom",
+      "note": {
+       "fr": "ព្រំ, « limite », et ដែន, « territoire ». On passe la frontière : ឆ្លងព្រំដែន, avec le verbe de « traverser ».",
+       "en": "ព្រំ, “limit”, and ដែន, “territory”. To cross the border is ឆ្លងព្រំដែន, with the verb for “to cross”. French « passer la frontière ».",
+       "km": "« passer la frontière » មានន័យថា ឆ្លងព្រំដែន។ អង់គ្លេស៖ « to cross the border »។"
+      },
+      "example": {
+       "fr": "Nous avons passé la frontière en bus.",
+       "en": "We crossed the border by bus.",
+       "km": "យើងបានឆ្លងព្រំដែនតាមឡានក្រុង។",
+       "tr": "yeung ban tchhlâng prum-daèn tam lan-krong.",
+       "es": "Cruzamos la frontera en autobús.",
+       "it": "Abbiamo passato il confine in autobus.",
+       "ru": "Мы пересекли границу на автобусе.",
+       "zh": "我们坐大巴过了边境。",
+       "zh_tr": "Wǒmen zuò dàbā guò le biānjìng."
+      },
+      "stage": 3,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 7,
+      "from_lesson": 64,
+      "es": "la frontera",
+      "it": "il confine",
+      "ru": "граница",
+      "zh": "边境",
+      "zh_tr": "biānjìng"
+     },
+     {
+      "vocab_id": 418,
+      "kind": "expression",
+      "fr": "Nous sommes cinq frères et sœurs.",
+      "en": "There are five of us siblings.",
+      "km": "យើងមានបងប្អូនប្រាំនាក់។",
+      "tr": "yeung méan bâng p'ôn pram néak.",
+      "pos": "expression",
+      "note": {
+       "fr": "បងប្អូន, « aînés et cadets », désigne tous les frères et sœurs. នាក់ compte les personnes.",
+       "en": "បងប្អូន, “older and younger”, means all brothers and sisters. នាក់ counts people. French « frères et sœurs » means “siblings”.",
+       "km": "ភាសាបារាំងប្រាប់ចំនួនដោយ « nous sommes » + លេខ។ អង់គ្លេស៖ « There are five of us »។"
+      },
+      "stage": 4,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 14,
+      "from_lesson": 42,
+      "es": "Somos cinco hermanos.",
+      "it": "Siamo cinque fratelli.",
+      "ru": "Нас пятеро: братья и сёстры.",
+      "zh": "我们兄弟姐妹五个。",
+      "zh_tr": "Wǒmen xiōngdì jiěmèi wǔ ge."
+     },
+     {
+      "vocab_id": 410,
+      "kind": "expression",
+      "fr": "Ça me fait très plaisir.",
+      "en": "That makes me very happy.",
+      "km": "ខ្ញុំសប្បាយចិត្តណាស់។",
+      "tr": "khgnom sa-bay tchet nah.",
+      "pos": "expression",
+      "note": {
+       "fr": "Réponse naturelle à un cadeau ou à une attention : « je suis très content ».",
+       "en": "A natural answer to a present or a kind gesture: “I am very happy”. French « faire plaisir » means “to please”.",
+       "km": "« faire plaisir » មានន័យថា ធ្វើឱ្យសប្បាយចិត្ត។ អង់គ្លេស៖ « That makes me very happy »។"
+      },
+      "stage": 5,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 30,
+      "from_lesson": 41,
+      "es": "Me hace mucha ilusión.",
+      "it": "Mi fa molto piacere.",
+      "ru": "Мне очень приятно.",
+      "zh": "我很高兴。",
+      "zh_tr": "Wǒ hěn gāoxìng."
+     }
+    ],
+    "questions": [
+     {
+      "vocab_id": 681,
+      "fr": "la fleur",
+      "en": "flower",
+      "km": "ផ្កា",
+      "tr": "phka",
+      "source": "review",
+      "es": "la flor",
+      "it": "il fiore",
+      "ru": "цветок",
+      "zh": "花",
+      "zh_tr": "huā"
+     },
+     {
+      "vocab_id": 643,
+      "fr": "le football",
+      "en": "football",
+      "km": "បាល់ទាត់",
+      "tr": "bal toat",
+      "source": "review",
+      "es": "el fútbol",
+      "it": "il calcio",
+      "ru": "футбол",
+      "zh": "足球",
+      "zh_tr": "zúqiú"
+     },
+     {
+      "vocab_id": 635,
+      "fr": "la province",
+      "en": "province",
+      "km": "ខេត្ត",
+      "tr": "khaèt",
+      "source": "review",
+      "es": "la provincia",
+      "it": "la provincia",
+      "ru": "провинция",
+      "zh": "省",
+      "zh_tr": "shěng"
+     }
+    ],
+    "translation": {
+     "fr": "Nous avons passé la frontière en bus.",
+     "en": "We crossed the border by bus.",
+     "km": "យើងបានឆ្លងព្រំដែនតាមឡានក្រុង។",
+     "tr": "yeung ban tchhlâng prum-daèn tam lan-krong.",
+     "es": "Cruzamos la frontera en autobús.",
+     "it": "Abbiamo passato il confine in autobus.",
+     "ru": "Мы пересекли границу на автобусе.",
+     "zh": "我们坐大巴过了边境。",
+     "zh_tr": "Wǒmen zuò dàbā guò le biānjìng.",
+     "source": "review"
+    },
+    "comprehension": {
+     "question": {
+      "fr": "Où est le gecko ?",
+      "en": "Where is the gecko?",
+      "km": "តុកកែនៅឯណា?"
+     },
+     "answer": {
+      "fr": "Sur le mur, près de la lampe.",
+      "en": "On the wall, near the lamp.",
+      "km": "នៅលើជញ្ជាំង ជិតអំពូលភ្លើង។"
+     }
+    }
+   },
+   "estimated_seconds": 560,
+   "quality": {
+    "errors": 0,
+    "warnings": 0,
+    "uncertain": 0,
+    "issues": []
+   }
+  }
+ },
+ {
+  "number": 72,
+  "date": "2027-01-25",
+  "theme": "situer-les-choses",
+  "level": "intermediaire",
+  "kind": "unit",
+  "unit_id": "u072",
+  "title": {
+   "fr": "Situer les choses",
+   "en": "Saying where things are",
+   "km": "ប្រាប់ទីតាំង"
+  },
+  "estimated_duration_seconds": 560,
+  "html_path": "lessons/lesson-072.html",
+  "audio_missing": 0,
+  "created_at": "2026-11-26T22:24:25Z",
+  "content": {
+   "version": 1,
+   "number": 72,
+   "date": "2027-01-25",
+   "kind": "unit",
+   "unit_id": "u072",
+   "theme": "situer-les-choses",
+   "level": "intermediaire",
+   "title": {
+    "fr": "Situer les choses",
+    "en": "Saying where things are",
+    "km": "ប្រាប់ទីតាំង"
+   },
+   "tip": {
+    "fr": "En khmer, on situe avec នៅ, « se trouver », suivi du mot de lieu puis du repère : នៅលើតុ, « sur la table ». Pas de verbe « être » ni d'article. Avec ខាង, « côté », le mot de lieu devient un nom : ខាងលើ, « le dessus, en haut ».",
+    "en": "Khmer places things with នៅ, “to be located”, then the place word, then the landmark: នៅលើតុ, “on the table”. No “to be”, no article. With ខាង, “side”, the place word becomes a noun: ខាងលើ, “the top, upstairs”. In French, « de » follows the longer ones: à côté de, en face de, près de.",
+    "km": "ភាសាបារាំង៖ sur, sous, dans, devant, derrière ដាក់ផ្ទាល់ពីមុខនាម (sur la table) ប៉ុន្តែ « à côté de », « près de », « en face de » ត្រូវមាន « de »។ អង់គ្លេស៖ on, under, in, in front of, behind, next to។"
+   },
+   "vocabulary": [
+    {
+     "fr": "sur",
+     "en": "on",
+     "km": "លើ",
+     "tr": "leu",
+     "es": "sobre",
+     "it": "sopra",
+     "ru": "на",
+     "zh": "上面",
+     "zh_tr": "shàngmiàn",
+     "pos": "preposition",
+     "note": {
+      "fr": "លើ, « sur, au-dessus ». Presque toujours précédé de នៅ : នៅលើតុ, « sur la table ». ជាន់លើ, « l'étage ».",
+      "en": "លើ, “on, above”. Usually preceded by នៅ: នៅលើតុ, “on the table”. French « sur »; « au-dessus de » means “above”.",
+      "km": "« sur » មានន័យថា លើ៖ sur la table។ អង់គ្លេស៖ « on » ពេលប៉ះផ្ទៃ ហើយ « above » ពេលនៅខ្ពស់ជាង។"
+     },
+     "example": {
+      "fr": "Le téléphone est sur la table.",
+      "en": "The phone is on the table.",
+      "km": "ទូរស័ព្ទនៅលើតុ។",
+      "tr": "tou-ro-sap neuv leu tok.",
+      "es": "El teléfono está en la mesa.",
+      "it": "Il telefono è sul tavolo.",
+      "ru": "Телефон на столе.",
+      "zh": "手机在桌子上。",
+      "zh_tr": "Shǒujī zài zhuōzi shang."
+     },
+     "vocab_id": 711,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "sous",
+     "en": "under",
+     "km": "ក្រោម",
+     "tr": "kraom",
+     "es": "debajo de",
+     "it": "sotto",
+     "ru": "под",
+     "zh": "下面",
+     "zh_tr": "xiàmiàn",
+     "pos": "preposition",
+     "note": {
+      "fr": "ក្រោម, « sous, en bas ». ក្រោមផ្ទះ, l'espace ombragé sous la maison sur pilotis, est le salon de la campagne.",
+      "en": "ក្រោម, “under, below”. ក្រោមផ្ទះ, the shady space under a stilt house, is the countryside's living room. French « sous »; do not confuse it with « sur », “on”.",
+      "km": "« sous » មានន័យថា ក្រោម។ ប្រយ័ត្នច្រឡំ៖ sous (ក្រោម) និង sur (លើ)។ អង់គ្លេស៖ « under », « below »។"
+     },
+     "example": {
+      "fr": "Le chat dort sous la chaise.",
+      "en": "The cat is sleeping under the chair.",
+      "km": "ឆ្មាគេងនៅក្រោមកៅអី។",
+      "tr": "tchhma kéng neuv kraom kav-ey.",
+      "es": "El gato duerme debajo de la silla.",
+      "it": "Il gatto dorme sotto la sedia.",
+      "ru": "Кошка спит под стулом.",
+      "zh": "猫在椅子下面睡觉。",
+      "zh_tr": "Māo zài yǐzi xiàmiàn shuìjiào."
+     },
+     "vocab_id": 712,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "dans",
+     "en": "in",
+     "km": "ក្នុង",
+     "tr": "knong",
+     "es": "dentro de",
+     "it": "dentro",
+     "ru": "внутри",
+     "zh": "里面",
+     "zh_tr": "lǐmiàn",
+     "pos": "preposition",
+     "note": {
+      "fr": "ក្នុង, « dans, à l'intérieur ». S'emploie aussi pour le temps : ក្នុងមួយថ្ងៃ, « en une journée, par jour ».",
+      "en": "ក្នុង, “in, inside”. Also used for time: ក្នុងមួយថ្ងៃ, “in a day, per day”. French « dans » for a place: dans la maison; « en » for a country: en France.",
+      "km": "« dans » មានន័យថា ក្នុង៖ dans la maison។ សម្រាប់ប្រទេស គេប្រើ « en » ឬ « au »៖ en France, au Cambodge។ អង់គ្លេស៖ « in », « inside »។"
+     },
+     "example": {
+      "fr": "Les clés sont dans mon sac.",
+      "en": "The keys are in my bag.",
+      "km": "កូនសោនៅក្នុងកាបូបរបស់ខ្ញុំ។",
+      "tr": "kôn sao neuv knong ka-boup ro-bâh khgnom.",
+      "es": "Las llaves están dentro de mi bolso.",
+      "it": "Le chiavi sono dentro la mia borsa.",
+      "ru": "Ключи лежат внутри моей сумки.",
+      "zh": "钥匙在我的包里面。",
+      "zh_tr": "Yàoshi zài wǒ de bāo lǐmiàn."
+     },
+     "vocab_id": 713,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "devant",
+     "en": "in front of",
+     "km": "ខាងមុខ",
+     "tr": "khang mouk",
+     "es": "delante de",
+     "it": "davanti a",
+     "ru": "перед",
+     "zh": "前面",
+     "zh_tr": "qiánmiàn",
+     "pos": "preposition",
+     "note": {
+      "fr": "មុខ veut dire « visage », donc ខាងមុខ, « côté visage » : devant. ទល់មុខ, « en face de ».",
+      "en": "មុខ means “face”, so ខាងមុខ, “the face side”, is the front. ទល់មុខ means “opposite”. French « devant » for place; « avant » for time.",
+      "km": "« devant » ប្រើសម្រាប់ទីកន្លែង (ខាងមុខ) ហើយ « avant » សម្រាប់ពេលវេលា (មុន)។ អង់គ្លេស៖ « in front of »។"
+     },
+     "example": {
+      "fr": "La moto est devant la maison.",
+      "en": "The motorbike is in front of the house.",
+      "km": "ម៉ូតូនៅខាងមុខផ្ទះ។",
+      "tr": "mô-tô neuv khang mouk phtéah.",
+      "es": "La moto está delante de la casa.",
+      "it": "La moto è davanti alla casa.",
+      "ru": "Мотоцикл стоит перед домом.",
+      "zh": "摩托车在房子前面。",
+      "zh_tr": "Mótuōchē zài fángzi qiánmiàn."
+     },
+     "vocab_id": 714,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "derrière",
+     "en": "behind",
+     "km": "ខាងក្រោយ",
+     "tr": "khang kraoy",
+     "es": "detrás de",
+     "it": "dietro",
+     "ru": "позади",
+     "zh": "后面",
+     "zh_tr": "hòumiàn",
+     "pos": "preposition",
+     "note": {
+      "fr": "ក្រោយ, « après, derrière », sert pour l'espace comme pour le temps : ខាងក្រោយផ្ទះ, « derrière la maison » ; ខែក្រោយ, « le mois prochain ».",
+      "en": "ក្រោយ, “after, behind”, works for space and for time: ខាងក្រោយផ្ទះ, “behind the house”; ខែក្រោយ, “next month”. French « derrière » for place; « après » for time.",
+      "km": "« derrière » ប្រើសម្រាប់ទីកន្លែង (ខាងក្រោយ) ហើយ « après » សម្រាប់ពេលវេលា (ក្រោយ)។ អង់គ្លេស៖ « behind »។"
+     },
+     "example": {
+      "fr": "Le jardin est derrière la maison.",
+      "en": "The garden is behind the house.",
+      "km": "សួននៅខាងក្រោយផ្ទះ។",
+      "tr": "souon neuv khang kraoy phtéah.",
+      "es": "El jardín está detrás de la casa.",
+      "it": "Il giardino è dietro la casa.",
+      "ru": "Сад находится позади дома.",
+      "zh": "花园在房子后面。",
+      "zh_tr": "Huāyuán zài fángzi hòumiàn."
+     },
+     "vocab_id": 715,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "à côté de",
+     "en": "next to",
+     "km": "ក្បែរ",
+     "tr": "kbae",
+     "es": "al lado de",
+     "it": "accanto a",
+     "ru": "рядом с",
+     "zh": "旁边",
+     "zh_tr": "pángbiān",
+     "pos": "preposition",
+     "note": {
+      "fr": "ក្បែរ, « tout près de, à côté de ». ជិត veut dire « près » de façon plus large ; ចន្លោះ, « entre ».",
+      "en": "ក្បែរ, “right beside, next to”. ជិត is a looser “near”; ចន្លោះ means “between”. French « à côté de »: de + le becomes « du », à côté du marché.",
+      "km": "« à côté de » មានន័យថា ក្បែរ។ de + le ក្លាយជា « du »៖ à côté du marché។ អង់គ្លេស៖ « next to », « beside »។"
+     },
+     "example": {
+      "fr": "La pharmacie est à côté de la banque.",
+      "en": "The pharmacy is next to the bank.",
+      "km": "ហាងលក់ថ្នាំនៅក្បែរធនាគារ។",
+      "tr": "hang lok thnam neuv kbae thô-néa-kéa.",
+      "es": "La farmacia está al lado del banco.",
+      "it": "La farmacia è accanto alla banca.",
+      "ru": "Аптека находится рядом с банком.",
+      "zh": "药店在银行旁边。",
+      "zh_tr": "Yàodiàn zài yínháng pángbiān."
+     },
+     "vocab_id": 716,
+     "is_new": true,
+     "kind": "word"
+    }
+   ],
+   "expressions": [
+    {
+     "fr": "Où sont mes clés ?",
+     "en": "Where are my keys?",
+     "km": "កូនសោរបស់ខ្ញុំនៅឯណា?",
+     "tr": "kôn sao ro-bâh khgnom neuv aè na ?",
+     "es": "¿Dónde están mis llaves?",
+     "it": "Dove sono le mie chiavi?",
+     "ru": "Где мои ключи?",
+     "zh": "我的钥匙在哪儿？",
+     "zh_tr": "Wǒ de yàoshi zài nǎr?",
+     "note": {
+      "fr": "នៅឯណា, « où », se place à la fin. À l'oral, on raccourcit souvent en នៅណា.",
+      "en": "នៅឯណា, “where”, comes at the end. In speech it often shortens to នៅណា. French « où sont » for a plural, « où est » for a singular.",
+      "km": "« Où sont… ? » សម្រាប់ពហុវចនៈ ហើយ « Où est… ? » សម្រាប់ឯកវចនៈ។ អង់គ្លេស៖ « Where are… ? », « Where is… ? »។"
+     },
+     "vocab_id": 717,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "C'est juste là.",
+     "en": "It's right there.",
+     "km": "នៅត្រង់នោះ។",
+     "tr": "neuv trâng nouh.",
+     "es": "Está justo ahí.",
+     "it": "È proprio lì.",
+     "ru": "Это вон там.",
+     "zh": "就在那儿。",
+     "zh_tr": "Jiù zài nàr.",
+     "note": {
+      "fr": "ត្រង់, « droit, exactement », précise l'endroit : ត្រង់នេះ, « juste ici » ; ត្រង់នោះ, « juste là ».",
+      "en": "ត្រង់, “straight, exactly”, pins down the spot: ត្រង់នេះ, “right here”; ត្រង់នោះ, “right there”. French « juste là ».",
+      "km": "« juste là » មានន័យថា ត្រង់នោះ ហើយ « juste ici » មានន័យថា ត្រង់នេះ។ អង់គ្លេស៖ « right there », « right here »។"
+     },
+     "vocab_id": 718,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "Au milieu.",
+     "en": "In the middle.",
+     "km": "នៅកណ្តាល។",
+     "tr": "neuv kân-dal.",
+     "es": "En el medio.",
+     "it": "In mezzo.",
+     "ru": "Посередине.",
+     "zh": "在中间。",
+     "zh_tr": "Zài zhōngjiān.",
+     "note": {
+      "fr": "កណ្តាល, « milieu, centre ». ពាក់កណ្តាល, « la moitié » ; កណ្តាលយប់, « au milieu de la nuit ».",
+      "en": "កណ្តាល, “middle, centre”. ពាក់កណ្តាល, “half”; កណ្តាលយប់, “in the middle of the night”. French « au milieu de » means “in the middle of”.",
+      "km": "« au milieu » មានន័យថា នៅកណ្តាល៖ au milieu de la table។ អង់គ្លេស៖ « in the middle »។"
+     },
+     "vocab_id": 719,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "Dedans ou dehors ?",
+     "en": "Inside or outside?",
+     "km": "ខាងក្នុង ឬខាងក្រៅ?",
+     "tr": "khang knong reu khang krav ?",
+     "es": "¿Dentro o fuera?",
+     "it": "Dentro o fuori?",
+     "ru": "Внутри или снаружи?",
+     "zh": "里面还是外面？",
+     "zh_tr": "Lǐmiàn háishi wàimiàn?",
+     "note": {
+      "fr": "ខាង, « côté », forme les lieux : ខាងក្នុង, « l'intérieur » ; ខាងក្រៅ, « l'extérieur ». ឬ, « ou », relie les deux choix.",
+      "en": "ខាង, “side”, builds place words: ខាងក្នុង, “inside”; ខាងក្រៅ, “outside”. ឬ, “or”, links the two choices. French « dedans » and « dehors » stand alone, without a noun.",
+      "km": "« dedans » (ខាងក្នុង) និង « dehors » (ខាងក្រៅ) ប្រើតែឯង គ្មាននាមតាមក្រោយទេ។ អង់គ្លេស៖ « inside », « outside »។"
+     },
+     "vocab_id": 720,
+     "is_new": true,
+     "kind": "expression"
+    }
+   ],
+   "sentences": [
+    {
+     "situation": {
+      "fr": "À la maison",
+      "en": "At home",
+      "km": "នៅផ្ទះ"
+     },
+     "fr": "Mets les chaussures sous l'escalier, pas devant la porte.",
+     "en": "Put the shoes under the stairs, not in front of the door.",
+     "km": "ដាក់ស្បែកជើងនៅក្រោមជណ្តើរ កុំដាក់នៅមុខទ្វារ។",
+     "tr": "dak sbaèk tcheung neuv kraom tchum-daeu, kom dak neuv mouk tvéa.",
+     "es": "Pon los zapatos debajo de la escalera, no delante de la puerta.",
+     "it": "Metti le scarpe sotto la scala, non davanti alla porta.",
+     "ru": "Поставь обувь под лестницу, а не перед дверью.",
+     "zh": "把鞋放在楼梯下面，别放在门前面。",
+     "zh_tr": "Bǎ xié fàng zài lóutī xiàmiàn, bié fàng zài mén qiánmiàn."
+    },
+    {
+     "situation": {
+      "fr": "Dans le quartier",
+      "en": "In the neighbourhood",
+      "km": "នៅក្នុងសង្កាត់"
+     },
+     "fr": "L'école est entre le marché et la pagode.",
+     "en": "The school is between the market and the pagoda.",
+     "km": "សាលារៀននៅចន្លោះផ្សារនិងវត្ត។",
+     "tr": "sa-la rien neuv tchân-lâh phsa ning voat.",
+     "es": "La escuela está entre el mercado y la pagoda.",
+     "it": "La scuola è tra il mercato e la pagoda.",
+     "ru": "Школа находится между рынком и пагодой.",
+     "zh": "学校在市场和寺庙中间。",
+     "zh_tr": "Xuéxiào zài shìchǎng hé sìmiào zhōngjiān."
+    },
+    {
+     "situation": {
+      "fr": "En famille",
+      "en": "With the family",
+      "km": "ជាមួយគ្រួសារ"
+     },
+     "fr": "Viens t'asseoir à côté de grand-mère.",
+     "en": "Come and sit next to Grandma.",
+     "km": "មកអង្គុយក្បែរយាយ។",
+     "tr": "mok âng-kouy kbae yéay.",
+     "es": "Ven a sentarte al lado de la abuela.",
+     "it": "Vieni a sederti accanto alla nonna.",
+     "ru": "Иди сядь рядом с бабушкой.",
+     "zh": "过来坐在奶奶旁边。",
+     "zh_tr": "Guòlái zuò zài nǎinai pángbiān."
+    }
+   ],
+   "dialogue": {
+    "setting": {
+     "fr": "Alex cherche ses lunettes partout dans la maison.",
+     "en": "Alex is looking everywhere in the house for a pair of glasses.",
+     "km": "អាឡិច រកវ៉ែនតាពេញផ្ទះ។"
+    },
+    "lines": [
+     {
+      "speaker": "B",
+      "fr": "Dara, tu sais où sont mes lunettes ?",
+      "en": "Dara, do you know where my glasses are?",
+      "km": "ដារ៉ា ដឹងថាវ៉ែនតារបស់ខ្ញុំនៅឯណាទេ?",
+      "tr": "da-ra, deung tha vaèn-ta ro-bâh khgnom neuv aè na té ?",
+      "es": "Dara, ¿sabes dónde están mis gafas?",
+      "it": "Dara, sai dove sono i miei occhiali?",
+      "ru": "Дара, ты не знаешь, где мои очки?",
+      "zh": "达拉，你知道我的眼镜在哪儿吗？",
+      "zh_tr": "Dálā, nǐ zhīdào wǒ de yǎnjìng zài nǎr ma?"
+     },
+     {
+      "speaker": "A",
+      "fr": "Regarde sur la table, à côté de l'ordinateur.",
+      "en": "Look on the table, next to the computer.",
+      "km": "មើលនៅលើតុ ក្បែរកុំព្យូទ័រ។",
+      "tr": "meul neuv leu tok, kbae kom-pyou-tô.",
+      "es": "Mira sobre la mesa, al lado del ordenador.",
+      "it": "Guarda sopra il tavolo, accanto al computer.",
+      "ru": "Посмотри на столе, рядом с компьютером.",
+      "zh": "你看看桌子上面，电脑旁边。",
+      "zh_tr": "Nǐ kànkan zhuōzi shàngmiàn, diànnǎo pángbiān."
+     },
+     {
+      "speaker": "B",
+      "fr": "Non, elles n'y sont pas. Dans mon sac non plus.",
+      "en": "No, they're not there. Not in my bag either.",
+      "km": "អត់មានទេ។ ក្នុងកាបូបរបស់ខ្ញុំក៏អត់មានដែរ។",
+      "tr": "ât méan té. knong ka-boup ro-bâh khgnom kâ ât méan daè.",
+      "es": "No, ahí no están. Dentro de mi bolso tampoco.",
+      "it": "No, lì non ci sono. Neanche dentro la mia borsa.",
+      "ru": "Нет, там их нет. Внутри сумки тоже нет.",
+      "zh": "没有，不在那儿。我的包里面也没有。",
+      "zh_tr": "Méiyǒu, bú zài nàr. Wǒ de bāo lǐmiàn yě méiyǒu."
+     },
+     {
+      "speaker": "A",
+      "fr": "Et sous le lit ? Ou derrière le coussin ?",
+      "en": "What about under the bed? Or behind the cushion?",
+      "km": "ចុះក្រោមគ្រែ? ឬខាងក្រោយខ្នើយ?",
+      "tr": "tchoh kraom krè ? reu khang kraoy khnaeuy ?",
+      "es": "¿Y debajo de la cama? ¿O detrás del cojín?",
+      "it": "E sotto il letto? O dietro il cuscino?",
+      "ru": "А под кроватью? Или позади подушки?",
+      "zh": "床下面呢？还是靠垫后面？",
+      "zh_tr": "Chuáng xiàmiàn ne? Háishi kàodiàn hòumiàn?"
+     },
+     {
+      "speaker": "B",
+      "fr": "Non plus… Sans lunettes, je ne vois rien !",
+      "en": "Not there either… Without glasses, I can't see anything!",
+      "km": "ក៏អត់មានដែរ… គ្មានវ៉ែនតា ខ្ញុំមើលអ្វីមិនឃើញទេ!",
+      "tr": "kâ ât méan daè… kmean vaèn-ta, khgnom meul ey min kheugn té !",
+      "es": "Tampoco… ¡Sin gafas no veo nada!",
+      "it": "Neanche… Senza occhiali non vedo niente!",
+      "ru": "Тоже нет… Без очков я ничего не вижу!",
+      "zh": "也没有……没有眼镜，我什么都看不见！",
+      "zh_tr": "Yě méiyǒu… Méiyǒu yǎnjìng, wǒ shénme dōu kàn bu jiàn!"
+     },
+     {
+      "speaker": "A",
+      "fr": "Alex, elles sont sur ta tête !",
+      "en": "Alex, they're on your head!",
+      "km": "វ៉ែនតានៅលើក្បាល អាឡិច ហ្នឹង!",
+      "tr": "vaèn-ta neuv leu kbal a-lech neung !",
+      "es": "Alex, ¡las tienes sobre la cabeza!",
+      "it": "Alex, li hai sopra la testa!",
+      "ru": "Алекс, они у тебя на голове!",
+      "zh": "亚历克斯，眼镜就在你头上面！",
+      "zh_tr": "Yàlìkèsī, yǎnjìng jiù zài nǐ tóu shàngmiàn!"
+     }
+    ]
+   },
+   "review": {
+    "words": [
+     {
+      "vocab_id": 691,
+      "kind": "word",
+      "fr": "le compliment",
+      "en": "compliment",
+      "km": "ពាក្យសរសើរ",
+      "tr": "péak sâ-saeu",
+      "pos": "nom",
+      "note": {
+       "fr": "សរសើរ, « complimenter, faire l'éloge » ; ពាក្យ, « mot, parole ». គាត់សរសើរខ្ញុំ, « il m'a fait un compliment ».",
+       "en": "សរសើរ, “to praise”; ពាក្យ, “word”. គាត់សរសើរខ្ញុំ, “he complimented me”. French « faire un compliment à quelqu'un ».",
+       "km": "« faire un compliment » មានន័យថា សរសើរ។ អង់គ្លេស៖ « to pay someone a compliment », « to praise »។"
+      },
+      "example": {
+       "fr": "Elle reçoit beaucoup de compliments sur sa cuisine.",
+       "en": "She gets lots of compliments on her cooking.",
+       "km": "គាត់ទទួលបានពាក្យសរសើរច្រើនអំពីម្ហូបរបស់គាត់។",
+       "tr": "koat tô-tuol ban péak sâ-saeu tchraeun âm-pi mhôp ro-bâh koat.",
+       "es": "Recibe muchos cumplidos por su cocina.",
+       "it": "Riceve molti complimenti per la sua cucina.",
+       "ru": "Ей часто делают комплименты за её стряпню.",
+       "zh": "她做的菜得到很多称赞。",
+       "zh_tr": "Tā zuò de cài dédào hěn duō chēngzàn."
+      },
+      "stage": 1,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 1,
+      "from_lesson": 70,
+      "es": "el cumplido",
+      "it": "il complimento",
+      "ru": "комплимент",
+      "zh": "称赞",
+      "zh_tr": "chēngzàn"
+     },
+     {
+      "vocab_id": 653,
+      "kind": "word",
+      "fr": "l'offrande",
+      "en": "offering",
+      "km": "តង្វាយ",
+      "tr": "tâng-vay",
+      "pos": "nom",
+      "note": {
+       "fr": "តង្វាយ : fleurs, fruits, encens ou argent offerts à la pagode. Le verbe pour donner à un moine est ប្រគេន.",
+       "en": "តង្វាយ: flowers, fruit, incense or money given to the pagoda. The verb for giving to a monk is ប្រគេន. French « l'offrande » is feminine.",
+       "km": "« l'offrande » ជានាមភេទស្រី។ « faire une offrande » មានន័យថា ថ្វាយតង្វាយ។ អង់គ្លេស៖ « offering »។"
+      },
+      "example": {
+       "fr": "Les gens apportent des offrandes à la pagode.",
+       "en": "People bring offerings to the pagoda.",
+       "km": "គេយកតង្វាយទៅវត្ត។",
+       "tr": "ké yok tâng-vay teuv voat.",
+       "es": "La gente lleva ofrendas a la pagoda.",
+       "it": "La gente porta offerte alla pagoda.",
+       "ru": "Люди приносят подношения в пагоду.",
+       "zh": "人们把供品带到寺庙。",
+       "zh_tr": "Rénmen bǎ gòngpǐn dài dào sìmiào."
+      },
+      "stage": 2,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 3,
+      "from_lesson": 66,
+      "es": "la ofrenda",
+      "it": "l'offerta",
+      "ru": "подношение",
+      "zh": "供品",
+      "zh_tr": "gòngpǐn"
+     },
+     {
+      "vocab_id": 645,
+      "kind": "word",
+      "fr": "gagner",
+      "en": "to win",
+      "km": "ឈ្នះ",
+      "tr": "tchhneah",
+      "pos": "verbe",
+      "note": {
+       "fr": "ឈ្នះ, « gagner, vaincre » ; le contraire est ចាញ់, « perdre ». Pour « gagner de l'argent », on dit រកលុយ.",
+       "en": "ឈ្នះ, “to win”; the opposite is ចាញ់, “to lose”. To earn money is រកលុយ. French « gagner » means both “to win” and “to earn”.",
+       "km": "« gagner » មានន័យពីរ៖ ឈ្នះ និង រកលុយបាន (gagner de l'argent)។ អង់គ្លេស៖ « to win » និង « to earn »។"
+      },
+      "example": {
+       "fr": "Notre équipe a gagné hier soir.",
+       "en": "Our team won last night.",
+       "km": "ក្រុមយើងឈ្នះកាលពីយប់មិញ។",
+       "tr": "krom yeung tchhneah kal pi youp mign.",
+       "es": "Nuestro equipo ganó anoche.",
+       "it": "La nostra squadra ha vinto ieri sera.",
+       "ru": "Наша команда вчера вечером выиграла.",
+       "zh": "我们队昨天晚上赢了。",
+       "zh_tr": "Wǒmen duì zuótiān wǎnshang yíng le."
+      },
+      "stage": 3,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 7,
+      "from_lesson": 65,
+      "es": "ganar",
+      "it": "vincere",
+      "ru": "выигрывать",
+      "zh": "赢",
+      "zh_tr": "yíng"
+     },
+     {
+      "vocab_id": 427,
+      "kind": "expression",
+      "fr": "Ça a quel goût ?",
+      "en": "What does it taste like?",
+      "km": "រសជាតិយ៉ាងម៉េច?",
+      "tr": "ros-tchéat yang métch ?",
+      "pos": "expression",
+      "note": {
+       "fr": "រសជាតិ (ros-tchéat), « la saveur ». Pour dire que c'est bon, on répond ឆ្ងាញ់.",
+       "en": "រសជាតិ (ros-tchéat), “flavour”. To say it's good, answer ឆ្ងាញ់. French « goût » means “taste”.",
+       "km": "« le goût » មានន័យថា រសជាតិ។ អង់គ្លេស៖ « What does it taste like? »។"
+      },
+      "stage": 4,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 14,
+      "from_lesson": 43,
+      "es": "¿A qué sabe?",
+      "it": "Che sapore ha?",
+      "ru": "Какой у этого вкус?",
+      "zh": "是什么味道？",
+      "zh_tr": "Shì shénme wèidao?"
+     },
+     {
+      "vocab_id": 419,
+      "kind": "expression",
+      "fr": "C'est mon cousin.",
+      "en": "This is my cousin.",
+      "km": "នេះបងប្អូនជីដូនមួយរបស់ខ្ញុំ។",
+      "tr": "nih bâng p'ôn tchi-dôn mouy ro-bâh khgnom.",
+      "pos": "expression",
+      "note": {
+       "fr": "Mot à mot « frère ou sœur d'une même grand-mère ». Au quotidien, on dit souvent simplement បងប្អូន.",
+       "en": "Word for word “brother or sister from the same grandmother”. In daily life, people often just say បងប្អូន. French « cousin », feminine « cousine ».",
+       "km": "« cousin » សម្រាប់ប្រុស និង « cousine » សម្រាប់ស្រី។ អង់គ្លេស៖ « cousin » សម្រាប់ទាំងពីរ។"
+      },
+      "stage": 5,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 30,
+      "from_lesson": 42,
+      "es": "Es mi primo.",
+      "it": "È mio cugino.",
+      "ru": "Это мой двоюродный брат.",
+      "zh": "这是我表哥。",
+      "zh_tr": "Zhè shì wǒ biǎogē."
+     },
+     {
+      "vocab_id": 692,
+      "kind": "word",
+      "fr": "féliciter",
+      "en": "to congratulate",
+      "km": "អបអរសាទរ",
+      "tr": "âp-â sa-tô",
+      "pos": "verbe",
+      "note": {
+       "fr": "អបអរ, « se réjouir », et សាទរ, « avec joie ». សូមអបអរសាទរ!, « Félicitations ! ». ចំពោះ introduit la raison.",
+       "en": "អបអរ, “to rejoice”, and សាទរ, “gladly”. សូមអបអរសាទរ!, “Congratulations!”. ចំពោះ introduces the reason. French « féliciter pour » + noun.",
+       "km": "« féliciter pour » + នាម៖ féliciter pour le travail។ « Félicitations ! » មានន័យថា សូមអបអរសាទរ! អង់គ្លេស៖ « Congratulations on… »។"
+      },
+      "example": {
+       "fr": "Je te félicite pour ton nouveau travail !",
+       "en": "Congratulations on your new job!",
+       "km": "សូមអបអរសាទរចំពោះការងារថ្មីរបស់អ្នក!",
+       "tr": "sôm âp-â sa-tô tchâm-pouh ka-ngéa thmey ro-bâh néak !",
+       "es": "¡Te felicito por tu nuevo trabajo!",
+       "it": "Congratulazioni per il tuo nuovo lavoro!",
+       "ru": "Поздравляю тебя с новой работой!",
+       "zh": "祝贺你找到新工作！",
+       "zh_tr": "Zhùhè nǐ zhǎodào xīn gōngzuò!"
+      },
+      "stage": 1,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 1,
+      "from_lesson": 70,
+      "es": "felicitar",
+      "it": "congratularsi",
+      "ru": "поздравлять",
+      "zh": "祝贺",
+      "zh_tr": "zhùhè"
+     },
+     {
+      "vocab_id": 654,
+      "kind": "word",
+      "fr": "les ancêtres",
+      "en": "ancestors",
+      "km": "ដូនតា",
+      "tr": "dôn-ta",
+      "pos": "nom",
+      "note": {
+       "fr": "ដូន, « grand-mère », et តា, « grand-père » : les ancêtres. Pendant la fête de Pchum Ben, on leur dédie des offrandes.",
+       "en": "ដូន, “grandmother”, and តា, “grandfather”: the ancestors. During Pchum Ben, offerings are dedicated to them. French « les ancêtres » is plural, like the English.",
+       "km": "« les ancêtres » មានន័យថា ដូនតា។ « Pchum Ben » ជាពិធីបុណ្យឧទ្ទិសដល់ដូនតា។ អង់គ្លេស៖ « ancestors »។"
+      },
+      "example": {
+       "fr": "Pendant Pchum Ben, on honore les ancêtres.",
+       "en": "During Pchum Ben, people honour their ancestors.",
+       "km": "ពេលបុណ្យភ្ជុំបិណ្ឌ គេឧទ្ទិសកុសលដល់ដូនតា។",
+       "tr": "pél bon phtchoum ben, ké out-teuh kos-sâl dâl dôn-ta.",
+       "es": "Durante Pchum Ben se honra a los antepasados.",
+       "it": "Durante il Pchum Ben si onorano gli antenati.",
+       "ru": "Во время Пчум Бен чтят предков.",
+       "zh": "亡人节期间，人们祭祀祖先。",
+       "zh_tr": "Wángrénjié qījiān, rénmen jìsì zǔxiān."
+      },
+      "stage": 2,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 3,
+      "from_lesson": 66,
+      "es": "los antepasados",
+      "it": "gli antenati",
+      "ru": "предки",
+      "zh": "祖先",
+      "zh_tr": "zǔxiān"
+     },
+     {
+      "vocab_id": 646,
+      "kind": "word",
+      "fr": "le match",
+      "en": "match",
+      "km": "ការប្រកួត",
+      "tr": "ka prâ-kouot",
+      "pos": "nom",
+      "note": {
+       "fr": "ប្រកួត, « s'affronter, concourir » ; avec ការ, il devient un nom. Une équipe contre une autre : ទល់នឹង.",
+       "en": "ប្រកួត, “to compete”; with ការ it becomes a noun. One team against another: ទល់នឹង. French « le match », plural « les matchs ».",
+       "km": "« le match » មកពីភាសាអង់គ្លេស។ « contre » មានន័យថា ទល់នឹង៖ Phnom Penh contre Siem Reap។ អង់គ្លេស៖ « match », « game »។"
+      },
+      "example": {
+       "fr": "Le match commence à huit heures du soir.",
+       "en": "The match starts at eight in the evening.",
+       "km": "ការប្រកួតចាប់ផ្តើមម៉ោងប្រាំបីយប់។",
+       "tr": "ka prâ-kouot tchap-phdaeum maong pram-bey youp.",
+       "es": "El partido empieza a las ocho de la tarde.",
+       "it": "La partita comincia alle otto di sera.",
+       "ru": "Матч начинается в восемь вечера.",
+       "zh": "比赛晚上八点开始。",
+       "zh_tr": "Bǐsài wǎnshang bā diǎn kāishǐ."
+      },
+      "stage": 3,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 7,
+      "from_lesson": 65,
+      "es": "el partido",
+      "it": "la partita",
+      "ru": "матч",
+      "zh": "比赛",
+      "zh_tr": "bǐsài"
+     },
+     {
+      "vocab_id": 428,
+      "kind": "expression",
+      "fr": "C'est trop sucré pour moi.",
+      "en": "It's too sweet for me.",
+      "km": "ផ្អែមពេកសម្រាប់ខ្ញុំ។",
+      "tr": "ph'aèm pék sâm-rap khgnom.",
+      "pos": "expression",
+      "note": {
+       "fr": "ពេក (pék), « trop », se place après l'adjectif.",
+       "en": "ពេក (pék), “too”, goes after the adjective. French « trop » goes before it: trop sucré.",
+       "km": "« trop » + គុណនាម៖ trop sucré, trop salé។ អង់គ្លេស៖ « too sweet »។"
+      },
+      "stage": 4,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 14,
+      "from_lesson": 43,
+      "es": "Es demasiado dulce para mí.",
+      "it": "È troppo dolce per me.",
+      "ru": "Для меня это слишком сладко.",
+      "zh": "对我来说太甜了。",
+      "zh_tr": "Duì wǒ lái shuō tài tián le."
+     },
+     {
+      "vocab_id": 420,
+      "kind": "expression",
+      "fr": "Elle vit avec nous.",
+      "en": "She lives with us.",
+      "km": "គាត់រស់នៅជាមួយយើង។",
+      "tr": "koat rouh neuv tchéa-mouy yeung.",
+      "pos": "expression",
+      "note": {
+       "fr": "Au Cambodge, les grands-parents vivent souvent avec la famille d'un de leurs enfants.",
+       "en": "In Cambodia, grandparents often live with the family of one of their children. French « vivre avec » means “to live with”.",
+       "km": "« vivre avec » មានន័យថា រស់នៅជាមួយ។ អង់គ្លេស៖ « to live with »។"
+      },
+      "stage": 5,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 30,
+      "from_lesson": 42,
+      "es": "Vive con nosotros.",
+      "it": "Vive con noi.",
+      "ru": "Она живёт с нами.",
+      "zh": "她跟我们一起住。",
+      "zh_tr": "Tā gēn wǒmen yìqǐ zhù."
+     }
+    ],
+    "questions": [
+     {
+      "vocab_id": 691,
+      "fr": "le compliment",
+      "en": "compliment",
+      "km": "ពាក្យសរសើរ",
+      "tr": "péak sâ-saeu",
+      "source": "review",
+      "es": "el cumplido",
+      "it": "il complimento",
+      "ru": "комплимент",
+      "zh": "称赞",
+      "zh_tr": "chēngzàn"
+     },
+     {
+      "vocab_id": 653,
+      "fr": "l'offrande",
+      "en": "offering",
+      "km": "តង្វាយ",
+      "tr": "tâng-vay",
+      "source": "review",
+      "es": "la ofrenda",
+      "it": "l'offerta",
+      "ru": "подношение",
+      "zh": "供品",
+      "zh_tr": "gòngpǐn"
+     },
+     {
+      "vocab_id": 645,
+      "fr": "gagner",
+      "en": "to win",
+      "km": "ឈ្នះ",
+      "tr": "tchhneah",
+      "source": "review",
+      "es": "ganar",
+      "it": "vincere",
+      "ru": "выигрывать",
+      "zh": "赢",
+      "zh_tr": "yíng"
+     }
+    ],
+    "translation": {
+     "fr": "Le match commence à huit heures du soir.",
+     "en": "The match starts at eight in the evening.",
+     "km": "ការប្រកួតចាប់ផ្តើមម៉ោងប្រាំបីយប់។",
+     "tr": "ka prâ-kouot tchap-phdaeum maong pram-bey youp.",
+     "es": "El partido empieza a las ocho de la tarde.",
+     "it": "La partita comincia alle otto di sera.",
+     "ru": "Матч начинается в восемь вечера.",
+     "zh": "比赛晚上八点开始。",
+     "zh_tr": "Bǐsài wǎnshang bā diǎn kāishǐ.",
+     "source": "review"
+    },
+    "comprehension": {
+     "question": {
+      "fr": "Où sont les lunettes de Alex ?",
+      "en": "Where are Alex's glasses?",
+      "km": "វ៉ែនតារបស់ អាឡិច នៅឯណា?"
+     },
+     "answer": {
+      "fr": "Sur sa tête.",
+      "en": "On Alex's head.",
+      "km": "នៅលើក្បាលរបស់ អាឡិច។"
+     }
+    }
+   },
+   "estimated_seconds": 560,
+   "quality": {
+    "errors": 0,
+    "warnings": 0,
+    "uncertain": 0,
+    "issues": []
+   }
+  }
+ },
+ {
+  "number": 73,
+  "date": "2027-01-26",
+  "theme": "les-gestes-du-quotidien",
+  "level": "intermediaire",
+  "kind": "unit",
+  "unit_id": "u073",
+  "title": {
+   "fr": "Les gestes du quotidien",
+   "en": "Everyday actions",
+   "km": "សកម្មភាពប្រចាំថ្ងៃ"
+  },
+  "estimated_duration_seconds": 560,
+  "html_path": "lessons/lesson-073.html",
+  "audio_missing": 0,
+  "created_at": "2026-11-26T22:26:36Z",
+  "content": {
+   "version": 1,
+   "number": 73,
+   "date": "2027-01-26",
+   "kind": "unit",
+   "unit_id": "u073",
+   "theme": "les-gestes-du-quotidien",
+   "level": "intermediaire",
+   "title": {
+    "fr": "Les gestes du quotidien",
+    "en": "Everyday actions",
+    "km": "សកម្មភាពប្រចាំថ្ងៃ"
+   },
+   "tip": {
+    "fr": "បើក et បិទ font double emploi : « ouvrir » et « allumer », « fermer » et « éteindre ». Pour demander un service, on commence par ជួយ, « aider », et on finit par ផង : ជួយបិទទ្វារផង, « ferme la porte, s'il te plaît ».",
+    "en": "បើក and បិទ do double duty: “open” and “switch on”, “close” and “switch off”. To ask a favour, start with ជួយ, “help”, and end with ផង: ជួយបិទទ្វារផង, “close the door, please”. French uses two verbs each time: ouvrir / allumer, fermer / éteindre.",
+    "km": "ភាសាបារាំងប្រើកិរិយាសព្ទខុសគ្នា៖ ouvrir (បើកទ្វារ) និង allumer (បើកភ្លើង) ; fermer (បិទទ្វារ) និង éteindre (បិទភ្លើង)។ អង់គ្លេស៖ open និង turn on ; close និង turn off។"
+   },
+   "vocabulary": [
+    {
+     "fr": "donner",
+     "en": "to give",
+     "km": "ឱ្យ",
+     "tr": "aoy",
+     "es": "dar",
+     "it": "dare",
+     "ru": "давать",
+     "zh": "给",
+     "zh_tr": "gěi",
+     "pos": "verbe",
+     "note": {
+      "fr": "ឱ្យ, « donner », sert aussi à dire « pour » et « laisser faire » : ទិញឱ្យខ្ញុំ, « achète-le pour moi ». Pour offrir avec respect, on dit ជូន.",
+      "en": "ឱ្យ, “to give”, also means “for” and “to let”: ទិញឱ្យខ្ញុំ, “buy it for me”. To give respectfully, say ជូន. French « donner quelque chose à quelqu'un ».",
+      "km": "« donner » មានន័យថា ឱ្យ៖ donner un livre à un ami។ អង់គ្លេស៖ « to give »; កិរិយាសព្ទមិនទៀង៖ give, gave, given។"
+     },
+     "example": {
+      "fr": "Grand-mère donne des gâteaux aux enfants.",
+      "en": "Grandma gives the children cakes.",
+      "km": "យាយឱ្យនំដល់ក្មេងៗ។",
+      "tr": "yéay aoy num dâl kméng-kméng.",
+      "es": "La abuela da pasteles a los niños.",
+      "it": "La nonna dà dei dolci ai bambini.",
+      "ru": "Бабушка даёт детям пирожные.",
+      "zh": "奶奶给孩子们蛋糕。",
+      "zh_tr": "Nǎinai gěi háizimen dàngāo."
+     },
+     "vocab_id": 721,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "prendre",
+     "en": "to take",
+     "km": "យក",
+     "tr": "yok",
+     "es": "coger",
+     "it": "prendere",
+     "ru": "брать",
+     "zh": "拿",
+     "zh_tr": "ná",
+     "pos": "verbe",
+     "note": {
+      "fr": "យក, « prendre ». Avec ទៅ ou មក, il indique le sens : យកទៅ, « emporter » ; យកមក, « apporter ».",
+      "en": "យក, “to take”. With ទៅ or មក it shows direction: យកទៅ, “to take away”; យកមក, “to bring”. French « prendre » is irregular: je prends, nous prenons.",
+      "km": "« prendre » មានន័យថា យក៖ je prends, nous prenons។ អង់គ្លេស៖ « to take » (យកទៅ) និង « to bring » (យកមក)។"
+     },
+     "example": {
+      "fr": "Prends les clés avant de sortir.",
+      "en": "Take the keys before you go out.",
+      "km": "យកកូនសោទៅមុនពេលចេញ។",
+      "tr": "yok kôn sao teuv moun pél tchégn.",
+      "es": "Coge las llaves antes de salir.",
+      "it": "Prendi le chiavi prima di uscire.",
+      "ru": "Возьми ключи перед выходом.",
+      "zh": "出门以前把钥匙拿上。",
+      "zh_tr": "Chūmén yǐqián bǎ yàoshi ná shàng."
+     },
+     "vocab_id": 722,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "mettre",
+     "en": "to put",
+     "km": "ដាក់",
+     "tr": "dak",
+     "es": "poner",
+     "it": "mettere",
+     "ru": "класть",
+     "zh": "放",
+     "zh_tr": "fàng",
+     "pos": "verbe",
+     "note": {
+      "fr": "ដាក់, « mettre, poser », sert aussi pour ajouter un ingrédient : ដាក់ស្ករ, « mettre du sucre ». Pour ranger ou garder, on dit ទុក.",
+      "en": "ដាក់, “to put, to place”, also adds an ingredient: ដាក់ស្ករ, “to add sugar”. To put away or keep, say ទុក. French « mettre » also means “to put on” clothes: mettre un chapeau.",
+      "km": "« mettre » មានន័យថា ដាក់ ហើយក៏មានន័យថា ពាក់ ដែរ៖ mettre un chapeau។ អង់គ្លេស៖ « to put »; « to put on » សម្រាប់ខោអាវ។"
+     },
+     "example": {
+      "fr": "Mets le lait dans le réfrigérateur.",
+      "en": "Put the milk in the fridge.",
+      "km": "ដាក់ទឹកដោះគោក្នុងទូទឹកកក។",
+      "tr": "dak teuk dâh kô knong tou teuk kâk.",
+      "es": "Pon la leche en la nevera.",
+      "it": "Metti il latte in frigorifero.",
+      "ru": "Поставь молоко в холодильник.",
+      "zh": "把牛奶放进冰箱。",
+      "zh_tr": "Bǎ niúnǎi fàng jìn bīngxiāng."
+     },
+     "vocab_id": 723,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "ouvrir",
+     "en": "to open",
+     "km": "បើក",
+     "tr": "baeuk",
+     "es": "abrir",
+     "it": "aprire",
+     "ru": "открывать",
+     "zh": "打开",
+     "zh_tr": "dǎkāi",
+     "pos": "verbe",
+     "note": {
+      "fr": "បើក, « ouvrir », veut aussi dire « allumer » et « conduire » : បើកភ្លើង, « allumer la lumière » ; បើកឡាន, « conduire une voiture ».",
+      "en": "បើក, “to open”, also means “to switch on” and “to drive”: បើកភ្លើង, “to turn on the light”; បើកឡាន, “to drive a car”. French « ouvrir »: j'ouvre; « allumer » for a light.",
+      "km": "« ouvrir » មានន័យថា បើក (ទ្វារ, បង្អួច)។ សម្រាប់ភ្លើង គេប្រើ « allumer »។ អង់គ្លេស៖ « to open »; « to turn on » សម្រាប់ភ្លើង។"
+     },
+     "example": {
+      "fr": "Le magasin ouvre à huit heures.",
+      "en": "The shop opens at eight o'clock.",
+      "km": "ហាងបើកម៉ោងប្រាំបី។",
+      "tr": "hang baeuk maong pram-bey.",
+      "es": "La tienda abre a las ocho.",
+      "it": "Il negozio apre alle otto.",
+      "ru": "Магазин открывается в восемь часов.",
+      "zh": "商店八点开门。",
+      "zh_tr": "Shāngdiàn bā diǎn kāimén."
+     },
+     "vocab_id": 724,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "fermer",
+     "en": "to close",
+     "km": "បិទ",
+     "tr": "bet",
+     "es": "cerrar",
+     "it": "chiudere",
+     "ru": "закрывать",
+     "zh": "关",
+     "zh_tr": "guān",
+     "pos": "verbe",
+     "note": {
+      "fr": "បិទ, « fermer », veut aussi dire « éteindre » : បិទភ្លើង, « éteindre la lumière ». Fermer à clé se dit ចាក់សោ.",
+      "en": "បិទ, “to close”, also means “to switch off”: បិទភ្លើង, “to turn off the light”. To lock is ចាក់សោ. French « fermer »; « éteindre » for a light, « fermer à clé » for “to lock”.",
+      "km": "« fermer » មានន័យថា បិទ (ទ្វារ)។ សម្រាប់ភ្លើង គេប្រើ « éteindre »។ អង់គ្លេស៖ « to close », « to shut »; « to turn off » សម្រាប់ភ្លើង។"
+     },
+     "example": {
+      "fr": "N'oublie pas de fermer la porte.",
+      "en": "Don't forget to close the door.",
+      "km": "កុំភ្លេចបិទទ្វារ។",
+      "tr": "kom phlétch bet tvéa.",
+      "es": "No olvides cerrar la puerta.",
+      "it": "Non dimenticare di chiudere la porta.",
+      "ru": "Не забудь закрыть дверь.",
+      "zh": "别忘了关门。",
+      "zh_tr": "Bié wàng le guān mén."
+     },
+     "vocab_id": 725,
+     "is_new": true,
+     "kind": "word"
+    },
+    {
+     "fr": "tenir",
+     "en": "to hold",
+     "km": "កាន់",
+     "tr": "kan",
+     "es": "sujetar",
+     "it": "tenere",
+     "ru": "держать",
+     "zh": "拿着",
+     "zh_tr": "názhe",
+     "pos": "verbe",
+     "note": {
+      "fr": "កាន់, « tenir dans la main ». កាន់ដៃ, « se tenir la main » ; ជួយកាន់, « aider à porter ».",
+      "en": "កាន់, “to hold in your hand”. កាន់ដៃ, “to hold hands”; ជួយកាន់, “to help carry”. French « tenir » is irregular: je tiens, nous tenons.",
+      "km": "« tenir » មានន័យថា កាន់៖ je tiens, nous tenons។ អង់គ្លេស៖ « to hold »; កិរិយាសព្ទមិនទៀង៖ hold, held។"
+     },
+     "example": {
+      "fr": "Tiens mon sac une minute, s'il te plaît.",
+      "en": "Hold my bag for a minute, please.",
+      "km": "ជួយកាន់កាបូបខ្ញុំមួយភ្លែត។",
+      "tr": "tchouoy kan ka-boup khgnom mouy phlèt.",
+      "es": "Sujétame el bolso un momento, por favor.",
+      "it": "Tienimi la borsa un attimo, per favore.",
+      "ru": "Подержи мою сумку минутку, пожалуйста.",
+      "zh": "请帮我拿一下包。",
+      "zh_tr": "Qǐng bāng wǒ ná yíxià bāo."
+     },
+     "vocab_id": 726,
+     "is_new": true,
+     "kind": "word"
+    }
+   ],
+   "expressions": [
+    {
+     "fr": "Passe-moi le sel, s'il te plaît.",
+     "en": "Pass me the salt, please.",
+     "km": "សុំហុចអំបិលឱ្យខ្ញុំផង។",
+     "tr": "som hotch âm-bel aoy khgnom phâng.",
+     "es": "Pásame la sal, por favor.",
+     "it": "Passami il sale, per favore.",
+     "ru": "Передай мне соль, пожалуйста.",
+     "zh": "请把盐递给我。",
+     "zh_tr": "Qǐng bǎ yán dì gěi wǒ.",
+     "note": {
+      "fr": "ហុច, « tendre, passer de la main à la main ». ផង en fin de phrase adoucit la demande, comme « s'il te plaît ».",
+      "en": "ហុច, “to hand over”. ផង at the end softens the request, like “please”. French « passer » here means “to pass, to hand”.",
+      "km": "« Passe-moi… » មានន័យថា ហុច…ឱ្យខ្ញុំ។ អង់គ្លេស៖ « Pass me the salt, please »។"
+     },
+     "vocab_id": 727,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "Allume la lumière.",
+     "en": "Turn on the light.",
+     "km": "បើកភ្លើងផង។",
+     "tr": "baeuk phleung phâng.",
+     "es": "Enciende la luz.",
+     "it": "Accendi la luce.",
+     "ru": "Включи свет.",
+     "zh": "把灯打开。",
+     "zh_tr": "Bǎ dēng dǎkāi.",
+     "note": {
+      "fr": "បើកភ្លើង, mot à mot « ouvrir le feu » : allumer la lumière. ភ្លើង désigne le feu, la lumière et le courant.",
+      "en": "បើកភ្លើង, literally “open the fire”: to turn on the light. ភ្លើង covers fire, light and electricity. French « allumer »: allume la lumière.",
+      "km": "« allumer » មានន័យថា បើក (ភ្លើង, ទូរទស្សន៍)។ អង់គ្លេស៖ « to turn on », « to switch on »។"
+     },
+     "vocab_id": 728,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "Éteins le ventilateur.",
+     "en": "Turn off the fan.",
+     "km": "បិទកង្ហារផង។",
+     "tr": "bet kâng-ha phâng.",
+     "es": "Apaga el ventilador.",
+     "it": "Spegni il ventilatore.",
+     "ru": "Выключи вентилятор.",
+     "zh": "把风扇关掉。",
+     "zh_tr": "Bǎ fēngshàn guāndiào.",
+     "note": {
+      "fr": "បិទ, « fermer », sert pour éteindre. កង្ហារ, « ventilateur », indispensable à la saison chaude.",
+      "en": "បិទ, “to close”, is used for switching off. កង្ហារ, “fan”, a must in the hot season. French « éteindre »: éteins, with a silent s.",
+      "km": "« éteindre » មានន័យថា បិទ (ភ្លើង, កង្ហារ)៖ Éteins la lumière។ អង់គ្លេស៖ « to turn off », « to switch off »។"
+     },
+     "vocab_id": 729,
+     "is_new": true,
+     "kind": "expression"
+    },
+    {
+     "fr": "Je peux prendre ça ?",
+     "en": "Can I take this?",
+     "km": "ខ្ញុំយកនេះបានទេ?",
+     "tr": "khgnom yok nih ban té ?",
+     "es": "¿Puedo coger esto?",
+     "it": "Posso prendere questo?",
+     "ru": "Можно это взять?",
+     "zh": "我可以拿这个吗？",
+     "zh_tr": "Wǒ kěyǐ ná zhège ma?",
+     "note": {
+      "fr": "…បានទេ?, « est-ce possible ? », demande la permission. On répond បាន, « oui, vas-y », ou អត់បានទេ, « non ».",
+      "en": "…បានទេ?, “is it possible?”, asks permission. The answer is បាន, “yes, go ahead”, or អត់បានទេ, “no”. French « Je peux… ? » is the everyday way to ask.",
+      "km": "« Je peux… ? » ប្រើសុំការអនុញ្ញាត៖ Je peux prendre ça ?។ អង់គ្លេស៖ « Can I take this? »; គួរសមជាង៖ « May I…? »។"
+     },
+     "vocab_id": 730,
+     "is_new": true,
+     "kind": "expression"
+    }
+   ],
+   "sentences": [
+    {
+     "situation": {
+      "fr": "Avant de sortir",
+      "en": "Before going out",
+      "km": "មុនពេលចេញពីផ្ទះ"
+     },
+     "fr": "Avant de partir, ferme les fenêtres et éteins la climatisation.",
+     "en": "Before you leave, close the windows and turn off the air conditioning.",
+     "km": "មុនពេលចេញ បិទបង្អួច ហើយបិទម៉ាស៊ីនត្រជាក់ផង។",
+     "tr": "moun pél tchégn, bet bâng-ouotch haeuy bet ma-sin trâ-tchéak phâng.",
+     "es": "Antes de salir, cierra las ventanas y apaga el aire acondicionado.",
+     "it": "Prima di uscire, chiudi le finestre e spegni l'aria condizionata.",
+     "ru": "Перед уходом закрой окна и выключи кондиционер.",
+     "zh": "出门以前，把窗户关上，把空调关掉。",
+     "zh_tr": "Chūmén yǐqián, bǎ chuānghu guānshàng, bǎ kōngtiáo guāndiào."
+    },
+    {
+     "situation": {
+      "fr": "Les bonnes manières",
+      "en": "Good manners",
+      "km": "សុជីវធម៌"
+     },
+     "fr": "On donne un objet à un aîné avec les deux mains.",
+     "en": "You hand something to an elder with both hands.",
+     "km": "គេហុចរបស់ឱ្យចាស់ទុំដោយដៃទាំងពីរ។",
+     "tr": "ké hotch ro-bâh aoy tchah toum daoy day téang pi.",
+     "es": "A una persona mayor se le dan las cosas con las dos manos.",
+     "it": "A una persona anziana si porgono le cose con tutte e due le mani.",
+     "ru": "Старшим вещи подают двумя руками.",
+     "zh": "给长辈递东西要用双手。",
+     "zh_tr": "Gěi zhǎngbèi dì dōngxi yào yòng shuāngshǒu."
+    },
+    {
+     "situation": {
+      "fr": "En rentrant du marché",
+      "en": "Coming back from the market",
+      "km": "ត្រឡប់មកពីផ្សារ"
+     },
+     "fr": "Je tiens le sac, ouvre la porte.",
+     "en": "I'll hold the bag, you open the door.",
+     "km": "ខ្ញុំកាន់ថង់ អ្នកបើកទ្វារទៅ។",
+     "tr": "khgnom kan thâng, néak baeuk tvéa teuv.",
+     "es": "Yo sujeto la bolsa, tú abre la puerta.",
+     "it": "Io tengo la borsa, tu apri la porta.",
+     "ru": "Я держу сумку, а ты открой дверь.",
+     "zh": "我拿着袋子，你开门吧。",
+     "zh_tr": "Wǒ názhe dàizi, nǐ kāi mén ba."
+    }
+   ],
+   "dialogue": {
+    "setting": {
+     "fr": "Dara et Alex rentrent du marché, les bras chargés.",
+     "en": "Dara and Alex come home from the market with their arms full.",
+     "km": "ដារ៉ា និង អាឡិច ត្រឡប់មកពីផ្សារ កាន់របស់ពេញដៃ។"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "fr": "Alex, ouvre la porte, s'il te plaît. J'ai les mains pleines.",
+      "en": "Alex, open the door, please. My hands are full.",
+      "km": "អាឡិច ជួយបើកទ្វារផង។ ដៃខ្ញុំជាប់កាន់របស់។",
+      "tr": "a-lech, tchouoy baeuk tvéa phâng. day khgnom tchoap kan ro-bâh.",
+      "es": "Alex, abre la puerta, por favor. Tengo las manos ocupadas.",
+      "it": "Alex, apri la porta, per favore. Ho le mani occupate.",
+      "ru": "Алекс, открой, пожалуйста, дверь. У меня руки заняты.",
+      "zh": "亚历克斯，请开一下门。我手里拿着东西。",
+      "zh_tr": "Yàlìkèsī, qǐng kāi yíxià mén. Wǒ shǒu lǐ názhe dōngxi."
+     },
+     {
+      "speaker": "B",
+      "fr": "Attends, je prends la clé… Voilà, entre !",
+      "en": "Wait, I'll get the key… There, come in!",
+      "km": "ចាំបន្តិច ខ្ញុំយកកូនសោសិន… បើកហើយ ចូលមក!",
+      "tr": "tcham bân-tetch, khgnom yok kôn sao sen… baeuk haeuy, tchôl mok !",
+      "es": "Espera, cojo la llave… ¡Ya está, entra!",
+      "it": "Aspetta, prendo la chiave… Ecco, entra!",
+      "ru": "Подожди, я возьму ключ… Вот, заходи!",
+      "zh": "等一下，我拿钥匙……开了，进来吧！",
+      "zh_tr": "Děng yíxià, wǒ ná yàoshi… Kāi le, jìnlái ba!"
+     },
+     {
+      "speaker": "A",
+      "fr": "Merci. Je mets les légumes où ?",
+      "en": "Thanks. Where do I put the vegetables?",
+      "km": "អរគុណ។ បន្លែដាក់នៅឯណា?",
+      "tr": "â-koun. bân-laè dak neuv aè na ?",
+      "es": "Gracias. ¿Dónde pongo las verduras?",
+      "it": "Grazie. Dove metto le verdure?",
+      "ru": "Спасибо. Куда положить овощи?",
+      "zh": "谢谢。蔬菜放在哪儿？",
+      "zh_tr": "Xièxie. Shūcài fàng zài nǎr?"
+     },
+     {
+      "speaker": "B",
+      "fr": "Mets-les sur la table. Donne-moi le poisson, je le mets au frais.",
+      "en": "Put them on the table. Give me the fish, I'll put it in the fridge.",
+      "km": "ដាក់លើតុទៅ។ ឱ្យត្រីមកខ្ញុំ ខ្ញុំដាក់ក្នុងទូទឹកកក។",
+      "tr": "dak leu tok teuv. aoy trey mok khgnom, khgnom dak knong tou teuk kâk.",
+      "es": "Ponlas sobre la mesa. Dame el pescado, lo pongo en la nevera.",
+      "it": "Mettile sul tavolo. Dammi il pesce, lo metto in frigorifero.",
+      "ru": "Положи их на стол. Дай мне рыбу, я положу её в холодильник.",
+      "zh": "放在桌子上吧。把鱼给我，我放进冰箱。",
+      "zh_tr": "Fàng zài zhuōzi shàng ba. Bǎ yú gěi wǒ, wǒ fàng jìn bīngxiāng."
+     },
+     {
+      "speaker": "A",
+      "fr": "Il fait chaud ici ! Tu peux allumer le ventilateur ?",
+      "en": "It's hot in here! Can you turn on the fan?",
+      "km": "នៅទីនេះក្តៅណាស់! ជួយបើកកង្ហារបានទេ?",
+      "tr": "neuv ti-nih kdav nah ! tchouoy baeuk kâng-ha ban té ?",
+      "es": "¡Qué calor hace aquí! ¿Puedes encender el ventilador?",
+      "it": "Che caldo qui! Puoi accendere il ventilatore?",
+      "ru": "Как здесь жарко! Можешь включить вентилятор?",
+      "zh": "这里真热！你能开一下风扇吗？",
+      "zh_tr": "Zhèlǐ zhēn rè! Nǐ néng kāi yíxià fēngshàn ma?"
+     },
+     {
+      "speaker": "B",
+      "fr": "Oui, et je ferme la fenêtre : il y a trop de soleil.",
+      "en": "Sure, and I'll close the window: there's too much sun.",
+      "km": "បាទ បាន។ ហើយខ្ញុំបិទបង្អួច ព្រោះថ្ងៃក្តៅពេក។",
+      "tr": "bat, ban. haeuy khgnom bet bâng-ouotch, prouh thngay kdav pék.",
+      "es": "Sí, y cierro la ventana: hay demasiado sol.",
+      "it": "Sì, e chiudo la finestra: c'è troppo sole.",
+      "ru": "Да, и я закрою окно: слишком сильное солнце.",
+      "zh": "好，我把窗户也关上，太阳太晒了。",
+      "zh_tr": "Hǎo, wǒ bǎ chuānghu yě guānshàng, tàiyáng tài shài le."
+     }
+    ]
+   },
+   "review": {
+    "words": [
+     {
+      "vocab_id": 701,
+      "kind": "word",
+      "fr": "voir",
+      "en": "to see",
+      "km": "ឃើញ",
+      "tr": "kheugn",
+      "pos": "verbe",
+      "note": {
+       "fr": "ឃើញ désigne le résultat : on perçoit. Il suit souvent មើល : មើលឃើញ, « regarder et voir », donc « apercevoir ».",
+       "en": "ឃើញ is the result: you perceive. It often follows មើល: មើលឃើញ, “to look and see”. French « voir » is irregular: je vois, nous voyons.",
+       "km": "« voir » មានន័យថា ឃើញ៖ je vois, nous voyons។ អង់គ្លេស៖ « to see »; គេច្រើននិយាយ « I can see » ជាង « I see »។"
+      },
+      "example": {
+       "fr": "Je vois la montagne d'ici.",
+       "en": "I can see the mountain from here.",
+       "km": "ខ្ញុំឃើញភ្នំពីទីនេះ។",
+       "tr": "khgnom kheugn phnom pi ti-nih.",
+       "es": "Veo la montaña desde aquí.",
+       "it": "Vedo la montagna da qui.",
+       "ru": "Отсюда я вижу гору.",
+       "zh": "我从这里能看见山。",
+       "zh_tr": "Wǒ cóng zhèlǐ néng kànjiàn shān."
+      },
+      "stage": 1,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 1,
+      "from_lesson": 71,
+      "es": "ver",
+      "it": "vedere",
+      "ru": "видеть",
+      "zh": "看见",
+      "zh_tr": "kànjiàn"
+     },
+     {
+      "vocab_id": 663,
+      "kind": "word",
+      "fr": "accepter",
+      "en": "to accept",
+      "km": "ទទួលយក",
+      "tr": "tô-tuol yok",
+      "pos": "verbe",
+      "note": {
+       "fr": "ទទួល, « recevoir », et យក, « prendre » : « accepter ». Pour une invitation, un simple បាន ou ព្រម suffit.",
+       "en": "ទទួល, “to receive”, and យក, “to take”: “to accept”. For an invitation, a simple បាន or ព្រម is enough. French « accepter » also works for cards and payments: on accepte les dollars.",
+       "km": "« accepter » មានន័យថា ទទួលយក៖ accepter une invitation (ទទួលយកការអញ្ជើញ)។ អង់គ្លេស៖ « to accept »។"
+      },
+      "example": {
+       "fr": "Il accepte l'invitation avec plaisir.",
+       "en": "He gladly accepts the invitation.",
+       "km": "គាត់ទទួលយកការអញ្ជើញដោយរីករាយ។",
+       "tr": "koat tô-tuol yok ka agn-tcheugn daoy rik-réay.",
+       "es": "Acepta la invitación con mucho gusto.",
+       "it": "Accetta l'invito con piacere.",
+       "ru": "Он с радостью принимает приглашение.",
+       "zh": "他很高兴地接受了邀请。",
+       "zh_tr": "Tā hěn gāoxìng de jiēshòu le yāoqǐng."
+      },
+      "stage": 2,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 3,
+      "from_lesson": 67,
+      "es": "aceptar",
+      "it": "accettare",
+      "ru": "принимать",
+      "zh": "接受",
+      "zh_tr": "jiēshòu"
+     },
+     {
+      "vocab_id": 655,
+      "kind": "word",
+      "fr": "bénir",
+      "en": "to bless",
+      "km": "ប្រទានពរ",
+      "tr": "prâ-téan pô",
+      "pos": "verbe",
+      "note": {
+       "fr": "ពរ, « la bénédiction ». Un moine ប្រទានពរ ; entre amis, on se souhaite du bonheur avec ជូនពរ.",
+       "en": "ពរ, “blessing”. A monk ប្រទានពរ; friends wish each other well with ជូនពរ. French « bénir », « la bénédiction ».",
+       "km": "« bénir » មានន័យថា ប្រទានពរ ហើយ « souhaiter » មានន័យថា ជូនពរ។ អង់គ្លេស៖ « to bless », « blessing »។"
+      },
+      "example": {
+       "fr": "Le moine bénit les jeunes mariés.",
+       "en": "The monk blesses the newlyweds.",
+       "km": "ព្រះសង្ឃប្រទានពរដល់កូនកំលោះកូនក្រមុំ។",
+       "tr": "préah sâng prâ-téan pô dâl kôn kâm-loh kôn krâ-mom.",
+       "es": "El monje bendice a los novios.",
+       "it": "Il monaco benedice gli sposi.",
+       "ru": "Монах благословляет молодожёнов.",
+       "zh": "和尚为新人祝福。",
+       "zh_tr": "Héshang wèi xīnrén zhùfú."
+      },
+      "stage": 3,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 7,
+      "from_lesson": 66,
+      "es": "bendecir",
+      "it": "benedire",
+      "ru": "благословлять",
+      "zh": "祝福",
+      "zh_tr": "zhùfú"
+     },
+     {
+      "vocab_id": 437,
+      "kind": "expression",
+      "fr": "Ça te va bien.",
+      "en": "It suits you.",
+      "km": "សមនឹងអ្នកណាស់។",
+      "tr": "sâm neung néak nah.",
+      "pos": "expression",
+      "note": {
+       "fr": "សម (sâm), « qui convient, qui va bien ». Compliment courant sur une tenue.",
+       "en": "សម (sâm), “fitting, suitable”. A common compliment on an outfit. French « aller bien » means “to suit”: ça te va bien.",
+       "km": "« aller bien à quelqu'un » មានន័យថា សមនឹង។ អង់គ្លេស៖ « It suits you » ឬ « It looks good on you »។"
+      },
+      "stage": 4,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 14,
+      "from_lesson": 44,
+      "es": "Te queda bien.",
+      "it": "Ti sta bene.",
+      "ru": "Тебе идёт.",
+      "zh": "你穿着很好看。",
+      "zh_tr": "Nǐ chuān zhe hěn hǎokàn."
+     },
+     {
+      "vocab_id": 429,
+      "kind": "expression",
+      "fr": "Je n'ai plus faim, merci.",
+      "en": "I'm full, thank you.",
+      "km": "ខ្ញុំឆ្អែតហើយ អរគុណ។",
+      "tr": "khgnom tchh'aèt haeuy, â-koun.",
+      "pos": "expression",
+      "note": {
+       "fr": "ឆ្អែត (tchh'aèt), « rassasié ». Façon polie de refuser une nouvelle assiette.",
+       "en": "ឆ្អែត (tchh'aèt), “full”. A polite way to turn down another helping. French « Je n'ai plus faim » means “I'm no longer hungry”.",
+       "km": "« ne … plus » មានន័យថា លែង។ « je n'ai plus faim » គឺខ្ញុំលែងឃ្លានហើយ។ អង់គ្លេស៖ « I'm full »។"
+      },
+      "stage": 5,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 30,
+      "from_lesson": 43,
+      "es": "Ya no tengo hambre, gracias.",
+      "it": "Non ho più fame, grazie.",
+      "ru": "Я больше не хочу есть, спасибо.",
+      "zh": "我吃饱了，谢谢。",
+      "zh_tr": "Wǒ chī bǎo le, xièxie."
+     },
+     {
+      "vocab_id": 702,
+      "kind": "word",
+      "fr": "regarder",
+      "en": "to look at",
+      "km": "មើល",
+      "tr": "meul",
+      "pos": "verbe",
+      "note": {
+       "fr": "មើល, « regarder », sert aussi pour un film ou un livre : មើលកុន, « voir un film » ; មើលសៀវភៅ, « lire un livre ».",
+       "en": "មើល, “to look at, to watch”, also covers films and books: មើលកុន, “to watch a film”; មើលសៀវភៅ, “to read a book”. French « regarder » takes no preposition: regarder un film.",
+       "km": "« regarder » មានន័យថា មើល៖ regarder un film។ អង់គ្លេស៖ « to look at » សម្រាប់របស់នៅស្ងៀម ហើយ « to watch » សម្រាប់អ្វីដែលកម្រើក។"
+      },
+      "example": {
+       "fr": "Les enfants regardent les bateaux sur le fleuve.",
+       "en": "The children are watching the boats on the river.",
+       "km": "ក្មេងៗមើលទូកនៅលើទន្លេ។",
+       "tr": "kméng-kméng meul touk neuv leu tonlé.",
+       "es": "Los niños miran los barcos en el río.",
+       "it": "I bambini guardano le barche sul fiume.",
+       "ru": "Дети смотрят на лодки на реке.",
+       "zh": "孩子们在看河上的船。",
+       "zh_tr": "Háizimen zài kàn hé shàng de chuán."
+      },
+      "stage": 1,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 1,
+      "from_lesson": 71,
+      "es": "mirar",
+      "it": "guardare",
+      "ru": "смотреть",
+      "zh": "看",
+      "zh_tr": "kàn"
+     },
+     {
+      "vocab_id": 664,
+      "kind": "word",
+      "fr": "refuser",
+      "en": "to refuse",
+      "km": "បដិសេធ",
+      "tr": "bâ-de-séth",
+      "pos": "verbe",
+      "note": {
+       "fr": "បដិសេធ est un mot assez fort. Dans la vie courante, on refuse en douceur : ចាំលើកក្រោយ, « une prochaine fois ».",
+       "en": "បដិសេធ is quite a strong word. In everyday life people refuse gently: ចាំលើកក្រោយ, “next time”. French « refuser » is also direct; « décliner » is softer.",
+       "km": "« refuser » មានន័យថា បដិសេធ។ ដើម្បីបដិសេធដោយគួរសម គេនិយាយ « Une autre fois, peut-être »។ អង់គ្លេស៖ « to refuse », « to turn down »។"
+      },
+      "example": {
+       "fr": "Elle refuse poliment.",
+       "en": "She politely refuses.",
+       "km": "គាត់បដិសេធដោយគួរសម។",
+       "tr": "koat bâ-de-séth daoy kouo-sâm.",
+       "es": "Ella rechaza con educación.",
+       "it": "Rifiuta con gentilezza.",
+       "ru": "Она вежливо отказывается.",
+       "zh": "她礼貌地拒绝了。",
+       "zh_tr": "Tā lǐmào de jùjué le."
+      },
+      "stage": 2,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 3,
+      "from_lesson": 67,
+      "es": "rechazar",
+      "it": "rifiutare",
+      "ru": "отказываться",
+      "zh": "拒绝",
+      "zh_tr": "jùjué"
+     },
+     {
+      "vocab_id": 656,
+      "kind": "word",
+      "fr": "l'encens",
+      "en": "incense",
+      "km": "ធូប",
+      "tr": "thoup",
+      "pos": "nom",
+      "note": {
+       "fr": "ធូប, « l'encens » ; « allumer », c'est អុជ : អុជធូប. On compte les bâtons avec ដើម.",
+       "en": "ធូប, “incense”; “to light” is អុជ: អុជធូប. Sticks are counted with ដើម. French « l'encens » is masculine; the s is silent.",
+       "km": "« l'encens » អានថា « lansan »។ « allumer de l'encens » មានន័យថា អុជធូប។ អង់គ្លេស៖ « incense », « incense stick »។"
+      },
+      "example": {
+       "fr": "Elle allume trois bâtons d'encens.",
+       "en": "She lights three incense sticks.",
+       "km": "គាត់អុជធូបបីដើម។",
+       "tr": "koat outch thoup bey daeum.",
+       "es": "Enciende tres varitas de incienso.",
+       "it": "Accende tre bastoncini d'incenso.",
+       "ru": "Она зажигает три палочки благовоний.",
+       "zh": "她点了三炷香。",
+       "zh_tr": "Tā diǎn le sān zhù xiāng."
+      },
+      "stage": 3,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 7,
+      "from_lesson": 66,
+      "es": "el incienso",
+      "it": "l'incenso",
+      "ru": "благовония",
+      "zh": "香",
+      "zh_tr": "xiāng"
+     },
+     {
+      "vocab_id": 438,
+      "kind": "expression",
+      "fr": "Qu'est-ce que je mets ?",
+      "en": "What should I wear?",
+      "km": "ខ្ញុំស្លៀកអ្វីល្អ?",
+      "tr": "khgnom sliek ey l'â ?",
+      "pos": "expression",
+      "note": {
+       "fr": "Mot à mot « je porte quoi, ce serait bien ? ». ល្អ en fin de question demande un conseil.",
+       "en": "Word for word “I wear what, would be good?”. ល្អ at the end of a question asks for advice. French « mettre » means “to put on”.",
+       "km": "« mettre » មានន័យថា ស្លៀក ឬពាក់។ អង់គ្លេស៖ « What should I wear? »។"
+      },
+      "stage": 4,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 14,
+      "from_lesson": 44,
+      "es": "¿Qué me pongo?",
+      "it": "Che cosa mi metto?",
+      "ru": "Что мне надеть?",
+      "zh": "我穿什么？",
+      "zh_tr": "Wǒ chuān shénme?"
+     },
+     {
+      "vocab_id": 430,
+      "kind": "expression",
+      "fr": "Tu veux goûter ?",
+      "en": "Do you want a taste?",
+      "km": "ចង់ភ្លក់មើលទេ?",
+      "tr": "tchâng phlok meul té ?",
+      "pos": "expression",
+      "note": {
+       "fr": "មើល (meul), « regarder », après un verbe veut dire « essayer de » : ភ្លក់មើល, goûter pour voir.",
+       "en": "មើល (meul), “to look”, after a verb means “try to”: ភ្លក់មើល, taste and see. French « goûter » means “to taste”.",
+       "km": "« goûter » មានន័យថា ភ្លក់។ « le goûter » ក៏មានន័យថា អាហារសម្រន់ពេលរសៀលដែរ។ អង់គ្លេស៖ « to taste »។"
+      },
+      "stage": 5,
+      "due_for": [
+       "en",
+       "fr",
+       "km"
+      ],
+      "days": 30,
+      "from_lesson": 43,
+      "es": "¿Quieres probar?",
+      "it": "Vuoi assaggiare?",
+      "ru": "Хочешь попробовать?",
+      "zh": "你想尝尝吗？",
+      "zh_tr": "Nǐ xiǎng chángchang ma?"
+     }
+    ],
+    "questions": [
+     {
+      "vocab_id": 701,
+      "fr": "voir",
+      "en": "to see",
+      "km": "ឃើញ",
+      "tr": "kheugn",
+      "source": "review",
+      "es": "ver",
+      "it": "vedere",
+      "ru": "видеть",
+      "zh": "看见",
+      "zh_tr": "kànjiàn"
+     },
+     {
+      "vocab_id": 663,
+      "fr": "accepter",
+      "en": "to accept",
+      "km": "ទទួលយក",
+      "tr": "tô-tuol yok",
+      "source": "review",
+      "es": "aceptar",
+      "it": "accettare",
+      "ru": "принимать",
+      "zh": "接受",
+      "zh_tr": "jiēshòu"
+     },
+     {
+      "vocab_id": 655,
+      "fr": "bénir",
+      "en": "to bless",
+      "km": "ប្រទានពរ",
+      "tr": "prâ-téan pô",
+      "source": "review",
+      "es": "bendecir",
+      "it": "benedire",
+      "ru": "благословлять",
+      "zh": "祝福",
+      "zh_tr": "zhùfú"
+     }
+    ],
+    "translation": {
+     "fr": "Elle allume trois bâtons d'encens.",
+     "en": "She lights three incense sticks.",
+     "km": "គាត់អុជធូបបីដើម។",
+     "tr": "koat outch thoup bey daeum.",
+     "es": "Enciende tres varitas de incienso.",
+     "it": "Accende tre bastoncini d'incenso.",
+     "ru": "Она зажигает три палочки благовоний.",
+     "zh": "她点了三炷香。",
+     "zh_tr": "Tā diǎn le sān zhù xiāng.",
+     "source": "review"
+    },
+    "comprehension": {
+     "question": {
+      "fr": "Où met-on le poisson ?",
+      "en": "Where does the fish go?",
+      "km": "ត្រីដាក់នៅឯណា?"
+     },
+     "answer": {
+      "fr": "Dans le réfrigérateur.",
+      "en": "In the fridge.",
+      "km": "ក្នុងទូទឹកកក។"
      }
     }
    },

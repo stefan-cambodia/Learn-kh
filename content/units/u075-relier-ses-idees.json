@@ -1,0 +1,159 @@
+{
+  "id": "u075",
+  "order": 75,
+  "level": "intermediaire",
+  "theme": "relier-ses-idees",
+  "title": {"fr": "Relier ses idées", "en": "Linking your ideas", "km": "ពាក្យភ្ជាប់គំនិត"},
+  "tip": {
+    "fr": "Le khmer parlé relie souvent les idées sans mot de liaison, par simple juxtaposition : ភ្លៀង អត់ទៅទេ, « (s')il pleut, (je) n'y vais pas ». Les mots បើ, ព្រោះ et ដូច្នេះ rendent le lien explicite ; on les emploie surtout quand on veut être clair.",
+    "en": "Spoken Khmer often links ideas with no linking word at all, just side by side: ភ្លៀង អត់ទៅទេ, “(if it) rains, (I'm) not going”. បើ, ព្រោះ and ដូច្នេះ make the link explicit. In French, « parce que » answers « pourquoi ? », and « donc » gives the result.",
+    "km": "ភាសាបារាំង « parce que » ឆ្លើយនឹងសំណួរ « pourquoi ? » ហើយ « donc » ប្រាប់លទ្ធផល។ អង់គ្លេស៖ « because » ឆ្លើយនឹង « why? » ហើយ « so » ប្រាប់លទ្ធផល។"
+  },
+  "vocabulary": [
+    {
+      "fr": "parce que", "en": "because", "km": "ព្រោះ", "tr": "prouh",
+      "es": "porque", "it": "perché", "ru": "потому что", "zh": "因为", "zh_tr": "yīnwèi", "pos": "conjonction",
+      "note": {
+        "fr": "ព្រោះ, « parce que ». On entend aussi ពីព្រោះ et, plus soutenu, ដោយសារ, « grâce à, à cause de ».",
+        "en": "ព្រោះ, “because”. You also hear ពីព្រោះ and, more formally, ដោយសារ, “thanks to, because of”. French « parce que » becomes « parce qu' » before a vowel.",
+        "km": "« parce que » មានន័យថា ព្រោះ; នៅមុខស្រៈ គេសរសេរ « parce qu' »៖ parce qu'il pleut។ អង់គ្លេស៖ « because »។"
+      },
+      "example": {"fr": "Je reste à la maison parce qu'il pleut.", "en": "I'm staying at home because it's raining.", "km": "ខ្ញុំនៅផ្ទះ ព្រោះភ្លៀង។", "tr": "khgnom neuv phtéah, prouh phlieng.",
+      "es": "Me quedo en casa porque llueve.", "it": "Resto a casa perché piove.", "ru": "Я остаюсь дома, потому что идёт дождь.", "zh": "因为下雨，我待在家里。", "zh_tr": "Yīnwèi xià yǔ, wǒ dāi zài jiā lǐ."}
+    },
+    {
+      "fr": "mais", "en": "but", "km": "ប៉ុន្តែ", "tr": "pon-taè",
+      "es": "pero", "it": "ma", "ru": "но", "zh": "但是", "zh_tr": "dànshì", "pos": "conjonction",
+      "note": {
+        "fr": "ប៉ុន្តែ, « mais ». À l'oral, on dit plus souvent តែ tout court : ចង់ទៅ តែអត់ទំនេរ, « je voudrais y aller, mais je ne suis pas libre ».",
+        "en": "ប៉ុន្តែ, “but”. In speech it is usually just តែ: ចង់ទៅ តែអត់ទំនេរ, “I'd like to go, but I'm not free”. French « mais », with a silent s.",
+        "km": "« mais » មានន័យថា ប៉ុន្តែ (មិនអាន s ទេ)។ អង់គ្លេស៖ « but »។"
+      },
+      "example": {"fr": "C'est loin, mais la route est bonne.", "en": "It's far, but the road is good.", "km": "ឆ្ងាយ ប៉ុន្តែផ្លូវល្អ។", "tr": "tchhngay, pon-taè phleuv l'â.",
+      "es": "Está lejos, pero la carretera es buena.", "it": "È lontano, ma la strada è buona.", "ru": "Это далеко, но дорога хорошая.", "zh": "很远，但是路很好。", "zh_tr": "Hěn yuǎn, dànshì lù hěn hǎo."}
+    },
+    {
+      "fr": "donc", "en": "so", "km": "ដូច្នេះ", "tr": "dôtch-néh",
+      "es": "así que", "it": "quindi", "ru": "поэтому", "zh": "所以", "zh_tr": "suǒyǐ", "pos": "conjonction",
+      "note": {
+        "fr": "ដូច្នេះ, mot à mot « comme ceci » : donc, par conséquent. À l'oral, on dit plutôt អញ្ចឹង, « alors ».",
+        "en": "ដូច្នេះ, literally “like this”: so, therefore. In speech people prefer អញ្ចឹង, “so, then”. French « donc »; in everyday talk « alors » is just as common.",
+        "km": "« donc » មានន័យថា ដូច្នេះ; ពេលនិយាយ គេច្រើនប្រើ « alors » (អញ្ចឹង)។ អង់គ្លេស៖ « so »; ផ្លូវការជាង៖ « therefore »។"
+      },
+      "example": {"fr": "Il n'y a plus de bus, donc on prend un tuk-tuk.", "en": "There are no more buses, so we're taking a tuk-tuk.", "km": "អស់ឡានក្រុងហើយ ដូច្នេះយើងជិះតុកតុក។", "tr": "âh lan-krong haeuy, dôtch-néh yeung tchih tok-tok.",
+      "es": "Ya no hay autobuses, así que cogemos un tuk-tuk.", "it": "Non ci sono più autobus, quindi prendiamo un tuk-tuk.", "ru": "Автобусов больше нет, поэтому мы едем на тук-туке.", "zh": "没有公共汽车了，所以我们坐嘟嘟车。", "zh_tr": "Méiyǒu gōnggòng qìchē le, suǒyǐ wǒmen zuò dūdūchē."}
+    },
+    {
+      "fr": "si", "en": "if", "km": "បើ", "tr": "baeu",
+      "es": "si", "it": "se", "ru": "если", "zh": "如果", "zh_tr": "rúguǒ", "pos": "conjonction",
+      "note": {
+        "fr": "បើ, « si ». Souvent renforcé : ប្រសិនបើ ou បើសិនជា. La suite prend volontiers នឹង pour le futur : បើភ្លៀង ខ្ញុំនឹងនៅផ្ទះ.",
+        "en": "បើ, “if”. Often reinforced: ប្រសិនបើ or បើសិនជា. The second half readily takes នឹង for the future. French « si » becomes « s' » before « il »: s'il pleut.",
+        "km": "« si » មានន័យថា បើ; នៅមុខ « il » គេសរសេរ « s'il »៖ s'il pleut។ អង់គ្លេស៖ « if »។"
+      },
+      "example": {"fr": "Si tu as le temps, viens manger à la maison.", "en": "If you have time, come and eat at our place.", "km": "បើទំនេរ មកញ៉ាំបាយនៅផ្ទះខ្ញុំ។", "tr": "baeu toum-né, mok gnam bay neuv phtéah khgnom.",
+      "es": "Si tienes tiempo, ven a comer a casa.", "it": "Se hai tempo, vieni a mangiare a casa mia.", "ru": "Если у тебя есть время, приходи к нам поесть.", "zh": "如果你有空，来我家吃饭吧。", "zh_tr": "Rúguǒ nǐ yǒu kòng, lái wǒ jiā chīfàn ba."}
+    },
+    {
+      "fr": "d'abord", "en": "first", "km": "ដំបូង", "tr": "dâm-bông",
+      "es": "primero", "it": "prima", "ru": "сначала", "zh": "先", "zh_tr": "xiān", "pos": "adverbe",
+      "note": {
+        "fr": "ដំបូង, « au début, d'abord ». À l'oral, on met souvent សិន à la fin de la phrase : ញ៉ាំបាយសិន, « mangeons d'abord ».",
+        "en": "ដំបូង, “at first, first”. In speech people often just end the sentence with សិន: ញ៉ាំបាយសិន, “let's eat first”. French « d'abord », with a silent final d.",
+        "km": "« d'abord » មានន័យថា ដំបូង ឬ …សិន៖ D'abord, on mange។ អង់គ្លេស៖ « first », « first of all »។"
+      },
+      "example": {"fr": "D'abord, on lave les légumes.", "en": "First, you wash the vegetables.", "km": "ដំបូង គេលាងបន្លែ។", "tr": "dâm-bông, ké léang bân-laè.",
+      "es": "Primero se lavan las verduras.", "it": "Prima si lavano le verdure.", "ru": "Сначала моют овощи.", "zh": "先把蔬菜洗干净。", "zh_tr": "Xiān bǎ shūcài xǐ gānjìng."}
+    },
+    {
+      "fr": "ensuite", "en": "then", "km": "បន្ទាប់មក", "tr": "bân-toap mok",
+      "es": "después", "it": "poi", "ru": "потом", "zh": "然后", "zh_tr": "ránhòu", "pos": "adverbe",
+      "note": {
+        "fr": "បន្ទាប់មក, « ensuite, après cela ». Pour finir une liste, on dit ចុងក្រោយ, « enfin, à la fin ».",
+        "en": "បន្ទាប់មក, “then, after that”. To end a list, say ចុងក្រោយ, “finally”. French « ensuite » or « puis »; « enfin » for the last step.",
+        "km": "« ensuite » មានន័យថា បន្ទាប់មក; « enfin » មានន័យថា ចុងក្រោយ។ អង់គ្លេស៖ « then », « after that »; « finally »។"
+      },
+      "example": {"fr": "Ensuite, on fait cuire le riz.", "en": "Then you cook the rice.", "km": "បន្ទាប់មក គេដាំបាយ។", "tr": "bân-toap mok, ké dam bay.",
+      "es": "Después se cuece el arroz.", "it": "Poi si cuoce il riso.", "ru": "Потом варят рис.", "zh": "然后煮米饭。", "zh_tr": "Ránhòu zhǔ mǐfàn."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Ah, c'est pour ça !", "en": "Oh, that's why!", "km": "អូ អញ្ចឹងទេតើ!", "tr": "ô, agn-tcheung té taeu !",
+      "es": "¡Ah, por eso!", "it": "Ah, ecco perché!", "ru": "А, вот почему!", "zh": "啊，原来是这样！", "zh_tr": "À, yuánlái shì zhèyàng!",
+      "note": {
+        "fr": "អញ្ចឹង, « ainsi, alors » ; ទេតើ marque la découverte : « ah, c'était donc ça ». On le dit quand on comprend enfin la raison.",
+        "en": "អញ្ចឹង, “so, like that”; ទេតើ marks a discovery: “oh, so that was it”. Said when you finally understand the reason. French « c'est pour ça » means “that's why”.",
+        "km": "« C'est pour ça » មានន័យថា ហេតុនេះហើយ ឬ អញ្ចឹងទេតើ។ អង់គ្លេស៖ « That's why! », « Oh, I see! »។"
+      }
+    },
+    {
+      "fr": "Et après ?", "en": "And then what?", "km": "ហើយយ៉ាងម៉េចទៀត?", "tr": "haeuy yang métch tiet ?",
+      "es": "¿Y luego qué?", "it": "E dopo?", "ru": "А что дальше?", "zh": "后来呢？", "zh_tr": "Hòulái ne?",
+      "note": {
+        "fr": "ហើយ, « et » ; យ៉ាងម៉េច, « comment » ; ទៀត, « encore » : « et comment encore ? ». Pour encourager quelqu'un à continuer son histoire.",
+        "en": "ហើយ, “and”; យ៉ាងម៉េច, “how”; ទៀត, “more”: “and how next?”. It nudges someone to go on with their story. French « Et après ? ».",
+        "km": "« Et après ? » ប្រើសួរឱ្យគេនិយាយបន្ត។ អង់គ្លេស៖ « And then? », « And then what? »។"
+      }
+    },
+    {
+      "fr": "Si tu veux.", "en": "If you like.", "km": "បើចង់ ក៏បាន។", "tr": "baeu tchâng, kâ ban.",
+      "es": "Si quieres.", "it": "Se vuoi.", "ru": "Если хочешь.", "zh": "如果你愿意的话。", "zh_tr": "Rúguǒ nǐ yuànyì de huà.",
+      "note": {
+        "fr": "បើចង់, « si (tu) veux » ; ក៏បាន, « c'est possible aussi ». Une façon douce d'accepter sans insister.",
+        "en": "បើចង់, “if (you) want”; ក៏បាន, “that's fine too”. A gentle way to agree without pushing. French « si tu veux », polite form « si vous voulez ».",
+        "km": "« Si tu veux » មានន័យថា បើចង់ ក៏បាន; គួរសម៖ « Si vous voulez »។ អង់គ្លេស៖ « If you like », « If you want »។"
+      }
+    },
+    {
+      "fr": "Pourquoi pas ?", "en": "Why not?", "km": "ម៉េចក៏មិនបាន?", "tr": "métch kâ min ban ?",
+      "es": "¿Por qué no?", "it": "Perché no?", "ru": "Почему бы и нет?", "zh": "为什么不呢？", "zh_tr": "Wèi shénme bù ne?",
+      "note": {
+        "fr": "ម៉េចក៏, « comment se fait-il que » ; មិនបាន, « pas possible » : « et pourquoi ce ne serait pas possible ? ».",
+        "en": "ម៉េចក៏, “how come”; មិនបាន, “not possible”: “and why wouldn't it be possible?”. French « Pourquoi pas ? ».",
+        "km": "« Pourquoi pas ? » ប្រើពេលយល់ព្រមនឹងគំនិតមួយ។ អង់គ្លេស៖ « Why not? »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "En retard", "en": "Running late", "km": "មកយឺត"},
+      "fr": "Je suis en retard parce qu'il y avait des embouteillages.", "en": "I'm late because there was a traffic jam.",
+      "km": "ខ្ញុំមកយឺត ព្រោះស្ទះផ្លូវ។", "tr": "khgnom mok yeut, prouh stéah phleuv.",
+      "es": "Llego tarde porque había atasco.", "it": "Sono in ritardo perché c'era traffico.", "ru": "Я опаздываю, потому что были пробки.", "zh": "我迟到了，因为路上堵车。", "zh_tr": "Wǒ chídào le, yīnwèi lùshang dǔchē."
+    },
+    {
+      "situation": {"fr": "Faire des projets", "en": "Making plans", "km": "រៀបចំគម្រោង"},
+      "fr": "S'il ne pleut pas demain, on ira à la mer.", "en": "If it doesn't rain tomorrow, we'll go to the sea.",
+      "km": "បើថ្ងៃស្អែកមិនភ្លៀង យើងនឹងទៅសមុទ្រ។", "tr": "baeu thngay s'aèk min phlieng, yeung neung teuv sâ-mot.",
+      "es": "Si mañana no llueve, iremos al mar.", "it": "Se domani non piove, andremo al mare.", "ru": "Если завтра не будет дождя, мы поедем на море.", "zh": "如果明天不下雨，我们就去海边。", "zh_tr": "Rúguǒ míngtiān bú xià yǔ, wǒmen jiù qù hǎibiān."
+    },
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "J'aime ce sac, mais il est trop cher, donc je ne l'achète pas.", "en": "I like this bag, but it's too expensive, so I'm not buying it.",
+      "km": "ខ្ញុំចូលចិត្តកាបូបនេះ ប៉ុន្តែថ្លៃពេក ដូច្នេះខ្ញុំមិនទិញទេ។", "tr": "khgnom tchôl tchet ka-boup nih, pon-taè thlay pék, dôtch-néh khgnom min tign té.",
+      "es": "Me gusta este bolso, pero es demasiado caro, así que no lo compro.", "it": "Mi piace questa borsa, ma è troppo cara, quindi non la compro.", "ru": "Мне нравится эта сумка, но она слишком дорогая, поэтому я её не куплю.", "zh": "我喜欢这个包，但是太贵了，所以不买。", "zh_tr": "Wǒ xǐhuan zhège bāo, dànshì tài guì le, suǒyǐ bù mǎi."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} veut apprendre à faire le riz sauté. {A} explique la recette.", "en": "{B} wants to learn how to make fried rice. {A} explains the recipe.", "km": "{B} ចង់រៀនធ្វើបាយឆា។ {A} ពន្យល់របៀបធ្វើ។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, comment on fait le riz sauté ?", "en": "{A}, how do you make fried rice?", "km": "{A} បាយឆាធ្វើយ៉ាងម៉េច?", "tr": "{A}, bay tchha thveu yang métch ?",
+        "es": "{A}, ¿cómo se hace el arroz frito?", "it": "{A}, come si fa il riso saltato?", "ru": "{A}, как готовят жареный рис?", "zh": "{A}，炒饭怎么做？", "zh_tr": "{A}, chǎofàn zěnme zuò?"},
+      {"speaker": "A", "fr": "C'est facile. D'abord, on fait frire l'ail.", "en": "It's easy. First, you fry the garlic.", "km": "ងាយទេ។ ដំបូង គេចៀនខ្ទឹមស។", "tr": "ngéay té. dâm-bông, ké tchien khteum sâ.",
+        "es": "Es fácil. Primero se fríe el ajo.", "it": "È facile. Prima si frigge l'aglio.", "ru": "Это легко. Сначала обжаривают чеснок.", "zh": "很简单。先把蒜炒一下。", "zh_tr": "Hěn jiǎndān. Xiān bǎ suàn chǎo yíxià."},
+      {"speaker": "B", "fr": "Et ensuite ?", "en": "And then?", "km": "ហើយបន្ទាប់មក?", "tr": "haeuy bân-toap mok ?",
+        "es": "¿Y después?", "it": "E poi?", "ru": "А потом?", "zh": "然后呢？", "zh_tr": "Ránhòu ne?"},
+      {"speaker": "A", "fr": "Ensuite, on met les œufs et le riz. Mais le riz doit être froid.", "en": "Then you add the eggs and the rice. But the rice must be cold.", "km": "បន្ទាប់មក ដាក់ពងមាន់និងបាយ។ ប៉ុន្តែបាយត្រូវត្រជាក់។", "tr": "bân-toap mok, dak pong moan ning bay. pon-taè bay treuv trâ-tchéak.",
+        "es": "Después se echan los huevos y el arroz. Pero el arroz tiene que estar frío.", "it": "Poi si mettono le uova e il riso. Ma il riso deve essere freddo.", "ru": "Потом кладут яйца и рис. Но рис должен быть холодным.", "zh": "然后放鸡蛋和米饭。但是米饭要用凉的。", "zh_tr": "Ránhòu fàng jīdàn hé mǐfàn. Dànshì mǐfàn yào yòng liáng de."},
+      {"speaker": "B", "fr": "Pourquoi froid ?", "en": "Why cold?", "km": "ហេតុអ្វីត្រូវត្រជាក់?", "tr": "haèt ey treuv trâ-tchéak ?",
+        "es": "¿Por qué frío?", "it": "Perché freddo?", "ru": "Почему холодным?", "zh": "为什么要用凉的？", "zh_tr": "Wèi shénme yào yòng liáng de?"},
+      {"speaker": "A", "fr": "Parce que le riz chaud colle. Si tu as du riz d'hier, c'est parfait !", "en": "Because hot rice sticks. If you have yesterday's rice, it's perfect!", "km": "ព្រោះបាយក្តៅស្អិត។ បើមានបាយពីម្សិលមិញ ល្អណាស់!", "tr": "prouh bay kdav s'et. baeu méan bay pi msel-mign, l'â nah !",
+        "es": "Porque el arroz caliente se pega. Si tienes arroz de ayer, ¡perfecto!", "it": "Perché il riso caldo si attacca. Se hai del riso di ieri, è perfetto!", "ru": "Потому что горячий рис слипается. Если у тебя есть вчерашний рис, это идеально!", "zh": "因为热米饭会粘在一起。如果你有昨天的剩饭，那就最好了！", "zh_tr": "Yīnwèi rè mǐfàn huì zhān zài yìqǐ. Rúguǒ nǐ yǒu zuótiān de shèngfàn, nà jiù zuì hǎo le!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi le riz doit-il être froid ?", "en": "Why must the rice be cold?", "km": "ហេតុអ្វីបាយត្រូវត្រជាក់?"},
+    "answer": {"fr": "Parce que le riz chaud colle.", "en": "Because hot rice sticks.", "km": "ព្រោះបាយក្តៅស្អិត។"}
+  }
+}

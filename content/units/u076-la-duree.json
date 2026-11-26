@@ -1,0 +1,159 @@
+{
+  "id": "u076",
+  "order": 76,
+  "level": "intermediaire",
+  "theme": "la-duree",
+  "title": {"fr": "Parler de la durée", "en": "Talking about how long", "km": "និយាយអំពីរយៈពេល"},
+  "tip": {
+    "fr": "Pour dire « depuis » une durée, le khmer met simplement ហើយ, « déjà », après la durée : ខ្ញុំរៀនពីរឆ្នាំហើយ, « j'apprends depuis deux ans ». តាំងពី ne s'emploie que devant un point de départ : តាំងពីឆ្នាំមុន, « depuis l'année dernière ».",
+    "en": "To say “for” a length of time, Khmer simply puts ហើយ, “already”, after it: ខ្ញុំរៀនពីរឆ្នាំហើយ, “I've been learning for two years”. តាំងពី is only for a starting point: តាំងពីឆ្នាំមុន, “since last year”. French uses « depuis » for both, with the present tense: j'apprends depuis deux ans.",
+    "km": "ភាសាបារាំងប្រើ « depuis » ជាមួយបច្ចុប្បន្នកាល៖ J'apprends le français depuis deux ans។ អង់គ្លេសប្រើ present perfect៖ I have been learning for two years (រយៈពេល), since Monday (ពេលចាប់ផ្តើម)។"
+  },
+  "vocabulary": [
+    {
+      "fr": "depuis", "en": "since", "km": "តាំងពី", "tr": "tang pi",
+      "es": "desde", "it": "da", "ru": "начиная с", "zh": "从", "zh_tr": "cóng", "pos": "preposition",
+      "note": {
+        "fr": "តាំងពី, « depuis » un moment précis : តាំងពីម្សិលមិញ, « depuis hier ». Pour une durée, le khmer dit plutôt … ហើយ : បីឆ្នាំហើយ, « depuis trois ans ».",
+        "en": "តាំងពី, “since” a point in time: តាំងពីម្សិលមិញ, “since yesterday”. For a length of time Khmer prefers … ហើយ: បីឆ្នាំហើយ, “for three years now”. French « depuis » covers both “since” and “for”.",
+        "km": "« depuis » ប្រើជាមួយបច្ចុប្បន្នកាល៖ J'habite ici depuis trois ans (ខ្ញុំរស់នៅទីនេះបីឆ្នាំហើយ)។ អង់គ្លេស៖ « since » + ពេលចាប់ផ្តើម, « for » + រយៈពេល។"
+      },
+      "example": {"fr": "Il pleut depuis ce matin.", "en": "It has been raining since this morning.", "km": "ភ្លៀងតាំងពីព្រឹកមិញ។", "tr": "phlieng tang pi preuk mign.",
+      "es": "Llueve desde esta mañana.", "it": "Piove da stamattina.", "ru": "Дождь идёт начиная с утра.", "zh": "从今天早上起一直在下雨。", "zh_tr": "Cóng jīntiān zǎoshang qǐ yìzhí zài xià yǔ."}
+    },
+    {
+      "fr": "pendant", "en": "during", "km": "អំឡុងពេល", "tr": "âm-long pél",
+      "es": "durante", "it": "durante", "ru": "во время", "zh": "期间", "zh_tr": "qījiān", "pos": "preposition",
+      "note": {
+        "fr": "អំឡុងពេល, « pendant, au cours de » : អំឡុងពេលវិស្សមកាល, « pendant les vacances ». Pour une durée chiffrée, on emploie អស់ : រង់ចាំអស់ពីរម៉ោង, « attendre pendant deux heures ».",
+        "en": "អំឡុងពេល, “during”: អំឡុងពេលវិស្សមកាល, “during the holidays”. For a counted length of time, use អស់: រង់ចាំអស់ពីរម៉ោង, “to wait for two hours”. French « pendant » covers both “during” and “for”.",
+        "km": "« pendant » មានន័យថា អំឡុងពេល ឬ អស់រយៈពេល៖ pendant les vacances, pendant deux heures។ អង់គ្លេស៖ « during » + នាម, « for » + រយៈពេល។"
+      },
+      "example": {"fr": "Pendant les vacances, les enfants vont chez leurs grands-parents.", "en": "During the holidays, the children go to their grandparents'.", "km": "អំឡុងពេលវិស្សមកាល ក្មេងៗទៅផ្ទះតាយាយ។", "tr": "âm-long pél vih-sâ-mâ-kal, kméng-kméng teuv phtéah ta yéay.",
+      "es": "Durante las vacaciones, los niños van a casa de sus abuelos.", "it": "Durante le vacanze, i bambini vanno dai nonni.", "ru": "Во время каникул дети ездят к бабушке и дедушке.", "zh": "假期期间，孩子们去爷爷奶奶家。", "zh_tr": "Jiàqī qījiān, háizimen qù yéye nǎinai jiā."}
+    },
+    {
+      "fr": "longtemps", "en": "a long time", "km": "យូរ", "tr": "you",
+      "es": "mucho tiempo", "it": "a lungo", "ru": "долго", "zh": "很久", "zh_tr": "hěn jiǔ", "pos": "adverbe",
+      "note": {
+        "fr": "យូរ, « longtemps, long (en durée) ». យូរប៉ុណ្ណា?, « combien de temps ? » ; មិនយូរទេ, « pas longtemps ».",
+        "en": "យូរ, “a long time, long”. យូរប៉ុណ្ណា?, “how long?”; មិនយូរទេ, “not long”. French « longtemps » is one word: j'attends depuis longtemps.",
+        "km": "« longtemps » មានន័យថា យូរ៖ J'attends depuis longtemps។ អង់គ្លេស៖ « a long time », « long »; « How long? »។"
+      },
+      "example": {"fr": "Nous avons attendu longtemps à la banque.", "en": "We waited a long time at the bank.", "km": "យើងរង់ចាំយូរនៅធនាគារ។", "tr": "yeung rong-tcham you neuv thô-néa-kéa.",
+      "es": "Esperamos mucho tiempo en el banco.", "it": "Abbiamo aspettato a lungo in banca.", "ru": "Мы долго ждали в банке.", "zh": "我们在银行等了很久。", "zh_tr": "Wǒmen zài yínháng děng le hěn jiǔ."}
+    },
+    {
+      "fr": "jusqu'à", "en": "until", "km": "រហូតដល់", "tr": "ro-hôt dâl",
+      "es": "hasta", "it": "fino a", "ru": "до", "zh": "到", "zh_tr": "dào", "pos": "preposition",
+      "note": {
+        "fr": "រហូត, « sans interruption », et ដល់, « arriver à » : jusqu'à. ពីម៉ោងប្រាំបីរហូតដល់ម៉ោងប្រាំ, « de huit heures à cinq heures ».",
+        "en": "រហូត, “all the way”, and ដល់, “to reach”: until. ពីម៉ោងប្រាំបីរហូតដល់ម៉ោងប្រាំ, “from eight until five”. French « jusqu'à »: à + le becomes « au », jusqu'au soir.",
+        "km": "« jusqu'à » មានន័យថា រហូតដល់; à + le ក្លាយជា « au »៖ jusqu'au soir។ អង់គ្លេស៖ « until », « till »។"
+      },
+      "example": {"fr": "Le marché est ouvert jusqu'à midi.", "en": "The market is open until noon.", "km": "ផ្សារបើករហូតដល់ថ្ងៃត្រង់។", "tr": "phsa baeuk ro-hôt dâl thngay trâng.",
+      "es": "El mercado está abierto hasta el mediodía.", "it": "Il mercato è aperto fino a mezzogiorno.", "ru": "Рынок открыт до полудня.", "zh": "市场一直开到中午。", "zh_tr": "Shìchǎng yìzhí kāi dào zhōngwǔ."}
+    },
+    {
+      "fr": "tout de suite", "en": "right away", "km": "ភ្លាម", "tr": "phléam",
+      "es": "enseguida", "it": "subito", "ru": "сразу", "zh": "马上", "zh_tr": "mǎshàng", "pos": "adverbe",
+      "note": {
+        "fr": "ភ្លាម, « aussitôt, tout de suite », se place après le verbe : មកភ្លាម, « j'arrive tout de suite ». Redoublé, ភ្លាមៗ, il insiste.",
+        "en": "ភ្លាម, “at once, right away”, follows the verb: មកភ្លាម, “coming right away”. Doubled, ភ្លាមៗ, it insists. French « tout de suite » is said in one breath: “toot-sweet”.",
+        "km": "« tout de suite » មានន័យថា ភ្លាម៖ J'arrive tout de suite។ អង់គ្លេស៖ « right away », « immediately »។"
+      },
+      "example": {"fr": "Le médecin arrive tout de suite.", "en": "The doctor is coming right away.", "km": "គ្រូពេទ្យមកភ្លាម។", "tr": "krou-pét mok phléam.",
+      "es": "El médico viene enseguida.", "it": "Il medico arriva subito.", "ru": "Врач сразу же придёт.", "zh": "医生马上就来。", "zh_tr": "Yīshēng mǎshàng jiù lái."}
+    },
+    {
+      "fr": "un moment", "en": "a moment", "km": "មួយភ្លែត", "tr": "mouy phlèt",
+      "es": "un momento", "it": "un attimo", "ru": "минутка", "zh": "一会儿", "zh_tr": "yíhuìr", "pos": "nom",
+      "note": {
+        "fr": "ភ្លែត, « clin d'œil, instant ». ចាំមួយភ្លែត, « attends un instant ». Plus long, on dit មួយសន្ទុះ, « un bon moment ».",
+        "en": "ភ្លែត, “blink, instant”. ចាំមួយភ្លែត, “wait a moment”. For something longer, say មួយសន្ទុះ, “a while”. French « un moment » or « un instant ».",
+        "km": "« un moment » ឬ « un instant » មានន័យថា មួយភ្លែត៖ Attends un moment។ អង់គ្លេស៖ « a moment », « a minute »។"
+      },
+      "example": {"fr": "Je me repose un moment, puis je repars.", "en": "I'll rest for a moment, then I'll set off again.", "km": "ខ្ញុំសម្រាកមួយភ្លែត រួចទៅទៀត។", "tr": "khgnom sâm-rak mouy phlèt, rouotch teuv tiet.",
+      "es": "Descanso un momento y luego sigo.", "it": "Mi riposo un attimo, poi riparto.", "ru": "Я отдохну минутку и пойду дальше.", "zh": "我休息一会儿，然后再走。", "zh_tr": "Wǒ xiūxi yíhuìr, ránhòu zài zǒu."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Ça fait longtemps !", "en": "Long time no see!", "km": "ខានជួបគ្នាយូរហើយ!", "tr": "khan tchouop knéa you haeuy !",
+      "es": "¡Cuánto tiempo!", "it": "Quanto tempo!", "ru": "Давно не виделись!", "zh": "好久不见！", "zh_tr": "Hǎojiǔ bú jiàn!",
+      "note": {
+        "fr": "ខាន, « ne pas avoir fait » ; ជួបគ្នា, « se rencontrer » : « on ne s'est pas vus depuis longtemps ».",
+        "en": "ខាន, “not to have done”; ជួបគ្នា, “to meet”: “we haven't met for a long time”. French « Ça fait longtemps ! ».",
+        "km": "« Ça fait longtemps ! » ប្រើពេលជួបមិត្តដែលខានជួបយូរ។ អង់គ្លេស៖ « Long time no see! »។"
+      }
+    },
+    {
+      "fr": "Ça prend combien de temps ?", "en": "How long does it take?", "km": "អស់ពេលប៉ុន្មាន?", "tr": "âh pél pon-man ?",
+      "es": "¿Cuánto tiempo se tarda?", "it": "Quanto tempo ci vuole?", "ru": "Сколько времени это займёт?", "zh": "要多长时间？", "zh_tr": "Yào duō cháng shíjiān?",
+      "note": {
+        "fr": "អស់, « dépenser, épuiser » ; ពេល, « temps » ; ប៉ុន្មាន, « combien ». Réponse : អស់ពីរម៉ោង, « ça prend deux heures ».",
+        "en": "អស់, “to use up”; ពេល, “time”; ប៉ុន្មាន, “how much”. Answer: អស់ពីរម៉ោង, “it takes two hours”. French « Ça prend combien de temps ? ».",
+        "km": "« Ça prend combien de temps ? » ប្រើសួររយៈពេល។ ចម្លើយ៖ Ça prend deux heures។ អង់គ្លេស៖ « How long does it take? »។"
+      }
+    },
+    {
+      "fr": "Pas encore.", "en": "Not yet.", "km": "មិនទាន់ទេ។", "tr": "min toan té.",
+      "es": "Todavía no.", "it": "Non ancora.", "ru": "Ещё нет.", "zh": "还没有。", "zh_tr": "Hái méiyǒu.",
+      "note": {
+        "fr": "មិនទាន់, « pas encore », se place devant le verbe : មិនទាន់ញ៉ាំទេ, « je n'ai pas encore mangé ». Seul, on dit មិនទាន់ទេ ou នៅទេ.",
+        "en": "មិនទាន់, “not yet”, goes before the verb: មិនទាន់ញ៉ាំទេ, “I haven't eaten yet”. On its own: មិនទាន់ទេ or នៅទេ. French « pas encore ».",
+        "km": "« Pas encore » មានន័យថា មិនទាន់ទេ ឬ នៅទេ។ អង់គ្លេស៖ « Not yet »។"
+      }
+    },
+    {
+      "fr": "Toute la journée.", "en": "All day long.", "km": "ពេញមួយថ្ងៃ។", "tr": "pégn mouy thngay.",
+      "es": "Todo el día.", "it": "Tutto il giorno.", "ru": "Весь день.", "zh": "一整天。", "zh_tr": "Yì zhěng tiān.",
+      "note": {
+        "fr": "ពេញ, « plein, entier » : ពេញមួយថ្ងៃ, « toute la journée » ; ពេញមួយយប់, « toute la nuit » ; ពេញមួយឆ្នាំ, « toute l'année ».",
+        "en": "ពេញ, “full, whole”: ពេញមួយថ្ងៃ, “all day”; ពេញមួយយប់, “all night”; ពេញមួយឆ្នាំ, “all year”. French « toute la journée ».",
+        "km": "« toute la journée » មានន័យថា ពេញមួយថ្ងៃ; « toute la nuit » មានន័យថា ពេញមួយយប់។ អង់គ្លេស៖ « all day », « all day long »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Faire connaissance", "en": "Getting to know someone", "km": "ស្គាល់គ្នា"},
+      "fr": "J'habite au Cambodge depuis trois ans.", "en": "I have lived in Cambodia for three years.",
+      "km": "ខ្ញុំរស់នៅកម្ពុជាបីឆ្នាំហើយ។", "tr": "khgnom rouh neuv kâm-pou-tchéa bey tchhnam haeuy.",
+      "es": "Vivo en Camboya desde hace tres años.", "it": "Vivo in Cambogia da tre anni.", "ru": "Я живу в Камбодже уже три года.", "zh": "我在柬埔寨住了三年了。", "zh_tr": "Wǒ zài Jiǎnpǔzhài zhù le sān nián le."
+    },
+    {
+      "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
+      "fr": "Je travaille de huit heures jusqu'à cinq heures.", "en": "I work from eight o'clock until five.",
+      "km": "ខ្ញុំធ្វើការពីម៉ោងប្រាំបីរហូតដល់ម៉ោងប្រាំ។", "tr": "khgnom thveu-ka pi maong pram-bey ro-hôt dâl maong pram.",
+      "es": "Trabajo desde las ocho hasta las cinco.", "it": "Lavoro dalle otto fino alle cinque.", "ru": "Я работаю с восьми до пяти часов.", "zh": "我从八点工作到五点。", "zh_tr": "Wǒ cóng bā diǎn gōngzuò dào wǔ diǎn."
+    },
+    {
+      "situation": {"fr": "Chez le réparateur", "en": "At the repair shop", "km": "នៅកន្លែងជួសជុល"},
+      "fr": "Attendez un moment, je répare ça tout de suite.", "en": "Wait a moment, I'll fix it right away.",
+      "km": "ចាំមួយភ្លែត ខ្ញុំជួសជុលភ្លាម។", "tr": "tcham mouy phlèt, khgnom tchouoh-tchoul phléam.",
+      "es": "Espere un momento, lo arreglo enseguida.", "it": "Aspetti un attimo, lo riparo subito.", "ru": "Подождите минутку, я сразу починю.", "zh": "请等一会儿，我马上修好。", "zh_tr": "Qǐng děng yíhuìr, wǒ mǎshàng xiū hǎo."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} parlent de leurs cours de langue.", "en": "{A} and {B} talk about their language lessons.", "km": "{A} និង {B} និយាយអំពីការរៀនភាសា។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, tu apprends le khmer depuis combien de temps ?", "en": "{B}, how long have you been learning Khmer?", "km": "{B} រៀនភាសាខ្មែរយូរប៉ុណ្ណាហើយ?", "tr": "{B} rien phéa-sa khmaè you pon-na haeuy ?",
+        "es": "{B}, ¿cuánto tiempo llevas aprendiendo jemer?", "it": "{B}, da quanto tempo studi il khmer?", "ru": "{B}, как долго ты учишь кхмерский?", "zh": "{B}，你学高棉语多久了？", "zh_tr": "{B}, nǐ xué Gāomiányǔ duō jiǔ le?"},
+      {"speaker": "B", "fr": "Depuis deux ans. Mais pendant la première année, je ne parlais pas beaucoup.", "en": "For two years. But during the first year, I didn't speak much.", "km": "ពីរឆ្នាំហើយ។ ប៉ុន្តែអំឡុងពេលឆ្នាំដំបូង ខ្ញុំមិនសូវនិយាយទេ។", "tr": "pi tchhnam haeuy. pon-taè âm-long pél tchhnam dâm-bông, khgnom min seuv ni-yéay té.",
+        "es": "Desde hace dos años. Pero durante el primer año no hablaba mucho.", "it": "Da due anni. Ma durante il primo anno non parlavo molto.", "ru": "Уже два года. Но во время первого года я мало говорил.", "zh": "两年了。但是第一年期间，我说得不多。", "zh_tr": "Liǎng nián le. Dànshì dì-yī nián qījiān, wǒ shuō de bù duō."},
+      {"speaker": "A", "fr": "Et maintenant, tu étudies tous les jours ?", "en": "And now, do you study every day?", "km": "ចុះឥឡូវ រៀនរាល់ថ្ងៃទេ?", "tr": "tchoh ey-leuv, rien roal thngay té ?",
+        "es": "¿Y ahora estudias todos los días?", "it": "E adesso studi tutti i giorni?", "ru": "А сейчас ты занимаешься каждый день?", "zh": "那现在你每天都学吗？", "zh_tr": "Nà xiànzài nǐ měi tiān dōu xué ma?"},
+      {"speaker": "B", "fr": "Oui, un moment chaque matin, jusqu'à huit heures.", "en": "Yes, for a little while every morning, until eight o'clock.", "km": "{B_yes} រៀនមួយភ្លែតរាល់ព្រឹក រហូតដល់ម៉ោងប្រាំបី។", "tr": "{B_yes}, rien mouy phlèt roal preuk, ro-hôt dâl maong pram-bey.",
+        "es": "Sí, un momento cada mañana, hasta las ocho.", "it": "Sì, un attimo ogni mattina, fino alle otto.", "ru": "Да, немного каждое утро, до восьми часов.", "zh": "对，每天早上学一会儿，学到八点。", "zh_tr": "Duì, měi tiān zǎoshang xué yíhuìr, xué dào bā diǎn."},
+      {"speaker": "A", "fr": "Bravo ! Moi, j'apprends le français depuis longtemps, mais j'oublie vite.", "en": "Well done! I've been learning French for a long time, but I forget quickly.", "km": "ពូកែមែន! ចំណែកខ្ញុំ រៀនភាសាបារាំងយូរហើយ ប៉ុន្តែឆាប់ភ្លេចណាស់។", "tr": "pou-kè mèn ! tchâm-naèk khgnom, rien phéa-sa ba-rang you haeuy, pon-taè tchhap phlétch nah.",
+        "es": "¡Muy bien! Yo estudio francés desde hace mucho tiempo, pero se me olvida rápido.", "it": "Bravo! Io studio il francese da tanto tempo, ma dimentico in fretta.", "ru": "Молодец! А я учу французский уже долго, но быстро забываю.", "zh": "真棒！我学法语学了很久，可是忘得很快。", "zh_tr": "Zhēn bàng! Wǒ xué Fǎyǔ xué le hěn jiǔ, kěshì wàng de hěn kuài."},
+      {"speaker": "B", "fr": "Alors parlons français tout de suite !", "en": "Then let's speak French right away!", "km": "អញ្ចឹង យើងនិយាយភាសាបារាំងភ្លាមទៅ!", "tr": "agn-tcheung, yeung ni-yéay phéa-sa ba-rang phléam teuv !",
+        "es": "¡Pues hablemos francés enseguida!", "it": "Allora parliamo francese subito!", "ru": "Тогда давай сразу говорить по-французски!", "zh": "那我们马上说法语吧！", "zh_tr": "Nà wǒmen mǎshàng shuō Fǎyǔ ba!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "{B} apprend le khmer depuis combien de temps ?", "en": "How long has {B} been learning Khmer?", "km": "{B} រៀនភាសាខ្មែរយូរប៉ុណ្ណាហើយ?"},
+    "answer": {"fr": "Depuis deux ans.", "en": "For two years.", "km": "ពីរឆ្នាំហើយ។"}
+  }
+}

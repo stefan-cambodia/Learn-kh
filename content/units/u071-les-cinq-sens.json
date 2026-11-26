@@ -1,0 +1,159 @@
+{
+  "id": "u071",
+  "order": 71,
+  "level": "intermediaire",
+  "theme": "les-cinq-sens",
+  "title": {"fr": "Les cinq sens", "en": "The five senses", "km": "វិញ្ញាណទាំងប្រាំ"},
+  "tip": {
+    "fr": "Le khmer sépare l'action de son résultat : មើល, « regarder », et ឃើញ, « voir » ; ស្តាប់, « écouter », et ឮ, « entendre ». On les enchaîne : មើលឃើញ, ស្តាប់ឮ. La négation se place au milieu : មើលមិនឃើញ, « je regarde mais je ne vois pas ».",
+    "en": "Khmer separates the action from its result: មើល, “to look”, and ឃើញ, “to see”; ស្តាប់, “to listen”, and ឮ, “to hear”. They chain together: មើលឃើញ, ស្តាប់ឮ. The negative goes in the middle: មើលមិនឃើញ, “I look but can't see”. French has the same pairs: regarder / voir, écouter / entendre.",
+    "km": "ភាសាបារាំងមានពាក្យជាគូដូចខ្មែរ៖ regarder (មើល) និង voir (ឃើញ) ; écouter (ស្តាប់) និង entendre (ឮ)។ អង់គ្លេស៖ to look និង to see ; to listen និង to hear។"
+  },
+  "vocabulary": [
+    {
+      "fr": "voir", "en": "to see", "km": "ឃើញ", "tr": "kheugn",
+      "es": "ver", "it": "vedere", "ru": "видеть", "zh": "看见", "zh_tr": "kànjiàn", "pos": "verbe",
+      "note": {
+        "fr": "ឃើញ désigne le résultat : on perçoit. Il suit souvent មើល : មើលឃើញ, « regarder et voir », donc « apercevoir ».",
+        "en": "ឃើញ is the result: you perceive. It often follows មើល: មើលឃើញ, “to look and see”. French « voir » is irregular: je vois, nous voyons.",
+        "km": "« voir » មានន័យថា ឃើញ៖ je vois, nous voyons។ អង់គ្លេស៖ « to see »; គេច្រើននិយាយ « I can see » ជាង « I see »។"
+      },
+      "example": {"fr": "Je vois la montagne d'ici.", "en": "I can see the mountain from here.", "km": "ខ្ញុំឃើញភ្នំពីទីនេះ។", "tr": "khgnom kheugn phnom pi ti-nih.",
+      "es": "Veo la montaña desde aquí.", "it": "Vedo la montagna da qui.", "ru": "Отсюда я вижу гору.", "zh": "我从这里能看见山。", "zh_tr": "Wǒ cóng zhèlǐ néng kànjiàn shān."}
+    },
+    {
+      "fr": "regarder", "en": "to look at", "km": "មើល", "tr": "meul",
+      "es": "mirar", "it": "guardare", "ru": "смотреть", "zh": "看", "zh_tr": "kàn", "pos": "verbe",
+      "note": {
+        "fr": "មើល, « regarder », sert aussi pour un film ou un livre : មើលកុន, « voir un film » ; មើលសៀវភៅ, « lire un livre ».",
+        "en": "មើល, “to look at, to watch”, also covers films and books: មើលកុន, “to watch a film”; មើលសៀវភៅ, “to read a book”. French « regarder » takes no preposition: regarder un film.",
+        "km": "« regarder » មានន័យថា មើល៖ regarder un film។ អង់គ្លេស៖ « to look at » សម្រាប់របស់នៅស្ងៀម ហើយ « to watch » សម្រាប់អ្វីដែលកម្រើក។"
+      },
+      "example": {"fr": "Les enfants regardent les bateaux sur le fleuve.", "en": "The children are watching the boats on the river.", "km": "ក្មេងៗមើលទូកនៅលើទន្លេ។", "tr": "kméng-kméng meul touk neuv leu tonlé.",
+      "es": "Los niños miran los barcos en el río.", "it": "I bambini guardano le barche sul fiume.", "ru": "Дети смотрят на лодки на реке.", "zh": "孩子们在看河上的船。", "zh_tr": "Háizimen zài kàn hé shàng de chuán."}
+    },
+    {
+      "fr": "entendre", "en": "to hear", "km": "ឮ", "tr": "leu",
+      "es": "oír", "it": "sentire", "ru": "слышать", "zh": "听见", "zh_tr": "tīngjiàn", "pos": "verbe",
+      "note": {
+        "fr": "ឮ désigne le résultat : le son arrive à l'oreille. ស្តាប់ឮ, « écouter et entendre » ; ស្តាប់មិនឮ, « ne pas réussir à entendre ».",
+        "en": "ឮ is the result: the sound reaches you. ស្តាប់ឮ, “to listen and hear”; ស្តាប់មិនឮ, “can't hear”. French « entendre »: j'entends, with a silent d.",
+        "km": "« entendre » មានន័យថា ឮ៖ j'entends (មិនអាន d ទេ)។ អង់គ្លេស៖ « to hear »; « I can hear you » មានន័យថា ខ្ញុំឮអ្នក។"
+      },
+      "example": {"fr": "J'entends la pluie sur le toit.", "en": "I can hear the rain on the roof.", "km": "ខ្ញុំឮសំឡេងភ្លៀងលើដំបូល។", "tr": "khgnom leu sâm-léng phlieng leu dâm-boul.",
+      "es": "Oigo la lluvia en el tejado.", "it": "Sento la pioggia sul tetto.", "ru": "Я слышу шум дождя на крыше.", "zh": "我听见屋顶上的雨声。", "zh_tr": "Wǒ tīngjiàn wūdǐng shàng de yǔshēng."}
+    },
+    {
+      "fr": "écouter", "en": "to listen", "km": "ស្តាប់", "tr": "sdap",
+      "es": "escuchar", "it": "ascoltare", "ru": "слушать", "zh": "听", "zh_tr": "tīng", "pos": "verbe",
+      "note": {
+        "fr": "ស្តាប់ est l'action volontaire. ស្តាប់បាន signifie aussi « comprendre à l'oreille » : ស្តាប់ខ្មែរបាន, « comprendre le khmer parlé ».",
+        "en": "ស្តាប់ is the deliberate action. ស្តាប់បាន also means “to understand by ear”: ស្តាប់ខ្មែរបាន, “to understand spoken Khmer”. French « écouter » takes no preposition: écouter la radio.",
+        "km": "« écouter » មានន័យថា ស្តាប់ ហើយមិនត្រូវការធ្នាក់ទេ៖ écouter la radio។ អង់គ្លេស៖ « to listen to » ត្រូវមាន « to » ជានិច្ច។"
+      },
+      "example": {"fr": "Elle écoute la radio en cuisinant.", "en": "She listens to the radio while cooking.", "km": "គាត់ស្តាប់វិទ្យុពេលធ្វើម្ហូប។", "tr": "koat sdap vit-you pél thveu mhôp.",
+      "es": "Escucha la radio mientras cocina.", "it": "Ascolta la radio mentre cucina.", "ru": "Она слушает радио, когда готовит.", "zh": "她一边做饭一边听收音机。", "zh_tr": "Tā yìbiān zuòfàn yìbiān tīng shōuyīnjī."}
+    },
+    {
+      "fr": "sentir", "en": "to smell", "km": "ធុំក្លិន", "tr": "thoum klen",
+      "es": "oler", "it": "sentire un odore", "ru": "чувствовать запах", "zh": "闻", "zh_tr": "wén", "pos": "verbe",
+      "note": {
+        "fr": "ធុំ, « percevoir une odeur », et ក្លិន, « odeur ». Pour renifler exprès, on dit ហិត. ក្លិនក្រអូប, « bonne odeur » ; ក្លិនស្អុយ, « mauvaise odeur ».",
+        "en": "ធុំ, “to notice a smell”, and ក្លិន, “smell”. To sniff on purpose, say ហិត. French « sentir » means both “to smell something” and “to smell of”: ça sent bon.",
+        "km": "« sentir » មានន័យពីរ៖ ធុំក្លិន (je sens le café) និង មានក្លិន (ça sent bon)។ អង់គ្លេស « to smell » ក៏ដូចគ្នា។"
+      },
+      "example": {"fr": "Je sens une odeur de café.", "en": "I can smell coffee.", "km": "ខ្ញុំធុំក្លិនកាហ្វេ។", "tr": "khgnom thoum klen ka-fé.",
+      "es": "Noto un olor a café.", "it": "Sento odore di caffè.", "ru": "Я чувствую запах кофе.", "zh": "我闻到咖啡的香味了。", "zh_tr": "Wǒ wéndào kāfēi de xiāngwèi le."}
+    },
+    {
+      "fr": "toucher", "en": "to touch", "km": "ប៉ះ", "tr": "pah",
+      "es": "tocar", "it": "toccare", "ru": "трогать", "zh": "摸", "zh_tr": "mō", "pos": "verbe",
+      "note": {
+        "fr": "ប៉ះ, « toucher ». Au Cambodge, on ne touche pas la tête de quelqu'un : c'est la partie la plus respectée du corps.",
+        "en": "ប៉ះ, “to touch”. In Cambodia you do not touch someone's head: it is the most respected part of the body. French « toucher » takes no preposition: toucher le mur.",
+        "km": "« toucher » មានន័យថា ប៉ះ៖ Ne touche pas ! (កុំប៉ះ!)។ អង់គ្លេស៖ « to touch »; « Don't touch! »។"
+      },
+      "example": {"fr": "Ne touche pas le verre, il est chaud.", "en": "Don't touch the glass, it's hot.", "km": "កុំប៉ះកែវ វាក្តៅ។", "tr": "kom pah kaèv, véa kdav.",
+      "es": "No toques el vaso, está caliente.", "it": "Non toccare il bicchiere, è caldo.", "ru": "Не трогай стакан, он горячий.", "zh": "别摸杯子，很烫。", "zh_tr": "Bié mō bēizi, hěn tàng."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Regarde là-bas !", "en": "Look over there!", "km": "មើលនោះ!", "tr": "meul nouh !",
+      "es": "¡Mira allí!", "it": "Guarda là!", "ru": "Посмотри туда!", "zh": "你看那边！", "zh_tr": "Nǐ kàn nàbiān!",
+      "note": {
+        "fr": "មើល seul sert d'impératif ; នោះ, « là, cela ». Pour une chose toute proche, on dit មើលនេះ, « regarde ça ».",
+        "en": "មើល alone works as an imperative; នោះ, “there, that”. For something close, say មើលនេះ, “look at this”. French « là-bas » means “over there”.",
+        "km": "« Regarde ! » ប្រើជាមួយមនុស្សស្និទ្ធស្នាល ហើយ « Regardez ! » សម្រាប់និយាយគួរសម។ អង់គ្លេស៖ « Look! », « Look over there! »។"
+      }
+    },
+    {
+      "fr": "Je ne vois rien.", "en": "I can't see anything.", "km": "ខ្ញុំមើលមិនឃើញអ្វីសោះ។", "tr": "khgnom meul min kheugn ey sâh.",
+      "es": "No veo nada.", "it": "Non vedo niente.", "ru": "Я ничего не вижу.", "zh": "我什么都看不见。", "zh_tr": "Wǒ shénme dōu kàn bu jiàn.",
+      "note": {
+        "fr": "មើលមិនឃើញ : la négation មិន se glisse entre l'action et le résultat. សោះ, « du tout », renforce. Le chinois fait pareil : 看不见.",
+        "en": "មើលមិនឃើញ: the negative មិន goes between the action and the result. សោះ, “at all”, adds emphasis. Chinese does the same: 看不见. French « ne… rien » means “nothing”.",
+        "km": "« ne… rien » មានន័យថា គ្មានអ្វីសោះ៖ Je ne vois rien។ អង់គ្លេស៖ « I can't see anything »។"
+      }
+    },
+    {
+      "fr": "Tu entends ce bruit ?", "en": "Can you hear that noise?", "km": "ឮសំឡេងនោះទេ?", "tr": "leu sâm-léng nouh té ?",
+      "es": "¿Oyes ese ruido?", "it": "Senti quel rumore?", "ru": "Ты слышишь этот шум?", "zh": "你听见那个声音了吗？", "zh_tr": "Nǐ tīngjiàn nàge shēngyīn le ma?",
+      "note": {
+        "fr": "សំឡេង, « son, bruit, voix ». Le sujet « tu » est souvent omis en khmer quand il est évident.",
+        "en": "សំឡេង, “sound, noise, voice”. Khmer often drops “you” when it is obvious. French « le bruit » means “noise”.",
+        "km": "« le bruit » មានន័យថា សំឡេង ឬ សូរ។ អង់គ្លេស៖ « noise » សម្រាប់សំឡេងរំខាន ហើយ « sound » សម្រាប់សំឡេងទូទៅ។"
+      }
+    },
+    {
+      "fr": "Ça sent mauvais !", "en": "It smells bad!", "km": "ក្លិនស្អុយណាស់!", "tr": "klen s'oy nah !",
+      "es": "¡Huele mal!", "it": "Che puzza!", "ru": "Плохо пахнет!", "zh": "真难闻！", "zh_tr": "Zhēn nánwén!",
+      "note": {
+        "fr": "ស្អុយ, « puant ». Le contraire est ក្រអូប, « parfumé ». Le durian, lui, divise : ក្រអូប pour les uns, ស្អុយ pour les autres !",
+        "en": "ស្អុយ, “stinking”. The opposite is ក្រអូប, “fragrant”. Durian splits opinion: ក្រអូប for some, ស្អុយ for others! French « ça sent mauvais ».",
+        "km": "« Ça sent mauvais » មានន័យថា ក្លិនស្អុយ ហើយ « Ça sent bon » មានន័យថា ក្លិនក្រអូប។ អង់គ្លេស៖ « It smells bad », « It stinks »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Sur la route, la nuit", "en": "On the road at night", "km": "នៅលើផ្លូវពេលយប់"},
+      "fr": "Il fait trop sombre, je ne vois pas la route.", "en": "It's too dark, I can't see the road.",
+      "km": "ងងឹតពេក ខ្ញុំមើលផ្លូវមិនឃើញទេ។", "tr": "ngo-ngeut pék, khgnom meul phleuv min kheugn té.",
+      "es": "Está demasiado oscuro, no veo la carretera.", "it": "È troppo buio, non vedo la strada.", "ru": "Слишком темно, я не вижу дороги.", "zh": "太黑了，我看不见路。", "zh_tr": "Tài hēi le, wǒ kàn bu jiàn lù."
+    },
+    {
+      "situation": {"fr": "À la campagne", "en": "In the countryside", "km": "នៅជនបទ"},
+      "fr": "La nuit, on entend les grenouilles dans la rizière.", "en": "At night, you can hear the frogs in the rice field.",
+      "km": "ពេលយប់ គេឮសំឡេងកង្កែបនៅក្នុងស្រែ។", "tr": "pél youp, ké leu sâm-léng kâng-kaèp neuv knong srè.",
+      "es": "Por la noche se oyen las ranas en el arrozal.", "it": "Di notte si sentono le rane nella risaia.", "ru": "Ночью на рисовом поле слышно лягушек.", "zh": "晚上能听见稻田里的蛙声。", "zh_tr": "Wǎnshang néng tīngjiàn dàotián lǐ de wāshēng."
+    },
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Au marché, on peut toucher et sentir les fruits avant d'acheter.", "en": "At the market, you can touch and smell the fruit before you buy.",
+      "km": "នៅផ្សារ យើងអាចប៉ះ និងហិតក្លិនផ្លែឈើមុនពេលទិញ។", "tr": "neuv phsa, yeung atch pah ning heut klen phlaè-tchheu moun pél tign.",
+      "es": "En el mercado se puede tocar y oler la fruta antes de comprar.", "it": "Al mercato si può toccare e annusare la frutta prima di comprare.", "ru": "На рынке фрукты можно потрогать и понюхать перед покупкой.", "zh": "在市场上，买水果以前可以摸一摸、闻一闻。", "zh_tr": "Zài shìchǎng shàng, mǎi shuǐguǒ yǐqián kěyǐ mō yi mō, wén yi wén."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "Le soir, à la maison. {B} entend un drôle de bruit.", "en": "In the evening, at home. {B} hears a strange noise.", "km": "ពេលល្ងាច នៅផ្ទះ។ {B} ឮសំឡេងចម្លែក។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, tu entends ce bruit ?", "en": "{A}, can you hear that noise?", "km": "{A} ឮសំឡេងនោះទេ?", "tr": "{A}, leu sâm-léng nouh té ?",
+        "es": "{A}, ¿oyes ese ruido?", "it": "{A}, senti quel rumore?", "ru": "{A}, ты слышишь этот шум?", "zh": "{A}，你听见那个声音了吗？", "zh_tr": "{A}, nǐ tīngjiàn nàge shēngyīn le ma?"},
+      {"speaker": "A", "fr": "Oui, j'entends. C'est un gecko tokay.", "en": "Yes, I can. It's a tokay gecko.", "km": "{A_yes} ឮ។ នោះជាតុកកែ។", "tr": "{A_yes}, leu. nouh tchéa tok-kaè.",
+        "es": "Sí, lo oigo. Es un geco tokay.", "it": "Sì, lo sento. È un geco tokay.", "ru": "Да, слышу. Это геккон токи.", "zh": "听见了。那是大壁虎。", "zh_tr": "Tīngjiàn le. Nà shì dàbìhǔ."},
+      {"speaker": "B", "fr": "Où est-il ? Je ne le vois pas.", "en": "Where is it? I can't see it.", "km": "វានៅឯណា? ខ្ញុំមើលមិនឃើញទេ។", "tr": "véa neuv aè na ? khgnom meul min kheugn té.",
+        "es": "¿Dónde está? No lo veo.", "it": "Dov'è? Non lo vedo.", "ru": "Где он? Я его не вижу.", "zh": "它在哪儿？我看不见。", "zh_tr": "Tā zài nǎr? Wǒ kàn bu jiàn."},
+      {"speaker": "A", "fr": "Regarde là-haut, sur le mur, près de la lampe.", "en": "Look up there, on the wall, near the lamp.", "km": "មើលនៅខាងលើ លើជញ្ជាំង ជិតអំពូលភ្លើង។", "tr": "meul neuv khang leu, leu tchum-tcheang, tchit âm-poul phleung.",
+        "es": "Mira ahí arriba, en la pared, cerca de la lámpara.", "it": "Guarda lassù, sul muro, vicino alla lampada.", "ru": "Посмотри наверх, на стену, возле лампы.", "zh": "你看上面，在墙上，灯旁边。", "zh_tr": "Nǐ kàn shàngmiàn, zài qiáng shàng, dēng pángbiān."},
+      {"speaker": "B", "fr": "Ah, je le vois ! Il est grand. Je peux le toucher ?", "en": "Oh, I can see it! It's big. Can I touch it?", "km": "អូ ឃើញហើយ! វាធំណាស់។ ខ្ញុំប៉ះវាបានទេ?", "tr": "ô, kheugn haeuy ! véa thom nah. khgnom pah véa ban té ?",
+        "es": "¡Ah, ya lo veo! Es grande. ¿Puedo tocarlo?", "it": "Ah, lo vedo! È grande. Posso toccarlo?", "ru": "А, вижу! Он большой. Можно его потрогать?", "zh": "啊，看见了！它真大。我可以摸它吗？", "zh_tr": "À, kànjiàn le! Tā zhēn dà. Wǒ kěyǐ mō tā ma?"},
+      {"speaker": "A", "fr": "Non, il mord ! Écoute-le seulement.", "en": "No, it bites! Just listen to it.", "km": "កុំ វាខាំ! ស្តាប់វាបានហើយ។", "tr": "kom, véa kham ! sdap véa ban haeuy.",
+        "es": "¡No, que muerde! Solo escúchalo.", "it": "No, morde! Ascoltalo e basta.", "ru": "Нет, он кусается! Просто послушай его.", "zh": "不行，它会咬人！听听就好了。", "zh_tr": "Bù xíng, tā huì yǎo rén! Tīngting jiù hǎo le."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où est le gecko ?", "en": "Where is the gecko?", "km": "តុកកែនៅឯណា?"},
+    "answer": {"fr": "Sur le mur, près de la lampe.", "en": "On the wall, near the lamp.", "km": "នៅលើជញ្ជាំង ជិតអំពូលភ្លើង។"}
+  }
+}

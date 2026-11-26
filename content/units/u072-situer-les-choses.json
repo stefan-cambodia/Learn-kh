@@ -1,0 +1,159 @@
+{
+  "id": "u072",
+  "order": 72,
+  "level": "intermediaire",
+  "theme": "situer-les-choses",
+  "title": {"fr": "Situer les choses", "en": "Saying where things are", "km": "ប្រាប់ទីតាំង"},
+  "tip": {
+    "fr": "En khmer, on situe avec នៅ, « se trouver », suivi du mot de lieu puis du repère : នៅលើតុ, « sur la table ». Pas de verbe « être » ni d'article. Avec ខាង, « côté », le mot de lieu devient un nom : ខាងលើ, « le dessus, en haut ».",
+    "en": "Khmer places things with នៅ, “to be located”, then the place word, then the landmark: នៅលើតុ, “on the table”. No “to be”, no article. With ខាង, “side”, the place word becomes a noun: ខាងលើ, “the top, upstairs”. In French, « de » follows the longer ones: à côté de, en face de, près de.",
+    "km": "ភាសាបារាំង៖ sur, sous, dans, devant, derrière ដាក់ផ្ទាល់ពីមុខនាម (sur la table) ប៉ុន្តែ « à côté de », « près de », « en face de » ត្រូវមាន « de »។ អង់គ្លេស៖ on, under, in, in front of, behind, next to។"
+  },
+  "vocabulary": [
+    {
+      "fr": "sur", "en": "on", "km": "លើ", "tr": "leu",
+      "es": "sobre", "it": "sopra", "ru": "на", "zh": "上面", "zh_tr": "shàngmiàn", "pos": "preposition",
+      "note": {
+        "fr": "លើ, « sur, au-dessus ». Presque toujours précédé de នៅ : នៅលើតុ, « sur la table ». ជាន់លើ, « l'étage ».",
+        "en": "លើ, “on, above”. Usually preceded by នៅ: នៅលើតុ, “on the table”. French « sur »; « au-dessus de » means “above”.",
+        "km": "« sur » មានន័យថា លើ៖ sur la table។ អង់គ្លេស៖ « on » ពេលប៉ះផ្ទៃ ហើយ « above » ពេលនៅខ្ពស់ជាង។"
+      },
+      "example": {"fr": "Le téléphone est sur la table.", "en": "The phone is on the table.", "km": "ទូរស័ព្ទនៅលើតុ។", "tr": "tou-ro-sap neuv leu tok.",
+      "es": "El teléfono está sobre la mesa.", "it": "Il telefono è sopra il tavolo.", "ru": "Телефон на столе.", "zh": "手机在桌子上面。", "zh_tr": "Shǒujī zài zhuōzi shàngmiàn."}
+    },
+    {
+      "fr": "sous", "en": "under", "km": "ក្រោម", "tr": "kraom",
+      "es": "debajo de", "it": "sotto", "ru": "под", "zh": "下面", "zh_tr": "xiàmiàn", "pos": "preposition",
+      "note": {
+        "fr": "ក្រោម, « sous, en bas ». ក្រោមផ្ទះ, l'espace ombragé sous la maison sur pilotis, est le salon de la campagne.",
+        "en": "ក្រោម, “under, below”. ក្រោមផ្ទះ, the shady space under a stilt house, is the countryside's living room. French « sous »; do not confuse it with « sur », “on”.",
+        "km": "« sous » មានន័យថា ក្រោម។ ប្រយ័ត្នច្រឡំ៖ sous (ក្រោម) និង sur (លើ)។ អង់គ្លេស៖ « under », « below »។"
+      },
+      "example": {"fr": "Le chat dort sous la chaise.", "en": "The cat is sleeping under the chair.", "km": "ឆ្មាគេងនៅក្រោមកៅអី។", "tr": "tchhma kéng neuv kraom kav-ey.",
+      "es": "El gato duerme debajo de la silla.", "it": "Il gatto dorme sotto la sedia.", "ru": "Кошка спит под стулом.", "zh": "猫在椅子下面睡觉。", "zh_tr": "Māo zài yǐzi xiàmiàn shuìjiào."}
+    },
+    {
+      "fr": "dans", "en": "in", "km": "ក្នុង", "tr": "knong",
+      "es": "dentro de", "it": "dentro", "ru": "внутри", "zh": "里面", "zh_tr": "lǐmiàn", "pos": "preposition",
+      "note": {
+        "fr": "ក្នុង, « dans, à l'intérieur ». S'emploie aussi pour le temps : ក្នុងមួយថ្ងៃ, « en une journée, par jour ».",
+        "en": "ក្នុង, “in, inside”. Also used for time: ក្នុងមួយថ្ងៃ, “in a day, per day”. French « dans » for a place: dans la maison; « en » for a country: en France.",
+        "km": "« dans » មានន័យថា ក្នុង៖ dans la maison។ សម្រាប់ប្រទេស គេប្រើ « en » ឬ « au »៖ en France, au Cambodge។ អង់គ្លេស៖ « in », « inside »។"
+      },
+      "example": {"fr": "Les clés sont dans mon sac.", "en": "The keys are in my bag.", "km": "កូនសោនៅក្នុងកាបូបរបស់ខ្ញុំ។", "tr": "kôn sao neuv knong ka-boup ro-bâh khgnom.",
+      "es": "Las llaves están dentro de mi bolso.", "it": "Le chiavi sono dentro la mia borsa.", "ru": "Ключи лежат внутри моей сумки.", "zh": "钥匙在我的包里面。", "zh_tr": "Yàoshi zài wǒ de bāo lǐmiàn."}
+    },
+    {
+      "fr": "devant", "en": "in front of", "km": "ខាងមុខ", "tr": "khang mouk",
+      "es": "delante de", "it": "davanti a", "ru": "перед", "zh": "前面", "zh_tr": "qiánmiàn", "pos": "preposition",
+      "note": {
+        "fr": "មុខ veut dire « visage », donc ខាងមុខ, « côté visage » : devant. ទល់មុខ, « en face de ».",
+        "en": "មុខ means “face”, so ខាងមុខ, “the face side”, is the front. ទល់មុខ means “opposite”. French « devant » for place; « avant » for time.",
+        "km": "« devant » ប្រើសម្រាប់ទីកន្លែង (ខាងមុខ) ហើយ « avant » សម្រាប់ពេលវេលា (មុន)។ អង់គ្លេស៖ « in front of »។"
+      },
+      "example": {"fr": "La moto est devant la maison.", "en": "The motorbike is in front of the house.", "km": "ម៉ូតូនៅខាងមុខផ្ទះ។", "tr": "mô-tô neuv khang mouk phtéah.",
+      "es": "La moto está delante de la casa.", "it": "La moto è davanti alla casa.", "ru": "Мотоцикл стоит перед домом.", "zh": "摩托车在房子前面。", "zh_tr": "Mótuōchē zài fángzi qiánmiàn."}
+    },
+    {
+      "fr": "derrière", "en": "behind", "km": "ខាងក្រោយ", "tr": "khang kraoy",
+      "es": "detrás de", "it": "dietro", "ru": "позади", "zh": "后面", "zh_tr": "hòumiàn", "pos": "preposition",
+      "note": {
+        "fr": "ក្រោយ, « après, derrière », sert pour l'espace comme pour le temps : ខាងក្រោយផ្ទះ, « derrière la maison » ; ខែក្រោយ, « le mois prochain ».",
+        "en": "ក្រោយ, “after, behind”, works for space and for time: ខាងក្រោយផ្ទះ, “behind the house”; ខែក្រោយ, “next month”. French « derrière » for place; « après » for time.",
+        "km": "« derrière » ប្រើសម្រាប់ទីកន្លែង (ខាងក្រោយ) ហើយ « après » សម្រាប់ពេលវេលា (ក្រោយ)។ អង់គ្លេស៖ « behind »។"
+      },
+      "example": {"fr": "Le jardin est derrière la maison.", "en": "The garden is behind the house.", "km": "សួននៅខាងក្រោយផ្ទះ។", "tr": "souon neuv khang kraoy phtéah.",
+      "es": "El jardín está detrás de la casa.", "it": "Il giardino è dietro la casa.", "ru": "Сад находится позади дома.", "zh": "花园在房子后面。", "zh_tr": "Huāyuán zài fángzi hòumiàn."}
+    },
+    {
+      "fr": "à côté de", "en": "next to", "km": "ក្បែរ", "tr": "kbae",
+      "es": "al lado de", "it": "accanto a", "ru": "рядом с", "zh": "旁边", "zh_tr": "pángbiān", "pos": "preposition",
+      "note": {
+        "fr": "ក្បែរ, « tout près de, à côté de ». ជិត veut dire « près » de façon plus large ; ចន្លោះ, « entre ».",
+        "en": "ក្បែរ, “right beside, next to”. ជិត is a looser “near”; ចន្លោះ means “between”. French « à côté de »: de + le becomes « du », à côté du marché.",
+        "km": "« à côté de » មានន័យថា ក្បែរ។ de + le ក្លាយជា « du »៖ à côté du marché។ អង់គ្លេស៖ « next to », « beside »។"
+      },
+      "example": {"fr": "La pharmacie est à côté de la banque.", "en": "The pharmacy is next to the bank.", "km": "ហាងលក់ថ្នាំនៅក្បែរធនាគារ។", "tr": "hang lok thnam neuv kbae thô-néa-kéa.",
+      "es": "La farmacia está al lado del banco.", "it": "La farmacia è accanto alla banca.", "ru": "Аптека находится рядом с банком.", "zh": "药店在银行旁边。", "zh_tr": "Yàodiàn zài yínháng pángbiān."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Où sont mes clés ?", "en": "Where are my keys?", "km": "កូនសោរបស់ខ្ញុំនៅឯណា?", "tr": "kôn sao ro-bâh khgnom neuv aè na ?",
+      "es": "¿Dónde están mis llaves?", "it": "Dove sono le mie chiavi?", "ru": "Где мои ключи?", "zh": "我的钥匙在哪儿？", "zh_tr": "Wǒ de yàoshi zài nǎr?",
+      "note": {
+        "fr": "នៅឯណា, « où », se place à la fin. À l'oral, on raccourcit souvent en នៅណា.",
+        "en": "នៅឯណា, “where”, comes at the end. In speech it often shortens to នៅណា. French « où sont » for a plural, « où est » for a singular.",
+        "km": "« Où sont… ? » សម្រាប់ពហុវចនៈ ហើយ « Où est… ? » សម្រាប់ឯកវចនៈ។ អង់គ្លេស៖ « Where are… ? », « Where is… ? »។"
+      }
+    },
+    {
+      "fr": "C'est juste là.", "en": "It's right there.", "km": "នៅត្រង់នោះ។", "tr": "neuv trâng nouh.",
+      "es": "Está justo ahí.", "it": "È proprio lì.", "ru": "Это вон там.", "zh": "就在那儿。", "zh_tr": "Jiù zài nàr.",
+      "note": {
+        "fr": "ត្រង់, « droit, exactement », précise l'endroit : ត្រង់នេះ, « juste ici » ; ត្រង់នោះ, « juste là ».",
+        "en": "ត្រង់, “straight, exactly”, pins down the spot: ត្រង់នេះ, “right here”; ត្រង់នោះ, “right there”. French « juste là ».",
+        "km": "« juste là » មានន័យថា ត្រង់នោះ ហើយ « juste ici » មានន័យថា ត្រង់នេះ។ អង់គ្លេស៖ « right there », « right here »។"
+      }
+    },
+    {
+      "fr": "Au milieu.", "en": "In the middle.", "km": "នៅកណ្តាល។", "tr": "neuv kân-dal.",
+      "es": "En el medio.", "it": "In mezzo.", "ru": "Посередине.", "zh": "在中间。", "zh_tr": "Zài zhōngjiān.",
+      "note": {
+        "fr": "កណ្តាល, « milieu, centre ». ពាក់កណ្តាល, « la moitié » ; កណ្តាលយប់, « au milieu de la nuit ».",
+        "en": "កណ្តាល, “middle, centre”. ពាក់កណ្តាល, “half”; កណ្តាលយប់, “in the middle of the night”. French « au milieu de » means “in the middle of”.",
+        "km": "« au milieu » មានន័យថា នៅកណ្តាល៖ au milieu de la table។ អង់គ្លេស៖ « in the middle »។"
+      }
+    },
+    {
+      "fr": "Dedans ou dehors ?", "en": "Inside or outside?", "km": "ខាងក្នុង ឬខាងក្រៅ?", "tr": "khang knong reu khang krav ?",
+      "es": "¿Dentro o fuera?", "it": "Dentro o fuori?", "ru": "Внутри или снаружи?", "zh": "里面还是外面？", "zh_tr": "Lǐmiàn háishi wàimiàn?",
+      "note": {
+        "fr": "ខាង, « côté », forme les lieux : ខាងក្នុង, « l'intérieur » ; ខាងក្រៅ, « l'extérieur ». ឬ, « ou », relie les deux choix.",
+        "en": "ខាង, “side”, builds place words: ខាងក្នុង, “inside”; ខាងក្រៅ, “outside”. ឬ, “or”, links the two choices. French « dedans » and « dehors » stand alone, without a noun.",
+        "km": "« dedans » (ខាងក្នុង) និង « dehors » (ខាងក្រៅ) ប្រើតែឯង គ្មាននាមតាមក្រោយទេ។ អង់គ្លេស៖ « inside », « outside »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À la maison", "en": "At home", "km": "នៅផ្ទះ"},
+      "fr": "Mets les chaussures sous l'escalier, pas devant la porte.", "en": "Put the shoes under the stairs, not in front of the door.",
+      "km": "ដាក់ស្បែកជើងនៅក្រោមជណ្តើរ កុំដាក់នៅមុខទ្វារ។", "tr": "dak sbaèk tcheung neuv kraom tchum-daeu, kom dak neuv mouk tvéa.",
+      "es": "Pon los zapatos debajo de la escalera, no delante de la puerta.", "it": "Metti le scarpe sotto la scala, non davanti alla porta.", "ru": "Поставь обувь под лестницу, а не перед дверью.", "zh": "把鞋放在楼梯下面，别放在门前面。", "zh_tr": "Bǎ xié fàng zài lóutī xiàmiàn, bié fàng zài mén qiánmiàn."
+    },
+    {
+      "situation": {"fr": "Dans le quartier", "en": "In the neighbourhood", "km": "នៅក្នុងសង្កាត់"},
+      "fr": "L'école est entre le marché et la pagode.", "en": "The school is between the market and the pagoda.",
+      "km": "សាលារៀននៅចន្លោះផ្សារនិងវត្ត។", "tr": "sa-la rien neuv tchân-lâh phsa ning voat.",
+      "es": "La escuela está entre el mercado y la pagoda.", "it": "La scuola è tra il mercato e la pagoda.", "ru": "Школа находится между рынком и пагодой.", "zh": "学校在市场和寺庙中间。", "zh_tr": "Xuéxiào zài shìchǎng hé sìmiào zhōngjiān."
+    },
+    {
+      "situation": {"fr": "En famille", "en": "With the family", "km": "ជាមួយគ្រួសារ"},
+      "fr": "Viens t'asseoir à côté de grand-mère.", "en": "Come and sit next to Grandma.",
+      "km": "មកអង្គុយក្បែរយាយ។", "tr": "mok âng-kouy kbae yéay.",
+      "es": "Ven a sentarte al lado de la abuela.", "it": "Vieni a sederti accanto alla nonna.", "ru": "Иди сядь рядом с бабушкой.", "zh": "过来坐在奶奶旁边。", "zh_tr": "Guòlái zuò zài nǎinai pángbiān."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} cherche ses lunettes partout dans la maison.", "en": "{B} is looking everywhere in the house for a pair of glasses.", "km": "{B} រកវ៉ែនតាពេញផ្ទះ។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, tu sais où sont mes lunettes ?", "en": "{A}, do you know where my glasses are?", "km": "{A} ដឹងថាវ៉ែនតារបស់ខ្ញុំនៅឯណាទេ?", "tr": "{A}, deung tha vaèn-ta ro-bâh khgnom neuv aè na té ?",
+        "es": "{A}, ¿sabes dónde están mis gafas?", "it": "{A}, sai dove sono i miei occhiali?", "ru": "{A}, ты не знаешь, где мои очки?", "zh": "{A}，你知道我的眼镜在哪儿吗？", "zh_tr": "{A}, nǐ zhīdào wǒ de yǎnjìng zài nǎr ma?"},
+      {"speaker": "A", "fr": "Regarde sur la table, à côté de l'ordinateur.", "en": "Look on the table, next to the computer.", "km": "មើលនៅលើតុ ក្បែរកុំព្យូទ័រ។", "tr": "meul neuv leu tok, kbae kom-pyou-tô.",
+        "es": "Mira sobre la mesa, al lado del ordenador.", "it": "Guarda sopra il tavolo, accanto al computer.", "ru": "Посмотри на столе, рядом с компьютером.", "zh": "你看看桌子上面，电脑旁边。", "zh_tr": "Nǐ kànkan zhuōzi shàngmiàn, diànnǎo pángbiān."},
+      {"speaker": "B", "fr": "Non, elles n'y sont pas. Dans mon sac non plus.", "en": "No, they're not there. Not in my bag either.", "km": "អត់មានទេ។ ក្នុងកាបូបរបស់ខ្ញុំក៏អត់មានដែរ។", "tr": "ât méan té. knong ka-boup ro-bâh khgnom kâ ât méan daè.",
+        "es": "No, ahí no están. Dentro de mi bolso tampoco.", "it": "No, lì non ci sono. Neanche dentro la mia borsa.", "ru": "Нет, там их нет. Внутри сумки тоже нет.", "zh": "没有，不在那儿。我的包里面也没有。", "zh_tr": "Méiyǒu, bú zài nàr. Wǒ de bāo lǐmiàn yě méiyǒu."},
+      {"speaker": "A", "fr": "Et sous le lit ? Ou derrière le coussin ?", "en": "What about under the bed? Or behind the cushion?", "km": "ចុះក្រោមគ្រែ? ឬខាងក្រោយខ្នើយ?", "tr": "tchoh kraom krè ? reu khang kraoy khnaeuy ?",
+        "es": "¿Y debajo de la cama? ¿O detrás del cojín?", "it": "E sotto il letto? O dietro il cuscino?", "ru": "А под кроватью? Или позади подушки?", "zh": "床下面呢？还是靠垫后面？", "zh_tr": "Chuáng xiàmiàn ne? Háishi kàodiàn hòumiàn?"},
+      {"speaker": "B", "fr": "Non plus… Sans lunettes, je ne vois rien !", "en": "Not there either… Without glasses, I can't see anything!", "km": "ក៏អត់មានដែរ… គ្មានវ៉ែនតា ខ្ញុំមើលអ្វីមិនឃើញទេ!", "tr": "kâ ât méan daè… kmean vaèn-ta, khgnom meul ey min kheugn té !",
+        "es": "Tampoco… ¡Sin gafas no veo nada!", "it": "Neanche… Senza occhiali non vedo niente!", "ru": "Тоже нет… Без очков я ничего не вижу!", "zh": "也没有……没有眼镜，我什么都看不见！", "zh_tr": "Yě méiyǒu… Méiyǒu yǎnjìng, wǒ shénme dōu kàn bu jiàn!"},
+      {"speaker": "A", "fr": "{B}, elles sont sur ta tête !", "en": "{B}, they're on your head!", "km": "វ៉ែនតានៅលើក្បាល {B} ហ្នឹង!", "tr": "vaèn-ta neuv leu kbal {B} neung !",
+        "es": "{B}, ¡las tienes sobre la cabeza!", "it": "{B}, li hai sopra la testa!", "ru": "{B}, они у тебя на голове!", "zh": "{B}，眼镜就在你头上面！", "zh_tr": "{B}, yǎnjìng jiù zài nǐ tóu shàngmiàn!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où sont les lunettes de {B} ?", "en": "Where are {B}'s glasses?", "km": "វ៉ែនតារបស់ {B} នៅឯណា?"},
+    "answer": {"fr": "Sur sa tête.", "en": "On {B}'s head.", "km": "នៅលើក្បាលរបស់ {B}។"}
+  }
+}
