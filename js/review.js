@@ -16,6 +16,8 @@
   /* « revision.html#lecon=12 » (lien en fin de leçon) : réviser uniquement les mots de cette leçon. */
   var LESSON = (function () { var m = /(?:^|[#&])lecon=(\d+)/.exec(location.hash); return m ? Number(m[1]) : 0; })();
   var ICON_PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.2v13.6L19.5 12z"/></svg>';
+  var ICON_SLIDERS = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h9m5 0h2M4 17h2m5 0h9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="15.5" cy="7" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="8.5" cy="17" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>';
+  var ICON_CHEVRON = '<svg class="review-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9.5l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var TAGS = { fr: "FR", en: "EN", km: "KH", es: "ES", it: "IT", ru: "RU", zh: "ZH" };
   var CONTENT_LANGS = (window.FRKH_LANGS && window.FRKH_LANGS.all) || ["fr", "en", "km"];
   /* Langues qu'on ne tape pas au clavier dans l'exercice « Écrire » (écriture non latine sans clavier dédié). */
@@ -30,6 +32,7 @@
     lang_it: ["Italien", "Italian", "ភាសាអ៊ីតាលី"],
     lang_ru: ["Russe", "Russian", "ភាសារុស្ស៊ី"],
     lang_zh: ["Chinois", "Chinese", "ភាសាចិន"],
+    settings: ["Réglages de la séance", "Session settings", "ការកំណត់លំហាត់"],
     studied: ["Langue révisée", "Language", "ភាសាដែលរំលឹក"],
     mode: ["Exercice", "Exercise", "លំហាត់"],
     recognize: ["Reconnaître le mot", "Recognise the word", "ស្គាល់ពាក្យ"],
@@ -134,7 +137,9 @@
   }
   /* Ordre des langues au dos de la carte : la langue révisée, puis les autres langues affichées. */
   function backOrder() {
-    return [settings.lang].concat(CONTENT_LANGS.filter(function (l) { return l !== settings.lang && shown(l); }));
+    var first = [settings.lang];
+    if (native() !== settings.lang) { first.push(native()); }
+    return first.concat(CONTENT_LANGS.filter(function (l) { return first.indexOf(l) === -1 && shown(l); }));
   }
   function native() { return profile(); }
 
@@ -193,6 +198,7 @@
 
   /* -------------------------------------------------------------- Séance */
   var settings, queue, position, revealed, score;
+  var settingsOpen = false;     /* téléphone : réglages de la séance repliés par défaut */
 
   function available() {
     var today = todayISO();
@@ -372,8 +378,17 @@
                  { value: "recent", label: t("recent") }, { value: "all", label: t("all") }]), settings.scope);
     var m = mastery();
     var percent = m.total ? Math.round(100 * m.known / m.total) : 0;
-    var summary = '<div class="review-mastery"><p>' + num(m.known) + " / " + num(m.total) + " " + esc(t("known")) + "</p>" +
+    var summary = '<div class="review-mastery"><p><strong>' + num(m.known) + " / " + num(m.total) + "</strong> " + esc(t("known")) + "</p>" +
       '<div class="progress-bar" aria-hidden="true"><span style="width:' + percent + '%"></span></div></div>';
+    /* Résumé des réglages : sur téléphone, il remplace les trois rangées de choix tant qu'on ne l'ouvre pas. */
+    var scopeLabel = settings.scope === "lesson" ? t("this_lesson").replace("{n}", num(LESSON))
+      : settings.scope === "due" ? t("due").replace("{n}", num(dueCards().length))
+      : settings.scope === "recent" ? t("recent") : t("all");
+    var modeLabel = t(settings.dir === "recall" ? "recall" : settings.dir === "listen" ? "listen" : settings.dir === "write" ? "write" : "recognize");
+    var panel = '<div class="review-settings' + (settingsOpen ? " is-open" : "") + '">' +
+      '<button type="button" class="review-summary" data-action="settings" aria-expanded="' + settingsOpen + '" title="' + esc(t("settings")) + '">' +
+      ICON_SLIDERS + '<span class="review-summary-text">' + esc([t("lang_" + settings.lang), modeLabel, scopeLabel].join(" · ")) + "</span>" +
+      ICON_CHEVRON + "</button>" + '<div class="review-controls">' + controls + "</div></div>";
 
     var body;
     if (!queue.length) {
@@ -411,8 +426,8 @@
       }
       body = progress + '<div class="flashcard' + (revealed ? " is-revealed" : "") + '">' + face + back + "</div>";
     }
-    app.innerHTML = '<div class="review-controls">' + controls + "</div>" + summary + body +
-      '<p class="review-keys">' + esc(t("keys")) + "</p>";
+    app.innerHTML = '<aside class="review-side">' + panel + summary + "</aside>" +
+      '<div class="review-main">' + body + '<p class="review-keys">' + esc(t("keys")) + "</p></div>";
     var input = document.getElementById("fc-input");
     if (input && !input.disabled) { try { input.focus({ preventScroll: true }); } catch (e) { input.focus(); } }
   }
@@ -491,6 +506,7 @@
     if (target.hasAttribute("data-answer")) { answer(target.getAttribute("data-answer") === "1"); return; }
     if (target.hasAttribute("data-choice")) { choose(Number(target.getAttribute("data-choice"))); return; }
     var action = target.getAttribute("data-action");
+    if (action === "settings") { settingsOpen = !settingsOpen; draw(); return; }
     if (action === "reveal") { reveal(); }
     if (action === "restart") { startSession(); autoPlay(); }
     if (action === "next") { next(); }

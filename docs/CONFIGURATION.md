@@ -23,8 +23,10 @@ Une variable déjà définie dans l'environnement du système l'emporte sur `.en
 ## Profils (`profiles`)
 
 Un profil par langue de l'apprenant : c'est la langue de l'interface et des
-explications. Le sélecteur en haut de chaque page propose les profils dans
-l'ordre de cette rubrique.
+explications. Le bouton « Réglages » (globe, en haut à droite de chaque page)
+propose les profils dans l'ordre de cette rubrique, sous « Ma langue ». Dans une
+fiche, la langue de l'apprenant sert de titre ; viennent ensuite les langues de
+`learns`, dans l'ordre, puis les autres.
 
 ```json
 "profiles": {
@@ -160,7 +162,7 @@ de nouveaux fichiers sont générés, les anciens restent jusqu'à
 ```
 
 Langues visibles à la première visite. Chacun peut ensuite cocher ou décocher
-des langues dans le sélecteur « Langues » en haut de page ; ce choix est gardé
+des langues dans les réglages (« Langues affichées ») ; ce choix est gardé
 par le navigateur. Une langue masquée disparaît des leçons, du lexique, des
 cartes de révision et de la page Alphabets.
 
@@ -224,4 +226,5 @@ quand vous changez de moteur ou de modèle.
   `--es`, `--it`, `--ru`, `--zh` en tête de fichier), thème clair et thème sombre
   automatiques.
 - `fonts/` : police Noto Sans Khmer embarquée, pour un affichage correct du
-  khmer sans connexion.
+  khmer sans connexion, et Fraunces (titres), pour le même rendu sur tous les
+  appareils.

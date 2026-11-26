@@ -18,7 +18,6 @@ PAGE = "revision.html"
 # Libellés : (français, anglais, khmer).
 TEXT = {
     "title": ("Réviser", "Review", "រំលឹកមេរៀន"),
-    "kicker": ("Cartes mémoire", "Flashcards", "កាតចងចាំ"),
     "intro": ("Une série de 20 cartes tirées des leçons passées. Les mots que vous connaissez mal reviennent plus souvent.",
               "A set of 20 cards from past lessons. Words you don't know well come back more often.",
               "កាត២០សន្លឹកពីមេរៀនដែលបានរៀនរួច។ ពាក្យដែលមិនទាន់ចាំច្បាស់ នឹងត្រលប់មកញឹកញាប់ជាង។"),
@@ -67,16 +66,12 @@ def collect(renderer) -> list[dict]:
 
 
 def render(renderer) -> str:
-    from .render import ICONS
+    from .render import page_head
     cards = collect(renderer)
     payload = json.dumps(cards, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     content = (
         f'<article class="review-page">'
-        f'<nav class="lesson-nav" aria-label="Navigation"><a class="nav-link nav-home" data-nav href="./index.html">'
-        f'{ICONS["home"]}{_home()}</a></nav>'
-        f'<header class="lesson-head"><p class="kicker">{_bi("kicker")}</p>'
-        f'<h1 class="tri-title">{"".join(f'<span class="t-{lang}" lang="{lang}">{text}</span>' for lang, text in zip(LANGS, TEXT["title"]))}</h1>'
-        f'<p class="alpha-subtitle">{_bi("intro")}</p></header>'
+        f'{page_head(TEXT["title"], TEXT["intro"])}'
         f'<noscript><p class="empty">{_bi("nojs")}</p></noscript>'
         f'<div id="review-app" class="review-app js-only"></div>'
         f'<script type="application/json" id="review-data">{payload}</script>'
@@ -88,8 +83,3 @@ def render(renderer) -> str:
     target = renderer.paths.index.parent / PAGE
     wavutil.atomic_write(target, page.encode("utf-8"))
     return renderer.paths.rel(target)
-
-
-def _home() -> str:
-    from .render import ui
-    return ui("home")

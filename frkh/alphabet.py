@@ -23,7 +23,6 @@ PAGE = "alphabet.html"
 # Libellés : (français, anglais, khmer).
 LABELS = {
     "title": ("Alphabets", "Alphabets", "អក្សរ"),
-    "kicker": ("Module d'écriture", "Writing module", "ម៉ូឌុលអក្សរ"),
     "subtitle": ("Lettres khmères, latines et cyrilliques, et l'écriture chinoise, avec leur prononciation",
                  "Khmer, Latin and Cyrillic letters, and Chinese writing, with their pronunciation",
                  "អក្សរខ្មែរ ឡាតាំង ស៊ីរីលិក និងអក្សរចិន ព្រមទាំងការបញ្ចេញសំឡេង"),
@@ -331,15 +330,16 @@ def render(renderer, data: dict | None) -> str | None:
     """Écrit alphabet.html et renvoie son chemin relatif (None si les données sont absentes)."""
     if not data:
         return None
+    from .render import page_head
     khmer, latin = data.get("khmer", {}), data.get("latin", {})
     vowels_intro = ""
     if khmer.get("vowels_intro"):
         vi = khmer["vowels_intro"]
         vowels_intro = _notes(vi, "alpha-hint")
-    toc = "".join(f'<a class="chip" href="#{anchor}">{lbl(key)}</a>' for anchor, key in (
+    toc = "".join(f'<a class="toc-link" href="#{anchor}">{lbl(key)}</a>' for anchor, key in (
         ("consonnes", "consonants"), ("voyelles", "vowels"), ("chiffres", "digits"),
         ("lettres", "letters"), ("accents", "accents"), ("sons", "sounds")))
-    toc += "".join(f'<a class="chip {css}" href="#{anchor}">{lbl(key)}</a>' for anchor, key, css in (
+    toc += "".join(f'<a class="toc-link {css}" href="#{anchor}">{lbl(key)}</a>' for anchor, key, css in (
         ("cyrillique", "toc_cyrillic", "only-ru"), ("chinois", "toc_chinese", "only-zh"))
         if data.get({"only-ru": "cyrillic", "only-zh": "chinese"}[css]))
     khmer_part = (
@@ -359,13 +359,8 @@ def render(renderer, data: dict | None) -> str | None:
     # Le profil khmer apprend l'alphabet latin : sa partie passe en premier (feuille de style).
     content = (
         f'<article class="alphabet">'
-        f'<nav class="lesson-nav" aria-label="Navigation"><a class="nav-link nav-home" data-nav href="./index.html">'
-        f'{renderer_icon("home")}{lbl_home()}</a></nav>'
-        f'<header class="lesson-head"><p class="kicker">{lbl("kicker")}</p>'
-        f'<h1 class="tri-title"><span class="t-fr" lang="fr">{_esc(LABELS["title"][0])}</span>'
-        f'<span class="t-km" lang="km">{_esc(LABELS["title"][2])}</span></h1>'
-        f'<p class="alpha-subtitle">{lbl("subtitle")}</p></header>'
-        f'<nav class="alpha-toc" aria-label="Sommaire">{toc}</nav>'
+        f'{page_head(LABELS["title"], LABELS["subtitle"])}'
+        f'<nav class="alpha-toc lesson-toc" data-toc aria-label="Sommaire"><div class="toc-links">{toc}</div></nav>'
         f'<div class="alpha-parts">{khmer_part}{latin_part}{_extra_parts(renderer, data)}</div></article>')
     page = renderer._page(root=".", title=f'{LABELS["title"][0]} — {renderer.config.get("site.title", "FR-KH Learning")}',
                           description="Alphabets khmer, latin et cyrillique, et écriture chinoise, avec la prononciation.",
@@ -374,12 +369,3 @@ def render(renderer, data: dict | None) -> str | None:
     wavutil.atomic_write(target, page.encode("utf-8"))
     return renderer.paths.rel(target)
 
-
-def renderer_icon(name: str) -> str:
-    from .render import ICONS
-    return ICONS[name]
-
-
-def lbl_home() -> str:
-    from .render import ui
-    return ui("home")

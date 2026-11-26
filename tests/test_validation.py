@@ -120,7 +120,10 @@ class ThreeLessonsTest(unittest.TestCase):
         for font in fonts:
             data = (self.project.dir / "css" / font).resolve().read_bytes()
             self.assertGreater(len(data), 50000)
-            self.assertEqual(data[:4], b"\x00\x01\x00\x00", "fichier TrueType attendu")
+            # Police khmère en TrueType ; police des titres (Fraunces) en WOFF2.
+            self.assertIn(data[:4], (b"\x00\x01\x00\x00", b"wOF2"), "fichier TrueType ou WOFF2 attendu")
+            if "Khmer" in font:
+                self.assertEqual(data[:4], b"\x00\x01\x00\x00", "fichier TrueType attendu pour le khmer")
         self.assertIn("Noto Sans Khmer", css)
 
     # --- audio ---------------------------------------------------------------------------

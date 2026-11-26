@@ -1,26 +1,38 @@
 <section class="hero">
-  <p class="hero-kicker">$site_title</p>
-  <h1 class="hero-greeting">$greeting</h1>
-  <p class="tagline">$tagline</p>
+  <div class="hero-text">
+    <p class="hero-kicker" id="hero-date">$site_title</p>
+    <h1 class="hero-greeting">$greeting</h1>
+    <p class="tagline">$tagline</p>
+  </div>
+  <div class="stats" role="group" aria-label="Résumé">
+$stats
+  </div>
 </section>
 <section class="today js-only" id="today-panel" hidden>
-  <div class="today-main">
-    <p class="today-label"><span class="today-label-today">$today_label</span><span class="today-label-latest" hidden>$latest_label</span></p>
-    <a class="today-link" data-nav id="today-link" href="index.html">
+  <a class="today-link" data-nav id="today-link" href="index.html">
+    <span class="today-mark" id="today-mark" lang="km" aria-hidden="true"></span>
+    <span class="today-label"><span class="today-label-today">$today_label</span><span class="today-label-latest" hidden>$latest_label</span></span>
+    <span class="today-head">
       <span class="today-num" id="today-num"></span>
       <span class="today-title tri-title" id="today-title"></span>
-      <span class="today-go">$start$icon_next</span>
-    </a>
-  </div>
+    </span>
+    <span class="today-foot">
+      <span class="today-go"><span class="today-go-start">$start</span><span class="today-go-again">$again</span>$icon_arrow</span>
+      <span class="today-state">$icon_check$done_mark</span>
+    </span>
+  </a>
   <div class="today-progress">
     <div class="progress-head">
       <p class="progress-text" id="progress-text"></p>
       <p class="streak" id="streak" hidden>$icon_flame<span class="streak-count"></span></p>
     </div>
     <div class="progress-bar" aria-hidden="true"><span id="progress-fill"></span></div>
-    <div class="activity" id="activity" aria-hidden="true"></div>
+    <div class="activity-wrap" aria-hidden="true">
+      <div class="activity" id="activity"></div>
+      <p class="activity-label">$activity_label</p>
+    </div>
     <div class="progress-links">
-      <a class="due-link" data-nav id="due-link" href="revision.html" hidden>$icon_cards<strong id="due-count"></strong> $due_words</a>
+      <a class="due-link" data-nav id="due-link" href="revision.html" hidden>$icon_cards<span><strong id="due-count"></strong> $due_words</span></a>
       <a class="resume-link" data-nav id="resume-link" href="index.html" hidden></a>
     </div>
   </div>
@@ -30,26 +42,28 @@
 <nav class="shortcuts" aria-label="Accès rapide">
 $shortcuts
 </nav>
-<section class="stats" aria-label="Résumé">
-$stats
-</section>
-<h2 class="section-title" id="toutes">$all_lessons</h2>
-<section class="finder">
-  <label class="search" for="search">
-    <span class="search-label visually-hidden">$search_label</span>
-    <span class="search-field">
-      $icon_search
-      <input type="search" id="search" autocomplete="off" spellcheck="false"
-             placeholder="$placeholder_fr" data-placeholder-fr="$placeholder_fr" data-placeholder-en="$placeholder_en" data-placeholder-km="$placeholder_km">
-    </span>
-  </label>
-  <div class="filters js-only" role="group" aria-label="Niveau">$filters</div>
-</section>
-<p class="result-count" id="result-count" aria-live="polite"></p>
-<p class="future-toggle-wrap js-only"><button type="button" class="chip future-toggle" id="future-toggle" aria-pressed="false" hidden></button></p>
-$empty
-<ol class="lesson-list" id="lesson-list">
+<section class="lessons" aria-labelledby="toutes">
+  <h2 class="section-title" id="toutes">$all_lessons</h2>
+  <div class="finder">
+    <label class="search" for="search">
+      <span class="search-label visually-hidden">$search_label</span>
+      <span class="search-field">
+        $icon_search
+        <input type="search" id="search" autocomplete="off" spellcheck="false"
+               placeholder="$placeholder_fr" data-placeholder-fr="$placeholder_fr" data-placeholder-en="$placeholder_en" data-placeholder-km="$placeholder_km">
+        <kbd class="search-key js-only" aria-hidden="true">/</kbd>
+      </span>
+    </label>
+    <div class="filters js-only" role="group" aria-label="Niveau">$filters</div>
+  </div>
+  <div class="list-bar">
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+    <button type="button" class="text-button future-toggle js-only" id="future-toggle" aria-pressed="false" hidden></button>
+  </div>
+  $empty
+  <ol class="lesson-list" id="lesson-list">
 $lessons
-</ol>
-<p class="empty" id="no-result" hidden>$no_result</p>
+  </ol>
+  <p class="empty" id="no-result" hidden>$no_result</p>
+</section>
 <script type="application/json" id="cards-data">$card_index</script>

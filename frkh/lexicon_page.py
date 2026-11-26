@@ -18,8 +18,7 @@ PAGE = "lexique.html"
 # Libellés : (français, anglais, khmer).
 TEXT = {
     "title": ("Lexique", "Glossary", "សទ្ទានុក្រម"),
-    "kicker": ("Tous les mots vus", "Every word seen so far", "ពាក្យទាំងអស់ដែលបានរៀន"),
-    "intro": ("Les mots et expressions des leçons passées, du plus récent au plus ancien. Cherchez dans les trois langues.",
+    "intro": ("Les mots et expressions des leçons passées, du plus récent au plus ancien. Cherchez dans n'importe quelle langue.",
               "Words and expressions from past lessons, newest first. Search in any language.",
               "ពាក្យ និងឃ្លាពីមេរៀនដែលបានរៀនរួច ពីថ្មីទៅចាស់។ អាចស្វែងរកជាគ្រប់ភាសា។"),
     "search": ("Rechercher un mot", "Search for a word", "ស្វែងរកពាក្យ"),
@@ -38,7 +37,7 @@ def _bi(key: str, tag: str = "span") -> str:
 
 
 def render(renderer) -> str:
-    from .render import ICONS, esc, multi, ui
+    from .render import ICONS, esc, multi, page_head
     icon_play = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.2v13.6L19.5 12z"/></svg>'
     rows = renderer.conn.execute(
         "SELECT lesson_number, lesson_date, content_json, html_path FROM lessons "
@@ -77,12 +76,8 @@ def render(renderer) -> str:
         for value, key in (("", "all"), ("w", "words"), ("e", "expressions")))
     content = (
         f'<article class="lexicon-page">'
-        f'<nav class="lesson-nav" aria-label="Navigation"><a class="nav-link nav-home" data-nav href="./index.html">'
-        f'{ICONS["home"]}{ui("home")}</a></nav>'
-        f'<header class="lesson-head"><p class="kicker">{_bi("kicker")}</p>'
-        f'<h1 class="tri-title">{"".join(f'<span class="t-{lang}" lang="{lang}">{text}</span>' for lang, text in zip(LANGS, TEXT["title"]))}</h1>'
-        f'<p class="alpha-subtitle">{_bi("intro")}</p></header>'
-        f'<section class="finder"><label class="search" for="lex-search"><span class="search-label">{_bi("search")}</span>'
+        f'{page_head(TEXT["title"], TEXT["intro"])}'
+        f'<section class="finder"><label class="search" for="lex-search"><span class="search-label visually-hidden">{_bi("search")}</span>'
         f'<span class="search-field">{ICONS["search"]}<input type="search" id="lex-search" autocomplete="off" spellcheck="false" '
         f'placeholder="{esc(TEXT["placeholder"][0])}" data-placeholder-fr="{esc(TEXT["placeholder"][0])}" '
         f'data-placeholder-en="{esc(TEXT["placeholder"][1])}" data-placeholder-km="{esc(TEXT["placeholder"][2])}"></span></label>'

@@ -96,8 +96,14 @@
     root.setAttribute("lang", value);
     if (persist) { store.set("frkh-profile", value); }
     all("[data-profile-choice]").forEach(function (button) {
-      button.setAttribute("aria-pressed", String(button.getAttribute("data-profile-choice") === value));
+      var chosen = button.getAttribute("data-profile-choice") === value;
+      button.setAttribute("aria-pressed", String(chosen));
+      if (chosen) {
+        var current = document.getElementById("settings-current");
+        if (current) { current.textContent = button.textContent; }
+      }
     });
+    refreshLabels();
     /* Le profil suit l'utilisateur d'une page à l'autre, même si le navigateur
        isole le stockage local des fichiers ouverts directement depuis le disque. */
     all("a[data-nav]").forEach(function (link) {
@@ -113,6 +119,44 @@
     if (root.dispatchEvent && typeof CustomEvent === "function") { root.dispatchEvent(new CustomEvent("frkh:profile")); }
     if (typeof updateCount === "function") { updateCount(); }
     if (typeof lexiconCount === "function") { lexiconCount(); }
+  }
+
+  /* Libellés qui dépendent du profil : info-bulles de la barre du haut, date du jour sur l'accueil. */
+  function refreshLabels() {
+    var slowButton = document.getElementById("slow-toggle");
+    if (slowButton) {
+      var label = L({ fr: "Lecture lente", en: "Slow playback", km: "អានយឺត" });
+      slowButton.title = label;
+      slowButton.setAttribute("aria-label", label);
+      showRate();
+    }
+    var summary = document.querySelector("#settings > summary");
+    if (summary) {
+      var name = L({ fr: "Réglages", en: "Settings", km: "ការកំណត់" });
+      summary.title = name;
+      summary.setAttribute("aria-label", name);
+    }
+    var date = document.getElementById("hero-date");
+    if (date) {
+      var text = todayLabel();
+      if (text) { date.textContent = text; date.setAttribute("lang", profile()); }
+    }
+  }
+
+  /* Date du jour en toutes lettres, dans la langue du profil (« jeudi 26 novembre »). */
+  var KM_DAYS = ["អាទិត្យ", "ច័ន្ទ", "អង្គារ", "ពុធ", "ព្រហស្បតិ៍", "សុក្រ", "សៅរ៍"];
+  var KM_MONTHS = ["មករា", "កុម្ភៈ", "មីនា", "មេសា", "ឧសភា", "មិថុនា", "កក្កដា", "សីហា", "កញ្ញា", "តុលា", "វិច្ឆិកា", "ធ្នូ"];
+  function todayLabel() {
+    var day = new Date(TODAY + "T12:00:00Z");
+    if (isNaN(day.getTime())) { return ""; }
+    if (profile() === "km") {
+      return "ថ្ងៃ" + KM_DAYS[day.getUTCDay()] + " ទី" + kmDigits(day.getUTCDate()) + " ខែ" + KM_MONTHS[day.getUTCMonth()];
+    }
+    var locale = profile() === "en" ? "en-GB" : "fr-FR";
+    try {
+      if (!Intl.DateTimeFormat.supportedLocalesOf([locale]).length) { return ""; }   /* le titre du site reste affiché */
+      return new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" }).format(day);
+    } catch (e) { return ""; }
   }
 
   /* ------------------------------------------------------- Date du jour */
@@ -403,16 +447,81 @@
     root.addEventListener("frkh:profile", function () { apply(store.get(key()) === "1"); });
   }
 
+  /* Le bouton de vitesse affiche la vitesse en cours : « 1× », ou « 0,75× » en lecture lente. */
+  function showRate() {
+    var rate = document.getElementById("slow-rate");
+    if (!rate) { return; }
+    var text = slow() ? String(SLOW_RATE) : "1";
+    rate.textContent = (profile() === "en" ? text : text.replace(".", ",")) + "×";
+  }
   function initSlowToggle() {
     var toggle = document.getElementById("slow-toggle");
     if (!toggle) { return; }
     toggle.setAttribute("aria-pressed", String(slow()));
+    showRate();
     toggle.addEventListener("click", function () {
       var value = !slow();
       store.set("frkh-slow", value ? "1" : "0");
       toggle.setAttribute("aria-pressed", String(value));
+      showRate();
       if (playing) { playing.audio.playbackRate = value ? SLOW_RATE : 1; }
+      if (lightAudio) { lightAudio.audio.playbackRate = value ? SLOW_RATE : 1; }
     });
+  }
+
+  /* Toucher une ligne (et pas seulement son petit bouton) lance son audio. En mode test, toucher révèle d'abord. */
+  function initRowPlay() {
+    document.addEventListener("click", function (event) {
+      if (!event.target.closest || event.target.closest("button, a, input, summary, label")) { return; }
+      var row = event.target.closest(".lang-row, .lex-cell");
+      if (!row) { return; }
+      if (root.classList.contains("quiz-mode") && row.closest(".entry")) { return; }
+      var selection = window.getSelection ? String(window.getSelection()) : "";
+      if (selection) { return; }                      /* on sélectionne du texte pour le copier */
+      var button = row.querySelector(".play");
+      /* Jeu de rôle : l'audio de la réplique masquée reste caché. */
+      if (button && getComputedStyle(button).visibility !== "hidden") { button.click(); }
+    });
+  }
+
+  /* Sommaire collant (leçon, alphabets) : défilement doux vers une partie, partie en cours mise en avant. */
+  function initToc() {
+    var toc = document.querySelector("[data-toc]");
+    if (!toc) { return; }
+    var links = all('a[href^="#"]', toc), targets = [];
+    links.forEach(function (link) {
+      var target = document.getElementById(link.getAttribute("href").slice(1));
+      if (!target) { return; }
+      targets.push({ link: link, target: target });
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+    if (!targets.length) { return; }
+    var current = null, ticking = false;
+    function mark() {
+      ticking = false;
+      var line = toc.getBoundingClientRect().bottom + 90, active = null;
+      targets.forEach(function (item) {
+        if (item.target.offsetParent !== null && item.target.getBoundingClientRect().top <= line) { active = item; }
+      });
+      toc.classList.toggle("is-stuck", toc.getBoundingClientRect().top <= (parseFloat(getComputedStyle(toc).top) || 0) + 1 && window.scrollY > 0);
+      if (active === current) { return; }
+      current = active;
+      targets.forEach(function (item) { item.link.classList.toggle("is-active", item === active); });
+      if (active) {
+        var box = active.link.parentNode;
+        if (box && box.scrollWidth > box.clientWidth) {
+          box.scrollTo({ left: active.link.offsetLeft - box.offsetLeft - 16, behavior: "smooth" });
+        }
+      }
+    }
+    window.addEventListener("scroll", function () {
+      if (!ticking) { ticking = true; window.requestAnimationFrame(mark); }
+    }, { passive: true });
+    window.addEventListener("resize", mark);
+    mark();
   }
 
   /* --------------------------------------------------- Leçons terminées */
@@ -529,6 +638,8 @@
     target.setAttribute("href", link.getAttribute("href"));
     var number = Number(main.getAttribute("data-number"));
     document.getElementById("today-num").textContent = num(number);
+    var mark = document.getElementById("today-mark");
+    if (mark) { mark.textContent = kmDigits(number); }
     document.getElementById("today-title").innerHTML = main.querySelector(".lesson-title").innerHTML;
     var done = doneList();
     target.classList.toggle("is-done", done.indexOf(number) !== -1);
@@ -606,17 +717,22 @@
 
   /* Taille du texte : normale, grande, très grande (mémorisée sur l'appareil). */
   function initSize() {
-    var button = document.getElementById("size-toggle");
-    if (!button) { return; }
-    var sizes = ["", "l", "xl"];
-    button.addEventListener("click", function () {
+    var buttons = all("[data-size-choice]");
+    function refresh() {
       var current = root.getAttribute("data-size") || "";
-      var next = sizes[(sizes.indexOf(current) + 1) % sizes.length];
-      if (next) { root.setAttribute("data-size", next); } else { root.removeAttribute("data-size"); }
-      try { window.localStorage.setItem("frkh-size", next); } catch (e) { /* stockage indisponible */ }
-      button.setAttribute("data-level", next || "m");
+      buttons.forEach(function (button) {
+        button.setAttribute("aria-pressed", String(button.getAttribute("data-size-choice") === current));
+      });
+    }
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        var next = button.getAttribute("data-size-choice");
+        if (next) { root.setAttribute("data-size", next); } else { root.removeAttribute("data-size"); }
+        try { window.localStorage.setItem("frkh-size", next); } catch (e) { /* stockage indisponible */ }
+        refresh();
+      });
     });
-    button.setAttribute("data-level", root.getAttribute("data-size") || "m");
+    refresh();
   }
 
   function initFuture() {
@@ -779,7 +895,7 @@
   function langShown(lang) { return !root.classList.contains("hide-" + lang); }
   window.frkhLangShown = langShown;
   function initLangPicker() {
-    var picker = document.getElementById("lang-picker");
+    var picker = document.getElementById("settings");
     if (!picker) { return; }
     var boxes = all("[data-lang-toggle]", picker), count = document.getElementById("lang-count");
     function refresh() {
@@ -822,6 +938,8 @@
     initSlowToggle();
     initSize();
     initLightAudio();
+    initRowPlay();
+    initToc();
     initRoleplay();
     initQuiz();
     initFinish();

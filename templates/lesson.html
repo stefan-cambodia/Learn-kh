@@ -6,17 +6,20 @@
     <ul class="meta">$meta</ul>
   </header>
   $future_notice
-  <p class="quiz-hint js-only" id="quiz-hint" hidden>$quiz_hint</p>
   $notice
   $tip
+  <nav class="lesson-toc" id="lesson-toc" data-toc aria-label="$toc_label">$toc</nav>
+  <p class="quiz-hint js-only" id="quiz-hint" hidden>$quiz_hint</p>
   $sections
-  <div class="finish js-only">
-    <button type="button" class="finish-button" id="finish-lesson" aria-pressed="false">
-      <span class="finish-icon">$icon_check</span>
-      <span class="finish-todo">$done</span>
-      <span class="finish-done">$done_mark</span>
-    </button>
+  <div class="lesson-end">
+    <div class="finish js-only">
+      <button type="button" class="finish-button" id="finish-lesson" aria-pressed="false">
+        <span class="finish-icon">$icon_check</span>
+        <span class="finish-todo">$done</span>
+        <span class="finish-done">$done_mark</span>
+      </button>
+    </div>
+    $review_link
   </div>
-  $review_link
   <nav class="lesson-nav lesson-nav-bottom" aria-label="Navigation entre les leçons">$nav_bottom</nav>
 </article>

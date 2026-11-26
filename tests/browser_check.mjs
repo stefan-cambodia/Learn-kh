@@ -326,10 +326,10 @@ try {
 
   const extras = await evaluate(`(() => {
     const due = document.getElementById("due-link");
-    const size = document.getElementById("size-toggle");
-    size.click();
+    const size = (value) => document.querySelector('[data-size-choice="' + value + '"]').click();
+    size("l");
     const bigger = document.documentElement.getAttribute("data-size") === "l";
-    size.click(); size.click();
+    size("xl"); size("");
     return { due: due && !due.hidden ? Number(document.getElementById("due-count").textContent) : 0, bigger,
              reset: !document.documentElement.hasAttribute("data-size"),
              manifest: !!document.querySelector('link[rel="manifest"]') };

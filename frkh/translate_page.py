@@ -21,7 +21,6 @@ PAGE = "traduction.html"
 # Libellés : (français, anglais, khmer).
 TEXT = {
     "title": ("Traduire", "Translate", "បកប្រែ"),
-    "kicker": ("Traducteur", "Translator", "កម្មវិធីបកប្រែ"),
     "intro": ("Tapez ou dites une phrase : elle est traduite, écrite et lue à voix haute.",
               "Type or say a sentence: it is translated, written out and read aloud.",
               "វាយ ឬនិយាយឃ្លាមួយ៖ វានឹងត្រូវបកប្រែ សរសេរ និងអានឮៗ។"),
@@ -53,6 +52,8 @@ ICON_SPEAKER = ('<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5
                 'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>')
 ICON_SWAP = ('<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h12m0 0-3.5-3.5M19 7l-3.5 3.5M17 17H5m0 0 3.5-3.5M5 17l3.5 3.5" '
              'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+ICON_WIFI = ('<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 9.5a12.5 12.5 0 0 1 17 0M6.5 13a8 8 0 0 1 11 0M9.5 16.3a3.8 3.8 0 0 1 5 0" '
+             'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="19.3" r="1.3" fill="currentColor"/></svg>')
 ICON_COPY = ('<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2.5" fill="none" '
              'stroke="currentColor" stroke-width="2"/><path d="M16 8V5.5A1.5 1.5 0 0 0 14.5 4h-9A1.5 1.5 0 0 0 4 5.5v9A1.5 1.5 0 0 0 5.5 16H8" '
              'fill="none" stroke="currentColor" stroke-width="2"/></svg>')
@@ -64,24 +65,18 @@ def _bi(key: str) -> str:
 
 
 def render(renderer) -> str:
-    from .render import ICONS, esc, ui
+    from .render import esc, page_head
     langs = list(renderer.config.content_langs())
     options = "".join(
         f'<option value="{lang}">{esc(LANG_META[lang]["tag"])} · {esc(LANG_META[lang]["native"])}</option>' for lang in langs)
     meta = {lang: {"locale": LANG_META[lang]["locale"], "native": LANG_META[lang]["native"],
                    "names": LANG_META[lang]["names"]} for lang in langs}
     payload = json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    title = "".join(f'<span class="t-{lang}" lang="{lang}">{text}</span>'
-                    for lang, text in zip(("fr", "en", "km"), TEXT["title"]))
+    online = f'<p class="tr-online">{ICON_WIFI}{_bi("online")}</p>'
     placeholders = " ".join(f'data-placeholder-{lang}="{esc(text)}"' for lang, text in zip(("fr", "en", "km"), PLACEHOLDER))
     content = (
         f'<article class="translate-page">'
-        f'<nav class="lesson-nav" aria-label="Navigation"><a class="nav-link nav-home" data-nav href="./index.html">'
-        f'{ICONS["home"]}{ui("home")}</a></nav>'
-        f'<header class="lesson-head"><p class="kicker">{_bi("kicker")}</p>'
-        f'<h1 class="tri-title">{title}</h1>'
-        f'<p class="alpha-subtitle">{_bi("intro")}</p>'
-        f'<p class="tr-online">{_bi("online")}</p></header>'
+        f'{page_head(TEXT["title"], TEXT["intro"], online)}'
         f'<noscript><p class="empty">{_bi("nojs")}</p></noscript>'
         f'<div class="tr-app js-only" id="tr-app">'
         f'<div class="tr-langs">'

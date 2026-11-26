@@ -43,7 +43,6 @@ UI = {
     "tip": ("Le conseil du jour", "Tip of the day", "គន្លឹះថ្ងៃនេះ"),
     "audio_missing": ("Audio pas encore disponible", "Audio not available yet", "មិនទាន់មានសំឡេង"),
     "download": ("Télécharger le fichier audio", "Download the audio file", "ទាញយកឯកសារសំឡេង"),
-    "langs": ("Langues", "Languages", "ភាសា"),
     "langs_title": ("Langues affichées", "Languages shown", "ភាសាដែលបង្ហាញ"),
     "langs_hint": ("Décochez une langue pour la masquer dans toutes les pages.",
                    "Untick a language to hide it on every page.",
@@ -103,9 +102,6 @@ UI = {
     "sc_alphabet": ("Khmer, latin, cyrillique, chinois", "Khmer, Latin, Cyrillic, Chinese", "ខ្មែរ ឡាតាំង ស៊ីរីលិក ចិន"),
     "sc_translate": ("Traduire à l'écrit et à voix haute", "Translate in writing and out loud",
                      "បកប្រែជាអក្សរ និងជាសំឡេង"),
-    "alphabet_promo": ("Apprendre les alphabets khmer, latin et cyrillique, et l'écriture chinoise, avec la prononciation",
-                       "Learn the Khmer, Latin and Cyrillic alphabets and Chinese writing, with pronunciation",
-                       "រៀនអក្សរខ្មែរ ឡាតាំង ស៊ីរីលិក និងអក្សរចិន ព្រមទាំងការបញ្ចេញសំឡេង"),
     "roleplay": ("Jeu de rôle, je suis :", "Role play, I am:", "លេងតួ ខ្ញុំជា៖"),
     "roleplay_lang": ("en", "in", "ជា"),
     "rp_continue": ("Continuer", "Continue", "បន្ត"),
@@ -117,6 +113,23 @@ UI = {
                   "របៀបតេស្ត៖ ចុចលើបន្ទាត់ព្រិលៗ ដើម្បីមើល។"),
     "review_this": ("Réviser les mots de cette leçon", "Review the words of this lesson", "រំលឹកពាក្យក្នុងមេរៀននេះ"),
     "greeting": ("Bonjour !", "Hello!", "សួស្តី!"),
+    "settings": ("Réglages", "Settings", "ការកំណត់"),
+    "my_language": ("Ma langue", "My language", "ភាសារបស់ខ្ញុំ"),
+    "my_language_hint": ("Le site et les explications s'affichent dans cette langue.",
+                         "The site and the explanations are shown in this language.",
+                         "គេហទំព័រ និងការពន្យល់ បង្ហាញជាភាសានេះ។"),
+    "size_m": ("Normale", "Normal", "ធម្មតា"),
+    "size_l": ("Grande", "Large", "ធំ"),
+    "size_xl": ("Très grande", "Extra large", "ធំខ្លាំង"),
+    "main_nav": ("Navigation principale", "Main navigation", "ម៉ឺនុយមេ"),
+    "toc": ("Sommaire de la leçon", "Lesson contents", "មាតិកាមេរៀន"),
+    "toc_vocabulary": ("Vocabulaire", "Vocabulary", "វាក្យសព្ទ"),
+    "toc_expressions": ("Expressions", "Expressions", "ឃ្លា"),
+    "toc_sentences": ("Phrases", "Sentences", "ប្រយោគ"),
+    "toc_dialogue": ("Dialogue", "Dialogue", "ការសន្ទនា"),
+    "toc_review": ("Révision", "Review", "រំលឹក"),
+    "again": ("Revoir la leçon", "Open it again", "មើលម្តងទៀត"),
+    "activity": ("Activité des 4 dernières semaines", "Activity over the last 4 weeks", "សកម្មភាព ៤ សប្តាហ៍ចុងក្រោយ"),
     "footer": ("Site généré automatiquement, consultable hors connexion.",
                "Site generated automatically, available offline.",
                "គេហទំព័រនេះបង្កើតដោយស្វ័យប្រវត្តិ និងប្រើបានដោយគ្មានអ៊ីនធឺណិត។"),
@@ -138,6 +151,21 @@ LANG_INFO = {lang: {"tag": meta["tag"], "listen": meta["listen"]} for lang, meta
 
 AUDIO_TYPES = {".mp3": "audio/mpeg", ".wav": "audio/wav"}
 
+# Navigation principale : (clé, page, icône, libellé). La même liste sert à la barre du haut
+# (ordinateur) et à la barre d'onglets (téléphone).
+NAV = (
+    ("home", "index.html", "house", "home_short"),
+    ("review", "revision.html", "cards", "review_nav"),
+    ("lexicon", "lexique.html", "book", "lexicon_nav"),
+    ("alphabet", "alphabet.html", "", "alphabet_nav"),
+    ("translate", "traduction.html", "translate", "translate_nav"),
+)
+# Rubrique active selon la page (classe de <body>) ; True : c'est la page elle-même.
+NAV_SECTION = {
+    "page-index": ("home", True), "page-lesson": ("home", False), "page-review": ("review", True),
+    "page-lexicon": ("lexicon", True), "page-alphabet": ("alphabet", True), "page-translate": ("translate", True),
+}
+
 PART_MINUTES = {"vocabulary": 3, "expressions": 2, "sentences": 2, "dialogue": 2, "review": 1}
 
 ICONS = {
@@ -154,6 +182,13 @@ ICONS = {
     "translate": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h9M8 3.5v2M10.5 5.5c-.8 3.6-3.2 6.4-6.5 8M6 8.5c1 2 2.6 3.6 4.5 4.6M12.5 20.5l4-10 4 10M14 17h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     "flame": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 3.5 5 5.5 5 10a5 5 0 0 1-10 0c0-2.2 1.2-3.6 2.4-4.6.2 1.6 1 2.6 2.1 2.9C11 8.9 11 6 12 3z" fill="currentColor"/></svg>',
     "cards": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 3h10.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    "gauge": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.8 17.5a8.5 8.5 0 1 1 14.4 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M12 14l3.6-4.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="14" r="1.6" fill="currentColor"/></svg>',
+    "globe": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3.5 12h17M12 3.5c2.6 2.4 3.8 5.2 3.8 8.5s-1.2 6.1-3.8 8.5c-2.6-2.4-3.8-5.2-3.8-8.5s1.2-6.1 3.8-8.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
+    "chevron": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9.5l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    "arrow": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5.5-5.5M19 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    "back": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m0 0 5.5-5.5M5 12l5.5 5.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    "headphones": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 14.5V12a7.5 7.5 0 0 1 15 0v2.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="3.5" y="13.5" width="4.5" height="6.5" rx="1.8" fill="none" stroke="currentColor" stroke-width="2"/><rect x="16" y="13.5" width="4.5" height="6.5" rx="1.8" fill="none" stroke="currentColor" stroke-width="2"/></svg>',
+    "person": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 20c.7-3.6 3.4-5.5 7-5.5s6.3 1.9 7 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
     "clock": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
 }
 
@@ -231,6 +266,12 @@ def scoped_notes(note: dict | None, css: str = "note", tag: str = "p") -> str:
     return "".join(parts)
 
 
+def page_head(title, intro, extra: str = "") -> str:
+    """En-tête compact des pages d'outils (Réviser, Lexique, Alphabets, Traduire) : titre et phrase d'introduction."""
+    return (f'<header class="page-head"><h1 class="page-title">{multi(title)}</h1>'
+            f'<p class="page-intro">{multi(intro)}</p>{extra}</header>')
+
+
 class SiteRenderer:
     def __init__(self, config, conn, library, logger: logging.Logger | None = None):
         self.config = config
@@ -271,35 +312,78 @@ class SiteRenderer:
             default_profile=esc(self.config.default_profile()), profile_buttons=buttons,
             profiles_json=profiles_json.replace("</", "<\\/"),
             site_title=esc(self.config.get("site.title", "FR-KH Learning")),
-            ui_profile=esc(UI["profile"][0]), ui_slow=ui("slow"), ui_skip=ui("skip"), ui_footer=ui("footer"),
-            ui_home=ui("home"), ui_alphabet=ui("alphabet_nav"), ui_review=ui("review_nav"), ui_lexicon=ui("lexicon_nav"), icon_book=ICONS["book"],
-            ui_translate=ui("translate_nav"), icon_translate=ICONS["translate"],
-            ui_size_title=esc(UI["size"][0]), app_name=esc(self._app_name()),
-            lang_picker=self._lang_picker(), langs_json=self._langs_json(),
-            ui_home_short=ui("home_short"), ui_alphabet_short=ui("alphabet_nav"), icon_house=ICONS["house"],
-            icon_cards=ICONS["cards"], version=self._asset_version(), root_attr=root, timezone=esc(self.config.get("schedule.timezone", "Asia/Phnom_Penh")),
+            ui_skip=ui("skip"), ui_footer=ui("footer"), app_name=esc(self._app_name()),
+            ui_slow_title=esc(UI["slow"][0]), icon_gauge=ICONS["gauge"],
+            nav_label=esc(UI["main_nav"][0]), main_nav=self._nav_links(root, body_class, tabs=False),
+            tab_nav=self._nav_links(root, body_class, tabs=True),
+            settings=self._settings(buttons), langs_json=self._langs_json(), profile_css=self._profile_css(),
+            version=self._asset_version(), root_attr=root, timezone=esc(self.config.get("schedule.timezone", "Asia/Phnom_Penh")),
             content=content)
+
+    @staticmethod
+    def _nav_links(root: str, body_class: str, *, tabs: bool) -> str:
+        """Liens de la navigation principale ; la rubrique de la page courante est marquée."""
+        section, exact = NAV_SECTION.get(body_class, ("", False))
+        links = []
+        for key, href, icon, label in NAV:
+            glyph = ICONS[icon] if icon else '<span class="nav-glyph" lang="km">ក</span>'
+            active = " is-active" if key == section else ""
+            current = ' aria-current="page"' if key == section and exact else ""
+            if tabs:
+                links.append(f'<a class="tab tab-{key}{active}" data-nav href="{root}/{href}"{current}>'
+                             f'<span class="tab-icon" aria-hidden="true">{glyph}</span>'
+                             f'<span class="tab-label">{ui(label)}</span></a>')
+            else:
+                links.append(f'<a class="mainnav-link mn-{key}{active}" data-nav href="{root}/{href}"{current}>'
+                             f'<span class="mn-icon" aria-hidden="true">{glyph}</span>{ui(label)}</a>')
+        return "".join(links)
+
+    def _profile_css(self) -> str:
+        """Ordre des langues dans une fiche : après la langue de l'apprenant (feuille de style),
+        les langues qu'il étudie en priorité (rubrique « profiles » de la configuration)."""
+        rules = []
+        for key, spec in self.config.profiles().items():
+            learns = [lang for lang in spec["learns"] if lang != key]
+            for i, lang in enumerate(learns):
+                rules.append(f'html[data-profile="{key}"] .tri:not(.fc-back) .lang-{lang},html[data-profile="{key}"] .lex-item .lang-{lang}'
+                             f'{{order:{i - len(learns)}}}')
+        return "".join(rules)
 
     def _langs_json(self) -> str:
         langs = list(self.config.content_langs())
         payload = {"all": langs, "shown": self.config.display_langs()}
         return json.dumps(payload, separators=(",", ":")).replace("</", "<\\/")
 
-    def _lang_picker(self) -> str:
-        """Sélecteur des langues affichées (mémorisé dans le navigateur)."""
+    def _settings(self, profile_buttons: str) -> str:
+        """Panneau « Réglages » : langue de l'apprenant, langues affichées, taille du texte.
+
+        Tout est mémorisé dans le navigateur ; le bouton rappelle la langue choisie.
+        """
         items = "".join(
             f'<label class="lang-option lang-{lang}"><input type="checkbox" data-lang-toggle="{lang}" checked>'
             f'<span class="lang-tag" aria-hidden="true">{esc(LANG_META[lang]["tag"])}</span>'
             f'<span class="lang-option-name" lang="{lang}">{esc(LANG_META[lang]["native"])}</span></label>'
             for lang in self.config.content_langs())
-        globe = ('<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" '
-                 'stroke-width="2"/><path d="M3.5 12h17M12 3.5c2.6 2.4 3.8 5.2 3.8 8.5s-1.2 6.1-3.8 8.5c-2.6-2.4-3.8-5.2-3.8-8.5'
-                 's1.2-6.1 3.8-8.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>')
-        return (f'<details class="lang-picker js-only" id="lang-picker"><summary title="{esc(UI["langs_title"][0])}">'
-                f'{globe}<span class="lang-picker-label">{ui("langs")}</span><span class="lang-count" id="lang-count"></span></summary>'
-                f'<div class="lang-panel" role="group" aria-label="{esc(UI["langs_title"][0])}">'
-                f'<p class="lang-panel-title">{ui("langs_title")}</p>{items}'
-                f'<p class="lang-panel-hint">{ui("langs_hint")}</p></div></details>')
+        sizes = "".join(
+            f'<button type="button" data-size-choice="{value}" aria-pressed="false" title="{esc(UI[key][0])}" '
+            f'aria-label="{esc(UI[key][0])}"><span class="size-a size-a-{value or "m"}" aria-hidden="true">A</span>'
+            f'<span class="size-name">{ui(key)}</span></button>'
+            for value, key in (("", "size_m"), ("l", "size_l"), ("xl", "size_xl")))
+        return (f'<details class="settings js-only" id="settings">'
+                f'<summary class="tool tool-settings" title="{esc(UI["settings"][0])}" aria-label="{esc(UI["settings"][0])}">'
+                f'{ICONS["globe"]}<span class="settings-current" id="settings-current"></span>'
+                f'<span class="settings-chevron" aria-hidden="true">{ICONS["chevron"]}</span></summary>'
+                f'<div class="settings-panel">'
+                f'<div class="settings-group"><p class="settings-title">{ui("my_language")}</p>'
+                f'<div class="profile-switch" role="group" aria-label="{esc(UI["profile"][0])}">{profile_buttons}</div>'
+                f'<p class="settings-hint">{ui("my_language_hint")}</p></div>'
+                f'<div class="settings-group" role="group" aria-label="{esc(UI["langs_title"][0])}">'
+                f'<p class="settings-title">{ui("langs_title")}<span class="lang-count" id="lang-count"></span></p>'
+                f'<div class="lang-options">{items}</div>'
+                f'<p class="settings-hint">{ui("langs_hint")}</p></div>'
+                f'<div class="settings-group"><p class="settings-title">{ui("size")}</p>'
+                f'<div class="size-switch" role="group" aria-label="{esc(UI["size"][0])}" id="size-switch">{sizes}</div></div>'
+                f'</div></details>')
 
     def _asset_version(self) -> str:
         """Numéro de version des fichiers CSS et JS : force le navigateur à recharger après une mise à jour."""
@@ -452,14 +536,16 @@ class SiteRenderer:
         rp_langs = "".join(
             f'<button type="button" class="chip chip-{lang} not-{lang}" data-rp-lang="{lang}">{LANG_INFO[lang]["tag"]}</button>'
             for lang in self.config.content_langs())
-        roleplay = (f'<div class="roleplay js-only" data-roleplay><span>{ui("roleplay")}</span>{roles}'
-                    f'<span class="rp-lang-label">{ui("roleplay_lang")}</span>{rp_langs}</div>'
-                    f'<div class="roleplay-bar" id="roleplay-bar" hidden role="status"><p class="rp-msg" id="rp-msg"></p>'
-                    f'<div class="rp-actions"><button type="button" class="fc-btn" id="rp-continue">{ui("rp_continue")} <kbd>{ui("rp_key")}</kbd></button>'
-                    f'<button type="button" class="chip" id="rp-stop">{ui("rp_stop")}</button></div></div>')
+        roleplay = (f'<div class="roleplay" data-roleplay><span class="tools-label">{ICONS["person"]}{ui("roleplay")}</span>'
+                    f'<span class="tools-chips">{roles}<span class="rp-lang-label">{ui("roleplay_lang")}</span>{rp_langs}</span></div>')
+        roleplay_bar = (f'<div class="roleplay-bar" id="roleplay-bar" hidden role="status"><p class="rp-msg" id="rp-msg"></p>'
+                        f'<div class="rp-actions"><button type="button" class="fc-btn" id="rp-continue">{ui("rp_continue")} <kbd>{ui("rp_key")}</kbd></button>'
+                        f'<button type="button" class="chip" id="rp-stop">{ui("rp_stop")}</button></div></div>')
         body = (f'<div class="setting">{self._rows(setting, root, audio=False, compact=True)}</div>'
-                f'<div class="play-all js-only"><span>{ui("listen_all")}</span>{play_all}</div>'
-                f'{roleplay}<ol class="dialogue">{"".join(lines)}</ol>')
+                f'<div class="dialogue-tools js-only">'
+                f'<div class="play-all"><span class="tools-label">{ICONS["headphones"]}{ui("listen_all")}</span>'
+                f'<span class="tools-chips">{play_all}</span></div>{roleplay}</div>'
+                f'{roleplay_bar}<ol class="dialogue">{"".join(lines)}</ol>')
         sections.append(self._section("dialogue", 4, body))
         sections.append(self._section("review", 5, self._review(content, root)))
 
@@ -471,14 +557,16 @@ class SiteRenderer:
         level = self._level(content["level"])
         minutes = max(1, round(content.get("estimated_seconds", row["estimated_duration"]) / 60))
         meta = [
-            f'<li class="meta-date">{date_label(content["date"])}</li>',
+            f'<li class="meta-date"><time datetime="{esc(content["date"])}">{date_label(content["date"])}</time></li>',
             f'<li class="meta-level level-{esc(content["level"])}">{multi(level)}</li>',
             f'<li class="meta-time">{ICONS["clock"]}{minutes_label(minutes)}</li>',
         ]
         if content.get("kind") == "review":
             meta.append(f'<li class="meta-review">{ui("review_lesson")}</li>')
-        meta.append(f'<li class="meta-quiz js-only"><button type="button" class="quiz-toggle" id="quiz-toggle" aria-pressed="false" '
-                    f'title="{esc(UI["quiz_hint"][0])}">{ICONS["eye"]}{ui("quiz")}</button></li>')
+        toc = (f'<div class="toc-links">'
+               + "".join(f'<a class="toc-link" href="#{key}">{ui("toc_" + key)}</a>' for key in PART_MINUTES)
+               + f'</div><button type="button" class="quiz-toggle js-only" id="quiz-toggle" aria-pressed="false" '
+                 f'title="{esc(UI["quiz_hint"][0])}">{ICONS["eye"]}{ui("quiz")}</button>')
         kicker = multi({"fr": f"Leçon {number}", "en": f"Lesson {number}", "km": f"មេរៀនទី {to_khmer_digits(number)}"})
 
         notice = ""
@@ -489,8 +577,8 @@ class SiteRenderer:
         review_link = (f'<p class="review-this"><a class="review-this-link" data-nav href="{root}/revision.html#lecon={number}">'
                        f'{ICONS["cards"]}{ui("review_this")}</a></p>')
         body = self._fill("lesson", number=number, date_iso=esc(content["date"]), future_notice=future_notice,
-                          review_link=review_link, quiz_hint=ui("quiz_hint"),
-                          nav=self._nav(number), nav_bottom=self._nav(number), kicker=kicker,
+                          review_link=review_link, quiz_hint=ui("quiz_hint"), toc=toc, toc_label=esc(UI["toc"][0]),
+                          nav=self._nav(number), nav_bottom=self._nav(number, rich=True), kicker=kicker,
                           title=title, meta="".join(meta), notice=notice, tip=tip, sections="".join(sections),
                           done=ui("done"), done_mark=ui("done_mark"), icon_check=ICONS["check"])
         page = self._page(root=root, title=f"Leçon {number} — {content['title']['fr']} · {self.config.get('site.title')}",
@@ -500,20 +588,34 @@ class SiteRenderer:
         wavutil.atomic_write(target, page.encode("utf-8"))
         return self.paths.rel(target)
 
-    def _nav(self, number: int) -> str:
-        def exists(n: int) -> bool:
-            return bool(self.conn.execute(
-                "SELECT 1 FROM lessons WHERE lesson_number = ? AND content_json != '{}'", (n,)).fetchone())
+    def _nav(self, number: int, rich: bool = False) -> str:
+        """Liens « toutes les leçons », « précédente », « suivante ».
+
+        ``rich`` (bas de page) : chaque lien rappelle le titre de la leçon voisine.
+        """
+        def neighbour(n: int):
+            return self.conn.execute(
+                "SELECT title_fr, title_en, title_km FROM lessons WHERE lesson_number = ? AND content_json != '{}'",
+                (n,)).fetchone()
 
         def link(n: int, key: str, cls: str, icon_first: bool) -> str:
-            label, icon = ui(key), ICONS["prev" if icon_first else "next"]
-            if not exists(n):
-                return f'<span class="nav-link {cls} is-disabled" aria-disabled="true">{icon if icon_first else ""}{label}{"" if icon_first else icon}</span>'
-            return (f'<a class="nav-link {cls}" data-nav rel="{"prev" if icon_first else "next"}" href="lesson-{n:03d}.html">'
-                    f'{icon if icon_first else ""}{label}{"" if icon_first else icon}</a>')
+            icon = ICONS["prev" if icon_first else "next"]
+            row = neighbour(n)
+            text = f'<span class="nav-text">{ui(key)}</span>'
+            if row is not None:
+                short = multi({"fr": f"Leçon {n}", "en": f"Lesson {n}", "km": f"មេរៀនទី {to_khmer_digits(n)}"})
+                text += f'<span class="nav-short">{short}</span><span class="nav-n">{num_label(n)}</span>'
+                if rich:
+                    text += f'<span class="nav-title">{multi({lang: row["title_" + lang] for lang in LANGS})}</span>'
+            inner = f'{icon if icon_first else ""}<span class="nav-label">{text}</span>{"" if icon_first else icon}'
+            if row is None:
+                return f'<span class="nav-link {cls} is-disabled" aria-disabled="true">{inner}</span>'
+            return (f'<a class="nav-link {cls}" data-nav rel="{"prev" if icon_first else "next"}" href="lesson-{n:03d}.html" '
+                    f'title="{esc(UI[key][0])} ({n})">{inner}</a>')
 
-        home = f'<a class="nav-link nav-home" data-nav href="../index.html">{ICONS["home"]}{ui("home")}</a>'
-        return link(number - 1, "previous", "nav-prev", True) + home + link(number + 1, "next", "nav-next", False)
+        home = (f'<a class="nav-link nav-home" data-nav href="../index.html">{ICONS["back"]}'
+                f'<span class="nav-label">{ui("home")}</span></a>')
+        return home + link(number - 1, "previous", "nav-prev", True) + link(number + 1, "next", "nav-next", False)
 
     def _review(self, content: dict, root: str) -> str:
         review = content.get("review", {})
@@ -623,7 +725,8 @@ class SiteRenderer:
                 level_label=multi(level),
                 theme=esc(row["theme"].replace("-", " ")),
                 minutes=minutes_label(minutes),
-                flags=flags, preview=preview, done_mark=ui("done_mark"), icon_check=ICONS["check"], open=esc(UI["open"][0])))
+                flags=flags, preview=preview, done_mark=ui("done_mark"), icon_check=ICONS["check"], icon_next=ICONS["next"],
+                open=esc(UI["open"][0])))
 
         # Les leçons générées à l'avance ne comptent qu'à partir de leur date.
         today = self.config.today().isoformat()
@@ -656,16 +759,13 @@ class SiteRenderer:
             placeholder_en=esc("Number, date, topic or word, in any language…"),
             placeholder_km=esc("លេខ កាលបរិច្ឆេទ ប្រធានបទ ឬពាក្យ…"),
             filters=filters, lessons="".join(cards), no_result=ui("no_result"),
-            alphabet_link=(f'<a class="alpha-promo" data-nav href="alphabet.html"><span class="alpha-promo-glyphs" aria-hidden="true">'
-                           f'<span lang="km">ក ខ</span> A B <span lang="ru">Я</span> <span lang="zh">中</span></span><span class="alpha-promo-text">'
-                           f'{ui("alphabet_promo")}'
-                           f'</span></a>'),
             empty=f'<p class="empty">{ui("no_lessons")}</p>' if not rows else "",
             greeting=self._greeting(), shortcuts=self._shortcuts(), all_lessons=ui("all_lessons"),
             card_index=self._card_index(rows), icon_cards=ICONS["cards"], due_words=ui("due_words"),
             today_label=ui("today_lesson"), latest_label=ui("latest_lesson"), start=ui("start"),
-            today_badge=ui("today_badge"), future_badge=ui("future_badge"), icon_next=ICONS["next"],
-            icon_flame=ICONS["flame"])
+            today_badge=ui("today_badge"), future_badge=ui("future_badge"), icon_arrow=ICONS["arrow"],
+            icon_flame=ICONS["flame"], icon_check=ICONS["check"], again=ui("again"), done_mark=ui("done_mark"),
+            activity_label=ui("activity"))
         page = self._page(root=".", title=str(self.config.get("site.title", "FR-KH Learning")),
                           description="Leçons quotidiennes en français, anglais, khmer, espagnol, italien, russe et chinois.",
                           body_class="page-index", content=body)
@@ -697,7 +797,7 @@ class SiteRenderer:
             "short_name": self._app_name(),
             "description": "Leçons quotidiennes en français, anglais, khmer, espagnol, italien, russe et chinois.",
             "lang": "fr", "start_url": "index.html", "scope": "./", "display": "standalone",
-            "background_color": "#f5f2ec", "theme_color": "#1d2230",
+            "background_color": "#f6f2ea", "theme_color": "#1c2130",
             "icons": [
                 {"src": "css/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
                 {"src": "css/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},

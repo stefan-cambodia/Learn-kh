@@ -107,8 +107,9 @@ session n'est ouverte : `loginctl enable-linger $USER`.
 - **Copie autonome** : `python3 manage.py export` crée une archive ZIP
   contenant le site complet, à copier sur une clé USB ou un autre appareil.
 
-Dans la page, le sélecteur en haut à droite choisit le profil (FR, ENG ou
-KH) ; le bouton « 0,75× » ralentit la lecture audio.
+Dans la page, le bouton « Réglages » (globe, en haut à droite) choisit le profil
+(FR, ENG ou KH), les langues affichées et la taille du texte ; le bouton de
+vitesse (« 1× ») passe la lecture audio en « 0,75× ».
 
 ## Mettre à jour ou déplacer le projet
 

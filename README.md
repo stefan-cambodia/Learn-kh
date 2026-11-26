@@ -16,8 +16,9 @@ Les profils se règlent dans `config/config.json` (rubrique `profiles`, voir
 
 Chaque mot, phrase et réplique existe aussi en **espagnol**, **italien**,
 **russe** (avec une translittération latine) et **chinois mandarin** (avec le
-pinyin), chacun avec son audio. Le sélecteur **Langues**, en haut de chaque page,
-affiche ou masque chacune des sept langues ; le choix est gardé par le navigateur.
+pinyin), chacun avec son audio. Le bouton **Réglages** (globe, en haut à droite de
+chaque page) affiche ou masque chacune des sept langues ; le choix est gardé par
+le navigateur.
 
 Chaque jour à 07h00 (heure du Cambodge), le système choisit le thème suivant du
 programme, compose la leçon, ajoute les révisions espacées, génère les fichiers
@@ -123,7 +124,7 @@ lexique.html          tous les mots et expressions vus, avec recherche et audio
 traduction.html       traducteur écrit et vocal entre les sept langues (en ligne ; js/translate.js)
 lessons/              une page par leçon (lesson-001.html, …)
 audio/                bibliothèque audio : fr-FR/, en-US/, km-KH/, es-ES/, it-IT/, ru-RU/, zh-CN/
-css/  js/  fonts/     style, comportement, police Noto Sans Khmer embarquée
+css/  js/  fonts/     style, comportement, polices embarquées (Noto Sans Khmer, Fraunces pour les titres)
 data/                 lessons.json, vocabulary.json, audio-library.json
 database/             learning.db (SQLite) et backups/
 config/config.json    configuration personnalisable
@@ -164,6 +165,7 @@ réseau) : `node tests/browser_check.mjs <dossier du site>`.
 ## Licences
 
 La police Noto Sans Khmer est distribuée sous licence SIL Open Font License
-(`fonts/OFL.txt`). Les fichiers audio sont produits par les services de synthèse
+(`fonts/OFL.txt`), tout comme Fraunces, la police des titres
+(`fonts/OFL-Fraunces.txt`). Les fichiers audio sont produits par les services de synthèse
 vocale que vous configurez : leur conservation et leur réutilisation relèvent
 des conditions d'utilisation de ces services (Google Cloud, Microsoft Azure).
