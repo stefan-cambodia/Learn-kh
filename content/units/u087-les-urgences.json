@@ -1,0 +1,159 @@
+{
+  "id": "u087",
+  "order": 87,
+  "level": "intermediaire",
+  "theme": "les-urgences",
+  "title": {"fr": "En cas d'urgence", "en": "In an emergency", "km": "ពេលមានអាសន្ន"},
+  "tip": {
+    "fr": "Au Cambodge, on appelle la police au 117, les pompiers au 118 et l'ambulance au 119. Pour demander de l'aide, le mot clé est ជួយ, « aider » : ជួយផង!, « au secours ! ». Dans la rue, tenez votre téléphone et votre sac du côté opposé à la chaussée.",
+    "en": "In Cambodia, dial 117 for the police, 118 for the fire brigade and 119 for an ambulance. The key word for help is ជួយ, “to help”: ជួយផង!, “help!”. In the street, hold your phone and bag on the side away from the traffic. In France, the emergency number is 112.",
+    "km": "នៅប្រទេសបារាំង លេខអាសន្នគឺ ១១២។ គេស្រែកថា « Au secours ! » ដើម្បីសុំជំនួយ និង « Au feu ! » ពេលមានភ្លើងឆេះ។ អង់គ្លេស៖ « Help! » និង « Fire! »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "l'accident", "en": "accident", "km": "គ្រោះថ្នាក់", "tr": "kruoh-thnak",
+      "es": "el accidente", "it": "l'incidente", "ru": "авария", "zh": "事故", "zh_tr": "shìgù", "pos": "nom",
+      "note": {
+        "fr": "គ្រោះថ្នាក់ veut dire à la fois « accident », « danger » et « dangereux » : ផ្លូវនេះគ្រោះថ្នាក់, « cette route est dangereuse ». គ្រោះថ្នាក់ចរាចរណ៍, « accident de la route ».",
+        "en": "គ្រោះថ្នាក់ means “accident”, “danger” and “dangerous” all at once: ផ្លូវនេះគ្រោះថ្នាក់, “this road is dangerous”. គ្រោះថ្នាក់ចរាចរណ៍, “road accident”. French « un accident »; dangerous is « dangereux ».",
+        "km": "« l'accident » មានន័យថា គ្រោះថ្នាក់ ហើយ « dangereux » គឺមានគ្រោះថ្នាក់។ អង់គ្លេស៖ « accident », « dangerous »។"
+      },
+      "example": {"fr": "Il y a eu un accident sur la route nationale.", "en": "There has been an accident on the national road.", "km": "មានគ្រោះថ្នាក់នៅលើផ្លូវជាតិ។", "tr": "méan kruoh-thnak neuv leu phleuv tchéat.",
+      "es": "Ha habido un accidente en la carretera nacional.", "it": "C'è stato un incidente sulla strada nazionale.", "ru": "На национальной дороге произошла авария.", "zh": "国道上发生了事故。", "zh_tr": "Guódào shàng fāshēng le shìgù."}
+    },
+    {
+      "fr": "blessé", "en": "injured", "km": "របួស", "tr": "ro-bouoh",
+      "es": "herido", "it": "ferito", "ru": "раненый", "zh": "受伤", "zh_tr": "shòushāng", "pos": "adjectif",
+      "note": {
+        "fr": "របួស, « blessé » et « blessure ». របួសស្រាល, « légèrement blessé » ; របួសធ្ងន់, « gravement blessé » : on retrouve ស្រាល et ធ្ងន់, léger et lourd.",
+        "en": "របួស, “injured” and “injury”. របួសស្រាល, “slightly injured”; របួសធ្ងន់, “seriously injured”: the words for light and heavy again. French « blessé », feminine « blessée », sounds the same.",
+        "km": "« blessé » មានន័យថា របួស (ភេទស្រី៖ blessée អានដូចគ្នា)។ អង់គ្លេស៖ « injured » ឬ « hurt »។"
+      },
+      "example": {"fr": "Personne n'est blessé.", "en": "Nobody is injured.", "km": "គ្មាននរណារបួសទេ។", "tr": "kmean no-na ro-bouoh té.",
+      "es": "Nadie está herido.", "it": "Nessuno è ferito.", "ru": "Никто не ранен.", "zh": "没有人受伤。", "zh_tr": "Méiyǒu rén shòushāng."}
+    },
+    {
+      "fr": "l'ambulance", "en": "ambulance", "km": "ឡានពេទ្យ", "tr": "lan pét",
+      "es": "la ambulancia", "it": "l'ambulanza", "ru": "скорая помощь", "zh": "救护车", "zh_tr": "jiùhùchē", "pos": "nom",
+      "note": {
+        "fr": "ឡាន, « voiture », et ពេទ្យ, « médecin, hôpital » : l'ambulance, dans la conversation. Le nom officiel est រថយន្តសង្គ្រោះបន្ទាន់, « véhicule de secours d'urgence ».",
+        "en": "ឡាន, “car”, and ពេទ្យ, “doctor, hospital”: an ambulance, in everyday speech. The official name is រថយន្តសង្គ្រោះបន្ទាន់, “emergency rescue vehicle”. French « l'ambulance » is feminine.",
+        "km": "« l'ambulance » មានន័យថា ឡានពេទ្យ (ភេទស្រី)៖ une ambulance។ អង់គ្លេស៖ « ambulance »។"
+      },
+      "example": {"fr": "Appelez une ambulance, vite !", "en": "Call an ambulance, quick!", "km": "ជួយហៅឡានពេទ្យ លឿនឡើង!", "tr": "tchouoy hav lan pét, leuan laeung !",
+      "es": "¡Llame a una ambulancia, rápido!", "it": "Chiami un'ambulanza, presto!", "ru": "Вызовите скорую, быстрее!", "zh": "快叫救护车！", "zh_tr": "Kuài jiào jiùhùchē!"}
+    },
+    {
+      "fr": "le voleur", "en": "thief", "km": "ចោរ", "tr": "tchao",
+      "es": "el ladrón", "it": "il ladro", "ru": "вор", "zh": "小偷", "zh_tr": "xiǎotōu", "pos": "nom",
+      "note": {
+        "fr": "ចោរ, « voleur ». ចោរឆក់, « voleur à l'arraché », celui qui passe à moto et arrache un sac ou un téléphone ; ចោរលួច, « cambrioleur ».",
+        "en": "ចោរ, “thief”. ចោរឆក់, “snatch thief”, the one who rides past and grabs a bag or a phone; ចោរលួច, “burglar”. French « le voleur », feminine « la voleuse ».",
+        "km": "« le voleur » មានន័យថា ចោរ (ភេទស្រី៖ la voleuse)។ អង់គ្លេស៖ « thief », ពហុវចនៈ « thieves »។"
+      },
+      "example": {"fr": "Le voleur est parti à moto.", "en": "The thief got away on a motorbike.", "km": "ចោរជិះម៉ូតូរត់បាត់។", "tr": "tchao tchih mô-tô rot bat.",
+      "es": "El ladrón se ha ido en moto.", "it": "Il ladro è scappato in moto.", "ru": "Вор уехал на мотоцикле.", "zh": "小偷骑摩托车跑了。", "zh_tr": "Xiǎotōu qí mótuōchē pǎo le."}
+    },
+    {
+      "fr": "voler", "en": "to steal", "km": "លួច", "tr": "louotch",
+      "es": "robar", "it": "rubare", "ru": "красть", "zh": "偷", "zh_tr": "tōu", "pos": "verbe",
+      "note": {
+        "fr": "លួច, « voler, dérober », et aussi « faire en cachette » : លួចមើល, « regarder en cachette ». Pour dire « on m'a volé… », le khmer dit គេលួច… ខ្ញុំ.",
+        "en": "លួច, “to steal”, and also “to do secretly”: លួចមើល, “to sneak a look”. “My… was stolen” is គេលួច… ខ្ញុំ, “they stole my…”. French « voler » also means “to fly”.",
+        "km": "« voler » មានន័យពីរ៖ លួច និង ហោះ៖ on m'a volé mon sac; l'oiseau vole។ អង់គ្លេស៖ « to steal » និង « to fly »។"
+      },
+      "example": {"fr": "On m'a volé mon téléphone.", "en": "My phone has been stolen.", "km": "គេលួចទូរស័ព្ទខ្ញុំ។", "tr": "ké louotch tou-ro-sap khgnom.",
+      "es": "Me han robado el teléfono.", "it": "Mi hanno rubato il telefono.", "ru": "У меня украли телефон.", "zh": "我的手机被偷了。", "zh_tr": "Wǒ de shǒujī bèi tōu le."}
+    },
+    {
+      "fr": "brûler", "en": "to burn", "km": "ឆេះ", "tr": "tchhéh",
+      "es": "arder", "it": "bruciare", "ru": "гореть", "zh": "着火", "zh_tr": "zháohuǒ", "pos": "verbe",
+      "note": {
+        "fr": "ឆេះ, « brûler, être en feu ». ភ្លើងឆេះ, « il y a le feu », mot à mot « le feu brûle » ; ភ្លើងឆេះផ្ទះ, « un incendie de maison ».",
+        "en": "ឆេះ, “to burn, to be on fire”. ភ្លើងឆេះ, “there's a fire”, literally “fire burns”; ភ្លើងឆេះផ្ទះ, “a house fire”. French « brûler »; a fire is « un incendie ».",
+        "km": "« brûler » មានន័យថា ឆេះ ហើយ « un incendie » គឺអគ្គិភ័យ។ អង់គ្លេស៖ « to burn », « a fire »។"
+      },
+      "example": {"fr": "La maison du voisin brûle !", "en": "The neighbour's house is on fire!", "km": "ផ្ទះអ្នកជិតខាងឆេះ!", "tr": "phtéah néak tchit khang tchhéh !",
+      "es": "¡La casa del vecino está ardiendo!", "it": "La casa del vicino brucia!", "ru": "Дом соседа горит!", "zh": "邻居的房子着火了！", "zh_tr": "Línjū de fángzi zháohuǒ le!"}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Au secours !", "en": "Help!", "km": "ជួយផង!", "tr": "tchouoy phâng !",
+      "es": "¡Socorro!", "it": "Aiuto!", "ru": "Помогите!", "zh": "救命！", "zh_tr": "Jiùmìng!",
+      "note": {
+        "fr": "ជួយ, « aider », et ផង, « aussi, s'il vous plaît » : à l'aide ! Crié fort, tout le voisinage accourt.",
+        "en": "ជួយ, “to help”, and ផង, “too, please”: help! Shouted loudly, it brings the whole neighbourhood running. French « Au secours ! ».",
+        "km": "« Au secours ! » ប្រើស្រែកសុំជំនួយពេលមានអាសន្ន។ អង់គ្លេស៖ « Help! »។"
+      }
+    },
+    {
+      "fr": "Au voleur !", "en": "Stop, thief!", "km": "ចោរ! ចោរ!", "tr": "tchao ! tchao !",
+      "es": "¡Al ladrón!", "it": "Al ladro!", "ru": "Держи вора!", "zh": "抓小偷！", "zh_tr": "Zhuā xiǎotōu!",
+      "note": {
+        "fr": "On crie simplement le mot ចោរ, deux fois. Les passants comprennent tout de suite.",
+        "en": "People simply shout the word ចោរ, twice. Passers-by understand at once. French « Au voleur ! ».",
+        "km": "« Au voleur ! » ប្រើស្រែកពេលឃើញចោរ។ អង់គ្លេស៖ « Stop, thief! »។"
+      }
+    },
+    {
+      "fr": "Appelez la police !", "en": "Call the police!", "km": "ជួយហៅប៉ូលិសផង!", "tr": "tchouoy hav po-lih phâng !",
+      "es": "¡Llame a la policía!", "it": "Chiami la polizia!", "ru": "Вызовите полицию!", "zh": "快报警！", "zh_tr": "Kuài bàojǐng!",
+      "note": {
+        "fr": "ហៅ, « appeler », et ប៉ូលិស, « police, policier ». Le numéro de la police est le 117. Le commissariat se dit ប៉ុស្តិ៍ប៉ូលិស.",
+        "en": "ហៅ, “to call”, and ប៉ូលិស, “police, police officer”. The police number is 117. The police station is ប៉ុស្តិ៍ប៉ូលិស. French « Appelez la police ! ».",
+        "km": "« Appelez la police ! » មានន័យថា ជួយហៅប៉ូលិសផង។ អង់គ្លេស៖ « Call the police! »។"
+      }
+    },
+    {
+      "fr": "Ça va, rien de grave.", "en": "It's all right, nothing serious.", "km": "មិនអីទេ មិនធ្ងន់ធ្ងរទេ។", "tr": "min ey té, min thngun-thngô té.",
+      "es": "Tranquilo, no es nada grave.", "it": "Tutto bene, niente di grave.", "ru": "Всё в порядке, ничего серьёзного.", "zh": "没事，不严重。", "zh_tr": "Méi shì, bù yánzhòng.",
+      "note": {
+        "fr": "ធ្ងន់ធ្ងរ, « grave, sérieux », construit sur ធ្ងន់, « lourd ». មិនធ្ងន់ធ្ងរទេ, « ce n'est pas grave » : ce qu'on dit pour rassurer.",
+        "en": "ធ្ងន់ធ្ងរ, “serious”, built on ធ្ងន់, “heavy”. មិនធ្ងន់ធ្ងរទេ, “it isn't serious”: what you say to reassure someone. French « rien de grave ».",
+        "km": "« rien de grave » មានន័យថា មិនធ្ងន់ធ្ងរទេ។ អង់គ្លេស៖ « nothing serious »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Sur la route", "en": "On the road", "km": "នៅតាមផ្លូវ"},
+      "fr": "Roule doucement ici, cette route est dangereuse la nuit.", "en": "Drive slowly here, this road is dangerous at night.",
+      "km": "បើកយឺតៗ ផ្លូវនេះគ្រោះថ្នាក់ណាស់នៅពេលយប់។", "tr": "baeuk yeut-yeut, phleuv nih kruoh-thnak nah neuv pél youp.",
+      "es": "Conduce despacio aquí, esta carretera es peligrosa de noche.", "it": "Guida piano qui, questa strada è pericolosa di notte.", "ru": "Езжай здесь медленно, ночью эта дорога опасна.", "zh": "在这儿开慢点儿，这条路晚上很危险。", "zh_tr": "Zài zhèr kāi màn diǎnr, zhè tiáo lù wǎnshang hěn wēixiǎn."
+    },
+    {
+      "situation": {"fr": "Au commissariat", "en": "At the police station", "km": "នៅប៉ុស្តិ៍ប៉ូលិស"},
+      "fr": "Je viens déclarer un vol : on m'a volé mon sac au marché.", "en": "I've come to report a theft: my bag was stolen at the market.",
+      "km": "ខ្ញុំមកប្តឹងរឿងចោរលួច គេលួចកាបូបខ្ញុំនៅផ្សារ។", "tr": "khgnom mok pdeung reuang tchao louotch, ké louotch ka-boup khgnom neuv phsa.",
+      "es": "Vengo a denunciar un robo: me han robado el bolso en el mercado.", "it": "Vengo a denunciare un furto: mi hanno rubato la borsa al mercato.", "ru": "Я пришёл заявить о краже: у меня украли сумку на рынке.", "zh": "我来报案：我的包在市场被偷了。", "zh_tr": "Wǒ lái bào'àn: wǒ de bāo zài shìchǎng bèi tōu le."
+    },
+    {
+      "situation": {"fr": "Après une chute", "en": "After a fall", "km": "ក្រោយពេលដួល"},
+      "fr": "Il est tombé de moto, mais il n'est que légèrement blessé.", "en": "He fell off his motorbike, but he is only slightly injured.",
+      "km": "គាត់ដួលម៉ូតូ ប៉ុន្តែរបួសស្រាលទេ។", "tr": "koat duol mô-tô, pon-taè ro-bouoh sral té.",
+      "es": "Se ha caído de la moto, pero solo tiene heridas leves.", "it": "È caduto dalla moto, ma è ferito solo leggermente.", "ru": "Он упал с мотоцикла, но ранен легко.", "zh": "他从摩托车上摔下来了，不过只受了轻伤。", "zh_tr": "Tā cóng mótuōchē shàng shuāi xiàlai le, búguò zhǐ shòu le qīngshāng."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} rentre à la maison en courant.", "en": "{B} comes running home.", "km": "{B} រត់ចូលផ្ទះ។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A} ! On vient de me voler mon téléphone !", "en": "{A}! Someone has just stolen my phone!", "km": "{A}! គេទើបតែលួចទូរស័ព្ទខ្ញុំ!", "tr": "{A} ! ké teup-taè louotch tou-ro-sap khgnom !",
+        "es": "¡{A}! ¡Me acaban de robar el teléfono!", "it": "{A}! Mi hanno appena rubato il telefono!", "ru": "{A}! У меня только что украли телефон!", "zh": "{A}！我的手机刚刚被偷了！", "zh_tr": "{A}! Wǒ de shǒujī gānggāng bèi tōu le!"},
+      {"speaker": "A", "fr": "Oh non ! Tu n'es pas blessé ?", "en": "Oh no! Are you hurt?", "km": "អូយ! {B} មានរបួសអីទេ?", "tr": "ôy ! {B} méan ro-bouoh ey té ?",
+        "es": "¡Oh, no! ¿Estás herido?", "it": "Oh no! Sei ferito?", "ru": "О нет! Ты не ранен?", "zh": "哎呀！你受伤了吗？", "zh_tr": "Āiyā! Nǐ shòushāng le ma?"},
+      {"speaker": "B", "fr": "Non, ça va, rien de grave. Le voleur est passé à moto, très vite.", "en": "No, I'm fine, nothing serious. The thief rode past on a motorbike, very fast.", "km": "អត់ទេ មិនអីទេ មិនធ្ងន់ធ្ងរទេ។ ចោរជិះម៉ូតូមកលឿនណាស់។", "tr": "ât té, min ey té, min thngun-thngô té. tchao tchih mô-tô mok leuan nah.",
+        "es": "No, estoy bien, nada grave. El ladrón ha pasado en moto, muy rápido.", "it": "No, sto bene, niente di grave. Il ladro è passato in moto, velocissimo.", "ru": "Нет, всё в порядке, ничего серьёзного. Вор очень быстро проехал мимо на мотоцикле.", "zh": "没有，没事，不严重。小偷骑着摩托车，一下子就过去了。", "zh_tr": "Méiyǒu, méi shì, bù yánzhòng. Xiǎotōu qízhe mótuōchē, yíxiàzi jiù guòqu le."},
+      {"speaker": "A", "fr": "C'est arrivé où ?", "en": "Where did it happen?", "km": "រឿងកើតឡើងនៅឯណា?", "tr": "reuang kaeut laeung neuv aè na ?",
+        "es": "¿Dónde ha sido?", "it": "Dov'è successo?", "ru": "Где это случилось?", "zh": "在哪儿发生的？", "zh_tr": "Zài nǎr fāshēng de?"},
+      {"speaker": "B", "fr": "Devant la banque. J'ai crié « Au voleur ! », mais il était déjà loin.", "en": "Outside the bank. I shouted “Stop, thief!”, but he was already far away.", "km": "នៅមុខធនាគារ។ ខ្ញុំស្រែកថា ចោរ! ចោរ! ប៉ុន្តែវាទៅឆ្ងាយបាត់ហើយ។", "tr": "neuv mouk thô-néa-kéa. khgnom sraèk tha tchao ! tchao ! pon-taè véa teuv tchhngay bat haeuy.",
+        "es": "Delante del banco. He gritado «¡Al ladrón!», pero ya estaba lejos.", "it": "Davanti alla banca. Ho gridato «Al ladro!», ma era già lontano.", "ru": "Перед банком. Я крикнул «Держи вора!», но он был уже далеко.", "zh": "在银行门口。我喊“抓小偷！”，可是他已经跑远了。", "zh_tr": "Zài yínháng ménkǒu. Wǒ hǎn “Zhuā xiǎotōu!”, kěshì tā yǐjīng pǎo yuǎn le."},
+      {"speaker": "A", "fr": "L'important, c'est que tu n'aies rien. Viens, on va à la police.", "en": "The main thing is that you're all right. Come on, let's go to the police.", "km": "សំខាន់គឺ {B} មិនអីទេ។ តោះ យើងទៅប៉ុស្តិ៍ប៉ូលិស។", "tr": "sâm-khan keu {B} min ey té. tâh, yeung teuv poh po-lih.",
+        "es": "Lo importante es que estás bien. Ven, vamos a la policía.", "it": "L'importante è che tu stia bene. Vieni, andiamo alla polizia.", "ru": "Главное, что с тобой всё в порядке. Пойдём в полицию.", "zh": "最重要的是你没事。走，我们去警察局。", "zh_tr": "Zuì zhòngyào de shì nǐ méi shì. Zǒu, wǒmen qù jǐngchájú."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce qu'on a volé à {B} ?", "en": "What was stolen from {B}?", "km": "គេលួចអ្វីពី {B}?"},
+    "answer": {"fr": "Son téléphone.", "en": "The phone.", "km": "ទូរស័ព្ទ។"}
+  }
+}

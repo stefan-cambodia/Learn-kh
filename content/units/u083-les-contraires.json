@@ -1,0 +1,159 @@
+{
+  "id": "u083",
+  "order": 83,
+  "level": "intermediaire",
+  "theme": "les-contraires",
+  "title": {"fr": "Lourd ou léger, plein ou vide", "en": "Heavy or light, full or empty", "km": "ធ្ងន់ឬស្រាល ពេញឬទទេ"},
+  "tip": {
+    "fr": "En khmer, l'adjectif suit le nom et ne s'accorde jamais : កាបូបធ្ងន់, « un sac lourd ». Il sert aussi de verbe, sans « être » : កាបូបធ្ងន់ veut dire aussi « le sac est lourd ». Pour dire le contraire, il suffit de មិន… ទេ : មិនធ្ងន់ទេ, « ce n'est pas lourd ».",
+    "en": "In Khmer the adjective follows the noun and never changes: កាបូបធ្ងន់, “a heavy bag”. It also works as a verb, with no “to be”: the same words mean “the bag is heavy”. French adjectives agree with the noun: lourd, lourde; léger, légère; plein, pleine.",
+    "km": "គុណនាមបារាំងប្តូរតាមភេទ៖ lourd / lourde, léger / légère, long / longue, court / courte, plein / pleine; « vide » មិនប្តូរទេ។ អង់គ្លេស៖ គុណនាមមិនប្តូរ ហើយដាក់មុខនាម៖ a heavy bag។"
+  },
+  "vocabulary": [
+    {
+      "fr": "lourd", "en": "heavy", "km": "ធ្ងន់", "tr": "thngun",
+      "es": "pesado", "it": "pesante", "ru": "тяжёлый", "zh": "重", "zh_tr": "zhòng", "pos": "adjectif",
+      "note": {
+        "fr": "ធ្ងន់, « lourd » ; au figuré, « grave, fort » : ឈឺធ្ងន់, « gravement malade » ; ភ្លៀងធ្ងន់, « forte pluie ».",
+        "en": "ធ្ងន់, “heavy”; figuratively “serious, strong”: ឈឺធ្ងន់, “seriously ill”; ភ្លៀងធ្ងន់, “heavy rain”. French « lourd », feminine « lourde ».",
+        "km": "« lourd » មានន័យថា ធ្ងន់ (ភេទស្រី៖ lourde)។ អង់គ្លេស៖ « heavy »។"
+      },
+      "example": {"fr": "Ce sac de riz est très lourd.", "en": "This sack of rice is very heavy.", "km": "បាវអង្ករនេះធ្ងន់ណាស់។", "tr": "bav âng-kâ nih thngun nah.",
+      "es": "Este saco de arroz pesa mucho.", "it": "Questo sacco di riso è molto pesante.", "ru": "Этот мешок риса очень тяжёлый.", "zh": "这袋大米很重。", "zh_tr": "Zhè dài dàmǐ hěn zhòng."}
+    },
+    {
+      "fr": "léger", "en": "light", "km": "ស្រាល", "tr": "sral",
+      "es": "ligero", "it": "leggero", "ru": "лёгкий", "zh": "轻", "zh_tr": "qīng", "pos": "adjectif",
+      "note": {
+        "fr": "ស្រាល, « léger » ; aussi « doux, pas fort » : ថ្នាំស្រាល, « un médicament léger ». ធូរស្រាល, « soulagé, qui va mieux ».",
+        "en": "ស្រាល, “light”; also “mild”: ថ្នាំស្រាល, “a mild medicine”. ធូរស្រាល, “relieved, feeling better”. French « léger », feminine « légère ».",
+        "km": "« léger » មានន័យថា ស្រាល (ភេទស្រី៖ légère)។ អង់គ្លេស៖ « light »; ពាក្យនេះក៏មានន័យថា ពន្លឺ ដែរ។"
+      },
+      "example": {"fr": "Je voyage avec un sac léger.", "en": "I travel with a light bag.", "km": "ខ្ញុំធ្វើដំណើរជាមួយកាបូបស្រាល។", "tr": "khgnom thveu dâm-naeu tchéa-mouy ka-boup sral.",
+      "es": "Viajo con una bolsa ligera.", "it": "Viaggio con una borsa leggera.", "ru": "Я путешествую с лёгкой сумкой.", "zh": "我带着很轻的包旅行。", "zh_tr": "Wǒ dàizhe hěn qīng de bāo lǚxíng."}
+    },
+    {
+      "fr": "long", "en": "long", "km": "វែង", "tr": "vaèng",
+      "es": "largo", "it": "lungo", "ru": "длинный", "zh": "长", "zh_tr": "cháng", "pos": "adjectif",
+      "note": {
+        "fr": "វែង, « long » dans l'espace : សក់វែង, « cheveux longs » ; ផ្លូវវែង, « longue route ». Pour le temps, on dit plutôt យូរ, « longtemps ».",
+        "en": "វែង, “long” in space: សក់វែង, “long hair”; ផ្លូវវែង, “a long road”. For time, use យូរ, “a long time”. French « long », feminine « longue ».",
+        "km": "« long » មានន័យថា វែង (ភេទស្រី៖ longue)។ អង់គ្លេស៖ « long » ប្រើទាំងប្រវែង និងពេលវេលា៖ a long time។"
+      },
+      "example": {"fr": "Cette jupe est trop longue pour moi.", "en": "This skirt is too long for me.", "km": "សំពត់នេះវែងពេកសម្រាប់ខ្ញុំ។", "tr": "sâm-pot nih vaèng pék sâm-rap khgnom.",
+      "es": "Esta falda es demasiado larga para mí.", "it": "Questa gonna è troppo lunga per me.", "ru": "Эта юбка мне слишком длинна.", "zh": "这条裙子对我来说太长了。", "zh_tr": "Zhè tiáo qúnzi duì wǒ lái shuō tài cháng le."}
+    },
+    {
+      "fr": "court", "en": "short", "km": "ខ្លី", "tr": "khley",
+      "es": "corto", "it": "corto", "ru": "короткий", "zh": "短", "zh_tr": "duǎn", "pos": "adjectif",
+      "note": {
+        "fr": "ខ្លី, « court », pour une chose ou une durée : សក់ខ្លី, « cheveux courts » ; ពេលខ្លី, « peu de temps ». Pour une personne de petite taille, on dit ទាប.",
+        "en": "ខ្លី, “short”, for a thing or a length of time: សក់ខ្លី, “short hair”; ពេលខ្លី, “a short time”. A short person is ទាប. French « court », feminine « courte »; for a person, « petit ».",
+        "km": "« court » មានន័យថា ខ្លី (ភេទស្រី៖ courte)។ អង់គ្លេស៖ « short » ប្រើទាំងរបស់ខ្លី និងមនុស្សទាប។"
+      },
+      "example": {"fr": "Il fait chaud, je mets un pantalon court.", "en": "It's hot, I'm putting on shorts.", "km": "ក្តៅណាស់ ខ្ញុំស្លៀកខោខ្លី។", "tr": "kdav nah, khgnom sliek khao khley.",
+      "es": "Hace calor, me pongo un pantalón corto.", "it": "Fa caldo, mi metto i pantaloni corti.", "ru": "Жарко, я надену шорты.", "zh": "天气很热，我穿短裤。", "zh_tr": "Tiānqì hěn rè, wǒ chuān duǎnkù."}
+    },
+    {
+      "fr": "plein", "en": "full", "km": "ពេញ", "tr": "pégn",
+      "es": "lleno", "it": "pieno", "ru": "полный", "zh": "满", "zh_tr": "mǎn", "pos": "adjectif",
+      "note": {
+        "fr": "ពេញ, « plein, rempli » : ពេញមួយថ្ងៃ, « toute la journée » ; ពេញចិត្ត, « satisfait », mot à mot « le cœur plein ». Après un repas, on dit ឆ្អែត, « rassasié ».",
+        "en": "ពេញ, “full, filled”: ពេញមួយថ្ងៃ, “all day long”; ពេញចិត្ត, “satisfied”, literally “full heart”. “Full” after a meal is ឆ្អែត. French « plein », feminine « pleine ».",
+        "km": "« plein » មានន័យថា ពេញ (ភេទស្រី៖ pleine)។ អង់គ្លេស៖ « full »; « I'm full » គឺខ្ញុំឆ្អែតហើយ។"
+      },
+      "example": {"fr": "Le bus est plein.", "en": "The bus is full.", "km": "ឡានក្រុងពេញហើយ។", "tr": "lan-krong pégn haeuy.",
+      "es": "El autobús está lleno.", "it": "L'autobus è pieno.", "ru": "Автобус полный.", "zh": "公共汽车满了。", "zh_tr": "Gōnggòng qìchē mǎn le."}
+    },
+    {
+      "fr": "vide", "en": "empty", "km": "ទទេ", "tr": "tô-té",
+      "es": "vacío", "it": "vuoto", "ru": "пустой", "zh": "空", "zh_tr": "kōng", "pos": "adjectif",
+      "note": {
+        "fr": "ទទេ, « vide » : ដបទទេ, « bouteille vide » ; ដៃទទេ, « les mains vides ». Le mot veut aussi dire « nature, sans rien » : បាយទទេ, « du riz sans accompagnement ».",
+        "en": "ទទេ, “empty”: ដបទទេ, “an empty bottle”; ដៃទទេ, “empty-handed”. It also means “plain, with nothing added”: បាយទទេ, “plain rice”. French « vide » is the same in the masculine and the feminine.",
+        "km": "« vide » មានន័យថា ទទេ (ភេទប្រុសនិងស្រីដូចគ្នា)។ អង់គ្លេស៖ « empty »។"
+      },
+      "example": {"fr": "La bouteille est vide.", "en": "The bottle is empty.", "km": "ដបទទេហើយ។", "tr": "dâp tô-té haeuy.",
+      "es": "La botella está vacía.", "it": "La bottiglia è vuota.", "ru": "Бутылка пустая.", "zh": "瓶子空了。", "zh_tr": "Píngzi kōng le."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est trop lourd !", "en": "It's too heavy!", "km": "ធ្ងន់ពេក!", "tr": "thngun pék !",
+      "es": "¡Pesa demasiado!", "it": "È troppo pesante!", "ru": "Слишком тяжело!", "zh": "太重了！", "zh_tr": "Tài zhòng le!",
+      "note": {
+        "fr": "ពេក après l'adjectif veut dire « trop » : ធ្ងន់ពេក, វែងពេក, ខ្លីពេក, trop lourd, trop long, trop court.",
+        "en": "ពេក after the adjective means “too”: ធ្ងន់ពេក, វែងពេក, ខ្លីពេក, too heavy, too long, too short. French puts « trop » first: trop lourd.",
+        "km": "« trop » ដាក់មុខគុណនាម៖ trop lourd គឺធ្ងន់ពេក។ អង់គ្លេស៖ « too heavy »។"
+      }
+    },
+    {
+      "fr": "C'est le contraire.", "en": "It's the opposite.", "km": "ផ្ទុយទៅវិញ។", "tr": "phtouy teuv vign.",
+      "es": "Es al revés.", "it": "È il contrario.", "ru": "Наоборот.", "zh": "正好相反。", "zh_tr": "Zhènghǎo xiāngfǎn.",
+      "note": {
+        "fr": "ផ្ទុយ, « opposé, contraire » ; ផ្ទុយទៅវិញ, « au contraire, c'est l'inverse ». ពាក្យផ្ទុយ, « un contraire », comme ធ្ងន់ et ស្រាល.",
+        "en": "ផ្ទុយ, “opposite”; ផ្ទុយទៅវិញ, “on the contrary, it's the other way round”. ពាក្យផ្ទុយ, “an opposite”, like ធ្ងន់ and ស្រាល. French « C'est le contraire. ».",
+        "km": "« C'est le contraire » មានន័យថា ផ្ទុយទៅវិញ។ អង់គ្លេស៖ « It's the opposite »។"
+      }
+    },
+    {
+      "fr": "C'est complet.", "en": "It's full.", "km": "ពេញហើយ។", "tr": "pégn haeuy.",
+      "es": "Está completo.", "it": "È al completo.", "ru": "Мест нет.", "zh": "满了。", "zh_tr": "Mǎn le.",
+      "note": {
+        "fr": "ពេញហើយ, « c'est plein » : ce qu'on entend à l'hôtel, au restaurant ou devant un minibus déjà bondé.",
+        "en": "ពេញហើយ, “it's full”: what you hear at a hotel, a restaurant or beside a packed minibus. French says « C'est complet. » when no rooms or seats are left.",
+        "km": "« C'est complet » ប្រើនៅសណ្ឋាគារ ភោជនីយដ្ឋាន ឬឡានក្រុង ពេលគ្មានកន្លែងទៀត។ អង់គ្លេស៖ « It's full »។"
+      }
+    },
+    {
+      "fr": "C'est un peu court.", "en": "It's a bit short.", "km": "ខ្លីបន្តិច។", "tr": "khley bân-tetch.",
+      "es": "Es un poco corto.", "it": "È un po' corto.", "ru": "Немного коротко.", "zh": "有点儿短。", "zh_tr": "Yǒudiǎnr duǎn.",
+      "note": {
+        "fr": "បន្តិច après l'adjectif veut dire « un peu » : ខ្លីបន្តិច, « un peu court » ; វែងបន្តិច, « un peu long ». Utile chez le couturier.",
+        "en": "បន្តិច after the adjective means “a bit”: ខ្លីបន្តិច, “a bit short”; វែងបន្តិច, “a bit long”. Useful at the tailor's. French « un peu court ».",
+        "km": "« un peu » ដាក់មុខគុណនាម៖ un peu court គឺខ្លីបន្តិច។ អង់គ្លេស៖ « a bit short »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À la gare routière", "en": "At the bus station", "km": "នៅចំណតឡានក្រុង"},
+      "fr": "Mon sac est léger, mais le tien est très lourd.", "en": "My bag is light, but yours is very heavy.",
+      "km": "កាបូបខ្ញុំស្រាល ប៉ុន្តែកាបូបអ្នកធ្ងន់ណាស់។", "tr": "ka-boup khgnom sral, pon-taè ka-boup néak thngun nah.",
+      "es": "Mi bolsa es ligera, pero la tuya pesa mucho.", "it": "La mia borsa è leggera, ma la tua è molto pesante.", "ru": "Моя сумка лёгкая, а твоя очень тяжёлая.", "zh": "我的包很轻，可是你的很重。", "zh_tr": "Wǒ de bāo hěn qīng, kěshì nǐ de hěn zhòng."
+    },
+    {
+      "situation": {"fr": "Chez le couturier", "en": "At the tailor's", "km": "នៅហាងកាត់ដេរ"},
+      "fr": "Les manches sont trop longues ; vous pouvez les raccourcir un peu ?", "en": "The sleeves are too long; could you shorten them a little?",
+      "km": "ដៃអាវវែងពេក ជួយកាត់ឱ្យខ្លីបន្តិចបានទេ?", "tr": "day av vaèng pék, tchouoy kat aoy khley bân-tetch ban té ?",
+      "es": "Las mangas son demasiado largas; ¿puede acortarlas un poco?", "it": "Le maniche sono troppo lunghe; può accorciarle un po'?", "ru": "Рукава слишком длинные; можете их немного укоротить?", "zh": "袖子太长了，您能改短一点儿吗？", "zh_tr": "Xiùzi tài cháng le, nín néng gǎi duǎn yìdiǎnr ma?"
+    },
+    {
+      "situation": {"fr": "À la campagne", "en": "In the countryside", "km": "នៅជនបទ"},
+      "fr": "Après la pluie, la jarre est pleine, mais hier elle était vide.", "en": "After the rain the water jar is full, but yesterday it was empty.",
+      "km": "ក្រោយភ្លៀង ពាងពេញទឹកហើយ ប៉ុន្តែម្សិលមិញវានៅទទេ។", "tr": "kraoy phlieng, péang pégn teuk haeuy, pon-taè msel-mign véa neuv tô-té.",
+      "es": "Después de la lluvia la tinaja está llena, pero ayer estaba vacía.", "it": "Dopo la pioggia la giara è piena, ma ieri era vuota.", "ru": "После дождя кувшин полон, а вчера он был пуст.", "zh": "下雨以后，水缸满了，可是昨天还是空的。", "zh_tr": "Xià yǔ yǐhòu, shuǐgāng mǎn le, kěshì zuótiān hái shì kōng de."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} chargent le tuk-tuk pour aller au village.", "en": "{A} and {B} are loading the tuk-tuk to go to the village.", "km": "{A} និង {B} ដាក់អីវ៉ាន់លើតុកតុកដើម្បីទៅភូមិ។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, tu peux porter ce carton ? Il est lourd.", "en": "{B}, can you carry this box? It's heavy.", "km": "{B} ជួយលើកកេសនេះបានទេ? វាធ្ងន់។", "tr": "{B}, tchouoy leuk kéh nih ban té ? véa thngun.",
+        "es": "{B}, ¿puedes llevar esta caja? Pesa mucho.", "it": "{B}, puoi portare questa scatola? È pesante.", "ru": "{B}, ты можешь понести эту коробку? Она тяжёлая.", "zh": "{B}，你能搬这个箱子吗？很重。", "zh_tr": "{B}, nǐ néng bān zhège xiāngzi ma? Hěn zhòng."},
+      {"speaker": "B", "fr": "Lourd ? Mais non, il est léger !", "en": "Heavy? Not at all, it's light!", "km": "ធ្ងន់? អត់ទេ ស្រាលទេតើ!", "tr": "thngun ? ât té, sral té taeu !",
+        "es": "¿Pesada? ¡Qué va, es ligera!", "it": "Pesante? Ma no, è leggera!", "ru": "Тяжёлая? Да нет, она лёгкая!", "zh": "重？不重啊，很轻！", "zh_tr": "Zhòng? Bú zhòng a, hěn qīng!"},
+      {"speaker": "A", "fr": "Ah, celui-là est vide. Le plein, c'est l'autre !", "en": "Oh, that one's empty. The full one is the other one!", "km": "អូ មួយនោះទទេ។ មួយពេញគឺមួយទៀត!", "tr": "ô, mouy nouh tô-té. mouy pégn keu mouy tiet !",
+        "es": "Ah, esa está vacía. ¡La llena es la otra!", "it": "Ah, quella è vuota. Quella piena è l'altra!", "ru": "А, та пустая. Полная — другая!", "zh": "哦，那个是空的。满的是另一个！", "zh_tr": "Ò, nàge shì kōng de. Mǎn de shì lìng yí ge!"},
+      {"speaker": "B", "fr": "Ouh là ! Celui-ci est vraiment trop lourd !", "en": "Whoa! This one really is too heavy!", "km": "អូយ! មួយនេះធ្ងន់ពេកមែន!", "tr": "ôy ! mouy nih thngun pék mèn !",
+        "es": "¡Uf! ¡Esta sí que pesa demasiado!", "it": "Uffa! Questa è davvero troppo pesante!", "ru": "Ох! Эта и правда слишком тяжёлая!", "zh": "哎呀！这个真的太重了！", "zh_tr": "Āiyā! Zhège zhēn de tài zhòng le!"},
+      {"speaker": "A", "fr": "On le porte à deux. La route est longue, il ne faut rien oublier.", "en": "Let's carry it together. It's a long road, we mustn't forget anything.", "km": "យើងលើកពីរនាក់។ ផ្លូវវែងណាស់ កុំភ្លេចអ្វីណា។", "tr": "yeung leuk pi néak. phleuv vaèng nah, kom phlétch ey na.",
+        "es": "La llevamos entre los dos. El camino es largo, no hay que olvidar nada.", "it": "La portiamo in due. La strada è lunga, non bisogna dimenticare niente.", "ru": "Понесём вдвоём. Дорога длинная, нельзя ничего забыть.", "zh": "我们两个人一起抬。路很长，什么都不能忘。", "zh_tr": "Wǒmen liǎng ge rén yìqǐ tái. Lù hěn cháng, shénme dōu bù néng wàng."},
+      {"speaker": "B", "fr": "Regarde, le tuk-tuk est déjà plein !", "en": "Look, the tuk-tuk is already full!", "km": "មើល តុកតុកពេញហើយ!", "tr": "meul, tok-tok pégn haeuy !",
+        "es": "¡Mira, el tuk-tuk ya está lleno!", "it": "Guarda, il tuk-tuk è già pieno!", "ru": "Смотри, тук-тук уже полный!", "zh": "你看，嘟嘟车已经满了！", "zh_tr": "Nǐ kàn, dūdū chē yǐjīng mǎn le!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi le premier carton est-il léger ?", "en": "Why is the first box light?", "km": "ហេតុអ្វីកេសទីមួយស្រាល?"},
+    "answer": {"fr": "Parce qu'il est vide.", "en": "Because it is empty.", "km": "ព្រោះវាទទេ។"}
+  }
+}

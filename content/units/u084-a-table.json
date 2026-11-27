@@ -1,0 +1,159 @@
+{
+  "id": "u084",
+  "order": 84,
+  "level": "intermediaire",
+  "theme": "a-table",
+  "title": {"fr": "À table : assiettes et couverts", "en": "At the table: plates and cutlery", "km": "នៅតុបាយ៖ ចាន និងស្លាបព្រា"},
+  "tip": {
+    "fr": "À la table khmère, on tient la cuillère dans la main droite et la fourchette dans la gauche : la fourchette pousse le riz dans la cuillère, et c'est la cuillère qui va à la bouche. Pas de couteau : tout est déjà coupé. Les baguettes ne servent que pour les nouilles.",
+    "en": "At a Khmer table the spoon goes in the right hand and the fork in the left: the fork pushes rice onto the spoon, and the spoon goes to the mouth. No knife is needed: everything is already cut up. Chopsticks are only for noodles. In France, people eat with a fork and a knife.",
+    "km": "នៅប្រទេសបារាំង គេញ៉ាំដោយកាន់សម (la fourchette) នៅដៃឆ្វេង និងកាំបិត (le couteau) នៅដៃស្តាំ។ ស្លាបព្រា (la cuillère) ប្រើសម្រាប់តែស៊ុប និងបង្អែម។ មុនញ៉ាំ គេនិយាយថា « Bon appétit ! »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "l'assiette", "en": "plate", "km": "ចាន", "tr": "tchan",
+      "es": "el plato", "it": "il piatto", "ru": "тарелка", "zh": "盘子", "zh_tr": "pánzi", "pos": "nom",
+      "note": {
+        "fr": "ចាន, « assiette », et plus largement toute la vaisselle : លាងចាន, « faire la vaisselle ». Le mot sert aussi à compter les portions : បាយមួយចាន, « une assiette de riz ».",
+        "en": "ចាន, “plate”, and by extension all the dishes: លាងចាន, “to do the washing-up”. It also counts servings: បាយមួយចាន, “a plate of rice”. French « l'assiette » is feminine: une assiette.",
+        "km": "« l'assiette » មានន័យថា ចាន (ភេទស្រី)៖ une assiette de riz។ អង់គ្លេស៖ « plate »។"
+      },
+      "example": {"fr": "Il manque une assiette.", "en": "We are one plate short.", "km": "ខ្វះចានមួយ។", "tr": "khvah tchan mouy.",
+      "es": "Falta un plato.", "it": "Manca un piatto.", "ru": "Не хватает одной тарелки.", "zh": "少一个盘子。", "zh_tr": "Shǎo yí ge pánzi."}
+    },
+    {
+      "fr": "le bol", "en": "bowl", "km": "ចានគោម", "tr": "tchan kôm",
+      "es": "el cuenco", "it": "la ciotola", "ru": "миска", "zh": "碗", "zh_tr": "wǎn", "pos": "nom",
+      "note": {
+        "fr": "ចានគោម, « bol » : une assiette creuse et ronde. On y sert la soupe, que chacun verse ensuite sur son riz.",
+        "en": "ចានគោម, “bowl”: a deep round dish. Soup is served in it, and each person then spoons it over their rice. French « le bol ».",
+        "km": "« le bol » មានន័យថា ចានគោម៖ un bol de soupe។ អង់គ្លេស៖ « bowl »។"
+      },
+      "example": {"fr": "Un bol de soupe, s'il vous plaît.", "en": "A bowl of soup, please.", "km": "សុំសម្លមួយចានគោម។", "tr": "som sâm-lâ mouy tchan kôm.",
+      "es": "Un cuenco de sopa, por favor.", "it": "Una ciotola di zuppa, per favore.", "ru": "Миску супа, пожалуйста.", "zh": "请给我一碗汤。", "zh_tr": "Qǐng gěi wǒ yì wǎn tāng."}
+    },
+    {
+      "fr": "la cuillère", "en": "spoon", "km": "ស្លាបព្រា", "tr": "slap-préa",
+      "es": "la cuchara", "it": "il cucchiaio", "ru": "ложка", "zh": "勺子", "zh_tr": "sháozi", "pos": "nom",
+      "note": {
+        "fr": "ស្លាបព្រា, « cuillère » : le couvert principal au Cambodge. ស្លាបព្រាកាហ្វេ, « cuillère à café » ; ស្លាបព្រាបាយ, « cuillère à soupe ».",
+        "en": "ស្លាបព្រា, “spoon”: the main piece of cutlery in Cambodia. ស្លាបព្រាកាហ្វេ, “teaspoon”; ស្លាបព្រាបាយ, “tablespoon”. French « la cuillère ».",
+        "km": "« la cuillère » មានន័យថា ស្លាបព្រា; « une cuillère à café » គឺស្លាបព្រាកាហ្វេ។ អង់គ្លេស៖ « spoon », « teaspoon »។"
+      },
+      "example": {"fr": "Au Cambodge, on mange le riz avec une cuillère.", "en": "In Cambodia, people eat rice with a spoon.", "km": "នៅកម្ពុជា គេញ៉ាំបាយនឹងស្លាបព្រា។", "tr": "neuv kâm-pou-tchéa, ké gnam bay neung slap-préa.",
+      "es": "En Camboya, el arroz se come con cuchara.", "it": "In Cambogia il riso si mangia con il cucchiaio.", "ru": "В Камбодже рис едят ложкой.", "zh": "在柬埔寨，人们用勺子吃饭。", "zh_tr": "Zài Jiǎnpǔzhài, rénmen yòng sháozi chīfàn."}
+    },
+    {
+      "fr": "la fourchette", "en": "fork", "km": "សម", "tr": "sâm",
+      "es": "el tenedor", "it": "la forchetta", "ru": "вилка", "zh": "叉子", "zh_tr": "chāzi", "pos": "nom",
+      "note": {
+        "fr": "សម, « fourchette ». Le même mot, dans un autre emploi, veut dire « convenir » : សមនឹងអ្នក, « ça te va bien ».",
+        "en": "សម, “fork”. In another use the same word means “to suit”: សមនឹងអ្នក, “it suits you”. French « la fourchette ».",
+        "km": "« la fourchette » មានន័យថា សម។ អង់គ្លេស៖ « fork »។"
+      },
+      "example": {"fr": "La fourchette sert à pousser le riz dans la cuillère.", "en": "The fork is used to push the rice onto the spoon.", "km": "គេប្រើសមរុញបាយដាក់ក្នុងស្លាបព្រា។", "tr": "ké praeu sâm rougn bay dak knong slap-préa.",
+      "es": "El tenedor sirve para empujar el arroz hacia la cuchara.", "it": "La forchetta serve a spingere il riso nel cucchiaio.", "ru": "Вилкой подталкивают рис в ложку.", "zh": "叉子是用来把米饭推到勺子里的。", "zh_tr": "Chāzi shì yònglái bǎ mǐfàn tuī dào sháozi lǐ de."}
+    },
+    {
+      "fr": "le couteau", "en": "knife", "km": "កាំបិត", "tr": "kam-bet",
+      "es": "el cuchillo", "it": "il coltello", "ru": "нож", "zh": "刀", "zh_tr": "dāo", "pos": "nom",
+      "note": {
+        "fr": "កាំបិត, « couteau » : il reste à la cuisine, on n'en met pas à table. Pour dire qu'il coupe bien, on dit មុត, « tranchant ».",
+        "en": "កាំបិត, “knife”: it stays in the kitchen and is not laid on the table. A knife that cuts well is មុត, “sharp”. French « le couteau », plural « les couteaux ».",
+        "km": "« le couteau » មានន័យថា កាំបិត; ពហុវចនៈ៖ les couteaux។ អង់គ្លេស៖ « knife », ពហុវចនៈ « knives »។"
+      },
+      "example": {"fr": "Ce couteau coupe bien.", "en": "This knife cuts well.", "km": "កាំបិតនេះមុតល្អ។", "tr": "kam-bet nih mout l'â.",
+      "es": "Este cuchillo corta bien.", "it": "Questo coltello taglia bene.", "ru": "Этот нож хорошо режет.", "zh": "这把刀很快。", "zh_tr": "Zhè bǎ dāo hěn kuài."}
+    },
+    {
+      "fr": "les baguettes", "en": "chopsticks", "km": "ចង្កឹះ", "tr": "tchâng-keuh",
+      "es": "los palillos", "it": "le bacchette", "ru": "палочки для еды", "zh": "筷子", "zh_tr": "kuàizi", "pos": "nom",
+      "note": {
+        "fr": "ចង្កឹះ, « baguettes ». Elles attendent dans un pot sur la table des vendeurs de nouilles ; on les compte par paires : ចង្កឹះមួយគូ.",
+        "en": "ចង្កឹះ, “chopsticks”. They stand in a pot on noodle-stall tables and are counted in pairs: ចង្កឹះមួយគូ. French « les baguettes »; « la baguette » is also the long loaf of bread.",
+        "km": "« les baguettes » មានន័យថា ចង្កឹះ; « la baguette » ក៏ជានំប៉័ងវែងរបស់បារាំងដែរ។ អង់គ្លេស៖ « chopsticks »។"
+      },
+      "example": {"fr": "On mange les nouilles avec des baguettes.", "en": "Noodles are eaten with chopsticks.", "km": "គេញ៉ាំមីនឹងចង្កឹះ។", "tr": "ké gnam mi neung tchâng-keuh.",
+      "es": "Los fideos se comen con palillos.", "it": "I noodles si mangiano con le bacchette.", "ru": "Лапшу едят палочками.", "zh": "吃面条用筷子。", "zh_tr": "Chī miàntiáo yòng kuàizi."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "On passe à table !", "en": "Dinner's ready!", "km": "មកញ៉ាំបាយ!", "tr": "mok gnam bay !",
+      "es": "¡A comer!", "it": "A tavola!", "ru": "К столу!", "zh": "吃饭了！", "zh_tr": "Chīfàn le!",
+      "note": {
+        "fr": "មកញ៉ាំបាយ, mot à mot « viens manger le riz » : l'appel qui réunit toute la maison. On ne commence pas avant que les aînés se soient servis.",
+        "en": "មកញ៉ាំបាយ, literally “come and eat rice”: the call that brings the whole household together. Nobody starts before the elders have helped themselves. French « On passe à table ! » or « À table ! ».",
+        "km": "« On passe à table ! » ឬ « À table ! » ប្រើហៅគ្រប់គ្នាមកញ៉ាំបាយ។ អង់គ្លេស៖ « Dinner's ready! »។"
+      }
+    },
+    {
+      "fr": "Je peux avoir une fourchette ?", "en": "Could I have a fork?", "km": "សុំសមមួយបានទេ?", "tr": "som sâm mouy ban té ?",
+      "es": "¿Me trae un tenedor?", "it": "Posso avere una forchetta?", "ru": "Можно вилку?", "zh": "可以给我一个叉子吗？", "zh_tr": "Kěyǐ gěi wǒ yí ge chāzi ma?",
+      "note": {
+        "fr": "សុំ + la chose + មួយ + បានទេ? : la formule polie pour demander un objet au restaurant. On change seulement le nom : សុំស្លាបព្រាមួយបានទេ?",
+        "en": "សុំ + the thing + មួយ + បានទេ? is the polite way to ask for something in a restaurant. Only the noun changes: សុំស្លាបព្រាមួយបានទេ? French « Je peux avoir… ? ».",
+        "km": "« Je peux avoir une fourchette ? » ប្រើសុំរបស់អ្វីមួយដោយគួរសម។ អង់គ្លេស៖ « Could I have a fork? »។"
+      }
+    },
+    {
+      "fr": "Ressers-toi !", "en": "Have some more!", "km": "ញ៉ាំថែមទៀត!", "tr": "gnam thaèm tiet !",
+      "es": "¡Sírvete más!", "it": "Prendine ancora!", "ru": "Бери ещё!", "zh": "再吃点儿！", "zh_tr": "Zài chī diǎnr!",
+      "note": {
+        "fr": "ថែម, « ajouter », et ទៀត, « encore » : mange encore ! L'hôte le répète plusieurs fois ; refuser poliment une première fois est normal.",
+        "en": "ថែម, “to add”, and ទៀត, “more”: eat some more! The host says it several times; politely refusing the first time is normal. French « Ressers-toi ! ».",
+        "km": "« Ressers-toi ! » មានន័យថា ញ៉ាំថែមទៀត! និយាយទៅកាន់ភ្ញៀវ។ អង់គ្លេស៖ « Have some more! »។"
+      }
+    },
+    {
+      "fr": "Mets la table, s'il te plaît.", "en": "Lay the table, please.", "km": "ជួយរៀបតុផង។", "tr": "tchouoy riep tok phâng.",
+      "es": "Pon la mesa, por favor.", "it": "Apparecchia la tavola, per favore.", "ru": "Накрой на стол, пожалуйста.", "zh": "请摆一下餐具。", "zh_tr": "Qǐng bǎi yíxià cānjù.",
+      "note": {
+        "fr": "រៀប, « arranger, préparer », et តុ, « table » : mettre la table. ជួយ… ផង adoucit la demande, comme « s'il te plaît ».",
+        "en": "រៀប, “to arrange, to prepare”, and តុ, “table”: to lay the table. ជួយ… ផង softens the request, like “please”. French « mettre la table ».",
+        "km": "« mettre la table » មានន័យថា រៀបតុ។ អង់គ្លេស៖ « to lay the table » ឬ « to set the table »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Avant le repas", "en": "Before the meal", "km": "មុនពេលញ៉ាំបាយ"},
+      "fr": "Mets les assiettes et les cuillères sur la table, s'il te plaît.", "en": "Put the plates and spoons on the table, please.",
+      "km": "ជួយដាក់ចាន និងស្លាបព្រាលើតុផង។", "tr": "tchouoy dak tchan ning slap-préa leu tok phâng.",
+      "es": "Pon los platos y las cucharas en la mesa, por favor.", "it": "Metti i piatti e i cucchiai sul tavolo, per favore.", "ru": "Положи, пожалуйста, на стол тарелки и ложки.", "zh": "请把盘子和勺子放在桌子上。", "zh_tr": "Qǐng bǎ pánzi hé sháozi fàng zài zhuōzi shàng."
+    },
+    {
+      "situation": {"fr": "Au restaurant", "en": "At the restaurant", "km": "នៅភោជនីយដ្ឋាន"},
+      "fr": "Excusez-moi, ce verre n'est pas propre ; vous pouvez le changer ?", "en": "Excuse me, this glass isn't clean; could you change it?",
+      "km": "សុំទោស កែវនេះមិនស្អាតទេ ជួយប្តូរឱ្យបានទេ?", "tr": "som toh, kaèv nih min s'at té, tchouoy pdou aoy ban té ?",
+      "es": "Perdone, este vaso no está limpio; ¿puede cambiármelo?", "it": "Scusi, questo bicchiere non è pulito; può cambiarlo?", "ru": "Извините, этот стакан грязный; можете его заменить?", "zh": "不好意思，这个杯子不干净，能换一个吗？", "zh_tr": "Bù hǎoyìsi, zhège bēizi bù gānjìng, néng huàn yí ge ma?"
+    },
+    {
+      "situation": {"fr": "Chez des amis khmers", "en": "At Khmer friends' house", "km": "នៅផ្ទះមិត្តភក្តិខ្មែរ"},
+      "fr": "Tout le monde se sert dans les plats du milieu avec la cuillère commune.", "en": "Everyone helps themselves from the dishes in the middle with the shared spoon.",
+      "km": "ទាំងអស់គ្នាដួសម្ហូបពីចានកណ្តាលដោយប្រើស្លាបព្រារួម។", "tr": "téang âh knéa douoh mhôp pi tchan kân-dal daoy praeu slap-préa rouom.",
+      "es": "Todos se sirven de los platos del centro con la cuchara común.", "it": "Tutti si servono dai piatti al centro con il cucchiaio comune.", "ru": "Все берут еду из блюд в центре стола общей ложкой.", "zh": "大家用公勺从中间的盘子里取菜。", "zh_tr": "Dàjiā yòng gōngsháo cóng zhōngjiān de pánzi lǐ qǔ cài."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} met la table pour le dîner.", "en": "{B} is laying the table for dinner.", "km": "{B} រៀបតុសម្រាប់បាយល្ងាច។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, je mets les couteaux et les fourchettes ?", "en": "{A}, shall I put out the knives and forks?", "km": "{A} ត្រូវដាក់កាំបិត និងសមទេ?", "tr": "{A}, treuv dak kam-bet ning sâm té ?",
+        "es": "{A}, ¿pongo los cuchillos y los tenedores?", "it": "{A}, metto i coltelli e le forchette?", "ru": "{A}, положить ножи и вилки?", "zh": "{A}，我摆刀和叉子吗？", "zh_tr": "{A}, wǒ bǎi dāo hé chāzi ma?"},
+      {"speaker": "A", "fr": "Pas de couteau ! Ici, on mange avec une cuillère et une fourchette.", "en": "No knives! Here we eat with a spoon and a fork.", "km": "មិនបាច់កាំបិតទេ! នៅទីនេះ គេញ៉ាំនឹងស្លាបព្រា និងសម។", "tr": "min batch kam-bet té ! neuv ti-nih, ké gnam neung slap-préa ning sâm.",
+        "es": "¡Cuchillos no! Aquí se come con cuchara y tenedor.", "it": "Niente coltelli! Qui si mangia con cucchiaio e forchetta.", "ru": "Ножи не нужны! Здесь едят ложкой и вилкой.", "zh": "不用刀！这里吃饭用勺子和叉子。", "zh_tr": "Búyòng dāo! Zhèlǐ chīfàn yòng sháozi hé chāzi."},
+      {"speaker": "B", "fr": "Et pour la soupe, il faut des bols ?", "en": "And for the soup, do we need bowls?", "km": "ចុះសម្លវិញ ត្រូវការចានគោមទេ?", "tr": "tchoh sâm-lâ vign, treuv-ka tchan kôm té ?",
+        "es": "¿Y para la sopa hacen falta cuencos?", "it": "E per la zuppa servono le ciotole?", "ru": "А для супа нужны миски?", "zh": "那喝汤需要碗吗？", "zh_tr": "Nà hē tāng xūyào wǎn ma?"},
+      {"speaker": "A", "fr": "Oui, un petit bol pour chacun. Les baguettes, c'est pour les nouilles.", "en": "Yes, a small bowl each. Chopsticks are for noodles.", "km": "{A_yes} ម្នាក់ចានគោមតូចមួយ។ ចង្កឹះសម្រាប់ញ៉ាំមី។", "tr": "{A_yes}, mnéak tchan kôm tôtch mouy. tchâng-keuh sâm-rap gnam mi.",
+        "es": "Sí, un cuenco pequeño para cada uno. Los palillos son para los fideos.", "it": "Sì, una ciotolina a testa. Le bacchette sono per i noodles.", "ru": "Да, каждому по маленькой миске. А палочки — для лапши.", "zh": "需要，每人一个小碗。筷子是吃面条用的。", "zh_tr": "Xūyào, měi rén yí ge xiǎo wǎn. Kuàizi shì chī miàntiáo yòng de."},
+      {"speaker": "B", "fr": "D'accord. Il manque une assiette, non ?", "en": "All right. We're one plate short, aren't we?", "km": "បាន។ ខ្វះចានមួយមែនទេ?", "tr": "ban. khvah tchan mouy mèn té ?",
+        "es": "Vale. Falta un plato, ¿no?", "it": "Va bene. Manca un piatto, no?", "ru": "Хорошо. Не хватает одной тарелки, да?", "zh": "好。少一个盘子，对吧？", "zh_tr": "Hǎo. Shǎo yí ge pánzi, duì ba?"},
+      {"speaker": "A", "fr": "Tu as raison ! Elle est dans la cuisine. Allez, on passe à table !", "en": "You're right! It's in the kitchen. Come on, dinner's ready!", "km": "និយាយត្រូវ! វានៅក្នុងផ្ទះបាយ។ តោះ មកញ៉ាំបាយ!", "tr": "ni-yéay treuv ! véa neuv knong phtéah bay. tâh, mok gnam bay !",
+        "es": "¡Tienes razón! Está en la cocina. ¡Venga, a comer!", "it": "Hai ragione! È in cucina. Dai, a tavola!", "ru": "Ты прав! Она на кухне. Ну всё, к столу!", "zh": "你说得对！在厨房里。来，吃饭了！", "zh_tr": "Nǐ shuō de duì! Zài chúfáng lǐ. Lái, chīfàn le!"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Avec quoi mange-t-on les nouilles ?", "en": "What do people eat noodles with?", "km": "គេញ៉ាំមីនឹងអ្វី?"},
+    "answer": {"fr": "Avec des baguettes.", "en": "With chopsticks.", "km": "នឹងចង្កឹះ។"}
+  }
+}

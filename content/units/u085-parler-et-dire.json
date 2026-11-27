@@ -1,0 +1,159 @@
+{
+  "id": "u085",
+  "order": 85,
+  "level": "intermediaire",
+  "theme": "parler-et-dire",
+  "title": {"fr": "Parler, dire, demander", "en": "Speaking, telling, asking", "km": "និយាយ ប្រាប់ សួរ"},
+  "tip": {
+    "fr": "និយាយ veut dire « parler », ប្រាប់ « dire à quelqu'un », et ថា introduit les paroles rapportées, comme « que » : គាត់ប្រាប់ថា…, « il dit que… ». ថា peut aussi servir de verbe à lui seul : គេថា…, « on dit que… ».",
+    "en": "និយាយ means “to speak”, ប្រាប់ “to tell someone”, and ថា introduces reported words, like “that”: គាត់ប្រាប់ថា…, “he says that…”. French: « parler » is to speak, « dire » is to say or to tell, and « que » introduces what is said: il dit que…",
+    "km": "ភាសាបារាំង៖ « parler » គឺនិយាយ ហើយ « dire » គឺប្រាប់ ឬថា។ ក្រោយ « dire » គេប្រើ « que »៖ il dit que c'est bon។ អង់គ្លេស៖ « to speak », « to say », « to tell »៖ he says that it is good។"
+  },
+  "vocabulary": [
+    {
+      "fr": "parler", "en": "to speak", "km": "និយាយ", "tr": "ni-yéay",
+      "es": "hablar", "it": "parlare", "ru": "говорить", "zh": "说话", "zh_tr": "shuōhuà", "pos": "verbe",
+      "note": {
+        "fr": "និយាយ, « parler, dire ». និយាយខ្មែរ, « parler khmer » ; និយាយជាមួយ…, « parler avec… » ; និយាយថា…, « dire que… ».",
+        "en": "និយាយ, “to speak, to say”. និយាយខ្មែរ, “to speak Khmer”; និយាយជាមួយ…, “to talk with…”; និយាយថា…, “to say that…”. French « parler ».",
+        "km": "« parler » មានន័យថា និយាយ៖ parler français, parler avec un ami។ អង់គ្លេស៖ « to speak », « to talk »។"
+      },
+      "example": {"fr": "Elle parle trois langues.", "en": "She speaks three languages.", "km": "គាត់និយាយបានបីភាសា។", "tr": "koat ni-yéay ban bey phéa-sa.",
+      "es": "Habla tres idiomas.", "it": "Parla tre lingue.", "ru": "Она говорит на трёх языках.", "zh": "她会说三种语言。", "zh_tr": "Tā huì shuō sān zhǒng yǔyán."}
+    },
+    {
+      "fr": "dire", "en": "to tell", "km": "ប្រាប់", "tr": "prap",
+      "es": "decir", "it": "dire", "ru": "сообщать", "zh": "告诉", "zh_tr": "gàosu", "pos": "verbe",
+      "note": {
+        "fr": "ប្រាប់, « dire à quelqu'un, prévenir » : ប្រាប់ខ្ញុំ, « dis-moi ». Pour rapporter des paroles, on ajoute ថា : គាត់ប្រាប់ថា…, « il dit que… ».",
+        "en": "ប្រាប់, “to tell someone, to let know”: ប្រាប់ខ្ញុំ, “tell me”. To report words, add ថា: គាត់ប្រាប់ថា…, “he says that…”. French « dire »: je dis, tu dis; dis-moi !",
+        "km": "« dire » មានន័យថា ប្រាប់ ឬនិយាយ៖ dis-moi គឺប្រាប់ខ្ញុំ។ អង់គ្លេស៖ « to tell » ជាមួយមនុស្ស (tell me) ហើយ « to say » ជាមួយពាក្យ (say hello)។"
+      },
+      "example": {"fr": "Dis-moi la vérité.", "en": "Tell me the truth.", "km": "ប្រាប់ខ្ញុំការពិតមក។", "tr": "prap khgnom ka peut mok.",
+      "es": "Dime la verdad.", "it": "Dimmi la verità.", "ru": "Скажи мне правду.", "zh": "告诉我实话。", "zh_tr": "Gàosu wǒ shíhuà."}
+    },
+    {
+      "fr": "demander", "en": "to ask", "km": "សួរ", "tr": "sour",
+      "es": "preguntar", "it": "chiedere", "ru": "спрашивать", "zh": "问", "zh_tr": "wèn", "pos": "verbe",
+      "note": {
+        "fr": "សួរ, c'est demander pour obtenir une réponse ; pour obtenir une chose, on dit សុំ. សួរផ្លូវ, « demander son chemin » ; សំណួរ, « une question ».",
+        "en": "សួរ is “to ask” a question; to ask for a thing, use សុំ. សួរផ្លូវ, “to ask the way”; សំណួរ, “a question”. French « demander » covers both: demander l'heure, demander de l'eau.",
+        "km": "« demander » មានន័យទាំង សួរ និង សុំ៖ demander le chemin, demander de l'eau។ អង់គ្លេស៖ « to ask » និង « to ask for »។"
+      },
+      "example": {"fr": "Je vais demander le chemin.", "en": "I'll go and ask the way.", "km": "ខ្ញុំទៅសួរផ្លូវសិន។", "tr": "khgnom teuv sour phleuv sen.",
+      "es": "Voy a preguntar el camino.", "it": "Vado a chiedere la strada.", "ru": "Я пойду спрошу дорогу.", "zh": "我去问问路。", "zh_tr": "Wǒ qù wènwen lù."}
+    },
+    {
+      "fr": "expliquer", "en": "to explain", "km": "ពន្យល់", "tr": "pun-yol",
+      "es": "explicar", "it": "spiegare", "ru": "объяснять", "zh": "解释", "zh_tr": "jiěshì", "pos": "verbe",
+      "note": {
+        "fr": "ពន្យល់, « expliquer », vient de យល់, « comprendre » : c'est faire comprendre. ពន្យល់ម្តងទៀត, « expliquer encore une fois ».",
+        "en": "ពន្យល់, “to explain”, comes from យល់, “to understand”: to make someone understand. ពន្យល់ម្តងទៀត, “to explain once more”. French « expliquer ».",
+        "km": "« expliquer » មានន័យថា ពន្យល់៖ tu peux m'expliquer ?។ អង់គ្លេស៖ « to explain »៖ can you explain?។"
+      },
+      "example": {"fr": "Le professeur explique bien.", "en": "The teacher explains well.", "km": "គ្រូពន្យល់បានល្អ។", "tr": "krou pun-yol ban l'â.",
+      "es": "El profesor explica bien.", "it": "L'insegnante spiega bene.", "ru": "Учитель хорошо объясняет.", "zh": "老师讲解得很清楚。", "zh_tr": "Lǎoshī jiǎngjiě de hěn qīngchu."}
+    },
+    {
+      "fr": "rire", "en": "to laugh", "km": "សើច", "tr": "saeutch",
+      "es": "reír", "it": "ridere", "ru": "смеяться", "zh": "笑", "zh_tr": "xiào", "pos": "verbe",
+      "note": {
+        "fr": "សើច, « rire » ; ញញឹម, « sourire ». Au Cambodge, on rit aussi quand on est gêné ou surpris : ce n'est pas une moquerie.",
+        "en": "សើច, “to laugh”; ញញឹម, “to smile”. In Cambodia people also laugh when embarrassed or surprised: it is not mockery. French « rire »: je ris, nous rions; « sourire » is to smile.",
+        "km": "« rire » មានន័យថា សើច ហើយ « sourire » គឺញញឹម។ អង់គ្លេស៖ « to laugh » និង « to smile »។"
+      },
+      "example": {"fr": "Les enfants rient beaucoup.", "en": "The children laugh a lot.", "km": "ក្មេងៗសើចច្រើន។", "tr": "kméng-kméng saeutch tchraeun.",
+      "es": "Los niños se ríen mucho.", "it": "I bambini ridono molto.", "ru": "Дети много смеются.", "zh": "孩子们笑个不停。", "zh_tr": "Háizimen xiào ge bù tíng."}
+    },
+    {
+      "fr": "plaisanter", "en": "to joke", "km": "និយាយលេង", "tr": "ni-yéay léng",
+      "es": "bromear", "it": "scherzare", "ru": "шутить", "zh": "开玩笑", "zh_tr": "kāi wánxiào", "pos": "verbe",
+      "note": {
+        "fr": "និយាយលេង, mot à mot « parler pour jouer » : plaisanter. លេង après un verbe indique qu'on le fait pour le plaisir : ដើរលេង, « se promener ».",
+        "en": "និយាយលេង, literally “to speak for play”: to joke. លេង after a verb means doing it for fun: ដើរលេង, “to go for a stroll”. French « plaisanter »; a joke is « une blague ».",
+        "km": "« plaisanter » មានន័យថា និយាយលេង; « une blague » គឺរឿងកំប្លែង។ អង់គ្លេស៖ « to joke », « a joke »។"
+      },
+      "example": {"fr": "Ne te fâche pas, je plaisante !", "en": "Don't get angry, I'm joking!", "km": "កុំខឹងអី ខ្ញុំនិយាយលេងទេ!", "tr": "kom kheung ey, khgnom ni-yéay léng té !",
+      "es": "¡No te enfades, estoy de broma!", "it": "Non arrabbiarti, sto scherzando!", "ru": "Не сердись, я шучу!", "zh": "别生气，我开玩笑呢！", "zh_tr": "Bié shēngqì, wǒ kāi wánxiào ne!"}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "J'ai une question.", "en": "I have a question.", "km": "ខ្ញុំមានសំណួរមួយ។", "tr": "khgnom méan sâm-nour mouy.",
+      "es": "Tengo una pregunta.", "it": "Ho una domanda.", "ru": "У меня есть вопрос.", "zh": "我有一个问题。", "zh_tr": "Wǒ yǒu yí ge wèntí.",
+      "note": {
+        "fr": "សំណួរ, « question », est le nom tiré de សួរ, « demander ». De même ចម្លើយ, « réponse », vient de ឆ្លើយ, « répondre ».",
+        "en": "សំណួរ, “question”, is the noun formed from សួរ, “to ask”. In the same way ចម្លើយ, “answer”, comes from ឆ្លើយ, “to answer”. French « J'ai une question. ».",
+        "km": "« une question » មានន័យថា សំណួរ ហើយ « une réponse » គឺចម្លើយ។ អង់គ្លេស៖ « I have a question »។"
+      }
+    },
+    {
+      "fr": "Qu'est-ce que tu as dit ?", "en": "What did you say?", "km": "និយាយថាម៉េច?", "tr": "ni-yéay tha métch ?",
+      "es": "¿Qué has dicho?", "it": "Che cosa hai detto?", "ru": "Что ты сказал?", "zh": "你说什么？", "zh_tr": "Nǐ shuō shénme?",
+      "note": {
+        "fr": "ថាម៉េច?, « dire comment ? » : la question courte pour faire répéter. Plus poli : សូមនិយាយម្តងទៀត.",
+        "en": "ថាម៉េច?, “say how?”: the short question when you didn't catch something. More polite: សូមនិយាយម្តងទៀត. French « Qu'est-ce que tu as dit ? ».",
+        "km": "« Qu'est-ce que tu as dit ? » ប្រើពេលស្តាប់មិនឮ។ អង់គ្លេស៖ « What did you say? » ឬ « Pardon? »។"
+      }
+    },
+    {
+      "fr": "C'est pour rire !", "en": "Just kidding!", "km": "និយាយលេងទេ!", "tr": "ni-yéay léng té !",
+      "es": "¡Es broma!", "it": "Scherzo!", "ru": "Шутка!", "zh": "开玩笑的！", "zh_tr": "Kāi wánxiào de!",
+      "note": {
+        "fr": "និយាយលេងទេ, « je ne fais que plaisanter » : la phrase qui désamorce une taquinerie. Les Khmers aiment beaucoup taquiner.",
+        "en": "និយាយលេងទេ, “I'm only joking”: the phrase that takes the sting out of teasing. Khmers love to tease. French « C'est pour rire ! ».",
+        "km": "« C'est pour rire ! » មានន័យថា និយាយលេងទេ។ អង់គ្លេស៖ « Just kidding! »។"
+      }
+    },
+    {
+      "fr": "Parle plus fort, s'il te plaît.", "en": "Speak up, please.", "km": "សូមនិយាយខ្លាំងៗបន្តិច។", "tr": "sôm ni-yéay khlang-khlang bân-tetch.",
+      "es": "Habla más alto, por favor.", "it": "Parla più forte, per favore.", "ru": "Говори погромче, пожалуйста.", "zh": "请大声一点儿。", "zh_tr": "Qǐng dà shēng yìdiǎnr.",
+      "note": {
+        "fr": "ខ្លាំង, « fort » ; répété, ខ្លាំងៗ, il devient adverbe : « fort, à voix haute ». Le contraire : និយាយតិចៗ, « parler tout bas ».",
+        "en": "ខ្លាំង, “strong, loud”; doubled, ខ្លាំងៗ, it becomes an adverb: “loudly”. The opposite is និយាយតិចៗ, “to speak quietly”. French « parler fort ».",
+        "km": "« parler fort » មានន័យថា និយាយខ្លាំងៗ ហើយ « parler bas » គឺនិយាយតិចៗ។ អង់គ្លេស៖ « Speak up, please »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À l'école", "en": "At school", "km": "នៅសាលារៀន"},
+      "fr": "Si tu ne comprends pas, demande au professeur de t'expliquer.", "en": "If you don't understand, ask the teacher to explain.",
+      "km": "បើមិនយល់ សូមសួរគ្រូឱ្យពន្យល់។", "tr": "baeu min yol, sôm sour krou aoy pun-yol.",
+      "es": "Si no entiendes, pídele al profesor que te lo explique.", "it": "Se non capisci, chiedi all'insegnante di spiegartelo.", "ru": "Если не понимаешь, попроси учителя объяснить.", "zh": "如果你不明白，就请老师给你解释。", "zh_tr": "Rúguǒ nǐ bù míngbai, jiù qǐng lǎoshī gěi nǐ jiěshì."
+    },
+    {
+      "situation": {"fr": "En famille", "en": "With the family", "km": "ក្នុងគ្រួសារ"},
+      "fr": "Mon grand-père raconte des histoires drôles et tout le monde rit.", "en": "My grandfather tells funny stories and everyone laughs.",
+      "km": "តាខ្ញុំនិទានរឿងកំប្លែង ហើយទាំងអស់គ្នាសើច។", "tr": "ta khgnom ni-téan reuang kâm-plaèng, haeuy téang âh knéa saeutch.",
+      "es": "Mi abuelo cuenta historias graciosas y todo el mundo se ríe.", "it": "Mio nonno racconta storie divertenti e tutti ridono.", "ru": "Мой дедушка рассказывает смешные истории, и все смеются.", "zh": "我爷爷讲笑话，大家都笑了。", "zh_tr": "Wǒ yéye jiǎng xiàohua, dàjiā dōu xiào le."
+    },
+    {
+      "situation": {"fr": "Au téléphone", "en": "On the phone", "km": "និយាយទូរស័ព្ទ"},
+      "fr": "Dis-lui que j'arrive dans dix minutes.", "en": "Tell him I'll be there in ten minutes.",
+      "km": "ជួយប្រាប់គាត់ថា ដប់នាទីទៀតខ្ញុំទៅដល់។", "tr": "tchouoy prap koat tha dâp néa-ti tiet khgnom teuv dâl.",
+      "es": "Dile que llego en diez minutos.", "it": "Digli che arrivo tra dieci minuti.", "ru": "Скажи ему, что я буду через десять минут.", "zh": "告诉他我十分钟后到。", "zh_tr": "Gàosu tā wǒ shí fēnzhōng hòu dào."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{B} revient du marché avec une question.", "en": "{B} comes back from the market with a question.", "km": "{B} ត្រឡប់មកពីផ្សារ ហើយមានសំណួរមួយ។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, j'ai une question. Pourquoi la vendeuse a ri quand j'ai parlé ?", "en": "{A}, I have a question. Why did the seller laugh when I spoke?", "km": "{A} ខ្ញុំមានសំណួរមួយ។ ហេតុអ្វីអ្នកលក់សើចពេលខ្ញុំនិយាយ?", "tr": "{A}, khgnom méan sâm-nour mouy. haèt ey néak lok saeutch pél khgnom ni-yéay ?",
+        "es": "{A}, tengo una pregunta. ¿Por qué se ha reído la vendedora cuando he hablado?", "it": "{A}, ho una domanda. Perché la venditrice ha riso quando ho parlato?", "ru": "{A}, у меня вопрос. Почему продавщица засмеялась, когда я заговорил?", "zh": "{A}，我有一个问题。为什么我一说话，卖东西的人就笑了？", "zh_tr": "{A}, wǒ yǒu yí ge wèntí. Wèi shénme wǒ yì shuōhuà, mài dōngxi de rén jiù xiào le?"},
+      {"speaker": "A", "fr": "Qu'est-ce que tu lui as dit ?", "en": "What did you say to her?", "km": "{B} ប្រាប់គាត់ថាម៉េច?", "tr": "{B} prap koat tha métch ?",
+        "es": "¿Qué le has dicho?", "it": "Che cosa le hai detto?", "ru": "Что ты ей сказал?", "zh": "你跟她说什么了？", "zh_tr": "Nǐ gēn tā shuō shénme le?"},
+      {"speaker": "B", "fr": "Je lui ai demandé le prix du poisson, c'est tout !", "en": "I asked her the price of the fish, that's all!", "km": "ខ្ញុំគ្រាន់តែសួរថ្លៃត្រីប៉ុណ្ណោះ!", "tr": "khgnom kroan-taè sour thlay trey pon-noh !",
+        "es": "Le he preguntado el precio del pescado, ¡nada más!", "it": "Le ho chiesto il prezzo del pesce, tutto qui!", "ru": "Я просто спросил, сколько стоит рыба, и всё!", "zh": "我只是问了问鱼的价钱！", "zh_tr": "Wǒ zhǐshì wèn le wèn yú de jiàqian!"},
+      {"speaker": "A", "fr": "Elle ne se moque pas de toi. Elle rit parce qu'elle est contente : tu parles khmer !", "en": "She isn't making fun of you. She laughs because she's pleased: you speak Khmer!", "km": "គាត់មិនបានសើចចំអកទេ។ គាត់សើចព្រោះសប្បាយចិត្ត ដែល {B} ចេះនិយាយខ្មែរ!", "tr": "koat min ban saeutch tchâm-âk té. koat saeutch prouh sa-bay tchet dael {B} tchéh ni-yéay khmaè !",
+        "es": "No se burla de ti. Se ríe porque está contenta: ¡hablas jemer!", "it": "Non ti prende in giro. Ride perché è contenta: parli khmer!", "ru": "Она над тобой не смеётся. Она смеётся, потому что рада: ты говоришь по-кхмерски!", "zh": "她不是在笑话你。她笑是因为高兴：你会说高棉语！", "zh_tr": "Tā bú shì zài xiàohua nǐ. Tā xiào shì yīnwèi gāoxìng: nǐ huì shuō Gāomiányǔ!"},
+      {"speaker": "B", "fr": "Ah bon ! Alors demain, je vais plaisanter avec elle.", "en": "Oh, really! Then tomorrow I'll joke with her.", "km": "អ៊ីចឹងឬ! អញ្ចឹងស្អែក ខ្ញុំនិយាយលេងជាមួយគាត់ម្តង។", "tr": "ey-tcheung reu ! agn-tcheung s'aèk, khgnom ni-yéay léng tchéa-mouy koat mdâng.",
+        "es": "¡Ah, vale! Pues mañana bromeo con ella.", "it": "Ah sì? Allora domani scherzo con lei.", "ru": "Вот как! Тогда завтра я с ней пошучу.", "zh": "是吗！那明天我跟她开个玩笑。", "zh_tr": "Shì ma! Nà míngtiān wǒ gēn tā kāi ge wánxiào."},
+      {"speaker": "A", "fr": "Bonne idée ! Et si elle ne comprend pas, je lui expliquerai.", "en": "Good idea! And if she doesn't understand, I'll explain.", "km": "គំនិតល្អ! បើគាត់មិនយល់ ចាំខ្ញុំពន្យល់។", "tr": "koum-neut l'â ! baeu koat min yol, tcham khgnom pun-yol.",
+        "es": "¡Buena idea! Y si no entiende, yo se lo explico.", "it": "Buona idea! E se non capisce, glielo spiego io.", "ru": "Хорошая идея! А если она не поймёт, я объясню.", "zh": "好主意！要是她听不懂，我来解释。", "zh_tr": "Hǎo zhǔyi! Yàoshi tā tīng bu dǒng, wǒ lái jiěshì."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Pourquoi la vendeuse a-t-elle ri ?", "en": "Why did the seller laugh?", "km": "ហេតុអ្វីអ្នកលក់សើច?"},
+    "answer": {"fr": "Parce qu'elle est contente que {B} parle khmer.", "en": "Because she is pleased that {B} speaks Khmer.", "km": "ព្រោះគាត់សប្បាយចិត្តដែល {B} ចេះនិយាយខ្មែរ។"}
+  }
+}

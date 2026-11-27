@@ -270,6 +270,16 @@ Les trois premières unités servent de modèle de ton et de niveau de détail.
 | u078 | `marchander` | Marchander | marchander, la réduction, gratuit, le client, le kilo, peser |
 | u079 | `le-ciel-et-la-nature` | Le ciel et la nature | le ciel, la lune, l'étoile, le nuage, la forêt, le lac |
 | u080 | `le-mariage` | Le mariage khmer | le mariage, la cérémonie, le marié, la mariée, la bague, l'enveloppe |
+| u081 | `pouvoir-devoir-savoir` | Pouvoir, devoir, savoir | pouvoir, devoir, savoir, savoir faire, connaître, avoir besoin de |
+| u082 | `il-elle-nous` | Il, elle, nous, ils | il et elle, nous, ils et elles, celui-ci, celui-là, quelqu'un |
+| u083 | `les-contraires` | Lourd ou léger, plein ou vide | lourd, léger, long, court, plein, vide |
+| u084 | `a-table` | À table : assiettes et couverts | l'assiette, le bol, la cuillère, la fourchette, le couteau, les baguettes |
+| u085 | `parler-et-dire` | Parler, dire, demander | parler, dire, demander, expliquer, rire, plaisanter |
+| u086 | `a-moto` | À moto | l'essence, le casque, la roue, le frein, le mécanicien, se garer |
+| u087 | `les-urgences` | En cas d'urgence | l'accident, blessé, l'ambulance, le voleur, voler, brûler |
+| u088 | `la-saison-des-pluies` | La saison des pluies | l'orage, l'inondation, mouillé, sec, la boue, le tonnerre |
+| u089 | `epices-et-herbes` | Épices et herbes | le piment, l'ail, le citron vert, le gingembre, le poivre, la citronnelle |
+| u090 | `la-fete-des-eaux` | La fête des Eaux | la fête des Eaux, la pirogue, ramer, la course, la foule, le feu d'artifice |
 
 Aux niveaux élémentaire et intermédiaire, les phrases s'allongent ; au niveau
 intermédiaire, le dialogue compte 6 à 8 répliques et les notes abordent les

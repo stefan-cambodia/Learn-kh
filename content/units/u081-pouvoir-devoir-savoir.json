@@ -1,0 +1,159 @@
+{
+  "id": "u081",
+  "order": 81,
+  "level": "intermediaire",
+  "theme": "pouvoir-devoir-savoir",
+  "title": {"fr": "Pouvoir, devoir, savoir", "en": "Can, must, know", "km": "អាច ត្រូវ ដឹង"},
+  "tip": {
+    "fr": "En khmer, « pouvoir » encadre souvent le verbe : អាច devant, បាន derrière — អាចទៅបាន, « pouvoir y aller ». Dans la conversation, បាន seul suffit : ទៅបានទេ? Et « savoir » se dit de deux façons : ដឹង pour un fait, ចេះ pour un savoir-faire.",
+    "en": "In Khmer, “can” often wraps round the verb: អាច before, បាន after — អាចទៅបាន, “can go”. In conversation បាន alone is enough: ទៅបានទេ? “To know” is ដឹង for a fact and ចេះ for a skill. French also splits it: « savoir » for facts and skills, « connaître » for people and places.",
+    "km": "ភាសាបារាំង៖ ក្រោយ « pouvoir », « devoir », « savoir » គេដាក់កិរិយាសព្ទដើម (infinitif)៖ je peux venir, je dois partir, je sais nager។ អង់គ្លេស៖ « can », « must », « know how to »៖ I can come, I must go, I know how to swim។"
+  },
+  "vocabulary": [
+    {
+      "fr": "pouvoir", "en": "to be able to", "km": "អាច", "tr": "atch",
+      "es": "poder", "it": "potere", "ru": "мочь", "zh": "能", "zh_tr": "néng", "pos": "verbe",
+      "note": {
+        "fr": "អាច se place devant le verbe, souvent avec បាន à la fin : ខ្ញុំអាចជួយបាន, « je peux aider ». La négation se dit មិនអាច… ទេ, ou plus simplement អត់បានទេ.",
+        "en": "អាច goes before the verb, often with បាន at the end: ខ្ញុំអាចជួយបាន, “I can help”. The negative is មិនអាច… ទេ, or simply អត់បានទេ. French « pouvoir »: je peux, tu peux, il peut.",
+        "km": "« pouvoir » មានន័យថា អាច៖ je peux, tu peux, il peut, nous pouvons។ អង់គ្លេស៖ « can » ឬ « to be able to »។"
+      },
+      "example": {"fr": "Tu peux venir demain ?", "en": "Can you come tomorrow?", "km": "ថ្ងៃស្អែកអាចមកបានទេ?", "tr": "thngay s'aèk atch mok ban té ?",
+      "es": "¿Puedes venir mañana?", "it": "Puoi venire domani?", "ru": "Ты можешь прийти завтра?", "zh": "你明天能来吗？", "zh_tr": "Nǐ míngtiān néng lái ma?"}
+    },
+    {
+      "fr": "devoir", "en": "to have to", "km": "ត្រូវ", "tr": "treuv",
+      "es": "deber", "it": "dovere", "ru": "быть должным", "zh": "必须", "zh_tr": "bìxū", "pos": "verbe",
+      "note": {
+        "fr": "ត្រូវ devant un verbe marque l'obligation : ត្រូវទៅ, « devoir partir, il faut partir ». Seul, le même mot veut dire « juste, correct » : ត្រូវហើយ, « c'est ça ».",
+        "en": "ត្រូវ before a verb marks obligation: ត្រូវទៅ, “to have to go”. On its own the same word means “right, correct”: ត្រូវហើយ, “that's right”. French « devoir »: je dois, tu dois; « il faut » is the impersonal form.",
+        "km": "« devoir » មានន័យថា ត្រូវ៖ je dois partir។ « il faut » ប្រើដោយគ្មានប្រធាន៖ il faut partir។ អង់គ្លេស៖ « must », « to have to »។"
+      },
+      "example": {"fr": "Je dois partir maintenant.", "en": "I have to leave now.", "km": "ខ្ញុំត្រូវទៅឥឡូវនេះ។", "tr": "khgnom treuv teuv ey-leuv nih.",
+      "es": "Tengo que irme ahora.", "it": "Devo andare adesso.", "ru": "Мне нужно идти сейчас.", "zh": "我现在必须走了。", "zh_tr": "Wǒ xiànzài bìxū zǒu le."}
+    },
+    {
+      "fr": "savoir", "en": "to know", "km": "ដឹង", "tr": "deung",
+      "es": "saber", "it": "sapere", "ru": "знать", "zh": "知道", "zh_tr": "zhīdào", "pos": "verbe",
+      "note": {
+        "fr": "ដឹង, « savoir, être au courant ». ដឹងថា…, « savoir que… » ; ដឹងហើយ, « je sais, je suis au courant ».",
+        "en": "ដឹង, “to know, to be aware”. ដឹងថា…, “to know that…”; ដឹងហើយ, “I know, I've heard”. French « savoir »: je sais, tu sais, il sait.",
+        "km": "« savoir » មានន័យថា ដឹង៖ je sais, tu sais, il sait។ អង់គ្លេស៖ « to know »៖ I know, I don't know។"
+      },
+      "example": {"fr": "Tu sais où il habite ?", "en": "Do you know where he lives?", "km": "ដឹងថាគាត់រស់នៅឯណាទេ?", "tr": "deung tha koat rouh neuv aè na té ?",
+      "es": "¿Sabes dónde vive?", "it": "Sai dove abita?", "ru": "Ты знаешь, где он живёт?", "zh": "你知道他住在哪儿吗？", "zh_tr": "Nǐ zhīdào tā zhù zài nǎr ma?"}
+    },
+    {
+      "fr": "savoir faire", "en": "to know how to", "km": "ចេះ", "tr": "tchéh",
+      "es": "saber hacer", "it": "saper fare", "ru": "уметь", "zh": "会", "zh_tr": "huì", "pos": "verbe",
+      "note": {
+        "fr": "ចេះ, c'est savoir faire ce qu'on a appris : ចេះហែលទឹក, « savoir nager » ; ចេះខ្មែរ, « savoir le khmer ». Le français dit « savoir » dans les deux cas, le khmer distingue ដឹង et ចេះ.",
+        "en": "ចេះ is knowing how to do something you have learnt: ចេះហែលទឹក, “to know how to swim”; ចេះខ្មែរ, “to know Khmer”. French uses « savoir » plus an infinitive: je sais nager.",
+        "km": "ចេះ ភាសាបារាំងប្រើ « savoir » ជាមួយកិរិយាសព្ទដើម៖ je sais nager។ អង់គ្លេស៖ « to know how to » ឬ « can »៖ I can swim។"
+      },
+      "example": {"fr": "Il sait parler khmer.", "en": "He can speak Khmer.", "km": "គាត់ចេះនិយាយខ្មែរ។", "tr": "koat tchéh ni-yéay khmaè.",
+      "es": "Sabe hablar jemer.", "it": "Sa parlare khmer.", "ru": "Он умеет говорить по-кхмерски.", "zh": "他会说高棉语。", "zh_tr": "Tā huì shuō Gāomiányǔ."}
+    },
+    {
+      "fr": "connaître", "en": "to know a person or a place", "km": "ស្គាល់", "tr": "skoal",
+      "es": "conocer", "it": "conoscere", "ru": "быть знакомым", "zh": "认识", "zh_tr": "rènshi", "pos": "verbe",
+      "note": {
+        "fr": "ស្គាល់, « connaître » une personne, un lieu, un chemin. ស្គាល់គ្នា, « se connaître » ; រីករាយដែលបានស្គាល់, « enchanté de faire votre connaissance ».",
+        "en": "ស្គាល់, “to know” a person, a place, a road. ស្គាល់គ្នា, “to know each other”. French « connaître » takes a noun, « savoir » takes a verb or a clause: je connais Dara, je sais nager.",
+        "km": "« connaître » មានន័យថា ស្គាល់ (មនុស្ស ឬកន្លែង)៖ je connais ce village។ អង់គ្លេស៖ « to know »៖ I know him។"
+      },
+      "example": {"fr": "Je connais bien ce quartier.", "en": "I know this neighbourhood well.", "km": "ខ្ញុំស្គាល់សង្កាត់នេះច្បាស់។", "tr": "khgnom skoal sâng-kat nih tchbah.",
+      "es": "Conozco bien este barrio.", "it": "Conosco bene questo quartiere.", "ru": "Я хорошо знаю этот район.", "zh": "我很熟悉这个街区。", "zh_tr": "Wǒ hěn shúxi zhège jiēqū."}
+    },
+    {
+      "fr": "avoir besoin de", "en": "to need", "km": "ត្រូវការ", "tr": "treuv-ka",
+      "es": "necesitar", "it": "avere bisogno di", "ru": "нуждаться", "zh": "需要", "zh_tr": "xūyào", "pos": "verbe",
+      "note": {
+        "fr": "ត្រូវការ, « avoir besoin de », suivi directement du nom : ត្រូវការលុយ, « avoir besoin d'argent ». À ne pas confondre avec ត្រូវ seul, « devoir ».",
+        "en": "ត្រូវការ, “to need”, followed directly by the noun: ត្រូវការលុយ, “to need money”. Not to be confused with ត្រូវ alone, “to have to”. French « avoir besoin de »: j'ai besoin d'eau.",
+        "km": "« avoir besoin de » មានន័យថា ត្រូវការ៖ j'ai besoin d'eau។ អង់គ្លេស៖ « to need »៖ I need water។"
+      },
+      "example": {"fr": "J'ai besoin d'aide.", "en": "I need help.", "km": "ខ្ញុំត្រូវការជំនួយ។", "tr": "khgnom treuv-ka tchoum-nouy.",
+      "es": "Necesito ayuda.", "it": "Ho bisogno di aiuto.", "ru": "Мне нужна помощь.", "zh": "我需要帮助。", "zh_tr": "Wǒ xūyào bāngzhù."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Je peux entrer ?", "en": "May I come in?", "km": "ខ្ញុំចូលបានទេ?", "tr": "khgnom tchôl ban té ?",
+      "es": "¿Puedo pasar?", "it": "Posso entrare?", "ru": "Можно войти?", "zh": "我可以进来吗？", "zh_tr": "Wǒ kěyǐ jìnlai ma?",
+      "note": {
+        "fr": "Verbe + បានទេ? : la façon la plus simple de demander une permission. Réponse : បាន, « oui, vous pouvez », ou អត់បានទេ.",
+        "en": "Verb + បានទេ? is the simplest way to ask permission. The answer is បាន, “yes, you can”, or អត់បានទេ. French « Je peux entrer ? ».",
+        "km": "« Je peux entrer ? » ប្រើសុំការអនុញ្ញាតចូល។ អង់គ្លេស៖ « May I come in? »។"
+      }
+    },
+    {
+      "fr": "Ce n'est pas possible.", "en": "That's not possible.", "km": "អត់បានទេ។", "tr": "ât ban té.",
+      "es": "No es posible.", "it": "Non è possibile.", "ru": "Это невозможно.", "zh": "不行。", "zh_tr": "Bù xíng.",
+      "note": {
+        "fr": "អត់បានទេ, « ça ne se peut pas, ce n'est pas permis ». Dit avec le sourire, c'est un refus poli mais net.",
+        "en": "អត់បានទេ, “it can't be done, it's not allowed”. Said with a smile, it is a polite but firm no. French « Ce n'est pas possible. ».",
+        "km": "« Ce n'est pas possible » មានន័យថា អត់បានទេ។ អង់គ្លេស៖ « That's not possible »។"
+      }
+    },
+    {
+      "fr": "Il faut y aller.", "en": "We have to go.", "km": "ត្រូវទៅហើយ។", "tr": "treuv teuv haeuy.",
+      "es": "Tenemos que irnos.", "it": "Dobbiamo andare.", "ru": "Пора идти.", "zh": "该走了。", "zh_tr": "Gāi zǒu le.",
+      "note": {
+        "fr": "ត្រូវទៅហើយ, mot à mot « devoir partir déjà » : il est temps de partir. Le khmer n'a pas besoin de sujet.",
+        "en": "ត្រូវទៅហើយ, literally “must go already”: it's time to leave. Khmer needs no subject here. French « il faut » is impersonal too: Il faut y aller.",
+        "km": "« Il faut y aller » មានន័យថា ត្រូវទៅហើយ។ អង់គ្លេស៖ « We have to go »។"
+      }
+    },
+    {
+      "fr": "Pas besoin.", "en": "No need.", "km": "មិនបាច់ទេ។", "tr": "min batch té.",
+      "es": "No hace falta.", "it": "Non c'è bisogno.", "ru": "Не нужно.", "zh": "不用。", "zh_tr": "Búyòng.",
+      "note": {
+        "fr": "មិនបាច់ទេ, « ce n'est pas la peine ». On peut ajouter un verbe : មិនបាច់ទិញទេ, « pas besoin d'acheter ».",
+        "en": "មិនបាច់ទេ, “there's no need”. A verb can follow: មិនបាច់ទិញទេ, “no need to buy any”. French « Pas besoin. » is short for « Ce n'est pas la peine. ».",
+        "km": "« Pas besoin » មានន័យថា មិនបាច់ទេ។ អង់គ្លេស៖ « No need »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au travail", "en": "At work", "km": "នៅកន្លែងធ្វើការ"},
+      "fr": "Je dois finir ce travail avant ce soir.", "en": "I have to finish this work before tonight.",
+      "km": "ខ្ញុំត្រូវធ្វើការងារនេះឱ្យហើយមុនល្ងាចនេះ។", "tr": "khgnom treuv thveu ka-ngéa nih aoy haeuy moun lngéatch nih.",
+      "es": "Tengo que terminar este trabajo antes de esta noche.", "it": "Devo finire questo lavoro prima di stasera.", "ru": "Мне нужно закончить эту работу до вечера.", "zh": "我必须在今晚之前完成这项工作。", "zh_tr": "Wǒ bìxū zài jīnwǎn zhīqián wánchéng zhè xiàng gōngzuò."
+    },
+    {
+      "situation": {"fr": "En cours de khmer", "en": "In Khmer class", "km": "ក្នុងថ្នាក់រៀនភាសាខ្មែរ"},
+      "fr": "Je sais lire le khmer, mais je ne sais pas encore l'écrire.", "en": "I can read Khmer, but I can't write it yet.",
+      "km": "ខ្ញុំចេះអានអក្សរខ្មែរ ប៉ុន្តែមិនទាន់ចេះសរសេរទេ។", "tr": "khgnom tchéh an âk-sâ khmaè, pon-taè min toan tchéh sâ-sé té.",
+      "es": "Sé leer el jemer, pero todavía no sé escribirlo.", "it": "So leggere il khmer, ma non so ancora scriverlo.", "ru": "Я умею читать по-кхмерски, но писать пока не умею.", "zh": "我会读高棉文，但是还不会写。", "zh_tr": "Wǒ huì dú Gāomiánwén, dànshì hái bú huì xiě."
+    },
+    {
+      "situation": {"fr": "Dans la rue", "en": "In the street", "km": "នៅតាមផ្លូវ"},
+      "fr": "Excusez-moi, vous connaissez un bon restaurant près d'ici ?", "en": "Excuse me, do you know a good restaurant near here?",
+      "km": "សុំទោស ស្គាល់ភោជនីយដ្ឋានឆ្ងាញ់នៅជិតនេះទេ?", "tr": "som toh, skoal phô-tchéa-ni-yéa-than tchhngagn neuv tchit nih té ?",
+      "es": "Perdone, ¿conoce un buen restaurante cerca de aquí?", "it": "Scusi, conosce un buon ristorante qui vicino?", "ru": "Извините, вы не знаете хороший ресторан поблизости?", "zh": "请问，您知道附近有好吃的餐厅吗？", "zh_tr": "Qǐngwèn, nín zhīdào fùjìn yǒu hǎochī de cāntīng ma?"
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} prépare un repas pour des invités et demande de l'aide à {B}.", "en": "{A} is cooking for guests and asks {B} for help.", "km": "{A} ធ្វើម្ហូបទទួលភ្ញៀវ ហើយសុំឱ្យ {B} ជួយ។"},
+    "lines": [
+      {"speaker": "A", "fr": "{B}, tu peux m'aider ? Je dois préparer le repas pour ce soir.", "en": "{B}, can you help me? I have to make dinner for tonight.", "km": "{B} ជួយខ្ញុំបានទេ? ខ្ញុំត្រូវធ្វើម្ហូបសម្រាប់ល្ងាចនេះ។", "tr": "{B}, tchouoy khgnom ban té ? khgnom treuv thveu mhôp sâm-rap lngéatch nih.",
+        "es": "{B}, ¿puedes ayudarme? Tengo que preparar la cena de esta noche.", "it": "{B}, puoi aiutarmi? Devo preparare la cena per stasera.", "ru": "{B}, ты можешь мне помочь? Мне нужно приготовить ужин на сегодня.", "zh": "{B}，你能帮我吗？我得准备今晚的饭。", "zh_tr": "{B}, nǐ néng bāng wǒ ma? Wǒ děi zhǔnbèi jīnwǎn de fàn."},
+      {"speaker": "B", "fr": "Bien sûr. Mais je ne sais pas cuisiner khmer !", "en": "Of course. But I don't know how to cook Khmer food!", "km": "បានតើ។ ប៉ុន្តែខ្ញុំមិនចេះធ្វើម្ហូបខ្មែរទេ!", "tr": "ban taeu. pon-taè khgnom min tchéh thveu mhôp khmaè té !",
+        "es": "Claro. ¡Pero no sé cocinar comida jemer!", "it": "Certo. Ma non so cucinare khmer!", "ru": "Конечно. Но я не умею готовить кхмерскую еду!", "zh": "当然可以。可是我不会做高棉菜！", "zh_tr": "Dāngrán kěyǐ. Kěshì wǒ bú huì zuò Gāomián cài!"},
+      {"speaker": "A", "fr": "Pas besoin. Tu sais couper les légumes ?", "en": "No need. Do you know how to chop vegetables?", "km": "មិនបាច់ទេ។ {B} ចេះកាត់បន្លែទេ?", "tr": "min batch té. {B} tchéh kat bân-laè té ?",
+        "es": "No hace falta. ¿Sabes cortar verduras?", "it": "Non c'è bisogno. Sai tagliare le verdure?", "ru": "Не нужно. Ты умеешь резать овощи?", "zh": "不用。你会切菜吗？", "zh_tr": "Búyòng. Nǐ huì qiē cài ma?"},
+      {"speaker": "B", "fr": "Ça, je sais faire. Tu as besoin d'autre chose ?", "en": "That I can do. Do you need anything else?", "km": "អាហ្នឹងខ្ញុំចេះ។ ត្រូវការអ្វីទៀតទេ?", "tr": "a-neung khgnom tchéh. treuv-ka ey tiet té ?",
+        "es": "Eso sí sé hacerlo. ¿Necesitas algo más?", "it": "Quello lo so fare. Hai bisogno di altro?", "ru": "Это я умею. Тебе нужно что-нибудь ещё?", "zh": "这个我会。你还需要什么吗？", "zh_tr": "Zhège wǒ huì. Nǐ hái xūyào shénme ma?"},
+      {"speaker": "A", "fr": "Oui, il faut acheter du poisson. Tu connais la vendeuse à côté de la pagode ?", "en": "Yes, we need to buy some fish. Do you know the seller next to the pagoda?", "km": "{A_yes} ត្រូវទិញត្រី។ {B} ស្គាល់អ្នកលក់នៅក្បែរវត្តទេ?", "tr": "{A_yes}, treuv tign trey. {B} skoal néak lok neuv kbae voat té ?",
+        "es": "Sí, hay que comprar pescado. ¿Conoces a la vendedora de al lado de la pagoda?", "it": "Sì, bisogna comprare del pesce. Conosci la venditrice accanto alla pagoda?", "ru": "Да, нужно купить рыбу. Ты знаешь продавщицу рядом с пагодой?", "zh": "需要，得买鱼。你认识寺庙旁边那个卖鱼的吗？", "zh_tr": "Xūyào, děi mǎi yú. Nǐ rènshi sìmiào pángbiān nàge mài yú de ma?"},
+      {"speaker": "B", "fr": "Je la connais. Je peux y aller tout de suite.", "en": "I know her. I can go right away.", "km": "ស្គាល់។ ខ្ញុំអាចទៅភ្លាមបាន។", "tr": "skoal. khgnom atch teuv phléam ban.",
+        "es": "La conozco. Puedo ir ahora mismo.", "it": "La conosco. Posso andarci subito.", "ru": "Знаю. Я могу пойти прямо сейчас.", "zh": "认识。我可以马上去。", "zh_tr": "Rènshi. Wǒ kěyǐ mǎshàng qù."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce que {B} doit acheter ?", "en": "What does {B} have to buy?", "km": "{B} ត្រូវទិញអ្វី?"},
+    "answer": {"fr": "Du poisson.", "en": "Some fish.", "km": "ត្រី។"}
+  }
+}

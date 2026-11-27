@@ -1,0 +1,161 @@
+{
+  "id": "u089",
+  "order": 89,
+  "level": "intermediaire",
+  "theme": "epices-et-herbes",
+  "title": {"fr": "Épices et herbes", "en": "Spices and herbs", "km": "គ្រឿងទេស និងជីរ"},
+  "tip": {
+    "fr": "La cuisine khmère n'est pas très pimentée : le piment est servi à part, et chacun en ajoute à son goût. Sa base est le គ្រឿង, une pâte d'herbes pilées — citronnelle, galanga, curcuma, ail — qui parfume les soupes et les currys.",
+    "en": "Khmer food is not very hot: chilli is served on the side and everyone adds their own. Its base is គ្រឿង, a paste of pounded herbs — lemongrass, galangal, turmeric, garlic — that flavours soups and curries. French « le piment » is chilli, « le poivre » is pepper and « le poivron » is the sweet pepper.",
+    "km": "ភាសាបារាំងមានពាក្យបីស្រដៀងគ្នា៖ « le piment » គឺម្ទេស, « le poivre » គឺម្រេច ហើយ « le poivron » គឺម្ទេសប្លោក។ អង់គ្លេស៖ « chilli », « pepper », « sweet pepper »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "le piment", "en": "chilli", "km": "ម្ទេស", "tr": "mtéh",
+      "es": "la guindilla", "it": "il peperoncino", "ru": "перец чили", "zh": "辣椒", "zh_tr": "làjiāo", "pos": "nom",
+      "note": {
+        "fr": "ម្ទេស, « piment ». ម្ទេសខ្មាំង, le petit piment très fort ; ម្ទេសប្លោក, le poivron. On les compte avec គ្រាប់ : ម្ទេសមួយគ្រាប់, « un piment ».",
+        "en": "ម្ទេស, “chilli”. ម្ទេសខ្មាំង is the tiny, very hot one; ម្ទេសប្លោក is the sweet pepper. They are counted with គ្រាប់: ម្ទេសមួយគ្រាប់, “one chilli”. French « le piment ».",
+        "km": "« le piment » មានន័យថា ម្ទេស។ អង់គ្លេស៖ « chilli »; នៅអាមេរិកគេសរសេរ « chili »។"
+      },
+      "example": {"fr": "Ce piment est très fort.", "en": "This chilli is very hot.", "km": "ម្ទេសនេះហឹរណាស់។", "tr": "mtéh nih heul nah.",
+      "es": "Esta guindilla pica mucho.", "it": "Questo peperoncino è molto piccante.", "ru": "Этот перец очень острый.", "zh": "这个辣椒很辣。", "zh_tr": "Zhège làjiāo hěn là."}
+    },
+    {
+      "fr": "l'ail", "en": "garlic", "km": "ខ្ទឹមស", "tr": "khteum sâ",
+      "es": "el ajo", "it": "l'aglio", "ru": "чеснок", "zh": "大蒜", "zh_tr": "dàsuàn", "pos": "nom",
+      "note": {
+        "fr": "ខ្ទឹម désigne toute la famille de l'oignon ; avec ស, « blanc », c'est l'ail. ខ្ទឹមបារាំង, « oignon », mot à mot « oignon français » ; ខ្ទឹមក្រហម, « échalote ».",
+        "en": "ខ្ទឹម covers the whole onion family; with ស, “white”, it is garlic. ខ្ទឹមបារាំង, “onion”, literally “French onion”; ខ្ទឹមក្រហម, “shallot”. French « l'ail » is masculine.",
+        "km": "« l'ail » មានន័យថា ខ្ទឹមស ហើយ « l'oignon » គឺខ្ទឹមបារាំង។ អង់គ្លេស៖ « garlic », « onion »។"
+      },
+      "example": {"fr": "Fais frire l'ail avant la viande.", "en": "Fry the garlic before the meat.", "km": "ចៀនខ្ទឹមសមុនដាក់សាច់។", "tr": "tchien khteum sâ moun dak sach.",
+      "es": "Fríe el ajo antes que la carne.", "it": "Soffriggi l'aglio prima della carne.", "ru": "Обжарь чеснок перед мясом.", "zh": "先炒大蒜，再放肉。", "zh_tr": "Xiān chǎo dàsuàn, zài fàng ròu."}
+    },
+    {
+      "fr": "le citron vert", "en": "lime", "km": "ក្រូចឆ្មារ", "tr": "krôtch tchhma",
+      "es": "la lima", "it": "il lime", "ru": "лайм", "zh": "青柠", "zh_tr": "qīngníng", "pos": "nom",
+      "note": {
+        "fr": "ក្រូច désigne tous les agrumes ; ក្រូចឆ្មារ est le petit citron vert. Mélangé à du sel et du poivre, son jus donne la sauce ទឹកម្រេច, servie avec le bœuf et les fruits de mer.",
+        "en": "ក្រូច covers all citrus fruit; ក្រូចឆ្មារ is the small green lime. Mixed with salt and pepper, its juice makes the dip ទឹកម្រេច, served with beef and seafood. French « le citron vert », literally “green lemon”.",
+        "km": "« le citron vert » មានន័យថា ក្រូចឆ្មារ; « le citron » ពណ៌លឿងគឺក្រូចឆ្មារបារាំង។ អង់គ្លេស៖ « lime » និង « lemon »។"
+      },
+      "example": {"fr": "Presse un citron vert sur le poisson.", "en": "Squeeze a lime over the fish.", "km": "ច្របាច់ក្រូចឆ្មារលើត្រី។", "tr": "tchrâ-batch krôtch tchhma leu trey.",
+      "es": "Exprime una lima sobre el pescado.", "it": "Spremi un lime sul pesce.", "ru": "Выжми лайм на рыбу.", "zh": "在鱼上挤一点儿青柠汁。", "zh_tr": "Zài yú shàng jǐ yìdiǎnr qīngníng zhī."}
+    },
+    {
+      "fr": "le gingembre", "en": "ginger", "km": "ខ្ញី", "tr": "khgney",
+      "es": "el jengibre", "it": "lo zenzero", "ru": "имбирь", "zh": "姜", "zh_tr": "jiāng", "pos": "nom",
+      "note": {
+        "fr": "ខ្ញី, « gingembre ». ឆាខ្ញី, le sauté au gingembre, est un classique : poulet ou poisson, avec beaucoup de gingembre en fines lamelles.",
+        "en": "ខ្ញី, “ginger”. ឆាខ្ញី, the ginger stir-fry, is a classic: chicken or fish with plenty of finely sliced ginger. French « le gingembre ».",
+        "km": "« le gingembre » មានន័យថា ខ្ញី៖ le poulet au gingembre គឺឆាខ្ញីសាច់មាន់។ អង់គ្លេស៖ « ginger »។"
+      },
+      "example": {"fr": "Le poulet au gingembre est mon plat préféré.", "en": "Chicken with ginger is my favourite dish.", "km": "ឆាខ្ញីសាច់មាន់ជាម្ហូបដែលខ្ញុំចូលចិត្តជាងគេ។", "tr": "tchha khgney sach moan tchéa mhôp dael khgnom tchôl tchet tchéang ké.",
+      "es": "El pollo con jengibre es mi plato favorito.", "it": "Il pollo allo zenzero è il mio piatto preferito.", "ru": "Курица с имбирём — моё любимое блюдо.", "zh": "姜炒鸡是我最喜欢的菜。", "zh_tr": "Jiāng chǎo jī shì wǒ zuì xǐhuan de cài."}
+    },
+    {
+      "fr": "le poivre", "en": "pepper", "km": "ម្រេច", "tr": "mrétch",
+      "es": "la pimienta", "it": "il pepe", "ru": "перец", "zh": "胡椒", "zh_tr": "hújiāo", "pos": "nom",
+      "note": {
+        "fr": "ម្រេច, « poivre ». Celui de Kampot, ម្រេចកំពត, est protégé par une appellation d'origine. ម្រេចខ្ចី, « poivre vert frais », se mange en grappes avec le crabe.",
+        "en": "ម្រេច, “pepper”. The Kampot kind, ម្រេចកំពត, has a protected designation of origin. ម្រេចខ្ចី, “fresh green pepper”, is eaten on the stalk with crab. French « le poivre ».",
+        "km": "« le poivre » មានន័យថា ម្រេច៖ le poivre de Kampot គឺម្រេចកំពត។ អង់គ្លេស៖ « pepper »។"
+      },
+      "example": {"fr": "Le poivre de Kampot est connu dans le monde entier.", "en": "Kampot pepper is known all over the world.", "km": "ម្រេចកំពតល្បីទូទាំងពិភពលោក។", "tr": "mrétch kâm-pot lbey tou-téang pi-phop-lok.",
+      "es": "La pimienta de Kampot es famosa en todo el mundo.", "it": "Il pepe di Kampot è famoso in tutto il mondo.", "ru": "Кампотский перец известен во всём мире.", "zh": "贡布胡椒闻名世界。", "zh_tr": "Gòngbù hújiāo wénmíng shìjiè."}
+    },
+    {
+      "fr": "la citronnelle", "en": "lemongrass", "km": "ស្លឹកគ្រៃ", "tr": "sleuk krey",
+      "es": "la hierba limón", "it": "la citronella", "ru": "лемонграсс", "zh": "香茅", "zh_tr": "xiāngmáo", "pos": "nom",
+      "note": {
+        "fr": "ស្លឹក, « feuille », et គ្រៃ, la plante : la citronnelle. C'est l'âme de la pâte d'épices khmère ; on la plante aussi autour des maisons, car elle éloigne les moustiques.",
+        "en": "ស្លឹក, “leaf”, and គ្រៃ, the plant: lemongrass. It is the heart of Khmer spice paste, and is also planted round houses because it keeps mosquitoes away. French « la citronnelle ».",
+        "km": "« la citronnelle » មានន័យថា ស្លឹកគ្រៃ។ អង់គ្លេស៖ « lemongrass »។"
+      },
+      "example": {"fr": "La citronnelle parfume la soupe.", "en": "Lemongrass gives the soup its fragrance.", "km": "ស្លឹកគ្រៃធ្វើឱ្យសម្លមានក្លិនក្រអូប។", "tr": "sleuk krey thveu aoy sâm-lâ méan klen krâ-oup.",
+      "es": "La hierba limón da aroma a la sopa.", "it": "La citronella profuma la zuppa.", "ru": "Лемонграсс придаёт супу аромат.", "zh": "香茅让汤很香。", "zh_tr": "Xiāngmáo ràng tāng hěn xiāng."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Ça pique !", "en": "It's hot!", "km": "ហឹរណាស់!", "tr": "heul nah !",
+      "es": "¡Cómo pica!", "it": "È piccantissimo!", "ru": "Как остро!", "zh": "好辣！", "zh_tr": "Hǎo là!",
+      "note": {
+        "fr": "ហឹរ, « piquant, épicé ». ហឹរណាស់, « ça pique fort ». Pour calmer le feu, mieux vaut une bouchée de riz qu'un verre d'eau.",
+        "en": "ហឹរ, “hot, spicy”. ហឹរណាស់, “it's really hot”. To cool the burn, a mouthful of rice works better than a glass of water. French « Ça pique ! ».",
+        "km": "« Ça pique ! » មានន័យថា ហឹរណាស់។ អង់គ្លេស៖ « It's hot! » ឬ « It's spicy! »។"
+      }
+    },
+    {
+      "fr": "Tu manges épicé ?", "en": "Do you eat spicy food?", "km": "ញ៉ាំហឹរបានទេ?", "tr": "gnam heul ban té ?",
+      "es": "¿Comes picante?", "it": "Mangi piccante?", "ru": "Ты ешь острое?", "zh": "你能吃辣吗？", "zh_tr": "Nǐ néng chī là ma?",
+      "note": {
+        "fr": "ញ៉ាំហឹរបានទេ?, mot à mot « manger épicé, possible ? ». La question qu'on pose toujours à un étranger avant de cuisiner.",
+        "en": "ញ៉ាំហឹរបានទេ?, literally “eat spicy, can?”. The question every foreigner is asked before the cooking starts. French « Tu manges épicé ? ».",
+        "km": "« Tu manges épicé ? » មានន័យថា ញ៉ាំហឹរបានទេ?។ អង់គ្លេស៖ « Do you eat spicy food? »។"
+      }
+    },
+    {
+      "fr": "Sans piment, s'il vous plaît.", "en": "No chilli, please.", "km": "សុំកុំដាក់ម្ទេស។", "tr": "som kom dak mtéh.",
+      "es": "Sin guindilla, por favor.", "it": "Senza peperoncino, per favore.", "ru": "Без перца чили, пожалуйста.", "zh": "请不要放辣椒。", "zh_tr": "Qǐng búyào fàng làjiāo.",
+      "note": {
+        "fr": "សុំកុំដាក់…, « s'il vous plaît, ne mettez pas de… » : la même formule sert pour le sucre, la glace ou le glutamate.",
+        "en": "សុំកុំដាក់…, “please don't put any…”: the same pattern works for sugar, ice or MSG. French « sans piment ».",
+        "km": "« sans » មានន័យថា គ្មាន ឬកុំដាក់៖ sans piment, sans sucre។ អង់គ្លេស៖ « No chilli, please »។"
+      }
+    },
+    {
+      "fr": "Ça donne du goût.", "en": "It adds flavour.", "km": "ធ្វើឱ្យមានរសជាតិ។", "tr": "thveu aoy méan ros-tchéat.",
+      "es": "Le da sabor.", "it": "Dà sapore.", "ru": "Это придаёт вкус.", "zh": "这样更有味道。", "zh_tr": "Zhèyàng gèng yǒu wèidao.",
+      "note": {
+        "fr": "ធ្វើឱ្យ, « rendre, faire que », et មានរសជាតិ, « avoir du goût ». Le contraire : គ្មានរសជាតិ, « ça n'a pas de goût ».",
+        "en": "ធ្វើឱ្យ, “to make”, and មានរសជាតិ, “to have flavour”. The opposite is គ្មានរសជាតិ, “it has no taste”. French « donner du goût ».",
+        "km": "« Ça donne du goût » មានន័យថា ធ្វើឱ្យមានរសជាតិ។ អង់គ្លេស៖ « It adds flavour »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Je voudrais de l'ail, du gingembre et trois citrons verts.", "en": "I'd like some garlic, some ginger and three limes.",
+      "km": "ខ្ញុំចង់បានខ្ទឹមស ខ្ញី និងក្រូចឆ្មារបីផ្លែ។", "tr": "khgnom tchâng ban khteum sâ, khgney ning krôtch tchhma bey phlaè.",
+      "es": "Quisiera ajo, jengibre y tres limas.", "it": "Vorrei dell'aglio, dello zenzero e tre lime.", "ru": "Мне, пожалуйста, чеснок, имбирь и три лайма.", "zh": "我想要大蒜、姜和三个青柠。", "zh_tr": "Wǒ xiǎng yào dàsuàn, jiāng hé sān ge qīngníng."
+    },
+    {
+      "situation": {"fr": "À Kampot", "en": "In Kampot", "km": "នៅកំពត"},
+      "fr": "Nous avons visité une plantation de poivre près de Kampot.", "en": "We visited a pepper plantation near Kampot.",
+      "km": "យើងបានទៅលេងចំការម្រេចនៅជិតកំពត។", "tr": "yeung ban teuv léng tchâm-ka mrétch neuv tchit kâm-pot.",
+      "es": "Hemos visitado una plantación de pimienta cerca de Kampot.", "it": "Abbiamo visitato una piantagione di pepe vicino a Kampot.", "ru": "Мы побывали на перечной плантации недалеко от Кампота.", "zh": "我们参观了贡布附近的胡椒园。", "zh_tr": "Wǒmen cānguān le Gòngbù fùjìn de hújiāoyuán."
+    },
+    {
+      "situation": {"fr": "En cuisine", "en": "In the kitchen", "km": "ក្នុងផ្ទះបាយ"},
+      "fr": "On pile la citronnelle et l'ail dans le mortier pour faire la pâte d'épices khmère.", "en": "Lemongrass and garlic are pounded in the mortar to make Khmer spice paste.",
+      "km": "គេបុកស្លឹកគ្រៃ និងខ្ទឹមសក្នុងត្បាល់ដើម្បីធ្វើគ្រឿង។", "tr": "ké bok sleuk krey ning khteum sâ knong tbal daeum-bey thveu kreuang.",
+      "es": "Se majan la hierba limón y el ajo en el mortero para hacer la pasta de especias jemer.", "it": "Si pestano la citronella e l'aglio nel mortaio per fare la pasta di spezie khmer.", "ru": "Лемонграсс и чеснок толкут в ступке, чтобы приготовить кхмерскую пряную пасту.", "zh": "把香茅和大蒜放在臼里捣碎，做成高棉香料酱。", "zh_tr": "Bǎ xiāngmáo hé dàsuàn fàng zài jiù lǐ dǎosuì, zuòchéng Gāomián xiāngliào jiàng."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} font les courses pour préparer un plat khmer.", "en": "{A} and {B} are shopping to cook a Khmer dish.", "km": "{A} និង {B} ទៅផ្សារទិញគ្រឿងធ្វើម្ហូបខ្មែរ។"},
+    "lines": [
+      {"speaker": "A", "fr": "Pour ce plat, il nous faut de la citronnelle, de l'ail et du gingembre.", "en": "For this dish we need lemongrass, garlic and ginger.", "km": "ម្ហូបនេះត្រូវការស្លឹកគ្រៃ ខ្ទឹមស និងខ្ញី។", "tr": "mhôp nih treuv-ka sleuk krey, khteum sâ ning khgney.",
+        "es": "Para este plato necesitamos hierba limón, ajo y jengibre.", "it": "Per questo piatto ci servono citronella, aglio e zenzero.", "ru": "Для этого блюда нам нужны лемонграсс, чеснок и имбирь.", "zh": "做这道菜，我们需要香茅、大蒜和姜。", "zh_tr": "Zuò zhè dào cài, wǒmen xūyào xiāngmáo, dàsuàn hé jiāng."},
+      {"speaker": "B", "fr": "Et du piment ? Pas trop, s'il te plaît !", "en": "And chilli? Not too much, please!", "km": "ចុះម្ទេសវិញ? សុំកុំច្រើនពេកណា!", "tr": "tchoh mtéh vign ? som kom tchraeun pék na !",
+        "es": "¿Y guindilla? ¡No mucha, por favor!", "it": "E il peperoncino? Non troppo, per favore!", "ru": "А перец чили? Только не слишком много, пожалуйста!", "zh": "那辣椒呢？请不要放太多！", "zh_tr": "Nà làjiāo ne? Qǐng búyào fàng tài duō!"},
+      {"speaker": "A", "fr": "Tu ne manges pas épicé ? Un seul petit piment, alors.", "en": "Don't you eat spicy food? Just one small chilli, then.", "km": "{B} ញ៉ាំហឹរមិនបានទេឬ? អញ្ចឹងដាក់តែមួយគ្រាប់តូចបានហើយ។", "tr": "{B} gnam heul min ban té reu ? agn-tcheung dak taè mouy kroap tôtch ban haeuy.",
+        "es": "¿No comes picante? Entonces solo una guindilla pequeña.", "it": "Non mangi piccante? Allora solo un peperoncino piccolo.", "ru": "Ты не ешь острое? Тогда только один маленький перчик.", "zh": "你不能吃辣吗？那就只放一个小辣椒。", "zh_tr": "Nǐ bù néng chī là ma? Nà jiù zhǐ fàng yí ge xiǎo làjiāo."},
+      {"speaker": "B", "fr": "Merci ! Et le poivre, on prend celui de Kampot ?", "en": "Thanks! And the pepper, shall we get the Kampot one?", "km": "អរគុណ! ចុះម្រេចវិញ យកម្រេចកំពតទេ?", "tr": "â-koun ! tchoh mrétch vign, yok mrétch kâm-pot té ?",
+        "es": "¡Gracias! Y la pimienta, ¿cogemos la de Kampot?", "it": "Grazie! E il pepe, prendiamo quello di Kampot?", "ru": "Спасибо! А перец возьмём кампотский?", "zh": "谢谢！那胡椒呢，买贡布的吗？", "zh_tr": "Xièxie! Nà hújiāo ne, mǎi Gòngbù de ma?"},
+      {"speaker": "A", "fr": "Bien sûr, c'est le meilleur. Sens comme il est parfumé !", "en": "Of course, it's the best. Smell how fragrant it is!", "km": "បានតើ ម្រេចកំពតល្អជាងគេ។ ធុំក្លិនមើល ក្រអូបណាស់!", "tr": "ban taeu, mrétch kâm-pot l'â tchéang ké. thoum klen meul, krâ-oup nah !",
+        "es": "Claro, es la mejor. ¡Huele qué aroma tiene!", "it": "Certo, è il migliore. Senti che profumo!", "ru": "Конечно, он самый лучший. Понюхай, какой ароматный!", "zh": "当然，贡布的最好。你闻闻，多香啊！", "zh_tr": "Dāngrán, Gòngbù de zuì hǎo. Nǐ wénwen, duō xiāng a!"},
+      {"speaker": "B", "fr": "Hum, ça sent bon ! Et un citron vert pour finir ?", "en": "Mmm, that smells good! And a lime to finish?", "km": "អឺម ក្រអូបមែន! ហើយក្រូចឆ្មារមួយផ្លែទៀត?", "tr": "eum, krâ-oup mèn ! haeuy krôtch tchhma mouy phlaè tiet ?",
+        "es": "¡Mmm, qué bien huele! ¿Y una lima para terminar?", "it": "Mmm, che buon profumo! E un lime per finire?", "ru": "М-м, как вкусно пахнет! И ещё один лайм напоследок?", "zh": "嗯，真香！最后再买一个青柠？", "zh_tr": "Ǹg, zhēn xiāng! Zuìhòu zài mǎi yí ge qīngníng?"},
+      {"speaker": "A", "fr": "Oui, trois ! Le citron vert, ça donne du goût.", "en": "Yes, three! Lime adds flavour.", "km": "{A_yes} បីផ្លែ! ក្រូចឆ្មារធ្វើឱ្យមានរសជាតិ។", "tr": "{A_yes}, bey phlaè ! krôtch tchhma thveu aoy méan ros-tchéat.",
+        "es": "¡Sí, tres! La lima le da sabor.", "it": "Sì, tre! Il lime dà sapore.", "ru": "Да, три! Лайм придаёт вкус.", "zh": "对，买三个！青柠能提味。", "zh_tr": "Duì, mǎi sān ge! Qīngníng néng tíwèi."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Combien de piments faut-il mettre dans le plat ?", "en": "How many chillies will go in the dish?", "km": "ត្រូវដាក់ម្ទេសប៉ុន្មានគ្រាប់?"},
+    "answer": {"fr": "Un seul petit piment.", "en": "Just one small chilli.", "km": "តែមួយគ្រាប់តូច។"}
+  }
+}

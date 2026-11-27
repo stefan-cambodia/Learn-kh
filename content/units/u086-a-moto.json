@@ -1,0 +1,159 @@
+{
+  "id": "u086",
+  "order": 86,
+  "level": "intermediaire",
+  "theme": "a-moto",
+  "title": {"fr": "À moto", "en": "By motorbike", "km": "ជិះម៉ូតូ"},
+  "tip": {
+    "fr": "La moto est le véhicule de tout le monde au Cambodge, et son vocabulaire vient souvent du français : សាំង, « essence » ; ហ្វ្រាំង, « frein » ; កុងតាក់, « contact ». Les réparateurs travaillent au bord de la route : une crevaison se répare en dix minutes.",
+    "en": "The motorbike is everyone's vehicle in Cambodia, and many of its words come from French: សាំង from « essence », petrol; ហ្វ្រាំង from « frein », brake; កុងតាក់ from « contact », ignition. Repairmen work by the roadside: a puncture is fixed in ten minutes.",
+    "km": "ពាក្យខ្មែរជាច្រើនអំពីម៉ូតូមកពីភាសាបារាំង៖ សាំង មកពី « essence » ហើយ ហ្វ្រាំង មកពី « frein »។ អង់គ្លេសនៅប្រទេសអង់គ្លេសថា « petrol » ហើយនៅអាមេរិកថា « gas »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "l'essence", "en": "petrol", "km": "សាំង", "tr": "sang",
+      "es": "la gasolina", "it": "la benzina", "ru": "бензин", "zh": "汽油", "zh_tr": "qìyóu", "pos": "nom",
+      "note": {
+        "fr": "សាំង vient du français « essence ». ចាក់សាំង, « faire le plein », mot à mot « verser l'essence ». Au bord des routes, on la vend aussi en bouteilles d'un litre.",
+        "en": "សាំង comes from French « essence ». ចាក់សាំង, “to fill up”, literally “to pour petrol”. By the roadside it is also sold in one-litre bottles. French « l'essence » is feminine.",
+        "km": "« l'essence » មានន័យថា សាំង (ភេទស្រី)។ អង់គ្លេស៖ « petrol » ឬ « gas »; « petrol station » គឺស្ថានីយសាំង។"
+      },
+      "example": {"fr": "Il n'y a presque plus d'essence.", "en": "We're almost out of petrol.", "km": "សាំងជិតអស់ហើយ។", "tr": "sang tchit âh haeuy.",
+      "es": "Casi no queda gasolina.", "it": "La benzina è quasi finita.", "ru": "Бензин почти закончился.", "zh": "汽油快用完了。", "zh_tr": "Qìyóu kuài yòng wán le."}
+    },
+    {
+      "fr": "le casque", "en": "helmet", "km": "មួកសុវត្ថិភាព", "tr": "mouok so-vat-thi-phéap",
+      "es": "el casco", "it": "il casco", "ru": "шлем", "zh": "头盔", "zh_tr": "tóukuī", "pos": "nom",
+      "note": {
+        "fr": "មួក, « chapeau », et សុវត្ថិភាព, « sécurité » : le casque. Dans la conversation, on dit aussi មួកកាស, du français « casque ». Il est obligatoire, pour le passager aussi.",
+        "en": "មួក, “hat”, and សុវត្ថិភាព, “safety”: a helmet. In conversation people also say មួកកាស, from French « casque ». It is compulsory, for the passenger too. French « le casque ».",
+        "km": "« le casque » មានន័យថា មួកសុវត្ថិភាព៖ mets ton casque។ អង់គ្លេស៖ « helmet »។"
+      },
+      "example": {"fr": "À moto, il faut porter un casque.", "en": "On a motorbike you must wear a helmet.", "km": "ជិះម៉ូតូត្រូវពាក់មួកសុវត្ថិភាព។", "tr": "tchih mô-tô treuv péak mouok so-vat-thi-phéap.",
+      "es": "En moto hay que llevar casco.", "it": "In moto bisogna portare il casco.", "ru": "На мотоцикле нужно носить шлем.", "zh": "骑摩托车必须戴头盔。", "zh_tr": "Qí mótuōchē bìxū dài tóukuī."}
+    },
+    {
+      "fr": "la roue", "en": "wheel", "km": "កង់", "tr": "kâng",
+      "es": "la rueda", "it": "la ruota", "ru": "колесо", "zh": "轮子", "zh_tr": "lúnzi", "pos": "nom",
+      "note": {
+        "fr": "កង់, « roue », et aussi « vélo » : ជិះកង់, « faire du vélo ». កង់មុខ, « roue avant » ; កង់ក្រោយ, « roue arrière » ; សំបកកង់, « pneu ».",
+        "en": "កង់, “wheel”, and also “bicycle”: ជិះកង់, “to ride a bike”. កង់មុខ, “front wheel”; កង់ក្រោយ, “back wheel”; សំបកកង់, “tyre”. French « la roue »; the tyre is « le pneu ».",
+        "km": "« la roue » មានន័យថា កង់ ហើយ « le pneu » គឺសំបកកង់; « le vélo » គឺកង់សម្រាប់ជិះ។ អង់គ្លេស៖ « wheel », « tyre », « bicycle »។"
+      },
+      "example": {"fr": "La roue arrière est crevée.", "en": "The back wheel has a puncture.", "km": "កង់ក្រោយបែក។", "tr": "kâng kraoy baèk.",
+      "es": "La rueda trasera está pinchada.", "it": "La ruota posteriore è bucata.", "ru": "Заднее колесо проколото.", "zh": "后轮爆胎了。", "zh_tr": "Hòulún bàotāi le."}
+    },
+    {
+      "fr": "le frein", "en": "brake", "km": "ហ្វ្រាំង", "tr": "frang",
+      "es": "el freno", "it": "il freno", "ru": "тормоз", "zh": "刹车", "zh_tr": "shāchē", "pos": "nom",
+      "note": {
+        "fr": "ហ្វ្រាំង vient du français « frein ». ចាប់ហ្វ្រាំង, « freiner », mot à mot « saisir le frein ». D'un frein qui répond bien, on dit qu'il « mange » : ហ្វ្រាំងស៊ី.",
+        "en": "ហ្វ្រាំង comes from French « frein ». ចាប់ហ្វ្រាំង, “to brake”, literally “to grab the brake”. A brake that grips well is said to “eat”: ហ្វ្រាំងស៊ី. French « le frein », « freiner ».",
+        "km": "« le frein » មានន័យថា ហ្វ្រាំង ហើយ « freiner » គឺចាប់ហ្វ្រាំង។ អង់គ្លេស៖ « brake », « to brake »។"
+      },
+      "example": {"fr": "Les freins ne marchent pas bien.", "en": "The brakes don't work well.", "km": "ហ្វ្រាំងមិនសូវស៊ីទេ។", "tr": "frang min seuv si té.",
+      "es": "Los frenos no funcionan bien.", "it": "I freni non funzionano bene.", "ru": "Тормоза плохо работают.", "zh": "刹车不太灵。", "zh_tr": "Shāchē bú tài líng."}
+    },
+    {
+      "fr": "le mécanicien", "en": "mechanic", "km": "ជាងជួសជុល", "tr": "tchéang tchouoh-tchoul",
+      "es": "el mecánico", "it": "il meccanico", "ru": "механик", "zh": "修理工", "zh_tr": "xiūlǐgōng", "pos": "nom",
+      "note": {
+        "fr": "ជាង, « artisan, ouvrier qualifié », et ជួសជុល, « réparer ». On précise le métier après ជាង : ជាងម៉ូតូ, « mécanicien moto » ; ជាងកាត់សក់, « coiffeur ».",
+        "en": "ជាង, “craftsman, skilled worker”, and ជួសជុល, “to repair”. The trade follows ជាង: ជាងម៉ូតូ, “motorbike mechanic”; ជាងកាត់សក់, “barber”. French « le mécanicien »; his workshop is « le garage ».",
+        "km": "« le mécanicien » មានន័យថា ជាងជួសជុល; កន្លែងធ្វើការរបស់គាត់គឺ « le garage »។ អង់គ្លេស៖ « mechanic », « garage »។"
+      },
+      "example": {"fr": "Le mécanicien répare ma moto.", "en": "The mechanic is repairing my motorbike.", "km": "ជាងកំពុងជួសជុលម៉ូតូខ្ញុំ។", "tr": "tchéang kâm-poung tchouoh-tchoul mô-tô khgnom.",
+      "es": "El mecánico está arreglando mi moto.", "it": "Il meccanico sta riparando la mia moto.", "ru": "Механик чинит мой мотоцикл.", "zh": "修理工正在修我的摩托车。", "zh_tr": "Xiūlǐgōng zhèngzài xiū wǒ de mótuōchē."}
+    },
+    {
+      "fr": "se garer", "en": "to park", "km": "ចត", "tr": "tchât",
+      "es": "aparcar", "it": "parcheggiare", "ru": "парковаться", "zh": "停车", "zh_tr": "tíngchē", "pos": "verbe",
+      "note": {
+        "fr": "ចត, « garer, se garer » ; ចំណត, « parking, arrêt ». Devant les marchés, un gardien surveille les motos contre un ticket : កន្លែងផ្ញើម៉ូតូ.",
+        "en": "ចត, “to park”; ចំណត, “car park, stop”. Outside markets an attendant watches the bikes in exchange for a ticket: កន្លែងផ្ញើម៉ូតូ. French « se garer »; « le parking » is the car park.",
+        "km": "« se garer » មានន័យថា ចត ហើយ « le parking » គឺចំណត។ អង់គ្លេស៖ « to park », « car park »។"
+      },
+      "example": {"fr": "On peut se garer devant la maison.", "en": "You can park in front of the house.", "km": "ចតនៅមុខផ្ទះបាន។", "tr": "tchât neuv mouk phtéah ban.",
+      "es": "Se puede aparcar delante de la casa.", "it": "Si può parcheggiare davanti alla casa.", "ru": "Можно припарковаться перед домом.", "zh": "可以把车停在房子前面。", "zh_tr": "Kěyǐ bǎ chē tíng zài fángzi qiánmiàn."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "Le plein, s'il vous plaît.", "en": "Fill it up, please.", "km": "សូមចាក់សាំងពេញ។", "tr": "sôm tchak sang pégn.",
+      "es": "Lleno, por favor.", "it": "Il pieno, per favore.", "ru": "Полный бак, пожалуйста.", "zh": "请加满。", "zh_tr": "Qǐng jiā mǎn.",
+      "note": {
+        "fr": "ចាក់, « verser », សាំង, « essence », ពេញ, « plein ». On peut aussi donner une somme : ចាក់សាំងមួយដុល្លារ, « un dollar d'essence ».",
+        "en": "ចាក់, “to pour”, សាំង, “petrol”, ពេញ, “full”. You can also name an amount: ចាក់សាំងមួយដុល្លារ, “a dollar's worth of petrol”. French « faire le plein ».",
+        "km": "« Le plein, s'il vous plaît » មានន័យថា សូមចាក់សាំងពេញ។ អង់គ្លេស៖ « Fill it up, please »។"
+      }
+    },
+    {
+      "fr": "J'ai crevé.", "en": "I've got a flat tyre.", "km": "បែកកង់ហើយ។", "tr": "baèk kâng haeuy.",
+      "es": "He pinchado.", "it": "Ho bucato.", "ru": "Я проколол колесо.", "zh": "我的车胎爆了。", "zh_tr": "Wǒ de chētāi bào le.",
+      "note": {
+        "fr": "បែក, « éclater, se casser », et កង់, « roue » : crever. Au réparateur, on demande ប៉ះកង់, « poser une rustine », mot à mot « toucher la roue ».",
+        "en": "បែក, “to burst, to break”, and កង់, “wheel”: to have a puncture. You ask the repairman to ប៉ះកង់, “patch the tyre”. French « J'ai crevé. » or « J'ai un pneu crevé. ».",
+        "km": "« J'ai crevé » មានន័យថា បែកកង់ហើយ។ អង់គ្លេស៖ « I've got a flat tyre »។"
+      }
+    },
+    {
+      "fr": "Où est-ce que je peux me garer ?", "en": "Where can I park?", "km": "ចតនៅឯណាបាន?", "tr": "tchât neuv aè na ban ?",
+      "es": "¿Dónde puedo aparcar?", "it": "Dove posso parcheggiare?", "ru": "Где можно припарковаться?", "zh": "哪里可以停车？", "zh_tr": "Nǎlǐ kěyǐ tíngchē?",
+      "note": {
+        "fr": "នៅឯណា, « où », et បាន à la fin, « pouvoir » : où peut-on se garer ? Le gardien répond d'un geste : ចតត្រង់នេះ, « garez-vous ici ».",
+        "en": "នៅឯណា, “where”, with បាន at the end, “can”: where can one park? The attendant waves: ចតត្រង់នេះ, “park here”. French « Où est-ce que je peux me garer ? ».",
+        "km": "« Où est-ce que je peux me garer ? » ប្រើសួររកកន្លែងចត។ អង់គ្លេស៖ « Where can I park? »។"
+      }
+    },
+    {
+      "fr": "Roule prudemment !", "en": "Ride safely!", "km": "ជិះប្រយ័ត្នណា!", "tr": "tchih prâ-yat na !",
+      "es": "¡Conduce con cuidado!", "it": "Guida con prudenza!", "ru": "Езжай осторожно!", "zh": "路上小心！", "zh_tr": "Lùshang xiǎoxīn!",
+      "note": {
+        "fr": "ជិះ, « monter sur, rouler à », et ប្រយ័ត្ន, « attention » ; ណា adoucit le conseil. C'est ce qu'on dit à celui qui part à moto.",
+        "en": "ជិះ, “to ride”, and ប្រយ័ត្ន, “careful”; ណា softens the advice. It is what you say to someone setting off by motorbike. French « Roule prudemment ! ».",
+        "km": "« Roule prudemment ! » ប្រើនិយាយទៅកាន់អ្នកដែលចេញដំណើរ។ អង់គ្លេស៖ « Ride safely! » ឬ « Drive safely! »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "À la station-service", "en": "At the petrol station", "km": "នៅស្ថានីយសាំង"},
+      "fr": "Mettez pour cinq mille riels d'essence, s'il vous plaît.", "en": "Five thousand riels of petrol, please.",
+      "km": "សូមចាក់សាំងប្រាំពាន់រៀល។", "tr": "sôm tchak sang pram poan riel.",
+      "es": "Póngame cinco mil rieles de gasolina, por favor.", "it": "Mi metta cinquemila riel di benzina, per favore.", "ru": "Залейте бензина на пять тысяч риелей, пожалуйста.", "zh": "请给我加五千瑞尔的汽油。", "zh_tr": "Qǐng gěi wǒ jiā wǔqiān ruì'ěr de qìyóu."
+    },
+    {
+      "situation": {"fr": "Chez le mécanicien", "en": "At the mechanic's", "km": "នៅកន្លែងជួសជុលម៉ូតូ"},
+      "fr": "Vous pouvez vérifier les freins et gonfler les pneus ?", "en": "Could you check the brakes and pump up the tyres?",
+      "km": "ជួយមើលហ្វ្រាំង ហើយសប់ខ្យល់កង់ផងបានទេ?", "tr": "tchouoy meul frang, haeuy sâp khyâl kâng phâng ban té ?",
+      "es": "¿Puede revisar los frenos e inflar las ruedas?", "it": "Può controllare i freni e gonfiare le gomme?", "ru": "Можете проверить тормоза и подкачать колёса?", "zh": "您能检查一下刹车，再给轮胎打打气吗？", "zh_tr": "Nín néng jiǎnchá yíxià shāchē, zài gěi lúntāi dǎda qì ma?"
+    },
+    {
+      "situation": {"fr": "Devant le marché", "en": "Outside the market", "km": "នៅមុខផ្សារ"},
+      "fr": "Je laisse ma moto au parking gardé ; ça coûte mille riels.", "en": "I leave my motorbike at the guarded parking; it costs a thousand riels.",
+      "km": "ខ្ញុំផ្ញើម៉ូតូនៅកន្លែងផ្ញើ ថ្លៃមួយពាន់រៀល។", "tr": "khgnom phgnaeu mô-tô neuv kân-laèng phgnaeu, thlay mouy poan riel.",
+      "es": "Dejo la moto en el aparcamiento vigilado; cuesta mil rieles.", "it": "Lascio la moto al parcheggio custodito; costa mille riel.", "ru": "Я оставляю мотоцикл на охраняемой стоянке; это стоит тысячу риелей.", "zh": "我把摩托车停在有人看管的停车处，要一千瑞尔。", "zh_tr": "Wǒ bǎ mótuōchē tíng zài yǒu rén kānguǎn de tíngchēchù, yào yìqiān ruì'ěr."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} roulent à moto sur la route de Kep.", "en": "{A} and {B} are riding a motorbike on the road to Kep.", "km": "{A} និង {B} ជិះម៉ូតូតាមផ្លូវទៅកែប។"},
+    "lines": [
+      {"speaker": "B", "fr": "{A}, la moto roule bizarrement. Je crois qu'on a crevé.", "en": "{A}, the bike feels strange. I think we've got a flat tyre.", "km": "{A} ម៉ូតូរត់ប្លែកៗ។ ខ្ញុំគិតថាបែកកង់ហើយ។", "tr": "{A}, mô-tô rot plaèk-plaèk. khgnom kit tha baèk kâng haeuy.",
+        "es": "{A}, la moto va rara. Creo que hemos pinchado.", "it": "{A}, la moto va in modo strano. Credo che abbiamo bucato.", "ru": "{A}, мотоцикл едет как-то странно. Кажется, мы прокололи колесо.", "zh": "{A}，摩托车有点儿不对劲。我想是爆胎了。", "zh_tr": "{A}, mótuōchē yǒudiǎnr bú duìjìn. Wǒ xiǎng shì bàotāi le."},
+      {"speaker": "A", "fr": "Arrête-toi là, devant la maison bleue. Il y a un mécanicien.", "en": "Stop there, in front of the blue house. There's a mechanic.", "km": "ឈប់ត្រង់នោះ នៅមុខផ្ទះពណ៌ខៀវ។ មានជាងជួសជុលម៉ូតូ។", "tr": "tchhoup trâng nouh, neuv mouk phtéah poa khiev. méan tchéang tchouoh-tchoul mô-tô.",
+        "es": "Para ahí, delante de la casa azul. Hay un mecánico.", "it": "Fermati lì, davanti alla casa blu. C'è un meccanico.", "ru": "Остановись там, перед синим домом. Там есть механик.", "zh": "在那儿停，蓝房子前面。那儿有修理工。", "zh_tr": "Zài nàr tíng, lán fángzi qiánmiàn. Nàr yǒu xiūlǐgōng."},
+      {"speaker": "B", "fr": "Quelle chance ! Et les freins ? Ils font du bruit.", "en": "What luck! And the brakes? They're making a noise.", "km": "សំណាងល្អមែន! ចុះហ្វ្រាំងវិញ? វាឮសំឡេង។", "tr": "sâm-nang l'â mèn ! tchoh frang vign ? véa leu sâm-léng.",
+        "es": "¡Qué suerte! ¿Y los frenos? Hacen ruido.", "it": "Che fortuna! E i freni? Fanno rumore.", "ru": "Вот повезло! А тормоза? Они шумят.", "zh": "真幸运！那刹车呢？有响声。", "zh_tr": "Zhēn xìngyùn! Nà shāchē ne? Yǒu xiǎngshēng."},
+      {"speaker": "A", "fr": "On lui demande de regarder aussi. Et il faut mettre de l'essence.", "en": "We'll ask him to look at them too. And we need to get petrol.", "km": "យើងសុំឱ្យជាងមើលដែរ។ ហើយត្រូវចាក់សាំងផង។", "tr": "yeung som aoy tchéang meul daè. haeuy treuv tchak sang phâng.",
+        "es": "Le pedimos que los mire también. Y hay que echar gasolina.", "it": "Gli chiediamo di guardare anche quelli. E bisogna fare benzina.", "ru": "Попросим его посмотреть и их. И ещё нужно заправиться.", "zh": "请他也看一下。还得加油。", "zh_tr": "Qǐng tā yě kàn yíxià. Hái děi jiāyóu."},
+      {"speaker": "B", "fr": "D'accord. Je gare la moto à l'ombre, sous l'arbre.", "en": "OK. I'll park the bike in the shade, under the tree.", "km": "បាន។ ខ្ញុំចតម៉ូតូក្នុងម្លប់ នៅក្រោមដើមឈើ។", "tr": "ban. khgnom tchât mô-tô knong mlup, neuv kraom daeum tchheu.",
+        "es": "Vale. Aparco la moto a la sombra, debajo del árbol.", "it": "Va bene. Parcheggio la moto all'ombra, sotto l'albero.", "ru": "Хорошо. Я поставлю мотоцикл в тени, под деревом.", "zh": "好。我把摩托车停在树荫下。", "zh_tr": "Hǎo. Wǒ bǎ mótuōchē tíng zài shùyīn xià."},
+      {"speaker": "A", "fr": "Bonne idée. En attendant, on va boire un café glacé ?", "en": "Good idea. While we wait, shall we have an iced coffee?", "km": "គំនិតល្អ។ ចាំជាងធ្វើ យើងទៅញ៉ាំកាហ្វេទឹកកកទេ?", "tr": "koum-neut l'â. tcham tchéang thveu, yeung teuv gnam ka-fé teuk kâk té ?",
+        "es": "Buena idea. Mientras esperamos, ¿tomamos un café con hielo?", "it": "Buona idea. Mentre aspettiamo, prendiamo un caffè freddo?", "ru": "Хорошая идея. Пока ждём, выпьем кофе со льдом?", "zh": "好主意。等的时候，我们去喝杯冰咖啡吧？", "zh_tr": "Hǎo zhǔyi. Děng de shíhou, wǒmen qù hē bēi bīng kāfēi ba?"}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Où est-ce que {B} gare la moto ?", "en": "Where does {B} park the motorbike?", "km": "{B} ចតម៉ូតូនៅឯណា?"},
+    "answer": {"fr": "À l'ombre, sous l'arbre.", "en": "In the shade, under the tree.", "km": "ក្នុងម្លប់ នៅក្រោមដើមឈើ។"}
+  }
+}

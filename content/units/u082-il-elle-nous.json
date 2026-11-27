@@ -1,0 +1,159 @@
+{
+  "id": "u082",
+  "order": 82,
+  "level": "intermediaire",
+  "theme": "il-elle-nous",
+  "title": {"fr": "Il, elle, nous, ils", "en": "He, she, we, they", "km": "គាត់ យើង ពួកគេ"},
+  "tip": {
+    "fr": "Le khmer ne distingue pas « il » et « elle » : គាត់ sert pour les deux, avec respect. Pour un enfant, un animal ou une chose, on dit វា. Et l'on remplace volontiers le pronom par un mot de parenté — បង, ពូ, មីង — qui indique à la fois le sexe et l'âge.",
+    "en": "Khmer has no separate “he” and “she”: គាត់ serves for both, respectfully. For a child, an animal or a thing, people say វា. A kinship word — បង, ពូ, មីង — often replaces the pronoun and gives both sex and age. French marks gender everywhere: il, elle, ils, elles, celui-ci, celle-ci.",
+    "km": "ភាសាបារាំងបែងចែកភេទ៖ « il » សម្រាប់ប្រុស « elle » សម្រាប់ស្រី ហើយពហុវចនៈគឺ « ils » និង « elles »។ របស់ក៏មានភេទដែរ៖ la mangue ប្រើ « elle »។ អង់គ្លេស៖ « he », « she », « it », « they »។"
+  },
+  "vocabulary": [
+    {
+      "fr": "il, elle", "en": "he, she", "km": "គាត់", "tr": "koat",
+      "es": "él, ella", "it": "lui, lei", "ru": "он, она", "zh": "他，她", "zh_tr": "tā, tā", "pos": "pronom",
+      "note": {
+        "fr": "គាត់ désigne un homme ou une femme dont on parle avec respect. Le même mot sert de sujet, de complément et de possessif : ផ្ទះគាត់, « sa maison ».",
+        "en": "គាត់ refers to a man or a woman spoken of with respect. The same word is subject, object and possessive: ផ្ទះគាត់, “his house, her house”. French « il » is he, « elle » is she.",
+        "km": "« il » គឺគាត់ (ប្រុស) ហើយ « elle » គឺគាត់ (ស្រី)។ អង់គ្លេស៖ « he » និង « she »។ ចិន៖ 他 និង 她 អានដូចគ្នា។"
+      },
+      "example": {"fr": "Elle travaille à Phnom Penh.", "en": "She works in Phnom Penh.", "km": "គាត់ធ្វើការនៅភ្នំពេញ។", "tr": "koat thveu-ka neuv phnom-pégn.",
+      "es": "Trabaja en Phnom Penh.", "it": "Lavora a Phnom Penh.", "ru": "Она работает в Пномпене.", "zh": "她在金边工作。", "zh_tr": "Tā zài Jīnbiān gōngzuò."}
+    },
+    {
+      "fr": "nous", "en": "we", "km": "យើង", "tr": "yeung",
+      "es": "nosotros", "it": "noi", "ru": "мы", "zh": "我们", "zh_tr": "wǒmen", "pos": "pronom",
+      "note": {
+        "fr": "យើង, « nous », et aussi « notre » après un nom : ផ្ទះយើង, « notre maison ». Dans la conversation, យើង peut même vouloir dire « on » en général.",
+        "en": "យើង, “we”, and also “our” after a noun: ផ្ទះយើង, “our house”. In conversation it can mean people in general. French « nous »; spoken French often says « on » instead: on y va.",
+        "km": "« nous » មានន័យថា យើង។ ពេលនិយាយ ជនជាតិបារាំងច្រើនប្រើ « on » ជំនួស៖ on mange។ អង់គ្លេស៖ « we »។"
+      },
+      "example": {"fr": "Nous habitons près du marché.", "en": "We live near the market.", "km": "យើងរស់នៅជិតផ្សារ។", "tr": "yeung rouh neuv tchit phsa.",
+      "es": "Vivimos cerca del mercado.", "it": "Abitiamo vicino al mercato.", "ru": "Мы живём рядом с рынком.", "zh": "我们住在市场附近。", "zh_tr": "Wǒmen zhù zài shìchǎng fùjìn."}
+    },
+    {
+      "fr": "ils, elles", "en": "they", "km": "ពួកគេ", "tr": "pouok-ké",
+      "es": "ellos, ellas", "it": "loro", "ru": "они", "zh": "他们", "zh_tr": "tāmen", "pos": "pronom",
+      "note": {
+        "fr": "ពួក, « groupe », et គេ, « eux, les gens ». ពួក met n'importe quel pronom au pluriel : ពួកយើង, « nous autres ». គេ seul veut aussi dire « on » : គេថា…, « on dit que… ».",
+        "en": "ពួក, “group”, and គេ, “they, people”. ពួក makes any pronoun plural: ពួកយើង, “all of us”. គេ alone also means “people”: គេថា…, “they say…”. French « ils » for men or a mixed group, « elles » for women only.",
+        "km": "« ils » ប្រើសម្រាប់ប្រុសច្រើននាក់ ឬប្រុសស្រីលាយគ្នា ហើយ « elles » សម្រាប់តែស្រី។ អង់គ្លេស៖ « they »។"
+      },
+      "example": {"fr": "Ils arrivent demain matin.", "en": "They arrive tomorrow morning.", "km": "ពួកគេមកដល់ព្រឹកស្អែក។", "tr": "pouok-ké mok dâl preuk s'aèk.",
+      "es": "Llegan mañana por la mañana.", "it": "Arrivano domani mattina.", "ru": "Они приезжают завтра утром.", "zh": "他们明天早上到。", "zh_tr": "Tāmen míngtiān zǎoshang dào."}
+    },
+    {
+      "fr": "celui-ci", "en": "this one", "km": "មួយនេះ", "tr": "mouy nih",
+      "es": "este", "it": "questo", "ru": "этот", "zh": "这个", "zh_tr": "zhège", "pos": "pronom",
+      "note": {
+        "fr": "មួយ, « un », et នេះ, « ce… -ci » : celui-ci. នេះ se place après le nom : ផ្ទះនេះ, « cette maison ». Très utile au marché, en montrant du doigt.",
+        "en": "មួយ, “one”, and នេះ, “this”: this one. នេះ follows the noun: ផ្ទះនេះ, “this house”. Handy at the market while pointing. French « celui-ci » is masculine, « celle-ci » feminine.",
+        "km": "« celui-ci » មានន័យថា មួយនេះ (ភេទប្រុស); ភេទស្រីគឺ « celle-ci »។ អង់គ្លេស៖ « this one »។"
+      },
+      "example": {"fr": "Celui-ci est plus joli.", "en": "This one is prettier.", "km": "មួយនេះស្អាតជាង។", "tr": "mouy nih s'at tchéang.",
+      "es": "Este es más bonito.", "it": "Questo è più bello.", "ru": "Этот красивее.", "zh": "这个更好看。", "zh_tr": "Zhège gèng hǎokàn."}
+    },
+    {
+      "fr": "celui-là", "en": "that one", "km": "មួយនោះ", "tr": "mouy nouh",
+      "es": "ese", "it": "quello", "ru": "тот", "zh": "那个", "zh_tr": "nàge", "pos": "pronom",
+      "note": {
+        "fr": "នោះ, « ce… -là », pour ce qui est plus loin : ផ្ទះនោះ, « cette maison-là ». មួយនោះ, « celui-là ».",
+        "en": "នោះ, “that”, for something further away: ផ្ទះនោះ, “that house”. មួយនោះ, “that one”. French « celui-là » is masculine, « celle-là » feminine.",
+        "km": "« celui-là » មានន័យថា មួយនោះ (ភេទប្រុស); ភេទស្រីគឺ « celle-là »។ អង់គ្លេស៖ « that one »។"
+      },
+      "example": {"fr": "Celui-là coûte combien ?", "en": "How much is that one?", "km": "មួយនោះថ្លៃប៉ុន្មាន?", "tr": "mouy nouh thlay pon-man ?",
+      "es": "¿Cuánto cuesta ese?", "it": "Quanto costa quello?", "ru": "Сколько стоит тот?", "zh": "那个多少钱？", "zh_tr": "Nàge duōshao qián?"}
+    },
+    {
+      "fr": "quelqu'un", "en": "someone", "km": "នរណាម្នាក់", "tr": "no-na mnéak",
+      "es": "alguien", "it": "qualcuno", "ru": "кто-то", "zh": "有人", "zh_tr": "yǒu rén", "pos": "pronom",
+      "note": {
+        "fr": "នរណា, « qui », et ម្នាក់, « une personne » : quelqu'un. On l'introduit le plus souvent par មាន, « il y a » : មាននរណាម្នាក់…",
+        "en": "នរណា, “who”, and ម្នាក់, “one person”: someone. It usually comes after មាន, “there is”: មាននរណាម្នាក់… French « quelqu'un »; the opposite is « personne », “nobody”.",
+        "km": "« quelqu'un » មានន័យថា នរណាម្នាក់; ផ្ទុយពីនេះគឺ « personne » (គ្មាននរណា)។ អង់គ្លេស៖ « someone » និង « nobody »។"
+      },
+      "example": {"fr": "Quelqu'un a oublié son chapeau.", "en": "Someone has forgotten their hat.", "km": "មាននរណាម្នាក់ភ្លេចមួក។", "tr": "méan no-na mnéak phlétch mouok.",
+      "es": "Alguien ha olvidado su sombrero.", "it": "Qualcuno ha dimenticato il cappello.", "ru": "Кто-то забыл шляпу.", "zh": "有人忘了帽子。", "zh_tr": "Yǒu rén wàng le màozi."}
+    }
+  ],
+  "expressions": [
+    {
+      "fr": "C'est à moi.", "en": "It's mine.", "km": "នេះរបស់ខ្ញុំ។", "tr": "nih ro-bâh khgnom.",
+      "es": "Es mío.", "it": "È mio.", "ru": "Это моё.", "zh": "这是我的。", "zh_tr": "Zhè shì wǒ de.",
+      "note": {
+        "fr": "របស់, « chose, bien », marque la possession : របស់ខ្ញុំ, « à moi » ; របស់គាត់, « à lui, à elle » ; របស់យើង, « à nous ».",
+        "en": "របស់, “thing, belonging”, marks possession: របស់ខ្ញុំ, “mine”; របស់គាត់, “his, hers”; របស់យើង, “ours”. French « C'est à moi », « c'est à lui », « c'est à nous ».",
+        "km": "« C'est à moi » មានន័យថា នេះរបស់ខ្ញុំ; « à lui » របស់គាត់ (ប្រុស), « à elle » របស់គាត់ (ស្រី)។ អង់គ្លេស៖ « It's mine »។"
+      }
+    },
+    {
+      "fr": "Tout le monde.", "en": "Everyone.", "km": "ទាំងអស់គ្នា។", "tr": "téang âh knéa.",
+      "es": "Todo el mundo.", "it": "Tutti.", "ru": "Все.", "zh": "大家。", "zh_tr": "Dàjiā.",
+      "note": {
+        "fr": "ទាំងអស់, « tout », et គ្នា, « ensemble, les uns les autres » : tout le monde. សួស្តីទាំងអស់គ្នា!, « bonjour tout le monde ! ».",
+        "en": "ទាំងអស់, “all”, and គ្នា, “together, each other”: everyone. សួស្តីទាំងអស់គ្នា!, “hello everyone!”. French « tout le monde » takes a singular verb: tout le monde est là.",
+        "km": "« tout le monde » មានន័យថា ទាំងអស់គ្នា; កិរិយាសព្ទនៅឯកវចនៈ៖ tout le monde est là។ អង់គ្លេស៖ « everyone »។"
+      }
+    },
+    {
+      "fr": "Il y a quelqu'un ?", "en": "Is anyone there?", "km": "មាននរណានៅទេ?", "tr": "méan no-na neuv té ?",
+      "es": "¿Hay alguien?", "it": "C'è qualcuno?", "ru": "Есть кто-нибудь?", "zh": "有人吗？", "zh_tr": "Yǒu rén ma?",
+      "note": {
+        "fr": "មាននរណានៅទេ?, mot à mot « il y a qui reste ? » : ce qu'on lance devant une maison ou une boutique qui semble vide.",
+        "en": "មាននរណានៅទេ?, literally “is there who staying?”: what you call out at a house or shop that looks empty. French « Il y a quelqu'un ? ».",
+        "km": "« Il y a quelqu'un ? » ប្រើពេលមកដល់ផ្ទះ ឬហាងដែលមើលទៅគ្មានមនុស្ស។ អង់គ្លេស៖ « Is anyone there? »។"
+      }
+    },
+    {
+      "fr": "Lequel ?", "en": "Which one?", "km": "មួយណា?", "tr": "mouy na ?",
+      "es": "¿Cuál?", "it": "Quale?", "ru": "Какой?", "zh": "哪一个？", "zh_tr": "Nǎ yí ge?",
+      "note": {
+        "fr": "ណា, « quel, lequel », se place après le nom : ផ្ទះណា?, « quelle maison ? ». មួយណា?, « lequel ? » — on répond មួយនេះ ou មួយនោះ.",
+        "en": "ណា, “which”, follows the noun: ផ្ទះណា?, “which house?”. មួយណា?, “which one?” — the answer is មួយនេះ or មួយនោះ. French « lequel » is masculine, « laquelle » feminine.",
+        "km": "« Lequel ? » មានន័យថា មួយណា? (ភេទប្រុស); ភេទស្រីគឺ « Laquelle ? »។ អង់គ្លេស៖ « Which one? »។"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "situation": {"fr": "Devant une photo de famille", "en": "Looking at a family photo", "km": "មើលរូបថតគ្រួសារ"},
+      "fr": "Sur cette photo, c'est mon grand frère ; il habite à Battambang.", "en": "This is my older brother in this photo; he lives in Battambang.",
+      "km": "ក្នុងរូបថតនេះ គឺបងប្រុសខ្ញុំ គាត់រស់នៅបាត់ដំបង។", "tr": "knong roup-thât nih, keu bâng proh khgnom, koat rouh neuv bat-dâm-bâng.",
+      "es": "En esta foto está mi hermano mayor; vive en Battambang.", "it": "In questa foto c'è mio fratello maggiore; abita a Battambang.", "ru": "На этой фотографии мой старший брат; он живёт в Баттамбанге.", "zh": "这张照片上是我哥哥，他住在马德望。", "zh_tr": "Zhè zhāng zhàopiàn shàng shì wǒ gēge, tā zhù zài Mǎdéwàng."
+    },
+    {
+      "situation": {"fr": "Au marché", "en": "At the market", "km": "នៅផ្សារ"},
+      "fr": "Je prends celui-ci, pas celui-là.", "en": "I'll take this one, not that one.",
+      "km": "ខ្ញុំយកមួយនេះ មិនមែនមួយនោះទេ។", "tr": "khgnom yok mouy nih, min mèn mouy nouh té.",
+      "es": "Me llevo este, no ese.", "it": "Prendo questo, non quello.", "ru": "Я возьму этот, а не тот.", "zh": "我要这个，不要那个。", "zh_tr": "Wǒ yào zhège, bú yào nàge."
+    },
+    {
+      "situation": {"fr": "Entre voisins", "en": "Among neighbours", "km": "រវាងអ្នកជិតខាង"},
+      "fr": "Ils viennent d'arriver dans le quartier ; nous les avons invités à manger.", "en": "They have just moved into the neighbourhood; we've invited them for a meal.",
+      "km": "ពួកគេទើបតែមកនៅសង្កាត់នេះ យើងបានអញ្ជើញពួកគេមកញ៉ាំបាយ។", "tr": "pouok-ké teup-taè mok neuv sâng-kat nih, yeung ban agn-tcheugn pouok-ké mok gnam bay.",
+      "es": "Acaban de llegar al barrio; los hemos invitado a comer.", "it": "Sono appena arrivati nel quartiere; li abbiamo invitati a mangiare.", "ru": "Они недавно переехали в наш район; мы пригласили их на обед.", "zh": "他们刚搬到这个街区，我们请他们来吃饭。", "zh_tr": "Tāmen gāng bān dào zhège jiēqū, wǒmen qǐng tāmen lái chīfàn."
+    }
+  ],
+  "dialogue": {
+    "setting": {"fr": "{A} et {B} sont à la maison ; on frappe à la porte.", "en": "{A} and {B} are at home when someone knocks at the door.", "km": "{A} និង {B} នៅផ្ទះ ហើយមានគេគោះទ្វារ។"},
+    "lines": [
+      {"speaker": "B", "fr": "Il y a quelqu'un à la porte.", "en": "There's someone at the door.", "km": "មាននរណាម្នាក់នៅមាត់ទ្វារ។", "tr": "méan no-na mnéak neuv moat tvéa.",
+        "es": "Hay alguien en la puerta.", "it": "C'è qualcuno alla porta.", "ru": "Кто-то стоит у двери.", "zh": "门口有人。", "zh_tr": "Ménkǒu yǒu rén."},
+      {"speaker": "A", "fr": "Ce sont les voisins. Ils nous apportent des mangues.", "en": "It's the neighbours. They're bringing us some mangoes.", "km": "អ្នកជិតខាងទេ។ ពួកគេយកស្វាយមកឱ្យយើង។", "tr": "néak tchit khang té. pouok-ké yok svay mok aoy yeung.",
+        "es": "Son los vecinos. Nos traen mangos.", "it": "Sono i vicini. Ci portano dei manghi.", "ru": "Это соседи. Они принесли нам манго.", "zh": "是邻居。他们给我们送芒果来了。", "zh_tr": "Shì línjū. Tāmen gěi wǒmen sòng mángguǒ lái le."},
+      {"speaker": "B", "fr": "Lui, je le connais. Et elle, c'est qui ?", "en": "Him I know. And who is she?", "km": "បងប្រុសនោះខ្ញុំស្គាល់។ ចុះបងស្រីនោះជានរណា?", "tr": "bâng proh nouh khgnom skoal. tchoh bâng srey nouh tchéa no-na ?",
+        "es": "A él lo conozco. Y ella, ¿quién es?", "it": "Lui lo conosco. E lei chi è?", "ru": "Его я знаю. А она кто?", "zh": "他我认识。她是谁？", "zh_tr": "Tā wǒ rènshi. Tā shì shéi?"},
+      {"speaker": "A", "fr": "C'est sa femme. Elle vient de Kampot.", "en": "That's his wife. She's from Kampot.", "km": "ប្រពន្ធគាត់។ គាត់មកពីកំពត។", "tr": "prâ-pon koat. koat mok pi kâm-pot.",
+        "es": "Es su mujer. Es de Kampot.", "it": "È sua moglie. Viene da Kampot.", "ru": "Это его жена. Она из Кампота.", "zh": "是他妻子。她是贡布人。", "zh_tr": "Shì tā qīzi. Tā shì Gòngbù rén."},
+      {"speaker": "B", "fr": "Quelles belles mangues ! Je peux goûter celle-ci ?", "en": "What lovely mangoes! Can I try this one?", "km": "ស្វាយល្អៗណាស់! ខ្ញុំភ្លក់មួយនេះបានទេ?", "tr": "svay l'â-l'â nah ! khgnom phlok mouy nih ban té ?",
+        "es": "¡Qué mangos tan buenos! ¿Puedo probar este?", "it": "Che bei manghi! Posso assaggiare questo?", "ru": "Какие красивые манго! Можно попробовать вот это?", "zh": "芒果真好！我可以尝尝这个吗？", "zh_tr": "Mángguǒ zhēn hǎo! Wǒ kěyǐ chángchang zhège ma?"},
+      {"speaker": "A", "fr": "Pas celle-là, elle n'est pas encore mûre. Prends celle-ci.", "en": "Not that one, it isn't ripe yet. Take this one.", "km": "កុំយកមួយនោះ វាមិនទាន់ទុំទេ។ យកមួយនេះវិញ។", "tr": "kom yok mouy nouh, véa min toan toum té. yok mouy nih vign.",
+        "es": "Ese no, todavía no está maduro. Coge este.", "it": "Quello no, non è ancora maturo. Prendi questo.", "ru": "Только не то, оно ещё не спелое. Возьми вот это.", "zh": "别拿那个，还没熟。拿这个吧。", "zh_tr": "Bié ná nàge, hái méi shú. Ná zhège ba."}
+    ]
+  },
+  "comprehension": {
+    "question": {"fr": "Qu'est-ce que les voisins apportent ?", "en": "What are the neighbours bringing?", "km": "អ្នកជិតខាងយកអ្វីមកឱ្យ?"},
+    "answer": {"fr": "Des mangues.", "en": "Mangoes.", "km": "ស្វាយ។"}
+  }
+}
