@@ -1,0 +1,164 @@
+/* FR-KH Learning — comptes utilisateurs (serveur avec comptes).
+   Ajoutée aux pages par « manage.py serve » ; elle reprend les couleurs et les mesures de
+   style.css, chargée après elle : les règles qui corrigent une règle du site sont écrites
+   avec deux classes pour l'emporter.
+
+   1. Menu du compte          3. Cartes et formulaires
+   2. Pages de connexion      4. Mon compte, utilisateurs
+*/
+
+/* --- 1. Menu du compte (barre du haut) ------------------------------------------------------- */
+.tool.tool-account { max-width: 190px; padding: 0 12px 0 10px; text-decoration: none; }
+.account-name { overflow: hidden; text-overflow: ellipsis; color: var(--ink); font-weight: 700; }
+.settings-panel.account-panel { width: 280px; }
+.account-full { font-weight: 700; color: var(--ink); overflow-wrap: anywhere; line-height: 1.35; }
+.account-login { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 3px; font-size: .84rem; color: var(--muted); overflow-wrap: anywhere; }
+.settings-group.account-links, .settings-group.account-out { display: grid; gap: 2px; padding: 6px; }
+.account-link {
+  display: flex; align-items: center; gap: 10px; width: 100%; min-height: 44px; padding: 0 10px; border: 0; border-radius: 12px;
+  background: transparent; color: var(--ink); font-size: .94rem; font-weight: 600; text-align: left; text-decoration: none; cursor: pointer;
+}
+.account-link:hover { background: var(--surface-2); }
+.account-link svg { width: 18px; height: 18px; color: var(--muted); }
+.account-link :lang(km) { line-height: 1.5; }
+.account-logout { color: var(--km); }
+.account-logout svg { color: currentColor; }
+
+/* --- 2. Pages sans navigation : connexion, inscription, premier démarrage ------------------------ */
+.page-auth .mainnav, .page-auth .tabbar, .page-auth #slow-toggle { display: none; }
+.page-auth .mainnav + .tools { margin-left: auto; }
+.auth { max-width: 440px; margin: 0 auto; padding-top: clamp(4px, 5vh, 48px); }
+.auth .page-head { text-align: center; }
+.auth .page-intro { margin-left: auto; margin-right: auto; }
+.auth-alt { margin-top: 20px; text-align: center; color: var(--ink-2); font-size: .94rem; }
+.auth-alt a:not(.btn) { color: var(--fr); font-weight: 600; }
+
+/* --- 3. Cartes et formulaires --------------------------------------------------------------------- */
+.acct-card { margin-top: 20px; padding: 22px; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-sm); }
+.acct-card-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; margin-bottom: 16px; font-family: var(--display); font-size: 1.2rem; font-weight: 650; line-height: 1.25; }
+.acct-card-title :lang(km) { font-size: 1.05rem; line-height: 1.6; }
+.acct-form { display: grid; gap: 16px; }
+.acct-form + .acct-form, .acct-line + .acct-form { margin-top: 12px; }
+
+.field { display: grid; gap: 6px; min-width: 0; margin: 0; padding: 0; border: 0; }
+.field-label { padding: 0; font-size: .86rem; font-weight: 600; color: var(--ink-2); }
+.field input[type="text"], .field input[type="password"] {
+  width: 100%; height: 46px; padding: 0 14px; border-radius: var(--r-sm); border: 1px solid var(--line-2);
+  background: var(--surface); color: var(--ink); font-size: 1rem;
+}
+.field input[type="text"]:focus, .field input[type="password"]:focus { outline: 0; border-color: var(--ink-2); box-shadow: 0 0 0 4px color-mix(in srgb, var(--ink) 9%, transparent); }
+.field-hint { font-size: .8rem; line-height: 1.4; color: var(--muted); }
+.field-hint :lang(km) { line-height: 1.7; }
+
+/* Choix unique à segments (rôle, langue) : même allure que le choix de la langue dans les réglages. */
+.seg { display: grid; grid-template-columns: repeat(var(--n, 2), 1fr); gap: 3px; padding: 3px; border-radius: 14px; background: var(--bg-2); }
+.seg-option { position: relative; display: block; min-width: 0; cursor: pointer; }
+.seg-option input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.seg-option > span { display: flex; align-items: center; justify-content: center; min-height: 40px; padding: 4px 8px; border-radius: 11px; color: var(--ink-2); font-size: .9rem; font-weight: 600; line-height: 1.25; text-align: center; }
+.seg-option > span :lang(km) { line-height: 1.5; }
+.seg-option:hover > span { color: var(--ink); }
+.seg-option input:checked + span { background: var(--surface); color: var(--ink); box-shadow: var(--shadow-sm), inset 0 0 0 1px var(--line); }
+.seg-option input:focus-visible + span { outline: 3px solid color-mix(in srgb, var(--fr) 60%, transparent); outline-offset: 2px; }
+
+.check { display: flex; align-items: flex-start; gap: 10px; color: var(--ink-2); font-size: .92rem; line-height: 1.45; cursor: pointer; }
+.check input { flex: none; width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--accent); cursor: pointer; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; justify-self: start; gap: 8px; min-height: 46px; padding: 0 20px;
+  border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface); color: var(--ink); cursor: pointer;
+  font-family: var(--sans); font-size: .95rem; font-weight: 650; text-decoration: none; transition: filter .12s ease, border-color .12s ease;
+}
+.btn:hover { border-color: var(--ink-2); }
+.btn :lang(km) { line-height: 1.5; }
+.btn-primary { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.btn-primary:hover { border-color: var(--ink); filter: brightness(1.15); }
+.btn-danger { background: var(--km); border-color: var(--km); color: var(--on-accent); }
+.btn-danger:hover { border-color: var(--km); filter: brightness(1.08); }
+.btn-ghost { background: transparent; }
+.btn-wide { justify-self: stretch; width: 100%; }
+.btn-small { min-height: 34px; padding: 0 14px; font-size: .84rem; }
+
+.flash { margin-top: 16px; padding: 12px 16px; border-radius: var(--r-sm); font-size: .94rem; font-weight: 500; overflow-wrap: anywhere; }
+.flash-ok { background: var(--ok-soft); color: var(--ok); }
+.flash-error { background: var(--km-soft); color: var(--km); }
+.flash-warn { background: var(--gold-soft); color: var(--gold); }
+
+/* --- 4. Mon compte, utilisateurs ------------------------------------------------------------------- */
+.acct-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 16px; align-items: start; margin-top: 20px; }
+.acct-grid > .acct-card { margin-top: 0; }
+.acct-id { color: var(--ink); font-weight: 600; overflow-wrap: anywhere; }
+.acct-login { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .92em; font-weight: 500; color: var(--ink-2); overflow-wrap: anywhere; }
+.acct-admin-link { margin-top: 16px; }
+.acct-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.acct-stat { display: grid; gap: 2px; padding: 12px 8px; border-radius: var(--r-sm); background: var(--surface-2); text-align: center; }
+.acct-stat-value { font-family: var(--display); font-size: 1.6rem; font-weight: 650; line-height: 1.2; }
+.acct-stat-value :lang(km) { font-size: 1.3rem; line-height: 1.5; }
+.acct-stat-label { font-size: .76rem; line-height: 1.3; color: var(--muted); }
+.acct-stat-label :lang(km) { line-height: 1.6; }
+.acct-hint { margin-top: 12px; font-size: .88rem; color: var(--ink-2); }
+.acct-line { font-size: .92rem; color: var(--ink-2); }
+.acct-danger { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); }
+.acct-danger > summary { color: var(--km); font-size: .9rem; font-weight: 600; cursor: pointer; }
+.acct-danger > .acct-form { margin-top: 12px; }
+.acct-back { margin-top: 18px; font-size: .9rem; }
+.acct-back a { color: var(--fr); font-weight: 600; }
+.acct-count { min-width: 24px; padding: 1px 8px; border-radius: 999px; background: var(--bg-2); color: var(--ink-2); font-family: var(--sans); font-size: .78rem; font-weight: 700; text-align: center; }
+
+.acct-editor { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); scroll-margin-top: calc(var(--topbar-h) + 16px); }
+.acct-editor-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px; align-items: start; }
+
+.users-wrap { overflow-x: auto; }
+.users { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.users th { padding: 8px 10px; border-bottom: 1px solid var(--line); color: var(--muted); font-size: .74rem; font-weight: 700; letter-spacing: .06em; text-align: left; text-transform: uppercase; white-space: nowrap; }
+.users th :lang(km) { font-size: .86rem; line-height: 1.5; }
+.users td { padding: 12px 10px; border-bottom: 1px solid var(--hair); vertical-align: middle; }
+.users tr:last-child td { border-bottom: 0; }
+.user-row.is-editing td { background: var(--accent-soft); }
+.user-name { color: var(--ink); font-weight: 650; overflow-wrap: anywhere; }
+.user-login { display: block; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+.user-cell-last { color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.user-cell-num { font-variant-numeric: tabular-nums; }
+.user-cell-action { text-align: right; }
+.user-state { display: inline-flex; align-items: center; gap: 6px; font-size: .86rem; font-weight: 600; white-space: nowrap; }
+.user-state::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.user-state.is-on { color: var(--ok); }
+.user-state.is-off { color: var(--muted); }
+.badge.badge-you { margin-left: 6px; background: var(--fr-soft); color: var(--fr); border-color: transparent; }
+.badge.badge-role-admin { background: var(--km-soft); color: var(--km); border-color: transparent; }
+
+/* Le bouton du compte prend de la place dans la barre : le nom court du site arrive plus tôt. */
+@media (max-width: 1340px) and (min-width: 1041px) {
+  .has-account .brand-full { display: none; }
+  .has-account .brand-short { display: inline; }
+}
+@media (min-width: 761px) {
+  .acct-form-cols { grid-template-columns: 1fr 1fr; column-gap: 20px; align-items: start; }
+  .acct-form-cols > .btn { grid-column: 1 / -1; }
+}
+@media (max-width: 480px) {
+  .has-account .settings-chevron { display: none; }
+  .has-account .tools { gap: 6px; }
+}
+
+@media (max-width: 720px) {
+  body.page-auth { padding-bottom: 0; }
+  .tool.tool-account { padding: 0 10px; }
+  .tool-account .account-name { display: none; }
+  .settings-panel.account-panel { width: auto; }
+  .acct-card { padding: 18px; }
+}
+
+/* Téléphone : la liste des comptes devient une suite de fiches. */
+@media (max-width: 640px) {
+  .users thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .users, .users tbody, .users tr, .users td { display: block; }
+  .users tr { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .users tr:last-child { border-bottom: 0; padding-bottom: 0; }
+  .users td { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 3px 0; border: 0; }
+  .users td[data-label]::before { content: attr(data-label); color: var(--muted); font-size: .74rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+  .users td.user-cell-id { display: block; padding-bottom: 6px; }
+  .users td.user-cell-id::before { display: none; }
+  .users td.user-cell-action { justify-content: flex-start; padding-top: 10px; }
+  .user-row.is-editing td { background: transparent; }
+  .user-row.is-editing { box-shadow: inset 3px 0 0 var(--accent); padding-left: 12px; }
+}

@@ -596,12 +596,11 @@ def schedule_remove(config) -> str:
 
 # --- Serveur local (pour consulter le site depuis un téléphone du même réseau) ----------------
 
-def make_server(config, host: str = "127.0.0.1", port: int = 8000):
-    """Construit le serveur web local. Il ne distribue que le site public : index.html et les
-    dossiers de ``PUBLIC_DIRS``. Le fichier .env, la base, la configuration et le code restent
+def make_handler(config):
+    """Gestionnaire HTTP du site public. Il ne distribue que index.html et les dossiers de
+    ``PUBLIC_DIRS``. Le fichier .env, la base, la configuration et le code restent
     inaccessibles, y compris par une adresse détournée (« .. » encodé, lien symbolique…)."""
     import http.server
-    import socketserver
 
     root = config.paths.root
     index = root / "index.html"
@@ -716,11 +715,20 @@ def make_server(config, host: str = "127.0.0.1", port: int = 8000):
         def log_message(self, *args):
             pass
 
+    return Handler
+
+
+def make_server(config, host: str = "127.0.0.1", port: int = 8000, handler=None):
+    """Construit le serveur web local. Sans ``handler``, c'est le serveur sans comptes : il
+    distribue le site public à tous. Le serveur avec comptes (``frkh.webapp``) fournit le sien."""
+    import http.server
+    import socketserver
+
     class Server(socketserver.ThreadingMixIn, http.server.HTTPServer):
         daemon_threads = True
         allow_reuse_address = True
 
-    return Server((host, port), Handler)
+    return Server((host, port), handler or make_handler(config))
 
 
 def serve(config, host: str = "127.0.0.1", port: int = 8000) -> None:

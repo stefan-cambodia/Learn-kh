@@ -102,8 +102,11 @@ session n'est ouverte : `loginctl enable-linger $USER`.
   ```bash
   python3 manage.py serve --host 0.0.0.0 --port 8000
   ```
-  puis ouvrez `http://<adresse IP de l'ordinateur>:8000/`. Ce serveur ne
-  distribue que le site (jamais `.env`, la base ni la configuration).
+  puis ouvrez `http://<adresse IP de l'ordinateur>:8000/`. Ce serveur demande
+  de se connecter : au premier lancement, il affiche un code d'installation qui
+  sert à créer le compte de l'administrateur (voir [COMPTES.md](COMPTES.md)).
+  Il ne distribue que le site (jamais `.env`, la base ni la configuration).
+  `--no-accounts` lance l'ancien serveur, ouvert à tous.
 - **Copie autonome** : `python3 manage.py export` crée une archive ZIP
   contenant le site complet, à copier sur une clé USB ou un autre appareil.
 

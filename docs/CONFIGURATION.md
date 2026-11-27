@@ -208,6 +208,21 @@ la fréquence configurée (ffmpeg est nécessaire si le moteur produit un format
 compressé). `engine_version` entre dans l'empreinte des fichiers : changez-la
 quand vous changez de moteur ou de modèle.
 
+## Serveur et comptes (`server`)
+
+Réglages du serveur avec comptes (`python3 manage.py serve`), détaillés dans
+[COMPTES.md](COMPTES.md).
+
+| Clé | Défaut | Rôle |
+| --- | --- | --- |
+| `server.require_login` | `true` | `false` : le site se lit sans compte ; la progression en ligne en demande un |
+| `server.registration` | `"closed"` | `"open"` : chacun peut créer son compte ; sinon l'administrateur les crée |
+| `server.registration_code` | `""` | code d'invitation exigé à l'inscription, s'il est renseigné |
+| `server.session_days` | `30` | durée d'une session sans visite |
+| `server.password_min_length` | `8` | longueur minimale des mots de passe |
+| `server.cookie_secure` | `"auto"` | cookie `Secure` : `"auto"` (derrière un proxy HTTPS de confiance), `true` ou `false` |
+| `server.trust_proxy` | `false` | `true` derrière un proxy inverse (`X-Forwarded-For`, `-Proto`, `-Host`) |
+
 ## Autres rubriques
 
 | Clé | Défaut | Rôle |

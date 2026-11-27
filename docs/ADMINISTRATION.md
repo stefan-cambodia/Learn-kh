@@ -59,7 +59,8 @@ fichier est écrit à part, contrôlé, puis mis en place d'un seul coup.
 | `content refresh` | reporte les unités modifiées (explications, dialogues, prénoms des personnages) dans les leçons déjà générées |
 | `backup` | sauvegarde immédiate de la base dans `database/backups/` |
 | `schedule show` / `install` / `remove` | planification quotidienne |
-| `serve` | petit serveur web local (`--host 0.0.0.0` pour un téléphone du même réseau) |
+| `serve` | serveur web avec comptes utilisateurs (`--host 0.0.0.0` pour le réseau local ; `--no-accounts` pour l'ancien serveur ouvert) : voir [COMPTES.md](COMPTES.md) |
+| `users list` / `add` / `password` / `role` / `disable` / `enable` / `logout` / `delete` | comptes du serveur : voir [COMPTES.md](COMPTES.md) |
 
 ## Corriger un contenu
 

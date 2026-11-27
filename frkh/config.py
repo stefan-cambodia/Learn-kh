@@ -102,6 +102,16 @@ DEFAULT_CONFIG: dict = {
         },
     },
     "backup": {"keep": 14},
+    # Serveur web avec comptes (« manage.py serve ») : voir docs/COMPTES.md.
+    "server": {
+        "require_login": True,        # False : le site se lit sans compte ; la progression en ligne en demande un
+        "registration": "closed",     # « closed » : l'administrateur crée les comptes ; « open » : chacun crée le sien
+        "registration_code": "",      # si renseigné, code d'invitation exigé à l'inscription
+        "session_days": 30,           # durée d'une session sans visite
+        "password_min_length": 8,
+        "cookie_secure": "auto",      # « auto » : cookie « Secure » derrière un proxy HTTPS de confiance ; true ou false pour forcer
+        "trust_proxy": False,         # True derrière un proxy inverse : X-Forwarded-For, -Proto et -Host sont alors crus
+    },
     "logging": {"level": "INFO", "max_bytes": 1048576, "backups": 5},
 }
 
@@ -329,6 +339,17 @@ class Config:
                 problems.append(f"profiles.{key} : profil inconnu (langues possibles : {', '.join(PROFILE_LANGS)})")
             elif not isinstance(spec, dict) or any(lang not in PROFILE_LANGS or lang == key for lang in spec.get("learns") or []):
                 problems.append(f"profiles.{key}.learns : langues étudiées parmi {', '.join(PROFILE_LANGS)}, sauf « {key} »")
+        server = self.data.get("server") or {}
+        if server.get("registration", "closed") not in ("closed", "open"):
+            problems.append("server.registration : valeurs admises « closed » ou « open »")
+        if server.get("cookie_secure", "auto") not in ("auto", True, False):
+            problems.append("server.cookie_secure : valeurs admises « auto », true ou false")
+        days = server.get("session_days", 30)
+        if isinstance(days, bool) or not isinstance(days, (int, float)) or not 0 < days <= 365:
+            problems.append("server.session_days doit être compris entre 1 et 365")
+        length = server.get("password_min_length", 8)
+        if isinstance(length, bool) or not isinstance(length, int) or not 6 <= length <= 64:
+            problems.append("server.password_min_length doit être compris entre 6 et 64")
         default = LEGACY_PROFILES.get(str(self.get("site.default_profile", "fr")), str(self.get("site.default_profile", "fr")))
         if default not in self.profiles():
             problems.append(f"site.default_profile = {default!r} : doit être l'un des profils ({', '.join(self.profiles())})")

@@ -1,5 +1,11 @@
 # FR-KH Learning
 
+> **Branche `serveur`** — le même site, servi derrière une connexion : un compte
+> par personne, une progression par compte retrouvée sur tous ses appareils, et
+> une page « Utilisateurs » pour l'administrateur. Voir
+> [docs/COMPTES.md](docs/COMPTES.md). La branche `main` reste la version
+> autonome, qui s'ouvre sans serveur.
+
 Une leçon de moins de dix minutes, chaque matin, en **français**, **anglais** et
 **khmer** (ភាសាខ្មែរ). Chacun choisit son profil selon sa langue, en haut de la
 page :
@@ -107,7 +113,8 @@ python3 manage.py stats                       # appels TTS, cache, volume de la 
 python3 manage.py export                      # archive ZIP de toutes les leçons
 python3 manage.py check                       # vérification générale du projet
 python3 manage.py schedule install            # activer la génération quotidienne
-python3 manage.py serve --host 0.0.0.0        # consulter le site depuis un téléphone (progression partagée entre appareils)
+python3 manage.py serve --host 0.0.0.0        # serveur avec comptes : connexion, progression par compte sur tous ses appareils
+python3 manage.py users add dara --generate   # créer un compte (list, password, role, disable, delete… : docs/COMPTES.md)
 python3 manage.py alphabet                    # Alphabets (khmer, latin, cyrillique, chinois) : audios et page
                                               # téléphone : « Ajouter à l'écran d'accueil » installe le site comme une application
 ```
@@ -147,6 +154,7 @@ manage.py             ligne de commande
 - [Azure AI Speech](docs/AZURE_SPEECH_KHMER.md) — clé pour les voix khmères
 - [Configuration](docs/CONFIGURATION.md) — tous les réglages de `config/config.json`
 - [Administration](docs/ADMINISTRATION.md) — commandes, corrections manuelles, dépannage
+- [Comptes utilisateurs](docs/COMPTES.md) — serveur avec connexion, gestion des utilisateurs, sécurité
 - [Rédiger des unités](content/README.md) — format du programme pédagogique
 
 ## Tests

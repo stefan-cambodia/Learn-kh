@@ -495,8 +495,83 @@ def cmd_alphabet(app: App, args) -> int:
 
 
 def cmd_serve(app: App, args) -> int:
-    admin.serve(app.config, args.host, args.port)
+    if args.no_accounts:
+        admin.serve(app.config, args.host, args.port)
+    else:
+        from . import webapp
+        webapp.serve(app.config, args.host, args.port, app.log)
     return EXIT_OK
+
+
+def _account_password(args, login: str) -> tuple[str, bool]:
+    """Mot de passe d'un compte : tiré au hasard (--generate), lu sur l'entrée standard
+    (--password-stdin) ou demandé deux fois au clavier, sans l'afficher."""
+    from .accounts import generate_password
+    if args.generate:
+        return generate_password(), True
+    if args.password_stdin:
+        return sys.stdin.readline().rstrip("\r\n"), False
+    import getpass
+    first = getpass.getpass(f"Mot de passe pour {login} : ")
+    if first != getpass.getpass("Encore une fois : "):
+        raise ValueError("les deux mots de passe ne sont pas identiques")
+    return first, False
+
+
+def cmd_users(app: App, args) -> int:
+    from .accounts import AccountError, Accounts
+    store = Accounts(app.config)
+    try:
+        if args.action == "list":
+            users = store.list_users()
+            if not users:
+                print("Aucun compte. Créez l'administrateur : python3 manage.py users add <identifiant> --role admin")
+            for user in users:
+                done = store.progress_summary(user.id)["lessons"]
+                print(f"{user.login:<20} {user.role:<6} {'actif' if user.active else 'désactivé':<10} {user.profile}  "
+                      f"{done:>3} leçon(s)  dernière connexion : {user.last_login_at or 'jamais':<20}  {user.name}")
+            return EXIT_OK
+        if args.action == "add":
+            password, generated = _account_password(args, args.login)
+            user = store.create_user(args.login, args.name or args.login, password, role=args.role, profile=args.profile,
+                                     must_change_password=generated)
+            print(f"Compte créé : {user.login} ({user.role})")
+            if generated:
+                print(f"Mot de passe provisoire : {password}  (à changer à la première connexion)")
+            return EXIT_OK
+        user = store.get_by_login(args.login)
+        if user is None:
+            print(f"Compte inconnu : {args.login}", file=sys.stderr)
+            return EXIT_ERROR
+        if args.action == "password":
+            password, generated = _account_password(args, user.login)
+            store.set_password(user.id, password, must_change_password=generated)
+            print(f"Mot de passe de {user.login} changé ; ses sessions sont fermées.")
+            if generated:
+                print(f"Mot de passe provisoire : {password}  (à changer à la prochaine connexion)")
+        elif args.action == "role":
+            store.update_user(user.id, role=args.role)
+            print(f"{user.login} : rôle « {args.role} ».")
+        elif args.action in ("enable", "disable"):
+            store.update_user(user.id, active=args.action == "enable")
+            print(f"{user.login} : compte {'activé' if args.action == 'enable' else 'désactivé'}.")
+        elif args.action == "logout":
+            print(f"{user.login} : {store.revoke_user_sessions(user.id)} session(s) fermée(s).")
+        elif args.action == "import-progress":
+            count = store.import_shared_progress(user.id)
+            print(f"{user.login} : {count} rubrique(s) de l'ancienne progression partagée reprise(s).")
+        elif args.action == "delete":
+            if not args.yes:
+                print(f"Ajoutez --yes pour supprimer définitivement {user.login} et sa progression.", file=sys.stderr)
+                return EXIT_ERROR
+            store.delete_user(user.id)
+            print(f"Compte supprimé : {user.login}")
+        return EXIT_OK
+    except AccountError as exc:
+        print(f"Refusé : {exc}", file=sys.stderr)
+        return EXIT_ERROR
+    finally:
+        store.close()
 
 
 # --- Analyse des arguments ----------------------------------------------------------------
@@ -616,10 +691,41 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--no-audio", action="store_true", help="ne pas appeler la synthèse vocale")
     p.set_defaults(func=cmd_alphabet)
 
-    p = sub.add_parser("serve", help="serveur web local (pratique pour un téléphone du même réseau)")
+    p = sub.add_parser("serve", help="serveur web avec comptes utilisateurs (connexion, progression par compte)")
     p.add_argument("--host", default="127.0.0.1", help="0.0.0.0 pour ouvrir au réseau local")
     p.add_argument("--port", type=int, default=8000)
+    p.add_argument("--no-accounts", action="store_true", help="ancien serveur sans comptes : site ouvert, progression partagée")
     p.set_defaults(func=cmd_serve)
+
+    p = sub.add_parser("users", help="comptes du serveur : lister, créer, mot de passe, rôle, suppression")
+    a = p.add_subparsers(dest="action", metavar="action", required=True)
+    a.add_parser("list", help="lister les comptes")
+
+    def password_options(parser) -> None:
+        group = parser.add_mutually_exclusive_group()
+        group.add_argument("--generate", action="store_true", help="tirer un mot de passe provisoire, à changer à la connexion")
+        group.add_argument("--password-stdin", action="store_true", help="lire le mot de passe sur l'entrée standard")
+
+    u = a.add_parser("add", help="créer un compte")
+    u.add_argument("login", help="identifiant (lettres minuscules, chiffres, point, tiret)")
+    u.add_argument("--name", help="nom affiché (par défaut : l'identifiant)")
+    u.add_argument("--role", choices=("user", "admin"), default="user")
+    u.add_argument("--profile", choices=LANGS, help="langue de l'apprenant (par défaut : celle du site)")
+    password_options(u)
+    u = a.add_parser("password", help="changer le mot de passe d'un compte (ses sessions sont fermées)")
+    u.add_argument("login")
+    password_options(u)
+    u = a.add_parser("role", help="changer le rôle d'un compte")
+    u.add_argument("login")
+    u.add_argument("role", choices=("user", "admin"))
+    for name, text in (("enable", "réactiver un compte"), ("disable", "désactiver un compte (connexion impossible)"),
+                       ("logout", "fermer toutes les sessions d'un compte"),
+                       ("import-progress", "reprendre dans un compte la progression partagée de l'ancien serveur")):
+        a.add_parser(name, help=text).add_argument("login")
+    u = a.add_parser("delete", help="supprimer un compte et sa progression")
+    u.add_argument("login")
+    u.add_argument("--yes", action="store_true", help="confirmer la suppression")
+    p.set_defaults(func=cmd_users)
     return parser
 
 
