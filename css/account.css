@@ -83,6 +83,9 @@
 .flash-ok { background: var(--ok-soft); color: var(--ok); }
 .flash-error { background: var(--km-soft); color: var(--km); }
 .flash-warn { background: var(--gold-soft); color: var(--gold); }
+.link-row { display: flex; gap: 8px; margin-top: 10px; }
+.link-url { flex: 1; min-width: 0; height: 40px; padding: 0 12px; border-radius: var(--r-sm); border: 1px solid var(--line-2); background: var(--surface); color: var(--ink); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .84rem; }
+.link-row .btn { flex: none; min-height: 40px; }
 
 /* --- 4. Mon compte, utilisateurs ------------------------------------------------------------------- */
 .acct-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 16px; align-items: start; margin-top: 20px; }
@@ -97,6 +100,8 @@
 .acct-stat-label { font-size: .76rem; line-height: 1.3; color: var(--muted); }
 .acct-stat-label :lang(km) { line-height: 1.6; }
 .acct-hint { margin-top: 12px; font-size: .88rem; color: var(--ink-2); }
+.acct-hint.acct-hint-top { margin: 0 0 16px; }
+.acct-form.acct-link-form { gap: 8px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .acct-line { font-size: .92rem; color: var(--ink-2); }
 .acct-danger { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); }
 .acct-danger > summary { color: var(--km); font-size: .9rem; font-weight: 600; cursor: pointer; }

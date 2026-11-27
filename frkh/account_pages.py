@@ -38,6 +38,20 @@ TEXT = {
     "ask_admin": ("Pas de compte ? Demandez-en un à l'administrateur du site.",
                   "No account? Ask the site administrator for one.",
                   "គ្មានគណនី? សូមស្នើសុំពីអ្នកគ្រប់គ្រងគេហទំព័រ។"),
+    # Liens à usage unique : invitation, nouveau mot de passe
+    "invite_title": ("Invitation", "Invitation", "ការអញ្ជើញ"),
+    "invite_intro": ("Vous êtes invité à créer votre compte : choisissez un identifiant et un mot de passe.",
+                     "You are invited to create your account: choose a username and a password.",
+                     "អ្នកត្រូវបានអញ្ជើញឱ្យបង្កើតគណនី៖ សូមជ្រើសរើសឈ្មោះគណនី និងពាក្យសម្ងាត់។"),
+    "reset_title": ("Nouveau mot de passe", "New password", "ពាក្យសម្ងាត់ថ្មី"),
+    "reset_intro": ("Choisissez un nouveau mot de passe pour le compte « {login} ».",
+                    "Choose a new password for the account “{login}”.",
+                    "សូមជ្រើសរើសពាក្យសម្ងាត់ថ្មីសម្រាប់គណនី « {login} »។"),
+    "link_invalid_title": ("Lien non valable", "Link not valid", "តំណមិនត្រឹមត្រូវ"),
+    "link_signed_in": ("Vous êtes déjà connecté. Déconnectez-vous d'abord pour utiliser ce lien.",
+                       "You are already signed in. Sign out first to use this link.",
+                       "អ្នកបានចូលគណនីរួចហើយ។ សូមចាកចេញជាមុនសិន ដើម្បីប្រើតំណនេះ។"),
+    "b_save_password": ("Enregistrer le mot de passe", "Save password", "រក្សាទុកពាក្យសម្ងាត់"),
     # Champs
     "f_login": ("Identifiant", "Username", "ឈ្មោះគណនី"),
     "f_password": ("Mot de passe", "Password", "ពាក្យសម្ងាត់"),
@@ -150,6 +164,39 @@ TEXT = {
     "b_track": ("Suivi", "Progress", "វឌ្ឍនភាព"),
     "card_sessions": ("Sessions ouvertes", "Open sessions", "វគ្គដែលកំពុងបើក"),
     "b_journal_user": ("Tout le journal de ce compte", "Full log for this account", "កំណត់ហេតុទាំងអស់របស់គណនីនេះ"),
+    # Invitations, liens de réinitialisation
+    "card_invites": ("Invitations", "Invitations", "ការអញ្ជើញ"),
+    "invites_intro": ("Un lien d'invitation permet à une personne de créer elle-même son compte. Il ne sert qu'une fois ; "
+                      "durée de validité, en jours : {days}.",
+                      "An invitation link lets someone create their own account. It works once; days it stays valid: {days}.",
+                      "តំណអញ្ជើញអនុញ្ញាតឱ្យនរណាម្នាក់បង្កើតគណនីដោយខ្លួនឯង។ វាប្រើបានតែម្តង។ ចំនួនថ្ងៃដែលវាប្រើបាន៖ {days}។"),
+    "f_note": ("Pour qui ? (facultatif)", "For whom? (optional)", "សម្រាប់អ្នកណា? (មិនចាំបាច់)"),
+    "b_invite": ("Créer un lien d'invitation", "Create an invitation link", "បង្កើតតំណអញ្ជើញ"),
+    "invites_pending": ("Invitations en attente", "Pending invitations", "ការអញ្ជើញដែលកំពុងរង់ចាំ"),
+    "invite_anyone": ("Sans nom", "No name", "គ្មានឈ្មោះ"),
+    "invite_expires": ("expire le {date}", "expires on {date}", "ផុតកំណត់នៅ {date}"),
+    "b_cancel_link": ("Annuler", "Cancel", "បោះបង់"),
+    "ok_invite": ("Lien d'invitation créé. Copiez-le maintenant : il ne sera plus affiché.",
+                  "Invitation link created. Copy it now: it will not be shown again.",
+                  "បានបង្កើតតំណអញ្ជើញ។ សូមចម្លងវាឥឡូវនេះ៖ វានឹងមិនបង្ហាញម្តងទៀតទេ។"),
+    "ok_reset_link": ("Lien de nouveau mot de passe pour « {login} » ; durée de validité, en heures : {hours}. "
+                      "Copiez-le maintenant : il ne sera plus affiché.",
+                      "New-password link for “{login}”; hours it stays valid: {hours}. Copy it now: it will not be shown again.",
+                      "តំណពាក្យសម្ងាត់ថ្មីសម្រាប់ « {login} »។ ចំនួនម៉ោងដែលវាប្រើបាន៖ {hours}។ "
+                      "សូមចម្លងវាឥឡូវនេះ៖ វានឹងមិនបង្ហាញម្តងទៀតទេ។"),
+    "ok_link_cancelled": ("Invitation annulée.", "Invitation cancelled.", "បានបោះបង់ការអញ្ជើញ។"),
+    "b_reset_link": ("Créer un lien de nouveau mot de passe", "Create a new-password link", "បង្កើតតំណពាក្យសម្ងាត់ថ្មី"),
+    "hint_reset_link": ("Avec ce lien, la personne choisit elle-même son mot de passe : vous n'avez pas à le connaître.",
+                        "With this link, the person chooses their own password: you never need to know it.",
+                        "ជាមួយតំណនេះ អ្នកប្រើជ្រើសរើសពាក្យសម្ងាត់ដោយខ្លួនឯង៖ អ្នកមិនចាំបាច់ដឹងវាទេ។"),
+    "f_link": ("Lien à transmettre", "Link to pass on", "តំណដែលត្រូវផ្ញើ"),
+    "b_copy": ("Copier", "Copy", "ចម្លង"),
+    "copied": ("Copié", "Copied", "បានចម្លង"),
+    "via_invite": ("par invitation", "by invitation", "តាមការអញ្ជើញ"),
+    "via_link": ("par lien", "by link", "តាមតំណ"),
+    "ev_invite_created": ("Invitation créée", "Invitation created", "បានបង្កើតការអញ្ជើញ"),
+    "ev_invite_revoked": ("Invitation annulée", "Invitation cancelled", "បានបោះបង់ការអញ្ជើញ"),
+    "ev_reset_link_created": ("Lien de nouveau mot de passe créé", "New-password link created", "បានបង្កើតតំណពាក្យសម្ងាត់ថ្មី"),
     # Journal
     "journal_title": ("Journal", "Activity log", "កំណត់ហេតុ"),
     "journal_intro": ("Connexions, tentatives refusées et opérations sur les comptes, des plus récentes aux plus anciennes.",
@@ -308,9 +355,21 @@ def card(title: str, body: str, css: str = "") -> str:
     return f'<section class="acct-card {css}"><h2 class="acct-card-title">{title}</h2>{body}</section>'
 
 
+def link_flash(message: dict) -> str:
+    """Un lien à usage unique, montré une seule fois : ``text`` l'annonce, ``url`` est l'adresse
+    complète vue du serveur ; le script la recalcule depuis ``path`` (juste aussi derrière un proxy)."""
+    return (f'<div class="flash flash-ok flash-link" role="status">{multi(message["text"], tag="p")}'
+            f'<div class="link-row"><input type="text" class="link-url" readonly value="{esc(message["url"])}" '
+            f'data-rel="{esc(message["path"])}" aria-label="{esc(TEXT["f_link"][0])}">'
+            f'<button type="button" class="btn btn-small" data-copy>'
+            f'<span class="copy-idle">{t("b_copy")}</span><span class="copy-done" hidden>{t("copied")}</span></button></div></div>')
+
+
 def flashes(messages) -> str:
-    """Messages à afficher une fois : liste de (« ok » ou « error », {fr, en, km})."""
+    """Messages à afficher une fois : liste de (« ok », « error » ou « link », contenu). Le contenu est
+    {fr, en, km}, ou pour « link » un dictionnaire ``text``, ``url``, ``path`` (voir ``link_flash``)."""
     return "".join(
+        link_flash(message) if kind == "link" else
         f'<div class="flash flash-{"error" if kind == "error" else "ok"}" role="{"alert" if kind == "error" else "status"}">'
         f'{multi(message, tag="p")}</div>' for kind, message in messages)
 
@@ -366,6 +425,29 @@ def setup_page(config, *, csrf: str, values: dict, messages, min_length: int) ->
     body = code + identity_fields(config, values, min_length) + button("b_register", "btn-primary btn-wide")
     return (f'<article class="auth">{head("setup_title", t("setup_intro"))}{flashes(messages)}'
             f'{form("installation", csrf, body, css="acct-card auth-card")}</article>')
+
+
+def invite_page(config, *, csrf: str, token: str, link, values: dict, messages, min_length: int) -> str:
+    """Création de son compte par une personne invitée ; la langue proposée est celle prévue par l'invitation."""
+    values = {"nom": link.note, "profil": link.profile, **values}
+    body = hidden("c", token) + identity_fields(config, values, min_length) + button("b_register", "btn-primary btn-wide")
+    return (f'<article class="auth">{head("invite_title", t("invite_intro"))}{flashes(messages)}'
+            f'{form("invitation", csrf, body, css="acct-card auth-card")}</article>')
+
+
+def reset_page(*, csrf: str, token: str, login: str, messages, min_length: int) -> str:
+    body = (hidden("c", token) + hidden("identifiant", login)
+            + password_field("f_new", "motdepasse", new=True, min_length=min_length)
+            + password_field("f_password2", "motdepasse2", new=True, min_length=min_length, hint="")
+            + button("b_save_password", "btn-primary btn-wide"))
+    return (f'<article class="auth">{head("reset_title", t("reset_intro", login=login))}{flashes(messages)}'
+            f'{form("reinitialisation", csrf, body, css="acct-card auth-card")}</article>')
+
+
+def notice_page(title_key: str, message: dict, *, home: bool = True) -> str:
+    """Page d'un seul message (lien non valable, déjà connecté) ; ``message`` : {fr, en, km}."""
+    back = f'<p class="auth-alt"><a class="btn btn-ghost" href="./">{t("back_home")}</a></p>' if home else ""
+    return f'<article class="auth">{head(title_key, multi(message))}{back}</article>'
 
 
 def error_page(title_key: str, text_key: str) -> str:
@@ -433,6 +515,12 @@ def event_label(event) -> str:
         extra = num_label(int(event.detail))
     elif event.kind == "login_failed" and event.detail == "disabled":
         extra = t("state_disabled")
+    elif event.kind == "register" and event.detail == "invitation":
+        extra = t("via_invite")
+    elif event.kind == "password_changed" and event.detail == "link":
+        extra = t("via_link")
+    elif event.kind in ("invite_created", "invite_revoked") and event.detail:
+        extra = esc(event.detail)
     failed = " is-fail" if event.kind in EVENT_GROUPS["failures"] else ""
     return f'<span class="event-kind{failed}">{t(f"ev_{event.kind}")}</span>' + (f' <span class="event-detail">{extra}</span>' if extra else "")
 
@@ -543,6 +631,10 @@ def user_editor(config, *, target, csrf: str, is_self: bool, min_length: int, se
         uid + hidden("identifiant", target.login)
         + password_field("f_new", "motdepasse", new=True, min_length=min_length, required=False, hint=t("hint_generate"))
         + checkbox(t("f_must_change"), "changer", checked=True) + button("b_set_password", "btn-ghost")))
+    reset_link = ""
+    if target.active:
+        reset_link = form("utilisateurs", csrf, what="lien-motdepasse", css="acct-link-form", body=(
+            uid + button("b_reset_link", "btn-ghost") + f'<span class="field-hint">{t("hint_reset_link")}</span>'))
     close_all = form("utilisateurs", csrf, what="sessions", body=uid + button("b_revoke_all", "btn-ghost")) if sessions else ""
     activity = (f'<div class="acct-editor-more"><div><h3 class="acct-sub">{t("card_sessions")}</h3>'
                 f'{sessions_list(config, sessions)}{close_all}</div>'
@@ -558,7 +650,7 @@ def user_editor(config, *, target, csrf: str, is_self: bool, min_length: int, se
     title = f'{t("card_edit")} <span class="acct-login">{esc(target.login)}</span>'
     back = f'<p class="acct-back"><a href="utilisateurs">{t("b_back")}</a></p>'
     return (f'<section class="acct-card acct-editor" id="modifier"><h2 class="acct-card-title">{title}</h2>'
-            f'<div class="acct-editor-grid"><div>{details}</div><div>{password}{delete}</div></div>{activity}{back}</section>')
+            f'<div class="acct-editor-grid"><div>{details}</div><div>{reset_link}{password}{delete}</div></div>{activity}{back}</section>')
 
 
 def new_user_form(config, *, csrf: str, values: dict, min_length: int) -> str:
@@ -571,16 +663,42 @@ def new_user_form(config, *, csrf: str, values: dict, min_length: int) -> str:
         + button("b_create")))
 
 
+def invites_card(config, *, csrf: str, invites, values: dict, days: int) -> str:
+    """Création d'un lien d'invitation, et invitations en attente (annulables)."""
+    create = form("utilisateurs", csrf, what="inviter", css="acct-form-cols", body=(
+        field(t("f_note"), "pour", value=values.get("pour", ""), required=False, extra='maxlength="60"')
+        + choices(t("f_role"), "role", role_options(), "user")
+        + choices(t("f_profile_other"), "profil", profile_options(config), config.default_profile())
+        + button("b_invite")))
+    pending = ""
+    if invites:
+        rows = []
+        for item in invites:
+            who = esc(item.note) if item.note else t("invite_anyone")
+            lang = esc(LANG_META[item.profile]["native"]) if item.profile in LANG_META else ""
+            by = f' · {esc(item.created_by)}' if item.created_by else ""
+            rows.append(
+                f'<li class="device"><div class="device-main"><span class="device-name">{who}</span>'
+                f'<span class="device-meta">{t("role_admin" if item.role == "admin" else "role_user")} · {lang}{by}</span>'
+                f'<span class="device-meta">{t("invite_expires", date=local_epoch(config, item.expires_at))}</span></div>'
+                + form("utilisateurs", csrf, what="annuler-lien", css="device-form",
+                       body=hidden("lien", item.public_id) + button("b_cancel_link", "btn-small btn-ghost")) + '</li>')
+        pending = f'<h3 class="acct-sub">{t("invites_pending")}</h3><ul class="devices">{"".join(rows)}</ul>'
+    return card(t("card_invites"), f'<p class="acct-hint acct-hint-top">{t("invites_intro", days=days)}</p>{create}{pending}',
+                "acct-card-invites")
+
+
 def users_page(config, *, user, csrf: str, messages, users, summaries: dict, target, values: dict, min_length: int,
-               sessions=(), events=()) -> str:
+               sessions=(), events=(), invites=(), invite_days: int = 7) -> str:
     editor = user_editor(config, target=target, csrf=csrf, is_self=target.id == user.id, min_length=min_length,
                          sessions=sessions, events=events) if target else ""
     table = card(f'{t("card_users")} <span class="acct-count">{num_label(len(users))}</span>',
                  users_table(config, users, summaries, user.id, target.id if target else None), "acct-card-wide")
     create = card(t("card_new"), new_user_form(config, csrf=csrf, values=values, min_length=min_length))
+    invite = invites_card(config, csrf=csrf, invites=invites, values=values, days=invite_days)
     tools = f'<p class="acct-admin-link"><a class="btn btn-ghost" href="journal">{t("journal_title")}</a></p>'
     return (f'<article class="acct acct-users">{head("users_title", t("users_intro"))}{flashes(messages)}{tools}'
-            f'{editor}{table}{create}</article>')
+            f'{editor}{table}{invite}{create}</article>')
 
 
 # --- Suivi d'un apprenant -----------------------------------------------------------------------------
@@ -724,8 +842,10 @@ def journal_page(config, *, events, group: str, user_id, users: dict, more: bool
             who = users.get(event.user_id)
             account = (f'<a class="acct-login" href="utilisateurs?u={who.id}#modifier">{esc(event.login)}</a>' if who
                        else f'<span class="acct-login">{esc(event.login)}</span>')
-        else:
+        elif event.kind in EVENT_GROUPS["failures"]:
             account = f'<span class="event-unknown">{t("unknown_login")}</span>'
+        else:
+            account = ""
         by = t("cli_actor") if event.actor == CLI_ACTOR else f'<span class="acct-login">{esc(event.actor)}</span>' if event.actor else ""
         rows.append(
             f'<tr><td class="user-cell-last" {cell_label("col_when")}>{local_epoch(config, event.at)}</td>'

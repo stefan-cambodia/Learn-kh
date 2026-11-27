@@ -61,6 +61,7 @@ fichier est écrit à part, contrôlé, puis mis en place d'un seul coup.
 | `schedule show` / `install` / `remove` | planification quotidienne |
 | `serve` | serveur web avec comptes utilisateurs (`--host 0.0.0.0` pour le réseau local ; `--no-accounts` pour l'ancien serveur ouvert) : voir [COMPTES.md](COMPTES.md) |
 | `users list` / `show` / `add` / `password` / `role` / `disable` / `enable` / `logout` / `delete` | comptes du serveur : voir [COMPTES.md](COMPTES.md) |
+| `users invite` / `users reset-link <identifiant>` | lien à usage unique : invitation à créer son compte, ou choix d'un nouveau mot de passe |
 | `users journal` | journal des comptes : connexions, échecs, opérations (`--type`, `--limit`, ou un identifiant) |
 
 ## Corriger un contenu

@@ -223,6 +223,8 @@ Réglages du serveur avec comptes (`python3 manage.py serve`), détaillés dans
 | `server.cookie_secure` | `"auto"` | cookie `Secure` : `"auto"` (derrière un proxy HTTPS de confiance), `true` ou `false` |
 | `server.trust_proxy` | `false` | `true` derrière un proxy inverse (`X-Forwarded-For`, `-Proto`, `-Host`) |
 | `server.journal_days` | `180` | durée de conservation du journal des comptes, en jours |
+| `server.invite_days` | `7` | durée de validité d'un lien d'invitation, en jours |
+| `server.reset_hours` | `24` | durée de validité d'un lien de nouveau mot de passe, en heures |
 
 ## Autres rubriques
 

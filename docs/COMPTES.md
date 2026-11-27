@@ -48,17 +48,46 @@ python3 manage.py users add stefan --role admin      # le mot de passe est deman
 | Apprenant | bouton du compte, en haut à droite | voir son nom, ouvrir « Mon compte » ou « Ma progression », se déconnecter |
 | Apprenant | `/compte` | changer son nom affiché, sa langue (FR, ENG, KH) et son mot de passe ; voir ses appareils connectés et en déconnecter un ; voir les dernières connexions et tentatives sur son compte ; effacer sa progression |
 | Apprenant | `/suivi` | sa progression en détail : leçons terminées, série de jours, calendrier des douze dernières semaines, cartes connues et à revoir par langue |
-| Administrateur | `/utilisateurs` | créer un compte, changer un rôle ou une langue, désactiver ou réactiver, redonner un mot de passe, fermer les sessions, supprimer un compte ; voir les leçons terminées et la série de chacun, ses sessions ouvertes et ses derniers événements |
+| Administrateur | `/utilisateurs` | inviter quelqu'un par un lien, créer un compte, changer un rôle ou une langue, désactiver ou réactiver, redonner un mot de passe (lien ou mot de passe provisoire), fermer les sessions, supprimer un compte ; voir les leçons terminées et la série de chacun, ses sessions ouvertes et ses derniers événements |
 | Administrateur | `/suivi?u=…` | la même page « Progression » pour n'importe quel compte (bouton « Suivi » de la liste) |
 | Administrateur | `/journal` | connexions, échecs et opérations sur les comptes, avec filtres et pages |
 
 Un compte créé sans mot de passe reçoit un **mot de passe provisoire**, affiché
 une seule fois à l'administrateur ; la personne doit le changer à sa première
-connexion. Il n'y a pas d'envoi de courriel : un mot de passe oublié se redonne
-depuis la page « Utilisateurs » ou en ligne de commande.
+connexion. Il n'y a pas d'envoi de courriel : invitations et mots de passe oubliés
+passent par des **liens à usage unique** que l'administrateur transmet lui-même
+(messagerie, de vive voix), décrits ci-dessous.
 
 Garde-fous : il reste toujours au moins un administrateur actif, et personne ne
 peut désactiver ni supprimer son propre compte.
+
+## Inviter quelqu'un, redonner un mot de passe
+
+Trois façons d'ouvrir un compte, de la plus simple à la plus ouverte :
+
+1. **Lien d'invitation** (page « Utilisateurs », carte « Invitations ») : vous indiquez pour
+   qui, le rôle et la langue ; le lien s'affiche **une seule fois**, à copier et à envoyer.
+   La personne l'ouvre, choisit son identifiant et son mot de passe, et se retrouve
+   connectée — vous ne connaissez jamais son mot de passe. La page s'ouvre dans la langue
+   prévue pour elle. Les invitations en attente sont listées et peuvent être annulées.
+2. **Compte créé par vous** (carte « Nouveau compte »), avec un mot de passe provisoire.
+3. **Inscription ouverte** à tous, avec ou sans code d'invitation commun (section suivante).
+
+Pour un **mot de passe oublié**, la fiche du compte propose « Créer un lien de nouveau mot
+de passe » : la personne choisit elle-même son mot de passe, ses autres appareils sont
+déconnectés. À défaut, « Définir le mot de passe » donne un mot de passe provisoire.
+
+Ces liens :
+
+- ne servent **qu'une fois** ; les ouvrir ne les consomme pas (une messagerie peut en
+  afficher l'aperçu), seul l'envoi du formulaire le fait ;
+- expirent : 7 jours pour une invitation (`server.invite_days`), 24 heures pour un nouveau
+  mot de passe (`server.reset_hours`) ;
+- ne sont pas conservés : la base n'en garde que l'empreinte. Un lien perdu se remplace par
+  un nouveau ; un nouveau lien de mot de passe annule le précédent, tout comme un changement
+  de mot de passe ou la désactivation du compte.
+
+Un lien donne accès à un compte : envoyez-le par un canal privé, à la bonne personne.
 
 ## Suivi et journal
 
@@ -109,6 +138,8 @@ compte d'apprenant, jamais d'administrateur.
 | `users add dara --name "Dara Sok" --profile km` | crée un compte (mot de passe demandé deux fois) |
 | `users add dara --generate` | crée un compte avec un mot de passe provisoire, à changer à la connexion |
 | `users add dara --password-stdin` | lit le mot de passe sur l'entrée standard (scripts) |
+| `users invite --for "Tante Sophea" --profile km --url https://apprendre.exemple.org` | affiche un lien d'invitation à usage unique (`--role admin`, `--days 3`) ; sans `--url`, le chemin à ajouter à l'adresse du site |
+| `users reset-link dara` | affiche un lien pour que la personne choisisse un nouveau mot de passe (`--hours 2`, `--url …`) |
 | `users password dara` | change le mot de passe et ferme les sessions du compte (`--generate`, `--password-stdin`) |
 | `users role dara admin` | change le rôle (`admin` ou `user`) |
 | `users disable dara` / `users enable dara` | interdit ou rétablit la connexion |
@@ -131,6 +162,8 @@ en vingt secondes au plus.
 | `cookie_secure` | `"auto"` | attribut `Secure` du cookie : `"auto"` (derrière un proxy HTTPS de confiance), `true` ou `false` |
 | `trust_proxy` | `false` | `true` derrière un proxy inverse : `X-Forwarded-For`, `-Proto` et `-Host` sont alors crus |
 | `journal_days` | `180` | durée de conservation du journal des comptes, en jours (1 à 3650) |
+| `invite_days` | `7` | durée de validité d'un lien d'invitation, en jours (1 à 90) |
+| `reset_hours` | `24` | durée de validité d'un lien de nouveau mot de passe, en heures (1 à 168) |
 
 ## La progression
 
@@ -161,6 +194,9 @@ comptes et les progressions en font partie.
 - **Sessions** : jeton aléatoire dans un cookie `HttpOnly`, `SameSite=Lax` ; la
   base n'en garde que le SHA-256. Changer de mot de passe ferme les autres
   sessions ; désactiver ou supprimer un compte les ferme toutes.
+- **Liens à usage unique** (invitation, nouveau mot de passe) : jeton aléatoire de
+  256 bits, dont la base ne garde que le SHA-256 ; usage unique, durée limitée, essais
+  de liens au hasard ralentis comme les tentatives de connexion.
 - **Formulaires** : jeton anti-CSRF sur chaque formulaire et contrôle de
   l'origine des requêtes POST ; les pages ne s'affichent pas dans un cadre.
 - **Tentatives** : cinq échecs pour un identifiant depuis une même adresse (ou
@@ -233,7 +269,7 @@ La branche n'a modifié aucune page générée, aucun gabarit, ni `js/app.js` ni
 
 | Fichier | Rôle |
 | --- | --- |
-| `frkh/accounts.py` | comptes, mots de passe, sessions, progression par compte, journal |
+| `frkh/accounts.py` | comptes, mots de passe, sessions, liens à usage unique, progression par compte, journal |
 | `frkh/webapp.py` | serveur : connexion, contrôle d'accès, pages et API |
 | `frkh/account_pages.py` | contenu des pages (français, anglais, khmer) |
 | `js/account.js`, `css/account.css` | menu du compte et formulaires |

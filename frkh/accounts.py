@@ -1,7 +1,7 @@
 """Comptes utilisateurs du serveur web : mots de passe, sessions et progression par compte.
 
 Ce module ne connaît pas HTTP : il range tout dans la base SQLite du projet (tables ``users``,
-``user_sessions``, ``user_progress`` et ``account_events``) et applique les règles — identifiants
+``user_sessions``, ``user_progress``, ``account_events`` et ``account_links``) et applique les règles — identifiants
 valides, mots de passe hachés, dernier administrateur protégé. Le serveur (``frkh.webapp``) et la
 ligne de commande (``manage.py users``) s'appuient tous deux sur lui.
 
@@ -11,7 +11,9 @@ Sécurité, en bref :
   de les durcir plus tard sans casser les comptes existants ;
 - un jeton de session est tiré au hasard à chaque connexion ; la base n'en garde que le SHA-256,
   si bien qu'une copie de la base ne permet pas de se connecter ;
-- un identifiant inconnu coûte le même temps de calcul qu'un mauvais mot de passe.
+- un identifiant inconnu coûte le même temps de calcul qu'un mauvais mot de passe ;
+- un lien d'invitation ou de réinitialisation ne sert qu'une fois, expire, et la base n'en garde
+  que l'empreinte, comme pour les sessions.
 """
 
 from __future__ import annotations
@@ -59,7 +61,8 @@ EVENT_GROUPS = {
     "logins": ("login", "logout", "register", "setup"),
     "failures": ("login_failed", "login_blocked"),
     "accounts": ("password_changed", "password_reset", "user_created", "user_updated", "role_changed", "user_disabled",
-                 "user_enabled", "user_deleted", "sessions_closed", "progress_reset", "progress_imported"),
+                 "user_enabled", "user_deleted", "sessions_closed", "progress_reset", "progress_imported",
+                 "invite_created", "invite_revoked", "reset_link_created"),
 }
 EVENT_KINDS = tuple(kind for kinds in EVENT_GROUPS.values() for kind in kinds)
 CLI_ACTOR = "@cli"                  # opération faite en ligne de commande (un identifiant ne peut pas contenir « @ »)
@@ -72,8 +75,10 @@ EVENT_NAMES = {
     "password_reset": "Mot de passe redéfini", "user_created": "Compte créé", "user_updated": "Compte modifié",
     "role_changed": "Rôle changé", "user_disabled": "Compte désactivé", "user_enabled": "Compte réactivé",
     "user_deleted": "Compte supprimé", "sessions_closed": "Sessions fermées", "progress_reset": "Progression effacée",
-    "progress_imported": "Ancienne progression reprise",
+    "progress_imported": "Ancienne progression reprise", "invite_created": "Invitation créée",
+    "invite_revoked": "Invitation annulée", "reset_link_created": "Lien de réinitialisation créé",
 }
+LINK_KINDS = ("invite", "reset")
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS users (
@@ -123,6 +128,20 @@ CREATE TABLE IF NOT EXISTS account_events (
     detail  TEXT    NOT NULL DEFAULT ''
 );
 CREATE INDEX IF NOT EXISTS idx_account_events_user ON account_events(user_id, id);
+
+-- Liens à usage unique : invitation à créer son compte (user_id vide), ou choix d'un nouveau
+-- mot de passe pour un compte. Un lien utilisé ou annulé est supprimé.
+CREATE TABLE IF NOT EXISTS account_links (
+    token_hash TEXT    PRIMARY KEY,
+    kind       TEXT    NOT NULL,
+    user_id    INTEGER REFERENCES users(id) ON DELETE CASCADE,
+    role       TEXT    NOT NULL DEFAULT 'user',
+    profile    TEXT    NOT NULL DEFAULT '',
+    note       TEXT    NOT NULL DEFAULT '',
+    created_by TEXT    NOT NULL DEFAULT '',
+    created_at INTEGER NOT NULL,
+    expires_at INTEGER NOT NULL
+);
 """
 
 # Messages d'erreur : (français, anglais, khmer). « {min} » et « {minutes} » sont des nombres.
@@ -177,6 +196,10 @@ MESSAGES = {
                    "លេខកូដដំឡើងមិនត្រឹមត្រូវទេ។ វាបង្ហាញនៅលើអេក្រង់របស់ម៉ាស៊ីនមេ។"),
     "invite_code": ("Code d'invitation incorrect.", "Incorrect invitation code.", "លេខកូដអញ្ជើញមិនត្រឹមត្រូវទេ។"),
     "confirm_required": ("Cochez la case de confirmation.", "Tick the confirmation box.", "សូមគូសប្រអប់បញ្ជាក់។"),
+    "link_invalid": ("Ce lien a déjà servi, a expiré ou a été annulé. Demandez-en un nouveau à l'administrateur.",
+                     "This link has already been used, has expired or was cancelled. Ask the administrator for a new one.",
+                     "តំណនេះត្រូវបានប្រើរួចហើយ ផុតកំណត់ ឬត្រូវបានបោះបង់។ សូមស្នើសុំតំណថ្មីពីអ្នកគ្រប់គ្រង។"),
+    "account_disabled": ("Ce compte est désactivé.", "This account is disabled.", "គណនីនេះត្រូវបានបិទ។"),
 }
 
 
@@ -349,6 +372,24 @@ class Session:
 
 
 @dataclasses.dataclass(frozen=True)
+class Link:
+    """Lien à usage unique en attente. Le jeton lui-même n'est connu que de celui qui a reçu le lien."""
+    token_hash: str
+    kind: str
+    user_id: int | None
+    role: str
+    profile: str
+    note: str
+    created_by: str
+    created_at: int
+    expires_at: int
+
+    @property
+    def public_id(self) -> str:
+        return self.token_hash[:SESSION_ID_LENGTH]
+
+
+@dataclasses.dataclass(frozen=True)
 class Event:
     """Une ligne du journal. ``login`` est le compte concerné (vide si l'identifiant saisi ne
     correspond à aucun compte : il n'est pas conservé, ce pourrait être un mot de passe tapé au
@@ -430,6 +471,18 @@ class Accounts:
             return max(1, min(3650, int(self.config.get("server.journal_days", 180))))
         except (TypeError, ValueError):
             return 180
+
+    def invite_days(self) -> int:
+        try:
+            return max(1, min(90, int(self.config.get("server.invite_days", 7))))
+        except (TypeError, ValueError):
+            return 7
+
+    def reset_hours(self) -> int:
+        try:
+            return max(1, min(168, int(self.config.get("server.reset_hours", 24))))
+        except (TypeError, ValueError):
+            return 24
 
     def today(self) -> dt.date:
         """La date du jour dans le fuseau du site (celui des leçons)."""
@@ -560,6 +613,7 @@ class Accounts:
             password = self.check_password(password, user.login)
             self._conn.execute("UPDATE users SET password_hash = ?, must_change_password = ?, updated_at = ? WHERE id = ?",
                                (hash_password(password), int(must_change_password), db.utcnow(), user.id))
+            self._conn.execute("DELETE FROM account_links WHERE kind = 'reset' AND user_id = ?", (user.id,))
             self.revoke_user_sessions(user.id, keep_token=keep_token)
 
     def check_current_password(self, user_id, password) -> bool:
@@ -687,6 +741,100 @@ class Accounts:
                                         (int(user_id), SESSION_ID_LENGTH, public_id))
             self._cache.clear()
             return cursor.rowcount > 0
+
+    # --- liens à usage unique : invitation, nouveau mot de passe ----------------------------------
+    @staticmethod
+    def _link(row) -> Link:
+        return Link(token_hash=row["token_hash"], kind=row["kind"], user_id=row["user_id"], role=row["role"],
+                    profile=row["profile"], note=row["note"], created_by=row["created_by"], created_at=row["created_at"],
+                    expires_at=row["expires_at"])
+
+    def _new_link(self, kind: str, seconds: int, *, user_id=None, role: str = "user", profile: str = "", note: str = "",
+                  created_by: str = "") -> tuple[str, Link]:
+        token, now = secrets.token_urlsafe(32), int(self.clock())
+        digest = token_hash(token)
+        with self._lock:
+            self._conn.execute("DELETE FROM account_links WHERE expires_at <= ?", (now,))
+            self._conn.execute(
+                "INSERT INTO account_links(token_hash, kind, user_id, role, profile, note, created_by, created_at, expires_at) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                (digest, kind, user_id, role, profile, note, str(created_by or "")[:64], now, now + seconds))
+            return token, self._link(self._conn.execute("SELECT * FROM account_links WHERE token_hash = ?", (digest,)).fetchone())
+
+    def create_invite(self, *, role: str = "user", profile=None, note="", created_by: str = "", days: int | None = None) -> tuple[str, Link]:
+        """Invitation : celui qui reçoit le lien crée lui-même son compte, avec le rôle prévu.
+        Renvoie le jeton (à placer dans le lien, montré une seule fois) et l'invitation."""
+        role, profile = self.check_role(role), self.check_profile(profile)
+        note = " ".join(str(note or "").split())
+        if len(note) > NAME_MAX or any(unicodedata.category(c) in ("Cc", "Cs") for c in note):
+            raise AccountError("name_invalid")
+        days = self.invite_days() if days is None else max(1, min(90, int(days)))
+        return self._new_link("invite", days * 86400, role=role, profile=profile, note=note, created_by=created_by)
+
+    def create_reset(self, user_id, *, created_by: str = "", hours: int | None = None) -> tuple[str, Link]:
+        """Lien pour choisir un nouveau mot de passe ; il remplace le précédent du même compte."""
+        hours = self.reset_hours() if hours is None else max(1, min(168, int(hours)))
+        with self._lock:
+            user = self._require(user_id)
+            if not user.active:
+                raise AccountError("account_disabled")
+            self._conn.execute("DELETE FROM account_links WHERE kind = 'reset' AND user_id = ?", (user.id,))
+            return self._new_link("reset", hours * 3600, user_id=user.id, role=user.role, profile=user.profile,
+                                  created_by=created_by)
+
+    def get_link(self, token, kind: str) -> Link | None:
+        """Le lien désigné par un jeton, s'il est encore valable (et, pour un nouveau mot de passe, si le compte est actif)."""
+        if not token or not isinstance(token, str) or len(token) > 200 or kind not in LINK_KINDS:
+            return None
+        with self._lock:
+            row = self._conn.execute("SELECT * FROM account_links WHERE token_hash = ? AND kind = ? AND expires_at > ?",
+                                     (token_hash(token), kind, int(self.clock()))).fetchone()
+            if row is None:
+                return None
+            if kind == "reset":
+                user = self.get_user(row["user_id"])
+                if user is None or not user.active:
+                    return None
+            return self._link(row)
+
+    def list_links(self, kind: str = "invite") -> list[Link]:
+        with self._lock:
+            rows = self._conn.execute("SELECT * FROM account_links WHERE kind = ? AND expires_at > ? ORDER BY created_at DESC, rowid DESC",
+                                      (kind, int(self.clock()))).fetchall()
+        return [self._link(row) for row in rows]
+
+    def revoke_link(self, public_id, kind: str = "invite") -> Link | None:
+        """Annule un lien en attente, désigné par ``Link.public_id`` ; renvoie le lien annulé, ou ``None``."""
+        public_id = str(public_id or "")
+        if len(public_id) != SESSION_ID_LENGTH or not all(c in "0123456789abcdef" for c in public_id):
+            return None
+        with self._lock:
+            row = self._conn.execute("SELECT * FROM account_links WHERE kind = ? AND substr(token_hash, 1, ?) = ?",
+                                     (kind, SESSION_ID_LENGTH, public_id)).fetchone()
+            if row is None:
+                return None
+            self._conn.execute("DELETE FROM account_links WHERE token_hash = ?", (row["token_hash"],))
+            return self._link(row)
+
+    def use_invite(self, token, login, name, password, *, profile=None) -> tuple[User, Link]:
+        """Crée le compte d'une personne invitée. Le lien n'est consommé que si le compte est créé :
+        une saisie refusée (identifiant pris, mot de passe trop court) laisse le lien valable."""
+        with self._lock:
+            link = self.get_link(token, "invite")
+            if link is None:
+                raise AccountError("link_invalid")
+            user = self.create_user(login, name or login, password, role=link.role, profile=profile or link.profile)
+            self._conn.execute("DELETE FROM account_links WHERE token_hash = ?", (link.token_hash,))
+            return user, link
+
+    def use_reset(self, token, password) -> tuple[User, Link]:
+        """Enregistre le nouveau mot de passe choisi par le titulaire du lien ; ferme toutes les sessions du compte."""
+        with self._lock:
+            link = self.get_link(token, "reset")
+            if link is None:
+                raise AccountError("link_invalid")
+            self.set_password(link.user_id, password)       # supprime aussi le lien
+            return self._require(link.user_id), link
 
     # --- journal ------------------------------------------------------------------------------
     def record_event(self, kind: str, *, user: User | None = None, login: str = "", actor: str = "", ip: str = "",

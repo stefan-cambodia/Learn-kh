@@ -10,7 +10,8 @@ sont pas modifiés — mais derrière une connexion :
   ``css/account.css``), sans toucher aux fichiers générés.
 
 Pages : ``/connexion``, ``/inscription`` (si elle est ouverte), ``/installation`` (premier
-démarrage), ``/compte``, ``/suivi`` (progression d'un compte), et pour l'administrateur
+démarrage), ``/invitation`` et ``/reinitialisation`` (liens à usage unique donnés par
+l'administrateur), ``/compte``, ``/suivi`` (progression d'un compte), et pour l'administrateur
 ``/utilisateurs`` et ``/journal``. API : ``/api/me``, ``/api/progress``, ``/api/profile``.
 
 Protections : cookie de session ``HttpOnly`` et ``SameSite=Lax``, jeton anti-CSRF sur chaque
@@ -43,8 +44,10 @@ from .render import SiteRenderer
 SESSION_COOKIE = "frkh_session"
 FORM_COOKIE = "frkh_form"                 # jeton anti-CSRF des formulaires sans session (connexion, inscription)
 ASSET_DIRS = ("css", "fonts", "js")       # nécessaires à la page de connexion : servis sans compte
-ROUTES = ("connexion", "deconnexion", "inscription", "installation", "compte", "utilisateurs", "suivi", "journal")
-NO_RETURN = ("connexion", "deconnexion", "inscription", "installation", "api")   # jamais une « page où revenir »
+ROUTES = ("connexion", "deconnexion", "inscription", "installation", "invitation", "reinitialisation", "compte",
+          "utilisateurs", "suivi", "journal")
+# Jamais une « page où revenir » après la connexion.
+NO_RETURN = ("connexion", "deconnexion", "inscription", "installation", "invitation", "reinitialisation", "api")
 JOURNAL_PAGE = 100                        # lignes par page du journal
 # Ce qu'un compte voit de sa propre activité sur « Mon compte ».
 OWN_EVENTS = ("login", "login_failed", "login_blocked", "password_changed", "password_reset", "sessions_closed")
@@ -54,6 +57,7 @@ MAX_PROGRESS = 2 * 1024 * 1024
 ROOT_RE = re.compile(r'<html[^>]*\bdata-root="((?:\.|\.\.)(?:/\.\.)*)"')
 CHARSET_RE = re.compile(r"<meta\s+charset=[^>]*>", re.IGNORECASE)
 HEAD_RE = re.compile(r"<head[^>]*>", re.IGNORECASE)
+HOST_RE = re.compile(r"^(?:[A-Za-z0-9.-]{1,253}|\[[0-9A-Fa-f:.]{2,45}\])(?::[0-9]{1,5})?$")
 NUMBER_RE = re.compile(r"^[0-9]{1,12}$")   # « ² ».isdigit() est vrai mais int("²") échoue : chiffres ASCII seulement
 SECURITY_HEADERS = (
     ("X-Content-Type-Options", "nosniff"),
@@ -64,9 +68,11 @@ SECURITY_HEADERS = (
 
 # Exécuté dans l'en-tête de chaque page, avant le reste : si un autre compte se connecte sur ce
 # navigateur, la progression gardée localement est effacée (celle du compte arrive du serveur),
-# et la langue du compte est reprise. Une progression locale sans compte est adoptée.
+# et la langue du compte est reprise. Une progression locale sans compte est adoptée. Sur un lien
+# d'invitation, la langue prévue pour la personne s'applique si son navigateur n'en a encore choisi aucune.
 HEAD_SCRIPT = (
     '(function(){var a=window.FRKH_ACCOUNT,u=a&&a.user;if(u||(a&&!a.login)){document.documentElement.classList.add("has-account");}'
+    'try{if(a&&a.suggest&&!window.localStorage.getItem("frkh-profile")){window.localStorage.setItem("frkh-profile",a.suggest);}}catch(e){}'
     'if(!u){return;}try{var s=window.localStorage,'
     'p=s.getItem("frkh-user"),id=String(u.id),k=[],i;if(p!==null&&p!==id){for(i=0;i<s.length;i++){k.push(s.key(i));}'
     'k.forEach(function(n){if(/^frkh-(done2?|days|boxes|review|quiz)-/.test(n||"")){s.removeItem(n);}});}'
@@ -137,7 +143,8 @@ class WebApp:
         compte concerné (``None`` : identifiant inconnu), ``actor`` celui qui agit si c'est un autre."""
         by = actor.login if actor is not None and (user is None or actor.id != user.id) else ""
         self.accounts.record_event(kind, user=user, actor=by, ip=ip, detail=detail)
-        line = f"{EVENT_NAMES[kind]} : {user.login if user else 'identifiant inconnu'}"
+        who = user.login if user else "identifiant inconnu" if kind in EVENT_GROUPS["failures"] else ""
+        line = EVENT_NAMES[kind] + (f" : {who}" if who else "")
         line += (f" ({detail})" if detail not in ("", None) else "") + (f" par {by}" if by else "") + (f" depuis {ip}" if ip else "")
         self.log.log(logging.WARNING if kind in LOUD_EVENTS else logging.INFO, "%s", line)
 
@@ -212,6 +219,7 @@ def make_handler(app: WebApp):
         # --- contexte de la requête -------------------------------------------------------------
         def _begin(self) -> None:
             self._cookies_out: list[str] = []
+            self._suggest = ""                  # langue d'interface proposée par la page (lien d'invitation)
             self._session = unset
             self._cache_control = None
             self._query: dict = {}
@@ -252,10 +260,19 @@ def make_handler(app: WebApp):
                 return setting
             return app.trust_proxy() and self.headers.get("X-Forwarded-Proto", "").split(",")[0].strip().lower() == "https"
 
+        def _host(self) -> str:
+            return (self.headers.get("X-Forwarded-Host", "").split(",")[0].strip() if app.trust_proxy() else "") \
+                or self.headers.get("Host", "")
+
+        def _absolute(self, path: str) -> str:
+            """Adresse complète d'une page de la racine, à transmettre à quelqu'un (lien d'invitation).
+            Le script du compte la recalcule dans le navigateur ; ceci sert sans JavaScript."""
+            host = self._host()
+            return f"{'https' if self._secure() else 'http'}://{host}/{path}" if HOST_RE.match(host) else path
+
         def _same_origin(self) -> bool:
             """Refuse les requêtes POST lancées depuis un autre site (en plus des jetons anti-CSRF)."""
-            host = (self.headers.get("X-Forwarded-Host", "").split(",")[0].strip() if app.trust_proxy() else "") \
-                or self.headers.get("Host", "")
+            host = self._host()
             origin = self.headers.get("Origin")
             if origin:
                 return origin != "null" and urllib.parse.urlsplit(origin).netloc.lower() == host.lower()
@@ -329,6 +346,8 @@ def make_handler(app: WebApp):
             payload = {"user": public_user(session.user) if session else None,
                        "csrf": session.csrf_token if session else "",
                        "registration": app.registration_open(), "login": app.require_login()}
+            if self._suggest:
+                payload["suggest"] = self._suggest
             text = json.dumps(payload, ensure_ascii=True, separators=(",", ":"))
             return text.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
 
@@ -679,6 +698,71 @@ def make_handler(app: WebApp):
             app.event("setup", user=user, ip=ip)
             return self._redirect("")
 
+        # --- liens à usage unique : invitation, nouveau mot de passe ------------------------------------------------
+        def _page_invitation(self) -> None:
+            self._link_page("invite")
+
+        def _page_reinitialisation(self) -> None:
+            self._link_page("reset")
+
+        def _link_page(self, kind: str) -> None:
+            """Ouvrir le lien (GET) ne le consomme pas — les messageries le visitent pour en faire un
+            aperçu ; seul l'envoi réussi du formulaire le fait."""
+            title = "invite_title" if kind == "invite" else "reset_title"
+            form = None
+            if self.command == "POST":
+                form = self._form()
+                if form is None:
+                    return self._plain(400, "Formulaire invalide.\n")
+            token, ip = str(form.get("c", "")) if form is not None else self._arg("c"), self._client_ip()
+
+            def notice(key: str, message: dict, status: int) -> None:
+                self._render("page-account" if self.session else "page-auth", key, pages.notice_page(key, message), status)
+
+            if self.session is not None:
+                return notice(title, pages.texts("link_signed_in"), 409)
+            wait = app.ip_throttle.blocked(ip)
+            if wait:
+                return notice("link_invalid_title", message_texts("throttled", minutes=math.ceil(wait / 60)), 429)
+            link = accounts.get_link(token, kind)
+            if link is None:
+                app.ip_throttle.hit(ip)
+                return notice("link_invalid_title", message_texts("link_invalid"), 410)
+            owner = accounts.get_user(link.user_id) if kind == "reset" else None
+            self._suggest = link.profile if link.profile in config.profiles() else ""
+
+            def show(values: dict, messages=(), status: int = 200) -> None:
+                if kind == "invite":
+                    content = pages.invite_page(config, csrf=self._form_token(), token=token, link=link, values=values,
+                                                messages=list(messages), min_length=accounts.password_min_length())
+                else:
+                    content = pages.reset_page(csrf=self._form_token(), token=token, login=owner.login,
+                                               messages=list(messages), min_length=accounts.password_min_length())
+                self._render("page-auth", title, content, status)
+
+            if form is None:
+                return show({})
+            if not self._form_token_ok(form):
+                return show(form, [("error", message_texts("csrf"))], 403)
+            try:
+                if form.get("motdepasse", "") != form.get("motdepasse2", ""):
+                    raise AccountError("password_mismatch")
+                if kind == "invite":
+                    user, _ = accounts.use_invite(token, form.get("identifiant"), form.get("nom") or form.get("identifiant"),
+                                                  form.get("motdepasse", ""), profile=form.get("profil") or None)
+                else:
+                    user, _ = accounts.use_reset(token, form.get("motdepasse", ""))
+            except AccountError as exc:
+                if exc.code == "link_invalid":
+                    return notice("link_invalid_title", exc.texts(), 410)
+                return show(form, [("error", exc.texts())], 422)
+            self._start_session(user)
+            if kind == "invite":
+                app.event("register", user=user, ip=ip, detail="invitation")
+            else:
+                app.event("password_changed", user=user, ip=ip, detail="link")
+            return self._redirect("")
+
         # --- mon compte ---------------------------------------------------------------------------------------
         def _page_compte(self) -> None:
             session = self.session
@@ -750,7 +834,8 @@ def make_handler(app: WebApp):
                 summaries={user.id: accounts.progress_summary(user.id) for user in users}, target=target,
                 values=values or {}, min_length=accounts.password_min_length(),
                 sessions=accounts.list_sessions(target.id) if target else (),
-                events=accounts.list_events(limit=8, user_id=target.id) if target else ())
+                events=accounts.list_events(limit=8, user_id=target.id) if target else (),
+                invites=accounts.list_links("invite"), invite_days=accounts.invite_days())
             self._render("page-account", "users_title", content, status)
 
         def _page_utilisateurs(self) -> None:
@@ -781,6 +866,23 @@ def make_handler(app: WebApp):
                     app.flash(session, "ok", pages.texts("temp_password", login=created.login, password=password))
                 app.event("user_created", user=created, actor=actor, ip=ip)
                 return self._redirect("utilisateurs")
+            if action == "inviter":
+                try:
+                    token, link = accounts.create_invite(role=form.get("role") or "user", profile=form.get("profil"),
+                                                         note=form.get("pour", ""), created_by=actor.login)
+                except AccountError as exc:
+                    app.flash(session, "error", exc.texts())
+                    return self._redirect("utilisateurs")
+                path = f"invitation?c={token}"
+                app.flash(session, "link", {"text": pages.texts("ok_invite"), "path": path, "url": self._absolute(path)})
+                app.event("invite_created", actor=actor, ip=ip, detail=link.note)
+                return self._redirect("utilisateurs")
+            if action == "annuler-lien":
+                link = accounts.revoke_link(form.get("lien"))
+                if link is not None:
+                    app.flash(session, "ok", pages.texts("ok_link_cancelled"))
+                    app.event("invite_revoked", actor=actor, ip=ip, detail=link.note)
+                return self._redirect("utilisateurs")
             target = accounts.get_user(form.get("id"))
             back = f"utilisateurs?u={target.id}" if target else "utilisateurs"
             try:
@@ -807,6 +909,12 @@ def make_handler(app: WebApp):
                     if generated:
                         app.flash(session, "ok", pages.texts("temp_password", login=target.login, password=password))
                     app.event("password_changed" if target.id == actor.id else "password_reset", user=target, actor=actor, ip=ip)
+                elif action == "lien-motdepasse":
+                    secret, _ = accounts.create_reset(target.id, created_by=actor.login)
+                    path = f"reinitialisation?c={secret}"
+                    app.flash(session, "link", {"text": pages.texts("ok_reset_link", login=target.login, hours=accounts.reset_hours()),
+                                                "path": path, "url": self._absolute(path)})
+                    app.event("reset_link_created", user=target, actor=actor, ip=ip)
                 elif action == "sessions":
                     closed = accounts.revoke_user_sessions(target.id, keep_token=token if target.id == actor.id else None)
                     app.flash(session, "ok", pages.texts("ok_sessions_closed", login=target.login, n=closed))

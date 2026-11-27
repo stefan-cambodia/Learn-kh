@@ -192,9 +192,42 @@
     });
   }
 
+  /* ------------------------------------------ Lien à transmettre (invitation…) */
+  function wireCopy() {
+    Array.prototype.forEach.call(document.querySelectorAll(".link-url[data-rel]"), function (input) {
+      /* L'adresse vue du navigateur est la bonne, même derrière un proxy ou dans un sous-dossier. */
+      try { input.value = new URL(input.getAttribute("data-rel"), location.href).href; } catch (e) { /* adresse du serveur */ }
+      input.addEventListener("focus", function () { input.select(); });
+    });
+    document.addEventListener("click", function (event) {
+      var button = event.target && event.target.closest ? event.target.closest("[data-copy]") : null;
+      var input = button ? button.parentNode.querySelector(".link-url") : null;
+      if (!input) { return; }
+      var idle = button.querySelector(".copy-idle"), ok = button.querySelector(".copy-done");
+      function done() {
+        if (!idle || !ok) { return; }
+        idle.hidden = true;
+        ok.hidden = false;
+        window.setTimeout(function () { idle.hidden = false; ok.hidden = true; }, 2000);
+      }
+      function fallback() {
+        input.focus();
+        input.select();
+        try { if (document.execCommand("copy")) { done(); } } catch (e) { /* le lien reste sélectionné */ }
+      }
+      /* Le presse-papiers moderne demande une page en https : sinon, l'ancienne commande. */
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(input.value).then(done, fallback);
+      } else {
+        fallback();
+      }
+    });
+  }
+
   function init() {
     buildMenu();
     wireLogout();
+    wireCopy();
     watchProfile();
     watchSession();
   }

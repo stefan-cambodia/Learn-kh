@@ -112,6 +112,8 @@ DEFAULT_CONFIG: dict = {
         "cookie_secure": "auto",      # « auto » : cookie « Secure » derrière un proxy HTTPS de confiance ; true ou false pour forcer
         "trust_proxy": False,         # True derrière un proxy inverse : X-Forwarded-For, -Proto et -Host sont alors crus
         "journal_days": 180,          # durée de conservation du journal des comptes (connexions, échecs, opérations)
+        "invite_days": 7,             # durée de validité d'un lien d'invitation
+        "reset_hours": 24,            # durée de validité d'un lien de nouveau mot de passe
     },
     "logging": {"level": "INFO", "max_bytes": 1048576, "backups": 5},
 }
@@ -354,6 +356,10 @@ class Config:
         kept = server.get("journal_days", 180)
         if isinstance(kept, bool) or not isinstance(kept, int) or not 1 <= kept <= 3650:
             problems.append("server.journal_days doit être compris entre 1 et 3650")
+        for key, default, highest in (("invite_days", 7, 90), ("reset_hours", 24, 168)):
+            value = server.get(key, default)
+            if isinstance(value, bool) or not isinstance(value, int) or not 1 <= value <= highest:
+                problems.append(f"server.{key} doit être compris entre 1 et {highest}")
         default = LEGACY_PROFILES.get(str(self.get("site.default_profile", "fr")), str(self.get("site.default_profile", "fr")))
         if default not in self.profiles():
             problems.append(f"site.default_profile = {default!r} : doit être l'un des profils ({', '.join(self.profiles())})")

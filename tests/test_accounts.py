@@ -318,6 +318,78 @@ class AccountStoreTest(AccountsCase):
         self.assertEqual(store.list_sessions(dara.id), [], "les sessions expirées ne sont pas listées")
         self.assertEqual(store.list_sessions(9999), [])
 
+    def test_invitation_links_work_once_and_expire(self):
+        store = self.store()
+        with self.assertRaises(AccountError):
+            store.create_invite(role="roi")
+        with self.assertRaises(AccountError):
+            store.create_invite(profile="de")
+        token, link = store.create_invite(role="admin", profile="km", note="  Tante   Sophea ", created_by="stefan")
+        self.assertEqual((link.kind, link.role, link.profile, link.note, link.created_by), ("invite", "admin", "km", "Tante Sophea", "stefan"))
+        self.assertEqual(link.expires_at - link.created_at, 7 * 86400)
+        stored = "\n".join(str(tuple(row)) for row in store._conn.execute("SELECT * FROM account_links"))
+        self.assertNotIn(token, stored, "la base ne garde que l'empreinte du lien")
+        self.assertEqual(store.get_link(token, "invite"), link)
+        for wrong in ("", None, token + "x", "x" * 300):
+            self.assertIsNone(store.get_link(wrong, "invite"), repr(wrong))
+        self.assertIsNone(store.get_link(token, "reset"), "une invitation ne sert pas à changer un mot de passe")
+        # Une saisie refusée ne consomme pas le lien.
+        store.create_user("dara", "Dara", "motdepasse-dara")
+        for login, password in (("dara", "motdepasse-sophea"), ("sophea", "court")):
+            with self.assertRaises(AccountError):
+                store.use_invite(token, login, "Sophea", password)
+        self.assertIsNotNone(store.get_link(token, "invite"))
+        user, used = store.use_invite(token, "Sophea", "", "motdepasse-sophea")
+        self.assertEqual((user.login, user.name, user.role, user.profile, used.public_id), ("sophea", "Sophea", "admin", "km", link.public_id))
+        with self.assertRaises(AccountError) as refused:
+            store.use_invite(token, "autre", "Autre", "motdepasse-autre")
+        self.assertEqual(refused.exception.code, "link_invalid")
+        # Expiration, liste des invitations en attente, annulation.
+        short, _ = store.create_invite(days=1)
+        kept, pending = store.create_invite(note="Alex")
+        self.assertEqual([item.note for item in store.list_links("invite")], ["Alex", ""])
+        self.now += 86400 + 1
+        self.assertIsNone(store.get_link(short, "invite"))
+        self.assertEqual([item.note for item in store.list_links("invite")], ["Alex"])
+        for wrong in ("", "zz", "0" * 16, None):
+            self.assertIsNone(store.revoke_link(wrong))
+        self.assertEqual(store.revoke_link(pending.public_id).note, "Alex")
+        self.assertIsNone(store.get_link(kept, "invite"))
+
+    def test_new_password_links_replace_each_other_and_close_sessions(self):
+        store = self.store()
+        dara = store.create_user("dara", "Dara", "motdepasse-dara", must_change_password=True)
+        session_token, _ = store.create_session(dara.id)
+        first, _ = store.create_reset(dara.id, created_by="stefan")
+        second, link = store.create_reset(dara.id, created_by="stefan")
+        self.assertEqual(link.expires_at - link.created_at, 24 * 3600)
+        self.assertIsNone(store.get_link(first, "reset"), "un nouveau lien remplace l'ancien")
+        self.assertIsNone(store.get_link(second, "invite"))
+        with self.assertRaises(AccountError):
+            store.use_reset(second, "court")
+        user, _ = store.use_reset(second, "nouveau-secret")
+        self.assertEqual((user.login, user.must_change_password), ("dara", False))
+        self.assertIsNotNone(store.authenticate("dara", "nouveau-secret"))
+        self.assertIsNone(store.session(session_token), "les sessions du compte sont fermées")
+        with self.assertRaises(AccountError):
+            store.use_reset(second, "encore-un-autre")
+        # Un mot de passe changé autrement, un compte désactivé ou supprimé : le lien ne vaut plus rien.
+        third, _ = store.create_reset(dara.id)
+        store.set_password(dara.id, "change-ailleurs")
+        self.assertIsNone(store.get_link(third, "reset"))
+        fourth, _ = store.create_reset(dara.id)
+        store.create_user("admin", "Admin", "motdepasse-admin", role="admin")
+        store.update_user(dara.id, active=False)
+        self.assertIsNone(store.get_link(fourth, "reset"))
+        with self.assertRaises(AccountError):
+            store.create_reset(dara.id)
+        store.update_user(dara.id, active=True)
+        self.assertIsNotNone(store.get_link(fourth, "reset"))
+        self.now += 24 * 3600 + 1
+        self.assertIsNone(store.get_link(fourth, "reset"))
+        with self.assertRaises(AccountError):
+            store.create_reset(9999)
+
     def test_journal_keeps_filters_and_forgets_events(self):
         store = self.store()
         dara = store.create_user("dara", "Dara", "motdepasse-dara")
@@ -865,6 +937,120 @@ class JournalTest(ServerCase):
         self.assertNotIn("Plus anciens", body)
 
 
+class LinksTest(ServerCase):
+    def link(self, body: str) -> str:
+        """Le chemin du lien montré à l'administrateur (« invitation?c=… »), une seule fois."""
+        return re.search(r'data-rel="((?:invitation|reinitialisation)\?c=[A-Za-z0-9_-]{40,})"', body).group(1)
+
+    def test_administrator_invites_someone_who_creates_their_own_account(self):
+        admin, dara = self.browser("admin"), self.browser("dara")
+        dara.post("/utilisateurs", {"action": "inviter", "pour": "Pirate"}, page="/compte")
+        self.assertEqual(self.accounts.list_links("invite"), [], "un apprenant n'invite personne")
+        status, headers, _ = admin.post("/utilisateurs", {"action": "inviter", "pour": "Tante <Sophea>", "role": "user", "profil": "km"})
+        self.assertEqual((status, headers["location"]), (303, "./utilisateurs"))
+        body = admin.get("/utilisateurs")[2]
+        path = self.link(body)
+        self.assertIn(f'value="http://127.0.0.1:{self.port}/{path}"', body, "adresse complète, prête à copier")
+        self.assertIn("Tante &lt;Sophea&gt;", body)
+        self.assertNotIn("Tante <Sophea>", body)
+        again = admin.get("/utilisateurs")[2]
+        self.assertNotIn(path, again, "le lien n'est montré qu'une fois")
+        self.assertIn("Invitations en attente", again)
+
+        guest = self.browser()
+        status, _, body = guest.get("/" + path)
+        self.assertEqual(status, 200)
+        self.assertIn("Vous êtes invité", body)
+        self.assertRegex(body, r'name="profil" value="km" checked')
+        self.assertIn('"suggest":"km"', body, "la page s'ouvre dans la langue prévue pour la personne invitée")
+        self.assertNotIn('"suggest"', admin.get("/utilisateurs")[2])
+        self.assertEqual(guest.get("/" + path)[0], 200, "ouvrir le lien ne le consomme pas")
+        self.assertEqual(dara.get("/" + path)[0], 409, "déjà connecté : se déconnecter d'abord")
+        form = {"c": path.split("=", 1)[1], "identifiant": "sophea", "nom": "Sophea", "profil": "km",
+                "motdepasse": "motdepasse-sophea", "motdepasse2": "motdepasse-sophea"}
+        for change, message in (({"identifiant": "dara"}, "déjà utilisé"), ({"motdepasse2": "autre-chose"}, "pas identiques"),
+                                ({"motdepasse": "court", "motdepasse2": "court"}, "au moins 8")):
+            status, _, body = guest.post("/invitation", {**form, **change}, page="/" + path)
+            self.assertEqual(status, 422, str(change))
+            self.assertIn(message, body)
+        self.assertEqual(guest.request("POST", "/invitation", form={**form, "csrf": "faux"})[0], 403)
+        status, headers, _ = guest.post("/invitation", form, page="/" + path)
+        self.assertEqual((status, headers["location"]), (303, "./"))
+        self.assertEqual(guest.get("/")[0], 200, "connecté dès la création du compte")
+        sophea = self.accounts.get_by_login("sophea")
+        self.assertEqual((sophea.role, sophea.profile, sophea.must_change_password), ("user", "km", False))
+        status, _, body = self.browser().get("/" + path)
+        self.assertEqual(status, 410)
+        self.assertIn("déjà servi", body)
+        self.assertEqual(self.accounts.list_links("invite"), [])
+        events = self.accounts.list_events(limit=10, kinds=("invite_created", "register"))
+        self.assertEqual([(event.kind, event.login, event.actor, event.detail) for event in events],
+                         [("register", "sophea", "", "invitation"), ("invite_created", "", "admin", "Tante <Sophea>")])
+        journal = admin.get("/journal")[2]
+        self.assertIn("Invitation créée", journal)
+        self.assertIn("par invitation", journal)
+        self.assertNotIn("identifiant inconnu", journal, "une invitation ne concerne encore aucun compte")
+
+    def test_invitations_can_be_cancelled_and_bad_links_are_refused(self):
+        admin = self.browser("admin")
+        admin.post("/utilisateurs", {"action": "inviter", "pour": "Alex", "role": "admin", "profil": "fr"})
+        body = admin.get("/utilisateurs")[2]
+        path = self.link(body)
+        public = re.search(r'name="lien" value="([0-9a-f]{16})"', body).group(1)
+        admin.post("/utilisateurs", {"action": "annuler-lien", "lien": "0" * 16})
+        self.assertEqual(len(self.accounts.list_links("invite")), 1)
+        admin.post("/utilisateurs", {"action": "annuler-lien", "lien": public})
+        self.assertIn("Invitation annulée", admin.get("/utilisateurs")[2])
+        guest = self.browser()
+        for wrong in ("/" + path, "/invitation", "/invitation?c=", "/invitation?c=" + "x" * 43, "/reinitialisation?c=" + path.split("=", 1)[1]):
+            self.assertEqual(guest.get(wrong)[0], 410, wrong)
+        admin.post("/utilisateurs", {"action": "inviter", "pour": "x" * 61})
+        self.assertIn("1 à 60 caractères", admin.get("/utilisateurs")[2])
+        admin.post("/utilisateurs", {"action": "inviter", "profil": "de"})
+        self.assertIn("Langue inconnue", admin.get("/utilisateurs")[2])
+        self.assertEqual(self.accounts.list_links("invite"), [])
+
+    def test_guessing_links_is_slowed_down(self):
+        guest = self.browser()
+        codes = [guest.get(f"/invitation?c=essai-{n}")[0] for n in range(32)]
+        self.assertEqual((codes[:30], codes[30:]), ([410] * 30, [429, 429]))
+
+    def test_new_password_link_lets_the_person_choose_their_password(self):
+        admin, laptop = self.browser("admin"), self.browser("dara")
+        edit = f"/utilisateurs?u={self.dara.id}"
+        self.assertIn('value="lien-motdepasse"', admin.get(edit)[2])
+        status, headers, _ = admin.post("/utilisateurs", {"action": "lien-motdepasse", "id": self.dara.id}, page=edit)
+        self.assertEqual((status, headers["location"]), (303, f"./{edit[1:]}"))
+        body = admin.get(edit)[2]
+        path = self.link(body)
+        self.assertTrue(path.startswith("reinitialisation?c="))
+        self.assertIn("durée de validité, en heures : 24", body)
+        self.assertEqual(laptop.get("/")[0], 200, "tant que le lien n'a pas servi, rien ne change")
+
+        phone = self.browser()
+        status, _, body = phone.get("/" + path)
+        self.assertEqual(status, 200)
+        self.assertIn("pour le compte « dara »", body)
+        form = {"c": path.split("=", 1)[1], "motdepasse": "choisi-par-dara", "motdepasse2": "choisi-par-dara"}
+        status, _, body = phone.post("/reinitialisation", {**form, "motdepasse2": "autre"}, page="/" + path)
+        self.assertEqual(status, 422)
+        status, headers, _ = phone.post("/reinitialisation", form, page="/" + path)
+        self.assertEqual((status, headers["location"]), (303, "./"))
+        self.assertEqual((phone.get("/")[0], laptop.get("/")[0]), (200, 302), "connecté ici, déconnecté ailleurs")
+        self.assertEqual(self.browser().login("dara", "motdepasse-dara")[0], 401)
+        self.assertEqual(self.browser().login("dara", "choisi-par-dara")[0], 303)
+        self.assertEqual(self.browser().get("/" + path)[0], 410)
+        kinds = [(event.kind, event.detail, event.actor) for event in self.accounts.list_events(limit=3, user_id=self.dara.id,
+                                                                                              kinds=("password_changed", "reset_link_created"))]
+        self.assertEqual(kinds, [("password_changed", "link", ""), ("reset_link_created", "", "admin")])
+        self.assertIn("par lien", phone.get("/compte")[2])
+        # Pas de lien pour un compte désactivé.
+        self.accounts.update_user(self.dara.id, active=False)
+        self.assertNotIn('value="lien-motdepasse"', admin.get(edit)[2])
+        admin.post("/utilisateurs", {"action": "lien-motdepasse", "id": self.dara.id}, page=edit)
+        self.assertIn("Ce compte est désactivé", admin.get(edit)[2])
+
+
 class FirstRunTest(ServerCase):
     with_users = False
 
@@ -974,7 +1160,23 @@ class CommandLineTest(unittest.TestCase):
         self.assertIn("Compte supprimé", self.run_cli("users", "delete", "stefan", "--yes"))
         self.assertIn("Compte inconnu", self.run_cli("users", "password", "stefan", "--generate", expect=1))
         self.assertNotIn("stefan", self.run_cli("users", "list"))
+        invite = self.run_cli("users", "invite", "--for", "Sophea", "--profile", "km", "--days", "3", "--url", "https://apprendre.exemple.org/")
+        self.assertRegex(invite, r"^https://apprendre\.exemple\.org/invitation\?c=[A-Za-z0-9_-]{43}\n")
+        self.assertIn("valable 3 jour(s)", invite)
+        reset = self.run_cli("users", "reset-link", "dara")
+        self.assertRegex(reset, r"^/reinitialisation\?c=[A-Za-z0-9_-]{43}\n")
+        self.assertIn("24 heure(s), pour le compte dara", reset)
+        store = Accounts(load_config(self.root))
+        try:
+            self.assertEqual([(item.note, item.profile, item.created_by) for item in store.list_links("invite")],
+                             [("Sophea", "km", "@cli")])
+            self.assertIsNotNone(store.get_link(reset.split("c=", 1)[1].split()[0], "reset"))
+        finally:
+            store.close()
+        self.assertIn("Compte inconnu", self.run_cli("users", "reset-link", "stefan", expect=1))
         journal = self.run_cli("users", "journal")
+        self.assertIn("Invitation créée (Sophea)", journal)
+        self.assertIn("Lien de réinitialisation créé", journal)
         for text in ("Compte créé", "Rôle changé (admin)", "Compte désactivé", "Compte supprimé", "par la ligne de commande"):
             self.assertIn(text, journal)
         self.assertEqual(len(self.run_cli("users", "journal", "--limit", "2").strip().splitlines()), 2)

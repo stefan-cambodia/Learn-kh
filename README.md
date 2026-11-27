@@ -116,6 +116,7 @@ python3 manage.py check                       # vérification générale du proj
 python3 manage.py schedule install            # activer la génération quotidienne
 python3 manage.py serve --host 0.0.0.0        # serveur avec comptes : connexion, progression par compte sur tous ses appareils
 python3 manage.py users add dara --generate   # créer un compte (list, show, password, role, disable, delete… : docs/COMPTES.md)
+python3 manage.py users invite --for "Sophea" # lien d'invitation à usage unique : la personne crée elle-même son compte
 python3 manage.py users journal               # connexions, échecs et opérations sur les comptes
 python3 manage.py alphabet                    # Alphabets (khmer, latin, cyrillique, chinois) : audios et page
                                               # téléphone : « Ajouter à l'écran d'accueil » installe le site comme une application

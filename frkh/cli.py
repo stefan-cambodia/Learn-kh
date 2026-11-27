@@ -570,6 +570,13 @@ def _users_show(app: App, store, user) -> None:
             print(f"  {moment(event.at)}  {EVENT_NAMES.get(event.kind, event.kind)}" + (f" ({event.detail})" if event.detail else ""))
 
 
+def _print_link(args, path: str, validity: str) -> None:
+    """Affiche un lien à usage unique : complet avec ``--url``, sinon le chemin à ajouter à l'adresse du site."""
+    base = (args.url or "").rstrip("/")
+    print(f"{base}/{path}" if base else f"/{path}")
+    print(f"Lien à usage unique, valable {validity}." + ("" if base else " Ajoutez-le à l'adresse du site (ou relancez avec --url)."))
+
+
 def cmd_users(app: App, args) -> int:
     from .accounts import CLI_ACTOR, AccountError, Accounts
     store = Accounts(app.config)
@@ -585,6 +592,13 @@ def cmd_users(app: App, args) -> int:
             return EXIT_OK
         if args.action == "journal":
             return _users_journal(app, store, args)
+        if args.action == "invite":
+            token, link = store.create_invite(role=args.role, profile=args.profile, note=args.note or "",
+                                              created_by=CLI_ACTOR, days=args.days)
+            store.record_event("invite_created", actor=CLI_ACTOR, detail=link.note)
+            days = round((link.expires_at - link.created_at) / 86400)
+            _print_link(args, f"invitation?c={token}", f"{days} jour(s)")
+            return EXIT_OK
         if args.action == "add":
             password, generated = _account_password(args, args.login)
             user = store.create_user(args.login, args.name or args.login, password, role=args.role, profile=args.profile,
@@ -600,6 +614,11 @@ def cmd_users(app: App, args) -> int:
             return EXIT_ERROR
         if args.action == "show":
             _users_show(app, store, user)
+        elif args.action == "reset-link":
+            token, link = store.create_reset(user.id, created_by=CLI_ACTOR, hours=args.hours)
+            store.record_event("reset_link_created", user=user, actor=CLI_ACTOR)
+            hours = round((link.expires_at - link.created_at) / 3600)
+            _print_link(args, f"reinitialisation?c={token}", f"{hours} heure(s), pour le compte {user.login}")
         elif args.action == "password":
             password, generated = _account_password(args, user.login)
             store.set_password(user.id, password, must_change_password=generated)
@@ -766,6 +785,16 @@ def build_parser() -> argparse.ArgumentParser:
     a = p.add_subparsers(dest="action", metavar="action", required=True)
     a.add_parser("list", help="lister les comptes")
     a.add_parser("show", help="détail d'un compte : progression, sessions ouvertes, derniers événements").add_argument("login")
+    u = a.add_parser("invite", help="créer un lien d'invitation : la personne crée elle-même son compte")
+    u.add_argument("--for", dest="note", metavar="NOM", help="pour qui est l'invitation (rappel pour l'administrateur)")
+    u.add_argument("--role", choices=("user", "admin"), default="user")
+    u.add_argument("--profile", choices=LANGS, help="langue proposée (par défaut : celle du site)")
+    u.add_argument("--days", type=int, metavar="N", help="durée de validité en jours (par défaut : server.invite_days)")
+    u.add_argument("--url", help="adresse du site, pour afficher le lien complet (ex. https://apprendre.exemple.org)")
+    u = a.add_parser("reset-link", help="créer un lien pour qu'une personne choisisse un nouveau mot de passe")
+    u.add_argument("login")
+    u.add_argument("--hours", type=int, metavar="N", help="durée de validité en heures (par défaut : server.reset_hours)")
+    u.add_argument("--url", help="adresse du site, pour afficher le lien complet")
     u = a.add_parser("journal", help="journal des comptes : connexions, échecs, opérations")
     u.add_argument("login", nargs="?", help="limiter à un compte")
     u.add_argument("--type", choices=("logins", "failures", "accounts"), help="connexions, échecs ou opérations sur les comptes")
