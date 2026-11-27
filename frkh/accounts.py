@@ -1,9 +1,9 @@
 """Comptes utilisateurs du serveur web : mots de passe, sessions et progression par compte.
 
 Ce module ne connaît pas HTTP : il range tout dans la base SQLite du projet (tables ``users``,
-``user_sessions`` et ``user_progress``) et applique les règles — identifiants valides, mots de
-passe hachés, dernier administrateur protégé. Le serveur (``frkh.webapp``) et la ligne de
-commande (``manage.py users``) s'appuient tous deux sur lui.
+``user_sessions``, ``user_progress`` et ``account_events``) et applique les règles — identifiants
+valides, mots de passe hachés, dernier administrateur protégé. Le serveur (``frkh.webapp``) et la
+ligne de commande (``manage.py users``) s'appuient tous deux sur lui.
 
 Sécurité, en bref :
 - les mots de passe ne sont jamais stockés : seulement leur empreinte scrypt, avec un sel par
@@ -34,6 +34,7 @@ from .textutil import LANGS, to_khmer_digits
 
 ROLES = ("admin", "user")
 LOGIN_RE = re.compile(r"^[a-z0-9][a-z0-9._-]{2,31}$")
+LESSON_KEY_RE = re.compile(r"^[0-9]{1,6}$")     # numéro de leçon dans la progression envoyée par un navigateur
 NAME_MAX = 60
 PASSWORD_MAX = 256
 
@@ -45,6 +46,34 @@ PLAIN_ALPHABET = "abcdefghjkmnpqrstuvwxyz23456789"
 
 SESSION_REFRESH_SECONDS = 3600      # l'échéance d'une session active est repoussée au plus une fois par heure
 SESSION_CACHE_SECONDS = 20          # une page charge des dizaines de fichiers : on ne relit pas la base à chaque fois
+SESSION_ID_LENGTH = 16              # début de l'empreinte du jeton : désigne une session dans un formulaire
+
+# Révision espacée, mêmes règles que js/review.js : une carte de la boîte b revient après
+# REVIEW_INTERVALS[b] jours (à six heures près) ; elle est « connue » à partir de la boîte KNOWN_BOX.
+REVIEW_INTERVALS = (0, 1, 2, 4, 8, 16)
+KNOWN_BOX = 3
+MAX_BOX = 5
+
+# Journal : ce qui arrive aux comptes. Les trois groupes servent de filtres à la page « Journal ».
+EVENT_GROUPS = {
+    "logins": ("login", "logout", "register", "setup"),
+    "failures": ("login_failed", "login_blocked"),
+    "accounts": ("password_changed", "password_reset", "user_created", "user_updated", "role_changed", "user_disabled",
+                 "user_enabled", "user_deleted", "sessions_closed", "progress_reset", "progress_imported"),
+}
+EVENT_KINDS = tuple(kind for kinds in EVENT_GROUPS.values() for kind in kinds)
+CLI_ACTOR = "@cli"                  # opération faite en ligne de commande (un identifiant ne peut pas contenir « @ »)
+MAX_EVENTS = 50000                  # au-delà, les plus anciens sont effacés, quelle que soit leur date
+# Libellés du journal en texte (logs/app.log, « manage.py users journal »).
+EVENT_NAMES = {
+    "login": "Connexion", "logout": "Déconnexion", "register": "Inscription",
+    "setup": "Premier démarrage, compte administrateur créé", "login_failed": "Échec de connexion",
+    "login_blocked": "Connexion bloquée (trop de tentatives)", "password_changed": "Mot de passe changé",
+    "password_reset": "Mot de passe redéfini", "user_created": "Compte créé", "user_updated": "Compte modifié",
+    "role_changed": "Rôle changé", "user_disabled": "Compte désactivé", "user_enabled": "Compte réactivé",
+    "user_deleted": "Compte supprimé", "sessions_closed": "Sessions fermées", "progress_reset": "Progression effacée",
+    "progress_imported": "Ancienne progression reprise",
+}
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS users (
@@ -81,6 +110,19 @@ CREATE TABLE IF NOT EXISTS user_progress (
     updated_at TEXT    NOT NULL,
     PRIMARY KEY (user_id, key)
 );
+
+-- Journal des comptes. Pas de clé étrangère : l'historique survit à la suppression d'un compte.
+CREATE TABLE IF NOT EXISTS account_events (
+    id      INTEGER PRIMARY KEY AUTOINCREMENT,
+    at      INTEGER NOT NULL,
+    kind    TEXT    NOT NULL,
+    user_id INTEGER,
+    login   TEXT    NOT NULL DEFAULT '',
+    actor   TEXT    NOT NULL DEFAULT '',
+    ip      TEXT    NOT NULL DEFAULT '',
+    detail  TEXT    NOT NULL DEFAULT ''
+);
+CREATE INDEX IF NOT EXISTS idx_account_events_user ON account_events(user_id, id);
 """
 
 # Messages d'erreur : (français, anglais, khmer). « {min} » et « {minutes} » sont des nombres.
@@ -300,9 +342,49 @@ class Session:
     user_agent: str
     ip: str
 
+    @property
+    def public_id(self) -> str:
+        """Désigne la session dans une page (« déconnecter cet appareil ») sans rien révéler du jeton."""
+        return self.token_hash[:SESSION_ID_LENGTH]
+
+
+@dataclasses.dataclass(frozen=True)
+class Event:
+    """Une ligne du journal. ``login`` est le compte concerné (vide si l'identifiant saisi ne
+    correspond à aucun compte : il n'est pas conservé, ce pourrait être un mot de passe tapé au
+    mauvais endroit) ; ``actor`` est l'auteur quand ce n'est pas le compte lui-même."""
+    id: int
+    at: int
+    kind: str
+    user_id: int | None
+    login: str
+    actor: str
+    ip: str
+    detail: str
+
 
 def normalize_login(value) -> str:
     return str(value or "").strip().lower()
+
+
+def streaks(days, today: dt.date) -> tuple[int, int]:
+    """Série de jours d'affilée en cours (elle tient encore si le dernier jour actif est hier) et
+    meilleure série, à partir de dates « AAAA-MM-JJ »."""
+    dates = set()
+    for day in days:
+        try:
+            dates.add(dt.date.fromisoformat(day))
+        except (TypeError, ValueError):
+            continue
+    current, cursor = 0, today if today in dates else today - dt.timedelta(days=1)
+    while cursor in dates:
+        current, cursor = current + 1, cursor - dt.timedelta(days=1)
+    best = run = 0
+    previous = None
+    for day in sorted(dates):
+        run = run + 1 if previous is not None and day - previous == dt.timedelta(days=1) else 1
+        best, previous = max(best, run), day
+    return current, best
 
 
 class Accounts:
@@ -342,6 +424,16 @@ class Accounts:
         except (TypeError, ValueError):
             days = 30
         return int(max(1 / 24, min(365, days)) * 86400)
+
+    def journal_days(self) -> int:
+        try:
+            return max(1, min(3650, int(self.config.get("server.journal_days", 180))))
+        except (TypeError, ValueError):
+            return 180
+
+    def today(self) -> dt.date:
+        """La date du jour dans le fuseau du site (celui des leçons)."""
+        return dt.datetime.fromtimestamp(self.clock(), self.config.tzinfo()).date()
 
     # --- contrôles --------------------------------------------------------------------------
     def check_login(self, login: str) -> str:
@@ -571,6 +663,71 @@ class Accounts:
             return int(self._conn.execute("SELECT COUNT(*) FROM user_sessions WHERE user_id = ? AND expires_at > ?",
                                           (int(user_id), int(self.clock()))).fetchone()[0])
 
+    def list_sessions(self, user_id) -> list[Session]:
+        """Sessions ouvertes d'un compte, la plus récemment active d'abord. « Dernière activité » est
+        juste à une heure près : l'échéance n'est repoussée qu'une fois par heure."""
+        user = self.get_user(user_id)
+        if user is None:
+            return []
+        with self._lock:
+            rows = self._conn.execute(
+                "SELECT * FROM user_sessions WHERE user_id = ? AND expires_at > ? ORDER BY last_seen_at DESC, created_at DESC",
+                (user.id, int(self.clock()))).fetchall()
+        return [Session(token_hash=row["token_hash"], user=user, csrf_token=row["csrf_token"], created_at=row["created_at"],
+                        last_seen_at=row["last_seen_at"], expires_at=row["expires_at"], user_agent=row["user_agent"],
+                        ip=row["ip"]) for row in rows]
+
+    def revoke_session_id(self, user_id, public_id) -> bool:
+        """Ferme une session d'un compte, désignée par ``Session.public_id``. Faux si elle n'existe pas (ou plus)."""
+        public_id = str(public_id or "")
+        if len(public_id) != SESSION_ID_LENGTH or not all(c in "0123456789abcdef" for c in public_id):
+            return False
+        with self._lock:
+            cursor = self._conn.execute("DELETE FROM user_sessions WHERE user_id = ? AND substr(token_hash, 1, ?) = ?",
+                                        (int(user_id), SESSION_ID_LENGTH, public_id))
+            self._cache.clear()
+            return cursor.rowcount > 0
+
+    # --- journal ------------------------------------------------------------------------------
+    def record_event(self, kind: str, *, user: User | None = None, login: str = "", actor: str = "", ip: str = "",
+                     detail="") -> None:
+        """Note un événement. ``user`` est le compte concerné ; sans lui, ``login`` reste vide sauf si
+        l'appelant sait que l'identifiant est sans risque. Une panne du journal ne bloque jamais l'opération."""
+        if kind not in EVENT_KINDS:
+            raise ValueError(f"événement inconnu : {kind}")
+        now = int(self.clock())
+        try:
+            with self._lock:
+                cursor = self._conn.execute(
+                    "INSERT INTO account_events(at, kind, user_id, login, actor, ip, detail) VALUES (?, ?, ?, ?, ?, ?, ?)",
+                    (now, kind, user.id if user else None, (user.login if user else str(login or ""))[:64],
+                     str(actor or "")[:64], str(ip or "")[:64], str(detail if detail is not None else "")[:200]))
+                if cursor.lastrowid % 50 == 1:
+                    self._conn.execute("DELETE FROM account_events WHERE at < ? OR id <= ?",
+                                       (now - self.journal_days() * 86400, cursor.lastrowid - MAX_EVENTS))
+        except sqlite3.Error:
+            pass
+
+    def list_events(self, *, limit: int = 100, before: int | None = None, user_id=None, kinds=None) -> list[Event]:
+        """Événements du plus récent au plus ancien ; ``before`` (identifiant) donne la page suivante."""
+        where, values = [], []
+        if before:
+            where.append("id < ?")
+            values.append(int(before))
+        if user_id is not None:
+            where.append("user_id = ?")
+            values.append(int(user_id))
+        if kinds:
+            kinds = [kind for kind in kinds if kind in EVENT_KINDS]
+            where.append(f"kind IN ({', '.join('?' for _ in kinds)})" if kinds else "0")
+            values.extend(kinds)
+        query = ("SELECT * FROM account_events" + (f" WHERE {' AND '.join(where)}" if where else "")
+                 + " ORDER BY id DESC LIMIT ?")
+        with self._lock:
+            rows = self._conn.execute(query, (*values, max(1, min(1000, int(limit))))).fetchall()
+        return [Event(id=row["id"], at=row["at"], kind=row["kind"], user_id=row["user_id"], login=row["login"],
+                      actor=row["actor"], ip=row["ip"], detail=row["detail"]) for row in rows]
+
     # --- progression ----------------------------------------------------------------------------
     def _progress(self, user_id: int) -> dict:
         state = {}
@@ -619,27 +776,74 @@ class Accounts:
             out = {key: json.dumps(value, ensure_ascii=False, separators=(",", ":")) for key, value in state.items()}
             return {**empty, **out}
 
-    def progress_summary(self, user_id) -> dict:
-        """Leçons terminées, jours d'activité, cartes révisées et dernière activité (horodatage en ms, ou 0)."""
+    def progress_detail(self, user_id) -> dict:
+        """La progression d'un compte, toutes langues d'apprenant confondues :
+
+        - ``lessons`` : {numéro de leçon terminée: horodatage en ms} ;
+        - ``days`` : jours d'activité triés ; ``streak`` et ``best_streak`` : séries de jours d'affilée ;
+        - ``langs`` : par langue révisée, ``cards`` (cartes vues), ``known`` (boîte 3 et plus),
+          ``due`` (à revoir aujourd'hui), ``boxes`` (cartes par boîte, de 1 à 5) et ``last`` ;
+        - ``cards`` : total des cartes vues ; ``due`` : total à revoir ; ``last`` : dernière activité (ms, ou 0).
+        """
         with self._lock:
             state = self._progress(int(user_id))
-        lessons, days, cards, last = set(), set(), 0, 0.0
+        now_ms = self.clock() * 1000
+        lessons: dict[int, float] = {}
+        days: set[str] = set()
+        cards: dict[str, dict[str, dict]] = {}
+        last = 0.0
         for key, value in state.items():
-            if key.startswith("frkh-days-") and isinstance(value, list):
-                days.update(value)
+            if key.startswith("frkh-days-"):
+                if isinstance(value, list):
+                    days.update(day for day in value if isinstance(day, str))
                 continue
             if not isinstance(value, dict):
                 continue
+            lang = key.rsplit("-", 1)[-1] if key.startswith("frkh-boxes-") else ""
             for item, entry in value.items():
                 if not isinstance(entry, dict):
                     continue
-                last = max(last, float(entry.get("t") or 0))
-                if key.startswith("frkh-done2-"):
-                    if entry.get("d") == 1:
-                        lessons.add(item)
-                else:
-                    cards += 1
-        return {"lessons": len(lessons), "days": len(days), "cards": cards, "last": last}
+                stamp = float(entry.get("t") or 0)
+                last = max(last, stamp)
+                if lang:
+                    known = cards.setdefault(lang, {})
+                    if item not in known or stamp >= float(known[item].get("t") or 0):
+                        known[item] = entry
+                elif entry.get("d") == 1 and LESSON_KEY_RE.match(item):
+                    lessons[int(item)] = max(lessons.get(int(item), 0.0), stamp)
+        langs = {}
+        for lang, known in cards.items():
+            boxes = [0] * MAX_BOX
+            due = learned = 0
+            for entry in known.values():
+                box = max(1, min(MAX_BOX, int(entry.get("b") or 1)))
+                boxes[box - 1] += 1
+                learned += box >= KNOWN_BOX
+                due += now_ms >= float(entry.get("t") or 0) + REVIEW_INTERVALS[box] * 86400000 - 6 * 3600000
+            langs[lang] = {"cards": len(known), "known": learned, "due": due, "boxes": boxes,
+                           "last": max((float(entry.get("t") or 0) for entry in known.values()), default=0.0)}
+        current, best = streaks(days, self.today())
+        return {"lessons": lessons, "days": sorted(days), "streak": current, "best_streak": best, "langs": langs,
+                "cards": sum(item["cards"] for item in langs.values()), "due": sum(item["due"] for item in langs.values()),
+                "last": last}
+
+    def progress_summary(self, user_id) -> dict:
+        """Leçons terminées, jours d'activité, série en cours, cartes révisées et dernière activité (ms, ou 0)."""
+        detail = self.progress_detail(user_id)
+        return {"lessons": len(detail["lessons"]), "days": len(detail["days"]), "streak": detail["streak"],
+                "cards": detail["cards"], "last": detail["last"]}
+
+    def lessons(self) -> list[dict]:
+        """Les leçons du site (numéro, date, titres, page), pour situer la progression d'un compte.
+        Liste vide tant que le projet n'a généré aucune leçon."""
+        try:
+            with self._lock:
+                rows = self._conn.execute("SELECT lesson_number, lesson_date, title_fr, title_en, title_km, html_path "
+                                          "FROM lessons ORDER BY lesson_number").fetchall()
+        except sqlite3.Error:
+            return []
+        return [{"number": row["lesson_number"], "date": row["lesson_date"], "path": row["html_path"] or "",
+                 "title": {"fr": row["title_fr"], "en": row["title_en"], "km": row["title_km"]}} for row in rows]
 
     def reset_progress(self, user_id) -> None:
         """Efface la progression du compte. L'instant est noté : ce que les appareils du compte

@@ -6,7 +6,8 @@ tourne, chaque navigateur garde sa progression. La branche `serveur` sert le
 
 - chaque personne a un compte (identifiant et mot de passe) et **sa propre
   progression**, conservée sur le serveur et retrouvée sur tous ses appareils ;
-- un **administrateur** crée et gère les comptes depuis la page « Utilisateurs » ;
+- un **administrateur** crée et gère les comptes depuis la page « Utilisateurs », suit la
+  progression de chacun (page « Progression ») et consulte le **journal** des connexions ;
 - les pages, les styles et les scripts du site ne changent pas : le menu du
   compte est ajouté au moment où le serveur envoie la page (`js/account.js`,
   `css/account.css`). Ouvertes depuis le disque, les pages se comportent comme
@@ -44,9 +45,12 @@ python3 manage.py users add stefan --role admin      # le mot de passe est deman
 
 | Qui | Où | Quoi |
 | --- | --- | --- |
-| Apprenant | bouton du compte, en haut à droite | voir son nom, ouvrir « Mon compte », se déconnecter |
-| Apprenant | `/compte` | changer son nom affiché, sa langue (FR, ENG, KH) et son mot de passe ; fermer ses sessions sur les autres appareils ; voir ou effacer sa progression |
-| Administrateur | `/utilisateurs` | créer un compte, changer un rôle ou une langue, désactiver ou réactiver, redonner un mot de passe, fermer les sessions, supprimer un compte ; voir le nombre de leçons terminées par chacun |
+| Apprenant | bouton du compte, en haut à droite | voir son nom, ouvrir « Mon compte » ou « Ma progression », se déconnecter |
+| Apprenant | `/compte` | changer son nom affiché, sa langue (FR, ENG, KH) et son mot de passe ; voir ses appareils connectés et en déconnecter un ; voir les dernières connexions et tentatives sur son compte ; effacer sa progression |
+| Apprenant | `/suivi` | sa progression en détail : leçons terminées, série de jours, calendrier des douze dernières semaines, cartes connues et à revoir par langue |
+| Administrateur | `/utilisateurs` | créer un compte, changer un rôle ou une langue, désactiver ou réactiver, redonner un mot de passe, fermer les sessions, supprimer un compte ; voir les leçons terminées et la série de chacun, ses sessions ouvertes et ses derniers événements |
+| Administrateur | `/suivi?u=…` | la même page « Progression » pour n'importe quel compte (bouton « Suivi » de la liste) |
+| Administrateur | `/journal` | connexions, échecs et opérations sur les comptes, avec filtres et pages |
 
 Un compte créé sans mot de passe reçoit un **mot de passe provisoire**, affiché
 une seule fois à l'administrateur ; la personne doit le changer à sa première
@@ -55,6 +59,32 @@ depuis la page « Utilisateurs » ou en ligne de commande.
 
 Garde-fous : il reste toujours au moins un administrateur actif, et personne ne
 peut désactiver ni supprimer son propre compte.
+
+## Suivi et journal
+
+**Progression** (`/suivi`). La page résume ce que le compte a enregistré, toutes langues
+d'apprenant confondues : leçons terminées sur les leçons déjà parues, jours d'activité, série
+en cours et meilleure série, calendrier des douze dernières semaines, et pour chaque langue
+révisée les cartes « connues » (troisième boîte et au-delà) et celles à revoir aujourd'hui.
+Chacun voit la sienne ; **l'administrateur voit celle de tous les comptes** — à dire aux
+personnes à qui vous ouvrez un compte.
+
+**Appareils connectés** (`/compte`). Chaque session ouverte apparaît avec le navigateur, le
+système, l'adresse et la dernière activité (à une heure près). Le bouton « Déconnecter »
+ferme celle d'un autre appareil ; un appareil perdu ne garde donc pas l'accès.
+
+**Journal** (`/journal`, administrateur). Y sont notés : connexions et déconnexions,
+inscriptions, échecs de connexion, blocages pour trop de tentatives (une ligne par blocage),
+changements de mot de passe, créations, modifications, désactivations et suppressions de
+comptes, fermetures de sessions, effacements de progression — avec la date, l'adresse et,
+quand ce n'est pas le compte lui-même, l'auteur (un administrateur ou la ligne de commande).
+
+- Quand l'identifiant saisi ne correspond à aucun compte, **il n'est pas conservé** : ce
+  pourrait être un mot de passe tapé dans la mauvaise case. Le journal dit seulement
+  « identifiant inconnu ».
+- Le journal survit à la suppression d'un compte, et garde `server.journal_days` jours
+  (180 par défaut, 50 000 lignes au plus). Il est dans la table `account_events` de la base.
+- Les mêmes lignes vont dans `logs/app.log`.
 
 ## Inscription
 
@@ -74,6 +104,8 @@ compte d'apprenant, jamais d'administrateur.
 | Commande | Effet |
 | --- | --- |
 | `users list` | comptes, rôle, état, langue, leçons terminées, dernière connexion |
+| `users show dara` | détail d'un compte : progression, sessions ouvertes, derniers événements |
+| `users journal` | journal des comptes ; `users journal dara` pour un seul compte, `--type logins`, `failures` ou `accounts`, `--limit 200` |
 | `users add dara --name "Dara Sok" --profile km` | crée un compte (mot de passe demandé deux fois) |
 | `users add dara --generate` | crée un compte avec un mot de passe provisoire, à changer à la connexion |
 | `users add dara --password-stdin` | lit le mot de passe sur l'entrée standard (scripts) |
@@ -98,6 +130,7 @@ en vingt secondes au plus.
 | `password_min_length` | `8` | longueur minimale des mots de passe (6 à 64) |
 | `cookie_secure` | `"auto"` | attribut `Secure` du cookie : `"auto"` (derrière un proxy HTTPS de confiance), `true` ou `false` |
 | `trust_proxy` | `false` | `true` derrière un proxy inverse : `X-Forwarded-For`, `-Proto` et `-Host` sont alors crus |
+| `journal_days` | `180` | durée de conservation du journal des comptes, en jours (1 à 3650) |
 
 ## La progression
 
@@ -136,8 +169,9 @@ comptes et les progressions en font partie.
   la même réponse, dans le même temps.
 - **Fichiers privés** : `.env`, la base, la configuration et le code ne sont
   jamais servis, connecté ou non.
-- **Journal** : connexions, échecs et opérations sur les comptes sont notés
-  dans `logs/app.log` (jamais les mots de passe).
+- **Journal** : connexions, échecs et opérations sur les comptes sont notés dans la base
+  (page « Journal ») et dans `logs/app.log` — jamais les mots de passe, ni un identifiant
+  qui ne correspond à aucun compte.
 
 ### Hors du réseau local : HTTPS obligatoire
 
@@ -199,7 +233,7 @@ La branche n'a modifié aucune page générée, aucun gabarit, ni `js/app.js` ni
 
 | Fichier | Rôle |
 | --- | --- |
-| `frkh/accounts.py` | comptes, mots de passe, sessions, progression par compte |
+| `frkh/accounts.py` | comptes, mots de passe, sessions, progression par compte, journal |
 | `frkh/webapp.py` | serveur : connexion, contrôle d'accès, pages et API |
 | `frkh/account_pages.py` | contenu des pages (français, anglais, khmer) |
 | `js/account.js`, `css/account.css` | menu du compte et formulaires |

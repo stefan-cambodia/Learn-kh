@@ -13,6 +13,8 @@
 
   var ICON_USER = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="3.8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4.5 20c.9-3.6 3.8-5.5 7.5-5.5s6.6 1.9 7.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
   var ICON_USERS = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.5" r="3.3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.8 19.5c.7-3.1 3.1-4.8 6.2-4.8s5.5 1.7 6.2 4.8M15.5 5.6a3.3 3.3 0 0 1 0 5.8M17.8 14.9c1.8.6 3 2.1 3.5 4.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+  var ICON_CHART = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19.5v-7M12 19.5v-15M19 19.5v-10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>';
+  var ICON_LOG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6.5h11M9 12h11M9 17.5h11M4.5 6.5h.01M4.5 12h.01M4.5 17.5h.01" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
   var ICON_OUT = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4.5H6.5A1.5 1.5 0 0 0 5 6v12a1.5 1.5 0 0 0 1.5 1.5H14M10.5 12H20m0 0-3.5-3.5M20 12l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var ICON_IN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4.5h7.5A1.5 1.5 0 0 1 19 6v12a1.5 1.5 0 0 1-1.5 1.5H10M4 12h9.5m0 0L10 8.5M13.5 12 10 15.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
@@ -106,13 +108,16 @@
     panel.appendChild(who);
 
     var links = make("div", "settings-group account-links");
-    var mine = make("a", "account-link", ICON_USER + tri("Mon compte", "My account", "គណនីរបស់ខ្ញុំ"));
-    mine.href = base + "compte";
-    links.appendChild(mine);
+    function addLink(path, icon, label) {
+      var link = make("a", "account-link", icon + label);
+      link.href = base + path;
+      links.appendChild(link);
+    }
+    addLink("compte", ICON_USER, tri("Mon compte", "My account", "គណនីរបស់ខ្ញុំ"));
+    addLink("suivi", ICON_CHART, tri("Ma progression", "My progress", "វឌ្ឍនភាពរបស់ខ្ញុំ"));
     if (user.role === "admin") {
-      var users = make("a", "account-link", ICON_USERS + tri("Utilisateurs", "Users", "អ្នកប្រើប្រាស់"));
-      users.href = base + "utilisateurs";
-      links.appendChild(users);
+      addLink("utilisateurs", ICON_USERS, tri("Utilisateurs", "Users", "អ្នកប្រើប្រាស់"));
+      addLink("journal", ICON_LOG, tri("Journal", "Activity log", "កំណត់ហេតុ"));
     }
     panel.appendChild(links);
 

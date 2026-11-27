@@ -1,5 +1,5 @@
-"""Pages du serveur avec comptes : connexion, inscription, premier démarrage, « Mon compte »
-et gestion des utilisateurs.
+"""Pages du serveur avec comptes : connexion, inscription, premier démarrage, « Mon compte »,
+gestion des utilisateurs, suivi d'un apprenant et journal.
 
 Ce module ne fabrique que le contenu HTML (libellés en français, anglais et khmer, comme le
 reste du site) ; ``frkh.webapp`` l'habille avec le gabarit commun et décide qui voit quoi.
@@ -10,9 +10,10 @@ from __future__ import annotations
 
 import datetime as dt
 
+from .accounts import CLI_ACTOR, EVENT_GROUPS
 from .langs import LANG_META
-from .render import esc, multi, num_label
-from .textutil import LANGS, to_khmer_digits
+from .render import date_label, esc, multi, num_label
+from .textutil import LANGS, format_date, to_khmer_digits
 
 # Libellés : (français, anglais, khmer).
 TEXT = {
@@ -94,8 +95,44 @@ TEXT = {
     "reset_confirm": ("Je veux effacer définitivement mes leçons terminées, mes jours d'activité et mes cartes de révision.",
                       "I want to permanently erase my completed lessons, activity days and review cards.",
                       "ខ្ញុំចង់លុបមេរៀនដែលបានបញ្ចប់ ថ្ងៃដែលបានរៀន និងកាតរំលឹករបស់ខ្ញុំចោលជាស្ថាពរ។"),
-    "sessions_count": ("Sessions ouvertes, celle-ci comprise : {n}.", "Open sessions, including this one: {n}.",
-                       "វគ្គដែលកំពុងបើក រួមទាំងវគ្គនេះ៖ {n}។"),
+    "b_track_detail": ("Voir le détail", "See details", "មើលលម្អិត"),
+    # Appareils connectés
+    "dev_this": ("cet appareil", "this device", "ឧបករណ៍នេះ"),
+    "dev_unknown": ("Appareil inconnu", "Unknown device", "ឧបករណ៍មិនស្គាល់"),
+    "dev_seen": ("Dernière activité : {date}", "Last active: {date}", "សកម្មភាពចុងក្រោយ៖ {date}"),
+    "dev_since": ("Connecté le {date}", "Signed in on {date}", "បានចូលនៅ {date}"),
+    "dev_none": ("Aucune session ouverte.", "No open session.", "គ្មានវគ្គកំពុងបើកទេ។"),
+    "b_revoke_one": ("Déconnecter", "Sign out", "ចាកចេញ"),
+    "card_recent": ("Activité récente du compte", "Recent account activity", "សកម្មភាពថ្មីៗរបស់គណនី"),
+    "recent_none": ("Rien pour l'instant.", "Nothing yet.", "មិនទាន់មានអ្វីទេ។"),
+    # Suivi d'un apprenant
+    "track_title": ("Progression", "Progress", "វឌ្ឍនភាព"),
+    "track_last": ("Dernière activité : {date}", "Last activity: {date}", "សកម្មភាពចុងក្រោយ៖ {date}"),
+    "track_never": ("Aucune activité enregistrée.", "No activity recorded.", "មិនទាន់មានសកម្មភាពទេ។"),
+    "track_users": ("Apprenants", "Learners", "អ្នករៀន"),
+    "stat_streak": ("jours d'affilée", "days in a row", "ថ្ងៃជាប់គ្នា"),
+    "stat_best": ("meilleure série", "best streak", "ជាប់គ្នាច្រើនបំផុត"),
+    "stat_due": ("cartes à revoir", "cards to review", "កាតត្រូវរំលឹក"),
+    "card_lessons": ("Leçons", "Lessons", "មេរៀន"),
+    "lessons_done_of": ("Terminées : {done} sur {total}", "Completed: {done} of {total}",
+                        "បានបញ្ចប់៖ {done} ក្នុងចំណោម {total}"),
+    "lessons_none": ("Aucune leçon publiée pour l'instant.", "No lesson published yet.", "មិនទាន់មានមេរៀននៅឡើយទេ។"),
+    "lessons_recent": ("Dernières leçons terminées", "Latest completed lessons", "មេរៀនដែលបានបញ្ចប់ចុងក្រោយ"),
+    "lesson_done": ("terminée", "completed", "បានបញ្ចប់"),
+    "lesson_todo": ("à faire", "to do", "មិនទាន់រៀន"),
+    "card_activity": ("Activité", "Activity", "សកម្មភាព"),
+    "activity_summary": ("Jours actifs : {n} sur les {total} derniers", "Active days: {n} of the last {total}",
+                         "ថ្ងៃបានរៀន៖ {n} ក្នុងរយៈពេល {total} ថ្ងៃចុងក្រោយ"),
+    "legend_active": ("jour actif", "active day", "ថ្ងៃបានរៀន"),
+    "legend_idle": ("sans activité", "no activity", "មិនបានរៀន"),
+    "card_review": ("Révision", "Review", "ការរំលឹក"),
+    "review_none": ("Aucune carte révisée pour l'instant.", "No card reviewed yet.", "មិនទាន់បានរំលឹកកាតណាមួយនៅឡើយទេ។"),
+    "review_row": ("Connues : {known} sur {cards} révisées", "Known: {known} of {cards} reviewed",
+                   "ចេះ៖ {known} ក្នុងចំណោម {cards} កាតដែលបានរំលឹក"),
+    "review_due": ("à revoir : {n}", "to review: {n}", "ត្រូវរំលឹក៖ {n}"),
+    "review_hint": ("Une carte est « connue » à partir de la troisième boîte de révision.",
+                    "A card counts as “known” from the third review box on.",
+                    "កាតមួយរាប់ថា « ចេះ » ចាប់ពីប្រអប់រំលឹកទីបីឡើងទៅ។"),
     # Utilisateurs
     "users_title": ("Utilisateurs", "Users", "អ្នកប្រើប្រាស់"),
     "users_intro": ("Créez les comptes, changez les rôles, redonnez un mot de passe oublié ou supprimez un compte.",
@@ -109,6 +146,51 @@ TEXT = {
     "col_state": ("État", "Status", "ស្ថានភាព"),
     "col_last": ("Dernière connexion", "Last sign-in", "ចូលចុងក្រោយ"),
     "col_lessons": ("Leçons", "Lessons", "មេរៀន"),
+    "col_streak": ("Série", "Streak", "ថ្ងៃជាប់គ្នា"),
+    "b_track": ("Suivi", "Progress", "វឌ្ឍនភាព"),
+    "card_sessions": ("Sessions ouvertes", "Open sessions", "វគ្គដែលកំពុងបើក"),
+    "b_journal_user": ("Tout le journal de ce compte", "Full log for this account", "កំណត់ហេតុទាំងអស់របស់គណនីនេះ"),
+    # Journal
+    "journal_title": ("Journal", "Activity log", "កំណត់ហេតុ"),
+    "journal_intro": ("Connexions, tentatives refusées et opérations sur les comptes, des plus récentes aux plus anciennes.",
+                      "Sign-ins, refused attempts and account operations, most recent first.",
+                      "ការចូល ការព្យាយាមដែលត្រូវបានបដិសេធ និងប្រតិបត្តិការលើគណនី ពីថ្មីបំផុតទៅចាស់បំផុត។"),
+    "jf_all": ("Tout", "All", "ទាំងអស់"),
+    "jf_logins": ("Connexions", "Sign-ins", "ការចូល"),
+    "jf_failures": ("Échecs", "Failures", "បរាជ័យ"),
+    "jf_accounts": ("Comptes", "Accounts", "គណនី"),
+    "col_when": ("Date", "Date", "កាលបរិច្ឆេទ"),
+    "col_event": ("Événement", "Event", "ព្រឹត្តិការណ៍"),
+    "col_by": ("Par", "By", "ដោយ"),
+    "col_ip": ("Adresse", "Address", "អាសយដ្ឋាន"),
+    "journal_empty": ("Rien à afficher.", "Nothing to show.", "គ្មានអ្វីត្រូវបង្ហាញទេ។"),
+    "journal_older": ("Plus anciens", "Older", "ចាស់ជាងនេះ"),
+    "journal_newest": ("Revenir aux plus récents", "Back to the most recent", "ត្រឡប់ទៅថ្មីបំផុត"),
+    "journal_keep": ("Durée de conservation du journal, en jours : {days}.", "Days the log is kept: {days}.",
+                     "ចំនួនថ្ងៃដែលកំណត់ហេតុត្រូវបានរក្សាទុក៖ {days}។"),
+    "journal_only": ("Compte :", "Account:", "គណនី៖"),
+    "journal_everyone": ("Tous les comptes", "All accounts", "គណនីទាំងអស់"),
+    "unknown_login": ("identifiant inconnu", "unknown username", "ឈ្មោះគណនីមិនស្គាល់"),
+    "deleted_account": ("compte supprimé", "deleted account", "គណនីត្រូវបានលុប"),
+    "cli_actor": ("ligne de commande", "command line", "បន្ទាត់ពាក្យបញ្ជា"),
+    "ev_login": ("Connexion", "Sign-in", "ចូលគណនី"),
+    "ev_login_failed": ("Échec de connexion", "Failed sign-in", "ចូលមិនបានសម្រេច"),
+    "ev_login_blocked": ("Connexion bloquée : trop de tentatives", "Sign-in blocked: too many attempts",
+                         "ការចូលត្រូវបានទប់ស្កាត់៖ ព្យាយាមច្រើនដងពេក"),
+    "ev_logout": ("Déconnexion", "Sign-out", "ចាកចេញ"),
+    "ev_register": ("Inscription", "Registration", "ចុះឈ្មោះ"),
+    "ev_setup": ("Premier compte administrateur", "First administrator account", "គណនីអ្នកគ្រប់គ្រងដំបូង"),
+    "ev_password_changed": ("Mot de passe changé", "Password changed", "បានប្តូរពាក្យសម្ងាត់"),
+    "ev_password_reset": ("Mot de passe redéfini", "Password reset", "បានកំណត់ពាក្យសម្ងាត់ឡើងវិញ"),
+    "ev_user_created": ("Compte créé", "Account created", "បានបង្កើតគណនី"),
+    "ev_user_updated": ("Compte modifié", "Account updated", "បានកែប្រែគណនី"),
+    "ev_role_changed": ("Rôle changé", "Role changed", "បានប្តូរតួនាទី"),
+    "ev_user_disabled": ("Compte désactivé", "Account disabled", "បានបិទគណនី"),
+    "ev_user_enabled": ("Compte réactivé", "Account re-enabled", "បានបើកគណនីឡើងវិញ"),
+    "ev_user_deleted": ("Compte supprimé", "Account deleted", "បានលុបគណនី"),
+    "ev_sessions_closed": ("Sessions fermées", "Sessions closed", "បានបិទវគ្គ"),
+    "ev_progress_reset": ("Progression effacée", "Progress erased", "បានលុបវឌ្ឍនភាព"),
+    "ev_progress_imported": ("Ancienne progression reprise", "Old progress imported", "បាននាំចូលវឌ្ឍនភាពចាស់"),
     "never": ("jamais", "never", "មិនដែល"),
     "you": ("vous", "you", "អ្នក"),
     "role_admin": ("Administrateur", "Administrator", "អ្នកគ្រប់គ្រង"),
@@ -125,6 +207,7 @@ TEXT = {
                     "Password changed. Your other devices have been signed out.",
                     "បានប្តូរពាក្យសម្ងាត់។ ឧបករណ៍ផ្សេងទៀតរបស់អ្នកត្រូវបានចាកចេញ។"),
     "ok_sessions": ("Autres sessions fermées : {n}.", "Other sessions closed: {n}.", "វគ្គផ្សេងទៀតដែលបានបិទ៖ {n}។"),
+    "ok_device": ("Appareil déconnecté.", "Device signed out.", "បានចាកចេញពីឧបករណ៍នោះ។"),
     "ok_progress_reset": ("Progression effacée.", "Progress erased.", "បានលុបវឌ្ឍនភាព។"),
     "ok_created": ("Compte « {login} » créé.", "Account “{login}” created.", "បានបង្កើតគណនី « {login} »។"),
     "ok_updated": ("Compte « {login} » mis à jour.", "Account “{login}” updated.", "បានកែប្រែគណនី « {login} »។"),
@@ -296,7 +379,80 @@ def stat(value: int, label_key: str) -> str:
     return f'<div class="acct-stat"><span class="acct-stat-value">{num_label(value)}</span><span class="acct-stat-label">{t(label_key)}</span></div>'
 
 
-def account_page(config, *, user, csrf: str, messages, summary: dict, sessions: int, min_length: int) -> str:
+def local_epoch(config, seconds) -> str:
+    """« 2026-11-27 08:10 » dans le fuseau du site, à partir d'un horodatage en secondes."""
+    if not seconds:
+        return ""
+    return dt.datetime.fromtimestamp(float(seconds), config.tzinfo()).strftime("%Y-%m-%d %H:%M")
+
+
+BROWSERS = (("Edg", "Edge"), ("OPR/", "Opera"), ("SamsungBrowser", "Samsung Internet"), ("Firefox/", "Firefox"),
+            ("FxiOS", "Firefox"), ("CriOS", "Chrome"), ("Chrome/", "Chrome"), ("Safari/", "Safari"))
+SYSTEMS = (("iPhone", "iPhone"), ("iPad", "iPad"), ("Android", "Android"), ("Windows", "Windows"), ("Mac OS X", "Mac"),
+           ("Macintosh", "Mac"), ("CrOS", "ChromeOS"), ("Linux", "Linux"))
+
+
+def device_name(user_agent: str) -> str:
+    """« Firefox · Android » d'après l'en-tête User-Agent (vide si rien n'est reconnu) ; l'ordre des
+    marqueurs compte : Edge et Chrome se disent aussi « Safari », Android se dit aussi « Linux »."""
+    agent = str(user_agent or "")
+    found = [next((name for marker, name in table if marker in agent), "") for table in (BROWSERS, SYSTEMS)]
+    return " · ".join(name for name in found if name)
+
+
+def device_label(user_agent: str) -> str:
+    return esc(device_name(user_agent)) or t("dev_unknown")
+
+
+def sessions_list(config, sessions, *, current: str = "", csrf: str = "", action: str = "") -> str:
+    """Les sessions ouvertes d'un compte. Avec ``action``, chacune (sauf celle en cours) a son bouton « Déconnecter »."""
+    if not sessions:
+        return f'<p class="acct-line">{t("dev_none")}</p>'
+    rows = []
+    for item in sessions:
+        here = item.public_id == current
+        badge = f' <span class="badge badge-you">{t("dev_this")}</span>' if here else ""
+        close = ""
+        if action and not here:
+            close = form(action, csrf, what="appareil", css="device-form",
+                         body=hidden("session", item.public_id) + button("b_revoke_one", "btn-small btn-ghost"))
+        ip = f' · <span class="device-ip">{esc(item.ip)}</span>' if item.ip else ""
+        rows.append(
+            f'<li class="device"><div class="device-main"><span class="device-name">{device_label(item.user_agent)}{badge}</span>'
+            f'<span class="device-meta">{t("dev_seen", date=local_epoch(config, item.last_seen_at))}</span>'
+            f'<span class="device-meta">{t("dev_since", date=local_epoch(config, item.created_at))}{ip}</span></div>{close}</li>')
+    return f'<ul class="devices">{"".join(rows)}</ul>'
+
+
+def event_label(event) -> str:
+    """Libellé d'un événement du journal, avec sa précision éventuelle (nouveau rôle, nombre de sessions…)."""
+    extra = ""
+    if event.kind == "role_changed" and event.detail in ("admin", "user"):
+        extra = t("role_admin" if event.detail == "admin" else "role_user")
+    elif event.kind == "sessions_closed" and event.detail.isascii() and event.detail.isdigit():
+        extra = num_label(int(event.detail))
+    elif event.kind == "login_failed" and event.detail == "disabled":
+        extra = t("state_disabled")
+    failed = " is-fail" if event.kind in EVENT_GROUPS["failures"] else ""
+    return f'<span class="event-kind{failed}">{t(f"ev_{event.kind}")}</span>' + (f' <span class="event-detail">{extra}</span>' if extra else "")
+
+
+def events_list(config, events) -> str:
+    """Liste courte d'événements (« Mon compte », fiche d'un compte) : libellé, date, adresse."""
+    if not events:
+        return f'<p class="acct-line">{t("recent_none")}</p>'
+    rows = []
+    for event in events:
+        by = ""
+        if event.actor:
+            by = f' · {t("cli_actor") if event.actor == CLI_ACTOR else esc(event.actor)}'
+        ip = f' · <span class="device-ip">{esc(event.ip)}</span>' if event.ip else ""
+        rows.append(f'<li class="event"><span class="event-what">{event_label(event)}</span>'
+                    f'<span class="device-meta">{local_epoch(config, event.at)}{by}{ip}</span></li>')
+    return f'<ul class="events">{"".join(rows)}</ul>'
+
+
+def account_page(config, *, user, csrf: str, messages, summary: dict, sessions, current: str, events, min_length: int) -> str:
     role = t("role_admin" if user.is_admin else "role_user")
     intro = f'<span class="acct-id">{esc(user.name)} · <span class="acct-login">{esc(user.login)}</span></span> · {role}'
     notice = f'<div class="flash flash-warn" role="alert">{t("must_change", tag="p")}</div>' if user.must_change_password else ""
@@ -313,10 +469,12 @@ def account_page(config, *, user, csrf: str, messages, summary: dict, sessions: 
         checkbox(t("reset_confirm"), "confirmer", required=True) + button("b_reset_progress", "btn-danger")))
     progress = (f'<div class="acct-stats">{stat(summary["lessons"], "stat_lessons")}{stat(summary["days"], "stat_days")}'
                 f'{stat(summary["cards"], "stat_cards")}</div><p class="acct-hint">{t("progress_hint")}</p>'
+                f'<p class="acct-more"><a class="btn btn-small btn-ghost" href="suivi">{t("b_track_detail")}</a></p>'
                 f'<details class="acct-danger"><summary>{t("reset_summary")}</summary>{reset}</details>')
-    devices = (f'<p class="acct-line">{t("sessions_count", n=sessions)}</p>'
-               + form("compte", csrf, what="sessions", body=button("b_revoke_others", "btn-ghost"))
-               + form("deconnexion", csrf, css="js-logout", body=button("b_logout", "btn-ghost")))
+    others = form("compte", csrf, what="sessions", body=button("b_revoke_others", "btn-ghost")) if len(sessions) > 1 else ""
+    devices = (sessions_list(config, sessions, current=current, csrf=csrf, action="compte") + others
+               + form("deconnexion", csrf, css="js-logout", body=button("b_logout", "btn-ghost"))
+               + f'<h3 class="acct-sub">{t("card_recent")}</h3>{events_list(config, events)}')
     admin = (f'<p class="acct-admin-link"><a class="btn btn-ghost" href="utilisateurs">{t("b_users")}</a></p>'
              if user.is_admin else "")
     blocks = {"profile": card(t("card_profile"), profile), "password": card(t("card_password"), password),
@@ -341,6 +499,13 @@ def local_time(config, stamp: str | None) -> str:
     return moment.astimezone(config.tzinfo()).strftime("%Y-%m-%d %H:%M")
 
 
+def cell_label(key: str) -> str:
+    """Libellé d'une cellule quand le tableau devient une suite de fiches (téléphone) : la feuille
+    de style choisit l'attribut selon la langue du profil."""
+    fr, en, km = TEXT[key]
+    return f'data-label="{esc(fr)}" data-label-en="{esc(en)}" data-label-km="{esc(km)}"'
+
+
 def users_table(config, users, summaries: dict, current_id: int, editing_id: int | None) -> str:
     rows = []
     for user in users:
@@ -350,21 +515,24 @@ def users_table(config, users, summaries: dict, current_id: int, editing_id: int
         selected = " is-editing" if user.id == editing_id else ""
         rows.append(
             f'<tr class="user-row{selected}">'
-            f'<td class="user-cell-id" data-label="{esc(TEXT["col_account"][0])}"><span class="user-name">{esc(user.name)}</span>{you}'
+            f'<td class="user-cell-id" {cell_label("col_account")}><span class="user-name">{esc(user.name)}</span>{you}'
             f'<span class="user-login">{esc(user.login)}</span></td>'
-            f'<td data-label="{esc(TEXT["col_role"][0])}"><span class="badge badge-role-{user.role}">'
+            f'<td {cell_label("col_role")}><span class="badge badge-role-{user.role}">'
             f'{t("role_admin" if user.is_admin else "role_user")}</span></td>'
-            f'<td data-label="{esc(TEXT["col_state"][0])}"><span class="user-state {state[1]}">{t(state[0])}</span></td>'
-            f'<td class="user-cell-last" data-label="{esc(TEXT["col_last"][0])}">{last}</td>'
-            f'<td class="user-cell-num" data-label="{esc(TEXT["col_lessons"][0])}">{num_label(summaries.get(user.id, {}).get("lessons", 0))}</td>'
-            f'<td class="user-cell-action"><a class="btn btn-small btn-ghost" href="utilisateurs?u={user.id}#modifier">{t("b_edit")}</a></td>'
+            f'<td {cell_label("col_state")}><span class="user-state {state[1]}">{t(state[0])}</span></td>'
+            f'<td class="user-cell-last" {cell_label("col_last")}>{last}</td>'
+            f'<td class="user-cell-num" {cell_label("col_lessons")}>{num_label(summaries.get(user.id, {}).get("lessons", 0))}</td>'
+            f'<td class="user-cell-num" {cell_label("col_streak")}>{num_label(summaries.get(user.id, {}).get("streak", 0))}</td>'
+            f'<td class="user-cell-action"><a class="btn btn-small btn-ghost" href="suivi?u={user.id}">{t("b_track")}</a> '
+            f'<a class="btn btn-small btn-ghost" href="utilisateurs?u={user.id}#modifier">{t("b_edit")}</a></td>'
             f'</tr>')
-    headers = "".join(f'<th scope="col">{t(key)}</th>' for key in ("col_account", "col_role", "col_state", "col_last", "col_lessons"))
+    headers = "".join(f'<th scope="col">{t(key)}</th>'
+                      for key in ("col_account", "col_role", "col_state", "col_last", "col_lessons", "col_streak"))
     return (f'<div class="users-wrap"><table class="users"><thead><tr>{headers}<th scope="col"><span class="visually-hidden">'
             f'{t("b_edit")}</span></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
 
 
-def user_editor(config, *, target, csrf: str, is_self: bool, min_length: int) -> str:
+def user_editor(config, *, target, csrf: str, is_self: bool, min_length: int, sessions=(), events=()) -> str:
     uid = hidden("id", target.id)
     details = form("utilisateurs", csrf, what="modifier", body=(
         uid + field(t("f_name"), "nom", value=target.name, extra='maxlength="60"')
@@ -375,7 +543,12 @@ def user_editor(config, *, target, csrf: str, is_self: bool, min_length: int) ->
         uid + hidden("identifiant", target.login)
         + password_field("f_new", "motdepasse", new=True, min_length=min_length, required=False, hint=t("hint_generate"))
         + checkbox(t("f_must_change"), "changer", checked=True) + button("b_set_password", "btn-ghost")))
-    sessions = form("utilisateurs", csrf, what="sessions", body=uid + button("b_revoke_all", "btn-ghost"))
+    close_all = form("utilisateurs", csrf, what="sessions", body=uid + button("b_revoke_all", "btn-ghost")) if sessions else ""
+    activity = (f'<div class="acct-editor-more"><div><h3 class="acct-sub">{t("card_sessions")}</h3>'
+                f'{sessions_list(config, sessions)}{close_all}</div>'
+                f'<div><h3 class="acct-sub">{t("card_recent")}</h3>{events_list(config, events)}'
+                f'<p class="acct-more"><a class="btn btn-small btn-ghost" href="suivi?u={target.id}">{t("b_track")}</a> '
+                f'<a class="btn btn-small btn-ghost" href="journal?u={target.id}">{t("b_journal_user")}</a></p></div></div>')
     delete = ""
     if not is_self:
         delete = (f'<details class="acct-danger"><summary>{t("delete_summary")}</summary>'
@@ -385,7 +558,7 @@ def user_editor(config, *, target, csrf: str, is_self: bool, min_length: int) ->
     title = f'{t("card_edit")} <span class="acct-login">{esc(target.login)}</span>'
     back = f'<p class="acct-back"><a href="utilisateurs">{t("b_back")}</a></p>'
     return (f'<section class="acct-card acct-editor" id="modifier"><h2 class="acct-card-title">{title}</h2>'
-            f'<div class="acct-editor-grid"><div>{details}</div><div>{password}{sessions}{delete}</div></div>{back}</section>')
+            f'<div class="acct-editor-grid"><div>{details}</div><div>{password}{delete}</div></div>{activity}{back}</section>')
 
 
 def new_user_form(config, *, csrf: str, values: dict, min_length: int) -> str:
@@ -398,10 +571,181 @@ def new_user_form(config, *, csrf: str, values: dict, min_length: int) -> str:
         + button("b_create")))
 
 
-def users_page(config, *, user, csrf: str, messages, users, summaries: dict, target, values: dict, min_length: int) -> str:
-    editor = user_editor(config, target=target, csrf=csrf, is_self=target.id == user.id, min_length=min_length) if target else ""
+def users_page(config, *, user, csrf: str, messages, users, summaries: dict, target, values: dict, min_length: int,
+               sessions=(), events=()) -> str:
+    editor = user_editor(config, target=target, csrf=csrf, is_self=target.id == user.id, min_length=min_length,
+                         sessions=sessions, events=events) if target else ""
     table = card(f'{t("card_users")} <span class="acct-count">{num_label(len(users))}</span>',
                  users_table(config, users, summaries, user.id, target.id if target else None), "acct-card-wide")
     create = card(t("card_new"), new_user_form(config, csrf=csrf, values=values, min_length=min_length))
-    return (f'<article class="acct acct-users">{head("users_title", t("users_intro"))}{flashes(messages)}'
+    tools = f'<p class="acct-admin-link"><a class="btn btn-ghost" href="journal">{t("journal_title")}</a></p>'
+    return (f'<article class="acct acct-users">{head("users_title", t("users_intro"))}{flashes(messages)}{tools}'
             f'{editor}{table}{create}</article>')
+
+
+# --- Suivi d'un apprenant -----------------------------------------------------------------------------
+
+CALENDAR_WEEKS = 12
+RECENT_LESSONS = 5
+CURRENT = ' aria-current="page"'
+
+
+def pill(label: str, href: str, current: bool) -> str:
+    """Lien d'une rangée de choix (apprenants, filtres du journal) ; ``label`` et ``href`` sont du HTML prêt."""
+    return f'<a class="pill{" is-current" if current else ""}" href="{href}"{CURRENT if current else ""}>{label}</a>'
+
+
+def meter(done: int, total: int) -> str:
+    """Barre de proportion ; le texte qui l'accompagne donne les chiffres."""
+    share = 0 if total <= 0 else max(0.0, min(100.0, 100 * done / total))
+    return f'<div class="meter" aria-hidden="true"><span style="width:{share:.1f}%"></span></div>'
+
+
+def stamp_day(config, ms) -> dt.date | None:
+    """Le jour d'un horodatage en millisecondes ; ``None`` pour les anciens enregistrements sans date."""
+    if not ms or ms < 1e11:
+        return None
+    return dt.datetime.fromtimestamp(ms / 1000, config.tzinfo()).date()
+
+
+def lessons_card(config, detail: dict, lessons, today: dt.date) -> str:
+    done = detail["lessons"]
+    listed = [lesson for lesson in lessons if lesson["date"] <= today.isoformat() or lesson["number"] in done]
+    if not listed:
+        return card(t("card_lessons"), f'<p class="acct-line">{t("lessons_none")}</p>', "acct-card-wide")
+    finished = sum(1 for lesson in listed if lesson["number"] in done)
+    chips = []
+    for lesson in listed:
+        number, is_done = lesson["number"], lesson["number"] in done
+        title = " · ".join(dict.fromkeys(value for value in lesson["title"].values() if value))
+        state = t("lesson_done" if is_done else "lesson_todo")
+        chips.append(f'<li><a class="lchip{" is-done" if is_done else ""}" href="{esc(lesson["path"] or "./")}" '
+                     f'title="{number}. {esc(title)}">{num_label(number)}<span class="visually-hidden"> — {state}</span></a></li>')
+    by_number = {lesson["number"]: lesson for lesson in listed}
+    latest = sorted(((stamp, number) for number, stamp in done.items() if number in by_number), reverse=True)[:RECENT_LESSONS]
+    recent = ""
+    if latest:
+        items = []
+        for stamp, number in latest:
+            lesson, day = by_number[number], stamp_day(config, stamp)
+            when = f'<span class="track-date">{date_label(day, weekday=False)}</span>' if day else ""
+            items.append(f'<li><a href="{esc(lesson["path"] or "./")}"><span class="track-num">{num_label(number)}</span>'
+                         f'{multi(lesson["title"])}</a>{when}</li>')
+        recent = f'<h3 class="acct-sub">{t("lessons_recent")}</h3><ul class="track-recent">{"".join(items)}</ul>'
+    legend = (f'<p class="legend"><span class="legend-item"><span class="lchip is-done" aria-hidden="true"></span>{t("lesson_done")}</span>'
+              f'<span class="legend-item"><span class="lchip" aria-hidden="true"></span>{t("lesson_todo")}</span></p>')
+    body = (f'{meter(finished, len(listed))}<p class="meter-figure">{t("lessons_done_of", done=finished, total=len(listed))}</p>'
+            f'<ol class="lchips">{"".join(chips)}</ol>{legend}{recent}')
+    return card(t("card_lessons"), body, "acct-card-wide")
+
+
+def activity_card(detail: dict, today: dt.date) -> str:
+    """Les douze dernières semaines, une colonne par semaine (du lundi au dimanche)."""
+    active = set(detail["days"])
+    start = today - dt.timedelta(days=today.weekday() + 7 * (CALENDAR_WEEKS - 1))
+    cells, count = [], 0
+    for offset in range(7 * CALENDAR_WEEKS):
+        day = start + dt.timedelta(days=offset)
+        if day > today:
+            cells.append('<span class="cal-day is-future"></span>')
+            continue
+        on = day.isoformat() in active
+        count += on
+        cells.append(f'<span class="cal-day{" is-on" if on else ""}" title="{day.isoformat()}"></span>')
+    total = (today - start).days + 1
+    legend = (f'<p class="legend"><span class="legend-item"><span class="cal-day is-on" aria-hidden="true"></span>{t("legend_active")}</span>'
+              f'<span class="legend-item"><span class="cal-day" aria-hidden="true"></span>{t("legend_idle")}</span></p>')
+    body = (f'<div class="cal" aria-hidden="true">{"".join(cells)}</div>'
+            f'<p class="cal-range"><span>{date_label(start, weekday=False)}</span><span>{date_label(today, weekday=False)}</span></p>'
+            f'<p class="meter-figure">{t("activity_summary", n=count, total=total)}</p>{legend}')
+    return card(t("card_activity"), body)
+
+
+def review_card(detail: dict) -> str:
+    rows = []
+    for lang in LANG_META:
+        item = detail["langs"].get(lang)
+        if not item:
+            continue
+        due = f' · {t("review_due", n=item["due"])}' if item["due"] else ""
+        rows.append(f'<li class="mrow"><span class="mrow-name" lang="{lang}">{esc(LANG_META[lang]["native"])}</span>'
+                    f'{meter(item["known"], item["cards"])}'
+                    f'<span class="mrow-figure">{t("review_row", known=item["known"], cards=item["cards"])}{due}</span></li>')
+    if not rows:
+        return card(t("card_review"), f'<p class="acct-line">{t("review_none")}</p>')
+    return card(t("card_review"), f'<ul class="mrows">{"".join(rows)}</ul><p class="acct-hint">{t("review_hint")}</p>')
+
+
+def track_page(config, *, viewer, target, detail: dict, lessons, today: dt.date, users=()) -> str:
+    role = t("role_admin" if target.is_admin else "role_user")
+    last = stamp_day(config, detail["last"])
+    seen = t("track_never")
+    if last:
+        seen = multi({lang: text.format(date=format_date(last, lang, weekday=False)) for lang, text in zip(LANGS, TEXT["track_last"])})
+    intro = (f'<span class="acct-id">{esc(target.name)} · <span class="acct-login">{esc(target.login)}</span></span> · {role}'
+             f'<span class="track-seen">{seen}</span>')
+    switch = ""
+    if viewer.is_admin and len(users) > 1:
+        links = "".join(pill(esc(user.name), f"suivi?u={user.id}", user.id == target.id) for user in users)
+        switch = (f'<nav class="track-users"><span class="track-users-label">{t("track_users")}</span>{links}'
+                  f'<a class="track-edit" href="utilisateurs?u={target.id}#modifier">{t("card_edit")}</a></nav>')
+    stats = (f'<div class="acct-stats track-stats">{stat(len(detail["lessons"]), "stat_lessons")}{stat(detail["streak"], "stat_streak")}'
+             f'{stat(detail["best_streak"], "stat_best")}{stat(len(detail["days"]), "stat_days")}'
+             f'{stat(detail["cards"], "stat_cards")}{stat(detail["due"], "stat_due")}</div>')
+    return (f'<article class="acct track">{head("track_title", intro)}{switch}{stats}'
+            f'{lessons_card(config, detail, lessons, today)}'
+            f'<div class="acct-grid">{activity_card(detail, today)}{review_card(detail)}</div></article>')
+
+
+# --- Journal (administrateur) ---------------------------------------------------------------------------
+
+def journal_link(group: str = "", user_id=None, before=None) -> str:
+    query = [f"type={group}"] if group else []
+    if user_id is not None:
+        query.append(f"u={int(user_id)}")
+    if before:
+        query.append(f"avant={int(before)}")
+    return "journal" + (f"?{'&amp;'.join(query)}" if query else "")
+
+
+def journal_page(config, *, events, group: str, user_id, users: dict, more: bool, paged: bool, days: int) -> str:
+    """``users`` : {identifiant numérique: compte} pour les comptes qui existent encore."""
+    tabs = "".join(pill(t(label), journal_link(key, user_id), key == group) for key, label in (
+        ("", "jf_all"), ("logins", "jf_logins"), ("failures", "jf_failures"), ("accounts", "jf_accounts")))
+    only = ""
+    if user_id is not None:
+        who = users.get(user_id)
+        name = f'<span class="acct-login">{esc(who.login)}</span>' if who else t("deleted_account")
+        only = (f'<p class="journal-only">{t("journal_only")} {name} '
+                f'<a class="btn btn-small btn-ghost" href="{journal_link(group)}">{t("journal_everyone")}</a></p>')
+    rows = []
+    for event in events:
+        if event.login:
+            who = users.get(event.user_id)
+            account = (f'<a class="acct-login" href="utilisateurs?u={who.id}#modifier">{esc(event.login)}</a>' if who
+                       else f'<span class="acct-login">{esc(event.login)}</span>')
+        else:
+            account = f'<span class="event-unknown">{t("unknown_login")}</span>'
+        by = t("cli_actor") if event.actor == CLI_ACTOR else f'<span class="acct-login">{esc(event.actor)}</span>' if event.actor else ""
+        rows.append(
+            f'<tr><td class="user-cell-last" {cell_label("col_when")}>{local_epoch(config, event.at)}</td>'
+            f'<td class="user-cell-id">{event_label(event)}</td>'
+            f'<td {cell_label("col_account")}>{account}</td>'
+            f'<td {cell_label("col_by")}>{by}</td>'
+            f'<td class="user-cell-last" {cell_label("col_ip")}>{esc(event.ip)}</td></tr>')
+    if rows:
+        headers = "".join(f'<th scope="col">{t(key)}</th>' for key in ("col_when", "col_event", "col_account", "col_by", "col_ip"))
+        table = (f'<div class="users-wrap"><table class="users journal"><thead><tr>{headers}</tr></thead>'
+                 f'<tbody>{"".join(rows)}</tbody></table></div>')
+    else:
+        table = f'<p class="acct-line">{t("journal_empty")}</p>'
+    pager = ""
+    if more and events:
+        pager += f'<a class="btn btn-small btn-ghost" href="{journal_link(group, user_id, events[-1].id)}">{t("journal_older")}</a>'
+    if paged:
+        pager += f'<a class="btn btn-small btn-ghost" href="{journal_link(group, user_id)}">{t("journal_newest")}</a>'
+    pager = f'<p class="journal-pager">{pager}</p>' if pager else ""
+    back = f'<p class="acct-admin-link"><a class="btn btn-ghost" href="utilisateurs">{t("b_users")}</a></p>'
+    body = f'<nav class="journal-tabs">{tabs}</nav>{only}{table}{pager}<p class="acct-hint">{t("journal_keep", days=days)}</p>'
+    return (f'<article class="acct acct-users">{head("journal_title", t("journal_intro"))}{back}'
+            f'<section class="acct-card acct-card-wide">{body}</section></article>')

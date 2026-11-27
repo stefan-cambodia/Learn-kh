@@ -3,8 +3,9 @@
    style.css, chargée après elle : les règles qui corrigent une règle du site sont écrites
    avec deux classes pour l'emporter.
 
-   1. Menu du compte          3. Cartes et formulaires
-   2. Pages de connexion      4. Mon compte, utilisateurs
+   1. Menu du compte          4. Mon compte, utilisateurs
+   2. Pages de connexion      5. Appareils, journal
+   3. Cartes et formulaires   6. Suivi d'un apprenant
 */
 
 /* --- 1. Menu du compte (barre du haut) ------------------------------------------------------- */
@@ -118,13 +119,86 @@
 .user-login { display: block; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
 .user-cell-last { color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .user-cell-num { font-variant-numeric: tabular-nums; }
-.user-cell-action { text-align: right; }
+.user-cell-action { text-align: right; white-space: nowrap; }
 .user-state { display: inline-flex; align-items: center; gap: 6px; font-size: .86rem; font-weight: 600; white-space: nowrap; }
 .user-state::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
 .user-state.is-on { color: var(--ok); }
 .user-state.is-off { color: var(--muted); }
 .badge.badge-you { margin-left: 6px; background: var(--fr-soft); color: var(--fr); border-color: transparent; }
 .badge.badge-role-admin { background: var(--km-soft); color: var(--km); border-color: transparent; }
+
+/* --- 5. Appareils connectés, activité récente, journal ------------------------------------------------ */
+.acct-sub { margin: 22px 0 8px; color: var(--muted); font-size: .74rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.acct-sub :lang(km) { font-size: .88rem; line-height: 1.6; letter-spacing: 0; }
+.acct-editor-more { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 0 24px; margin-top: 22px; border-top: 1px solid var(--line); }
+.acct-more { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.devices, .events { margin: 0 0 14px; padding: 0; list-style: none; }
+.device, .event { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--hair); }
+.device:first-child, .event:first-child { padding-top: 0; }
+.device:last-child, .event:last-child { border-bottom: 0; }
+.event { display: grid; justify-content: stretch; gap: 2px; }
+.device-main { display: grid; gap: 2px; min-width: 0; }
+.device-name { color: var(--ink); font-weight: 650; overflow-wrap: anywhere; }
+.device-meta { color: var(--muted); font-size: .82rem; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.device-ip { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .95em; }
+.acct-form.device-form { flex: none; margin: 0; }
+.event-kind { color: var(--ink); font-weight: 600; }
+.event-kind.is-fail { color: var(--km); }
+.event-detail { color: var(--ink-2); }
+.event-detail::before { content: "· "; color: var(--muted); }
+.event-unknown { color: var(--muted); font-style: italic; }
+
+.pill { display: inline-flex; align-items: center; min-height: 34px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line-2); color: var(--ink-2); font-size: .88rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.pill:hover { border-color: var(--ink-2); color: var(--ink); }
+.pill.is-current { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.pill :lang(km) { line-height: 1.5; }
+.track-users, .journal-tabs { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.journal-only { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; color: var(--ink-2); font-size: .92rem; }
+.journal-tabs ~ .users-wrap, .journal-tabs ~ .acct-line { margin-top: 16px; }
+.journal-pager { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.acct-card > .journal-tabs:first-child { margin-top: 2px; }
+
+/* --- 6. Suivi d'un apprenant ---------------------------------------------------------------------------
+   Une seule teinte pour « fait » (leçon terminée, jour actif, carte connue) : le vert du site,
+   sur la piste neutre ; chaque figure est doublée par son texte. */
+.track-seen { display: block; margin-top: 4px; color: var(--muted); font-size: .9rem; }
+.track-users { margin-top: 18px; }
+.track-users-label { margin-right: 4px; color: var(--muted); font-size: .74rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.track-users-label :lang(km) { font-size: .88rem; letter-spacing: 0; }
+.track-edit { margin-left: auto; color: var(--fr); font-size: .9rem; font-weight: 600; }
+.acct-stats.track-stats { grid-template-columns: repeat(6, 1fr); margin-top: 20px; }
+.track-stats .acct-stat { padding: 16px 8px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-sm); }
+
+.meter { height: 8px; border-radius: 999px; background: var(--track); overflow: hidden; }
+.meter > span { display: block; height: 100%; border-radius: 999px; background: var(--ok); }
+.meter-figure { margin-top: 8px; color: var(--ink-2); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 12px; color: var(--muted); font-size: .8rem; }
+.legend-item { display: inline-flex; align-items: center; gap: 6px; }
+
+.lchips { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 0; padding: 0; list-style: none; }
+.lchip { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; height: 36px; padding: 0 6px; border-radius: 10px; border: 1px solid var(--line-2); color: var(--ink-2); font-size: .8rem; font-weight: 650; font-variant-numeric: tabular-nums; text-decoration: none; }
+a.lchip:hover { border-color: var(--ink-2); color: var(--ink); }
+.lchip.is-done, a.lchip.is-done:hover { background: var(--ok); border-color: var(--ok); color: var(--surface); }
+.legend .lchip { min-width: 14px; width: 14px; height: 14px; padding: 0; border-radius: 4px; }
+.track-recent { margin: 0; padding: 0; list-style: none; }
+.track-recent li { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--hair); }
+.track-recent li:last-child { border-bottom: 0; }
+.track-recent a { display: flex; align-items: baseline; gap: 10px; min-width: 0; color: var(--ink); font-weight: 600; text-decoration: none; }
+.track-recent a:hover { color: var(--fr); }
+.track-num { flex: none; min-width: 26px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.track-date { flex: none; color: var(--muted); font-size: .82rem; white-space: nowrap; }
+
+.cal { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 1fr); grid-auto-columns: 1fr; gap: 4px; max-width: 380px; }
+.cal-day { display: block; aspect-ratio: 1; border-radius: 4px; background: var(--track); }
+.cal-day.is-on { background: var(--ok); }
+.cal-day.is-future { visibility: hidden; }
+.legend .cal-day { width: 12px; }
+.cal-range { display: flex; justify-content: space-between; gap: 12px; max-width: 380px; margin-top: 6px; color: var(--muted); font-size: .76rem; }
+
+.mrows { display: grid; gap: 16px; margin: 0; padding: 0; list-style: none; }
+.mrow { display: grid; grid-template-columns: 88px 1fr; align-items: center; gap: 4px 12px; }
+.mrow-name { color: var(--ink); font-weight: 650; }
+.mrow-figure { grid-column: 2; color: var(--ink-2); font-size: .84rem; font-variant-numeric: tabular-nums; }
 
 /* Le bouton du compte prend de la place dans la barre : le nom court du site arrive plus tôt. */
 @media (max-width: 1340px) and (min-width: 1041px) {
@@ -146,6 +220,12 @@
   .tool-account .account-name { display: none; }
   .settings-panel.account-panel { width: auto; }
   .acct-card { padding: 18px; }
+  .acct-stats.track-stats { grid-template-columns: repeat(3, 1fr); }
+  .track-edit { margin-left: 0; flex-basis: 100%; }
+  .mrow { grid-template-columns: 1fr; }
+  .mrow-figure { grid-column: 1; }
+  .track-recent li { display: grid; gap: 2px; }
+  .track-date { padding-left: 36px; }
 }
 
 /* Téléphone : la liste des comptes devient une suite de fiches. */
@@ -156,6 +236,9 @@
   .users tr:last-child { border-bottom: 0; padding-bottom: 0; }
   .users td { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 3px 0; border: 0; }
   .users td[data-label]::before { content: attr(data-label); color: var(--muted); font-size: .74rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+  html[data-profile="en"] .users td[data-label-en]::before { content: attr(data-label-en); }
+  html[data-profile="km"] .users td[data-label-km]::before { content: attr(data-label-km); font-size: .86rem; letter-spacing: 0; }
+  .users td:empty { display: none; }
   .users td.user-cell-id { display: block; padding-bottom: 6px; }
   .users td.user-cell-id::before { display: none; }
   .users td.user-cell-action { justify-content: flex-start; padding-top: 10px; }

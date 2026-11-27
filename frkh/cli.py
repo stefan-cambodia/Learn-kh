@@ -518,8 +518,60 @@ def _account_password(args, login: str) -> tuple[str, bool]:
     return first, False
 
 
+def _users_journal(app: App, store, args) -> int:
+    """« users journal » : les derniers événements des comptes, du plus récent au plus ancien."""
+    from .accounts import CLI_ACTOR, EVENT_GROUPS, EVENT_NAMES
+    user_id = None
+    if args.login:
+        user = store.get_by_login(args.login)
+        if user is None:
+            print(f"Compte inconnu : {args.login}", file=sys.stderr)
+            return EXIT_ERROR
+        user_id = user.id
+    events = store.list_events(limit=args.limit, user_id=user_id, kinds=EVENT_GROUPS.get(args.type))
+    if not events:
+        print("Journal vide.")
+    for event in events:
+        when = dt.datetime.fromtimestamp(event.at, app.config.tzinfo()).strftime("%Y-%m-%d %H:%M")
+        what = EVENT_NAMES.get(event.kind, event.kind) + (f" ({event.detail})" if event.detail else "")
+        by = "" if not event.actor else "  par la ligne de commande" if event.actor == CLI_ACTOR else f"  par {event.actor}"
+        print(f"{when}  {what:<42} {event.login or '(identifiant inconnu)':<22} {event.ip}{by}".rstrip())
+    return EXIT_OK
+
+
+def _users_show(app: App, store, user) -> None:
+    """« users show » : le compte, sa progression, ses sessions ouvertes et ses derniers événements."""
+    from .account_pages import device_name
+    from .accounts import EVENT_NAMES
+
+    def moment(seconds) -> str:
+        return dt.datetime.fromtimestamp(seconds, app.config.tzinfo()).strftime("%Y-%m-%d %H:%M")
+
+    detail = store.progress_detail(user.id)
+    print(f"Identifiant        : {user.login}")
+    print(f"Nom affiché        : {user.name}")
+    print(f"Rôle               : {user.role} — {'actif' if user.active else 'désactivé'}"
+          + (" — mot de passe provisoire" if user.must_change_password else ""))
+    print(f"Langue             : {user.profile}")
+    print(f"Créé le            : {user.created_at}")
+    print(f"Dernière connexion : {user.last_login_at or 'jamais'}")
+    print(f"Progression        : {len(detail['lessons'])} leçon(s) terminée(s), {len(detail['days'])} jour(s) d'activité, "
+          f"série en cours {detail['streak']} (meilleure : {detail['best_streak']}), {detail['cards']} carte(s) révisée(s)")
+    for lang, item in sorted(detail["langs"].items()):
+        print(f"  {lang} : {item['cards']} carte(s), {item['known']} connue(s), {item['due']} à revoir")
+    sessions = store.list_sessions(user.id)
+    print(f"Sessions ouvertes  : {len(sessions)}")
+    for item in sessions:
+        print(f"  {device_name(item.user_agent) or 'appareil inconnu':<24} {item.ip:<16} dernière activité : {moment(item.last_seen_at)}")
+    events = store.list_events(limit=5, user_id=user.id)
+    if events:
+        print("Derniers événements :")
+        for event in events:
+            print(f"  {moment(event.at)}  {EVENT_NAMES.get(event.kind, event.kind)}" + (f" ({event.detail})" if event.detail else ""))
+
+
 def cmd_users(app: App, args) -> int:
-    from .accounts import AccountError, Accounts
+    from .accounts import CLI_ACTOR, AccountError, Accounts
     store = Accounts(app.config)
     try:
         if args.action == "list":
@@ -531,10 +583,13 @@ def cmd_users(app: App, args) -> int:
                 print(f"{user.login:<20} {user.role:<6} {'actif' if user.active else 'désactivé':<10} {user.profile}  "
                       f"{done:>3} leçon(s)  dernière connexion : {user.last_login_at or 'jamais':<20}  {user.name}")
             return EXIT_OK
+        if args.action == "journal":
+            return _users_journal(app, store, args)
         if args.action == "add":
             password, generated = _account_password(args, args.login)
             user = store.create_user(args.login, args.name or args.login, password, role=args.role, profile=args.profile,
                                      must_change_password=generated)
+            store.record_event("user_created", user=user, actor=CLI_ACTOR)
             print(f"Compte créé : {user.login} ({user.role})")
             if generated:
                 print(f"Mot de passe provisoire : {password}  (à changer à la première connexion)")
@@ -543,28 +598,38 @@ def cmd_users(app: App, args) -> int:
         if user is None:
             print(f"Compte inconnu : {args.login}", file=sys.stderr)
             return EXIT_ERROR
-        if args.action == "password":
+        if args.action == "show":
+            _users_show(app, store, user)
+        elif args.action == "password":
             password, generated = _account_password(args, user.login)
             store.set_password(user.id, password, must_change_password=generated)
+            store.record_event("password_reset", user=user, actor=CLI_ACTOR)
             print(f"Mot de passe de {user.login} changé ; ses sessions sont fermées.")
             if generated:
                 print(f"Mot de passe provisoire : {password}  (à changer à la prochaine connexion)")
         elif args.action == "role":
-            store.update_user(user.id, role=args.role)
+            if store.update_user(user.id, role=args.role).role != user.role:
+                store.record_event("role_changed", user=user, actor=CLI_ACTOR, detail=args.role)
             print(f"{user.login} : rôle « {args.role} ».")
         elif args.action in ("enable", "disable"):
-            store.update_user(user.id, active=args.action == "enable")
+            if store.update_user(user.id, active=args.action == "enable").active != user.active:
+                store.record_event("user_enabled" if args.action == "enable" else "user_disabled", user=user, actor=CLI_ACTOR)
             print(f"{user.login} : compte {'activé' if args.action == 'enable' else 'désactivé'}.")
         elif args.action == "logout":
-            print(f"{user.login} : {store.revoke_user_sessions(user.id)} session(s) fermée(s).")
+            closed = store.revoke_user_sessions(user.id)
+            if closed:
+                store.record_event("sessions_closed", user=user, actor=CLI_ACTOR, detail=closed)
+            print(f"{user.login} : {closed} session(s) fermée(s).")
         elif args.action == "import-progress":
             count = store.import_shared_progress(user.id)
+            store.record_event("progress_imported", user=user, actor=CLI_ACTOR)
             print(f"{user.login} : {count} rubrique(s) de l'ancienne progression partagée reprise(s).")
         elif args.action == "delete":
             if not args.yes:
                 print(f"Ajoutez --yes pour supprimer définitivement {user.login} et sa progression.", file=sys.stderr)
                 return EXIT_ERROR
             store.delete_user(user.id)
+            store.record_event("user_deleted", user=user, actor=CLI_ACTOR)
             print(f"Compte supprimé : {user.login}")
         return EXIT_OK
     except AccountError as exc:
@@ -697,9 +762,14 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--no-accounts", action="store_true", help="ancien serveur sans comptes : site ouvert, progression partagée")
     p.set_defaults(func=cmd_serve)
 
-    p = sub.add_parser("users", help="comptes du serveur : lister, créer, mot de passe, rôle, suppression")
+    p = sub.add_parser("users", help="comptes du serveur : lister, créer, mot de passe, rôle, suppression, journal")
     a = p.add_subparsers(dest="action", metavar="action", required=True)
     a.add_parser("list", help="lister les comptes")
+    a.add_parser("show", help="détail d'un compte : progression, sessions ouvertes, derniers événements").add_argument("login")
+    u = a.add_parser("journal", help="journal des comptes : connexions, échecs, opérations")
+    u.add_argument("login", nargs="?", help="limiter à un compte")
+    u.add_argument("--type", choices=("logins", "failures", "accounts"), help="connexions, échecs ou opérations sur les comptes")
+    u.add_argument("--limit", type=int, default=50, metavar="N", help="nombre de lignes (50 par défaut)")
 
     def password_options(parser) -> None:
         group = parser.add_mutually_exclusive_group()

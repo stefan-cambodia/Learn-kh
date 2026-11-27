@@ -2,7 +2,8 @@
 
 > **Branche `serveur`** — le même site, servi derrière une connexion : un compte
 > par personne, une progression par compte retrouvée sur tous ses appareils, et
-> une page « Utilisateurs » pour l'administrateur. Voir
+> pour l'administrateur les pages « Utilisateurs », « Progression » de chaque
+> apprenant et « Journal » des connexions. Voir
 > [docs/COMPTES.md](docs/COMPTES.md). La branche `main` reste la version
 > autonome, qui s'ouvre sans serveur.
 
@@ -114,7 +115,8 @@ python3 manage.py export                      # archive ZIP de toutes les leçon
 python3 manage.py check                       # vérification générale du projet
 python3 manage.py schedule install            # activer la génération quotidienne
 python3 manage.py serve --host 0.0.0.0        # serveur avec comptes : connexion, progression par compte sur tous ses appareils
-python3 manage.py users add dara --generate   # créer un compte (list, password, role, disable, delete… : docs/COMPTES.md)
+python3 manage.py users add dara --generate   # créer un compte (list, show, password, role, disable, delete… : docs/COMPTES.md)
+python3 manage.py users journal               # connexions, échecs et opérations sur les comptes
 python3 manage.py alphabet                    # Alphabets (khmer, latin, cyrillique, chinois) : audios et page
                                               # téléphone : « Ajouter à l'écran d'accueil » installe le site comme une application
 ```

@@ -6,6 +6,7 @@ Aucun réseau : le serveur écoute sur 127.0.0.1, dans un projet temporaire.
 
 from __future__ import annotations
 
+import datetime as dt
 import gzip
 import http.client
 import json
@@ -25,12 +26,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from support import ROOT, clean_env, make_wav  # noqa: E402
 
 from frkh import accounts as accounts_module  # noqa: E402
-from frkh import progress_sync, webapp  # noqa: E402
+from frkh import db, progress_sync, webapp  # noqa: E402
 from frkh.accounts import (AccountError, Accounts, Throttle, generate_password, hash_password,  # noqa: E402
                            needs_rehash, verify_password)
 from frkh.config import load_config  # noqa: E402
 
 SECRET = "CLE-SECRETE-DU-FICHIER-ENV"
+FIREFOX_LINUX = "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0"
+CHROME_ANDROID = ("Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/130.0.0.0 Mobile Safari/537.36")
 PAGE = ('<!DOCTYPE html><html lang="fr" data-profile="fr" data-root="{root}"><head><meta charset="utf-8">'
         '<title>t</title></head><body><p>{body}</p></body></html>')
 
@@ -230,7 +234,7 @@ class AccountStoreTest(AccountsCase):
         self.assertEqual(json.loads(merged["frkh-done2-km"]),
                          {"1": {"d": 1, "t": 1000.0}, "2": {"d": 0, "t": 3000.0}, "3": {"d": 1, "t": 500.0}})
         self.assertEqual(json.loads(merged["frkh-days-km"]), ["2026-03-01", "2026-03-02"])
-        self.assertEqual(store.progress_summary(dara.id), {"lessons": 2, "days": 2, "cards": 1, "last": 3000.0})
+        self.assertEqual(store.progress_summary(dara.id), {"lessons": 2, "days": 2, "streak": 0, "cards": 1, "last": 3000.0})
         store.delete_user(dara.id)
         self.assertEqual(store._conn.execute("SELECT COUNT(*) FROM user_progress").fetchone()[0], 0,
                          "la progression disparaît avec le compte")
@@ -257,6 +261,87 @@ class AccountStoreTest(AccountsCase):
         progress_sync.exchange(self.config, {"frkh-done2-fr": json.dumps({"4": {"d": 1, "t": 10}})})
         self.assertEqual(store.import_shared_progress(user.id), 1)
         self.assertEqual(store.progress_summary(user.id)["lessons"], 1)
+
+    def test_progress_detail_counts_streaks_known_cards_and_due_reviews(self):
+        store = self.store()
+        user = store.create_user("dara", "Dara", "motdepasse-dara")
+        today, now, hour, day = store.today(), int(self.now * 1000), 3600000, 86400000
+
+        def ago(days: int) -> str:
+            return (today - dt.timedelta(days=days)).isoformat()
+
+        store.exchange_progress(user.id, {
+            "frkh-done2-km": json.dumps({"1": {"d": 1, "t": now - hour}, "2": {"d": 0, "t": now}}),
+            "frkh-done2-fr": json.dumps({"2": {"d": 1, "t": now - day}}),
+            "frkh-days-km": json.dumps([ago(0), ago(1), ago(2), ago(10), ago(11), ago(12), ago(13)]),
+            # Même langue étudiée sous deux profils : pour une même carte, la révision la plus récente compte.
+            "frkh-boxes-km-fr": json.dumps({"bonjour": {"b": 1, "t": now - 2 * day}, "merci": {"b": 1, "t": now - 2 * day}}),
+            "frkh-boxes-fr-fr": json.dumps({"bonjour": {"b": 5, "t": now}, "pardon": {"b": 2, "t": now - 10 * day}}),
+            "frkh-boxes-km-en": json.dumps({"hello": {"b": 3, "t": now - hour}})})
+        detail = store.progress_detail(user.id)
+        self.assertEqual(detail["lessons"], {1: float(now - hour), 2: float(now - day)}, "terminée sous un profil : terminée")
+        self.assertEqual((detail["streak"], detail["best_streak"], len(detail["days"])), (3, 4, 7))
+        self.assertEqual(detail["langs"]["fr"], {"cards": 3, "known": 1, "due": 2, "boxes": [1, 1, 0, 0, 1], "last": float(now)})
+        self.assertEqual((detail["langs"]["en"]["known"], detail["langs"]["en"]["due"]), (1, 0), "boîte 3 : revue dans quatre jours")
+        self.assertEqual((detail["cards"], detail["due"], detail["last"]), (4, 2, float(now)))
+        # La série tient encore si le dernier jour actif est hier ; elle tombe après un jour sans rien.
+        self.assertEqual(accounts_module.streaks([ago(1), ago(2)], today), (2, 2))
+        self.assertEqual(accounts_module.streaks([ago(2), ago(3), "pas une date"], today), (0, 2))
+        self.assertEqual(accounts_module.streaks([], today), (0, 0))
+        self.assertEqual(store.lessons(), [], "pas encore de table des leçons : liste vide, pas d'erreur")
+        # Un navigateur peut envoyer n'importe quelle clé : ce qui n'est pas un numéro de leçon est ignoré.
+        store.exchange_progress(user.id, {"frkh-done2-en": json.dumps({"²": {"d": 1, "t": now}, "x": {"d": 1, "t": now},
+                                                                       "1234567": {"d": 1, "t": now}, "٣": {"d": 1, "t": now}})})
+        self.assertEqual(sorted(store.progress_detail(user.id)["lessons"]), [1, 2])
+
+    def test_sessions_are_listed_and_closed_one_by_one(self):
+        store = self.store()
+        dara = store.create_user("dara", "Dara", "motdepasse-dara")
+        alex = store.create_user("alex", "Alex", "motdepasse-alex")
+        laptop, _ = store.create_session(dara.id, user_agent=FIREFOX_LINUX, ip="192.168.1.20")
+        self.now += 60
+        phone, session = store.create_session(dara.id, user_agent=CHROME_ANDROID, ip="192.168.1.21")
+        other, _ = store.create_session(alex.id)
+        listed = store.list_sessions(dara.id)
+        self.assertEqual([(item.ip, item.public_id == session.public_id) for item in listed],
+                         [("192.168.1.21", True), ("192.168.1.20", False)], "la plus récemment active d'abord")
+        self.assertEqual(len(session.public_id), 16)
+        self.assertNotIn(session.public_id, phone, "l'identifiant public ne dit rien du jeton")
+        for owner, wanted in ((alex.id, session.public_id), (dara.id, "0" * 16), (dara.id, ""), (dara.id, "%" * 16), (dara.id, None)):
+            self.assertFalse(store.revoke_session_id(owner, wanted), repr(wanted))
+        self.assertEqual(store.count_sessions(dara.id), 2)
+        self.assertTrue(store.revoke_session_id(dara.id, session.public_id))
+        self.assertIsNone(store.session(phone))
+        self.assertIsNotNone(store.session(laptop))
+        self.assertIsNotNone(store.session(other))
+        self.now += store.session_seconds() + 1
+        self.assertEqual(store.list_sessions(dara.id), [], "les sessions expirées ne sont pas listées")
+        self.assertEqual(store.list_sessions(9999), [])
+
+    def test_journal_keeps_filters_and_forgets_events(self):
+        store = self.store()
+        dara = store.create_user("dara", "Dara", "motdepasse-dara")
+        with self.assertRaises(ValueError):
+            store.record_event("n-importe-quoi", user=dara)
+        store.record_event("login", user=dara, ip="192.168.1.20")
+        store.record_event("login_failed", ip="192.168.1.99")
+        store.record_event("role_changed", user=dara, actor="admin", detail="admin")
+        events = store.list_events()
+        self.assertEqual([(event.kind, event.login, event.actor, event.detail) for event in events],
+                         [("role_changed", "dara", "admin", "admin"), ("login_failed", "", "", ""), ("login", "dara", "", "")])
+        self.assertEqual([event.kind for event in store.list_events(kinds=accounts_module.EVENT_GROUPS["failures"])], ["login_failed"])
+        self.assertEqual([event.kind for event in store.list_events(user_id=dara.id)], ["role_changed", "login"])
+        self.assertEqual([event.kind for event in store.list_events(before=events[0].id, limit=1)], ["login_failed"])
+        self.assertEqual(store.list_events(kinds=["inconnu"]), [])
+        store.delete_user(dara.id)
+        self.assertEqual(len(store.list_events(user_id=dara.id)), 2, "l'historique survit au compte")
+        # Au-delà de la durée de conservation (180 jours par défaut), les anciens événements sont effacés.
+        self.now += 200 * 86400
+        for _ in range(60):
+            store.record_event("logout")
+        kept = store.list_events(limit=1000)
+        self.assertEqual({event.kind for event in kept}, {"logout"})
+        self.assertEqual(len(kept), 60)
 
 
 # --- Serveur ----------------------------------------------------------------------------------------
@@ -617,6 +702,169 @@ class AccountPagesTest(ServerCase):
         self.assertIn("n&#x27;existe pas", admin.get("/utilisateurs")[2])
 
 
+class TrackingTest(ServerCase):
+    def add_lessons(self, *rows) -> None:
+        """Leçons minimales dans la base : (numéro, date, titre)."""
+        conn = db.connect(self.config.paths.database)
+        try:
+            for number, date, title in rows:
+                conn.execute(
+                    "INSERT INTO lessons(lesson_number, lesson_date, theme, title_fr, title_en, title_km, level, html_path, "
+                    "content_json, status, created_at, updated_at) VALUES (?, ?, 'theme', ?, ?, ?, 'debutant', ?, '{}', 'complete', ?, ?)",
+                    (number, date, title, f"{title} (en)", "មេរៀន", f"lessons/lesson-{number:03d}.html", db.utcnow(), db.utcnow()))
+        finally:
+            conn.close()
+
+    def test_tracking_page_shows_a_learners_progress(self):
+        today, now = self.accounts.today(), int(self.now * 1000)
+
+        def ago(days: int) -> str:
+            return (today - dt.timedelta(days=days)).isoformat()
+
+        self.add_lessons((1, ago(5), "Les salutations"), (2, ago(1), "Les <nombres>"), (3, ago(-20), "Plus tard"))
+        dara = self.browser("dara")
+        dara.request("POST", "/api/progress", data={"data": {
+            "frkh-done2-km": json.dumps({"1": {"d": 1, "t": now - 3600000}}),
+            "frkh-days-km": json.dumps([ago(0), ago(1), ago(4)]),
+            "frkh-boxes-km-fr": json.dumps({"bonjour": {"b": 3, "t": now}, "merci": {"b": 1, "t": now - 3 * 86400000}})}})
+        status, _, body = dara.get("/suivi")
+        self.assertEqual(status, 200)
+        self.assertIn("Terminées : 1 sur 2", body)
+        self.assertRegex(body, r'class="lchip is-done" href="lessons/lesson-001\.html"')
+        self.assertRegex(body, r'class="lchip" href="lessons/lesson-002\.html" title="2\. Les &lt;nombres&gt;')
+        self.assertNotIn("lesson-003.html", body, "une leçon à venir n'est pas comptée")
+        self.assertIn("Connues : 1 sur 2 révisées", body)
+        self.assertIn("à revoir : 1", body)
+        self.assertIn("Jours actifs : 3 sur", body)
+        self.assertEqual(body.count('class="cal-day is-on" title='), 3)
+        self.assertNotIn("track-users", body, "un apprenant ne voit que sa propre progression")
+        self.assertIn('href="suivi"', dara.get("/compte")[2])
+        self.assertEqual(dara.get(f"/suivi?u={self.dara.id}")[0], 200)
+        self.assertEqual(dara.get(f"/suivi?u={self.admin.id}")[0], 403)
+        self.assertEqual(dara.request("POST", "/suivi", form={})[0], 405)
+
+        admin = self.browser("admin")
+        status, _, body = admin.get(f"/suivi?u={self.dara.id}")
+        self.assertEqual(status, 200)
+        self.assertIn("Dara &lt;Sok&gt;", body)
+        self.assertNotIn("Dara <Sok>", body)
+        self.assertIn("track-users", body)
+        self.assertIn("lesson-001.html", body)
+        self.assertEqual(admin.get("/suivi?u=9999")[0], 404)
+        own = admin.get("/suivi")[2]
+        self.assertIn("Aucune carte révisée", own)
+        self.assertIn("Terminées : 0 sur 2", own)
+        self.assertIn(f'href="suivi?u={self.dara.id}"', admin.get("/utilisateurs")[2])
+
+        visitor = self.browser()
+        self.assertEqual(visitor.get(f"/suivi?u={self.dara.id}")[1]["location"], f"./connexion?suite=/suivi%3Fu%3D{self.dara.id}")
+        status, headers, _ = visitor.login("admin", "motdepasse-admin", suite=f"/suivi?u={self.dara.id}")
+        self.assertEqual((status, headers["location"]), (303, f"./suivi?u={self.dara.id}"), "retour à la page demandée")
+
+    def test_tracking_page_works_before_any_lesson_exists(self):
+        status, _, body = self.browser("dara").get("/suivi")
+        self.assertEqual(status, 200)
+        self.assertIn("Aucune leçon publiée", body)
+        self.assertIn("Aucune activité enregistrée", body)
+
+    def test_devices_are_listed_and_signed_out_one_by_one(self):
+        laptop, phone, admin = self.browser(), self.browser(), self.browser("admin")
+        for device, agent in ((laptop, FIREFOX_LINUX), (phone, CHROME_ANDROID)):
+            status, _, _ = device.post("/connexion", {"identifiant": "dara", "motdepasse": "motdepasse-dara"}, headers={"User-Agent": agent})
+            self.assertEqual(status, 303)
+        body = laptop.get("/compte")[2]
+        self.assertIn("Firefox · Linux", body)
+        self.assertIn("Chrome · Android", body)
+        self.assertEqual(body.count(">cet appareil<"), 1)
+        buttons = re.findall(r'name="session" value="([0-9a-f]{16})"', body)
+        own = self.accounts.session(laptop.cookies["frkh_session"]).public_id
+        theirs = self.accounts.session(admin.cookies["frkh_session"]).public_id
+        self.assertEqual(len(buttons), 1, "un bouton par autre appareil, aucun pour celui-ci")
+        self.assertNotEqual(buttons[0], own)
+        # Ni sa propre session, ni celle d'un autre compte, ni un identifiant fantaisiste.
+        for wanted in (own, theirs, "zz", ""):
+            laptop.post("/compte", {"action": "appareil", "session": wanted})
+        self.assertEqual((laptop.get("/")[0], phone.get("/")[0], admin.get("/")[0]), (200, 200, 200))
+        self.assertIn("Firefox · Linux", admin.get(f"/utilisateurs?u={self.dara.id}")[2], "l'administrateur voit les sessions du compte")
+        laptop.post("/compte", {"action": "appareil", "session": buttons[0]})
+        body = laptop.get("/compte")[2]
+        self.assertIn("Appareil déconnecté", body)
+        self.assertNotIn("Chrome · Android", body)
+        self.assertNotIn('value="sessions"', body, "plus d'autre appareil : plus de bouton pour les déconnecter")
+        self.assertEqual((laptop.get("/")[0], phone.get("/")[0]), (200, 302))
+
+
+class JournalTest(ServerCase):
+    def kinds(self, **filters) -> list:
+        return [event.kind for event in self.accounts.list_events(limit=1000, **filters)]
+
+    def test_journal_shows_sign_ins_failures_and_operations(self):
+        admin = self.browser("admin")
+        typed = "motdepasse-tape-au-mauvais-endroit"
+        self.assertEqual(self.browser().login("dara", "mauvais")[0], 401)
+        self.assertEqual(self.browser().login(typed, "x")[0], 401)
+        admin.post("/utilisateurs", {"action": "creer", "identifiant": "alex", "motdepasse": "motdepasse-alex"})
+        alex = self.accounts.get_by_login("alex")
+        edit = f"/utilisateurs?u={alex.id}"
+        admin.post("/utilisateurs", {"action": "modifier", "id": alex.id, "nom": "alex", "role": "admin", "actif": "1"}, page=edit)
+        admin.post("/utilisateurs", {"action": "modifier", "id": alex.id, "nom": "alex", "role": "admin"}, page=edit)
+        admin.post("/utilisateurs", {"action": "motdepasse", "id": alex.id, "motdepasse": "redonne-par-admin"}, page=edit)
+        admin.post("/utilisateurs", {"action": "supprimer", "id": alex.id, "confirmer": "1"}, page=edit)
+        self.assertEqual(self.kinds()[::-1], ["login", "login_failed", "login_failed", "user_created", "role_changed",
+                                              "user_disabled", "password_reset", "user_deleted"])
+        events = self.accounts.list_events(limit=1000)
+        self.assertEqual([event.login for event in events if event.kind == "login_failed"], ["", "dara"])
+        self.assertEqual({event.actor for event in events if event.login == "alex"}, {"admin"})
+        stored = "\n".join(str(tuple(row)) for row in self.accounts._conn.execute("SELECT * FROM account_events"))
+        self.assertNotIn(typed, stored, "un identifiant inconnu n'est pas conservé : ce peut être un mot de passe")
+
+        status, _, body = admin.get("/journal")
+        self.assertEqual(status, 200)
+        for text in ("Échec de connexion", "identifiant inconnu", "Compte créé", "Rôle changé", "Compte désactivé",
+                     "Mot de passe redéfini", "Compte supprimé"):
+            self.assertIn(text, body)
+        self.assertNotIn(typed, body)
+        self.assertIn('<span class="acct-login">alex</span>', body, "le compte supprimé reste nommé")
+        self.assertIn(f'href="utilisateurs?u={self.dara.id}#modifier">dara</a>', body)
+        failures = admin.get("/journal?type=failures")[2]
+        self.assertIn("Échec de connexion", failures)
+        self.assertNotIn("Compte créé", failures)
+        one = admin.get(f"/journal?u={self.dara.id}")[2]
+        self.assertIn("Échec de connexion", one)
+        self.assertNotIn("Compte supprimé", one)
+        self.assertIn("compte supprimé", admin.get(f"/journal?u={alex.id}")[2])
+        self.assertEqual(admin.get("/journal?type=inconnu&u=abc&avant=xyz")[0], 200, "filtres invalides : ignorés")
+        self.assertEqual(admin.get("/journal?u=%C2%B2&avant=%C2%B2")[0], 200, "« ² » n'est pas un nombre")
+        self.assertEqual(admin.get("/suivi?u=%C2%B2")[0], 404)
+        self.assertEqual(admin.request("POST", "/journal", form={})[0], 405)
+
+        dara = self.browser("dara")
+        self.assertEqual(dara.get("/journal")[0], 403)
+        self.assertIn("Échec de connexion", dara.get("/compte")[2], "chacun voit les tentatives sur son propre compte")
+        self.assertEqual(self.browser().get("/journal")[1]["location"], "./connexion?suite=/journal")
+
+    def test_a_blocked_sign_in_is_noted_once(self):
+        for _ in range(9):
+            self.browser().login("dara", "mauvais")
+        self.assertEqual((self.kinds().count("login_failed"), self.kinds().count("login_blocked")), (5, 1))
+        self.now += 901
+        self.browser("dara")
+        self.assertEqual(self.kinds()[0], "login")
+
+    def test_journal_is_paged(self):
+        for _ in range(webapp.JOURNAL_PAGE + 20):
+            self.accounts.record_event("logout", user=self.dara)
+        admin = self.browser("admin")
+        body = admin.get("/journal")[2]
+        self.assertEqual(body.count("<tr>"), 1 + webapp.JOURNAL_PAGE)
+        self.assertNotIn("Revenir aux plus récents", body)
+        older = re.search(r'href="(journal\?avant=\d+)"', body).group(1)
+        body = admin.get("/" + older)[2]
+        self.assertEqual(body.count("<tr>"), 1 + 21, "les vingt restants et la connexion de l'administrateur")
+        self.assertIn("Revenir aux plus récents", body)
+        self.assertNotIn("Plus anciens", body)
+
+
 class FirstRunTest(ServerCase):
     with_users = False
 
@@ -713,6 +961,12 @@ class CommandLineTest(unittest.TestCase):
             self.assertIsNotNone(store.authenticate("stefan", "motdepasse-stefan"))
         finally:
             store.close()
+        shown = self.run_cli("users", "show", "dara")
+        self.assertRegex(shown, r"Identifiant\s+: dara")
+        self.assertIn("mot de passe provisoire", shown)
+        self.assertIn("0 leçon(s) terminée(s)", shown)
+        self.assertRegex(shown, r"Sessions ouvertes\s+: 0")
+        self.assertIn("Compte créé", shown)
         self.run_cli("users", "role", "dara", "admin")
         self.run_cli("users", "disable", "stefan")
         self.assertIn("au moins un administrateur", self.run_cli("users", "disable", "dara", expect=1))
@@ -720,6 +974,13 @@ class CommandLineTest(unittest.TestCase):
         self.assertIn("Compte supprimé", self.run_cli("users", "delete", "stefan", "--yes"))
         self.assertIn("Compte inconnu", self.run_cli("users", "password", "stefan", "--generate", expect=1))
         self.assertNotIn("stefan", self.run_cli("users", "list"))
+        journal = self.run_cli("users", "journal")
+        for text in ("Compte créé", "Rôle changé (admin)", "Compte désactivé", "Compte supprimé", "par la ligne de commande"):
+            self.assertIn(text, journal)
+        self.assertEqual(len(self.run_cli("users", "journal", "--limit", "2").strip().splitlines()), 2)
+        self.assertRegex(self.run_cli("users", "journal", "dara"), r"Rôle changé \(admin\)\s+dara")
+        self.assertIn("Journal vide", self.run_cli("users", "journal", "--type", "failures"))
+        self.assertIn("Compte inconnu", self.run_cli("users", "journal", "stefan", expect=1))
 
 
 if __name__ == "__main__":

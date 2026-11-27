@@ -222,6 +222,7 @@ Réglages du serveur avec comptes (`python3 manage.py serve`), détaillés dans
 | `server.password_min_length` | `8` | longueur minimale des mots de passe |
 | `server.cookie_secure` | `"auto"` | cookie `Secure` : `"auto"` (derrière un proxy HTTPS de confiance), `true` ou `false` |
 | `server.trust_proxy` | `false` | `true` derrière un proxy inverse (`X-Forwarded-For`, `-Proto`, `-Host`) |
+| `server.journal_days` | `180` | durée de conservation du journal des comptes, en jours |
 
 ## Autres rubriques
 

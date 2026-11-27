@@ -10,7 +10,8 @@ sont pas modifiés — mais derrière une connexion :
   ``css/account.css``), sans toucher aux fichiers générés.
 
 Pages : ``/connexion``, ``/inscription`` (si elle est ouverte), ``/installation`` (premier
-démarrage), ``/compte``, ``/utilisateurs``. API : ``/api/me``, ``/api/progress``, ``/api/profile``.
+démarrage), ``/compte``, ``/suivi`` (progression d'un compte), et pour l'administrateur
+``/utilisateurs`` et ``/journal``. API : ``/api/me``, ``/api/progress``, ``/api/profile``.
 
 Protections : cookie de session ``HttpOnly`` et ``SameSite=Lax``, jeton anti-CSRF sur chaque
 formulaire, contrôle de l'origine des requêtes POST, tentatives de connexion limitées, et les
@@ -35,18 +36,25 @@ from collections import OrderedDict
 
 from . import account_pages as pages
 from . import admin
-from .accounts import PLAIN_ALPHABET, AccountError, Accounts, Throttle, generate_password, message_texts, normalize_login
+from .accounts import (EVENT_GROUPS, EVENT_NAMES, PLAIN_ALPHABET, AccountError, Accounts, Throttle, generate_password,
+                       message_texts, normalize_login)
 from .render import SiteRenderer
 
 SESSION_COOKIE = "frkh_session"
 FORM_COOKIE = "frkh_form"                 # jeton anti-CSRF des formulaires sans session (connexion, inscription)
 ASSET_DIRS = ("css", "fonts", "js")       # nécessaires à la page de connexion : servis sans compte
-ROUTES = ("connexion", "deconnexion", "inscription", "installation", "compte", "utilisateurs")
+ROUTES = ("connexion", "deconnexion", "inscription", "installation", "compte", "utilisateurs", "suivi", "journal")
+NO_RETURN = ("connexion", "deconnexion", "inscription", "installation", "api")   # jamais une « page où revenir »
+JOURNAL_PAGE = 100                        # lignes par page du journal
+# Ce qu'un compte voit de sa propre activité sur « Mon compte ».
+OWN_EVENTS = ("login", "login_failed", "login_blocked", "password_changed", "password_reset", "sessions_closed")
+LOUD_EVENTS = ("login_failed", "login_blocked", "setup", "user_deleted")           # notés comme avertissements
 MAX_FORM = 64 * 1024
 MAX_PROGRESS = 2 * 1024 * 1024
 ROOT_RE = re.compile(r'<html[^>]*\bdata-root="((?:\.|\.\.)(?:/\.\.)*)"')
 CHARSET_RE = re.compile(r"<meta\s+charset=[^>]*>", re.IGNORECASE)
 HEAD_RE = re.compile(r"<head[^>]*>", re.IGNORECASE)
+NUMBER_RE = re.compile(r"^[0-9]{1,12}$")   # « ² ».isdigit() est vrai mais int("²") échoue : chiffres ASCII seulement
 SECURITY_HEADERS = (
     ("X-Content-Type-Options", "nosniff"),
     ("X-Frame-Options", "DENY"),
@@ -72,8 +80,7 @@ def safe_next(value) -> str:
             or any(c in value for c in "\\\r\n\t\x00") or "://" in value):
         return ""
     path = value[1:]
-    first = path.split("?", 1)[0].split("/", 1)[0]
-    if first in ROUTES or first == "api":
+    if path.split("?", 1)[0].split("/", 1)[0] in NO_RETURN:
         return ""
     return path
 
@@ -91,6 +98,7 @@ class WebApp:
         self.ip_throttle = Throttle(30, 900, clock)       # échecs depuis une adresse, tous identifiants confondus
         self.signup_throttle = Throttle(10, 3600, clock)  # comptes créés depuis une adresse
         self.setup_code = ""
+        self._blocked: dict[str, float] = {}
         self._flash: dict[str, list] = {}
         self._gzip: OrderedDict[str, bytes] = OrderedDict()
         self._lock = threading.Lock()
@@ -123,6 +131,27 @@ class WebApp:
                 if announce:
                     self.log.warning("Aucun compte : code d'installation %s (à saisir sur la page /installation)", self.setup_code)
             return self.setup_code
+
+    def event(self, kind: str, *, user=None, actor=None, ip: str = "", detail="") -> None:
+        """Note un événement dans le journal des comptes et dans ``logs/app.log``. ``user`` est le
+        compte concerné (``None`` : identifiant inconnu), ``actor`` celui qui agit si c'est un autre."""
+        by = actor.login if actor is not None and (user is None or actor.id != user.id) else ""
+        self.accounts.record_event(kind, user=user, actor=by, ip=ip, detail=detail)
+        line = f"{EVENT_NAMES[kind]} : {user.login if user else 'identifiant inconnu'}"
+        line += (f" ({detail})" if detail not in ("", None) else "") + (f" par {by}" if by else "") + (f" depuis {ip}" if ip else "")
+        self.log.log(logging.WARNING if kind in LOUD_EVENTS else logging.INFO, "%s", line)
+
+    def note_blocked(self, key: str) -> bool:
+        """Vrai la première fois qu'une clé est bloquée pendant un quart d'heure : un seul événement
+        « connexion bloquée » par blocage, même si les tentatives continuent."""
+        now = self.clock()
+        with self._lock:
+            if len(self._blocked) > 5000:
+                self._blocked.clear()
+            if self._blocked.get(key, 0) > now:
+                return False
+            self._blocked[key] = now + 900
+            return True
 
     def asset_version(self) -> str:
         stamp = 0
@@ -537,21 +566,25 @@ def make_handler(app: WebApp):
                                         messages=[("error", message_texts("csrf"))])
             ip = self._client_ip()
             pair = f"{ip}|{login}"
-            wait = max(app.pair_throttle.blocked(pair), app.ip_throttle.blocked(ip))
+            pair_wait, ip_wait = app.pair_throttle.blocked(pair), app.ip_throttle.blocked(ip)
+            wait = max(pair_wait, ip_wait)
             if wait:
-                app.log.warning("Connexion refusée (trop de tentatives) : « %s » depuis %s", login, ip)
+                # Une adresse bloquée pour tous les identifiants ne remplit pas le journal en en essayant d'autres.
+                if app.note_blocked(ip if ip_wait else pair):
+                    app.event("login_blocked", user=accounts.get_by_login(login), ip=ip)
                 return self._login_form(status=429, login=login, next_path=shown_next,
                                         messages=[("error", message_texts("throttled", minutes=math.ceil(wait / 60)))])
             user = accounts.authenticate(login, form.get("motdepasse", ""))
             if user is None:
                 app.pair_throttle.hit(pair)
                 app.ip_throttle.hit(ip)
-                app.log.warning("Échec de connexion : « %s » depuis %s", login, ip)
+                known = accounts.get_by_login(login)
+                app.event("login_failed", user=known, ip=ip, detail="disabled" if known and not known.active else "")
                 return self._login_form(status=401, login=login, next_path=shown_next,
                                         messages=[("error", message_texts("credentials"))])
             app.pair_throttle.reset(pair)
             self._start_session(user)
-            app.log.info("Connexion : %s depuis %s", user.login, ip)
+            app.event("login", user=user, ip=ip)
             return self._redirect("compte" if user.must_change_password else next_path)
 
         def _page_deconnexion(self) -> None:
@@ -565,7 +598,7 @@ def make_handler(app: WebApp):
                     return self._redirect("compte")
                 accounts.revoke_session(self._cookie(SESSION_COOKIE))
                 app.pop_flash(session)
-                app.log.info("Déconnexion : %s", session.user.login)
+                app.event("logout", user=session.user, ip=self._client_ip())
             self._set_cookie(SESSION_COOKIE, "", max_age=0)
             return self._redirect("connexion?sortie=1")
 
@@ -609,7 +642,7 @@ def make_handler(app: WebApp):
                 return show(form, [("error", exc.texts())], 422)
             app.signup_throttle.hit(ip)
             self._start_session(user)
-            app.log.info("Inscription : %s depuis %s", user.login, ip)
+            app.event("register", user=user, ip=ip)
             return self._redirect("")
 
         def _page_installation(self) -> None:
@@ -643,19 +676,20 @@ def make_handler(app: WebApp):
                 return show(form, [("error", exc.texts())], 422)
             app.setup_code = ""
             self._start_session(user)
-            app.log.warning("Premier démarrage : compte administrateur « %s » créé depuis %s", user.login, ip)
+            app.event("setup", user=user, ip=ip)
             return self._redirect("")
 
         # --- mon compte ---------------------------------------------------------------------------------------
         def _page_compte(self) -> None:
             session = self.session
             if session is None:
-                return self._redirect("connexion?suite=/compte", 302)
+                return self._redirect(self._login_target(), 302)
             user = session.user
             if self.command != "POST":
                 content = pages.account_page(
                     config, user=user, csrf=session.csrf_token, messages=app.pop_flash(session),
-                    summary=accounts.progress_summary(user.id), sessions=accounts.count_sessions(user.id),
+                    summary=accounts.progress_summary(user.id), sessions=accounts.list_sessions(user.id),
+                    current=session.public_id, events=accounts.list_events(limit=6, user_id=user.id, kinds=OWN_EVENTS),
                     min_length=accounts.password_min_length())
                 return self._render("page-account", "account_title", content)
             form = self._form()
@@ -664,11 +698,13 @@ def make_handler(app: WebApp):
             if not self._csrf_ok(form):
                 app.flash(session, "error", message_texts("csrf"))
                 return self._redirect("compte")
-            action, token = form.get("action", ""), self._cookie(SESSION_COOKIE)
+            action, token, ip = form.get("action", ""), self._cookie(SESSION_COOKIE), self._client_ip()
             try:
                 if action == "profil":
-                    accounts.update_user(user.id, name=form.get("nom"), profile=form.get("profil") or None)
+                    saved = accounts.update_user(user.id, name=form.get("nom"), profile=form.get("profil") or None)
                     app.flash(session, "ok", pages.texts("ok_profile"))
+                    if saved.name != user.name:
+                        app.event("user_updated", user=saved, ip=ip)
                 elif action == "motdepasse":
                     key = f"motdepasse|{user.id}"
                     wait = app.pair_throttle.blocked(key)
@@ -684,16 +720,23 @@ def make_handler(app: WebApp):
                     accounts.set_password(user.id, form.get("motdepasse", ""), keep_token=token)
                     app.pair_throttle.reset(key)
                     app.flash(session, "ok", pages.texts("ok_password"))
-                    app.log.info("Mot de passe changé : %s", user.login)
+                    app.event("password_changed", user=user, ip=ip)
                 elif action == "sessions":
                     closed = accounts.revoke_user_sessions(user.id, keep_token=token)
                     app.flash(session, "ok", pages.texts("ok_sessions", n=closed))
+                    if closed:
+                        app.event("sessions_closed", user=user, ip=ip, detail=closed)
+                elif action == "appareil":
+                    wanted = str(form.get("session", ""))
+                    if wanted != session.public_id and accounts.revoke_session_id(user.id, wanted):
+                        app.flash(session, "ok", pages.texts("ok_device"))
+                        app.event("sessions_closed", user=user, ip=ip, detail=1)
                 elif action == "progression":
                     if form.get("confirmer") != "1":
                         raise AccountError("confirm_required")
                     accounts.reset_progress(user.id)
                     app.flash(session, "ok", pages.texts("ok_progress_reset"))
-                    app.log.info("Progression effacée : %s", user.login)
+                    app.event("progress_reset", user=user, ip=ip)
             except AccountError as exc:
                 app.flash(session, "error", exc.texts())
             return self._redirect("compte")
@@ -705,17 +748,15 @@ def make_handler(app: WebApp):
             content = pages.users_page(
                 config, user=session.user, csrf=session.csrf_token, messages=list(messages), users=users,
                 summaries={user.id: accounts.progress_summary(user.id) for user in users}, target=target,
-                values=values or {}, min_length=accounts.password_min_length())
+                values=values or {}, min_length=accounts.password_min_length(),
+                sessions=accounts.list_sessions(target.id) if target else (),
+                events=accounts.list_events(limit=8, user_id=target.id) if target else ())
             self._render("page-account", "users_title", content, status)
 
         def _page_utilisateurs(self) -> None:
             session = self.session
-            if session is None:
-                return self._redirect("connexion?suite=/utilisateurs", 302)
-            if session.user.must_change_password:
-                return self._redirect("compte", 302)
-            if not session.user.is_admin:
-                return self._error_page(403)
+            if not self._admin_only():
+                return
             if self.command != "POST":
                 return self._users_view(session, messages=app.pop_flash(session))
             form = self._form()
@@ -724,7 +765,7 @@ def make_handler(app: WebApp):
             if not self._csrf_ok(form):
                 app.flash(session, "error", message_texts("csrf"))
                 return self._redirect("utilisateurs")
-            actor, action, token = session.user, form.get("action", ""), self._cookie(SESSION_COOKIE)
+            actor, action, token, ip = session.user, form.get("action", ""), self._cookie(SESSION_COOKIE), self._client_ip()
             if action == "creer":
                 try:
                     password, generated = form.get("motdepasse", ""), False
@@ -738,7 +779,7 @@ def make_handler(app: WebApp):
                 app.flash(session, "ok", pages.texts("ok_created", login=created.login))
                 if generated:
                     app.flash(session, "ok", pages.texts("temp_password", login=created.login, password=password))
-                app.log.info("Compte créé : %s (%s) par %s", created.login, created.role, actor.login)
+                app.event("user_created", user=created, actor=actor, ip=ip)
                 return self._redirect("utilisateurs")
             target = accounts.get_user(form.get("id"))
             back = f"utilisateurs?u={target.id}" if target else "utilisateurs"
@@ -746,11 +787,16 @@ def make_handler(app: WebApp):
                 if target is None:
                     raise AccountError("user_missing")
                 if action == "modifier":
-                    accounts.update_user(target.id, name=form.get("nom"), role=form.get("role") or None,
-                                         profile=form.get("profil") or None, active=form.get("actif") == "1",
-                                         actor_id=actor.id)
+                    saved = accounts.update_user(target.id, name=form.get("nom"), role=form.get("role") or None,
+                                                 profile=form.get("profil") or None, active=form.get("actif") == "1",
+                                                 actor_id=actor.id)
                     app.flash(session, "ok", pages.texts("ok_updated", login=target.login))
-                    app.log.info("Compte modifié : %s par %s", target.login, actor.login)
+                    if saved.role != target.role:
+                        app.event("role_changed", user=saved, actor=actor, ip=ip, detail=saved.role)
+                    if saved.active != target.active:
+                        app.event("user_enabled" if saved.active else "user_disabled", user=saved, actor=actor, ip=ip)
+                    if (saved.name, saved.profile) != (target.name, target.profile):
+                        app.event("user_updated", user=saved, actor=actor, ip=ip)
                 elif action == "motdepasse":
                     password, generated = form.get("motdepasse", ""), False
                     if not password:
@@ -760,20 +806,73 @@ def make_handler(app: WebApp):
                     app.flash(session, "ok", pages.texts("ok_password_set", login=target.login))
                     if generated:
                         app.flash(session, "ok", pages.texts("temp_password", login=target.login, password=password))
-                    app.log.info("Mot de passe de %s redéfini par %s", target.login, actor.login)
+                    app.event("password_changed" if target.id == actor.id else "password_reset", user=target, actor=actor, ip=ip)
                 elif action == "sessions":
                     closed = accounts.revoke_user_sessions(target.id, keep_token=token if target.id == actor.id else None)
                     app.flash(session, "ok", pages.texts("ok_sessions_closed", login=target.login, n=closed))
+                    if closed:
+                        app.event("sessions_closed", user=target, actor=actor, ip=ip, detail=closed)
                 elif action == "supprimer":
                     if form.get("confirmer") != "1":
                         raise AccountError("confirm_required")
                     accounts.delete_user(target.id, actor_id=actor.id)
                     app.flash(session, "ok", pages.texts("ok_deleted", login=target.login))
-                    app.log.warning("Compte supprimé : %s par %s", target.login, actor.login)
+                    app.event("user_deleted", user=target, actor=actor, ip=ip)
                     back = "utilisateurs"
             except AccountError as exc:
                 app.flash(session, "error", exc.texts())
             return self._redirect(back)
+
+        def _admin_only(self) -> bool:
+            """Vrai si le visiteur est un administrateur ; sinon la réponse (connexion, 403) est déjà partie."""
+            session = self.session
+            if session is None:
+                self._redirect(self._login_target(), 302)
+            elif session.user.must_change_password:
+                self._redirect("compte", 302)
+            elif not session.user.is_admin:
+                self._error_page(403)
+            else:
+                return True
+            return False
+
+        # --- suivi d'un compte : le sien, ou celui d'un autre pour l'administrateur ------------------------------------
+        def _page_suivi(self) -> None:
+            session = self.session
+            if session is None:
+                return self._redirect(self._login_target(), 302)
+            if self.command == "POST":
+                return self.send_error(405, "Méthode non autorisée")
+            viewer = target = session.user
+            if viewer.must_change_password:
+                return self._redirect("compte", 302)
+            wanted = self._arg("u")
+            if wanted and wanted != str(viewer.id):
+                if not viewer.is_admin:
+                    return self._error_page(403)
+                target = accounts.get_user(wanted)
+                if target is None:
+                    return self._error_page(404)
+            content = pages.track_page(
+                config, viewer=viewer, target=target, detail=accounts.progress_detail(target.id), lessons=accounts.lessons(),
+                today=accounts.today(), users=accounts.list_users() if viewer.is_admin else ())
+            self._render("page-account", "track_title", content)
+
+        # --- journal (administrateur) -----------------------------------------------------------------------------------
+        def _page_journal(self) -> None:
+            if not self._admin_only():
+                return
+            if self.command == "POST":
+                return self.send_error(405, "Méthode non autorisée")
+            group = self._arg("type") if self._arg("type") in EVENT_GROUPS else ""
+            user_id = int(self._arg("u")) if NUMBER_RE.match(self._arg("u")) else None
+            before = int(self._arg("avant")) if NUMBER_RE.match(self._arg("avant")) else None
+            events = accounts.list_events(limit=JOURNAL_PAGE + 1, before=before, user_id=user_id, kinds=EVENT_GROUPS.get(group))
+            content = pages.journal_page(
+                config, events=events[:JOURNAL_PAGE], group=group, user_id=user_id,
+                users={user.id: user for user in accounts.list_users()}, more=len(events) > JOURNAL_PAGE,
+                paged=before is not None, days=accounts.journal_days())
+            self._render("page-account", "journal_title", content)
 
     return Handler
 
